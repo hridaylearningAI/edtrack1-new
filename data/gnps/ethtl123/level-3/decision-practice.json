@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Incident reporting",
+      "scenario": "A patient experiences a fall in the room but does not appear injured and denies pain.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Complete an incident report.",
+      "modelWhy": "Reporting improves system safety.",
+      "modelNext": "Assess patient for injury.",
+      "trap": "Ignoring minor incidents.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Restraint ethics",
+      "scenario": "A confused patient becomes increasingly restless and attempts to leave the unit. Staff suggest restraints as a quick solution.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Use least restrictive measures first.",
+      "modelWhy": "Restraints require justification.",
+      "modelNext": "Monitor patient closely.",
+      "trap": "Applying restraints immediately.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Privacy during care",
+      "scenario": "While providing bedside care, the patient’s curtains remain open, and other patients and visitors can see into the area.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide privacy and cover the patient.",
+      "modelWhy": "Dignity is a professional obligation.",
+      "modelNext": "Explain actions to patient.",
+      "trap": "Proceeding quickly without coverage.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Resource allocation",
+      "scenario": "During a busy shift, limited resources require decisions about which patients receive immediate attention first.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Allocate based on clinical need.",
+      "modelWhy": "Fairness is an ethical principle.",
+      "modelNext": "Reassess priorities regularly.",
+      "trap": "First-come, first-served approach.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Conflict of interest",
+      "scenario": "A nurse promotes a healthcare product to patients while receiving personal benefits from the product supplier.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Avoid the conflict and disclose appropriately.",
+      "modelWhy": "Conflicts undermine trust.",
+      "modelNext": "Follow professional guidelines.",
+      "trap": "Proceeding without disclosure.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Student supervision",
+      "scenario": "A student nurse performs a clinical skill incorrectly while under your supervision, and the patient’s safety could be affected.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Intervene and provide guidance.",
+      "modelWhy": "Patient safety and education are priorities.",
+      "modelNext": "Document teaching.",
+      "trap": "Ignoring the error.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Legal documentation request",
+      "scenario": "A legal representative contacts the unit requesting access to a patient’s medical records without going through formal hospital channels.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Follow legal and institutional procedures.",
+      "modelWhy": "Improper release violates law.",
+      "modelNext": "Consult legal department.",
+      "trap": "Handing over records.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Professional accountability",
+      "scenario": "You make a clinical judgment error that affects patient care outcomes. The mistake is recognised after the situation has been stabilised.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Acknowledge and learn from the error.",
+      "modelWhy": "Accountability improves practice.",
+      "modelNext": "Participate in root cause analysis.",
+      "trap": "Blaming others.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

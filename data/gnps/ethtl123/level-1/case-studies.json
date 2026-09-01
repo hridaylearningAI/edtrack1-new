@@ -1,0 +1,954 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Informed Consent and Patient Confusion Before Surgery",
+      "stem": "Mr. Adrian Lewis, a 58-year-old patient, is scheduled for abdominal surgery later in the morning. The consent form is signed and present in the chart, but when the pre-operative nurse reviews the plan with him, he appears confused and says, “I know I signed something yesterday, but I still don’t really understand what they are going to remove.” He looks anxious and asks whether the surgery will leave him with a permanent stoma. The surgeon is currently in theatre with another patient, and the operating schedule is running on time pressure. A staff member remarks that since the form is signed, the case should proceed. The nurse recognises that a signed form alone does not prove informed consent if the patient still lacks understanding. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest a possible problem with informed consent? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The form is signed in the chart"
+            },
+            {
+              "id": "B",
+              "text": "Staff pressure exists to keep the schedule moving"
+            },
+            {
+              "id": "C",
+              "text": "The patient appears anxious and uncertain"
+            },
+            {
+              "id": "D",
+              "text": "He has unanswered questions about the surgical outcome"
+            },
+            {
+              "id": "E",
+              "text": "The patient says he does not understand the procedure fully"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "The important cues are not the signature but the patient’s current lack of understanding and unresolved questions. Time pressure from staff can create unsafe shortcuts. Anxiety may occur in any pre-op patient, but when combined with confusion and unanswered questions, it signals a consent concern. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse should explain the surgery in full and obtain a new consent independently"
+            },
+            {
+              "id": "B",
+              "text": "The patient is simply nervous and should be reassured without delay"
+            },
+            {
+              "id": "C",
+              "text": "Consent is complete because the form is signed"
+            },
+            {
+              "id": "D",
+              "text": "The patient may not have provided truly informed consent and further clarification is needed before proceeding"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Informed consent requires understanding, voluntariness, and capacity. A signed document is not enough if the patient still does not understand. The nurse can witness and verify the process, but the procedural explanation and consent responsibility belong to the provider performing the procedure. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maintaining the operating room schedule"
+            },
+            {
+              "id": "B",
+              "text": "Reducing pre-operative paperwork burden"
+            },
+            {
+              "id": "C",
+              "text": "Protecting the patient’s right to informed decision-making before surgery proceeds"
+            },
+            {
+              "id": "D",
+              "text": "Avoiding conflict with the surgical team"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Patient autonomy and legal consent take priority over efficiency or staff convenience. Proceeding without true informed understanding risks ethical and legal harm. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask the family to explain the surgery and proceed"
+            },
+            {
+              "id": "B",
+              "text": "Send the patient to theatre and let the anaesthetist answer questions later"
+            },
+            {
+              "id": "C",
+              "text": "Pause the pre-operative progression, notify the surgeon or responsible provider, and ensure the patient’s questions are addressed before transfer"
+            },
+            {
+              "id": "D",
+              "text": "Tell the patient it is too late to ask questions because the form is signed"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The nurse should stop the process long enough to ensure valid consent. Family explanation is not a substitute for the responsible provider’s explanation. Proceeding without clarification would be unsafe and unethical. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess whether the patient is currently oriented and able to participate in decision-making"
+            },
+            {
+              "id": "B",
+              "text": "Advocate for the patient even if staff are frustrated by delay"
+            },
+            {
+              "id": "C",
+              "text": "Avoid discussing the issue to prevent conflict with the surgeon"
+            },
+            {
+              "id": "D",
+              "text": "Use calm, respectful communication to support the patient’s questions"
+            },
+            {
+              "id": "E",
+              "text": "Document the patient’s statements and the actions taken objectively"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "All these are appropriate. Nurses have a duty to advocate, document clearly, and assess the patient’s present ability to participate. Avoiding the issue to prevent conflict would neglect professional responsibility. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Informed Consent and Patient Confusion Before Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective nursing management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Family pressure replaces provider explanation"
+            },
+            {
+              "id": "B",
+              "text": "The patient receives clarification from the appropriate provider, demonstrates better understanding, and surgery proceeds only after valid consent is confirmed"
+            },
+            {
+              "id": "C",
+              "text": "Staff avoid documentation because the schedule was delayed"
+            },
+            {
+              "id": "D",
+              "text": "The patient remains confused but is transferred because the form is signed"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Effective management protects autonomy, ensures legal-ethical compliance, and still allows care to proceed safely once true informed consent is present."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Medication Refusal by a Competent Adult",
+      "stem": "Mrs. Helen Brooks, a 67-year-old alert and oriented patient with heart failure, is prescribed a diuretic that she has taken at home for years. This morning she refuses the medication, saying, “I know what it does, but I do not want it right now because it makes me feel weak and I have been running to the toilet all night.” She clearly explains that she understands the purpose and the possible consequences of skipping a dose. A new graduate nurse says, “If she refuses a prescribed medication, we should just crush it into food so she still gets it.” The primary nurse recognises that the patient’s right to refuse must be respected unless there are special legal circumstances that do not appear to apply here. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most relevant when evaluating this refusal? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "She can state the reason for refusal"
+            },
+            {
+              "id": "B",
+              "text": "The patient is alert and oriented"
+            },
+            {
+              "id": "C",
+              "text": "The medication is routinely prescribed"
+            },
+            {
+              "id": "D",
+              "text": "She understands the purpose and consequences"
+            },
+            {
+              "id": "E",
+              "text": "Another nurse suggests covert administration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these details matter. The patient appears to have decision-making capacity regarding this medication, and covert administration would violate rights and trust. The fact that the medication is routinely prescribed does not cancel the patient’s right to refuse. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Refusal means the patient loses all other rights to participate in care"
+            },
+            {
+              "id": "B",
+              "text": "A competent patient may refuse treatment, and the nurse must assess, educate, document, and notify as appropriate"
+            },
+            {
+              "id": "C",
+              "text": "Prescribed medications must always be given regardless of refusal"
+            },
+            {
+              "id": "D",
+              "text": "Crushing medication secretly is acceptable if the nurse believes it is beneficial"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Respect for autonomy means competent adults may refuse medication after understanding the implications. The nurse should assess the reason, provide education, document accurately, and communicate appropriately. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respecting autonomy while ensuring the patient understands the risks and alternatives"
+            },
+            {
+              "id": "B",
+              "text": "Preventing any future discussion of side effects"
+            },
+            {
+              "id": "C",
+              "text": "Avoiding inconvenience for the medication round"
+            },
+            {
+              "id": "D",
+              "text": "Teaching the patient about unrelated discharge topics"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse’s immediate priority is ethical decision-making that respects the patient’s rights while ensuring informed refusal. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hide the medication in juice so the patient still receives it"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient refusal is not allowed in hospital"
+            },
+            {
+              "id": "C",
+              "text": "Explore the patient’s concerns, clarify the risks and benefits, and document the refusal accurately while notifying the provider if needed"
+            },
+            {
+              "id": "D",
+              "text": "Walk away without documenting the event"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The correct response is respectful exploration, education, documentation, and communication. Covert medication is unethical and may be illegal. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess whether timing adjustments or symptom management could help address the patient’s concerns"
+            },
+            {
+              "id": "B",
+              "text": "Document the refusal factually without judgmental language"
+            },
+            {
+              "id": "C",
+              "text": "Respect the patient’s decision while continuing to monitor clinical status"
+            },
+            {
+              "id": "D",
+              "text": "Communicate the refusal to the provider if clinically indicated"
+            },
+            {
+              "id": "E",
+              "text": "Shame the patient by warning that she is being difficult"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These actions support ethical nursing practice. The nurse can advocate for practical solutions while still respecting the patient’s right to decline. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Refusal by a Competent Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective nursing care?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The medication is administered secretly to avoid charting a refusal"
+            },
+            {
+              "id": "B",
+              "text": "No one documents the refusal because the patient is familiar with the medication"
+            },
+            {
+              "id": "C",
+              "text": "Staff pressure the patient until she takes it out of fear"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s refusal is respected and documented, her concerns are addressed honestly, and her clinical status is monitored appropriately"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Safe, professional nursing care respects autonomy, documents clearly, and maintains patient safety through ongoing assessment."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Delegation to an Unlicensed Assistive Personnel",
+      "stem": "A registered nurse is managing four patients on a medical-surgical ward. One patient is newly post-operative and unstable, another needs discharge teaching for a new anticoagulant, a third requires a routine bed bath, and a fourth has just returned from dialysis with stable vital signs and needs help with lunch setup. A UAP is available to assist. The nurse must decide which tasks can be safely delegated and which require RN assessment, judgment, or teaching. A hurried colleague suggests giving the UAP the discharge teaching because “it will save time.” The nurse recognises that delegation must follow scope and stability principles. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which facts are most important when deciding what to delegate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Need for ongoing RN evaluation"
+            },
+            {
+              "id": "B",
+              "text": "The complexity of the task"
+            },
+            {
+              "id": "C",
+              "text": "Patient stability"
+            },
+            {
+              "id": "D",
+              "text": "Scope of the UAP role"
+            },
+            {
+              "id": "E",
+              "text": "Whether assessment or teaching is required"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are essential delegation considerations. NCLEX frequently tests delegation using the principles of right task, circumstance, person, direction, and supervision. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Routine, predictable tasks for stable patients may be delegated, but assessment, teaching, and unstable situations remain RN responsibilities"
+            },
+            {
+              "id": "B",
+              "text": "Any task may be delegated if the nurse is busy enough"
+            },
+            {
+              "id": "C",
+              "text": "Discharge teaching may always be given by UAPs"
+            },
+            {
+              "id": "D",
+              "text": "Newly post-operative instability is appropriate for UAP monitoring alone"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Delegation is based on stability and task complexity. RN-only functions include assessment, teaching, clinical judgment, and evaluation. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which delegation decision is safest?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask the UAP to complete anticoagulant discharge teaching"
+            },
+            {
+              "id": "B",
+              "text": "Ask the UAP to independently interpret abnormal vital signs"
+            },
+            {
+              "id": "C",
+              "text": "Ask the UAP to assist the stable dialysis patient with lunch setup and provide the routine bed bath for the stable patient"
+            },
+            {
+              "id": "D",
+              "text": "Ask the UAP to assess the unstable post-operative patient’s deterioration"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Routine tasks for stable patients are appropriate to delegate. Teaching, interpretation, and care of unstable patients are not. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Match the task to the appropriate person and provide clear direction and follow-up expectations for delegated care"
+            },
+            {
+              "id": "B",
+              "text": "Let the UAP decide which patients are stable enough"
+            },
+            {
+              "id": "C",
+              "text": "Delegate everything and sort it out later"
+            },
+            {
+              "id": "D",
+              "text": "Avoid delegation entirely even for routine tasks"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe delegation requires clear assignment, expected observations to report, and RN oversight. The RN remains accountable for the delegation decision. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate when delegating? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoid delegating patient education that requires judgment"
+            },
+            {
+              "id": "B",
+              "text": "Reassess the patient personally if the UAP reports a concerning change"
+            },
+            {
+              "id": "C",
+              "text": "Evaluate whether the delegated task was completed safely"
+            },
+            {
+              "id": "D",
+              "text": "Assume no supervision is needed once the task is assigned"
+            },
+            {
+              "id": "E",
+              "text": "Give specific instructions about what findings must be reported immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Delegation includes supervision and evaluation. The RN does not abandon accountability after handing off a task. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Delegation to an Unlicensed Assistive Personnel | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective delegation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The UAP teaches anticoagulant side effects and the RN never checks understanding"
+            },
+            {
+              "id": "B",
+              "text": "The unstable patient deteriorates while delegated assessment is delayed"
+            },
+            {
+              "id": "C",
+              "text": "The RN cannot explain why the task was delegated"
+            },
+            {
+              "id": "D",
+              "text": "Stable routine care is completed appropriately, concerning findings are reported back promptly, and RN-only tasks remain with the nurse"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Effective delegation improves care efficiency without compromising scope, safety, or professional responsibility."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Medication Error and Professional Reporting Duty",
+      "stem": "During an evening medication round, a nurse administers 50 mg of a cardiac medication instead of the prescribed 25 mg after misreading the MAR on a small screen. Within minutes, the nurse realises the mistake. The patient is currently stable and has no immediate symptoms. Another staff member quietly says, “If the patient looks fine, maybe just watch and don’t report it.” The nurse understands that ethical and professional practice requires immediate patient-focused action, honest documentation, and incident reporting. The key priority is harm prevention, not self-protection. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings confirm that a medication error has occurred? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Another staff member suggests not reporting"
+            },
+            {
+              "id": "B",
+              "text": "The nurse recognised the error after administration"
+            },
+            {
+              "id": "C",
+              "text": "The order clearly specified a lower dose"
+            },
+            {
+              "id": "D",
+              "text": "The wrong dose was administered"
+            },
+            {
+              "id": "E",
+              "text": "The patient is not yet symptomatic"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "A medication error occurred the moment the wrong dose was administered. The absence of symptoms does not remove the error or the need to act. Staff pressure to hide the error is a serious professionalism concern. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "If no harm is visible, reporting is unnecessary"
+            },
+            {
+              "id": "B",
+              "text": "The error requires immediate assessment, provider notification, documentation, and reporting according to policy"
+            },
+            {
+              "id": "C",
+              "text": "The nurse should rewrite the MAR to match what was given"
+            },
+            {
+              "id": "D",
+              "text": "The safest action is to wait and see"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Professional integrity and patient safety require prompt action. Delaying response can worsen harm if adverse effects develop. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Preventing unit gossip"
+            },
+            {
+              "id": "B",
+              "text": "Avoiding extra paperwork"
+            },
+            {
+              "id": "C",
+              "text": "Protecting the nurse from embarrassment"
+            },
+            {
+              "id": "D",
+              "text": "Protecting the patient from adverse effects related to the wrong dose"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient’s safety is always the priority after an error. The nurse’s emotional discomfort is secondary. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hide the medication packaging and say nothing"
+            },
+            {
+              "id": "B",
+              "text": "Wait for symptoms before intervening"
+            },
+            {
+              "id": "C",
+              "text": "Ask the next shift to handle it"
+            },
+            {
+              "id": "D",
+              "text": "Assess the patient immediately, monitor for adverse effects, and notify the provider while preparing appropriate follow-up"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The correct response begins with patient assessment and communication. Hiding the error is unethical and unsafe. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Complete an incident report according to policy"
+            },
+            {
+              "id": "B",
+              "text": "Document factually what occurred and the patient’s response"
+            },
+            {
+              "id": "C",
+              "text": "Communicate honestly within the appropriate reporting process"
+            },
+            {
+              "id": "D",
+              "text": "Participate in review of factors that contributed to the error"
+            },
+            {
+              "id": "E",
+              "text": "Change the chart to reflect the dose that should have been given"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate professional responses. Altering the record would be falsification and a serious legal-ethical violation. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Medication Error and Professional Reporting Duty | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective professional management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse avoids reporting because the patient had no symptoms"
+            },
+            {
+              "id": "B",
+              "text": "The patient is monitored and protected, the event is reported honestly, and contributing system issues are addressed for prevention"
+            },
+            {
+              "id": "C",
+              "text": "The chart is altered to avoid investigation"
+            },
+            {
+              "id": "D",
+              "text": "The error becomes unit gossip instead of formal reporting"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Ethical nursing practice supports patient safety, truth-telling, and system improvement after errors."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Breach of Confidentiality in a Public Area",
+      "stem": "Two nurses leave a patient room and continue discussing the patient’s new cancer diagnosis in a crowded elevator. They mention the patient’s full name, prognosis, and family reaction. A visitor standing nearby later tells the charge nurse that she recognised the patient as her neighbour and was shocked to hear such private information discussed openly. The charge nurse must address the breach immediately. The scenario highlights that confidentiality extends beyond chart access and includes how, where, and with whom information is shared. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which elements make this a confidentiality breach? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Discussion occurred in a public elevator"
+            },
+            {
+              "id": "B",
+              "text": "The conversation included family details"
+            },
+            {
+              "id": "C",
+              "text": "A third party recognized the patient"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s name and diagnosis were spoken aloud"
+            },
+            {
+              "id": "E",
+              "text": "Sensitive health information was shared outside a private clinical context"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these contribute to a clear confidentiality breach. Protected health information should not be discussed in public areas where unauthorized people may hear. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Public discussion is fine if the patient is not in the elevator"
+            },
+            {
+              "id": "B",
+              "text": "A serious privacy and confidentiality breach has occurred and requires corrective action"
+            },
+            {
+              "id": "C",
+              "text": "This is acceptable because both speakers were nurses"
+            },
+            {
+              "id": "D",
+              "text": "The problem exists only if it appears on social media"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The location and the identifiability of the patient make this a clear breach. Privacy rules apply regardless of whether the patient is physically present. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moving the conversation to another elevator"
+            },
+            {
+              "id": "B",
+              "text": "Protecting patient privacy and addressing professional misconduct promptly"
+            },
+            {
+              "id": "C",
+              "text": "Keeping the event informal to save time"
+            },
+            {
+              "id": "D",
+              "text": "Avoiding awkwardness among staff"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The immediate priority is to address the breach, protect the patient, and prevent recurrence. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the charge nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the inappropriate discussion, address the breach promptly, and follow facility reporting or managerial procedures as required"
+            },
+            {
+              "id": "B",
+              "text": "Continue the conversation in a quieter public hallway"
+            },
+            {
+              "id": "C",
+              "text": "Ask the visitor not to mention it again and do nothing else"
+            },
+            {
+              "id": "D",
+              "text": "Ignore it because the information was already said"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The breach must be addressed immediately and professionally. Allowing it to continue would worsen the violation. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume confidentiality only applies to electronic records"
+            },
+            {
+              "id": "B",
+              "text": "Document or report the breach according to policy if required"
+            },
+            {
+              "id": "C",
+              "text": "Limit access to information to those directly involved in care"
+            },
+            {
+              "id": "D",
+              "text": "Reinforce that patient information should be discussed only in appropriate private clinical settings"
+            },
+            {
+              "id": "E",
+              "text": "Use the incident as a professional teaching moment on confidentiality"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are all appropriate. Confidentiality applies in verbal, written, and electronic communication. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Breach of Confidentiality in a Public Area | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The inappropriate discussion stops immediately, the breach is addressed through proper channels, and staff privacy awareness improves"
+            },
+            {
+              "id": "B",
+              "text": "Patient information is shared casually in hallways afterward"
+            },
+            {
+              "id": "C",
+              "text": "Staff continue discussing patients in public because it is convenient"
+            },
+            {
+              "id": "D",
+              "text": "The event is dismissed because no chart was accessed"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects privacy and strengthens professional behaviour going forward."
+        }
+      ]
+    }
+  ]
+}

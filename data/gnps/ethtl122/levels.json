@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL122",
+  "programTitle": "Mental Health Care",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Deliver recovery-oriented mental health nursing with therapeutic communication and crisis safety.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Assess, formulate and manage suicide risk, acute disturbance and co-occurring conditions.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead recovery-oriented services, reduce restrictive practice and strengthen mental-health systems.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

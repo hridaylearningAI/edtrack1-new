@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL116",
+  "programTitle": "Creating Safe Healthcare Environments",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Build essential infection-prevention and patient-safety skills for safe everyday nursing practice.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Apply international safety standards with clinical risk assessment, escalation and culturally safe care.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead safety culture, systems thinking, quality improvement and global infection-prevention excellence.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

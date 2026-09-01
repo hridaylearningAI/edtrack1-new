@@ -1,0 +1,722 @@
+{
+  "courseCode": "NURS-M7",
+  "title": "Module 7 — Pharmacology and Medication Safety",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pharmacology is a major NCLEX content area because medication errors can be fatal. NCLEX does not expect you to memorise every drug on earth. It expects you to recognise medication classes, know high-risk side effects, prioritise safety, and apply the 'rights' of medication administration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use these three guiding questions in every pharmacology item:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is the medication class and expected therapeutic effect?",
+            "What is the MOST dangerous adverse effect or interaction for this drug?",
+            "What assessment must the nurse do BEFORE giving and AFTER giving?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For NGN questions, apply CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain core pharmacology concepts (pharmacokinetics, pharmacodynamics, half-life, onset/peak/duration).",
+            "Apply medication administration safety (rights, allergy checks, high-alert precautions).",
+            "Perform accurate dosage calculations and safe IV infusion practices.",
+            "Recognise common medication classes tested on NCLEX and their key side effects.",
+            "Identify life-threatening adverse reactions (anaphylaxis, bleeding, hypoglycemia, serotonin syndrome, NMS).",
+            "Provide patient education that promotes adherence and safety.",
+            "Document correctly and report medication incidents according to policy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Pharmacology Fundamentals (Written for Students)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Think of pharmacology like this: the drug goes into the body, travels to the target, produces an effect, and then leaves the body. A nurse must understand what happens at each stage, because it affects dosing and safety."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Pharmacokinetics (What the Body Does to the Drug)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Pharmacokinetics includes four steps often called ADME:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Absorption: how the drug enters the bloodstream (oral, IV, IM, subcutaneous).",
+                "Distribution: how it travels through the body (affected by protein binding, body fat, pregnancy).",
+                "Metabolism: how the liver breaks it down (CYP enzymes; first-pass effect for oral drugs).",
+                "Excretion: how it leaves (kidneys are most common)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A patient with kidney failure cannot clear many drugs efficiently. The same dose can become toxic. This is why you monitor creatinine/eGFR and drug levels (e.g., vancomycin)."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Pharmacodynamics (What the Drug Does to the Body)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Pharmacodynamics describes how a drug produces its effect: receptor binding, agonists vs antagonists, dose-response."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: If the question asks about 'therapeutic effect', think pharmacodynamics. If it asks about 'kidney/liver impairment', think pharmacokinetics."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.3",
+          "title": "Half-Life and Steady State",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Half-life is the time it takes for the drug level to reduce by half. It usually takes about 4–5 half-lives for a drug to reach steady state."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: Warfarin takes days to reach full effect. If the patient needs immediate anticoagulation, another medication (e.g., heparin) may be used short-term."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Medication Administration Safety (NCLEX Core)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX questions often test basic medication safety. Many questions can be answered correctly even without knowing the drug if you follow safety principles."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "The Rights of Medication Administration",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Right patient (use 2 identifiers).",
+                "Right medication (check label 3 times).",
+                "Right dose.",
+                "Right route.",
+                "Right time.",
+                "Right documentation.",
+                "Right reason/indication.",
+                "Right assessment (before and after).",
+                "Right education.",
+                "Right response (evaluate effect)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX safety: if a patient asks 'What is this medication?', do not say 'I don't know'. Instead, pause, verify, and teach."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "High-Alert Medications",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "High-alert medications are more likely to cause serious harm if errors occur. NCLEX frequently tests these: insulin, heparin, opioids, IV potassium, chemotherapy agents."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safety checks include double-checking dose calculations, using smart pumps, and avoiding dangerous abbreviations."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "Look-Alike/Sound-Alike and Labelling",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Medication mix-ups occur when names look similar. Use tall-man lettering where applicable and never bypass barcode scanning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Dosage Calculations and IV Safety",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Common Formulas",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Tablets: (Dose ordered ÷ Dose available) × Quantity available.",
+                "IV flow rate: Volume (mL) ÷ Time (hr) = mL/hr.",
+                "Weight-based dose: mg/kg × weight (kg).",
+                "Drip rate (if needed): mL/hr × drop factor ÷ 60 = gtt/min."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example (tablet): Ordered 500 mg. Available 250 mg/tablet. Dose = (500/250)×1 = 2 tablets."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "IV Potassium Safety",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "IV potassium is high-alert. Never give IV potassium by IV push. Always dilute and infuse via pump. Monitor ECG in high doses and check K+ levels."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Insulin Safety",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Insulin dosing errors are common. Always verify insulin type (rapid vs long acting). Use a second nurse check for IV insulin and sliding-scale regimens per policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "High-Yield Medication Classes (What NCLEX Tests Most)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX expects you to recognise drug classes and focus on high-risk side effects. Below are the most commonly tested classes, with what nurses must monitor."
+        },
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Antibiotics",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Antibiotics treat infections, but they have common adverse effects."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Penicillins/cephalosporins: allergy/anaphylaxis risk.",
+                "Aminoglycosides (gentamicin): nephrotoxicity and ototoxicity; monitor levels.",
+                "Vancomycin: nephrotoxicity, 'red man syndrome' if infused too fast.",
+                "Fluoroquinolones: tendon rupture risk; avoid in pregnancy where indicated."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If a patient develops wheezing, swelling, or hypotension after an antibiotic, stop medication and treat as anaphylaxis emergency."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Pain Medications: Opioids and NSAIDs",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Opioids relieve severe pain but can cause respiratory depression."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key safety: assess RR and sedation. Hold opioid if RR is low or patient overly sedated; prepare naloxone per protocol."
+            },
+            {
+              "type": "paragraph",
+              "text": "NSAIDs can cause GI bleeding and kidney injury. Avoid in patients with peptic ulcer disease and monitor renal function."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Cardiovascular Medications",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cardiac drugs are frequently tested because they affect BP and heart rhythm."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Beta blockers: lower HR/BP. Hold if HR too low; monitor bradycardia.",
+                "ACE inhibitors: cough, hyperkalemia, angioedema; avoid in pregnancy.",
+                "Diuretics: monitor electrolytes (loop diuretics → hypokalemia).",
+                "Digoxin: narrow therapeutic range; toxicity causes bradycardia, nausea, halos."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A patient on ACE inhibitor develops swollen lips and difficulty breathing. This is angioedema—stop drug and treat as emergency."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.4",
+          "title": "Anticoagulants and Antiplatelets",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Bleeding risk is the key NCLEX focus."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Heparin: monitor aPTT (or anti-Xa per facility), bleeding, thrombocytopenia (HIT). Antidote: protamine sulfate.",
+                "Warfarin: monitor INR; many drug/food interactions (vitamin K). Antidote: vitamin K.",
+                "DOACs (apixaban, rivaroxaban): less monitoring but bleeding risk still high."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Patient teaching example: While on warfarin, keep vitamin K intake consistent (do not suddenly increase leafy greens)."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.5",
+          "title": "Endocrine Medications",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Insulin and oral diabetes drugs are tested heavily."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hypoglycemia is the most dangerous side effect. Teach signs: sweating, shakiness, confusion."
+            },
+            {
+              "type": "paragraph",
+              "text": "Beta blockers may mask hypoglycemia symptoms—NCLEX often tests this."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.6",
+          "title": "Psych Medications (Overlap with Module 6)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Know life-threatening reactions: serotonin syndrome (SSRIs), lithium toxicity, EPS/NMS (antipsychotics), respiratory depression (benzodiazepines with opioids)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Life-Threatening Adverse Reactions (Must Know)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX loves questions where you must recognize a dangerous reaction and act immediately."
+        },
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Anaphylaxis",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Signs: wheeze, swelling, hypotension, hives, difficulty breathing. Action: stop drug, call for help, maintain airway, administer epinephrine per protocol."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Severe Bleeding",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Signs: hypotension, tachycardia, bleeding gums, black stools, hematuria. Action: hold anticoagulant, notify provider, prepare reversal agents as ordered."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Hypoglycemia",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Treat quickly. If awake and can swallow: give 15 g fast carbs. If unconscious: IV dextrose or glucagon per protocol."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.4",
+          "title": "Serotonin Syndrome",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cues: agitation, fever, sweating, diarrhea, tremor. Action: stop serotonergic drugs, notify provider, supportive care."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.5",
+          "title": "Neuroleptic Malignant Syndrome",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cues: high fever, rigidity, confusion, unstable vitals. Action: stop antipsychotic and treat as emergency."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Patient Education (NCLEX Tested)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Medication teaching is about safety and adherence. Use simple language and teach-back."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Purpose: why the medication is needed.",
+            "How to take it: time, food interactions, what to do if missed.",
+            "Side effects: which are expected vs which require urgent help.",
+            "Safety: avoid alcohol or OTC interactions where relevant."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: For antibiotics, teach to complete full course even if symptoms improve. For opioids, teach constipation prevention and no driving if sedated."
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases train you to connect medication cues to safe nursing action."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Hypoglycemia After Insulin",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient with diabetes receives rapid-acting insulin and later becomes sweaty and confused. Glucose is 2.6 mmol/L."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Diaphoresis; Confusion; Low glucose. Practice questions: What is the priority nursing action? What would you do if the patient cannot swallow? How can this be prevented? Model CJMM: Recognize cues: symptomatic hypoglycemia. Analyze: insulin effect causing low blood sugar. Prioritize: neuro safety. Solutions: give 15 g glucose if able to swallow; if not, IV dextrose/glucagon per protocol; reassess glucose. Evaluate: symptoms resolve and glucose normalizes."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Heparin Bleeding Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient on heparin develops bleeding gums and dark stools. BP is trending down."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Bleeding signs; Possible hemodynamic instability. Practice questions: What should the nurse do first? What antidote may be ordered? What labs help monitoring? Model CJMM: Recognize: active bleeding on anticoagulant. Analyze: excessive anticoagulation. Prioritize: circulation/bleeding control. Solutions: hold heparin, notify provider, prepare protamine if ordered, monitor aPTT/anti-Xa and vitals. Evaluate: bleeding stops; vitals stabilize."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — ACE Inhibitor Angioedema",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient started on lisinopril has swollen lips and difficulty breathing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Facial swelling; Breathing difficulty. Practice questions: What is the priority action? Why is this dangerous? What teaching is important for future? Model CJMM: Recognize: angioedema signs. Analyze: airway compromise risk. Prioritize: airway. Solutions: stop medication, call rapid response, prepare emergency airway/epinephrine per protocol. Evaluate: swelling decreases; breathing stable."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Opioid Sedation",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Post-op patient receiving morphine is difficult to arouse. RR is 8/min. SpO2 89%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Severe sedation; Low RR; Low SpO2. Practice questions: What should the nurse do first? What reversal agent may be required? What monitoring continues? Model CJMM: Recognize: opioid-induced respiratory depression. Analyze: unsafe ventilation. Prioritize: breathing. Solutions: stop opioid, stimulate, apply oxygen, call for help, prepare naloxone per protocol. Evaluate: RR improves; patient more alert; pain reassessed safely."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Vancomycin Infusion Reaction",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: During vancomycin infusion, the patient develops flushing and itching with redness of upper body."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Flushing and itching; Redness during infusion. Practice questions: What is likely happening? What nursing action is appropriate? How can it be prevented? Model CJMM: Recognize: infusion-related reaction. Analyze: vancomycin 'red man syndrome' from rapid infusion. Prioritize: assess severity and stop/slow infusion. Solutions: slow rate, notify provider, administer antihistamine if ordered. Evaluate: symptoms resolve and infusion continues safely at slower rate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Mini Quiz (NCLEX-Style) — Module 7",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Focus on safety, priority assessments, and life-threatening reactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A patient becomes wheezy with facial swelling after receiving an antibiotic. What is the first action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Document allergy and continue infusion",
+            "B. Stop medication and initiate anaphylaxis response",
+            "C. Give oral water and reassess",
+            "D. Explain side effects are normal"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: These are anaphylaxis signs; stop drug and treat as emergency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which medication is considered high-alert?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Acetaminophen",
+            "B. Insulin",
+            "C. Vitamin C",
+            "D. Antacid"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Insulin errors can cause fatal hypoglycemia; it is high-alert."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: A patient on warfarin should be monitored using:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. aPTT",
+            "B. INR",
+            "C. Blood glucose",
+            "D. Troponin"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Warfarin is monitored by INR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A nurse should hold beta blocker if the patient has:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Heart rate 48 bpm",
+            "B. Pain score 7/10",
+            "C. Temperature 37.2°C",
+            "D. Blood glucose 6 mmol/L"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Bradycardia is a safety risk; beta blockers lower HR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: The antidote for heparin is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Vitamin K",
+            "B. Protamine sulfate",
+            "C. Naloxone",
+            "D. Calcium gluconate"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Protamine reverses heparin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A patient receiving opioids is difficult to arouse and RR is 8/min. Priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Give next dose later",
+            "B. Stop opioid and prepare naloxone; support breathing",
+            "C. Offer food",
+            "D. Encourage walking"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Respiratory depression is life-threatening; support airway/breathing and reverse if needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: MAOI medication teaching includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Eat extra cheese to prevent nausea",
+            "B. Avoid tyramine foods to prevent hypertensive crisis",
+            "C. Stop medication suddenly",
+            "D. Double dose if missed"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: MAOIs interact with tyramine causing dangerous hypertension."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: IV potassium should be administered:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. By IV push in emergency",
+            "B. Diluted and infused via pump, never IV push",
+            "C. Undiluted through central line rapidly",
+            "D. Only mixed with insulin"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: IV potassium is high-alert and must be infused safely; never IV push."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: Lithium toxicity is suspected when the patient has:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Tremor, confusion, diarrhea",
+            "B. Dry mouth only",
+            "C. Mild headache",
+            "D. Increased appetite"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: GI symptoms + tremor + confusion indicate toxicity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: Serotonin syndrome may present with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Fever, agitation, sweating, diarrhea",
+            "B. Low temperature, sleepiness",
+            "C. Hair loss only",
+            "D. Constipation only"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: These are classic serotonin syndrome cues requiring urgent action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For wrong answers, write: (1) cue missed, (2) which safety rule applies (rights, high-alert, adverse reaction), (3) correct first action. Reattempt in 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local clinical policy, supervised practice, or medical advice."
+        }
+      ]
+    }
+  ]
+}

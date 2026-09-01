@@ -1,0 +1,957 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Diabetic Ketoacidosis",
+      "stem": "Mr. Joel Abraham, a 23-year-old man with type 1 diabetes, arrives with vomiting, abdominal pain, intense thirst, and progressive drowsiness. His mother reports he has had a viral illness and stopped taking insulin because he was not eating. He is breathing deeply and rapidly and has a fruity odour to his breath. Vital signs show blood pressure 94/60 mmHg, pulse 126 beats per minute, respiratory rate 30 breaths per minute, and dry mucous membranes. Laboratory results confirm severe hyperglycaemia, acidosis, and positive ketones. The nurse identifies diabetic ketoacidosis. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are consistent with DKA? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dehydration signs"
+            },
+            {
+              "id": "B",
+              "text": "Kussmaul respirations"
+            },
+            {
+              "id": "C",
+              "text": "Fruity breath"
+            },
+            {
+              "id": "D",
+              "text": "Missed insulin during illness"
+            },
+            {
+              "id": "E",
+              "text": "Hyperglycaemia with ketones"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic DKA cues. The illness plus missed insulin is a common trigger. The patient is metabolically unstable and dehydrated. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Food poisoning alone"
+            },
+            {
+              "id": "B",
+              "text": "Panic episode only"
+            },
+            {
+              "id": "C",
+              "text": "Stable diabetes with mild nausea"
+            },
+            {
+              "id": "D",
+              "text": "Diabetic ketoacidosis with severe metabolic and fluid imbalance"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "This is a high-risk endocrine emergency. NCLEX reasoning requires the nurse to see beyond glucose alone and recognise acidosis and dehydration. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for boredom"
+            },
+            {
+              "id": "B",
+              "text": "Severe metabolic instability with impaired perfusion risk"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Need for long-term exercise teaching"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "DKA threatens perfusion, neurological status, and electrolyte stability. This is the major priority. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay treatment until all teaching is completed"
+            },
+            {
+              "id": "B",
+              "text": "Give a sugary drink only and send home"
+            },
+            {
+              "id": "C",
+              "text": "Recognise DKA as an emergency, ensure monitoring, and prepare for protocol-based fluid and insulin management"
+            },
+            {
+              "id": "D",
+              "text": "Encourage the patient to exercise to lower glucose"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Fluids, insulin protocols, and close monitoring are fundamental. The patient is not stable enough for oral-only or home management. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which ongoing assessments are especially important? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Urine output and perfusion"
+            },
+            {
+              "id": "B",
+              "text": "Potassium levels"
+            },
+            {
+              "id": "C",
+              "text": "Glucose trends"
+            },
+            {
+              "id": "D",
+              "text": "Neurological status"
+            },
+            {
+              "id": "E",
+              "text": "Signs of treatment-related complications"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "DKA management requires repeated monitoring of electrolytes, glucose, perfusion, and mental status. Potassium is especially important because therapy can worsen or reveal dangerous deficits. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vomiting persists with no reassessment"
+            },
+            {
+              "id": "B",
+              "text": "Glucose and acidosis begin correcting, urine output improves, and the patient becomes more alert"
+            },
+            {
+              "id": "C",
+              "text": "Drowsiness worsens and perfusion declines"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring stops once glucose falls slightly"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement must be global: metabolic correction, better perfusion, and better neurological status."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Hyperosmolar Hyperglycaemic State",
+      "stem": "Mrs. Susan Pereira, a 74-year-old woman with type 2 diabetes, is brought in from home because of progressive confusion, extreme thirst, and weakness over two days. Her family reports poor oral intake and a recent urinary infection. She is very lethargic and has dry mucous membranes. Vital signs are blood pressure 90/58 mmHg, pulse 118 beats per minute, respiratory rate 22 breaths per minute, and she is profoundly hyperglycaemic without significant ketones. The nurse suspects HHS rather than DKA. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with HHS? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minimal ketosis compared with DKA"
+            },
+            {
+              "id": "B",
+              "text": "Altered mental status"
+            },
+            {
+              "id": "C",
+              "text": "Extreme hyperglycaemia"
+            },
+            {
+              "id": "D",
+              "text": "Older adult with infection trigger"
+            },
+            {
+              "id": "E",
+              "text": "Severe dehydration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings align with HHS. The syndrome typically occurs in older adults, often after infection, and is characterised by extreme hyperglycaemia, severe dehydration, and significant mental status changes. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild dehydration only"
+            },
+            {
+              "id": "B",
+              "text": "Panic attack"
+            },
+            {
+              "id": "C",
+              "text": "Routine hyperglycaemia that can wait"
+            },
+            {
+              "id": "D",
+              "text": "Hyperosmolar hyperglycaemic state with severe fluid deficit and neurological risk"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "HHS is a life-threatening endocrine emergency, mainly because of profound dehydration and hyperosmolarity. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sleep pattern disturbance"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Severe fluid deficit and neurological compromise related to hyperosmolar state"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The priority is restoration of perfusion and prevention of worsening neurological injury. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay treatment because ketones are absent"
+            },
+            {
+              "id": "B",
+              "text": "Give oral sweets only"
+            },
+            {
+              "id": "C",
+              "text": "Recognise HHS as an emergency, ensure close monitoring, and prepare for aggressive fluid-focused management with glucose control as ordered"
+            },
+            {
+              "id": "D",
+              "text": "Encourage ambulation immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Absence of ketones does not make HHS safe. Fluid deficit and neurological impairment demand rapid treatment. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which ongoing nursing assessments are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hemodynamic stability"
+            },
+            {
+              "id": "B",
+              "text": "Glucose and electrolyte trends"
+            },
+            {
+              "id": "C",
+              "text": "Cause of the precipitating illness"
+            },
+            {
+              "id": "D",
+              "text": "Mental status"
+            },
+            {
+              "id": "E",
+              "text": "Urine output"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these domains matter in HHS because it is both an acute metabolic emergency and often secondary to another illness such as infection. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Hyperosmolar Hyperglycaemic State | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hydration status improves, glucose trends downward, mental status becomes clearer, and blood pressure stabilises"
+            },
+            {
+              "id": "B",
+              "text": "Weakness increases without intervention"
+            },
+            {
+              "id": "C",
+              "text": "Confusion worsens and urine output stays low"
+            },
+            {
+              "id": "D",
+              "text": "The nurse stops reassessing after one fluid bag"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is reflected in better perfusion and mental status, not just a lower glucose number."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Thyroid Storm",
+      "stem": "Ms. Michelle D’Souza, a 39-year-old woman with poorly controlled hyperthyroidism, is admitted with very high fever, agitation, profuse sweating, and severe tachycardia. Family members state she recently stopped some of her medications and developed an infection. She is restless, tremulous, and increasingly confused. Vital signs are temperature 40.2 C, pulse 148 beats per minute, blood pressure 162/88 mmHg, respiratory rate 28 breaths per minute, and she appears exhausted. The nurse suspects thyroid storm. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support thyroid storm? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Very high fever"
+            },
+            {
+              "id": "B",
+              "text": "Confusion"
+            },
+            {
+              "id": "C",
+              "text": "Known hyperthyroidism with missed treatment"
+            },
+            {
+              "id": "D",
+              "text": "Severe tachycardia"
+            },
+            {
+              "id": "E",
+              "text": "Agitation and tremor"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings are classic for thyroid storm, a hypermetabolic endocrine emergency often triggered by infection or medication non-adherence. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild anxiety only"
+            },
+            {
+              "id": "B",
+              "text": "Thyroid storm causing dangerous systemic hypermetabolism and cardiovascular stress"
+            },
+            {
+              "id": "C",
+              "text": "Stable chronic hyperthyroidism"
+            },
+            {
+              "id": "D",
+              "text": "Panic attack without endocrine involvement"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The presentation goes far beyond routine hyperthyroidism. High fever, severe tachycardia, confusion, and agitation signal life-threatening escalation. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for cardiovascular collapse and severe hypermetabolic instability"
+            },
+            {
+              "id": "B",
+              "text": "Need for routine teaching only"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed body image"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The greatest danger is cardiovascular and systemic collapse from uncontrolled hypermetabolism. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cover the patient with heavy blankets"
+            },
+            {
+              "id": "B",
+              "text": "Treat as an endocrine emergency, support cooling and monitoring, and prepare for urgent prescribed therapy"
+            },
+            {
+              "id": "C",
+              "text": "Encourage strenuous walking"
+            },
+            {
+              "id": "D",
+              "text": "Delay action until routine endocrinology review tomorrow"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Immediate supportive care and emergency management are necessary. Heavy blankets and delay would worsen the condition. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Providing brief reassurance to reduce stimulation where possible"
+            },
+            {
+              "id": "B",
+              "text": "Ignoring infection as a trigger factor"
+            },
+            {
+              "id": "C",
+              "text": "Preparing for fluid and medication support as ordered"
+            },
+            {
+              "id": "D",
+              "text": "Frequent cardiac and temperature monitoring"
+            },
+            {
+              "id": "E",
+              "text": "Close neurological reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Thyroid storm affects multiple systems. The nurse must monitor heart rate, temperature, and mental status, support treatment, and reduce unnecessary stimulation. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Thyroid Storm | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring stops after one intervention"
+            },
+            {
+              "id": "B",
+              "text": "Temperature decreases, heart rate slows, agitation lessens, and mental clarity improves"
+            },
+            {
+              "id": "C",
+              "text": "Tremor and tachycardia intensify"
+            },
+            {
+              "id": "D",
+              "text": "Fever rises further and confusion worsens"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The best evidence of improvement is reduced hypermetabolic stress across multiple systems."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Myxedema Coma",
+      "stem": "Mrs. Angela Rodrigues, a 76-year-old woman with long-standing hypothyroidism, is brought in during winter with profound lethargy, slowed speech, and confusion. Her daughter reports poor medication adherence for several weeks. The patient is cold to the touch and responds slowly to questions. Her vital signs show temperature 35.0 C, pulse 46 beats per minute, blood pressure 86/52 mmHg, respiratory rate 10 breaths per minute, and oxygen saturation 91% on room air. The nurse suspects myxedema coma. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with myxedema coma? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Slow respirations and mental slowing"
+            },
+            {
+              "id": "B",
+              "text": "Poor thyroid medication adherence"
+            },
+            {
+              "id": "C",
+              "text": "Bradycardia"
+            },
+            {
+              "id": "D",
+              "text": "Hypotension"
+            },
+            {
+              "id": "E",
+              "text": "Hypothermia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings support severe hypothyroid decompensation. Myxedema coma is a low-metabolic emergency characterised by profound slowing across body systems. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable depression only"
+            },
+            {
+              "id": "B",
+              "text": "Normal ageing only"
+            },
+            {
+              "id": "C",
+              "text": "Mild fatigue from poor sleep"
+            },
+            {
+              "id": "D",
+              "text": "Myxedema coma with life-threatening hypometabolic instability"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "This patient is not simply tired or elderly. The presentation is a classic endocrine emergency requiring urgent care. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for loneliness"
+            },
+            {
+              "id": "B",
+              "text": "Need for routine diet education"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Risk for respiratory failure and circulatory collapse due to severe hypothyroid decompensation"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Low respiratory rate, hypotension, and bradycardia indicate danger to life. These take priority over all chronic concerns. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage the patient to exercise to warm up"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until the daughter returns"
+            },
+            {
+              "id": "C",
+              "text": "Treat as an endocrine emergency, support airway and circulation, monitor closely, and prepare for urgent prescribed therapy"
+            },
+            {
+              "id": "D",
+              "text": "Place the patient in a cold environment for comfort"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "This patient requires immediate supportive care. Airway, breathing, circulation, temperature support, and urgent endocrine management are priorities. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assuming that bradycardia is harmless in hypothyroidism"
+            },
+            {
+              "id": "B",
+              "text": "Frequent monitoring of mental status and respirations"
+            },
+            {
+              "id": "C",
+              "text": "Close haemodynamic reassessment"
+            },
+            {
+              "id": "D",
+              "text": "Medication and trigger review"
+            },
+            {
+              "id": "E",
+              "text": "Careful warming according to policy"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Myxedema coma is high-risk and requires close monitoring of ventilation, perfusion, temperature, and likely triggers such as poor adherence or infection. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Myxedema Coma | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oxygenation declines further"
+            },
+            {
+              "id": "B",
+              "text": "Mental status becomes clearer, blood pressure improves, respirations become more effective, and body temperature rises gradually"
+            },
+            {
+              "id": "C",
+              "text": "The nurse stops monitoring because medication was started"
+            },
+            {
+              "id": "D",
+              "text": "Bradycardia worsens and unresponsiveness deepens"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement in myxedema coma is gradual but should be seen across mental status, perfusion, breathing, and temperature."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Sepsis Progressing toward Shock",
+      "stem": "Mr. Noel Fernandes, a 62-year-old man, is admitted with pneumonia and initially responds to treatment. Six hours later, the nurse notices increasing restlessness, confusion, and poor urine output. He feels hot, looks flushed, and then gradually becomes more pale and clammy. Family members say he seems much less responsive than earlier. Vital signs show temperature 39.1 C, pulse 132 beats per minute, respiratory rate 30 breaths per minute, blood pressure 88/50 mmHg, oxygen saturation 91% on room air, and urine output 15 mL in the last hour. The nurse recognises likely sepsis progressing toward shock. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate sepsis with possible shock progression? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tachycardia and tachypnoea"
+            },
+            {
+              "id": "B",
+              "text": "New confusion/restlessness"
+            },
+            {
+              "id": "C",
+              "text": "Fever"
+            },
+            {
+              "id": "D",
+              "text": "Hypotension"
+            },
+            {
+              "id": "E",
+              "text": "Low urine output"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues indicate systemic infection with impaired perfusion and organ dysfunction. The combination of hypotension, low urine output, and mental status change is especially concerning. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable pneumonia recovery"
+            },
+            {
+              "id": "B",
+              "text": "Mild dehydration only"
+            },
+            {
+              "id": "C",
+              "text": "Sepsis is progressing toward septic shock with worsening perfusion"
+            },
+            {
+              "id": "D",
+              "text": "The patient is simply tired and febrile"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "This is not routine infection recovery. Hypotension plus organ-dysfunction cues strongly suggest shock progression. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for boredom"
+            },
+            {
+              "id": "B",
+              "text": "Impaired tissue perfusion and risk of multisystem failure related to septic shock"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about antibiotics"
+            },
+            {
+              "id": "D",
+              "text": "Sleep disturbance"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Septic shock threatens multiple organs. This must be prioritised above education or comfort issues. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalate immediately, support oxygenation, reassess perfusion, and prepare for sepsis bundle interventions according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Wait until the next routine vital signs round"
+            },
+            {
+              "id": "C",
+              "text": "Let the patient rest without monitoring"
+            },
+            {
+              "id": "D",
+              "text": "Give only oral fluids and return later"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should think in time-critical sepsis terms: urgent escalation, oxygenation support, reassessment, and rapid bundle-based management. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring urine output closely"
+            },
+            {
+              "id": "B",
+              "text": "Communicating deterioration trends clearly to the team"
+            },
+            {
+              "id": "C",
+              "text": "Ignoring restlessness because it is not objective"
+            },
+            {
+              "id": "D",
+              "text": "Preparing for blood cultures, antibiotics, and fluid therapy as ordered"
+            },
+            {
+              "id": "E",
+              "text": "Frequent reassessment of blood pressure and mental status"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Restlessness is clinically significant because it may indicate reduced cerebral perfusion or worsening sepsis. The nurse must trend, communicate, and prepare for rapid intervention. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Sepsis Progressing toward Shock | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blood pressure stabilises, urine output improves, and mental status becomes clearer after intervention"
+            },
+            {
+              "id": "B",
+              "text": "Hypotension worsens and confusion deepens"
+            },
+            {
+              "id": "C",
+              "text": "Tachycardia remains unchecked and no trend is documented"
+            },
+            {
+              "id": "D",
+              "text": "The nurse stops monitoring because antibiotics were started"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement in septic shock is shown by better perfusion, better urine output, and better neurological status. Treatment must be evaluated dynamically, not assumed effective. **"
+        }
+      ]
+    }
+  ]
+}

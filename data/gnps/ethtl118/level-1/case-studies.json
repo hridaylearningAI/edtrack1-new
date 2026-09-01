@@ -1,0 +1,955 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Chest Pain and Suspected Myocardial Infarction",
+      "stem": "Mr. Joseph D’Souza, a 58-year-old man with hypertension, hyperlipidaemia, and a 25-year smoking history, presents to the emergency department complaining of central chest pressure that began while climbing stairs. He says the pain feels “heavy” and is spreading to his left arm and jaw. He appears pale, diaphoretic, and frightened. He rates the pain as 8 out of 10 and says it has not improved after sitting down to rest. On assessment, the nurse notes blood pressure 154/94 mmHg, heart rate 108 beats per minute, respiratory rate 24 breaths per minute, oxygen saturation 93% on room air, and cool clammy skin. He reports nausea and says he feels as though “something is very wrong.” The nurse knows this presentation may represent acute coronary syndrome and that minutes matter. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings most strongly support the possibility of an acute myocardial infarction or other acute coronary syndrome?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Central heavy chest pressure"
+            },
+            {
+              "id": "B",
+              "text": "Pain radiating to the left arm and jaw"
+            },
+            {
+              "id": "C",
+              "text": "Long smoking history"
+            },
+            {
+              "id": "D",
+              "text": "Heart rate 108 beats per minute"
+            },
+            {
+              "id": "E",
+              "text": "Nausea and diaphoresis"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All five findings strengthen the suspicion of acute coronary syndrome. The classic symptom cluster includes heavy central chest pressure, radiation to the arm or jaw, diaphoresis, nausea, and autonomic distress. Tachycardia often occurs because pain, anxiety, and decreased cardiac efficiency stimulate sympathetic response. His long smoking history is a major cardiovascular risk factor and is highly relevant in clinical reasoning. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the nurse’s priority clinical interpretation of these data?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is most likely having simple musculoskeletal pain"
+            },
+            {
+              "id": "B",
+              "text": "The patient may be experiencing acute myocardial ischemia requiring urgent intervention"
+            },
+            {
+              "id": "C",
+              "text": "The patient primarily needs emotional reassurance before any assessment"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s main problem is indigestion and mild dehydration"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The data cluster points to possible acute myocardial ischemia. NCLEX rewards pattern recognition. Chest pressure with radiation, diaphoresis, nausea, and cardiovascular risk factors should never be minimised. Musculoskeletal pain or indigestion may occasionally mimic cardiac pain, but the nurse must first assume the more dangerous condition until it is excluded. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which hypothesis should the nurse treat as most urgent right now?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is at risk for impaired myocardial perfusion and further cardiac damage"
+            },
+            {
+              "id": "B",
+              "text": "The patient has poor sleep quality"
+            },
+            {
+              "id": "C",
+              "text": "The patient is dehydrated from not drinking enough water"
+            },
+            {
+              "id": "D",
+              "text": "The patient is anxious because he is in hospital"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The priority problem is impaired myocardial perfusion. In Adult Med–Surg, myocardial ischemia becomes urgent because continued oxygen deprivation to cardiac tissue may lead to infarction, dysrhythmia, cardiogenic shock, or death. Anxiety may be present, but it is not the primary problem. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay action until the pain score is documented in detail"
+            },
+            {
+              "id": "B",
+              "text": "Ask the patient to walk to the examination room"
+            },
+            {
+              "id": "C",
+              "text": "Obtain focused assessment, place the patient at rest, attach cardiac monitoring, and activate chest pain protocol"
+            },
+            {
+              "id": "D",
+              "text": "Offer food and water while waiting for the doctor"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The first response should combine rapid focused assessment with immediate safety actions: stop activity, keep the patient at rest, initiate monitoring, and follow the chest pain or acute coronary syndrome pathway. Walking the patient, offering food, or delaying action would waste precious time and could increase cardiac workload. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Communication",
+          "stem": "Which additional actions are appropriate after the initial response? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tell the patient not to report worsening pain until the doctor arrives"
+            },
+            {
+              "id": "B",
+              "text": "Communicate the situation using a structured urgent handover"
+            },
+            {
+              "id": "C",
+              "text": "Obtain a 12-lead ECG promptly"
+            },
+            {
+              "id": "D",
+              "text": "Prepare to administer prescribed aspirin or other protocol-based medications"
+            },
+            {
+              "id": "E",
+              "text": "Reassess vital signs and pain frequently"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "An ECG, time-sensitive medications under protocol, reassessment, and structured escalation are all essential. NCLEX expects the nurse to think sequentially: recognise danger, start urgent monitoring and assessment, activate the correct pathway, and communicate clearly. Telling the patient to stay silent about worsening pain would be unsafe and contrary to patient-centred care. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Chest Pain and Suspected Myocardial Infarction | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates that the immediate nursing and medical response is helping?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient no longer looks scared but has worsening chest pressure"
+            },
+            {
+              "id": "B",
+              "text": "The patient’s oxygen saturation improves, pain intensity decreases, and the monitor shows improved stability while further management continues"
+            },
+            {
+              "id": "C",
+              "text": "The patient says the pain is unchanged, but he looks tired"
+            },
+            {
+              "id": "D",
+              "text": "Blood pressure remains elevated but no other data are reviewed"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement is judged by better perfusion and symptom control: reduced chest pain, improved oxygenation if previously impaired, and stabilisation of haemodynamic or cardiac status. Emotional calm alone does not prove physiological recovery. NCLEX outcome evaluation always asks: is the patient safer and clinically more stable than before?"
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Heart Failure Exacerbation and Fluid Overload",
+      "stem": "Mrs. Anita Menon, a 72-year-old woman with chronic heart failure, is admitted with increasing shortness of breath over three days. She states that she now needs three pillows to sleep and wakes at night feeling breathless. Her ankles are swollen, and her daughter reports that she has gained nearly 2 kilograms in the last two days despite eating poorly. Assessment reveals blood pressure 162/90 mmHg, heart rate 104 beats per minute, respiratory rate 26 breaths per minute, oxygen saturation 91% on room air, bilateral crackles at the lung bases, pitting oedema at both ankles, and mild fatigue when speaking. The nurse suspects acute fluid overload related to worsening heart failure. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings are most consistent with heart failure exacerbation and fluid overload?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ankle oedema"
+            },
+            {
+              "id": "B",
+              "text": "Rapid weight gain"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen saturation 91% on room air"
+            },
+            {
+              "id": "D",
+              "text": "Orthopnoea"
+            },
+            {
+              "id": "E",
+              "text": "Bilateral crackles"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues are consistent with worsening heart failure. Orthopnoea suggests pulmonary congestion, rapid weight gain suggests fluid retention, crackles reflect fluid in or around the alveoli, peripheral oedema indicates systemic fluid accumulation, and lower oxygen saturation suggests that gas exchange is being affected by congestion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the most likely nursing interpretation of this presentation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is dehydrated and needs rapid oral fluids"
+            },
+            {
+              "id": "B",
+              "text": "The patient has simple muscular fatigue from poor sleep"
+            },
+            {
+              "id": "C",
+              "text": "The patient is retaining fluid and developing worsening cardiopulmonary congestion"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s main problem is gastrointestinal upset"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The combination of orthopnoea, crackles, oedema, weight gain, and reduced oxygen saturation indicates worsening fluid overload in the setting of heart failure. The case is not consistent with dehydration. In fact, excess circulating and tissue fluid is the more likely problem. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which hypothesis is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit regarding exercise"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image related to ankle swelling"
+            },
+            {
+              "id": "C",
+              "text": "Impaired gas exchange related to fluid accumulation in the lungs"
+            },
+            {
+              "id": "D",
+              "text": "Risk for loneliness"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Although several nursing issues could eventually be addressed, the most urgent is impaired gas exchange. In NGN and Med–Surg logic, breathing and oxygenation move ahead of long-term psychosocial or educational concerns. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask the patient to lie flat to rest the heart"
+            },
+            {
+              "id": "B",
+              "text": "Position the patient upright, assess respiratory effort closely, and apply oxygen as prescribed or indicated by protocol"
+            },
+            {
+              "id": "C",
+              "text": "Encourage the patient to drink extra fluids"
+            },
+            {
+              "id": "D",
+              "text": "Delay intervention until daily weights are rechecked tomorrow"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Sitting the patient upright reduces venous return to the chest and improves lung expansion. Oxygen support and focused respiratory assessment are immediate priorities when pulmonary congestion is compromising gas exchange. Lying flat worsens orthopnoea. Extra fluids would likely worsen overload. Waiting until tomorrow is unsafe. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional interventions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess for fatigue, perfusion, and response to treatment"
+            },
+            {
+              "id": "B",
+              "text": "Review daily weights and compare trends"
+            },
+            {
+              "id": "C",
+              "text": "Monitor intake and output carefully"
+            },
+            {
+              "id": "D",
+              "text": "Prepare to administer prescribed diuretics and monitor electrolytes"
+            },
+            {
+              "id": "E",
+              "text": "Teach the patient to ignore worsening shortness of breath at night"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Intake/output, weight trends, diuretic therapy, electrolyte monitoring, and reassessment are all central to safe heart failure care. The patient should never be told to ignore nocturnal dyspnoea, because this may signal deterioration. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Heart Failure Exacerbation and Fluid Overload | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which outcome most clearly shows improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient says she is tired and wants to sleep flat"
+            },
+            {
+              "id": "B",
+              "text": "Weight continues to rise but the patient smiles more"
+            },
+            {
+              "id": "C",
+              "text": "The ankle oedema remains severe and unchanged"
+            },
+            {
+              "id": "D",
+              "text": "Crackles lessen, oxygen saturation improves, breathing becomes easier, and urine output increases after therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "A good response is reflected by easier breathing, improved oxygenation, reduced pulmonary congestion, and effective diuresis. Persistent severe oedema or inability to tolerate lying flat would suggest incomplete improvement."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "COPD Exacerbation and Carbon Dioxide Retention Risk",
+      "stem": "Mr. Harpreet Singh is a 69-year-old man with long-standing COPD. He presents with worsening shortness of breath, increased sputum production, and fatigue over several days. He is using pursed-lip breathing and appears exhausted after walking a short distance from the transport chair to the bed. His vital signs are blood pressure 146/84 mmHg, pulse 102 beats per minute, respiratory rate 30 breaths per minute, oxygen saturation 87% on room air, and temperature 37.9 C. He has a prolonged expiratory phase and diffuse wheeze. The nurse knows that both hypoxaemia and carbon dioxide retention can become safety concerns in advanced COPD. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings show clinically significant respiratory compromise?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oxygen saturation 87% on room air"
+            },
+            {
+              "id": "B",
+              "text": "Respiratory rate 30 breaths per minute"
+            },
+            {
+              "id": "C",
+              "text": "Exhaustion with minimal activity"
+            },
+            {
+              "id": "D",
+              "text": "Use of pursed-lip breathing"
+            },
+            {
+              "id": "E",
+              "text": "Increased sputum production"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings are relevant in COPD exacerbation. The low oxygen saturation shows hypoxaemia. A respiratory rate of 30 indicates distress. Pursed-lip breathing is a compensatory technique. Increased sputum production suggests worsening airway inflammation or infection, and exhaustion with minimal activity shows decreased respiratory reserve. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best overall interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is overreacting to mild breathlessness"
+            },
+            {
+              "id": "B",
+              "text": "The patient mainly requires sleep and reassurance only"
+            },
+            {
+              "id": "C",
+              "text": "The patient is stable because wheeze is present"
+            },
+            {
+              "id": "D",
+              "text": "The patient has an acute COPD exacerbation with significant work of breathing and impaired oxygenation"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "This is not mild breathlessness. The pattern suggests an acute COPD exacerbation with increased work of breathing. Wheeze does not prove stability; it shows narrowed airways and airflow obstruction. NCLEX expects the nurse to identify the seriousness of fatigue and low oxygenation in COPD. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "What should the nurse prioritise?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for constipation due to inactivity"
+            },
+            {
+              "id": "B",
+              "text": "Impaired gas exchange and ineffective ventilation"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Risk for low self-esteem"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The immediate concern is oxygenation and ventilation. In COPD, worsening fatigue may signal impending respiratory muscle exhaustion. Therefore, breathing remains the central problem. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Position the patient for maximal chest expansion, assess work of breathing, and begin prescribed oxygen carefully with close monitoring"
+            },
+            {
+              "id": "B",
+              "text": "Delay intervention until laboratory tests return"
+            },
+            {
+              "id": "C",
+              "text": "Place the patient flat in bed"
+            },
+            {
+              "id": "D",
+              "text": "Give a large meal to improve strength"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Positioning, close assessment, and oxygen titration are immediate priorities. COPD patients may still need oxygen, but they require thoughtful monitoring because over-oxygenation can worsen carbon dioxide retention in some cases. A large meal and lying flat would both increase respiratory workload. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor mental status for signs of worsening carbon dioxide retention"
+            },
+            {
+              "id": "B",
+              "text": "Ignore sputum changes because only oxygen saturation matters"
+            },
+            {
+              "id": "C",
+              "text": "Encourage energy conservation and small frequent meals later when stable"
+            },
+            {
+              "id": "D",
+              "text": "Administer bronchodilator therapy as prescribed"
+            },
+            {
+              "id": "E",
+              "text": "Reassess oxygen saturation, respiratory rate, and breath sounds after interventions"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Mental status changes may indicate carbon dioxide retention. Bronchodilators and reassessment are expected interventions. Energy conservation and nutrition planning are important supportive measures. Sputum changes matter because they may point to infection or worsening inflammation. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: COPD Exacerbation and Carbon Dioxide Retention Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates early improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient becomes silent on auscultation with no air movement"
+            },
+            {
+              "id": "B",
+              "text": "The patient says he is hungry but oxygenation is unchanged"
+            },
+            {
+              "id": "C",
+              "text": "The patient remains unable to finish sentences and becomes drowsy"
+            },
+            {
+              "id": "D",
+              "text": "Oxygen saturation improves, breathing slows somewhat, wheeze is less severe, and the patient appears less fatigued"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is seen when oxygenation rises, work of breathing decreases, and fatigue lessens. Drowsiness or a silent chest would be alarming rather than reassuring."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Pneumonia Progression and Early Respiratory Deterioration",
+      "stem": "Mrs. Kavita Rao, a 64-year-old woman with diabetes, is admitted with right lower lobe pneumonia. On admission she had fever, productive cough, and mild shortness of breath. Intravenous antibiotics have been started. Four hours later the nurse notices that she looks more tired and is less interested in conversation. Repeat observations show temperature 38.7 C, respiratory rate 32 breaths per minute, oxygen saturation 89% on room air, pulse 118 beats per minute, and blood pressure 132/78 mmHg. She says, “I feel worse than before,” and coughs thick sputum. The nurse must identify whether she is failing routine therapy and beginning to deteriorate. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings most strongly indicate worsening pneumonia?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respiratory rate 32 breaths per minute"
+            },
+            {
+              "id": "B",
+              "text": "Increasing fatigue and reduced engagement"
+            },
+            {
+              "id": "C",
+              "text": "Ongoing fever with productive cough"
+            },
+            {
+              "id": "D",
+              "text": "Pulse 118 beats per minute"
+            },
+            {
+              "id": "E",
+              "text": "Oxygen saturation 89% on room air"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Every listed cue reflects worsening infection or respiratory compromise. Tachypnoea, hypoxaemia, lethargy, tachycardia, and persistent fever with sputum production all suggest the patient is not improving and may be deteriorating. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best clinical interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient may be developing worsening gas exchange impairment and systemic infection response"
+            },
+            {
+              "id": "B",
+              "text": "The patient should be discharged because antibiotics have started"
+            },
+            {
+              "id": "C",
+              "text": "The patient only needs more sleep"
+            },
+            {
+              "id": "D",
+              "text": "The patient is improving because sputum is still being produced"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This pattern is concerning for worsening gas exchange and ongoing infection. A patient can deteriorate even after treatment begins, and NGN expects nurses to recognise trend-based deterioration rather than assuming antibiotics guarantee immediate recovery. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Social isolation"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Impaired oxygenation and possible clinical deterioration"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about antibiotics"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The patient’s immediate risk relates to oxygenation and systemic decline. Educational and psychosocial needs can be addressed later, once safety has been stabilised. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support breathing by positioning upright, reassessing the respiratory system, and initiating or increasing oxygen according to orders or protocol"
+            },
+            {
+              "id": "B",
+              "text": "Hold antibiotics until tomorrow"
+            },
+            {
+              "id": "C",
+              "text": "Encourage the patient to take a shower"
+            },
+            {
+              "id": "D",
+              "text": "Reduce all monitoring because rest is more important"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The first nursing action must target breathing and reassessment. Positioning and oxygen support are immediate priorities. The respiratory system must be reassessed thoroughly, and deterioration should be escalated promptly if findings remain concerning. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Communication",
+          "stem": "Which additional interventions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess breath sounds and work of breathing"
+            },
+            {
+              "id": "B",
+              "text": "Encourage cough and secretion clearance when clinically tolerated"
+            },
+            {
+              "id": "C",
+              "text": "Continue prescribed antibiotics and communicate worsening findings promptly"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the tachycardia because fever always explains it fully"
+            },
+            {
+              "id": "E",
+              "text": "Monitor for confusion, decreased urine output, or other sepsis cues"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "A deteriorating pneumonia patient requires ongoing respiratory assessment, sepsis surveillance, timely antibiotics, and support for secretion clearance if tolerated. Tachycardia may be partly fever-related, but in this context it should still be taken seriously as part of the overall deterioration pattern. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Pneumonia Progression and Early Respiratory Deterioration | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which outcome best shows effective immediate nursing management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient says she is tired, and the nurse stops checking observations"
+            },
+            {
+              "id": "B",
+              "text": "Oxygen saturation rises, work of breathing decreases, and the patient appears more alert after intervention"
+            },
+            {
+              "id": "C",
+              "text": "The fever persists and no reassessment is performed"
+            },
+            {
+              "id": "D",
+              "text": "Heart rate remains high and oxygenation worsens"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Better alertness, improved oxygenation, and reduced work of breathing show that the patient has responded positively to nursing and medical interventions."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Post-operative Pulmonary Embolism Suspicion",
+      "stem": "Mr. Philip Mathew is 61 years old and is on the surgical ward one day after abdominal surgery. He has been reluctant to mobilise because of pain and has remained in bed for long periods. During the evening round he suddenly becomes short of breath and tells the nurse he has sharp chest pain that worsens when he breathes in. His heart rate is 124 beats per minute, respiratory rate 30 breaths per minute, blood pressure 102/66 mmHg, and oxygen saturation 88% on room air. He looks anxious and says, “Something is really wrong.” The nurse recognises that this pattern could indicate pulmonary embolism, a life-threatening post-operative complication. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which features make pulmonary embolism a serious concern?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sharp pleuritic chest pain"
+            },
+            {
+              "id": "B",
+              "text": "Recent surgery and immobility"
+            },
+            {
+              "id": "C",
+              "text": "Low oxygen saturation"
+            },
+            {
+              "id": "D",
+              "text": "Sudden shortness of breath"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues are classic risk factors or signs of pulmonary embolism. Recent surgery and immobility increase clot risk, while sudden dyspnoea, pleuritic chest pain, tachycardia, and hypoxaemia suggest embolic obstruction of pulmonary blood flow. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the most appropriate clinical interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is stable because he can still speak"
+            },
+            {
+              "id": "B",
+              "text": "The patient most likely has simple indigestion"
+            },
+            {
+              "id": "C",
+              "text": "The patient only needs reassurance and rest"
+            },
+            {
+              "id": "D",
+              "text": "The patient may have an acute pulmonary embolism requiring emergency escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The scenario is highly suspicious for PE. Speaking does not equal stability. The cluster of abrupt respiratory and circulatory changes after surgery makes this an emergency until proven otherwise. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which hypothesis is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild incisional pain"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Need for discharge teaching"
+            },
+            {
+              "id": "D",
+              "text": "Impaired gas exchange and circulatory compromise related to possible embolic obstruction"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "PE threatens both oxygenation and circulation. In NCLEX prioritisation, this outranks pain, education, or routine comfort concerns. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage immediate walking to improve circulation"
+            },
+            {
+              "id": "B",
+              "text": "Support oxygenation, remain with the patient, and activate urgent medical review or rapid response"
+            },
+            {
+              "id": "C",
+              "text": "Place the patient flat and leave to find paperwork"
+            },
+            {
+              "id": "D",
+              "text": "Offer oral fluids and observe for an hour"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The patient is potentially unstable. Oxygenation, close presence, and rapid escalation are the correct priorities. Walking or leaving the patient alone would be unsafe. Waiting would delay life-saving care. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Communication",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess vital signs and oxygen saturation frequently"
+            },
+            {
+              "id": "B",
+              "text": "Monitor for worsening hypotension or decreased level of consciousness"
+            },
+            {
+              "id": "C",
+              "text": "Massage the patient’s calf if it looks swollen"
+            },
+            {
+              "id": "D",
+              "text": "Prepare to communicate the onset, risk factors, and current findings using structured handover"
+            },
+            {
+              "id": "E",
+              "text": "Maintain a high index of suspicion for deterioration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Frequent reassessment, clear urgent communication, and observation for deterioration are essential. Massaging a calf is unsafe if DVT is possible because it may dislodge clot material or is at least not a recommended nursing response. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Pulmonary Embolism Suspicion | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which outcome best indicates early stabilisation after urgent treatment begins?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient says the pain is still severe and oxygenation worsens"
+            },
+            {
+              "id": "B",
+              "text": "The nurse stops monitoring because the doctor has arrived"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen saturation improves, respiratory distress decreases, and haemodynamic status becomes more stable"
+            },
+            {
+              "id": "D",
+              "text": "The patient remains hypotensive and more confused"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improved oxygenation, less respiratory distress, and better haemodynamic stability show a positive response. Deterioration, worsening confusion, or stopping monitoring prematurely would indicate poor care or ongoing instability."
+        }
+      ]
+    }
+  ]
+}

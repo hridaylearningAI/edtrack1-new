@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Oxygenation drop (ABCs)",
+      "scenario": "A patient scheduled for surgery is sitting in bed reviewing the consent form. During conversation, the patient states, “I signed this because they told me to, but I don’t really understand what they’re going to do.” The patient appears anxious and hesitant when asked about the procedure.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the process and notify the provider.",
+      "modelWhy": "Consent is invalid without understanding.",
+      "modelNext": "Assess patient comprehension.",
+      "trap": "Explaining the procedure yourself.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Patient refusal of care",
+      "scenario": "A fully alert and oriented patient refuses a prescribed treatment, stating they do not want it administered. The patient understands the explanation provided but clearly states they are choosing not to proceed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Respect the refusal and document appropriately.",
+      "modelWhy": "Patients have the right to refuse care.",
+      "modelNext": "Notify the provider.",
+      "trap": "Forcing treatment.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Confidentiality breach",
+      "scenario": "While riding in a hospital elevator, a nurse overhears another staff member discussing a patient’s diagnosis and treatment details aloud, with visitors present nearby.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the conversation immediately.",
+      "modelWhy": "Confidentiality is legally required.",
+      "modelNext": "Report per policy.",
+      "trap": "Ignoring the situation.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Scope of practice",
+      "scenario": "A colleague asks you to perform a clinical task that is outside your authorised scope of practice, explaining that they are busy and “it will only take a minute.”",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Decline and escalate appropriately.",
+      "modelWhy": "Practicing outside scope risks harm.",
+      "modelNext": "Follow institutional policy.",
+      "trap": "Agreeing to help anyway.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Delegation to UAP",
+      "scenario": "You are caring for multiple patients and consider delegating the task of taking routine vital signs for a stable patient to an unlicensed assistive personnel (UAP).",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Delegate appropriately with clear instructions.",
+      "modelWhy": "Delegation improves workflow.",
+      "modelNext": "Verify completion.",
+      "trap": "Delegating assessment tasks.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Unsafe assignment",
+      "scenario": "At the start of your shift, you are assigned a patient load that exceeds safe staffing levels. You feel that providing safe, quality care to all assigned patients may not be possible.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Communicate concerns to the charge nurse.",
+      "modelWhy": "Unsafe staffing compromises care.",
+      "modelNext": "Document concerns.",
+      "trap": "Accepting assignment silently.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Medication error disclosure",
+      "scenario": "After reviewing medication records, you realise that a patient received an incorrect medication dose earlier in the shift. The patient has not yet shown any signs of harm.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Report the error per policy.",
+      "modelWhy": "Transparency improves safety.",
+      "modelNext": "Monitor patient.",
+      "trap": "Hiding the error.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "End-of-life decision",
+      "scenario": "A terminally ill patient clearly expresses the wish to focus on comfort measures only and decline further aggressive treatment. Family members appear distressed by the patient’s decision.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Advocate for palliative approach.",
+      "modelWhy": "Respect patient autonomy.",
+      "modelNext": "Clarify advance directives.",
+      "trap": "Continuing aggressive treatment.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

@@ -1,0 +1,2175 @@
+{
+  "level": 1,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 1 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 7 - Level 1 - Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 7: Caring for Children and Families — Paediatric Nursing",
+          "bullets": [
+            {
+              "label": "\"Every child deserves exceptional care.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 — QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Program 7",
+          "body": "Infants, children and adolescents are not simply smaller adults. Their anatomy, physiology, communication, development and responses to illness differ markedly across age groups.",
+          "bullets": [
+            {
+              "label": "This programme develops the essential",
+              "text": "This programme develops the essential knowledge, assessment skills and professional behaviours required to provide safe, developmentally appropriate and family-centred care — aligned with national nursing education programmes and regulatory bodies worldwide."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Paediatric Principles",
+              "text": ""
+            },
+            {
+              "label": "Apply nursing principles across infancy, childhood and adolescence",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Growth & Assessment",
+              "text": ""
+            },
+            {
+              "label": "Assess physical growth, developmental milestones and age-specific vital signs",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Communication",
+              "text": ""
+            },
+            {
+              "label": "Use age-appropriate communication and validated pain-assessment tools",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Safe Care",
+              "text": ""
+            },
+            {
+              "label": "Provide care for respiratory, cardiac, gastrointestinal and neurological conditions",
+              "text": ""
+            },
+            {
+              "label": "5",
+              "text": ""
+            },
+            {
+              "label": "Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "Calculate and administer medicines safely using weight-based principles",
+              "text": ""
+            },
+            {
+              "label": "6",
+              "text": ""
+            },
+            {
+              "label": "Safeguarding",
+              "text": ""
+            },
+            {
+              "label": "Promote child wellbeing, injury prevention and recognise abuse or neglect",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "WHY THIS MATTERS",
+          "body": "Children Can Deteriorate Rapidly",
+          "bullets": [
+            {
+              "label": "Children may not describe symptoms clearly.",
+              "text": "Children may not describe symptoms clearly. Early warning signs can be subtle — a change in behaviour, reduced feeding, grunting, lethargy or fewer wet nappies."
+            },
+            {
+              "label": "Safe paediatric nursing depends on careful observation, developmental knowledge and early action.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Growth, Development & Family-Centred Care",
+          "bullets": [
+            {
+              "label": "Development influences how children",
+              "text": "Development influences how children communicate, respond to illness and participate in care. Nurses must adapt assessment to developmental stage — and treat families as essential partners."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Developmental Stages at a Glance",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Infant",
+              "text": ""
+            },
+            {
+              "label": "Reflex-driven; bonding with caregiver; sensory development",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Toddler",
+              "text": ""
+            },
+            {
+              "label": "Rapid motor growth; emerging language; parallel play",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Preschool",
+              "text": ""
+            },
+            {
+              "label": "Imaginative play; cause-and-effect thinking; fears of body harm",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "School-Age",
+              "text": ""
+            },
+            {
+              "label": "Logical reasoning; peer relationships; need for explanation",
+              "text": ""
+            },
+            {
+              "label": "5",
+              "text": ""
+            },
+            {
+              "label": "Adolescent",
+              "text": ""
+            },
+            {
+              "label": "Abstract thinking; privacy; independent communication",
+              "text": ""
+            },
+            {
+              "label": "Developmental milestones guide expected",
+              "text": "Developmental milestones guide expected progress. Persistent delay or loss of previously acquired skills requires further assessment."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Family-Centred Care & Communication",
+          "body": "Age-Appropriate Language",
+          "bullets": [
+            {
+              "label": "Use simple words, demonstration and distraction to reduce fear in young children",
+              "text": ""
+            },
+            {
+              "label": "Therapeutic Play",
+              "text": ""
+            },
+            {
+              "label": "Use dolls or equipment to explain procedures before they happen",
+              "text": ""
+            },
+            {
+              "label": "Family as Partners",
+              "text": ""
+            },
+            {
+              "label": "Parents know the child's normal behaviour best — value and involve them in all decisions",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "📋 Clinical Example: A four-year-old is frightened before a blood test. The nurse uses a doll to demonstrate the procedure, explains in simple language and allows the child to choose which arm to present. The parent remains nearby. Developmentally appropriate preparation reduces fear and improves cooperation.",
+          "body": "Adapt",
+          "bullets": [
+            {
+              "label": "Match communication to the child's developmental stage",
+              "text": ""
+            },
+            {
+              "label": "Include",
+              "text": ""
+            },
+            {
+              "label": "Offer limited choices to give the child a sense of control",
+              "text": ""
+            },
+            {
+              "label": "Partner",
+              "text": ""
+            },
+            {
+              "label": "Involve the family in comfort and care throughout",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Paediatric Assessment & Recognition of Deterioration",
+          "bullets": [
+            {
+              "label": "Children may compensate for serious illness",
+              "text": "Children may compensate for serious illness before deteriorating suddenly. Systematic, age-specific assessment and early recognition are essential nursing competencies."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "A Systematic Approach to Assessment",
+          "body": "Observe",
+          "bullets": [
+            {
+              "label": "Appearance, posture, breathing, colour before touching.",
+              "text": ""
+            },
+            {
+              "label": "Vital Signs",
+              "text": ""
+            },
+            {
+              "label": "Age-specific heart rate, respiratory rate, blood pressure.",
+              "text": ""
+            },
+            {
+              "label": "Airway & Breathing",
+              "text": ""
+            },
+            {
+              "label": "Stridor, grunting, retractions, cyanosis assessment.",
+              "text": ""
+            },
+            {
+              "label": "Hydration & Neuro",
+              "text": ""
+            },
+            {
+              "label": "Fontanel, capillary refill, urine output, consciousness.",
+              "text": ""
+            },
+            {
+              "label": "Observation before examination is a critical",
+              "text": "Observation before examination is a critical first step — a quiet, floppy or poorly responsive child may be seriously unwell."
+            },
+            {
+              "label": "Pain Assessment Tools",
+              "text": ""
+            },
+            {
+              "label": "FLACC",
+              "text": ""
+            },
+            {
+              "label": "Infants & non-verbal children — face, legs, activity, cry, consolability",
+              "text": ""
+            },
+            {
+              "label": "Wong-Baker",
+              "text": ""
+            },
+            {
+              "label": "Children 3+ — self-report using facial expressions scale",
+              "text": ""
+            },
+            {
+              "label": "CRIES",
+              "text": ""
+            },
+            {
+              "label": "Neonates post-operatively — crying, oxygen, expressions, sleep",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Red Flags: Recognising Deterioration",
+          "body": "Airway & Breathing",
+          "bullets": [
+            {
+              "label": "Stridor, grunting, nasal flaring, retractions, poor air entry, central cyanosis",
+              "text": ""
+            },
+            {
+              "label": "Hydration",
+              "text": ""
+            },
+            {
+              "label": "Dry mucous membranes, sunken fontanel, prolonged capillary refill, reduced urine output",
+              "text": ""
+            },
+            {
+              "label": "Neurological",
+              "text": ""
+            },
+            {
+              "label": "Irritability, lethargy, seizures, altered consciousness or poor feeding",
+              "text": ""
+            },
+            {
+              "label": "📋 Clinical Example: An infant with",
+              "text": "📋 Clinical Example: An infant with bronchiolitis becomes quieter and less interested in feeding. The nurse notes nasal flaring, chest retractions and reduced wet nappies. Deterioration is recognised and urgent review requested."
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Nursing Care for Common Childhood Conditions",
+          "bullets": [
+            {
+              "label": "Safe care combines early recognition,",
+              "text": "Safe care combines early recognition, evidence-based intervention and family support across respiratory, cardiac, gastrointestinal, neurological and endocrine conditions."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Common Conditions & Priority Nursing Actions",
+          "body": "Key Red Flags — Escalate Immediately",
+          "bullets": [
+            {
+              "label": "Bilious (green) vomiting in any infant or child",
+              "text": ""
+            },
+            {
+              "label": "Non-blanching petechial or purpuric rash with fever",
+              "text": ""
+            },
+            {
+              "label": "Bulging fontanel or altered consciousness",
+              "text": ""
+            },
+            {
+              "label": "Deep, laboured (Kussmaul) breathing",
+              "text": ""
+            },
+            {
+              "label": "Severe abdominal distension or pain",
+              "text": ""
+            },
+            {
+              "label": "Always escalate these signs without delay. Do not wait for confirmatory tests.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "example",
+          "title": "📋 Clinical Example: A school-age child with type 1 diabetes presents with vomiting, abdominal pain, deep breathing and increasing drowsiness. The nurse checks glucose and ketones, recognises possible diabetic ketoacidosis and activates urgent medical management immediately.",
+          "body": "Recognise",
+          "bullets": [
+            {
+              "label": "Know the condition-specific red flags and act on them early",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Track breathing, hydration, consciousness and response to treatment",
+              "text": ""
+            },
+            {
+              "label": "Support",
+              "text": ""
+            },
+            {
+              "label": "Address the needs of the child and the family throughout acute illness",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Medication Safety, Nutrition & Child Protection",
+          "bullets": [
+            {
+              "label": "Paediatric medication doses are weight-based —",
+              "text": "Paediatric medication doses are weight-based — small errors carry serious risk. Nutrition, hydration and safeguarding are equally central because children depend on adults for their protection."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Four Pillars of Safe Paediatric Practice",
+          "body": "Medication Safety",
+          "bullets": [
+            {
+              "label": "Confirm weight in kilograms. Check dose,",
+              "text": "Confirm weight in kilograms. Check dose, concentration, route and maximum safe dose. Always seek independent verification for high-risk medicines."
+            },
+            {
+              "label": "Nutrition & Growth",
+              "text": ""
+            },
+            {
+              "label": "Feeding needs change from infancy to",
+              "text": "Feeding needs change from infancy to adolescence. Use growth charts, dietary history and feeding observation to identify undernutrition, obesity or difficulty."
+            },
+            {
+              "label": "Injury Prevention",
+              "text": ""
+            },
+            {
+              "label": "Educate families on safe sleep, car restraints,",
+              "text": "Educate families on safe sleep, car restraints, drowning, burns and poison storage — tailored to the child's age and developmental stage."
+            },
+            {
+              "label": "Safeguarding",
+              "text": ""
+            },
+            {
+              "label": "Injuries inconsistent with history, unusual",
+              "text": "Injuries inconsistent with history, unusual bruising, fearfulness or delayed presentation may indicate abuse or neglect. Report through approved legal pathways."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "example",
+          "title": "📋 Clinical Example: A toddler is prescribed a medicine based on weight. The nurse discovers the recorded weight was entered in pounds rather than kilograms. Administration is paused, the child is reweighed and the dose recalculated. The correction prevents a potentially serious overdose.",
+          "body": "✅ Always use kilograms",
+          "bullets": [
+            {
+              "label": "Never assume — confirm the current weight at every encounter",
+              "text": ""
+            },
+            {
+              "label": "✅ Double-check calculations",
+              "text": ""
+            },
+            {
+              "label": "Independent verification is mandatory for weight-based and high-risk doses",
+              "text": ""
+            },
+            {
+              "label": "✅ Report concerns",
+              "text": ""
+            },
+            {
+              "label": "Safeguarding concerns must be documented and escalated without delay",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "Level 1 Complete — Your Foundation is Set",
+          "body": "By completing GNPS Program 7 — Level 1, you have developed foundational knowledge and skills across four core areas of paediatric nursing.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Growth & Development",
+              "text": ""
+            },
+            {
+              "label": "Assess children across age groups and support families as partners in care",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Assessment & Deterioration",
+              "text": ""
+            },
+            {
+              "label": "Recognise early warning signs and respond to paediatric emergencies",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Common Conditions",
+              "text": ""
+            },
+            {
+              "label": "Deliver safe, evidence-based care for childhood illness",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Safety & Protection",
+              "text": ""
+            },
+            {
+              "label": "Apply medication safety principles and fulfil safeguarding responsibilities",
+              "text": ""
+            },
+            {
+              "label": "These capabilities prepare you for Level 2 —",
+              "text": "These capabilities prepare you for Level 2 — International Qualified Nurse, where the focus expands to complex paediatric care, international standards and advanced safeguarding."
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-19"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Growth, Development and Family-Centred Care",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 7 - Level 1 - Section 1 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 7 · Paediatric Nursing",
+          "bullets": [
+            {
+              "label": "\"Every child deserves exceptional care.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 · QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Overview",
+          "body": "Caring for Children and Families",
+          "bullets": [
+            {
+              "label": "Section 1: Growth, Development and Family-Centred Care",
+              "text": ""
+            },
+            {
+              "label": "Growth and development shape how children",
+              "text": "Growth and development shape how children communicate, respond to illness, understand procedures, and participate in their own care."
+            },
+            {
+              "label": "Paediatric nurses must adapt every assessment",
+              "text": "Paediatric nurses must adapt every assessment and intervention to the child's developmental stage — whilst recognising parents and carers as essential partners in care."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Describe Growth & Development",
+              "text": ""
+            },
+            {
+              "label": "Across all paediatric age groups",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Milestones",
+              "text": ""
+            },
+            {
+              "label": "Key motor, language and social markers",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Communicate Appropriately",
+              "text": ""
+            },
+            {
+              "label": "Using play and age-adapted language",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Apply Family-Centred Care",
+              "text": ""
+            },
+            {
+              "label": "Principles of partnership and inclusion",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Growth & Development Across Age Groups",
+          "body": "Each stage brings distinct physical, cognitive, language and psychosocial needs. Always consider both chronological age and individual ability.",
+          "bullets": [
+            {
+              "label": "Infants",
+              "text": ""
+            },
+            {
+              "label": "Rapid physical growth; bonding and sensory stimulation are paramount",
+              "text": ""
+            },
+            {
+              "label": "Toddlers",
+              "text": ""
+            },
+            {
+              "label": "Motor exploration and language emergence; separation anxiety is common",
+              "text": ""
+            },
+            {
+              "label": "Preschool",
+              "text": ""
+            },
+            {
+              "label": "Imaginative play; magical thinking; fears of bodily harm",
+              "text": ""
+            },
+            {
+              "label": "School-Age",
+              "text": ""
+            },
+            {
+              "label": "Logical thinking; peer influence; needs honest, clear explanations",
+              "text": ""
+            },
+            {
+              "label": "Adolescents",
+              "text": ""
+            },
+            {
+              "label": "Identity formation; privacy, autonomy and confidentiality are critical",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Developmental Milestones",
+          "body": "Milestones provide expected benchmarks for motor, language, social and cognitive progress. Variation is normal — but two key warning signs must prompt further assessment:",
+          "bullets": [
+            {
+              "label": "Developmental screening should be embedded in routine nursing assessment, not treated as a one-off event.",
+              "text": ""
+            },
+            {
+              "label": "Persistent Delay",
+              "text": ""
+            },
+            {
+              "label": "Failure to reach expected milestones within an accepted age range",
+              "text": ""
+            },
+            {
+              "label": "Regression",
+              "text": ""
+            },
+            {
+              "label": "Loss of skills a child had previously acquired — always investigate",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Communication & Therapeutic Play",
+          "body": "Simple Language",
+          "bullets": [
+            {
+              "label": "Use short sentences, concrete words and demonstrate before you do",
+              "text": ""
+            },
+            {
+              "label": "Therapeutic Play",
+              "text": ""
+            },
+            {
+              "label": "Play reduces fear, builds trust and helps children process procedures",
+              "text": ""
+            },
+            {
+              "label": "Offering Choices",
+              "text": ""
+            },
+            {
+              "label": "Limited, safe choices restore a sense of control and reduce distress",
+              "text": ""
+            },
+            {
+              "label": "Adolescent Care",
+              "text": ""
+            },
+            {
+              "label": "Offer privacy, respect and opportunities to speak independently",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Family-Centred Care",
+          "body": "Parents and carers are expert witnesses to their child's normal behaviour. Their knowledge is a clinical asset.",
+          "bullets": [
+            {
+              "label": "Value Observations",
+              "text": ""
+            },
+            {
+              "label": "Parental concern is clinically significant — listen and document",
+              "text": ""
+            },
+            {
+              "label": "Involve in Decisions",
+              "text": ""
+            },
+            {
+              "label": "Share information clearly and include families in care planning",
+              "text": ""
+            },
+            {
+              "label": "Support Comfort",
+              "text": ""
+            },
+            {
+              "label": "Encourage parents to remain present and provide comfort during procedures",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Putting It Into Practice",
+          "bullets": [
+            {
+              "label": "A four-year-old is frightened before a blood test.",
+              "text": ""
+            },
+            {
+              "label": "The nurse uses a doll to demonstrate the",
+              "text": "The nurse uses a doll to demonstrate the procedure, explains it in simple language, and allows the child to choose which arm to present. The parent remains nearby for reassurance."
+            },
+            {
+              "label": "Result: Reduced fear and improved cooperation.",
+              "text": ""
+            },
+            {
+              "label": "✓ Therapeutic Play",
+              "text": ""
+            },
+            {
+              "label": "✓ Child Choice",
+              "text": ""
+            },
+            {
+              "label": "✓ Family Presence",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Connection: Key Principles",
+          "body": "These concepts are high-yield for internationally qualified nurses preparing for the NCLEX examination.",
+          "bullets": [
+            {
+              "label": "Adapt communication to developmental stage",
+              "text": ""
+            },
+            {
+              "label": "Match vocabulary, explanation depth and interaction style to the child's age and ability",
+              "text": ""
+            },
+            {
+              "label": "Use play as a clinical communication tool",
+              "text": ""
+            },
+            {
+              "label": "Therapeutic play is an evidence-based nursing intervention, not optional enrichment",
+              "text": ""
+            },
+            {
+              "label": "Recognise delay and regression promptly",
+              "text": ""
+            },
+            {
+              "label": "Persistent delays or skill loss require escalation and multidisciplinary assessment",
+              "text": ""
+            },
+            {
+              "label": "Treat families as partners in care",
+              "text": ""
+            },
+            {
+              "label": "Family-centred care is a core competency — not a courtesy",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1 Complete",
+          "body": "Growth, Development & Family-Centred Care",
+          "bullets": [
+            {
+              "label": "You have covered the foundational principles of",
+              "text": "You have covered the foundational principles of paediatric nursing — from developmental milestones to the power of therapeutic play and family partnership."
+            },
+            {
+              "label": "Next Steps",
+              "text": ""
+            },
+            {
+              "label": "Proceed to Section 2 of GNPS Programme 7 to continue building your paediatric nursing competency",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Preparation",
+              "text": ""
+            },
+            {
+              "label": "Review practice questions aligned to child health and family-centred care domains",
+              "text": ""
+            },
+            {
+              "label": "GNPS · PROGRAMME 7 · LEVEL 1 QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Paediatric Assessment and Recognition of Deterioration",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 7 - Level 1 - Section 2 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Paediatric Assessment and Recognition of Deterioration",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 7 · Level 1 Qualified Nurse",
+          "bullets": [
+            {
+              "label": "SECTION 2",
+              "text": ""
+            },
+            {
+              "label": "PAEDIATRIC NURSING",
+              "text": ""
+            },
+            {
+              "label": "\"Every child deserves exceptional care.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Why Paediatric Assessment Is Different",
+          "body": "Children are not small adults. They compensate remarkably well for illness — then deteriorate suddenly and without warning. This makes early, systematic recognition a critical nursing skill.",
+          "bullets": [
+            {
+              "label": "Assessment must account for age-specific",
+              "text": "Assessment must account for age-specific physiology, developmental stage, and the child's ability to communicate distress."
+            },
+            {
+              "label": "Early recognition saves lives. The window for intervention is often narrow in paediatric patients.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Systematic Assessment",
+              "text": ""
+            },
+            {
+              "label": "Perform a structured, head-to-toe paediatric assessment with confidence",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Pain Assessment Tools",
+              "text": ""
+            },
+            {
+              "label": "Select and apply age-appropriate pain scoring tools accurately",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Respiratory & Hydration",
+              "text": ""
+            },
+            {
+              "label": "Recognise signs of respiratory distress and dehydration early",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Deterioration Recognition",
+              "text": ""
+            },
+            {
+              "label": "Identify early warning signs and escalate without delay",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Observation First — Before You Touch",
+          "body": "The most powerful assessment tool is your eyes. Before any physical examination, observe the child from a distance to gather vital information without causing distress.",
+          "bullets": [
+            {
+              "label": "Appearance",
+              "text": ""
+            },
+            {
+              "label": "Alert? Interactive? Floppy or unusually still?",
+              "text": ""
+            },
+            {
+              "label": "Breathing",
+              "text": ""
+            },
+            {
+              "label": "Visible effort? Nasal flaring? Abnormal posture?",
+              "text": ""
+            },
+            {
+              "label": "Colour",
+              "text": ""
+            },
+            {
+              "label": "Pale, mottled, flushed or cyanotic?",
+              "text": ""
+            },
+            {
+              "label": "Caregiver Response",
+              "text": ""
+            },
+            {
+              "label": "Does the child respond normally to the parent or carer?",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Vital Signs and Pain Assessment",
+          "body": "Age-Specific Normal Ranges",
+          "bullets": [
+            {
+              "label": "Heart rate, respiratory rate and blood pressure",
+              "text": "Heart rate, respiratory rate and blood pressure vary significantly with age. Always compare against age-appropriate reference ranges — adult norms do not apply."
+            },
+            {
+              "label": "Pain Tools When Words Fail",
+              "text": ""
+            },
+            {
+              "label": "FLACC — Infants and non-verbal children (Face, Legs, Activity, Cry, Consolability)",
+              "text": ""
+            },
+            {
+              "label": "Wong-Baker FACES — Children aged 3 and above",
+              "text": ""
+            },
+            {
+              "label": "CRIES — Neonatal post-operative pain scoring",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Airway and Breathing — A Priority Every Time",
+          "body": "Children have smaller, more vulnerable airways and significantly higher oxygen demands than adults. Any sign of respiratory compromise must be treated as urgent.",
+          "bullets": [
+            {
+              "label": "Stridor",
+              "text": ""
+            },
+            {
+              "label": "High-pitched noise on inspiration — indicates upper airway obstruction",
+              "text": ""
+            },
+            {
+              "label": "Grunting",
+              "text": ""
+            },
+            {
+              "label": "Expiratory grunting suggests alveolar collapse and severe distress",
+              "text": ""
+            },
+            {
+              "label": "Nasal Flaring",
+              "text": ""
+            },
+            {
+              "label": "Increased work of breathing — a key early warning sign",
+              "text": ""
+            },
+            {
+              "label": "Retractions",
+              "text": ""
+            },
+            {
+              "label": "Subcostal, intercostal or sternal — indicates significant respiratory effort",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Hydration and Neurological Status",
+          "body": "What to Look For",
+          "bullets": [
+            {
+              "label": "Hydration assessment in children relies on multiple clinical cues together. No single sign is sufficient alone.",
+              "text": ""
+            },
+            {
+              "label": "Neurological Red Flags",
+              "text": ""
+            },
+            {
+              "label": "Irritability or inconsolable crying",
+              "text": ""
+            },
+            {
+              "label": "Lethargy — reduced response to stimulation",
+              "text": ""
+            },
+            {
+              "label": "Seizures — especially without fever history",
+              "text": ""
+            },
+            {
+              "label": "Altered consciousness — AVPU scale",
+              "text": ""
+            },
+            {
+              "label": "A child who is unusually quiet or difficult to rouse is a serious concern.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "The Systematic Paediatric Assessment Framework",
+          "body": "Observe",
+          "bullets": [
+            {
+              "label": "Behaviour, colour, breathing from distance",
+              "text": ""
+            },
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Vital signs, pain score, airway status",
+              "text": ""
+            },
+            {
+              "label": "Evaluate",
+              "text": ""
+            },
+            {
+              "label": "Hydration, neuro status, feeding ability",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Recognise deterioration, request urgent review",
+              "text": ""
+            },
+            {
+              "label": "A consistent, stepwise approach ensures no",
+              "text": "A consistent, stepwise approach ensures no critical findings are missed — even under pressure. Move through each step methodically, escalating at any point if deterioration is identified."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Infant with Bronchiolitis",
+          "body": "The Scenario",
+          "bullets": [
+            {
+              "label": "An infant with known bronchiolitis becomes",
+              "text": "An infant with known bronchiolitis becomes quieter and less interested in feeding. The nurse notices a change from the child's earlier behaviour."
+            },
+            {
+              "label": "Signs Observed",
+              "text": ""
+            },
+            {
+              "label": "Nasal flaring on inspiration",
+              "text": ""
+            },
+            {
+              "label": "Visible chest retractions",
+              "text": ""
+            },
+            {
+              "label": "Reduced number of wet nappies",
+              "text": ""
+            },
+            {
+              "label": "Decreased responsiveness to caregiver",
+              "text": ""
+            },
+            {
+              "label": "Clinical Reasoning",
+              "text": ""
+            },
+            {
+              "label": "The combination of behavioural change,",
+              "text": "The combination of behavioural change, increased respiratory effort, and reduced urine output indicates deterioration — not simply a quieter phase of illness."
+            },
+            {
+              "label": "Action Taken",
+              "text": ""
+            },
+            {
+              "label": "The nurse escalates immediately and requests an",
+              "text": "The nurse escalates immediately and requests an urgent medical review. Early escalation prevents a potentially life-threatening event."
+            },
+            {
+              "label": "Trust your clinical instincts. A child who seems \"not quite right\" warrants prompt review.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Carry these principles into every paediatric assessment you perform:",
+          "bullets": [
+            {
+              "label": "Observe Before You Examine",
+              "text": ""
+            },
+            {
+              "label": "Behaviour, colour and breathing from a distance reveal critical information before you approach the child.",
+              "text": ""
+            },
+            {
+              "label": "Always Use Age-Specific Ranges",
+              "text": ""
+            },
+            {
+              "label": "Vital sign norms change with age. Adult reference values are not appropriate for children.",
+              "text": ""
+            },
+            {
+              "label": "Respiratory Distress Is Always Urgent",
+              "text": ""
+            },
+            {
+              "label": "Any signs of increased work of breathing require immediate assessment and prompt escalation.",
+              "text": ""
+            },
+            {
+              "label": "Poor Feeding and Reduced Output Are Red Flags",
+              "text": ""
+            },
+            {
+              "label": "These subtle cues often precede visible deterioration — never dismiss them as insignificant.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Nursing Care for Common Childhood Conditions",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 7 - Level 1 - Section 3 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Caring for Children and Families: Paediatric Nursing",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 7 · Level 1 Qualified Nurse",
+          "bullets": [
+            {
+              "label": "SECTION 3: NURSING CARE FOR COMMON CHILDHOOD CONDITIONS",
+              "text": ""
+            },
+            {
+              "label": "\"Every child deserves exceptional care.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Introduction",
+          "body": "Children frequently require nursing care for a range of conditions affecting the respiratory, cardiac, gastrointestinal, neurological, and endocrine systems.",
+          "bullets": [
+            {
+              "label": "Safe, effective paediatric nursing combines three core principles:",
+              "text": ""
+            },
+            {
+              "label": "Early Recognition",
+              "text": ""
+            },
+            {
+              "label": "Identify deterioration before it escalates",
+              "text": ""
+            },
+            {
+              "label": "Evidence-Based Intervention",
+              "text": ""
+            },
+            {
+              "label": "Apply current clinical guidelines consistently",
+              "text": ""
+            },
+            {
+              "label": "Family-Centred Support",
+              "text": ""
+            },
+            {
+              "label": "Include the child and family throughout care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Describe Priority Care",
+              "text": ""
+            },
+            {
+              "label": "Outline appropriate nursing care for common childhood illnesses across key body systems",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Recognise Red-Flag Symptoms",
+              "text": ""
+            },
+            {
+              "label": "Identify clinical warning signs that require immediate escalation",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Monitor Treatment Response",
+              "text": ""
+            },
+            {
+              "label": "Track vital signs and clinical indicators to evaluate effectiveness of interventions",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Support Children and Families",
+              "text": ""
+            },
+            {
+              "label": "Provide holistic, compassionate support during acute illness episodes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Respiratory Conditions",
+          "body": "Conditions such as asthma, bronchiolitis, croup, pneumonia and cystic fibrosis can significantly impair a child's breathing and oxygenation.",
+          "bullets": [
+            {
+              "label": "Airway Assessment",
+              "text": ""
+            },
+            {
+              "label": "Continuously assess work of breathing, respiratory rate, and oxygen saturation",
+              "text": ""
+            },
+            {
+              "label": "Positioning & Oxygen",
+              "text": ""
+            },
+            {
+              "label": "Upright positioning and prescribed supplemental oxygen to optimise airway patency",
+              "text": ""
+            },
+            {
+              "label": "Inhaled Treatments",
+              "text": ""
+            },
+            {
+              "label": "Administer bronchodilators and nebulised medications as prescribed and monitor response",
+              "text": ""
+            },
+            {
+              "label": "Hydration & Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Maintain adequate hydration and monitor closely for signs of respiratory fatigue",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Cardiac Conditions",
+          "body": "Congenital heart disease and heart failure in children may present subtly. Nurses must recognise early clinical indicators and adapt care accordingly.",
+          "bullets": [
+            {
+              "label": "Key Presentations to Recognise",
+              "text": ""
+            },
+            {
+              "label": "Activity and feeding may need to be paced to reduce cardiac workload.",
+              "text": ""
+            },
+            {
+              "label": "Poor feeding and failure to gain weight",
+              "text": ""
+            },
+            {
+              "label": "Diaphoresis (sweating) during feeds or activity",
+              "text": ""
+            },
+            {
+              "label": "Cyanosis — central or peripheral discolouration",
+              "text": ""
+            },
+            {
+              "label": "Respiratory difficulty with reduced activity tolerance",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Gastrointestinal Conditions",
+          "body": "Gastroenteritis and dehydration are among the most common presentations in paediatric nursing. Accurate assessment distinguishes routine illness from surgical emergency.",
+          "bullets": [
+            {
+              "label": "Common — Manage Promptly",
+              "text": ""
+            },
+            {
+              "label": "Gastroenteritis",
+              "text": ""
+            },
+            {
+              "label": "Oral or IV rehydration, monitor fluid balance and output",
+              "text": ""
+            },
+            {
+              "label": "Dehydration",
+              "text": ""
+            },
+            {
+              "label": "Assess skin turgor, fontanel, mucous membranes and urine output",
+              "text": ""
+            },
+            {
+              "label": "Red Flags — Escalate Urgently",
+              "text": ""
+            },
+            {
+              "label": "Bilious (green) vomiting",
+              "text": ""
+            },
+            {
+              "label": "Currant-jelly stool",
+              "text": ""
+            },
+            {
+              "label": "Severe abdominal pain",
+              "text": ""
+            },
+            {
+              "label": "Distended abdomen",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Neurological & Endocrine Conditions",
+          "body": "Seizures, meningitis, type 1 diabetes, and diabetic ketoacidosis (DKA) all require rapid, structured assessment and prompt escalation.",
+          "bullets": [
+            {
+              "label": "Seizures",
+              "text": ""
+            },
+            {
+              "label": "Maintain airway, time the seizure, administer rescue medication as prescribed",
+              "text": ""
+            },
+            {
+              "label": "Meningitis",
+              "text": ""
+            },
+            {
+              "label": "Non-blanching rash, bulging fontanel or neck stiffness — escalate immediately",
+              "text": ""
+            },
+            {
+              "label": "Type 1 Diabetes / DKA",
+              "text": ""
+            },
+            {
+              "label": "Deep (Kussmaul) breathing, altered consciousness and fruity breath are urgent signs",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Recognising DKA",
+          "body": "CASE STUDY",
+          "bullets": [
+            {
+              "label": "A school-age child with known type 1 diabetes",
+              "text": "A school-age child with known type 1 diabetes presents with vomiting, abdominal pain, deep (Kussmaul) breathing and increasing drowsiness."
+            },
+            {
+              "label": "Nursing Response",
+              "text": ""
+            },
+            {
+              "label": "Delayed recognition of DKA can lead to rapid deterioration — act early.",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Check blood glucose and ketone levels immediately",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise clinical picture as possible diabetic ketoacidosis",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Activate urgent medical team and initiate DKA protocol",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Red-Flag Symptoms: Know When to Escalate",
+          "body": "Prompt escalation of red-flag symptoms is a professional and ethical responsibility. When in doubt — speak up, escalate early, document clearly.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Know the Red Flags",
+              "text": ""
+            },
+            {
+              "label": "Memorise warning signs across respiratory, cardiac, GI, neurological and endocrine systems",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Monitor Closely",
+              "text": ""
+            },
+            {
+              "label": "Continuously assess breathing, hydration status and level of consciousness",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Escalate Early",
+              "text": ""
+            },
+            {
+              "label": "Bilious vomiting, non-blanching rash or altered consciousness require immediate action",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Support the Whole Family",
+              "text": ""
+            },
+            {
+              "label": "Effective paediatric care includes compassionate, clear communication with parents and carers",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Tip: Questions on paediatric conditions",
+              "text": "NCLEX Tip: Questions on paediatric conditions often test your ability to prioritise and escalate — practise identifying the single most urgent nursing action."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Medication Safety, Nutrition and Child Protection",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 7 - Level 1 - Section 4 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Paediatric Nursing: Medication Safety, Nutrition & Child Protection",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 7 · Level 1 · Section 4",
+          "bullets": [
+            {
+              "label": "QUALIFIED NURSE",
+              "text": ""
+            },
+            {
+              "label": "NCLEX PREPARATION",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be equipped to deliver safe, evidence-based paediatric care across four critical domains.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "Apply weight-based dosing principles accurately and safely",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Nutrition & Hydration",
+              "text": ""
+            },
+            {
+              "label": "Assess growth, feeding and nutritional status at every stage",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Injury Prevention",
+              "text": ""
+            },
+            {
+              "label": "Promote age-appropriate safety strategies within family education",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Safeguarding",
+              "text": ""
+            },
+            {
+              "label": "Recognise and report signs of abuse or neglect through approved pathways",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Medication Safety: Getting the Dose Right",
+          "body": "In paediatric nursing, small errors carry serious consequences. Weight-based dosing requires precision at every step.",
+          "bullets": [
+            {
+              "label": "Confirm Weight in Kilograms",
+              "text": ""
+            },
+            {
+              "label": "Always verify the child's current weight in kg",
+              "text": "Always verify the child's current weight in kg before any calculation. Never estimate or rely on recorded values without checking."
+            },
+            {
+              "label": "Check All Parameters",
+              "text": ""
+            },
+            {
+              "label": "Dose, concentration, route, frequency and maximum safe dose must all be verified — even for familiar medicines.",
+              "text": ""
+            },
+            {
+              "label": "Independent Verification",
+              "text": ""
+            },
+            {
+              "label": "High-risk paediatric medicines require a second",
+              "text": "High-risk paediatric medicines require a second qualified nurse to independently check the calculation prior to administration."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: A Near-Miss Prevented",
+          "body": "CASE STUDY",
+          "bullets": [
+            {
+              "label": "The Situation",
+              "text": ""
+            },
+            {
+              "label": "A toddler was prescribed a weight-based",
+              "text": "A toddler was prescribed a weight-based medication. The nurse identified that the recorded weight had been entered in pounds rather than kilograms — a critical unit error."
+            },
+            {
+              "label": "The Action",
+              "text": ""
+            },
+            {
+              "label": "Administration was immediately paused. The",
+              "text": "Administration was immediately paused. The child was reweighed, and the dose was correctly recalculated from the verified weight in kilograms."
+            },
+            {
+              "label": "The Outcome",
+              "text": ""
+            },
+            {
+              "label": "A potentially serious overdose was prevented through diligent checking — a reminder that verification saves lives.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Nutrition & Growth Across Childhood",
+          "body": "Nutritional needs evolve significantly from infancy through adolescence. Ongoing assessment ensures every child grows and thrives.",
+          "bullets": [
+            {
+              "label": "Infancy",
+              "text": ""
+            },
+            {
+              "label": "Breast milk or formula is the sole nutrition",
+              "text": "Breast milk or formula is the sole nutrition source. Monitor feeding frequency, weight gain and latch or bottle tolerance."
+            },
+            {
+              "label": "Toddler & Preschool",
+              "text": ""
+            },
+            {
+              "label": "Introduction of solid foods and family meals. Watch for fussy eating, iron deficiency and appropriate portion sizes.",
+              "text": ""
+            },
+            {
+              "label": "School Age",
+              "text": ""
+            },
+            {
+              "label": "Balanced diet supports learning and growth. Screen for undernutrition, obesity and disordered eating early.",
+              "text": ""
+            },
+            {
+              "label": "Adolescence",
+              "text": ""
+            },
+            {
+              "label": "Rapid growth demands increased nutrients.",
+              "text": "Rapid growth demands increased nutrients. Assess for eating disorders, skipped meals and peer-influenced dietary choices."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Assessing Nutrition & Growth",
+          "body": "Key Assessment Tools",
+          "bullets": [
+            {
+              "label": "Growth charts: Plot weight, height and BMI against age-appropriate centile lines",
+              "text": ""
+            },
+            {
+              "label": "Dietary history: Explore meal patterns, variety, portion size and appetite changes",
+              "text": ""
+            },
+            {
+              "label": "Feeding observation: Directly observe feeding to detect swallowing difficulties or aversion",
+              "text": ""
+            },
+            {
+              "label": "Hydration markers: Assess skin turgor, mucous membranes, urine output and fontanelle in infants",
+              "text": ""
+            },
+            {
+              "label": "Identify undernutrition, obesity or feeding difficulty early — they all impact long-term development.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Injury Prevention: Tailored to Age & Development",
+          "body": "Accidents are the leading cause of childhood injury. Nurses play a vital role in educating families on age-specific hazards.",
+          "bullets": [
+            {
+              "label": "Safe Sleep",
+              "text": ""
+            },
+            {
+              "label": "Back position, firm mattress, no loose bedding — reduces sudden infant death risk",
+              "text": ""
+            },
+            {
+              "label": "Car Restraints",
+              "text": ""
+            },
+            {
+              "label": "Age and weight-appropriate seats, correctly fitted and rear-facing for infants",
+              "text": ""
+            },
+            {
+              "label": "Water Safety",
+              "text": ""
+            },
+            {
+              "label": "Constant adult supervision near water; pool fencing; no unsupervised bathing",
+              "text": ""
+            },
+            {
+              "label": "Poison Storage",
+              "text": ""
+            },
+            {
+              "label": "Medicines, cleaning products and chemicals stored out of reach, in locked cabinets",
+              "text": ""
+            },
+            {
+              "label": "Burn Prevention",
+              "text": ""
+            },
+            {
+              "label": "Hot liquid safety, stove guards, smoke alarms and sun protection tailored to age",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Safeguarding: Recognising Abuse & Neglect",
+          "body": "Warning Signs to Recognise",
+          "bullets": [
+            {
+              "label": "Physical Indicators",
+              "text": ""
+            },
+            {
+              "label": "Injuries inconsistent with explanation; unusual bruising patterns; multiple injuries at different healing stages",
+              "text": ""
+            },
+            {
+              "label": "Behavioural Indicators",
+              "text": ""
+            },
+            {
+              "label": "Fearfulness, withdrawal, regression in development; excessive hunger or fatigue",
+              "text": ""
+            },
+            {
+              "label": "Neglect Indicators",
+              "text": ""
+            },
+            {
+              "label": "Poor hygiene, inadequate clothing, delayed presentation for care, failure to thrive",
+              "text": ""
+            },
+            {
+              "label": "Caregiver Behaviour",
+              "text": ""
+            },
+            {
+              "label": "Inconsistent explanations, indifference, hostility, or avoiding healthcare contact",
+              "text": ""
+            },
+            {
+              "label": "Nurses have a mandatory legal and professional",
+              "text": "Nurses have a mandatory legal and professional duty to report safeguarding concerns through approved organisational pathways — never ignore your instinct."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "The Safeguarding Reporting Pathway",
+          "body": "Identify",
+          "bullets": [
+            {
+              "label": "Recognise signs and document observations.",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Inform senior nurse or safeguarding lead.",
+              "text": ""
+            },
+            {
+              "label": "Report",
+              "text": ""
+            },
+            {
+              "label": "Submit referral via approved channel.",
+              "text": ""
+            },
+            {
+              "label": "Follow Up",
+              "text": ""
+            },
+            {
+              "label": "Maintain records and support the child.",
+              "text": ""
+            },
+            {
+              "label": "Acting promptly and following your",
+              "text": "Acting promptly and following your organisation's safeguarding protocol protects the child and ensures the nurse meets all legal obligations under child protection legislation."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "🔢 Use Kilograms",
+          "bullets": [
+            {
+              "label": "Always confirm weight in kg. Unit errors are a leading cause of paediatric medication harm.",
+              "text": ""
+            },
+            {
+              "label": "✅ Double-Check Doses",
+              "text": ""
+            },
+            {
+              "label": "Independent verification of high-risk and weight-based doses is non-negotiable.",
+              "text": ""
+            },
+            {
+              "label": "🥦 Assess Nutrition",
+              "text": ""
+            },
+            {
+              "label": "Use growth charts, dietary history and feeding observation across all developmental stages.",
+              "text": ""
+            },
+            {
+              "label": "🛡️ Educate Families",
+              "text": ""
+            },
+            {
+              "label": "Include age-appropriate injury prevention in every family education opportunity.",
+              "text": ""
+            },
+            {
+              "label": "📢 Report Concerns",
+              "text": ""
+            },
+            {
+              "label": "Follow approved safeguarding pathways. Early reporting protects children and supports families.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    }
+  ]
+}

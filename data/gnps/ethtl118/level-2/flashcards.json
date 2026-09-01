@@ -1,0 +1,1264 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What is the primary objective for an International Qualified Nurse regarding clinical trends and laboratory results?",
+      "back": "To interpret them within the specific context of the patient's condition."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "According to Section 1, how should nurses prioritize care for patients with multiple health problems?",
+      "back": "Based on risk rather than convenience or routine."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "What specific framework is recommended to help organize an urgent clinical assessment?",
+      "back": "The ABCDE framework."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Besides system-specific needs, what two other categories must a complete nursing assessment explore?",
+      "back": "Functional and psychosocial needs."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What is the professional relationship between structured assessment tools and clinical judgement?",
+      "back": "Tools support consistency but do not replace professional clinical judgement."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "In a patient with multiple chronic illnesses, what five factors should a nurse evaluate for potential interactions?",
+      "back": "Disease, medication, fluid status, nutrition, and function."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "Identify three chronic conditions that frequently occur simultaneously in adult patients according to the text.",
+      "back": "Heart failure, chronic kidney disease, and diabetes."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Which three physiological systems form the top of the priority framework for determining urgency?",
+      "back": "Airway, breathing, and circulation."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "When determining urgency, how are acute findings categorized in relation to chronic ones?",
+      "back": "Acute findings take priority over chronic findings."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "In clinical prioritization, how do unstable findings compare to stable findings in terms of urgency?",
+      "back": "Unstable findings take higher priority than stable findings."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Which finding is considered more urgent: an expected finding or an unexpected finding?",
+      "back": "An unexpected finding."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "What clinical event always takes priority over routine care tasks?",
+      "back": "New deterioration."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "What does the acronym ISBAR stand for in clinical communication?",
+      "back": "Situation, Background, Assessment, and Recommendation."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Under what condition must a nurse continue the escalation process for a patient?",
+      "back": "When the response received does not match the patient's level of urgency."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "In the Section 1 clinical example, what were the four key assessment findings for the 'confused' patient?",
+      "back": "New confusion, fever, low $O_{2}$ saturation, and reduced urine output."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "In the sepsis clinical example, what specific action did the nurse take after identifying deterioration signs?",
+      "back": "Initiated the local deterioration pathway."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "Why did the nurse in the clinical example use an urgent ISBAR rather than accepting the confusion as age-related?",
+      "back": "The confusion was new and accompanied by other signs of physiological instability."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Cloze: Prioritisation in international healthcare must be based on _____, not convenience or routine.",
+      "back": "Risk"
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "Cloze: A nursing assessment tool supports consistency but does not replace _____.",
+      "back": "Clinical judgement"
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "What is the primary risk of polypharmacy in patients with multiple chronic illnesses?",
+      "back": "The increased risk of interactions between medications and existing diseases."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "What is the 'S' in the ISBAR framework?",
+      "back": "Situation"
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "What is the 'B' in the ISBAR framework?",
+      "back": "Background"
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "What is the 'A' in the ISBAR framework?",
+      "back": "Assessment"
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "What is the 'R' in the ISBAR framework?",
+      "back": "Recommendation"
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "What is the primary purpose of using the ISBAR framework during escalation?",
+      "back": "To communicate urgent concerns clearly enough for others to act."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "How should a nurse approach the treatment of one condition in a patient with comorbidities?",
+      "back": "By identifying how the treatment might affect the patient's other conditions."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "What constitutes a 'complete' nursing assessment according to Section 1?",
+      "back": "A combination of structured tools, system-specific, functional, and psychosocial evaluations."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "What is a key learning point regarding the frequency of escalation?",
+      "back": "Escalate until an appropriate response occurs."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "Why are 'new' findings prioritized in the priority framework?",
+      "back": "They indicate a change from the baseline that may signify deterioration."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "In the clinical example, what did 'reduced urine output' signify to the nurse?",
+      "back": "Possible sepsis or organ dysfunction."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Define 'functional needs' as part of a nursing assessment.",
+      "back": "The patient's physical ability to perform daily tasks and maintain mobility."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "Define 'psychosocial needs' in the context of international nursing practice.",
+      "back": "The mental, emotional, and social factors that influence a patient's health and recovery."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "What is a 'system-specific' assessment?",
+      "back": "A focused evaluation of a particular body system, such as the respiratory or renal system."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "How does the text define the nurse's role in the multidisciplinary team regarding patient risk?",
+      "back": "Nurses must explain why a patient is at risk and justify care priorities."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "What should a nurse do when a patient has altered communication and multiple chronic illnesses?",
+      "back": "Combine structured assessment tools with professional clinical judgement."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "Concept: Priority Frameworks",
+      "back": "Definition: Systems used to determine the urgency of care based on stability, change, and vital functions."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "Cloze: A patient with heart failure, CKD, and diabetes simultaneously is an example of _____.",
+      "back": "Comorbidity"
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "What is the intended outcome of Section 1: Advanced Assessment & Prioritisation?",
+      "back": "The ability to interpret trends and communicate urgent concerns using structured escalation."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "In the priority framework, how are findings of 'expected' recovery categorized?",
+      "back": "They are lower priority than 'unexpected' findings that suggest complications."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "What is the first step in the ABCDE framework?",
+      "back": "Assessment of the Airway."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "What is the 'B' in the ABCDE framework?",
+      "back": "Breathing."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "What is the 'C' in the ABCDE framework?",
+      "back": "Circulation."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "Why is 'fever' a critical finding in a confused older patient according to the clinical example?",
+      "back": "It is a systemic sign of infection that points toward a diagnosis of sepsis."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "How does Section 1 define the purpose of structured assessment frameworks?",
+      "back": "To organize urgent assessments and support clinical consistency."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Cloze: Treatment for one condition may affect another; therefore, nurses must monitor _____ status.",
+      "back": "Fluid"
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "What should a nurse evaluate if a patient's expected recovery is not occurring?",
+      "back": "Interpret the clinical trends and escalate concerns clearly."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "How do 'unstable' findings affect the nursing workload priority?",
+      "back": "They must be addressed immediately before routine or stable care tasks."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "In the sepsis case study, what did the low $O_{2}$ saturation indicate about the patient's priority?",
+      "back": "A high-priority compromise of the 'Breathing' component of the ABCDE framework."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "What is a nurse's responsibility when an escalation response is inadequate?",
+      "back": "To continue escalating the concern until the patient's urgency is appropriately met."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "Cloze: Adult patients in international systems often present with _____, requiring careful medication management.",
+      "back": "Polypharmacy"
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "What does 'interpreting trends' mean in the context of diagnostic information?",
+      "back": "Comparing current results to previous data to identify patterns of improvement or decline."
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "What is the ultimate goal of the Level 2 GNPS Program?",
+      "back": "To provide safe, evidence-informed care for adults with complex medical and surgical needs."
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "Concept: Structured Escalation",
+      "back": "Definition: The use of standardized tools like ISBAR to communicate deteriorating patient conditions to the medical team."
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "In the context of comorbidities, why is 'nutrition' a factor for nursing assessment?",
+      "back": "Nutritional needs for one disease may conflict with the restrictions required for another."
+    },
+    {
+      "id": "fc-55",
+      "section": 1,
+      "front": "What is the significance of 'clinical judgement' in international nursing?",
+      "back": "It allows nurses to move beyond tasks to explain why a patient is at risk."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "What must a nurse anticipate when managing complex adult medical-surgical care?",
+      "back": "Potential complications."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "What two elements should a nurse evaluate to ensure patient safety in complex care?",
+      "back": "Treatment response and expected recovery."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "International practice in complex care emphasizes evidence-based pathways, timely review, and clear _____.",
+      "back": "Accountability"
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "Which three areas require careful management in patients with combined cardiac and respiratory disease?",
+      "back": "Oxygen, fluid, and activity."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "What action should a nurse take when a patient with complex disease experiences breathlessness?",
+      "back": "Assess for several possible causes rather than assuming one."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "How does renal impairment affect a patient's medication profile?",
+      "back": "It reduces medication clearance."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "Name three factors that contribute to unstable glucose levels in a clinical setting.",
+      "back": "Diabetes, fasting, and acute illness."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "On what specific criteria should a nurse base a patient's monitoring plan?",
+      "back": "The individual patient's risk."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "Identify three perioperative risk factors related to patient physiology or habits.",
+      "back": "Older age, frailty, and obesity."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "Identify three perioperative risk factors related to medical history or treatment.",
+      "back": "Smoking, anticoagulation, and multiple conditions."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "What is the nurse's responsibility regarding perioperative prevention pathways?",
+      "back": "To understand their purpose and individualise care."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "What clinical phenomenon is signaled by persistent pain or inability to mobilise post-surgery?",
+      "back": "Failure to progress."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "Which cardiovascular sign may signal a postoperative complication even after pain relief?",
+      "back": "Ongoing tachycardia."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "Name two functional or systemic indicators of a postoperative complication.",
+      "back": "Poor intake and delayed bowel function."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "How should expected postoperative findings ideally change during a patient's stay?",
+      "back": "They should improve over time."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "When should a nurse adapt a patient's care plan during the recovery phase?",
+      "back": "When expected recovery is not occurring."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "What do worsening or unexpected postoperative patterns require from the clinical team?",
+      "back": "Urgent review."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "Clinical Example: A postoperative patient has tachycardia, abdominal distension, and reduced urine output. What is the priority nursing action?",
+      "back": "Escalate for urgent surgical assessment."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Why should a nurse avoid attributing all new symptoms to a patient's known diagnosis?",
+      "back": "To ensure they do not miss emerging complications."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What should a nurse use as a benchmark to evaluate if a patient is recovering correctly?",
+      "back": "The expected recovery trajectory."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Under what two conditions must a nurse escalate clinical abnormalities?",
+      "back": "When they are persistent or unexplained."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "Renal impairment primarily affects fluid balance, electrolytes, and _____.",
+      "back": "Medication clearance"
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "Concept: Failure to Progress",
+      "back": "Definition: A state where postoperative recovery indicators (like mobility or bowel function) do not follow the expected improvement pattern."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "A nurse coordinating multiple interventions for a complex adult must ensure timely _____.",
+      "back": "Review"
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "In a postoperative context, what does abdominal distension combined with low urine output suggest?",
+      "back": "A failure to follow the expected recovery pattern."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "Nursing Action: Do not attribute all symptoms to _____.",
+      "back": "One known diagnosis"
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "Nursing Action: Adjust monitoring to _____.",
+      "back": "Individual risk"
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "Nursing Action: Compare recovery with the _____.",
+      "back": "Expected trajectory"
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Nursing Action: Escalate persistent or _____.",
+      "back": "Unexplained abnormalities"
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "In international practice, nurses must move beyond tasks to explain why a patient is _____.",
+      "back": "At risk"
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "What must a nurse justify when communicating in an international healthcare environment?",
+      "back": "Priorities"
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "What is the consequence of older age and frailty on surgical outcomes?",
+      "back": "Increased surgical risk."
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "Why is 'activity management' specifically mentioned for cardiac and respiratory patients?",
+      "back": "Because activity level affects oxygen demand and fluid strain."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "What metabolic risk is specifically associated with a patient being 'nil by mouth' (fasting)?",
+      "back": "Unstable glucose levels."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "Which physiological system is most affected by anticoagulation during surgery?",
+      "back": "The circulatory system (increased surgical risk)."
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "In the provided clinical example, which areas were reviewed before escalating the tachycardic patient?",
+      "back": "Observations, fluid balance, wound, and abdomen."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "True or False: Expected postoperative findings should worsen before they improve.",
+      "back": "False."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "What are the four components of managing complex adult care?",
+      "back": "Anticipate complications, evaluate response, coordinate interventions, and adapt care."
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "Which outcome involves recognizing when expected recovery is not occurring?",
+      "back": "Adapting care."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "Why is 'clear accountability' vital in multidisciplinary complex care?",
+      "back": "To ensure recovery patterns are monitored and abnormalities are escalated correctly."
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "List two factors that increase metabolic risk in acutely ill patients.",
+      "back": "Diabetes and fasting."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "What is the specific risk of obesity in the perioperative period?",
+      "back": "Increased surgical risk."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "Failure to Progress: Persistent _____ despite medication.",
+      "back": "Pain"
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "Failure to Progress: Inability to _____ safely.",
+      "back": "Mobilise"
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "Failure to Progress: Ongoing _____ regardless of comfort measures.",
+      "back": "Tachycardia"
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "Failure to Progress: Poor _____ of food or fluids.",
+      "back": "Intake"
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "Failure to Progress: Delayed _____ function.",
+      "back": "Bowel"
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "When a nurse recognizes a recovery pattern is not following the expected path, they must _____.",
+      "back": "Escalate"
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "What should a nurse investigate if a patient is breathless and has both heart and lung disease?",
+      "back": "Assess for several causes instead of assuming one."
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "What is the primary purpose of individualizing monitoring plans?",
+      "back": "To reflect the specific risks of the individual patient."
+    },
+    {
+      "id": "fc-106",
+      "section": 3,
+      "front": "In international healthcare, multidisciplinary collaboration is guided by the patient's goals and clearly defined _____.",
+      "back": "responsibilities"
+    },
+    {
+      "id": "fc-107",
+      "section": 3,
+      "front": "Name one of the professional roles, besides doctors and nurses, that an International Qualified Nurse coordinates with.",
+      "back": "Pharmacists (or Physiotherapists, Dietitians, OTs, Social Workers, Community teams)"
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "Nurses are responsible for coordinating information across different professions and _____ to ensure safety.",
+      "back": "shifts"
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "What type of handover is considered insufficient for clinical safety?",
+      "back": "A list of tasks without clinical meaning."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "Which component of a handover describes the patient's most recent developments?",
+      "back": "Recent changes"
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "In clinical handover, what must be highlighted regarding the patient's current medical status?",
+      "back": "Diagnosis and current condition"
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "What specific information about medical tests should be included in a concise handover?",
+      "back": "Pending results"
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "Besides clinical findings, what 'forward-looking' information must a handover contain?",
+      "back": "Required actions"
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "Why is it essential to highlight risks during a clinical handover?",
+      "back": "To make them visible for continuity and safety."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "Clinical handover should include the patient's response to _____.",
+      "back": "treatment"
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "Nursing records must show assessment findings and the nurse's clinical _____.",
+      "back": "reasoning"
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "What three sequential elements must documentation capture following an assessment?",
+      "back": "Action, escalation, and response."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "Documentation must be written in _____ language to support communication and legal accountability.",
+      "back": "objective"
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "What final element should be included in documentation after an action and response are recorded?",
+      "back": "The ongoing plan"
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "Why are transfer and discharge considered critical phases in patient care?",
+      "back": "They are high-risk periods for safety."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "The process of ensuring a patient's drug list is accurate during discharge is called medication _____.",
+      "back": "reconciliation"
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "Name one physical care requirement that must be addressed before a patient leaves the hospital.",
+      "back": "Mobility needs (or wound care)"
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "What logistical arrangements must be confirmed before a patient is safely discharged?",
+      "back": "Equipment, transport, and support at home."
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "According to the clinical example, what functional barrier prevented an older patient's immediate discharge?",
+      "back": "Inability to safely manage stairs."
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "In the case of a patient with functional barriers, where should the nurse raise their concerns?",
+      "back": "During the multidisciplinary meeting."
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "Safe discharge is based on medical stability and _____.",
+      "back": "function"
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "Which two specific MDT members should be involved if a patient cannot safely manage stairs at home?",
+      "back": "Physiotherapy and social work."
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "Key Learning Point: Around what should a nurse coordinate multidisciplinary care?",
+      "back": "The patient's goals."
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "Key Learning Point: Documentation should specifically record what _____ and how the nurse responded.",
+      "back": "changed"
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "Key Learning Point: What two factors must be assessed before a patient is discharged?",
+      "back": "Function and support."
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "What is the primary goal of objective documentation in a healthcare setting?",
+      "back": "To support communication and legal accountability."
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "A list of tasks in a handover is insufficient because it lacks clinical _____.",
+      "back": "meaning"
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "Which MDT member primarily assists with home safety assessments and social support plans?",
+      "back": "Social worker"
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "Nurses ensure _____ of care by documenting assessment, reasoning, action, and response.",
+      "back": "continuity"
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "The clinical example highlights that being 'medically ready' is _____ for a safe discharge.",
+      "back": "insufficient"
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "Handover Term: Diagnosis",
+      "back": "Definition: The identified medical condition that must be highlighted to provide clinical context during shift changes."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "What should be documented regarding the outcome of an escalation?",
+      "back": "The response (to the escalation)."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Who coordinates follow-up and community-based support for a discharging patient?",
+      "back": "Community teams"
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "A discharge plan is incomplete if it does not address the patient's _____ at home.",
+      "back": "support"
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "Nurses must coordinate information across professions to ensure patient _____.",
+      "back": "safety"
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "What type of handover focus is required to ensure current risks are visible?",
+      "back": "Risk-focused handover."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "In the clinical example, the nurse documented a _____ plan after raising functional concerns.",
+      "back": "revised"
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "Documentation: Assessment findings",
+      "back": "Purpose: To provide an objective baseline of the patient's status for the medical record."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Documentation: Clinical reasoning",
+      "back": "Purpose: To explain the 'why' behind nursing actions and decisions."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "Documentation: Ongoing plan",
+      "back": "Purpose: To guide future shifts and ensure continuity of care."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "During transitions of care, what must be arranged regarding the patient's future medical appointments?",
+      "back": "Follow-up"
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "Which MDT member focuses specifically on the patient's ability to perform activities of daily living at home?",
+      "back": "Occupational therapist"
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "A handover that lacks clinical meaning fails to convey the patient's _____.",
+      "back": "risks (or condition/needs)"
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "Effective documentation of an escalation includes the reason for the call and the _____ provided by the medical team.",
+      "back": "response"
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "What must a nurse assess regarding a patient's residence before discharge?",
+      "back": "Function (e.g., stairs) and support at home."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "True or False: Handover is primarily a list of tasks for the next nurse to complete.",
+      "back": "False (it must include clinical meaning and risks)."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "What should be documented if a patient's condition changes and a doctor is called?",
+      "back": "Escalation and response."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "Discharge planning must address the need for _____ to help the patient move safely.",
+      "back": "equipment"
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "Multidisciplinary collaboration should be guided by clearly defined _____.",
+      "back": "responsibilities"
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "Why is 'recent changes' a vital part of a concise handover?",
+      "back": "It alerts the next shift to the patient's current trajectory."
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "In documentation, what follows the 'action' taken by the nurse?",
+      "back": "Escalation (if necessary) or response."
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "What is the risk of using subjective language in nursing records?",
+      "back": "It reduces legal accountability and clarity in communication."
+    },
+    {
+      "id": "fc-158",
+      "section": 3,
+      "front": "Safe discharge evaluation: Medical stability",
+      "back": "Definition: The status of the patient's physiological conditions, which is only one part of discharge readiness."
+    },
+    {
+      "id": "fc-159",
+      "section": 3,
+      "front": "Safe discharge evaluation: Function",
+      "back": "Definition: The patient's physical ability to manage their environment and daily needs safely."
+    },
+    {
+      "id": "fc-160",
+      "section": 3,
+      "front": "Safe discharge evaluation: Support",
+      "back": "Definition: The availability of assistance (people or equipment) at the patient's home after discharge."
+    },
+    {
+      "id": "fc-161",
+      "section": 4,
+      "front": "What is the primary goal of providing education to adults with chronic conditions prior to discharge?",
+      "back": "To build confidence in making daily decisions and recognizing deterioration."
+    },
+    {
+      "id": "fc-162",
+      "section": 4,
+      "front": "What should a nurse assess first when planning individualised patient education?",
+      "back": "Health literacy and learning needs."
+    },
+    {
+      "id": "fc-163",
+      "section": 4,
+      "front": "Which two methods are recommended to support shared decision-making in chronic disease management?",
+      "back": "Negotiation and the teach-back method."
+    },
+    {
+      "id": "fc-164",
+      "section": 4,
+      "front": "Name one physical factor a nurse must consider when individualizing educational materials.",
+      "back": "Vision (or hearing)."
+    },
+    {
+      "id": "fc-165",
+      "section": 4,
+      "front": "Why is 'standard information' often insufficient for complex adult patients?",
+      "back": "It may not account for individual needs like cognition, culture, or finances."
+    },
+    {
+      "id": "fc-166",
+      "section": 4,
+      "front": "In the context of self-monitoring, what must a nurse explain besides how to perform the measurement?",
+      "back": "Which changes are significant and what specific actions to take."
+    },
+    {
+      "id": "fc-167",
+      "section": 4,
+      "front": "Name a physiological metric that a patient with heart failure or renal issues might need to monitor daily at home.",
+      "back": "Weight (or fluid intake)."
+    },
+    {
+      "id": "fc-168",
+      "section": 4,
+      "front": "Which self-monitoring task is essential for a patient recovering from a surgical procedure?",
+      "back": "Observing for wound changes."
+    },
+    {
+      "id": "fc-169",
+      "section": 4,
+      "front": "How should lifestyle and treatment plans be developed to improve patient adherence?",
+      "back": "They should be negotiated realistically with the patient."
+    },
+    {
+      "id": "fc-170",
+      "section": 4,
+      "front": "Why should nurses avoid labeling a patient as 'non-compliant'?",
+      "back": "It can mask underlying barriers such as cost, side effects, or misunderstanding."
+    },
+    {
+      "id": "fc-171",
+      "section": 4,
+      "front": "What is a common financial barrier to treatment adherence in chronic disease management?",
+      "back": "The cost of medications or equipment."
+    },
+    {
+      "id": "fc-172",
+      "section": 4,
+      "front": "How do medication side effects impact patient adherence?",
+      "back": "They can act as a barrier that prevents the patient from following the prescribed plan."
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "What is the main purpose of using the 'Teach-Back' method in clinical practice?",
+      "back": "To confirm whether the nurse's explanation was effective."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "During 'Teach-Back', what is the patient asked to do to demonstrate understanding?",
+      "back": "Describe the plan in their own words or demonstrate a skill."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "What action should a nurse take if a patient's 'Teach-Back' response contains errors?",
+      "back": "Correct the misunderstanding and re-explain the information."
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "In the Section 4 clinical example, why was the COPD patient frequently returning to the hospital?",
+      "back": "He could not distinguish his preventer inhaler from his reliever inhaler."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "What practical intervention did the nurse use to help the COPD patient manage his inhalers?",
+      "back": "Color-coded written instructions."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "Besides written instructions, what technique did the nurse use to ensure the COPD patient could use his inhaler?",
+      "back": "Demonstration and teach-back."
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "What follow-up action was arranged to support the COPD patient's long-term self-management?",
+      "back": "Community follow-up."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "Concept: Health Literacy",
+      "back": "Definition: The ability of a patient to understand and process health information to make informed decisions."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "Why must education be 'culturally responsive'?",
+      "back": "To ensure teaching aligns with the patient's cultural beliefs and values."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "The principle of linking education to a patient's _____ helps make the plan more realistic.",
+      "back": "daily life"
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "What must a patient be able to identify regarding their condition before they leave the hospital?",
+      "back": "When and how to seek medical help."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "How does 'cognition' affect the planning of patient education?",
+      "back": "It determines the complexity and amount of information a patient can process."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "Why is it important to assess a patient's 'available support' before discharge?",
+      "back": "To determine if they have help managing their chronic condition at home."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "Name one metabolic metric a patient might need to monitor at home.",
+      "back": "Blood glucose."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "Name one cardiovascular metric a patient might need to monitor at home.",
+      "back": "Blood pressure."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "Education should build the patient's ability to recognize _____, allowing them to seek help early.",
+      "back": "deterioration"
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "What is a 'reliever' inhaler used for in chronic respiratory management?",
+      "back": "Immediate relief of acute symptoms."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "What is a 'preventer' inhaler used for in chronic respiratory management?",
+      "back": "Daily maintenance to prevent symptom flare-ups."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "According to Section 4, what should be assessed before judging a patient's adherence to a plan?",
+      "back": "Potential barriers."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "A patient describing a medical plan in their own words is an application of the _____ method.",
+      "back": "teach-back"
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "What does 'shared decision-making' imply about the relationship between nurse and patient?",
+      "back": "It is a collaborative process where plans are negotiated rather than imposed."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "How does assessing 'hearing' impact the delivery of patient education?",
+      "back": "It guides the nurse on the volume, clarity, and supplementary visual aids needed."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "Why is 'smoking cessation' described as a negotiated lifestyle change?",
+      "back": "Because it requires the patient's agreement and realistic goal-setting to be successful."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "What should a nurse provide to a patient to help them distinguish between similar-looking medications?",
+      "back": "Color-coded instructions or visual demonstrations."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "Self-monitoring education: 'The nurse should explain what _____ matter and what action to take.'",
+      "back": "changes"
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "What is the risk of a patient misunderstanding their inhaler types?",
+      "back": "Frequent hospital readmissions and poor symptom control."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "Nursing Action: How can a nurse confirm if a patient is physically capable of a self-care task?",
+      "back": "By having the patient demonstrate the skill."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "Why should 'diet' plans be negotiated realistically with patients?",
+      "back": "To increase the likelihood of long-term adherence in their daily environment."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Term: Shared Decision-Making",
+      "back": "Definition: A collaborative process where healthcare providers and patients make treatment choices together."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "What is the expected outcome of building a patient's confidence through education?",
+      "back": "Effective self-management of their chronic condition."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "How can 'misunderstanding' lead to a false perception of non-compliance?",
+      "back": "The patient may intend to follow the plan but is doing it incorrectly due to poor instructions."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "Nursing Action: What should be done with follow-up plans during discharge education?",
+      "back": "They should be negotiated realistically with the patient."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "In the COPD example, what was the purpose of 'respectful discussion'?",
+      "back": "To identify the specific reason (barrier) for the patient's frequent readmissions."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "What are the three main barriers to adherence mentioned in Section 4?",
+      "back": "Cost, side effects, and misunderstanding."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "Why is 'available support' considered a factor in individualized education?",
+      "back": "The presence of a caregiver can change how education is delivered and who is responsible for tasks."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "Which educational tool allows a nurse to correct misunderstandings immediately?",
+      "back": "Teach-back."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "A patient's ability to monitor their own 'breathing' changes is vital for which chronic condition?",
+      "back": "COPD (Chronic Obstructive Pulmonary Disease)."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "What is the final goal of the self-management education process in Section 4?",
+      "back": "Supporting realistic follow-up and long-term health stability."
+    }
+  ]
+}

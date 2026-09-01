@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Dehydration and Hypovolaemia",
+      "stem": "Mrs. Teresa Varghese, a 76-year-old woman, is admitted with vomiting and diarrhoea for two days. Her daughter says she has barely eaten or drunk anything and has become weaker and more dizzy when standing. She has a history of hypertension and takes oral antihypertensive medication. On assessment, the nurse notes dry mucous membranes, poor skin hydration, blood pressure 92/58 mmHg lying and lower on standing, heart rate 112 beats per minute, urine output only 20 mL in the past hour, and increasing fatigue. The nurse suspects significant fluid volume deficit. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings support dehydration and hypovolaemia?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tachycardia"
+            },
+            {
+              "id": "B",
+              "text": "Recent vomiting and diarrhoea"
+            },
+            {
+              "id": "C",
+              "text": "Orthostatic hypotension"
+            },
+            {
+              "id": "D",
+              "text": "Dry mucous membranes"
+            },
+            {
+              "id": "E",
+              "text": "Low urine output"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Each finding supports fluid volume deficit. Vomiting and diarrhoea create major fluid losses. Dry mucous membranes suggest reduced hydration. Tachycardia and orthostatic hypotension reflect compensatory circulatory stress. Low urine output suggests reduced renal perfusion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best overall interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The findings are normal for age and can be ignored"
+            },
+            {
+              "id": "B",
+              "text": "The patient is experiencing significant fluid volume deficit with reduced perfusion risk"
+            },
+            {
+              "id": "C",
+              "text": "The patient only has mild indigestion"
+            },
+            {
+              "id": "D",
+              "text": "The patient is fluid overloaded"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The clinical picture clearly supports dehydration and early hypovolaemic compromise. This is especially important in an older adult, where deterioration can accelerate quickly. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for social isolation"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Deficient fluid volume with risk of poor tissue perfusion"
+            },
+            {
+              "id": "D",
+              "text": "Readiness for health promotion"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The urgent problem is inadequate circulating volume leading to reduced organ perfusion. This threatens kidneys, brain, and cardiovascular stability. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Give the usual antihypertensive medication immediately without reassessment"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until family returns"
+            },
+            {
+              "id": "C",
+              "text": "Begin immediate assessment and support for hypovolaemia, including safety measures and preparing for fluid replacement as prescribed"
+            },
+            {
+              "id": "D",
+              "text": "Encourage the patient to walk to the bathroom independently"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The patient requires prompt intervention for hypovolaemia. This includes safety precautions due to dizziness, close reassessment, and preparation for fluid replacement. Independent ambulation could cause a fall. Routine antihypertensive medication may need review in the setting of hypotension. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Evaluate urine output trends"
+            },
+            {
+              "id": "B",
+              "text": "Reassess orthostatic symptoms and vital signs"
+            },
+            {
+              "id": "C",
+              "text": "Monitor intake and output closely"
+            },
+            {
+              "id": "D",
+              "text": "Continue to ignore dizziness if the patient insists she is fine"
+            },
+            {
+              "id": "E",
+              "text": "Monitor for signs of worsening shock or confusion"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Fluid balance, observations, urine output, and reassessment of perfusion are essential. Dizziness in an older dehydrated patient must never be ignored. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Dehydration and Hypovolaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates that treatment is helping?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Urine output improves, heart rate slows, blood pressure becomes more stable, and dizziness lessens"
+            },
+            {
+              "id": "B",
+              "text": "The patient still cannot tolerate sitting upright"
+            },
+            {
+              "id": "C",
+              "text": "The patient remains hypotensive with decreasing urine output"
+            },
+            {
+              "id": "D",
+              "text": "Confusion worsens and the mucous membranes stay dry"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "A rise in urine output and improved haemodynamic stability strongly suggest that perfusion is improving. Symptom relief and reduced tachycardia support recovery."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Hyperkalaemia in Chronic Kidney Disease",
+      "stem": "Mr. Suresh Nair is a 65-year-old man with chronic kidney disease who presents with weakness and palpitations. He missed his last dialysis-related review and says he has had poor appetite but continued to eat fruit and potassium-rich foods because he thought they were healthy. He also reports feeling “heavy” in his legs. Laboratory results show potassium 6.4 mmol/L, creatinine elevated above baseline, and ECG changes suggestive of hyperkalaemia. The nurse knows that severe hyperkalaemia can rapidly become fatal if not managed urgently. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings indicate dangerous hyperkalaemia?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chronic kidney disease history"
+            },
+            {
+              "id": "B",
+              "text": "Weakness"
+            },
+            {
+              "id": "C",
+              "text": "ECG changes"
+            },
+            {
+              "id": "D",
+              "text": "Palpitations"
+            },
+            {
+              "id": "E",
+              "text": "Potassium 6.4 mmol/L"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these data matter. A potassium level above normal, muscle weakness, palpitations, ECG changes, and reduced kidney function together indicate a serious risk of arrhythmia and impaired potassium excretion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient mainly needs routine dietary teaching only"
+            },
+            {
+              "id": "B",
+              "text": "The patient is experiencing potentially life-threatening hyperkalaemia and requires urgent intervention"
+            },
+            {
+              "id": "C",
+              "text": "The elevated potassium is harmless because fruit is healthy"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s symptoms are due only to anxiety"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is an emergency-priority electrolyte abnormality. Hyperkalaemia can cause life-threatening arrhythmias. While education will be needed later, the immediate focus is urgent stabilisation and treatment. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which hypothesis is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired swallowing"
+            },
+            {
+              "id": "B",
+              "text": "Risk for loneliness"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Risk for lethal cardiac dysrhythmia related to elevated potassium"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The key life-threatening issue is the effect of hyperkalaemia on the myocardium. In NCLEX prioritisation, arrhythmia risk outranks other nursing concerns. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay action until the next laboratory result tomorrow"
+            },
+            {
+              "id": "B",
+              "text": "Offer a banana to restore energy"
+            },
+            {
+              "id": "C",
+              "text": "Encourage the patient to walk to improve circulation"
+            },
+            {
+              "id": "D",
+              "text": "Treat this as urgent, ensure cardiac monitoring, and prepare for protocol-based hyperkalaemia management"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Cardiac monitoring and urgent treatment preparation are critical. Hyperkalaemia management may include stabilising the myocardium and shifting potassium intracellularly according to orders and protocol. Delaying care is dangerous. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review medications that may worsen potassium retention"
+            },
+            {
+              "id": "B",
+              "text": "Monitor ECG rhythm changes closely"
+            },
+            {
+              "id": "C",
+              "text": "Anticipate repeat potassium measurement after treatment"
+            },
+            {
+              "id": "D",
+              "text": "Teach about potassium restriction once the patient is stable"
+            },
+            {
+              "id": "E",
+              "text": "Ignore weakness because the ECG matters more"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Medication review, monitoring, repeat labs, and later teaching are all appropriate. Weakness should not be ignored; it is part of the clinical picture and may worsen. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyperkalaemia in Chronic Kidney Disease | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient remains unmonitored but says he feels slightly better"
+            },
+            {
+              "id": "B",
+              "text": "Potassium begins to trend downward, ECG instability lessens, and palpitations improve"
+            },
+            {
+              "id": "C",
+              "text": "The potassium rises further and weakness worsens"
+            },
+            {
+              "id": "D",
+              "text": "ECG changes progress"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The desired outcome is a reduction in potassium-related cardiac and neuromuscular risk, demonstrated by improving ECG stability, symptom relief, and falling potassium level."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Hyponatraemia and Neurological Risk",
+      "stem": "Mrs. Shalini Iyer, a 63-year-old patient, is admitted with nausea, headache, and increasing confusion. Family members report that she has been drinking large amounts of water because she thought it would help her recover from a recent illness. Her sodium level returns at 122 mmol/L. She appears slow to answer questions and says she feels “foggy.” Her blood pressure is 128/74 mmHg, pulse 96 beats per minute, respiratory rate 20 breaths per minute, and she has no focal weakness. The nurse recognises that significant hyponatraemia can create neurological danger. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings are most important in this case?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Headache"
+            },
+            {
+              "id": "B",
+              "text": "Reported excessive water intake"
+            },
+            {
+              "id": "C",
+              "text": "Sodium 122 mmol/L"
+            },
+            {
+              "id": "D",
+              "text": "Mild tachycardia"
+            },
+            {
+              "id": "E",
+              "text": "Confusion"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Severe hyponatraemia, confusion, headache, and excess free water intake are the key cues. Tachycardia is less central but can still be noted. The most important issue here is neurological impact of low sodium. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The sodium result is irrelevant because blood pressure is normal"
+            },
+            {
+              "id": "B",
+              "text": "The patient is simply tired and should sleep"
+            },
+            {
+              "id": "C",
+              "text": "The patient is dehydrated and needs more water"
+            },
+            {
+              "id": "D",
+              "text": "The patient may be experiencing symptomatic hyponatraemia with risk of worsening cerebral dysfunction"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Hyponatraemia can cause cerebral swelling and neurological symptoms such as confusion, headache, lethargy, and seizures. The normal blood pressure does not remove this risk. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for constipation"
+            },
+            {
+              "id": "B",
+              "text": "Risk for seizure or worsening neurological impairment related to low sodium"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Readiness for discharge teaching"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse should prioritise neurological safety. Severe or symptomatic hyponatraemia can progress to seizures, reduced level of consciousness, or other major complications. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the confusion until family leaves"
+            },
+            {
+              "id": "B",
+              "text": "Escalate symptomatic hyponatraemia, assess neurological status closely, and institute safety precautions"
+            },
+            {
+              "id": "C",
+              "text": "Ask the patient to exercise"
+            },
+            {
+              "id": "D",
+              "text": "Continue encouraging unlimited water intake"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The immediate priority is recognising symptomatic hyponatraemia, closely assessing neurological status, and escalating care. Water intake may need restriction depending on cause and treatment plan; encouraging more water would worsen the problem. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Protect the patient from injury if neurological status declines"
+            },
+            {
+              "id": "B",
+              "text": "Review fluid intake and possible underlying causes"
+            },
+            {
+              "id": "C",
+              "text": "Assume the patient is being deliberately difficult"
+            },
+            {
+              "id": "D",
+              "text": "Reassess sodium as ordered after treatment begins"
+            },
+            {
+              "id": "E",
+              "text": "Monitor for worsening confusion or seizure activity"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Monitoring, injury prevention, reassessment, and investigation of cause are all part of safe management. Labelling the patient as difficult would be inappropriate and unsafe. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hyponatraemia and Neurological Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which outcome suggests improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient drinks more water and headache intensifies"
+            },
+            {
+              "id": "B",
+              "text": "Confusion worsens and the patient becomes difficult to arouse"
+            },
+            {
+              "id": "C",
+              "text": "The patient becomes more oriented, headache decreases, and sodium begins to improve gradually"
+            },
+            {
+              "id": "D",
+              "text": "The nurse stops neurological checks"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement is shown by better neurological function and gradual correction of sodium. In hyponatraemia, changes must be monitored closely because overly rapid correction also carries risk."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Diabetic Ketoacidosis",
+      "stem": "Mr. Nithin George, a 27-year-old man with type 1 diabetes, arrives at the emergency department after two days of vomiting and missing insulin doses because he felt too unwell to eat. He is thirsty, drowsy, and complains of abdominal pain. His breath has a fruity odour and he is breathing deeply and rapidly. Vital signs show blood pressure 96/60 mmHg, pulse 122 beats per minute, respiratory rate 30 breaths per minute, oxygen saturation 97% on room air, and dry mucous membranes. Laboratory investigations reveal markedly elevated blood glucose and metabolic acidosis. The nurse suspects diabetic ketoacidosis. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings are most consistent with diabetic ketoacidosis?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fruity breath odour"
+            },
+            {
+              "id": "B",
+              "text": "Abdominal pain and drowsiness"
+            },
+            {
+              "id": "C",
+              "text": "Missed insulin doses"
+            },
+            {
+              "id": "D",
+              "text": "Deep rapid respirations"
+            },
+            {
+              "id": "E",
+              "text": "Dehydration signs"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are classic for DKA. Missed insulin creates the underlying trigger. Fruity odour reflects ketones. Deep rapid respirations are compensatory Kussmaul respirations. Dehydration, abdominal pain, and altered mental state further support the diagnosis. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is having mild anxiety only"
+            },
+            {
+              "id": "B",
+              "text": "The patient is experiencing diabetic ketoacidosis with dehydration and metabolic instability"
+            },
+            {
+              "id": "C",
+              "text": "The patient is overhydrated"
+            },
+            {
+              "id": "D",
+              "text": "The patient mainly needs a snack"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The case clearly reflects DKA. NGN expects pattern recognition and linking the symptoms with a high-risk endocrine emergency. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "B",
+              "text": "Readiness for exercise"
+            },
+            {
+              "id": "C",
+              "text": "Severe metabolic instability with dehydration and risk of worsening perfusion"
+            },
+            {
+              "id": "D",
+              "text": "Need for long-term diet teaching only"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "DKA is life-threatening because it combines insulin deficiency, acidosis, dehydration, and electrolyte shifts. Perfusion and metabolic stability are urgent concerns. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recognise DKA as an emergency, establish monitoring, and prepare for fluid resuscitation and protocol-based therapy"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient to eat immediately and go home"
+            },
+            {
+              "id": "C",
+              "text": "Delay action until after routine paperwork"
+            },
+            {
+              "id": "D",
+              "text": "Encourage vigorous walking"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The initial priorities in DKA include recognising the emergency, ensuring close monitoring, and preparing for IV fluids and further treatment according to protocol. Oral intake and discharge are inappropriate in this unstable condition. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional areas must the nurse monitor closely? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Potassium and other electrolytes"
+            },
+            {
+              "id": "B",
+              "text": "Risk of delayed complications as treatment progresses"
+            },
+            {
+              "id": "C",
+              "text": "Urine output and perfusion"
+            },
+            {
+              "id": "D",
+              "text": "Blood glucose trends"
+            },
+            {
+              "id": "E",
+              "text": "Mental status"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "DKA management requires broad surveillance. Potassium can shift dangerously during treatment. Mental status reflects severity and improvement or deterioration. Perfusion, urine output, and blood glucose trends all matter. Complications may emerge during correction, so ongoing monitoring is essential. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Diabetic Ketoacidosis | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drowsiness worsens and perfusion declines"
+            },
+            {
+              "id": "B",
+              "text": "Vomiting continues with no reassessment"
+            },
+            {
+              "id": "C",
+              "text": "Heart rate slows, hydration improves, mental status clears, and glucose/acidosis begin correcting appropriately"
+            },
+            {
+              "id": "D",
+              "text": "The patient refuses monitoring and becomes more unstable"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement is reflected in restored perfusion, clearer cognition, and progressive correction of metabolic disturbance."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Hypoglycaemia and Immediate Rescue",
+      "stem": "Mrs. Alka Bose is a 49-year-old woman with insulin-treated diabetes who is recovering from infection. She received her usual rapid-acting insulin before lunch, but then became nauseated and ate very little. Thirty minutes later the nurse finds her sweaty, shaky, and confused. She says, “I don’t feel right,” and struggles to answer questions clearly. Her pulse is 110 beats per minute, blood pressure 118/70 mmHg, respiratory rate 22 breaths per minute, and she appears pale and anxious. The nurse immediately suspects hypoglycaemia. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings are classic for symptomatic hypoglycaemia?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shaking"
+            },
+            {
+              "id": "B",
+              "text": "Confusion"
+            },
+            {
+              "id": "C",
+              "text": "Sweating"
+            },
+            {
+              "id": "D",
+              "text": "Pale appearance"
+            },
+            {
+              "id": "E",
+              "text": "Recent insulin with poor food intake"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues support hypoglycaemia. The recent mismatch between insulin and food intake is especially important because it explains why the event may have occurred. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is likely experiencing acute hypoglycaemia and needs rapid confirmation and treatment"
+            },
+            {
+              "id": "B",
+              "text": "The patient only needs reassurance and rest"
+            },
+            {
+              "id": "C",
+              "text": "The patient is stable because blood pressure is not low"
+            },
+            {
+              "id": "D",
+              "text": "The patient is fluid overloaded"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The symptom cluster is highly suggestive of hypoglycaemia. Normal blood pressure does not make the situation safe. The nurse must think in terms of rapid confirmation and immediate treatment. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "B",
+              "text": "Acute neuroglycopenia and risk of worsening neurological impairment"
+            },
+            {
+              "id": "C",
+              "text": "Risk for social withdrawal"
+            },
+            {
+              "id": "D",
+              "text": "Need for discharge planning"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Hypoglycaemia threatens brain function because glucose is the brain’s major fuel source. Therefore neurological protection becomes the priority. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Check blood glucose immediately and treat per protocol without delay"
+            },
+            {
+              "id": "B",
+              "text": "Encourage sleep only"
+            },
+            {
+              "id": "C",
+              "text": "Ask the patient to wait quietly for an hour"
+            },
+            {
+              "id": "D",
+              "text": "Give more insulin because she looks unwell"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should confirm hypoglycaemia rapidly and begin prompt treatment according to protocol. Delaying care risks seizure, loss of consciousness, or injury. Giving more insulin would be dangerous. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which follow-up actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess blood glucose after treatment"
+            },
+            {
+              "id": "B",
+              "text": "Assume the episode will not recur and do nothing further"
+            },
+            {
+              "id": "C",
+              "text": "Review the cause, such as insufficient food after insulin"
+            },
+            {
+              "id": "D",
+              "text": "Determine whether the patient can swallow safely before giving oral carbohydrate"
+            },
+            {
+              "id": "E",
+              "text": "Monitor mental status and symptom resolution"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Reassessment, safe treatment route, ongoing neurological monitoring, and cause analysis are all appropriate. Hypoglycaemia can recur, so follow-up is essential. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Hypoglycaemia and Immediate Rescue | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates effective treatment?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blood glucose rises to a safer range, confusion resolves, and shaking decreases"
+            },
+            {
+              "id": "B",
+              "text": "The cause is not discussed and monitoring stops"
+            },
+            {
+              "id": "C",
+              "text": "Confusion worsens after treatment and the nurse does not recheck glucose"
+            },
+            {
+              "id": "D",
+              "text": "The patient remains diaphoretic and more difficult to arouse"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The best indicator of improvement is both objective and subjective: glucose rises and neuroglycopenic symptoms resolve."
+        }
+      ]
+    }
+  ]
+}

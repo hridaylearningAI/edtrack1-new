@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL124",
+  "programTitle": "Core Clinical Skills",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Perform safe clinical procedures with assessment, asepsis, medication and documentation.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Apply international clinical-skills standards to complex devices and procedural judgement.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead clinical-skills competence, human factors, governance and skills innovation.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

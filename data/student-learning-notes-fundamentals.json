@@ -1,0 +1,256 @@
+{
+  "courseCode": "NURS-M1",
+  "title": "Module 1 – Fundamentals of Nursing (Expanded Version)",
+  "subtitle": "Student Learning Notes",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Learning Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These expanded learning notes are designed to mirror the depth and structure of later modules such as Adult Medical–Surgical Nursing. They are written to support NCLEX and NGN-style thinking by guiding you through clinical reasoning, prioritisation, and safe decision-making. As you study each section, reflect on how the concept would appear in an NCLEX question and what action the nurse should take first."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "On completion of this module, you should be able to apply fundamental nursing principles to clinical scenarios; recognise immediate safety risks; use ABCs, Maslow, and the nursing process to prioritise care; communicate therapeutically with patients and teams; and demonstrate sound clinical judgment in NGN-style case-based questions."
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Clinical Judgment and the NCLEX Way of Thinking",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The NCLEX is designed to test how nurses think rather than what they memorise. Clinical judgment refers to the ability to recognise relevant cues, analyse patient data, prioritise problems, take appropriate nursing action, and evaluate outcomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, this means identifying what is most dangerous or unstable at the moment. Airway, breathing, circulation, and safety always come first. Stable problems, routine care, and documentation are addressed only after immediate risks are controlled."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: A patient with mild pain but stable vital signs is a lower priority than a patient with shortness of breath and dropping oxygen saturation."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Foundations of Professional Nursing Practice",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nursing practice is governed by professional standards, legal requirements, and ethical principles. Nurses are accountable for their actions and must practise within their defined scope. Understanding this is critical for NCLEX questions related to delegation, supervision, and responsibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "Delegation requires the nurse to consider the patient's condition, the complexity of the task, and the competency of the delegatee. The RN remains responsible for assessment, clinical judgment, and evaluation of care outcomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: Measuring routine vital signs on a stable patient may be delegated, but interpreting abnormal findings cannot."
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Patient Safety and Quality of Care",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Patient safety underpins every nursing action. The NCLEX frequently asks which action the nurse should take first, and the safest option is usually correct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Safety concepts include fall prevention, safe use of equipment, medication safety, patient identification, and prevention of pressure injuries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: Before administering medication, the nurse must verify patient identity using two identifiers."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Infection Prevention and Control",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection prevention is a core nursing responsibility. Standard precautions apply to all patients regardless of diagnosis, while transmission-based precautions are added when specific risks are identified."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proper hand hygiene, use of personal protective equipment, and aseptic technique reduce healthcare-associated infections."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: A patient with suspected tuberculosis requires airborne precautions and a negative-pressure room."
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Communication and Therapeutic Relationships",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Therapeutic communication supports safe care and emotional wellbeing. Nurses must communicate clearly, respectfully, and empathetically."
+        },
+        {
+          "type": "paragraph",
+          "text": "NCLEX questions often test the nurse's response to emotional distress. Therapeutic responses acknowledge feelings without judgement or false reassurance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: Saying 'That sounds very frightening for you' validates the patient's experience."
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Nursing Process and Prioritisation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The nursing process (assessment, diagnosis, planning, implementation, evaluation) structures all nursing care. Assessment usually comes before intervention unless there is an immediate threat to life."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prioritisation frameworks such as ABCs and Maslow's hierarchy guide decision-making."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: A patient reporting new chest pain requires assessment before routine pain relief."
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Basic Patient Care and Comfort",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Basic nursing care includes hygiene, nutrition, hydration, mobility, elimination, rest, and skin care."
+        },
+        {
+          "type": "paragraph",
+          "text": "Failure to meet these needs can lead to complications such as infection, pressure injuries, and respiratory problems."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: Encouraging deep breathing and repositioning reduces postoperative respiratory complications."
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Vital Signs and Basic Assessment",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vital signs are key indicators of physiological status. Nurses must recognise normal ranges, abnormal findings, and trends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Early changes often indicate deterioration and require prompt nursing action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: An increasing heart rate and decreasing blood pressure may indicate shock."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "NGN-Style Clinical Case Studies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Case Study 1: An older adult admitted with pneumonia becomes increasingly confused and attempts to get out of bed. The nurse recognises fall risk as a priority, implements safety measures, reassesses oxygenation, and notifies the provider."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case Study 2: A postoperative patient reports increasing pain and redness around the surgical site. The nurse assesses the wound, maintains aseptic technique, documents findings, and escalates concerns appropriately."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case Study 3: A patient with diabetes reports dizziness and sweating. The nurse checks blood glucose immediately and treats hypoglycaemia according to protocol."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Extended NCLEX-Style Practice Questions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Question 1: Which patient should the nurse assess first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Stable patient requesting assistance to the bathroom",
+            "B. Patient with oxygen saturation of 86% and dyspnoea",
+            "C. Patient awaiting discharge instructions",
+            "D. Patient requesting pain medication"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Breathing problems take priority."
+        },
+        {
+          "type": "paragraph",
+          "text": "Question 2: Which task may be delegated to a nursing assistant?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Initial assessment of a new admission",
+            "B. Teaching a patient how to use an inhaler",
+            "C. Measuring vital signs on a stable patient",
+            "D. Evaluating response to medication"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Routine tasks may be delegated; assessment and teaching cannot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Question 3: The nurse enters a patient's room and finds the patient unresponsive. What is the nurse's priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Call the family",
+            "B. Check vital signs",
+            "C. Activate emergency response and assess airway",
+            "D. Document findings"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Airway and emergency response are priorities."
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are intended to support NCLEX preparation and do not replace supervised clinical practice or institutional policies."
+        }
+      ]
+    }
+  ]
+}

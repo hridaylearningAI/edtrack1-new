@@ -1,0 +1,1685 @@
+{
+  "moduleTitle": "Pharmacology and Medication Safety",
+  "moduleNumber": 7,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Rapid-Acting Insulin and Symptomatic Hypoglycaemia",
+      "narrative": "Mr. Karan Mehta, a 56-year-old man with type 2 diabetes, is admitted for cellulitis and is receiving mealtime rapid-acting insulin. Before lunch, the nurse administers the prescribed insulin after verifying the order and checking his blood glucose. A short time later, the patient develops nausea and says he no longer feels like eating more than a few bites of food.\nThirty minutes later the nurse notices that he is pale, diaphoretic, shaky, and suddenly confused. He says, “I feel strange,” and struggles to answer questions clearly. Repeat capillary glucose is markedly low. The nurse recognises symptomatic hypoglycaemia caused by insulin-food mismatch and must act quickly to protect the patient.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate acute hypoglycaemia? Select all that apply.",
+          "options": {
+            "A": "Diaphoresis",
+            "B": "Tremor and shakiness",
+            "C": "Confusion",
+            "D": "Poor oral intake after insulin",
+            "E": "Low repeat glucose value"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings point to hypoglycaemia. Insulin given before inadequate food intake is a common cause. Sweating, tremor, confusion, and low glucose are classic warning signs. NCLEX pharmacology questions often require the nurse to connect medication timing with nutrition and symptom onset."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is simply tired from infection",
+            "B": "The patient is experiencing symptomatic hypoglycaemia related to rapid-acting insulin and insufficient intake",
+            "C": "The patient is developing serotonin syndrome",
+            "D": "The patient is having a normal insulin response and needs no intervention"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom cluster clearly fits hypoglycaemia. Infection alone does not explain the rapid onset of adrenergic and neuroglycopenic symptoms after insulin administration and poor food intake."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for neurological injury related to low blood glucose",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about long-term foot care",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The brain depends on glucose for function. Acute hypoglycaemia threatens neurological safety and may progress to seizure or loss of consciousness if untreated."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Follow hypoglycaemia protocol immediately, using an appropriate treatment route based on whether the patient can swallow safely",
+            "B": "Delay treatment until the next scheduled meal",
+            "C": "Give more insulin to prevent rebound hyperglycaemia",
+            "D": "Ask the patient to walk around to improve alertness"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must treat low glucose immediately using oral carbohydrate if swallowing is safe or an alternative route if not. Delay is unsafe. Additional insulin would worsen the problem."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Recheck glucose after treatment according to protocol",
+            "B": "Assess why intake was poor after insulin administration",
+            "C": "Notify the provider if recurrent hypoglycaemia or regimen adjustment is needed",
+            "D": "Educate the patient later about matching insulin to meals",
+            "E": "Assume the event is resolved once symptoms improve and stop monitoring"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Repeat glucose checks are essential because recurrence can occur. Understanding why the patient ate poorly matters for prevention. Provider review and patient education help prevent future episodes. Monitoring should continue until stability is clear."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Glucose rises to a safer range, confusion resolves, tremor decreases, and the patient is able to eat or continue treatment safely",
+            "B": "The patient remains confused and increasingly drowsy",
+            "C": "Monitoring stops after one snack is given",
+            "D": "The nurse ignores the event because it happened only once"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement in hypoglycaemia is demonstrated by both objective and clinical recovery: better glucose value and resolution of symptoms."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Long-Acting Insulin Error and Medication Safety Reporting",
+      "narrative": "Mrs. Elena D'Souza, a 67-year-old patient with diabetes, is due to receive her evening long-acting insulin. During a busy medication round, the nurse realises after administration that the dose given was the short-acting insulin from a similar-looking pen rather than the prescribed basal preparation. The patient has not yet gone to dinner and currently has no symptoms.\nThe nurse feels alarmed and briefly considers waiting to see whether the patient becomes hypoglycaemic before telling anyone. The medication administration record confirms the wrong insulin type was given. The situation requires immediate patient safety action and transparent reporting.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings confirm that a medication error has occurred? Select all that apply.",
+          "options": {
+            "A": "The wrong insulin type was administered",
+            "B": "Similar packaging contributed to selection error",
+            "C": "The MAR confirms the intended drug was different",
+            "D": "The patient is not yet symptomatic",
+            "E": "The patient has not yet eaten dinner"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "A medication error occurred because the wrong drug type was administered. Similar packaging is a relevant contributing factor, and the timing relative to meals increases risk. The absence of immediate symptoms does not erase the error or reduce the need to act."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "No problem exists unless the patient becomes symptomatic",
+            "B": "A high-risk medication error has occurred and requires immediate assessment, monitoring, disclosure, and reporting",
+            "C": "The error should be hidden if no harm occurs",
+            "D": "Only the pharmacy needs to know"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Insulin is a high-alert medication. Even if the patient is asymptomatic, the wrong insulin type can cause serious hypoglycaemia. NCLEX medication safety questions prioritise immediate patient assessment and transparent error management."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for hypoglycaemia due to wrong insulin administration",
+            "B": "Nurse anxiety about disciplinary action",
+            "C": "Knowledge deficit about exercise",
+            "D": "Disturbed sleep pattern"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The first priority is the patient’s risk of harm from the error, not the nurse’s emotional response."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess the patient, implement close glucose monitoring, ensure access to food or treatment as appropriate, and notify the provider immediately",
+            "B": "Wait to see if the patient looks unwell later",
+            "C": "Chart the correct insulin type instead of the one actually given",
+            "D": "Ask another nurse to keep it quiet"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate patient-focused action is essential. The provider must be informed, glucose must be monitored, and intervention planning should begin promptly. Falsifying documentation or hiding the error is unethical and unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document factually what occurred and the patient’s status",
+            "B": "Complete incident reporting according to policy",
+            "C": "Monitor glucose frequently and watch for symptoms",
+            "D": "Participate in system review of look-alike/sound-alike risks",
+            "E": "Avoid telling the patient because transparency may upset them"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Objective documentation, incident reporting, and monitoring are all appropriate. Medication errors should be disclosed appropriately and honestly rather than concealed."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management of the error?",
+          "options": {
+            "A": "The patient remains safe under close monitoring, any glucose abnormalities are treated promptly, and the error is documented and reported appropriately",
+            "B": "The error is hidden because no immediate harm is seen",
+            "C": "The record is altered to avoid investigation",
+            "D": "Monitoring is stopped after one normal glucose reading"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects the patient and supports safety culture through honest reporting and corrective system review."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Warfarin Therapy with Elevated INR and Bleeding Risk",
+      "narrative": "Mr. Noel Pereira, a 73-year-old man receiving warfarin for atrial fibrillation, reports gum bleeding while brushing his teeth and notices that his stools appear darker than usual. He says he recently started taking an over-the-counter herbal product because a friend recommended it for “better circulation.”\nLaboratory results show a significantly elevated INR. On assessment, the nurse notes bruising on his arms and mild weakness. The nurse suspects excessive anticoagulation with possible interaction-related bleeding risk.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate excessive anticoagulation? Select all that apply.",
+          "options": {
+            "A": "Elevated INR",
+            "B": "Gum bleeding",
+            "C": "Dark stools",
+            "D": "Easy bruising",
+            "E": "Recent new herbal supplement"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings raise concern for bleeding risk in a patient on warfarin. The new herbal product may have altered anticoagulant effect. NCLEX pharmacology questions often test medication-food-supplement interactions in anticoagulation therapy."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is showing likely warfarin-related bleeding risk and requires prompt intervention",
+            "B": "Mild bruising is always expected and does not matter",
+            "C": "The INR is unimportant if the patient feels well",
+            "D": "Black stools are unrelated to anticoagulation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The elevated INR plus bleeding signs strongly suggest excessive anticoagulation. Dark stools may indicate gastrointestinal bleeding and should never be dismissed."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for significant bleeding related to excessive anticoagulation",
+            "B": "Social isolation",
+            "C": "Disturbed sleep pattern",
+            "D": "Knowledge deficit about exercise"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Bleeding is the immediate safety threat. Ongoing anticoagulation in the setting of elevated INR can lead to major haemorrhage."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold or question further warfarin administration as appropriate, assess bleeding status, and notify the provider urgently",
+            "B": "Give the next dose on time because atrial fibrillation remains present",
+            "C": "Tell the patient to stop brushing teeth",
+            "D": "Delay reporting until the next clinic review"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must respond to the elevated INR and bleeding cues immediately. Continuing warfarin without review may worsen harm."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review all prescription, OTC, and herbal products the patient is taking",
+            "B": "Monitor for worsening weakness, hypotension, or signs of occult bleeding",
+            "C": "Provide teaching about consistent diet and interaction risks once stable",
+            "D": "Reassess the patient’s understanding of warfarin monitoring",
+            "E": "Assume black stools are dietary unless proven otherwise and stop monitoring"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "A full medication history and patient education are essential in warfarin care. Black stools may reflect GI bleeding and require careful monitoring rather than dismissal."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Bleeding signs are addressed promptly, INR management is adjusted appropriately, and the patient demonstrates better understanding of interaction risks",
+            "B": "Additional bruising develops with no medication review",
+            "C": "The next warfarin dose is given automatically",
+            "D": "Documentation focuses only on the herbal product and ignores bleeding"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe management includes reducing bleeding risk, addressing the INR abnormality, and improving patient understanding to prevent recurrence."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Heparin Infusion with Prolonged aPTT",
+      "narrative": "Mrs. Anita Roy is receiving an IV heparin infusion for treatment of a deep vein thrombosis. During the shift, the nurse reviews the latest laboratory results and finds that the aPTT is well above the therapeutic target. At the same time, the patient reports oozing from the gums and the nurse notices bleeding at the IV insertion site.\nThe patient is otherwise hemodynamically stable, but the combination of over-anticoagulation and visible bleeding requires prompt action. The nurse must apply safe infusion monitoring principles and avoid further harm.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate excessive heparin effect? Select all that apply.",
+          "options": {
+            "A": "aPTT above therapeutic range",
+            "B": "Gum bleeding",
+            "C": "Oozing at IV site",
+            "D": "Ongoing heparin infusion",
+            "E": "Need for close infusion reassessment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These findings indicate excessive anticoagulant effect. Heparin infusions require strict monitoring, and visible bleeding plus high aPTT are significant warning signs."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The current heparin effect is likely too strong and may cause significant bleeding if not adjusted",
+            "B": "The infusion should continue unchanged because DVT is serious",
+            "C": "aPTT is irrelevant once the infusion starts",
+            "D": "Minor bleeding should be ignored if the patient is stable"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "This patient shows evidence of over-anticoagulation. Continuing the infusion unchanged could cause major bleeding."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for haemorrhage related to excessive heparin effect",
+            "B": "Disturbed sleep pattern",
+            "C": "Anxiety about hospitalisation",
+            "D": "Constipation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should prioritise prevention of bleeding complications above all other concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop or adjust the infusion according to protocol, assess the patient carefully, and notify the provider or follow the heparin titration protocol immediately",
+            "B": "Increase the infusion to prevent clot extension",
+            "C": "Delay action until the next scheduled aPTT",
+            "D": "Remove the IV and send the patient home"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Heparin safety depends on protocol-based response to abnormal aPTT and bleeding signs. Delay is unsafe. Increasing the infusion would worsen risk."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor for worsening bleeding, bruising, or hypotension",
+            "B": "Reassess laboratory values after protocol-based adjustment",
+            "C": "Review whether any other medications increase bleeding risk",
+            "D": "Document the infusion status and patient findings accurately",
+            "E": "Assume the gum bleeding is unrelated and continue without reassessment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are appropriate. Polypharmacy can worsen bleeding risk, and careful documentation and reassessment are essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "aPTT moves toward the target range, bleeding decreases, and the patient remains hemodynamically stable",
+            "B": "Oozing continues while the infusion runs unchanged",
+            "C": "Laboratory reassessment is skipped",
+            "D": "The patient becomes hypotensive without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is demonstrated by better control of anticoagulation and less bleeding without loss of therapeutic oversight."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "Digoxin Toxicity",
+      "narrative": "Mr. Samuel Brooks, a 79-year-old man with heart failure, is taking digoxin and a loop diuretic. He reports nausea, poor appetite, increasing fatigue, and says that lights seem to have a yellow-green halo around them. On assessment, his apical pulse is slower than usual and irregular.\nThe nurse reviews his medication list and notes that recent vomiting and poor intake may have worsened electrolyte imbalance. The combination of visual changes, gastrointestinal symptoms, and bradycardia raises concern for digoxin toxicity.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are consistent with digoxin toxicity? Select all that apply.",
+          "options": {
+            "A": "Nausea and poor appetite",
+            "B": "Yellow-green visual halos",
+            "C": "Bradycardia or irregular pulse",
+            "D": "Older age with polypharmacy risk",
+            "E": "Possible electrolyte imbalance"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic or highly relevant digoxin toxicity clues. Older adults are especially vulnerable, and electrolyte disturbances such as hypokalaemia can increase toxicity risk."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The symptoms likely suggest digoxin toxicity requiring prompt medication review and cardiac assessment",
+            "B": "The patient has mild indigestion only",
+            "C": "Visual changes are unrelated to digoxin",
+            "D": "Bradycardia is expected and never important in digoxin therapy"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The combination of GI upset, visual disturbance, and bradycardia is highly suspicious for digoxin toxicity. This requires prompt action."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for dysrhythmia and worsening cardiac instability related to digoxin toxicity",
+            "B": "Disturbed sleep",
+            "C": "Knowledge deficit about exercise",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Digoxin toxicity can trigger dangerous cardiac dysrhythmias. This is the immediate priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold digoxin, assess apical pulse and rhythm carefully, and notify the provider while preparing for further evaluation",
+            "B": "Give the next dose because the patient has heart failure",
+            "C": "Offer a larger dose to improve cardiac output",
+            "D": "Ignore the pulse irregularity if nausea settles"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Suspected digoxin toxicity requires withholding the drug and escalating evaluation. Continuing the medication could worsen harm."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review potassium and renal function results",
+            "B": "Monitor the ECG or cardiac rhythm closely",
+            "C": "Reassess for vomiting, weakness, and mental status changes",
+            "D": "Teach the patient later to check pulse as instructed before dosing if appropriate",
+            "E": "Assume visual symptoms are harmless in older adults"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Potassium and kidney function are crucial in digoxin safety. Ongoing symptom and rhythm monitoring are appropriate. Visual changes should not be dismissed."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Pulse and rhythm stabilise, symptoms lessen, and contributing factors such as electrolyte imbalance are addressed",
+            "B": "Digoxin is continued despite worsening bradycardia",
+            "C": "Nausea worsens and no labs are reviewed",
+            "D": "Monitoring is stopped because the patient looks tired"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe improvement involves both symptom resolution and correction of the underlying causes of toxicity."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "IV Potassium Chloride Safety",
+      "narrative": "A patient with hypokalaemia has an order for IV potassium chloride replacement. During preparation, the nurse notices that a newly oriented staff member has drawn up potassium as if it were a routine IV push medication and is about to administer it rapidly. The patient has continuous telemetry monitoring available but is not yet connected.\nThe nurse recognises a major medication safety threat. IV potassium is a high-alert medication that must be administered in a controlled, diluted manner and monitored carefully.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which facts make this a high-risk medication situation? Select all that apply.",
+          "options": {
+            "A": "Potassium chloride is a high-alert medication",
+            "B": "IV push administration is unsafe for potassium replacement",
+            "C": "The patient is not yet on telemetry despite cardiac risk",
+            "D": "A new staff member may be unfamiliar with infusion safety",
+            "E": "Rapid administration could cause lethal arrhythmia"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed statements are correct. IV potassium given rapidly can precipitate fatal arrhythmias, making this a critical safety intervention point."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "This is a severe medication safety risk requiring immediate interruption of the planned administration",
+            "B": "Potassium can be given quickly if the nurse stays nearby",
+            "C": "Telemetry is unnecessary when potassium is low",
+            "D": "The route and rate do not matter if the order exists"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must recognise and stop the unsafe practice immediately. Potassium administration requires correct dilution, route, infusion control, and monitoring."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for fatal cardiac dysrhythmia due to unsafe IV potassium administration",
+            "B": "Disturbed sleep pattern",
+            "C": "Need for discharge teaching",
+            "D": "Social withdrawal"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate threat is catastrophic cardiac injury from incorrect administration technique."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the unsafe preparation, clarify the correct administration method, and ensure the patient is monitored and the medication is prepared according to protocol",
+            "B": "Let the staff member continue for the sake of learning",
+            "C": "Ignore the issue because the medication was ordered",
+            "D": "Give the potassium more quickly to save time"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must stop unsafe medication administration before harm occurs. Patient safety comes before workflow speed or staff comfort."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use an infusion pump and correct dilution according to policy",
+            "B": "Review the patient’s latest potassium level and renal function",
+            "C": "Connect telemetry if indicated by policy and patient condition",
+            "D": "Reinforce education to the new staff member about high-alert medication precautions",
+            "E": "Assume all concentrated electrolyte errors are harmless if corrected early"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. High-alert medication teaching and safe systems practice are part of harm prevention."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates safe management?",
+          "options": {
+            "A": "Potassium is administered at the correct rate with appropriate monitoring and no dysrhythmia develops",
+            "B": "The patient receives a rapid bolus but reports only mild discomfort",
+            "C": "Documentation omits the near-miss event",
+            "D": "The nurse avoids addressing the unsafe practice with staff"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe outcomes depend on correct administration, monitoring, and learning from near-miss events."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Opioid Administration with Respiratory Depression",
+      "narrative": "Mrs. Harini Iyer, a 64-year-old post-operative patient, receives IV opioid analgesia for severe abdominal pain. One hour later, the nurse finds her very sleepy, difficult to rouse, and breathing slowly. Her oxygen saturation has fallen and her respiratory rate is 8 breaths per minute.\nThe nurse must recognise opioid-induced respiratory depression and intervene immediately while balancing pain management and patient safety. The patient is at risk of progressing to respiratory arrest if the problem is missed.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate opioid-induced respiratory depression? Select all that apply.",
+          "options": {
+            "A": "Increased sedation",
+            "B": "Difficulty arousing the patient",
+            "C": "Respiratory rate 8 breaths per minute",
+            "D": "Falling oxygen saturation",
+            "E": "Recent opioid administration"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic signs of opioid-related oversedation and respiratory depression. NCLEX questions often emphasise the link between sedation level and respiratory compromise."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is resting comfortably and should not be disturbed",
+            "B": "The patient may be experiencing opioid-induced respiratory depression requiring urgent intervention",
+            "C": "This is expected sleep after surgery and is reassuring",
+            "D": "Oxygen saturation does not matter if pain is relieved"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This patient is not just sleeping; she is showing objective signs of dangerous opioid effect. Pain relief never takes priority over airway and breathing."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired ventilation related to opioid effect",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about wound care",
+            "D": "Constipation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Breathing is the priority. The nurse must act before the patient deteriorates further."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stimulate the patient, support airway and breathing, stop further opioid dosing, and call for urgent review while preparing reversal if indicated",
+            "B": "Give another opioid dose because pain may recur",
+            "C": "Leave the patient to sleep",
+            "D": "Wait for the next scheduled observation round"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate airway and respiratory support are required. Further opioid administration would worsen the situation. Delay is unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Continuous monitoring of respirations, oxygenation, and sedation level",
+            "B": "Review whether the patient has other sedating medications or risk factors",
+            "C": "Reassess pain only after safety is addressed",
+            "D": "Educate the patient later about requesting pain medication safely",
+            "E": "Assume that oxygen alone solves the problem without further review"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are correct. Oxygen may help temporarily, but the underlying opioid effect still requires evaluation and management."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Respiratory rate improves, oxygenation rises, responsiveness increases, and further opioid dosing is safely re-evaluated",
+            "B": "Sedation deepens while the nurse documents only pain scores",
+            "C": "Monitoring stops after the patient opens her eyes briefly",
+            "D": "The patient remains bradypnoeic without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by better ventilation, oxygenation, and responsiveness with ongoing reassessment."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Antibiotic Anaphylaxis",
+      "narrative": "Ms. Rose Fernandes receives the first dose of an IV antibiotic for pyelonephritis. Within minutes she reports itching, throat tightness, and dizziness. The nurse sees urticaria spreading across the chest, swelling around the lips, and increasing wheeze.\nThe patient becomes frightened and says, “I can’t breathe properly.” The nurse recognises probable anaphylaxis, a life-threatening medication reaction requiring immediate emergency response.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate anaphylaxis? Select all that apply.",
+          "options": {
+            "A": "Urticaria",
+            "B": "Lip swelling",
+            "C": "Throat tightness",
+            "D": "Wheeze and breathing difficulty",
+            "E": "Rapid onset after antibiotic exposure"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These findings indicate a systemic allergic reaction affecting the airway and skin. The timing after exposure is highly significant."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild rash only",
+            "B": "Acute anaphylactic reaction requiring immediate emergency treatment",
+            "C": "Panic attack only",
+            "D": "A harmless side effect"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The airway involvement and rapid onset show that this is far more serious than a mild drug rash."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for airway obstruction and cardiovascular collapse due to anaphylaxis",
+            "B": "Knowledge deficit about antibiotics",
+            "C": "Disturbed sleep pattern",
+            "D": "Social anxiety"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Anaphylaxis is an airway and circulation emergency."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the antibiotic, call for emergency assistance, support airway and breathing, and prepare immediate anaphylaxis treatment according to protocol",
+            "B": "Slow the infusion and continue observing",
+            "C": "Offer oral fluids and reassurance only",
+            "D": "Delay action until rash size is documented"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The antibiotic must be stopped immediately and emergency treatment initiated. Delay can be fatal."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor airway, breathing, circulation, and response to treatment continuously",
+            "B": "Document the reaction clearly as a probable allergy",
+            "C": "Educate the patient later about avoiding the drug and related agents if confirmed",
+            "D": "Prepare for worsening airway compromise if needed",
+            "E": "Assume hives are the only important symptom"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are appropriate. Airway symptoms are central in anaphylaxis and should never be overshadowed by the skin findings alone."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Wheeze decreases, swelling lessens, breathing eases, and the patient remains under close monitoring",
+            "B": "The reaction worsens and no escalation occurs",
+            "C": "Monitoring stops as soon as the rash fades slightly",
+            "D": "The allergy is not documented"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by reduced airway compromise and continued observation because recurrence can occur."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Beta-Blocker Administration with Bradycardia",
+      "narrative": "Mr. Thomas George, a 70-year-old man with hypertension and coronary artery disease, is due for his morning beta-blocker. Before administration, the nurse checks vital signs and finds a heart rate of 48 beats per minute and blood pressure lower than his usual baseline. The patient says he feels slightly dizzy when sitting up.\nThe medication order is due now, and the new nurse asks whether it should still be given because “the doctor ordered it every morning.” The nurse must apply safe medication assessment principles before administration.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are relevant before beta-blocker administration? Select all that apply.",
+          "options": {
+            "A": "Heart rate 48 beats per minute",
+            "B": "Lower-than-usual blood pressure",
+            "C": "Reported dizziness",
+            "D": "The medication is due now",
+            "E": "Need for baseline assessment before administration"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are relevant, but the bradycardia, hypotension trend, and dizziness are particularly important because beta-blockers can worsen them."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The drug should be given automatically because it is scheduled",
+            "B": "The patient may have a contraindication to receiving the dose right now and needs further assessment/provider guidance",
+            "C": "The pulse is too low to matter",
+            "D": "Dizziness is unrelated to cardiovascular status"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Medication administration requires assessment, not blind timing. Beta-blockers may need to be withheld if heart rate or blood pressure are too low, depending on the order parameters and clinical picture."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for worsening bradycardia and impaired perfusion if the medication is administered unsafely",
+            "B": "Disturbed sleep pattern",
+            "C": "Nutrition deficit",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is preventing iatrogenic worsening of bradycardia and hypotension."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold the dose temporarily, reassess the patient, and clarify administration parameters with the provider or follow standing guidance",
+            "B": "Give the dose quickly to stay on schedule",
+            "C": "Ask the patient to stand and walk before deciding",
+            "D": "Document it as given without actually administering it"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should never administer a potentially unsafe cardiac medication without considering current assessment findings. False documentation is unethical and illegal."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review the medication order for hold parameters",
+            "B": "Monitor the patient for worsening dizziness or signs of poor perfusion",
+            "C": "Explain to the patient why the assessment is important",
+            "D": "Reassess pulse and blood pressure after the decision is made",
+            "E": "Assume chronic cardiac patients always need every dose regardless of vitals"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Safe pharmacology practice includes using hold parameters, reassessing symptoms, and educating the patient. Chronic disease does not justify unsafe dosing."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The medication decision is made based on assessment and parameters, the patient remains stable, and documentation reflects the actual action taken",
+            "B": "The drug is given despite bradycardia and dizziness worsen",
+            "C": "The nurse omits the dose but fails to document or communicate it",
+            "D": "Monitoring is not repeated"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe medication management is assessment-based, well-documented, and clearly communicated."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "ACE Inhibitor and Angioedema",
+      "narrative": "Mr. Daniel Peters has recently started an ACE inhibitor for hypertension. He presents to the clinic with swelling of the lips and tongue that began this morning. He says his throat feels strange and his voice sounds different. He has no rash, but he is anxious and repeatedly touches his neck.\nThe nurse recognises possible ACE inhibitor–related angioedema, which can threaten the airway. Immediate recognition and escalation are essential.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate angioedema related to ACE inhibitor therapy? Select all that apply.",
+          "options": {
+            "A": "Lip swelling",
+            "B": "Tongue swelling",
+            "C": "Voice change and throat symptoms",
+            "D": "Recent ACE inhibitor initiation",
+            "E": "Potential airway risk"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic angioedema cues. ACE inhibitor–related angioedema may occur without rash and can progress rapidly to airway obstruction."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Minor dry mouth only",
+            "B": "Possible ACE inhibitor–induced angioedema requiring urgent airway-focused response",
+            "C": "Harmless food intolerance",
+            "D": "Stable expected medication effect"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This presentation is a medication emergency. The airway must be prioritised."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for airway obstruction related to angioedema",
+            "B": "Disturbed sleep",
+            "C": "Need for long-term exercise teaching",
+            "D": "Constipation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airway compromise is the immediate life-threatening concern."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold the ACE inhibitor, escalate urgently, and assess airway and breathing continuously",
+            "B": "Instruct the patient to take the next dose with food",
+            "C": "Delay evaluation until the swelling is measured precisely",
+            "D": "Assume the problem will resolve without action"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Medication-related angioedema requires prompt action because airway involvement can worsen rapidly."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor for progression of swelling and breathing difficulty",
+            "B": "Document the reaction clearly as a serious adverse effect",
+            "C": "Provide patient education later about avoiding the medication unless re-evaluated by the provider",
+            "D": "Maintain readiness for emergency airway management if symptoms worsen",
+            "E": "Assume that lack of rash means the airway is safe"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Rash is not required for angioedema. Airway monitoring and documentation are essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Swelling does not progress, breathing remains stable, and the medication issue is clearly documented and escalated",
+            "B": "Tongue swelling increases while reassessment is delayed",
+            "C": "The patient is sent home without warning signs education",
+            "D": "The ACE inhibitor is continued unchanged"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care protects the airway and prevents repeat exposure without review."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "MAOI Food Interaction and Hypertensive Crisis Risk",
+      "narrative": "Ms. Rachel Young, a 42-year-old woman taking an MAOI for treatment-resistant depression, arrives complaining of severe headache, palpitations, and neck stiffness after attending a party where she ate aged cheese, cured meats, and drank red wine. She says she thought only prescription drugs caused interactions, not food.\nHer blood pressure is markedly elevated and she appears anxious and flushed. The nurse recognises a possible tyramine-related hypertensive reaction associated with MAOI therapy.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support a possible MAOI food interaction? Select all that apply.",
+          "options": {
+            "A": "Severe headache",
+            "B": "Markedly elevated blood pressure",
+            "C": "Recent ingestion of high-tyramine foods",
+            "D": "Palpitations and flushing",
+            "E": "Current MAOI therapy"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All the clues fit an MAOI-tyramine reaction. This is a high-yield NCLEX interaction topic because it combines pharmacology, patient teaching, and urgent safety assessment."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild dietary intolerance only",
+            "B": "Possible hypertensive crisis related to MAOI food interaction",
+            "C": "Expected minor side effect that can wait",
+            "D": "Panic attack unrelated to food or medication"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The combination of MAOI use, tyramine-rich food intake, severe headache, and high blood pressure is highly concerning for a hypertensive reaction."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for severe hypertension-related complications related to drug-food interaction",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about exercise",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Severely elevated blood pressure can lead to stroke or other acute complications, making this the priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Recognise the interaction risk, assess the patient urgently, and notify the provider or emergency team for prompt management",
+            "B": "Tell the patient to rest at home and avoid cheese next time",
+            "C": "Ignore the food history because it is probably unrelated",
+            "D": "Give the next MAOI dose on schedule"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "This reaction can become dangerous quickly and requires immediate evaluation rather than delayed teaching only."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor blood pressure and neurological symptoms closely",
+            "B": "Reinforce later education about tyramine restrictions with MAOI therapy",
+            "C": "Clarify all prescription, OTC, and dietary practices",
+            "D": "Document the event and response accurately",
+            "E": "Assume wine and cheese interactions are myths"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Patient teaching is important, but urgent assessment comes first. Accurate documentation and medication-diet history are essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Blood pressure is treated promptly, symptoms improve, and the patient later demonstrates better understanding of MAOI dietary restrictions",
+            "B": "The patient is discharged without blood pressure reassessment",
+            "C": "Severe headache continues with no escalation",
+            "D": "The medication-diet link is never addressed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care includes both acute stabilisation and prevention through teaching."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Serotonin Syndrome from Drug Interaction",
+      "narrative": "Mr. Andrew Cole is taking an SSRI and recently started an over-the-counter product containing St. John’s Wort after reading online that it “boosts mood naturally.” He now presents with sweating, diarrhea, agitation, tremor, and increasing restlessness. His partner says he also had a low-grade fever overnight and has seemed confused at times.\nThe nurse recognises that this combination may have created serotonin excess and that the symptoms may worsen without intervention.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest serotonin syndrome? Select all that apply.",
+          "options": {
+            "A": "Agitation and confusion",
+            "B": "Sweating and fever",
+            "C": "Tremor and restlessness",
+            "D": "Diarrhea",
+            "E": "SSRI plus St. John’s Wort use"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These findings are consistent with serotonin syndrome. Herbal products can create serious interactions and should be included in medication assessment."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild anxiety only",
+            "B": "Probable serotonin excess requiring urgent medication review and monitoring",
+            "C": "Benign supplement side effect only",
+            "D": "Stable depression treatment response"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is not a minor issue. The combination of neuromuscular, autonomic, and mental status symptoms suggests serotonin toxicity."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for worsening autonomic and neurological instability related to serotonin excess",
+            "B": "Disturbed sleep pattern",
+            "C": "Low self-esteem",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The syndrome may become life-threatening if untreated, so physiological stability is the priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold serotonergic contributors as appropriate, escalate urgently, and begin close monitoring of vital signs and mental status",
+            "B": "Tell the patient to continue both products because one is natural",
+            "C": "Delay intervention until routine follow-up",
+            "D": "Focus only on diarrhea management"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The interacting agents should be addressed urgently. “Natural” does not mean safe in the presence of drug interactions."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Obtain a full medication, supplement, and OTC history",
+            "B": "Monitor rigidity, temperature, heart rate, and confusion",
+            "C": "Educate later about interaction risks of supplements",
+            "D": "Document the suspected interaction clearly",
+            "E": "Ignore low-grade fever because diarrhea is the main issue"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. Low-grade fever in the context of serotonin toxicity matters and should not be ignored."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Agitation decreases, temperature remains controlled or improves, and the patient’s confusion lessens while the interaction is addressed",
+            "B": "Symptoms worsen and the drug history is not reviewed",
+            "C": "Monitoring stops after one normal pulse reading",
+            "D": "The patient resumes the supplement without education"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by reduced autonomic and neurological symptoms and successful identification of the interaction."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Chemotherapy Safety and Extravasation Prevention",
+      "narrative": "A nurse on an oncology unit is preparing to administer a vesicant chemotherapy agent through a peripheral IV. The patient reports mild burning at the site shortly after the infusion begins. The line flushes with some resistance, and there is faint swelling around the cannula dressing.\nThe nurse recognises a potential extravasation event involving a hazardous medication. Rapid recognition is essential to limit tissue injury and maintain chemotherapy safety standards.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible chemotherapy extravasation? Select all that apply.",
+          "options": {
+            "A": "Burning at the IV site",
+            "B": "Resistance when flushing",
+            "C": "Swelling around the cannula",
+            "D": "Vesicant medication administration",
+            "E": "Need for urgent site reassessment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are important warning signs of extravasation. Vesicants can cause severe tissue damage if leakage occurs outside the vein."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is simply anxious about chemotherapy",
+            "B": "There may be extravasation of a hazardous medication requiring immediate intervention",
+            "C": "Mild discomfort should be ignored until the infusion finishes",
+            "D": "Resistance on flushing is normal during vesicant therapy"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must treat this as a possible vesicant leak until proven otherwise. Delay may worsen tissue damage."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for local tissue necrosis related to vesicant extravasation",
+            "B": "Disturbed body image",
+            "C": "Social isolation",
+            "D": "Sleep pattern disruption"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate threat is tissue injury at the infusion site."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the infusion immediately, assess the site, and follow vesicant extravasation protocol without flushing indiscriminately",
+            "B": "Increase the infusion rate to get the drug in faster",
+            "C": "Ignore the complaint because chemotherapy is uncomfortable",
+            "D": "Remove the line immediately without following protocol"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Extravasation protocols differ by agent, but the infusion must be stopped and the site assessed promptly. Automatic flushing or removal without protocol may worsen harm."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Follow facility protocol for aspiration, antidote use, or site management as applicable",
+            "B": "Document the event and notify the provider or oncology team promptly",
+            "C": "Reassure the patient while continuing assessment and management",
+            "D": "Review chemotherapy handling precautions and staff safety",
+            "E": "Assume swelling is harmless if the patient is stoic"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate responses. Vesicant reactions can be serious even if the patient is not highly expressive."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The infusion is stopped promptly, protocol is followed, tissue injury is limited, and documentation and escalation are complete",
+            "B": "Burning continues and no one documents the event",
+            "C": "The infusion continues despite swelling",
+            "D": "The nurse hides the incident to avoid blame"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe oncology pharmacology practice includes prompt harm reduction, accurate reporting, and careful follow-up."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Paediatric Weight-Based Dose Calculation",
+      "narrative": "A 4-year-old child, Noah, weighs 18 kg and is prescribed an antibiotic suspension. While preparing the dose, the nurse notices that a colleague has calculated the amount using pounds rather than kilograms, which would result in a much larger dose than intended. The child is otherwise stable and waiting with his mother.\nThe nurse recognises a preventable paediatric medication error. Because children are especially vulnerable to dosing mistakes, the calculation must be corrected before administration.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which features make this a high-risk medication situation? Select all that apply.",
+          "options": {
+            "A": "The patient is a young child requiring weight-based dosing",
+            "B": "The calculation was based on pounds instead of kilograms",
+            "C": "The resulting dose would be larger than intended",
+            "D": "Paediatric patients have less margin for dosing error",
+            "E": "The medication has not yet been administered"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these points are important. Paediatric medication safety depends heavily on accurate kg-based calculations. The fact that the error is caught before administration is critical and should lead to prevention of harm."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The larger dose may still be acceptable because the child looks healthy",
+            "B": "A serious preventable dosing error has been identified and must be corrected before administration",
+            "C": "Weight-based dosing is optional in children",
+            "D": "The nurse should give the dose to avoid delay in treatment"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The incorrect unit conversion creates a real safety risk. In paediatrics, even a seemingly small calculation error can cause harm."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for overdose related to incorrect paediatric dose calculation",
+            "B": "Disturbed sleep pattern",
+            "C": "Social withdrawal",
+            "D": "Knowledge deficit about school readiness"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Preventing overdose is the immediate priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the incorrect preparation, verify the child’s weight in kilograms, recalculate correctly, and clarify the order if needed before administration",
+            "B": "Give the larger dose because infection treatment is urgent",
+            "C": "Ask the parent to estimate the right amount",
+            "D": "Document the medication as given before calculation is checked"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The safe response is to verify, recalculate, and clarify before administration. Parents should not be expected to determine the correct dose."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use an independent double-check if policy requires it",
+            "B": "Explain to the caregiver that medication doses in children are based on weight for safety",
+            "C": "Document the corrected dose accurately",
+            "D": "Share the near-miss with the team to reduce future calculation errors",
+            "E": "Assume pounds and kilograms are interchangeable in small children"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions support both individual patient safety and system learning. Unit accuracy is essential in paediatric dosing."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The correct weight-based dose is administered safely, the caregiver understands the rationale, and the near-miss leads to safer practice review",
+            "B": "The wrong dose is given because treatment was urgent",
+            "C": "The error is hidden because it was caught early",
+            "D": "Documentation omits the corrected calculation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management prevents harm, supports education, and strengthens medication safety culture."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Polypharmacy and Orthostatic Risk in an Older Adult",
+      "narrative": "Mrs. Grace Wilson, an 82-year-old woman, is admitted after feeling dizzy and nearly falling at home. She takes an antihypertensive, a diuretic, a sedative at night, and two medications recently prescribed by different specialists. She says she often feels light-headed when standing, and her daughter reports increasing forgetfulness about when to take each pill.\nOn assessment, the nurse finds postural blood pressure changes and mild dehydration. The nurse recognises that polypharmacy, age-related physiology, and inconsistent medication use may all be contributing to instability.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest medication-related risk in this older adult? Select all that apply.",
+          "options": {
+            "A": "Multiple prescribed medications from different providers",
+            "B": "Orthostatic dizziness",
+            "C": "Mild dehydration",
+            "D": "Difficulty managing the medication schedule",
+            "E": "Near-fall event at home"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings point to medication-related harm risk. Older adults are especially vulnerable because of altered renal function, sensitivity to drugs, and polypharmacy."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Normal ageing only",
+            "B": "Polypharmacy with possible drug interactions, orthostatic effects, and adherence confusion contributing to fall risk",
+            "C": "No medication review is needed if the drugs are prescribed",
+            "D": "Dehydration alone explains everything"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s symptoms are likely multifactorial. The nurse should think broadly about medication burden, timing, interactions, dehydration, and adherence challenges."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for injury related to polypharmacy and impaired orthostatic tolerance",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about exercise",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate concern is fall-related injury and medication-associated instability."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Review the complete medication list, assess orthostatic safety, and communicate the risk pattern for medication reconciliation and adjustment",
+            "B": "Tell the patient to keep taking all medications exactly the same without review",
+            "C": "Encourage her to stand up faster to get used to it",
+            "D": "Ignore the daughter’s concerns because the drugs are prescribed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Medication reconciliation and orthostatic safety assessment are essential. Prescription status does not guarantee a combination is safe for the individual patient."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Assess renal function, hydration, and blood pressure trends",
+            "B": "Simplify medication teaching using clear written instructions if appropriate",
+            "C": "Involve the daughter or caregiver in safe medication planning with consent",
+            "D": "Review sedative use and timing in relation to fall risk",
+            "E": "Assume confusion is unrelated to medication burden"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Older adults often benefit from simplified regimens, hydration review, and careful family-supported planning when consented."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient’s medication list is clarified, orthostatic symptoms lessen, fall risk is reduced, and understanding of the regimen improves",
+            "B": "Near-falls continue and no medication review is done",
+            "C": "The patient remains confused about dosing with no education support",
+            "D": "Sedating medications continue unchanged despite repeated dizziness"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by safer medication use, better symptom control, and reduced fall risk."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Fetal Heart Rate Late Decelerations during Labour",
+      "stem": "Mrs. Jasmine Thomas is in active labour at 39 weeks and is receiving oxytocin augmentation. Over the last 20 minutes the nurse notices repeated fetal heart rate decelerations that begin after the peak of each contraction and return to baseline after the contraction has ended. The mother is anxious and tired. Maternal vital signs are stable, contractions are strong and regular, and the fetal strip shows a concerning pattern. The nurse recognises late decelerations as potentially indicating uteroplacental insufficiency. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which description best identifies late decelerations?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Decelerations that begin after the contraction peak and recover after the contraction ends"
+            },
+            {
+              "id": "B",
+              "text": "A reassuring fetal pattern"
+            },
+            {
+              "id": "C",
+              "text": "Decelerations that mirror the contraction exactly"
+            },
+            {
+              "id": "D",
+              "text": "Abrupt drops associated with cord compression"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Late decelerations start after the peak of the contraction and recover after it ends. This timing is the key identifying feature and usually reflects impaired uteroplacental perfusion. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation of repeated late decelerations?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal pushing pattern"
+            },
+            {
+              "id": "B",
+              "text": "Reassuring fetal adaptation"
+            },
+            {
+              "id": "C",
+              "text": "Fetal oxygenation concern related to uteroplacental insufficiency"
+            },
+            {
+              "id": "D",
+              "text": "Maternal anxiety only"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Late decelerations are abnormal because they suggest the fetus is not tolerating contractions well, often due to decreased oxygen transfer. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Room temperature discomfort"
+            },
+            {
+              "id": "B",
+              "text": "Need for breastfeeding education"
+            },
+            {
+              "id": "C",
+              "text": "Maternal boredom"
+            },
+            {
+              "id": "D",
+              "text": "Potential fetal compromise due to reduced placental oxygen exchange"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The fetus is the most immediate concern here. The nurse must intervene to improve oxygen delivery and reduce stress on the fetus. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage the mother to push harder"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until the next shift"
+            },
+            {
+              "id": "C",
+              "text": "Reposition the mother, reduce or stop oxytocin as indicated by protocol, support oxygenation, and increase maternal-fetal assessment"
+            },
+            {
+              "id": "D",
+              "text": "Leave the oxytocin unchanged and ignore the tracing"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Intrauterine resuscitation measures include maternal repositioning, addressing oxytocin-driven uterine stress, supporting oxygenation, and close monitoring. This is a classic NCLEX maternity priority question. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prepare for further intervention if the pattern persists"
+            },
+            {
+              "id": "B",
+              "text": "Assess maternal blood pressure and contraction pattern"
+            },
+            {
+              "id": "C",
+              "text": "Consider an IV fluid bolus if indicated or ordered"
+            },
+            {
+              "id": "D",
+              "text": "Notify the provider or midwife of the non-reassuring pattern"
+            },
+            {
+              "id": "E",
+              "text": "Continue to label the pattern as normal to calm the patient"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "The nurse must address reversible causes and escalate appropriately. Falsely labelling the pattern as normal would be unsafe and misleading. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Fetal Heart Rate Late Decelerations during Labour | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that the interventions are effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Decelerations worsen while oxytocin continues unchanged"
+            },
+            {
+              "id": "B",
+              "text": "The mother remains uninformed and distressed"
+            },
+            {
+              "id": "C",
+              "text": "Fetal tracing is not reassessed after repositioning"
+            },
+            {
+              "id": "D",
+              "text": "Late decelerations reduce or resolve and fetal tracing becomes more reassuring"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The goal of intervention is a more reassuring fetal pattern. The nurse must evaluate whether intrauterine resuscitation is working and escalate if it is not."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Umbilical Cord Prolapse",
+      "stem": "Mrs. Catherine George is in labour at 38 weeks. Shortly after spontaneous rupture of membranes, the fetal heart rate suddenly drops deeply and does not recover normally. On rapid assessment, the nurse suspects umbilical cord prolapse. The patient is frightened and asks what is happening. The fetal tracing remains concerning. The nurse understands that compression of the prolapsed cord can rapidly compromise fetal oxygenation and requires immediate action. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest possible cord prolapse? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Abrupt severe decelerations"
+            },
+            {
+              "id": "B",
+              "text": "Ongoing non-reassuring fetal tracing"
+            },
+            {
+              "id": "C",
+              "text": "Sudden fetal bradycardia after rupture of membranes"
+            },
+            {
+              "id": "D",
+              "text": "Need for rapid intrauterine resuscitation"
+            },
+            {
+              "id": "E",
+              "text": "Timing immediately after membranes rupture"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Cord prolapse is classically suspected when severe fetal heart rate compromise occurs immediately after rupture of membranes. The sequence of events is highly important in the diagnosis. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Probable umbilical cord compression/prolapse causing acute fetal hypoxia risk"
+            },
+            {
+              "id": "B",
+              "text": "Reassuring labour progression"
+            },
+            {
+              "id": "C",
+              "text": "Normal maternal anxiety response"
+            },
+            {
+              "id": "D",
+              "text": "Postpartum complication"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The problem is urgent fetal compromise from cord compression. NCLEX expects immediate recognition because delay can be catastrophic. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maternal sleep deprivation"
+            },
+            {
+              "id": "B",
+              "text": "Acute interruption of fetal oxygen delivery due to cord compression"
+            },
+            {
+              "id": "C",
+              "text": "Breastfeeding readiness"
+            },
+            {
+              "id": "D",
+              "text": "Need for newborn bath preparation"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The fetus is at immediate risk because the compressed cord limits oxygenated blood flow. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Leave the patient to find paperwork first"
+            },
+            {
+              "id": "B",
+              "text": "Delay intervention until contractions slow"
+            },
+            {
+              "id": "C",
+              "text": "Call for help, relieve pressure from the presenting part as indicated, reposition the patient urgently, and prepare for emergency birth"
+            },
+            {
+              "id": "D",
+              "text": "Encourage the patient to sit upright and push"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Relieving cord compression and summoning urgent obstetric help are the priorities. Time is critical, and the nurse must act immediately. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clear communication with the patient and team"
+            },
+            {
+              "id": "B",
+              "text": "Assuming the tracing will normalise without action"
+            },
+            {
+              "id": "C",
+              "text": "Continuous fetal monitoring"
+            },
+            {
+              "id": "D",
+              "text": "Preparation for urgent operative birth if indicated"
+            },
+            {
+              "id": "E",
+              "text": "Maintaining interventions that reduce cord compression"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Every minute matters in cord prolapse. Ongoing monitoring, communication, decompression, and preparation for emergency birth are all correct. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Umbilical Cord Prolapse | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that nursing management is helping while definitive delivery is arranged?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fetal heart rate improves or is better maintained while pressure is relieved and the team prepares for urgent birth"
+            },
+            {
+              "id": "B",
+              "text": "The patient is left uninformed and alone"
+            },
+            {
+              "id": "C",
+              "text": "No further monitoring is done after the first response"
+            },
+            {
+              "id": "D",
+              "text": "Fetal tracing worsens while interventions are stopped"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improved or better-maintained fetal status while emergency delivery is organised shows that decompression efforts are helping."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Shoulder Dystocia",
+      "stem": "Mrs. Amy Wilson is in the second stage of labour and the fetal head has just delivered. However, the head retracts tightly against the perineum and the shoulders fail to deliver with gentle downward guidance. The birth team quickly recognises possible shoulder dystocia. The mother is exhausted and frightened, and the nurse must help coordinate the emergency response while understanding that forceful traction may injure both mother and infant. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest shoulder dystocia? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Retraction of the fetal head against the perineum"
+            },
+            {
+              "id": "B",
+              "text": "Risk of fetal hypoxia and birth injury"
+            },
+            {
+              "id": "C",
+              "text": "Need for urgent manoeuvres"
+            },
+            {
+              "id": "D",
+              "text": "Head delivers but shoulders do not follow"
+            },
+            {
+              "id": "E",
+              "text": "Birth process suddenly stalls"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings strongly indicate shoulder dystocia. The retraction of the head, often called the turtle sign, is a classic cue. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shoulder dystocia requiring immediate coordinated obstetric manoeuvres"
+            },
+            {
+              "id": "B",
+              "text": "Normal labour delay"
+            },
+            {
+              "id": "C",
+              "text": "Postpartum haemorrhage"
+            },
+            {
+              "id": "D",
+              "text": "Placenta previa"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Shoulder dystocia is an obstetric emergency because the impacted shoulder can prevent delivery and compromise fetal oxygenation. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Need for discharge teaching"
+            },
+            {
+              "id": "B",
+              "text": "Risk for fetal hypoxia and traumatic birth injury"
+            },
+            {
+              "id": "C",
+              "text": "Sleep deprivation"
+            },
+            {
+              "id": "D",
+              "text": "Maternal thirst"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The urgency lies in relieving the shoulder impaction to allow delivery and prevent hypoxia or injury. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Leave the room to call family"
+            },
+            {
+              "id": "B",
+              "text": "Pull forcefully on the fetal head"
+            },
+            {
+              "id": "C",
+              "text": "Call for help immediately and assist with emergency manoeuvres according to the provider’s direction"
+            },
+            {
+              "id": "D",
+              "text": "Delay action until the next contraction"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Shoulder dystocia requires immediate team response and use of recognised manoeuvres. Forceful traction can cause serious injury and is inappropriate. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prepare equipment and personnel for neonatal assessment after birth"
+            },
+            {
+              "id": "B",
+              "text": "Maintain calm communication with the team"
+            },
+            {
+              "id": "C",
+              "text": "Provide clear, focused support to the mother"
+            },
+            {
+              "id": "D",
+              "text": "Anticipate possible maternal trauma or postpartum bleeding after delivery"
+            },
+            {
+              "id": "E",
+              "text": "Assume the infant will always be fine after delivery"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "The nurse must think beyond the moment of delivery and anticipate neonatal and maternal complications. Calm teamwork is essential. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Shoulder Dystocia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective emergency management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse stops monitoring after the infant is born"
+            },
+            {
+              "id": "B",
+              "text": "Delivery remains stalled with no coordinated response"
+            },
+            {
+              "id": "C",
+              "text": "Maternal assessment is ignored after delivery"
+            },
+            {
+              "id": "D",
+              "text": "The infant is delivered, immediate neonatal assessment occurs, and the mother is assessed for trauma and bleeding"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Successful management includes safe delivery and immediate follow-up care for both mother and infant."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Postpartum Hemorrhage due to Uterine Atony",
+      "stem": "Mrs. Riya Sharma has just delivered vaginally 30 minutes ago. The nurse notices that she is bleeding more heavily than expected, soaking pads rapidly. She says she feels weak and dizzy. On palpation, the uterus feels boggy and enlarged above the expected level. Her blood pressure is 92/58 mmHg, pulse 122 beats per minute, and she appears pale. The nurse recognises likely postpartum haemorrhage caused by uterine atony. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate postpartum haemorrhage with uterine atony? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Heavy vaginal bleeding"
+            },
+            {
+              "id": "B",
+              "text": "Dizziness and weakness"
+            },
+            {
+              "id": "C",
+              "text": "Pallor"
+            },
+            {
+              "id": "D",
+              "text": "Boggy enlarged uterus"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia and low blood pressure"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are hallmark findings of postpartum haemorrhage. A boggy uterus suggests uterine atony, one of the most common causes of PPH. Hemodynamic changes show significant blood loss. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Retained urine only"
+            },
+            {
+              "id": "B",
+              "text": "Postpartum haemorrhage likely caused by uterine atony"
+            },
+            {
+              "id": "C",
+              "text": "Normal postpartum lochia"
+            },
+            {
+              "id": "D",
+              "text": "Normal fatigue after delivery"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This bleeding exceeds normal lochia and is associated with a soft, enlarged uterus and unstable vital signs. NCLEX maternity care requires rapid recognition of uterine atony as an emergency. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for hypovolemic shock from postpartum blood loss"
+            },
+            {
+              "id": "B",
+              "text": "Need for infant bathing teaching"
+            },
+            {
+              "id": "C",
+              "text": "Mild discomfort from contractions"
+            },
+            {
+              "id": "D",
+              "text": "Sleep deprivation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Severe blood loss threatens maternal perfusion and can lead quickly to shock. That is the immediate priority. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Focus only on breastfeeding support"
+            },
+            {
+              "id": "B",
+              "text": "Send the patient to shower"
+            },
+            {
+              "id": "C",
+              "text": "Massage the fundus, call for assistance, assess bleeding, and prepare uterotonic therapy as prescribed"
+            },
+            {
+              "id": "D",
+              "text": "Delay action because bleeding is common after birth"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Fundal massage and urgent support are initial priorities in uterine atony. The nurse must not minimise heavy bleeding because postpartum haemorrhage can deteriorate rapidly. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prepare IV fluids and medications as ordered"
+            },
+            {
+              "id": "B",
+              "text": "Continue to assess lochia and uterine tone"
+            },
+            {
+              "id": "C",
+              "text": "Monitor vital signs frequently"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the patient’s dizziness if bleeding seems to slow briefly"
+            },
+            {
+              "id": "E",
+              "text": "Evaluate bladder distention because a full bladder can worsen atony"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "PPH requires repeated reassessment. Bladder distention can interfere with uterine contraction. Dizziness remains clinically important and should not be dismissed. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Hemorrhage due to Uterine Atony | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring stops because the fundus was massaged once"
+            },
+            {
+              "id": "B",
+              "text": "The uterus becomes firm, bleeding decreases, vital signs begin to stabilise, and the patient feels less dizzy"
+            },
+            {
+              "id": "C",
+              "text": "The uterus remains boggy and bleeding continues"
+            },
+            {
+              "id": "D",
+              "text": "The patient becomes more hypotensive without escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "A firm fundus, reduced bleeding, and improved hemodynamic status show effective control of uterine atony."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Postpartum Endometritis",
+      "stem": "Mrs. Linda Fernandes is two days postpartum after a prolonged labour and operative vaginal birth. She now reports chills, lower abdominal pain, and foul-smelling lochia. She says she feels hot and unwell, and she winces when the uterus is palpated. Her temperature is 38.8 C, pulse 112 beats per minute, and the uterus is tender. The nurse suspects postpartum endometritis. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support endometritis? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Uterine tenderness"
+            },
+            {
+              "id": "B",
+              "text": "Foul-smelling lochia"
+            },
+            {
+              "id": "C",
+              "text": "Fever"
+            },
+            {
+              "id": "D",
+              "text": "Chills and malaise"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All findings are consistent with postpartum uterine infection. Risk factors include prolonged labour and invasive or operative birth. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Baby blues"
+            },
+            {
+              "id": "B",
+              "text": "Normal postpartum healing"
+            },
+            {
+              "id": "C",
+              "text": "Breast engorgement only"
+            },
+            {
+              "id": "D",
+              "text": "Postpartum endometritis requiring prompt treatment"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The symptoms suggest uterine infection, not normal recovery. Prompt treatment is needed to prevent progression to sepsis. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minor perineal discomfort"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "C",
+              "text": "Infection with risk of systemic spread"
+            },
+            {
+              "id": "D",
+              "text": "Need for newborn bath education"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The main concern is infection and possible systemic deterioration if untreated. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay treatment until fever is rechecked tomorrow"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the odour because lochia can vary"
+            },
+            {
+              "id": "C",
+              "text": "Assess thoroughly, obtain needed cultures as ordered, and prepare for prescribed antibiotic therapy while monitoring maternal status"
+            },
+            {
+              "id": "D",
+              "text": "Encourage discharge home immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The nurse should support timely diagnosis and treatment. Foul-smelling lochia and uterine tenderness are not normal findings to dismiss. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Watch for worsening signs of sepsis"
+            },
+            {
+              "id": "B",
+              "text": "Assess lochia and uterine tenderness trends"
+            },
+            {
+              "id": "C",
+              "text": "Encourage hydration and rest as clinically appropriate"
+            },
+            {
+              "id": "D",
+              "text": "Monitor temperature and vital signs closely"
+            },
+            {
+              "id": "E",
+              "text": "Ignore the patient’s pain if antibiotics are started"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Close monitoring remains important even after treatment starts. Pain and sepsis risk both require ongoing reassessment. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Postpartum Endometritis | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fever decreases, lochia becomes less offensive, uterine tenderness lessens, and the patient feels stronger"
+            },
+            {
+              "id": "B",
+              "text": "Tachycardia worsens with ongoing pain"
+            },
+            {
+              "id": "C",
+              "text": "No reassessment occurs after antibiotics begin"
+            },
+            {
+              "id": "D",
+              "text": "Fever rises and confusion develops"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by reduction in infection signs and better overall maternal wellbeing."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1686 @@
+{
+  "moduleTitle": "Fundamentals of Nursing",
+  "moduleNumber": 1,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Acute Oxygenation Drop and ABC Prioritisation",
+      "narrative": "Mr. James Patel, a 68-year-old man with chronic obstructive pulmonary disease, is admitted to the medical ward with increasing shortness of breath over the last two days. At the beginning of the shift he was alert and speaking in full sentences, but during the late morning the nurse hears him ring the call bell repeatedly. When the nurse enters the room, he is sitting upright, leaning forward, using accessory muscles, and appears visibly anxious.\nHe says, “I cannot get enough air,” and can only speak in short phrases. Assessment reveals respiratory rate 28 breaths per minute, oxygen saturation 88% on room air, pulse 110 beats per minute, and blood pressure 150/90 mmHg. His skin is pale and his breathing is shallow and laboured. The nurse must use the ABC framework and act promptly to prevent further respiratory deterioration.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate clinically significant oxygenation compromise? Select all that apply.",
+          "options": {
+            "A": "Respiratory rate of 28 breaths per minute",
+            "B": "Oxygen saturation of 88% on room air",
+            "C": "Use of accessory muscles",
+            "D": "Inability to speak in full sentences",
+            "E": "Blood pressure of 150/90 mmHg"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "The strongest indicators of impaired oxygenation are tachypnoea, low oxygen saturation, increased work of breathing, and difficulty speaking in full sentences. Elevated blood pressure may reflect stress or sympathetic response, but it is not the main cue that defines oxygenation failure in this case. NCLEX reasoning focuses on the signs most directly linked to airway and breathing compromise."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s priority clinical interpretation of this situation?",
+          "options": {
+            "A": "The patient is mainly anxious and needs reassurance before intervention",
+            "B": "The patient is developing acute hypoxaemia and requires immediate respiratory support",
+            "C": "The patient is dehydrated and needs oral fluids first",
+            "D": "The patient is experiencing only fever-related discomfort"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The most urgent interpretation is acute hypoxaemia. Anxiety may be present, but the nurse must not mislabel a physiological emergency as an emotional issue. The low oxygen saturation, increased work of breathing, and limited speech indicate real respiratory compromise."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which nursing problem is most urgent?",
+          "options": {
+            "A": "Risk for impaired skin integrity",
+            "B": "Ineffective airway clearance and impaired gas exchange related to respiratory distress",
+            "C": "Disturbed sleep pattern",
+            "D": "Fear related to hospital admission"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate life-threatening problem is respiratory compromise. In Fundamentals of Nursing, the nurse must always prioritise ABCs above comfort, teaching, or psychosocial concerns when deterioration is present."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Apply oxygen, assess airway patency, position the patient upright, and stay with him while reassessing",
+            "B": "Document the findings before taking any action",
+            "C": "Leave the room to look for the physician before intervening",
+            "D": "Ask the patient to rest quietly and recheck in 30 minutes"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct first response addresses airway and breathing immediately. Oxygen support, positioning, assessment, and staying with the patient are all priority actions. Documentation and escalation are important but follow initial stabilising measures."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate after the first response? Select all that apply.",
+          "options": {
+            "A": "Reassess oxygen saturation and respiratory effort after intervention",
+            "B": "Prepare to communicate the change using structured handover such as SBAR",
+            "C": "Monitor mental status because worsening confusion may indicate worsening hypoxia",
+            "D": "Delay escalation if oxygen improves slightly once",
+            "E": "Evaluate for cough, secretions, or other contributors to the breathing difficulty"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are appropriate. Reassessment and escalation are key NGN principles. Mental status is important because confusion may signal worsening oxygen deprivation. A slight temporary improvement does not remove the need for continued observation and communication."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which outcome best indicates the nurse’s initial interventions are effective?",
+          "options": {
+            "A": "Oxygen saturation improves to 94%, respiratory rate decreases, and the patient can speak more comfortably",
+            "B": "Blood pressure stays mildly elevated",
+            "C": "The patient says he is tired and wants to sleep without further assessment",
+            "D": "The patient coughs once after oxygen is applied"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improved oxygenation, reduced work of breathing, and better ability to speak indicate meaningful respiratory improvement. NGN evaluation focuses on whether the intervention changed the patient’s condition in a safer direction."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Suspected Tuberculosis and Airborne Isolation",
+      "narrative": "Ms. Riya Khan, a 32-year-old patient, is admitted with persistent cough, intermittent fever, fatigue, night sweats, and recent weight loss. While being admitted she begins coughing frequently without covering her mouth. The ward is busy, and a staff member suggests using a regular multi-bed room “until the doctor confirms anything.”\nThe nurse recognises that the symptom pattern is concerning for pulmonary tuberculosis. Another patient nearby is immunocompromised, and several staff members are entering and leaving the shared space. The nurse must act promptly to reduce transmission risk before laboratory confirmation is available.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support the need for early airborne precaution planning? Select all that apply.",
+          "options": {
+            "A": "Persistent cough",
+            "B": "Night sweats and weight loss",
+            "C": "Fever and fatigue",
+            "D": "Frequent coughing in a shared ward space",
+            "E": "Presence of an immunocompromised patient nearby"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these cues are important. Tuberculosis should be suspected from the symptom cluster, not just one symptom. Shared space and vulnerable nearby patients increase the urgency of prompt infection control."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Isolation can wait until sputum results are final",
+            "B": "Suspected airborne infection requires protective action now, even before final confirmation",
+            "C": "A surgical mask for staff provides the same protection as an N95 respirator in this situation",
+            "D": "Because the patient is cooperative, special precautions are unnecessary"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Infection control is based on risk recognition, not on delayed certainty. The nurse must protect others when symptoms strongly suggest a transmissible airborne disease."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for transmission of an airborne infectious disease to other patients and staff",
+            "B": "Disturbed sleep pattern",
+            "C": "Deficient knowledge about cough etiquette only",
+            "D": "Imbalanced nutrition"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The most urgent issue is containment of transmission risk. In Fundamentals, nurses must consider both the patient and the care environment when prioritising safety."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate airborne precautions, place the patient appropriately according to policy, and use correct respiratory protection",
+            "B": "Wait for the provider to enter orders before doing anything",
+            "C": "Continue standard precautions only",
+            "D": "Ask the patient to stay quiet to reduce coughing"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should begin the correct precaution pathway immediately. Waiting or minimising the situation could expose others to preventable harm."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Perform hand hygiene before and after patient contact",
+            "B": "Limit unnecessary patient movement through common areas",
+            "C": "Ensure visitors and staff follow policy regarding PPE and room entry",
+            "D": "Assume a simple surgical mask always gives equivalent airborne protection for staff",
+            "E": "Use clear communication and signage to support safe isolation practice"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate infection control actions. Airborne precautions require more than just routine masking. Safe practice includes environmental control, PPE, movement restriction, and communication."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which outcome best indicates safe nursing management?",
+          "options": {
+            "A": "The patient is placed under correct precautions promptly, staff use appropriate protection, and exposure risk to others is reduced",
+            "B": "The patient stays in the shared room until all testing is complete",
+            "C": "Staff remain unsure about which PPE to wear",
+            "D": "Nearby high-risk patients are not considered in planning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective nursing management reduces transmission risk and supports safe care simultaneously."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Unsafe Insulin Order and Medication Clarification",
+      "narrative": "Mr. Kumar Shah, a 54-year-old patient with type 2 diabetes, is admitted for intravenous antibiotics and glucose management. At lunchtime the nurse reviews the medication chart and sees an order that reads, “Insulin 10 units now.” The order does not identify whether the insulin is rapid-acting, short-acting, or long-acting, and it does not explain whether it is for correction or meal coverage.\nSeveral insulin preparations are stored in the medication trolley. The patient says, “I usually get insulin before meals, but I’m not sure which one today.” Lunch has just arrived and the nurse feels pressure to give the medication quickly. However, insulin is a high-alert medication, and the nurse recognises that guessing is unsafe.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Why is this order unsafe as written? Select all that apply.",
+          "options": {
+            "A": "The insulin type is missing",
+            "B": "The purpose of the dose is unclear",
+            "C": "Multiple insulin preparations are available",
+            "D": "Insulin is a high-alert medication",
+            "E": "The patient’s memory is uncertain"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "This order is incomplete and therefore unsafe. Because insulin type, timing, and purpose affect onset and risk, the nurse must not assume what was intended. The patient’s uncertainty adds to the need for clarification."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The nurse may select the most common insulin used on the ward",
+            "B": "The order must be clarified before any insulin is administered",
+            "C": "The patient should decide which insulin is correct",
+            "D": "The nurse should skip the dose indefinitely without follow-up"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "High-alert medications require complete and accurate orders. Administering based on routine or assumption could cause severe hypo- or hyperglycaemia."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which safety issue is most urgent?",
+          "options": {
+            "A": "Risk for medication error and patient harm due to an incomplete high-alert medication order",
+            "B": "Delay in meal service",
+            "C": "Documentation workload",
+            "D": "Family visiting arrangements"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The central issue is patient safety in medication administration. Time pressure does not justify bypassing verification."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Clarify the order with the prescriber before giving insulin",
+            "B": "Ask another nurse what is usually given and administer that",
+            "C": "Give the long-acting insulin because it seems safest",
+            "D": "Wait until after lunch and ignore the missing details"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must verify the order with the prescriber. Peer opinion and routine practice are not substitutes for a valid, complete order."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which actions support safe insulin administration in this situation? Select all that apply.",
+          "options": {
+            "A": "Check the most recent blood glucose result",
+            "B": "Use two patient identifiers before administration",
+            "C": "Clarify the insulin type and intended purpose",
+            "D": "Double-check the dose if policy requires it",
+            "E": "Skip documentation because insulin is routine"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all core medication safety practices. Documentation is always required and should never be skipped, especially for a high-alert drug."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which outcome best shows safe nursing management?",
+          "options": {
+            "A": "The order is clarified, the correct insulin is given, and the administration is documented accurately",
+            "B": "The patient receives insulin quickly before lunch without clarification",
+            "C": "The nurse delays all diabetic treatment for the rest of the day",
+            "D": "The chart remains ambiguous but the patient says he trusts the nurse"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A safe outcome includes clarification, correct administration, and proper documentation. NGN evaluation closes the loop from risk recognition to safe completion of care."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Post-Operative Fall Risk and Immediate Safety",
+      "narrative": "Mrs. Leela Joseph is an 83-year-old patient on the orthopaedic ward following repair of a fractured neck of femur. In the evening she becomes increasingly confused and repeatedly asks where she is. When the nurse enters the room, Mrs. Joseph is halfway out of bed trying to stand. The bed remains raised after linen care, the call bell is behind the pillow, and she is not wearing non-slip footwear.\nShe has an IV line attached and reported dizziness earlier after analgesia. She is weak, disoriented, and says she needs to go home immediately. The nurse recognises immediate fall risk and must intervene before injury occurs.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings increase this patient’s immediate fall risk? Select all that apply.",
+          "options": {
+            "A": "Advanced age",
+            "B": "Post-operative weakness",
+            "C": "Confusion and disorientation",
+            "D": "Raised bed and inaccessible call bell",
+            "E": "Non-slip footwear not in place"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these contribute to immediate fall risk. The patient’s age, weakness, cognitive impairment, and unsafe environment combine to create high injury potential."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is simply restless and can be redirected later",
+            "B": "Delirium, weakness, analgesia effects, and environmental hazards are creating an urgent fall risk",
+            "C": "The patient is intentionally non-compliant",
+            "D": "The IV line is the only issue"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is a multifactorial safety problem. The nurse should think broadly rather than blaming the patient or reducing the issue to one cause."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for injury related to confusion, weakness, and unsafe mobility attempt",
+            "B": "Disturbed sleep pattern",
+            "C": "Social isolation",
+            "D": "Self-care deficit for bathing"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Preventing immediate physical harm is the top priority. Fundamentals questions often test the nurse’s ability to act on imminent safety threats first."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assist the patient back to a safe position and remain with her while addressing the environment",
+            "B": "Document the near fall before intervening",
+            "C": "Leave to obtain a restraint order",
+            "D": "Explain hospital policy in detail while she stands"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient must be made safe immediately. Documentation and broader planning follow once the imminent risk has been controlled."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional interventions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Lower the bed and place the call bell within reach",
+            "B": "Use non-slip footwear and reduce clutter",
+            "C": "Consider toileting needs, pain, and medication effects",
+            "D": "Increase rounding or close observation",
+            "E": "Apply restraints immediately as first-line management"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These interventions reduce fall risk through environment, reassessment, and supervision. Restraints are not first-line and may worsen agitation or injury risk."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing management?",
+          "options": {
+            "A": "The patient remains safe in bed, hazards are reduced, and close observation is in place",
+            "B": "The patient stays confused, so the plan is considered ineffective",
+            "C": "The bed remains high but the nurse documents the risk",
+            "D": "The call bell stays inaccessible because the patient is forgetful"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Even if confusion persists, the nursing plan is effective when injury risk is reduced and supervision is improved."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "SBAR Communication for Sudden Hypotension",
+      "narrative": "Mr. Ali Rahman is recovering after abdominal surgery. During routine observations the nurse notices that his blood pressure has dropped from 130/80 mmHg to 90/60 mmHg within 30 minutes. He looks pale, says he feels dizzy, and has become clammy. His pulse is now 118 beats per minute, and the abdominal dressing shows a modest but clearly increased amount of drainage compared with the previous check.\nThe nurse has already laid him flat safely and reassured him, but recognises that the patient may be developing hypovolaemia or internal bleeding. Clear and urgent communication is essential to obtain timely medical review.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support concern for acute post-operative deterioration? Select all that apply.",
+          "options": {
+            "A": "Significant drop in blood pressure",
+            "B": "Tachycardia",
+            "C": "Pallor and clammy skin",
+            "D": "Increased wound drainage",
+            "E": "Dizziness and weakness"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings are clinically significant and suggest circulatory compromise. NGN reasoning requires the nurse to integrate the trend rather than viewing the symptoms separately."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation of the situation?",
+          "options": {
+            "A": "The patient is anxious after surgery and can wait for routine review",
+            "B": "The patient may be developing post-operative hypovolaemia or bleeding and requires prompt escalation",
+            "C": "The dressing drainage is unimportant if pain is controlled",
+            "D": "The blood pressure probably reflects normal variation"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The combination of hypotension, tachycardia, pallor, and increased drainage suggests significant physiological deterioration. Waiting is unsafe."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for decreased tissue perfusion related to possible blood loss or shock",
+            "B": "Acute pain only",
+            "C": "Anxiety about surgery",
+            "D": "Deficient knowledge about wound care"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s circulation and perfusion are threatened. ABC priorities require the nurse to address this before teaching or reassurance alone."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reassess the patient, ensure immediate safety, and escalate promptly using SBAR or structured communication",
+            "B": "Finish all routine charting before reporting",
+            "C": "Wait until the next observation round",
+            "D": "Ask the patient to drink water and rest"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should respond immediately with reassessment and escalation. Documentation is important but must not delay urgent communication."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which information should be included in the SBAR handover? Select all that apply.",
+          "options": {
+            "A": "The vital sign changes and time trend",
+            "B": "The patient’s symptoms such as dizziness and weakness",
+            "C": "Relevant surgical background and increased dressing drainage",
+            "D": "Actions already taken by the nurse",
+            "E": "Objective concern about possible bleeding or hypovolaemia"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "A safe handover includes the situation, key background, assessment findings, and response already initiated. This allows the next clinician to act quickly and effectively."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective communication and management?",
+          "options": {
+            "A": "The deterioration is recognised early, escalation occurs promptly, and treatment begins while the patient is closely monitored",
+            "B": "The nurse reports casually without objective findings",
+            "C": "The patient remains hypotensive while documentation is prioritised over review",
+            "D": "The change is mentioned later during routine rounds only"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective communication improves patient outcomes by enabling timely intervention and coordinated care."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Fever, Redness, and Early Wound Infection",
+      "narrative": "Mrs. Marta Silva is on day three after abdominal surgery. During the morning assessment she says the incision feels more painful than yesterday. The nurse notes localized redness around the wound edges, mild swelling, and warmth. Her temperature is 38.4 C and she says she feels tired and chilled.\nThe nurse recognizes the possibility of an early surgical site infection. The patient is not yet acutely unstable, but delayed recognition could lead to worsening infection or sepsis.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible wound infection? Select all that apply.",
+          "options": {
+            "A": "Increased incisional pain",
+            "B": "Redness and warmth",
+            "C": "Mild swelling",
+            "D": "Fever and chills",
+            "E": "Change from previous wound appearance"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are consistent with evolving wound infection. The fact that these findings are new or worse than before is especially significant."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "These findings are expected and should be ignored",
+            "B": "The patient may be developing a surgical site infection requiring prompt assessment and provider notification",
+            "C": "Fever is unrelated to the wound",
+            "D": "The wound is healing normally because there is some redness"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom pattern and local wound findings suggest infection until proven otherwise. Dismissing early infection signs may delay treatment and worsen outcomes."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for progression of infection related to wound contamination or impaired healing",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about nutrition",
+            "D": "Self-care deficit for grooming"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must act to prevent a local infection from progressing to systemic illness or impaired wound healing."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess the wound thoroughly, obtain vital sign context, maintain aseptic technique, and report the concerning changes appropriately",
+            "B": "Remove the dressing and leave the wound open without assessment",
+            "C": "Tell the patient not to worry because redness is normal",
+            "D": "Delay review until the next dressing round"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A complete assessment and timely communication are needed. The nurse should continue safe wound care principles and avoid minimizing the findings."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor for increasing drainage, spreading redness, or worsening fever",
+            "B": "Document wound findings objectively and accurately",
+            "C": "Reinforce hand hygiene and aseptic dressing technique",
+            "D": "Evaluate pain trend and overall patient condition",
+            "E": "Assume infection is ruled out if there is no heavy drainage yet"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions support early infection recognition and prevention of further deterioration. Heavy drainage is not required for infection to be present."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The wound changes are reported early, treatment begins if ordered, and the patient shows no progression to more severe infection",
+            "B": "The wound becomes more swollen and febrile with no action",
+            "C": "Documentation is vague and incomplete",
+            "D": "Dressing changes continue without reassessment of symptoms"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care involves early detection, accurate reporting, and prevention of worsening infection."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "High-Alert Potassium Order Safety",
+      "narrative": "A patient with a potassium level of 2.8 mmol/L has an order that reads, “KCl 40 mEq IV push now.” A newly oriented nurse asks whether this can be given quickly because the potassium is low and replacement is urgent. The patient is on a general medical floor and is not yet on cardiac monitoring.\nThe supervising nurse recognises that the order as written is dangerous. Potassium chloride is a high-alert medication and should never be given IV push because of the risk of fatal arrhythmias.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which details make this order unsafe? Select all that apply.",
+          "options": {
+            "A": "Potassium chloride is a high-alert medication",
+            "B": "The order states IV push administration",
+            "C": "The potassium level is low but cardiac risk is high",
+            "D": "The patient is not yet on cardiac monitoring",
+            "E": "Rapid administration could be lethal"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these elements are clinically significant. While the patient needs replacement, the route and rate are unsafe as written. NCLEX medication safety questions often test recognition of unsafe orders even when treatment itself is necessary."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Because the potassium is low, any route is acceptable if given carefully",
+            "B": "The order must be clarified because IV potassium should not be administered by IV push",
+            "C": "The safest plan is to ignore the order completely",
+            "D": "Rapid potassium replacement is harmless if the patient is awake"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The medication is needed, but the route is unsafe. The nurse must clarify and follow safe infusion practice."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for fatal dysrhythmia due to unsafe medication administration technique",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about diet",
+            "D": "Delayed breakfast"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate priority is prevention of iatrogenic harm from incorrect potassium administration."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold the unsafe administration, clarify the order, and prepare potassium for controlled infusion according to policy",
+            "B": "Give the potassium slowly by hand as IV push",
+            "C": "Ask the patient whether IV push is acceptable",
+            "D": "Wait for the next shift to handle it"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must stop the unsafe process and clarify the order immediately. Controlled infusion and monitoring are essential for safe potassium replacement."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional safety actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use an infusion pump for controlled administration",
+            "B": "Monitor cardiac rhythm if indicated by policy and patient condition",
+            "C": "Recheck potassium and assess clinical response as ordered",
+            "D": "Document the clarification process accurately",
+            "E": "Assume all concentrated electrolytes can be pushed quickly in emergencies"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all correct and reflect high-alert medication safety. Concentrated electrolytes require strict control and should never be treated casually."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates safe management?",
+          "options": {
+            "A": "The unsafe order is clarified, potassium is infused correctly, and the patient is monitored without arrhythmic complication",
+            "B": "The IV push is given and the patient remains asymptomatic initially",
+            "C": "No one documents the near-miss because the patient was not harmed",
+            "D": "The order remains unclear but is followed anyway"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe management includes preventing harm, correcting the order, and ensuring proper monitoring and documentation."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Acute Pain Assessment and Safe Intervention",
+      "narrative": "Mr. David Thomas, a 46-year-old man, is 12 hours post appendectomy. During rounds he reports abdominal pain of 8 out of 10 and is guarding the incision area. He is grimacing and states that the pain has worsened over the last hour. He has a PRN opioid order available, but the nurse notices he is more sleepy than before and his last recorded respiratory rate was borderline low after a prior dose.\nThe nurse must assess pain thoroughly while balancing comfort with medication safety. This requires more than simply responding to the pain number.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are important in a safe pain assessment? Select all that apply.",
+          "options": {
+            "A": "Pain score of 8 out of 10",
+            "B": "Guarding and grimacing",
+            "C": "Worsening trend over the last hour",
+            "D": "Availability of PRN opioid medication",
+            "E": "Prior borderline low respiratory rate after earlier opioid dosing"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings matter. Pain assessment includes severity, behaviour, trend, available treatment, and safety factors such as respiratory status if opioids may be used."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The nurse should give the opioid immediately without reassessment because the patient reports severe pain",
+            "B": "The patient has significant pain, but opioid safety assessment must be completed before administration",
+            "C": "The patient should not receive any pain treatment because he is sleepy",
+            "D": "The pain score alone determines the entire plan"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must address pain while also evaluating sedation, respiration, and medication safety. A high pain score does not eliminate the need for assessment."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Acute pain requiring intervention balanced with risk for opioid-related oversedation",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about surgery",
+            "D": "Risk for loneliness"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s priority is a safe plan that treats pain without causing respiratory harm."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reassess respiratory rate, sedation level, and full pain context before administering the opioid",
+            "B": "Give the opioid immediately because pain is 8 out of 10",
+            "C": "Refuse all pain medication without reassessment",
+            "D": "Document the pain and return later"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "This is the safest first step. In Fundamentals, nurses are expected to assess before they intervene—especially when a high-risk medication such as an opioid is involved."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use non-pharmacological comfort measures as appropriate alongside medication planning",
+            "B": "Reassess pain and respiratory status after intervention",
+            "C": "Consider the timing and response to the previous opioid dose",
+            "D": "Communicate concerns if sedation or respirations make the PRN unsafe",
+            "E": "Assume that severe pain always justifies any opioid dose"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Safe pain care is reassessment-based and individualized. Severe pain does not override respiratory safety concerns."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing management?",
+          "options": {
+            "A": "Pain improves to a more tolerable level, respiratory status remains safe, and reassessment confirms benefit without oversedation",
+            "B": "The patient sleeps heavily and cannot be aroused easily",
+            "C": "The nurse gives medication but does not reassess",
+            "D": "The pain remains uncontrolled because assessment was skipped"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management balances symptom relief with patient safety and post-intervention evaluation."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Fluid Volume Deficit and Orthostatic Symptoms",
+      "narrative": "Ms. Olivia Green, a 25-year-old patient admitted with vomiting and diarrhea, reports dizziness when standing. She says she has been unable to keep much down for the last 24 hours. On assessment, the nurse notes dry mucous membranes, concentrated urine, heart rate 118, and low-normal blood pressure. When she tries to sit upright quickly, she becomes more light-headed.\nThe nurse suspects fluid volume deficit and must use focused assessment and early intervention to prevent worsening perfusion problems.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support fluid volume deficit? Select all that apply.",
+          "options": {
+            "A": "Persistent vomiting and diarrhea",
+            "B": "Dry mucous membranes",
+            "C": "Concentrated urine",
+            "D": "Tachycardia",
+            "E": "Dizziness when changing position"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are classic indicators of volume depletion. Orthostatic symptoms and tachycardia suggest the body is compensating for reduced circulating volume."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is mainly anxious and should rest",
+            "B": "The patient likely has fluid volume deficit with risk for worsening perfusion if untreated",
+            "C": "Concentrated urine is unimportant",
+            "D": "The vomiting and diarrhea are unrelated to the dizziness"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom cluster clearly indicates dehydration or volume depletion. Waiting may allow hypotension and poor perfusion to worsen."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for decreased tissue perfusion related to fluid loss",
+            "B": "Disturbed sleep pattern",
+            "C": "Social isolation",
+            "D": "Acute boredom"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Perfusion and circulation are the most urgent concerns in fluid deficit."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess vital signs and hydration status fully, support safety with position changes, and begin fluid replacement measures as ordered",
+            "B": "Encourage the patient to walk quickly to improve circulation",
+            "C": "Ignore the dizziness and focus on diet teaching only",
+            "D": "Delay intervention until the next set of observations"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should protect the patient from falls and worsening symptoms while initiating appropriate rehydration and assessment."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor intake and output closely",
+            "B": "Reassess orthostatic symptoms and pulse after intervention",
+            "C": "Evaluate urine concentration and overall hydration trend",
+            "D": "Provide patient education about slow position changes",
+            "E": "Assume that because the patient is young, perfusion risk is low"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Younger age does not eliminate the need for careful hydration assessment and safe nursing care."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient becomes less dizzy, heart rate improves, urine output normalizes, and mucous membranes appear less dry",
+            "B": "She becomes more tachycardic and light-headed when sitting up",
+            "C": "Intake and output are not monitored",
+            "D": "The nurse documents hydration as improved without reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is reflected in better perfusion, better hydration indicators, and symptom relief."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "Pressure Injury Prevention in an Immobile Patient",
+      "narrative": "Mr. Louis Martin is a 71-year-old patient recovering from a stroke. He has limited mobility, poor appetite, and needs assistance with turning. During a busy afternoon, repositioning is delayed several times. When the nurse later checks his skin, there is persistent redness over the sacral area and he reports tenderness when moved.\nThe nurse recognizes that this patient has multiple pressure injury risk factors. Early action is needed to prevent deeper tissue injury.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors increase this patient’s pressure injury risk? Select all that apply.",
+          "options": {
+            "A": "Limited mobility",
+            "B": "Delayed repositioning",
+            "C": "Poor nutritional intake",
+            "D": "Redness over a pressure area",
+            "E": "Tenderness when moved"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these cues indicate increased risk or early pressure damage. Pressure injuries are often preventable with timely nursing care, making early detection essential."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is beginning to show signs of pressure-related tissue compromise",
+            "B": "Redness is harmless if the patient stays in bed",
+            "C": "Stroke patients cannot benefit from repositioning",
+            "D": "Nutrition has no relevance to skin integrity"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Persistent pressure-area redness and tenderness suggest early skin compromise. Mobility and nutrition are directly relevant to tissue health."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for impaired skin integrity progressing to pressure injury",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about reading materials",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should prioritise tissue protection and prevention of worsening skin damage."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Relieve pressure immediately, reposition the patient, and reassess the skin thoroughly",
+            "B": "Massage the area vigorously to improve circulation",
+            "C": "Leave the patient in place until the next turn schedule",
+            "D": "Cover the area without checking it again"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Pressure must be relieved quickly. Vigorous massage can worsen tissue damage and is not appropriate."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use pressure-relieving devices or surfaces as indicated",
+            "B": "Improve communication about repositioning needs among staff",
+            "C": "Address nutrition and moisture management",
+            "D": "Document skin findings objectively",
+            "E": "Assume early redness will always resolve without follow-up"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These interventions reflect good pressure injury prevention practice. Early signs require follow-up, not passive observation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The area does not worsen, repositioning becomes consistent, and the patient’s skin remains protected",
+            "B": "Redness deepens and no turning plan is changed",
+            "C": "Staff document risk but do not reposition the patient",
+            "D": "Nutrition remains poor and unaddressed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective prevention depends on timely intervention, follow-through, and reassessment."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Accurate Patient Identification Before Medication",
+      "narrative": "Two patients with similar last names are admitted to adjacent beds on a busy surgical unit. One is due for insulin, and the other is due for an antihypertensive medication. A nurse approaches the bedside with medications prepared and asks, “Are you Mr. Taylor?” The patient nods while watching television, but another nurse notices that the chart in hand belongs to the other patient.\nThe nurse realises that a wrong-patient medication error almost occurred. The event highlights the need for two patient identifiers and careful bedside verification.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors created wrong-patient medication risk? Select all that apply.",
+          "options": {
+            "A": "Similar patient surnames",
+            "B": "Adjacent bed placement",
+            "C": "Use of only one identifier",
+            "D": "Distracted patient response",
+            "E": "Medications prepared before full bedside verification"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these factors increased the likelihood of a wrong-patient medication error. Similar names and incomplete identifier use are common safety traps."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient’s nod was enough confirmation",
+            "B": "A serious near miss occurred because proper patient identification was not completed",
+            "C": "Similar names are unavoidable so no system issue exists",
+            "D": "Near misses do not matter if the medication was not given"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Near misses are important because they reveal unsafe processes before harm occurs. Proper identification requires two approved identifiers, not assumptions or distracted confirmation."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Risk for wrong-patient medication administration due to identification failure",
+            "B": "Delay in medication round timing",
+            "C": "Staff embarrassment",
+            "D": "Noise level on the ward"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Preventing wrong-patient medication administration is the priority. Patient identification errors can cause serious harm."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the process and verify identity using two approved identifiers before any medication is administered",
+            "B": "Give the medication because the patient nodded",
+            "C": "Ask the roommate to confirm identity",
+            "D": "Chart the dose as given and return later"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Medication administration must stop until the correct patient is confirmed. Roommates and nods are not valid identifiers."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Report the near miss according to policy",
+            "B": "Reinforce safeguards for patients with similar names",
+            "C": "Review how bedside verification is performed on the unit",
+            "D": "Continue using two identifiers consistently for all medications",
+            "E": "Assume that because no harm occurred, no review is needed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Near misses should be reported and used for system improvement. Reliable identification is a core Fundamentals safety principle."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The error is prevented before administration, reported appropriately, and identification practice is strengthened",
+            "B": "Staff dismiss the event because the medications were not actually given",
+            "C": "Single-identifier practice continues on the ward",
+            "D": "Similar-name safeguards are not reviewed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A successful outcome includes both prevention of immediate harm and learning that reduces recurrence."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Delegation and Scope of Practice",
+      "narrative": "An RN is caring for four patients on a medical-surgical unit. One patient has just returned from surgery with unstable blood pressure, one needs discharge teaching about a new anticoagulant, one is stable and awaiting a routine bed bath, and one stable patient needs help setting up lunch after dialysis. A UAP is available to assist.\nThe RN must decide what is safe to delegate. Another staff member suggests giving the UAP the discharge teaching “to save time.” The RN understands that stable routine care may be delegated, but teaching, assessment, and unstable patient management remain RN responsibilities.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors are important when deciding what to delegate? Select all that apply.",
+          "options": {
+            "A": "Patient stability",
+            "B": "Whether teaching is required",
+            "C": "Whether assessment or clinical judgment is needed",
+            "D": "Scope of the UAP role",
+            "E": "Complexity and predictability of the task"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are delegation essentials. Fundamentals questions often test understanding of right task, right person, and right supervision."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Any task may be delegated if the RN is busy enough",
+            "B": "Routine predictable tasks for stable patients may be delegated, but teaching and unstable care remain with the RN",
+            "C": "A UAP may independently teach a new anticoagulant if the RN is nearby",
+            "D": "Unstable post-operative care is ideal to delegate because it needs close watching"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Delegation is based on patient stability and task complexity. Initial teaching and unstable assessments require RN judgment."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which task is safest to delegate?",
+          "options": {
+            "A": "Lunch setup for the stable dialysis patient and routine hygiene care for the stable patient",
+            "B": "Comprehensive discharge teaching about anticoagulation",
+            "C": "Assessment of the unstable post-operative patient’s hypotension",
+            "D": "Interpretation of abnormal vital signs"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Routine predictable tasks for stable patients are appropriate for delegation. Teaching, interpretation, and unstable assessments are not."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the RN do first?",
+          "options": {
+            "A": "Match tasks to role scope, give clear directions, and keep unstable/teaching tasks with the RN",
+            "B": "Delegate everything and sort it out later",
+            "C": "Avoid delegation entirely",
+            "D": "Let the UAP decide which patients are stable enough"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe delegation requires active RN decision-making and supervision. The RN remains accountable for the delegation choice."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Tell the UAP what findings must be reported immediately",
+            "B": "Personally reassess any patient if a concerning change is reported",
+            "C": "Ensure follow-up and evaluation of delegated tasks",
+            "D": "Keep teaching and unstable clinical judgment tasks with the RN",
+            "E": "Assume no supervision is needed after delegation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Delegation includes communication, supervision, and follow-up. The RN’s accountability does not end once a task is assigned."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective delegation?",
+          "options": {
+            "A": "Stable routine care is completed safely, abnormal findings are reported promptly, and RN-only duties remain with the nurse",
+            "B": "The UAP independently manages unstable hypotension without RN involvement",
+            "C": "Teaching is omitted because it was delegated poorly",
+            "D": "No one knows who is responsible for follow-up"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective delegation improves efficiency without compromising patient safety or scope of practice."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Delirium Versus Baseline Memory Loss",
+      "narrative": "Mrs. Josephine Pereira, an 81-year-old patient admitted with urinary infection, has mild known forgetfulness at baseline but is usually calm and cooperative. During the evening shift she becomes suddenly more confused, tries to remove her IV, and says there are children on the ceiling. Her daughter says, “This is much worse than how she usually is at home.”\nThe nurse recognises that sudden change from baseline may indicate delirium rather than expected age-related memory loss. The patient is at risk of injury and may be deteriorating medically.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest delirium rather than stable baseline forgetfulness? Select all that apply.",
+          "options": {
+            "A": "Sudden change in mental status",
+            "B": "Pulling at the IV line",
+            "C": "Visual misperceptions",
+            "D": "Family reporting this is worse than usual",
+            "E": "Acute medical illness"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings point toward delirium. Acute change, fluctuating confusion, misperceptions, and associated medical illness are important clues."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "This is normal ageing and needs no action",
+            "B": "The patient may be experiencing delirium related to acute illness and needs urgent assessment and safety support",
+            "C": "The patient is intentionally difficult",
+            "D": "Memory loss alone explains the behaviour"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Delirium is a medical-surgical emergency because it often reflects acute physiological disruption and creates injury risk."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Acute confusion with risk for injury and missed medical deterioration",
+            "B": "Chronic low self-esteem",
+            "C": "Impaired socialization",
+            "D": "Deficient recreation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s safety and possible underlying medical worsening are the immediate concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reassess medical status, ensure environmental safety, and communicate the acute mental status change promptly",
+            "B": "Tell the patient firmly to stop hallucinating",
+            "C": "Leave the patient alone to rest in a dark room",
+            "D": "Assume the family is exaggerating"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should respond with assessment, safety, and escalation. Arguing with altered perceptions is not therapeutic."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which interventions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Gentle reorientation and calm communication",
+            "B": "Assessment for infection, pain, dehydration, or medication contributors",
+            "C": "Reduce environmental hazards and increase supervision",
+            "D": "Involve family for reassurance if appropriate",
+            "E": "Use restraints as the automatic first option"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are appropriate first-line delirium interventions. Restraints are not first choice and should only be considered under strict least-restrictive principles if truly necessary."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient becomes safer, underlying causes are addressed, and mental status trends are monitored closely",
+            "B": "The patient is labelled “difficult” with no medical review",
+            "C": "Supervision is reduced because she looks tired",
+            "D": "Family concerns are ignored"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective delirium care focuses on safety, reassessment, and treatment of the underlying cause."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Error-Free Documentation and Late Entry Integrity",
+      "narrative": "A nurse realizes at the end of the shift that a PRN pain medication given earlier in the afternoon was not documented at the time of administration. The patient is currently comfortable, but the next nurse is preparing to assess whether another dose may be needed. The nurse considers entering the documentation as if it had been recorded in real time because “it still happened.”\nThe nurse understands that documentation must be accurate, timely, and honest. Medication timing affects safety, especially for PRN dosing and handover decisions.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which facts make this a documentation safety issue? Select all that apply.",
+          "options": {
+            "A": "A medication was given but not charted on time",
+            "B": "Another dose may be considered soon",
+            "C": "The nurse is considering charting it as if done earlier",
+            "D": "Timing matters for PRN safety",
+            "E": "The patient appears comfortable now"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these factors are relevant. The patient’s current comfort does not remove the need for accurate medication timing in the record."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The medication event should not be documented because it is late",
+            "B": "A truthful late entry is required; backdating as if charted in real time would be inappropriate",
+            "C": "Timing does not matter for PRN medication records",
+            "D": "Another nurse can chart it instead"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Late entries should be documented honestly according to policy. Falsifying timing undermines both safety and legal integrity."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Maintaining a truthful record so future medication decisions remain safe",
+            "B": "Avoiding embarrassment for the nurse",
+            "C": "Saving time in charting",
+            "D": "Preventing staff discussion"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is patient safety and record integrity. The next dose decision depends on accurate information."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Enter the medication as a late entry according to policy and communicate the actual administration time clearly",
+            "B": "Chart the time as if it were entered immediately after administration",
+            "C": "Omit the record entirely because it is late",
+            "D": "Ask a colleague to document it under their login"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct action is honest late documentation and clear communication to protect safe ongoing care."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess the patient’s current pain status",
+            "B": "Clarify the actual administration time to the incoming nurse",
+            "C": "Follow facility policy for corrections and late entries",
+            "D": "Reflect on workflow improvements to prevent recurrence",
+            "E": "Assume the omission has no consequence because the patient is stable"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Safe documentation supports safe future care, and prevention of repeated omissions matters."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The record reflects an accurate late entry, the handover includes the correct timing, and further medication decisions remain safe",
+            "B": "The note is altered to look on time",
+            "C": "A second PRN dose is given without knowing the first time",
+            "D": "No correction is made because the patient is comfortable"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects both the patient and the integrity of the clinical record."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Early Sepsis Recognition and Escalation",
+      "narrative": "Mr. Aaron Matthews, a 61-year-old patient admitted with pneumonia, initially appears stable on the ward. Over several hours the nurse notices subtle but concerning changes: temperature 38.9 C, heart rate 124, respiratory rate 28, falling blood pressure from baseline, new confusion, and lower urine output than expected. Family members say, “He is definitely more confused than he was this morning.”\nThe nurse recognises that infection may be progressing toward sepsis. Early escalation is essential because delay can lead to worsening perfusion and organ dysfunction.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible progression toward sepsis? Select all that apply.",
+          "options": {
+            "A": "Fever",
+            "B": "Tachycardia and tachypnoea",
+            "C": "New confusion",
+            "D": "Falling blood pressure from baseline",
+            "E": "Reduced urine output"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are important sepsis warning signs. NGN questions often emphasize trend recognition rather than waiting for extreme collapse."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is simply tired from pneumonia",
+            "B": "The patient may be progressing to sepsis and requires urgent reassessment and escalation",
+            "C": "Confusion is unrelated to infection",
+            "D": "The fever should be treated, but the rest can wait"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The full pattern suggests systemic deterioration, not routine fatigue. Sepsis can worsen rapidly and must be escalated early."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for impaired tissue perfusion and organ dysfunction related to sepsis",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about coughing exercises",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is preventing progression of sepsis-related perfusion failure and organ dysfunction."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Escalate urgently, reassess comprehensively, and prepare for sepsis-related interventions according to protocol",
+            "B": "Wait to see whether confusion improves on its own",
+            "C": "Focus only on reducing fever with comfort measures",
+            "D": "Delay communication until routine rounds"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Sepsis management is time-sensitive. Early recognition and escalation improve outcomes."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor blood pressure, mental status, and urine output closely",
+            "B": "Prepare for cultures, fluids, and timely treatment steps as ordered or protocol-based",
+            "C": "Communicate the trend clearly using structured handover",
+            "D": "Watch for worsening respiratory distress",
+            "E": "Assume confusion is unimportant once fever is treated"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. Confusion is a major sign of deterioration and should not be minimized."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing management?",
+          "options": {
+            "A": "Sepsis concern is escalated early, treatment begins promptly, and perfusion/mental status trends are followed closely",
+            "B": "Hypotension worsens because signs were not reported",
+            "C": "Monitoring is reduced after one intervention",
+            "D": "Urine output continues falling with no reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective sepsis care depends on early recognition, timely escalation, and ongoing re-evaluation."
+        }
+      ]
+    }
+  ]
+}

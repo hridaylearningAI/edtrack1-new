@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "An IQN reviews serial arterial blood gases showing falling pH, rising PaCO2 and worsening oxygenation. What is the BEST interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient is developing respiratory decompensation."
+        },
+        {
+          "id": "B",
+          "text": "The patient has improved ventilation."
+        },
+        {
+          "id": "C",
+          "text": "The findings are unrelated to breathing."
+        },
+        {
+          "id": "D",
+          "text": "The patient has isolated metabolic alkalosis."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Falling pH with rising carbon dioxide and worsening oxygenation suggests respiratory failure requiring urgent escalation."
+    },
+    {
+      "id": "q2",
+      "stem": "Which ECG finding should be interpreted in relation to the patient's symptoms and haemodynamic status?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ward location."
+        },
+        {
+          "id": "B",
+          "text": "Rate and rhythm irregularity."
+        },
+        {
+          "id": "C",
+          "text": "Patient age only."
+        },
+        {
+          "id": "D",
+          "text": "Meal intake."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Rhythm significance depends on symptoms, blood pressure, perfusion and overall clinical condition."
+    },
+    {
+      "id": "q3",
+      "stem": "A patient has a rising troponin level, ongoing chest pain and new ECG changes. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for the next routine round."
+        },
+        {
+          "id": "B",
+          "text": "Document only."
+        },
+        {
+          "id": "C",
+          "text": "Escalate urgently for suspected acute coronary syndrome."
+        },
+        {
+          "id": "D",
+          "text": "Encourage mobilisation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The combination suggests myocardial injury and requires urgent clinical review."
+    },
+    {
+      "id": "q4",
+      "stem": "Which ABG result most strongly suggests respiratory acidosis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High pH with low PaCO2."
+        },
+        {
+          "id": "B",
+          "text": "Low pH with low bicarbonate only."
+        },
+        {
+          "id": "C",
+          "text": "Normal pH and normal PaCO2."
+        },
+        {
+          "id": "D",
+          "text": "Low pH with elevated PaCO2."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Respiratory acidosis occurs when carbon dioxide retention lowers pH."
+    },
+    {
+      "id": "q5",
+      "stem": "A patient has rising lactate, falling blood pressure and reduced urine output. What does this pattern suggest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Worsening tissue hypoperfusion."
+        },
+        {
+          "id": "B",
+          "text": "Improved circulation."
+        },
+        {
+          "id": "C",
+          "text": "Stable renal function."
+        },
+        {
+          "id": "D",
+          "text": "Isolated pain."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These findings indicate impaired perfusion and possible shock."
+    },
+    {
+      "id": "q6",
+      "stem": "Why should laboratory results be compared with baseline and trend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trending replaces bedside assessment."
+        },
+        {
+          "id": "B",
+          "text": "A single result may not show the direction or significance of change."
+        },
+        {
+          "id": "C",
+          "text": "Baseline is needed only for discharge."
+        },
+        {
+          "id": "D",
+          "text": "Only abnormal values matter."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical meaning depends on how results change over time and how they relate to the patient."
+    },
+    {
+      "id": "q7",
+      "stem": "A patient has severe hyperkalaemia and new ECG changes. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeat the test tomorrow."
+        },
+        {
+          "id": "B",
+          "text": "Encourage oral fluids only."
+        },
+        {
+          "id": "C",
+          "text": "Urgent escalation and preparation for treatment according to protocol."
+        },
+        {
+          "id": "D",
+          "text": "Document without action."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hyperkalaemia with ECG changes can cause fatal arrhythmias."
+    },
+    {
+      "id": "q8",
+      "stem": "A breathless patient has a normal chest x-ray but increasing work of breathing. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the patient is stable."
+        },
+        {
+          "id": "B",
+          "text": "Wait for another image."
+        },
+        {
+          "id": "C",
+          "text": "Ignore respiratory effort."
+        },
+        {
+          "id": "D",
+          "text": "Continue direct assessment and escalate based on the clinical picture."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Imaging supports but does not replace bedside assessment and clinical judgement."
+    },
+    {
+      "id": "q9",
+      "stem": "Which finding may indicate worsening renal impairment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rising creatinine with falling urine output."
+        },
+        {
+          "id": "B",
+          "text": "Stable electrolytes and good urine output."
+        },
+        {
+          "id": "C",
+          "text": "Improved appetite."
+        },
+        {
+          "id": "D",
+          "text": "Normal blood pressure only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The combination suggests declining renal function and requires review."
+    },
+    {
+      "id": "q10",
+      "stem": "A patient has prolonged coagulation results and new bruising while receiving anticoagulation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer the dose because it is prescribed."
+        },
+        {
+          "id": "B",
+          "text": "Assess for bleeding and escalate before the next dose."
+        },
+        {
+          "id": "C",
+          "text": "Wait for overt haemorrhage."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Abnormal coagulation and bruising may indicate excessive anticoagulation."
+    },
+    {
+      "id": "q11",
+      "stem": "Which statement best reflects interpretation of diagnostic data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technology provides the complete diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "One abnormal value always determines care."
+        },
+        {
+          "id": "C",
+          "text": "Results should be integrated with symptoms, examination and treatment response."
+        },
+        {
+          "id": "D",
+          "text": "Results are interpreted independently of context."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical data must be interpreted in relation to the whole patient."
+    },
+    {
+      "id": "q12",
+      "stem": "A patient with sepsis has a rising lactate despite treatment. What does this most likely indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Definite recovery."
+        },
+        {
+          "id": "B",
+          "text": "Improved oxygen delivery."
+        },
+        {
+          "id": "C",
+          "text": "A harmless laboratory variation."
+        },
+        {
+          "id": "D",
+          "text": "Ongoing hypoperfusion or inadequate response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent or rising lactate suggests continuing perfusion problems."
+    },
+    {
+      "id": "q13",
+      "stem": "Which ECG feature should the nurse recognise within scope?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate, rhythm regularity and major warning patterns."
+        },
+        {
+          "id": "B",
+          "text": "Definitive cardiology diagnosis in every case."
+        },
+        {
+          "id": "C",
+          "text": "Only the printed machine interpretation."
+        },
+        {
+          "id": "D",
+          "text": "No features unless a doctor is present."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nurses should identify major abnormalities and relate them to patient condition."
+    },
+    {
+      "id": "q14",
+      "stem": "A patient with COPD has rising PaCO2 and increasing drowsiness. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved oxygenation."
+        },
+        {
+          "id": "B",
+          "text": "Worsening ventilatory failure."
+        },
+        {
+          "id": "C",
+          "text": "Normal fatigue."
+        },
+        {
+          "id": "D",
+          "text": "Isolated anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Carbon dioxide retention with drowsiness suggests respiratory decompensation."
+    },
+    {
+      "id": "q15",
+      "stem": "Which result most strongly requires urgent escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mildly raised glucose after a meal."
+        },
+        {
+          "id": "B",
+          "text": "Stable haemoglobin."
+        },
+        {
+          "id": "C",
+          "text": "Potassium 6.8 mmol/L with ECG changes."
+        },
+        {
+          "id": "D",
+          "text": "Normal liver enzymes."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Severe hyperkalaemia with cardiac effects is life-threatening."
+    },
+    {
+      "id": "q16",
+      "stem": "A patient's haemoglobin falls rapidly after surgery. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved recovery."
+        },
+        {
+          "id": "B",
+          "text": "Normal hydration only."
+        },
+        {
+          "id": "C",
+          "text": "Reduced infection risk."
+        },
+        {
+          "id": "D",
+          "text": "Possible bleeding and reduced oxygen-carrying capacity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A rapid fall may indicate haemorrhage and requires urgent assessment."
+    },
+    {
+      "id": "q17",
+      "stem": "A CT report notes a new intracranial bleed. What is the nurse's immediate priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urgent neurological assessment and escalation."
+        },
+        {
+          "id": "B",
+          "text": "Routine discharge planning."
+        },
+        {
+          "id": "C",
+          "text": "Encourage mobilisation."
+        },
+        {
+          "id": "D",
+          "text": "Offer food."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Intracranial bleeding is a time-critical emergency."
+    },
+    {
+      "id": "q18",
+      "stem": "Why should nurses communicate what a result means, not just the number?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numbers are legally invalid."
+        },
+        {
+          "id": "B",
+          "text": "Clinical significance guides timely action by the team."
+        },
+        {
+          "id": "C",
+          "text": "It reduces documentation."
+        },
+        {
+          "id": "D",
+          "text": "It replaces ISBAR."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clear interpretation helps others understand urgency and required response."
+    },
+    {
+      "id": "q19",
+      "stem": "A patient's pH is falling, bicarbonate is low and lactate is rising. What is the most likely concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respiratory alkalosis."
+        },
+        {
+          "id": "B",
+          "text": "Stable compensation."
+        },
+        {
+          "id": "C",
+          "text": "Worsening metabolic acidosis due to poor perfusion."
+        },
+        {
+          "id": "D",
+          "text": "Improved renal function."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Low bicarbonate and rising lactate suggest metabolic acidosis associated with tissue hypoperfusion."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates effective interpretation of complex clinical data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse records all results."
+        },
+        {
+          "id": "B",
+          "text": "The nurse waits for one critical value."
+        },
+        {
+          "id": "C",
+          "text": "The nurse relies only on monitor alarms."
+        },
+        {
+          "id": "D",
+          "text": "The nurse integrates trends with assessment, identifies urgency and communicates a clear recommendation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective interpretation links data to clinical meaning and action."
+    },
+    {
+      "id": "q21",
+      "stem": "A patient is receiving a vasoactive infusion. Which nursing action is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Frequent haemodynamic assessment and accurate pump programming."
+        },
+        {
+          "id": "B",
+          "text": "Routine monitoring once per shift."
+        },
+        {
+          "id": "C",
+          "text": "Allowing interruptions during dose changes."
+        },
+        {
+          "id": "D",
+          "text": "Changing the dose without an order."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Vasoactive medicines require controlled administration and close monitoring."
+    },
+    {
+      "id": "q22",
+      "stem": "What makes an independent double check meaningful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One nurse watches the other prepare the medicine."
+        },
+        {
+          "id": "B",
+          "text": "Each clinician verifies the order, patient, calculation and assessment separately before comparing."
+        },
+        {
+          "id": "C",
+          "text": "Both nurses sign without checking."
+        },
+        {
+          "id": "D",
+          "text": "The second nurse checks only the label."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Independent verification reduces shared assumptions and confirmation bias."
+    },
+    {
+      "id": "q23",
+      "stem": "A patient on anticoagulation develops a sudden severe headache and unilateral weakness. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give the next dose early."
+        },
+        {
+          "id": "B",
+          "text": "Encourage rest and review later."
+        },
+        {
+          "id": "C",
+          "text": "Initiate urgent neurological assessment and escalation."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The symptoms may indicate intracranial bleeding."
+    },
+    {
+      "id": "q24",
+      "stem": "A patient receiving insulin infusion becomes sweaty and confused. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop all monitoring."
+        },
+        {
+          "id": "B",
+          "text": "Increase the infusion."
+        },
+        {
+          "id": "C",
+          "text": "Offer discharge education."
+        },
+        {
+          "id": "D",
+          "text": "Check blood glucose immediately and treat according to protocol."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The patient may be hypoglycaemic and requires urgent assessment."
+    },
+    {
+      "id": "q25",
+      "stem": "Why should a nurse avoid using unfamiliar infusion equipment without orientation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Incorrect programming may cause serious harm."
+        },
+        {
+          "id": "B",
+          "text": "All pumps operate identically."
+        },
+        {
+          "id": "C",
+          "text": "Orientation is needed only for students."
+        },
+        {
+          "id": "D",
+          "text": "The equipment will self-correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "High-risk infusions depend on accurate device use and competence."
+    },
+    {
+      "id": "q26",
+      "stem": "Which finding may indicate opioid toxicity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved pain with normal alertness."
+        },
+        {
+          "id": "B",
+          "text": "Reduced respiratory rate and increasing sedation."
+        },
+        {
+          "id": "C",
+          "text": "Mild constipation only."
+        },
+        {
+          "id": "D",
+          "text": "Stable oxygenation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respiratory depression and sedation are serious opioid adverse effects."
+    },
+    {
+      "id": "q27",
+      "stem": "A patient receiving a concentrated electrolyte infusion reports burning at the IV site. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the complaint."
+        },
+        {
+          "id": "B",
+          "text": "Increase the rate."
+        },
+        {
+          "id": "C",
+          "text": "Stop or pause as appropriate, assess the site and escalate according to protocol."
+        },
+        {
+          "id": "D",
+          "text": "Apply pressure and continue."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Concentrated electrolytes can cause tissue injury and require careful line assessment."
+    },
+    {
+      "id": "q28",
+      "stem": "Which statement best describes safe oxygen therapy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase flow whenever saturation falls without assessment."
+        },
+        {
+          "id": "B",
+          "text": "Rely only on the device setting."
+        },
+        {
+          "id": "C",
+          "text": "Assume oxygen eliminates respiratory risk."
+        },
+        {
+          "id": "D",
+          "text": "Use the prescribed device and monitor oxygenation, ventilation and fatigue."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Oxygen therapy requires ongoing assessment of both oxygenation and ventilation."
+    },
+    {
+      "id": "q29",
+      "stem": "A patient on non-invasive ventilation becomes increasingly agitated and hypoxic. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassess urgently and escalate for possible failure of support."
+        },
+        {
+          "id": "B",
+          "text": "Tighten the mask and leave."
+        },
+        {
+          "id": "C",
+          "text": "Wait for routine review."
+        },
+        {
+          "id": "D",
+          "text": "Reduce monitoring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Agitation and worsening hypoxia may indicate treatment failure."
+    },
+    {
+      "id": "q30",
+      "stem": "Which factor is essential before administering an emergency medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give it because it is available."
+        },
+        {
+          "id": "B",
+          "text": "Confirm indication, dose, route and monitoring requirements."
+        },
+        {
+          "id": "C",
+          "text": "Rely on verbal memory."
+        },
+        {
+          "id": "D",
+          "text": "Document before administration."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Emergency medicines act rapidly and require precise checking."
+    },
+    {
+      "id": "q31",
+      "stem": "A patient receiving heparin develops new bleeding from multiple sites. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer the next dose."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next blood test."
+        },
+        {
+          "id": "C",
+          "text": "Assess, hold further administration according to policy and escalate urgently."
+        },
+        {
+          "id": "D",
+          "text": "Encourage activity."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unexpected bleeding may represent serious anticoagulant harm."
+    },
+    {
+      "id": "q32",
+      "stem": "A high-risk infusion alarm sounds repeatedly. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Silence it permanently."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to watch it."
+        },
+        {
+          "id": "C",
+          "text": "Continue without review."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient and identify the cause of the alarm."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The patient's condition and infusion system must be assessed promptly."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient receiving an antiarrhythmic infusion develops hypotension. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess perfusion and escalate because this may be a treatment complication."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the blood pressure."
+        },
+        {
+          "id": "C",
+          "text": "Increase the infusion."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the infusion ends."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Antiarrhythmics can affect blood pressure and cardiac output."
+    },
+    {
+      "id": "q34",
+      "stem": "Which action best supports safe management of high-risk medicines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prepare medicines for several patients together."
+        },
+        {
+          "id": "B",
+          "text": "Use standard concentrations, independent checks and close monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Rely on colour recognition."
+        },
+        {
+          "id": "D",
+          "text": "Avoid reassessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Additional safeguards reduce severe harm from high-risk medicines."
+    },
+    {
+      "id": "q35",
+      "stem": "A patient on insulin is fasting for a procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give the usual dose without assessment."
+        },
+        {
+          "id": "B",
+          "text": "Withhold all insulin independently."
+        },
+        {
+          "id": "C",
+          "text": "Review glucose, current orders and the local fasting-insulin protocol."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to decide."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fasting alters hypoglycaemia risk and requires protocol-based review."
+    },
+    {
+      "id": "q36",
+      "stem": "A patient receiving oxygen becomes drowsy despite acceptable saturation. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Definite improvement."
+        },
+        {
+          "id": "B",
+          "text": "No need for ABG assessment."
+        },
+        {
+          "id": "C",
+          "text": "Normal sleep."
+        },
+        {
+          "id": "D",
+          "text": "Possible ventilatory failure and carbon dioxide retention."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Normal oxygen saturation does not exclude hypercapnia."
+    },
+    {
+      "id": "q37",
+      "stem": "Which observation is most important after an emergency anticonvulsant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Airway, breathing, consciousness and seizure response."
+        },
+        {
+          "id": "B",
+          "text": "Appetite only."
+        },
+        {
+          "id": "C",
+          "text": "Mobility only."
+        },
+        {
+          "id": "D",
+          "text": "Urine colour."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Emergency anticonvulsants can depress consciousness and breathing."
+    },
+    {
+      "id": "q38",
+      "stem": "A nurse is unfamiliar with a complex ventilatory device during an emergency. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Operate it by trial and error."
+        },
+        {
+          "id": "B",
+          "text": "Seek immediate support while continuing safe care within scope."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family."
+        },
+        {
+          "id": "D",
+          "text": "Avoid all respiratory care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should obtain competent help without delaying essential care."
+    },
+    {
+      "id": "q39",
+      "stem": "A patient with vasoactive support has worsening peripheral perfusion despite a stable monitor reading. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rely on the monitor only."
+        },
+        {
+          "id": "B",
+          "text": "Stop observations."
+        },
+        {
+          "id": "C",
+          "text": "Trust the clinical assessment and escalate the discrepancy."
+        },
+        {
+          "id": "D",
+          "text": "Delay reassessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology supports but does not replace direct assessment."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best indicates safe high-risk therapy management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The infusion runs without alarms."
+        },
+        {
+          "id": "B",
+          "text": "The documentation is complete."
+        },
+        {
+          "id": "C",
+          "text": "The medicine is given quickly."
+        },
+        {
+          "id": "D",
+          "text": "The therapy is administered accurately, monitored closely and adjusted through timely escalation when complications emerge."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe management integrates competence, monitoring and response."
+    },
+    {
+      "id": "q41",
+      "stem": "Which responsibility remains with the registered nurse after delegating a task?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessment, clinical judgement and evaluation."
+        },
+        {
+          "id": "B",
+          "text": "All responsibility transfers to the worker."
+        },
+        {
+          "id": "C",
+          "text": "Only documentation."
+        },
+        {
+          "id": "D",
+          "text": "None once the task is assigned."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Delegation transfers performance of a task, not professional accountability."
+    },
+    {
+      "id": "q42",
+      "stem": "Which task is most appropriate to delegate to a competent team member during a rapid response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interpreting complex clinical deterioration."
+        },
+        {
+          "id": "B",
+          "text": "Recording observations and collecting equipment."
+        },
+        {
+          "id": "C",
+          "text": "Deciding escalation level."
+        },
+        {
+          "id": "D",
+          "text": "Evaluating treatment response."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Technical tasks may be delegated, while assessment and judgement remain with the RN."
+    },
+    {
+      "id": "q43",
+      "stem": "What is closed-loop communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The sender gives an instruction once."
+        },
+        {
+          "id": "B",
+          "text": "The receiver documents later."
+        },
+        {
+          "id": "C",
+          "text": "The receiver repeats the message and the sender confirms accuracy."
+        },
+        {
+          "id": "D",
+          "text": "The team communicates only through notes."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Closed-loop communication reduces misunderstanding during emergencies."
+    },
+    {
+      "id": "q44",
+      "stem": "A verbal order is unclear during a resuscitation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess the intended dose."
+        },
+        {
+          "id": "B",
+          "text": "Ask another staff member later."
+        },
+        {
+          "id": "C",
+          "text": "Document without clarification."
+        },
+        {
+          "id": "D",
+          "text": "Repeat it back and request confirmation before acting."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Read-back is essential for critical verbal instructions."
+    },
+    {
+      "id": "q45",
+      "stem": "Why are clear team roles important in high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They reduce duplication, delay and missed tasks."
+        },
+        {
+          "id": "B",
+          "text": "They remove the need for leadership."
+        },
+        {
+          "id": "C",
+          "text": "They allow all staff to perform any task."
+        },
+        {
+          "id": "D",
+          "text": "They replace handover."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Defined roles improve coordination and accountability."
+    },
+    {
+      "id": "q46",
+      "stem": "A patient requires transfer to intensive care. When does responsibility transfer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When the transfer is requested."
+        },
+        {
+          "id": "B",
+          "text": "When the receiving team formally accepts care after handover."
+        },
+        {
+          "id": "C",
+          "text": "When transport arrives."
+        },
+        {
+          "id": "D",
+          "text": "When documentation is printed."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The sending team maintains care until formal acceptance."
+    },
+    {
+      "id": "q47",
+      "stem": "Which information is essential during high-acuity transfer handover?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnosis only."
+        },
+        {
+          "id": "B",
+          "text": "Medication list only."
+        },
+        {
+          "id": "C",
+          "text": "Current condition, trends, interventions, response, risks and outstanding actions."
+        },
+        {
+          "id": "D",
+          "text": "Bed number only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe transfer requires concise, risk-focused information."
+    },
+    {
+      "id": "q48",
+      "stem": "A delegated worker reports an abnormal observation. What should the RN do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the worker to decide."
+        },
+        {
+          "id": "B",
+          "text": "Document without review."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the doctor."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient and determine the required response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The RN remains responsible for interpretation and action."
+    },
+    {
+      "id": "q49",
+      "stem": "A team member is not competent to perform a requested task. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassign the task or provide appropriate supervision."
+        },
+        {
+          "id": "B",
+          "text": "Delegate anyway because the ward is busy."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to consent."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the limitation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Delegation must match competence and patient risk."
+    },
+    {
+      "id": "q50",
+      "stem": "Which action best demonstrates effective multidisciplinary collaboration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Working independently to avoid conflict."
+        },
+        {
+          "id": "B",
+          "text": "Clarifying roles, sharing current risks and agreeing on the care plan."
+        },
+        {
+          "id": "C",
+          "text": "Assuming others will act."
+        },
+        {
+          "id": "D",
+          "text": "Communicating only at discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Collaboration requires shared information and defined responsibilities."
+    },
+    {
+      "id": "q51",
+      "stem": "A rapid-response team arrives, but no one is coordinating tasks. What should the lead nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow everyone to act independently."
+        },
+        {
+          "id": "B",
+          "text": "Focus only on documentation."
+        },
+        {
+          "id": "C",
+          "text": "Establish leadership, assign roles and use closed-loop communication."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the situation to settle."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clear coordination reduces chaos and missed care."
+    },
+    {
+      "id": "q52",
+      "stem": "A patient deteriorates during transfer preparation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue transfer immediately."
+        },
+        {
+          "id": "B",
+          "text": "Stop monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Ask transport staff to manage."
+        },
+        {
+          "id": "D",
+          "text": "Stabilise and reassess before proceeding, while escalating as needed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Transfer should not proceed unsafely without reassessment and stabilisation."
+    },
+    {
+      "id": "q53",
+      "stem": "Which task should not be delegated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clinical interpretation of a deteriorating patient's condition."
+        },
+        {
+          "id": "B",
+          "text": "Obtaining equipment."
+        },
+        {
+          "id": "C",
+          "text": "Recording intake and output."
+        },
+        {
+          "id": "D",
+          "text": "Assisting with positioning."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Clinical judgement remains a registered-nurse responsibility."
+    },
+    {
+      "id": "q54",
+      "stem": "A pharmacist identifies a possible interaction during acute care. What is the BEST nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it because pharmacy is separate."
+        },
+        {
+          "id": "B",
+          "text": "Integrate the concern into the clinical assessment and escalate appropriately."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to decide."
+        },
+        {
+          "id": "D",
+          "text": "Wait until discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Interprofessional input should inform safe clinical decisions."
+    },
+    {
+      "id": "q55",
+      "stem": "Which outcome indicates successful closed-loop communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The instruction is given quickly."
+        },
+        {
+          "id": "B",
+          "text": "The receiver nods."
+        },
+        {
+          "id": "C",
+          "text": "The correct instruction is heard, repeated and completed with confirmation."
+        },
+        {
+          "id": "D",
+          "text": "The message is documented later."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The loop is complete only when accuracy and completion are confirmed."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient is moving from emergency to a high-dependency unit. What is essential before transfer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discharge education only."
+        },
+        {
+          "id": "B",
+          "text": "Stopping all infusions."
+        },
+        {
+          "id": "C",
+          "text": "Removing oxygen."
+        },
+        {
+          "id": "D",
+          "text": "Appropriate monitoring, equipment, documentation and clear handover."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High-risk transfer requires continuity of support and information."
+    },
+    {
+      "id": "q57",
+      "stem": "A junior nurse is overwhelmed during a rapid response. What should the team leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assign a clear task within competence and provide support."
+        },
+        {
+          "id": "B",
+          "text": "Criticise publicly."
+        },
+        {
+          "id": "C",
+          "text": "Remove the nurse from all future emergencies."
+        },
+        {
+          "id": "D",
+          "text": "Give multiple simultaneous instructions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Clear, supported delegation improves safety and learning."
+    },
+    {
+      "id": "q58",
+      "stem": "A task is completed but the RN does not evaluate the outcome. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation will be shorter."
+        },
+        {
+          "id": "B",
+          "text": "The patient's response and ongoing needs may be missed."
+        },
+        {
+          "id": "C",
+          "text": "The worker becomes accountable."
+        },
+        {
+          "id": "D",
+          "text": "The task automatically remains safe."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evaluation is necessary after delegated care."
+    },
+    {
+      "id": "q59",
+      "stem": "Which statement best describes accountability in team-based acute care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accountability disappears in teams."
+        },
+        {
+          "id": "B",
+          "text": "Only the medical leader is accountable."
+        },
+        {
+          "id": "C",
+          "text": "Responsibilities may be shared, but each professional remains accountable for their own decisions and scope."
+        },
+        {
+          "id": "D",
+          "text": "The most junior staff member is accountable."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Teamwork does not remove individual professional accountability."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects coordinated high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Many staff are present."
+        },
+        {
+          "id": "B",
+          "text": "Documentation is lengthy."
+        },
+        {
+          "id": "C",
+          "text": "The patient moves quickly."
+        },
+        {
+          "id": "D",
+          "text": "Roles are clear, critical messages are confirmed and transfer occurs without loss of monitoring or information."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Coordination is demonstrated by reliable roles, communication and continuity."
+    },
+    {
+      "id": "q61",
+      "stem": "A family says a patient is 'not behaving normally.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Listen, assess the patient and consider the information in the clinical picture."
+        },
+        {
+          "id": "B",
+          "text": "Dismiss the concern without abnormal vital signs."
+        },
+        {
+          "id": "C",
+          "text": "Tell the family to wait."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Families may identify subtle changes from baseline and should be heard."
+    },
+    {
+      "id": "q62",
+      "stem": "Which communication style is best during a crisis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical terminology only."
+        },
+        {
+          "id": "B",
+          "text": "Clear, honest language explaining what is known, what is being done and what will happen next."
+        },
+        {
+          "id": "C",
+          "text": "Reassurance without facts."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding discussion until the crisis is over."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clear and honest communication reduces uncertainty and supports trust."
+    },
+    {
+      "id": "q63",
+      "stem": "When should a professional interpreter be used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only for discharge paperwork."
+        },
+        {
+          "id": "B",
+          "text": "Only if family refuses to translate."
+        },
+        {
+          "id": "C",
+          "text": "For complex or high-risk discussions when language barriers exist."
+        },
+        {
+          "id": "D",
+          "text": "Never during emergencies."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional interpreters improve accuracy, confidentiality and informed decision-making."
+    },
+    {
+      "id": "q64",
+      "stem": "A patient cannot communicate after a severe stroke. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the family's first preference is correct."
+        },
+        {
+          "id": "B",
+          "text": "Exclude the family."
+        },
+        {
+          "id": "C",
+          "text": "Delay all decisions."
+        },
+        {
+          "id": "D",
+          "text": "Seek known wishes and involve the appropriate substitute decision-maker."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The patient's known values and lawful decision-making processes should guide care."
+    },
+    {
+      "id": "q65",
+      "stem": "Which statement best reflects person-centred high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urgency does not remove dignity, communication or respect for preferences."
+        },
+        {
+          "id": "B",
+          "text": "Emergency care should ignore individual preferences."
+        },
+        {
+          "id": "C",
+          "text": "Families should make all decisions."
+        },
+        {
+          "id": "D",
+          "text": "Clinical efficiency is the only priority."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Person-centred principles remain important during serious illness."
+    },
+    {
+      "id": "q66",
+      "stem": "A family requests information that the competent patient asked to keep private. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide all information."
+        },
+        {
+          "id": "B",
+          "text": "Respect confidentiality unless disclosure is legally required."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to disclose it."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the patient's wishes."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Confidentiality and patient autonomy remain professional obligations."
+    },
+    {
+      "id": "q67",
+      "stem": "How can nurses support families during uncertainty?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Promise a positive outcome."
+        },
+        {
+          "id": "B",
+          "text": "Avoid emotional discussion."
+        },
+        {
+          "id": "C",
+          "text": "Provide updates, acknowledge emotions and explain when more information will be available."
+        },
+        {
+          "id": "D",
+          "text": "Use unexplained medical language."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Honest, compassionate communication supports families without false reassurance."
+    },
+    {
+      "id": "q68",
+      "stem": "A family's cultural practice affects who speaks during decision-making. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the oldest family member decides."
+        },
+        {
+          "id": "B",
+          "text": "Reject the practice."
+        },
+        {
+          "id": "C",
+          "text": "Exclude the family."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient about preferences and accommodate them where safe and lawful."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Cultural safety requires respectful enquiry rather than assumptions."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient has previously stated they would not want prolonged invasive treatment. What is the nurse's advocacy role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ensure the known preference is communicated to the treating team."
+        },
+        {
+          "id": "B",
+          "text": "Ignore it during emergency care."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to override it."
+        },
+        {
+          "id": "D",
+          "text": "Remove the statement from the record."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nurses advocate for the patient's expressed values and preferences."
+    },
+    {
+      "id": "q70",
+      "stem": "Which family statement should prompt reassessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'The room is cold.'"
+        },
+        {
+          "id": "B",
+          "text": "'Her breathing is different from usual.'"
+        },
+        {
+          "id": "C",
+          "text": "'We prefer another meal.'"
+        },
+        {
+          "id": "D",
+          "text": "'Parking is difficult.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A change from baseline may indicate deterioration."
+    },
+    {
+      "id": "q71",
+      "stem": "A family member becomes angry during a delay in emergency review. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell them to calm down."
+        },
+        {
+          "id": "B",
+          "text": "Leave without explanation."
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge the concern, explain current actions and escalate communication needs."
+        },
+        {
+          "id": "D",
+          "text": "Provide confidential information about other patients."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Respectful, transparent communication can reduce distress and conflict."
+    },
+    {
+      "id": "q72",
+      "stem": "A patient with limited English is critically ill. The family offers to interpret a complex consent discussion. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the family member only."
+        },
+        {
+          "id": "B",
+          "text": "Proceed without explanation."
+        },
+        {
+          "id": "C",
+          "text": "Delay all care."
+        },
+        {
+          "id": "D",
+          "text": "Arrange a professional interpreter while allowing family emotional support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Critical discussions require accurate interpretation and confidentiality."
+    },
+    {
+      "id": "q73",
+      "stem": "Which action best supports shared decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain options, benefits, risks and likely burdens, then explore preferences."
+        },
+        {
+          "id": "B",
+          "text": "Present only one option."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to decide without information."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing uncertainty."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Shared decisions require balanced information and participation."
+    },
+    {
+      "id": "q74",
+      "stem": "A patient has no decision-making capacity and no known wishes. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choose the treatment personally."
+        },
+        {
+          "id": "B",
+          "text": "Follow legal and organisational processes for substitute decision-making."
+        },
+        {
+          "id": "C",
+          "text": "Let any visitor decide."
+        },
+        {
+          "id": "D",
+          "text": "Delay necessary care indefinitely."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Decision-making must follow lawful and ethical processes."
+    },
+    {
+      "id": "q75",
+      "stem": "Why is it important to avoid unexplained terminology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It makes documentation shorter."
+        },
+        {
+          "id": "B",
+          "text": "Families prefer technical language."
+        },
+        {
+          "id": "C",
+          "text": "It may reduce understanding during already stressful situations."
+        },
+        {
+          "id": "D",
+          "text": "It improves consent automatically."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Plain language supports comprehension and informed participation."
+    },
+    {
+      "id": "q76",
+      "stem": "A family's spiritual needs conflict with urgent clinical care. What is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the needs."
+        },
+        {
+          "id": "B",
+          "text": "Stop treatment."
+        },
+        {
+          "id": "C",
+          "text": "Ask security to intervene immediately."
+        },
+        {
+          "id": "D",
+          "text": "Respectfully explore how needs can be accommodated without delaying essential treatment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The nurse should balance cultural and spiritual respect with time-critical safety."
+    },
+    {
+      "id": "q77",
+      "stem": "Which outcome best demonstrates effective family communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The family understands the current situation, next steps and how to raise concerns."
+        },
+        {
+          "id": "B",
+          "text": "The family receives large amounts of information."
+        },
+        {
+          "id": "C",
+          "text": "Only written material is provided."
+        },
+        {
+          "id": "D",
+          "text": "The family stops asking questions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Understanding and access to communication are key outcomes."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient asks not to have family present during discussions. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Invite the family anyway."
+        },
+        {
+          "id": "B",
+          "text": "Respect the request and maintain privacy."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to remain quietly."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the patient's preference."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A competent patient's privacy and preferences should be respected."
+    },
+    {
+      "id": "q79",
+      "stem": "A family reports that the patient's usual medication list differs from the hospital record. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it because the chart is official."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to change the record."
+        },
+        {
+          "id": "C",
+          "text": "Verify the discrepancy and communicate it to the team."
+        },
+        {
+          "id": "D",
+          "text": "Wait until discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Family information may identify safety risks and should be checked."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects culturally safe, person-centred high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clinical tasks are completed quickly."
+        },
+        {
+          "id": "B",
+          "text": "The family agrees with every decision."
+        },
+        {
+          "id": "C",
+          "text": "Culture is discussed only after recovery."
+        },
+        {
+          "id": "D",
+          "text": "Urgent treatment is delivered while communication, dignity, values and lawful decision-making are maintained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High-acuity care should remain clinically safe and person-centred."
+    }
+  ]
+}

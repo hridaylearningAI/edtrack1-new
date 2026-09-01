@@ -1,0 +1,2452 @@
+{
+  "level": 1,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 1 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 5 - Level 1 - Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II — \"Manage complexity with confidence.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 · QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "About This Programme",
+          "body": "GNPS Program 5 builds on the assessment and care-planning skills developed in Adult Medical-Surgical Nursing I. The focus now moves to adults with acute, unstable or complex conditions that can deteriorate rapidly and require timely, coordinated nursing action.",
+          "bullets": [
+            {
+              "label": "This level introduces advanced assessment,",
+              "text": "This level introduces advanced assessment, emergency priorities, multiorgan risk and evidence-based nursing interventions — while reinforcing the importance of practising within scope and escalating early."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Recognise High-Risk Conditions",
+              "text": ""
+            },
+            {
+              "label": "Identify high-acuity adult medical-surgical presentations early.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply ABC Frameworks",
+              "text": ""
+            },
+            {
+              "label": "Use safety-first and ABC frameworks in urgent clinical situations.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Interpret Clinical Changes",
+              "text": ""
+            },
+            {
+              "label": "Read vital-sign trends and clinical findings accurately.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Respond & Collaborate",
+              "text": ""
+            },
+            {
+              "label": "Act on deterioration and communicate clearly within the multidisciplinary team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "Complex illness affects multiple body systems simultaneously. A patient with sepsis may develop respiratory distress, hypotension, kidney injury and altered consciousness within a single shift.",
+          "bullets": [
+            {
+              "label": "Nurses must recognise patterns, identify the",
+              "text": "Nurses must recognise patterns, identify the immediate threat, and act before deterioration becomes irreversible. This programme gives you that capability."
+            },
+            {
+              "label": "Your Learning Goal: By the end of Level 1, you",
+              "text": "Your Learning Goal: By the end of Level 1, you should be able to recognise, prioritise, and respond safely to common high-acuity adult conditions and contribute effectively to multidisciplinary emergency management."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Advanced Assessment & Clinical Prioritisation",
+          "bullets": [
+            {
+              "label": "Identifying the most urgent threat — before addressing the full clinical picture.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Section 1 · Core Concepts",
+          "body": "Airway, Breathing & Circulation",
+          "bullets": [
+            {
+              "label": "Identify threats to ABC immediately. Call for",
+              "text": "Identify threats to ABC immediately. Call for assistance and begin scope-appropriate actions while activating the emergency response."
+            },
+            {
+              "label": "Clinical Trends",
+              "text": ""
+            },
+            {
+              "label": "Rising RR, falling BP, reduced urine output,",
+              "text": "Rising RR, falling BP, reduced urine output, elevated lactate or altered consciousness together signal decompensation — one number alone is rarely enough."
+            },
+            {
+              "label": "Expected vs. Unexpected Findings",
+              "text": ""
+            },
+            {
+              "label": "Unexpected changes — sudden neuro shift",
+              "text": "Unexpected changes — sudden neuro shift post-surgery or new chest pain — require immediate reassessment and escalation, not a wait-and-see approach."
+            },
+            {
+              "label": "Reassessment Loop",
+              "text": ""
+            },
+            {
+              "label": "After every intervention — oxygen, fluids,",
+              "text": "After every intervention — oxygen, fluids, positioning, medication — reassess. Improvement, no change, or worsening each dictates the next action."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example · Section 1",
+          "body": "🩺 Mr Kumar — Pancreatitis",
+          "bullets": [
+            {
+              "label": "During the shift, Mr Kumar becomes restless, tachycardic and hypotensive with falling urine output.",
+              "text": ""
+            },
+            {
+              "label": "The nurse recognises a pattern of circulatory",
+              "text": "The nurse recognises a pattern of circulatory compromise rather than treating each finding separately — initiates the deterioration pathway and prepares for urgent review."
+            },
+            {
+              "label": "Key Learning Points",
+              "text": ""
+            },
+            {
+              "label": "Prioritise immediate threats before routine care",
+              "text": ""
+            },
+            {
+              "label": "Interpret combinations and trends, not isolated numbers",
+              "text": ""
+            },
+            {
+              "label": "Treat unexpected changes as clinically significant",
+              "text": ""
+            },
+            {
+              "label": "Reassess after every intervention",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Cardiovascular & Respiratory Emergencies",
+          "bullets": [
+            {
+              "label": "Early recognition, oxygenation, circulation, monitoring and timely escalation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "concepts",
+          "title": "Section 2 · Core Concepts",
+          "body": "Acute Coronary Syndrome",
+          "bullets": [
+            {
+              "label": "Chest pressure, diaphoresis, nausea,",
+              "text": "Chest pressure, diaphoresis, nausea, breathlessness or ECG change. Immediate monitoring, prescribed emergency treatment and rapid escalation are essential."
+            },
+            {
+              "label": "Arrhythmias & Heart Failure",
+              "text": ""
+            },
+            {
+              "label": "Irregular rhythms reduce cardiac output. Acute",
+              "text": "Irregular rhythms reduce cardiac output. Acute heart failure causes breathlessness, crackles and fluid overload. Monitor rhythm, perfusion and oxygenation."
+            },
+            {
+              "label": "Severe Asthma & Respiratory Failure",
+              "text": ""
+            },
+            {
+              "label": "Silent chest, inability to speak, exhaustion or",
+              "text": "Silent chest, inability to speak, exhaustion or altered consciousness demand immediate escalation and emergency airway support — do not wait for further deterioration."
+            },
+            {
+              "label": "Pulmonary Embolism & ARDS",
+              "text": ""
+            },
+            {
+              "label": "Sudden dyspnoea, pleuritic pain, hypoxia or",
+              "text": "Sudden dyspnoea, pleuritic pain, hypoxia or tachycardia may indicate PE. ARDS produces severe oxygenation failure requiring urgent multidisciplinary management."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example · Section 2",
+          "body": "🩺 The Quiet Asthma Patient",
+          "bullets": [
+            {
+              "label": "A patient being treated for asthma becomes",
+              "text": "A patient being treated for asthma becomes quieter, with reduced air entry and increasing drowsiness. Although wheezing has decreased, the nurse recognises this may indicate exhaustion rather than improvement and activates urgent medical review."
+            },
+            {
+              "label": "Reduced symptoms do not always mean improvement",
+              "text": "Reduced symptoms do not always mean improvement — fatigue and altered consciousness are late and dangerous respiratory signs."
+            },
+            {
+              "label": "Monitor perfusion alongside heart rhythm",
+              "text": ""
+            },
+            {
+              "label": "Escalate sudden breathlessness or chest pain urgently",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Neurological, Renal & Endocrine Emergencies",
+          "bullets": [
+            {
+              "label": "Rapid changes in consciousness, circulation and electrolyte balance demand immediate action.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "concepts",
+          "title": "Section 3 · Core Concepts",
+          "body": "Stroke & Seizures",
+          "bullets": [
+            {
+              "label": "Facial weakness, speech difficulty, limb",
+              "text": "Facial weakness, speech difficulty, limb weakness or visual change may indicate stroke. During a seizure, protect the airway, time the event and observe recovery."
+            },
+            {
+              "label": "Raised ICP",
+              "text": ""
+            },
+            {
+              "label": "Declining consciousness, vomiting, unequal",
+              "text": "Declining consciousness, vomiting, unequal pupils or severe headache may indicate raised intracranial pressure. Avoid any delay in escalation."
+            },
+            {
+              "label": "Renal & Electrolyte Crises",
+              "text": ""
+            },
+            {
+              "label": "AKI may present with reduced urine output,",
+              "text": "AKI may present with reduced urine output, fluid overload or acidosis. Severe potassium, sodium or calcium changes can affect cardiac and neurological function."
+            },
+            {
+              "label": "Endocrine Emergencies",
+              "text": ""
+            },
+            {
+              "label": "DKA, HHS, thyroid storm and myxoedema coma can",
+              "text": "DKA, HHS, thyroid storm and myxoedema coma can all be life-threatening. Monitor glucose, fluids, electrolytes, temperature, consciousness and treatment response."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example · Section 3",
+          "body": "🩺 Diabetic Ketoacidosis",
+          "bullets": [
+            {
+              "label": "A patient with diabetes develops deep rapid breathing (Kussmaul), abdominal pain, dehydration and increasing drowsiness.",
+              "text": ""
+            },
+            {
+              "label": "The nurse suspects DKA — checks glucose and",
+              "text": "The nurse suspects DKA — checks glucose and ketones, begins the emergency pathway and monitors fluid, electrolyte and neurological status continuously."
+            },
+            {
+              "label": "Key Learning Points",
+              "text": ""
+            },
+            {
+              "label": "Treat sudden neurological change as an emergency",
+              "text": ""
+            },
+            {
+              "label": "Monitor urine output as a key perfusion indicator",
+              "text": ""
+            },
+            {
+              "label": "Electrolyte changes can precipitate arrhythmias",
+              "text": ""
+            },
+            {
+              "label": "Follow emergency protocols while reassessing continuously",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Sepsis, Shock & Multisystem Deterioration",
+          "bullets": [
+            {
+              "label": "Early recognition and rapid treatment save lives — nurses are often first to notice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "example",
+          "title": "Section 4 · Core Concepts & Clinical Example",
+          "body": "Escalate",
+          "bullets": [
+            {
+              "label": "Activate emergency sepsis pathway now",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Lactate, urine output, organ function",
+              "text": ""
+            },
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Infection with organ dysfunction signs",
+              "text": ""
+            },
+            {
+              "label": "Intervene",
+              "text": ""
+            },
+            {
+              "label": "Cultures, antibiotics, IV fluids, oxygen",
+              "text": ""
+            },
+            {
+              "label": "Sepsis can progress to multiorgan failure within hours. Recognise, escalate, intervene and monitor without delay.",
+              "text": ""
+            },
+            {
+              "label": "🩺 Ms Lee — Septic Shock",
+              "text": ""
+            },
+            {
+              "label": "Ms Lee has a urinary infection and becomes",
+              "text": "Ms Lee has a urinary infection and becomes confused, tachypnoeic and hypotensive. The nurse recognises sepsis with possible shock, activates the emergency pathway, obtains observations and specimens, and monitors response closely."
+            },
+            {
+              "label": "Key Learning Points",
+              "text": ""
+            },
+            {
+              "label": "Act on suspected sepsis before severe collapse occurs",
+              "text": ""
+            },
+            {
+              "label": "Use perfusion and organ-function indicators together",
+              "text": ""
+            },
+            {
+              "label": "Follow time-critical pathways accurately",
+              "text": ""
+            },
+            {
+              "label": "Communicate trends and treatment response clearly",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Complete — What's Next?",
+          "body": "By completing GNPS Program 5 · Level 1, you have developed essential skills in advanced assessment, urgent prioritisation and nursing care for high-acuity adult conditions.",
+          "bullets": [
+            {
+              "label": "Level 1 Achieved",
+              "text": ""
+            },
+            {
+              "label": "Advanced assessment, ABC frameworks,",
+              "text": "Advanced assessment, ABC frameworks, cardiovascular, respiratory, neurological, renal, endocrine, sepsis and shock management."
+            },
+            {
+              "label": "Level 2 — Coming Next",
+              "text": ""
+            },
+            {
+              "label": "Complex interpretation, high-risk therapies and",
+              "text": "Complex interpretation, high-risk therapies and international acute-care practice for the internationally qualified nurse."
+            },
+            {
+              "label": "These capabilities directly support NCLEX",
+              "text": "These capabilities directly support NCLEX preparation — particularly the Management of Care, Physiological Adaptation and Reduction of Risk Potential client needs categories."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Advanced Assessment & Clinical Prioritisation",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 5 - Level 1 - Section 1 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 — QUALIFIED NURSE",
+              "text": ""
+            },
+            {
+              "label": "\"Manage complexity with confidence.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Program Outline",
+          "body": "Section 1",
+          "bullets": [
+            {
+              "label": "Advanced Assessment and Clinical Prioritisation",
+              "text": ""
+            },
+            {
+              "label": "Patients with complex conditions often present",
+              "text": "Patients with complex conditions often present with multiple abnormal findings simultaneously. This section equips you with the tools to assess rapidly, prioritise effectively, and reassess continuously."
+            },
+            {
+              "label": "GNPS PROGRAM 5",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Why Advanced Assessment Matters",
+          "body": "In complex clinical situations, the ability to identify the most immediate threat — while maintaining awareness of the full clinical picture — is the hallmark of advanced nursing practice. Rapid assessment must always be followed by focused reassessment after every intervention.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Perform a Rapid ABC Assessment",
+              "text": ""
+            },
+            {
+              "label": "Systematically evaluate Airway, Breathing, and Circulation in any acutely unwell patient.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Distinguish Stable from Unstable Findings",
+              "text": ""
+            },
+            {
+              "label": "Differentiate findings that require immediate escalation from those that can be monitored.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Recognise Deterioration Patterns",
+              "text": ""
+            },
+            {
+              "label": "Identify clinical trends that signal a patient is decompensating before a crisis occurs.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Nursing Actions",
+              "text": ""
+            },
+            {
+              "label": "Decide what to do first, second, and when to call for urgent assistance in complex situations.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Airway, Breathing and Circulation",
+          "body": "ABC forms the foundation of every rapid nursing assessment. When any of these systems is compromised:",
+          "bullets": [
+            {
+              "label": "Identify the threat quickly and systematically",
+              "text": ""
+            },
+            {
+              "label": "Call for assistance without delay",
+              "text": ""
+            },
+            {
+              "label": "Begin actions within your scope of practice",
+              "text": ""
+            },
+            {
+              "label": "Activate the emergency response pathway",
+              "text": ""
+            },
+            {
+              "label": "Never delay escalation while gathering more information. Act first, document fully afterwards.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Reading Clinical Trends",
+          "body": "A single abnormal result may be less significant than a worsening pattern. Always interpret findings in context and over time.",
+          "bullets": [
+            {
+              "label": "↑ Respiratory Rate",
+              "text": ""
+            },
+            {
+              "label": "Early warning of hypoxia or metabolic distress",
+              "text": ""
+            },
+            {
+              "label": "↓ Blood Pressure",
+              "text": ""
+            },
+            {
+              "label": "May indicate haemorrhage, sepsis, or cardiac compromise",
+              "text": ""
+            },
+            {
+              "label": "↓ Urine Output",
+              "text": ""
+            },
+            {
+              "label": "Signals renal hypoperfusion and fluid deficit",
+              "text": ""
+            },
+            {
+              "label": "↑ Lactate",
+              "text": ""
+            },
+            {
+              "label": "Marker of inadequate tissue oxygenation",
+              "text": ""
+            },
+            {
+              "label": "Altered Consciousness",
+              "text": ""
+            },
+            {
+              "label": "Critical indicator of cerebral or systemic decompensation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Expected vs. Unexpected Findings",
+          "body": "Expected Findings ✅",
+          "bullets": [
+            {
+              "label": "Consistent with the known condition or the",
+              "text": "Consistent with the known condition or the expected stage of recovery. These can be monitored within the standard care plan."
+            },
+            {
+              "label": "Mild post-operative pain, controlled by analgesia",
+              "text": ""
+            },
+            {
+              "label": "Slight elevation in temperature on day one post-op",
+              "text": ""
+            },
+            {
+              "label": "Gradual improvement in oxygen saturation with supplemental O₂",
+              "text": ""
+            },
+            {
+              "label": "Unexpected Findings ⚠️",
+              "text": ""
+            },
+            {
+              "label": "Require immediate reassessment and escalation. Do not wait for the routine observation round.",
+              "text": ""
+            },
+            {
+              "label": "Sudden neurological change after surgery",
+              "text": ""
+            },
+            {
+              "label": "New chest pain in a patient recovering from infection",
+              "text": ""
+            },
+            {
+              "label": "Unexplained drop in SpO₂ despite no change in therapy",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "The Reassessment Cycle",
+          "body": "Intervene",
+          "bullets": [
+            {
+              "label": "Reassess",
+              "text": ""
+            },
+            {
+              "label": "Evaluate",
+              "text": ""
+            },
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "Reassessment is not optional — it is a core",
+              "text": "Reassessment is not optional — it is a core nursing responsibility. After every intervention, the nurse must evaluate the patient's response and determine the next appropriate action."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Reassessment: What to Do Next",
+          "body": "Improved",
+          "bullets": [
+            {
+              "label": "Continue current plan. Document response. Set next reassessment time.",
+              "text": ""
+            },
+            {
+              "label": "No Change",
+              "text": ""
+            },
+            {
+              "label": "Review the intervention. Consider additional measures. Consult if uncertain.",
+              "text": ""
+            },
+            {
+              "label": "Worsening",
+              "text": ""
+            },
+            {
+              "label": "Escalate immediately. Activate deterioration pathway. Prepare for urgent review.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Mr Kumar",
+          "body": "A patient admitted with pancreatitis becomes restless, tachycardic, and hypotensive during the shift. His urine output begins to fall.",
+          "bullets": [
+            {
+              "label": "Rather than treating each abnormal finding in",
+              "text": "Rather than treating each abnormal finding in isolation, the nurse recognises a pattern of circulatory compromise. She initiates the deterioration pathway, calls for urgent review, and prepares for possible fluid resuscitation — all within her scope of practice."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Breaking Down the Clinical Example",
+          "body": "What the Nurse Observed",
+          "bullets": [
+            {
+              "label": "Restlessness — possible cerebral hypoperfusion",
+              "text": ""
+            },
+            {
+              "label": "Tachycardia — compensatory response to falling output",
+              "text": ""
+            },
+            {
+              "label": "Hypotension — circulatory compromise confirmed",
+              "text": ""
+            },
+            {
+              "label": "Reduced urine output — renal hypoperfusion",
+              "text": ""
+            },
+            {
+              "label": "What the Nurse Did",
+              "text": ""
+            },
+            {
+              "label": "Recognised the pattern, not just individual numbers",
+              "text": ""
+            },
+            {
+              "label": "Activated the deterioration pathway",
+              "text": ""
+            },
+            {
+              "label": "Prepared for urgent clinical review",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Pattern Recognition: The Advanced Nurse's Edge",
+          "body": "Advanced nursing is not about memorising individual thresholds — it is about recognising clinical pictures. Skilled nurses integrate multiple data points to detect decompensation before it becomes a crisis.",
+          "bullets": [
+            {
+              "label": "Consider the patient's baseline and trajectory",
+              "text": ""
+            },
+            {
+              "label": "Cluster findings rather than treating them in isolation",
+              "text": ""
+            },
+            {
+              "label": "Use early warning scores as a structured tool",
+              "text": ""
+            },
+            {
+              "label": "Trust clinical intuition — then verify with objective data",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus: Priority Questions",
+          "body": "NCLEX frequently tests your ability to prioritise. Apply the ABCs and Maslow's hierarchy to determine the correct sequence of action.",
+          "bullets": [
+            {
+              "label": "Airway First",
+              "text": ""
+            },
+            {
+              "label": "Always address airway obstruction before any other concern, regardless of how urgent other findings appear.",
+              "text": ""
+            },
+            {
+              "label": "Physiological Before Psychosocial",
+              "text": ""
+            },
+            {
+              "label": "Stabilise the physical threat before addressing psychological or comfort needs.",
+              "text": ""
+            },
+            {
+              "label": "Unstable Before Stable",
+              "text": ""
+            },
+            {
+              "label": "When managing multiple patients, attend to the most haemodynamically unstable patient first.",
+              "text": ""
+            },
+            {
+              "label": "Actual Before Potential",
+              "text": ""
+            },
+            {
+              "label": "An existing problem takes priority over a risk — unless the risk represents an immediate life threat.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Prioritise Immediate Threats",
+          "bullets": [
+            {
+              "label": "Address life-threatening problems before moving to routine care tasks.",
+              "text": ""
+            },
+            {
+              "label": "Interpret Combinations and Trends",
+              "text": ""
+            },
+            {
+              "label": "Isolated numbers are less meaningful than a cluster of worsening findings over time.",
+              "text": ""
+            },
+            {
+              "label": "Treat Unexpected Changes as Significant",
+              "text": ""
+            },
+            {
+              "label": "Never dismiss a sudden or unexplained change — it demands immediate reassessment.",
+              "text": ""
+            },
+            {
+              "label": "Reassess After Every Intervention",
+              "text": ""
+            },
+            {
+              "label": "Evaluation is continuous — the clinical picture changes with every action taken.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1 Summary",
+          "body": "Advanced Assessment and Clinical Prioritisation",
+          "bullets": [
+            {
+              "label": "You are now equipped to approach complex patients with a structured, confident mindset. Remember:",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 5 · SECTION 1 COMPLETE",
+              "text": ""
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Assess Rapidly",
+              "text": ""
+            },
+            {
+              "label": "Use the ABC framework to identify immediate threats.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Decisively",
+              "text": ""
+            },
+            {
+              "label": "Act on the most critical finding first.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Reassess Continuously",
+              "text": ""
+            },
+            {
+              "label": "Every intervention demands a follow-up evaluation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Cardiovascular & Respiratory Emergencies",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 5 - Level 1 - Section 2 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II — Section 2: Cardiovascular and Respiratory Emergencies",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 — QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Manage Complexity with Confidence",
+          "body": "Acute cardiovascular and respiratory emergencies can deteriorate rapidly. This section equips nurses with the knowledge to act decisively — from early recognition to timely escalation.",
+          "bullets": [
+            {
+              "label": "🫀 Cardiovascular",
+              "text": ""
+            },
+            {
+              "label": "ACS, arrhythmias, heart failure",
+              "text": ""
+            },
+            {
+              "label": "🫁 Respiratory",
+              "text": ""
+            },
+            {
+              "label": "PE, ARDS, asthma, respiratory failure",
+              "text": ""
+            },
+            {
+              "label": "⚡ Emergency Action",
+              "text": ""
+            },
+            {
+              "label": "Oxygenation, monitoring, escalation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Recognise Emergencies",
+              "text": ""
+            },
+            {
+              "label": "Identify common cardiac and respiratory emergency presentations promptly.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Identify Compromise",
+              "text": ""
+            },
+            {
+              "label": "Detect signs of haemodynamic instability and respiratory deterioration.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Implement Nursing Actions",
+              "text": ""
+            },
+            {
+              "label": "Apply immediate, evidence-based interventions with confidence.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Monitor and Anticipate",
+              "text": ""
+            },
+            {
+              "label": "Track response to treatment and anticipate potential complications.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Acute Coronary Syndrome (ACS)",
+          "body": "ACS encompasses a spectrum of life-threatening myocardial ischaemia conditions — including unstable angina, NSTEMI, and STEMI.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Recognising ACS: Key Warning Signs",
+          "body": "Classic Presenting Features",
+          "bullets": [
+            {
+              "label": "Chest pressure or tightness — often radiating to jaw or left arm",
+              "text": ""
+            },
+            {
+              "label": "Diaphoresis — sudden cold, clammy sweating",
+              "text": ""
+            },
+            {
+              "label": "Nausea and vomiting",
+              "text": ""
+            },
+            {
+              "label": "Breathlessness at rest or with minimal exertion",
+              "text": ""
+            },
+            {
+              "label": "ECG changes — ST elevation, depression, T-wave inversion",
+              "text": ""
+            },
+            {
+              "label": "Atypical presentations are common in women, older adults, and diabetic patients. Stay vigilant.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "ACS: Immediate Nursing Priorities",
+          "body": "Assess",
+          "bullets": [
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Intervene",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Rapid, structured nursing response within the",
+              "text": "Rapid, structured nursing response within the first minutes of ACS presentation significantly improves patient outcomes and reduces myocardial damage."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Arrhythmias and Acute Heart Failure",
+          "body": "Abnormal cardiac rhythms and decompensated heart failure both impair cardiac output — threatening organ perfusion and requiring swift nursing recognition.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Arrhythmias: What to Monitor",
+          "body": "Tachyarrhythmias",
+          "bullets": [
+            {
+              "label": "AF, SVT, VT — rapid rhythms reducing diastolic filling and cardiac output",
+              "text": ""
+            },
+            {
+              "label": "Bradyarrhythmias",
+              "text": ""
+            },
+            {
+              "label": "Complete heart block, sinus bradycardia — slow rhythms causing hypoperfusion",
+              "text": ""
+            },
+            {
+              "label": "Acute Heart Failure",
+              "text": ""
+            },
+            {
+              "label": "Orthopnoea, bilateral crackles, hypoxia, oedema — fluid overload in failure",
+              "text": ""
+            },
+            {
+              "label": "Core Nursing Assessments",
+              "text": ""
+            },
+            {
+              "label": "Continuous ECG and rhythm monitoring",
+              "text": ""
+            },
+            {
+              "label": "Assess perfusion: skin, urine output, consciousness",
+              "text": ""
+            },
+            {
+              "label": "Oxygen saturation and work of breathing",
+              "text": ""
+            },
+            {
+              "label": "Fluid balance — input/output charts",
+              "text": ""
+            },
+            {
+              "label": "Response to prescribed diuretics or rate-control agents",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Pulmonary Embolism and ARDS",
+          "body": "Both conditions represent severe threats to oxygenation — one from vascular obstruction, the other from diffuse lung injury. Early recognition is life-saving.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "PE vs ARDS: Clinical Comparison",
+          "body": "Shared Nursing Priorities",
+          "bullets": [
+            {
+              "label": "High-flow oxygen — target SpO₂ ≥94%",
+              "text": ""
+            },
+            {
+              "label": "Continuous monitoring of respiratory rate and effort",
+              "text": ""
+            },
+            {
+              "label": "Position patient upright to optimise lung expansion",
+              "text": ""
+            },
+            {
+              "label": "IV access and urgent bloods including D-dimer, ABG",
+              "text": ""
+            },
+            {
+              "label": "Escalate immediately to senior clinician and MDT",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Severe Asthma and Respiratory Failure",
+          "body": "Red Flag Signs — Escalate Immediately",
+          "bullets": [
+            {
+              "label": "Unable to speak in full sentences",
+              "text": ""
+            },
+            {
+              "label": "Silent chest — absent wheeze despite distress",
+              "text": ""
+            },
+            {
+              "label": "Exhaustion — use of accessory muscles, fatigue",
+              "text": ""
+            },
+            {
+              "label": "Altered consciousness — confusion or drowsiness",
+              "text": ""
+            },
+            {
+              "label": "Deteriorating blood gases — rising CO₂, falling pH",
+              "text": ""
+            },
+            {
+              "label": "A silent chest is a medical emergency. Absent wheeze ≠ improvement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Nursing Response: Severe Respiratory Emergency",
+          "body": "Recognise",
+          "bullets": [
+            {
+              "label": "Identify red flag signs: silent chest, exhaustion, altered GCS",
+              "text": ""
+            },
+            {
+              "label": "Stabilise",
+              "text": ""
+            },
+            {
+              "label": "Administer oxygen, assist positioning, support work of breathing",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Activate emergency review — call senior nurse, doctor, or rapid response team",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Continuous SpO₂, RR, consciousness, response to treatment",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: The Quietening Asthma Patient",
+          "body": "A patient being treated for acute asthma becomes quieter. Air entry is reduced. The patient appears increasingly drowsy. Wheezing has decreased — but the nurse correctly identifies this as exhaustion, not improvement.",
+          "bullets": [
+            {
+              "label": "Critical Nursing Thinking",
+              "text": ""
+            },
+            {
+              "label": "Reduced wheeze + reduced consciousness = deterioration",
+              "text": ""
+            },
+            {
+              "label": "The nurse activates an urgent medical review immediately",
+              "text": ""
+            },
+            {
+              "label": "Silent chest + fatigue = impending respiratory arrest risk",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "🔍 Look Beyond Symptoms",
+          "bullets": [
+            {
+              "label": "Reduced symptoms do not always mean improvement — assess the whole picture.",
+              "text": ""
+            },
+            {
+              "label": "💓 Perfusion Matters",
+              "text": ""
+            },
+            {
+              "label": "Monitor peripheral perfusion alongside cardiac rhythm — both reflect cardiac output.",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Escalate Early",
+              "text": ""
+            },
+            {
+              "label": "Sudden breathlessness or chest pain demands urgent escalation. Do not delay.",
+              "text": ""
+            },
+            {
+              "label": "🧠 Late Signs Count",
+              "text": ""
+            },
+            {
+              "label": "Fatigue and altered consciousness are late — and dangerous — respiratory warning signs.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Section 2 Complete",
+          "body": "Cardiovascular and Respiratory Emergencies — GNPS Programme 5",
+          "bullets": [
+            {
+              "label": "You are now equipped to recognise, respond to,",
+              "text": "You are now equipped to recognise, respond to, and escalate life-threatening cardiac and respiratory emergencies with evidence-based nursing practice."
+            },
+            {
+              "label": "NEXT: SECTION 3 — NEUROLOGICAL AND METABOLIC EMERGENCIES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Neurological, Renal & Endocrine Emergencies",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 5 - Level 1 - Section 3 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Neurological, Renal & Endocrine Emergencies",
+          "body": "GNPS Programme 5 · Advanced Adult Nursing Care — Adult Medical-Surgical Nursing II",
+          "bullets": [
+            {
+              "label": "LEVEL 1 · QUALIFIED NURSE",
+              "text": ""
+            },
+            {
+              "label": "SECTION 3",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Overview",
+          "body": "This section is part of the Global Nursing Professional Series (GNPS) — designed to help internationally qualified nurses build clinical confidence and prepare for the NCLEX examination.",
+          "bullets": [
+            {
+              "label": "Programme",
+              "text": ""
+            },
+            {
+              "label": "GNPS Programme 5 — Advanced Adult Nursing Care",
+              "text": ""
+            },
+            {
+              "label": "Level",
+              "text": ""
+            },
+            {
+              "label": "Level 1 · Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Focus",
+              "text": ""
+            },
+            {
+              "label": "Neurological, Renal & Endocrine Emergencies",
+              "text": ""
+            },
+            {
+              "label": "Mantra",
+              "text": ""
+            },
+            {
+              "label": "\"Manage complexity with confidence.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Neurological Emergencies",
+              "text": ""
+            },
+            {
+              "label": "Recognise signs of stroke, seizure and raised intracranial pressure",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Renal & Electrolytes",
+              "text": ""
+            },
+            {
+              "label": "Identify acute kidney injury and dangerous electrolyte disturbances",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Endocrine Crisis",
+              "text": ""
+            },
+            {
+              "label": "Recognise diabetic emergencies and thyroid crises",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Safe Practice",
+              "text": ""
+            },
+            {
+              "label": "Implement immediate safety measures and continuous monitoring",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Stroke & Seizures",
+          "body": "Recognising the difference between stroke and seizure is a critical nursing skill. Both demand immediate action.",
+          "bullets": [
+            {
+              "label": "🧠 Stroke — Key Signs",
+              "text": ""
+            },
+            {
+              "label": "Sudden facial weakness or drooping",
+              "text": ""
+            },
+            {
+              "label": "Slurred speech or language difficulty",
+              "text": ""
+            },
+            {
+              "label": "Unilateral limb weakness",
+              "text": ""
+            },
+            {
+              "label": "Sudden visual disturbance",
+              "text": ""
+            },
+            {
+              "label": "Use the FAST tool — Face, Arms, Speech, Time — and escalate immediately.",
+              "text": ""
+            },
+            {
+              "label": "⚡ Seizure — Nurse's Response",
+              "text": ""
+            },
+            {
+              "label": "Protect the airway and prevent injury",
+              "text": ""
+            },
+            {
+              "label": "Time the seizure duration",
+              "text": ""
+            },
+            {
+              "label": "Position patient safely — do not restrain",
+              "text": ""
+            },
+            {
+              "label": "Observe and document the recovery phase",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Raised Intracranial Pressure",
+          "body": "Recognise Early — Escalate Immediately",
+          "bullets": [
+            {
+              "label": "Raised ICP is a life-threatening emergency. Do not delay escalation.",
+              "text": ""
+            },
+            {
+              "label": "Declining level of consciousness (GCS)",
+              "text": ""
+            },
+            {
+              "label": "Severe, worsening headache",
+              "text": ""
+            },
+            {
+              "label": "Unequal or unreactive pupils",
+              "text": ""
+            },
+            {
+              "label": "Projectile vomiting without nausea",
+              "text": ""
+            },
+            {
+              "label": "Cushing's triad: hypertension, bradycardia, irregular respirations",
+              "text": ""
+            },
+            {
+              "label": "Any deterioration in consciousness demands urgent escalation — every minute matters.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Acute Kidney Injury & Electrolyte Emergencies",
+          "body": "AKI Presentation",
+          "bullets": [
+            {
+              "label": "Reduced urine output (<0.5 ml/kg/hr), fluid",
+              "text": "Reduced urine output (<0.5 ml/kg/hr), fluid overload, rising creatinine, and metabolic acidosis are hallmark signs of acute kidney injury."
+            },
+            {
+              "label": "Potassium Danger",
+              "text": ""
+            },
+            {
+              "label": "Hyperkalaemia can cause life-threatening",
+              "text": "Hyperkalaemia can cause life-threatening arrhythmias. Monitor ECG changes: peaked T waves, widened QRS, and flat P waves."
+            },
+            {
+              "label": "Sodium & Calcium",
+              "text": ""
+            },
+            {
+              "label": "Severe hypo- or hypernatraemia impairs",
+              "text": "Severe hypo- or hypernatraemia impairs neurological function. Hypocalcaemia causes tetany and seizures. Frequent lab monitoring is essential."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Endocrine Emergencies at a Glance",
+          "body": "DKA",
+          "bullets": [
+            {
+              "label": "Diabetic Ketoacidosis — hyperglycaemia, ketones, deep rapid (Kussmaul) breathing, dehydration, acidosis",
+              "text": ""
+            },
+            {
+              "label": "HHS",
+              "text": ""
+            },
+            {
+              "label": "Hyperosmolar Hyperglycaemic State — extreme",
+              "text": "Hyperosmolar Hyperglycaemic State — extreme hyperglycaemia, severe dehydration, altered consciousness, no significant ketosis"
+            },
+            {
+              "label": "Thyroid Storm",
+              "text": ""
+            },
+            {
+              "label": "High fever, tachycardia, hypertension,",
+              "text": "High fever, tachycardia, hypertension, agitation — life-threatening hyperthyroid crisis requiring urgent medical intervention"
+            },
+            {
+              "label": "Myxoedema Coma",
+              "text": ""
+            },
+            {
+              "label": "Severe hypothyroidism — hypothermia, bradycardia, hypotension, reduced consciousness — treat as a medical emergency",
+              "text": ""
+            },
+            {
+              "label": "In all endocrine emergencies, nurses must",
+              "text": "In all endocrine emergencies, nurses must closely monitor glucose, fluids, electrolytes, temperature, consciousness and treatment response."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Recognising DKA",
+          "body": "The Scenario",
+          "bullets": [
+            {
+              "label": "A patient with known diabetes presents with",
+              "text": "A patient with known diabetes presents with deep, rapid breathing (Kussmaul respirations), abdominal pain, signs of dehydration, and increasing drowsiness."
+            },
+            {
+              "label": "The nurse suspects Diabetic Ketoacidosis (DKA) and acts immediately.",
+              "text": ""
+            },
+            {
+              "label": "Suspect DKA",
+              "text": ""
+            },
+            {
+              "label": "Recognise Kussmaul breathing and dehydration.",
+              "text": ""
+            },
+            {
+              "label": "Check Glucose & Ketones",
+              "text": ""
+            },
+            {
+              "label": "Measure bedside glucose and ketone levels.",
+              "text": ""
+            },
+            {
+              "label": "Activate Emergency Pathway",
+              "text": ""
+            },
+            {
+              "label": "Notify medical team and escalate care immediately.",
+              "text": ""
+            },
+            {
+              "label": "Monitor Continuously",
+              "text": ""
+            },
+            {
+              "label": "Track fluids, electrolytes, and neuro status.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus: Key Principles to Remember",
+          "body": "Neurological Change = Emergency",
+          "bullets": [
+            {
+              "label": "Any sudden deterioration in consciousness,",
+              "text": "Any sudden deterioration in consciousness, speech or motor function must be treated as an emergency until proven otherwise."
+            },
+            {
+              "label": "Urine Output is a Perfusion Indicator",
+              "text": ""
+            },
+            {
+              "label": "Monitor urine output as a key sign of renal and",
+              "text": "Monitor urine output as a key sign of renal and circulatory function. Less than 0.5 ml/kg/hr demands immediate assessment."
+            },
+            {
+              "label": "Electrolytes Drive Arrhythmias",
+              "text": ""
+            },
+            {
+              "label": "Always link electrolyte imbalances to cardiac",
+              "text": "Always link electrolyte imbalances to cardiac risk. Potassium disturbances in particular are directly associated with life-threatening rhythms."
+            },
+            {
+              "label": "Protocols + Reassessment",
+              "text": ""
+            },
+            {
+              "label": "Follow emergency protocols, but reassess continuously. Patient status can change rapidly — never assume stability.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3 Complete",
+          "body": "Manage complexity with confidence.",
+          "bullets": [
+            {
+              "label": "You have covered the essential clinical",
+              "text": "You have covered the essential clinical knowledge for neurological, renal and endocrine emergencies. Apply these principles in practice and revisit them as you prepare for the NCLEX examination."
+            },
+            {
+              "label": "✅ Next Step",
+              "text": ""
+            },
+            {
+              "label": "Proceed to Section 4 of GNPS Programme 5",
+              "text": ""
+            },
+            {
+              "label": "📋 Review",
+              "text": ""
+            },
+            {
+              "label": "Revisit the clinical example and key learning points",
+              "text": ""
+            },
+            {
+              "label": "🎯 NCLEX Prep",
+              "text": ""
+            },
+            {
+              "label": "Practise NCLEX-style questions on this section's topics",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Sepsis, Shock & Multisystem Deterioration",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 5 - Level 1 - Section 4 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Sepsis, Shock & Multisystem Deterioration",
+          "body": "Section 4 · Level 1 – Qualified Nurse | Global Nursing Professional Series (GNPS) Programme 5: Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "ADULT MEDICAL-SURGICAL NURSING II",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "About This Section",
+          "body": "Manage Complexity with Confidence",
+          "bullets": [
+            {
+              "label": "Sepsis and shock can progress rapidly to",
+              "text": "Sepsis and shock can progress rapidly to multiorgan failure. Early recognition and decisive action are the cornerstones of survival."
+            },
+            {
+              "label": "Nurses are often the first to recognise the",
+              "text": "Nurses are often the first to recognise the critical combination of infection, altered perfusion, and organ dysfunction — making clinical vigilance a life-saving skill."
+            },
+            {
+              "label": "This section equips you with the knowledge to act swiftly and systematically when it matters most.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Recognise Early Sepsis & Shock",
+              "text": ""
+            },
+            {
+              "label": "Identify the clinical indicators that signal rapid deterioration before collapse occurs.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Differentiate Circulatory Failure Patterns",
+              "text": ""
+            },
+            {
+              "label": "Distinguish between hypovolaemic, cardiogenic, distributive and obstructive shock.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Support Time-Critical Interventions",
+              "text": ""
+            },
+            {
+              "label": "Follow emergency pathways accurately and assist with urgent treatment without delay.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Monitor Organ Function & Treatment Response",
+              "text": ""
+            },
+            {
+              "label": "Track systemic deterioration and communicate trends clearly to the clinical team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "What Is Sepsis?",
+          "bullets": [
+            {
+              "label": "Sepsis is a life-threatening organ dysfunction",
+              "text": "Sepsis is a life-threatening organ dysfunction caused by a dysregulated host response to infection. It demands urgent clinical assessment and must never be delayed."
+            },
+            {
+              "label": "Suspect sepsis when a possible infection is present alongside any two or more of the following new-onset signs:",
+              "text": ""
+            },
+            {
+              "label": "🧠 New Confusion",
+              "text": ""
+            },
+            {
+              "label": "Altered mental status or sudden disorientation",
+              "text": ""
+            },
+            {
+              "label": "💨 Rapid Breathing",
+              "text": ""
+            },
+            {
+              "label": "Respiratory rate ≥22 breaths/min",
+              "text": ""
+            },
+            {
+              "label": "💉 Hypotension",
+              "text": ""
+            },
+            {
+              "label": "Systolic BP <100 mmHg",
+              "text": ""
+            },
+            {
+              "label": "🌡️ Abnormal Temp",
+              "text": ""
+            },
+            {
+              "label": "Fever or hypothermia",
+              "text": ""
+            },
+            {
+              "label": "💧 Reduced Urine",
+              "text": ""
+            },
+            {
+              "label": "Oliguria or falling output",
+              "text": ""
+            },
+            {
+              "label": "📈 Rising Lactate",
+              "text": ""
+            },
+            {
+              "label": "Lactate ≥2 mmol/L",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Understanding Shock",
+          "bullets": [
+            {
+              "label": "Shock is a state of inadequate tissue perfusion",
+              "text": "Shock is a state of inadequate tissue perfusion leading to cellular dysfunction. Identifying the type of shock guides appropriate treatment."
+            },
+            {
+              "label": "Hypovolaemic",
+              "text": ""
+            },
+            {
+              "label": "Caused by blood or fluid loss (haemorrhage, severe dehydration). Most common type in trauma and surgical settings.",
+              "text": ""
+            },
+            {
+              "label": "Cardiogenic",
+              "text": ""
+            },
+            {
+              "label": "Heart fails to pump adequately, often following myocardial infarction or severe arrhythmia.",
+              "text": ""
+            },
+            {
+              "label": "Distributive",
+              "text": ""
+            },
+            {
+              "label": "Abnormal vasodilation with maldistribution of blood flow — septic, anaphylactic, and neurogenic shock fall here.",
+              "text": ""
+            },
+            {
+              "label": "Obstructive",
+              "text": ""
+            },
+            {
+              "label": "Physical obstruction to circulation — pulmonary embolism, cardiac tamponade or tension pneumothorax.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Common Signs of Shock",
+          "body": "Regardless of type, shock shares a recognisable cluster of clinical signs that nurses must identify promptly:",
+          "bullets": [
+            {
+              "label": "Altered Consciousness",
+              "text": ""
+            },
+            {
+              "label": "Confusion, agitation, reduced responsiveness — early signs of cerebral hypoperfusion.",
+              "text": ""
+            },
+            {
+              "label": "Poor Skin Perfusion",
+              "text": ""
+            },
+            {
+              "label": "Mottling, pallor, prolonged capillary refill (>2 seconds), cold and clammy skin.",
+              "text": ""
+            },
+            {
+              "label": "Tachycardia",
+              "text": ""
+            },
+            {
+              "label": "Heart rate >100 bpm — compensatory response to reduced cardiac output.",
+              "text": ""
+            },
+            {
+              "label": "Hypotension",
+              "text": ""
+            },
+            {
+              "label": "Systolic BP <90 mmHg — a late and serious sign indicating decompensation.",
+              "text": ""
+            },
+            {
+              "label": "Reduced Urine Output",
+              "text": ""
+            },
+            {
+              "label": "Oliguria (<0.5 mL/kg/hr) signals inadequate renal perfusion and impending organ failure.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Time-Critical Care",
+          "body": "Every minute matters. Following emergency pathways swiftly and accurately is essential in sepsis and shock management.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Emergency Response",
+          "body": "The Sepsis Bundle: Acting Without Delay",
+          "bullets": [
+            {
+              "label": "Measure lactate",
+              "text": ""
+            },
+            {
+              "label": "Establish IV & fluids",
+              "text": ""
+            },
+            {
+              "label": "Give antimicrobials",
+              "text": ""
+            },
+            {
+              "label": "Obtain cultures",
+              "text": ""
+            },
+            {
+              "label": "Time to antimicrobial therapy is one of the",
+              "text": "Time to antimicrobial therapy is one of the strongest predictors of patient survival in septic shock. Each step must be completed without delay."
+            },
+            {
+              "label": "Nursing Actions Include:",
+              "text": ""
+            },
+            {
+              "label": "Obtain blood cultures before antibiotics where possible",
+              "text": ""
+            },
+            {
+              "label": "Administer prescribed antimicrobials within the target window",
+              "text": ""
+            },
+            {
+              "label": "Apply supplemental oxygen and monitor SpO₂",
+              "text": ""
+            },
+            {
+              "label": "Insert IV access — large-bore cannula preferred",
+              "text": ""
+            },
+            {
+              "label": "Administer IV fluid bolus as directed (typically 500 mL crystalloid)",
+              "text": ""
+            },
+            {
+              "label": "Measure serum lactate and repeat to monitor response",
+              "text": ""
+            },
+            {
+              "label": "Document all actions with accurate timestamps",
+              "text": ""
+            },
+            {
+              "label": "Always follow your local clinical protocol. Pathway adherence saves lives.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Monitoring & Assessment",
+          "body": "Recognising Multiorgan Dysfunction",
+          "bullets": [
+            {
+              "label": "When sepsis or shock is not controlled, organ",
+              "text": "When sepsis or shock is not controlled, organ systems begin to fail — often in a predictable pattern. Nurses must monitor and escalate deteriorating trends early."
+            },
+            {
+              "label": "🫁 Respiratory",
+              "text": ""
+            },
+            {
+              "label": "Rising O₂ requirements, falling SpO₂, increased respiratory rate — risk of ARDS",
+              "text": ""
+            },
+            {
+              "label": "🫘 Renal",
+              "text": ""
+            },
+            {
+              "label": "Falling urine output, rising creatinine — acute kidney injury risk",
+              "text": ""
+            },
+            {
+              "label": "❤️ Cardiovascular",
+              "text": ""
+            },
+            {
+              "label": "Persistent hypotension, tachycardia, vasopressor requirement escalation",
+              "text": ""
+            },
+            {
+              "label": "🟡 Hepatic",
+              "text": ""
+            },
+            {
+              "label": "Rising bilirubin, coagulopathy — signs of liver dysfunction",
+              "text": ""
+            },
+            {
+              "label": "🧠 Neurological",
+              "text": ""
+            },
+            {
+              "label": "Worsening confusion, reduced GCS — indicates inadequate cerebral perfusion",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Documentation & Communication",
+          "body": "Communicating Deterioration Effectively",
+          "bullets": [
+            {
+              "label": "Accurate documentation and structured",
+              "text": "Accurate documentation and structured communication are critical. Use SBAR or your local escalation framework to convey trends — not just single observations — to the team."
+            },
+            {
+              "label": "Situation",
+              "text": ""
+            },
+            {
+              "label": "Who is the patient and what is happening right now?",
+              "text": ""
+            },
+            {
+              "label": "Background",
+              "text": ""
+            },
+            {
+              "label": "Relevant history, diagnosis, treatment to date",
+              "text": ""
+            },
+            {
+              "label": "Assessment",
+              "text": ""
+            },
+            {
+              "label": "Your clinical judgement on what is happening",
+              "text": ""
+            },
+            {
+              "label": "Recommendation",
+              "text": ""
+            },
+            {
+              "label": "What you need from the team — urgency and action",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Case Study: Ms Lee",
+          "bullets": [
+            {
+              "label": "Presenting Picture",
+              "text": ""
+            },
+            {
+              "label": "Ms Lee is admitted with a urinary tract infection. During routine monitoring, the nurse notices:",
+              "text": ""
+            },
+            {
+              "label": "New-onset confusion — previously orientated",
+              "text": ""
+            },
+            {
+              "label": "Tachypnoea — respiratory rate 26/min",
+              "text": ""
+            },
+            {
+              "label": "Hypotension — BP 88/54 mmHg",
+              "text": ""
+            },
+            {
+              "label": "Reduced urine output — 15 mL over last hour",
+              "text": ""
+            },
+            {
+              "label": "The Nurse's Response",
+              "text": ""
+            },
+            {
+              "label": "Recognises sepsis with possible septic shock based on clinical indicators",
+              "text": ""
+            },
+            {
+              "label": "Activates the emergency pathway — notifies the rapid response team immediately",
+              "text": ""
+            },
+            {
+              "label": "Obtains observations and specimens — blood cultures, lactate, urine specimen as directed",
+              "text": ""
+            },
+            {
+              "label": "Supports immediate treatment — IV access, fluids, oxygen commenced",
+              "text": ""
+            },
+            {
+              "label": "Monitors response closely — documents vital signs, urine output and mental status every 15 minutes",
+              "text": ""
+            },
+            {
+              "label": "Acting on suspicion of sepsis — before confirmed diagnosis — is best practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Readiness",
+          "body": "How This Maps to Your Exam",
+          "bullets": [
+            {
+              "label": "Sepsis and shock are high-frequency topics in",
+              "text": "Sepsis and shock are high-frequency topics in the NCLEX-RN examination for internationally qualified nurses. Expect questions on:"
+            },
+            {
+              "label": "Priority Assessment",
+              "text": ""
+            },
+            {
+              "label": "Which patient should the nurse see first? Recognise life-threatening instability.",
+              "text": ""
+            },
+            {
+              "label": "Clinical Decision-Making",
+              "text": ""
+            },
+            {
+              "label": "What is the most appropriate nursing action? Focus on the emergency pathway sequence.",
+              "text": ""
+            },
+            {
+              "label": "Delegation & Escalation",
+              "text": ""
+            },
+            {
+              "label": "What can be delegated, and when must the nurse escalate to the medical team?",
+              "text": ""
+            },
+            {
+              "label": "Expected Outcomes",
+              "text": ""
+            },
+            {
+              "label": "Which finding indicates treatment is working? Understand target vital signs and lactate clearance.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Act Early — Before Severe Collapse",
+          "bullets": [
+            {
+              "label": "Suspected sepsis demands immediate action. Do",
+              "text": "Suspected sepsis demands immediate action. Do not wait for full diagnostic confirmation before initiating emergency pathways."
+            },
+            {
+              "label": "Use Multiple Indicators Together",
+              "text": ""
+            },
+            {
+              "label": "Combine perfusion markers (capillary refill,",
+              "text": "Combine perfusion markers (capillary refill, urine output, lactate) with vital signs to form a complete clinical picture."
+            },
+            {
+              "label": "Follow Time-Critical Pathways Accurately",
+              "text": ""
+            },
+            {
+              "label": "Bundle adherence is evidence-based. Know your local protocol and execute each step in sequence and on time.",
+              "text": ""
+            },
+            {
+              "label": "Communicate Trends, Not Just Snapshots",
+              "text": ""
+            },
+            {
+              "label": "Escalate deteriorating trends early. Use",
+              "text": "Escalate deteriorating trends early. Use structured communication tools and document all actions with accurate timestamps."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Section Summary",
+          "body": "What You Have Covered",
+          "bullets": [
+            {
+              "label": "This section has equipped you with the",
+              "text": "This section has equipped you with the foundational knowledge and clinical reasoning skills to manage sepsis, shock, and multisystem deterioration confidently."
+            },
+            {
+              "label": "You are now prepared to:",
+              "text": ""
+            },
+            {
+              "label": "Recognise and respond to sepsis at the earliest opportunity",
+              "text": ""
+            },
+            {
+              "label": "Differentiate shock types and understand their clinical implications",
+              "text": ""
+            },
+            {
+              "label": "Support emergency bundles and time-critical interventions",
+              "text": ""
+            },
+            {
+              "label": "Monitor, document and communicate organ dysfunction effectively",
+              "text": ""
+            },
+            {
+              "label": "Revisit the clinical case of Ms Lee and practise applying your knowledge to similar NCLEX-style scenarios.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "You Are Prepared to Act with Confidence",
+          "body": "Global Nursing Professional Series · GNPS Programme 5 · Section 4",
+          "bullets": [
+            {
+              "label": "📚 Continue Learning",
+              "text": ""
+            },
+            {
+              "label": "Proceed to the next section of GNPS Programme 5 to build on your advanced adult nursing knowledge.",
+              "text": ""
+            },
+            {
+              "label": "📝 Practise for NCLEX",
+              "text": ""
+            },
+            {
+              "label": "Apply these concepts to NCLEX-style practice questions focused on sepsis, shock and multiorgan failure.",
+              "text": ""
+            },
+            {
+              "label": "🏥 Reflect Clinically",
+              "text": ""
+            },
+            {
+              "label": "Review a real or simulated sepsis case from your practice and map it to the concepts in this section.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    }
+  ]
+}

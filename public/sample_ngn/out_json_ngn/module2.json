@@ -1,0 +1,1686 @@
+{
+  "moduleTitle": "Adult Medical–Surgical Nursing I",
+  "moduleNumber": 2,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Chest Pain and Suspected Myocardial Infarction",
+      "narrative": "Mr. Joseph D’Souza, a 58-year-old man with hypertension, hyperlipidaemia, and a 25-year smoking history, presents to the emergency department complaining of central chest pressure that began while climbing stairs. He says the pain feels “heavy” and is spreading to his left arm and jaw. He appears pale, diaphoretic, and frightened. He rates the pain as 8 out of 10 and says it has not improved after sitting down to rest.\nOn assessment, the nurse notes blood pressure 154/94 mmHg, heart rate 108 beats per minute, respiratory rate 24 breaths per minute, oxygen saturation 93% on room air, and cool clammy skin. He reports nausea and says he feels as though “something is very wrong.” The nurse knows this presentation may represent acute coronary syndrome and that minutes matter.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings most strongly support the possibility of an acute myocardial infarction or other acute coronary syndrome?",
+          "options": {
+            "A": "Central heavy chest pressure",
+            "B": "Pain radiating to the left arm and jaw",
+            "C": "Nausea and diaphoresis",
+            "D": "Heart rate 108 beats per minute",
+            "E": "Long smoking history"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All five findings strengthen the suspicion of acute coronary syndrome. The classic symptom cluster includes heavy central chest pressure, radiation to the arm or jaw, diaphoresis, nausea, and autonomic distress. Tachycardia often occurs because pain, anxiety, and decreased cardiac efficiency stimulate sympathetic response. His long smoking history is a major cardiovascular risk factor and is highly relevant in clinical reasoning."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the nurse’s priority clinical interpretation of these data?",
+          "options": {
+            "A": "The patient is most likely having simple musculoskeletal pain",
+            "B": "The patient may be experiencing acute myocardial ischemia requiring urgent intervention",
+            "C": "The patient’s main problem is indigestion and mild dehydration",
+            "D": "The patient primarily needs emotional reassurance before any assessment"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The data cluster points to possible acute myocardial ischemia. NCLEX rewards pattern recognition. Chest pressure with radiation, diaphoresis, nausea, and cardiovascular risk factors should never be minimised. Musculoskeletal pain or indigestion may occasionally mimic cardiac pain, but the nurse must first assume the more dangerous condition until it is excluded."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which hypothesis should the nurse treat as most urgent right now?",
+          "options": {
+            "A": "The patient is anxious because he is in hospital",
+            "B": "The patient is at risk for impaired myocardial perfusion and further cardiac damage",
+            "C": "The patient has poor sleep quality",
+            "D": "The patient is dehydrated from not drinking enough water"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The priority problem is impaired myocardial perfusion. In Adult Med–Surg, myocardial ischemia becomes urgent because continued oxygen deprivation to cardiac tissue may lead to infarction, dysrhythmia, cardiogenic shock, or death. Anxiety may be present, but it is not the primary problem."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Ask the patient to walk to the examination room",
+            "B": "Obtain focused assessment, place the patient at rest, attach cardiac monitoring, and activate chest pain protocol",
+            "C": "Offer food and water while waiting for the doctor",
+            "D": "Delay action until the pain score is documented in detail"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The first response should combine rapid focused assessment with immediate safety actions: stop activity, keep the patient at rest, initiate monitoring, and follow the chest pain or acute coronary syndrome pathway. Walking the patient, offering food, or delaying action would waste precious time and could increase cardiac workload."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Communication",
+          "prompt": "Which additional actions are appropriate after the initial response? Select all that apply.",
+          "options": {
+            "A": "Obtain a 12-lead ECG promptly",
+            "B": "Prepare to administer prescribed aspirin or other protocol-based medications",
+            "C": "Reassess vital signs and pain frequently",
+            "D": "Tell the patient not to report worsening pain until the doctor arrives",
+            "E": "Communicate the situation using a structured urgent handover"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "An ECG, time-sensitive medications under protocol, reassessment, and structured escalation are all essential. NCLEX expects the nurse to think sequentially: recognise danger, start urgent monitoring and assessment, activate the correct pathway, and communicate clearly. Telling the patient to stay silent about worsening pain would be unsafe and contrary to patient-centred care."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates that the immediate nursing and medical response is helping?",
+          "options": {
+            "A": "The patient says the pain is unchanged, but he looks tired",
+            "B": "The patient’s oxygen saturation improves, pain intensity decreases, and the monitor shows improved stability while further management continues",
+            "C": "The patient no longer looks scared but has worsening chest pressure",
+            "D": "Blood pressure remains elevated but no other data are reviewed"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is judged by better perfusion and symptom control: reduced chest pain, improved oxygenation if previously impaired, and stabilisation of haemodynamic or cardiac status. Emotional calm alone does not prove physiological recovery. NCLEX outcome evaluation always asks: is the patient safer and clinically more stable than before?"
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Heart Failure Exacerbation and Fluid Overload",
+      "narrative": "Mrs. Anita Menon, a 72-year-old woman with chronic heart failure, is admitted with increasing shortness of breath over three days. She states that she now needs three pillows to sleep and wakes at night feeling breathless. Her ankles are swollen, and her daughter reports that she has gained nearly 2 kilograms in the last two days despite eating poorly.\nAssessment reveals blood pressure 162/90 mmHg, heart rate 104 beats per minute, respiratory rate 26 breaths per minute, oxygen saturation 91% on room air, bilateral crackles at the lung bases, pitting oedema at both ankles, and mild fatigue when speaking. The nurse suspects acute fluid overload related to worsening heart failure.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings are most consistent with heart failure exacerbation and fluid overload?",
+          "options": {
+            "A": "Orthopnoea",
+            "B": "Rapid weight gain",
+            "C": "Bilateral crackles",
+            "D": "Ankle oedema",
+            "E": "Oxygen saturation 91% on room air"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed cues are consistent with worsening heart failure. Orthopnoea suggests pulmonary congestion, rapid weight gain suggests fluid retention, crackles reflect fluid in or around the alveoli, peripheral oedema indicates systemic fluid accumulation, and lower oxygen saturation suggests that gas exchange is being affected by congestion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the most likely nursing interpretation of this presentation?",
+          "options": {
+            "A": "The patient has simple muscular fatigue from poor sleep",
+            "B": "The patient is retaining fluid and developing worsening cardiopulmonary congestion",
+            "C": "The patient’s main problem is gastrointestinal upset",
+            "D": "The patient is dehydrated and needs rapid oral fluids"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The combination of orthopnoea, crackles, oedema, weight gain, and reduced oxygen saturation indicates worsening fluid overload in the setting of heart failure. The case is not consistent with dehydration. In fact, excess circulating and tissue fluid is the more likely problem."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which hypothesis is most urgent?",
+          "options": {
+            "A": "Impaired gas exchange related to fluid accumulation in the lungs",
+            "B": "Disturbed body image related to ankle swelling",
+            "C": "Risk for loneliness",
+            "D": "Knowledge deficit regarding exercise"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Although several nursing issues could eventually be addressed, the most urgent is impaired gas exchange. In NGN and Med–Surg logic, breathing and oxygenation move ahead of long-term psychosocial or educational concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Position the patient upright, assess respiratory effort closely, and apply oxygen as prescribed or indicated by protocol",
+            "B": "Ask the patient to lie flat to rest the heart",
+            "C": "Encourage the patient to drink extra fluids",
+            "D": "Delay intervention until daily weights are rechecked tomorrow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Sitting the patient upright reduces venous return to the chest and improves lung expansion. Oxygen support and focused respiratory assessment are immediate priorities when pulmonary congestion is compromising gas exchange. Lying flat worsens orthopnoea. Extra fluids would likely worsen overload. Waiting until tomorrow is unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional interventions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor intake and output carefully",
+            "B": "Review daily weights and compare trends",
+            "C": "Prepare to administer prescribed diuretics and monitor electrolytes",
+            "D": "Teach the patient to ignore worsening shortness of breath at night",
+            "E": "Assess for fatigue, perfusion, and response to treatment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Intake/output, weight trends, diuretic therapy, electrolyte monitoring, and reassessment are all central to safe heart failure care. The patient should never be told to ignore nocturnal dyspnoea, because this may signal deterioration."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which outcome most clearly shows improvement?",
+          "options": {
+            "A": "Weight continues to rise but the patient smiles more",
+            "B": "Crackles lessen, oxygen saturation improves, breathing becomes easier, and urine output increases after therapy",
+            "C": "The ankle oedema remains severe and unchanged",
+            "D": "The patient says she is tired and wants to sleep flat"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "A good response is reflected by easier breathing, improved oxygenation, reduced pulmonary congestion, and effective diuresis. Persistent severe oedema or inability to tolerate lying flat would suggest incomplete improvement."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "COPD Exacerbation and Carbon Dioxide Retention Risk",
+      "narrative": "Mr. Harpreet Singh is a 69-year-old man with long-standing COPD. He presents with worsening shortness of breath, increased sputum production, and fatigue over several days. He is using pursed-lip breathing and appears exhausted after walking a short distance from the transport chair to the bed.\nHis vital signs are blood pressure 146/84 mmHg, pulse 102 beats per minute, respiratory rate 30 breaths per minute, oxygen saturation 87% on room air, and temperature 37.9 C. He has a prolonged expiratory phase and diffuse wheeze. The nurse knows that both hypoxaemia and carbon dioxide retention can become safety concerns in advanced COPD.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings show clinically significant respiratory compromise?",
+          "options": {
+            "A": "Oxygen saturation 87% on room air",
+            "B": "Respiratory rate 30 breaths per minute",
+            "C": "Use of pursed-lip breathing",
+            "D": "Increased sputum production",
+            "E": "Exhaustion with minimal activity"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings are relevant in COPD exacerbation. The low oxygen saturation shows hypoxaemia. A respiratory rate of 30 indicates distress. Pursed-lip breathing is a compensatory technique. Increased sputum production suggests worsening airway inflammation or infection, and exhaustion with minimal activity shows decreased respiratory reserve."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best overall interpretation?",
+          "options": {
+            "A": "The patient is stable because wheeze is present",
+            "B": "The patient has an acute COPD exacerbation with significant work of breathing and impaired oxygenation",
+            "C": "The patient mainly requires sleep and reassurance only",
+            "D": "The patient is overreacting to mild breathlessness"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is not mild breathlessness. The pattern suggests an acute COPD exacerbation with increased work of breathing. Wheeze does not prove stability; it shows narrowed airways and airflow obstruction. NCLEX expects the nurse to identify the seriousness of fatigue and low oxygenation in COPD."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "What should the nurse prioritise?",
+          "options": {
+            "A": "Risk for constipation due to inactivity",
+            "B": "Impaired gas exchange and ineffective ventilation",
+            "C": "Disturbed sleep pattern",
+            "D": "Risk for low self-esteem"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate concern is oxygenation and ventilation. In COPD, worsening fatigue may signal impending respiratory muscle exhaustion. Therefore, breathing remains the central problem."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Position the patient for maximal chest expansion, assess work of breathing, and begin prescribed oxygen carefully with close monitoring",
+            "B": "Place the patient flat in bed",
+            "C": "Give a large meal to improve strength",
+            "D": "Delay intervention until laboratory tests return"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Positioning, close assessment, and oxygen titration are immediate priorities. COPD patients may still need oxygen, but they require thoughtful monitoring because over-oxygenation can worsen carbon dioxide retention in some cases. A large meal and lying flat would both increase respiratory workload."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor mental status for signs of worsening carbon dioxide retention",
+            "B": "Administer bronchodilator therapy as prescribed",
+            "C": "Encourage energy conservation and small frequent meals later when stable",
+            "D": "Ignore sputum changes because only oxygen saturation matters",
+            "E": "Reassess oxygen saturation, respiratory rate, and breath sounds after interventions"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Mental status changes may indicate carbon dioxide retention. Bronchodilators and reassessment are expected interventions. Energy conservation and nutrition planning are important supportive measures. Sputum changes matter because they may point to infection or worsening inflammation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates early improvement?",
+          "options": {
+            "A": "The patient remains unable to finish sentences and becomes drowsy",
+            "B": "Oxygen saturation improves, breathing slows somewhat, wheeze is less severe, and the patient appears less fatigued",
+            "C": "The patient becomes silent on auscultation with no air movement",
+            "D": "The patient says he is hungry but oxygenation is unchanged"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is seen when oxygenation rises, work of breathing decreases, and fatigue lessens. Drowsiness or a silent chest would be alarming rather than reassuring."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Pneumonia Progression and Early Respiratory Deterioration",
+      "narrative": "Mrs. Kavita Rao, a 64-year-old woman with diabetes, is admitted with right lower lobe pneumonia. On admission she had fever, productive cough, and mild shortness of breath. Intravenous antibiotics have been started. Four hours later the nurse notices that she looks more tired and is less interested in conversation.\nRepeat observations show temperature 38.7 C, respiratory rate 32 breaths per minute, oxygen saturation 89% on room air, pulse 118 beats per minute, and blood pressure 132/78 mmHg. She says, “I feel worse than before,” and coughs thick sputum. The nurse must identify whether she is failing routine therapy and beginning to deteriorate.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings most strongly indicate worsening pneumonia?",
+          "options": {
+            "A": "Respiratory rate 32 breaths per minute",
+            "B": "Oxygen saturation 89% on room air",
+            "C": "Increasing fatigue and reduced engagement",
+            "D": "Pulse 118 beats per minute",
+            "E": "Ongoing fever with productive cough"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Every listed cue reflects worsening infection or respiratory compromise. Tachypnoea, hypoxaemia, lethargy, tachycardia, and persistent fever with sputum production all suggest the patient is not improving and may be deteriorating."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best clinical interpretation?",
+          "options": {
+            "A": "The patient is improving because sputum is still being produced",
+            "B": "The patient may be developing worsening gas exchange impairment and systemic infection response",
+            "C": "The patient only needs more sleep",
+            "D": "The patient should be discharged because antibiotics have started"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This pattern is concerning for worsening gas exchange and ongoing infection. A patient can deteriorate even after treatment begins, and NGN expects nurses to recognise trend-based deterioration rather than assuming antibiotics guarantee immediate recovery."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Social isolation",
+            "B": "Impaired oxygenation and possible clinical deterioration",
+            "C": "Knowledge deficit about antibiotics",
+            "D": "Disturbed body image"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s immediate risk relates to oxygenation and systemic decline. Educational and psychosocial needs can be addressed later, once safety has been stabilised."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Support breathing by positioning upright, reassessing the respiratory system, and initiating or increasing oxygen according to orders or protocol",
+            "B": "Encourage the patient to take a shower",
+            "C": "Reduce all monitoring because rest is more important",
+            "D": "Hold antibiotics until tomorrow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The first nursing action must target breathing and reassessment. Positioning and oxygen support are immediate priorities. The respiratory system must be reassessed thoroughly, and deterioration should be escalated promptly if findings remain concerning."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Communication",
+          "prompt": "Which additional interventions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess breath sounds and work of breathing",
+            "B": "Monitor for confusion, decreased urine output, or other sepsis cues",
+            "C": "Continue prescribed antibiotics and communicate worsening findings promptly",
+            "D": "Ignore the tachycardia because fever always explains it fully",
+            "E": "Encourage cough and secretion clearance when clinically tolerated"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "A deteriorating pneumonia patient requires ongoing respiratory assessment, sepsis surveillance, timely antibiotics, and support for secretion clearance if tolerated. Tachycardia may be partly fever-related, but in this context it should still be taken seriously as part of the overall deterioration pattern."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which outcome best shows effective immediate nursing management?",
+          "options": {
+            "A": "Oxygen saturation rises, work of breathing decreases, and the patient appears more alert after intervention",
+            "B": "The fever persists and no reassessment is performed",
+            "C": "The patient says she is tired, and the nurse stops checking observations",
+            "D": "Heart rate remains high and oxygenation worsens"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Better alertness, improved oxygenation, and reduced work of breathing show that the patient has responded positively to nursing and medical interventions."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "Post-operative Pulmonary Embolism Suspicion",
+      "narrative": "Mr. Philip Mathew is 61 years old and is on the surgical ward one day after abdominal surgery. He has been reluctant to mobilise because of pain and has remained in bed for long periods. During the evening round he suddenly becomes short of breath and tells the nurse he has sharp chest pain that worsens when he breathes in.\nHis heart rate is 124 beats per minute, respiratory rate 30 breaths per minute, blood pressure 102/66 mmHg, and oxygen saturation 88% on room air. He looks anxious and says, “Something is really wrong.” The nurse recognises that this pattern could indicate pulmonary embolism, a life-threatening post-operative complication.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which features make pulmonary embolism a serious concern?",
+          "options": {
+            "A": "Sudden shortness of breath",
+            "B": "Sharp pleuritic chest pain",
+            "C": "Tachycardia",
+            "D": "Low oxygen saturation",
+            "E": "Recent surgery and immobility"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed cues are classic risk factors or signs of pulmonary embolism. Recent surgery and immobility increase clot risk, while sudden dyspnoea, pleuritic chest pain, tachycardia, and hypoxaemia suggest embolic obstruction of pulmonary blood flow."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the most appropriate clinical interpretation?",
+          "options": {
+            "A": "The patient most likely has simple indigestion",
+            "B": "The patient may have an acute pulmonary embolism requiring emergency escalation",
+            "C": "The patient only needs reassurance and rest",
+            "D": "The patient is stable because he can still speak"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The scenario is highly suspicious for PE. Speaking does not equal stability. The cluster of abrupt respiratory and circulatory changes after surgery makes this an emergency until proven otherwise."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which hypothesis is most urgent?",
+          "options": {
+            "A": "Impaired gas exchange and circulatory compromise related to possible embolic obstruction",
+            "B": "Mild incisional pain",
+            "C": "Need for discharge teaching",
+            "D": "Disturbed sleep pattern"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "PE threatens both oxygenation and circulation. In NCLEX prioritisation, this outranks pain, education, or routine comfort concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Place the patient flat and leave to find paperwork",
+            "B": "Support oxygenation, remain with the patient, and activate urgent medical review or rapid response",
+            "C": "Encourage immediate walking to improve circulation",
+            "D": "Offer oral fluids and observe for an hour"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient is potentially unstable. Oxygenation, close presence, and rapid escalation are the correct priorities. Walking or leaving the patient alone would be unsafe. Waiting would delay life-saving care."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Communication",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess vital signs and oxygen saturation frequently",
+            "B": "Prepare to communicate the onset, risk factors, and current findings using structured handover",
+            "C": "Monitor for worsening hypotension or decreased level of consciousness",
+            "D": "Massage the patient’s calf if it looks swollen",
+            "E": "Maintain a high index of suspicion for deterioration"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Frequent reassessment, clear urgent communication, and observation for deterioration are essential. Massaging a calf is unsafe if DVT is possible because it may dislodge clot material or is at least not a recommended nursing response."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which outcome best indicates early stabilisation after urgent treatment begins?",
+          "options": {
+            "A": "Oxygen saturation improves, respiratory distress decreases, and haemodynamic status becomes more stable",
+            "B": "The patient says the pain is still severe and oxygenation worsens",
+            "C": "The nurse stops monitoring because the doctor has arrived",
+            "D": "The patient remains hypotensive and more confused"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improved oxygenation, less respiratory distress, and better haemodynamic stability show a positive response. Deterioration, worsening confusion, or stopping monitoring prematurely would indicate poor care or ongoing instability."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Dehydration and Hypovolaemia",
+      "narrative": "Mrs. Teresa Varghese, a 76-year-old woman, is admitted with vomiting and diarrhoea for two days. Her daughter says she has barely eaten or drunk anything and has become weaker and more dizzy when standing. She has a history of hypertension and takes oral antihypertensive medication.\nOn assessment, the nurse notes dry mucous membranes, poor skin hydration, blood pressure 92/58 mmHg lying and lower on standing, heart rate 112 beats per minute, urine output only 20 mL in the past hour, and increasing fatigue. The nurse suspects significant fluid volume deficit.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings support dehydration and hypovolaemia?",
+          "options": {
+            "A": "Dry mucous membranes",
+            "B": "Tachycardia",
+            "C": "Orthostatic hypotension",
+            "D": "Low urine output",
+            "E": "Recent vomiting and diarrhoea"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Each finding supports fluid volume deficit. Vomiting and diarrhoea create major fluid losses. Dry mucous membranes suggest reduced hydration. Tachycardia and orthostatic hypotension reflect compensatory circulatory stress. Low urine output suggests reduced renal perfusion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best overall interpretation?",
+          "options": {
+            "A": "The patient is fluid overloaded",
+            "B": "The patient is experiencing significant fluid volume deficit with reduced perfusion risk",
+            "C": "The patient only has mild indigestion",
+            "D": "The findings are normal for age and can be ignored"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The clinical picture clearly supports dehydration and early hypovolaemic compromise. This is especially important in an older adult, where deterioration can accelerate quickly."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for social isolation",
+            "B": "Deficient fluid volume with risk of poor tissue perfusion",
+            "C": "Disturbed body image",
+            "D": "Readiness for health promotion"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The urgent problem is inadequate circulating volume leading to reduced organ perfusion. This threatens kidneys, brain, and cardiovascular stability."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Encourage the patient to walk to the bathroom independently",
+            "B": "Begin immediate assessment and support for hypovolaemia, including safety measures and preparing for fluid replacement as prescribed",
+            "C": "Delay action until family returns",
+            "D": "Give the usual antihypertensive medication immediately without reassessment"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient requires prompt intervention for hypovolaemia. This includes safety precautions due to dizziness, close reassessment, and preparation for fluid replacement. Independent ambulation could cause a fall. Routine antihypertensive medication may need review in the setting of hypotension."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor intake and output closely",
+            "B": "Reassess orthostatic symptoms and vital signs",
+            "C": "Evaluate urine output trends",
+            "D": "Continue to ignore dizziness if the patient insists she is fine",
+            "E": "Monitor for signs of worsening shock or confusion"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Fluid balance, observations, urine output, and reassessment of perfusion are essential. Dizziness in an older dehydrated patient must never be ignored."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates that treatment is helping?",
+          "options": {
+            "A": "Urine output improves, heart rate slows, blood pressure becomes more stable, and dizziness lessens",
+            "B": "The patient remains hypotensive with decreasing urine output",
+            "C": "Confusion worsens and the mucous membranes stay dry",
+            "D": "The patient still cannot tolerate sitting upright"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A rise in urine output and improved haemodynamic stability strongly suggest that perfusion is improving. Symptom relief and reduced tachycardia support recovery."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Hyperkalaemia in Chronic Kidney Disease",
+      "narrative": "Mr. Suresh Nair is a 65-year-old man with chronic kidney disease who presents with weakness and palpitations. He missed his last dialysis-related review and says he has had poor appetite but continued to eat fruit and potassium-rich foods because he thought they were healthy. He also reports feeling “heavy” in his legs.\nLaboratory results show potassium 6.4 mmol/L, creatinine elevated above baseline, and ECG changes suggestive of hyperkalaemia. The nurse knows that severe hyperkalaemia can rapidly become fatal if not managed urgently.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings indicate dangerous hyperkalaemia?",
+          "options": {
+            "A": "Potassium 6.4 mmol/L",
+            "B": "Weakness",
+            "C": "Palpitations",
+            "D": "ECG changes",
+            "E": "Chronic kidney disease history"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these data matter. A potassium level above normal, muscle weakness, palpitations, ECG changes, and reduced kidney function together indicate a serious risk of arrhythmia and impaired potassium excretion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient mainly needs routine dietary teaching only",
+            "B": "The patient is experiencing potentially life-threatening hyperkalaemia and requires urgent intervention",
+            "C": "The patient’s symptoms are due only to anxiety",
+            "D": "The elevated potassium is harmless because fruit is healthy"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is an emergency-priority electrolyte abnormality. Hyperkalaemia can cause life-threatening arrhythmias. While education will be needed later, the immediate focus is urgent stabilisation and treatment."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which hypothesis is most urgent?",
+          "options": {
+            "A": "Risk for loneliness",
+            "B": "Risk for lethal cardiac dysrhythmia related to elevated potassium",
+            "C": "Disturbed sleep pattern",
+            "D": "Impaired swallowing"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The key life-threatening issue is the effect of hyperkalaemia on the myocardium. In NCLEX prioritisation, arrhythmia risk outranks other nursing concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Treat this as urgent, ensure cardiac monitoring, and prepare for protocol-based hyperkalaemia management",
+            "B": "Encourage the patient to walk to improve circulation",
+            "C": "Delay action until the next laboratory result tomorrow",
+            "D": "Offer a banana to restore energy"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Cardiac monitoring and urgent treatment preparation are critical. Hyperkalaemia management may include stabilising the myocardium and shifting potassium intracellularly according to orders and protocol. Delaying care is dangerous."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review medications that may worsen potassium retention",
+            "B": "Monitor ECG rhythm changes closely",
+            "C": "Anticipate repeat potassium measurement after treatment",
+            "D": "Teach about potassium restriction once the patient is stable",
+            "E": "Ignore weakness because the ECG matters more"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Medication review, monitoring, repeat labs, and later teaching are all appropriate. Weakness should not be ignored; it is part of the clinical picture and may worsen."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Potassium begins to trend downward, ECG instability lessens, and palpitations improve",
+            "B": "The potassium rises further and weakness worsens",
+            "C": "The patient remains unmonitored but says he feels slightly better",
+            "D": "ECG changes progress"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The desired outcome is a reduction in potassium-related cardiac and neuromuscular risk, demonstrated by improving ECG stability, symptom relief, and falling potassium level."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Hyponatraemia and Neurological Risk",
+      "narrative": "Mrs. Shalini Iyer, a 63-year-old patient, is admitted with nausea, headache, and increasing confusion. Family members report that she has been drinking large amounts of water because she thought it would help her recover from a recent illness. Her sodium level returns at 122 mmol/L.\nShe appears slow to answer questions and says she feels “foggy.” Her blood pressure is 128/74 mmHg, pulse 96 beats per minute, respiratory rate 20 breaths per minute, and she has no focal weakness. The nurse recognises that significant hyponatraemia can create neurological danger.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings are most important in this case?",
+          "options": {
+            "A": "Sodium 122 mmol/L",
+            "B": "Confusion",
+            "C": "Headache",
+            "D": "Reported excessive water intake",
+            "E": "Mild tachycardia"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Severe hyponatraemia, confusion, headache, and excess free water intake are the key cues. Tachycardia is less central but can still be noted. The most important issue here is neurological impact of low sodium."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "The patient may be experiencing symptomatic hyponatraemia with risk of worsening cerebral dysfunction",
+            "B": "The patient is simply tired and should sleep",
+            "C": "The patient is dehydrated and needs more water",
+            "D": "The sodium result is irrelevant because blood pressure is normal"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Hyponatraemia can cause cerebral swelling and neurological symptoms such as confusion, headache, lethargy, and seizures. The normal blood pressure does not remove this risk."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for seizure or worsening neurological impairment related to low sodium",
+            "B": "Readiness for discharge teaching",
+            "C": "Disturbed body image",
+            "D": "Risk for constipation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should prioritise neurological safety. Severe or symptomatic hyponatraemia can progress to seizures, reduced level of consciousness, or other major complications."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Continue encouraging unlimited water intake",
+            "B": "Escalate symptomatic hyponatraemia, assess neurological status closely, and institute safety precautions",
+            "C": "Ask the patient to exercise",
+            "D": "Ignore the confusion until family leaves"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate priority is recognising symptomatic hyponatraemia, closely assessing neurological status, and escalating care. Water intake may need restriction depending on cause and treatment plan; encouraging more water would worsen the problem."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor for worsening confusion or seizure activity",
+            "B": "Reassess sodium as ordered after treatment begins",
+            "C": "Protect the patient from injury if neurological status declines",
+            "D": "Assume the patient is being deliberately difficult",
+            "E": "Review fluid intake and possible underlying causes"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Monitoring, injury prevention, reassessment, and investigation of cause are all part of safe management. Labelling the patient as difficult would be inappropriate and unsafe."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which outcome suggests improvement?",
+          "options": {
+            "A": "The patient becomes more oriented, headache decreases, and sodium begins to improve gradually",
+            "B": "Confusion worsens and the patient becomes difficult to arouse",
+            "C": "The patient drinks more water and headache intensifies",
+            "D": "The nurse stops neurological checks"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by better neurological function and gradual correction of sodium. In hyponatraemia, changes must be monitored closely because overly rapid correction also carries risk."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Diabetic Ketoacidosis",
+      "narrative": "Mr. Nithin George, a 27-year-old man with type 1 diabetes, arrives at the emergency department after two days of vomiting and missing insulin doses because he felt too unwell to eat. He is thirsty, drowsy, and complains of abdominal pain. His breath has a fruity odour and he is breathing deeply and rapidly.\nVital signs show blood pressure 96/60 mmHg, pulse 122 beats per minute, respiratory rate 30 breaths per minute, oxygen saturation 97% on room air, and dry mucous membranes. Laboratory investigations reveal markedly elevated blood glucose and metabolic acidosis. The nurse suspects diabetic ketoacidosis.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings are most consistent with diabetic ketoacidosis?",
+          "options": {
+            "A": "Missed insulin doses",
+            "B": "Fruity breath odour",
+            "C": "Deep rapid respirations",
+            "D": "Dehydration signs",
+            "E": "Abdominal pain and drowsiness"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are classic for DKA. Missed insulin creates the underlying trigger. Fruity odour reflects ketones. Deep rapid respirations are compensatory Kussmaul respirations. Dehydration, abdominal pain, and altered mental state further support the diagnosis."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is having mild anxiety only",
+            "B": "The patient is experiencing diabetic ketoacidosis with dehydration and metabolic instability",
+            "C": "The patient mainly needs a snack",
+            "D": "The patient is overhydrated"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The case clearly reflects DKA. NGN expects pattern recognition and linking the symptoms with a high-risk endocrine emergency."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Severe metabolic instability with dehydration and risk of worsening perfusion",
+            "B": "Disturbed body image",
+            "C": "Need for long-term diet teaching only",
+            "D": "Readiness for exercise"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "DKA is life-threatening because it combines insulin deficiency, acidosis, dehydration, and electrolyte shifts. Perfusion and metabolic stability are urgent concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Recognise DKA as an emergency, establish monitoring, and prepare for fluid resuscitation and protocol-based therapy",
+            "B": "Tell the patient to eat immediately and go home",
+            "C": "Delay action until after routine paperwork",
+            "D": "Encourage vigorous walking"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The initial priorities in DKA include recognising the emergency, ensuring close monitoring, and preparing for IV fluids and further treatment according to protocol. Oral intake and discharge are inappropriate in this unstable condition."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional areas must the nurse monitor closely? Select all that apply.",
+          "options": {
+            "A": "Potassium and other electrolytes",
+            "B": "Mental status",
+            "C": "Urine output and perfusion",
+            "D": "Blood glucose trends",
+            "E": "Risk of delayed complications as treatment progresses"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "DKA management requires broad surveillance. Potassium can shift dangerously during treatment. Mental status reflects severity and improvement or deterioration. Perfusion, urine output, and blood glucose trends all matter. Complications may emerge during correction, so ongoing monitoring is essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Heart rate slows, hydration improves, mental status clears, and glucose/acidosis begin correcting appropriately",
+            "B": "Drowsiness worsens and perfusion declines",
+            "C": "The patient refuses monitoring and becomes more unstable",
+            "D": "Vomiting continues with no reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is reflected in restored perfusion, clearer cognition, and progressive correction of metabolic disturbance."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "Hypoglycaemia and Immediate Rescue",
+      "narrative": "Mrs. Alka Bose is a 49-year-old woman with insulin-treated diabetes who is recovering from infection. She received her usual rapid-acting insulin before lunch, but then became nauseated and ate very little. Thirty minutes later the nurse finds her sweaty, shaky, and confused. She says, “I don’t feel right,” and struggles to answer questions clearly.\nHer pulse is 110 beats per minute, blood pressure 118/70 mmHg, respiratory rate 22 breaths per minute, and she appears pale and anxious. The nurse immediately suspects hypoglycaemia.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings are classic for symptomatic hypoglycaemia?",
+          "options": {
+            "A": "Sweating",
+            "B": "Shaking",
+            "C": "Confusion",
+            "D": "Pale appearance",
+            "E": "Recent insulin with poor food intake"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed cues support hypoglycaemia. The recent mismatch between insulin and food intake is especially important because it explains why the event may have occurred."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "The patient is likely experiencing acute hypoglycaemia and needs rapid confirmation and treatment",
+            "B": "The patient only needs reassurance and rest",
+            "C": "The patient is fluid overloaded",
+            "D": "The patient is stable because blood pressure is not low"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom cluster is highly suggestive of hypoglycaemia. Normal blood pressure does not make the situation safe. The nurse must think in terms of rapid confirmation and immediate treatment."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for social withdrawal",
+            "B": "Acute neuroglycopenia and risk of worsening neurological impairment",
+            "C": "Knowledge deficit about exercise",
+            "D": "Need for discharge planning"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Hypoglycaemia threatens brain function because glucose is the brain’s major fuel source. Therefore neurological protection becomes the priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Check blood glucose immediately and treat per protocol without delay",
+            "B": "Ask the patient to wait quietly for an hour",
+            "C": "Give more insulin because she looks unwell",
+            "D": "Encourage sleep only"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should confirm hypoglycaemia rapidly and begin prompt treatment according to protocol. Delaying care risks seizure, loss of consciousness, or injury. Giving more insulin would be dangerous."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which follow-up actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess blood glucose after treatment",
+            "B": "Determine whether the patient can swallow safely before giving oral carbohydrate",
+            "C": "Monitor mental status and symptom resolution",
+            "D": "Review the cause, such as insufficient food after insulin",
+            "E": "Assume the episode will not recur and do nothing further"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Reassessment, safe treatment route, ongoing neurological monitoring, and cause analysis are all appropriate. Hypoglycaemia can recur, so follow-up is essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates effective treatment?",
+          "options": {
+            "A": "Blood glucose rises to a safer range, confusion resolves, and shaking decreases",
+            "B": "Confusion worsens after treatment and the nurse does not recheck glucose",
+            "C": "The patient remains diaphoretic and more difficult to arouse",
+            "D": "The cause is not discussed and monitoring stops"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The best indicator of improvement is both objective and subjective: glucose rises and neuroglycopenic symptoms resolve."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Acute Kidney Injury after Surgery",
+      "narrative": "Mr. Anand Pereira is a 71-year-old patient on the second post-operative day after bowel surgery. Overnight, the nurse notices that his urine output has steadily fallen. He now has only 20 mL of urine over the last hour despite an indwelling catheter that appears connected correctly. He reports feeling weak and more thirsty than earlier.\nHis blood pressure is 94/58 mmHg, pulse 116 beats per minute, and mucous membranes are dry. The nurse is concerned about reduced renal perfusion and developing acute kidney injury.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings support concern for acute kidney injury related to poor perfusion?",
+          "options": {
+            "A": "Urine output 20 mL in the last hour",
+            "B": "Hypotension",
+            "C": "Tachycardia",
+            "D": "Dry mucous membranes",
+            "E": "Post-operative status"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings matter. Low urine output is a key red flag. Hypotension and tachycardia suggest poor circulatory volume or perfusion. Dry mucous membranes support dehydration, and post-operative patients are vulnerable to fluid shifts, blood loss, and renal hypoperfusion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best nursing interpretation?",
+          "options": {
+            "A": "The patient is showing signs of reduced renal perfusion and possible evolving acute kidney injury",
+            "B": "The patient only needs encouragement to drink more next week",
+            "C": "The catheter should be removed immediately without further assessment",
+            "D": "Low urine output after surgery is always harmless"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must treat oliguria in the context of hypotension and dehydration as potentially serious. This is more than a simple comfort issue and may indicate evolving AKI."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired renal perfusion and risk of worsening organ dysfunction",
+            "B": "Risk for loneliness",
+            "C": "Disturbed sleep pattern",
+            "D": "Need for menu planning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The kidneys require adequate perfusion. Prolonged oliguria can signal significant organ compromise, so renal and circulatory status become the priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reassess the patient and catheter system promptly, confirm the low urine output, and escalate the concern while preparing for fluid/perfusion support as ordered",
+            "B": "Ignore the finding until the next shift",
+            "C": "Encourage independent walking immediately",
+            "D": "Give diuretics without review"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must first verify the finding, rule out simple mechanical causes such as catheter kinking, reassess the patient, and escalate. Because hypotension and dehydration are present, perfusion support may be needed. Ignoring the finding or giving unsupervised diuretics would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor intake and output closely",
+            "B": "Trend creatinine and renal-related laboratory results as ordered",
+            "C": "Reassess blood pressure and perfusion frequently",
+            "D": "Document and forget the issue if output improves briefly once",
+            "E": "Assess for other signs of shock or fluid deficit"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "AKI surveillance includes close fluid balance monitoring, repeated haemodynamic assessment, laboratory trending, and broader assessment for shock or ongoing fluid loss. A single transient improvement does not remove the need for continued observation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding suggests that the patient is improving?",
+          "options": {
+            "A": "Urine output increases, blood pressure stabilises, and thirst/weakness lessen",
+            "B": "Oliguria continues and confusion worsens",
+            "C": "Blood pressure falls further and the patient becomes clammy",
+            "D": "Laboratory follow-up is not obtained"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by restoring perfusion, which should be reflected in better urine output, more stable blood pressure, and reduced dehydration symptoms."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Upper Gastrointestinal Bleeding",
+      "narrative": "Mr. Elias Kuruvilla, a 56-year-old man, is admitted after reporting black tarry stools and dizziness. He has a history of long-term NSAID use for chronic back pain and says he felt weak climbing stairs this morning. Shortly after arriving on the ward, he becomes more pale and says he feels lightheaded when sitting up.\nHis blood pressure is 88/54 mmHg, pulse 124 beats per minute, respiratory rate 24 breaths per minute, and he has cool clammy skin. The nurse recognises signs of possible upper gastrointestinal bleeding with developing shock.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings suggest significant upper GI bleeding with circulatory compromise?",
+          "options": {
+            "A": "Black tarry stools",
+            "B": "Dizziness and weakness",
+            "C": "Hypotension",
+            "D": "Tachycardia",
+            "E": "Cool clammy skin"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Melena suggests upper GI bleeding. Dizziness, weakness, hypotension, tachycardia, and clammy skin together point toward blood loss and poor perfusion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "The patient is likely developing hypovolaemic shock related to GI blood loss",
+            "B": "The patient simply needs rest and no urgent action",
+            "C": "The stools are unrelated to bleeding",
+            "D": "The pulse is high only because of anxiety and nothing more"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "This is a high-risk bleeding scenario. The haemodynamic picture suggests volume loss significant enough to threaten perfusion."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Deficient diversional activity",
+            "B": "Risk for impaired tissue perfusion due to active blood loss",
+            "C": "Knowledge deficit about exercise",
+            "D": "Readiness for low-fat diet teaching"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate priority is circulatory stability. This is a classic Adult Med–Surg urgency where shock risk outranks all teaching and comfort needs."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Recognise potential shock, maintain patient safety, escalate urgently, and prepare for immediate resuscitative management",
+            "B": "Encourage ambulation to improve circulation",
+            "C": "Offer a large meal",
+            "D": "Delay action until the next doctor round"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient is unstable and must be managed urgently. Resuscitation-focused thinking is required: protect airway if needed, support circulation, escalate, and prepare for intervention."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess vital signs frequently",
+            "B": "Monitor mental status and urine output",
+            "C": "Prepare for bloodwork and treatment as ordered",
+            "D": "Continue NSAIDs because they are not relevant now",
+            "E": "Maintain awareness of worsening shock signs"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Frequent reassessment and preparation for treatment are central. NSAIDs are highly relevant because they may have contributed to ulcer-related bleeding and should not be continued casually in this context."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Blood pressure improves, pulse slows, dizziness decreases, and perfusion signs improve",
+            "B": "The patient becomes colder and more confused",
+            "C": "Melena continues with worsening hypotension",
+            "D": "Monitoring is stopped because one reading looks better"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is reflected in better perfusion, reduced tachycardia, and less dizziness. Ongoing instability or premature reduction in monitoring would be unsafe."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Acute Pancreatitis",
+      "narrative": "Mrs. Rina Das, a 48-year-old woman, presents with severe epigastric pain radiating to her back. She says the pain became much worse after eating and now feels constant. She is nauseated, has vomited twice, and prefers leaning forward because lying flat increases the pain.\nOn assessment she looks distressed, guards her abdomen, and rates her pain as 9 out of 10. Her pulse is 112 beats per minute, respiratory rate 24 breaths per minute, blood pressure 106/68 mmHg, and she has dry mucous membranes. The nurse suspects acute pancreatitis.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings are consistent with acute pancreatitis?",
+          "options": {
+            "A": "Severe epigastric pain radiating to the back",
+            "B": "Pain worse when lying flat",
+            "C": "Nausea and vomiting",
+            "D": "Leaning forward for relief",
+            "E": "Tachycardia and dehydration signs"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "This symptom cluster strongly matches acute pancreatitis. The pain pattern, postprandial worsening, nausea, vomiting, and leaning-forward position are typical. Tachycardia and dehydration often occur because of vomiting and fluid shifts."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best nursing interpretation?",
+          "options": {
+            "A": "The patient is showing a likely inflammatory abdominal emergency with significant pain and fluid deficit risk",
+            "B": "The patient only needs a laxative",
+            "C": "The condition is probably minor indigestion",
+            "D": "The patient should be encouraged to lie flat"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Acute pancreatitis can become serious quickly because of severe inflammation, pain, and third-spacing of fluids. The nurse must think beyond pain alone and recognise systemic risk."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for acute pain and fluid imbalance with potential for deterioration",
+            "B": "Disturbed body image",
+            "C": "Need for social media education",
+            "D": "Risk for boredom"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Pain is important, but the broader urgent issue includes fluid imbalance and the potential for systemic instability."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Begin oral feeding immediately",
+            "B": "Recognise pancreatitis as potentially serious, support hydration/perfusion monitoring, manage severe pain as prescribed, and withhold unnecessary oral intake until reviewed",
+            "C": "Encourage alcohol intake to settle the stomach",
+            "D": "Delay intervention until the pain score is forgotten"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Pancreatitis often requires bowel rest and careful fluid/pain management. The nurse must not rush to oral feeding when the pancreas may need rest. Hydration, monitoring, and pain control are immediate concerns."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor for worsening pain, vomiting, and haemodynamic instability",
+            "B": "Reassess fluid status and urine output",
+            "C": "Evaluate response to pain management",
+            "D": "Ignore dehydration because pancreatitis is only a pain problem",
+            "E": "Escalate if the patient shows signs of shock or respiratory compromise"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Pancreatitis is more than pain; it can cause major fluid shifts and systemic complications. The nurse must monitor fluid status closely and remain alert for deterioration."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Pain becomes more manageable, vomiting decreases, perfusion remains stable, and the patient is better able to rest",
+            "B": "Tachycardia worsens and urine output falls",
+            "C": "The patient cannot tolerate repositioning and becomes more hypotensive",
+            "D": "The nurse stops monitoring once pain medication is given"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is seen when pain, vomiting, and instability lessen. Ongoing hypotension, tachycardia, or reduced urine output would suggest worsening illness."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Sepsis from Urinary Tract Source",
+      "narrative": "Mrs. Gloria Fernandes, a 74-year-old woman, is admitted with dysuria and fever. She has a history of recurrent urinary infections. During the evening shift she becomes more lethargic and less responsive than earlier. Her family says she is “not herself” and seems unusually sleepy.\nHer observations show temperature 38.9 C, pulse 122 beats per minute, respiratory rate 28 breaths per minute, blood pressure 92/56 mmHg, and oxygen saturation 93% on room air. Urine output has fallen over the last few hours. The nurse suspects sepsis developing from a urinary tract source.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which cues support possible sepsis?",
+          "options": {
+            "A": "Fever",
+            "B": "Tachycardia",
+            "C": "Tachypnoea",
+            "D": "Hypotension",
+            "E": "New lethargy and falling urine output"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these cues fit sepsis risk and early organ dysfunction. New lethargy and reduced urine output are especially important because they suggest impaired perfusion or evolving organ involvement."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "The patient is likely developing sepsis with impaired perfusion and requires urgent escalation",
+            "B": "The patient simply needs more sleep",
+            "C": "The urinary symptoms are unrelated to the observations",
+            "D": "The low blood pressure is not important because fever is expected"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The pattern is strongly concerning for sepsis. In Adult Med–Surg nursing, fever plus worsening vital signs and new organ-dysfunction cues must be treated as urgent."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for septic shock and organ hypoperfusion",
+            "B": "Knowledge deficit about hydration",
+            "C": "Disturbed body image",
+            "D": "Readiness for home discharge"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate danger is progression to septic shock and multisystem compromise. This is a time-sensitive escalation scenario."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Escalate promptly using sepsis-focused clinical judgment, reassess the patient, and prepare for time-critical interventions according to policy",
+            "B": "Wait until morning to review the trend",
+            "C": "Offer only reassurance and oral fluids",
+            "D": "Reduce monitoring to let the patient rest"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should think urgently: reassess, escalate, and prepare for protocol-based sepsis management. Waiting is unsafe because sepsis can progress quickly."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor blood pressure, urine output, and mental status closely",
+            "B": "Prepare for blood cultures, antibiotics, and fluids as ordered or protocol-based",
+            "C": "Continue watching for further deterioration",
+            "D": "Ignore the new lethargy if the fever is being treated",
+            "E": "Document trends clearly and communicate them promptly"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Sepsis management depends on prompt recognition, trending, and intervention. The new lethargy is highly relevant and should not be ignored."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Blood pressure stabilises, urine output improves, mental status becomes clearer, and fever trend begins to settle",
+            "B": "Lethargy worsens and urine output continues to fall",
+            "C": "The nurse stops monitoring because antibiotics were started",
+            "D": "Tachycardia becomes more severe"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement in perfusion, organ function, and mental status shows the sepsis response is moving in the right direction. Continued decline would indicate worsening illness."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Post-operative Wound Evisceration",
+      "narrative": "Mr. Abdul Rahman is a 62-year-old man on day two after abdominal surgery. He suddenly calls the nurse and says he felt a “popping” sensation at the incision site while coughing. When the nurse arrives, he looks frightened and reports sharp incisional pain. The abdominal dressing is partly soaked, and the wound edges appear open.\nOn closer inspection, abdominal contents appear to be protruding through the wound. The patient is pale, tachycardic, and extremely anxious. The nurse recognises this as a surgical emergency.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise Cues (Select all that apply)",
+          "prompt": "Which findings indicate wound evisceration?",
+          "options": {
+            "A": "Report of a popping sensation",
+            "B": "Open wound edges",
+            "C": "Protrusion of abdominal contents",
+            "D": "Increased incisional pain",
+            "E": "Anxiety and tachycardia"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings support wound evisceration and acute distress. The tachycardia and anxiety may reflect pain, shock, or severe alarm at the event."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse Cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "This is a routine dressing issue only",
+            "B": "The patient has a serious post-operative wound emergency requiring immediate intervention and surgical review",
+            "C": "The wound can be pushed back in and ignored",
+            "D": "The patient should be asked to walk to the treatment room"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Wound evisceration is an emergency. The wound should not be treated as routine. The nurse must protect exposed tissues and escalate rapidly."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise Hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for tissue injury, infection, and further dehiscence related to wound evisceration",
+            "B": "Disturbed sleep pattern",
+            "C": "Need for menu adjustment",
+            "D": "Knowledge deficit about exercise"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The exposed tissues and opened incision create urgent risk for injury, contamination, and worsening physiological stress."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take Action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Cover the area with sterile saline-moistened dressing, support the patient, and seek urgent surgical assistance",
+            "B": "Push the abdominal contents back into the wound",
+            "C": "Ask the patient to cough again to check the wound",
+            "D": "Leave the wound exposed while completing documentation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct first action is to protect the exposed tissue with sterile saline-moistened dressings, reduce strain, and obtain urgent help. Pushing contents back in is unsafe unless specifically directed in a controlled setting. Documentation follows emergency care, not the other way around."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Expanded Care / Monitoring",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Keep the patient as calm and still as possible",
+            "B": "Monitor vital signs and signs of shock",
+            "C": "Use sterile technique while protecting the wound",
+            "D": "Delay escalation until the next round",
+            "E": "Prepare for urgent surgical review or transfer as directed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "The nurse must minimise strain, monitor for instability, use sterile protection, and escalate urgently. Delay could worsen tissue damage or haemodynamic compromise."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate Outcome",
+          "prompt": "Which finding best indicates that immediate nursing management has been effective?",
+          "options": {
+            "A": "The exposed tissue is protected, the patient is stabilised while help is obtained, and further wound damage is minimised",
+            "B": "The wound remains exposed for observation only",
+            "C": "The patient walks independently to the theatre area",
+            "D": "Monitoring is stopped once the dressing is applied"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse cannot fully solve the emergency alone, but effective management means protecting tissue, reducing further harm, and stabilising the patient while definitive care is arranged."
+        }
+      ]
+    }
+  ]
+}

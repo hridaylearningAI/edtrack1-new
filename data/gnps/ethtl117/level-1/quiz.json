@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which statement best defines pharmacokinetics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "How the body absorbs, distributes, metabolises and eliminates a medicine."
+        },
+        {
+          "id": "B",
+          "text": "What the medicine does to the body."
+        },
+        {
+          "id": "C",
+          "text": "The classification of medicines by colour."
+        },
+        {
+          "id": "D",
+          "text": "The legal process of prescribing."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Pharmacokinetics describes what the body does to a medicine through absorption, distribution, metabolism and elimination."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best defines pharmacodynamics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "How the medicine is packaged."
+        },
+        {
+          "id": "B",
+          "text": "How the medicine affects the body."
+        },
+        {
+          "id": "C",
+          "text": "How the medicine is eliminated only."
+        },
+        {
+          "id": "D",
+          "text": "How the prescription is documented."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pharmacodynamics describes the effects and mechanisms of a medicine in the body."
+    },
+    {
+      "id": "q3",
+      "stem": "Why is the generic name of a medicine preferred in professional communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is always shorter."
+        },
+        {
+          "id": "B",
+          "text": "It guarantees no side effects."
+        },
+        {
+          "id": "C",
+          "text": "Brand names may differ between countries and manufacturers."
+        },
+        {
+          "id": "D",
+          "text": "It replaces the need for checking the label."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Generic names support consistent communication because brand names vary across manufacturers and countries."
+    },
+    {
+      "id": "q4",
+      "stem": "A medicine intended to reduce pain is classified as which type?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anticoagulant."
+        },
+        {
+          "id": "B",
+          "text": "Diuretic."
+        },
+        {
+          "id": "C",
+          "text": "Antihypertensive."
+        },
+        {
+          "id": "D",
+          "text": "Analgesic."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Analgesics are medicines used to relieve pain."
+    },
+    {
+      "id": "q5",
+      "stem": "A patient with impaired kidney function is prescribed a medicine mainly eliminated by the kidneys. What is the nurse's main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The medicine may accumulate and cause toxicity."
+        },
+        {
+          "id": "B",
+          "text": "The medicine may be absorbed too quickly."
+        },
+        {
+          "id": "C",
+          "text": "The medicine will have no therapeutic effect."
+        },
+        {
+          "id": "D",
+          "text": "The medicine will become an antibiotic."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reduced renal elimination can cause accumulation and increase the risk of toxicity."
+    },
+    {
+      "id": "q6",
+      "stem": "A medicine produces the intended reduction in blood pressure. This is called the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adverse reaction."
+        },
+        {
+          "id": "B",
+          "text": "Therapeutic effect."
+        },
+        {
+          "id": "C",
+          "text": "Contraindication."
+        },
+        {
+          "id": "D",
+          "text": "Interaction."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The therapeutic effect is the intended beneficial action of a medicine."
+    },
+    {
+      "id": "q7",
+      "stem": "A patient develops mild predictable drowsiness after an antihistamine. This is best described as a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medication error."
+        },
+        {
+          "id": "B",
+          "text": "Contraindication."
+        },
+        {
+          "id": "C",
+          "text": "Side effect."
+        },
+        {
+          "id": "D",
+          "text": "Therapeutic failure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A side effect is a predictable secondary effect that may occur alongside the intended action."
+    },
+    {
+      "id": "q8",
+      "stem": "Which factor can alter medication metabolism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Room temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Patient bed number."
+        },
+        {
+          "id": "C",
+          "text": "Nurse experience."
+        },
+        {
+          "id": "D",
+          "text": "Liver function."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The liver is a major site of medication metabolism, so impaired function may alter medicine levels."
+    },
+    {
+      "id": "q9",
+      "stem": "A nurse checks blood pressure and electrolytes before giving a diuretic. What principle is being applied?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pharmacological knowledge linked to patient assessment."
+        },
+        {
+          "id": "B",
+          "text": "Medication preparation only."
+        },
+        {
+          "id": "C",
+          "text": "Documentation after administration."
+        },
+        {
+          "id": "D",
+          "text": "Brand-name recognition."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The nurse is using knowledge of expected effects and risks to guide safe assessment before administration."
+    },
+    {
+      "id": "q10",
+      "stem": "Which medicine class is commonly used to reduce blood clot formation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antibiotics."
+        },
+        {
+          "id": "B",
+          "text": "Anticoagulants."
+        },
+        {
+          "id": "C",
+          "text": "Analgesics."
+        },
+        {
+          "id": "D",
+          "text": "Antacids."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Anticoagulants reduce the formation or extension of blood clots."
+    },
+    {
+      "id": "q11",
+      "stem": "A patient develops unexpected severe bleeding after a medicine. This is best classified as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A therapeutic effect."
+        },
+        {
+          "id": "B",
+          "text": "A brand-name difference."
+        },
+        {
+          "id": "C",
+          "text": "An adverse reaction."
+        },
+        {
+          "id": "D",
+          "text": "A normal route effect."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Severe bleeding is a harmful unwanted effect requiring assessment and escalation."
+    },
+    {
+      "id": "q12",
+      "stem": "Why should a nurse know the main purpose of every medicine administered?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To explain all prescribing decisions."
+        },
+        {
+          "id": "B",
+          "text": "To avoid checking the order."
+        },
+        {
+          "id": "C",
+          "text": "To replace patient education."
+        },
+        {
+          "id": "D",
+          "text": "To recognise whether the treatment is effective and identify risks."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Knowing the indication helps the nurse assess therapeutic response and detect adverse effects."
+    },
+    {
+      "id": "q13",
+      "stem": "A patient is dehydrated and receives a medicine cleared by the kidneys. Why is this clinically important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dehydration may alter renal perfusion and medicine elimination."
+        },
+        {
+          "id": "B",
+          "text": "Dehydration guarantees rapid absorption."
+        },
+        {
+          "id": "C",
+          "text": "The medicine becomes inactive."
+        },
+        {
+          "id": "D",
+          "text": "The route no longer matters."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Dehydration can reduce renal perfusion and alter elimination, increasing risk of accumulation."
+    },
+    {
+      "id": "q14",
+      "stem": "Which description best distinguishes an adverse reaction from a side effect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are always identical."
+        },
+        {
+          "id": "B",
+          "text": "An adverse reaction may be harmful or unexpected, while a side effect is often predictable."
+        },
+        {
+          "id": "C",
+          "text": "A side effect is always life-threatening."
+        },
+        {
+          "id": "D",
+          "text": "Adverse reactions occur only with injections."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Adverse reactions may be harmful or unexpected, while side effects are often known secondary effects."
+    },
+    {
+      "id": "q15",
+      "stem": "A medicine stimulates a receptor and increases heart rate. This is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pharmacokinetics."
+        },
+        {
+          "id": "B",
+          "text": "Elimination only."
+        },
+        {
+          "id": "C",
+          "text": "Pharmacodynamics."
+        },
+        {
+          "id": "D",
+          "text": "Medication reconciliation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The medicine's action on a receptor and resulting physiological change are pharmacodynamic effects."
+    },
+    {
+      "id": "q16",
+      "stem": "Which patient is at greatest risk of medicine accumulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A healthy adult with normal organ function."
+        },
+        {
+          "id": "B",
+          "text": "A patient receiving a topical cream."
+        },
+        {
+          "id": "C",
+          "text": "A visitor with no medicines."
+        },
+        {
+          "id": "D",
+          "text": "An older adult with severe kidney impairment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Severe kidney impairment can reduce elimination and increase accumulation risk."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse notices that a patient has not improved after several doses of an antibiotic. What is the BEST nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient and report lack of therapeutic response."
+        },
+        {
+          "id": "B",
+          "text": "Assume the medicine is effective."
+        },
+        {
+          "id": "C",
+          "text": "Double the dose."
+        },
+        {
+          "id": "D",
+          "text": "Stop all medicines independently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The nurse should evaluate effectiveness and escalate concerns rather than changing treatment independently."
+    },
+    {
+      "id": "q18",
+      "stem": "Which statement about route of administration is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Route has no effect on a medicine."
+        },
+        {
+          "id": "B",
+          "text": "Route can influence absorption and onset of action."
+        },
+        {
+          "id": "C",
+          "text": "All routes are equally safe for every patient."
+        },
+        {
+          "id": "D",
+          "text": "The patient always chooses the route."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Different routes affect how quickly and reliably a medicine is absorbed and whether it is appropriate for the patient."
+    },
+    {
+      "id": "q19",
+      "stem": "A patient has a serious allergy to a medicine class. Why is this information essential?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It only affects documentation."
+        },
+        {
+          "id": "B",
+          "text": "It changes the brand name."
+        },
+        {
+          "id": "C",
+          "text": "It may represent a contraindication to related medicines."
+        },
+        {
+          "id": "D",
+          "text": "It improves absorption."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A previous serious allergy may make related medicines unsafe and requires careful checking."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates sound pharmacological nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The medicine was given on time only."
+        },
+        {
+          "id": "B",
+          "text": "The patient recognised the tablet colour."
+        },
+        {
+          "id": "C",
+          "text": "The order was copied correctly."
+        },
+        {
+          "id": "D",
+          "text": "The nurse understood the indication, assessed risks, administered safely and evaluated the response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe pharmacological practice integrates knowledge, assessment, administration and evaluation."
+    },
+    {
+      "id": "q21",
+      "stem": "Before administering any medicine, the nurse should FIRST:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm the patient's identity using approved identifiers."
+        },
+        {
+          "id": "B",
+          "text": "Open all medication packets."
+        },
+        {
+          "id": "C",
+          "text": "Document administration."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to confirm."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Correct patient identification is a fundamental safety check before medicine administration."
+    },
+    {
+      "id": "q22",
+      "stem": "A prescription requires 500 mg. The medicine available is 250 mg in 5 mL. How many millilitres are required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 mL."
+        },
+        {
+          "id": "B",
+          "text": "10 mL."
+        },
+        {
+          "id": "C",
+          "text": "15 mL."
+        },
+        {
+          "id": "D",
+          "text": "20 mL."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Required dose divided by available dose multiplied by volume: 500/250 × 5 = 10 mL."
+    },
+    {
+      "id": "q23",
+      "stem": "Which action best reflects the right route?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choosing the fastest route."
+        },
+        {
+          "id": "B",
+          "text": "Using the route preferred by the nurse."
+        },
+        {
+          "id": "C",
+          "text": "Giving the medicine by the prescribed route after confirming it is appropriate."
+        },
+        {
+          "id": "D",
+          "text": "Changing the route without clarification."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The route must match the valid order and be clinically appropriate."
+    },
+    {
+      "id": "q24",
+      "stem": "A medication label is unclear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer it if the colour is familiar."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to identify it."
+        },
+        {
+          "id": "C",
+          "text": "Write a new label from memory."
+        },
+        {
+          "id": "D",
+          "text": "Do not use it and obtain a clearly labelled product."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Unclear or unlabelled medicines should never be administered."
+    },
+    {
+      "id": "q25",
+      "stem": "Why should medicines be prepared for one patient at a time?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce the risk of patient and medicine selection errors."
+        },
+        {
+          "id": "B",
+          "text": "To reduce interruptions only."
+        },
+        {
+          "id": "C",
+          "text": "To avoid using a medication trolley."
+        },
+        {
+          "id": "D",
+          "text": "To simplify documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Preparing one patient's medicines at a time supports accurate identification and reduces mix-ups."
+    },
+    {
+      "id": "q26",
+      "stem": "A nurse is interrupted during a medication calculation. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue from memory."
+        },
+        {
+          "id": "B",
+          "text": "Restart or recheck the calculation before proceeding."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to calculate it."
+        },
+        {
+          "id": "D",
+          "text": "Document first."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Interruptions can disrupt concentration; calculations should be rechecked before administration."
+    },
+    {
+      "id": "q27",
+      "stem": "Which item must be checked before using a medication vial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colour of the cap only."
+        },
+        {
+          "id": "B",
+          "text": "Location of manufacture only."
+        },
+        {
+          "id": "C",
+          "text": "Expiry date and integrity."
+        },
+        {
+          "id": "D",
+          "text": "Patient preference."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Expiry and product integrity are essential to safe medication preparation."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient is unable to swallow safely. An oral tablet is prescribed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give it with extra water."
+        },
+        {
+          "id": "B",
+          "text": "Crush all tablets automatically."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to give it."
+        },
+        {
+          "id": "D",
+          "text": "Assess and clarify the route before administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The route may be unsafe; the nurse should assess and clarify an alternative."
+    },
+    {
+      "id": "q29",
+      "stem": "Which statement about dose calculations is MOST accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A mathematically correct answer should also be checked for reasonableness."
+        },
+        {
+          "id": "B",
+          "text": "Calculators remove the need for checking."
+        },
+        {
+          "id": "C",
+          "text": "Units are optional."
+        },
+        {
+          "id": "D",
+          "text": "Decimals are rarely important."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A result should be clinically reasonable and use correct units, especially where decimals are involved."
+    },
+    {
+      "id": "q30",
+      "stem": "A nurse prepares an injection but cannot remember whether a second check is required. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because the dose is small."
+        },
+        {
+          "id": "B",
+          "text": "Review the policy and obtain the required check before administration."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient."
+        },
+        {
+          "id": "D",
+          "text": "Document the uncertainty."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should follow organisational policy for independent checks."
+    },
+    {
+      "id": "q31",
+      "stem": "Which medication right involves assessing whether the medicine is appropriate for the patient's current condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Right colour."
+        },
+        {
+          "id": "B",
+          "text": "Right ward."
+        },
+        {
+          "id": "C",
+          "text": "Right assessment."
+        },
+        {
+          "id": "D",
+          "text": "Right packaging."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The right assessment requires relevant clinical checks before administration."
+    },
+    {
+      "id": "q32",
+      "stem": "A prescription is written as .5 mg. Why should the nurse seek clarification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The dose is always too low."
+        },
+        {
+          "id": "B",
+          "text": "Milligrams are not allowed."
+        },
+        {
+          "id": "C",
+          "text": "The route is missing from all prescriptions."
+        },
+        {
+          "id": "D",
+          "text": "A leading zero is missing and the decimal may be misread."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Writing 0.5 mg reduces the risk of a tenfold error from a missed decimal point."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient says the tablet looks different from usual. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pause, verify the medicine against the order and packaging."
+        },
+        {
+          "id": "B",
+          "text": "Reassure and administer."
+        },
+        {
+          "id": "C",
+          "text": "Ask another patient."
+        },
+        {
+          "id": "D",
+          "text": "Discard it without checking."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient concerns can identify errors and should prompt verification."
+    },
+    {
+      "id": "q34",
+      "stem": "A medicine is ordered intravenously, but the nurse has not been assessed as competent in IV administration. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer slowly."
+        },
+        {
+          "id": "B",
+          "text": "Seek an appropriately competent nurse or supervision."
+        },
+        {
+          "id": "C",
+          "text": "Change it to oral."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient for consent to proceed."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Nurses must practise within competence and organisational requirements."
+    },
+    {
+      "id": "q35",
+      "stem": "A child weighs 20 kg and is prescribed 5 mg/kg. What dose is required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "25 mg."
+        },
+        {
+          "id": "B",
+          "text": "200 mg."
+        },
+        {
+          "id": "C",
+          "text": "100 mg."
+        },
+        {
+          "id": "D",
+          "text": "400 mg."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "5 mg × 20 kg = 100 mg."
+    },
+    {
+      "id": "q36",
+      "stem": "Which action best supports aseptic medication preparation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Touching key parts with bare hands."
+        },
+        {
+          "id": "B",
+          "text": "Leaving syringes unlabelled."
+        },
+        {
+          "id": "C",
+          "text": "Using damaged packaging."
+        },
+        {
+          "id": "D",
+          "text": "Preparing in a clean area with minimal interruption."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A clean preparation area and protection of key parts reduce contamination risk."
+    },
+    {
+      "id": "q37",
+      "stem": "A patient refuses a scheduled medicine. Which right is being exercised?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Right to refuse."
+        },
+        {
+          "id": "B",
+          "text": "Right ward."
+        },
+        {
+          "id": "C",
+          "text": "Right formulation."
+        },
+        {
+          "id": "D",
+          "text": "Right brand."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A competent patient has the right to refuse treatment after receiving appropriate information."
+    },
+    {
+      "id": "q38",
+      "stem": "A nurse documents a medicine before administration. Why is this unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It saves time."
+        },
+        {
+          "id": "B",
+          "text": "The record may become inaccurate if the medicine is delayed, refused or not given."
+        },
+        {
+          "id": "C",
+          "text": "It is only unsafe for injections."
+        },
+        {
+          "id": "D",
+          "text": "It improves continuity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation must reflect actual care provided."
+    },
+    {
+      "id": "q39",
+      "stem": "A sublingual medicine is prescribed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crush it into food."
+        },
+        {
+          "id": "B",
+          "text": "Give it intramuscularly."
+        },
+        {
+          "id": "C",
+          "text": "Place it under the tongue as ordered and explain not to swallow immediately."
+        },
+        {
+          "id": "D",
+          "text": "Apply it to the skin."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Sublingual medicines are placed under the tongue for absorption through the mucosa."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best indicates safe administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The medicine was removed from storage."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completed the round quickly."
+        },
+        {
+          "id": "C",
+          "text": "The patient recognised the brand."
+        },
+        {
+          "id": "D",
+          "text": "The correct patient received the correct medicine, dose, route and time, with documentation and evaluation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe administration includes deliberate checks, correct delivery, documentation and monitoring."
+    },
+    {
+      "id": "q41",
+      "stem": "A patient develops facial swelling and difficulty breathing after an antibiotic. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop the medicine and call for emergency assistance."
+        },
+        {
+          "id": "B",
+          "text": "Document the reaction."
+        },
+        {
+          "id": "C",
+          "text": "Offer water."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the prescriber."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Facial swelling and breathing difficulty may indicate anaphylaxis and require immediate emergency response."
+    },
+    {
+      "id": "q42",
+      "stem": "Which factor commonly contributes to medication errors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Minimal interruptions."
+        },
+        {
+          "id": "B",
+          "text": "Look-alike packaging."
+        },
+        {
+          "id": "C",
+          "text": "Clear orders."
+        },
+        {
+          "id": "D",
+          "text": "Correct identification."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Look-alike packaging can contribute to wrong-medicine selection errors."
+    },
+    {
+      "id": "q43",
+      "stem": "A contraindication is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "The intended benefit."
+        },
+        {
+          "id": "B",
+          "text": "A brand name."
+        },
+        {
+          "id": "C",
+          "text": "A reason a medicine may be unsuitable or unsafe."
+        },
+        {
+          "id": "D",
+          "text": "A documentation method."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A contraindication is a condition or factor that makes use of a medicine inappropriate or risky."
+    },
+    {
+      "id": "q44",
+      "stem": "A patient takes a prescribed medicine and an herbal product. Why should the nurse ask about both?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Herbal products are always harmless."
+        },
+        {
+          "id": "B",
+          "text": "Only prescription medicines matter."
+        },
+        {
+          "id": "C",
+          "text": "The information is not clinically relevant."
+        },
+        {
+          "id": "D",
+          "text": "Herbal products may interact with medicines."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Herbal and complementary products may cause interactions and adverse effects."
+    },
+    {
+      "id": "q45",
+      "stem": "A patient develops mild nausea after a medicine known to cause nausea. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess severity and monitor while providing appropriate care."
+        },
+        {
+          "id": "B",
+          "text": "Ignore all symptoms."
+        },
+        {
+          "id": "C",
+          "text": "Record an allergy automatically."
+        },
+        {
+          "id": "D",
+          "text": "Double the dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Known side effects still require assessment and management, but they are not automatically allergies."
+    },
+    {
+      "id": "q46",
+      "stem": "Which finding most strongly suggests an allergic reaction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expected mild drowsiness."
+        },
+        {
+          "id": "B",
+          "text": "Rash, wheeze and swelling."
+        },
+        {
+          "id": "C",
+          "text": "Improved pain."
+        },
+        {
+          "id": "D",
+          "text": "Reduced fever."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Rash, wheeze and swelling are typical features of an immune-mediated allergic reaction."
+    },
+    {
+      "id": "q47",
+      "stem": "A medication error is discovered before the medicine reaches the patient. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No action is needed."
+        },
+        {
+          "id": "B",
+          "text": "Hide the event."
+        },
+        {
+          "id": "C",
+          "text": "Report the near miss according to policy."
+        },
+        {
+          "id": "D",
+          "text": "Only tell the patient."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Near misses reveal system risks and should be reported for learning."
+    },
+    {
+      "id": "q48",
+      "stem": "A patient has severe kidney impairment. Which risk should be considered before administering a renally cleared medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduced identification accuracy."
+        },
+        {
+          "id": "B",
+          "text": "Wrong route only."
+        },
+        {
+          "id": "C",
+          "text": "Loss of generic name."
+        },
+        {
+          "id": "D",
+          "text": "Accumulation and toxicity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Impaired renal clearance may cause medicine accumulation and toxicity."
+    },
+    {
+      "id": "q49",
+      "stem": "A patient develops severe bleeding while taking an anticoagulant. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess immediately and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Wait until the next dose."
+        },
+        {
+          "id": "C",
+          "text": "Document only."
+        },
+        {
+          "id": "D",
+          "text": "Encourage walking."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Severe bleeding is a serious adverse reaction requiring prompt assessment and escalation."
+    },
+    {
+      "id": "q50",
+      "stem": "Why should allergy information be updated after a serious reaction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To change the generic name."
+        },
+        {
+          "id": "B",
+          "text": "To prevent accidental re-exposure."
+        },
+        {
+          "id": "C",
+          "text": "To simplify billing."
+        },
+        {
+          "id": "D",
+          "text": "To reduce documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clear allergy documentation protects the patient from receiving the medicine again."
+    },
+    {
+      "id": "q51",
+      "stem": "Which situation represents duplicate therapy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medicine is given at the correct time."
+        },
+        {
+          "id": "B",
+          "text": "A medicine is documented."
+        },
+        {
+          "id": "C",
+          "text": "Two medicines from the same class are prescribed unintentionally for the same purpose."
+        },
+        {
+          "id": "D",
+          "text": "A topical medicine is applied."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Duplicate therapy can increase adverse effects and may represent a prescribing or reconciliation error."
+    },
+    {
+      "id": "q52",
+      "stem": "A nurse notices two patients with similar names and similar medication profiles. What is the BEST prevention strategy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rely on room number."
+        },
+        {
+          "id": "B",
+          "text": "Prepare both patients' medicines together."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patients to exchange information."
+        },
+        {
+          "id": "D",
+          "text": "Use approved identifiers every time."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Consistent use of approved identifiers prevents wrong-patient errors."
+    },
+    {
+      "id": "q53",
+      "stem": "A patient develops confusion and low blood pressure after a new medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess for an adverse reaction and escalate as required."
+        },
+        {
+          "id": "B",
+          "text": "Assume this is normal ageing."
+        },
+        {
+          "id": "C",
+          "text": "Give the next dose early."
+        },
+        {
+          "id": "D",
+          "text": "Document at discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "New confusion and hypotension may indicate a serious adverse effect and require prompt assessment."
+    },
+    {
+      "id": "q54",
+      "stem": "Which action best reduces interruption-related medication errors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preparing several patients' medicines at once."
+        },
+        {
+          "id": "B",
+          "text": "Creating a protected preparation process and repeating checks after interruption."
+        },
+        {
+          "id": "C",
+          "text": "Answering all calls during preparation."
+        },
+        {
+          "id": "D",
+          "text": "Relying on memory."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reducing interruptions and restarting checks when disrupted improves safety."
+    },
+    {
+      "id": "q55",
+      "stem": "A patient has a documented anaphylactic reaction to penicillin. A related antibiotic is prescribed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer because it is a different brand."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to try one dose."
+        },
+        {
+          "id": "C",
+          "text": "Hold and clarify the order before administration."
+        },
+        {
+          "id": "D",
+          "text": "Remove the allergy entry."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A serious allergy may contraindicate related medicines and requires clarification."
+    },
+    {
+      "id": "q56",
+      "stem": "A nurse administers the wrong dose, but the patient appears well. What is the FIRST priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the incident report first."
+        },
+        {
+          "id": "B",
+          "text": "Wait for symptoms."
+        },
+        {
+          "id": "C",
+          "text": "Tell the next shift."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient and seek appropriate clinical review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Immediate assessment and treatment take priority even if no harm is initially apparent."
+    },
+    {
+      "id": "q57",
+      "stem": "Which statement best distinguishes an interaction from an allergy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An interaction occurs when one substance alters another medicine's effect; an allergy is an immune response."
+        },
+        {
+          "id": "B",
+          "text": "They are identical."
+        },
+        {
+          "id": "C",
+          "text": "Interactions occur only with food."
+        },
+        {
+          "id": "D",
+          "text": "Allergies occur only after injections."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Interactions and allergies are different mechanisms and require different assessment."
+    },
+    {
+      "id": "q58",
+      "stem": "A patient taking warfarin begins a new herbal supplement and develops bruising. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal therapeutic effect."
+        },
+        {
+          "id": "B",
+          "text": "A possible medicine-supplement interaction."
+        },
+        {
+          "id": "C",
+          "text": "Improved clotting."
+        },
+        {
+          "id": "D",
+          "text": "No clinical relevance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Some herbal products may increase bleeding risk when combined with anticoagulants."
+    },
+    {
+      "id": "q59",
+      "stem": "Why should errors not be concealed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reduces paperwork."
+        },
+        {
+          "id": "B",
+          "text": "It protects the nurse."
+        },
+        {
+          "id": "C",
+          "text": "Concealment prevents timely treatment and system learning."
+        },
+        {
+          "id": "D",
+          "text": "It improves trust."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Open reporting supports patient safety, appropriate treatment and prevention of recurrence."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best demonstrates effective response to a serious medication reaction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The incident form was completed."
+        },
+        {
+          "id": "B",
+          "text": "The family was informed only."
+        },
+        {
+          "id": "C",
+          "text": "The next dose was delayed."
+        },
+        {
+          "id": "D",
+          "text": "The medicine was stopped, the patient treated, the reaction documented and future re-exposure prevented."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective response includes immediate care, documentation, communication and prevention."
+    },
+    {
+      "id": "q61",
+      "stem": "A prescriber's order appears unsafe. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clarify the order before administration."
+        },
+        {
+          "id": "B",
+          "text": "Give it because it is prescribed."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to decide."
+        },
+        {
+          "id": "D",
+          "text": "Document and proceed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The nurse remains accountable for questioning unclear or unsafe orders."
+    },
+    {
+      "id": "q62",
+      "stem": "When should medication administration be documented?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Before preparation."
+        },
+        {
+          "id": "B",
+          "text": "Immediately after actual administration."
+        },
+        {
+          "id": "C",
+          "text": "At the end of the week."
+        },
+        {
+          "id": "D",
+          "text": "Only if the patient asks."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation should reflect actual care and be completed promptly after administration."
+    },
+    {
+      "id": "q63",
+      "stem": "A competent patient refuses a medicine. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Force administration."
+        },
+        {
+          "id": "B",
+          "text": "Hide the refusal."
+        },
+        {
+          "id": "C",
+          "text": "Explore the patient's concerns and provide information."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to consent."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The nurse should understand the reason, provide education and respect informed refusal."
+    },
+    {
+      "id": "q64",
+      "stem": "Which information should patient medication education include?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tablet colour only."
+        },
+        {
+          "id": "B",
+          "text": "Prescriber's name only."
+        },
+        {
+          "id": "C",
+          "text": "Hospital policy only."
+        },
+        {
+          "id": "D",
+          "text": "Name, purpose, dose, timing, important side effects and when to seek help."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective education includes practical information needed for safe use."
+    },
+    {
+      "id": "q65",
+      "stem": "What is teach-back?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asking the patient to explain the instructions in their own words."
+        },
+        {
+          "id": "B",
+          "text": "Repeating the same information more loudly."
+        },
+        {
+          "id": "C",
+          "text": "Testing memory with technical terms."
+        },
+        {
+          "id": "D",
+          "text": "Giving a leaflet only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Teach-back confirms whether the explanation was effective."
+    },
+    {
+      "id": "q66",
+      "stem": "A patient refuses an anticoagulant because of fear of bleeding. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss the concern."
+        },
+        {
+          "id": "B",
+          "text": "Explain benefits and risks, answer questions and notify the appropriate clinician if refusal continues."
+        },
+        {
+          "id": "C",
+          "text": "Administer secretly."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient to persuade them."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should support informed decision-making and respect refusal."
+    },
+    {
+      "id": "q67",
+      "stem": "Which documentation entry is MOST appropriate after a refused dose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Patient difficult.'"
+        },
+        {
+          "id": "B",
+          "text": "'Medicine not needed.'"
+        },
+        {
+          "id": "C",
+          "text": "'Dose refused; patient stated concern about nausea; education provided and prescriber notified.'"
+        },
+        {
+          "id": "D",
+          "text": "No entry."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Objective documentation should record the refusal, reason, education and follow-up."
+    },
+    {
+      "id": "q68",
+      "stem": "A nurse realises a dose was omitted earlier. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alter the record."
+        },
+        {
+          "id": "B",
+          "text": "Administer two doses together."
+        },
+        {
+          "id": "C",
+          "text": "Ignore it."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient, notify appropriately and document the omission honestly."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Omissions require assessment, communication and transparent documentation."
+    },
+    {
+      "id": "q69",
+      "stem": "Which action best demonstrates accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seeking clarification when unsure and accepting responsibility for actions."
+        },
+        {
+          "id": "B",
+          "text": "Relying on the prescriber for all decisions."
+        },
+        {
+          "id": "C",
+          "text": "Asking others to document."
+        },
+        {
+          "id": "D",
+          "text": "Concealing mistakes."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional accountability includes safe judgement, clarification and honesty."
+    },
+    {
+      "id": "q70",
+      "stem": "Why should patients be taught not to double a missed dose unless instructed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It improves adherence."
+        },
+        {
+          "id": "B",
+          "text": "Doubling may cause overdose or harm."
+        },
+        {
+          "id": "C",
+          "text": "It has no effect."
+        },
+        {
+          "id": "D",
+          "text": "It changes the brand name."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Taking extra medicine may produce toxicity or serious adverse effects."
+    },
+    {
+      "id": "q71",
+      "stem": "A patient cannot read the medication leaflet. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the patient to sign anyway."
+        },
+        {
+          "id": "B",
+          "text": "Skip education."
+        },
+        {
+          "id": "C",
+          "text": "Provide plain-language verbal teaching, visual support and teach-back."
+        },
+        {
+          "id": "D",
+          "text": "Use technical terms."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education should be adapted to health literacy and understanding confirmed."
+    },
+    {
+      "id": "q72",
+      "stem": "A patient asks whether alcohol interacts with a new medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Say alcohol is always safe."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the question."
+        },
+        {
+          "id": "C",
+          "text": "Guess."
+        },
+        {
+          "id": "D",
+          "text": "Give accurate medicine-specific guidance or seek clarification from pharmacy/prescriber."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patient education should be accurate and tailored to the medicine."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient reports using medicines from two doctors and over-the-counter products. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the complete medication list for duplication and interaction risks."
+        },
+        {
+          "id": "B",
+          "text": "Ignore non-prescription products."
+        },
+        {
+          "id": "C",
+          "text": "Document only prescribed medicines."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to stop everything."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A complete medication history supports safe education and reconciliation."
+    },
+    {
+      "id": "q74",
+      "stem": "A nurse is asked to administer a medicine outside their scope of competence. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed carefully."
+        },
+        {
+          "id": "B",
+          "text": "Seek supervision or an appropriately competent practitioner."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to consent."
+        },
+        {
+          "id": "D",
+          "text": "Change the route."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Nurses must practise within competence and obtain support where needed."
+    },
+    {
+      "id": "q75",
+      "stem": "A patient demonstrates incorrect inhaler technique after teaching. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Document failure only."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient to read the label."
+        },
+        {
+          "id": "C",
+          "text": "Repeat and adapt teaching, then reassess technique."
+        },
+        {
+          "id": "D",
+          "text": "Assume they will learn later."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education should continue until the patient can use the medicine safely."
+    },
+    {
+      "id": "q76",
+      "stem": "Which entry best documents a PRN analgesic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medicine given."
+        },
+        {
+          "id": "B",
+          "text": "Patient comfortable."
+        },
+        {
+          "id": "C",
+          "text": "Pain treated."
+        },
+        {
+          "id": "D",
+          "text": "Drug, dose, route, time, indication and response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "PRN medication documentation should include the indication and evaluation of effect."
+    },
+    {
+      "id": "q77",
+      "stem": "A patient requests to stop a medicine because of side effects. What is the BEST nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the symptoms, provide information and involve the prescriber before changes."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient to stop immediately."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the concern."
+        },
+        {
+          "id": "D",
+          "text": "Double the dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The nurse should assess, educate and coordinate safe review rather than independently changing treatment."
+    },
+    {
+      "id": "q78",
+      "stem": "Which approach best supports adherence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Labelling the patient non-compliant."
+        },
+        {
+          "id": "B",
+          "text": "Understanding the patient's concerns and simplifying the plan where clinically possible."
+        },
+        {
+          "id": "C",
+          "text": "Giving more leaflets."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding discussion of barriers."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Adherence improves when education and plans address individual barriers."
+    },
+    {
+      "id": "q79",
+      "stem": "A patient asks why the nurse is checking identity again. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'It is only for new patients.'"
+        },
+        {
+          "id": "B",
+          "text": "'I do not remember you.'"
+        },
+        {
+          "id": "C",
+          "text": "'Repeated identification checks prevent medication errors.'"
+        },
+        {
+          "id": "D",
+          "text": "'The computer requires it.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Explaining the safety purpose promotes trust and patient participation."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best demonstrates safe and accountable medication education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The leaflet was given."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completed documentation."
+        },
+        {
+          "id": "C",
+          "text": "The family listened."
+        },
+        {
+          "id": "D",
+          "text": "The patient accurately explains the medicine plan, risks and when to seek help."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Understanding is demonstrated when the patient can explain the plan correctly."
+    }
+  ]
+}

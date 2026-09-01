@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Post-tonsillectomy bleeding",
+      "scenario": "Several hours after a tonsillectomy, a child begins swallowing frequently and complains of nausea. The child vomits blood-tinged material and appears pale and anxious.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider immediately.",
+      "modelWhy": "Bleeding can be life-threatening.",
+      "modelNext": "Monitor airway and vital signs.",
+      "trap": "Reassuring the child without assessment.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Otitis media",
+      "scenario": "A child presents with ear pain, fever, and irritability. The caregiver reports the child has been pulling at the affected ear and is refusing food due to discomfort.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer prescribed analgesics and antibiotics if ordered.",
+      "modelWhy": "Pain control improves feeding and comfort.",
+      "modelNext": "Monitor response to treatment.",
+      "trap": "Ignoring pain management.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Pyloric stenosis",
+      "scenario": "A 6-week-old infant is brought in with repeated projectile vomiting after feeds. Despite vomiting, the infant appears hungry shortly afterward. Signs of dehydration are beginning to appear.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Keep the infant NPO and notify the provider.",
+      "modelWhy": "Risk of dehydration and electrolyte imbalance.",
+      "modelNext": "Monitor hydration status.",
+      "trap": "Continuing feeds.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Intussusception",
+      "scenario": "An infant has episodes of sudden, severe crying with knees drawn to the chest, alternating with periods of calm. The caregiver reports stools that appear dark red and jelly-like.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider and prepare for diagnostic imaging.",
+      "modelWhy": "Bowel obstruction threatens circulation.",
+      "modelNext": "Monitor abdominal distension.",
+      "trap": "Administering laxatives.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Developmental delay",
+      "scenario": "A preschool-aged child attending a routine assessment is not meeting expected speech milestones. The caregiver expresses concern that the child uses very few words compared to peers.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate developmental screening and referral.",
+      "modelWhy": "Early intervention improves outcomes.",
+      "modelNext": "Assess hearing and environment.",
+      "trap": "Advising parents to wait.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Post-immunization reaction",
+      "scenario": "An infant develops mild fever and increased fussiness several hours after receiving routine immunizations. The caregiver is worried and asks if this reaction is normal.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide reassurance and comfort measures.",
+      "modelWhy": "Mild reactions are expected.",
+      "modelNext": "Monitor for severe reactions.",
+      "trap": "Administering antibiotics.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Anaphylaxis in child",
+      "scenario": "A child with a known peanut allergy suddenly develops widespread hives, wheezing, and difficulty breathing after eating. Blood pressure begins to drop, and the child appears frightened and distressed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer epinephrine and call emergency response.",
+      "modelWhy": "Anaphylaxis progresses rapidly.",
+      "modelNext": "Monitor airway and circulation.",
+      "trap": "Giving antihistamine only.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Sickle cell pain crisis",
+      "scenario": "A child with sickle cell disease presents with severe limb pain and fever. The caregiver reports the pain is more intense than previous episodes, and the child refuses to move the affected limb.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess pain and initiate hydration and analgesia.",
+      "modelWhy": "Pain crisis may signal infection.",
+      "modelNext": "Monitor temperature and oxygenation.",
+      "trap": "Withholding opioids.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

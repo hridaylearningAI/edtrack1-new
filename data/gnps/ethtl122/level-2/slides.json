@@ -1,0 +1,2160 @@
+{
+  "level": 2,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 2 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 8 - Level 2 - Internationaly Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series",
+          "body": "Program 8 — Compassionate Mental Health Care",
+          "bullets": [
+            {
+              "label": "\"Support recovery. Promote wellbeing.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Level 2",
+          "body": "International mental health practice expects nurses to combine therapeutic engagement with structured assessment, evidence-based intervention, legal awareness, cultural safety and multidisciplinary collaboration.",
+          "bullets": [
+            {
+              "label": "This level bridges national nursing preparation",
+              "text": "This level bridges national nursing preparation with international expectations — strengthening your ability to manage complex presentations, apply local mental health law and support people across inpatient, community and general healthcare settings."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "9 CORE COMPETENCIES",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Recovery & Trauma-Informed Principles",
+              "text": ""
+            },
+            {
+              "label": "Apply internationally recognised frameworks.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Comprehensive Assessment",
+              "text": ""
+            },
+            {
+              "label": "Conduct mental state and risk assessments.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Nursing Formulation",
+              "text": ""
+            },
+            {
+              "label": "Formulate and communicate priority nursing concerns.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Crisis Management",
+              "text": ""
+            },
+            {
+              "label": "Manage suicide, self-harm, aggression and acute disturbance.",
+              "text": ""
+            },
+            {
+              "label": "05",
+              "text": ""
+            },
+            {
+              "label": "Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "Recognise toxicity and serious adverse reactions.",
+              "text": ""
+            },
+            {
+              "label": "06",
+              "text": ""
+            },
+            {
+              "label": "Co-occurring Needs",
+              "text": ""
+            },
+            {
+              "label": "Support physical health and substance-use conditions.",
+              "text": ""
+            },
+            {
+              "label": "07",
+              "text": ""
+            },
+            {
+              "label": "Legal & Ethical Practice",
+              "text": ""
+            },
+            {
+              "label": "Apply least restrictive and lawful care principles.",
+              "text": ""
+            },
+            {
+              "label": "08",
+              "text": ""
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Provide care with interpreters and family involvement.",
+              "text": ""
+            },
+            {
+              "label": "09",
+              "text": ""
+            },
+            {
+              "label": "Multidisciplinary Coordination",
+              "text": ""
+            },
+            {
+              "label": "Coordinate discharge and relapse prevention.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "By completing Level 2, you should be able to deliver safe, culturally responsive and evidence-informed mental health nursing while meeting the professional and legal expectations of international healthcare environments.",
+          "bullets": [
+            {
+              "label": "Safe Practice",
+              "text": ""
+            },
+            {
+              "label": "Risk assessment, crisis response and medication safety.",
+              "text": ""
+            },
+            {
+              "label": "Cultural Responsiveness",
+              "text": ""
+            },
+            {
+              "label": "Person-centred, trauma-informed and inclusive care.",
+              "text": ""
+            },
+            {
+              "label": "International Readiness",
+              "text": ""
+            },
+            {
+              "label": "Legal compliance and professional confidence abroad.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Comprehensive Assessment, Formulation & Care Planning",
+          "bullets": [
+            {
+              "label": "Integrating mental state, history, physical",
+              "text": "Integrating mental state, history, physical health, trauma, culture and risk to create individualised, person-centred nursing plans."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "What Does Comprehensive Assessment Include?",
+          "body": "International practice requires nurses to assess the whole person, not just presenting symptoms.",
+          "bullets": [
+            {
+              "label": "Presenting concerns and psychiatric history",
+              "text": ""
+            },
+            {
+              "label": "Mental state examination (MSE)",
+              "text": ""
+            },
+            {
+              "label": "Physical health and medicines",
+              "text": ""
+            },
+            {
+              "label": "Substance use and trauma history",
+              "text": ""
+            },
+            {
+              "label": "Social circumstances, strengths and supports",
+              "text": ""
+            },
+            {
+              "label": "Assessment informs a shared formulation and individualised plan — not a diagnosis alone.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Risk Formulation & Care Planning",
+          "body": "Risk Formulation",
+          "bullets": [
+            {
+              "label": "Consider current thoughts, behaviour, history,",
+              "text": "Consider current thoughts, behaviour, history, dynamic triggers, protective factors and foreseeable changes. A numerical score should never replace clinical judgement."
+            },
+            {
+              "label": "Care Planning",
+              "text": ""
+            },
+            {
+              "label": "Plans should identify goals, interventions,",
+              "text": "Plans should identify goals, interventions, responsibilities and review timeframes. Include the person's preferences and make crisis plans practical and accessible."
+            },
+            {
+              "label": "Clinical Handover",
+              "text": ""
+            },
+            {
+              "label": "Communicate current mental state, risk,",
+              "text": "Communicate current mental state, risk, triggers, effective strategies, legal status, medication concerns and required follow-up clearly and completely."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "A woman with bipolar disorder presents with reduced sleep, rapid speech, impulsive spending and escalating conflict.",
+          "bullets": [
+            {
+              "label": "The nurse assesses physical health, substance",
+              "text": "The nurse assesses physical health, substance use, risk, supports and previous relapse signs, then develops a shared plan with the multidisciplinary team."
+            },
+            {
+              "label": "Key Learning Points",
+              "text": ""
+            },
+            {
+              "label": "Formulate risk — do not rely on a score alone",
+              "text": ""
+            },
+            {
+              "label": "Include strengths and protective factors",
+              "text": ""
+            },
+            {
+              "label": "Integrate physical and mental healthcare",
+              "text": ""
+            },
+            {
+              "label": "Make plans understandable and actionable",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Managing Suicide, Self-Harm & Acute Behavioural Disturbance",
+          "bullets": [
+            {
+              "label": "Responding with calm, structure and legal awareness — preserving dignity, therapeutic engagement and future recovery.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Suicide & Self-Harm Assessment",
+          "body": "Suicide Assessment",
+          "bullets": [
+            {
+              "label": "Assess ideation, plan, intent, access to means,",
+              "text": "Assess ideation, plan, intent, access to means, past attempts, recent losses, intoxication, command hallucinations and protective factors. Collaborate on safety planning wherever possible."
+            },
+            {
+              "label": "Self-Harm",
+              "text": ""
+            },
+            {
+              "label": "Self-harm may serve functions such as relief",
+              "text": "Self-harm may serve functions such as relief from overwhelming emotion. Address physical injury, immediate risk and underlying need — never punitive responses."
+            },
+            {
+              "label": "Aggression Risk",
+              "text": ""
+            },
+            {
+              "label": "Escalating speech, pacing, threats,",
+              "text": "Escalating speech, pacing, threats, intoxication and access to weapons require early intervention. Team communication and clear roles are essential."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Assess risk",
+          "body": "Secure safety",
+          "bullets": [
+            {
+              "label": "Document actions",
+              "text": ""
+            },
+            {
+              "label": "Review & debrief",
+              "text": ""
+            },
+            {
+              "label": "Crisis response must be both timely and legally informed, with ongoing review of restrictive measures.",
+              "text": ""
+            },
+            {
+              "label": "Clinical Example",
+              "text": ""
+            },
+            {
+              "label": "A patient states he has hidden tablets at home and plans to take them after discharge.",
+              "text": ""
+            },
+            {
+              "label": "Nurse does not leave him alone",
+              "text": ""
+            },
+            {
+              "label": "Initiates urgent multidisciplinary review",
+              "text": ""
+            },
+            {
+              "label": "Collaborates on immediate safety planning",
+              "text": ""
+            },
+            {
+              "label": "Involves supports with consent where possible",
+              "text": ""
+            },
+            {
+              "label": "Documents plan and actions clearly",
+              "text": ""
+            },
+            {
+              "label": "Take all stated plans and access to means seriously — engagement and safety must coexist.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Psychopharmacology, Physical Health & Co-occurring Conditions",
+          "bullets": [
+            {
+              "label": "Monitoring the whole person — medications,",
+              "text": "Monitoring the whole person — medications, physical illness and substance-related problems all influence mental state and risk."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Psychotropic Medication Monitoring",
+          "body": "Antidepressants",
+          "bullets": [
+            {
+              "label": "Monitor for activation, worsening suicidality",
+              "text": "Monitor for activation, worsening suicidality and serotonin toxicity. Educate patients on delayed onset of therapeutic effects."
+            },
+            {
+              "label": "Lithium",
+              "text": ""
+            },
+            {
+              "label": "Requires blood levels, renal and thyroid",
+              "text": "Requires blood levels, renal and thyroid monitoring, stable fluid and salt intake. Know the signs of lithium toxicity — vomiting, tremor, confusion."
+            },
+            {
+              "label": "Antipsychotics",
+              "text": ""
+            },
+            {
+              "label": "Monitor for movement disorders, metabolic",
+              "text": "Monitor for movement disorders, metabolic effects, sedation and cardiac risk. Fever, rigidity and altered consciousness may indicate neuroleptic malignant syndrome."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Physical Health & Substance Use",
+          "body": "Physical Health Inequality",
+          "bullets": [
+            {
+              "label": "People with severe mental illness experience significant physical-health inequality. Nurses must actively monitor:",
+              "text": ""
+            },
+            {
+              "label": "Weight, blood pressure, glucose and lipids",
+              "text": ""
+            },
+            {
+              "label": "Smoking, nutrition and preventive care",
+              "text": ""
+            },
+            {
+              "label": "Substance Use",
+              "text": ""
+            },
+            {
+              "label": "Alcohol, opioids, stimulants and other",
+              "text": "Alcohol, opioids, stimulants and other substances cause intoxication, withdrawal and co-occurring mental illness. Severe withdrawal and overdose require urgent medical care."
+            },
+            {
+              "label": "Do not attribute all physical symptoms to mental illness — always investigate physical causes.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Legal, Ethical & Culturally Safe International Practice",
+          "bullets": [
+            {
+              "label": "Mental health law differs across jurisdictions",
+              "text": "Mental health law differs across jurisdictions — but dignity, autonomy, confidentiality and least restrictive care remain universal principles."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Core Legal & Ethical Principles",
+          "body": "Consent & Legal Status",
+          "bullets": [
+            {
+              "label": "Understand voluntary and involuntary care,",
+              "text": "Understand voluntary and involuntary care, capacity, consent, review rights and documentation within the local jurisdiction."
+            },
+            {
+              "label": "Confidentiality",
+              "text": ""
+            },
+            {
+              "label": "Information is protected but may be shared when",
+              "text": "Information is protected but may be shared when lawfully required to prevent serious harm. Always inform the person of its limits where possible."
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Culture shapes explanations of distress,",
+              "text": "Culture shapes explanations of distress, help-seeking and family roles. Ask respectfully — use professional interpreters for complex communication."
+            },
+            {
+              "label": "Family & Team Collaboration",
+              "text": ""
+            },
+            {
+              "label": "Involve families respectfully, always balancing",
+              "text": "Involve families respectfully, always balancing consent, confidentiality and safety. Clear MDT roles improve continuity of care."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "An international nurse is unsure whether a patient can leave an inpatient unit.",
+          "bullets": [
+            {
+              "label": "Rather than relying on previous-country practice, the nurse:",
+              "text": ""
+            },
+            {
+              "label": "Checks the person's current legal status",
+              "text": ""
+            },
+            {
+              "label": "Reviews local policy and documentation",
+              "text": ""
+            },
+            {
+              "label": "Seeks senior advice before taking action",
+              "text": ""
+            },
+            {
+              "label": "Key Learning Points",
+              "text": ""
+            },
+            {
+              "label": "Learn the law and policy of the jurisdiction",
+              "text": ""
+            },
+            {
+              "label": "Always use the least restrictive lawful option",
+              "text": ""
+            },
+            {
+              "label": "Explain confidentiality and its limits clearly",
+              "text": ""
+            },
+            {
+              "label": "Ask rather than assume cultural preferences",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Programme Summary",
+          "body": "By completing GNPS Program 8 — Level 2, you have strengthened your ability to:",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Comprehensive mental state and risk assessment",
+              "text": ""
+            },
+            {
+              "label": "Formulate",
+              "text": ""
+            },
+            {
+              "label": "Risk formulation and person-centred care planning",
+              "text": ""
+            },
+            {
+              "label": "Manage",
+              "text": ""
+            },
+            {
+              "label": "Crisis, medication safety and co-occurring conditions",
+              "text": ""
+            },
+            {
+              "label": "Practise",
+              "text": ""
+            },
+            {
+              "label": "Within international legal and cultural expectations",
+              "text": ""
+            },
+            {
+              "label": "You are now prepared for Level 3 — where the focus moves to leadership, service improvement and global mental health.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Comprehensive Assessment, Formulation and Care Planning",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 8 - Level 2 - Section 1 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Compassionate Mental Health Care",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 8",
+          "bullets": [
+            {
+              "label": "\"Support recovery. Promote wellbeing.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1",
+          "body": "Comprehensive Assessment, Formulation and Care Planning",
+          "bullets": [
+            {
+              "label": "International mental health practice expects",
+              "text": "International mental health practice expects nurses to integrate mental state findings, history, physical health, trauma, substance use, culture and current risk. Assessment informs a shared formulation and an individualised care plan — not a diagnosis alone."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Conduct a Comprehensive Assessment",
+              "text": ""
+            },
+            {
+              "label": "Gather mental, physical, social and cultural information systematically.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Develop a Person-Centred Formulation",
+              "text": ""
+            },
+            {
+              "label": "Build a nursing formulation that reflects the individual's unique context.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Health Needs",
+              "text": ""
+            },
+            {
+              "label": "Balance and prioritise both mental and physical health priorities.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Communicate Findings Clearly",
+              "text": ""
+            },
+            {
+              "label": "Convey assessment outcomes accurately to the multidisciplinary team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Comprehensive Assessment",
+          "body": "A thorough mental health assessment draws together multiple domains to build a complete clinical picture of the person.",
+          "bullets": [
+            {
+              "label": "Presenting Concerns",
+              "text": ""
+            },
+            {
+              "label": "Current symptoms, onset, duration and impact on daily functioning.",
+              "text": ""
+            },
+            {
+              "label": "Mental State",
+              "text": ""
+            },
+            {
+              "label": "Appearance, mood, thought, perception, cognition and insight.",
+              "text": ""
+            },
+            {
+              "label": "Physical Health",
+              "text": ""
+            },
+            {
+              "label": "Comorbidities, medications, substance use and vital observations.",
+              "text": ""
+            },
+            {
+              "label": "Social & Cultural Context",
+              "text": ""
+            },
+            {
+              "label": "Trauma history, relationships, strengths, supports and cultural background.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Risk Formulation",
+          "body": "Risk formulation is a clinical judgement process — not a numerical checklist. It considers the full picture of a person's situation to guide safe, proportionate care.",
+          "bullets": [
+            {
+              "label": "Current Thoughts & Behaviour",
+              "text": ""
+            },
+            {
+              "label": "Active ideation, intent, plans and recent acts.",
+              "text": ""
+            },
+            {
+              "label": "History & Dynamic Triggers",
+              "text": ""
+            },
+            {
+              "label": "Past episodes, escalation patterns and known precipitants.",
+              "text": ""
+            },
+            {
+              "label": "Protective Factors",
+              "text": ""
+            },
+            {
+              "label": "Supports, coping strengths and reasons for living.",
+              "text": ""
+            },
+            {
+              "label": "Key principle: A numerical risk score must never replace clinical judgement. Formulate — don't just rate.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Care Planning",
+          "body": "A good care plan is co-produced, actionable and regularly reviewed. It translates the formulation into clear goals and shared responsibilities.",
+          "bullets": [
+            {
+              "label": "Review",
+              "text": ""
+            },
+            {
+              "label": "Responsibilities",
+              "text": ""
+            },
+            {
+              "label": "Interventions",
+              "text": ""
+            },
+            {
+              "label": "Goals",
+              "text": ""
+            },
+            {
+              "label": "Crisis and relapse-prevention plans must be",
+              "text": "Crisis and relapse-prevention plans must be written in plain language — practical, accessible and meaningful to the person and their carers."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Communication & Handover",
+          "body": "Effective handover keeps the whole team aligned on risk and recovery. Every handover should include:",
+          "bullets": [
+            {
+              "label": "Mental State",
+              "text": ""
+            },
+            {
+              "label": "Current presentation and any changes since last review.",
+              "text": ""
+            },
+            {
+              "label": "Risk & Triggers",
+              "text": ""
+            },
+            {
+              "label": "Active risks, known triggers and effective de-escalation strategies.",
+              "text": ""
+            },
+            {
+              "label": "Legal & Medication",
+              "text": ""
+            },
+            {
+              "label": "Legal status, consent, medication concerns and PRN use.",
+              "text": ""
+            },
+            {
+              "label": "Follow-Up Actions",
+              "text": ""
+            },
+            {
+              "label": "Outstanding tasks, referrals and next scheduled review.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Bipolar Disorder — Manic Episode Presentation",
+          "bullets": [
+            {
+              "label": "Presentation",
+              "text": ""
+            },
+            {
+              "label": "A woman with bipolar disorder presents with",
+              "text": "A woman with bipolar disorder presents with reduced sleep, rapid speech, impulsive spending and escalating interpersonal conflict — classic signs of a manic episode."
+            },
+            {
+              "label": "Nursing Assessment",
+              "text": ""
+            },
+            {
+              "label": "Physical health observations and vital signs",
+              "text": ""
+            },
+            {
+              "label": "Substance use screening",
+              "text": ""
+            },
+            {
+              "label": "Risk to self and others",
+              "text": ""
+            },
+            {
+              "label": "Social supports and previous relapse indicators",
+              "text": ""
+            },
+            {
+              "label": "Shared Care Plan with MDT",
+              "text": ""
+            },
+            {
+              "label": "The nurse works collaboratively with the multidisciplinary team to:",
+              "text": ""
+            },
+            {
+              "label": "Establish early warning signs with the person",
+              "text": ""
+            },
+            {
+              "label": "Agree on sleep and activity targets",
+              "text": ""
+            },
+            {
+              "label": "Document a practical relapse-prevention plan",
+              "text": ""
+            },
+            {
+              "label": "Coordinate medication review with the prescriber",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Formulate Risk — Don't Just Score It",
+          "bullets": [
+            {
+              "label": "Clinical judgement informed by context is always superior to a number alone.",
+              "text": ""
+            },
+            {
+              "label": "Include Strengths & Protective Factors",
+              "text": ""
+            },
+            {
+              "label": "Recovery-focused care highlights what the person brings, not only their difficulties.",
+              "text": ""
+            },
+            {
+              "label": "Integrate Physical & Mental Healthcare",
+              "text": ""
+            },
+            {
+              "label": "Physical health must never be overlooked in mental health assessment.",
+              "text": ""
+            },
+            {
+              "label": "Make the Plan Understandable & Actionable",
+              "text": ""
+            },
+            {
+              "label": "Plans should be written with — and for — the person, in clear accessible language.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "GNPS · Programme 8 · Section 1",
+          "body": "Support Recovery.",
+          "bullets": [
+            {
+              "label": "Promote Wellbeing.",
+              "text": ""
+            },
+            {
+              "label": "You are now ready to apply comprehensive",
+              "text": "You are now ready to apply comprehensive assessment, risk formulation and person-centred care planning in your mental health nursing practice."
+            },
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Comprehensively and collaboratively",
+              "text": ""
+            },
+            {
+              "label": "Formulate",
+              "text": ""
+            },
+            {
+              "label": "With clinical judgement and context",
+              "text": ""
+            },
+            {
+              "label": "Plan",
+              "text": ""
+            },
+            {
+              "label": "Person-centred, practical and reviewed",
+              "text": ""
+            },
+            {
+              "label": "Communicate",
+              "text": ""
+            },
+            {
+              "label": "Clearly, safely and effectively",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Managing Suicide, Self-Harm and Acute Behavioural Disturbance",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 8 - Level 2 - Section 2 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Compassionate Mental Health Care",
+          "body": "Global Nursing Professional Series (GNPS) · Program 8 · Level 2 — International Qualified Nurse (IQN)",
+          "bullets": [
+            {
+              "label": "Section 2: Managing Suicide, Self-Harm and Acute Behavioural Disturbance",
+              "text": ""
+            },
+            {
+              "label": "\"SUPPORT RECOVERY. PROMOTE WELLBEING.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Introduction",
+          "body": "High-risk mental health presentations require calm, structured and legally informed care. Nurses must respond to immediate risk while preserving:",
+          "bullets": [
+            {
+              "label": "Dignity and autonomy",
+              "text": ""
+            },
+            {
+              "label": "Therapeutic engagement",
+              "text": ""
+            },
+            {
+              "label": "The patient's future recovery pathway",
+              "text": ""
+            },
+            {
+              "label": "Effective crisis care balances safety with compassion — never one at the expense of the other.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be equipped to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Risk Assessment",
+              "text": ""
+            },
+            {
+              "label": "Assess suicide and self-harm risk comprehensively and systematically",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Crisis Response",
+              "text": ""
+            },
+            {
+              "label": "Respond to aggression and acute behavioural disturbance with structured interventions",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Safety Measures",
+              "text": ""
+            },
+            {
+              "label": "Apply observation and environmental safety measures appropriately",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Least Restrictive Practice",
+              "text": ""
+            },
+            {
+              "label": "Use the least restrictive interventions in all clinical scenarios",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Suicide Risk Assessment",
+          "body": "A thorough suicide assessment covers nine critical domains. No single factor determines risk — the full clinical picture guides the response.",
+          "bullets": [
+            {
+              "label": "Safety planning should be collaborative whenever possible — engage the patient as a partner in their own safety.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Understanding Self-Harm",
+          "body": "Self-harm often serves a functional purpose — most commonly, relief from overwhelming emotional distress. Effective care addresses three layers:",
+          "bullets": [
+            {
+              "label": "Avoid punitive or dismissive responses — these undermine trust and increase long-term risk.",
+              "text": ""
+            },
+            {
+              "label": "Physical Injury",
+              "text": ""
+            },
+            {
+              "label": "Assess and treat wounds promptly and without judgement",
+              "text": ""
+            },
+            {
+              "label": "Immediate Risk",
+              "text": ""
+            },
+            {
+              "label": "Evaluate ongoing danger and need for observation",
+              "text": ""
+            },
+            {
+              "label": "Underlying Need",
+              "text": ""
+            },
+            {
+              "label": "Explore the emotional drivers and therapeutic supports",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Aggression & Violence Risk",
+          "body": "Early recognition of escalating behaviours is essential for safe de-escalation. Know the warning signs:",
+          "bullets": [
+            {
+              "label": "Escalating Speech",
+              "text": ""
+            },
+            {
+              "label": "Raised voice, threatening language or rapid disorganised speech",
+              "text": ""
+            },
+            {
+              "label": "Pacing & Agitation",
+              "text": ""
+            },
+            {
+              "label": "Physical restlessness, clenched fists, invasion of personal space",
+              "text": ""
+            },
+            {
+              "label": "Access to Weapons",
+              "text": ""
+            },
+            {
+              "label": "Environmental risk factors that must be immediately mitigated",
+              "text": ""
+            },
+            {
+              "label": "Team Coordination",
+              "text": ""
+            },
+            {
+              "label": "Clear roles and communication are essential in crisis response",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Observation & Restrictive Interventions",
+          "body": "Purposeful Observation",
+          "bullets": [
+            {
+              "label": "Monitor with a clear therapeutic rationale.",
+              "text": ""
+            },
+            {
+              "label": "Legal Authority",
+              "text": ""
+            },
+            {
+              "label": "Confirm statutory basis before proceeding.",
+              "text": ""
+            },
+            {
+              "label": "Documentation & Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Record all actions and ongoing observations.",
+              "text": ""
+            },
+            {
+              "label": "Post-Event Review",
+              "text": ""
+            },
+            {
+              "label": "Debrief to evaluate and improve practice.",
+              "text": ""
+            },
+            {
+              "label": "Every restrictive intervention must be justified, reviewed frequently and the least restrictive option available.",
+              "text": ""
+            },
+            {
+              "label": "Key Principles",
+              "text": ""
+            },
+            {
+              "label": "Purposeful",
+              "text": ""
+            },
+            {
+              "label": "Observation is not passive — it should be therapeutic and goal-directed",
+              "text": ""
+            },
+            {
+              "label": "Reviewed",
+              "text": ""
+            },
+            {
+              "label": "Frequency and level of observation must be regularly reassessed",
+              "text": ""
+            },
+            {
+              "label": "Documented",
+              "text": ""
+            },
+            {
+              "label": "All decisions and actions require clear, contemporaneous records",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Discharge Risk",
+          "body": "\"A patient states he has hidden tablets at home and plans to take them after discharge.\"",
+          "bullets": [
+            {
+              "label": "The nurse's immediate response:",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Do not leave him alone",
+              "text": ""
+            },
+            {
+              "label": "Constant observation initiated immediately",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Initiate urgent clinical review",
+              "text": ""
+            },
+            {
+              "label": "Escalate to the treating team without delay",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Collaborate on immediate safety",
+              "text": ""
+            },
+            {
+              "label": "Develop a safety plan with the patient where possible",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Document clearly",
+              "text": ""
+            },
+            {
+              "label": "Record the stated plan, actions taken and supports involved",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Take Stated Plans Seriously",
+          "bullets": [
+            {
+              "label": "Access to means combined with a stated plan is a high-risk indicator — act immediately",
+              "text": ""
+            },
+            {
+              "label": "Maintain Engagement",
+              "text": ""
+            },
+            {
+              "label": "Therapeutic alliance is a protective factor — preserve it while securing safety",
+              "text": ""
+            },
+            {
+              "label": "Review Restrictions Frequently",
+              "text": ""
+            },
+            {
+              "label": "Least restrictive practice demands ongoing reassessment, not a \"set and forget\" approach",
+              "text": ""
+            },
+            {
+              "label": "Debrief After Crisis Events",
+              "text": ""
+            },
+            {
+              "label": "Post-incident review supports staff wellbeing and continuous quality improvement",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section Summary",
+          "body": "\"Calm. Structured. Compassionate.\"",
+          "bullets": [
+            {
+              "label": "Safe mental health nursing in high-risk",
+              "text": "Safe mental health nursing in high-risk presentations is built on clinical skill, legal literacy and therapeutic presence. Carry these principles into every interaction."
+            },
+            {
+              "label": "Comprehensive Risk Assessment",
+              "text": ""
+            },
+            {
+              "label": "Least Restrictive Interventions",
+              "text": ""
+            },
+            {
+              "label": "Dignity-Centred Practice",
+              "text": ""
+            },
+            {
+              "label": "Clear Documentation",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 8 · SECTION 2 · NCLEX-READY CONTENT",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Psychopharmacology, Physical Health and Co-occurring Conditions",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 8 - Level 2 - Section 3 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Compassionate Mental Health Care",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 8",
+          "bullets": [
+            {
+              "label": "Section 3: Psychopharmacology, Physical Health and Co-occurring Conditions",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 — INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section Overview",
+          "body": "Support Recovery. Promote Wellbeing.",
+          "bullets": [
+            {
+              "label": "People using mental health services may",
+              "text": "People using mental health services may experience medication effects, physical illness, and substance-related problems that directly influence mental state and risk. International nurses are expected to monitor and support the whole person."
+            },
+            {
+              "label": "Psychotropic Medicines",
+              "text": ""
+            },
+            {
+              "label": "Safe monitoring and toxicity awareness",
+              "text": ""
+            },
+            {
+              "label": "Physical Health",
+              "text": ""
+            },
+            {
+              "label": "Addressing inequality in severe mental illness",
+              "text": ""
+            },
+            {
+              "label": "Substance Use",
+              "text": ""
+            },
+            {
+              "label": "Co-occurring conditions and urgent care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "What You Will Be Able to Do",
+          "bullets": [
+            {
+              "label": "After completing this section, you will be",
+              "text": "After completing this section, you will be equipped to manage complex clinical scenarios with confidence and clinical rigour."
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Monitor Psychotropic Medicines",
+              "text": ""
+            },
+            {
+              "label": "Apply safe monitoring protocols for common psychiatric medications",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Adverse Reactions",
+              "text": ""
+            },
+            {
+              "label": "Identify serious toxicity and red-flag clinical presentations",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Assess Physical Health Needs",
+              "text": ""
+            },
+            {
+              "label": "Screen and respond to metabolic and cardiovascular risk",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Support Substance Use Recovery",
+              "text": ""
+            },
+            {
+              "label": "Recognise withdrawal states and co-occurring mental illness",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Antidepressants & Mood Stabilisers",
+          "body": "Monitoring is essential throughout treatment — especially early on when risk is highest.",
+          "bullets": [
+            {
+              "label": "Antidepressants",
+              "text": ""
+            },
+            {
+              "label": "Monitor for behavioural activation and agitation",
+              "text": ""
+            },
+            {
+              "label": "Watch for worsening suicidality, particularly in the first 1–2 weeks",
+              "text": ""
+            },
+            {
+              "label": "Recognise signs of serotonin toxicity: agitation, tremor, hyperthermia, clonus",
+              "text": ""
+            },
+            {
+              "label": "Lithium — High-Alert Medicine",
+              "text": ""
+            },
+            {
+              "label": "Regular serum lithium levels (therapeutic range: 0.6–1.0 mmol/L)",
+              "text": ""
+            },
+            {
+              "label": "Renal and thyroid function monitoring",
+              "text": ""
+            },
+            {
+              "label": "Stable fluid and salt intake — dehydration raises toxicity risk",
+              "text": ""
+            },
+            {
+              "label": "Educate patients on early toxicity signs",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Antipsychotics: What to Monitor",
+          "bullets": [
+            {
+              "label": "Movement Disorders",
+              "text": ""
+            },
+            {
+              "label": "Parkinsonism, akathisia, tardive dyskinesia — assess using standardised tools (e.g. AIMS)",
+              "text": ""
+            },
+            {
+              "label": "Metabolic Effects",
+              "text": ""
+            },
+            {
+              "label": "Weight gain, raised blood glucose, dyslipidaemia — especially with clozapine and olanzapine",
+              "text": ""
+            },
+            {
+              "label": "Cardiac Risk",
+              "text": ""
+            },
+            {
+              "label": "QTc prolongation risk — baseline ECG required for some agents; monitor sedation levels",
+              "text": ""
+            },
+            {
+              "label": "Neuroleptic Malignant Syndrome",
+              "text": ""
+            },
+            {
+              "label": "Fever, muscular rigidity, altered consciousness — a medical emergency. Stop antipsychotic immediately",
+              "text": ""
+            },
+            {
+              "label": "NMS is rare but life-threatening. Any",
+              "text": "NMS is rare but life-threatening. Any combination of fever, rigidity and altered consciousness in a patient on antipsychotics must trigger urgent escalation."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Physical Health Monitoring",
+          "body": "Addressing the Health Inequality Gap",
+          "bullets": [
+            {
+              "label": "People with severe mental illness die on",
+              "text": "People with severe mental illness die on average 15–20 years earlier than the general population — largely from preventable physical conditions."
+            },
+            {
+              "label": "Key Screening Areas",
+              "text": ""
+            },
+            {
+              "label": "Weight and BMI",
+              "text": ""
+            },
+            {
+              "label": "Blood pressure and pulse",
+              "text": ""
+            },
+            {
+              "label": "Fasting glucose and HbA1c",
+              "text": ""
+            },
+            {
+              "label": "Lipid profile",
+              "text": ""
+            },
+            {
+              "label": "Smoking status and cessation support",
+              "text": ""
+            },
+            {
+              "label": "Nutrition and hydration",
+              "text": ""
+            },
+            {
+              "label": "Preventive care and vaccinations",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Physical Health",
+          "body": "Metabolic & Cardiovascular Risk Profile",
+          "bullets": [
+            {
+              "label": "Structured annual physical health checks are a nursing priority for all people on long-term psychotropic medication.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Co-occurring Substance Use",
+          "body": "Substance use and mental illness frequently co-exist. Nurses must be able to recognise intoxication, withdrawal and dual-diagnosis presentations.",
+          "bullets": [
+            {
+              "label": "Alcohol",
+              "text": ""
+            },
+            {
+              "label": "Withdrawal can cause seizures and delirium",
+              "text": "Withdrawal can cause seizures and delirium tremens — a medical emergency requiring urgent intervention and CIWA monitoring"
+            },
+            {
+              "label": "Opioids",
+              "text": ""
+            },
+            {
+              "label": "Overdose presents with pinpoint pupils, respiratory depression, unconsciousness — naloxone is first-line reversal",
+              "text": ""
+            },
+            {
+              "label": "Stimulants",
+              "text": ""
+            },
+            {
+              "label": "Cocaine and amphetamines can trigger psychosis, tachycardia and hyperthermia — monitor cardiac status closely",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Lithium Toxicity: A Case in Practice",
+          "bullets": [
+            {
+              "label": "The Presentation",
+              "text": ""
+            },
+            {
+              "label": "A man taking lithium develops vomiting, coarse",
+              "text": "A man taking lithium develops vomiting, coarse tremor and confusion following a period of dehydration — classic signs of lithium toxicity."
+            },
+            {
+              "label": "The Nursing Response",
+              "text": ""
+            },
+            {
+              "label": "Withhold further lithium doses as per policy",
+              "text": ""
+            },
+            {
+              "label": "Arrange urgent medical review",
+              "text": ""
+            },
+            {
+              "label": "Request serum lithium level and renal function tests",
+              "text": ""
+            },
+            {
+              "label": "Document clearly and escalate via SBAR",
+              "text": ""
+            },
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Vomiting, tremor, confusion, dehydration history",
+              "text": ""
+            },
+            {
+              "label": "Respond",
+              "text": ""
+            },
+            {
+              "label": "Withhold lithium, escalate to medical team immediately",
+              "text": ""
+            },
+            {
+              "label": "Investigate",
+              "text": ""
+            },
+            {
+              "label": "Urgent bloods including serum lithium level",
+              "text": ""
+            },
+            {
+              "label": "Never attribute confusion or tremor solely to",
+              "text": "Never attribute confusion or tremor solely to psychiatric illness in a patient on lithium. Always consider toxicity first."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Take these clinical priorities into every practice setting.",
+          "bullets": [
+            {
+              "label": "Know the Red Flags",
+              "text": ""
+            },
+            {
+              "label": "Psychotropic toxicity can escalate rapidly — recognise early signs and act swiftly",
+              "text": ""
+            },
+            {
+              "label": "Do Not Attribute All Symptoms to Mental Illness",
+              "text": ""
+            },
+            {
+              "label": "Physical causes must always be considered and ruled out systematically",
+              "text": ""
+            },
+            {
+              "label": "Monitor Metabolic & Cardiovascular Health",
+              "text": ""
+            },
+            {
+              "label": "Annual checks save lives — address the physical health inequality gap proactively",
+              "text": ""
+            },
+            {
+              "label": "Treat Severe Withdrawal as a Medical Emergency",
+              "text": ""
+            },
+            {
+              "label": "Alcohol and opioid withdrawal can be fatal — escalate early and document clearly",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Legal, Ethical and Culturally Safe International Practice",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 8 - Level 2 - Section 4 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Compassionate Mental Health Care",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 8",
+          "bullets": [
+            {
+              "label": "Section 4: Legal, Ethical and Culturally Safe International Practice",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Our Guiding Purpose",
+          "body": "\"Support recovery. Promote wellbeing.\"",
+          "bullets": [
+            {
+              "label": "Mental health law and policy differ across",
+              "text": "Mental health law and policy differ across jurisdictions, but core principles remain universal. As an internationally qualified nurse, understanding the local legal framework is essential before independent practice begins."
+            },
+            {
+              "label": "Dignity",
+              "text": ""
+            },
+            {
+              "label": "Autonomy",
+              "text": ""
+            },
+            {
+              "label": "Confidentiality",
+              "text": ""
+            },
+            {
+              "label": "Proportionality",
+              "text": ""
+            },
+            {
+              "label": "Least Restrictive Care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "Apply Local Law",
+              "text": ""
+            },
+            {
+              "label": "Understand and apply local mental health legislation and professional standards within your jurisdiction.",
+              "text": ""
+            },
+            {
+              "label": "Balance Key Principles",
+              "text": ""
+            },
+            {
+              "label": "Navigate the tension between autonomy, confidentiality, and patient safety with confidence and clarity.",
+              "text": ""
+            },
+            {
+              "label": "Culturally Safe Practice",
+              "text": ""
+            },
+            {
+              "label": "Deliver care that is trauma-informed, culturally responsive, and person-centred at all times.",
+              "text": ""
+            },
+            {
+              "label": "Collaborative Care",
+              "text": ""
+            },
+            {
+              "label": "Work effectively with families and multidisciplinary teams to ensure continuity and quality of care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Consent and Legal Status",
+          "body": "What Nurses Must Understand",
+          "bullets": [
+            {
+              "label": "Nurses must be familiar with the distinction",
+              "text": "Nurses must be familiar with the distinction between voluntary and involuntary care, and what each means for patient rights and nursing responsibilities."
+            },
+            {
+              "label": "Assess and document mental capacity accurately",
+              "text": ""
+            },
+            {
+              "label": "Obtain valid, informed consent before care",
+              "text": ""
+            },
+            {
+              "label": "Know the patient's right to review and appeal legal status",
+              "text": ""
+            },
+            {
+              "label": "Follow local documentation requirements precisely",
+              "text": ""
+            },
+            {
+              "label": "Never assume prior-country processes apply. Always verify legal status locally.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Confidentiality and Its Limits",
+          "body": "Protected — but Not Absolute",
+          "bullets": [
+            {
+              "label": "Patient information is legally and ethically",
+              "text": "Patient information is legally and ethically protected. However, disclosure may be lawfully required to prevent serious harm to the patient or others."
+            },
+            {
+              "label": "Share information only on a need-to-know basis",
+              "text": ""
+            },
+            {
+              "label": "Inform the patient about confidentiality limits before they disclose, wherever possible",
+              "text": ""
+            },
+            {
+              "label": "Document all decisions and rationale clearly",
+              "text": ""
+            },
+            {
+              "label": "Follow your jurisdiction's specific reporting obligations",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Cultural Safety in Mental Health Nursing",
+          "body": "Culture profoundly shapes how individuals understand distress, seek help, and involve family. Culturally safe practice means asking — not assuming.",
+          "bullets": [
+            {
+              "label": "Ask Respectfully",
+              "text": ""
+            },
+            {
+              "label": "Explore the patient's own explanations of their distress without judgement or assumption.",
+              "text": ""
+            },
+            {
+              "label": "Use Professional Interpreters",
+              "text": ""
+            },
+            {
+              "label": "For complex clinical communication, always use qualified interpreters — never family members as substitutes.",
+              "text": ""
+            },
+            {
+              "label": "Respect Family Roles",
+              "text": ""
+            },
+            {
+              "label": "Acknowledge that family involvement varies culturally. Balance cultural norms with individual consent and safety.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Family and Multidisciplinary Collaboration",
+          "body": "Working Together for Better Outcomes",
+          "bullets": [
+            {
+              "label": "Families often hold vital context about the",
+              "text": "Families often hold vital context about the patient's history, triggers, and strengths. Involving them thoughtfully strengthens care planning and recovery."
+            },
+            {
+              "label": "Respect the patient's consent before sharing information with family",
+              "text": ""
+            },
+            {
+              "label": "Clarify each team member's role to avoid duplication or gaps",
+              "text": ""
+            },
+            {
+              "label": "Maintain consistent, documented communication across disciplines",
+              "text": ""
+            },
+            {
+              "label": "Ensure handovers are clear and safety-focused",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Applying the Framework in Practice",
+          "bullets": [
+            {
+              "label": "An international nurse is unsure whether a",
+              "text": "An international nurse is unsure whether a patient can leave an inpatient unit. Rather than defaulting to prior-country practice, the nurse checks the patient's legal status, reviews local policy, and seeks senior clinical advice before taking any action."
+            },
+            {
+              "label": "Check Legal Status",
+              "text": ""
+            },
+            {
+              "label": "Confirm patient rights and detention authority.",
+              "text": ""
+            },
+            {
+              "label": "Review Local Policy",
+              "text": ""
+            },
+            {
+              "label": "Consult hospital and regional discharge rules.",
+              "text": ""
+            },
+            {
+              "label": "Seek Senior Advice",
+              "text": ""
+            },
+            {
+              "label": "Escalate to supervisor or legal counsel.",
+              "text": ""
+            },
+            {
+              "label": "Act Safely",
+              "text": ""
+            },
+            {
+              "label": "Make decisions prioritizing patient safety.",
+              "text": ""
+            },
+            {
+              "label": "This approach protects both the patient's",
+              "text": "This approach protects both the patient's rights and the nurse's professional accountability — regardless of prior international experience."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Know the Law",
+          "bullets": [
+            {
+              "label": "Learn the mental health legislation and",
+              "text": "Learn the mental health legislation and professional standards specific to your jurisdiction before practising independently."
+            },
+            {
+              "label": "Least Restrictive Option",
+              "text": ""
+            },
+            {
+              "label": "Always choose the least restrictive lawful approach that meets the patient's clinical and safety needs.",
+              "text": ""
+            },
+            {
+              "label": "Explain Confidentiality",
+              "text": ""
+            },
+            {
+              "label": "Be transparent with patients about what is",
+              "text": "Be transparent with patients about what is protected and when disclosure may be required — before they share sensitive information."
+            },
+            {
+              "label": "Ask, Don't Assume",
+              "text": ""
+            },
+            {
+              "label": "Cultural preferences are individual. Ask",
+              "text": "Cultural preferences are individual. Ask respectfully, listen carefully, and never impose assumptions based on background."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "GNPS Programme 8 · Section 4",
+          "body": "Ready to Practise with Confidence?",
+          "bullets": [
+            {
+              "label": "Legal, ethical, and culturally safe practice is",
+              "text": "Legal, ethical, and culturally safe practice is not a checklist — it is a professional mindset. Carry these principles into every clinical encounter."
+            },
+            {
+              "label": "📋 Next Steps",
+              "text": ""
+            },
+            {
+              "label": "Complete the Section 4 reflective activities and case-based assessments in your GNPS learner workbook.",
+              "text": ""
+            },
+            {
+              "label": "📚 Further Reading",
+              "text": ""
+            },
+            {
+              "label": "Review your local jurisdiction's mental health legislation, nursing council standards, and cultural safety frameworks.",
+              "text": ""
+            },
+            {
+              "label": "🤝 Seek Supervision",
+              "text": ""
+            },
+            {
+              "label": "Discuss complex cases with your clinical supervisor or senior nurse to build confidence in applying these principles.",
+              "text": ""
+            },
+            {
+              "label": "GLOBAL NURSING PROFESSIONAL SERIES · LEVEL 2 IQN",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

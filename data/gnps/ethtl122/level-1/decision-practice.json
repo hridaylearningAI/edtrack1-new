@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Suicidal ideation with plan",
+      "scenario": "A patient admitted for treatment of major depressive disorder sits quietly during assessment and then states in a calm voice, “I have been thinking about ending my life, and I know exactly how I would do it.” The patient avoids eye contact and appears withdrawn, showing no visible emotional distress while making this statement.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient safety and initiate suicide precautions.",
+      "modelWhy": "A stated plan indicates high suicide risk.",
+      "modelNext": "Assess immediacy of intent and notify the mental health team.",
+      "trap": "Providing reassurance without safety measures.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Passive suicidal thoughts",
+      "scenario": "During a routine conversation, a patient says softly, “Sometimes I wish I wouldn’t wake up in the morning,” but when questioned further, denies having a specific plan or intent to harm themselves. The patient appears tired and hopeless but cooperative.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess suicide risk and increase observation.",
+      "modelWhy": "Passive ideation still indicates risk.",
+      "modelNext": "Explore protective factors and coping strategies.",
+      "trap": "Ignoring the comment because there is no plan.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Acute psychosis",
+      "scenario": "A patient diagnosed with schizophrenia appears visibly distressed and reports hearing voices that are telling them to hurt other people. The patient looks around the room frequently, appears internally preoccupied, and becomes increasingly agitated while describing the voices.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety and stay with the patient.",
+      "modelWhy": "Command hallucinations increase risk of violence.",
+      "modelNext": "Assess content of hallucinations.",
+      "trap": "Challenging the hallucinations aggressively.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Manic episode",
+      "scenario": "A patient with bipolar disorder is pacing rapidly around the unit, speaking loudly and rapidly, interrupting others, and attempting to give away personal belongings and money to staff and other patients. The patient has not slept for most of the night.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Set clear limits and reduce environmental stimuli.",
+      "modelWhy": "Mania increases risk of exhaustion and poor judgment.",
+      "modelNext": "Monitor sleep and nutritional intake.",
+      "trap": "Engaging in prolonged conversation.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Severe anxiety attack",
+      "scenario": "A patient suddenly becomes extremely anxious, trembling and breathing rapidly. The patient states, “I feel like I’m dying,” clutches their chest, and appears panicked despite normal cardiac findings earlier in the shift.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stay with the patient and guide slow breathing.",
+      "modelWhy": "Anxiety can escalate to panic.",
+      "modelNext": "Assess triggers and vital signs.",
+      "trap": "Leaving the patient alone.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Panic disorder",
+      "scenario": "A patient reports experiencing sudden episodes of intense fear accompanied by chest tightness, dizziness, and shortness of breath. Previous cardiac evaluations were normal, and the patient expresses fear that something serious is being missed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide reassurance and coping strategies.",
+      "modelWhy": "Panic attacks are frightening but not life-threatening.",
+      "modelNext": "Teach relaxation techniques.",
+      "trap": "Requesting emergency cardiac tests immediately.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Alcohol withdrawal",
+      "scenario": "A patient admitted for alcohol detoxification becomes increasingly restless, diaphoretic, and tremulous. The patient reports feeling anxious and has difficulty focusing, with vital signs showing rising heart rate and blood pressure.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess withdrawal severity and administer medication as prescribed.",
+      "modelWhy": "Alcohol withdrawal can progress to seizures or delirium tremens.",
+      "modelNext": "Monitor vital signs and mental status.",
+      "trap": "Assuming symptoms will resolve without treatment.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Delirium tremens",
+      "scenario": "A patient undergoing alcohol withdrawal suddenly becomes confused, disoriented, and reports seeing insects crawling on the walls. The patient attempts to get out of bed and appears frightened and agitated.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate emergency management and ensure safety.",
+      "modelWhy": "Delirium tremens is life-threatening.",
+      "modelNext": "Monitor cardiac status and hydration.",
+      "trap": "Reassuring without escalation.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

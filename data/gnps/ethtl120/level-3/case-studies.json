@@ -1,0 +1,955 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Newborn Respiratory Distress",
+      "stem": "A term male newborn is delivered after a prolonged labour. Five minutes after birth, the nurse notes persistent grunting, nasal flaring, intercostal retractions, and central cyanosis despite routine drying and stimulation. The infant’s breathing appears laboured. The mother asks whether this is normal. The nurse knows that while some transitional findings can be expected, this pattern indicates probable respiratory distress requiring immediate action. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are concerning for significant newborn respiratory distress? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Retractions"
+            },
+            {
+              "id": "B",
+              "text": "Nasal flaring"
+            },
+            {
+              "id": "C",
+              "text": "Grunting"
+            },
+            {
+              "id": "D",
+              "text": "Laboured breathing"
+            },
+            {
+              "id": "E",
+              "text": "Central cyanosis"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these signs indicate increased work of breathing and poor oxygenation. Unlike benign transitional findings such as acrocyanosis, central cyanosis and significant respiratory effort are urgent. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Newborn respiratory distress requiring immediate assessment and support"
+            },
+            {
+              "id": "B",
+              "text": "Simple hunger cues"
+            },
+            {
+              "id": "C",
+              "text": "Normal newborn transition only"
+            },
+            {
+              "id": "D",
+              "text": "Mild sleepiness"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This infant is not transitioning normally. The pattern strongly indicates respiratory compromise. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed parent-infant bonding only"
+            },
+            {
+              "id": "B",
+              "text": "Impaired oxygenation and ineffective breathing in the newborn"
+            },
+            {
+              "id": "C",
+              "text": "Need for routine feeding"
+            },
+            {
+              "id": "D",
+              "text": "Bathing delay"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Airway and breathing always come first, especially in the newborn, who can deteriorate rapidly. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Initiate immediate newborn respiratory assessment and support according to neonatal protocol, and escalate urgently"
+            },
+            {
+              "id": "B",
+              "text": "Swaddle tightly and wait an hour"
+            },
+            {
+              "id": "C",
+              "text": "Feed the infant first"
+            },
+            {
+              "id": "D",
+              "text": "Assume cyanosis will resolve without reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must act immediately because this infant shows clear signs of respiratory distress. Delay may lead to severe hypoxia. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Observe for worsening grunting or apnea"
+            },
+            {
+              "id": "B",
+              "text": "Ignore retractions if the infant is term"
+            },
+            {
+              "id": "C",
+              "text": "Maintain thermoregulation while respiratory support is organised"
+            },
+            {
+              "id": "D",
+              "text": "Reassess colour, respiratory effort, and oxygenation frequently"
+            },
+            {
+              "id": "E",
+              "text": "Communicate clearly with the parent while continuing urgent care"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Respiratory distress management includes warmth, reassessment, communication, and observation for worsening fatigue or apnea. Term status does not make retractions normal. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Respiratory Distress | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring stops once the infant is quieter"
+            },
+            {
+              "id": "B",
+              "text": "Cyanosis persists and respirations become weaker"
+            },
+            {
+              "id": "C",
+              "text": "Colour improves, grunting decreases, breathing becomes easier, and the infant maintains better oxygenation"
+            },
+            {
+              "id": "D",
+              "text": "The infant becomes more lethargic without escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improved work of breathing and oxygenation indicate effective early management."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Newborn Hypoglycaemia",
+      "stem": "A late preterm infant born to a mother with gestational diabetes is being monitored in the postnatal unit. A few hours after birth, the infant becomes jittery, sleepy, and demonstrates poor feeding. The nurse checks the glucose result and finds it below the expected safe range for the newborn. The infant is otherwise warm and pink but less vigorous than earlier. The nurse recognises newborn hypoglycaemia as a priority problem because the brain is highly sensitive to low glucose. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support neonatal hypoglycaemia? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Poor feeding"
+            },
+            {
+              "id": "B",
+              "text": "Sleepiness/lethargy"
+            },
+            {
+              "id": "C",
+              "text": "Low glucose reading"
+            },
+            {
+              "id": "D",
+              "text": "Jitteriness"
+            },
+            {
+              "id": "E",
+              "text": "Infant of a mother with gestational diabetes"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these factors support neonatal hypoglycaemia. Infants of diabetic mothers are at particular risk because of altered glucose-insulin adaptation after birth. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Benign sleep cycle"
+            },
+            {
+              "id": "B",
+              "text": "Mild cold stress alone"
+            },
+            {
+              "id": "C",
+              "text": "Neonatal hypoglycaemia requiring prompt treatment and reassessment"
+            },
+            {
+              "id": "D",
+              "text": "Normal newborn behaviour only"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Low glucose with symptoms must be treated promptly. Waiting risks worsening neurological compromise. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed family sleep"
+            },
+            {
+              "id": "B",
+              "text": "Inadequate glucose availability to the newborn brain"
+            },
+            {
+              "id": "C",
+              "text": "Delayed bathing"
+            },
+            {
+              "id": "D",
+              "text": "Need for routine discharge teaching"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "In neonatal hypoglycaemia, neurological protection is the main priority. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bathe the infant before feeding"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until the next routine blood sugar check"
+            },
+            {
+              "id": "C",
+              "text": "Ignore symptoms if the infant is warm"
+            },
+            {
+              "id": "D",
+              "text": "Initiate feeding or other protocol-based glucose support promptly and reassess the infant closely"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Rapid correction and close reassessment are required. Hypoglycaemia should not be left untreated simply because the infant looks otherwise stable. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recheck glucose after treatment according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Assume one low reading is never important"
+            },
+            {
+              "id": "C",
+              "text": "Explain the situation calmly to the parents"
+            },
+            {
+              "id": "D",
+              "text": "Maintain warmth and reduce energy expenditure"
+            },
+            {
+              "id": "E",
+              "text": "Monitor feeding effectiveness and tone"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Thermoregulation, repeat glucose testing, feeding assessment, and parent communication are all appropriate. A low symptomatic reading is always important. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Newborn Hypoglycaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The infant becomes weaker without escalation"
+            },
+            {
+              "id": "B",
+              "text": "Lethargy worsens and feeding remains poor"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one feed"
+            },
+            {
+              "id": "D",
+              "text": "Glucose rises to a safer range, feeding improves, jitteriness resolves, and the infant becomes more alert"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is reflected in both biochemical correction and clinical behaviour."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Neonatal Hyperbilirubinemia",
+      "stem": "A 3-day-old newborn is brought to the nursery for assessment because the mother notices increasing yellow discoloration of the skin and eyes. The infant is feeding but appears sleepier than on the previous day. The bilirubin result is above the safe threshold for the infant’s age and clinical context. The nurse must assess severity, feeding adequacy, and risk of worsening jaundice while preparing for phototherapy and parent teaching if ordered. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support clinically important neonatal jaundice? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Need to assess feeding pattern"
+            },
+            {
+              "id": "B",
+              "text": "Increased sleepiness"
+            },
+            {
+              "id": "C",
+              "text": "Yellow discoloration of skin and sclera"
+            },
+            {
+              "id": "D",
+              "text": "Elevated bilirubin level"
+            },
+            {
+              "id": "E",
+              "text": "Newborn age of 3 days"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All the listed points matter. Jaundice is common in newborns, but rising bilirubin plus sleepiness and feeding concerns can indicate a need for treatment and close monitoring. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The infant has postpartum depression"
+            },
+            {
+              "id": "B",
+              "text": "The infant may have clinically significant hyperbilirubinemia requiring monitoring and possibly phototherapy"
+            },
+            {
+              "id": "C",
+              "text": "The colour change is unrelated to bilirubin"
+            },
+            {
+              "id": "D",
+              "text": "This can never be significant because jaundice is always normal"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Physiologic jaundice may be common, but significant bilirubin elevation can be harmful. The nurse must assess severity and follow treatment thresholds. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Umbilical cord stump education only"
+            },
+            {
+              "id": "B",
+              "text": "Risk for bilirubin-related neurological injury if levels rise further"
+            },
+            {
+              "id": "C",
+              "text": "Need for routine bathing advice"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern of the parents"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Very high bilirubin can become dangerous, so preventing neurological injury is the priority. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop feeding the infant"
+            },
+            {
+              "id": "B",
+              "text": "Assess feeding and elimination, verify bilirubin trends, and prepare for phototherapy or other management as ordered"
+            },
+            {
+              "id": "C",
+              "text": "Ignore sleepiness if the infant is yellow"
+            },
+            {
+              "id": "D",
+              "text": "Delay all care until the next day"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Feeding and bilirubin trend assessment are crucial because poor intake can worsen jaundice. Delaying care or stopping feeds would be unsafe. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume jaundice will always resolve without follow-up"
+            },
+            {
+              "id": "B",
+              "text": "Observe for worsening lethargy or poor feeding"
+            },
+            {
+              "id": "C",
+              "text": "Reassess bilirubin according to protocol"
+            },
+            {
+              "id": "D",
+              "text": "Monitor hydration and feeding effectiveness"
+            },
+            {
+              "id": "E",
+              "text": "Provide parent education about jaundice and phototherapy if used"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Safe newborn care includes monitoring, education, and follow-up. A passive wait-and-see approach is inappropriate when bilirubin is already elevated. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Hyperbilirubinemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bilirubin trends down, feeding improves, and the infant is more alert"
+            },
+            {
+              "id": "B",
+              "text": "Sleepiness increases and feeding declines"
+            },
+            {
+              "id": "C",
+              "text": "Phototherapy is started but never reassessed"
+            },
+            {
+              "id": "D",
+              "text": "Parents remain uninformed about warning signs"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by falling bilirubin and better feeding/alertness."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Neonatal Sepsis",
+      "stem": "A newborn delivered after prolonged rupture of membranes becomes increasingly lethargic within the first day of life. The infant feeds poorly, has temperature instability, and shows periods of mottled skin and intermittent grunting. The mother asks why the baby seems less responsive than immediately after birth. The nurse understands that newborn sepsis may present subtly and can deteriorate rapidly. The infant requires urgent assessment and escalation. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings raise concern for neonatal sepsis? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mottling and grunting"
+            },
+            {
+              "id": "B",
+              "text": "Poor feeding"
+            },
+            {
+              "id": "C",
+              "text": "Lethargy"
+            },
+            {
+              "id": "D",
+              "text": "Prolonged rupture of membranes"
+            },
+            {
+              "id": "E",
+              "text": "Temperature instability"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings are concerning. Neonatal sepsis often presents with non-specific signs, so nurses must respond quickly to subtle deterioration. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild jaundice only"
+            },
+            {
+              "id": "B",
+              "text": "Possible neonatal sepsis requiring urgent evaluation and treatment"
+            },
+            {
+              "id": "C",
+              "text": "Benign adaptation"
+            },
+            {
+              "id": "D",
+              "text": "Normal newborn tiredness"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The symptom cluster plus prolonged rupture of membranes makes infection a serious concern. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parent inconvenience"
+            },
+            {
+              "id": "B",
+              "text": "Risk for overwhelming infection and respiratory compromise in the newborn"
+            },
+            {
+              "id": "C",
+              "text": "Need for discharge teaching"
+            },
+            {
+              "id": "D",
+              "text": "Delayed infant bath"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Newborn sepsis can become life-threatening quickly. The priority is survival and prevention of rapid decline. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalate urgently, support thermoregulation and respiratory assessment, and prepare for sepsis evaluation and treatment as ordered"
+            },
+            {
+              "id": "B",
+              "text": "Wait to see whether the infant perks up after sleep"
+            },
+            {
+              "id": "C",
+              "text": "Feed only when convenient later"
+            },
+            {
+              "id": "D",
+              "text": "Stop monitoring because the baby is quiet"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Urgent action is required because newborn sepsis may progress rapidly. Thermoregulation and respiratory support are important immediate priorities. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support family understanding while urgent care continues"
+            },
+            {
+              "id": "B",
+              "text": "Ignore grunting if the infant is term"
+            },
+            {
+              "id": "C",
+              "text": "Anticipate cultures and antibiotic therapy as ordered"
+            },
+            {
+              "id": "D",
+              "text": "Monitor colour, tone, respirations, and feeding closely"
+            },
+            {
+              "id": "E",
+              "text": "Reassess temperature and perfusion frequently"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Close observation and family communication are important. Grunting is a serious respiratory sign and must not be ignored. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Neonatal Sepsis | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lethargy deepens and grunting worsens"
+            },
+            {
+              "id": "B",
+              "text": "Perfusion is not reassessed"
+            },
+            {
+              "id": "C",
+              "text": "Feeding improves, colour and tone stabilise, temperature becomes more consistent, and respiratory effort eases"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring stops after antibiotics start"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement must be seen in behaviour, temperature, perfusion, and breathing."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Preterm Infant with Respiratory Distress Syndrome",
+      "stem": "A 32-week preterm infant is admitted to the neonatal care area shortly after birth. The nurse observes tachypnoea, grunting, nasal flaring, and subcostal retractions. The infant is small, has minimal respiratory reserve, and requires support to maintain temperature and oxygenation. The mother is anxious and asks whether the baby will be able to breathe independently. The nurse recognises the pattern as consistent with respiratory distress syndrome related to prematurity. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support respiratory distress syndrome in a preterm infant? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Grunting and nasal flaring"
+            },
+            {
+              "id": "B",
+              "text": "Retractions"
+            },
+            {
+              "id": "C",
+              "text": "Reduced physiological reserve"
+            },
+            {
+              "id": "D",
+              "text": "Tachypnoea"
+            },
+            {
+              "id": "E",
+              "text": "Prematurity at 32 weeks"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Prematurity strongly predisposes to surfactant deficiency and RDS. The visible work of breathing confirms respiratory compromise. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal newborn transition only"
+            },
+            {
+              "id": "B",
+              "text": "Benign feeding difficulty"
+            },
+            {
+              "id": "C",
+              "text": "Respiratory distress syndrome requiring close support of breathing and thermoregulation"
+            },
+            {
+              "id": "D",
+              "text": "Stable sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The infant’s prematurity and clear respiratory distress signs indicate RDS rather than normal transition. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delayed naming ceremony"
+            },
+            {
+              "id": "B",
+              "text": "Need for routine cord teaching only"
+            },
+            {
+              "id": "C",
+              "text": "Impaired gas exchange and risk of worsening fatigue in the premature infant"
+            },
+            {
+              "id": "D",
+              "text": "Parent fatigue"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Airway and breathing are always first, especially in preterm infants who fatigue quickly. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the grunting because preterm infants are noisy"
+            },
+            {
+              "id": "B",
+              "text": "Delay intervention to allow longer skin-to-skin time only"
+            },
+            {
+              "id": "C",
+              "text": "Bathe the infant immediately"
+            },
+            {
+              "id": "D",
+              "text": "Support airway and breathing according to neonatal protocol, maintain thermoregulation, and escalate for advanced neonatal management"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The infant requires respiratory and thermal support immediately. Delay may worsen hypoxia and exhaustion. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support parent understanding while urgent care continues"
+            },
+            {
+              "id": "B",
+              "text": "Prepare for neonatal respiratory support measures as ordered"
+            },
+            {
+              "id": "C",
+              "text": "Minimise energy expenditure and unnecessary stimulation"
+            },
+            {
+              "id": "D",
+              "text": "Assume the infant will self-correct without reassessment"
+            },
+            {
+              "id": "E",
+              "text": "Reassess colour, work of breathing, and oxygenation frequently"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "A preterm infant with RDS needs close reassessment, energy conservation, and timely escalation. Parent communication remains important. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Preterm Infant with Respiratory Distress Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Temperature falls further without action"
+            },
+            {
+              "id": "B",
+              "text": "Retractions worsen and the infant becomes more lethargic"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops once the infant is quieter"
+            },
+            {
+              "id": "D",
+              "text": "Respiratory effort lessens, oxygenation improves, and the infant maintains temperature and colour more effectively"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is shown by easier breathing, better oxygenation, and more stable thermal control."
+        }
+      ]
+    }
+  ]
+}

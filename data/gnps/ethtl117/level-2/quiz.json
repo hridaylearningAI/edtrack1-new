@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "An IQN is unfamiliar with the local controlled-drug register. What is the BEST action before administering a controlled medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Request orientation and follow the local controlled-drug policy with supervision."
+        },
+        {
+          "id": "B",
+          "text": "Use the previous country process."
+        },
+        {
+          "id": "C",
+          "text": "Ask a colleague to sign later."
+        },
+        {
+          "id": "D",
+          "text": "Avoid all controlled medicines permanently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Local controlled-drug processes must be understood and followed before independent practice."
+    },
+    {
+      "id": "q2",
+      "stem": "Which information makes a medication order valid and complete?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient name and medicine colour only."
+        },
+        {
+          "id": "B",
+          "text": "Patient, medicine, dose, route, timing and authorised prescriber."
+        },
+        {
+          "id": "C",
+          "text": "Medicine and ward number only."
+        },
+        {
+          "id": "D",
+          "text": "Prescriber signature without dose."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A valid order clearly identifies the patient, medicine, dose, route, timing and prescriber."
+    },
+    {
+      "id": "q3",
+      "stem": "An electronic record displays an allergy alert that the patient says is incorrect. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the alert."
+        },
+        {
+          "id": "B",
+          "text": "Delete the alert independently."
+        },
+        {
+          "id": "C",
+          "text": "Verify the allergy history and clarify the record before administration."
+        },
+        {
+          "id": "D",
+          "text": "Administer because the patient denies it."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Electronic alerts support but do not replace verification and clinical judgement."
+    },
+    {
+      "id": "q4",
+      "stem": "A prescription reads “.5 mg” of a high-risk medicine. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer 5 mg."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to decide."
+        },
+        {
+          "id": "C",
+          "text": "Round the dose to 1 mg."
+        },
+        {
+          "id": "D",
+          "text": "Clarify the dose because the missing leading zero creates error risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A leading zero should be used for doses below one to prevent tenfold errors."
+    },
+    {
+      "id": "q5",
+      "stem": "Which action best demonstrates safe adaptation to an unfamiliar eMAR?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing supervised orientation and confirming competence before independent use."
+        },
+        {
+          "id": "B",
+          "text": "Relying on system prompts only."
+        },
+        {
+          "id": "C",
+          "text": "Using another nurse’s login."
+        },
+        {
+          "id": "D",
+          "text": "Documenting later from memory."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Orientation and competency confirmation are essential when systems are unfamiliar."
+    },
+    {
+      "id": "q6",
+      "stem": "What is a major risk of electronic medication systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They eliminate all errors."
+        },
+        {
+          "id": "B",
+          "text": "Wrong-patient selection or copying outdated information."
+        },
+        {
+          "id": "C",
+          "text": "They remove accountability."
+        },
+        {
+          "id": "D",
+          "text": "They prevent alert fatigue."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Electronic systems can introduce selection, copying and alert-fatigue risks."
+    },
+    {
+      "id": "q7",
+      "stem": "A verbal order is received in a noisy emergency area. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept and administer immediately."
+        },
+        {
+          "id": "B",
+          "text": "Ask a family member to confirm."
+        },
+        {
+          "id": "C",
+          "text": "Use read-back and document according to policy."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the next shift."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Read-back reduces communication error with verbal orders."
+    },
+    {
+      "id": "q8",
+      "stem": "An IQN knows the generic medicine but not the local brand. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer based on tablet appearance."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to identify it."
+        },
+        {
+          "id": "C",
+          "text": "Use the previous brand name."
+        },
+        {
+          "id": "D",
+          "text": "Confirm the generic name, formulation and order before administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Brand names differ; verification should focus on the generic medicine and formulation."
+    },
+    {
+      "id": "q9",
+      "stem": "A system alert is repeatedly overridden by staff. What safety concern does this suggest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alert fatigue."
+        },
+        {
+          "id": "B",
+          "text": "Improved vigilance."
+        },
+        {
+          "id": "C",
+          "text": "Better prescribing."
+        },
+        {
+          "id": "D",
+          "text": "Reduced workload."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Frequent low-value alerts may lead to alert fatigue and unsafe overrides."
+    },
+    {
+      "id": "q10",
+      "stem": "Which action is within professional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administering an unclear order because it is signed."
+        },
+        {
+          "id": "B",
+          "text": "Questioning and clarifying an unsafe or incomplete order."
+        },
+        {
+          "id": "C",
+          "text": "Letting the prescriber assume all responsibility."
+        },
+        {
+          "id": "D",
+          "text": "Ignoring policy during busy periods."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Nurses remain accountable for safe medication decisions."
+    },
+    {
+      "id": "q11",
+      "stem": "A medication chart uses an abbreviation unfamiliar to the IQN. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess using context."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient."
+        },
+        {
+          "id": "C",
+          "text": "Clarify the abbreviation before administration."
+        },
+        {
+          "id": "D",
+          "text": "Use a similar medicine."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unfamiliar or ambiguous abbreviations must be clarified."
+    },
+    {
+      "id": "q12",
+      "stem": "A nurse selects the correct patient but the wrong episode of care in the eMAR. What is the primary risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient will be discharged early."
+        },
+        {
+          "id": "B",
+          "text": "The medicine will be cheaper."
+        },
+        {
+          "id": "C",
+          "text": "No risk exists if the name matches."
+        },
+        {
+          "id": "D",
+          "text": "Incorrect or outdated medication information may be used."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Selecting the wrong encounter can expose outdated or irrelevant orders."
+    },
+    {
+      "id": "q13",
+      "stem": "Which process best supports controlled-drug accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Required witnessing, secure storage and accurate register entries."
+        },
+        {
+          "id": "B",
+          "text": "Single-person undocumented handling."
+        },
+        {
+          "id": "C",
+          "text": "Storing with routine medicines."
+        },
+        {
+          "id": "D",
+          "text": "Documenting at the end of the week."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Controlled medicines require strict storage, witnessing and documentation."
+    },
+    {
+      "id": "q14",
+      "stem": "A nurse is unsure whether local policy requires an independent check. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because the dose is familiar."
+        },
+        {
+          "id": "B",
+          "text": "Check the policy and obtain the required verification."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient."
+        },
+        {
+          "id": "D",
+          "text": "Document uncertainty only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Policy should be confirmed before proceeding."
+    },
+    {
+      "id": "q15",
+      "stem": "Why should nurses not rely solely on barcode scanning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Barcodes are always inaccurate."
+        },
+        {
+          "id": "B",
+          "text": "Scanning replaces identification."
+        },
+        {
+          "id": "C",
+          "text": "Technology may fail or contain incorrect data."
+        },
+        {
+          "id": "D",
+          "text": "Scanning is only for pharmacy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology supports, but does not replace, clinical and identity checks."
+    },
+    {
+      "id": "q16",
+      "stem": "Which outcome best shows safe transition into a new medication system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse avoids questions."
+        },
+        {
+          "id": "B",
+          "text": "The nurse copies previous practice."
+        },
+        {
+          "id": "C",
+          "text": "The nurse delegates all medication work."
+        },
+        {
+          "id": "D",
+          "text": "The nurse follows local processes consistently and uses clinical judgement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe transition combines local system competence with professional judgement."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse notices an electronic default dose is inconsistent with the patient’s order. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop and clarify before administration."
+        },
+        {
+          "id": "B",
+          "text": "Accept the default."
+        },
+        {
+          "id": "C",
+          "text": "Change the order without authorisation."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to select the dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Default settings can create errors and must be checked against the valid order."
+    },
+    {
+      "id": "q18",
+      "stem": "A colleague offers their password so the IQN can enter the eMAR. What is the correct response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use it for one shift."
+        },
+        {
+          "id": "B",
+          "text": "Decline and access the system only through authorised credentials."
+        },
+        {
+          "id": "C",
+          "text": "Write the password down."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to witness."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Passwords are personal and access must be authorised and traceable."
+    },
+    {
+      "id": "q19",
+      "stem": "Which practice most reduces prescribing-interpretation risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accepting ambiguous decimals."
+        },
+        {
+          "id": "B",
+          "text": "Assuming route from the medicine."
+        },
+        {
+          "id": "C",
+          "text": "Clarifying incomplete instructions before administration."
+        },
+        {
+          "id": "D",
+          "text": "Using memory of common doses."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Ambiguous orders should be clarified before administration."
+    },
+    {
+      "id": "q20",
+      "stem": "What is the BEST indicator of medication-system competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speed of documentation."
+        },
+        {
+          "id": "B",
+          "text": "Ability to bypass alerts."
+        },
+        {
+          "id": "C",
+          "text": "Knowledge of brand colours."
+        },
+        {
+          "id": "D",
+          "text": "Accurate use of local charts, alerts, checks and escalation processes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Competence is demonstrated through accurate, safe use of the entire medication process."
+    },
+    {
+      "id": "q21",
+      "stem": "Which medicine is commonly considered high-risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insulin."
+        },
+        {
+          "id": "B",
+          "text": "Simple emollient."
+        },
+        {
+          "id": "C",
+          "text": "Saline mouthwash."
+        },
+        {
+          "id": "D",
+          "text": "Vitamin tablet at standard dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Insulin can cause serious harm if dose, timing or monitoring are incorrect."
+    },
+    {
+      "id": "q22",
+      "stem": "A patient prescribed insulin has a blood glucose of 2.8 mmol/L. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer as charted."
+        },
+        {
+          "id": "B",
+          "text": "Treat hypoglycaemia and follow escalation policy before the dose."
+        },
+        {
+          "id": "C",
+          "text": "Double the dose."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Hypoglycaemia requires immediate treatment and review before insulin administration."
+    },
+    {
+      "id": "q23",
+      "stem": "What makes an independent double check meaningful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One nurse watches the other."
+        },
+        {
+          "id": "B",
+          "text": "Both nurses sign without calculation."
+        },
+        {
+          "id": "C",
+          "text": "Each clinician verifies separately before comparing results."
+        },
+        {
+          "id": "D",
+          "text": "The senior nurse decides alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Independent verification reduces shared-assumption errors."
+    },
+    {
+      "id": "q24",
+      "stem": "A patient receiving an opioid has a respiratory rate of 8/min. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give the next dose."
+        },
+        {
+          "id": "B",
+          "text": "Encourage sleep."
+        },
+        {
+          "id": "C",
+          "text": "Document later."
+        },
+        {
+          "id": "D",
+          "text": "Withhold according to policy, assess urgently and escalate."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Respiratory depression is a serious opioid-related risk."
+    },
+    {
+      "id": "q25",
+      "stem": "A patient on anticoagulants has new bruising and a markedly abnormal coagulation result. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withhold according to policy, assess for bleeding and notify the team."
+        },
+        {
+          "id": "B",
+          "text": "Administer as scheduled."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to walk."
+        },
+        {
+          "id": "D",
+          "text": "Repeat the dose later."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Abnormal coagulation with bruising signals increased bleeding risk."
+    },
+    {
+      "id": "q26",
+      "stem": "Which result is most relevant before giving a potassium-containing medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pain score only."
+        },
+        {
+          "id": "B",
+          "text": "Serum potassium and renal function."
+        },
+        {
+          "id": "C",
+          "text": "Visual acuity."
+        },
+        {
+          "id": "D",
+          "text": "Room temperature."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Electrolyte and renal status directly affect safety."
+    },
+    {
+      "id": "q27",
+      "stem": "A chemotherapy dose is prescribed. Which additional safeguard is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient confirmation only."
+        },
+        {
+          "id": "B",
+          "text": "Using memory."
+        },
+        {
+          "id": "C",
+          "text": "Independent verification and protocol-based checking."
+        },
+        {
+          "id": "D",
+          "text": "Skipping assessment to avoid delay."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Chemotherapy is high-risk and requires protocol-based safeguards."
+    },
+    {
+      "id": "q28",
+      "stem": "A sedative is due, but the patient is newly confused and unsteady. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer because it is due."
+        },
+        {
+          "id": "B",
+          "text": "Ask family to supervise."
+        },
+        {
+          "id": "C",
+          "text": "Give half without an order."
+        },
+        {
+          "id": "D",
+          "text": "Reassess and seek review before administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Current condition must be linked to each dose."
+    },
+    {
+      "id": "q29",
+      "stem": "Which patient factor most influences opioid safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respiratory rate and level of sedation."
+        },
+        {
+          "id": "B",
+          "text": "Hair colour."
+        },
+        {
+          "id": "C",
+          "text": "Room number."
+        },
+        {
+          "id": "D",
+          "text": "Preferred meal."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respiratory and sedation assessment are essential before opioids."
+    },
+    {
+      "id": "q30",
+      "stem": "A patient on digoxin has a very low pulse. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer quickly."
+        },
+        {
+          "id": "B",
+          "text": "Withhold according to policy and seek review."
+        },
+        {
+          "id": "C",
+          "text": "Give with food."
+        },
+        {
+          "id": "D",
+          "text": "Document after discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Bradycardia may indicate increased risk and requires review."
+    },
+    {
+      "id": "q31",
+      "stem": "A concentrated electrolyte ampoule is found in an unrestricted medication drawer. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave it for convenience."
+        },
+        {
+          "id": "B",
+          "text": "Dilute it later."
+        },
+        {
+          "id": "C",
+          "text": "Remove and report according to high-risk storage policy."
+        },
+        {
+          "id": "D",
+          "text": "Ask patients not to touch it."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Concentrated electrolytes require restricted, controlled storage."
+    },
+    {
+      "id": "q32",
+      "stem": "Why are standard concentrations used for IV infusions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To make labels colourful."
+        },
+        {
+          "id": "B",
+          "text": "To replace monitoring."
+        },
+        {
+          "id": "C",
+          "text": "To permit any infusion rate."
+        },
+        {
+          "id": "D",
+          "text": "To reduce calculation and preparation variability."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Standardisation reduces dosing and preparation errors."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient’s renal function has deteriorated before a renally cleared medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the result and clarify whether the dose remains appropriate."
+        },
+        {
+          "id": "B",
+          "text": "Administer unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Stop all medicines permanently."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Renal deterioration may require dose adjustment or withholding."
+    },
+    {
+      "id": "q34",
+      "stem": "A high-risk medicine requires a second check, but no authorised checker is available. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer alone."
+        },
+        {
+          "id": "B",
+          "text": "Delay safely and escalate for an authorised checker."
+        },
+        {
+          "id": "C",
+          "text": "Ask a visitor."
+        },
+        {
+          "id": "D",
+          "text": "Sign twice."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The required safeguard should not be bypassed."
+    },
+    {
+      "id": "q35",
+      "stem": "Which finding is most important before anticoagulant administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appetite only."
+        },
+        {
+          "id": "B",
+          "text": "Skin colour only."
+        },
+        {
+          "id": "C",
+          "text": "Evidence of bleeding and relevant coagulation results."
+        },
+        {
+          "id": "D",
+          "text": "Sleep pattern."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Bleeding assessment and coagulation data guide safe administration."
+    },
+    {
+      "id": "q36",
+      "stem": "A patient’s potassium is critically high and a potassium supplement is due. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer with food."
+        },
+        {
+          "id": "B",
+          "text": "Reduce the dose independently."
+        },
+        {
+          "id": "C",
+          "text": "Repeat tomorrow."
+        },
+        {
+          "id": "D",
+          "text": "Withhold and escalate immediately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Critically high potassium makes supplementation unsafe."
+    },
+    {
+      "id": "q37",
+      "stem": "What is the nurse’s role in therapeutic monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Know relevant tests and act on abnormal results."
+        },
+        {
+          "id": "B",
+          "text": "Leave monitoring to pharmacy only."
+        },
+        {
+          "id": "C",
+          "text": "Administer regardless of results."
+        },
+        {
+          "id": "D",
+          "text": "Use routine observations only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nurses must connect monitoring data to medication decisions."
+    },
+    {
+      "id": "q38",
+      "stem": "A patient receiving insulin is fasting unexpectedly. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give the usual dose without review."
+        },
+        {
+          "id": "B",
+          "text": "Assess blood glucose and clarify the plan."
+        },
+        {
+          "id": "C",
+          "text": "Skip all monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to eat secretly."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fasting alters insulin risk and requires assessment and review."
+    },
+    {
+      "id": "q39",
+      "stem": "Which statement best describes high-risk medicine practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High-risk medicines are always avoided."
+        },
+        {
+          "id": "B",
+          "text": "Only doctors are responsible."
+        },
+        {
+          "id": "C",
+          "text": "Use additional safeguards because errors may cause serious harm."
+        },
+        {
+          "id": "D",
+          "text": "Standard checks are unnecessary."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Additional safeguards reduce severe harm from high-risk medicines."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best indicates safe high-risk medication management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The dose was given on time."
+        },
+        {
+          "id": "B",
+          "text": "The medicine was expensive."
+        },
+        {
+          "id": "C",
+          "text": "The chart was electronic."
+        },
+        {
+          "id": "D",
+          "text": "The order, patient data, independent checks and monitoring were all integrated before and after administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe practice integrates multiple safeguards and clinical data."
+    },
+    {
+      "id": "q41",
+      "stem": "What is the purpose of medication reconciliation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To compare what the patient was actually taking with current orders."
+        },
+        {
+          "id": "B",
+          "text": "To count tablets only."
+        },
+        {
+          "id": "C",
+          "text": "To replace prescribing."
+        },
+        {
+          "id": "D",
+          "text": "To document allergies only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reconciliation identifies omissions, duplication and discrepancies."
+    },
+    {
+      "id": "q42",
+      "stem": "Which items should be included in a medication history?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescription medicines only."
+        },
+        {
+          "id": "B",
+          "text": "Prescription, non-prescription, supplements and allergies."
+        },
+        {
+          "id": "C",
+          "text": "Hospital medicines only."
+        },
+        {
+          "id": "D",
+          "text": "Current injections only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A complete history includes all relevant products and allergies."
+    },
+    {
+      "id": "q43",
+      "stem": "A home anticoagulant is missing from the admission chart. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it."
+        },
+        {
+          "id": "B",
+          "text": "Add it independently."
+        },
+        {
+          "id": "C",
+          "text": "Verify the history and notify the prescriber promptly."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to self-administer."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Discrepancies must be clarified and resolved."
+    },
+    {
+      "id": "q44",
+      "stem": "Why are transitions of care high-risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patients always stop medicines."
+        },
+        {
+          "id": "B",
+          "text": "Electronic systems prevent errors."
+        },
+        {
+          "id": "C",
+          "text": "No communication is needed."
+        },
+        {
+          "id": "D",
+          "text": "Medication lists may be incomplete or inconsistent."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Transitions create risk of omissions, duplication and confusion."
+    },
+    {
+      "id": "q45",
+      "stem": "Which ISBAR statement is most effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Mr Lee’s warfarin is missing from the admission chart; he took it yesterday. Please review urgently before the next dose.”"
+        },
+        {
+          "id": "B",
+          "text": "“There is a medication problem.”"
+        },
+        {
+          "id": "C",
+          "text": "“Can someone check?”"
+        },
+        {
+          "id": "D",
+          "text": "“The chart looks wrong.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Clear communication identifies the patient, issue, evidence and requested action."
+    },
+    {
+      "id": "q46",
+      "stem": "After a medication error, what is the FIRST priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the incident form."
+        },
+        {
+          "id": "B",
+          "text": "Assess and protect the patient."
+        },
+        {
+          "id": "C",
+          "text": "Notify finance."
+        },
+        {
+          "id": "D",
+          "text": "Discuss blame."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Immediate patient care comes first."
+    },
+    {
+      "id": "q47",
+      "stem": "What should an incident report contain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Personal accusations."
+        },
+        {
+          "id": "B",
+          "text": "Only the nurse’s feelings."
+        },
+        {
+          "id": "C",
+          "text": "Facts and contributing conditions."
+        },
+        {
+          "id": "D",
+          "text": "A rewritten clinical note."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Incident reports should support objective learning."
+    },
+    {
+      "id": "q48",
+      "stem": "A discharge list contains both the old and new dose of the same medicine. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give both."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to choose."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the old dose."
+        },
+        {
+          "id": "D",
+          "text": "Clarify and correct the discrepancy before discharge."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Duplicate or conflicting instructions must be resolved."
+    },
+    {
+      "id": "q49",
+      "stem": "A patient reports taking an herbal supplement not listed in the chart. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add it to the medication history and assess interaction risk."
+        },
+        {
+          "id": "B",
+          "text": "Ignore it."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to stop immediately."
+        },
+        {
+          "id": "D",
+          "text": "Record it only at discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Complementary products may interact and belong in reconciliation."
+    },
+    {
+      "id": "q50",
+      "stem": "A near miss occurs because two medicines have similar packaging. What should follow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No action because no harm occurred."
+        },
+        {
+          "id": "B",
+          "text": "Report the near miss and identify system factors."
+        },
+        {
+          "id": "C",
+          "text": "Discard both products silently."
+        },
+        {
+          "id": "D",
+          "text": "Blame the nurse."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Near misses reveal system weaknesses."
+    },
+    {
+      "id": "q51",
+      "stem": "Which documentation best supports a medication incident review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A statement of blame."
+        },
+        {
+          "id": "B",
+          "text": "Only the final outcome."
+        },
+        {
+          "id": "C",
+          "text": "Objective timeline of assessment, actions, response and notifications."
+        },
+        {
+          "id": "D",
+          "text": "No clinical documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A clear factual timeline supports continuity and review."
+    },
+    {
+      "id": "q52",
+      "stem": "A patient transfers wards with an incomplete medication list. What should the receiving nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the previous list without question."
+        },
+        {
+          "id": "B",
+          "text": "Delay all care."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to remember doses later."
+        },
+        {
+          "id": "D",
+          "text": "Reconcile and clarify discrepancies before administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Transfer is a high-risk point requiring reconciliation."
+    },
+    {
+      "id": "q53",
+      "stem": "Which discrepancy is most urgent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A missing high-risk anticoagulant due soon."
+        },
+        {
+          "id": "B",
+          "text": "A brand-name preference."
+        },
+        {
+          "id": "C",
+          "text": "A tablet colour change."
+        },
+        {
+          "id": "D",
+          "text": "A non-urgent vitamin."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Missing a high-risk medicine can cause immediate harm."
+    },
+    {
+      "id": "q54",
+      "stem": "A patient cannot recall doses. What is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess."
+        },
+        {
+          "id": "B",
+          "text": "Use multiple reliable sources such as pharmacy, records and carers with consent."
+        },
+        {
+          "id": "C",
+          "text": "Exclude all medicines."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Medication histories should be verified using reliable sources."
+    },
+    {
+      "id": "q55",
+      "stem": "Why should incident reports avoid blame?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blame improves safety."
+        },
+        {
+          "id": "B",
+          "text": "Blame replaces accountability."
+        },
+        {
+          "id": "C",
+          "text": "Blame discourages reporting and hides system causes."
+        },
+        {
+          "id": "D",
+          "text": "Blame is required legally."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A learning approach examines contributing factors while preserving fair accountability."
+    },
+    {
+      "id": "q56",
+      "stem": "A prescriber does not respond to an urgent medication discrepancy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait indefinitely."
+        },
+        {
+          "id": "B",
+          "text": "Administer anyway."
+        },
+        {
+          "id": "C",
+          "text": "Delete the order."
+        },
+        {
+          "id": "D",
+          "text": "Escalate through the next approved pathway."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Escalation should continue when urgency is not matched by response."
+    },
+    {
+      "id": "q57",
+      "stem": "Which outcome best shows effective medication reconciliation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discrepancies were identified, clarified, documented and communicated."
+        },
+        {
+          "id": "B",
+          "text": "The list was copied."
+        },
+        {
+          "id": "C",
+          "text": "The patient signed a form."
+        },
+        {
+          "id": "D",
+          "text": "The medicines were counted."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effective reconciliation resolves discrepancies and communicates the final plan."
+    },
+    {
+      "id": "q58",
+      "stem": "A medication omission is discovered after transfer. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer two doses."
+        },
+        {
+          "id": "B",
+          "text": "Assess the patient and notify the appropriate clinician."
+        },
+        {
+          "id": "C",
+          "text": "Hide the omission."
+        },
+        {
+          "id": "D",
+          "text": "Wait for discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Patient assessment and timely review are required."
+    },
+    {
+      "id": "q59",
+      "stem": "Which communication approach best supports closed-loop safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send an unclear text."
+        },
+        {
+          "id": "B",
+          "text": "Assume understanding."
+        },
+        {
+          "id": "C",
+          "text": "State the message, have it repeated back and confirm accuracy."
+        },
+        {
+          "id": "D",
+          "text": "Use abbreviations only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Closed-loop communication confirms that critical information was received correctly."
+    },
+    {
+      "id": "q60",
+      "stem": "What is the best indicator of professional incident management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The report is complete."
+        },
+        {
+          "id": "B",
+          "text": "The nurse apologises only."
+        },
+        {
+          "id": "C",
+          "text": "The event is kept private."
+        },
+        {
+          "id": "D",
+          "text": "The patient is protected, facts are documented, relevant people are informed and system learning follows."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional management combines immediate care, communication and learning."
+    },
+    {
+      "id": "q61",
+      "stem": "A patient with limited English is learning insulin injection. What is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a professional interpreter, demonstration and teach-back."
+        },
+        {
+          "id": "B",
+          "text": "Ask a child to interpret."
+        },
+        {
+          "id": "C",
+          "text": "Provide English text only."
+        },
+        {
+          "id": "D",
+          "text": "Skip education."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Interpreter support and demonstration improve safety and understanding."
+    },
+    {
+      "id": "q62",
+      "stem": "What does teach-back assess?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient’s intelligence."
+        },
+        {
+          "id": "B",
+          "text": "Whether the nurse explained effectively."
+        },
+        {
+          "id": "C",
+          "text": "Memory only."
+        },
+        {
+          "id": "D",
+          "text": "Compliance only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Teach-back checks the clarity of education."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient fasts for religious reasons while taking diabetes medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss the practice."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient to stop fasting."
+        },
+        {
+          "id": "C",
+          "text": "Explore the plan respectfully and coordinate safe medication timing."
+        },
+        {
+          "id": "D",
+          "text": "Withhold all medicines permanently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Culturally responsive care balances beliefs with safety."
+    },
+    {
+      "id": "q64",
+      "stem": "Which statement best supports shared decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“You must follow the plan.”"
+        },
+        {
+          "id": "B",
+          "text": "“The doctor has decided.”"
+        },
+        {
+          "id": "C",
+          "text": "“There is no need to ask questions.”"
+        },
+        {
+          "id": "D",
+          "text": "“These are the options, benefits and risks; what matters most to you?”"
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Shared decision-making includes informed options and patient preferences."
+    },
+    {
+      "id": "q65",
+      "stem": "A patient cannot understand a complex dosing schedule. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use plain language, visual schedules and teach-back."
+        },
+        {
+          "id": "B",
+          "text": "Repeat the same technical explanation."
+        },
+        {
+          "id": "C",
+          "text": "Label the patient non-compliant."
+        },
+        {
+          "id": "D",
+          "text": "Give no written plan."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Education should be adapted to health literacy."
+    },
+    {
+      "id": "q66",
+      "stem": "Why should nurses ask about traditional medicines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are always safe."
+        },
+        {
+          "id": "B",
+          "text": "They may influence adherence or interact with prescribed medicines."
+        },
+        {
+          "id": "C",
+          "text": "They are irrelevant."
+        },
+        {
+          "id": "D",
+          "text": "They replace reconciliation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Traditional and complementary products may affect safety."
+    },
+    {
+      "id": "q67",
+      "stem": "A patient demonstrates incorrect inhaler technique after teaching. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Document failure only."
+        },
+        {
+          "id": "B",
+          "text": "Tell the family."
+        },
+        {
+          "id": "C",
+          "text": "Repeat and adapt education, then reassess technique."
+        },
+        {
+          "id": "D",
+          "text": "Assume improvement later."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education should continue until safe technique is demonstrated."
+    },
+    {
+      "id": "q68",
+      "stem": "Which topic is important when teaching a new sedating medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Room number."
+        },
+        {
+          "id": "B",
+          "text": "Tablet colour only."
+        },
+        {
+          "id": "C",
+          "text": "Prescriber’s office hours only."
+        },
+        {
+          "id": "D",
+          "text": "Driving and alcohol precautions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sedation can affect driving and interact with alcohol."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient refuses a medicine because of fear of dependence. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore the concern and provide balanced information."
+        },
+        {
+          "id": "B",
+          "text": "Force administration."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the concern."
+        },
+        {
+          "id": "D",
+          "text": "Call security."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respectful enquiry supports informed decisions."
+    },
+    {
+      "id": "q70",
+      "stem": "Which outcome best shows successful medication education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The leaflet was given."
+        },
+        {
+          "id": "B",
+          "text": "The patient accurately explains and demonstrates the plan."
+        },
+        {
+          "id": "C",
+          "text": "The nurse spoke for ten minutes."
+        },
+        {
+          "id": "D",
+          "text": "The family nodded."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Understanding is shown through accurate explanation or demonstration."
+    },
+    {
+      "id": "q71",
+      "stem": "A patient with low vision needs a complex medicine schedule. What is the BEST intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standard small print."
+        },
+        {
+          "id": "B",
+          "text": "Family-only instruction."
+        },
+        {
+          "id": "C",
+          "text": "Large-print or accessible labels, organised schedule and teach-back."
+        },
+        {
+          "id": "D",
+          "text": "No written information."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education should be adapted to sensory needs."
+    },
+    {
+      "id": "q72",
+      "stem": "A patient asks whether to double a missed dose. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Always advise doubling."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient to guess."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the question."
+        },
+        {
+          "id": "D",
+          "text": "Provide medicine-specific guidance and discourage doubling unless instructed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Missed-dose advice must be safe and specific."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient cannot afford one prescribed medicine. What is the BEST nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore the barrier and involve the team in affordable safe options."
+        },
+        {
+          "id": "B",
+          "text": "Label the patient non-adherent."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to stop all medicines."
+        },
+        {
+          "id": "D",
+          "text": "Ignore cost."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Practical barriers should be addressed through coordinated care."
+    },
+    {
+      "id": "q74",
+      "stem": "Which action best supports culturally safe education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use stereotypes."
+        },
+        {
+          "id": "B",
+          "text": "Ask rather than assume beliefs and preferences."
+        },
+        {
+          "id": "C",
+          "text": "Provide identical teaching regardless of need."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussion."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Cultural safety requires respectful individual enquiry."
+    },
+    {
+      "id": "q75",
+      "stem": "A patient is being discharged with warfarin. Which education is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tablet colour only."
+        },
+        {
+          "id": "B",
+          "text": "Hospital visiting hours."
+        },
+        {
+          "id": "C",
+          "text": "Bleeding signs, monitoring, interactions and when to seek help."
+        },
+        {
+          "id": "D",
+          "text": "No special education."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Warfarin requires monitoring and bleeding-risk education."
+    },
+    {
+      "id": "q76",
+      "stem": "A patient on insulin cannot demonstrate hypoglycaemia management. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discharge anyway."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to read later."
+        },
+        {
+          "id": "C",
+          "text": "Document refusal without further action."
+        },
+        {
+          "id": "D",
+          "text": "Continue education and correct the gap before discharge."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Critical self-management skills should be confirmed before discharge."
+    },
+    {
+      "id": "q77",
+      "stem": "Which statement best reflects adherence support?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore barriers and agree on a realistic plan."
+        },
+        {
+          "id": "B",
+          "text": "Blame the patient."
+        },
+        {
+          "id": "C",
+          "text": "Provide more technical information only."
+        },
+        {
+          "id": "D",
+          "text": "Use coercion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Adherence improves when individual barriers are addressed."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient uses alcohol daily and is prescribed a medicine with interaction risk. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it."
+        },
+        {
+          "id": "B",
+          "text": "Assess use non-judgementally and provide specific safety advice."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient never to disclose alcohol use."
+        },
+        {
+          "id": "D",
+          "text": "Stop the medicine independently."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Non-judgemental assessment supports accurate risk management."
+    },
+    {
+      "id": "q79",
+      "stem": "A patient with cognitive impairment needs medication education. What is the BEST plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude the patient."
+        },
+        {
+          "id": "B",
+          "text": "Give one long explanation."
+        },
+        {
+          "id": "C",
+          "text": "Use simple repeated information, assess capacity and involve appropriate support."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education should be adapted while preserving participation and safety."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best represents person-centred medication safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The chart is complete only."
+        },
+        {
+          "id": "B",
+          "text": "The medicine was dispensed."
+        },
+        {
+          "id": "C",
+          "text": "The nurse gave standard information."
+        },
+        {
+          "id": "D",
+          "text": "The patient understands, participates and can manage the treatment safely."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Person-centred safety combines understanding, participation and safe self-management."
+    }
+  ]
+}

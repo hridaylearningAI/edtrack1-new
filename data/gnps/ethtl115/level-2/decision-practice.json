@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "C. difficile hand hygiene",
+      "scenario": "You have just finished providing perineal care to a patient with suspected Clostridioides difficile infection. After removing your gloves, you stand at the bedside. The patient is still in bed, and the room smells strongly of diarrhoea. You are about to move on to your next task. You must decide what to do first regarding hand hygiene.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Perform soap-and-water hand hygiene immediately and follow contact precautions.",
+      "modelWhy": "C. difficile spores are not reliably removed by alcohol rub; soap-and-water reduces transmission.",
+      "modelNext": "Ensure environmental cleaning measures and dedicated equipment; monitor hydration and skin integrity.",
+      "trap": "Using alcohol hand rub only and moving to the next patient.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Needlestick injury",
+      "scenario": "While disposing of a used needle into a sharps container, you accidentally prick your finger. You feel a sharp pain and notice a small drop of blood. Your heart rate increases slightly as you realise what has just happened. You are worried about possible exposure to blood-borne pathogens. You must decide your first action in response to this injury.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Perform immediate first aid (wash/flush), report immediately, and follow exposure management protocol.",
+      "modelWhy": "Prompt action reduces infection risk and enables timely prophylaxis and documentation.",
+      "modelNext": "Arrange baseline blood tests and source patient testing per policy; complete incident documentation.",
+      "trap": "Hiding the incident due to embarrassment or delaying reporting until end of shift.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Therapeutic response to fear",
+      "scenario": "A patient you have been caring for looks visibly distressed and tearful. They say to you in a trembling voice, “I’m scared… I think I’m going to die.” Their breathing is slightly rapid, and they appear anxious. You sense that they need emotional support as well as clinical care. You must decide what to say and do first in response to their fear.",
+      "prompts": [
+        "Your first response (what will you say?)",
+        "Your reason",
+        "What you will do next"
+      ],
+      "modelFirst": "Use therapeutic communication: “That sounds very frightening. Tell me what is worrying you most right now.”",
+      "modelWhy": "Acknowledging feelings builds trust and opens assessment of emotional and physical distress.",
+      "modelNext": "Assess anxiety triggers, pain, breathing, and safety; offer appropriate support and escalate if distress is severe.",
+      "trap": "Saying “Don’t worry” or giving false reassurance (“Everything will be fine”).",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Angry family member (de-escalation)",
+      "scenario": "You are standing at the nurses’ station when a family member suddenly approaches, visibly upset and speaking loudly. They are yelling, “No one is looking after my mother! She’s been calling for hours!” Other patients and staff can hear them. You feel tension rising in the area, and you are concerned about maintaining safety, professionalism, and confidentiality. You must decide your first action to manage this situation.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will do next"
+      ],
+      "modelFirst": "Stay calm, move to a private space if safe, and acknowledge concern: “I can see you’re worried—let’s talk.”",
+      "modelWhy": "De-escalation protects safety and maintains confidentiality in a public area.",
+      "modelNext": "Clarify the concern, provide updates within privacy limits, and escalate to senior nurse if needed.",
+      "trap": "Arguing back in public or disclosing patient details loudly at the station.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Delegation: unstable vs stable",
+      "scenario": "You are in charge of a small team and have a nursing assistant available to help. Two tasks need attention at the same time. One is to take routine vital signs for a stable patient who is post-operative day two and doing well. The second is to assess another patient who has suddenly become confused, which is new for them. You are feeling busy and must decide which task can be delegated and which you must do yourself.",
+      "prompts": [
+        "What can be delegated",
+        "Why",
+        "What will you do next"
+      ],
+      "modelFirst": "Delegate routine vital signs for the stable patient; you must assess the newly confused patient yourself.",
+      "modelWhy": "Assessment and clinical judgment cannot be delegated; new confusion may indicate deterioration.",
+      "modelNext": "Assess the confused patient’s vitals, neuro status, glucose, oxygenation; escalate if red flags present.",
+      "trap": "Delegating the assessment of the confused patient because you feel busy.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Scope: changing IV infusion rate",
+      "scenario": "A student nurse approaches you and asks if they can independently change the rate of an IV medication infusion after a new provider order has been written. The medication is high-risk, and the student appears eager but inexperienced. You must decide how to respond in a way that ensures patient safety while supporting the student’s learning.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will do next"
+      ],
+      "modelFirst": "Supervise and ensure policy/competency requirements are met; confirm the order and safety checks before any change.",
+      "modelWhy": "IV medication changes are high risk and often require competency/authorisation; supervision protects patient safety.",
+      "modelNext": "Verify patient, drug, dose, pump settings, and monitor for adverse effects; document per policy.",
+      "trap": "Allowing changes without supervision or without confirming the order and checks.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Pain management vs respiratory depression",
+      "scenario": "You are caring for a patient who is receiving opioid medication for pain. The patient now appears very sleepy and difficult to arouse. You notice that their respiratory rate is only 8 breaths per minute, and their oxygen saturation is 90%. Earlier, the patient had complained of significant pain. You must decide what to do first in this potentially life-threatening situation.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Prioritise breathing: stimulate, assess airway/breathing, apply oxygen as appropriate, and escalate urgently.",
+      "modelWhy": "Respiratory depression is life-threatening; pain control is secondary until breathing is stabilised.",
+      "modelNext": "Check level of consciousness, sedation score; prepare naloxone per protocol; monitor vitals closely.",
+      "trap": "Giving more opioid for pain without recognising respiratory depression.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Aspiration risk during feeding",
+      "scenario": "You are assisting a patient with a history of stroke to drink water. As they swallow, they suddenly start coughing, making a gurgling sound. You notice drooling at the corner of their mouth. The patient looks uncomfortable and distressed. You are concerned about aspiration. You must decide your immediate action.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Stop oral intake immediately and maintain airway safety; keep patient upright and request swallow assessment.",
+      "modelWhy": "Coughing/gurgling suggests dysphagia and aspiration risk; continuing PO intake can cause aspiration pneumonia.",
+      "modelNext": "Assess lung sounds and oxygenation; ensure suction available; follow dysphagia diet/fluids orders if set.",
+      "trap": "Encouraging the patient to ‘drink slowly’ and continuing oral intake.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

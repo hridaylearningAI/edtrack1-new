@@ -1,0 +1,953 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Hyperemesis Gravidarum with Dehydration",
+      "stem": "Mrs. Nisha Kapoor is a 25-year-old primigravida at 10 weeks of pregnancy who presents to the antenatal unit with persistent nausea and vomiting for the last several days. She reports that she is unable to tolerate food and has kept down only small sips of water. She feels dizzy on standing, has a dry mouth, and says her clothes feel loose because she has been losing weight. On assessment, the nurse notes blood pressure 92/58 mmHg, pulse 112 beats per minute, dry mucous membranes, dark concentrated urine, and visible fatigue. The patient says, “I wanted this pregnancy so much, but I feel miserable and weak all the time.” The nurse suspects hyperemesis gravidarum rather than normal morning sickness. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings most strongly support hyperemesis gravidarum rather than common nausea of pregnancy? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tachycardia and low blood pressure"
+            },
+            {
+              "id": "B",
+              "text": "Dizziness and weakness"
+            },
+            {
+              "id": "C",
+              "text": "Persistent vomiting with poor intake"
+            },
+            {
+              "id": "D",
+              "text": "Dark concentrated urine"
+            },
+            {
+              "id": "E",
+              "text": "Dry mucous membranes"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these cues point to clinically significant fluid volume deficit rather than ordinary early-pregnancy nausea. Hyperemesis gravidarum is characterised by persistent vomiting, dehydration, weight loss, and hemodynamic changes. Dark urine and dry mucous membranes indicate poor hydration, while tachycardia and hypotension suggest the body is compensating for low circulating volume. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s priority interpretation of this presentation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hyperemesis gravidarum with dehydration and risk of electrolyte imbalance"
+            },
+            {
+              "id": "B",
+              "text": "Normal first-trimester discomfort that can be managed by reassurance alone"
+            },
+            {
+              "id": "C",
+              "text": "Labour-related abdominal pain"
+            },
+            {
+              "id": "D",
+              "text": "A psychiatric cause of vomiting with no obstetric significance"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This patient’s findings show more than common morning sickness. The signs of dehydration and likely electrolyte loss make this an obstetric and medical concern. NCLEX reasoning requires distinguishing expected pregnancy discomforts from findings that threaten maternal wellbeing and fetal support. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem should the nurse prioritise first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fear related to pregnancy adjustment"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit regarding infant care"
+            },
+            {
+              "id": "D",
+              "text": "Deficient fluid volume related to persistent vomiting"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Although emotional support is important, the most urgent issue is fluid deficit. Dehydration can quickly worsen maternal perfusion, renal function, and nutritional status, which in turn may compromise pregnancy progress. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage the patient to eat a heavy meal immediately"
+            },
+            {
+              "id": "B",
+              "text": "Delay intervention until the next prenatal visit"
+            },
+            {
+              "id": "C",
+              "text": "Begin focused assessment of hydration status, support rest, and prepare for fluid replacement and antiemetic therapy as prescribed"
+            },
+            {
+              "id": "D",
+              "text": "Tell the patient that vomiting is normal and she should go home"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Immediate nursing care should focus on hydration, safety, and preparation for treatment. Forcing a heavy meal is unrealistic and may worsen symptoms. Sending the patient home without treatment would ignore signs of dehydration and clinical deterioration. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor intake and output closely"
+            },
+            {
+              "id": "B",
+              "text": "Observe for worsening dizziness or electrolyte-related weakness"
+            },
+            {
+              "id": "C",
+              "text": "Reassess weight trends and urine concentration"
+            },
+            {
+              "id": "D",
+              "text": "Provide nonjudgmental support and explain the condition"
+            },
+            {
+              "id": "E",
+              "text": "Ignore emotional distress because physical issues are the only priority"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "NGN-level maternity care includes both physical and emotional support. Intake/output and weight trends help evaluate hydration and nutrition. Emotional reassurance matters because prolonged vomiting can be frightening and discouraging. Ignoring distress would not reflect holistic nursing care. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Hyperemesis Gravidarum with Dehydration | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that the plan of care is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient tolerates fluids better, urine becomes less concentrated, pulse slows, and dizziness decreases"
+            },
+            {
+              "id": "B",
+              "text": "Vomiting worsens and the patient becomes more hypotensive"
+            },
+            {
+              "id": "C",
+              "text": "The nurse stops monitoring after one dose of antiemetic"
+            },
+            {
+              "id": "D",
+              "text": "The patient remains unable to take in fluids but says she feels hopeful"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by better hydration, less concentrated urine, more stable vital signs, and reduced dizziness. Hopefulness is valuable, but physiological improvement is the clearest outcome indicator."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Severe Preeclampsia",
+      "stem": "Mrs. Farah Ahmed is a 31-year-old woman at 34 weeks’ gestation who presents to the labour assessment unit complaining of a severe frontal headache, blurred vision, and sudden swelling of her hands and face. She reports that the baby has been moving, but she feels unusually unwell and says, “My head feels like it will burst.” Assessment reveals blood pressure 168/112 mmHg, brisk reflexes, +3 protein on dipstick, and mild right upper quadrant discomfort. The fetal monitor is applied, and the nurse recognises that this pattern is concerning for severe preeclampsia with risk of maternal and fetal deterioration. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are red flags for severe preeclampsia? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Severe headache"
+            },
+            {
+              "id": "B",
+              "text": "Right upper quadrant discomfort"
+            },
+            {
+              "id": "C",
+              "text": "Blood pressure 168/112 mmHg"
+            },
+            {
+              "id": "D",
+              "text": "Visual disturbance"
+            },
+            {
+              "id": "E",
+              "text": "Proteinuria and brisk reflexes"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are classic warning signs of severe preeclampsia. Headache, visual disturbance, and hypertension suggest cerebral involvement. Brisk reflexes indicate increased neuromuscular irritability, and right upper quadrant pain may reflect hepatic involvement. NCLEX-style maternity questions place heavy emphasis on recognising these as urgent findings. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation of this presentation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Severe preeclampsia with risk of seizure, placental compromise, and maternal organ injury"
+            },
+            {
+              "id": "B",
+              "text": "Normal third-trimester discomforts"
+            },
+            {
+              "id": "C",
+              "text": "Early postpartum haemorrhage"
+            },
+            {
+              "id": "D",
+              "text": "Simple anxiety about labour"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The symptom cluster is highly concerning for severe preeclampsia. This is not an expected discomfort of pregnancy. The nurse must think about maternal cerebral, renal, hepatic, and placental risks. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "B",
+              "text": "Risk for maternal seizure and reduced placental perfusion"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit regarding breastfeeding"
+            },
+            {
+              "id": "D",
+              "text": "Anxiety about motherhood"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The priority is prevention of maternal and fetal injury. Preeclampsia threatens the brain, liver, kidneys, and uteroplacental circulation. That risk overrides all long-term teaching needs. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage the patient to walk around to reduce swelling"
+            },
+            {
+              "id": "B",
+              "text": "Delay intervention until laboratory results return next day"
+            },
+            {
+              "id": "C",
+              "text": "Offer a large meal and discharge home"
+            },
+            {
+              "id": "D",
+              "text": "Reduce stimulation, maintain safety, initiate close maternal-fetal monitoring, and prepare for urgent antihypertensive and magnesium sulfate therapy as prescribed"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse must reduce seizure risk, support close monitoring, and prepare for time-sensitive management. Walking, discharge, or delay would be unsafe. In severe preeclampsia, nursing priorities include seizure precautions, fetal assessment, and readiness for urgent escalation. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor reflexes, respiratory status, and urine output closely if magnesium sulfate is started"
+            },
+            {
+              "id": "B",
+              "text": "Prepare for possible urgent birth if maternal or fetal status worsens"
+            },
+            {
+              "id": "C",
+              "text": "Maintain a calm, low-stimulation environment"
+            },
+            {
+              "id": "D",
+              "text": "Dismiss blurred vision because oedema alone explains it"
+            },
+            {
+              "id": "E",
+              "text": "Assess fetal heart rate patterns and maternal symptoms frequently"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Magnesium sulfate monitoring is critical because toxicity can depress respirations. Fetal monitoring remains essential because placental perfusion may be impaired. Visual changes should never be dismissed in preeclampsia. Anticipating possible urgent delivery reflects advanced clinical judgment. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Severe Preeclampsia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement or stabilisation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Headache intensifies and blood pressure rises further"
+            },
+            {
+              "id": "B",
+              "text": "Fetal monitoring is discontinued because the mother feels calmer"
+            },
+            {
+              "id": "C",
+              "text": "Blood pressure becomes better controlled, severe headache lessens, reflexes are appropriately monitored, and fetal status remains reassuring"
+            },
+            {
+              "id": "D",
+              "text": "Respirations fall dangerously on magnesium sulfate without reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Stabilisation is shown by improved blood pressure, reduced neurological symptoms, and continued maternal-fetal monitoring. Respiratory depression or worsening hypertension would indicate poor control or complications."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Eclampsia During Antepartum Admission",
+      "stem": "Mrs. Simran Kaur is a 29-year-old woman at 35 weeks’ gestation admitted earlier in the day with severe preeclampsia. While the nurse is updating observations, the patient suddenly becomes rigid and begins to seize in bed. Her partner panics and calls for help. The fetal monitor is in place, the room has low lighting, and side rails are raised. The nurse must protect the mother from injury, support airway safety, and prepare for emergency management while recognising that fetal compromise may also occur during the event. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "What makes this an obstetric emergency? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pregnancy at 35 weeks"
+            },
+            {
+              "id": "B",
+              "text": "Tonic-clonic seizure activity"
+            },
+            {
+              "id": "C",
+              "text": "Possible fetal compromise during maternal seizure"
+            },
+            {
+              "id": "D",
+              "text": "Known severe preeclampsia"
+            },
+            {
+              "id": "E",
+              "text": "Maternal risk of airway compromise and trauma"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "A seizure in a patient with severe preeclampsia is eclampsia, a life-threatening obstetric emergency. Pregnancy context is important, but what makes the situation emergent is the direct risk to maternal airway, oxygenation, circulation, and fetal wellbeing. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s priority interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is having a normal labour event"
+            },
+            {
+              "id": "B",
+              "text": "The patient only needs comfort measures"
+            },
+            {
+              "id": "C",
+              "text": "The patient is experiencing eclampsia requiring immediate seizure management and maternal-fetal stabilisation"
+            },
+            {
+              "id": "D",
+              "text": "The seizure can be ignored until it stops"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "This is eclampsia and must be treated urgently. NCLEX expects immediate recognition of seizure risk in hypertensive pregnancy complications and rapid implementation of emergency priorities. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent during the seizure?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Airway obstruction, maternal injury, and decreased oxygen delivery to mother and fetus"
+            },
+            {
+              "id": "B",
+              "text": "Need for postpartum teaching"
+            },
+            {
+              "id": "C",
+              "text": "Anxiety about labour pain"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "During active seizure, the greatest danger is compromise of maternal airway, oxygenation, and physical safety. The fetus is also vulnerable if maternal oxygen delivery drops. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Try to hold the patient down forcefully"
+            },
+            {
+              "id": "B",
+              "text": "Leave the room to find the doctor before doing anything else"
+            },
+            {
+              "id": "C",
+              "text": "Stay with the patient, protect from injury, position for airway safety as feasible after the seizure, call for urgent help, and prepare prescribed seizure management"
+            },
+            {
+              "id": "D",
+              "text": "Put an object in the patient’s mouth to prevent tongue injury"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The nurse must remain with the patient, protect from injury, and support airway safety. Objects should never be forced into the mouth. Forceful restraint can injure the patient. Leaving the room without first ensuring active response and protection would be unsafe. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate after the seizure subsides? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maintain seizure precautions and low stimulation"
+            },
+            {
+              "id": "B",
+              "text": "Reassess airway, breathing, circulation, and maternal level of consciousness"
+            },
+            {
+              "id": "C",
+              "text": "Assess fetal status and continue close monitoring"
+            },
+            {
+              "id": "D",
+              "text": "Assume no further assessment is needed once the shaking stops"
+            },
+            {
+              "id": "E",
+              "text": "Prepare for magnesium sulfate or review of ongoing magnesium therapy as ordered"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Post-seizure care includes full maternal reassessment, fetal reassessment, seizure prevention strategies, and medication management. The end of visible seizure activity does not mean the emergency has ended. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Eclampsia During Antepartum Admission | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that immediate nursing management is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse documents only the duration without reassessment"
+            },
+            {
+              "id": "B",
+              "text": "Fetal status is ignored because the seizure is over"
+            },
+            {
+              "id": "C",
+              "text": "The patient remains unmonitored after the seizure ends"
+            },
+            {
+              "id": "D",
+              "text": "The mother is protected from injury, airway is maintained, maternal status is reassessed, and fetal monitoring resumes appropriately"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Effective care includes protection during the seizure and comprehensive reassessment afterward. Both mother and fetus require continued evaluation."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Placenta Previa with Third-Trimester Bleeding",
+      "stem": "Mrs. Elena D’Souza is a 33-year-old woman at 32 weeks’ gestation who presents with sudden painless bright-red vaginal bleeding. She denies abdominal pain or contractions and says the baby has been moving normally. She appears frightened and asks whether her baby is in danger. Her blood pressure is 110/68 mmHg, pulse 102 beats per minute, respiratory rate 20 breaths per minute, and the bleeding continues lightly onto the pad. The nurse suspects placenta previa and understands that some common examination approaches are unsafe until the placenta location is confirmed. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with placenta previa? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Absence of abdominal pain"
+            },
+            {
+              "id": "B",
+              "text": "Ongoing fetal movement"
+            },
+            {
+              "id": "C",
+              "text": "Painless bleeding"
+            },
+            {
+              "id": "D",
+              "text": "Bright-red vaginal bleeding"
+            },
+            {
+              "id": "E",
+              "text": "Third-trimester presentation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Placenta previa typically presents with painless bright-red bleeding in the second half of pregnancy. Fetal movement may still be present, especially if fetal compromise has not yet developed. The absence of pain helps distinguish it from placental abruption in many cases. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the most appropriate interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Postpartum haemorrhage"
+            },
+            {
+              "id": "B",
+              "text": "Likely placenta previa requiring maternal-fetal assessment and bleeding precautions"
+            },
+            {
+              "id": "C",
+              "text": "Placental abruption with severe pain"
+            },
+            {
+              "id": "D",
+              "text": "Normal labour show"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The bleeding pattern strongly suggests placenta previa. Because placenta overlies or approaches the cervical os, vaginal bleeding may occur without pain. The nurse must think about safe assessment and preventing further bleeding. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit about newborn sleep"
+            },
+            {
+              "id": "B",
+              "text": "Readiness for discharge"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Risk for maternal blood loss and fetal compromise related to placental bleeding"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The immediate concern is ongoing bleeding and its impact on maternal circulation and fetal perfusion. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess maternal-fetal status, monitor bleeding, and avoid vaginal examination until placenta location is confirmed by the appropriate team"
+            },
+            {
+              "id": "B",
+              "text": "Perform a digital vaginal exam to check dilation"
+            },
+            {
+              "id": "C",
+              "text": "Delay fetal monitoring until bleeding stops"
+            },
+            {
+              "id": "D",
+              "text": "Encourage the patient to walk around"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "In suspected placenta previa, digital vaginal examination may provoke severe bleeding and is contraindicated unless specifically directed in a controlled setting. Maternal and fetal monitoring are immediate priorities. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor vital signs and bleeding amount closely"
+            },
+            {
+              "id": "B",
+              "text": "Explain the need for pelvic rest if ordered"
+            },
+            {
+              "id": "C",
+              "text": "Prepare for ultrasound-based evaluation and possible admission"
+            },
+            {
+              "id": "D",
+              "text": "Ignore maternal anxiety because bleeding is the only priority"
+            },
+            {
+              "id": "E",
+              "text": "Apply fetal monitoring and assess fetal status"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Maternity care is both physiological and supportive. Monitoring, fetal assessment, preparation for evaluation, and patient teaching are all appropriate. Anxiety should not be ignored. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placenta Previa with Third-Trimester Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates stable management at this stage?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "A digital exam is performed without indication"
+            },
+            {
+              "id": "B",
+              "text": "Bleeding decreases or remains controlled, maternal vital signs stay stable, and fetal status remains reassuring"
+            },
+            {
+              "id": "C",
+              "text": "The patient is discharged without ongoing assessment"
+            },
+            {
+              "id": "D",
+              "text": "Bleeding increases while monitoring is reduced"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Stable maternal signs and reassuring fetal assessment indicate the situation is under better control, though continued vigilance is still needed."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Placental Abruption",
+      "stem": "Mrs. Priya Menon, a 37-year-old multiparous woman at 35 weeks’ gestation, arrives complaining of sudden severe abdominal pain and dark vaginal bleeding after she slipped on wet flooring earlier in the day. She is guarding her abdomen and says the pain is constant. She reports reduced fetal movement since the pain began. On assessment, the uterus feels firm and tender. Blood pressure is 96/60 mmHg, pulse 124 beats per minute, respiratory rate 24 breaths per minute, and the fetal monitor shows a concerning pattern. The nurse suspects placental abruption. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support placental abruption? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dark vaginal bleeding"
+            },
+            {
+              "id": "B",
+              "text": "Uterine tenderness and firmness"
+            },
+            {
+              "id": "C",
+              "text": "Reduced fetal movement"
+            },
+            {
+              "id": "D",
+              "text": "Signs of maternal instability"
+            },
+            {
+              "id": "E",
+              "text": "Severe abdominal pain"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Placental abruption typically presents with painful bleeding, uterine tenderness, and often reduced fetal movement due to compromised placental exchange. Maternal tachycardia and hypotension suggest significant blood loss or shock. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Baby blues"
+            },
+            {
+              "id": "B",
+              "text": "Normal labour discomfort"
+            },
+            {
+              "id": "C",
+              "text": "Placental abruption with risk of maternal haemorrhage and fetal compromise"
+            },
+            {
+              "id": "D",
+              "text": "Placenta previa"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "This is a painful bleeding emergency, unlike the typically painless bleeding seen with placenta previa. The nurse must recognise the dual risk to mother and fetus. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired placental perfusion with maternal haemorrhage risk"
+            },
+            {
+              "id": "B",
+              "text": "Knowledge deficit about parenting"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Need for menu planning"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Placental separation compromises fetal oxygenation and may lead to severe maternal bleeding. This is a high-priority obstetric emergency. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay fetal monitoring until the bleeding is measured for several hours"
+            },
+            {
+              "id": "B",
+              "text": "Encourage the patient to walk to the toilet"
+            },
+            {
+              "id": "C",
+              "text": "Offer oral food and fluids first"
+            },
+            {
+              "id": "D",
+              "text": "Initiate urgent maternal-fetal assessment, support circulation, and prepare for emergency obstetric management"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse must stabilise maternal circulation and monitor fetal status immediately. Delay or unnecessary activity would be unsafe. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Preparation for urgent birth if maternal or fetal instability worsens"
+            },
+            {
+              "id": "B",
+              "text": "Continuous fetal heart rate assessment"
+            },
+            {
+              "id": "C",
+              "text": "Maintaining IV access and readiness for rapid intervention as ordered"
+            },
+            {
+              "id": "D",
+              "text": "Frequent monitoring of maternal vital signs and bleeding"
+            },
+            {
+              "id": "E",
+              "text": "Assuming that reduced fetal movement is not important"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Reduced fetal movement is highly significant and should not be ignored. The nurse must prepare for escalation and possible urgent delivery. Program Area: Maternal and Newborn Nursing | Level: Level 3 - Global Nursing Professional | Section: Placental Abruption | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates the patient is being effectively stabilised while definitive care is arranged?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring is stopped because pain is present"
+            },
+            {
+              "id": "B",
+              "text": "Bleeding increases without reassessment"
+            },
+            {
+              "id": "C",
+              "text": "Maternal perfusion is supported, fetal status is continuously assessed, and the team is prepared for rapid obstetric intervention"
+            },
+            {
+              "id": "D",
+              "text": "The patient is left alone because the doctor has been called"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Effective emergency nursing care involves continuous assessment, support, and anticipation of urgent obstetric management."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Opioid overdose",
+      "scenario": "A patient is found unresponsive in bed with very slow, shallow respirations. On assessment, the pupils are pinpoint, and the patient does not respond to verbal stimuli or light physical stimulation.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer naloxone and support airway.",
+      "modelWhy": "Respiratory depression is the immediate threat.",
+      "modelNext": "Monitor oxygen saturation.",
+      "trap": "Waiting for toxicology results.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Medication non-adherence",
+      "scenario": "A patient with bipolar disorder admits they stopped taking their prescribed medication because they felt “normal again” and believed they no longer needed treatment. The patient appears confident in this decision and minimizes past symptoms.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Explore reasons for non-adherence and provide education.",
+      "modelWhy": "Stopping medication increases relapse risk.",
+      "modelNext": "Assess insight and support systems.",
+      "trap": "Lecturing the patient.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Antipsychotic extrapyramidal symptoms",
+      "scenario": "A patient taking antipsychotic medication begins to exhibit muscle stiffness, tremors, and slowed movements. The patient complains of feeling uncomfortable and restless, with noticeable rigidity in the neck and arms.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess for extrapyramidal symptoms and notify the provider.",
+      "modelWhy": "Early recognition prevents complications.",
+      "modelNext": "Monitor for worsening symptoms.",
+      "trap": "Ignoring symptoms as anxiety.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Neuroleptic malignant syndrome",
+      "scenario": "A patient receiving antipsychotic medication develops a high fever, severe muscle rigidity, confusion, and autonomic instability. Vital signs are abnormal, and the patient appears acutely ill.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the medication and initiate emergency care.",
+      "modelWhy": "NMS is life-threatening.",
+      "modelNext": "Monitor temperature and vital signs.",
+      "trap": "Treating as simple infection.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Major depressive episode",
+      "scenario": "A patient reports persistent sadness, extreme fatigue, and loss of interest in previously enjoyed activities for several weeks. The patient speaks slowly, appears tearful, and reports difficulty sleeping and concentrating.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess for suicide risk and initiate therapeutic communication.",
+      "modelWhy": "Depression increases suicide risk.",
+      "modelNext": "Monitor sleep and appetite.",
+      "trap": "Encouraging the patient to “cheer up.”",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Eating disorder – anorexia nervosa",
+      "scenario": "A patient diagnosed with anorexia nervosa refuses meals and presents with a markedly low body weight. Vital signs reveal bradycardia, and the patient insists they are “not hungry” and do not need to eat.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess medical stability and enforce meal plan.",
+      "modelWhy": "Electrolyte imbalance can be fatal.",
+      "modelNext": "Monitor weight and vitals.",
+      "trap": "Negotiating food refusal.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Bulimia nervosa",
+      "scenario": "A patient reports episodes of binge eating followed by self-induced vomiting. The patient expresses shame about these behaviors and complains of sore throat and fatigue.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess for electrolyte imbalance and dental erosion.",
+      "modelWhy": "Purging affects cardiac stability.",
+      "modelNext": "Monitor potassium levels.",
+      "trap": "Focusing only on weight.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Postpartum psychosis",
+      "scenario": "A woman who recently gave birth reports hearing voices that instruct her to harm her newborn. She appears confused, emotionally labile, and disconnected from reality while holding the baby.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety of mother and infant and notify provider immediately.",
+      "modelWhy": "Postpartum psychosis is a psychiatric emergency.",
+      "modelNext": "Assess hallucination content.",
+      "trap": "Leaving the infant alone with the mother.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

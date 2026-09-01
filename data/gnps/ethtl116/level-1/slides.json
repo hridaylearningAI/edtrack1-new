@@ -1,0 +1,2003 @@
+{
+  "level": 1,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 1 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 2 - Level 1 - Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Creating Safe Healthcare Environments",
+          "body": "Global Nursing Professional Series (GNPS) · Program 2 · Level 1 – Qualified Nurse",
+          "bullets": [
+            {
+              "label": "STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Program 2",
+          "body": "Safe nursing practice begins with the ability to recognise hazards, prevent infection and protect every patient from avoidable harm. Clinical environments can become unsafe very quickly when basic precautions are missed, communication is unclear or risks go unaddressed.",
+          "bullets": [
+            {
+              "label": "Safe environments are created by safe everyday actions.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Recognise Hazards",
+              "text": ""
+            },
+            {
+              "label": "Identify common environmental and clinical hazards in healthcare settings.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Prevent Infection",
+              "text": ""
+            },
+            {
+              "label": "Apply standard precautions, hand hygiene and correct PPE use.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Manage Patient Safety",
+              "text": ""
+            },
+            {
+              "label": "Reduce falls, pressure injuries and medication errors through assessment.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Communicate & Report",
+              "text": ""
+            },
+            {
+              "label": "Respond to incidents, near misses and safety concerns clearly and promptly.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "By the end of Level 1, you will be able to:",
+          "bullets": [
+            {
+              "label": "Apply essential infection-prevention principles confidently within your scope of practice",
+              "text": ""
+            },
+            {
+              "label": "Follow national standards and organisational safety policies",
+              "text": ""
+            },
+            {
+              "label": "Contribute to a positive culture of safety and quality improvement",
+              "text": ""
+            },
+            {
+              "label": "This level builds the foundation for Level 2 – International Qualified Nurse.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Understanding Safe Healthcare Environments",
+          "bullets": [
+            {
+              "label": "Safety is not created by policies alone — it is built through the everyday decisions of every nurse, every shift.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "What Makes a Healthcare Environment Safe?",
+          "body": "Clean & Organised",
+          "bullets": [
+            {
+              "label": "Uncluttered spaces, dry floors, and properly stored equipment reduce the risk of injury and infection.",
+              "text": ""
+            },
+            {
+              "label": "Confirmed Identity",
+              "text": ""
+            },
+            {
+              "label": "Always verify patient identity before care. Room familiarity is never a substitute for approved identifiers.",
+              "text": ""
+            },
+            {
+              "label": "Clear Communication",
+              "text": ""
+            },
+            {
+              "label": "Communicate changes in patient status, hazards and handover information accurately and promptly.",
+              "text": ""
+            },
+            {
+              "label": "Checked Equipment",
+              "text": ""
+            },
+            {
+              "label": "Inspect equipment before use. Damaged or faulty devices must be removed from service immediately.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "The Nurse's Role in Environmental Safety",
+          "body": "Risk Awareness in Practice",
+          "bullets": [
+            {
+              "label": "Nurses spend more time with patients than most",
+              "text": "Nurses spend more time with patients than most other healthcare professionals — making them ideally placed to notice hazards early."
+            },
+            {
+              "label": "The same environment may be safe for one patient and unsafe for another. Consider:",
+              "text": ""
+            },
+            {
+              "label": "Mobility and balance",
+              "text": ""
+            },
+            {
+              "label": "Cognitive state and confusion",
+              "text": ""
+            },
+            {
+              "label": "Effects of medication",
+              "text": ""
+            },
+            {
+              "label": "Ability to call for assistance",
+              "text": ""
+            },
+            {
+              "label": "Notice",
+              "text": ""
+            },
+            {
+              "label": "Observe the environment and the patient together.",
+              "text": ""
+            },
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "Correct immediate hazards within your role without delay.",
+              "text": ""
+            },
+            {
+              "label": "Report",
+              "text": ""
+            },
+            {
+              "label": "Document and escalate risks through the correct process.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Speaking Up Prevents Falls",
+          "bullets": [
+            {
+              "label": "During an evening shift, Meena notices Mr Rao —",
+              "text": "During an evening shift, Meena notices Mr Rao — unsteady after pain medication — left with his bed raised and walking frame out of reach. She lowers the bed, repositions the call bell and walking frame, checks the floor is dry, and briefs the next nurse at handover. Simple, consistent actions prevented a fall."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Preventing Infection in Everyday Nursing Practice",
+          "bullets": [
+            {
+              "label": "Consistent basic precautions can prevent many healthcare-associated infections.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "The Chain of Infection",
+          "body": "Breaking the Chain",
+          "bullets": [
+            {
+              "label": "Infection occurs when a pathogen moves from a",
+              "text": "Infection occurs when a pathogen moves from a source to a susceptible person. Nurses can interrupt the chain at multiple points:"
+            },
+            {
+              "label": "Hand hygiene — removes organisms from hands",
+              "text": ""
+            },
+            {
+              "label": "PPE — creates a physical barrier",
+              "text": ""
+            },
+            {
+              "label": "Environmental cleaning — removes surface contamination",
+              "text": ""
+            },
+            {
+              "label": "Safe sharps disposal — prevents needlestick injury",
+              "text": ""
+            },
+            {
+              "label": "Respiratory hygiene — reduces droplet spread",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Hand Hygiene: The Five Moments",
+          "body": "Before Touching a Patient",
+          "bullets": [
+            {
+              "label": "Protect the patient from pathogens carried on your hands.",
+              "text": ""
+            },
+            {
+              "label": "Before a Clean or Aseptic Procedure",
+              "text": ""
+            },
+            {
+              "label": "Prevent microorganisms from entering susceptible sites.",
+              "text": ""
+            },
+            {
+              "label": "After Body Fluid Exposure",
+              "text": ""
+            },
+            {
+              "label": "Protect yourself and prevent spread to other patients or surfaces.",
+              "text": ""
+            },
+            {
+              "label": "After Touching a Patient",
+              "text": ""
+            },
+            {
+              "label": "Protect the care environment from contamination.",
+              "text": ""
+            },
+            {
+              "label": "After Touching Surroundings",
+              "text": ""
+            },
+            {
+              "label": "Protect yourself and other patients from environmental organisms.",
+              "text": ""
+            },
+            {
+              "label": "Gloves do NOT replace hand hygiene. Always clean hands before donning and after removing gloves.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Personal Protective Equipment (PPE)",
+          "body": "Select PPE Based on Anticipated Exposure",
+          "bullets": [
+            {
+              "label": "Gloves — contact with blood, body fluids or non-intact skin",
+              "text": ""
+            },
+            {
+              "label": "Apron / Gown — protect clothing and skin from splashes",
+              "text": ""
+            },
+            {
+              "label": "Surgical mask — reduce droplet exposure",
+              "text": ""
+            },
+            {
+              "label": "Eye protection — risk of splash to mucous membranes",
+              "text": ""
+            },
+            {
+              "label": "Respirator (FFP2/N95) — airborne transmission risk",
+              "text": ""
+            },
+            {
+              "label": "PPE must be applied and removed in the correct sequence to avoid self-contamination.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Aseptic Practice & Transmission-Based Precautions",
+          "bullets": [
+            {
+              "label": "Consistency in technique protects vulnerable patients from preventable infection.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Aseptic Practice in Clinical Procedures",
+          "body": "Core Principles",
+          "bullets": [
+            {
+              "label": "Aseptic practice prevents harmful",
+              "text": "Aseptic practice prevents harmful microorganisms from entering susceptible sites such as wounds, vascular access devices or the urinary tract."
+            },
+            {
+              "label": "Prepare",
+              "text": ""
+            },
+            {
+              "label": "Gather all equipment before starting.",
+              "text": ""
+            },
+            {
+              "label": "Protect",
+              "text": ""
+            },
+            {
+              "label": "Guard key parts and key sites from contact.",
+              "text": ""
+            },
+            {
+              "label": "Respond",
+              "text": ""
+            },
+            {
+              "label": "Stop and re-establish if contamination is suspected.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Transmission-Based Precautions",
+          "body": "Contact Precautions",
+          "bullets": [
+            {
+              "label": "Used when organisms spread through direct or indirect physical contact. Includes gloves, gown and dedicated equipment.",
+              "text": ""
+            },
+            {
+              "label": "Droplet Precautions",
+              "text": ""
+            },
+            {
+              "label": "Reduce transmission via larger respiratory droplets. Requires surgical mask and eye protection within 1 metre.",
+              "text": ""
+            },
+            {
+              "label": "Airborne Precautions",
+              "text": ""
+            },
+            {
+              "label": "For organisms suspended in the air. Requires a",
+              "text": "For organisms suspended in the air. Requires a suitable isolation room, negative pressure where available, and a respirator (FFP2/N95)."
+            },
+            {
+              "label": "All transmission-based precautions are used in",
+              "text": "All transmission-based precautions are used in addition to — never instead of — standard precautions. Always explain precautions to the patient and preserve their dignity during isolation care."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "When to Restart, Not Continue",
+          "bullets": [
+            {
+              "label": "Nurse Anita establishes an aseptic field for",
+              "text": "Nurse Anita establishes an aseptic field for catheter insertion but is called away to an emergency. On return, no visible contamination is seen — yet she discards the exposed items, cleans her hands and prepares a new sterile field. Treating uncertainty as contamination is always the safer choice."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Managing Common Patient Safety Risks",
+          "bullets": [
+            {
+              "label": "Consistent assessment and correct procedure prevent the most common causes of avoidable patient harm.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "Key Patient Safety Risks",
+          "body": "Falls Prevention",
+          "bullets": [
+            {
+              "label": "Assess risk, ensure low bed position, clear pathways and access to call bell and mobility aids.",
+              "text": ""
+            },
+            {
+              "label": "Pressure Injuries",
+              "text": ""
+            },
+            {
+              "label": "Regular repositioning, early skin assessment and pressure redistribution prevent breakdown in at-risk patients.",
+              "text": ""
+            },
+            {
+              "label": "Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "Apply the rights of administration, check allergies, calculate accurately and monitor response.",
+              "text": ""
+            },
+            {
+              "label": "Patient Identification",
+              "text": ""
+            },
+            {
+              "label": "Use at least two approved identifiers before every procedure, medication or transfer of care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        },
+        {
+          "kind": "content",
+          "title": "Reporting Incidents and Near Misses",
+          "body": "Learn & Improve",
+          "bullets": [
+            {
+              "label": "Report Promptly",
+              "text": ""
+            },
+            {
+              "label": "Identify Error",
+              "text": ""
+            },
+            {
+              "label": "Reporting is not about blame — it helps organisations understand risks and prevent recurrence.",
+              "text": ""
+            },
+            {
+              "label": "Why Reporting Matters",
+              "text": ""
+            },
+            {
+              "label": "Near misses reveal system weaknesses before harm occurs",
+              "text": ""
+            },
+            {
+              "label": "Patterns in reports drive policy and process improvements",
+              "text": ""
+            },
+            {
+              "label": "A culture of reporting strengthens the whole team",
+              "text": ""
+            },
+            {
+              "label": "Nurses have a professional obligation to report unsafe events",
+              "text": ""
+            },
+            {
+              "label": "Document clearly, report promptly and follow up through organisational policy.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-19"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "When Process Prevents a Serious Error",
+          "bullets": [
+            {
+              "label": "During medication rounds, Sara notices two",
+              "text": "During medication rounds, Sara notices two patients with similar names. The barcode scanner is unavailable and a colleague suggests proceeding. Sara pauses, checks two approved identifiers and discovers the medicines had been placed in the wrong sequence. Following the process — even under pressure — prevented a serious medication error."
+            }
+          ],
+          "callout": null,
+          "id": "card-20"
+        },
+        {
+          "kind": "content",
+          "title": "Program 2 – Level 1 Complete",
+          "body": "🏥 Section 1",
+          "bullets": [
+            {
+              "label": "Safe Healthcare Environments — observation, risk awareness and speaking up",
+              "text": ""
+            },
+            {
+              "label": "🧤 Section 2",
+              "text": ""
+            },
+            {
+              "label": "Infection Prevention — chain of infection, hand hygiene, PPE and standard precautions",
+              "text": ""
+            },
+            {
+              "label": "🩺 Section 3",
+              "text": ""
+            },
+            {
+              "label": "Aseptic Practice — sterile fields, contamination response and isolation precautions",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Section 4",
+              "text": ""
+            },
+            {
+              "label": "Patient Safety Risks — identification, falls, pressure injuries, medication safety and reporting",
+              "text": ""
+            },
+            {
+              "label": "You are now ready to progress to Level 2 –",
+              "text": "You are now ready to progress to Level 2 – International Qualified Nurse, where these principles are applied within international systems, multidisciplinary teams and evidence-based practice."
+            }
+          ],
+          "callout": null,
+          "id": "card-21"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Understanding Safe Healthcare Environments",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 2 - Level 1 - Section 1 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Creating Safe Healthcare Environments",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 2 · Level 1",
+          "bullets": [
+            {
+              "label": "Student Learning Notes — Section 1: Understanding Safe Healthcare Environments",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What Is a Safe Healthcare Environment?",
+          "body": "A safe healthcare environment protects patients, visitors, and healthcare workers from preventable infection, injury, and clinical harm.",
+          "bullets": [
+            {
+              "label": "Safety is not created by policies alone — it is built through the everyday decisions of every nurse on every shift.",
+              "text": ""
+            },
+            {
+              "label": "Keeping environments uncluttered, confirming patient identity, and communicating changes are all safety acts.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Define Safe Environments",
+              "text": ""
+            },
+            {
+              "label": "Explain what constitutes a safe healthcare environment for patients and staff.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Identify Hazards",
+              "text": ""
+            },
+            {
+              "label": "Recognise common environmental and clinical hazards before harm occurs.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Describe the Nurse's Role",
+              "text": ""
+            },
+            {
+              "label": "Articulate how nurses prevent avoidable harm through proactive action.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Apply Risk Reduction",
+              "text": ""
+            },
+            {
+              "label": "Use simple, evidence-based measures during routine daily care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Safety as a Nursing Responsibility",
+          "body": "Nurses spend more time with patients than most other healthcare professionals — making them uniquely positioned to detect hazards early.",
+          "bullets": [
+            {
+              "label": "Wet floors or damaged cables",
+              "text": ""
+            },
+            {
+              "label": "Incorrectly positioned beds",
+              "text": ""
+            },
+            {
+              "label": "Unclear medication labels",
+              "text": ""
+            },
+            {
+              "label": "Changes in a patient's mobility",
+              "text": ""
+            },
+            {
+              "label": "Professional responsibility means noticing the",
+              "text": "Professional responsibility means noticing the risk, acting within your role, and reporting through the correct process — without delay."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Environmental Safety: The Essentials",
+          "body": "Stable Equipment",
+          "bullets": [
+            {
+              "label": "Beds, wheelchairs, and trolleys must be checked for stability and correct positioning before use.",
+              "text": ""
+            },
+            {
+              "label": "Items Within Reach",
+              "text": ""
+            },
+            {
+              "label": "Frequently used items and the call bell must always be accessible to the patient.",
+              "text": ""
+            },
+            {
+              "label": "Clear Pathways",
+              "text": ""
+            },
+            {
+              "label": "Walkways must remain unobstructed to prevent trips and falls for patients and staff alike.",
+              "text": ""
+            },
+            {
+              "label": "Electrical & Oxygen Safety",
+              "text": ""
+            },
+            {
+              "label": "Oxygen and electrical equipment require",
+              "text": "Oxygen and electrical equipment require particular care — incorrect use risks fire, injury, or interruption of treatment."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Risk Awareness: Patient + Environment Together",
+          "body": "Individual Assessment Matters",
+          "bullets": [
+            {
+              "label": "The same environment may be safe for an",
+              "text": "The same environment may be safe for an independent adult but hazardous for a confused, visually impaired, or weakened patient."
+            },
+            {
+              "label": "Nurses must assess each person holistically —",
+              "text": "Nurses must assess each person holistically — their mobility, cognition, medications, and communication needs all affect their risk profile."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Speaking Up for Safety",
+          "body": "Do Not Stay Silent",
+          "bullets": [
+            {
+              "label": "Remaining silent when unsafe practice is",
+              "text": "Remaining silent when unsafe practice is observed may allow harm to occur. Speaking up is a professional duty, not a personal choice."
+            },
+            {
+              "label": "Communicate Respectfully & Promptly",
+              "text": ""
+            },
+            {
+              "label": "Raise concerns in a respectful manner. Immediate danger requires immediate action — do not wait for a formal handover.",
+              "text": ""
+            },
+            {
+              "label": "Document & Report",
+              "text": ""
+            },
+            {
+              "label": "Less urgent hazards must still be documented",
+              "text": "Less urgent hazards must still be documented and reported according to organisational policy so they can be corrected and monitored over time."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Meena's Evening Shift Decision",
+          "bullets": [
+            {
+              "label": "During an evening shift, Meena notices that Mr",
+              "text": "During an evening shift, Meena notices that Mr Rao — unsteady after receiving pain medication — has been left with his bed raised and his walking frame placed across the room."
+            },
+            {
+              "label": "What Meena Did",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Lowered the bed",
+              "text": ""
+            },
+            {
+              "label": "Reducing the height to minimise fall injury risk.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Repositioned equipment",
+              "text": ""
+            },
+            {
+              "label": "Placed the call bell and walking frame within Mr Rao's reach.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Checked the floor",
+              "text": ""
+            },
+            {
+              "label": "Confirmed the floor was dry and clear of obstacles.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Handed over",
+              "text": ""
+            },
+            {
+              "label": "Informed the next nurse during handover so continuity was maintained.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "The Safety Cycle in Practice",
+          "body": "Observe",
+          "bullets": [
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "Communicate",
+              "text": ""
+            },
+            {
+              "label": "Review",
+              "text": ""
+            },
+            {
+              "label": "These four steps form the foundation of safe",
+              "text": "These four steps form the foundation of safe nursing practice. Repeated consistently, they create a culture of safety that protects every patient in your care."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "🔍 Observe First",
+          "bullets": [
+            {
+              "label": "Safety begins with careful, continuous observation of the patient and the environment.",
+              "text": ""
+            },
+            {
+              "label": "🧑‍⚕️ Think Individually",
+              "text": ""
+            },
+            {
+              "label": "Consider each patient's unique risk factors — mobility, cognition, medication, and communication.",
+              "text": ""
+            },
+            {
+              "label": "⚡ Act Without Delay",
+              "text": ""
+            },
+            {
+              "label": "Correct immediate hazards promptly. Waiting increases the risk of preventable harm.",
+              "text": ""
+            },
+            {
+              "label": "📋 Communicate Always",
+              "text": ""
+            },
+            {
+              "label": "Report and document risks so that colleagues remain informed and hazards are monitored.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Preventing Infection in Everyday Nursing Practice",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 2 - Level 1 - Section 2 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Preventing Infection in Everyday Nursing Practice",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 2 · Level 1 – Qualified Nurse",
+          "bullets": [
+            {
+              "label": "SECTION 2 · STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Describe the Chain of Infection",
+              "text": ""
+            },
+            {
+              "label": "Understand how microorganisms travel from source to susceptible host.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Perform Hand Hygiene",
+              "text": ""
+            },
+            {
+              "label": "Identify the correct moments and technique for effective hand cleaning.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Select Appropriate PPE",
+              "text": ""
+            },
+            {
+              "label": "Match personal protective equipment to the level of clinical risk.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Apply Standard Precautions",
+              "text": ""
+            },
+            {
+              "label": "Use consistent precautions with every patient, every time.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "The Chain of Infection",
+          "body": "Infection occurs when an organism moves from a source, through a mode of transmission, and enters a susceptible host. Breaking any link in the chain stops infection spreading.",
+          "bullets": [
+            {
+              "label": "🧫 Infectious Agent",
+              "text": ""
+            },
+            {
+              "label": "Bacteria, viruses, fungi or parasites",
+              "text": ""
+            },
+            {
+              "label": "🏥 Reservoir",
+              "text": ""
+            },
+            {
+              "label": "Patients, staff, surfaces, equipment",
+              "text": ""
+            },
+            {
+              "label": "🚪 Portal of Exit",
+              "text": ""
+            },
+            {
+              "label": "Body fluids, droplets, secretions",
+              "text": ""
+            },
+            {
+              "label": "🔄 Transmission",
+              "text": ""
+            },
+            {
+              "label": "Contact, droplet or airborne routes",
+              "text": ""
+            },
+            {
+              "label": "🩺 Susceptible Host",
+              "text": ""
+            },
+            {
+              "label": "Ill, post-surgical, elderly or immunocompromised patients",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Interrupting the Chain",
+          "body": "Key Interruption Strategies",
+          "bullets": [
+            {
+              "label": "Every nurse plays an active role in breaking the chain at multiple points:",
+              "text": ""
+            },
+            {
+              "label": "Hand hygiene – the single most effective measure",
+              "text": ""
+            },
+            {
+              "label": "Environmental cleaning – reduces surface contamination",
+              "text": ""
+            },
+            {
+              "label": "Appropriate PPE – creates a physical barrier",
+              "text": ""
+            },
+            {
+              "label": "Safe waste disposal – prevents secondary contamination",
+              "text": ""
+            },
+            {
+              "label": "Respiratory hygiene – limits droplet spread",
+              "text": ""
+            },
+            {
+              "label": "Safe management of invasive devices – reduces device-related infection",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Hand Hygiene: The Gold Standard",
+          "body": "Hand hygiene is the single most effective infection-prevention measure available to any healthcare worker. Gloves do not replace hand hygiene.",
+          "bullets": [
+            {
+              "label": "After Surroundings",
+              "text": ""
+            },
+            {
+              "label": "After Touching",
+              "text": ""
+            },
+            {
+              "label": "After Fluids",
+              "text": ""
+            },
+            {
+              "label": "Before Aseptic",
+              "text": ""
+            },
+            {
+              "label": "Before Touching",
+              "text": ""
+            },
+            {
+              "label": "Hands must be cleaned before applying gloves",
+              "text": "Hands must be cleaned before applying gloves and after removing them when indicated. Correct technique — either alcohol-based rub or soap and water — ensures full coverage of all surfaces."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Personal Protective Equipment",
+          "body": "PPE creates a barrier between the healthcare worker and potential sources of infection. Selection must be based on anticipated exposure, not habit.",
+          "bullets": [
+            {
+              "label": "Always put PPE on and remove it in the correct sequence to avoid self-contamination.",
+              "text": ""
+            },
+            {
+              "label": "🧤 Gloves",
+              "text": ""
+            },
+            {
+              "label": "Contact with blood or body fluids",
+              "text": ""
+            },
+            {
+              "label": "🥼 Gowns / Aprons",
+              "text": ""
+            },
+            {
+              "label": "Protect clothing and skin during procedures",
+              "text": ""
+            },
+            {
+              "label": "😷 Masks & Eye Protection",
+              "text": ""
+            },
+            {
+              "label": "Droplets and splash exposure",
+              "text": ""
+            },
+            {
+              "label": "🫁 Respirators",
+              "text": ""
+            },
+            {
+              "label": "Airborne risks (e.g., TB, aerosol-generating procedures)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Standard Precautions",
+          "body": "Standard precautions apply to every patient, every time — regardless of whether infection is known or suspected. They form the baseline of safe clinical practice.",
+          "bullets": [
+            {
+              "label": "Hand Hygiene",
+              "text": ""
+            },
+            {
+              "label": "At all five WHO moments",
+              "text": ""
+            },
+            {
+              "label": "Risk-Based PPE",
+              "text": ""
+            },
+            {
+              "label": "Matched to expected exposure",
+              "text": ""
+            },
+            {
+              "label": "Sharps Safety",
+              "text": ""
+            },
+            {
+              "label": "Safe use and immediate disposal",
+              "text": ""
+            },
+            {
+              "label": "Environmental Cleaning",
+              "text": ""
+            },
+            {
+              "label": "Regular decontamination of surfaces",
+              "text": ""
+            },
+            {
+              "label": "Linen & Waste",
+              "text": ""
+            },
+            {
+              "label": "Safe segregation and handling",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Daniel's Wound Care",
+          "body": "A Step-by-Step Model of Best Practice",
+          "bullets": [
+            {
+              "label": "Before care: Daniel performs hand hygiene and gathers required equipment",
+              "text": ""
+            },
+            {
+              "label": "PPE selection: He selects gloves and apron based on anticipated exposure",
+              "text": ""
+            },
+            {
+              "label": "During care: He performs wound care without contaminating the environment",
+              "text": ""
+            },
+            {
+              "label": "After care: Waste is disposed of safely; PPE removed without touching contaminated surfaces",
+              "text": ""
+            },
+            {
+              "label": "Final step: Hand hygiene is repeated and reusable equipment is cleaned before next use",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Common Mistakes to Avoid",
+          "body": "❌ Skipping Hand Hygiene When Wearing Gloves",
+          "bullets": [
+            {
+              "label": "Gloves are not a substitute — hand hygiene is required before and after glove use.",
+              "text": ""
+            },
+            {
+              "label": "❌ Selecting PPE by Habit, Not Risk",
+              "text": ""
+            },
+            {
+              "label": "Always assess the procedure and anticipated exposure before choosing PPE.",
+              "text": ""
+            },
+            {
+              "label": "❌ Reusing Equipment Without Cleaning",
+              "text": ""
+            },
+            {
+              "label": "Shared equipment must be decontaminated between every patient.",
+              "text": ""
+            },
+            {
+              "label": "❌ Improper PPE Removal",
+              "text": ""
+            },
+            {
+              "label": "Removing PPE incorrectly risks self-contamination — follow the correct sequence every time.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Standard Precautions — Always",
+          "bullets": [
+            {
+              "label": "Apply them to every patient, regardless of known infection status.",
+              "text": ""
+            },
+            {
+              "label": "Match PPE to Risk",
+              "text": ""
+            },
+            {
+              "label": "Select the right barrier protection based on expected exposure.",
+              "text": ""
+            },
+            {
+              "label": "Gloves ≠ Hand Hygiene",
+              "text": ""
+            },
+            {
+              "label": "Clean hands before and after glove use — without exception.",
+              "text": ""
+            },
+            {
+              "label": "Clean Shared Equipment",
+              "text": ""
+            },
+            {
+              "label": "Decontaminate all reusable items between every patient to break the chain of infection.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Aseptic Practice and Transmission-Based Precautions",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 2 - Level 1 - Section 3 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Aseptic Practice and Transmission-Based Precautions",
+          "body": "Section 3 · Global Nursing Professional Series (GNPS) · Program 2: Creating Safe Healthcare Environments",
+          "bullets": [
+            {
+              "label": "LEVEL 1 – QUALIFIED NURSE",
+              "text": ""
+            },
+            {
+              "label": "STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "By the end of this section, you will be equipped to apply aseptic and isolation principles confidently in clinical practice.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Purpose of Aseptic Practice",
+              "text": ""
+            },
+            {
+              "label": "Understand why protecting susceptible sites from contamination is critical to patient safety.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Contamination",
+              "text": ""
+            },
+            {
+              "label": "Identify when a sterile or aseptic field has been compromised and respond appropriately.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Transmission-Based Precautions",
+              "text": ""
+            },
+            {
+              "label": "Differentiate between contact, droplet, and airborne precaution protocols.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Patient Dignity in Isolation",
+              "text": ""
+            },
+            {
+              "label": "Maintain compassionate, respectful care while applying isolation precautions.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What Is Aseptic Practice?",
+          "body": "Aseptic practice is a set of specific infection prevention actions designed to prevent harmful microorganisms from entering susceptible sites — such as wounds, vascular access devices, or the urinary tract.",
+          "bullets": [
+            {
+              "label": "Prepare Before You Begin",
+              "text": ""
+            },
+            {
+              "label": "Gather and arrange all equipment before initiating the procedure.",
+              "text": ""
+            },
+            {
+              "label": "Clean Hands, Protect Key Parts",
+              "text": ""
+            },
+            {
+              "label": "Perform hand hygiene and avoid unnecessary contact with sterile components.",
+              "text": ""
+            },
+            {
+              "label": "Replace Any Contaminated Item",
+              "text": ""
+            },
+            {
+              "label": "If any item's sterility is in doubt, discard it immediately — no exceptions.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Recognising Contamination of a Sterile Field",
+          "body": "When Is a Field Compromised?",
+          "bullets": [
+            {
+              "label": "The aseptic field must remain visible and under",
+              "text": "The aseptic field must remain visible and under the nurse's control at all times. Any of the following compromises safety:"
+            },
+            {
+              "label": "Reaching over the sterile field",
+              "text": ""
+            },
+            {
+              "label": "Touching key parts directly",
+              "text": ""
+            },
+            {
+              "label": "Moisture passing through a sterile barrier",
+              "text": ""
+            },
+            {
+              "label": "Leaving the field unattended",
+              "text": ""
+            },
+            {
+              "label": "Golden Rule: If contamination is suspected — stop, discard exposed items, and re-establish the field before continuing.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Transmission-Based Precautions",
+          "body": "Used in addition to standard precautions, these measures reduce the spread of specific organisms. Each type targets a different route of transmission.",
+          "bullets": [
+            {
+              "label": "🤝 Contact Precautions",
+              "text": ""
+            },
+            {
+              "label": "For organisms spread through direct or indirect contact with the patient or their environment. Requires gloves and gown.",
+              "text": ""
+            },
+            {
+              "label": "💧 Droplet Precautions",
+              "text": ""
+            },
+            {
+              "label": "For organisms carried in larger respiratory droplets (e.g., influenza). Surgical mask required within 1 metre.",
+              "text": ""
+            },
+            {
+              "label": "🌬️ Airborne Precautions",
+              "text": ""
+            },
+            {
+              "label": "For organisms that remain suspended in the air",
+              "text": "For organisms that remain suspended in the air (e.g., tuberculosis). Requires a negative-pressure room and fitted respirator."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "How Precautions Layer Together",
+          "body": "Patient Risk Assessment",
+          "bullets": [
+            {
+              "label": "Assess individual infectious risk and add precautions",
+              "text": ""
+            },
+            {
+              "label": "Transmission-Based",
+              "text": ""
+            },
+            {
+              "label": "Contact, Droplet, Airborne measures",
+              "text": ""
+            },
+            {
+              "label": "Standard Precautions",
+              "text": ""
+            },
+            {
+              "label": "Foundation for every patient, every time",
+              "text": ""
+            },
+            {
+              "label": "Standard precautions apply to every patient,",
+              "text": "Standard precautions apply to every patient, every time. Transmission-based precautions are added on top when a specific infectious risk is identified — never as a replacement."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Respectful Isolation Care",
+          "body": "Isolation can be a distressing experience. Patients may feel lonely, fearful, or stigmatised. Safe care and compassionate care are not in conflict — both are a nursing responsibility.",
+          "bullets": [
+            {
+              "label": "Explain Clearly",
+              "text": ""
+            },
+            {
+              "label": "Tell the patient why precautions are in place, using plain language and reassurance.",
+              "text": ""
+            },
+            {
+              "label": "Ensure Access to Help",
+              "text": ""
+            },
+            {
+              "label": "Check patients have call bells, water, and timely responses to their needs.",
+              "text": ""
+            },
+            {
+              "label": "Preserve Dignity",
+              "text": ""
+            },
+            {
+              "label": "Avoid unnecessary social isolation. Engage warmly and maintain the therapeutic relationship.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Nurse Anita",
+          "body": "The Scenario",
+          "bullets": [
+            {
+              "label": "Nurse Anita prepares to insert a urinary",
+              "text": "Nurse Anita prepares to insert a urinary catheter and establishes a sterile field. She is called away to assist with an emergency."
+            },
+            {
+              "label": "The Decision",
+              "text": ""
+            },
+            {
+              "label": "On returning, the field has been left",
+              "text": "On returning, the field has been left unattended. No visible contamination is present — but Anita discards the exposed items, performs hand hygiene, and sets up a new field."
+            },
+            {
+              "label": "The Lesson",
+              "text": ""
+            },
+            {
+              "label": "Restarting takes time, but it eliminates the",
+              "text": "Restarting takes time, but it eliminates the risk of a preventable infection. Uncertainty equals contamination in aseptic practice."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus: What You Need to Know",
+          "body": "These concepts appear frequently in NCLEX-style questions. Apply your knowledge critically — not just factually.",
+          "bullets": [
+            {
+              "label": "Aseptic vs. Sterile Technique",
+              "text": ""
+            },
+            {
+              "label": "Know when each applies: aseptic technique is",
+              "text": "Know when each applies: aseptic technique is used for most clinical procedures; surgical sterile technique is used in operating environments."
+            },
+            {
+              "label": "Priority Action on Contamination",
+              "text": ""
+            },
+            {
+              "label": "The correct answer is always to stop and re-establish the field — never to continue and document the incident later.",
+              "text": ""
+            },
+            {
+              "label": "Selecting the Right Precaution Type",
+              "text": ""
+            },
+            {
+              "label": "Match the organism's route of transmission to",
+              "text": "Match the organism's route of transmission to the correct precaution type. Airborne requires a respirator; droplet requires a surgical mask."
+            },
+            {
+              "label": "Holistic Patient Care",
+              "text": ""
+            },
+            {
+              "label": "NCLEX values dignity and communication alongside clinical skill. Always include patient explanation in your reasoning.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Protect Key Parts and Susceptible Sites",
+          "bullets": [
+            {
+              "label": "Maintain control of the aseptic field throughout every procedure.",
+              "text": ""
+            },
+            {
+              "label": "Treat Uncertainty as Contamination",
+              "text": ""
+            },
+            {
+              "label": "When in doubt, discard and restart — patient safety outweighs convenience.",
+              "text": ""
+            },
+            {
+              "label": "Layer Precautions Appropriately",
+              "text": ""
+            },
+            {
+              "label": "Transmission-based precautions supplement, never replace, standard precautions.",
+              "text": ""
+            },
+            {
+              "label": "Care With Compassion",
+              "text": ""
+            },
+            {
+              "label": "Explain precautions clearly and preserve patient dignity at all times.",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 2",
+              "text": ""
+            },
+            {
+              "label": "SECTION 3 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Managing Common Patient Safety Risks",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 2 - Level 1 - Section 4 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Managing Common Patient Safety Risks",
+          "body": "Global Nursing Professional Series (GNPS) · Program 2 · Level 1 · Section 4",
+          "bullets": [
+            {
+              "label": "STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "By the end of this section, you will be equipped to protect patients from the most common preventable harms in clinical settings.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Verify Patient Identity",
+              "text": ""
+            },
+            {
+              "label": "Use at least two approved identifiers every time, without exception.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Assess Falls & Pressure Risks",
+              "text": ""
+            },
+            {
+              "label": "Recognise individual risk factors and apply prevention strategies.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Apply Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "Follow the recognised rights of administration and check allergies.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Report Incidents Promptly",
+              "text": ""
+            },
+            {
+              "label": "Ensure errors and near misses are documented so the system can learn.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "concepts",
+          "title": "CORE CONCEPT",
+          "body": "Patient Identification",
+          "bullets": [
+            {
+              "label": "At least two approved identifiers must be",
+              "text": "At least two approved identifiers must be confirmed before every medication administration, specimen collection, procedure, blood product administration, or transfer of care."
+            },
+            {
+              "label": "Room number or staff familiarity is never an",
+              "text": "Room number or staff familiarity is never an acceptable substitute. If information is missing or inconsistent, pause the task until identity is confirmed."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Falls & Mobility Safety",
+          "body": "Risk Factors",
+          "bullets": [
+            {
+              "label": "Weakness, confusion, dizziness, unfamiliar surroundings, medications affecting balance.",
+              "text": ""
+            },
+            {
+              "label": "Prevention Strategies",
+              "text": ""
+            },
+            {
+              "label": "Suitable footwear, low bed position, clear pathways, call bell access, mobility aids, appropriate assistance.",
+              "text": ""
+            },
+            {
+              "label": "Balance Safety & Mobility",
+              "text": ""
+            },
+            {
+              "label": "Restricting movement unnecessarily causes harm. Safety plans should support mobility, not eliminate it.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Pressure-Injury Prevention",
+          "body": "Prevention is far more effective — and less distressing — than treating an established pressure injury. Early recognition is key.",
+          "bullets": [
+            {
+              "label": "Regular Skin Assessment",
+              "text": ""
+            },
+            {
+              "label": "Inspect skin at every repositioning. Redness or colour changes signal early injury.",
+              "text": ""
+            },
+            {
+              "label": "Repositioning Schedule",
+              "text": ""
+            },
+            {
+              "label": "Patients with limited mobility must be repositioned frequently and consistently.",
+              "text": ""
+            },
+            {
+              "label": "Nutrition & Moisture",
+              "text": ""
+            },
+            {
+              "label": "Adequate nutrition supports skin integrity; manage moisture to reduce breakdown.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Medication Safety Principles",
+          "body": "Every administration requires disciplined adherence to the recognised rights — even under time pressure.",
+          "bullets": [
+            {
+              "label": "The Rights of Administration",
+              "text": ""
+            },
+            {
+              "label": "Right patient, drug, dose, route, time, reason, and documentation — every time.",
+              "text": ""
+            },
+            {
+              "label": "Allergy Checks",
+              "text": ""
+            },
+            {
+              "label": "Confirm allergy status before every administration. Never assume it has been checked.",
+              "text": ""
+            },
+            {
+              "label": "Correct Calculations",
+              "text": ""
+            },
+            {
+              "label": "Double-check dose calculations, especially for high-alert medications and infusions.",
+              "text": ""
+            },
+            {
+              "label": "Monitor & Document",
+              "text": ""
+            },
+            {
+              "label": "Observe the patient's response after administration and record clearly and promptly.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Incident Reporting",
+          "body": "Report. Every. Time.",
+          "bullets": [
+            {
+              "label": "Errors and near misses must be reported",
+              "text": "Errors and near misses must be reported promptly — not to assign blame, but to help the organisation understand risk and prevent recurrence."
+            },
+            {
+              "label": "Why Reporting Matters",
+              "text": ""
+            },
+            {
+              "label": "Identifies systemic weaknesses before they cause serious harm.",
+              "text": ""
+            },
+            {
+              "label": "Supports a just culture where staff feel safe to speak up.",
+              "text": ""
+            },
+            {
+              "label": "Enables organisational learning and quality improvement.",
+              "text": ""
+            },
+            {
+              "label": "Protects both patients and nursing professionals.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Sara's Decision Under Pressure",
+          "bullets": [
+            {
+              "label": "During a medication round, Sara notices two",
+              "text": "During a medication round, Sara notices two patients with similar names. The barcode scanner is unavailable and a colleague suggests proceeding — the patients are \"well known\" to the team."
+            },
+            {
+              "label": "Sara pauses. She checks two approved",
+              "text": "Sara pauses. She checks two approved identifiers against the medication chart and discovers the medicines were placed in the wrong sequence."
+            },
+            {
+              "label": "Her decision to follow the identification process — despite time pressure — prevents a serious error.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Always Use Approved Identifiers",
+          "bullets": [
+            {
+              "label": "Two identifiers, every time, for every patient interaction.",
+              "text": ""
+            },
+            {
+              "label": "Never Let Familiarity Replace Safety",
+              "text": ""
+            },
+            {
+              "label": "Time pressure and routine are the most common causes of shortcuts that lead to harm.",
+              "text": ""
+            },
+            {
+              "label": "Individualise Prevention Plans",
+              "text": ""
+            },
+            {
+              "label": "Falls and pressure injuries require tailored assessments, not generic checklists.",
+              "text": ""
+            },
+            {
+              "label": "Report for System Learning",
+              "text": ""
+            },
+            {
+              "label": "Incident reporting builds safer systems for everyone — patients and staff alike.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Milestone Achieved",
+          "body": "Completing GNPS Programme 2 – Level 1 means you have developed essential knowledge to recognise hazards, prevent infection and reduce common patient safety risks.",
+          "bullets": [
+            {
+              "label": "You are now ready for Level 2 – International",
+              "text": "You are now ready for Level 2 – International Qualified Nurse, where you will apply safety principles within international systems, multidisciplinary teams, and evidence-based practice — including NCLEX preparation."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

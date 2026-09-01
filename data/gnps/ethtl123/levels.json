@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL123",
+  "programTitle": "Becoming a Professional Nurse",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Practise professional identity, ethics, consent, confidentiality and accountable documentation.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Apply international standards to complex consent, delegation, advocacy and cultural safety.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead ethical culture, governance, digital-health ethics and global professional standards.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

@@ -1,0 +1,2245 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "You are the Registered Nurse in charge of an evening shift. A newly employed nurse appears overwhelmed while caring for several complex patients. What is your BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow the nurse to manage independently."
+        },
+        {
+          "id": "B",
+          "text": "Report the nurse's poor performance immediately."
+        },
+        {
+          "id": "C",
+          "text": "Reassign all patients to experienced nurses."
+        },
+        {
+          "id": "D",
+          "text": "Assess the nurse's workload, provide guidance and support, and redistribute work if necessary while maintaining patient safety."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective nurse leaders recognise when team members require support. Coaching, supervision, and appropriate workload management promote patient safety while developing staff confidence and competence."
+    },
+    {
+      "id": "q2",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse notices that medication administration errors have increased during the past three months. What should be the FIRST leadership action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the trend."
+        },
+        {
+          "id": "B",
+          "text": "Discipline all nurses involved."
+        },
+        {
+          "id": "C",
+          "text": "Introduce new policies without consultation."
+        },
+        {
+          "id": "D",
+          "text": "Analyse incident reports to identify patterns and contributing factors before implementing improvements."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Quality improvement begins with analysing data to understand the underlying causes of problems before introducing solutions."
+    },
+    {
+      "id": "q3",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which behaviour best demonstrates transformational nursing leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspiring, mentoring and empowering staff to achieve shared goals."
+        },
+        {
+          "id": "B",
+          "text": "Giving instructions without explanation."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding staff feedback."
+        },
+        {
+          "id": "D",
+          "text": "Closely supervising every task."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Transformational leaders motivate others, encourage innovation, and foster professional growth."
+    },
+    {
+      "id": "q4",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "During a multidisciplinary meeting, two healthcare professionals disagree about a patient's discharge plan. As the nurse caring for the patient, what is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advocate respectfully for the patient's needs using current assessment findings and evidence."
+        },
+        {
+          "id": "B",
+          "text": "Leave the meeting."
+        },
+        {
+          "id": "C",
+          "text": "Support the senior staff member regardless of the evidence."
+        },
+        {
+          "id": "D",
+          "text": "Remain silent."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional nurses advocate for patients using objective clinical information while maintaining respectful collaboration."
+    },
+    {
+      "id": "q5",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A newly graduated nurse asks, \"How do experienced nurses make good decisions so quickly?\" What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Follow routines without questioning.\""
+        },
+        {
+          "id": "B",
+          "text": "\"Only senior nurses can make good decisions.\""
+        },
+        {
+          "id": "C",
+          "text": "\"It comes naturally.\""
+        },
+        {
+          "id": "D",
+          "text": "\"Good decisions develop through clinical experience, reflection, evidence-based practice, and continuous learning.\""
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical expertise develops through deliberate practice, reflection, and lifelong learning."
+    },
+    {
+      "id": "q6",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse identifies that delays in patient discharge frequently occur because referrals are sent late. What is the BEST leadership action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask patients to organise referrals."
+        },
+        {
+          "id": "B",
+          "text": "Work with the multidisciplinary team to improve referral processes and monitor outcomes."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the issue."
+        },
+        {
+          "id": "D",
+          "text": "Continue existing practice."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Leadership includes identifying system issues and collaborating to improve patient care processes."
+    },
+    {
+      "id": "q7",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best reflects professional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accepting responsibility only when patient harm occurs."
+        },
+        {
+          "id": "B",
+          "text": "Being accountable for professional decisions, actions, and continuous competence."
+        },
+        {
+          "id": "C",
+          "text": "Allowing others to make all decisions."
+        },
+        {
+          "id": "D",
+          "text": "Following instructions without reflection."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional accountability extends beyond individual tasks to ethical practice, lifelong learning, and patient safety."
+    },
+    {
+      "id": "q8",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A junior nurse reports making a medication error and is visibly distressed. What is the BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediately recommend disciplinary action."
+        },
+        {
+          "id": "B",
+          "text": "Publicly criticise the nurse."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the incident."
+        },
+        {
+          "id": "D",
+          "text": "Support the nurse, ensure patient safety, follow incident reporting procedures, and encourage reflection to prevent recurrence."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A just culture promotes learning from errors while maintaining accountability and patient safety."
+    },
+    {
+      "id": "q9",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A healthcare organisation is introducing electronic medication administration records. Some experienced nurses are resistant to change. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain the benefits, provide education and support, encourage feedback, and involve staff in the transition."
+        },
+        {
+          "id": "B",
+          "text": "Ignore staff concerns."
+        },
+        {
+          "id": "C",
+          "text": "Delay implementation indefinitely."
+        },
+        {
+          "id": "D",
+          "text": "Force compliance without training."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Successful change management depends on communication, education, engagement, and leadership support."
+    },
+    {
+      "id": "q10",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which quality best defines professional excellence in nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Working independently at all times."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding additional responsibilities."
+        },
+        {
+          "id": "C",
+          "text": "Completing tasks quickly."
+        },
+        {
+          "id": "D",
+          "text": "Demonstrating ethical practice, compassion, leadership, lifelong learning, and evidence-based decision-making."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional excellence integrates clinical competence with leadership, ethics, collaboration, and ongoing development."
+    },
+    {
+      "id": "q11",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A senior nurse notices that junior staff rarely speak during safety meetings. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cancel the meetings."
+        },
+        {
+          "id": "B",
+          "text": "Create a psychologically safe environment where all team members are encouraged to contribute."
+        },
+        {
+          "id": "C",
+          "text": "Allow only senior nurses to speak."
+        },
+        {
+          "id": "D",
+          "text": "Continue the meetings unchanged."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Inclusive leadership fosters open communication, innovation, and improved patient safety."
+    },
+    {
+      "id": "q12",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A hospital introduces a new evidence-based falls prevention guideline. What should the nurse leader do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expect staff to read it independently."
+        },
+        {
+          "id": "B",
+          "text": "Educate staff, explain the evidence, and support implementation."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the guideline."
+        },
+        {
+          "id": "D",
+          "text": "Wait until an inspection occurs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Leaders facilitate the translation of evidence into everyday clinical practice."
+    },
+    {
+      "id": "q13",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse leader wants to improve staff engagement. Which strategy is MOST effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoid discussing organisational changes."
+        },
+        {
+          "id": "B",
+          "text": "Focus only on performance targets."
+        },
+        {
+          "id": "C",
+          "text": "Encourage shared decision-making, recognise achievements, and seek staff feedback."
+        },
+        {
+          "id": "D",
+          "text": "Make all decisions independently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Engaged teams are built through collaboration, recognition, and meaningful participation."
+    },
+    {
+      "id": "q14",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient's family expresses concerns about inconsistent communication from different healthcare professionals. What leadership action should be taken?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the concern."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to speak with one professional only."
+        },
+        {
+          "id": "C",
+          "text": "Coordinate communication so that the healthcare team provides consistent, accurate information."
+        },
+        {
+          "id": "D",
+          "text": "Explain that different opinions are normal."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Consistent communication enhances patient trust, satisfaction, and safety."
+    },
+    {
+      "id": "q15",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which activity best demonstrates reflective practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reviewing clinical experiences to identify strengths, learning opportunities, and improvements."
+        },
+        {
+          "id": "B",
+          "text": "Repeating the same practice without evaluation."
+        },
+        {
+          "id": "C",
+          "text": "Relying only on memory."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding feedback."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reflective practice supports continuous professional development and improved clinical decision-making."
+    },
+    {
+      "id": "q16",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A conflict develops between two nurses during a busy shift. What is the MOST appropriate leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfer one nurse immediately."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the disagreement."
+        },
+        {
+          "id": "C",
+          "text": "Allow the disagreement to continue."
+        },
+        {
+          "id": "D",
+          "text": "Facilitate respectful communication, identify the underlying issues, and work towards a constructive resolution."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective leaders address conflict promptly to maintain teamwork and patient safety."
+    },
+    {
+      "id": "q17",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse leader is reviewing patient satisfaction surveys. Several patients mention long waiting times for pain relief. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blame individual nurses."
+        },
+        {
+          "id": "B",
+          "text": "Remove the survey process."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the feedback."
+        },
+        {
+          "id": "D",
+          "text": "Investigate the causes, involve staff in developing solutions, implement improvements, and evaluate outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Quality improvement relies on using patient feedback to improve healthcare processes."
+    },
+    {
+      "id": "q18",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which behaviour best supports a culture of lifelong learning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seeking feedback, pursuing professional development, and applying new knowledge to practice."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding change."
+        },
+        {
+          "id": "C",
+          "text": "Depending solely on previous experience."
+        },
+        {
+          "id": "D",
+          "text": "Completing mandatory education only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Continuous learning is essential for maintaining competence in rapidly evolving healthcare environments."
+    },
+    {
+      "id": "q19",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse leader delegates a task to an enrolled nurse. Which responsibility remains with the registered nurse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation only."
+        },
+        {
+          "id": "B",
+          "text": "Responsibility transfers entirely."
+        },
+        {
+          "id": "C",
+          "text": "None after delegation."
+        },
+        {
+          "id": "D",
+          "text": "Accountability for ensuring appropriate delegation, supervision, and patient outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Delegation transfers responsibility for performing the task but not accountability for ensuring safe and appropriate care."
+    },
+    {
+      "id": "q20",
+      "section": 1,
+      "sectionLabel": "Leadership and Professional Excellence",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement BEST reflects the role of a Global Nursing Professional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus mainly on completing assigned tasks."
+        },
+        {
+          "id": "B",
+          "text": "Lead with integrity, promote evidence-based practice, mentor others, improve healthcare systems, embrace innovation, and advocate for high-quality patient-centred care across diverse healthcare environments."
+        },
+        {
+          "id": "C",
+          "text": "Limit professional development after registration."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on direct patient care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A Global Nursing Professional combines advanced clinical competence with leadership, quality improvement, mentorship, innovation, cultural intelligence, and lifelong learning. These attributes enable nurses to influence healthcare beyond the bedside while continuing to deliver safe, compassionate, and evidence-based care."
+    },
+    {
+      "id": "q21",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A ward has reported a 30% increase in patient falls over the past six months. As the nurse leader, what should be your FIRST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduce stricter reporting requirements."
+        },
+        {
+          "id": "B",
+          "text": "Conduct a root cause analysis to identify contributing factors before implementing improvement strategies."
+        },
+        {
+          "id": "C",
+          "text": "Discipline the nurses involved."
+        },
+        {
+          "id": "D",
+          "text": "Increase patient observations without investigation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Quality improvement begins with understanding why an issue is occurring. Root cause analysis (RCA) identifies system failures rather than assigning individual blame, leading to sustainable improvements."
+    },
+    {
+      "id": "q22",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best describes a \"Just Culture\" in healthcare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff are punished whenever errors occur."
+        },
+        {
+          "id": "B",
+          "text": "Organisations balance accountability with learning by distinguishing human error, at-risk behaviour, and reckless behaviour."
+        },
+        {
+          "id": "C",
+          "text": "Only managers investigate incidents."
+        },
+        {
+          "id": "D",
+          "text": "Errors are ignored if no patient harm results."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A Just Culture promotes learning from mistakes while maintaining professional accountability. It encourages incident reporting and system improvement."
+    },
+    {
+      "id": "q23",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Following several medication errors, the nurse manager notices that similar errors occur during busy evening shifts. What is the BEST next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the trend."
+        },
+        {
+          "id": "B",
+          "text": "Increase disciplinary action."
+        },
+        {
+          "id": "C",
+          "text": "Reduce medication rounds."
+        },
+        {
+          "id": "D",
+          "text": "Review staffing levels, workflow, interruptions, and medication administration processes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patient safety problems often result from system issues rather than individual negligence. Reviewing workflow helps identify contributing factors."
+    },
+    {
+      "id": "q24",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A quality improvement project aims to reduce catheter-associated urinary tract infections (CAUTIs). Which indicator BEST measures success?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate of catheter-associated urinary tract infections."
+        },
+        {
+          "id": "B",
+          "text": "Number of nurses on duty."
+        },
+        {
+          "id": "C",
+          "text": "Average patient age."
+        },
+        {
+          "id": "D",
+          "text": "Number of occupied beds."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Quality indicators should directly measure the outcome that the improvement initiative seeks to influence."
+    },
+    {
+      "id": "q25",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse identifies that patient identification procedures are not consistently followed before medication administration. What leadership action is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reinforce patient identification policies, provide education, audit compliance, and monitor improvements."
+        },
+        {
+          "id": "B",
+          "text": "Ignore isolated incidents."
+        },
+        {
+          "id": "C",
+          "text": "Stop medication rounds temporarily."
+        },
+        {
+          "id": "D",
+          "text": "Blame individual nurses."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improving safety requires education, monitoring, and continuous evaluation rather than blame."
+    },
+    {
+      "id": "q26",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best defines continuous quality improvement (CQI)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspecting staff performance annually."
+        },
+        {
+          "id": "B",
+          "text": "An ongoing process of evaluating and improving healthcare systems and patient outcomes."
+        },
+        {
+          "id": "C",
+          "text": "Improving care only after serious incidents occur."
+        },
+        {
+          "id": "D",
+          "text": "Replacing experienced staff."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "CQI is a continuous, systematic process focused on improving patient outcomes and organisational performance."
+    },
+    {
+      "id": "q27",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient receives the wrong medication but experiences no harm. How should this incident be classified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A patient complaint only."
+        },
+        {
+          "id": "B",
+          "text": "Acceptable practice."
+        },
+        {
+          "id": "C",
+          "text": "A near miss or medication incident that should be reported and analysed according to organisational policy."
+        },
+        {
+          "id": "D",
+          "text": "An event that should remain undocumented."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Even when no harm occurs, analysing medication incidents strengthens patient safety systems."
+    },
+    {
+      "id": "q28",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which quality improvement model follows the sequence Plan, Do, Study, Act?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PDSA Cycle."
+        },
+        {
+          "id": "B",
+          "text": "SWOT Analysis."
+        },
+        {
+          "id": "C",
+          "text": "SMART Goals."
+        },
+        {
+          "id": "D",
+          "text": "Fishbone Diagram."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The PDSA cycle is widely used to test, evaluate, and refine healthcare improvements."
+    },
+    {
+      "id": "q29",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A hospital introduces bedside handover to improve communication. Which outcome BEST indicates success?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More documentation errors."
+        },
+        {
+          "id": "B",
+          "text": "Improved patient satisfaction and reduced communication-related incidents."
+        },
+        {
+          "id": "C",
+          "text": "Increased paperwork."
+        },
+        {
+          "id": "D",
+          "text": "Longer nursing shifts."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective bedside handover improves communication, patient engagement, and safety."
+    },
+    {
+      "id": "q30",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which nursing action best demonstrates a proactive approach to patient safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waiting for management instructions."
+        },
+        {
+          "id": "B",
+          "text": "Completing reports at the end of the year."
+        },
+        {
+          "id": "C",
+          "text": "Identifying hazards before they result in patient harm."
+        },
+        {
+          "id": "D",
+          "text": "Reporting incidents only after patient harm occurs."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Proactive risk management focuses on preventing harm before incidents occur."
+    },
+    {
+      "id": "q31",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse manager reviews patient complaints about delayed pain relief. What should the manager do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collect data to identify delays and analyse the causes before implementing improvements."
+        },
+        {
+          "id": "B",
+          "text": "Defend current practice."
+        },
+        {
+          "id": "C",
+          "text": "Reduce pain assessments."
+        },
+        {
+          "id": "D",
+          "text": "Tell patients to be more patient."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement begins with objective data collection and analysis."
+    },
+    {
+      "id": "q32",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Why are clinical audits important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They reduce staffing requirements."
+        },
+        {
+          "id": "B",
+          "text": "They are conducted only during accreditation visits."
+        },
+        {
+          "id": "C",
+          "text": "They replace professional judgement."
+        },
+        {
+          "id": "D",
+          "text": "They compare clinical practice against established standards to identify opportunities for improvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical audits help determine whether practice meets evidence-based standards."
+    },
+    {
+      "id": "q33",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A multidisciplinary team is reviewing a serious patient safety incident. What should be the PRIMARY goal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identify system improvements that reduce future risk."
+        },
+        {
+          "id": "B",
+          "text": "Punish staff involved."
+        },
+        {
+          "id": "C",
+          "text": "Assign blame."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing the incident."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient safety investigations focus on learning and preventing recurrence."
+    },
+    {
+      "id": "q34",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action best supports medication safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preparing medications hours in advance."
+        },
+        {
+          "id": "B",
+          "text": "Minimising interruptions during medication administration."
+        },
+        {
+          "id": "C",
+          "text": "Preparing medications while responding to multiple interruptions."
+        },
+        {
+          "id": "D",
+          "text": "Delegating medication administration to untrained staff."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reducing interruptions during medication rounds significantly lowers the risk of medication errors."
+    },
+    {
+      "id": "q35",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A hospital introduces a barcode medication administration system. What is its PRIMARY purpose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace medication charts."
+        },
+        {
+          "id": "B",
+          "text": "Eliminate nursing judgement."
+        },
+        {
+          "id": "C",
+          "text": "Reduce nursing documentation."
+        },
+        {
+          "id": "D",
+          "text": "Improve patient identification and reduce medication errors."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Barcode systems improve the accuracy of patient identification and medication administration."
+    },
+    {
+      "id": "q36",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which indicator best reflects patient-centred quality care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospital parking capacity."
+        },
+        {
+          "id": "B",
+          "text": "Number of admissions."
+        },
+        {
+          "id": "C",
+          "text": "Number of staff meetings."
+        },
+        {
+          "id": "D",
+          "text": "Patient experience and satisfaction alongside clinical outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Quality care considers both measurable clinical outcomes and patients' experiences."
+    },
+    {
+      "id": "q37",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "After introducing a new falls prevention programme, which action demonstrates effective quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the programme is successful."
+        },
+        {
+          "id": "B",
+          "text": "Monitor falls data, evaluate outcomes, and modify the programme if required."
+        },
+        {
+          "id": "C",
+          "text": "Stop collecting data."
+        },
+        {
+          "id": "D",
+          "text": "Introduce another programme immediately."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evaluation determines whether interventions achieve the desired outcomes."
+    },
+    {
+      "id": "q38",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best reflects high-reliability healthcare organisations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They continuously anticipate risk, learn from failures, and improve systems."
+        },
+        {
+          "id": "B",
+          "text": "They expect errors never to occur."
+        },
+        {
+          "id": "C",
+          "text": "They avoid reporting incidents."
+        },
+        {
+          "id": "D",
+          "text": "They focus only on financial performance."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "High-reliability organisations develop systems that identify risks early and continuously improve patient safety."
+    },
+    {
+      "id": "q39",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse leader wants to improve patient safety culture. Which strategy is MOST effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage open reporting, teamwork, shared learning, and psychological safety."
+        },
+        {
+          "id": "B",
+          "text": "Restrict communication."
+        },
+        {
+          "id": "C",
+          "text": "Increase disciplinary action."
+        },
+        {
+          "id": "D",
+          "text": "Reduce incident reporting."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Positive safety cultures encourage learning, transparency, teamwork, and continuous improvement."
+    },
+    {
+      "id": "q40",
+      "section": 2,
+      "sectionLabel": "Quality Improvement and Patient Safety",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A hospital has successfully reduced medication errors by 45% over one year. What should the leadership team do NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise successful practices, continue monitoring outcomes, and identify further improvement opportunities."
+        },
+        {
+          "id": "B",
+          "text": "Stop monitoring because the objective has been achieved."
+        },
+        {
+          "id": "C",
+          "text": "Reduce reporting requirements."
+        },
+        {
+          "id": "D",
+          "text": "Remove medication safety education."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Quality improvement is continuous. Successful initiatives should be embedded into practice while monitoring ensures sustained performance and identifies new opportunities for improvement."
+    },
+    {
+      "id": "q41",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A hospital is introducing an Artificial Intelligence (AI) system that identifies patients at risk of clinical deterioration. What should be the nurse's PRIMARY responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore AI recommendations."
+        },
+        {
+          "id": "B",
+          "text": "Rely entirely on the AI recommendations."
+        },
+        {
+          "id": "C",
+          "text": "Allow the AI system to make all patient care decisions."
+        },
+        {
+          "id": "D",
+          "text": "Use AI as a decision-support tool while applying professional clinical judgement and patient assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "AI supports clinical decision-making but does not replace professional nursing judgement. Nurses remain accountable for patient assessment and clinical decisions."
+    },
+    {
+      "id": "q42",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse notices inconsistent documentation in the Electronic Health Record (EHR). What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave the information unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Review the patient, correct documentation according to organisational policy, and communicate significant changes to the healthcare team."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to update the record."
+        },
+        {
+          "id": "D",
+          "text": "Delete previous entries."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Electronic records are legal documents. Accurate documentation supports patient safety, continuity of care, and legal accountability."
+    },
+    {
+      "id": "q43",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best describes digital health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The use of digital technologies to improve healthcare delivery, communication, patient engagement, and clinical outcomes."
+        },
+        {
+          "id": "B",
+          "text": "Using computers only for administration."
+        },
+        {
+          "id": "C",
+          "text": "Recording patient names electronically."
+        },
+        {
+          "id": "D",
+          "text": "Replacing nurses with technology."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital health encompasses electronic records, telehealth, AI, remote monitoring, mobile health applications, and health information systems."
+    },
+    {
+      "id": "q44",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is caring for a patient using remote cardiac monitoring. What remains the nurse's PRIMARY responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduce patient observations."
+        },
+        {
+          "id": "B",
+          "text": "Combine monitor data with ongoing patient assessment."
+        },
+        {
+          "id": "C",
+          "text": "Ignore patient symptoms."
+        },
+        {
+          "id": "D",
+          "text": "Depend solely on monitor alarms."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Technology supplements but does not replace comprehensive nursing assessment."
+    },
+    {
+      "id": "q45",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A hospital is implementing a new Electronic Medication Administration Record (eMAR). Which benefit is MOST significant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eliminates nursing documentation."
+        },
+        {
+          "id": "B",
+          "text": "Eliminates all medication errors."
+        },
+        {
+          "id": "C",
+          "text": "Removes the need for patient identification."
+        },
+        {
+          "id": "D",
+          "text": "Improves medication safety through accurate documentation and verification."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Electronic medication systems improve medication safety but still require professional judgement and patient identification."
+    },
+    {
+      "id": "q46",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Evidence-based nursing practice requires nurses to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow traditions only."
+        },
+        {
+          "id": "B",
+          "text": "Use personal experience alone."
+        },
+        {
+          "id": "C",
+          "text": "Ignore research findings."
+        },
+        {
+          "id": "D",
+          "text": "Integrate current research, clinical expertise, patient preferences, and organisational policies."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High-quality nursing care combines the best available evidence with clinical expertise and patient values."
+    },
+    {
+      "id": "q47",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse wishes to introduce a new pressure injury prevention protocol based on recent research. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Critically evaluate the evidence and discuss implementation through organisational governance processes."
+        },
+        {
+          "id": "B",
+          "text": "Ignore organisational policy."
+        },
+        {
+          "id": "C",
+          "text": "Wait until another hospital adopts it."
+        },
+        {
+          "id": "D",
+          "text": "Introduce the protocol independently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Practice changes should follow evidence appraisal and organisational approval processes."
+    },
+    {
+      "id": "q48",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which research source generally provides the strongest level of evidence for clinical practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Personal opinion."
+        },
+        {
+          "id": "B",
+          "text": "Systematic review or meta-analysis of high-quality studies."
+        },
+        {
+          "id": "C",
+          "text": "Social media discussion."
+        },
+        {
+          "id": "D",
+          "text": "Case report."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Systematic reviews synthesise multiple high-quality studies and generally provide the strongest evidence for practice."
+    },
+    {
+      "id": "q49",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient asks, \"Can I trust health information I found on social media?\" What is the MOST appropriate nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recommend following influencers."
+        },
+        {
+          "id": "B",
+          "text": "All online information is reliable."
+        },
+        {
+          "id": "C",
+          "text": "Help the patient evaluate information using reputable evidence-based health sources."
+        },
+        {
+          "id": "D",
+          "text": "Discourage all internet use."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Health literacy includes helping patients identify trustworthy information sources."
+    },
+    {
+      "id": "q50",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse accesses a patient's electronic record without being involved in their care. Which professional principle has been breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confidentiality and privacy."
+        },
+        {
+          "id": "B",
+          "text": "Innovation."
+        },
+        {
+          "id": "C",
+          "text": "Accountability."
+        },
+        {
+          "id": "D",
+          "text": "Leadership."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Access to health records should occur only when required for legitimate clinical purposes."
+    },
+    {
+      "id": "q51",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which technology is MOST commonly used to provide healthcare services to patients living in remote locations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Telehealth."
+        },
+        {
+          "id": "B",
+          "text": "Robotics."
+        },
+        {
+          "id": "C",
+          "text": "3D Printing."
+        },
+        {
+          "id": "D",
+          "text": "Virtual Reality."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Telehealth expands access to healthcare by enabling remote consultations and monitoring."
+    },
+    {
+      "id": "q52",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse is participating in a quality improvement research project. What ethical principle should guide all patient involvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Financial benefit."
+        },
+        {
+          "id": "B",
+          "text": "Convenience."
+        },
+        {
+          "id": "C",
+          "text": "Speed of data collection."
+        },
+        {
+          "id": "D",
+          "text": "Respect for informed consent, privacy, and ethical approval requirements."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Research involving people must comply with ethical standards to protect participants."
+    },
+    {
+      "id": "q53",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Clinical dashboards are primarily used to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Store financial records only."
+        },
+        {
+          "id": "B",
+          "text": "Display healthcare performance indicators to support clinical decision-making and quality improvement."
+        },
+        {
+          "id": "C",
+          "text": "Replace patient assessment."
+        },
+        {
+          "id": "D",
+          "text": "Manage payroll."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical dashboards help teams monitor quality indicators, patient outcomes, and organisational performance."
+    },
+    {
+      "id": "q54",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A hospital introduces wearable technology to monitor patients continuously. Which nursing action remains essential?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue regular patient assessment and clinical judgement."
+        },
+        {
+          "id": "B",
+          "text": "Stop recording observations."
+        },
+        {
+          "id": "C",
+          "text": "Rely only on electronic alerts."
+        },
+        {
+          "id": "D",
+          "text": "Reduce patient interaction."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology enhances but does not replace direct patient assessment."
+    },
+    {
+      "id": "q55",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best describes innovation in healthcare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Purchasing expensive equipment only."
+        },
+        {
+          "id": "B",
+          "text": "Replacing experienced nurses."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding change."
+        },
+        {
+          "id": "D",
+          "text": "Applying new ideas, technologies, or processes that improve patient care and healthcare outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Innovation focuses on improving care through practical and sustainable solutions."
+    },
+    {
+      "id": "q56",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Why is data security important in digital healthcare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce clinical assessments."
+        },
+        {
+          "id": "B",
+          "text": "To improve internet speed."
+        },
+        {
+          "id": "C",
+          "text": "To simplify documentation."
+        },
+        {
+          "id": "D",
+          "text": "To protect confidential patient information from unauthorised access or misuse."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Healthcare organisations have legal and ethical obligations to protect patient information."
+    },
+    {
+      "id": "q57",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse wants to determine whether a new falls prevention programme has improved patient outcomes. What should be measured?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of meetings held."
+        },
+        {
+          "id": "B",
+          "text": "Relevant outcome indicators such as falls rates before and after implementation."
+        },
+        {
+          "id": "C",
+          "text": "Hospital occupancy."
+        },
+        {
+          "id": "D",
+          "text": "Staff opinions only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures determine whether innovations achieve their intended objectives."
+    },
+    {
+      "id": "q58",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best reflects digital professionalism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discussing patients on personal messaging apps."
+        },
+        {
+          "id": "B",
+          "text": "Sharing passwords with colleagues."
+        },
+        {
+          "id": "C",
+          "text": "Sharing clinical photos on social media without consent."
+        },
+        {
+          "id": "D",
+          "text": "Maintaining confidentiality, ethical behaviour, and professional standards when using digital technologies."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Digital professionalism extends traditional professional responsibilities into digital environments."
+    },
+    {
+      "id": "q59",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse leader encourages staff to question existing practices and suggest improvements supported by evidence. This demonstrates:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased supervision."
+        },
+        {
+          "id": "B",
+          "text": "Resistance to change."
+        },
+        {
+          "id": "C",
+          "text": "Staff discipline."
+        },
+        {
+          "id": "D",
+          "text": "A culture of innovation and continuous improvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Innovative healthcare organisations encourage critical thinking, research utilisation, and continuous learning."
+    },
+    {
+      "id": "q60",
+      "section": 3,
+      "sectionLabel": "Digital Health, Innovation and Evidence-Based Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement BEST reflects the role of a Global Nursing Professional in the digital age?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Research has little influence on nursing practice."
+        },
+        {
+          "id": "B",
+          "text": "Technology is mainly the responsibility of IT staff."
+        },
+        {
+          "id": "C",
+          "text": "Nurses should combine digital health technologies, evidence-based practice, ethical decision-making, innovation, and compassionate patient-centred care to improve healthcare outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Technology should replace nursing judgement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global Nursing Professionals embrace digital transformation while recognising that compassionate, ethical, evidence-informed nursing remains central to high-quality patient care. Technology serves as a tool to enhance—not replace—professional nursing practice."
+    },
+    {
+      "id": "q61",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is caring for a patient who recently migrated from another country and has healthcare beliefs different from those commonly practised in the hospital. What is the MOST appropriate nursing approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore cultural beliefs."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to convince the patient."
+        },
+        {
+          "id": "C",
+          "text": "Explore the patient's beliefs respectfully and incorporate them into the care plan whenever safe and appropriate."
+        },
+        {
+          "id": "D",
+          "text": "Encourage the patient to follow local practices only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global nursing requires cultural humility and culturally responsive care. Respecting patients' beliefs promotes trust, improves communication, and supports person-centred care."
+    },
+    {
+      "id": "q62",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best describes cultural humility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintaining an attitude of lifelong self-reflection, openness, and willingness to learn from each patient."
+        },
+        {
+          "id": "B",
+          "text": "Learning every cultural practice."
+        },
+        {
+          "id": "C",
+          "text": "Treating everyone exactly the same."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding cultural discussions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural humility recognises that nurses continually learn from diverse patients and avoid assumptions based on stereotypes."
+    },
+    {
+      "id": "q63",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A Global Nursing Professional demonstrates lifelong learning by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Studying only when changing jobs."
+        },
+        {
+          "id": "B",
+          "text": "Relying only on previous experience."
+        },
+        {
+          "id": "C",
+          "text": "Completing mandatory education only."
+        },
+        {
+          "id": "D",
+          "text": "Regularly updating knowledge through professional development, research, reflection, and continuing education."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Healthcare evolves continuously, requiring nurses to remain current with evidence, technology, and professional standards."
+    },
+    {
+      "id": "q64",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A hospital is responding to an infectious disease outbreak. Which nursing action best reflects global health practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for government instructions."
+        },
+        {
+          "id": "B",
+          "text": "Follow infection prevention guidelines, educate the community, collaborate with public health agencies, and support surveillance activities."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on individual patients."
+        },
+        {
+          "id": "D",
+          "text": "Limit communication with patients."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Global health nursing includes disease prevention, surveillance, public education, and collaboration across healthcare systems."
+    },
+    {
+      "id": "q65",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which nursing activity contributes most to achieving sustainable healthcare?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using resources responsibly while maintaining safe patient care."
+        },
+        {
+          "id": "B",
+          "text": "Wasting single-use resources unnecessarily."
+        },
+        {
+          "id": "C",
+          "text": "Increasing unnecessary investigations."
+        },
+        {
+          "id": "D",
+          "text": "Ignoring environmental policies."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Sustainable healthcare balances environmental responsibility with safe, effective patient care."
+    },
+    {
+      "id": "q66",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse experiences increasing workplace stress due to a high workload. What is the MOST appropriate professional response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue working without breaks."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the stress."
+        },
+        {
+          "id": "C",
+          "text": "Leave work without informing anyone."
+        },
+        {
+          "id": "D",
+          "text": "Recognise the signs of stress, access available support, practise self-care, and discuss workload concerns appropriately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional resilience includes recognising stress early and using healthy coping strategies to maintain wellbeing and safe practice."
+    },
+    {
+      "id": "q67",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which characteristic best reflects professional resilience?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapting positively to challenges while maintaining safe, compassionate patient care."
+        },
+        {
+          "id": "B",
+          "text": "Never asking for help."
+        },
+        {
+          "id": "C",
+          "text": "Ignoring workplace feedback."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding difficult situations."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Resilient nurses adapt to change, learn from experiences, and maintain professionalism during adversity."
+    },
+    {
+      "id": "q68",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse is invited to join an international nursing conference. What is the PRIMARY professional benefit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taking annual leave."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding clinical duties."
+        },
+        {
+          "id": "C",
+          "text": "Receiving higher pay."
+        },
+        {
+          "id": "D",
+          "text": "Sharing knowledge, learning global best practices, networking, and supporting professional development."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "International collaboration promotes innovation, leadership, research, and improved patient care."
+    },
+    {
+      "id": "q69",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement best reflects global citizenship in nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Caring only for local patients."
+        },
+        {
+          "id": "B",
+          "text": "Focusing only on hospital policies."
+        },
+        {
+          "id": "C",
+          "text": "Recognising that health challenges are interconnected globally and contributing to equitable healthcare for all populations."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding international collaboration."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global nurses recognise that issues such as pandemics, climate change, migration, and health inequities require international cooperation."
+    },
+    {
+      "id": "q70",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient asks the nurse about climate change and its effect on health. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that climate change affects health through heat-related illness, infectious diseases, air quality, and natural disasters."
+        },
+        {
+          "id": "B",
+          "text": "Change the topic."
+        },
+        {
+          "id": "C",
+          "text": "Climate change has no impact on healthcare."
+        },
+        {
+          "id": "D",
+          "text": "Refer all questions elsewhere."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Climate change is increasingly recognised as a major determinant of global health."
+    },
+    {
+      "id": "q71",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse wishes to become a clinical leader. Which activity will contribute MOST to achieving this goal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for promotion."
+        },
+        {
+          "id": "B",
+          "text": "Limit learning to mandatory education."
+        },
+        {
+          "id": "C",
+          "text": "Seek mentorship, undertake professional development, and actively participate in quality improvement initiatives."
+        },
+        {
+          "id": "D",
+          "text": "Avoid leadership opportunities."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Leadership develops through experience, education, mentoring, and active engagement."
+    },
+    {
+      "id": "q72",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which behaviour best demonstrates ethical leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acting with honesty, fairness, transparency, and respect while prioritising patient wellbeing."
+        },
+        {
+          "id": "B",
+          "text": "Ignoring staff concerns."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding accountability."
+        },
+        {
+          "id": "D",
+          "text": "Making decisions that benefit only the organisation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Ethical leaders build trust through integrity, fairness, and accountability."
+    },
+    {
+      "id": "q73",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A multidisciplinary team is planning care for a patient with multiple chronic illnesses. What is the nurse's PRIMARY contribution?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coordinate care, advocate for the patient's goals, and facilitate communication among team members."
+        },
+        {
+          "id": "B",
+          "text": "Focus only on medication administration."
+        },
+        {
+          "id": "C",
+          "text": "Document only observations."
+        },
+        {
+          "id": "D",
+          "text": "Leave planning to physicians."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nurses play a central role in coordinating holistic, patient-centred care."
+    },
+    {
+      "id": "q74",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse identifies a health education need within the local community. What demonstrates professional leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for someone else."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the issue."
+        },
+        {
+          "id": "C",
+          "text": "Develop or participate in evidence-based community education programmes."
+        },
+        {
+          "id": "D",
+          "text": "Refer everyone to the internet."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Community engagement is an important aspect of modern nursing leadership and health promotion."
+    },
+    {
+      "id": "q75",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse is offered a position in another country with different healthcare regulations. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin work immediately."
+        },
+        {
+          "id": "B",
+          "text": "Learn the regulations after starting work."
+        },
+        {
+          "id": "C",
+          "text": "Understand the country's registration requirements, legal responsibilities, professional standards, and scope of practice before commencing employment."
+        },
+        {
+          "id": "D",
+          "text": "Rely on previous registration."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional registration and legal requirements differ internationally and must be understood before practice."
+    },
+    {
+      "id": "q76",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which nursing action best promotes health equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prioritising patients based on financial status."
+        },
+        {
+          "id": "B",
+          "text": "Identifying barriers to healthcare and adapting care to meet each patient's needs."
+        },
+        {
+          "id": "C",
+          "text": "Limiting access to health information."
+        },
+        {
+          "id": "D",
+          "text": "Providing identical care regardless of individual circumstances."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Health equity means providing fair opportunities for all individuals to achieve the best possible health outcomes by addressing differences in need and access."
+    },
+    {
+      "id": "q77",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse receives constructive feedback following a clinical audit. What is the MOST professional response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complain to colleagues."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the recommendations."
+        },
+        {
+          "id": "C",
+          "text": "Reject the feedback."
+        },
+        {
+          "id": "D",
+          "text": "Reflect on the feedback, identify improvement opportunities, and develop an action plan."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Constructive feedback supports professional growth and continuous improvement."
+    },
+    {
+      "id": "q78",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Why should nurses participate in professional organisations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is only useful for networking."
+        },
+        {
+          "id": "B",
+          "text": "Professional organisations support continuing education, advocacy, leadership, research, policy development, and professional standards."
+        },
+        {
+          "id": "C",
+          "text": "Membership replaces professional registration."
+        },
+        {
+          "id": "D",
+          "text": "Membership is unnecessary."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional organisations strengthen the nursing profession by supporting education, leadership, advocacy, and evidence-based practice."
+    },
+    {
+      "id": "q79",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which quality best distinguishes a Global Nursing Professional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical competence alone."
+        },
+        {
+          "id": "B",
+          "text": "Working independently without collaboration."
+        },
+        {
+          "id": "C",
+          "text": "Completing assigned tasks quickly."
+        },
+        {
+          "id": "D",
+          "text": "Combining clinical excellence with leadership, cultural intelligence, innovation, ethical practice, lifelong learning, collaboration, and advocacy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global Nursing Professionals influence patient care, healthcare organisations, and communities through broad professional capabilities extending beyond bedside practice."
+    },
+    {
+      "id": "q80",
+      "section": 4,
+      "sectionLabel": "Global Perspectives and Lifelong Professional Development",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement BEST summarises the role of a Global Nursing Professional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus primarily on completing daily nursing tasks."
+        },
+        {
+          "id": "B",
+          "text": "Work only within one healthcare setting."
+        },
+        {
+          "id": "C",
+          "text": "Deliver safe, evidence-based, compassionate and culturally responsive care while leading improvement, embracing innovation, promoting global health, mentoring others, advocating for equity, and committing to lifelong professional development."
+        },
+        {
+          "id": "D",
+          "text": "Limit professional growth after qualification."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A Global Nursing Professional combines clinical expertise with leadership, innovation, ethical practice, cultural responsiveness, global awareness, advocacy, and lifelong learning. These capabilities enable nurses to improve healthcare outcomes not only for individual patients but also for organisations, communities, and populations worldwide."
+    }
+  ]
+}

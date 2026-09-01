@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Social Media Boundary Violation",
+      "stem": "A student nurse proudly posts a photo from the ward on a personal social media account after a difficult shift, captioning it, “Another tragic ICU night.” In the background of the photo, part of a monitor screen and a patient room number are visible. A colleague notices the post and realises that the details could identify the patient when combined with other local information. The supervising nurse understands that even if no name was written in the caption, this may still represent a serious privacy and professionalism breach. Immediate action is required. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features make this post unsafe or unprofessional? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The student used a personal account"
+            },
+            {
+              "id": "B",
+              "text": "The caption references a tragic clinical situation"
+            },
+            {
+              "id": "C",
+              "text": "Social media posts can breach privacy even without a patient name"
+            },
+            {
+              "id": "D",
+              "text": "It was taken in a clinical environment"
+            },
+            {
+              "id": "E",
+              "text": "Potentially identifying details are visible in the background"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are relevant. Personal accounts do not remove professional obligations, and de-identification may fail if contextual details remain visible. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The post is harmless because no full name is shown"
+            },
+            {
+              "id": "B",
+              "text": "The post may violate confidentiality and professional standards and must be addressed promptly"
+            },
+            {
+              "id": "C",
+              "text": "Only direct patient selfies are prohibited"
+            },
+            {
+              "id": "D",
+              "text": "Students are exempt from social media rules"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Clinical content on personal social media can breach privacy and damage professionalism even when names are omitted. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Preventing further privacy breach and addressing the professional violation immediately"
+            },
+            {
+              "id": "B",
+              "text": "Protecting the student from embarrassment only"
+            },
+            {
+              "id": "C",
+              "text": "Avoiding all discussion of the event"
+            },
+            {
+              "id": "D",
+              "text": "Waiting to see whether the post gets more likes"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The priority is limiting harm and addressing the breach through appropriate supervisory channels. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the supervising nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Share the post privately with friends as a warning example"
+            },
+            {
+              "id": "B",
+              "text": "Comment publicly under the post to criticize the student"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the post because it is outside work hours"
+            },
+            {
+              "id": "D",
+              "text": "Instruct the student to remove the post immediately and escalate the matter according to policy"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The content should be removed immediately, and the issue should be handled professionally through policy-based processes. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume the issue ends once the post is deleted"
+            },
+            {
+              "id": "B",
+              "text": "Use the event as education on professional boundaries and digital conduct"
+            },
+            {
+              "id": "C",
+              "text": "Document/report the incident if required by policy"
+            },
+            {
+              "id": "D",
+              "text": "Reinforce that even indirect identifiers can breach confidentiality"
+            },
+            {
+              "id": "E",
+              "text": "Review facility policy on privacy and social media use"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Deleting the post helps, but the incident may still require reporting and education. Professional standards extend to online conduct. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Social Media Boundary Violation | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The post is removed promptly, the incident is handled according to policy, and the student demonstrates improved understanding of digital professionalism"
+            },
+            {
+              "id": "B",
+              "text": "Staff mock the student instead of educating and reporting appropriately"
+            },
+            {
+              "id": "C",
+              "text": "The post remains online because no full name is visible"
+            },
+            {
+              "id": "D",
+              "text": "Similar posts continue because no one addressed the issue"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management reduces ongoing harm and supports professional learning and accountability."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Professional Boundary Crossing with a Patient",
+      "stem": "A nurse has been caring for a long-term rehabilitation patient for several weeks. The patient begins giving the nurse expensive gifts and asks for the nurse’s personal phone number so they can “stay friends” after discharge. The nurse feels sympathy for the patient, who has little family support, and begins spending extra nonclinical time in the room talking about personal life problems. Another nurse notices the growing closeness and becomes concerned that the relationship is moving beyond therapeutic boundaries. The situation requires the primary nurse to reflect on professionalism and therapeutic use of self. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest a potential boundary problem? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Request for personal phone number"
+            },
+            {
+              "id": "B",
+              "text": "Extra time spent in a nonclinical personal role"
+            },
+            {
+              "id": "C",
+              "text": "Increasing personal disclosure by the nurse"
+            },
+            {
+              "id": "D",
+              "text": "Expensive gifts from the patient"
+            },
+            {
+              "id": "E",
+              "text": "Patient’s limited family support"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are relevant. Patient vulnerability does not justify crossing boundaries. Gifts, personal contact, and self-disclosure may shift the relationship away from therapeutic purpose. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gifts prove the care is effective and should be accepted"
+            },
+            {
+              "id": "B",
+              "text": "Personal friendships with patients are encouraged if intentions are good"
+            },
+            {
+              "id": "C",
+              "text": "The relationship may be moving beyond therapeutic boundaries and requires corrective action"
+            },
+            {
+              "id": "D",
+              "text": "This is harmless kindness and should continue"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Professional boundaries exist to protect patients and preserve safe care. Good intentions do not remove risk. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delaying discharge planning"
+            },
+            {
+              "id": "B",
+              "text": "Maintaining therapeutic boundaries to prevent exploitation or impaired judgment"
+            },
+            {
+              "id": "C",
+              "text": "Preserving gift-giving etiquette"
+            },
+            {
+              "id": "D",
+              "text": "Avoiding discomfort in saying no"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The priority is protecting the patient and ensuring the nurse’s clinical judgment remains professional and unbiased. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continue self-disclosure to build trust"
+            },
+            {
+              "id": "B",
+              "text": "Re-establish professional boundaries, decline inappropriate gifts or personal contact, and seek supervisory guidance if needed"
+            },
+            {
+              "id": "C",
+              "text": "Accept the gifts but avoid mentioning them"
+            },
+            {
+              "id": "D",
+              "text": "Give the patient a private number to ease loneliness"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse should re-establish boundaries immediately. Accepting gifts or personal contact risks exploitation and professional misconduct. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reflect on countertransference or personal emotional involvement"
+            },
+            {
+              "id": "B",
+              "text": "Document relevant boundary issues if required by policy or the care situation"
+            },
+            {
+              "id": "C",
+              "text": "Use therapeutic communication while keeping the relationship professionally focused"
+            },
+            {
+              "id": "D",
+              "text": "Involve the team if boundary concerns may affect care"
+            },
+            {
+              "id": "E",
+              "text": "Assume that because the patient requested it, the contact is ethically acceptable"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These actions support safe, ethical practice. Patient request alone does not make a boundary crossing acceptable. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Professional Boundary Crossing with a Patient | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clinical judgment becomes influenced by favoritism"
+            },
+            {
+              "id": "B",
+              "text": "The nurse accepts gifts and continues private communication after discharge"
+            },
+            {
+              "id": "C",
+              "text": "Staff ignore the issue because the patient is lonely"
+            },
+            {
+              "id": "D",
+              "text": "The nurse maintains a professional therapeutic relationship, declines inappropriate contact, and care remains patient-centred and ethically sound"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Effective management restores and preserves therapeutic boundaries while still offering compassionate care."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Suspected Elder Abuse and Mandatory Reporting",
+      "stem": "Mrs. Teresa Clarke, an 86-year-old woman, is admitted with dehydration, bruises of different ages on her arms, and a healing burn on her forearm. Her nephew answers most questions for her and becomes defensive when asked about home support. When the nurse speaks with Mrs. Clarke alone, she becomes tearful and says quietly, “Please don’t make trouble. He gets angry.” The nurse suspects possible elder abuse and neglect. The situation requires sensitive assessment, immediate safety thinking, and awareness of mandatory reporting responsibilities according to law and policy. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings raise concern for possible elder abuse or neglect? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Controlling family member behaviour"
+            },
+            {
+              "id": "B",
+              "text": "Unexplained healing burn"
+            },
+            {
+              "id": "C",
+              "text": "Dehydration"
+            },
+            {
+              "id": "D",
+              "text": "Patient fearfulness and reluctance to speak"
+            },
+            {
+              "id": "E",
+              "text": "Bruises of different ages"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are classic abuse or neglect warning signs. The patient’s fear and the controlling behaviour of the relative are especially concerning. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient may be experiencing abuse or neglect and requires protection and reporting according to law/policy"
+            },
+            {
+              "id": "B",
+              "text": "Family privacy should always override nursing concern"
+            },
+            {
+              "id": "C",
+              "text": "The injuries are normal for ageing and should not be questioned"
+            },
+            {
+              "id": "D",
+              "text": "Reporting is unnecessary unless the patient signs a written complaint"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must not dismiss suspicious patterns. Mandatory reporting laws and safeguarding responsibilities may apply even if the patient is frightened or reluctant. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Completing discharge paperwork first"
+            },
+            {
+              "id": "B",
+              "text": "Avoiding conflict with the family member"
+            },
+            {
+              "id": "C",
+              "text": "Protecting the patient from further harm while initiating appropriate assessment and reporting steps"
+            },
+            {
+              "id": "D",
+              "text": "Preserving family reputation"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Patient safety and protection are the priority. The nurse must act on suspicious findings rather than avoid discomfort. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the injuries because the patient asked not to make trouble"
+            },
+            {
+              "id": "B",
+              "text": "Ensure the patient is assessed privately and safely, document objective findings, and follow mandatory reporting or safeguarding procedures promptly"
+            },
+            {
+              "id": "C",
+              "text": "Confront the nephew aggressively in the hallway"
+            },
+            {
+              "id": "D",
+              "text": "Promise absolute secrecy and do nothing"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse should focus on safe assessment, objective documentation, and formal reporting pathways. Confrontation without a plan may increase danger. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Decide alone that no report is needed because the patient seems embarrassed"
+            },
+            {
+              "id": "B",
+              "text": "Document findings objectively, including statements made by the patient"
+            },
+            {
+              "id": "C",
+              "text": "Maintain awareness that fear may limit disclosure"
+            },
+            {
+              "id": "D",
+              "text": "Involve social work, safeguarding, or the appropriate protective services as required"
+            },
+            {
+              "id": "E",
+              "text": "Avoid leading questions during assessment"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are appropriate actions. Abuse assessments require careful documentation, interdisciplinary support, and avoidance of assumptions or leading language. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Suspected Elder Abuse and Mandatory Reporting | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective nursing management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Documentation is vague and incomplete"
+            },
+            {
+              "id": "B",
+              "text": "Staff ignore the pattern of injuries to avoid conflict"
+            },
+            {
+              "id": "C",
+              "text": "The family is allowed to take the patient home immediately without review"
+            },
+            {
+              "id": "D",
+              "text": "The patient is protected, objective findings are documented, and the concern is reported through the proper safeguarding process"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Effective management protects the vulnerable patient and follows legal-professional obligations."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Unsafe Provider Order and Nursing Advocacy",
+      "stem": "A patient with a known severe allergy to a particular antibiotic is admitted with sepsis. During the rush of urgent treatment, a covering provider accidentally enters an order for that same antibiotic. The allergy is clearly documented in the chart and on the wristband, but the provider is difficult to reach and a colleague says, “Just give it now because the infection is serious.” The nurse recognises a direct conflict between urgency and safety. Advocacy requires questioning unsafe orders and preventing harm, even when time pressure is high. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate that the order is unsafe? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The allergy is visible on the chart and wristband"
+            },
+            {
+              "id": "B",
+              "text": "Another staff member suggests giving it anyway"
+            },
+            {
+              "id": "C",
+              "text": "The patient is septic and treatment is urgent"
+            },
+            {
+              "id": "D",
+              "text": "A documented severe allergy exists"
+            },
+            {
+              "id": "E",
+              "text": "The ordered medication matches the allergy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these details matter. Urgency increases complexity, but it does not justify ignoring a known severe allergy. Staff pressure can contribute to unsafe decisions. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse has no role in questioning orders"
+            },
+            {
+              "id": "B",
+              "text": "The antibiotic should be given because speed matters more than allergy history"
+            },
+            {
+              "id": "C",
+              "text": "The order is unsafe and must be questioned immediately; the nurse must advocate for an alternative"
+            },
+            {
+              "id": "D",
+              "text": "Wristband allergies are only advisory, not clinically important"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Professional nursing requires active safety advocacy. A nurse must not knowingly administer a drug that may cause severe harm when a documented allergy exists. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Finishing the medication round on time"
+            },
+            {
+              "id": "B",
+              "text": "Keeping the workflow simple"
+            },
+            {
+              "id": "C",
+              "text": "Preventing serious medication-related harm from an unsafe order"
+            },
+            {
+              "id": "D",
+              "text": "Avoiding disagreement with the provider"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The patient’s immediate safety is the priority, even under time pressure. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold the medication, clarify the allergy/order conflict urgently, and escalate through the appropriate chain if the provider is unavailable"
+            },
+            {
+              "id": "B",
+              "text": "Delete the order independently without communication"
+            },
+            {
+              "id": "C",
+              "text": "Administer the antibiotic and document the allergy later"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the wristband because the infection is severe"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should not administer the unsafe medication. Urgent escalation and clarification are necessary to protect the patient. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalate to a supervisor or rapid chain-of-command process if necessary"
+            },
+            {
+              "id": "B",
+              "text": "Document the clarification process and patient allergy clearly"
+            },
+            {
+              "id": "C",
+              "text": "Assume provider authority overrides all nursing safety concerns"
+            },
+            {
+              "id": "D",
+              "text": "Review whether an alternative appropriate antibiotic has been ordered or can be requested promptly"
+            },
+            {
+              "id": "E",
+              "text": "Use assertive professional communication to explain the safety concern"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "These are all correct advocacy actions. Professional accountability includes speaking up when an order is unsafe. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Unsafe Provider Order and Nursing Advocacy | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective advocacy?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse gives the medication despite the known allergy"
+            },
+            {
+              "id": "B",
+              "text": "The unsafe medication is not given, the allergy conflict is addressed promptly, and a safer treatment plan is implemented"
+            },
+            {
+              "id": "C",
+              "text": "The allergy remains undocumented in follow-up communication"
+            },
+            {
+              "id": "D",
+              "text": "Staff delay action because they do not want conflict"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Effective advocacy prevents harm, even in urgent situations."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "End-of-Life Conflict and Advance Directive",
+      "stem": "Mr. Peter Hall, a 74-year-old patient with advanced metastatic cancer, is unresponsive in the palliative care unit. His chart contains a valid advance directive and a documented do-not-resuscitate order. Earlier in the admission, he clearly stated that he wanted comfort-focused care only and did not want CPR or intubation. When his condition worsens, his son becomes distressed and demands, “Do everything possible. He would want to live.” The bedside nurse must respond compassionately while upholding the patient’s documented wishes, legal directives, and the ethical principles of autonomy and fidelity. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most important in this end-of-life conflict? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is now unable to speak for himself"
+            },
+            {
+              "id": "B",
+              "text": "A DNR order is documented"
+            },
+            {
+              "id": "C",
+              "text": "The family member is requesting aggressive treatment"
+            },
+            {
+              "id": "D",
+              "text": "The patient previously expressed comfort-focused wishes"
+            },
+            {
+              "id": "E",
+              "text": "A valid advance directive is present"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors are central. The patient’s own documented wishes remain the primary guide, even when family members are distressed or disagree. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse must honor the patient’s advance directive and DNR while responding compassionately to the family"
+            },
+            {
+              "id": "B",
+              "text": "The chart should be changed immediately based on the son’s emotions"
+            },
+            {
+              "id": "C",
+              "text": "The nurse should ignore the family and walk away"
+            },
+            {
+              "id": "D",
+              "text": "Family demand automatically overrides the patient’s documented wishes"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The patient’s autonomy and previously expressed choices remain ethically and legally important. Family distress should be addressed with empathy, but it does not automatically cancel the directive. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoiding any emotionally difficult conversation"
+            },
+            {
+              "id": "B",
+              "text": "Prioritising staff convenience"
+            },
+            {
+              "id": "C",
+              "text": "Delaying all comfort care until the son agrees"
+            },
+            {
+              "id": "D",
+              "text": "Upholding the patient’s end-of-life wishes while maintaining compassionate communication with the family"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse’s urgent role is to ensure the patient’s directives are followed while supporting the family through distress. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continue comfort-focused care, confirm the documented directives, and involve the appropriate provider/team to support the family conversation"
+            },
+            {
+              "id": "B",
+              "text": "Tear up the DNR because the family disagrees"
+            },
+            {
+              "id": "C",
+              "text": "Begin CPR immediately because the son is upset"
+            },
+            {
+              "id": "D",
+              "text": "Leave the family alone without explanation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should maintain the patient’s plan of care, confirm documentation, and use the interdisciplinary team to support communication and grief. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Document family concerns and the team response objectively"
+            },
+            {
+              "id": "B",
+              "text": "Suggest ignoring the directive to avoid conflict"
+            },
+            {
+              "id": "C",
+              "text": "Involve palliative care, chaplaincy, or ethics support if needed"
+            },
+            {
+              "id": "D",
+              "text": "Use calm, compassionate language to explain that the team is honoring the patient’s expressed wishes"
+            },
+            {
+              "id": "E",
+              "text": "Continue comfort measures and symptom relief"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These actions respect autonomy, support the family, and maintain professional clarity. Ignoring the directive would be unethical and potentially unlawful. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: End-of-Life Conflict and Advance Directive | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "No one explains the plan to the family"
+            },
+            {
+              "id": "B",
+              "text": "CPR is started despite the DNR to satisfy the family"
+            },
+            {
+              "id": "C",
+              "text": "Comfort care is delayed because the family is upset"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s comfort remains the focus, the documented directive is upheld, and the family receives compassionate support and explanation"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Effective end-of-life nursing care protects patient wishes and supports family understanding and dignity."
+        }
+      ]
+    }
+  ]
+}

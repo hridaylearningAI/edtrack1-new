@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Postpartum hemorrhage",
+      "scenario": "A woman who delivered vaginally 30 minutes ago suddenly reports feeling dizzy. The nurse notes heavy vaginal bleeding and a boggy uterus.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Perform fundal massage and call for assistance.",
+      "modelWhy": "Uterine atony is the most common cause of postpartum hemorrhage and can rapidly lead to shock.",
+      "modelNext": "Assess uterine tone, quantify blood loss, and monitor vital signs.",
+      "trap": "Documenting the bleeding before intervening.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Late postpartum hemorrhage",
+      "scenario": "Six hours after delivery, a woman saturates a perineal pad within 30 minutes and passes large clots.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess uterine firmness and notify the provider.",
+      "modelWhy": "Excessive bleeding beyond expected lochia is abnormal.",
+      "modelNext": "Check vital signs and hemoglobin levels.",
+      "trap": "Reassuring the patient that bleeding is normal.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Preeclampsia warning signs",
+      "scenario": "A pregnant woman at 34 weeks gestation reports severe headache and blurred vision. Blood pressure is 170/110 mmHg.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient safety and notify the provider immediately.",
+      "modelWhy": "Severe hypertension with neurological symptoms indicates worsening preeclampsia.",
+      "modelNext": "Assess reflexes and urine output.",
+      "trap": "Offering analgesics without escalation.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Eclampsia seizure",
+      "scenario": "A woman with known preeclampsia suddenly has a tonic-clonic seizure.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Protect the airway and administer magnesium sulfate as ordered.",
+      "modelWhy": "Seizures threaten maternal and fetal oxygenation.",
+      "modelNext": "Monitor respiratory status and fetal heart rate.",
+      "trap": "Attempting to restrain the patient.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Placental abruption",
+      "scenario": "A pregnant woman at 36 weeks presents with abdominal pain and vaginal bleeding. The uterus feels rigid and tender.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider and prepare for emergency intervention.",
+      "modelWhy": "Placental abruption compromises fetal oxygen supply.",
+      "modelNext": "Monitor fetal heart rate and maternal vital signs.",
+      "trap": "Performing a vaginal examination.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Placenta previa",
+      "scenario": "A woman at 32 weeks has painless, bright red vaginal bleeding.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Place the patient on bed rest and notify the provider.",
+      "modelWhy": "Placenta previa can cause severe hemorrhage.",
+      "modelNext": "Monitor bleeding and fetal status.",
+      "trap": "Performing a digital vaginal exam.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Umbilical cord prolapse",
+      "scenario": "During labor, the nurse observes the umbilical cord protruding from the vagina.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Elevate the presenting part and call for emergency assistance.",
+      "modelWhy": "Cord compression cuts off fetal oxygen.",
+      "modelNext": "Maintain pressure off the cord until delivery.",
+      "trap": "Leaving the patient to get supplies.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Uterine tachysystole",
+      "scenario": "A laboring woman receiving oxytocin has contractions every minute lasting 90 seconds.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the oxytocin infusion.",
+      "modelWhy": "Excessive uterine contractions reduce fetal oxygenation.",
+      "modelNext": "Reposition the patient and assess fetal heart rate.",
+      "trap": "Increasing the oxytocin dose.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

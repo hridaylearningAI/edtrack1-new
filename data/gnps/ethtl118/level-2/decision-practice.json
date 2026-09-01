@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Dehydration",
+      "scenario": "A patient admitted with ongoing vomiting and diarrhea has dry mucous membranes, poor skin turgor, and minimal urine output. Blood pressure is 90/56 mmHg, and the patient reports feeling light-headed when sitting up.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate IV fluids.",
+      "modelWhy": "Poor perfusion.",
+      "modelNext": "Monitor urine output.",
+      "trap": "Oral fluids only.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Hyperkalemia",
+      "scenario": "Laboratory results for a patient with renal impairment reveal a potassium level of 6.2 mmol/L. The patient reports muscle weakness and palpitations but denies chest pain.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify provider and monitor ECG.",
+      "modelWhy": "Risk of dysrhythmia.",
+      "modelNext": "Prepare emergency treatment.",
+      "trap": "Waiting.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Hyponatremia",
+      "scenario": "An elderly patient is increasingly confused and lethargic. Recent blood tests show a sodium level of 122 mmol/L. Family members report that the patient was alert earlier in the day.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Implement safety and notify provider.",
+      "modelWhy": "Risk of seizures.",
+      "modelNext": "Monitor neuro status.",
+      "trap": "Reorient only.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Pneumonia deterioration",
+      "scenario": "A patient being treated for pneumonia becomes increasingly short of breath and confused. Respiratory rate is 30 breaths per minute, oxygen saturation has dropped to 85% on room air, and the patient is restless.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply oxygen and escalate.",
+      "modelWhy": "Respiratory failure risk.",
+      "modelNext": "Monitor response.",
+      "trap": "Waiting for antibiotics.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Sepsis cues",
+      "scenario": "A patient admitted with a urinary tract infection develops a heart rate of 118 beats per minute, respiratory rate of 26 breaths per minute, fever, and increasing drowsiness over several hours.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate sepsis protocol.",
+      "modelWhy": "Early sepsis detection saves lives.",
+      "modelNext": "Check BP, urine output.",
+      "trap": "Ignoring tachypnea.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Post‑op bleeding",
+      "scenario": "A nurse assesses a patient two hours after abdominal surgery and finds that the surgical dressing is saturated with fresh blood. The patient reports feeling dizzy.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply pressure and notify surgeon.",
+      "modelWhy": "Active bleeding.",
+      "modelNext": "Monitor vitals.",
+      "trap": "Changing dressing only.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Acute abdomen",
+      "scenario": "A patient reports sudden onset of severe abdominal pain. On assessment, the abdomen is rigid and tender to touch, and the patient is guarding the area.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Keep NPO and notify provider.",
+      "modelWhy": "Possible peritonitis.",
+      "modelNext": "Monitor vitals.",
+      "trap": "Giving laxatives.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Fluid overload",
+      "scenario": "A patient with a history of heart failure has gained 2 kilograms in 48 hours. Assessment reveals bilateral lower limb oedema, crackles in both lung bases, and increasing shortness of breath.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Restrict fluids, prepare diuretics.",
+      "modelWhy": "Pulmonary edema risk.",
+      "modelNext": "Monitor lungs.",
+      "trap": "Encouraging fluids.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

@@ -1,0 +1,3310 @@
+{
+  "title": "Manage Budget and Financial Plan",
+  "code": "ETBUS002",
+  "topics": [
+    {
+      "number": 1,
+      "title": "Access budget and financial plans for work team",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why is it important to access the team’s budget and financial plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To understand spending limits and priorities"
+            },
+            {
+              "letter": "B",
+              "text": "To reduce the need for communication with management"
+            },
+            {
+              "letter": "C",
+              "text": "To avoid following organisational procedures"
+            },
+            {
+              "letter": "D",
+              "text": "To prepare contingency plans only when required"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "What is typically included in a financial plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Only staff salaries"
+            },
+            {
+              "letter": "B",
+              "text": "Detailed travel allowances"
+            },
+            {
+              "letter": "C",
+              "text": "Expected income, expenditure, and resource allocation"
+            },
+            {
+              "letter": "D",
+              "text": "Marketing strategies only"
+            }
+          ],
+          "correctLetter": "C"
+        },
+        {
+          "number": 3,
+          "question": "Which document provides detailed financial guidelines for a work team?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Employee handbook"
+            },
+            {
+              "letter": "B",
+              "text": "Budget and financial plan"
+            },
+            {
+              "letter": "C",
+              "text": "Training manual"
+            },
+            {
+              "letter": "D",
+              "text": "Organisational chart"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 4,
+          "question": "Accessing a financial plan ensures that:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Work is aligned with financial objectives"
+            },
+            {
+              "letter": "B",
+              "text": "Work can proceed without approvals"
+            },
+            {
+              "letter": "C",
+              "text": "Spending can be ignored"
+            },
+            {
+              "letter": "D",
+              "text": "Budgets can be hidden from the team"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "Who is responsible for providing access to the budget plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team members"
+            },
+            {
+              "letter": "B",
+              "text": "Organisational management or finance department"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "External consultants"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 6,
+          "question": "Which of the following is not usually part of a team budget?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Salaries"
+            },
+            {
+              "letter": "B",
+              "text": "Equipment"
+            },
+            {
+              "letter": "C",
+              "text": "Utilities"
+            },
+            {
+              "letter": "D",
+              "text": "Personal family expenses of staff"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 7,
+          "question": "What is the first step when a team leader receives a budget?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Allocate funds immediately"
+            },
+            {
+              "letter": "B",
+              "text": "Review and understand budget objectives"
+            },
+            {
+              "letter": "C",
+              "text": "Request more money"
+            },
+            {
+              "letter": "D",
+              "text": "Ignore unnecessary details"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 8,
+          "question": "Access to budgets helps managers to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Improve staff holidays"
+            },
+            {
+              "letter": "B",
+              "text": "Allocate resources efficiently"
+            },
+            {
+              "letter": "C",
+              "text": "Reduce work output"
+            },
+            {
+              "letter": "D",
+              "text": "Avoid accountability"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 9,
+          "question": "Financial plans must always be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Confidential to managers only"
+            },
+            {
+              "letter": "B",
+              "text": "Flexible and aligned with organisational goals"
+            },
+            {
+              "letter": "C",
+              "text": "Rigid and unchangeable"
+            },
+            {
+              "letter": "D",
+              "text": "Based on individual preference"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 10,
+          "question": "Why is it necessary to check organisational guidelines when accessing budgets?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ensure compliance and proper reporting"
+            },
+            {
+              "letter": "B",
+              "text": "To create new guidelines"
+            },
+            {
+              "letter": "C",
+              "text": "To limit team members’ access"
+            },
+            {
+              "letter": "D",
+              "text": "To avoid financial objectives"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Evaluate budget and financial plan outcomes with required organisational personnel",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Who should be involved in evaluating budget outcomes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Only the team leader"
+            },
+            {
+              "letter": "B",
+              "text": "Required organisational personnel (e.g., finance, managers)"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "External auditors only"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 2,
+          "question": "Evaluating budget outcomes helps to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Identify if objectives are being met"
+            },
+            {
+              "letter": "B",
+              "text": "Avoid communication"
+            },
+            {
+              "letter": "C",
+              "text": "Stop resource allocation"
+            },
+            {
+              "letter": "D",
+              "text": "Ignore team progress"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "Which is not a purpose of evaluating financial outcomes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To track performance against targets"
+            },
+            {
+              "letter": "B",
+              "text": "To identify variances"
+            },
+            {
+              "letter": "C",
+              "text": "To hide financial issues"
+            },
+            {
+              "letter": "D",
+              "text": "To support decision-making"
+            }
+          ],
+          "correctLetter": "C"
+        },
+        {
+          "number": 4,
+          "question": "When reviewing budget outcomes, what is compared?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Previous projects only"
+            },
+            {
+              "letter": "B",
+              "text": "Budgeted vs actual figures"
+            },
+            {
+              "letter": "C",
+              "text": "Staff performance scores"
+            },
+            {
+              "letter": "D",
+              "text": "External benchmarks only"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 5,
+          "question": "What should be done if budget outcomes do not align with objectives?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Ignore and proceed"
+            },
+            {
+              "letter": "B",
+              "text": "Discuss adjustments with organisational personnel"
+            },
+            {
+              "letter": "C",
+              "text": "Reduce reporting"
+            },
+            {
+              "letter": "D",
+              "text": "Increase unrelated spending"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 6,
+          "question": "A key skill for evaluating financial outcomes is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Timekeeping"
+            },
+            {
+              "letter": "B",
+              "text": "Data analysis"
+            },
+            {
+              "letter": "C",
+              "text": "Cooking"
+            },
+            {
+              "letter": "D",
+              "text": "Sportsmanship"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 7,
+          "question": "What is a benefit of involving organisational personnel in evaluation?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Better decision-making and accountability"
+            },
+            {
+              "letter": "B",
+              "text": "Reduced communication"
+            },
+            {
+              "letter": "C",
+              "text": "Less transparency"
+            },
+            {
+              "letter": "D",
+              "text": "Limited responsibility"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "Regular evaluation of financial plans ensures:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Early identification of problems"
+            },
+            {
+              "letter": "B",
+              "text": "Misuse of resources"
+            },
+            {
+              "letter": "C",
+              "text": "Lack of accountability"
+            },
+            {
+              "letter": "D",
+              "text": "More unplanned spending"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "An example of a financial outcome measure is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team morale"
+            },
+            {
+              "letter": "B",
+              "text": "Variance between planned and actual expenditure"
+            },
+            {
+              "letter": "C",
+              "text": "Employee satisfaction survey"
+            },
+            {
+              "letter": "D",
+              "text": "Weather conditions"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 10,
+          "question": "Evaluating budget outcomes is most effective when it is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Continuous and collaborative"
+            },
+            {
+              "letter": "B",
+              "text": "Irregular and secretive"
+            },
+            {
+              "letter": "C",
+              "text": "Avoided unless necessary"
+            },
+            {
+              "letter": "D",
+              "text": "Done by one person only"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Negotiate any changes required to be made to budget and financial plans with required organisational personnel",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why might budget changes be necessary?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To reflect unexpected costs or income"
+            },
+            {
+              "letter": "B",
+              "text": "To reduce accountability"
+            },
+            {
+              "letter": "C",
+              "text": "To avoid financial management"
+            },
+            {
+              "letter": "D",
+              "text": "To eliminate records"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Who should approve changes to financial plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team members only"
+            },
+            {
+              "letter": "B",
+              "text": "Required organisational personnel"
+            },
+            {
+              "letter": "C",
+              "text": "External suppliers"
+            },
+            {
+              "letter": "D",
+              "text": "Competitors"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 3,
+          "question": "What is the key skill in negotiating budget changes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cooking skills"
+            },
+            {
+              "letter": "B",
+              "text": "Communication and persuasion"
+            },
+            {
+              "letter": "C",
+              "text": "Avoiding discussion"
+            },
+            {
+              "letter": "D",
+              "text": "Personal bias"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 4,
+          "question": "Which of the following is a valid reason for negotiating changes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Project scope change"
+            },
+            {
+              "letter": "B",
+              "text": "Increased costs of materials"
+            },
+            {
+              "letter": "C",
+              "text": "Change in organisational priorities"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 5,
+          "question": "What should be presented during negotiation?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Clear evidence and justification for changes"
+            },
+            {
+              "letter": "B",
+              "text": "Personal preferences only"
+            },
+            {
+              "letter": "C",
+              "text": "Hidden costs"
+            },
+            {
+              "letter": "D",
+              "text": "No documentation"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "If budget changes are not agreed upon, what should a manager do?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Proceed without approval"
+            },
+            {
+              "letter": "B",
+              "text": "Re-discuss and provide evidence"
+            },
+            {
+              "letter": "C",
+              "text": "Stop the project"
+            },
+            {
+              "letter": "D",
+              "text": "Ignore financial guidelines"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 7,
+          "question": "Negotiation outcomes must be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Documented and approved"
+            },
+            {
+              "letter": "B",
+              "text": "Verbal only"
+            },
+            {
+              "letter": "C",
+              "text": "Informal"
+            },
+            {
+              "letter": "D",
+              "text": "Avoided"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "When negotiating, it is important to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Consider organisational goals"
+            },
+            {
+              "letter": "B",
+              "text": "Focus only on team needs"
+            },
+            {
+              "letter": "C",
+              "text": "Avoid financial limits"
+            },
+            {
+              "letter": "D",
+              "text": "Ignore senior management"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "A successful negotiation usually results in:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Agreement that benefits both parties"
+            },
+            {
+              "letter": "B",
+              "text": "Unclear agreements"
+            },
+            {
+              "letter": "C",
+              "text": "Reduced transparency"
+            },
+            {
+              "letter": "D",
+              "text": "Conflict escalation"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "What tool supports negotiation of financial changes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Budget reports and forecasts"
+            },
+            {
+              "letter": "B",
+              "text": "Personal opinions"
+            },
+            {
+              "letter": "C",
+              "text": "Team gossip"
+            },
+            {
+              "letter": "D",
+              "text": "External advertisements"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Prepare contingency plans in the event that initial plans need to be varied",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is a contingency plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A backup plan for unexpected events"
+            },
+            {
+              "letter": "B",
+              "text": "A detailed spending report"
+            },
+            {
+              "letter": "C",
+              "text": "A hiring strategy"
+            },
+            {
+              "letter": "D",
+              "text": "An organisational policy manual"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Why are contingency plans important?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ensure continuity during disruptions"
+            },
+            {
+              "letter": "B",
+              "text": "To avoid team communication"
+            },
+            {
+              "letter": "C",
+              "text": "To stop financial monitoring"
+            },
+            {
+              "letter": "D",
+              "text": "To reduce accountability"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "A good contingency plan should include:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Risk identification and response strategies"
+            },
+            {
+              "letter": "B",
+              "text": "Personal opinions"
+            },
+            {
+              "letter": "C",
+              "text": "Marketing materials"
+            },
+            {
+              "letter": "D",
+              "text": "Staff birthdays"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "Which of the following may trigger contingency plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Market price increases"
+            },
+            {
+              "letter": "B",
+              "text": "Equipment breakdowns"
+            },
+            {
+              "letter": "C",
+              "text": "Delayed funding"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 5,
+          "question": "Who should be aware of contingency plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Only management"
+            },
+            {
+              "letter": "B",
+              "text": "All relevant team members"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "External auditors"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 6,
+          "question": "Contingency planning helps in:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Managing risks and uncertainties"
+            },
+            {
+              "letter": "B",
+              "text": "Avoiding accountability"
+            },
+            {
+              "letter": "C",
+              "text": "Hiding problems"
+            },
+            {
+              "letter": "D",
+              "text": "Reducing communication"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "When should contingency plans be prepared?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Before project execution begins"
+            },
+            {
+              "letter": "B",
+              "text": "Only after a problem occurs"
+            },
+            {
+              "letter": "C",
+              "text": "At the end of the project"
+            },
+            {
+              "letter": "D",
+              "text": "Never"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "What is a key feature of an effective contingency plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Clear roles and responsibilities"
+            },
+            {
+              "letter": "B",
+              "text": "Informal discussions only"
+            },
+            {
+              "letter": "C",
+              "text": "Unclear communication"
+            },
+            {
+              "letter": "D",
+              "text": "No documentation"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "Contingency budgets are usually:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "A percentage of total budget reserved for emergencies"
+            },
+            {
+              "letter": "B",
+              "text": "Unplanned expenses"
+            },
+            {
+              "letter": "C",
+              "text": "Marketing incentives"
+            },
+            {
+              "letter": "D",
+              "text": "Avoidable costs"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "Contingency planning supports financial management by:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Reducing impact of risks on objectives"
+            },
+            {
+              "letter": "B",
+              "text": "Avoiding communication"
+            },
+            {
+              "letter": "C",
+              "text": "Increasing misuse of funds"
+            },
+            {
+              "letter": "D",
+              "text": "Limiting accountability"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Prepare contingency plans in the event that initial plans need to be varied",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is the main purpose of a contingency plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To increase overall budget size"
+            },
+            {
+              "letter": "B",
+              "text": "To provide alternatives if the original plan fails"
+            },
+            {
+              "letter": "C",
+              "text": "To reduce the workload of team members"
+            },
+            {
+              "letter": "D",
+              "text": "To avoid communication with stakeholders"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 2,
+          "question": "Which of the following is an example of a contingency plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Ignoring financial risks"
+            },
+            {
+              "letter": "B",
+              "text": "Creating a backup supplier list in case of delays"
+            },
+            {
+              "letter": "C",
+              "text": "Spending beyond the approved budget"
+            },
+            {
+              "letter": "D",
+              "text": "Cancelling the project"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 3,
+          "question": "Contingency planning should be based on:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Assumptions only"
+            },
+            {
+              "letter": "B",
+              "text": "Identified risks and possible impacts"
+            },
+            {
+              "letter": "C",
+              "text": "Manager’s personal preferences"
+            },
+            {
+              "letter": "D",
+              "text": "Team member complaints"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 4,
+          "question": "A good contingency plan should be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Complicated and lengthy"
+            },
+            {
+              "letter": "B",
+              "text": "Flexible and practical"
+            },
+            {
+              "letter": "C",
+              "text": "Designed only by senior management"
+            },
+            {
+              "letter": "D",
+              "text": "Kept secret from the team"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 5,
+          "question": "When is it best to prepare contingency plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "After the budget is overspent"
+            },
+            {
+              "letter": "B",
+              "text": "During the planning stage of the budget"
+            },
+            {
+              "letter": "C",
+              "text": "After a financial crisis occurs"
+            },
+            {
+              "letter": "D",
+              "text": "Only when requested by the CEO"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 6,
+          "question": "Which risk is often addressed in contingency planning?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Exchange rate fluctuations"
+            },
+            {
+              "letter": "B",
+              "text": "Office decorations"
+            },
+            {
+              "letter": "C",
+              "text": "Staff holidays"
+            },
+            {
+              "letter": "D",
+              "text": "Social events"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "What is the first step in preparing contingency plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Allocate resources for the plan"
+            },
+            {
+              "letter": "B",
+              "text": "Identify possible risks and uncertainties"
+            },
+            {
+              "letter": "C",
+              "text": "Cancel the current budget"
+            },
+            {
+              "letter": "D",
+              "text": "Hire more employees"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 8,
+          "question": "Why should contingency plans be reviewed regularly?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ensure they match current risks and conditions"
+            },
+            {
+              "letter": "B",
+              "text": "To replace financial reports"
+            },
+            {
+              "letter": "C",
+              "text": "To eliminate the need for team meetings"
+            },
+            {
+              "letter": "D",
+              "text": "To hide risks from stakeholders"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "A contingency fund in a budget is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Money reserved for emergencies or unexpected costs"
+            },
+            {
+              "letter": "B",
+              "text": "A bonus for employees"
+            },
+            {
+              "letter": "C",
+              "text": "Extra income from sales"
+            },
+            {
+              "letter": "D",
+              "text": "A hidden account"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "Which statement is TRUE about contingency planning?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It guarantees that risks will never occur"
+            },
+            {
+              "letter": "B",
+              "text": "It reduces the impact of risks when they occur"
+            },
+            {
+              "letter": "C",
+              "text": "It eliminates the need for financial monitoring"
+            },
+            {
+              "letter": "D",
+              "text": "It always increases profit margins"
+            }
+          ],
+          "correctLetter": "B"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Communicate details of agreed budget and financial plans to relevant team members",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why is it important to communicate budget details to team members?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To make them responsible for company losses"
+            },
+            {
+              "letter": "B",
+              "text": "To ensure clarity and alignment with goals"
+            },
+            {
+              "letter": "C",
+              "text": "To avoid management accountability"
+            },
+            {
+              "letter": "D",
+              "text": "To reduce staff involvement"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 2,
+          "question": "The best way to communicate financial plans is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Clear, simple language suited to the audience"
+            },
+            {
+              "letter": "B",
+              "text": "Technical jargon only accountants understand"
+            },
+            {
+              "letter": "C",
+              "text": "Keeping information confidential"
+            },
+            {
+              "letter": "D",
+              "text": "Using rumours and informal talks"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "Which of the following is a good practice in budget communication?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Using written and verbal communication methods"
+            },
+            {
+              "letter": "B",
+              "text": "Excluding junior staff from updates"
+            },
+            {
+              "letter": "C",
+              "text": "Hiding risks from the team"
+            },
+            {
+              "letter": "D",
+              "text": "Sharing incomplete information"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "Financial plans should be communicated:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Only once at the start"
+            },
+            {
+              "letter": "B",
+              "text": "Regularly and whenever changes occur"
+            },
+            {
+              "letter": "C",
+              "text": "Only during emergencies"
+            },
+            {
+              "letter": "D",
+              "text": "At the end of the financial year"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 5,
+          "question": "What should be included when communicating a budget plan?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Objectives, allocations, timelines, and responsibilities"
+            },
+            {
+              "letter": "B",
+              "text": "Only the final approval"
+            },
+            {
+              "letter": "C",
+              "text": "Gossip about financial risks"
+            },
+            {
+              "letter": "D",
+              "text": "Personal expenses of managers"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "Which tool is commonly used to share budget details?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team meetings and written reports"
+            },
+            {
+              "letter": "B",
+              "text": "Rumours in the lunchroom"
+            },
+            {
+              "letter": "C",
+              "text": "Personal phone calls"
+            },
+            {
+              "letter": "D",
+              "text": "Unofficial notes"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "When communicating budget plans, managers should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Encourage questions and feedback"
+            },
+            {
+              "letter": "B",
+              "text": "Dismiss team concerns"
+            },
+            {
+              "letter": "C",
+              "text": "Only talk about profits"
+            },
+            {
+              "letter": "D",
+              "text": "Avoid explaining numbers"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "Effective budget communication helps:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Build trust and accountability"
+            },
+            {
+              "letter": "B",
+              "text": "Reduce staff productivity"
+            },
+            {
+              "letter": "C",
+              "text": "Increase confusion"
+            },
+            {
+              "letter": "D",
+              "text": "Avoid teamwork"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "If a team member doesn’t understand budget details, the manager should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Ignore the issue"
+            },
+            {
+              "letter": "B",
+              "text": "Provide additional explanation or training"
+            },
+            {
+              "letter": "C",
+              "text": "Exclude them from future meetings"
+            },
+            {
+              "letter": "D",
+              "text": "Transfer them to another department"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 10,
+          "question": "Which is an example of poor communication of budget plans?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Explaining key points in clear terms"
+            },
+            {
+              "letter": "B",
+              "text": "Giving staff only half of the required details"
+            },
+            {
+              "letter": "C",
+              "text": "Sharing updates regularly"
+            },
+            {
+              "letter": "D",
+              "text": "Using visual charts to explain"
+            }
+          ],
+          "correctLetter": "B"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Support team members to access resources and systems to perform required roles",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why should team members have access to resources and systems?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To perform their roles effectively"
+            },
+            {
+              "letter": "B",
+              "text": "To reduce company transparency"
+            },
+            {
+              "letter": "C",
+              "text": "To increase management workload"
+            },
+            {
+              "letter": "D",
+              "text": "To delay project timelines"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Which of the following is considered a resource?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Equipment, software, training, and staff support"
+            },
+            {
+              "letter": "B",
+              "text": "Only office furniture"
+            },
+            {
+              "letter": "C",
+              "text": "Staff birthdays"
+            },
+            {
+              "letter": "D",
+              "text": "Coffee breaks"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "A manager can support team members by:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Providing training and guidance on systems"
+            },
+            {
+              "letter": "B",
+              "text": "Withholding information"
+            },
+            {
+              "letter": "C",
+              "text": "Increasing workload without tools"
+            },
+            {
+              "letter": "D",
+              "text": "Limiting system access"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "What is a common barrier to accessing resources?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Lack of funding or approval"
+            },
+            {
+              "letter": "B",
+              "text": "Clear instructions"
+            },
+            {
+              "letter": "C",
+              "text": "Effective training"
+            },
+            {
+              "letter": "D",
+              "text": "Strong IT support"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "When team members lack resources, it can lead to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Reduced performance and delays"
+            },
+            {
+              "letter": "B",
+              "text": "Improved efficiency"
+            },
+            {
+              "letter": "C",
+              "text": "Increased motivation"
+            },
+            {
+              "letter": "D",
+              "text": "Lower costs"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "How can managers ensure resources are used properly?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Monitor usage and provide feedback"
+            },
+            {
+              "letter": "B",
+              "text": "Ignore how resources are used"
+            },
+            {
+              "letter": "C",
+              "text": "Allow unlimited personal use"
+            },
+            {
+              "letter": "D",
+              "text": "Remove tools suddenly"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "Providing equal access to systems ensures:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Fairness and productivity"
+            },
+            {
+              "letter": "B",
+              "text": "Confusion and conflict"
+            },
+            {
+              "letter": "C",
+              "text": "Reduced efficiency"
+            },
+            {
+              "letter": "D",
+              "text": "Higher personal expenses"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "What is the role of IT systems in financial management?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Track expenses, budgets, and variances"
+            },
+            {
+              "letter": "B",
+              "text": "Create personal entertainment"
+            },
+            {
+              "letter": "C",
+              "text": "Hide financial data"
+            },
+            {
+              "letter": "D",
+              "text": "Replace employee communication"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "If a staff member cannot use a financial system, the manager should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Provide training or mentoring"
+            },
+            {
+              "letter": "B",
+              "text": "Ignore the issue"
+            },
+            {
+              "letter": "C",
+              "text": "Restrict their access permanently"
+            },
+            {
+              "letter": "D",
+              "text": "Assign them unrelated tasks"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "Supporting staff to access resources improves:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team efficiency and achievement of financial objectives"
+            },
+            {
+              "letter": "B",
+              "text": "Staff isolation"
+            },
+            {
+              "letter": "C",
+              "text": "Workplace conflicts"
+            },
+            {
+              "letter": "D",
+              "text": "Mismanagement of funds"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Implement processes to monitor actual expenditure, control costs and modify contingency plans as required according to financial objectives",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why is it important to monitor actual expenditure?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ensure spending aligns with the budget"
+            },
+            {
+              "letter": "B",
+              "text": "To reduce staff meetings"
+            },
+            {
+              "letter": "C",
+              "text": "To avoid record-keeping"
+            },
+            {
+              "letter": "D",
+              "text": "To spend more than allocated"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Which process helps in controlling costs?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Regular tracking and comparison of expenses"
+            },
+            {
+              "letter": "B",
+              "text": "Ignoring variances"
+            },
+            {
+              "letter": "C",
+              "text": "Allowing unlimited spending"
+            },
+            {
+              "letter": "D",
+              "text": "Delaying expense records"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "Modifying contingency plans is necessary when:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Risks or circumstances change"
+            },
+            {
+              "letter": "B",
+              "text": "Everything goes perfectly"
+            },
+            {
+              "letter": "C",
+              "text": "The budget is not monitored"
+            },
+            {
+              "letter": "D",
+              "text": "Staff refuse to cooperate"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "A cost control measure could include:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Negotiating better supplier rates"
+            },
+            {
+              "letter": "B",
+              "text": "Ignoring expense approvals"
+            },
+            {
+              "letter": "C",
+              "text": "Reducing monitoring frequency"
+            },
+            {
+              "letter": "D",
+              "text": "Allowing duplicate payments"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "What is variance analysis?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Comparing actual expenditure with budgeted expenditure"
+            },
+            {
+              "letter": "B",
+              "text": "Increasing financial risks"
+            },
+            {
+              "letter": "C",
+              "text": "Recording staff absences"
+            },
+            {
+              "letter": "D",
+              "text": "Avoiding financial reports"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "An example of poor cost control is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Authorising unplanned expenses without review"
+            },
+            {
+              "letter": "B",
+              "text": "Monitoring costs regularly"
+            },
+            {
+              "letter": "C",
+              "text": "Setting clear approval procedures"
+            },
+            {
+              "letter": "D",
+              "text": "Using software for expense tracking"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "Monitoring financial performance should be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Ongoing and systematic"
+            },
+            {
+              "letter": "B",
+              "text": "Done once a year only"
+            },
+            {
+              "letter": "C",
+              "text": "Based only on assumptions"
+            },
+            {
+              "letter": "D",
+              "text": "Avoided to save time"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "One key benefit of monitoring expenditure is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Early detection of financial issues"
+            },
+            {
+              "letter": "B",
+              "text": "More paperwork for managers"
+            },
+            {
+              "letter": "C",
+              "text": "Less focus on financial objectives"
+            },
+            {
+              "letter": "D",
+              "text": "Elimination of all risks"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "Which tool is commonly used to monitor expenses?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Spreadsheets, accounting software, financial reports"
+            },
+            {
+              "letter": "B",
+              "text": "Personal diaries"
+            },
+            {
+              "letter": "C",
+              "text": "Verbal communication only"
+            },
+            {
+              "letter": "D",
+              "text": "Sticky notes"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "Cost control ensures:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Resources are used efficiently to meet financial objectives"
+            },
+            {
+              "letter": "B",
+              "text": "Budgets are always exceeded"
+            },
+            {
+              "letter": "C",
+              "text": "Spending is random"
+            },
+            {
+              "letter": "D",
+              "text": "Financial risks increase"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Report on budget and expenditure according to organisational protocols",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why is it important to report on budget and expenditure according to organisational protocols?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To ensure compliance and accountability"
+            },
+            {
+              "letter": "B",
+              "text": "To delay decision-making"
+            },
+            {
+              "letter": "C",
+              "text": "To reduce transparency"
+            },
+            {
+              "letter": "D",
+              "text": "To avoid record keeping"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Which of the following is usually included in a budget report?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Team performance feedback"
+            },
+            {
+              "letter": "B",
+              "text": "Actual expenditure vs. planned budget"
+            },
+            {
+              "letter": "C",
+              "text": "Marketing strategies"
+            },
+            {
+              "letter": "D",
+              "text": "Personal opinions of managers"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 3,
+          "question": "Organisational protocols for budget reporting often ensure:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Confidentiality and accuracy"
+            },
+            {
+              "letter": "B",
+              "text": "Guesswork and assumptions"
+            },
+            {
+              "letter": "C",
+              "text": "Only senior staff have access"
+            },
+            {
+              "letter": "D",
+              "text": "No accountability"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "A financial variance report highlights:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Employee satisfaction"
+            },
+            {
+              "letter": "B",
+              "text": "Differences between planned and actual costs"
+            },
+            {
+              "letter": "C",
+              "text": "Recruitment needs"
+            },
+            {
+              "letter": "D",
+              "text": "Customer complaints"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 5,
+          "question": "When preparing financial reports, information should be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Accurate and timely"
+            },
+            {
+              "letter": "B",
+              "text": "Delayed and complex"
+            },
+            {
+              "letter": "C",
+              "text": "Confusing and vague"
+            },
+            {
+              "letter": "D",
+              "text": "Optional for managers"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "Who typically reviews budget and expenditure reports?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "External stakeholders only"
+            },
+            {
+              "letter": "B",
+              "text": "Relevant organisational personnel and management"
+            },
+            {
+              "letter": "C",
+              "text": "Only accountants"
+            },
+            {
+              "letter": "D",
+              "text": "Customers and suppliers"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 7,
+          "question": "Which tool is commonly used for reporting budgets and expenditures?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Financial software or spreadsheets"
+            },
+            {
+              "letter": "B",
+              "text": "Social media platforms"
+            },
+            {
+              "letter": "C",
+              "text": "Personal diaries"
+            },
+            {
+              "letter": "D",
+              "text": "Marketing brochures"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "What is the main purpose of expenditure tracking?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To monitor spending against budgets"
+            },
+            {
+              "letter": "B",
+              "text": "To replace annual financial statements"
+            },
+            {
+              "letter": "C",
+              "text": "To avoid decision-making"
+            },
+            {
+              "letter": "D",
+              "text": "To hide financial data"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "Budget reports must be submitted:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "According to organisational timelines and procedures"
+            },
+            {
+              "letter": "B",
+              "text": "Only when requested by staff"
+            },
+            {
+              "letter": "C",
+              "text": "Randomly"
+            },
+            {
+              "letter": "D",
+              "text": "Without approval"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "If expenditure exceeds budget limits, the report should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Hide the excess"
+            },
+            {
+              "letter": "B",
+              "text": "Highlight and explain variances"
+            },
+            {
+              "letter": "C",
+              "text": "Be ignored"
+            },
+            {
+              "letter": "D",
+              "text": "Focus only on positive outcomes"
+            }
+          ],
+          "correctLetter": "B"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Collect information on effectiveness of financial management processes within work team",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why should organisations collect information on financial management effectiveness?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To measure how well financial goals are achieved"
+            },
+            {
+              "letter": "B",
+              "text": "To increase unnecessary paperwork"
+            },
+            {
+              "letter": "C",
+              "text": "To confuse team members"
+            },
+            {
+              "letter": "D",
+              "text": "To hide financial data"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Which of the following sources can provide useful financial effectiveness data?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Expenditure reports"
+            },
+            {
+              "letter": "B",
+              "text": "Staff feedback"
+            },
+            {
+              "letter": "C",
+              "text": "Variance analyses"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 3,
+          "question": "Information on financial management processes should be collected:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Continuously and systematically"
+            },
+            {
+              "letter": "B",
+              "text": "Only once a year"
+            },
+            {
+              "letter": "C",
+              "text": "Randomly without structure"
+            },
+            {
+              "letter": "D",
+              "text": "When problems arise only"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 4,
+          "question": "What is an indicator of effective financial management?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Meeting budget targets with minimal variance"
+            },
+            {
+              "letter": "B",
+              "text": "Overspending consistently"
+            },
+            {
+              "letter": "C",
+              "text": "Ignoring cost control"
+            },
+            {
+              "letter": "D",
+              "text": "Lack of accountability"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "Employee input is useful for financial management effectiveness because:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "They provide insights into resource use"
+            },
+            {
+              "letter": "B",
+              "text": "They control budgets directly"
+            },
+            {
+              "letter": "C",
+              "text": "They determine annual profits"
+            },
+            {
+              "letter": "D",
+              "text": "They are responsible for accounting entries"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "What method can be used to assess effectiveness of processes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Benchmarking"
+            },
+            {
+              "letter": "B",
+              "text": "Staff surveys"
+            },
+            {
+              "letter": "C",
+              "text": "Performance metrics"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 7,
+          "question": "Collecting information on effectiveness helps organisations to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Improve decision-making and processes"
+            },
+            {
+              "letter": "B",
+              "text": "Increase confusion"
+            },
+            {
+              "letter": "C",
+              "text": "Ignore issues"
+            },
+            {
+              "letter": "D",
+              "text": "Avoid financial planning"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "Ineffective financial management processes often result in:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Budget overruns and poor resource allocation"
+            },
+            {
+              "letter": "B",
+              "text": "Better profits"
+            },
+            {
+              "letter": "C",
+              "text": "Accurate reporting"
+            },
+            {
+              "letter": "D",
+              "text": "Higher efficiency"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "Which of these is a key performance indicator (KPI) for financial effectiveness?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Variance percentage"
+            },
+            {
+              "letter": "B",
+              "text": "Profit margin"
+            },
+            {
+              "letter": "C",
+              "text": "Cash flow stability"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 10,
+          "question": "Who is responsible for collecting and analysing financial effectiveness data?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Managers and finance teams"
+            },
+            {
+              "letter": "B",
+              "text": "Customers"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "Only IT staff"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Analyse variances between actual and budgeted finances",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What does variance analysis measure?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The difference between actual results and budgeted figures"
+            },
+            {
+              "letter": "B",
+              "text": "Staff morale"
+            },
+            {
+              "letter": "C",
+              "text": "Customer satisfaction"
+            },
+            {
+              "letter": "D",
+              "text": "Market share"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "A favourable variance occurs when:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Actual costs are lower than budgeted"
+            },
+            {
+              "letter": "B",
+              "text": "Actual costs are higher than budgeted"
+            },
+            {
+              "letter": "C",
+              "text": "Revenue is below budget"
+            },
+            {
+              "letter": "D",
+              "text": "Profits decrease"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "Which of the following is an unfavourable variance?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Higher actual revenue than budgeted"
+            },
+            {
+              "letter": "B",
+              "text": "Lower actual cost than budgeted"
+            },
+            {
+              "letter": "C",
+              "text": "Higher actual expenses than budgeted"
+            },
+            {
+              "letter": "D",
+              "text": "None of the above"
+            }
+          ],
+          "correctLetter": "C"
+        },
+        {
+          "number": 4,
+          "question": "Variance analysis is useful because:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It identifies reasons for budget differences"
+            },
+            {
+              "letter": "B",
+              "text": "It hides financial gaps"
+            },
+            {
+              "letter": "C",
+              "text": "It prevents reporting"
+            },
+            {
+              "letter": "D",
+              "text": "It reduces accountability"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "Which type of variance is related to sales income?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cost variance"
+            },
+            {
+              "letter": "B",
+              "text": "Revenue variance"
+            },
+            {
+              "letter": "C",
+              "text": "Labour variance"
+            },
+            {
+              "letter": "D",
+              "text": "Material variance"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 6,
+          "question": "A common cause of budget variances is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unexpected changes in market conditions"
+            },
+            {
+              "letter": "B",
+              "text": "Accurate forecasting"
+            },
+            {
+              "letter": "C",
+              "text": "Perfect resource use"
+            },
+            {
+              "letter": "D",
+              "text": "Fixed costs"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "Which department typically analyses financial variances?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Finance or accounting"
+            },
+            {
+              "letter": "B",
+              "text": "Customer service"
+            },
+            {
+              "letter": "C",
+              "text": "Marketing"
+            },
+            {
+              "letter": "D",
+              "text": "HR only"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 8,
+          "question": "When variances are identified, management should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Investigate and take corrective action"
+            },
+            {
+              "letter": "B",
+              "text": "Ignore them"
+            },
+            {
+              "letter": "C",
+              "text": "Delay reporting"
+            },
+            {
+              "letter": "D",
+              "text": "Blame staff without analysis"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "Variance analysis improves:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Budget accuracy and financial decision-making"
+            },
+            {
+              "letter": "B",
+              "text": "Personal opinions"
+            },
+            {
+              "letter": "C",
+              "text": "Office culture"
+            },
+            {
+              "letter": "D",
+              "text": "HR strategies only"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "If revenue exceeds budget expectations, this variance is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Favourable"
+            },
+            {
+              "letter": "B",
+              "text": "Unfavourable"
+            },
+            {
+              "letter": "C",
+              "text": "Neutral"
+            },
+            {
+              "letter": "D",
+              "text": "Incorrect"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Identify and recommend improvements to existing financial management processes",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Why is it important to identify improvements to financial management processes?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To increase efficiency and accuracy"
+            },
+            {
+              "letter": "B",
+              "text": "To reduce compliance"
+            },
+            {
+              "letter": "C",
+              "text": "To weaken financial control"
+            },
+            {
+              "letter": "D",
+              "text": "To delay decision-making"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Improvements are recommended when:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Processes show inefficiencies or errors"
+            },
+            {
+              "letter": "B",
+              "text": "Everything works perfectly"
+            },
+            {
+              "letter": "C",
+              "text": "Staff request fewer tasks"
+            },
+            {
+              "letter": "D",
+              "text": "Budgets are unlimited"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "Which of the following is a method of identifying improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Feedback from staff and stakeholders"
+            },
+            {
+              "letter": "B",
+              "text": "Process audits"
+            },
+            {
+              "letter": "C",
+              "text": "Reviewing variance reports"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 4,
+          "question": "Technology can improve financial management by:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Automating reporting and tracking"
+            },
+            {
+              "letter": "B",
+              "text": "Reducing accuracy"
+            },
+            {
+              "letter": "C",
+              "text": "Making processes slower"
+            },
+            {
+              "letter": "D",
+              "text": "Avoiding compliance"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "Benchmarking financial processes helps organisations:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Compare performance with best practices"
+            },
+            {
+              "letter": "B",
+              "text": "Avoid improvements"
+            },
+            {
+              "letter": "C",
+              "text": "Ignore competition"
+            },
+            {
+              "letter": "D",
+              "text": "Limit innovation"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "When recommending improvements, proposals should be:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Realistic, cost-effective, and aligned with objectives"
+            },
+            {
+              "letter": "B",
+              "text": "Unrealistic and costly"
+            },
+            {
+              "letter": "C",
+              "text": "Ignored by management"
+            },
+            {
+              "letter": "D",
+              "text": "Kept vague"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 7,
+          "question": "Improvements in financial processes may include:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Better forecasting methods"
+            },
+            {
+              "letter": "B",
+              "text": "Stronger internal controls"
+            },
+            {
+              "letter": "C",
+              "text": "More accurate reporting"
+            },
+            {
+              "letter": "D",
+              "text": "All of the above"
+            }
+          ],
+          "correctLetter": "D"
+        },
+        {
+          "number": 8,
+          "question": "Who should be involved in recommending improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Managers, finance staff, and relevant stakeholders"
+            },
+            {
+              "letter": "B",
+              "text": "Only customers"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "Random staff members"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "An example of a financial management improvement is:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Implementing new budgeting software"
+            },
+            {
+              "letter": "B",
+              "text": "Avoiding data collection"
+            },
+            {
+              "letter": "C",
+              "text": "Removing accountability"
+            },
+            {
+              "letter": "D",
+              "text": "Increasing complexity without benefit"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "Recommending improvements ensures:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Continuous enhancement of processes"
+            },
+            {
+              "letter": "B",
+              "text": "No changes are made"
+            },
+            {
+              "letter": "C",
+              "text": "Less accountability"
+            },
+            {
+              "letter": "D",
+              "text": "Staff confusion"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Implement agreed improvements according to financial objectives of work team and organisation",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is the primary purpose of implementing agreed financial improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "To satisfy external auditors"
+            },
+            {
+              "letter": "B",
+              "text": "To align team practices with financial objectives"
+            },
+            {
+              "letter": "C",
+              "text": "To reduce staff workload"
+            },
+            {
+              "letter": "D",
+              "text": "To eliminate budgeting altogether"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 2,
+          "question": "When implementing financial improvements, the first step is usually:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Report to senior management"
+            },
+            {
+              "letter": "B",
+              "text": "Conduct a risk analysis"
+            },
+            {
+              "letter": "C",
+              "text": "Review the agreed action plan"
+            },
+            {
+              "letter": "D",
+              "text": "Modify payroll systems"
+            }
+          ],
+          "correctLetter": "C"
+        },
+        {
+          "number": 3,
+          "question": "Which tool is commonly used to track the progress of financial improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "SWOT Analysis"
+            },
+            {
+              "letter": "B",
+              "text": "Cash Flow Forecast"
+            },
+            {
+              "letter": "C",
+              "text": "KPI Dashboard"
+            },
+            {
+              "letter": "D",
+              "text": "Balance Sheet only"
+            }
+          ],
+          "correctLetter": "C"
+        },
+        {
+          "number": 4,
+          "question": "To ensure improvements are effective, managers should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Announce changes once and expect compliance"
+            },
+            {
+              "letter": "B",
+              "text": "Provide training and support to the team"
+            },
+            {
+              "letter": "C",
+              "text": "Reduce communication about changes"
+            },
+            {
+              "letter": "D",
+              "text": "Outsource the process"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 5,
+          "question": "Which of the following is a key success factor for implementing financial improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Strong communication with stakeholders"
+            },
+            {
+              "letter": "B",
+              "text": "Decreasing staff accountability"
+            },
+            {
+              "letter": "C",
+              "text": "Reducing transparency in reports"
+            },
+            {
+              "letter": "D",
+              "text": "Avoiding performance monitoring"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "How can organisations measure the success of implemented financial improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "By comparing results with competitors"
+            },
+            {
+              "letter": "B",
+              "text": "By assessing variance against financial objectives"
+            },
+            {
+              "letter": "C",
+              "text": "By monitoring staff complaints"
+            },
+            {
+              "letter": "D",
+              "text": "By reviewing only external audit reports"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 7,
+          "question": "A key role of managers during financial improvements is to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Limit staff access to resources"
+            },
+            {
+              "letter": "B",
+              "text": "Monitor progress and adjust strategies"
+            },
+            {
+              "letter": "C",
+              "text": "Avoid engaging the team"
+            },
+            {
+              "letter": "D",
+              "text": "Delay reporting until year-end"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 8,
+          "question": "Which of these would best demonstrate a successful improvement?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Increased variances from the budget"
+            },
+            {
+              "letter": "B",
+              "text": "Clearer financial reports and reduced costs"
+            },
+            {
+              "letter": "C",
+              "text": "Reduced stakeholder engagement"
+            },
+            {
+              "letter": "D",
+              "text": "Higher levels of unapproved expenses"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 9,
+          "question": "Continuous improvement in financial management means:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Implementing one-time changes"
+            },
+            {
+              "letter": "B",
+              "text": "Reviewing and updating processes regularly"
+            },
+            {
+              "letter": "C",
+              "text": "Avoiding innovation to minimise risk"
+            },
+            {
+              "letter": "D",
+              "text": "Only responding after major financial failures"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 10,
+          "question": "What should be documented after improvements are implemented?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Lessons learned and updated processes"
+            },
+            {
+              "letter": "B",
+              "text": "Staff grievances only"
+            },
+            {
+              "letter": "C",
+              "text": "Payroll details"
+            },
+            {
+              "letter": "D",
+              "text": "Marketing reports"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Evaluate agreed improvements",
+      "questions": [
+        {
+          "number": 1,
+          "question": "The main purpose of evaluating improvements is to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Identify whether objectives have been met"
+            },
+            {
+              "letter": "B",
+              "text": "Justify management authority"
+            },
+            {
+              "letter": "C",
+              "text": "Reduce the need for further improvements"
+            },
+            {
+              "letter": "D",
+              "text": "Avoid external audits"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 2,
+          "question": "Which method is most effective for evaluating improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Comparing results against set KPIs"
+            },
+            {
+              "letter": "B",
+              "text": "Observing team morale informally"
+            },
+            {
+              "letter": "C",
+              "text": "Relying solely on external consultants"
+            },
+            {
+              "letter": "D",
+              "text": "Avoiding measurement to save time"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 3,
+          "question": "A financial improvement is considered effective when it:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Increases costs with no added value"
+            },
+            {
+              "letter": "B",
+              "text": "Meets organisational financial goals"
+            },
+            {
+              "letter": "C",
+              "text": "Creates more variance in budgets"
+            },
+            {
+              "letter": "D",
+              "text": "Requires constant rework"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 4,
+          "question": "What should be included in an evaluation report?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Evidence of outcomes, gaps, and recommendations"
+            },
+            {
+              "letter": "B",
+              "text": "Only positive results"
+            },
+            {
+              "letter": "C",
+              "text": "Staff attendance records"
+            },
+            {
+              "letter": "D",
+              "text": "Payroll history"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 5,
+          "question": "Which of the following is a key benefit of evaluating improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Identifying training needs"
+            },
+            {
+              "letter": "B",
+              "text": "Avoiding accountability"
+            },
+            {
+              "letter": "C",
+              "text": "Reducing transparency"
+            },
+            {
+              "letter": "D",
+              "text": "Increasing conflicts"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 6,
+          "question": "Who should be consulted when evaluating improvements?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Only finance staff"
+            },
+            {
+              "letter": "B",
+              "text": "Relevant stakeholders and team members"
+            },
+            {
+              "letter": "C",
+              "text": "Competitors"
+            },
+            {
+              "letter": "D",
+              "text": "Marketing team only"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 7,
+          "question": "Which type of data is most useful for evaluation?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Rumours from staff"
+            },
+            {
+              "letter": "B",
+              "text": "Accurate financial performance data"
+            },
+            {
+              "letter": "C",
+              "text": "Social media comments"
+            },
+            {
+              "letter": "D",
+              "text": "Competitor advertisements"
+            }
+          ],
+          "correctLetter": "B"
+        },
+        {
+          "number": 8,
+          "question": "If improvements did not achieve expected outcomes, managers should:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Document findings and propose adjustments"
+            },
+            {
+              "letter": "B",
+              "text": "Ignore and move forward"
+            },
+            {
+              "letter": "C",
+              "text": "Blame external factors only"
+            },
+            {
+              "letter": "D",
+              "text": "Stop all improvement initiatives"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 9,
+          "question": "A continuous evaluation cycle involves:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Plan – Do – Check – Act"
+            },
+            {
+              "letter": "B",
+              "text": "Spend – Borrow – Repay – Repeat"
+            },
+            {
+              "letter": "C",
+              "text": "Hire – Fire – Replace – Train"
+            },
+            {
+              "letter": "D",
+              "text": "Budget – Report – Archive – Forget"
+            }
+          ],
+          "correctLetter": "A"
+        },
+        {
+          "number": 10,
+          "question": "The final outcome of evaluating improvements is to:",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Provide evidence for decision-making"
+            },
+            {
+              "letter": "B",
+              "text": "Eliminate the need for financial planning"
+            },
+            {
+              "letter": "C",
+              "text": "Reduce accountability"
+            },
+            {
+              "letter": "D",
+              "text": "Stop staff involvement"
+            }
+          ],
+          "correctLetter": "A"
+        }
+      ]
+    }
+  ]
+}

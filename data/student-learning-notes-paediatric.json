@@ -1,0 +1,753 @@
+{
+  "courseCode": "NURS-M5",
+  "title": "Module 5 — Paediatric Nursing",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paediatric Nursing is different from adult nursing because children deteriorate faster, their airways are smaller, and medication dosing must be calculated carefully. NCLEX tests your ability to recognise danger early, provide family-centred care, and apply age-appropriate assessments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use three NCLEX questions to guide your thinking:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is normal for this child's age (vitals, behavior, development)?",
+            "What cue suggests deterioration or immediate danger?",
+            "What is the safest first nursing action, and what must I reassess?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In NGN-style items, apply CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain growth and development milestones and recognise deviations.",
+            "Conduct age-appropriate paediatric assessments, including pain tools.",
+            "Identify early signs of respiratory distress, dehydration, and neurological decline.",
+            "Provide family-centred care and therapeutic communication for children and caregivers.",
+            "Recognise and manage common paediatric conditions across body systems.",
+            "Safely calculate and administer paediatric medications using weight-based dosing.",
+            "Promote safety and accident prevention, including SIDS and injury prevention.",
+            "Identify safeguarding concerns such as child abuse and mandatory reporting."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "The Paediatric NCLEX Mindset",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paediatric questions on NCLEX often include subtle cues. In children, serious illness may start with small changes such as irritability, poor feeding, or lethargy. A child may look 'okay' one moment and deteriorate the next."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Key Paediatric Priorities",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In paediatrics, remember the three big dangers: airway, dehydration, and infection. Airway issues and respiratory distress are the most urgent because children have narrow airways and high oxygen demand."
+            },
+            {
+              "type": "paragraph",
+              "text": "When choosing a priority action, ask: Is the child breathing effectively? Is perfusion adequate? Is there risk of shock, seizure, or airway obstruction?"
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Communication Rule",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Children often cannot describe symptoms accurately. Parents' concern matters. NCLEX frequently rewards the nurse who listens to caregiver reports and acts early rather than waiting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Growth and Development (High-Yield)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Development knowledge helps you decide what behavior is normal and what may signal illness, stress, or abuse. NCLEX commonly tests milestones, safety risks, and age-appropriate play."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Developmental Theories (Simple Summary)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Erikson is tested frequently: it tells you what motivates children at each stage."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Infant (Trust vs Mistrust): needs consistent care; comfort is vital.",
+                "Toddler (Autonomy vs Shame): wants control; offer choices.",
+                "Preschool (Initiative vs Guilt): imaginative play; fears body injury.",
+                "School-age (Industry vs Inferiority): wants to achieve; needs praise for success.",
+                "Adolescent (Identity vs Role confusion): independence; peer acceptance important."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX example: A hospitalized toddler refuses medication. The best approach is to offer limited choices: 'Do you want medicine with apple juice or water?' This supports autonomy."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Safety Priorities by Age",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Development determines injury risk. NCLEX often asks what teaching is most important."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Infants: safe sleep (back to sleep), never leave unattended on high surfaces, choking hazards.",
+                "Toddlers: poisoning prevention, drowning prevention, car seats.",
+                "School-age: bicycle helmets, sports safety.",
+                "Adolescents: risk-taking, substance use, sexual health, mental health screening."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Paediatric Assessment: How to Assess Safely",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paediatric assessment is not just 'smaller adult assessment'. You must adapt communication and observation. Often, you assess from least invasive to most invasive."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Approach and Communication",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Start by observing from a distance. Look at breathing, posture, skin color, level of activity, and interaction with caregiver."
+            },
+            {
+              "type": "paragraph",
+              "text": "Use age-appropriate language. For toddlers, use simple words. For school-age children, explain what you are doing. For adolescents, respect privacy."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Vital Signs and Early Deterioration",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Children compensate until they suddenly crash. Tachycardia and tachypnea are often the first signs of deterioration—hypotension is a late sign."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: A child with high HR and high RR is more concerning than a child with mild fever but normal work of breathing."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Pain Assessment Tools",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Children may show pain through crying, irritability, refusal to move, or facial expressions."
+            },
+            {
+              "type": "list",
+              "items": [
+                "FLACC: infants/toddlers (Face, Legs, Activity, Cry, Consolability).",
+                "Wong-Baker FACES: age 3+ to rate pain using faces.",
+                "CRIES: neonates (Crying, Requires O2, Increased vitals, Expression, Sleeplessness)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A 2-year-old after surgery cannot rate pain. FLACC is appropriate because it uses observation rather than self-report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Family-Centred Care",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paediatric nursing is family-centred. Parents are partners in care. Their presence reduces child anxiety and improves cooperation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key nursing behaviors include: involving caregivers in decisions, explaining treatment in plain language, encouraging comfort measures, and supporting families during chronic illness."
+        },
+        {
+          "type": "paragraph",
+          "text": "NCLEX tip: If parent is anxious, provide information, encourage questions, and use teach-back. Do not dismiss concerns."
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "High-Yield Paediatric Conditions (System-Based)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX focuses on conditions where early recognition prevents severe outcomes: respiratory distress, dehydration, congenital cardiac defects, meningitis, and DKA."
+        },
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Respiratory Disorders (Most Tested)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Respiratory illness is the most common paediatric emergency. Small airways mean swelling or mucus can quickly cause obstruction."
+            },
+            {
+              "type": "paragraph",
+              "text": "Asthma: Asthma is reversible airway inflammation and bronchoconstriction. Signs include wheeze, cough, increased work of breathing, and low SpO2. Priority nursing actions: assess severity, apply oxygen if needed, administer short-acting bronchodilator (rescue). Steroids reduce inflammation but work slower. Danger sign: silent chest (no wheeze) with severe distress—indicates minimal airflow and impending failure."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bronchiolitis (RSV): RSV causes inflammation and mucus plugging in small airways, especially in infants. Cues: cough, wheeze/crackles, poor feeding, retractions, apnea in young infants. Primary nursing focus is airway suctioning, hydration, oxygenation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Croup vs Epiglottitis: Croup: viral swelling, barking cough, stridor. Cool mist and steroids may help; monitor airway. Epiglottitis: emergency. Drooling, tripod position, muffled voice. Do NOT examine throat; prepare for airway management."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pneumonia: Cues: fever, cough, tachypnea, crackles, decreased feeding. Treat oxygenation needs and administer antibiotics if bacterial."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Cardiac Disorders",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Congenital heart defects are common NCLEX topics. Focus on oxygenation, perfusion, and preventing cyanotic spells."
+            },
+            {
+              "type": "paragraph",
+              "text": "General cues: tachycardia, poor feeding, sweating with feeds, failure to thrive, cyanosis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tetralogy of Fallot (TOF) 'Tet spells': sudden cyanosis. Place in knee-chest position to improve perfusion, give oxygen, and calm child."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kawasaki disease: fever >5 days, strawberry tongue, conjunctivitis, rash. Risk: coronary aneurysm. Treat and monitor cardiac status."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "GI Disorders and Dehydration (Very High Yield)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Dehydration is one of the most tested paediatric topics because it becomes dangerous quickly."
+            },
+            {
+              "type": "paragraph",
+              "text": "Signs of dehydration: decreased tears, dry mucosa, sunken fontanel (infant), delayed cap refill, decreased urine output, lethargy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Severe dehydration/shock cues: tachycardia, hypotension (late), cool extremities, altered LOC."
+            },
+            {
+              "type": "paragraph",
+              "text": "Common conditions: gastroenteritis, pyloric stenosis (projectile non-bilious vomiting), intussusception (currant jelly stools), Hirschsprung disease (failure to pass meconium)."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX priority: assess perfusion and hydration status, start fluids as ordered, monitor urine output."
+            },
+            {
+              "type": "paragraph",
+              "text": "Oral Rehydration Therapy (ORT): For mild-moderate dehydration, ORT is preferred. Teach parents to give small frequent sips and monitor urine output."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.4",
+          "title": "Neurological Disorders",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Neuro emergencies require rapid action because brain injury can be permanent."
+            },
+            {
+              "type": "paragraph",
+              "text": "Seizures: protect from injury, side-lying, do not restrain, do not put objects in mouth. After: check glucose and assess."
+            },
+            {
+              "type": "paragraph",
+              "text": "Meningitis red flags: fever, irritability, lethargy, stiff neck, bulging fontanel, petechial rash. This is urgent—notify provider and prepare antibiotics."
+            },
+            {
+              "type": "paragraph",
+              "text": "Increased ICP: decreased LOC, vomiting, unequal pupils. Elevate HOB and avoid increased pressure."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.5",
+          "title": "Endocrine: Type 1 Diabetes and DKA",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Type 1 diabetes is common in children. DKA is life-threatening and heavily tested."
+            },
+            {
+              "type": "paragraph",
+              "text": "DKA cues: dehydration, fruity breath, Kussmaul respirations, high glucose, acidosis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Priority: IV fluids first, then insulin; monitor potassium closely. Evaluate improving vitals, decreasing glucose and acidosis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Medication Safety (NCLEX Major Focus)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paediatric medication errors can be fatal because dosing margins are small. NCLEX expects you to be strict with safety."
+        },
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Weight-Based Dosing (mg/kg)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Always use kilograms. If weight is in pounds, convert: lb ÷ 2.2 = kg."
+            },
+            {
+              "type": "paragraph",
+              "text": "Calculate dose: ordered mg/kg × weight (kg) = mg dose."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX safety step: if your calculated dose seems too high, recheck math and verify safe range."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Toxicity Awareness",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Some common toxicities tested:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Acetaminophen overdose → liver injury.",
+                "Digoxin toxicity → bradycardia, arrhythmias.",
+                "Opioids → respiratory depression."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing rule: if the child is excessively sleepy and RR is low after opioid, stop medication and prepare naloxone per protocol."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Nutrition and Hydration",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nutrition changes across childhood. NCLEX tests breastfeeding/formula basics, introduction of solids, and adolescent nutrition risks."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Infants: breast milk/formula only; no honey <1 year (botulism risk).",
+            "Toddlers: picky eating is normal; avoid choking hazards (whole grapes, nuts).",
+            "Adolescents: risk of eating disorders and obesity; screen and educate respectfully."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Safety, Health Promotion, and Safeguarding",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Injuries are a leading cause of child death. NCLEX frequently tests teaching for accident prevention and recognizing abuse."
+        },
+        {
+          "type": "subsection",
+          "number": "8.1",
+          "title": "SIDS Prevention",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Back to sleep, firm mattress, no pillows/blankets, avoid overheating, smoke-free environment."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.2",
+          "title": "Poisoning Prevention",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Store medications and cleaners locked. Teach parents: call poison center immediately and bring substance container."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.3",
+          "title": "Child Abuse Indicators",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Suspicious cues: inconsistent history, bruises in different healing stages, injuries in unusual locations, fear of caregiver."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX rule: the nurse is a mandatory reporter. Report suspicion; do not investigate or accuse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases train you to recognise urgent paediatric cues and choose safe actions."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Infant With Bronchiolitis (RSV)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 6-month-old has cough and poor feeding. RR 62, nasal flaring, retractions, SpO2 89%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Tachypnea and increased work of breathing; Low SpO2; Poor feeding (dehydration risk). Practice questions: What is the first nursing action? What complication is most likely? What interventions support recovery? Model CJMM: Recognize cues: distress breathing and low oxygen. Analyze: bronchiolitis causing airway swelling/mucus. Prioritize: breathing and hydration. Solutions: position, suction airway, oxygen per protocol, monitor intake/output, consider IV fluids. Evaluate: SpO2 improves, RR decreases, feeding improves."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Suspected Epiglottitis",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 4-year-old has drooling, tripod position, muffled voice, and high fever."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Drooling and tripod posture; Stridor risk; Muffled voice. Practice questions: What should the nurse do first? What should NOT be done? What preparation is required? Model CJMM: Recognize: airway emergency. Analyze: epiglottitis risk of airway obstruction. Prioritize: airway. Solutions: keep child calm, do NOT examine throat, call rapid response/provider, prepare for airway management. Evaluate: airway secured and breathing stable."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Dehydration From Gastroenteritis",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A toddler has diarrhea and vomiting for 24 hours. No tears when crying, cap refill 4 seconds, decreased urine output."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Signs of dehydration; Delayed cap refill (poor perfusion); Low urine output. Practice questions: What is the priority nursing assessment? What interventions are appropriate? What indicates improvement? Model CJMM: Recognize: dehydration cues. Analyze: fluid loss causing reduced perfusion. Prioritize: circulation/hydration. Solutions: assess vitals and perfusion, ORT or IV fluids as ordered, monitor I&O. Evaluate: cap refill normalizes, urine output increases, child more alert."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Tet Spell (TOF)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 2-year-old with TOF suddenly becomes cyanotic and very agitated. SpO2 drops to 78%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Sudden cyanosis; Agitation; Low SpO2. Practice questions: What is the immediate action? Why does knee-chest help? What should the nurse monitor? Model CJMM: Recognize: cyanotic spell. Analyze: decreased pulmonary blood flow. Prioritize: oxygenation. Solutions: knee-chest position, oxygen, calm environment, notify provider. Evaluate: cyanosis decreases and SpO2 rises."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — DKA in a Child",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 12-year-old has vomiting, abdominal pain, fruity breath, RR 30 deep breathing, glucose high."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Kussmaul respirations; Fruity breath; Dehydration signs. Practice questions: What is the first action? Why are fluids first? What lab must be monitored closely? Model CJMM: Recognize: DKA cues. Analyze: dehydration and acidosis. Prioritize: circulation/perfusion. Solutions: IV fluids first then insulin, monitor potassium. Evaluate: glucose decreases safely, vitals improve, acidosis resolves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Mini Quiz (NCLEX-Style) — Module 5",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Focus on safety, airway, dehydration, and age-appropriate care."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A 6-month-old has RR 60, retractions, SpO2 88%. What is the priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Offer oral fluids",
+            "B. Position and provide oxygen/suction as needed per protocol",
+            "C. Delay care until provider arrives",
+            "D. Give antibiotics immediately"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Respiratory distress and low SpO2 require immediate airway/breathing support (ABCs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: A child has drooling and tripod posture. The nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Inspect throat with tongue depressor",
+            "B. Keep child calm and prepare for airway management",
+            "C. Offer ice chips",
+            "D. Send child to X-ray alone"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Epiglottitis risk; do not inspect throat. Maintain airway and prepare emergency support."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: Which sign is most concerning for dehydration?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Moist mucous membranes",
+            "B. Cap refill >3 seconds with decreased urine output",
+            "C. Playful behavior",
+            "D. Normal tears"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Delayed cap refill and low urine output indicate poor perfusion and significant dehydration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A toddler with suspected poisoning should be taught to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Induce vomiting immediately",
+            "B. Call poison center and bring container of substance",
+            "C. Give milk first",
+            "D. Wait for symptoms to appear"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Poison center guidance is safest; inducing vomiting is not routinely recommended."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: A child with asthma is in severe distress and has no audible wheeze ('silent chest'). This suggests:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Mild asthma",
+            "B. Impending respiratory failure",
+            "C. Normal improvement",
+            "D. Need for oral fluids"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Silent chest indicates minimal airflow—an emergency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: Kawasaki disease is most concerning because it can cause:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Coronary artery aneurysms",
+            "B. Kidney stones",
+            "C. Appendicitis",
+            "D. Brain tumors"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Kawasaki can inflame coronary arteries, causing aneurysms and cardiac risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: A child has seizure activity. The nurse's first action is to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Restrain the child",
+            "B. Protect from injury and place side-lying",
+            "C. Put an object in mouth",
+            "D. Give oral fluids"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Safety and airway protection are priority; do not restrain or insert objects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: A newborn should not be given honey because it can cause:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Diarrhea",
+            "B. Botulism",
+            "C. Asthma",
+            "D. Jaundice"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Honey may contain spores causing infant botulism."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: Paediatric medication dosing is safest when the nurse:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Uses age only",
+            "B. Calculates dose in mg/kg using kilograms and double-checks",
+            "C. Rounds dose up to make it easier",
+            "D. Uses parent estimate of weight"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Weight-based dosing in kg and double-checking prevents serious medication errors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: Mandatory reporting means the nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Investigate and question the caregiver aggressively",
+            "B. Report suspicion of abuse to the proper authority",
+            "C. Ignore if unsure",
+            "D. Only report if the child confirms abuse"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Nurses report suspicion; they do not investigate. Reporting protects the child."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For wrong answers, write: (1) cue missed, (2) priority framework (ABCs/dehydration/safety), (3) what you will do differently next time. Re-attempt in 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local clinical policy, supervised practice, or medical advice."
+        }
+      ]
+    }
+  ]
+}

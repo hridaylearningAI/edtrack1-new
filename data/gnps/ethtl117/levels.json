@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL117",
+  "programTitle": "Safe Medication Practice",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Build essential medication rights, calculations and basic pharmacology for safe everyday practice.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Apply international medication safety, high-alert medicines and clinical reasoning across systems.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead systems medication safety, stewardship, governance and global improvement.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

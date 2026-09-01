@@ -1,0 +1,955 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "MAOI Food Interaction and Hypertensive Crisis Risk",
+      "stem": "Ms. Rachel Young, a 42-year-old woman taking an MAOI for treatment-resistant depression, arrives complaining of severe headache, palpitations, and neck stiffness after attending a party where she ate aged cheese, cured meats, and drank red wine. She says she thought only prescription drugs caused interactions, not food. Her blood pressure is markedly elevated and she appears anxious and flushed. The nurse recognises a possible tyramine-related hypertensive reaction associated with MAOI therapy.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support a possible MAOI food interaction? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Severe headache"
+            },
+            {
+              "id": "B",
+              "text": "Markedly elevated blood pressure"
+            },
+            {
+              "id": "C",
+              "text": "Recent ingestion of high-tyramine foods"
+            },
+            {
+              "id": "D",
+              "text": "Palpitations and flushing"
+            },
+            {
+              "id": "E",
+              "text": "Current MAOI therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All the clues fit an MAOI-tyramine reaction. This is a high-yield NCLEX interaction topic because it combines pharmacology, patient teaching, and urgent safety assessment."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild dietary intolerance only"
+            },
+            {
+              "id": "B",
+              "text": "Possible hypertensive crisis related to MAOI food interaction"
+            },
+            {
+              "id": "C",
+              "text": "Expected minor side effect that can wait"
+            },
+            {
+              "id": "D",
+              "text": "Panic attack unrelated to food or medication"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The combination of MAOI use, tyramine-rich food intake, severe headache, and high blood pressure is highly concerning for a hypertensive reaction."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for severe hypertension-related complications related to drug-food interaction"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Severely elevated blood pressure can lead to stroke or other acute complications, making this the priority."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recognise the interaction risk, assess the patient urgently, and notify the provider or emergency team for prompt management"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient to rest at home and avoid cheese next time"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the food history because it is probably unrelated"
+            },
+            {
+              "id": "D",
+              "text": "Give the next MAOI dose on schedule"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This reaction can become dangerous quickly and requires immediate evaluation rather than delayed teaching only."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor blood pressure and neurological symptoms closely"
+            },
+            {
+              "id": "B",
+              "text": "Reinforce later education about tyramine restrictions with MAOI therapy"
+            },
+            {
+              "id": "C",
+              "text": "Clarify all prescription, OTC, and dietary practices"
+            },
+            {
+              "id": "D",
+              "text": "Document the event and response accurately"
+            },
+            {
+              "id": "E",
+              "text": "Assume wine and cheese interactions are myths"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Patient teaching is important, but urgent assessment comes first. Accurate documentation and medication-diet history are essential."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blood pressure is treated promptly, symptoms improve, and the patient later demonstrates better understanding of MAOI dietary restrictions"
+            },
+            {
+              "id": "B",
+              "text": "The patient is discharged without blood pressure reassessment"
+            },
+            {
+              "id": "C",
+              "text": "Severe headache continues with no escalation"
+            },
+            {
+              "id": "D",
+              "text": "The medication-diet link is never addressed"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective care includes both acute stabilisation and prevention through teaching."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Serotonin Syndrome from Drug Interaction",
+      "stem": "Mr. Andrew Cole is taking an SSRI and recently started an over-the-counter product containing St. John’s Wort after reading online that it “boosts mood naturally.” He now presents with sweating, diarrhea, agitation, tremor, and increasing restlessness. His partner says he also had a low-grade fever overnight and has seemed confused at times. The nurse recognises that this combination may have created serotonin excess and that the symptoms may worsen without intervention.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest serotonin syndrome? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Agitation and confusion"
+            },
+            {
+              "id": "B",
+              "text": "Sweating and fever"
+            },
+            {
+              "id": "C",
+              "text": "Tremor and restlessness"
+            },
+            {
+              "id": "D",
+              "text": "Diarrhea"
+            },
+            {
+              "id": "E",
+              "text": "SSRI plus St. John’s Wort use"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings are consistent with serotonin syndrome. Herbal products can create serious interactions and should be included in medication assessment."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild anxiety only"
+            },
+            {
+              "id": "B",
+              "text": "Probable serotonin excess requiring urgent medication review and monitoring"
+            },
+            {
+              "id": "C",
+              "text": "Benign supplement side effect only"
+            },
+            {
+              "id": "D",
+              "text": "Stable depression treatment response"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is not a minor issue. The combination of neuromuscular, autonomic, and mental status symptoms suggests serotonin toxicity."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for worsening autonomic and neurological instability related to serotonin excess"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Low self-esteem"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The syndrome may become life-threatening if untreated, so physiological stability is the priority."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold serotonergic contributors as appropriate, escalate urgently, and begin close monitoring of vital signs and mental status"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient to continue both products because one is natural"
+            },
+            {
+              "id": "C",
+              "text": "Delay intervention until routine follow-up"
+            },
+            {
+              "id": "D",
+              "text": "Focus only on diarrhea management"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The interacting agents should be addressed urgently. “Natural” does not mean safe in the presence of drug interactions."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Obtain a full medication, supplement, and OTC history"
+            },
+            {
+              "id": "B",
+              "text": "Monitor rigidity, temperature, heart rate, and confusion"
+            },
+            {
+              "id": "C",
+              "text": "Educate later about interaction risks of supplements"
+            },
+            {
+              "id": "D",
+              "text": "Document the suspected interaction clearly"
+            },
+            {
+              "id": "E",
+              "text": "Ignore low-grade fever because diarrhea is the main issue"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these actions are appropriate. Low-grade fever in the context of serotonin toxicity matters and should not be ignored."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Agitation decreases, temperature remains controlled or improves, and the patient’s confusion lessens while the interaction is addressed"
+            },
+            {
+              "id": "B",
+              "text": "Symptoms worsen and the drug history is not reviewed"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one normal pulse reading"
+            },
+            {
+              "id": "D",
+              "text": "The patient resumes the supplement without education"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by reduced autonomic and neurological symptoms and successful identification of the interaction."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Chemotherapy Safety and Extravasation Prevention",
+      "stem": "A nurse on an oncology unit is preparing to administer a vesicant chemotherapy agent through a peripheral IV. The patient reports mild burning at the site shortly after the infusion begins. The line flushes with some resistance, and there is faint swelling around the cannula dressing. The nurse recognises a potential extravasation event involving a hazardous medication. Rapid recognition is essential to limit tissue injury and maintain chemotherapy safety standards.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest possible chemotherapy extravasation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Burning at the IV site"
+            },
+            {
+              "id": "B",
+              "text": "Resistance when flushing"
+            },
+            {
+              "id": "C",
+              "text": "Swelling around the cannula"
+            },
+            {
+              "id": "D",
+              "text": "Vesicant medication administration"
+            },
+            {
+              "id": "E",
+              "text": "Need for urgent site reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are important warning signs of extravasation. Vesicants can cause severe tissue damage if leakage occurs outside the vein."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is simply anxious about chemotherapy"
+            },
+            {
+              "id": "B",
+              "text": "There may be extravasation of a hazardous medication requiring immediate intervention"
+            },
+            {
+              "id": "C",
+              "text": "Mild discomfort should be ignored until the infusion finishes"
+            },
+            {
+              "id": "D",
+              "text": "Resistance on flushing is normal during vesicant therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse must treat this as a possible vesicant leak until proven otherwise. Delay may worsen tissue damage."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for local tissue necrosis related to vesicant extravasation"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Sleep pattern disruption"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate threat is tissue injury at the infusion site."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the infusion immediately, assess the site, and follow vesicant extravasation protocol without flushing indiscriminately"
+            },
+            {
+              "id": "B",
+              "text": "Increase the infusion rate to get the drug in faster"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the complaint because chemotherapy is uncomfortable"
+            },
+            {
+              "id": "D",
+              "text": "Remove the line immediately without following protocol"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Extravasation protocols differ by agent, but the infusion must be stopped and the site assessed promptly. Automatic flushing or removal without protocol may worsen harm."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Follow facility protocol for aspiration, antidote use, or site management as applicable"
+            },
+            {
+              "id": "B",
+              "text": "Document the event and notify the provider or oncology team promptly"
+            },
+            {
+              "id": "C",
+              "text": "Reassure the patient while continuing assessment and management"
+            },
+            {
+              "id": "D",
+              "text": "Review chemotherapy handling precautions and staff safety"
+            },
+            {
+              "id": "E",
+              "text": "Assume swelling is harmless if the patient is stoic"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate responses. Vesicant reactions can be serious even if the patient is not highly expressive."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The infusion is stopped promptly, protocol is followed, tissue injury is limited, and documentation and escalation are complete"
+            },
+            {
+              "id": "B",
+              "text": "Burning continues and no one documents the event"
+            },
+            {
+              "id": "C",
+              "text": "The infusion continues despite swelling"
+            },
+            {
+              "id": "D",
+              "text": "The nurse hides the incident to avoid blame"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe oncology pharmacology practice includes prompt harm reduction, accurate reporting, and careful follow-up."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Paediatric Weight-Based Dose Calculation",
+      "stem": "A 4-year-old child, Noah, weighs 18 kg and is prescribed an antibiotic suspension. While preparing the dose, the nurse notices that a colleague has calculated the amount using pounds rather than kilograms, which would result in a much larger dose than intended. The child is otherwise stable and waiting with his mother. The nurse recognises a preventable paediatric medication error. Because children are especially vulnerable to dosing mistakes, the calculation must be corrected before administration.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features make this a high-risk medication situation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is a young child requiring weight-based dosing"
+            },
+            {
+              "id": "B",
+              "text": "The calculation was based on pounds instead of kilograms"
+            },
+            {
+              "id": "C",
+              "text": "The resulting dose would be larger than intended"
+            },
+            {
+              "id": "D",
+              "text": "Paediatric patients have less margin for dosing error"
+            },
+            {
+              "id": "E",
+              "text": "The medication has not yet been administered"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these points are important. Paediatric medication safety depends heavily on accurate kg-based calculations. The fact that the error is caught before administration is critical and should lead to prevention of harm."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The larger dose may still be acceptable because the child looks healthy"
+            },
+            {
+              "id": "B",
+              "text": "A serious preventable dosing error has been identified and must be corrected before administration"
+            },
+            {
+              "id": "C",
+              "text": "Weight-based dosing is optional in children"
+            },
+            {
+              "id": "D",
+              "text": "The nurse should give the dose to avoid delay in treatment"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The incorrect unit conversion creates a real safety risk. In paediatrics, even a seemingly small calculation error can cause harm."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for overdose related to incorrect paediatric dose calculation"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Social withdrawal"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about school readiness"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Preventing overdose is the immediate priority."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the incorrect preparation, verify the child’s weight in kilograms, recalculate correctly, and clarify the order if needed before administration"
+            },
+            {
+              "id": "B",
+              "text": "Give the larger dose because infection treatment is urgent"
+            },
+            {
+              "id": "C",
+              "text": "Ask the parent to estimate the right amount"
+            },
+            {
+              "id": "D",
+              "text": "Document the medication as given before calculation is checked"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The safe response is to verify, recalculate, and clarify before administration. Parents should not be expected to determine the correct dose."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use an independent double-check if policy requires it"
+            },
+            {
+              "id": "B",
+              "text": "Explain to the caregiver that medication doses in children are based on weight for safety"
+            },
+            {
+              "id": "C",
+              "text": "Document the corrected dose accurately"
+            },
+            {
+              "id": "D",
+              "text": "Share the near-miss with the team to reduce future calculation errors"
+            },
+            {
+              "id": "E",
+              "text": "Assume pounds and kilograms are interchangeable in small children"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These actions support both individual patient safety and system learning. Unit accuracy is essential in paediatric dosing."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The correct weight-based dose is administered safely, the caregiver understands the rationale, and the near-miss leads to safer practice review"
+            },
+            {
+              "id": "B",
+              "text": "The wrong dose is given because treatment was urgent"
+            },
+            {
+              "id": "C",
+              "text": "The error is hidden because it was caught early"
+            },
+            {
+              "id": "D",
+              "text": "Documentation omits the corrected calculation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management prevents harm, supports education, and strengthens medication safety culture."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Polypharmacy and Orthostatic Risk in an Older Adult",
+      "stem": "Mrs. Grace Wilson, an 82-year-old woman, is admitted after feeling dizzy and nearly falling at home. She takes an antihypertensive, a diuretic, a sedative at night, and two medications recently prescribed by different specialists. She says she often feels light-headed when standing, and her daughter reports increasing forgetfulness about when to take each pill. On assessment, the nurse finds postural blood pressure changes and mild dehydration. The nurse recognises that polypharmacy, age-related physiology, and inconsistent medication use may all be contributing to instability.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest medication-related risk in this older adult? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Multiple prescribed medications from different providers"
+            },
+            {
+              "id": "B",
+              "text": "Orthostatic dizziness"
+            },
+            {
+              "id": "C",
+              "text": "Mild dehydration"
+            },
+            {
+              "id": "D",
+              "text": "Difficulty managing the medication schedule"
+            },
+            {
+              "id": "E",
+              "text": "Near-fall event at home"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings point to medication-related harm risk. Older adults are especially vulnerable because of altered renal function, sensitivity to drugs, and polypharmacy."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal ageing only"
+            },
+            {
+              "id": "B",
+              "text": "Polypharmacy with possible drug interactions, orthostatic effects, and adherence confusion contributing to fall risk"
+            },
+            {
+              "id": "C",
+              "text": "No medication review is needed if the drugs are prescribed"
+            },
+            {
+              "id": "D",
+              "text": "Dehydration alone explains everything"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The patient’s symptoms are likely multifactorial. The nurse should think broadly about medication burden, timing, interactions, dehydration, and adherence challenges."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for injury related to polypharmacy and impaired orthostatic tolerance"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate concern is fall-related injury and medication-associated instability."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review the complete medication list, assess orthostatic safety, and communicate the risk pattern for medication reconciliation and adjustment"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient to keep taking all medications exactly the same without review"
+            },
+            {
+              "id": "C",
+              "text": "Encourage her to stand up faster to get used to it"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the daughter’s concerns because the drugs are prescribed"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Medication reconciliation and orthostatic safety assessment are essential. Prescription status does not guarantee a combination is safe for the individual patient."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess renal function, hydration, and blood pressure trends"
+            },
+            {
+              "id": "B",
+              "text": "Simplify medication teaching using clear written instructions if appropriate"
+            },
+            {
+              "id": "C",
+              "text": "Involve the daughter or caregiver in safe medication planning with consent"
+            },
+            {
+              "id": "D",
+              "text": "Review sedative use and timing in relation to fall risk"
+            },
+            {
+              "id": "E",
+              "text": "Assume confusion is unrelated to medication burden"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate. Older adults often benefit from simplified regimens, hydration review, and careful family-supported planning when consented."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient’s medication list is clarified, orthostatic symptoms lessen, fall risk is reduced, and understanding of the regimen improves"
+            },
+            {
+              "id": "B",
+              "text": "Near-falls continue and no medication review is done"
+            },
+            {
+              "id": "C",
+              "text": "The patient remains confused about dosing with no education support"
+            },
+            {
+              "id": "D",
+              "text": "Sedating medications continue unchanged despite repeated dizziness"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by safer medication use, better symptom control, and reduced fall risk."
+        }
+      ]
+    }
+  ]
+}

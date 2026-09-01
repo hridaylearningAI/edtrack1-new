@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which action best demonstrates high-acuity clinical leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintaining awareness of patient acuity, workload and resources while supporting complex decisions."
+        },
+        {
+          "id": "B",
+          "text": "Completing administrative tasks away from the clinical area."
+        },
+        {
+          "id": "C",
+          "text": "Expecting staff to manage uncertainty independently."
+        },
+        {
+          "id": "D",
+          "text": "Allowing safety standards to vary during busy periods."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Visible leadership helps align staffing, competence and support with patient acuity."
+    },
+    {
+      "id": "q2",
+      "stem": "Junior nurses hesitate to activate rapid response without medical approval. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell staff to wait for medical permission."
+        },
+        {
+          "id": "B",
+          "text": "Clarify that nursing concern is a valid trigger and reinforce this through simulation."
+        },
+        {
+          "id": "C",
+          "text": "Discourage unnecessary escalation."
+        },
+        {
+          "id": "D",
+          "text": "Move the issue to annual training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The source emphasises making escalation safe and expected, including activation based on nursing concern."
+    },
+    {
+      "id": "q3",
+      "stem": "Which feature most strongly supports psychological safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only senior nurses may question decisions."
+        },
+        {
+          "id": "B",
+          "text": "Uncertainty is hidden to preserve confidence."
+        },
+        {
+          "id": "C",
+          "text": "Staff can ask questions and escalate concerns without humiliation."
+        },
+        {
+          "id": "D",
+          "text": "Errors are discussed only after formal complaints."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Psychological safety supports early communication and prevents harm."
+    },
+    {
+      "id": "q4",
+      "stem": "A unit's patient acuity rises sharply but staffing remains unchanged. What is the primary leadership concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation may become shorter."
+        },
+        {
+          "id": "B",
+          "text": "Junior staff may gain experience faster."
+        },
+        {
+          "id": "C",
+          "text": "Patient flow will automatically improve."
+        },
+        {
+          "id": "D",
+          "text": "Staffing and competence may no longer match patient risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Leaders should align staffing and workforce capability with patient acuity."
+    },
+    {
+      "id": "q5",
+      "stem": "Which intervention best strengthens emergency judgement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Simulation, case review, supervised practice and feedback."
+        },
+        {
+          "id": "B",
+          "text": "A single policy email."
+        },
+        {
+          "id": "C",
+          "text": "Annual self-assessment only."
+        },
+        {
+          "id": "D",
+          "text": "Reducing opportunities to ask questions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Capability develops through active practice, reflection and feedback."
+    },
+    {
+      "id": "q6",
+      "stem": "A nurse makes a human error during a complex infusion but reports it immediately. What is the BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punish the nurse automatically."
+        },
+        {
+          "id": "B",
+          "text": "Protect the patient, support learning and review system contributors while applying fair accountability."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the incident because it was reported."
+        },
+        {
+          "id": "D",
+          "text": "Remove all responsibility from the nurse."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Leadership should balance learning with fair accountability."
+    },
+    {
+      "id": "q7",
+      "stem": "Which leader behaviour best protects standards during pressure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delegate all difficult decisions downward."
+        },
+        {
+          "id": "B",
+          "text": "Relax escalation requirements."
+        },
+        {
+          "id": "C",
+          "text": "Model calm, accountable decisions and provide timely support."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on throughput."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The notes emphasise calm leadership and reliable standards during pressure."
+    },
+    {
+      "id": "q8",
+      "stem": "A leader notices repeated hesitation when staff face competing priorities. What should happen FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Issue a warning."
+        },
+        {
+          "id": "B",
+          "text": "Increase documentation."
+        },
+        {
+          "id": "C",
+          "text": "Remove junior staff from the area."
+        },
+        {
+          "id": "D",
+          "text": "Assess workload, acuity, role clarity and access to support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Leaders should understand the conditions affecting performance before selecting an intervention."
+    },
+    {
+      "id": "q9",
+      "stem": "Which outcome best indicates effective leadership presence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff seek help early and deteriorating patients receive timely review."
+        },
+        {
+          "id": "B",
+          "text": "Fewer questions are asked."
+        },
+        {
+          "id": "C",
+          "text": "Only senior staff make decisions."
+        },
+        {
+          "id": "D",
+          "text": "Near misses are not reported."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Visible support and psychological safety should improve early escalation."
+    },
+    {
+      "id": "q10",
+      "stem": "A nurse is publicly criticised for escalating a genuine concern that proved non-urgent. What is the likely system effect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff confidence will improve."
+        },
+        {
+          "id": "B",
+          "text": "Future escalation may be delayed because psychological safety is weakened."
+        },
+        {
+          "id": "C",
+          "text": "Rapid-response use will become more reliable."
+        },
+        {
+          "id": "D",
+          "text": "Accountability will automatically strengthen."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Humiliation discourages speaking up and creates safety risk."
+    },
+    {
+      "id": "q11",
+      "stem": "Which measure best reflects workforce capability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Years of employment only."
+        },
+        {
+          "id": "B",
+          "text": "Number of policies read."
+        },
+        {
+          "id": "C",
+          "text": "Observed judgement, escalation, technical competence and patient outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Attendance at orientation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Capability is demonstrated through performance and outcomes, not participation alone."
+    },
+    {
+      "id": "q12",
+      "stem": "A leader delegates a complex therapy to a nurse who has not been assessed as competent. What principle is breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient confidentiality."
+        },
+        {
+          "id": "B",
+          "text": "Documentation timing."
+        },
+        {
+          "id": "C",
+          "text": "Family involvement."
+        },
+        {
+          "id": "D",
+          "text": "Alignment of competence with patient acuity and task risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High-acuity care requires verified competence for complex therapies."
+    },
+    {
+      "id": "q13",
+      "stem": "Which statement best reflects accountable leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leaders support learning while ensuring standards and responsibilities remain clear."
+        },
+        {
+          "id": "B",
+          "text": "Accountability should be removed to encourage reporting."
+        },
+        {
+          "id": "C",
+          "text": "Only individuals should be examined after incidents."
+        },
+        {
+          "id": "D",
+          "text": "Errors should always receive the same response."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Accountable leadership combines learning, fairness and reliable standards."
+    },
+    {
+      "id": "q14",
+      "stem": "A senior nurse wants to improve staff confidence in deterioration management. Which approach is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A one-time lecture."
+        },
+        {
+          "id": "B",
+          "text": "Repeated simulation with debriefing and feedback."
+        },
+        {
+          "id": "C",
+          "text": "More posters."
+        },
+        {
+          "id": "D",
+          "text": "Fewer escalation calls."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Simulation helps staff practise judgement and response under realistic conditions."
+    },
+    {
+      "id": "q15",
+      "stem": "What is the main role of a Global Nursing Professional in high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on direct tasks."
+        },
+        {
+          "id": "B",
+          "text": "Avoid governance responsibilities."
+        },
+        {
+          "id": "C",
+          "text": "Connect bedside practice, workforce capability and system improvement."
+        },
+        {
+          "id": "D",
+          "text": "Leave improvement to management."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Level 3 extends influence beyond individual bedside care."
+    },
+    {
+      "id": "q16",
+      "stem": "A leader observes that clinical standards fall on night shift. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume individual negligence."
+        },
+        {
+          "id": "B",
+          "text": "Increase morning audits only."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the variation."
+        },
+        {
+          "id": "D",
+          "text": "Investigate staffing, supervision, workload and access to support across shifts."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "System conditions should support reliable care across all shifts."
+    },
+    {
+      "id": "q17",
+      "stem": "Which action best promotes early escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reward appropriate speaking up and respond promptly to concerns."
+        },
+        {
+          "id": "B",
+          "text": "Require proof of severe deterioration first."
+        },
+        {
+          "id": "C",
+          "text": "Limit rapid-response activation to senior staff."
+        },
+        {
+          "id": "D",
+          "text": "Discourage escalation without abnormal scores."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Escalation should be safe, expected and supported."
+    },
+    {
+      "id": "q18",
+      "stem": "A staff member admits uncertainty about a high-risk therapy. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell them to continue independently."
+        },
+        {
+          "id": "B",
+          "text": "Provide immediate support and ensure supervision before proceeding."
+        },
+        {
+          "id": "C",
+          "text": "Criticise the uncertainty."
+        },
+        {
+          "id": "D",
+          "text": "Remove them permanently from acute care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Admitting uncertainty should trigger safe support and capability development."
+    },
+    {
+      "id": "q19",
+      "stem": "Which outcome best shows that leadership has strengthened practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policies are longer."
+        },
+        {
+          "id": "B",
+          "text": "Documentation volume increases."
+        },
+        {
+          "id": "C",
+          "text": "Staffing, competence, escalation and standards remain reliable during pressure."
+        },
+        {
+          "id": "D",
+          "text": "Leaders attend more meetings."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The purpose of leadership is more reliable and safer care."
+    },
+    {
+      "id": "q20",
+      "stem": "Which overall leadership approach is most consistent with the learning notes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Directive without consultation."
+        },
+        {
+          "id": "B",
+          "text": "Task-focused only."
+        },
+        {
+          "id": "C",
+          "text": "Punitive and hierarchy-driven."
+        },
+        {
+          "id": "D",
+          "text": "Visible, psychologically safe, capability-focused and accountable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The section emphasises visible support, psychological safety, competence and accountability."
+    },
+    {
+      "id": "q21",
+      "stem": "An effective deterioration system should include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accurate monitoring, trend recognition, clear triggers and timely specialist response."
+        },
+        {
+          "id": "B",
+          "text": "Observation charts only."
+        },
+        {
+          "id": "C",
+          "text": "Medical review only after collapse."
+        },
+        {
+          "id": "D",
+          "text": "Technology without clinical judgement."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reliable systems combine recognition and response, not documentation alone."
+    },
+    {
+      "id": "q22",
+      "stem": "A hospital completes observation charts accurately but still has delayed ICU transfers. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chart completion only."
+        },
+        {
+          "id": "B",
+          "text": "The full recognition-to-response pathway."
+        },
+        {
+          "id": "C",
+          "text": "Patient meal times."
+        },
+        {
+          "id": "D",
+          "text": "Staff parking."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The source specifically advises measuring the complete pathway, not only forms."
+    },
+    {
+      "id": "q23",
+      "stem": "Which human factor may delay recognition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clear escalation criteria."
+        },
+        {
+          "id": "B",
+          "text": "Adequate staffing."
+        },
+        {
+          "id": "C",
+          "text": "Alarm fatigue."
+        },
+        {
+          "id": "D",
+          "text": "Accessible senior support."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Alarm fatigue can cause important signals to be overlooked."
+    },
+    {
+      "id": "q24",
+      "stem": "Overnight escalation is delayed because senior coverage is reduced and call pathways are unclear. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase chart frequency only."
+        },
+        {
+          "id": "B",
+          "text": "Send a reminder memo."
+        },
+        {
+          "id": "C",
+          "text": "Wait for another serious event."
+        },
+        {
+          "id": "D",
+          "text": "Redesign overnight response and monitor time to review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The clinical example identifies staffing and pathway redesign as the appropriate response."
+    },
+    {
+      "id": "q25",
+      "stem": "What is normalisation of abnormal findings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeatedly accepting concerning changes as routine."
+        },
+        {
+          "id": "B",
+          "text": "Escalating early."
+        },
+        {
+          "id": "C",
+          "text": "Using trend-based assessment."
+        },
+        {
+          "id": "D",
+          "text": "Improving documentation accuracy."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Normalisation can delay recognition of deterioration."
+    },
+    {
+      "id": "q26",
+      "stem": "Why should patient and family escalation pathways be available?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace clinical assessment."
+        },
+        {
+          "id": "B",
+          "text": "They provide an additional safety route when concern is not being addressed."
+        },
+        {
+          "id": "C",
+          "text": "They should be used for every request."
+        },
+        {
+          "id": "D",
+          "text": "They remove professional accountability."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Patient and family concern may identify deterioration and should have a response pathway."
+    },
+    {
+      "id": "q27",
+      "stem": "Which measure best evaluates rapid-response performance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of charts completed."
+        },
+        {
+          "id": "B",
+          "text": "Number of staff trained only."
+        },
+        {
+          "id": "C",
+          "text": "Time from escalation trigger to specialist review."
+        },
+        {
+          "id": "D",
+          "text": "Ward occupancy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Response time reflects whether the system works after recognition."
+    },
+    {
+      "id": "q28",
+      "stem": "Which outcome measure is most relevant to deterioration systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation word count."
+        },
+        {
+          "id": "B",
+          "text": "Staff uniform compliance."
+        },
+        {
+          "id": "C",
+          "text": "Number of routine handovers."
+        },
+        {
+          "id": "D",
+          "text": "Unplanned intensive-care admissions and cardiac arrests."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The notes identify unplanned ICU admissions and cardiac arrests as key outcomes."
+    },
+    {
+      "id": "q29",
+      "stem": "A predictive score is normal, but the nurse is seriously concerned. What should the system allow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Escalation based on clinical concern."
+        },
+        {
+          "id": "B",
+          "text": "Waiting until the score changes."
+        },
+        {
+          "id": "C",
+          "text": "Ignoring direct assessment."
+        },
+        {
+          "id": "D",
+          "text": "Automatic discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology and scores should not override professional judgement."
+    },
+    {
+      "id": "q30",
+      "stem": "Which design feature best improves reliability across shifts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Different processes for each shift."
+        },
+        {
+          "id": "B",
+          "text": "Consistent observation frequency, equipment access, documentation and response pathways."
+        },
+        {
+          "id": "C",
+          "text": "Reliance on individual memory."
+        },
+        {
+          "id": "D",
+          "text": "Annual education alone."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "System components should work consistently across all shifts."
+    },
+    {
+      "id": "q31",
+      "stem": "A unit has many missed alarms because alerts are excessive. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell staff to pay more attention."
+        },
+        {
+          "id": "B",
+          "text": "Add more alerts."
+        },
+        {
+          "id": "C",
+          "text": "Treat alert fatigue as a system risk and redesign alerting."
+        },
+        {
+          "id": "D",
+          "text": "Ignore overrides."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Alert fatigue is a human-factors and system-design problem."
+    },
+    {
+      "id": "q32",
+      "stem": "Which finding suggests the system is psychologically unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff escalate on clinical concern."
+        },
+        {
+          "id": "B",
+          "text": "Families know how to raise concerns."
+        },
+        {
+          "id": "C",
+          "text": "Roles are clear."
+        },
+        {
+          "id": "D",
+          "text": "Staff hesitate to call rapid response because they fear criticism."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Fear of criticism delays escalation."
+    },
+    {
+      "id": "q33",
+      "stem": "A review finds deterioration was recognised but communication failed during handover. What should leaders improve?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trend-focused, risk-specific handover and role clarity."
+        },
+        {
+          "id": "B",
+          "text": "Observation equipment only."
+        },
+        {
+          "id": "C",
+          "text": "Meal timing."
+        },
+        {
+          "id": "D",
+          "text": "Patient identification only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recognition must be followed by clear communication and response."
+    },
+    {
+      "id": "q34",
+      "stem": "Why should leaders monitor staff confidence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces competence assessment."
+        },
+        {
+          "id": "B",
+          "text": "Confidence influences whether staff recognise and escalate concerns in practice."
+        },
+        {
+          "id": "C",
+          "text": "It is unrelated to safety."
+        },
+        {
+          "id": "D",
+          "text": "It matters only for morale surveys."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The source identifies staff confidence as part of system measurement."
+    },
+    {
+      "id": "q35",
+      "stem": "A family reports worsening breathing, but staff dismiss the concern because observations are unchanged. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The family should be asked to leave."
+        },
+        {
+          "id": "B",
+          "text": "No action is needed."
+        },
+        {
+          "id": "C",
+          "text": "The patient should be reassessed and the family concern taken seriously."
+        },
+        {
+          "id": "D",
+          "text": "The concern should wait for discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Family concern provides another safety signal."
+    },
+    {
+      "id": "q36",
+      "stem": "Which intervention best addresses hierarchy as a barrier?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More documentation."
+        },
+        {
+          "id": "B",
+          "text": "Reducing staff questions."
+        },
+        {
+          "id": "C",
+          "text": "Limiting escalation to doctors."
+        },
+        {
+          "id": "D",
+          "text": "Explicit escalation authority and visible leadership support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Hierarchy should not block appropriate nursing escalation."
+    },
+    {
+      "id": "q37",
+      "stem": "A hospital wants to know whether a new escalation pathway works. What should it measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Response times, outcomes and staff confidence before and after implementation."
+        },
+        {
+          "id": "B",
+          "text": "Policy publication only."
+        },
+        {
+          "id": "C",
+          "text": "Training attendance only."
+        },
+        {
+          "id": "D",
+          "text": "Number of meetings."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evaluation requires data showing whether the pathway changes practice and outcomes."
+    },
+    {
+      "id": "q38",
+      "stem": "Which statement best reflects system reliability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reliability depends on experienced staff remembering the process."
+        },
+        {
+          "id": "B",
+          "text": "The same safe response should occur regardless of shift or individual staff member."
+        },
+        {
+          "id": "C",
+          "text": "Night-shift variation is acceptable."
+        },
+        {
+          "id": "D",
+          "text": "Forms are sufficient evidence."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reliable systems perform consistently across conditions."
+    },
+    {
+      "id": "q39",
+      "stem": "What is the main purpose of case review after missed deterioration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assign blame only."
+        },
+        {
+          "id": "B",
+          "text": "Increase paperwork."
+        },
+        {
+          "id": "C",
+          "text": "Identify system and human-factor contributors and improve the pathway."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussion of staffing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Learning reviews should examine the whole system."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates a reliable deterioration system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All charts are complete."
+        },
+        {
+          "id": "B",
+          "text": "Rapid-response calls decrease to zero."
+        },
+        {
+          "id": "C",
+          "text": "Only doctors activate the system."
+        },
+        {
+          "id": "D",
+          "text": "Concerning changes are recognised, escalated and reviewed before avoidable collapse."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reliability is shown by timely recognition and response."
+    },
+    {
+      "id": "q41",
+      "stem": "What is the first step in a high-acuity quality-improvement project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the problem using incident, audit, outcome and staff data."
+        },
+        {
+          "id": "B",
+          "text": "Choose a solution immediately."
+        },
+        {
+          "id": "C",
+          "text": "Train everyone first."
+        },
+        {
+          "id": "D",
+          "text": "Purchase technology."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement begins by defining the priority with relevant evidence."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an appropriate high-acuity improvement priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing ward decor."
+        },
+        {
+          "id": "B",
+          "text": "Reducing sepsis treatment delays."
+        },
+        {
+          "id": "C",
+          "text": "Increasing paperwork."
+        },
+        {
+          "id": "D",
+          "text": "Reducing family communication."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The notes identify sepsis mortality, unplanned transfers, delays and medication harm as priorities."
+    },
+    {
+      "id": "q43",
+      "stem": "Why are clinical pathways useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace judgement."
+        },
+        {
+          "id": "B",
+          "text": "They eliminate all variation."
+        },
+        {
+          "id": "C",
+          "text": "They translate evidence into timely, practical workflow."
+        },
+        {
+          "id": "D",
+          "text": "They work without training or resources."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pathways make evidence usable in real care processes."
+    },
+    {
+      "id": "q44",
+      "stem": "Which statement best describes a small test of change?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediate organisation-wide rollout."
+        },
+        {
+          "id": "B",
+          "text": "A policy review without measurement."
+        },
+        {
+          "id": "C",
+          "text": "A one-time education session."
+        },
+        {
+          "id": "D",
+          "text": "A limited trial used to learn and adapt before wider implementation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Small tests reduce risk and support local learning."
+    },
+    {
+      "id": "q45",
+      "stem": "A sepsis project adds a screening prompt, algorithm, simulation and audit feedback. Why is this stronger than education alone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses multiple strategies that change workflow and capability."
+        },
+        {
+          "id": "B",
+          "text": "It creates more documentation."
+        },
+        {
+          "id": "C",
+          "text": "It removes the need for evaluation."
+        },
+        {
+          "id": "D",
+          "text": "It guarantees no adverse effects."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The source states that education alone is rarely enough."
+    },
+    {
+      "id": "q46",
+      "stem": "Which measure should accompany antibiotic timing in a sepsis project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of posters."
+        },
+        {
+          "id": "B",
+          "text": "Fluid safety and staff workload."
+        },
+        {
+          "id": "C",
+          "text": "Length of policy."
+        },
+        {
+          "id": "D",
+          "text": "Staff age."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Balancing measures help identify unintended effects."
+    },
+    {
+      "id": "q47",
+      "stem": "What is evidence translation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publishing research only."
+        },
+        {
+          "id": "B",
+          "text": "Copying another hospital unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Converting guidance into tools, workflows, education and practice."
+        },
+        {
+          "id": "D",
+          "text": "Teaching theory without implementation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Evidence translation makes recommendations usable in local care."
+    },
+    {
+      "id": "q48",
+      "stem": "A project improves rapid-response activation but increases false calls and staff burden. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the burden."
+        },
+        {
+          "id": "B",
+          "text": "Stop all escalation."
+        },
+        {
+          "id": "C",
+          "text": "Declare success."
+        },
+        {
+          "id": "D",
+          "text": "Review balancing measures and adapt the intervention."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Benefits and unintended effects should both be monitored."
+    },
+    {
+      "id": "q49",
+      "stem": "Which data source may reveal an improvement priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Incident trends and patient outcomes."
+        },
+        {
+          "id": "B",
+          "text": "One anecdote only."
+        },
+        {
+          "id": "C",
+          "text": "Uniform audits."
+        },
+        {
+          "id": "D",
+          "text": "Stock levels only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Multiple data sources help identify where improvement is needed."
+    },
+    {
+      "id": "q50",
+      "stem": "Why is leadership follow-through important for sustainability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Education alone guarantees sustainability."
+        },
+        {
+          "id": "B",
+          "text": "Changes may fail if resources, workflow and accountability are not maintained."
+        },
+        {
+          "id": "C",
+          "text": "Follow-through matters only at launch."
+        },
+        {
+          "id": "D",
+          "text": "Sustainability is unrelated to leadership."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sustained improvement requires continued support and monitoring."
+    },
+    {
+      "id": "q51",
+      "stem": "Which outcome measure is appropriate for a sepsis improvement project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage of staff attending education."
+        },
+        {
+          "id": "B",
+          "text": "Number of screening forms."
+        },
+        {
+          "id": "C",
+          "text": "Sepsis mortality or unplanned ICU transfer rate."
+        },
+        {
+          "id": "D",
+          "text": "Number of posters."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Outcome measures show the effect on patients."
+    },
+    {
+      "id": "q52",
+      "stem": "Which process measure is appropriate for a sepsis pathway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mortality only."
+        },
+        {
+          "id": "B",
+          "text": "Patient age."
+        },
+        {
+          "id": "C",
+          "text": "Ward size."
+        },
+        {
+          "id": "D",
+          "text": "Time from recognition to antimicrobial administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "This measures whether the intended care process occurred."
+    },
+    {
+      "id": "q53",
+      "stem": "A new stroke pathway improves speed but delays care for other emergencies. What does this indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An unintended consequence requiring adaptation."
+        },
+        {
+          "id": "B",
+          "text": "Automatic success."
+        },
+        {
+          "id": "C",
+          "text": "No need for further measurement."
+        },
+        {
+          "id": "D",
+          "text": "A documentation problem only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Balancing measures reveal trade-offs."
+    },
+    {
+      "id": "q54",
+      "stem": "What should happen before wider implementation of a successful pilot?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop measurement."
+        },
+        {
+          "id": "B",
+          "text": "Review results, refine the process and plan sustainable spread."
+        },
+        {
+          "id": "C",
+          "text": "Implement unchanged everywhere."
+        },
+        {
+          "id": "D",
+          "text": "Remove frontline input."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Small tests should inform adaptation before wider spread."
+    },
+    {
+      "id": "q55",
+      "stem": "Which strategy best supports sustainability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A one-time lecture."
+        },
+        {
+          "id": "B",
+          "text": "Annual policy distribution only."
+        },
+        {
+          "id": "C",
+          "text": "Workflow redesign, equipment, digital prompts and leadership support."
+        },
+        {
+          "id": "D",
+          "text": "Reliance on individual champions alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The notes explicitly identify multiple supports beyond education."
+    },
+    {
+      "id": "q56",
+      "stem": "Why should staff feedback be included in improvement work?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces patient outcomes."
+        },
+        {
+          "id": "B",
+          "text": "It eliminates the need for data."
+        },
+        {
+          "id": "C",
+          "text": "It is only for morale."
+        },
+        {
+          "id": "D",
+          "text": "It helps identify practical barriers and how work is actually performed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Frontline feedback helps explain current performance."
+    },
+    {
+      "id": "q57",
+      "stem": "A pathway is evidence-based but rarely used. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usability, workflow fit, resources and staff support."
+        },
+        {
+          "id": "B",
+          "text": "Whether the evidence is prestigious."
+        },
+        {
+          "id": "C",
+          "text": "The policy font."
+        },
+        {
+          "id": "D",
+          "text": "Patient age only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evidence must be translated into practical workflow."
+    },
+    {
+      "id": "q58",
+      "stem": "Which result best demonstrates sustainable improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One good week."
+        },
+        {
+          "id": "B",
+          "text": "Better outcomes are maintained over time without unacceptable burden."
+        },
+        {
+          "id": "C",
+          "text": "High training attendance."
+        },
+        {
+          "id": "D",
+          "text": "Policy approval."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sustainability requires continued effect and acceptable consequences."
+    },
+    {
+      "id": "q59",
+      "stem": "What is the main weakness of introducing education without redesigning an unsafe process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Education always changes workflow."
+        },
+        {
+          "id": "B",
+          "text": "The process becomes automatically reliable."
+        },
+        {
+          "id": "C",
+          "text": "Knowledge may improve while the system continues to make safe action difficult."
+        },
+        {
+          "id": "D",
+          "text": "No measurement is needed."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education alone often fails when system barriers remain."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects successful quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A committee is formed."
+        },
+        {
+          "id": "B",
+          "text": "A pathway is published."
+        },
+        {
+          "id": "C",
+          "text": "Staff complete a quiz."
+        },
+        {
+          "id": "D",
+          "text": "The defined harm decreases, the care process becomes reliable and unintended effects remain acceptable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful improvement produces measurable, sustainable benefit."
+    },
+    {
+      "id": "q61",
+      "stem": "What is the main benefit of digital surveillance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electronic trends and predictive scores may identify risk earlier."
+        },
+        {
+          "id": "B",
+          "text": "It replaces direct assessment."
+        },
+        {
+          "id": "C",
+          "text": "It guarantees accurate data."
+        },
+        {
+          "id": "D",
+          "text": "It eliminates escalation delays."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital tools can support earlier recognition when data quality and response are reliable."
+    },
+    {
+      "id": "q62",
+      "stem": "What is automation bias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignoring all technology."
+        },
+        {
+          "id": "B",
+          "text": "Over-trusting a normal digital score despite concerning clinical findings."
+        },
+        {
+          "id": "C",
+          "text": "Using alarms appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Reporting system faults."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Automation bias occurs when technology overrides professional judgement."
+    },
+    {
+      "id": "q63",
+      "stem": "A predictive score is low, but the patient is visibly deteriorating. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trust the score."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the score to rise."
+        },
+        {
+          "id": "C",
+          "text": "Verify directly and escalate based on clinical assessment."
+        },
+        {
+          "id": "D",
+          "text": "Reduce observation frequency."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology should support, not replace, clinical judgement."
+    },
+    {
+      "id": "q64",
+      "stem": "Why does data quality matter in predictive monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Predictive tools correct all errors."
+        },
+        {
+          "id": "B",
+          "text": "Data quality affects documentation only."
+        },
+        {
+          "id": "C",
+          "text": "Clinical response is unrelated."
+        },
+        {
+          "id": "D",
+          "text": "Incorrect or incomplete data may produce misleading risk estimates."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The accuracy of digital surveillance depends on reliable inputs."
+    },
+    {
+      "id": "q65",
+      "stem": "Which situation illustrates alert fatigue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff frequently ignore alarms because too many are non-actionable."
+        },
+        {
+          "id": "B",
+          "text": "A critical alarm prompts immediate response."
+        },
+        {
+          "id": "C",
+          "text": "A nurse verifies a score."
+        },
+        {
+          "id": "D",
+          "text": "A patient requests review."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Excessive alerts can desensitise clinicians."
+    },
+    {
+      "id": "q66",
+      "stem": "How should alert fatigue be managed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By blaming individual staff only."
+        },
+        {
+          "id": "B",
+          "text": "As a system risk requiring review of thresholds, workflow and response."
+        },
+        {
+          "id": "C",
+          "text": "By adding more alerts."
+        },
+        {
+          "id": "D",
+          "text": "By disabling all monitoring."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The source explicitly identifies alert fatigue as a system risk."
+    },
+    {
+      "id": "q67",
+      "stem": "What is the main equity concern in high-acuity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Too much documentation."
+        },
+        {
+          "id": "B",
+          "text": "Excessive patient choice."
+        },
+        {
+          "id": "C",
+          "text": "Unequal access to rapid response, diagnostics and specialist support."
+        },
+        {
+          "id": "D",
+          "text": "Uniform clinical pathways."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Access differs across rural, remote and resource-limited settings."
+    },
+    {
+      "id": "q68",
+      "stem": "A rural hospital introduces remote specialist support. What is essential?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technology without local preparation."
+        },
+        {
+          "id": "B",
+          "text": "Replacing local staff judgement."
+        },
+        {
+          "id": "C",
+          "text": "No downtime plan."
+        },
+        {
+          "id": "D",
+          "text": "Clear activation criteria, local stabilisation protocols and backup communication."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The clinical example includes these safeguards."
+    },
+    {
+      "id": "q69",
+      "stem": "Which action best supports equitable innovation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Design alternatives for patients and services with limited digital access."
+        },
+        {
+          "id": "B",
+          "text": "Require identical technology everywhere."
+        },
+        {
+          "id": "C",
+          "text": "Exclude resource-limited sites."
+        },
+        {
+          "id": "D",
+          "text": "Assume connectivity is reliable."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equity requires adapting services to unequal access and resources."
+    },
+    {
+      "id": "q70",
+      "stem": "Why should global solutions be adapted locally?",
+      "options": [
+        {
+          "id": "A",
+          "text": "International evidence is never useful."
+        },
+        {
+          "id": "B",
+          "text": "Disease patterns, workforce and resources differ between settings."
+        },
+        {
+          "id": "C",
+          "text": "Local staff should work without standards."
+        },
+        {
+          "id": "D",
+          "text": "One solution always fits all contexts."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Global learning must be adapted to local context."
+    },
+    {
+      "id": "q71",
+      "stem": "A remote monitoring system fails during a critical event. What should be available?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No alternative pathway."
+        },
+        {
+          "id": "B",
+          "text": "Personal messaging only."
+        },
+        {
+          "id": "C",
+          "text": "A tested backup communication and escalation process."
+        },
+        {
+          "id": "D",
+          "text": "Delayed review."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Backup communication is essential when technology fails."
+    },
+    {
+      "id": "q72",
+      "stem": "Which outcome best shows responsible use of predictive technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More alerts."
+        },
+        {
+          "id": "B",
+          "text": "Less clinical contact."
+        },
+        {
+          "id": "C",
+          "text": "Complete reliance on scores."
+        },
+        {
+          "id": "D",
+          "text": "Earlier recognition without replacing direct assessment or increasing inequity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Responsible use balances benefit, judgement and access."
+    },
+    {
+      "id": "q73",
+      "stem": "A service has strong digital monitoring but no specialist response after hours. What is the main limitation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognition is not linked to timely response."
+        },
+        {
+          "id": "B",
+          "text": "Data collection is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Technology replaces staffing."
+        },
+        {
+          "id": "D",
+          "text": "The system is already complete."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Monitoring has limited value without an effective response pathway."
+    },
+    {
+      "id": "q74",
+      "stem": "Which action best supports global collaboration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copy systems unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Share case learning and adapt it to local workforce and resources."
+        },
+        {
+          "id": "C",
+          "text": "Ignore local disease patterns."
+        },
+        {
+          "id": "D",
+          "text": "Use only high-income settings as models."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Global collaboration should respect local context."
+    },
+    {
+      "id": "q75",
+      "stem": "A predictive system repeatedly misses deteriorating patients with incomplete observations. What should leaders investigate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff clothing."
+        },
+        {
+          "id": "B",
+          "text": "Patient meals."
+        },
+        {
+          "id": "C",
+          "text": "Data completeness, model performance and clinical workflow."
+        },
+        {
+          "id": "D",
+          "text": "Policy length."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Digital accuracy depends on data quality and integration into care."
+    },
+    {
+      "id": "q76",
+      "stem": "Which equity measure would be useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of computers only."
+        },
+        {
+          "id": "B",
+          "text": "Average documentation length."
+        },
+        {
+          "id": "C",
+          "text": "Staff age."
+        },
+        {
+          "id": "D",
+          "text": "Access and outcome differences between urban, rural and resource-limited groups."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Equity should be evaluated through access and outcomes across populations."
+    },
+    {
+      "id": "q77",
+      "stem": "A rural service cannot implement a resource-intensive international pathway. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapt the core evidence to local resources while preserving safety goals."
+        },
+        {
+          "id": "B",
+          "text": "Abandon evidence-based care."
+        },
+        {
+          "id": "C",
+          "text": "Copy the pathway exactly."
+        },
+        {
+          "id": "D",
+          "text": "Delay all improvement."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The notes emphasise adaptation to local resources and workforce."
+    },
+    {
+      "id": "q78",
+      "stem": "Which statement best reflects responsible digital leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume normal scores are always correct."
+        },
+        {
+          "id": "B",
+          "text": "Verify digital information against direct assessment and monitor for system hazards."
+        },
+        {
+          "id": "C",
+          "text": "Leave design entirely to technical staff."
+        },
+        {
+          "id": "D",
+          "text": "Ignore alert overrides."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Digital tools require critical clinical oversight."
+    },
+    {
+      "id": "q79",
+      "stem": "How can remote specialist support improve equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It removes the need for local protocols."
+        },
+        {
+          "id": "B",
+          "text": "It works without connectivity."
+        },
+        {
+          "id": "C",
+          "text": "It can extend expertise to settings with limited local specialist access."
+        },
+        {
+          "id": "D",
+          "text": "It guarantees identical outcomes."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Remote support can reduce access gaps when designed safely."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects the Level 3 global role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manage only bedside tasks."
+        },
+        {
+          "id": "B",
+          "text": "Rely entirely on predictive scores."
+        },
+        {
+          "id": "C",
+          "text": "Avoid cross-system learning."
+        },
+        {
+          "id": "D",
+          "text": "Lead high-acuity systems, use technology critically and adapt improvement to local needs."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 focuses on leadership, systems improvement and equitable innovation."
+    }
+  ]
+}

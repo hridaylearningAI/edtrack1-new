@@ -1,0 +1,460 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "An IQN is asked to use an infusion pump model not previously",
+      "stem": "An IQN is asked to use an infusion pump model not previously encountered. What is the safest response?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "An IQN is asked to use an infusion pump model not previously encountered. What is the safest response?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review local policy, complete supervised orientation and demonstrate competence before independent use."
+            },
+            {
+              "id": "B",
+              "text": "Use it based on previous pump experience."
+            },
+            {
+              "id": "C",
+              "text": "Ask another new nurse for instructions."
+            },
+            {
+              "id": "D",
+              "text": "Decline all future infusion-pump use."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Previous experience does not replace local orientation and competency verification for unfamiliar equipment."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which factor should be checked before independently performing a procedure in a new healthcare system?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the procedure was performed overseas."
+            },
+            {
+              "id": "B",
+              "text": "Local scope, required supervision, approved equipment and escalation criteria."
+            },
+            {
+              "id": "C",
+              "text": "The nurse's confidence only."
+            },
+            {
+              "id": "D",
+              "text": "Whether the patient has had it before."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Safe international practice requires confirmation of local scope, policy, equipment and supervision requirements."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "During an OSCE, the assessor asks why the nurse checks allergies before a procedure. What is the best explanation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is required only for documentation."
+            },
+            {
+              "id": "B",
+              "text": "It reassures the patient."
+            },
+            {
+              "id": "C",
+              "text": "It identifies risks that may change equipment, medicines or whether the procedure can proceed safely."
+            },
+            {
+              "id": "D",
+              "text": "It replaces consent."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Verbalising the rationale demonstrates that the nurse understands how allergy information changes care."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "A nurse completes every checklist step but fails to recognise that the",
+      "stem": "A nurse completes every checklist step but fails to recognise that the patient is deteriorating. What does this show?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "A nurse completes every checklist step but fails to recognise that the patient is deteriorating. What does this show?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The checklist is sufficient."
+            },
+            {
+              "id": "B",
+              "text": "The procedure should always continue."
+            },
+            {
+              "id": "C",
+              "text": "Documentation is the only missing element."
+            },
+            {
+              "id": "D",
+              "text": "Technical completion without clinical judgement is incomplete competence."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "A checklist supports consistency but does not replace assessment, interpretation or judgement."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which outcome best demonstrates procedural competence?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse prepares safely, performs correctly, communicates clearly, interprets findings and documents the outcome."
+            },
+            {
+              "id": "B",
+              "text": "The nurse completes the task quickly."
+            },
+            {
+              "id": "C",
+              "text": "The nurse follows the checklist silently."
+            },
+            {
+              "id": "D",
+              "text": "The patient experiences no pain."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Competence includes preparation, technical skill, infection prevention, communication, interpretation and documentation."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "An unfamiliar device has a control layout different from the one used in the nurse's home country. What should the nurse do?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume the controls have equivalent functions."
+            },
+            {
+              "id": "B",
+              "text": "Request instruction and supervised practice before use."
+            },
+            {
+              "id": "C",
+              "text": "Use trial and error on a low-risk patient."
+            },
+            {
+              "id": "D",
+              "text": "Ask the patient whether the settings look correct."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Unfamiliar equipment requires orientation because similar devices may operate differently."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "A local policy requires a competency sign-off for a procedure the nurse",
+      "stem": "A local policy requires a competency sign-off for a procedure the nurse has performed for years. What is the correct response?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "A local policy requires a competency sign-off for a procedure the nurse has performed for years. What is the correct response?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Challenge the requirement as unnecessary."
+            },
+            {
+              "id": "B",
+              "text": "Proceed because previous experience proves competence."
+            },
+            {
+              "id": "C",
+              "text": "Complete the local competency process before independent practice."
+            },
+            {
+              "id": "D",
+              "text": "Ask a colleague to sign without observing."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Local credentialing requirements apply even when the nurse has previous experience."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which behaviour is most professional when a nurse is uncertain about a local procedure?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hide the uncertainty."
+            },
+            {
+              "id": "B",
+              "text": "Proceed to maintain confidence."
+            },
+            {
+              "id": "C",
+              "text": "Delegate the procedure without checking the other person's competence."
+            },
+            {
+              "id": "D",
+              "text": "Seek clarification and supervision before acting."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Seeking help is a professional safety behaviour, not a sign of weakness."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "An IQN notices that local terminology differs from previous practice. What should the nurse do?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clarify the local meaning and use approved terms in communication and documentation."
+            },
+            {
+              "id": "B",
+              "text": "Continue using previous terminology."
+            },
+            {
+              "id": "C",
+              "text": "Avoid documentation."
+            },
+            {
+              "id": "D",
+              "text": "Ask patients to interpret the terms."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Terminology differences can cause misunderstanding and should be resolved explicitly."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Which action best demonstrates safe adaptation to international",
+      "stem": "Which action best demonstrates safe adaptation to international practice?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which action best demonstrates safe adaptation to international practice?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Copying the procedure used in the previous country."
+            },
+            {
+              "id": "B",
+              "text": "Relating local policy to universal safety principles while following local requirements."
+            },
+            {
+              "id": "C",
+              "text": "Following colleagues without asking questions."
+            },
+            {
+              "id": "D",
+              "text": "Using personal preference when policies differ."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Safe adaptation combines broad safety principles with local law, policy and equipment."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "In simulation, the nurse verbalises what would trigger escalation. Why is this important?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "It shortens the station."
+            },
+            {
+              "id": "B",
+              "text": "It replaces technical performance."
+            },
+            {
+              "id": "C",
+              "text": "It demonstrates recognition of risk and planned clinical response."
+            },
+            {
+              "id": "D",
+              "text": "It is needed only for examination marking."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Explaining escalation criteria shows clinical reasoning beyond memorised steps."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "A nurse is competent with one brand of device but has not used another brand. What should be assumed?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Competence transfers automatically."
+            },
+            {
+              "id": "B",
+              "text": "Only the manufacturer is responsible."
+            },
+            {
+              "id": "C",
+              "text": "The patient can supervise use."
+            },
+            {
+              "id": "D",
+              "text": "Additional orientation may be required because operation and safety features may differ."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Device-specific differences may affect safe operation."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Which evidence best supports independent procedural practice",
+      "stem": "Which evidence best supports independent procedural practice?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which evidence best supports independent procedural practice?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Observed successful performance against local competency criteria."
+            },
+            {
+              "id": "B",
+              "text": "Previous job title."
+            },
+            {
+              "id": "C",
+              "text": "Self-reported confidence."
+            },
+            {
+              "id": "D",
+              "text": "A colleague's informal opinion."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Competence should be demonstrated, not assumed."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "A patient deteriorates while the nurse is being assessed on a procedure. What should the nurse prioritise?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Completing the assessment station."
+            },
+            {
+              "id": "B",
+              "text": "Stopping the procedure, supporting the patient and escalating appropriately."
+            },
+            {
+              "id": "C",
+              "text": "Waiting for the assessor to intervene."
+            },
+            {
+              "id": "D",
+              "text": "Finishing documentation first."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Patient safety always takes priority over task completion or assessment requirements."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which statement about local policy is correct?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "It replaces clinical judgement."
+            },
+            {
+              "id": "B",
+              "text": "It is optional for experienced nurses."
+            },
+            {
+              "id": "C",
+              "text": "It guides approved practice but must be applied with patient assessment and professional judgement."
+            },
+            {
+              "id": "D",
+              "text": "It applies only during orientation."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Policy and judgement must work together."
+        }
+      ]
+    }
+  ]
+}

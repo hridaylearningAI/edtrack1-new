@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Non-reassuring fetal heart rate",
+      "scenario": "Fetal monitoring shows late decelerations with each contraction.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Reposition the mother and apply oxygen.",
+      "modelWhy": "Late decelerations indicate uteroplacental insufficiency.",
+      "modelNext": "Stop oxytocin and notify the provider.",
+      "trap": "Continuing labor without intervention.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Amniotic fluid embolism",
+      "scenario": "Shortly after delivery, a woman develops sudden respiratory distress, hypotension, and bleeding from IV sites.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Call a rapid response and provide supportive care.",
+      "modelWhy": "Amniotic fluid embolism is a life-threatening emergency.",
+      "modelNext": "Support airway, breathing, and circulation.",
+      "trap": "Waiting for diagnostic confirmation.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Postpartum infection",
+      "scenario": "Two days after delivery, a woman has a fever, uterine tenderness, and foul-smelling lochia.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider and prepare to administer antibiotics.",
+      "modelWhy": "Findings suggest endometritis.",
+      "modelNext": "Monitor temperature and uterine involution.",
+      "trap": "Reassuring without treatment.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Breast engorgement",
+      "scenario": "A postpartum woman reports painful, firm breasts and difficulty breastfeeding.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Encourage frequent breastfeeding or pumping.",
+      "modelWhy": "Milk stasis worsens engorgement.",
+      "modelNext": "Assess for signs of mastitis.",
+      "trap": "Restricting breastfeeding.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Mastitis",
+      "scenario": "A breastfeeding woman reports unilateral breast pain, redness, and fever.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Continue breastfeeding and notify the provider.",
+      "modelWhy": "Emptying the breast helps resolve infection.",
+      "modelNext": "Monitor temperature and pain.",
+      "trap": "Stopping breastfeeding abruptly.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Postpartum depression",
+      "scenario": "A woman two weeks postpartum reports persistent sadness and lack of interest in her baby.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Screen for postpartum depression and provide support.",
+      "modelWhy": "Early identification improves outcomes.",
+      "modelNext": "Assess for thoughts of self-harm.",
+      "trap": "Dismissing symptoms as baby blues.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Newborn hypoglycemia",
+      "scenario": "A newborn of a diabetic mother is jittery and has a blood glucose of 2.2 mmol/L.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate feeding or glucose therapy as ordered.",
+      "modelWhy": "Hypoglycemia can cause neurological injury.",
+      "modelNext": "Recheck glucose after intervention.",
+      "trap": "Waiting for repeat labs.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Newborn respiratory distress",
+      "scenario": "A newborn has nasal flaring, grunting, and a respiratory rate of 70 breaths per minute.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide oxygen and notify the neonatal team.",
+      "modelWhy": "Signs indicate respiratory distress.",
+      "modelNext": "Monitor oxygen saturation and effort.",
+      "trap": "Wrapping the infant tightly.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

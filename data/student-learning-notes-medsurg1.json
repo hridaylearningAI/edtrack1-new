@@ -1,0 +1,800 @@
+{
+  "courseCode": "NURS-M2",
+  "title": "Module 2 — Adult Medical–Surgical Nursing I",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These notes are written like a tutor explaining Med–Surg in plain language. For each topic, you will see: (1) what the condition is, (2) how to recognise it, (3) what is most dangerous (red flags), (4) what the nurse should do first and why, and (5) short examples and case studies similar to the NCLEX and Next Gen NCLEX (NGN)."
+        },
+        {
+          "type": "paragraph",
+          "text": "As you study, practise saying out loud: \"What cue is most urgent?\" \"What is my priority problem?\" \"What is the safest first action?\" This habit is exactly what NCLEX questions reward."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain common adult Med–Surg conditions and connect pathophysiology to symptoms.",
+            "Recognise red flags and early deterioration cues.",
+            "Interpret key tests (CBC, electrolytes, ABGs, ECG basics, troponin, BNP) in context.",
+            "Prioritise care using ABCs and safety frameworks.",
+            "Select evidence-based nursing actions and evaluate outcomes.",
+            "Educate patients clearly using teach-back."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Clinical Judgment: The NCLEX Way of Thinking",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Many students know facts but still miss NCLEX questions because the exam is not testing memory alone. It is testing judgement: the ability to make a safe decision with the information given."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a question asks \"What is the priority?\" or \"What should the nurse do first?\", use a consistent decision tool. Two tools dominate NCLEX decision-making: (1) ABCs/Safety, and (2) the NCSBN Clinical Judgment Model."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "ABCs and Safety in Plain Language",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ABCs means airway, breathing, circulation. If any of these are failing, that problem comes before comfort, paperwork, or routine care."
+            },
+            {
+              "type": "paragraph",
+              "text": "Think of it like this:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "If the patient cannot breathe, nothing else matters until breathing is supported.",
+                "If oxygen is low or work of breathing is high, fix breathing before giving non-urgent meds.",
+                "If circulation is failing (shock, bleeding, severe chest pain), treat that urgently."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Safety is next. Even if ABCs look stable, you must prevent harm—falls, aspiration, bleeding, medication errors, infection/sepsis."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "The NGN Clinical Judgment Model (CJMM)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "NGN questions often provide more data (vitals, labs, history) and expect you to think like a nurse. Use these steps as a mental checklist:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Recognise cues: identify what is abnormal or risky.",
+                "Analyse cues: connect the cues to a possible problem.",
+                "Prioritise hypotheses: decide what is most dangerous.",
+                "Generate solutions: choose the best nursing actions.",
+                "Take action: implement the priority intervention.",
+                "Evaluate outcomes: reassess and decide if the patient is improving."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tip: If two answer options are both 'correct', the one that best matches CJMM priorities (usually immediate safety/oxygenation) is the NCLEX answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Adult Medical–Surgical Nursing I: What You Must Master",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult Med–Surg includes the everyday realities of nursing: chest pain, shortness of breath, infection, dehydration, electrolyte imbalance, uncontrolled diabetes, GI bleeding, postoperative complications, and worsening chronic disease. NCLEX does not expect specialist-level details. It expects that you can recognise danger early and act safely."
+        },
+        {
+          "type": "paragraph",
+          "text": "This module focuses on the systems most frequently tested in early Med–Surg: cardiovascular, respiratory, renal/fluid-electrolytes, GI/liver, endocrine (especially diabetes), skin/wounds, and postoperative complications."
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Cardiovascular System",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Understanding the Basics",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The heart is a pump. Problems occur when the pump cannot supply enough blood (low perfusion), when the vessels are diseased (CAD), or when the body holds too much fluid (heart failure). Your nursing priorities are: maintain oxygenation, maintain perfusion, reduce cardiac workload, and recognise acute emergencies early."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Myocardial Infarction (MI): What to Look For and What to Do First",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "An MI occurs when blood flow to part of the heart is blocked, causing tissue injury. In NCLEX scenarios, the key is early recognition and rapid escalation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Common cues that suggest MI: Chest pressure or pain (may radiate to arm/jaw), shortness of breath, sweating (diaphoresis), nausea, and anxiety. Older adults and people with diabetes may present with unusual symptoms such as fatigue or shortness of breath without chest pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "What the nurse does first depends on the question, but priorities usually include: assess, support oxygenation if needed, and trigger urgent evaluation (ECG). If the patient is unstable, call rapid response/emergency support."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example (NCLEX-style thinking): A patient reports chest pressure and looks pale and sweaty. The safest first action is to assess vital signs and apply oxygen if hypoxic, obtain an ECG per protocol, and notify the provider/rapid response. Giving food, walking, or delaying assessment is unsafe."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Heart Failure (HF): Fluid Overload Pattern",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In heart failure, the heart cannot pump effectively, so fluid backs up into the lungs and tissues. NCLEX will test your ability to recognise fluid overload and prevent respiratory failure."
+            },
+            {
+              "type": "paragraph",
+              "text": "Typical cues include: crackles, shortness of breath worse when lying flat (orthopnea), swelling of ankles, rapid weight gain, fatigue, and decreased exercise tolerance."
+            },
+            {
+              "type": "paragraph",
+              "text": "Your nursing actions: sit the patient upright, assess breathing and oxygen saturation, provide oxygen as ordered, monitor intake/output, daily weights, administer diuretics as prescribed, and monitor electrolytes—especially potassium."
+            },
+            {
+              "type": "paragraph",
+              "text": "Why daily weights matter: a sudden increase often shows fluid retention earlier than visible swelling. In many clinical settings, 1–2 kg gain in 1–2 days is a concern and should be reported."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.4",
+          "title": "Hypertension and Shock: Two Opposite Ends of Perfusion",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hypertension is often silent but increases risk of stroke, kidney disease, and heart disease. Nursing care focuses on monitoring, medication adherence, and lifestyle education."
+            },
+            {
+              "type": "paragraph",
+              "text": "Shock is the opposite—perfusion is failing. Signs include hypotension, tachycardia, cold/clammy skin, confusion, low urine output, and dizziness. Shock is a medical emergency. Priorities: support airway/breathing, maintain IV access, prepare fluids/blood as ordered, and call for urgent help."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Respiratory System",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "The Oxygenation Rule",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In Med–Surg nursing, when breathing is compromised, it becomes the priority. Look for: low SpO2, high work of breathing, altered mental status, and cyanosis."
+            },
+            {
+              "type": "paragraph",
+              "text": "A patient can deteriorate quickly. If you see severe distress, do not wait—call for help while beginning immediate nursing actions such as positioning and oxygen."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Asthma vs COPD: A Simple Way to Remember",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Asthma is usually reversible airway narrowing (bronchospasm). COPD is chronic airflow limitation, often with CO2 retention. NCLEX expects you to choose safe, first-line actions."
+            },
+            {
+              "type": "paragraph",
+              "text": "Asthma: the first rescue treatment is a bronchodilator. Steroids help reduce inflammation but do not work instantly. If the patient cannot speak in full sentences, has low SpO2, or has silent chest (no wheeze because airflow is minimal), treat as emergency."
+            },
+            {
+              "type": "paragraph",
+              "text": "COPD: the patient may need oxygen, but it is usually titrated as ordered. The key nursing skill is close monitoring—respiratory rate, mental status, SpO2 trends, and signs of fatigue."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Pneumonia and Pulmonary Embolism (PE): Two High-Risk Scenarios",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Pneumonia often presents with fever, cough, crackles, and shortness of breath. Nursing care includes monitoring oxygenation, encouraging deep breathing, hydration if appropriate, and administering antibiotics as prescribed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pulmonary embolism is sudden and dangerous: sudden dyspnea, chest pain, tachycardia, anxiety, and sometimes hemoptysis. It can occur after surgery or prolonged immobility. If PE is suspected, your priority is oxygenation and emergency escalation (rapid response/provider)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Renal System and Fluid/Electrolytes",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Why Fluid Balance Is Tested So Much",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Fluid problems are common, dangerous, and very 'nursing-sensitive'. Nurses often detect dehydration, overload, or electrolyte imbalance early through assessment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Always connect fluid status to perfusion and oxygenation. Dehydration can cause shock. Overload can cause pulmonary edema and respiratory failure."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Dehydration vs Fluid Overload: Recognise the Pattern",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Dehydration cues include: dry mouth, poor skin turgor (less reliable in older adults), tachycardia, dizziness, low urine output, and delayed capillary refill. The patient may have hypotension, especially when standing (orthostatic hypotension)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fluid overload cues include: swelling, crackles in lungs, increased blood pressure, rapid weight gain, and shortness of breath."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing actions are different: dehydration often needs fluids and monitoring; overload often needs restriction, diuretics as ordered, and respiratory support."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Electrolytes You Must Know: Potassium and Sodium",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Potassium affects the heart rhythm. High potassium (hyperkalemia) can lead to lethal dysrhythmias. If potassium is high and the patient has weakness, palpitations, or ECG changes, treat as urgent and notify the provider immediately."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sodium affects neurological function. Low sodium (hyponatremia) can cause confusion and seizures. High sodium (hypernatremia) often reflects dehydration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Gastrointestinal System and Bleeding Risk",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "GI problems show up on NCLEX as pain, vomiting, diarrhea, bleeding, and liver disease. The exam often tests safety: preventing shock, preventing aspiration, recognising peritonitis, and managing fluid/electrolyte consequences."
+        },
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "GI Bleed: A Classic NCLEX Emergency",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "GI bleeding may present as vomiting blood (hematemesis) or black tarry stools (melena). The danger is shock. If the patient shows hypotension, tachycardia, dizziness, or confusion, treat as urgent."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priorities: assess vital signs, maintain IV access, monitor stool/emesis, prepare for fluids/blood as ordered, and notify the provider. Do not delay with non-urgent tasks."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Liver Disease: Confusion Is a Red Flag",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In cirrhosis, the liver cannot detoxify effectively. Toxins like ammonia can build up, causing confusion (hepatic encephalopathy). If a patient with liver disease becomes confused or drowsy, take it seriously—assess, protect airway if needed, and notify provider."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Endocrine Focus: Diabetes (NCLEX High-Yield)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "Hypoglycemia: Treat First, Always",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hypoglycemia is immediately dangerous to the brain. Symptoms include sweating, shakiness, confusion, irritability, and seizures. If the patient is awake and can swallow, give fast-acting carbohydrate. If not, use IV dextrose or glucagon per protocol."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: if the question includes low blood glucose, treating hypoglycemia is almost always the first priority."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "DKA: Fluids First, Then Insulin",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Diabetic ketoacidosis (DKA) involves dehydration, acidosis, and high glucose. Patients may have Kussmaul breathing and fruity breath. The first life-saving step is IV fluids because perfusion is compromised. Then insulin is started to correct hyperglycemia and stop ketone production. Potassium must be monitored closely because insulin drives potassium into cells."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Skin, Wounds, and Postoperative Complications",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Med–Surg nurses care for wounds daily. NCLEX focuses on infection prevention, recognition of complications, and safe postoperative care."
+        },
+        {
+          "type": "subsection",
+          "number": "8.1",
+          "title": "Pressure Injury Prevention: The Nursing Impact",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Pressure injuries develop when tissue is compressed and blood supply is reduced. Prevention is a core nursing responsibility."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevention includes: turning schedule, skin inspection, moisture control (keep skin dry), nutrition support (protein), and early mobilisation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: An immobile patient with incontinence is at high risk. A safe plan includes barrier cream, timely hygiene, repositioning, and support surfaces as ordered."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.2",
+          "title": "Postoperative Red Flags",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "After surgery, some pain and mild fatigue are expected. However, sudden changes are red flags. Watch for: sudden dyspnea, sudden chest pain, new confusion, fever with worsening condition, uncontrolled bleeding, or severe abdominal pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "A classic NCLEX complication is pulmonary embolism after surgery. Sudden dyspnea and chest pain should trigger immediate oxygenation support and urgent escalation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Patient Education: Teach Like a Nurse",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX expects that nurses can teach clearly and safely. Education is not a 'nice extra'—it prevents complications and readmissions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Good teaching is specific and practical: what to do, when to do it, and when to seek urgent help. Use the teach-back method: ask the patient to repeat instructions in their own words."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example teaching points for heart failure:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Weigh yourself daily at the same time; report rapid weight gain as instructed.",
+            "Limit salt as recommended; salt increases fluid retention.",
+            "Take diuretics as prescribed; do not stop when you feel better.",
+            "Seek help for worsening shortness of breath, swelling, or chest pain."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN-Style Case Studies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Each case below is designed to train clinical judgment. Read the cues, identify what is most urgent, then decide the safest first action."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Chest Pain in the ED (Possible MI)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Mr. Kumar (58) arrives in the emergency department with chest pressure for 30 minutes. He looks pale and sweaty. Vitals: BP 92/60, HR 118, RR 24, SpO2 91% on room air. He says the pain feels like 'heavy weight' and radiates to his left arm."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues (what matters most): Chest pressure with radiation; Diaphoresis (sweaty); Low BP and tachycardia (unstable); Borderline low SpO2 with increased RR."
+            },
+            {
+              "type": "paragraph",
+              "text": "Practice questions: What is the priority nursing action? Which finding indicates this client is unstable? What should the nurse prepare to do next after initial actions?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Model clinical judgment (CJMM): Recognise cues: hypotension, chest pressure, diaphoresis, tachycardia. Analyse cues: high suspicion of MI with possible shock/poor perfusion. Prioritise hypothesis: circulation/oxygenation risk is immediate. Generate solutions: place on monitor, obtain ECG, oxygen as needed, IV access, notify rapid response/provider. Take action: initiate emergency protocol while staying with patient. Evaluate: reassess vitals, pain, SpO2 after interventions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Heart Failure Exacerbation (Fluid Overload)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Ms. Lina (72) has heart failure and arrives breathless. She sleeps on 3 pillows and has swollen ankles. Vitals: BP 168/92, HR 106, RR 26, SpO2 88%. Lung sounds: crackles at bases. Weight increased by 2 kg since last week."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Low SpO2 and tachypnea; Crackles and orthopnea; Rapid weight gain and edema. Practice questions: What should the nurse do first? Which assessment finding best supports fluid overload? Model CJMM: Recognise cues: SpO2 88%, RR 26, crackles, weight gain. Prioritise: breathing problem (ABCs). Generate solutions: sit upright, apply oxygen, assess response, prepare diuretic per order, strict I&O. Evaluate: improved SpO2, less dyspnea, decreased crackles, increased urine output."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Sudden Dyspnea Post-Op (Possible PE)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A day after hip surgery, Mr. James (64) suddenly becomes short of breath and anxious. He reports sharp chest pain. Vitals: HR 124, RR 30, BP 100/66, SpO2 86%. Key cues: Sudden onset dyspnea post-op; Tachycardia and low SpO2; Chest pain and anxiety. Model CJMM: Recognise cues: sudden dyspnea + low SpO2 + tachycardia post-op. Prioritise: high suspicion of pulmonary embolism. Generate solutions: raise HOB, apply oxygen, call rapid response/provider, stay with patient. Evaluate: stabilising SpO2 and vitals after interventions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Dehydration and AKI Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient with vomiting for two days is dizzy and weak. Mucous membranes are dry. Urine output is low. Vitals: BP 88/56, HR 122. Labs show rising creatinine. Key cues: Hypotension and tachycardia; Dry mucosa and low urine output; Rising creatinine (kidney stress). Model CJMM: Recognise cues: low BP, high HR, low urine output, rising creatinine. Prioritise: circulation/perfusion urgent; risk of shock and AKI. Generate solutions: establish IV access, give IV fluids as ordered, monitor urine output and vitals. Evaluate: BP improves, HR decreases, urine output increases."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Hypoglycemia at the Bedside",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A client with diabetes becomes confused and sweaty. Blood glucose is 2.8 mmol/L. The client is awake and can swallow. Key cues: Neuroglycopenic symptoms (confusion); Sweating and low glucose; Able to swallow. Model CJMM: Recognise cues: low glucose with symptoms. Prioritise: correct glucose now. Generate solutions: give fast-acting carbohydrate, recheck glucose, then give longer-acting snack/meal if appropriate. Evaluate: symptoms resolve and glucose normalises."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Self-Check: What You Should Be Able to Explain",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If you can explain the points below in your own words, you are on track for this module."
+        },
+        {
+          "type": "list",
+          "items": [
+            "How to decide priority using ABCs and safety.",
+            "How MI differs from heart failure in assessment cues and first actions.",
+            "Why sudden dyspnea after surgery is an emergency.",
+            "How dehydration can lead to kidney injury and shock.",
+            "Why hypoglycemia must be treated immediately.",
+            "How to teach a patient using teach-back."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These notes are provided for education and exam preparation. They do not replace local clinical policy, medical advice, or supervised clinical training."
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "Mini Quizzes (NCLEX-Style) — Check Your Understanding",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt each quiz without looking at answers first. Then check the correct answer and rationale. These questions are written to reflect NCLEX/NGN thinking: prioritisation, safety, and clinical judgment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: Clinical Judgment & Prioritisation — Study tip: Before answering, identify the MOST urgent cue and apply ABCs/safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A nurse is caring for four patients. Who should be assessed first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. A stable patient requesting pain medication for chronic arthritis",
+            "B. A patient with SpO2 86% and new shortness of breath",
+            "C. A patient who needs discharge paperwork signed",
+            "D. A patient requesting a meal tray"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Breathing compromise (SpO2 86% with dyspnea) is the highest priority (ABCs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which framework is most appropriate for prioritising life-threatening conditions?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Maslow's hierarchy only",
+            "B. ABCs (Airway, Breathing, Circulation)",
+            "C. Alphabetical order of diagnoses",
+            "D. First come, first served"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: ABCs prioritise immediate threats to life and are commonly tested on NCLEX."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: Cardiovascular"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: A patient reports chest pressure radiating to the jaw with diaphoresis. What is the priority nursing action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Encourage the patient to rest and reassess in 30 minutes",
+            "B. Obtain vital signs and prepare for ECG according to protocol",
+            "C. Offer oral fluids",
+            "D. Call family members for support"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: This presentation suggests MI; rapid assessment and ECG are urgent. Delays are unsafe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A heart failure patient reports increasing shortness of breath at night and uses 3 pillows to sleep. Which assessment finding most supports fluid overload?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Dry mucous membranes",
+            "B. Crackles in lung bases",
+            "C. Low blood pressure and weak pulses",
+            "D. Sunken eyes"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Crackles indicate pulmonary congestion consistent with HF fluid overload."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: Respiratory"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: A patient with asthma has difficulty speaking and audible wheeze. SpO2 is 88%. What should the nurse do first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Administer bronchodilator as ordered and apply oxygen as needed",
+            "B. Encourage oral fluids",
+            "C. Place patient in supine position",
+            "D. Delay treatment until chest X-ray is completed"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: This is acute respiratory distress. Bronchodilator (rescue) and oxygenation support are immediate priorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A postoperative patient suddenly becomes dyspneic with HR 124 and chest pain. What complication is most likely?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Pulmonary embolism",
+            "B. Urinary retention",
+            "C. Hypoglycemia",
+            "D. Constipation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Sudden dyspnea and tachycardia post-op strongly suggest PE."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: Renal / Fluids / Electrolytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: A dehydrated patient has BP 88/56, HR 122 and low urine output. What is the priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Encourage a high-protein diet",
+            "B. Initiate IV access and administer fluids as ordered",
+            "C. Provide PRN antiemetic only and reassess later",
+            "D. Limit fluids to prevent overload"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Signs indicate poor perfusion/shock risk; IV fluids are needed urgently per orders."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: Which electrolyte imbalance is most immediately life-threatening due to risk of dysrhythmia?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Hyperkalemia",
+            "B. Hypocalcemia",
+            "C. Hypernatremia",
+            "D. Hypomagnesemia"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: High potassium can trigger fatal cardiac dysrhythmias and requires urgent response."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: GI / Endocrine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: A client has black tarry stools and dizziness. BP is 90/58, HR 118. What is the priority nursing action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Encourage ambulation to reduce clot risk",
+            "B. Assess vitals, maintain IV access, and notify provider",
+            "C. Give laxatives to clear stool",
+            "D. Offer warm fluids and reassurance"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: This suggests GI bleed with shock risk. Rapid assessment and escalation are priority."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: A diabetic patient is confused and sweaty. Blood glucose is 2.8 mmol/L and the patient can swallow. What should the nurse do first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Administer rapid-acting carbohydrate (15 g glucose)",
+            "B. Administer long-acting insulin",
+            "C. Encourage exercise",
+            "D. Delay treatment and recheck later"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Hypoglycemia threatens brain function; treat immediately with fast sugar when conscious and able to swallow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz: Wounds & Postoperative Care"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 11: Which intervention best prevents pressure injuries in an immobile patient?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Massage bony prominences vigorously",
+            "B. Reposition regularly and keep skin clean and dry",
+            "C. Limit protein intake",
+            "D. Keep the head of bed elevated at all times"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Repositioning, moisture control, and skin assessment are key evidence-based prevention measures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 12: A nurse suspects postoperative infection. Which finding is most consistent with infection?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Cool extremities and bradycardia",
+            "B. Purulent drainage and increasing redness around incision",
+            "C. Decreased temperature and hypotension",
+            "D. Clear drainage and minimal pain"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Purulent drainage and redness are classic infection signs requiring provider notification and intervention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: If you got a question wrong, do not just memorise the correct letter. Instead, write a short note: 1) What cue did I miss? 2) Which framework should I have used (ABCs, safety, unstable vs stable)? 3) What action is safest first?"
+        }
+      ]
+    }
+  ]
+}

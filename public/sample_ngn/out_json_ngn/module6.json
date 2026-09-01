@@ -1,0 +1,1681 @@
+{
+  "moduleTitle": "Mental Health Nursing",
+  "moduleNumber": 6,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Major Depressive Disorder with Active Suicide Plan",
+      "narrative": "Ms. Priyanka Das, a 32-year-old woman, is admitted to the psychiatric unit after telling her sister that she no longer wants to live. The sister reports that Priyanka has been isolating herself for weeks, sleeping poorly, crying frequently, and neglecting meals. On admission, Priyanka sits with her head down, speaks softly, and says, “Everyone would be better off without me.”\nWhen the nurse asks whether she has thought about harming herself, Priyanka quietly states that she has saved her sleeping tablets at home and had planned to take them all tonight. She appears hopeless, has poor eye contact, and answers slowly. The nurse must recognise the seriousness of the suicide risk and begin immediate safety-focused care.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate high suicide risk? Select all that apply.",
+          "options": {
+            "A": "Verbalisation of hopelessness",
+            "B": "Specific plan to take stored tablets",
+            "C": "Social withdrawal and poor intake",
+            "D": "Slow speech and poor eye contact",
+            "E": "Statement that others would be better off without her"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these cues increase suicide risk. A specific plan with available means is especially high risk. Hopelessness, withdrawal, and self-deprecating statements are classic warning signs. NCLEX mental health questions prioritise direct evidence of intent, plan, and access to means over more general mood symptoms."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation of this presentation?",
+          "options": {
+            "A": "The patient is sad but not in immediate danger because she is calm",
+            "B": "The patient has severe depression with active suicidal ideation and requires immediate safety intervention",
+            "C": "The patient is attention-seeking and should be redirected",
+            "D": "The patient mainly needs sleep hygiene teaching"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "A calm tone does not reduce the seriousness of suicidal intent. This patient has depression plus active suicidal ideation, a specific plan, and access to pills. The nurse must interpret the situation as an immediate safety concern."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for self-directed violence related to hopelessness and suicidal plan",
+            "B": "Disturbed sleep pattern",
+            "C": "Imbalanced nutrition less than body requirements",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority in mental health nursing is always safety. While sleep, nutrition, and isolation are important, the immediate threat to life is self-harm or suicide."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stay with the patient, initiate suicide precautions, remove access to harmful objects, and notify the appropriate team immediately",
+            "B": "Tell the patient to think positively and join group therapy",
+            "C": "Leave the patient alone for privacy and return later",
+            "D": "Ask the patient to promise not to harm herself and then continue routine rounds"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The first nursing action is to protect the patient. Suicide precautions, direct observation as indicated by policy, environmental safety, and immediate communication are essential. A verbal promise or “no harm contract” is not a replacement for safety measures in a patient with active suicidal intent."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nurse responses are therapeutic and appropriate at this stage? Select all that apply.",
+          "options": {
+            "A": "“I’m glad you told me. Your safety is my priority right now.”",
+            "B": "“Can you tell me more about what has been making things feel unbearable?”",
+            "C": "“You should not feel this way; think about your family.”",
+            "D": "“We will stay with you and help keep you safe.”",
+            "E": "“You are being selfish if you try to hurt yourself.”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "The therapeutic responses are those that acknowledge the disclosure, invite further expression, and reinforce safety. Judgmental statements and guilt-inducing comments are non-therapeutic and may shut down communication."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that the immediate nursing plan is effective?",
+          "options": {
+            "A": "The patient remains under appropriate observation, harmful items are removed, and she continues to communicate suicidal thoughts openly with staff support",
+            "B": "The patient is left alone because she appears quieter",
+            "C": "The patient stops talking and the nurse assumes she is improving",
+            "D": "The patient is told to attend activities without further risk assessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "In the first phase of care, effectiveness is shown by maintained safety, environmental control, ongoing assessment, and continued communication. Silence or apparent calm is not enough to prove reduced risk."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Bipolar Disorder with Acute Manic Episode",
+      "narrative": "Mr. Jason Fernandes, a 27-year-old man with bipolar I disorder, is brought to the psychiatric emergency service by friends who say he has not slept for three days, has spent large amounts of money, and has been telling strangers that he is starting several international companies. On assessment, he is loudly talkative, restless, distractible, and constantly shifting from one topic to another.\nHe paces around the room, interrupts others, and insists that he does not need treatment because he feels “better than ever.” He has pressured speech, expansive mood, and poor insight. The nurse recognises acute mania with impaired judgment and risk for exhaustion, impulsive harm, and escalating agitation.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most consistent with acute mania? Select all that apply.",
+          "options": {
+            "A": "No sleep for several days",
+            "B": "Grandiose ideas about major success",
+            "C": "Pressured speech and distractibility",
+            "D": "Restlessness and pacing",
+            "E": "Poor judgment with overspending"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings are classic features of mania. NCLEX questions often test the nurse’s ability to identify mood elevation, decreased need for sleep, grandiosity, impulsivity, and hyperactivity as part of a manic episode."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation of this presentation?",
+          "options": {
+            "A": "Healthy confidence and normal energy",
+            "B": "Acute manic episode with impaired judgment and high risk for exhaustion and unsafe behaviour",
+            "C": "Mild anxiety with caffeine overuse",
+            "D": "Stable bipolar disorder without need for intervention"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This patient is not simply energetic; he is clinically manic. His sleep deprivation, impulsive spending, grandiosity, and lack of insight increase the risk of harm to self and others."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for injury related to impulsivity, poor judgment, and escalating activity",
+            "B": "Disturbed sleep pattern only",
+            "C": "Social isolation",
+            "D": "Chronic low self-esteem"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The most urgent problem is unsafe behaviour caused by impaired judgment and overstimulation. Sleep is important, but the priority is preventing harm and stabilising the environment."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Provide a low-stimulation environment, set clear limits, and assess for immediate safety risks while involving the treatment team",
+            "B": "Engage the patient in a long group discussion about business plans",
+            "C": "Challenge the grandiose statements directly and argue with him",
+            "D": "Ignore the behaviour unless he becomes physically aggressive"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A calm, structured, low-stimulation approach is appropriate. Arguing with grandiose beliefs is non-therapeutic and often escalates the patient. Waiting until aggression occurs misses the opportunity for early intervention."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing interventions are appropriate in acute mania? Select all that apply.",
+          "options": {
+            "A": "Use short, clear, simple statements",
+            "B": "Set firm, consistent limits on intrusive behaviour",
+            "C": "Offer frequent high-calorie finger foods and fluids as tolerated",
+            "D": "Encourage long emotionally intense group processing sessions",
+            "E": "Monitor for exhaustion, dehydration, and medication effects"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Short, direct communication is best when the patient is distractible. Limits help maintain safety. Patients in mania may not sit for meals, so finger foods and hydration are useful. The nurse should also monitor physical depletion and treatment response."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that the plan of care is effective?",
+          "options": {
+            "A": "The patient shows less agitation, accepts structure, maintains safer behaviour, and begins sleeping for short periods",
+            "B": "The patient becomes more overstimulated during group activities and talks faster",
+            "C": "The nurse stops setting limits to avoid conflict",
+            "D": "The patient continues pacing continuously without reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement in acute mania is demonstrated by safer behaviour, reduced stimulation, and the return of some rest or sleep. A lack of structure usually worsens symptoms."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Schizophrenia with Command Hallucinations",
+      "narrative": "Mr. Imran Ali, a 24-year-old man with schizophrenia, is admitted after his family found him talking to unseen voices and refusing food. During the nurse’s assessment he appears guarded, scans the room frequently, and suddenly asks, “Did you hear them? They keep telling me I’m evil.” He then lowers his voice and says the voices are telling him to hurt himself because he does not deserve to live.\nHe is frightened, distracted, and intermittently appears to listen to internal stimuli. The nurse recognises that command hallucinations can create immediate danger and require careful safety assessment and therapeutic response.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate immediate psychiatric risk? Select all that apply.",
+          "options": {
+            "A": "Responding to internal stimuli",
+            "B": "Command hallucinations telling him to hurt himself",
+            "C": "Guarded, fearful behaviour",
+            "D": "Food refusal and withdrawal",
+            "E": "Distractibility during assessment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All the findings are significant, but command hallucinations directing self-harm are particularly urgent. Withdrawal and food refusal may worsen physical risk, while fear and distractibility suggest psychotic disorganisation."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is pretending to hear voices for attention",
+            "B": "The patient is experiencing psychosis with command hallucinations that may lead to self-harm",
+            "C": "The patient simply needs quiet time alone",
+            "D": "The patient has only mild anxiety"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must take hallucinations seriously, especially when they are command in nature and instruct harm. Dismissing the experience as attention-seeking would be unsafe."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for self-directed violence related to command hallucinations",
+            "B": "Imbalanced nutrition less than body requirements only",
+            "C": "Disturbed sleep pattern",
+            "D": "Social withdrawal"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Although nutrition and withdrawal matter, self-harm risk is the top priority when the patient is hearing voices telling him to hurt himself."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stay with the patient, assess the content and immediacy of the command hallucinations, and initiate appropriate safety precautions",
+            "B": "Tell the patient the voices are nonsense and to stop talking about them",
+            "C": "Leave the patient alone so the hallucinations will pass",
+            "D": "Immediately challenge the delusion by arguing about reality"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct response is to remain with the patient, explore safety directly, and protect against self-harm. Telling the patient the voices are “nonsense” is invalidating and non-therapeutic. Leaving the patient alone is unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nurse responses are therapeutic? Select all that apply.",
+          "options": {
+            "A": "“I understand the voices are real to you. I do not hear them, but I want to help keep you safe.”",
+            "B": "“What are the voices telling you to do right now?”",
+            "C": "“You should just ignore them.”",
+            "D": "“When the voices get stronger, please tell staff immediately.”",
+            "E": "“The voices are correct about you.”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These responses validate the patient’s distress without confirming the hallucination as reality. They also assess immediacy and encourage safety communication. Telling the patient simply to ignore the voices is not sufficient in a high-risk situation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates the immediate plan is effective?",
+          "options": {
+            "A": "The patient remains safe, stays engaged with staff, reports the voices more openly, and does not act on the command content",
+            "B": "The patient is left isolated because he is quieter",
+            "C": "The nurse assumes silence means the voices are gone",
+            "D": "Food intake is restored but no safety assessment continues"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "In the acute phase, effectiveness is measured by safety, engagement, and continued risk assessment—not by superficial quietness."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Generalised Anxiety with Acute Panic Episode",
+      "narrative": "Ms. Kavya Nair, a 28-year-old woman with a history of anxiety, arrives at the emergency department convinced she is dying. She is trembling, crying, hyperventilating, clutching her chest, and saying, “I cannot breathe, I cannot breathe.” She reports intense fear, dizziness, tingling in her fingers, and a sense of impending doom.\nHer vital signs show tachycardia and rapid breathing, but initial medical review has not identified evidence of a cardiac emergency. The nurse recognises an acute panic episode and must respond with calming, structured, therapeutic care while still monitoring safety.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most consistent with a panic attack? Select all that apply.",
+          "options": {
+            "A": "Hyperventilation",
+            "B": "Trembling and crying",
+            "C": "Tingling in the fingers",
+            "D": "Sense of impending doom",
+            "E": "Feeling unable to breathe"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are typical panic symptoms. Hyperventilation can lead to dizziness and tingling. Panic symptoms can feel physically overwhelming even when there is no immediate medical life threat."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is calm and simply needs routine teaching",
+            "B": "The patient is experiencing an acute panic episode with severe distress and reduced ability to process information",
+            "C": "The patient is manipulative and should be ignored",
+            "D": "The patient has schizophrenia"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "In a panic state, the person may be unable to take in complex instructions. The nurse should recognise severe anxiety as a real and distressing experience requiring structured support."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Severe anxiety interfering with breathing pattern and functional coping",
+            "B": "Knowledge deficit about long-term exercise",
+            "C": "Social isolation",
+            "D": "Disturbed body image"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s priority is helping the patient regain control of breathing and reduce overwhelming fear enough to re-engage in safe coping."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stay with the patient, use short calm statements, reduce stimulation, and coach slow breathing if possible",
+            "B": "Leave the patient alone to “get over it”",
+            "C": "Give lengthy education about cognitive behavioural therapy immediately",
+            "D": "Confront the patient and say there is nothing wrong"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should remain present, speak briefly and calmly, and focus on immediate de-escalation. Panic patients often cannot absorb complex teaching in the acute stage. Dismissive or confrontational responses worsen distress."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which responses are therapeutic during acute panic? Select all that apply.",
+          "options": {
+            "A": "“You are safe here. Stay with me and focus on my voice.”",
+            "B": "“Let’s breathe slowly together, one breath at a time.”",
+            "C": "“There is no reason to feel this way.”",
+            "D": "“Tell me if the fear is getting stronger or changing.”",
+            "E": "“You are overreacting.”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Therapeutic responses are simple, grounding, and focused on safety and regulation. Telling the patient there is “no reason” or that they are overreacting is non-therapeutic and invalidating."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Breathing becomes slower, the patient can answer more clearly, and visible panic reduces",
+            "B": "Hyperventilation worsens and the patient becomes more disorganised",
+            "C": "The nurse leaves before reassessing",
+            "D": "The patient stops talking and curls into a ball without follow-up"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by reduced physiologic arousal and improved ability to communicate and respond."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "PTSD Trigger with Dissociative Flashback",
+      "narrative": "Mr. Daniel Joseph, a 40-year-old military veteran, is admitted to the medical floor after minor surgery. During the night, fireworks outside the hospital trigger a severe trauma response. The nurse finds him crouched behind a chair, sweating, shaking, and shouting, “Get down! They’re coming!” He does not seem oriented to the present environment.\nWhen approached, he startles intensely and appears to be reliving a combat event. The nurse must distinguish PTSD-related flashback symptoms from deliberate aggression and respond with trauma-informed de-escalation.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest a PTSD flashback rather than simple irritability? Select all that apply.",
+          "options": {
+            "A": "Reliving the traumatic event as if it is happening now",
+            "B": "Hypervigilance and startle response",
+            "C": "Disorientation to present surroundings during the episode",
+            "D": "Sweating and shaking",
+            "E": "External trigger associated with the trauma"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings are consistent with a trauma-triggered flashback or dissociative episode. The patient is not merely upset—he is temporarily overwhelmed by trauma-related re-experiencing."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Intentional aggression without distress",
+            "B": "PTSD flashback with acute fear response requiring grounding and safety support",
+            "C": "Normal post-operative confusion only",
+            "D": "Manipulative behaviour to avoid care"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should understand the behaviour through a trauma-informed lens. The patient is frightened and dysregulated, not simply oppositional."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Acute fear response with risk of accidental harm to self or others during dissociation",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about surgery",
+            "D": "Nutritional imbalance"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate priority is safety during the dissociative or hyperaroused state."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Use a calm voice, create physical and emotional safety, and orient the patient gently to the present",
+            "B": "Stand over the patient and demand eye contact",
+            "C": "Tell the patient to “snap out of it”",
+            "D": "Restrain the patient immediately without trying de-escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Trauma-informed care prioritises calm, non-threatening presence, gentle orientation, and reduction of triggers. Immediate restraint without assessing alternatives may worsen trauma."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nurse statements are therapeutic? Select all that apply.",
+          "options": {
+            "A": "“You are in the hospital, and you are safe right now.”",
+            "B": "“I’m going to stay with you while you get grounded.”",
+            "C": "“Tell me five things you can see in this room.”",
+            "D": "“There is nothing to be afraid of, so stop reacting.”",
+            "E": "“Would it help if we reduced the noise and lights?”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Grounding, orientation, and environmental modification are appropriate. Minimising or invalidating the patient’s fear is non-therapeutic."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates the immediate plan is effective?",
+          "options": {
+            "A": "The patient becomes more oriented to the present, breathing eases, and hypervigilance lessens with support",
+            "B": "The patient becomes more agitated and physically defensive",
+            "C": "The nurse leaves once the patient becomes quiet for a moment",
+            "D": "The trigger remains present with no environmental change"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is reflected in reorientation, reduced arousal, and increased sense of safety."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Borderline Personality Disorder with Self-Harm Threat",
+      "narrative": "Ms. Leah Pinto, a 22-year-old woman with borderline personality disorder, comes to the emergency psychiatric service after cutting her forearm superficially following an argument with her partner. She is tearful, angry, and says, “If he leaves me, I’ll kill myself.” She alternates between pleading for reassurance and accusing staff of not caring.\nShe becomes increasingly upset when told she may need observation and says she will hurt herself again if left alone. The nurse must respond without reinforcing maladaptive behaviour while still prioritising safety.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate high immediate risk? Select all that apply.",
+          "options": {
+            "A": "Recent self-harm behaviour",
+            "B": "Verbal threat to kill herself",
+            "C": "Emotional lability and intense fear of abandonment",
+            "D": "Escalating anger toward staff",
+            "E": "Threat to self-harm again if left alone"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings matter. Borderline personality disorder does not reduce the seriousness of suicidal threats or self-harm. The nurse must take all suicidal content seriously while maintaining consistent boundaries."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is manipulative, so the threats are not serious",
+            "B": "The patient is emotionally dysregulated with real self-harm risk and requires structured, consistent, safety-focused care",
+            "C": "The patient mainly wants attention and should be ignored",
+            "D": "The patient has no need for assessment because the injuries are superficial"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient may show manipulative relational patterns, but the nurse must never dismiss self-harm risk. Structured, nonjudgmental care with clear limits is appropriate."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for self-directed violence related to emotional dysregulation and abandonment fears",
+            "B": "Disturbed body image",
+            "C": "Knowledge deficit about diet",
+            "D": "Social withdrawal"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is immediate safety. Emotional dysregulation and impulsive self-harm are high-risk features."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Address immediate safety, assess suicidal intent and means, set clear boundaries, and maintain a calm consistent approach",
+            "B": "Promise the patient special treatment if she stops crying",
+            "C": "Debate whether she is truly suicidal",
+            "D": "Refuse to speak with her because she is manipulative"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should assess risk seriously and provide structured, consistent care. Promising special treatment or withdrawing communication may reinforce maladaptive behaviour or worsen escalation."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which responses are therapeutic? Select all that apply.",
+          "options": {
+            "A": "“I want to help keep you safe, and we will talk about what happened.”",
+            "B": "“I can see you are very upset. We will deal with one issue at a time.”",
+            "C": "“If you cut again, no one will care.”",
+            "D": "“We cannot allow self-harm, and we will stay focused on your safety.”",
+            "E": "“You are just trying to manipulate us.”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These responses are validating without overinvolvement and set limits without shaming. Judgmental or rejecting statements are inappropriate and may worsen self-harm risk."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates the plan is effective?",
+          "options": {
+            "A": "The patient remains safe, accepts boundaries more consistently, and begins expressing feelings verbally instead of escalating immediately to self-harm threats",
+            "B": "Staff respond inconsistently and the patient becomes more volatile",
+            "C": "The patient is left alone despite ongoing threats",
+            "D": "The nurse offers special privileges to stop behaviour"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is measured by safer coping, consistent limit-setting, and reduced reliance on crisis behaviours."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Alcohol Withdrawal with Delirium Tremens Risk",
+      "narrative": "Mr. Robert D’Mello, a 48-year-old man, is admitted to the medical unit after stopping heavy alcohol use abruptly when he developed gastritis. On the first day he is anxious, tremulous, sweaty, and nauseated. He says he feels like his heart is racing and cannot sleep. By the next shift he becomes more restless and reports seeing insects on the wall.\nThe nurse notes tremor, tachycardia, hypertension, diaphoresis, agitation, and visual hallucinations. The nurse recognises progression toward severe alcohol withdrawal and possible delirium tremens.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate severe alcohol withdrawal? Select all that apply.",
+          "options": {
+            "A": "Tremor and diaphoresis",
+            "B": "Tachycardia and hypertension",
+            "C": "Visual hallucinations",
+            "D": "Severe agitation and insomnia",
+            "E": "Recent abrupt cessation of heavy alcohol use"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic signs of escalating alcohol withdrawal. Hallucinations, autonomic instability, and agitation are particularly concerning for severe withdrawal or delirium tremens."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild stress only",
+            "B": "Severe alcohol withdrawal with risk of delirium tremens, seizures, and cardiovascular instability",
+            "C": "Stable sobriety with no danger",
+            "D": "Schizophrenia onset only"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is a high-risk withdrawal pattern. DTs can be life-threatening and require close monitoring and medication management."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for injury, seizure, and autonomic instability related to severe alcohol withdrawal",
+            "B": "Disturbed sleep only",
+            "C": "Social isolation",
+            "D": "Low self-esteem"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safety and physiological stability are the priorities in severe withdrawal."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate close withdrawal monitoring, maintain a safe environment, and prepare prescribed withdrawal management promptly",
+            "B": "Confront the hallucinations by arguing with the patient",
+            "C": "Leave the patient alone in a dark room without checks",
+            "D": "Delay assessment until the morning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient requires close observation, medication support, and safety measures. Arguing with hallucinations is not helpful, and isolation without monitoring is unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor vital signs, tremor, orientation, and hallucinations closely",
+            "B": "Reduce environmental stimulation while maintaining safety",
+            "C": "Watch for seizure activity",
+            "D": "Encourage hydration and nutrition as tolerated and ordered",
+            "E": "Assume hallucinations are harmless if the patient is cooperative"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Withdrawal may worsen quickly. Hallucinations are not harmless in this context; they signal increasing severity."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates the plan is effective?",
+          "options": {
+            "A": "Tremor and agitation lessen, vital signs stabilise, hallucinations decrease, and the patient remains safe",
+            "B": "Hallucinations worsen and the patient becomes more disoriented",
+            "C": "Monitoring stops because the patient looks tired",
+            "D": "Seizure precautions are removed early"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement in withdrawal is reflected in autonomic stabilisation, less agitation, and fewer perceptual disturbances."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Opioid Overdose with Respiratory Depression",
+      "narrative": "Mr. Sandeep Roy, a 35-year-old man with known opioid misuse, is brought to the emergency department by friends who say they found him difficult to wake. He is pale, breathing slowly, and barely responsive. On assessment, the nurse notes pinpoint pupils, respiratory rate 7 breaths per minute, oxygen saturation 84% on room air, and bluish lips.\nThe nurse recognises a likely opioid overdose. Immediate airway and breathing support are essential while emergency reversal and monitoring are prepared.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most consistent with opioid overdose? Select all that apply.",
+          "options": {
+            "A": "Markedly decreased respiratory rate",
+            "B": "Pinpoint pupils",
+            "C": "Reduced responsiveness",
+            "D": "Hypoxia and cyanosis",
+            "E": "History of opioid misuse"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic features of opioid toxicity. Respiratory depression is the most immediate threat to life."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is sleeping normally",
+            "B": "Likely opioid overdose with life-threatening respiratory depression",
+            "C": "Panic attack only",
+            "D": "Alcohol withdrawal"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is recognising opioid overdose as a respiratory emergency. Reduced responsiveness plus pinpoint pupils and bradypnoea are strongly suggestive."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired ventilation and hypoxia related to opioid overdose",
+            "B": "Disturbed sleep pattern",
+            "C": "Social isolation",
+            "D": "Knowledge deficit about exercise"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airway and breathing are always the priority in overdose. Mental health nursing intersects with acute medical safety here."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Support airway and breathing immediately, call for urgent assistance, and prepare for reversal treatment as ordered",
+            "B": "Shake the patient and leave if he opens his eyes briefly",
+            "C": "Offer oral fluids",
+            "D": "Delay intervention until laboratory confirmation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate respiratory support and emergency response are essential. Waiting for lab confirmation would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Continuous monitoring of respirations, oxygenation, and level of consciousness",
+            "B": "Prepare for recurrent sedation after reversal depending on the opioid involved",
+            "C": "Maintain patient safety once responsiveness returns",
+            "D": "Ignore the patient after reversal because the emergency is over",
+            "E": "Use calm, direct communication during recovery"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Opioid overdose management requires ongoing monitoring because respiratory depression may recur. Post-reversal safety and communication are important."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective emergency management?",
+          "options": {
+            "A": "Respirations improve, oxygen saturation rises, and the patient becomes more responsive while remaining monitored",
+            "B": "The patient becomes more cyanotic and unresponsive",
+            "C": "Monitoring is stopped as soon as he wakes up",
+            "D": "The nurse leaves before reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by better breathing, better oxygenation, and ongoing observation."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Anorexia Nervosa with Medical Instability",
+      "narrative": "Ms. Chloe Martin, a 19-year-old university student, is admitted from an outpatient clinic because of rapid weight loss, dizziness, and near-fainting. She insists that she is “still too large” despite appearing markedly underweight. She reports strict calorie restriction, excessive exercise, and feeling cold most of the time.\nOn assessment, the nurse notes body mass significantly below expected, dry skin, bradycardia, low blood pressure, and obsessional thoughts about food and body size. Chloe denies the seriousness of her condition and says she does not need hospital treatment. The nurse recognises anorexia nervosa with physical instability.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate clinically significant anorexia nervosa? Select all that apply.",
+          "options": {
+            "A": "Marked underweight status",
+            "B": "Distorted body image",
+            "C": "Bradycardia and hypotension",
+            "D": "Excessive exercise and food restriction",
+            "E": "Feeling cold and near-fainting"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are important. The physical signs show medical instability, while body image distortion and extreme control behaviours support the diagnosis."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Healthy dieting with good self-discipline",
+            "B": "Eating disorder with serious medical compromise requiring close monitoring",
+            "C": "Ordinary adolescent insecurity only",
+            "D": "Stable nutrition with no risk"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient has both psychological and physiological danger signs. The nurse must not be reassured by the patient’s denial of illness."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for dysrhythmia, syncope, and further physiological deterioration related to malnutrition",
+            "B": "Social withdrawal only",
+            "C": "Need for gym access",
+            "D": "Disturbed sleep alone"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Medical instability is the immediate priority in severe anorexia, particularly bradycardia, low blood pressure, and risk of collapse."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Begin careful medical and nutritional monitoring, assess immediate physical stability, and support structured treatment with therapeutic communication",
+            "B": "Praise the patient’s self-control",
+            "C": "Argue about calories and force food without assessment",
+            "D": "Leave all decisions entirely to the patient without monitoring"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must balance medical safety with a calm, nonjudgmental approach. Praise or confrontation can reinforce pathology or escalate resistance."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor heart rate, blood pressure, hydration, and labs closely",
+            "B": "Watch for refeeding-related complications once nutrition improves",
+            "C": "Use neutral, nonjudgmental language about food and weight",
+            "D": "Support structured meals as ordered",
+            "E": "Tell the patient appearance is the only issue"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Anorexia treatment includes medical monitoring, refeeding safety, and neutral therapeutic communication. The condition is far more serious than appearance concerns."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates early progress?",
+          "options": {
+            "A": "Vital signs become more stable, the patient tolerates structured intake, and engagement with treatment improves gradually",
+            "B": "The patient becomes weaker and vital signs worsen",
+            "C": "Monitoring stops because the patient says she is fine",
+            "D": "Staff argue with the patient about appearance"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Early improvement may be gradual, but stabilising physiology and increased engagement are important indicators."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "Serotonin Syndrome",
+      "narrative": "Mr. Aaron Lewis, a 30-year-old patient being treated for depression, presents with agitation, sweating, tremor, diarrhea, and muscle rigidity after recently starting a new antidepressant while also using St. John’s Wort from a health food store. He is restless, flushed, and says he feels “wired and sick.”\nOn assessment, the nurse notes elevated temperature, tachycardia, tremor, hyperreflexia, and increasing confusion. The nurse recognises possible serotonin syndrome and the need for urgent intervention.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support serotonin syndrome? Select all that apply.",
+          "options": {
+            "A": "Agitation and confusion",
+            "B": "Tremor and hyperreflexia",
+            "C": "Sweating and elevated temperature",
+            "D": "Recent serotonergic medication change with supplement use",
+            "E": "Diarrhea"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are characteristic of serotonin syndrome. This is a high-yield NCLEX medication safety topic in mental health nursing."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild anxiety only",
+            "B": "Serotonin syndrome requiring urgent medical attention and medication review",
+            "C": "Bipolar mania only",
+            "D": "Stable antidepressant adjustment"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The combination of autonomic instability, neuromuscular findings, and serotonergic exposure is concerning for serotonin syndrome."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for severe autonomic and neurological instability related to medication interaction",
+            "B": "Social anxiety",
+            "C": "Disturbed sleep pattern",
+            "D": "Mild embarrassment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The syndrome can become life-threatening. Immediate physical safety and medication review are priorities."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold the suspected serotonergic agents, escalate urgently, and monitor vital signs and neurological status closely",
+            "B": "Give the next antidepressant dose on time",
+            "C": "Tell the patient the symptoms are expected and harmless",
+            "D": "Delay action until tomorrow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must respond urgently, because serotonin syndrome can worsen quickly. Continuing serotonergic medications would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Obtain a clear medication and supplement history",
+            "B": "Monitor temperature, heart rate, and rigidity",
+            "C": "Reduce stimulation and maintain safety",
+            "D": "Educate the patient later about avoiding unapproved drug-supplement combinations",
+            "E": "Ignore diarrhea because only fever matters"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. A full medication history is essential because interactions often involve prescription and non-prescription substances."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Agitation lessens, temperature and heart rate improve, and neuromuscular findings begin to settle",
+            "B": "Rigidity worsens and confusion increases",
+            "C": "Monitoring stops after one review",
+            "D": "Medication causes are not clarified"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by reduced autonomic and neurological instability."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Lithium Toxicity",
+      "narrative": "Ms. Olivia Hart, a 36-year-old woman with bipolar disorder treated with lithium, presents with nausea, vomiting, coarse tremor, and increasing unsteadiness. She says she recently had several days of diarrhea and thought it would be fine to keep taking the same lithium dose. She now feels weak and confused.\nThe nurse notes slurred speech, ataxic gait, dehydration signs, and a toxic lithium level reported from the laboratory. The nurse recognises lithium toxicity likely worsened by fluid loss.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate lithium toxicity? Select all that apply.",
+          "options": {
+            "A": "Coarse tremor",
+            "B": "Nausea and vomiting",
+            "C": "Ataxia and slurred speech",
+            "D": "Dehydration after diarrhea",
+            "E": "Elevated lithium level"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings support lithium toxicity. Dehydration reduces lithium clearance and can rapidly raise levels."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Mild expected medication side effect only",
+            "B": "Lithium toxicity requiring urgent intervention and fluid/renal assessment",
+            "C": "Stable mania treatment response",
+            "D": "Simple viral illness only"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is beyond routine mild side effects. Neurological changes plus elevated lithium level signal toxicity."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for worsening neurological toxicity and impaired renal clearance",
+            "B": "Disturbed sleep only",
+            "C": "Social isolation",
+            "D": "Mild anxiety"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The urgent concern is progressive toxicity affecting the nervous system and kidney handling of the drug."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold lithium, assess hydration and neurological status, and notify the provider urgently",
+            "B": "Give the next dose with food",
+            "C": "Tell the patient to continue the medication until the next appointment",
+            "D": "Ignore the tremor because lithium always causes shaking"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The medication should be withheld in suspected toxicity, and the nurse must escalate urgently. Continuing lithium could worsen the condition."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor fluid balance and renal function",
+            "B": "Reassess gait, speech, and mental status closely",
+            "C": "Review recent illnesses, fluid loss, and sodium/fluid intake",
+            "D": "Teach the patient later about maintaining hydration and when to seek help",
+            "E": "Assume all tremors on lithium are harmless"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Lithium safety depends on hydration and kidney function. Patient education about illness, dehydration, and toxicity is crucial."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Tremor lessens, gait becomes steadier, confusion decreases, and hydration improves after treatment adjustments",
+            "B": "Ataxia worsens and lithium continues unchanged",
+            "C": "Monitoring stops after one lab result",
+            "D": "The patient becomes more confused without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by better neurological stability and correction of contributing factors."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Escalating Aggression and Violence Risk",
+      "narrative": "Mr. Kevin D’Souza, a 29-year-old patient admitted involuntarily for psychosis, becomes increasingly agitated when told visiting hours are over. He begins pacing rapidly, clenching his fists, glaring at staff, and speaking in a louder, harsher voice. He invades another patient’s personal space and yells, “Don’t tell me what to do.”\nThe nurse notices escalating motor tension, threatening posture, and poor impulse control. The team must intervene early using least restrictive, safety-focused de-escalation.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which behaviours indicate increasing risk of violence? Select all that apply.",
+          "options": {
+            "A": "Pacing and motor agitation",
+            "B": "Clenched fists",
+            "C": "Invading personal space",
+            "D": "Loud, threatening tone",
+            "E": "Poor impulse control"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are classic escalation cues. Mental health nurses are expected to identify pre-assault behaviour early and intervene before physical violence occurs."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Harmless frustration only",
+            "B": "Escalating aggression with risk of imminent violence if not de-escalated",
+            "C": "Positive social interaction",
+            "D": "Normal assertiveness only"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The cluster of behaviours suggests rising violence risk. Early intervention is safer and less restrictive than waiting until assault occurs."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for violence directed toward self or others",
+            "B": "Disturbed sleep",
+            "C": "Low self-esteem",
+            "D": "Knowledge deficit about rules"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safety is the top priority. Potential violence overrides other concerns."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Use calm de-escalation, maintain safe distance, reduce environmental triggers, and call for support as needed",
+            "B": "Stand very close and argue about the rules",
+            "C": "Challenge the patient publicly in front of peers",
+            "D": "Ignore the behaviour until he throws something"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The least restrictive effective intervention is calm de-escalation with environmental control and backup if required. Public confrontation or waiting for violence is unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing strategies are appropriate? Select all that apply.",
+          "options": {
+            "A": "Speak in a calm, low, brief manner",
+            "B": "Offer clear behavioural limits and choices",
+            "C": "Remove bystanders and reduce stimulation",
+            "D": "Keep an exit route available for staff safety",
+            "E": "Mock the patient’s anger to break tension"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are evidence-based de-escalation principles. Mocking the patient is disrespectful and dangerous."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates successful early de-escalation?",
+          "options": {
+            "A": "The patient’s pacing slows, voice volume decreases, and he responds to simple limit-setting without assaultive behaviour",
+            "B": "The patient becomes more physically intimidating and staff continue arguing",
+            "C": "The nurse stands trapped in the corner with no support",
+            "D": "The environment remains crowded and noisy"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Successful de-escalation reduces stimulation, lowers arousal, and prevents injury."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Adolescent Depression with Self-Harm and Social Withdrawal",
+      "narrative": "A 15-year-old adolescent, Maya, is brought to the clinic by her mother because of cutting behaviour, declining school performance, and increasing withdrawal from friends. Maya shrugs during the assessment and says, “It doesn’t matter. Nothing gets better.” When asked about the cuts, she says they help her “feel something.”\nHer mother reports irritability, staying in bed, and refusing meals with the family. Maya denies a current suicide plan at first, but later admits she sometimes thinks everyone would be better off if she disappeared. The nurse must assess carefully because adolescents may minimise intent.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest significant depression and self-harm risk? Select all that apply.",
+          "options": {
+            "A": "Cutting behaviour",
+            "B": "Hopeless statements",
+            "C": "Withdrawal from friends and school decline",
+            "D": "Irritability and isolation",
+            "E": "Thoughts that others would be better off without her"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are important risk indicators in adolescent depression. Self-harm, hopelessness, academic decline, and withdrawal are red flags."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Typical teenage mood only",
+            "B": "Adolescent depression with self-harm behaviour and possible suicidal ideation requiring careful safety assessment",
+            "C": "Mild attention-seeking only",
+            "D": "Normal exam stress"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The pattern goes beyond ordinary adolescent distress. Nurses must not dismiss self-harm or hopelessness as “just a phase.”"
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for self-directed violence related to depression and self-harm",
+            "B": "Disturbed sleep only",
+            "C": "Need for study skills teaching",
+            "D": "Social media overuse"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safety is the immediate priority. Depression with self-harm warrants careful suicide assessment."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Conduct a direct but supportive suicide risk assessment and involve appropriate safety planning immediately",
+            "B": "Avoid asking about suicide because it may give ideas",
+            "C": "Tell the mother to handle it alone at home",
+            "D": "Focus only on school grades"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Asking directly about suicide does not create suicidal thoughts; it is necessary for safety. Family involvement may be important, but the nurse must first assess risk clearly."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which therapeutic responses are appropriate? Select all that apply.",
+          "options": {
+            "A": "“I’m glad you told me. I want to understand how bad it has been feeling.”",
+            "B": "“When you think people would be better off without you, do you think about killing yourself?”",
+            "C": "“You have so much to live for, so you should stop cutting.”",
+            "D": "“We will work on keeping you safe while we understand what’s been happening.”",
+            "E": "“This is probably just drama.”"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These responses are direct, nonjudgmental, and safety-focused. Minimising or lecturing the adolescent is non-therapeutic."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective immediate care?",
+          "options": {
+            "A": "Suicide risk is clearly assessed, safety planning is initiated, and Maya continues talking honestly with the nurse and team",
+            "B": "Maya is dismissed as dramatic and sent away without assessment",
+            "C": "The nurse avoids further questions after the first answer",
+            "D": "The self-harm history is ignored because wounds are superficial"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The key early outcome is honest communication plus structured safety assessment and planning."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Delirium versus Dementia in an Older Adult",
+      "narrative": "Mrs. Josephine Pereira, an 81-year-old woman admitted for a urinary infection, becomes suddenly confused during the evening. Earlier in the day she was mildly forgetful but cooperative. Now she is pulling at her IV line, saying there are children running across the ceiling, and does not know where she is. Her daughter says, “She has some memory problems, but this is much worse than usual.”\nThe nurse notes fluctuating attention, visual misperceptions, and acute behavioural change. The challenge is to identify delirium superimposed on possible dementia and respond safely.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest delirium rather than stable dementia? Select all that apply.",
+          "options": {
+            "A": "Sudden onset of confusion",
+            "B": "Fluctuating attention and disorientation",
+            "C": "Visual misperceptions",
+            "D": "Acute worsening from baseline",
+            "E": "Pulling at lines and restless behaviour"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Delirium is typically acute, fluctuating, and often associated with medical illness. Visual misperceptions and sudden worsening from baseline are especially important clues."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "This is simply normal ageing",
+            "B": "Acute delirium likely related to medical illness, requiring urgent assessment and safety measures",
+            "C": "Stable dementia only",
+            "D": "Personality disorder"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The sudden, fluctuating, perceptual, medically linked change points to delirium. In NCLEX questions, delirium is an urgent reversible medical issue until proven otherwise."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Acute confusion with risk of injury and missed medical deterioration",
+            "B": "Chronic low self-esteem",
+            "C": "Social withdrawal",
+            "D": "Sleep pattern only"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient is at risk of injuring herself and may be showing worsening infection or other medical instability."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reassess medical status, ensure environmental safety, and communicate the acute change promptly to the team",
+            "B": "Argue about the hallucinations and demand orientation",
+            "C": "Leave the patient alone in a dark room",
+            "D": "Assume nothing can be done because she is elderly"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Delirium requires medical reassessment and a safe, calm environment. Arguing about perceptions is not therapeutic."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which interventions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reorient gently and frequently",
+            "B": "Reduce unnecessary stimulation but maintain visibility and supervision",
+            "C": "Involve family for reassurance if helpful",
+            "D": "Assess for pain, infection, medication effects, and dehydration",
+            "E": "Use restraints as the first intervention"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Delirium management focuses on treating underlying causes and supporting safety. Restraints are not first-line and should only be considered under strict least-restrictive principles if necessary."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Attention and orientation improve, agitation lessens, and the patient becomes more like baseline as the medical issue is treated",
+            "B": "Confusion worsens and no reassessment occurs",
+            "C": "The patient is restrained without cause analysis",
+            "D": "Family concerns are ignored"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement in delirium is shown by clearer attention, safer behaviour, and return toward prior baseline with treatment of the underlying trigger."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Refusal of Psychiatric Medication and Legal-Ethical Decision-Making",
+      "narrative": "Mr. Liam Brooks, a 38-year-old voluntary psychiatric patient with schizoaffective disorder, is offered his prescribed antipsychotic medication. He is calm, oriented, and says, “I know what it’s for, but I don’t want to take it tonight because it makes me feel stiff and slowed down.” He is not currently violent or acutely disorganised, though he remains mildly suspicious of staff.\nA new nurse on the unit says, “He’s psychotic, so he has to take it,” and suggests that refusal should simply be documented as noncompliance. The primary nurse must act within legal and ethical boundaries while assessing risk and patient rights.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most relevant when considering the medication refusal? Select all that apply.",
+          "options": {
+            "A": "The patient is voluntary",
+            "B": "He appears calm and oriented",
+            "C": "He can state a reason for refusal",
+            "D": "He is not currently violent or acutely out of control",
+            "E": "He reports side effects from the medication"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors matter. A patient who is calm, oriented, and able to explain refusal may retain the right to refuse medication, depending on jurisdiction and current legal status."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "All psychiatric patients automatically lose the right to refuse medication",
+            "B": "The patient may have the right to refuse medication, and the nurse must assess capacity, risk, and legal status carefully",
+            "C": "The nurse should force the medication immediately",
+            "D": "Side effects are irrelevant if the order exists"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Psychiatric diagnosis alone does not remove patient rights. The nurse must assess capacity, current risk, and legal context rather than assuming forced medication is appropriate."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Balancing patient autonomy and safety through proper assessment of refusal and risk",
+            "B": "Teaching about diet first",
+            "C": "Sleep pattern documentation only",
+            "D": "Group attendance planning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must evaluate refusal ethically and legally while ensuring the patient is not at immediate risk to self or others."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Explore the patient’s concerns, assess understanding and current risk, and follow facility/legal procedures regarding refusal",
+            "B": "Hide the medication in food",
+            "C": "Threaten the patient with punishment",
+            "D": "Ignore the refusal completely"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should assess the patient’s understanding, discuss side effects, and follow legal policy. Covert medication and threats violate patient rights and trust."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document the refusal objectively and accurately",
+            "B": "Notify the provider if clinically indicated and discuss side effects/alternatives",
+            "C": "Assess whether EPS or other adverse effects may be contributing to refusal",
+            "D": "Respect the patient’s rights while continuing observation of mental state",
+            "E": "Assume refusal means discharge is impossible"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are appropriate ethical and professional responses. The nurse should not jump to punitive conclusions."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective and ethical nursing care?",
+          "options": {
+            "A": "The patient’s refusal is assessed and documented appropriately, side effects are addressed, and ongoing risk monitoring continues without coercion",
+            "B": "Medication is forced without legal basis",
+            "C": "The refusal is ignored and no one reassesses mental status",
+            "D": "Staff shame the patient into accepting medication"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care respects autonomy while still monitoring safety and engaging the patient in treatment decisions."
+        }
+      ]
+    }
+  ]
+}

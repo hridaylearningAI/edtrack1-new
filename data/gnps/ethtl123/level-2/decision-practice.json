@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Advance directive conflict",
+      "scenario": "A patient has a valid advance directive declining life-sustaining treatment. Family members request that “everything possible” be done despite the documented wishes.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Follow the patient’s documented wishes.",
+      "modelWhy": "Advance directives guide care.",
+      "modelNext": "Notify ethics committee if needed.",
+      "trap": "Deferring to family wishes.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Mandatory reporting",
+      "scenario": "During assessment, you observe signs that raise concern for possible elder abuse. The patient appears fearful and hesitant to answer questions.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Report concerns according to law.",
+      "modelWhy": "Mandatory reporting protects vulnerable individuals.",
+      "modelNext": "Document objective findings.",
+      "trap": "Investigating independently.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Cultural sensitivity",
+      "scenario": "A patient’s cultural beliefs conflict with the recommended medical treatment. The patient expresses discomfort and reluctance to proceed with the proposed plan of care.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Respect beliefs and seek alternatives.",
+      "modelWhy": "Culturally competent care builds trust.",
+      "modelNext": "Consult cultural liaison.",
+      "trap": "Dismissing beliefs.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Professional boundaries",
+      "scenario": "A patient expresses gratitude by offering you an expensive personal gift, stating that you “deserve it for all your care.”",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Politely decline and maintain boundaries.",
+      "modelWhy": "Boundaries prevent exploitation.",
+      "modelNext": "Document interaction if required.",
+      "trap": "Accepting the gift.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Social media use",
+      "scenario": "A nurse posts a story on social media describing an interesting patient case, believing that omitting names and identifiers makes it acceptable.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Remove the post and report per policy.",
+      "modelWhy": "Privacy breaches can still occur.",
+      "modelNext": "Review social media policy.",
+      "trap": "Assuming anonymity is sufficient.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Impaired colleague",
+      "scenario": "You observe a colleague displaying unusual behaviour at work, including slurred speech and poor coordination, raising concerns about impairment while on duty.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Report concerns to appropriate authority.",
+      "modelWhy": "Patient safety is paramount.",
+      "modelNext": "Follow institutional protocol.",
+      "trap": "Confronting the colleague alone.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Patient advocacy",
+      "scenario": "A patient repeatedly reports uncontrolled pain, but their concerns are dismissed by another member of the healthcare team as “exaggerated.”",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Advocate for reassessment and pain management.",
+      "modelWhy": "Nurses are patient advocates.",
+      "modelNext": "Communicate with the care team.",
+      "trap": "Accepting dismissal.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Documentation accuracy",
+      "scenario": "You realise that you forgot to document a nursing intervention that was performed earlier in the shift.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Document as soon as remembered.",
+      "modelWhy": "Accurate records are legal documents.",
+      "modelNext": "Ensure entry is factual.",
+      "trap": "Backdating records.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

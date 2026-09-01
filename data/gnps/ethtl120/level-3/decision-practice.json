@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Meconium aspiration",
+      "scenario": "A newborn is delivered through meconium-stained amniotic fluid and shows poor respiratory effort.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure airway support and notify the neonatal team.",
+      "modelWhy": "Meconium can obstruct airways.",
+      "modelNext": "Assess lung sounds and oxygenation.",
+      "trap": "Stimulating aggressively before airway assessment.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Hyperbilirubinemia",
+      "scenario": "A two-day-old newborn appears jaundiced with rising bilirubin levels.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate phototherapy as ordered.",
+      "modelWhy": "High bilirubin can cause kernicterus.",
+      "modelNext": "Monitor bilirubin levels and hydration.",
+      "trap": "Reassuring parents without intervention.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Neonatal sepsis",
+      "scenario": "A newborn becomes lethargic, has temperature instability, and poor feeding.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider and prepare for sepsis evaluation.",
+      "modelWhy": "Neonates deteriorate rapidly with infection.",
+      "modelNext": "Monitor vital signs and glucose.",
+      "trap": "Waiting to see if feeding improves.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Neonatal abstinence syndrome",
+      "scenario": "A newborn exposed to opioids in utero has tremors, high-pitched crying, and poor feeding.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Implement supportive care and assess withdrawal severity.",
+      "modelWhy": "Early intervention reduces complications.",
+      "modelNext": "Monitor weight and feeding tolerance.",
+      "trap": "Overstimulating the infant.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Shoulder dystocia",
+      "scenario": "During delivery, the baby’s head delivers but the shoulders do not.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Call for immediate assistance and prepare for emergency maneuvers.",
+      "modelWhy": "Shoulder dystocia is an obstetric emergency.",
+      "modelNext": "Monitor fetal heart rate and maternal status.",
+      "trap": "Applying excessive traction.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Postpartum urinary retention",
+      "scenario": "A woman 8 hours postpartum reports suprapubic discomfort and inability to void.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess bladder distension and assist with voiding or catheterize as ordered.",
+      "modelWhy": "Urinary retention can lead to infection and hemorrhage.",
+      "modelNext": "Monitor urine output.",
+      "trap": "Encouraging fluids only.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Rh incompatibility",
+      "scenario": "An Rh-negative mother has delivered an Rh-positive infant.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer Rh immunoglobulin as ordered.",
+      "modelWhy": "Prevents maternal antibody formation.",
+      "modelNext": "Verify infant blood type.",
+      "trap": "Delaying administration.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Preterm labor",
+      "scenario": "A pregnant woman at 30 weeks reports regular contractions and back pain.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess contraction pattern and notify the provider.",
+      "modelWhy": "Preterm labor threatens neonatal outcomes.",
+      "modelNext": "Monitor cervical changes.",
+      "trap": "Sending the patient home.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

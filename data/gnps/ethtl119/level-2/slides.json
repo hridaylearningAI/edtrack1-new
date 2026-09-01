@@ -1,0 +1,2151 @@
+{
+  "level": 2,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 2 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 5 - Level 2 - Internationaly Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Level 2 — International Qualified Nurse (IQN)",
+          "bullets": [
+            {
+              "label": "Advanced Adult Nursing Care · Medical-Surgical Nursing II",
+              "text": ""
+            },
+            {
+              "label": "MANAGE COMPLEXITY WITH CONFIDENCE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Level 2",
+          "body": "International healthcare environments expect nurses caring for higher-acuity adults to use structured assessment, interpret clinical trends, apply evidence-based pathways and communicate urgent concerns with confidence.",
+          "bullets": [
+            {
+              "label": "This level bridges national preparation with",
+              "text": "This level bridges national preparation with international acute-care expectations — strengthening advanced clinical judgement across emergency, ward and high-dependency settings."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Assess & Escalate",
+              "text": ""
+            },
+            {
+              "label": "Apply internationally recognised frameworks for assessment and escalation",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Interpret Clinical Data",
+              "text": ""
+            },
+            {
+              "label": "ECGs, arterial blood gases and laboratory trends",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Safely",
+              "text": ""
+            },
+            {
+              "label": "Manage competing problems in unstable patients",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Coordinate Care",
+              "text": ""
+            },
+            {
+              "label": "Sepsis, shock and multiorgan dysfunction",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Competencies at a Glance",
+          "body": "Cardiovascular & Respiratory",
+          "bullets": [
+            {
+              "label": "Manage acute conditions with evidence-based nursing action",
+              "text": ""
+            },
+            {
+              "label": "High-Risk Medicines",
+              "text": ""
+            },
+            {
+              "label": "Use infusions and emergency medicines safely within scope",
+              "text": ""
+            },
+            {
+              "label": "Delegate & Collaborate",
+              "text": ""
+            },
+            {
+              "label": "Lead and coordinate in high-acuity multidisciplinary settings",
+              "text": ""
+            },
+            {
+              "label": "Culturally Safe Communication",
+              "text": ""
+            },
+            {
+              "label": "Support patients and families with clarity and compassion",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "The International Standard",
+          "bullets": [
+            {
+              "label": "International practice requires nurses to",
+              "text": "International practice requires nurses to explain the clinical significance of findings, anticipate likely complications and escalate with a clear recommendation."
+            },
+            {
+              "label": "Your Learning Goal",
+              "text": ""
+            },
+            {
+              "label": "By completing Level 2, you will provide",
+              "text": "By completing Level 2, you will provide evidence-informed nursing care for complex and unstable adults — meeting international expectations for communication, accountability and multidisciplinary practice."
+            },
+            {
+              "label": "Safe care combines protocols with professional judgement, not waiting for a single severe abnormality.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Interpreting Complex Clinical Data",
+          "bullets": [
+            {
+              "label": "Combining bedside assessment with diagnostic and monitoring data — interpreting results in context, not in isolation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Section 1: Core Concepts",
+          "body": "ECG & Rhythm",
+          "bullets": [
+            {
+              "label": "Recognise rate, rhythm regularity and major",
+              "text": "Recognise rate, rhythm regularity and major warning patterns. Clinical symptoms and haemodynamic effect determine urgency."
+            },
+            {
+              "label": "Arterial Blood Gases",
+              "text": ""
+            },
+            {
+              "label": "pH, CO₂, bicarbonate and oxygenation identify respiratory and metabolic disturbances. Trends matter as much as values.",
+              "text": ""
+            },
+            {
+              "label": "Laboratory Trends",
+              "text": ""
+            },
+            {
+              "label": "Electrolytes, renal/liver function, troponin, lactate and coagulation may indicate deterioration or treatment risk.",
+              "text": ""
+            },
+            {
+              "label": "Imaging & Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Chest imaging, CT, ultrasound and bedside monitoring support — but do not replace — direct clinical examination.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1: Clinical Application",
+          "body": "Clinical Example",
+          "bullets": [
+            {
+              "label": "An IQN caring for a breathless patient notes",
+              "text": "An IQN caring for a breathless patient notes worsening oxygenation, rising CO₂ and falling pH on serial blood gases. The nurse recognises respiratory decompensation, communicates the trend using ISBAR and prepares for higher-level respiratory support."
+            },
+            {
+              "label": "Interpret results in clinical context",
+              "text": ""
+            },
+            {
+              "label": "Compare with baseline and trend over time",
+              "text": ""
+            },
+            {
+              "label": "Escalate critical values promptly",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Managing High-Risk Therapies & Acute Interventions",
+          "bullets": [
+            {
+              "label": "Competence, independent checks, close monitoring and clear escalation define safe high-acuity practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 2: High-Risk Therapy Areas",
+          "body": "IV Infusions",
+          "bullets": [
+            {
+              "label": "Vasoactive, antiarrhythmic, insulin and",
+              "text": "Vasoactive, antiarrhythmic, insulin and electrolyte infusions require controlled administration, accurate programming and frequent assessment."
+            },
+            {
+              "label": "Anticoagulation & Bleeding Risk",
+              "text": ""
+            },
+            {
+              "label": "Monitor coagulation results, haemodynamic",
+              "text": "Monitor coagulation results, haemodynamic status and drug interactions. Unexpected bleeding or neurological change demands urgent action."
+            },
+            {
+              "label": "Oxygen & Ventilatory Support",
+              "text": ""
+            },
+            {
+              "label": "Different devices deliver different",
+              "text": "Different devices deliver different concentrations. Monitor oxygenation, comfort, skin integrity and signs of respiratory fatigue."
+            },
+            {
+              "label": "Emergency Medicines",
+              "text": ""
+            },
+            {
+              "label": "Confirm indication, dose, route and monitoring parameters. Be ready to respond rapidly to adverse effects.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Section 2: Clinical Example",
+          "body": "Scenario",
+          "bullets": [
+            {
+              "label": "A patient receiving an anticoagulant develops sudden severe headache and weakness.",
+              "text": ""
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Stop non-essential activity immediately",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Initiate neurological assessment",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Escalate urgently to medical team",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Prepare for emergency imaging and reversal",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Multidisciplinary Coordination, Delegation & Escalation",
+          "bullets": [
+            {
+              "label": "The registered nurse remains accountable for assessment, prioritisation, evaluation and appropriate delegation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3: Teamwork in High-Acuity Care",
+          "body": "Team Roles",
+          "bullets": [
+            {
+              "label": "Clear roles reduce duplication. Know who leads, what is done and what remains outstanding.",
+              "text": ""
+            },
+            {
+              "label": "Safe Delegation",
+              "text": ""
+            },
+            {
+              "label": "Delegate tasks only when appropriate to the",
+              "text": "Delegate tasks only when appropriate to the patient, activity and worker competence. Assessment remains your responsibility."
+            },
+            {
+              "label": "Closed-Loop Communication",
+              "text": ""
+            },
+            {
+              "label": "Critical messages must be repeated back and confirmed — essential during rapid response and verbal medication orders.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3: Escalation & Transfer of Care",
+          "body": "Monitor",
+          "bullets": [
+            {
+              "label": "ISBAR",
+              "text": ""
+            },
+            {
+              "label": "Prepare",
+              "text": ""
+            },
+            {
+              "label": "Stabilise",
+              "text": ""
+            },
+            {
+              "label": "Transfer to higher care is a high-risk moment.",
+              "text": "Transfer to higher care is a high-risk moment. Maintain continuous monitoring and clear communication until the receiving team formally accepts responsibility."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Family Communication & Person-Centred High-Acuity Care",
+          "bullets": [
+            {
+              "label": "Urgency does not remove dignity. Communication,",
+              "text": "Urgency does not remove dignity. Communication, cultural safety and family involvement remain essential even during crisis."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Section 4: Core Communication Principles",
+          "body": "Communication in Crisis",
+          "bullets": [
+            {
+              "label": "Use clear, honest language. Explain what is known, what is being done and when updates will be available.",
+              "text": ""
+            },
+            {
+              "label": "Family as a Resource",
+              "text": ""
+            },
+            {
+              "label": "Families recognise baseline changes. Their observations support assessment, especially when patients cannot communicate.",
+              "text": ""
+            },
+            {
+              "label": "Cultural & Spiritual Needs",
+              "text": ""
+            },
+            {
+              "label": "Cultural beliefs shape decision-making and",
+              "text": "Cultural beliefs shape decision-making and end-of-life care. Always use professional interpreters for critical discussions."
+            },
+            {
+              "label": "Shared Decision-Making",
+              "text": ""
+            },
+            {
+              "label": "Patients and substitute decision-makers deserve",
+              "text": "Patients and substitute decision-makers deserve to understand options, burdens and likely outcomes. Advocate for their values."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "example",
+          "title": "Section 4: Clinical Example",
+          "body": "Scenario — Severe Stroke",
+          "bullets": [
+            {
+              "label": "A patient with severe stroke cannot",
+              "text": "A patient with severe stroke cannot communicate. The nurse listens when the family explains his previous wishes, arranges a professional interpreter for complex discussion, and ensures all information is accurately communicated to the treating team."
+            },
+            {
+              "label": "Listen to families without making assumptions",
+              "text": ""
+            },
+            {
+              "label": "Use interpreters for all high-risk communication",
+              "text": ""
+            },
+            {
+              "label": "Advocate for the patient's known values and preferences",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "Program 5 · Level 2 Complete",
+          "body": "You have strengthened your ability to interpret complex data, manage high-risk therapies, coordinate multidisciplinary care and support patients and families through acute illness.",
+          "bullets": [
+            {
+              "label": "Section 1",
+              "text": ""
+            },
+            {
+              "label": "Complex Clinical Data",
+              "text": ""
+            },
+            {
+              "label": "Section 2",
+              "text": ""
+            },
+            {
+              "label": "High-Risk Therapies",
+              "text": ""
+            },
+            {
+              "label": "Section 3",
+              "text": ""
+            },
+            {
+              "label": "MDT Coordination",
+              "text": ""
+            },
+            {
+              "label": "Section 4",
+              "text": ""
+            },
+            {
+              "label": "Person-Centred Care",
+              "text": ""
+            },
+            {
+              "label": "You are now prepared for Level 3 — Leadership, Systems Design and Global Improvement in High-Acuity Adult Care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Interpreting Complex Clinical Data",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 5 - Level 2 - Section 1 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 5 · Advanced Adult Nursing Care — Adult Medical-Surgical Nursing II",
+          "bullets": [
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            },
+            {
+              "label": "\"Manage complexity with confidence.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Overview",
+          "body": "GNPS Programme 5 prepares internationally qualified nurses to interpret complex clinical data, integrate findings with bedside assessment, and act decisively in acute-care settings.",
+          "bullets": [
+            {
+              "label": "Section Focus",
+              "text": ""
+            },
+            {
+              "label": "Interpreting Complex Clinical Data",
+              "text": ""
+            },
+            {
+              "label": "Level",
+              "text": ""
+            },
+            {
+              "label": "Level 2 — International Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Core Approach",
+              "text": ""
+            },
+            {
+              "label": "Patient-centred, trend-based, contextual interpretation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1: Interpreting Complex Clinical Data",
+          "body": "Acute-care nurses are expected to combine bedside assessment with diagnostic and monitoring data. Results must always be interpreted in relation to the patient, the trend, and the treatment plan — never in isolation.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Interpret Diagnostic Trends",
+              "text": ""
+            },
+            {
+              "label": "ECG, ABG, and laboratory results read with clinical accuracy",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Link Findings to Pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Connect what the data shows to what is happening in the body",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Escalate Urgently",
+              "text": ""
+            },
+            {
+              "label": "Identify critical values and act within scope and timeframes",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Communicate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Explain clinical significance using structured tools like ISBAR",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts at a Glance",
+          "body": "Imaging & Bedside Data",
+          "bullets": [
+            {
+              "label": "Laboratory Trends",
+              "text": ""
+            },
+            {
+              "label": "Arterial Blood Gases",
+              "text": ""
+            },
+            {
+              "label": "ECG & Rhythm",
+              "text": ""
+            },
+            {
+              "label": "Each domain contributes a critical layer of",
+              "text": "Each domain contributes a critical layer of information. Skilled nurses integrate all four to build a complete clinical picture and detect deterioration early."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "ECG and Rhythm Interpretation",
+          "body": "Within your scope of practice, you should confidently recognise:",
+          "bullets": [
+            {
+              "label": "Rate and Rhythm Regularity",
+              "text": ""
+            },
+            {
+              "label": "Determine whether rate is normal, fast, or slow — and whether rhythm is regular or irregular.",
+              "text": ""
+            },
+            {
+              "label": "Major Warning Patterns",
+              "text": ""
+            },
+            {
+              "label": "Identify high-risk rhythms: VF, VT, complete heart block, ST elevation, and acute changes.",
+              "text": ""
+            },
+            {
+              "label": "Haemodynamic Effect",
+              "text": ""
+            },
+            {
+              "label": "Clinical symptoms and the patient's haemodynamic status determine the urgency of your response.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Arterial Blood Gases (ABG)",
+          "body": "ABG analysis helps identify respiratory and metabolic disturbances. Focus on four key parameters:",
+          "bullets": [
+            {
+              "label": "pH — acid-base balance",
+              "text": ""
+            },
+            {
+              "label": "PaCO₂ — respiratory component",
+              "text": ""
+            },
+            {
+              "label": "HCO₃⁻ — metabolic component",
+              "text": ""
+            },
+            {
+              "label": "PaO₂ / SpO₂ — oxygenation status",
+              "text": ""
+            },
+            {
+              "label": "Always assess ABG results alongside the",
+              "text": "Always assess ABG results alongside the patient's work of breathing and serial trends — a single result in isolation can be misleading."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Laboratory Trends: What to Watch",
+          "body": "Key laboratory panels signal deterioration or treatment risk. Monitor trends over time, not just single readings.",
+          "bullets": [
+            {
+              "label": "Electrolytes",
+              "text": ""
+            },
+            {
+              "label": "Sodium, potassium, magnesium — imbalances drive arrhythmias and neurological changes.",
+              "text": ""
+            },
+            {
+              "label": "Renal & Liver Function",
+              "text": ""
+            },
+            {
+              "label": "Creatinine, urea, bilirubin, ALT — early markers of organ stress.",
+              "text": ""
+            },
+            {
+              "label": "Full Blood Count & Coagulation",
+              "text": ""
+            },
+            {
+              "label": "Haemoglobin, WBC, platelets and INR guide transfusion and bleeding risk decisions.",
+              "text": ""
+            },
+            {
+              "label": "Troponin & Lactate",
+              "text": ""
+            },
+            {
+              "label": "Troponin confirms myocardial injury; lactate reflects tissue perfusion and sepsis severity.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Imaging and Bedside Monitoring",
+          "body": "Diagnostic imaging and bedside technology provide essential contextual data:",
+          "bullets": [
+            {
+              "label": "Chest X-ray — fluid, consolidation, pneumothorax, line placement",
+              "text": ""
+            },
+            {
+              "label": "CT findings — emboli, haemorrhage, abdominal pathology",
+              "text": ""
+            },
+            {
+              "label": "Ultrasound — cardiac function, fluid status, effusions",
+              "text": ""
+            },
+            {
+              "label": "Continuous monitoring — SpO₂, EtCO₂, invasive pressures",
+              "text": ""
+            },
+            {
+              "label": "Technology supports — but never replaces — direct clinical examination.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Integrating the Four Data Domains",
+          "body": "Skilled interpretation means drawing on all four domains simultaneously — no single result tells the whole story.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Recognising Respiratory Decompensation",
+          "body": "An IQN is caring for a breathless patient. Serial ABGs reveal:",
+          "bullets": [
+            {
+              "label": "Worsening Oxygenation",
+              "text": ""
+            },
+            {
+              "label": "PaO₂ falling despite increasing FiO₂",
+              "text": ""
+            },
+            {
+              "label": "Rising PaCO₂",
+              "text": ""
+            },
+            {
+              "label": "Indicates ventilatory failure and CO₂ retention",
+              "text": ""
+            },
+            {
+              "label": "Falling pH",
+              "text": ""
+            },
+            {
+              "label": "Respiratory acidosis — the body can no longer compensate",
+              "text": ""
+            },
+            {
+              "label": "The nurse recognises respiratory",
+              "text": "The nurse recognises respiratory decompensation, communicates the trend using ISBAR, and prepares for escalation to higher-level respiratory support."
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Applying ISBAR in Clinical Escalation",
+          "body": "Recommendation",
+          "bullets": [
+            {
+              "label": "Assessment",
+              "text": ""
+            },
+            {
+              "label": "Background",
+              "text": ""
+            },
+            {
+              "label": "Situation",
+              "text": ""
+            },
+            {
+              "label": "Identity",
+              "text": ""
+            },
+            {
+              "label": "ISBAR ensures that critical clinical",
+              "text": "ISBAR ensures that critical clinical information is communicated in a structured, concise, and safe manner — essential when escalating a deteriorating patient."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Interpreting Results in Clinical Context",
+          "body": "A result is only meaningful when placed in context. Always ask three questions:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "What is the baseline?",
+              "text": ""
+            },
+            {
+              "label": "Compare current values with the patient's prior results — a \"normal\" value may be abnormal for this individual.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "What is the trend?",
+              "text": ""
+            },
+            {
+              "label": "Is the value improving, deteriorating, or stable? Trajectory often matters more than a single data point.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "What does it mean for this patient right now?",
+              "text": ""
+            },
+            {
+              "label": "Integrate results with the clinical assessment and current treatment plan to determine the appropriate response.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Escalating Critical Values",
+          "body": "When critical values are identified, a structured response is essential:",
+          "bullets": [
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Identify that the value is outside safe limits or represents a significant change.",
+              "text": ""
+            },
+            {
+              "label": "Respond",
+              "text": ""
+            },
+            {
+              "label": "Initiate immediate bedside assessment and any urgent nursing interventions.",
+              "text": ""
+            },
+            {
+              "label": "Report",
+              "text": ""
+            },
+            {
+              "label": "Use ISBAR to communicate urgently with the medical or senior nursing team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Interpret in Context",
+          "bullets": [
+            {
+              "label": "Results mean nothing without the clinical picture.",
+              "text": ""
+            },
+            {
+              "label": "Track the Trend",
+              "text": ""
+            },
+            {
+              "label": "Compare against baseline and monitor trajectory.",
+              "text": ""
+            },
+            {
+              "label": "Escalate Promptly",
+              "text": ""
+            },
+            {
+              "label": "Critical values require immediate, structured communication.",
+              "text": ""
+            },
+            {
+              "label": "Communicate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Explain what the result means for the patient's immediate care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Managing High-Risk Therapies & Acute Interventions",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 5 - Level 2 - Section 2 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Advanced Adult Nursing Care",
+          "body": "Global Nursing Professional Series (GNPS) · Program 5 · Section 2",
+          "bullets": [
+            {
+              "label": "Managing High-Risk Therapies and Acute Interventions — Level 2: International Qualified Nurse (IQN)",
+              "text": ""
+            },
+            {
+              "label": "NCLEX PREPARATION",
+              "text": ""
+            },
+            {
+              "label": "ADULT MEDICAL-SURGICAL NURSING II",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section Overview",
+          "body": "Higher-acuity adults frequently require complex, high-risk interventions. Safe nursing practice depends on competence, independent checks, close monitoring, and clear escalation pathways.",
+          "bullets": [
+            {
+              "label": "IV Infusions",
+              "text": ""
+            },
+            {
+              "label": "Vasoactive, antiarrhythmic, insulin & electrolyte infusions",
+              "text": ""
+            },
+            {
+              "label": "Anticoagulation",
+              "text": ""
+            },
+            {
+              "label": "Bleeding risk, coagulation monitoring & drug interactions",
+              "text": ""
+            },
+            {
+              "label": "Oxygen Support",
+              "text": ""
+            },
+            {
+              "label": "Delivery devices, ventilation & oxygenation monitoring",
+              "text": ""
+            },
+            {
+              "label": "Emergency Medicines",
+              "text": ""
+            },
+            {
+              "label": "Rapid-acting drugs with serious adverse risk profiles",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be equipped to practise safely across high-acuity clinical settings.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Manage High-Risk Therapies",
+              "text": ""
+            },
+            {
+              "label": "Apply safe practice within your professional scope, including accurate programming and access assessment.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Adverse Effects",
+              "text": ""
+            },
+            {
+              "label": "Identify treatment complications early and link new symptoms to possible pharmacological causes.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Use Monitoring to Guide Action",
+              "text": ""
+            },
+            {
+              "label": "Interpret clinical data and laboratory results to inform timely nursing decisions.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Escalate Appropriately",
+              "text": ""
+            },
+            {
+              "label": "Seek supervision for unfamiliar therapies and escalate urgently when patient safety is at risk.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Intravenous Infusions",
+          "body": "Controlled IV administration is a cornerstone of high-acuity nursing. Errors can be life-threatening — precision is non-negotiable.",
+          "bullets": [
+            {
+              "label": "Drug Categories",
+              "text": ""
+            },
+            {
+              "label": "Vasoactive agents, antiarrhythmics, insulin",
+              "text": "Vasoactive agents, antiarrhythmics, insulin infusions, and electrolyte replacements all require careful titration and continuous monitoring."
+            },
+            {
+              "label": "Pump Programming",
+              "text": ""
+            },
+            {
+              "label": "Confirm rate, concentration, and dose with an independent check before initiating or adjusting any infusion.",
+              "text": ""
+            },
+            {
+              "label": "Access & Assessment",
+              "text": ""
+            },
+            {
+              "label": "Verify appropriate IV access, assess the insertion site regularly, and document patient response at defined intervals.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Anticoagulation & Bleeding Risk",
+          "body": "Anticoagulant therapy carries inherent bleeding risk requiring vigilant monitoring of coagulation results, haemodynamic status, and drug interactions.",
+          "bullets": [
+            {
+              "label": "Monitor INR, APTT, anti-Xa levels as indicated by protocol",
+              "text": ""
+            },
+            {
+              "label": "Assess for overt and covert signs of bleeding at every assessment",
+              "text": ""
+            },
+            {
+              "label": "Check for interactions with NSAIDs, antibiotics, and herbal agents",
+              "text": ""
+            },
+            {
+              "label": "Unexpected neurological change or sudden severe headache = immediate escalation",
+              "text": ""
+            },
+            {
+              "label": "Sudden neurological deterioration in an anticoagulated patient is a medical emergency. Act immediately.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Oxygen & Ventilatory Support",
+          "body": "Choosing the right oxygen delivery device — and monitoring its effect — is a critical nursing responsibility in the management of hypoxaemic patients.",
+          "bullets": [
+            {
+              "label": "Low-Flow Devices",
+              "text": ""
+            },
+            {
+              "label": "Nasal cannula (1–6 L/min) and simple face mask — suitable for mild hypoxia. FiO₂ varies with respiratory effort.",
+              "text": ""
+            },
+            {
+              "label": "High-Flow Devices",
+              "text": ""
+            },
+            {
+              "label": "Venturi mask delivers precise FiO₂. High-flow nasal cannula provides heated, humidified oxygen at up to 60 L/min.",
+              "text": ""
+            },
+            {
+              "label": "Non-Invasive Ventilation",
+              "text": ""
+            },
+            {
+              "label": "CPAP and BiPAP support patients with respiratory fatigue. Monitor comfort, mask seal, and skin integrity closely.",
+              "text": ""
+            },
+            {
+              "label": "Nursing Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Assess SpO₂, RR, work of breathing, ABG trends, and signs of fatigue or deterioration continuously.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Emergency Medicines",
+          "body": "Emergency medications act rapidly — and carry serious risks. Nurses must be prepared before administering, not after.",
+          "bullets": [
+            {
+              "label": "Confirm Indication",
+              "text": ""
+            },
+            {
+              "label": "Verify the clinical indication, patient allergies, and prescriber order before drawing up any emergency agent.",
+              "text": ""
+            },
+            {
+              "label": "Check Dose & Route",
+              "text": ""
+            },
+            {
+              "label": "Calculate weight-based doses carefully. Confirm the correct route — IV, IM, or oral — and concentration.",
+              "text": ""
+            },
+            {
+              "label": "Monitor & Respond",
+              "text": ""
+            },
+            {
+              "label": "Anticipate adverse effects. Ensure resuscitation equipment is immediately accessible before administration.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Anticoagulant Emergency",
+          "body": "\"A patient receiving anticoagulation develops a sudden severe headache and unilateral weakness.\"",
+          "bullets": [
+            {
+              "label": "Stop Activity",
+              "text": ""
+            },
+            {
+              "label": "Cease all non‑essential care immediately",
+              "text": ""
+            },
+            {
+              "label": "Neuro Assessment",
+              "text": ""
+            },
+            {
+              "label": "Perform rapid neurological exam and vitals",
+              "text": ""
+            },
+            {
+              "label": "Escalate Urgently",
+              "text": ""
+            },
+            {
+              "label": "Notify medical team and stroke/emergency response",
+              "text": ""
+            },
+            {
+              "label": "Prepare Imaging",
+              "text": ""
+            },
+            {
+              "label": "Arrange CT and reversal treatment readiness",
+              "text": ""
+            },
+            {
+              "label": "This scenario illustrates how rapidly new",
+              "text": "This scenario illustrates how rapidly new symptoms must be linked to active therapies. The nurse's speed and structured response can be the difference between recovery and permanent harm."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Key Monitoring Principles",
+          "body": "High-Risk = High Vigilance",
+          "bullets": [
+            {
+              "label": "The complexity of a therapy must be matched by the intensity and frequency of nursing assessment.",
+              "text": ""
+            },
+            {
+              "label": "Independent Checks",
+              "text": ""
+            },
+            {
+              "label": "Always use a second-nurse verification for high-risk medications, infusion pump programming, and dose calculations.",
+              "text": ""
+            },
+            {
+              "label": "Link Symptoms to Therapy",
+              "text": ""
+            },
+            {
+              "label": "New or changing symptoms should immediately prompt a review of all active medications and infusions.",
+              "text": ""
+            },
+            {
+              "label": "Know Your Limits",
+              "text": ""
+            },
+            {
+              "label": "Never operate unfamiliar equipment without orientation. Seek supervision — this is a sign of professional strength.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Manage Complexity with Confidence",
+          "body": "Section 2 equips you to care for high-acuity adults safely — from IV titration to emergency response.",
+          "bullets": [
+            {
+              "label": "📋 NCLEX Tip",
+              "text": ""
+            },
+            {
+              "label": "Questions will test your ability to prioritise, escalate, and apply the nursing process under high-stakes conditions.",
+              "text": ""
+            },
+            {
+              "label": "🎯 Next Steps",
+              "text": ""
+            },
+            {
+              "label": "Complete the section assessment, review medication protocols, and practise clinical scenarios with your study group.",
+              "text": ""
+            },
+            {
+              "label": "Competence in high-risk therapy management is a",
+              "text": "Competence in high-risk therapy management is a defining skill for internationally qualified nurses seeking registration and NCLEX success."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Multidisciplinary Coordination, Delegation & Escalation",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 5 - Level 2 - Section 3 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Multidisciplinary Coordination, Delegation and Escalation",
+          "body": "Global Nursing Professional Series (GNPS) · Program 5 · Section 3",
+          "bullets": [
+            {
+              "label": "Advanced Adult Nursing Care — Adult Medical-Surgical Nursing II",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section Overview",
+          "body": "Managing Complexity with Confidence",
+          "bullets": [
+            {
+              "label": "Complex adults require coordinated input from",
+              "text": "Complex adults require coordinated input from nursing, medicine, respiratory therapy, pharmacy, critical care and beyond. The registered nurse remains the anchor — responsible for assessment, prioritisation, evaluation and appropriate delegation throughout every episode of care."
+            },
+            {
+              "label": "🏥 Team Coordination",
+              "text": ""
+            },
+            {
+              "label": "Align roles across disciplines",
+              "text": ""
+            },
+            {
+              "label": "✅ Safe Delegation",
+              "text": ""
+            },
+            {
+              "label": "Assign tasks appropriately",
+              "text": ""
+            },
+            {
+              "label": "🔁 Closed-Loop Comms",
+              "text": ""
+            },
+            {
+              "label": "Confirm critical messages",
+              "text": ""
+            },
+            {
+              "label": "🚨 Escalation & Transfer",
+              "text": ""
+            },
+            {
+              "label": "Smooth, safe transitions",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "What You Will Be Able to Do",
+          "bullets": [
+            {
+              "label": "After completing this section, you should be able to:",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Collaborate Effectively",
+              "text": ""
+            },
+            {
+              "label": "Work confidently alongside medicine, pharmacy, respiratory and critical care during high-acuity events",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Delegate Safely",
+              "text": ""
+            },
+            {
+              "label": "Match tasks to patient need, activity type and the competence of the team member receiving the task",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Use Closed-Loop Communication",
+              "text": ""
+            },
+            {
+              "label": "Apply read-back techniques in emergencies, resuscitation and for verbal medication orders",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Coordinate Escalation & Transfer",
+              "text": ""
+            },
+            {
+              "label": "Prepare, handover and maintain care until responsibility is formally accepted at the receiving team",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Team Roles",
+          "body": "Clear, defined roles reduce duplication, prevent missed care and improve patient safety outcomes. As the registered nurse, you must know who is leading, what has been completed and what remains outstanding at all times during a clinical event.",
+          "bullets": [
+            {
+              "label": "Identify the Team Leader",
+              "text": ""
+            },
+            {
+              "label": "Confirm who holds clinical authority and overall coordination responsibility",
+              "text": ""
+            },
+            {
+              "label": "Track Task Completion",
+              "text": ""
+            },
+            {
+              "label": "Maintain situational awareness of actions assigned, in progress and completed",
+              "text": ""
+            },
+            {
+              "label": "Communicate Gaps",
+              "text": ""
+            },
+            {
+              "label": "Speak up when tasks are unclear, unassigned or delayed — silence is a patient safety risk",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Safe Delegation: Know the Boundaries",
+          "bullets": [
+            {
+              "label": "Delegation is permitted only when three",
+              "text": "Delegation is permitted only when three conditions are met — the right patient, the right activity and the right worker competence. When in doubt, retain the task."
+            },
+            {
+              "label": "✅ May Be Delegated",
+              "text": ""
+            },
+            {
+              "label": "Routine observations and vital sign recording",
+              "text": ""
+            },
+            {
+              "label": "Equipment collection and preparation",
+              "text": ""
+            },
+            {
+              "label": "Patient hygiene and positioning support",
+              "text": ""
+            },
+            {
+              "label": "🚫 Cannot Be Delegated",
+              "text": ""
+            },
+            {
+              "label": "Clinical assessment and judgement",
+              "text": ""
+            },
+            {
+              "label": "Patient teaching and health education",
+              "text": ""
+            },
+            {
+              "label": "Evaluation of outcomes and responses",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Closed-Loop Communication",
+          "bullets": [
+            {
+              "label": "In high-pressure situations, messages are",
+              "text": "In high-pressure situations, messages are easily misheard or misunderstood. Closed-loop communication ensures critical information is received, understood and acted upon correctly every time."
+            },
+            {
+              "label": "Sender Gives Instruction",
+              "text": ""
+            },
+            {
+              "label": "Receiver Reads Back",
+              "text": ""
+            },
+            {
+              "label": "Sender Confirms Accuracy",
+              "text": ""
+            },
+            {
+              "label": "Action Is Executed",
+              "text": ""
+            },
+            {
+              "label": "This technique is essential during rapid",
+              "text": "This technique is essential during rapid response events, resuscitation, and whenever verbal medication orders are given. A confirmed read-back dramatically reduces error under stress."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Escalation and Transfer of Care",
+          "bullets": [
+            {
+              "label": "Transferring a patient to a higher level of",
+              "text": "Transferring a patient to a higher level of care is a high-risk event. The nurse holds responsibility until care is formally accepted by the receiving team."
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Stabilise",
+              "text": ""
+            },
+            {
+              "label": "Address immediate life threats before initiating transfer",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Handover",
+              "text": ""
+            },
+            {
+              "label": "Provide a concise, structured SBAR or ISBAR handover",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Prepare",
+              "text": ""
+            },
+            {
+              "label": "Ensure equipment, documentation and medications are ready",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Continue observation and intervention until formal acceptance",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Application",
+          "body": "Rapid-Response Event: Nurse in Action",
+          "bullets": [
+            {
+              "label": "During a rapid-response event, the nurse",
+              "text": "During a rapid-response event, the nurse maintains clinical leadership while delegating time-sensitive but non-assessment tasks to competent team members."
+            },
+            {
+              "label": "Delegated to Team",
+              "text": ""
+            },
+            {
+              "label": "Vital sign recording",
+              "text": ""
+            },
+            {
+              "label": "Equipment collection",
+              "text": ""
+            },
+            {
+              "label": "Documentation support",
+              "text": ""
+            },
+            {
+              "label": "Retained by RN",
+              "text": ""
+            },
+            {
+              "label": "Clinical assessment",
+              "text": ""
+            },
+            {
+              "label": "Communication with team",
+              "text": ""
+            },
+            {
+              "label": "Evaluation of response",
+              "text": ""
+            },
+            {
+              "label": "All instructions were repeated back by team members — reducing the risk of error in a high-stress environment.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus",
+          "body": "Delegation: What the Exam Tests",
+          "bullets": [
+            {
+              "label": "NCLEX questions on delegation frequently test",
+              "text": "NCLEX questions on delegation frequently test your ability to apply the Five Rights of Delegation and identify tasks that must never be delegated to unlicensed assistive personnel (UAP)."
+            },
+            {
+              "label": "Right Task",
+              "text": ""
+            },
+            {
+              "label": "Is this task appropriate to delegate at all?",
+              "text": ""
+            },
+            {
+              "label": "Right Person",
+              "text": ""
+            },
+            {
+              "label": "Does this team member hold the required competence?",
+              "text": ""
+            },
+            {
+              "label": "Right Communication",
+              "text": ""
+            },
+            {
+              "label": "Were instructions clear, complete and understood?",
+              "text": ""
+            },
+            {
+              "label": "Right Supervision",
+              "text": ""
+            },
+            {
+              "label": "Is the RN monitoring and evaluating the outcome?",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Carry these four principles into every complex care situation:",
+          "bullets": [
+            {
+              "label": "Know and Communicate Team Responsibilities",
+              "text": ""
+            },
+            {
+              "label": "Clarity of role prevents duplication and missed care",
+              "text": ""
+            },
+            {
+              "label": "Delegate Tasks — Not Professional Accountability",
+              "text": ""
+            },
+            {
+              "label": "The RN retains responsibility for all assessment and evaluation",
+              "text": ""
+            },
+            {
+              "label": "Use Closed-Loop Communication for Critical Information",
+              "text": ""
+            },
+            {
+              "label": "Read-back confirms accuracy when it matters most",
+              "text": ""
+            },
+            {
+              "label": "Maintain Care Until Transfer is Formally Completed",
+              "text": ""
+            },
+            {
+              "label": "Never hand over until the receiving team has formally accepted",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 5 · SECTION 3 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Family Communication & Person-Centred High-Acuity Care",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 5 - Level 2 - Section 4 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II — Level 2: International Qualified Nurse (IQN)",
+              "text": ""
+            },
+            {
+              "label": "SECTION 4",
+              "text": ""
+            },
+            {
+              "label": "FAMILY COMMUNICATION & PERSON-CENTRED HIGH-ACUITY CARE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Manage Complexity with Confidence",
+          "body": "Serious illness is frightening for patients and families alike. Even in urgent, high-acuity settings, communication, dignity, and cultural safety remain non-negotiable pillars of excellent nursing care.",
+          "bullets": [
+            {
+              "label": "Person-Centred",
+              "text": ""
+            },
+            {
+              "label": "Every decision keeps the patient's values at the centre.",
+              "text": ""
+            },
+            {
+              "label": "Family-Inclusive",
+              "text": ""
+            },
+            {
+              "label": "Families hold vital knowledge that informs safe assessment.",
+              "text": ""
+            },
+            {
+              "label": "Culturally Safe",
+              "text": ""
+            },
+            {
+              "label": "Beliefs and preferences are respected throughout the care journey.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Communicate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Convey complex clinical information with clarity and compassion.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Involve Families",
+              "text": ""
+            },
+            {
+              "label": "Engage families appropriately in acute and high-acuity care settings.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Respect Culture & Consent",
+              "text": ""
+            },
+            {
+              "label": "Honour cultural identity, legal consent, and individual patient preferences.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Support Through Uncertainty",
+              "text": ""
+            },
+            {
+              "label": "Guide patients and families through difficult and unpredictable situations.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Communication During Crisis",
+          "body": "When urgency is high, clear and honest communication becomes even more critical — not less.",
+          "bullets": [
+            {
+              "label": "Use Plain Language",
+              "text": ""
+            },
+            {
+              "label": "Avoid unexplained clinical terminology. Speak",
+              "text": "Avoid unexplained clinical terminology. Speak in terms the patient and family can understand without compromising accuracy."
+            },
+            {
+              "label": "Be Transparent",
+              "text": ""
+            },
+            {
+              "label": "Explain what is known, what is actively being done, and when further information will be available.",
+              "text": ""
+            },
+            {
+              "label": "Maintain Dignity",
+              "text": ""
+            },
+            {
+              "label": "Urgency does not suspend a patient's right to respectful, dignified care and communication.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "The Value of Family Knowledge",
+          "body": "Families observe patients across time and contexts that clinical staff cannot. Their insight is a clinical asset, not a distraction.",
+          "bullets": [
+            {
+              "label": "Families can identify subtle changes from the patient's individual baseline",
+              "text": ""
+            },
+            {
+              "label": "Their accounts are especially critical when the patient cannot communicate",
+              "text": ""
+            },
+            {
+              "label": "Listen actively and without assumptions — family knowledge supports safer assessment",
+              "text": ""
+            },
+            {
+              "label": "Document and escalate relevant family observations to the treating team",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Cultural and Spiritual Needs in Acute Care",
+          "body": "Cultural Decision-Making",
+          "bullets": [
+            {
+              "label": "Cultural beliefs shape how patients and",
+              "text": "Cultural beliefs shape how patients and families approach treatment choices, touch, and family roles. Never assume — always ask respectfully."
+            },
+            {
+              "label": "Spiritual Preferences",
+              "text": ""
+            },
+            {
+              "label": "End-of-life rituals, dietary requirements, and",
+              "text": "End-of-life rituals, dietary requirements, and spiritual practices must be identified and honoured as part of holistic care."
+            },
+            {
+              "label": "Professional Interpreters",
+              "text": ""
+            },
+            {
+              "label": "Always use accredited professional interpreters",
+              "text": "Always use accredited professional interpreters for critical and high-risk clinical discussions — never rely on family members to interpret."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Shared Decision-Making",
+          "body": "Informed consent is not a single event — it is an ongoing collaborative process between clinicians, patients, and families.",
+          "bullets": [
+            {
+              "label": "Patients and substitute decision-makers must understand all available options",
+              "text": ""
+            },
+            {
+              "label": "Likely outcomes, benefits, and burdens should be explained clearly",
+              "text": ""
+            },
+            {
+              "label": "Nursing advocacy ensures the patient's values and preferences are heard and acted upon",
+              "text": ""
+            },
+            {
+              "label": "Document shared decisions and communicate them across the care team",
+              "text": ""
+            },
+            {
+              "label": "Advocacy is a core nursing responsibility — speak up for the patient's known wishes.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Stroke Patient",
+          "body": "A patient with a severe stroke is unable to communicate his wishes to the care team.",
+          "bullets": [
+            {
+              "label": "Family Listened",
+              "text": ""
+            },
+            {
+              "label": "The nurse actively listens as the family shares the patient's previously expressed values and treatment preferences.",
+              "text": ""
+            },
+            {
+              "label": "Interpreter Arranged",
+              "text": ""
+            },
+            {
+              "label": "A professional interpreter is arranged for complex discussions, ensuring nothing is lost or misunderstood.",
+              "text": ""
+            },
+            {
+              "label": "Team Informed",
+              "text": ""
+            },
+            {
+              "label": "The nurse ensures all gathered information is formally communicated and documented for the treating team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Urgency ≠ Loss of Dignity",
+              "text": ""
+            },
+            {
+              "label": "High-acuity situations never justify removing a patient's right to respectful, person-centred care.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Always Use Interpreters",
+              "text": ""
+            },
+            {
+              "label": "For any high-risk or critical communication, a professional interpreter is mandatory — not optional.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Listen Without Assumptions",
+              "text": ""
+            },
+            {
+              "label": "Families provide unique clinical insight. Approach every conversation with openness and curiosity.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Advocate for the Patient",
+              "text": ""
+            },
+            {
+              "label": "Represent and champion the patient's known values, preferences, and goals across the entire care team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Ready for Your NCLEX Journey?",
+          "body": "Section 4 equips International Qualified Nurses with the communication frameworks and clinical reasoning skills needed to excel in complex, person-centred care — and to succeed in NCLEX preparation.",
+          "bullets": [
+            {
+              "label": "🎯 NCLEX Relevance",
+              "text": ""
+            },
+            {
+              "label": "Communication, advocacy, and cultural competence are high-frequency NCLEX examination domains.",
+              "text": ""
+            },
+            {
+              "label": "📘 Continue Learning",
+              "text": ""
+            },
+            {
+              "label": "Proceed to Programme 5 further sections to build Advanced Adult Nursing competence.",
+              "text": ""
+            },
+            {
+              "label": "GNPS · PROGRAMME 5 · SECTION 4 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

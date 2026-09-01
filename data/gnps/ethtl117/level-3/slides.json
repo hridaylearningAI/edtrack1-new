@@ -1,0 +1,2117 @@
+{
+  "level": 3,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 3 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 3 - Level 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 3 · Safe Medication Practice",
+          "bullets": [
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 3 · GLOBAL NURSING PROFESSIONAL",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to Level 3",
+          "body": "Global Nursing Professionals do more than administer medicines correctly. At this highest level of the GNPS pathway, you will:",
+          "bullets": [
+            {
+              "label": "Lead medication-safety improvements",
+              "text": ""
+            },
+            {
+              "label": "Analyse patterns of error using systems thinking",
+              "text": ""
+            },
+            {
+              "label": "Mentor colleagues and strengthen governance",
+              "text": ""
+            },
+            {
+              "label": "Use technology and evidence to improve medication systems",
+              "text": ""
+            },
+            {
+              "label": "This level builds advanced capability in",
+              "text": "This level builds advanced capability in governance, human factors, digital safety, quality improvement and global collaboration."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "Nine core competencies define the Global Nursing Professional standard.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Lead a Culture of Safety",
+              "text": ""
+            },
+            {
+              "label": "Champion safe, accountable medication practice across your team.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Analyse Medication Incidents",
+              "text": ""
+            },
+            {
+              "label": "Apply systems and human-factors approaches beyond individual blame.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Design Improvement Initiatives",
+              "text": ""
+            },
+            {
+              "label": "Plan, implement and evaluate medication-safety improvements.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Use Data to Guide Practice",
+              "text": ""
+            },
+            {
+              "label": "Interpret clinical indicators and medication data for improvement.",
+              "text": ""
+            },
+            {
+              "label": "05",
+              "text": ""
+            },
+            {
+              "label": "Promote Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Advance antimicrobial and medication stewardship principles.",
+              "text": ""
+            },
+            {
+              "label": "06",
+              "text": ""
+            },
+            {
+              "label": "Evaluate Digital Technology",
+              "text": ""
+            },
+            {
+              "label": "Assess benefits and risks of digital medication systems and automation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "Medication harm rarely results from a single action. It emerges from a complex interaction of contributing factors:",
+          "bullets": [
+            {
+              "label": "🏷️ Packaging",
+              "text": ""
+            },
+            {
+              "label": "Confusing or look-alike labels increase selection error risk.",
+              "text": ""
+            },
+            {
+              "label": "⚡ Interruptions",
+              "text": ""
+            },
+            {
+              "label": "Workflow disruptions break concentration at critical moments.",
+              "text": ""
+            },
+            {
+              "label": "📋 Governance",
+              "text": ""
+            },
+            {
+              "label": "Weak policy and oversight allow systemic risks to persist.",
+              "text": ""
+            },
+            {
+              "label": "🔔 Alert Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Excessive digital warnings erode appropriate clinical vigilance.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "GNPS Learning Pathway",
+          "body": "Your Journey Through Three Levels",
+          "bullets": [
+            {
+              "label": "Level 1 · Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Build essential pharmacology knowledge and safe medication-administration skills.",
+              "text": ""
+            },
+            {
+              "label": "Level 2 · International Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Apply medication safety confidently within international systems and multidisciplinary practice.",
+              "text": ""
+            },
+            {
+              "label": "Level 3 · Global Nursing Professional",
+              "text": ""
+            },
+            {
+              "label": "Lead medication governance, innovation and system-wide improvement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Leading Medication Safety and Clinical Governance",
+          "bullets": [
+            {
+              "label": "Medication safety is an organisational",
+              "text": "Medication safety is an organisational responsibility supported by governance, leadership, policy, education and monitoring. Nurse leaders directly influence whether staff feel able to:"
+            },
+            {
+              "label": "Question unsafe orders without fear",
+              "text": ""
+            },
+            {
+              "label": "Report incidents and near misses openly",
+              "text": ""
+            },
+            {
+              "label": "Learn from mistakes in a blame-free environment",
+              "text": ""
+            },
+            {
+              "label": "Governance defines how medicines are selected,",
+              "text": "Governance defines how medicines are selected, stored, prescribed, prepared, administered, monitored and reviewed throughout their full lifecycle."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Core Governance Concepts",
+          "body": "Medication Governance",
+          "bullets": [
+            {
+              "label": "Committees, policies, audits, credentialing and",
+              "text": "Committees, policies, audits, credentialing and incident systems maintain organisational oversight across the full medicines management cycle."
+            },
+            {
+              "label": "Safety Culture",
+              "text": ""
+            },
+            {
+              "label": "A strong culture normalises clarifying unusual",
+              "text": "A strong culture normalises clarifying unusual doses, stopping when information is incomplete and reporting near misses without fear of blame."
+            },
+            {
+              "label": "Just Culture",
+              "text": ""
+            },
+            {
+              "label": "Distinguishes human error, at-risk shortcuts",
+              "text": "Distinguishes human error, at-risk shortcuts and reckless behaviour — supporting learning while maintaining fair and proportionate accountability."
+            },
+            {
+              "label": "Competence and Mentoring",
+              "text": ""
+            },
+            {
+              "label": "Medication competence requires education,",
+              "text": "Medication competence requires education, supervised practice, assessment and periodic review. Senior nurses coach others and provide constructive feedback."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example · Section 1",
+          "body": "Just Culture in Action",
+          "bullets": [
+            {
+              "label": "A new nurse reports selecting the wrong",
+              "text": "A new nurse reports selecting the wrong concentration of an infusion — before it reached the patient. The manager confirms safety, thanks the nurse for speaking up, then reviews storage, labelling, training and workload."
+            },
+            {
+              "label": "The response addresses both individual learning and system design — the hallmark of a just-culture approach.",
+              "text": ""
+            },
+            {
+              "label": "✅ Do",
+              "text": ""
+            },
+            {
+              "label": "Thank the reporter",
+              "text": ""
+            },
+            {
+              "label": "Review system factors",
+              "text": ""
+            },
+            {
+              "label": "Share learning widely",
+              "text": ""
+            },
+            {
+              "label": "❌ Avoid",
+              "text": ""
+            },
+            {
+              "label": "Blaming the individual alone",
+              "text": ""
+            },
+            {
+              "label": "Ignoring system causes",
+              "text": ""
+            },
+            {
+              "label": "Silencing future reports",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Human Factors and Systems Thinking",
+          "bullets": [
+            {
+              "label": "Many medication errors occur within complex",
+              "text": "Many medication errors occur within complex systems involving people, packaging, technology, workflow and communication. Systems thinking looks beyond the final action and identifies the conditions that made error possible — shifting focus from \"who made the mistake\" to \"why was the mistake possible.\""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Hierarchy of Controls",
+          "body": "Why Stronger Controls Matter",
+          "bullets": [
+            {
+              "label": "Education and reminders are useful but may be weak when used alone. Preferred controls include:",
+              "text": ""
+            },
+            {
+              "label": "Removing or substituting hazardous products",
+              "text": ""
+            },
+            {
+              "label": "Standardising concentrations organisation-wide",
+              "text": ""
+            },
+            {
+              "label": "Separating storage of look-alike medicines",
+              "text": ""
+            },
+            {
+              "label": "Implementing forcing functions and barcode verification",
+              "text": ""
+            },
+            {
+              "label": "Redesigning technology to reduce confusion",
+              "text": ""
+            },
+            {
+              "label": "Evaluate whether changes actually reduce error — not just whether they were implemented.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example · Section 2",
+          "body": "Tackling Look-Alike Injectable Medicines",
+          "bullets": [
+            {
+              "label": "Two injectable medicines with similar packaging",
+              "text": "Two injectable medicines with similar packaging were repeatedly confused on a ward. A systems review revealed multiple contributing conditions:"
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Problem Identified",
+              "text": ""
+            },
+            {
+              "label": "Similar packaging, adjacent storage and electronic display showing both products together.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Systems Review",
+              "text": ""
+            },
+            {
+              "label": "Frontline staff involved in reviewing the full medication pathway — not just the final action.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Controls Implemented",
+              "text": ""
+            },
+            {
+              "label": "Separated storage, barcode verification introduced, electronic display redesigned.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Outcome Evaluated",
+              "text": ""
+            },
+            {
+              "label": "Error rates monitored post-implementation to confirm the changes worked in practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Quality Improvement, Pharmacovigilance and Stewardship",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals use data to",
+              "text": "Global Nursing Professionals use data to understand medication harm and test improvements systematically. They also contribute to:"
+            },
+            {
+              "label": "Pharmacovigilance",
+              "text": ""
+            },
+            {
+              "label": "Identifying, documenting and reporting adverse drug reactions to support population-level safety signals.",
+              "text": ""
+            },
+            {
+              "label": "Medication Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Promoting the right medicine, dose, route and duration — including antimicrobial and opioid stewardship.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Quality-Improvement Measurement Framework",
+          "body": "📊 Outcome Measures",
+          "bullets": [
+            {
+              "label": "Track medication-harm rates, adverse event frequency and patient outcomes to confirm real-world impact.",
+              "text": ""
+            },
+            {
+              "label": "⚙️ Process Measures",
+              "text": ""
+            },
+            {
+              "label": "Monitor reconciliation completion rates, independent-check compliance and protocol adherence.",
+              "text": ""
+            },
+            {
+              "label": "⚖️ Balancing Measures",
+              "text": ""
+            },
+            {
+              "label": "Identify unintended consequences — such as treatment delays — caused by safety changes.",
+              "text": ""
+            },
+            {
+              "label": "Define Problem",
+              "text": ""
+            },
+            {
+              "label": "Examine Practice",
+              "text": ""
+            },
+            {
+              "label": "Test Change",
+              "text": ""
+            },
+            {
+              "label": "Study Results",
+              "text": ""
+            },
+            {
+              "label": "Small tests allow teams to adapt and refine interventions before broader implementation across the organisation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Digital Medication Safety and Global Collaboration",
+          "bullets": [
+            {
+              "label": "Electronic prescribing, barcode administration,",
+              "text": "Electronic prescribing, barcode administration, smart pumps and clinical decision support can significantly improve medication safety — but they also introduce new risks that Global Nursing Professionals must recognise and manage."
+            },
+            {
+              "label": "✅ Benefits",
+              "text": ""
+            },
+            {
+              "label": "Improved legibility, allergy checking, patient identification and infusion-programming accuracy.",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Risks",
+              "text": ""
+            },
+            {
+              "label": "Wrong-patient selection, copied orders, alert fatigue, outdated weight data and unsafe workarounds.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Your Programme 3 Achievement",
+          "body": "You are now prepared to:",
+          "bullets": [
+            {
+              "label": "Lead governance",
+              "text": ""
+            },
+            {
+              "label": "Drive medication-safety culture, policy and accountability at organisational level.",
+              "text": ""
+            },
+            {
+              "label": "Analyse systems",
+              "text": ""
+            },
+            {
+              "label": "Apply human-factors and systems thinking to prevent and learn from medication incidents.",
+              "text": ""
+            },
+            {
+              "label": "Improve and innovate",
+              "text": ""
+            },
+            {
+              "label": "Use data, quality-improvement methods, stewardship and digital tools to drive measurable change.",
+              "text": ""
+            },
+            {
+              "label": "Mentor and collaborate",
+              "text": ""
+            },
+            {
+              "label": "Strengthen your team's competence and contribute to global medication-safety learning.",
+              "text": ""
+            },
+            {
+              "label": "\"The right medication. The right patient. Every",
+              "text": "\"The right medication. The right patient. Every time.\" — achieved through knowledgeable nurses and well-designed systems working together."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-16"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Leading Medication Safety and Clinical Governance",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 3 - Level 3 - Section 1 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 3 · Safe Medication Practice",
+          "bullets": [
+            {
+              "label": "LEVEL 3 · GLOBAL NURSING PROFESSIONAL",
+              "text": ""
+            },
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Program Overview",
+          "body": "Section 1: Leading Medication Safety and Clinical Governance",
+          "bullets": [
+            {
+              "label": "Medication safety is an organisational",
+              "text": "Medication safety is an organisational responsibility built on governance, leadership, policy, education, and monitoring. Nurse leaders shape whether staff feel empowered to question unsafe orders, report incidents, and learn from every mistake."
+            },
+            {
+              "label": "Governance",
+              "text": ""
+            },
+            {
+              "label": "Clear policies, oversight and accountability",
+              "text": ""
+            },
+            {
+              "label": "Safety Culture",
+              "text": ""
+            },
+            {
+              "label": "Open reporting and continuous improvement",
+              "text": ""
+            },
+            {
+              "label": "Just Culture",
+              "text": ""
+            },
+            {
+              "label": "Fair accountability and learning from errors",
+              "text": ""
+            },
+            {
+              "label": "Competence",
+              "text": ""
+            },
+            {
+              "label": "Training, assessment and clinical skill",
+              "text": ""
+            },
+            {
+              "label": "This section equips nurse leaders with the",
+              "text": "This section equips nurse leaders with the frameworks and practical tools to champion safe medication practice at every level of care."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Explain Clinical Governance",
+              "text": ""
+            },
+            {
+              "label": "Describe the role of governance structures in ensuring medication safety across the organisation.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Promote Safety Culture",
+              "text": ""
+            },
+            {
+              "label": "Foster an environment where questioning, reporting, and learning are the norm — not the exception.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Apply Just Culture",
+              "text": ""
+            },
+            {
+              "label": "Distinguish between human error, at-risk behaviour, and recklessness — and respond appropriately to each.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Support Competence",
+              "text": ""
+            },
+            {
+              "label": "Use coaching, supervised practice, and periodic assessment to build and sustain medication safety skills.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Medication Governance",
+          "body": "Governance defines how medicines are selected, stored, prescribed, prepared, administered, monitored, and reviewed across every care setting.",
+          "bullets": [
+            {
+              "label": "Committees",
+              "text": ""
+            },
+            {
+              "label": "Multidisciplinary groups set policy and oversee safety standards.",
+              "text": ""
+            },
+            {
+              "label": "Audits",
+              "text": ""
+            },
+            {
+              "label": "Regular review of practice against evidence-based benchmarks.",
+              "text": ""
+            },
+            {
+              "label": "Credentialing",
+              "text": ""
+            },
+            {
+              "label": "Formal recognition of staff competence to administer specific medications.",
+              "text": ""
+            },
+            {
+              "label": "Incident Systems",
+              "text": ""
+            },
+            {
+              "label": "Structured reporting pathways that capture near misses and errors for learning.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Building a Strong Safety Culture",
+          "body": "A strong safety culture makes it normal and expected to:",
+          "bullets": [
+            {
+              "label": "Clarify Unusual Doses",
+              "text": ""
+            },
+            {
+              "label": "Pause and verify before administering anything that seems outside the expected range.",
+              "text": ""
+            },
+            {
+              "label": "Stop When Uncertain",
+              "text": ""
+            },
+            {
+              "label": "Halt the process when information is incomplete — patient safety always comes first.",
+              "text": ""
+            },
+            {
+              "label": "Report Near Misses",
+              "text": ""
+            },
+            {
+              "label": "Encourage open reporting without fear of blame — near misses are invaluable learning opportunities.",
+              "text": ""
+            },
+            {
+              "label": "Leaders model these behaviours and ensure that workload or hierarchy never silences a legitimate concern.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Understanding Just Culture",
+          "body": "A just culture does not treat all errors the same. It distinguishes between three distinct categories of behaviour — and tailors the response accordingly.",
+          "bullets": [
+            {
+              "label": "The goal is to support learning while",
+              "text": "The goal is to support learning while maintaining fair accountability. Punishing all errors equally destroys the reporting culture that keeps patients safe."
+            },
+            {
+              "label": "Human Error → System redesign and support",
+              "text": ""
+            },
+            {
+              "label": "At-Risk Shortcuts → Coaching and awareness",
+              "text": ""
+            },
+            {
+              "label": "Reckless Behaviour → Formal accountability",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Competence, Mentoring & Accountability",
+          "body": "Medication competence is not a one-time achievement — it requires education, supervised practice, formal assessment, and periodic review.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Education",
+              "text": ""
+            },
+            {
+              "label": "Pharmacology knowledge, local policy, and evidence-based guidelines.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Supervised Practice",
+              "text": ""
+            },
+            {
+              "label": "Hands-on administration under the guidance of an experienced practitioner.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Formal Assessment",
+              "text": ""
+            },
+            {
+              "label": "Competency sign-off against defined clinical standards.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Periodic Review",
+              "text": ""
+            },
+            {
+              "label": "Regular reassessment to maintain currency and address evolving risks.",
+              "text": ""
+            },
+            {
+              "label": "Experienced nurses strengthen the whole team by",
+              "text": "Experienced nurses strengthen the whole team by coaching peers and providing constructive, specific, and timely feedback."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Learning from a Near Miss",
+          "bullets": [
+            {
+              "label": "Confirm Safety",
+              "text": ""
+            },
+            {
+              "label": "Ensure patient is safe and stable",
+              "text": ""
+            },
+            {
+              "label": "Review Systems",
+              "text": ""
+            },
+            {
+              "label": "Identify system factors and fixes",
+              "text": ""
+            },
+            {
+              "label": "Thank & Debrief",
+              "text": ""
+            },
+            {
+              "label": "Express gratitude and review events",
+              "text": ""
+            },
+            {
+              "label": "A new nurse realises she has selected the wrong",
+              "text": "A new nurse realises she has selected the wrong concentration of an infusion — before it reaches the patient. She reports it immediately."
+            },
+            {
+              "label": "The manager's response models best practice:",
+              "text": ""
+            },
+            {
+              "label": "Confirms the patient is safe",
+              "text": ""
+            },
+            {
+              "label": "Thanks the nurse for speaking up",
+              "text": ""
+            },
+            {
+              "label": "Reviews storage, labelling, training, and workload",
+              "text": ""
+            },
+            {
+              "label": "The outcome addresses both individual learning and system design — the hallmark of a mature safety culture.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Visible Governance",
+          "bullets": [
+            {
+              "label": "Medication safety demands clear, active governance structures — not policies that exist only on paper.",
+              "text": ""
+            },
+            {
+              "label": "Psychological Safety",
+              "text": ""
+            },
+            {
+              "label": "Make questioning and reporting genuinely safe. Staff must never fear reprisal for raising concerns.",
+              "text": ""
+            },
+            {
+              "label": "Fair & Proportionate Response",
+              "text": ""
+            },
+            {
+              "label": "Apply just-culture principles consistently — differentiate error types and respond with fairness.",
+              "text": ""
+            },
+            {
+              "label": "Coaching & Competency",
+              "text": ""
+            },
+            {
+              "label": "Use mentoring and structured assessment to continuously strengthen medication safety practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "GNPS Program 3 · Section 1",
+          "body": "Safe Medication Practice Starts With Leadership",
+          "bullets": [
+            {
+              "label": "The right culture, the right governance, and",
+              "text": "The right culture, the right governance, and the right response to errors — these are the foundations every safe medication system is built upon."
+            },
+            {
+              "label": "🏛️ Governance",
+              "text": ""
+            },
+            {
+              "label": "Oversight, policy, and audit systems",
+              "text": ""
+            },
+            {
+              "label": "🤝 Culture",
+              "text": ""
+            },
+            {
+              "label": "Speak up, report freely, learn openly",
+              "text": ""
+            },
+            {
+              "label": "⚖️ Accountability",
+              "text": ""
+            },
+            {
+              "label": "Fair, proportionate, and learning-focused",
+              "text": ""
+            },
+            {
+              "label": "🎓 Competence",
+              "text": ""
+            },
+            {
+              "label": "Ongoing education, mentoring, and review",
+              "text": ""
+            },
+            {
+              "label": "NCLEX PREPARATION · MEDICATION SAFETY · CLINICAL GOVERNANCE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Human Factors and Systems Thinking in Medication Error Prevention",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 3 - Level 3 - Section 2 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Pharmacology and Medication Safety — Section 2: Human Factors and Systems Thinking in Medication Error Prevention",
+          "bullets": [
+            {
+              "label": "GNPS PROGRAM 3 · LEVEL 3",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "\"The right medication. The right patient. Every time.\"",
+          "body": "Most medication errors do not occur because a single person made a mistake. They occur because complex systems — involving people, packaging, technology, workflow and communication — created conditions where error became possible.",
+          "bullets": [
+            {
+              "label": "Systems thinking moves us beyond blame and towards safer design.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Analyse Incidents",
+              "text": ""
+            },
+            {
+              "label": "Look beyond individual blame to understand what the system allowed to happen",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Identify Risk Factors",
+              "text": ""
+            },
+            {
+              "label": "Recognise human and system factors that contribute to medication error",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Apply Controls",
+              "text": ""
+            },
+            {
+              "label": "Select and apply stronger, more reliable risk reduction strategies",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Drive Improvement",
+              "text": ""
+            },
+            {
+              "label": "Recommend practical, measurable changes and evaluate their effectiveness",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Human Factors: Why Perfect Attention Is Not Enough",
+          "body": "The Reality of Human Cognition",
+          "bullets": [
+            {
+              "label": "Attention, memory and perception are naturally",
+              "text": "Attention, memory and perception are naturally limited — especially under fatigue, interruption and time pressure. These are not character flaws. They are universal human traits."
+            },
+            {
+              "label": "Safe systems are designed for real humans, not ideal ones. Reducing reliance on perfect concentration is the goal.",
+              "text": ""
+            },
+            {
+              "label": "⚡ Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Slows processing and increases slip likelihood",
+              "text": ""
+            },
+            {
+              "label": "🔔 Interruption",
+              "text": ""
+            },
+            {
+              "label": "Breaks concentration during critical steps",
+              "text": ""
+            },
+            {
+              "label": "⏱ Time Pressure",
+              "text": ""
+            },
+            {
+              "label": "Encourages shortcuts that bypass safety checks",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Common System Risks in Medication Practice",
+          "body": "Look-Alike / Sound-Alike Names",
+          "bullets": [
+            {
+              "label": "Drug names that appear or sound similar cause mix-ups at prescribing, dispensing and administration",
+              "text": ""
+            },
+            {
+              "label": "Similar Packaging",
+              "text": ""
+            },
+            {
+              "label": "Identical label colours or shapes between different products increase confusion, especially under pressure",
+              "text": ""
+            },
+            {
+              "label": "Poor Storage Practices",
+              "text": ""
+            },
+            {
+              "label": "Adjacent storage of high-alert medicines or look-alike products without clear separation elevates risk",
+              "text": ""
+            },
+            {
+              "label": "Unclear Technology",
+              "text": ""
+            },
+            {
+              "label": "Electronic systems that display similar products together or use inconsistent naming create decision errors",
+              "text": ""
+            },
+            {
+              "label": "Incomplete Handover",
+              "text": ""
+            },
+            {
+              "label": "Gaps in verbal or written communication during transitions leave critical medication details unshared",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Hierarchy of Controls",
+          "body": "Stronger Controls, Fewer Errors",
+          "bullets": [
+            {
+              "label": "Education alone is valuable but unreliable as a sole defence. Durable safety requires system-level changes:",
+              "text": ""
+            },
+            {
+              "label": "Remove or substitute hazardous products",
+              "text": ""
+            },
+            {
+              "label": "Standardise drug concentrations across wards",
+              "text": ""
+            },
+            {
+              "label": "Physically separate look-alike items in storage",
+              "text": ""
+            },
+            {
+              "label": "Introduce forcing functions — systems that make errors difficult or impossible",
+              "text": ""
+            },
+            {
+              "label": "Redesign electronic interfaces to reduce confusion",
+              "text": ""
+            },
+            {
+              "label": "Warnings remind. Strong controls prevent.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Conducting Meaningful Learning Reviews",
+          "body": "Involve Frontline",
+          "bullets": [
+            {
+              "label": "Engage staff who worked the case.",
+              "text": ""
+            },
+            {
+              "label": "Map Medication Process",
+              "text": ""
+            },
+            {
+              "label": "Review the entire medication journey.",
+              "text": ""
+            },
+            {
+              "label": "Assign Recommendations",
+              "text": ""
+            },
+            {
+              "label": "Give actions to specific people.",
+              "text": ""
+            },
+            {
+              "label": "Evaluate Impact",
+              "text": ""
+            },
+            {
+              "label": "Assess outcomes after changes.",
+              "text": ""
+            },
+            {
+              "label": "Effective reviews are not disciplinary",
+              "text": "Effective reviews are not disciplinary exercises — they are structured system investigations. When frontline staff are involved, recommendations are more practical and implementation is more successful. Every change must be followed up and measured."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Turning a Near-Miss Into System Change",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "Two injectable medicines with similar packaging",
+              "text": "Two injectable medicines with similar packaging were repeatedly confused on the ward. Staff reported the issue but incidents continued."
+            },
+            {
+              "label": "What the Review Found",
+              "text": ""
+            },
+            {
+              "label": "Products stored adjacent to one another",
+              "text": ""
+            },
+            {
+              "label": "Labels looked nearly identical",
+              "text": ""
+            },
+            {
+              "label": "Electronic search returned both products together",
+              "text": ""
+            },
+            {
+              "label": "What Changed",
+              "text": ""
+            },
+            {
+              "label": "Storage Separated",
+              "text": ""
+            },
+            {
+              "label": "Products physically moved to different locations with clear labelling",
+              "text": ""
+            },
+            {
+              "label": "Barcode Verification",
+              "text": ""
+            },
+            {
+              "label": "Scanning introduced at point of administration to confirm correct product",
+              "text": ""
+            },
+            {
+              "label": "Display Redesigned",
+              "text": ""
+            },
+            {
+              "label": "Electronic system updated to clearly distinguish the two products",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Look beyond the final person involved",
+          "bullets": [
+            {
+              "label": "Errors have multiple contributing factors across the entire medication system — not just at the point of administration",
+              "text": ""
+            },
+            {
+              "label": "Design for normal human limitations",
+              "text": ""
+            },
+            {
+              "label": "Systems must accommodate fatigue, distraction and time pressure — because these conditions are inevitable",
+              "text": ""
+            },
+            {
+              "label": "Prefer stronger controls over warnings alone",
+              "text": ""
+            },
+            {
+              "label": "Forcing functions, standardisation and physical redesign are far more reliable than reminders and education in isolation",
+              "text": ""
+            },
+            {
+              "label": "Evaluate whether changes actually reduce error",
+              "text": ""
+            },
+            {
+              "label": "Every improvement must be monitored — measure outcomes, not just intentions",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 2 Complete",
+          "body": "Global Nursing Professional Series — Program 3",
+          "bullets": [
+            {
+              "label": "Safe Medication Practice: Pharmacology and Medication Safety",
+              "text": ""
+            },
+            {
+              "label": "🎯 Next Steps",
+              "text": ""
+            },
+            {
+              "label": "Reflect on your own clinical environment — where do system risks exist?",
+              "text": ""
+            },
+            {
+              "label": "📋 NCLEX Link",
+              "text": ""
+            },
+            {
+              "label": "Systems thinking and medication safety are core competencies tested in the NCLEX-RN examination",
+              "text": ""
+            },
+            {
+              "label": "📖 Continue Learning",
+              "text": ""
+            },
+            {
+              "label": "Proceed to the next section of GNPS Program 3 to build on these foundations",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Quality Improvement, Pharmacovigilance and Medication Stewardship",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 3 - Level 3 - Section 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Global Nursing Professional Series (GNPS) — Program 3, Section 3",
+          "bullets": [
+            {
+              "label": "Quality Improvement, Pharmacovigilance and Medication Stewardship",
+              "text": ""
+            },
+            {
+              "label": "GNPS LEVEL 3",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3 Overview",
+          "body": "What This Section Covers",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Use Data",
+              "text": ""
+            },
+            {
+              "label": "Define medication improvement priorities using real clinical data",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply QI Methods",
+              "text": ""
+            },
+            {
+              "label": "Use structured quality-improvement cycles to test and implement change",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Support Surveillance",
+              "text": ""
+            },
+            {
+              "label": "Identify and report adverse drug reactions through pharmacovigilance systems",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Promote Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Champion responsible, evidence-informed use of medicines",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Quality Improvement Cycles",
+          "body": "Teams define a specific problem, examine current practice, test a focused change, and study the results. Small-scale tests allow adaptation before broader implementation — reducing risk and building confidence in each improvement step.",
+          "bullets": [
+            {
+              "label": "Define",
+              "text": ""
+            },
+            {
+              "label": "Identify and describe the specific problem",
+              "text": ""
+            },
+            {
+              "label": "Examine",
+              "text": ""
+            },
+            {
+              "label": "Review current practice and contributing factors",
+              "text": ""
+            },
+            {
+              "label": "Test",
+              "text": ""
+            },
+            {
+              "label": "Implement a focused, small-scale change",
+              "text": ""
+            },
+            {
+              "label": "Study",
+              "text": ""
+            },
+            {
+              "label": "Analyse results and refine before scaling",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Measurement in Quality Improvement",
+          "body": "Effective QI relies on tracking the right types of measures across three dimensions. Each provides a different lens on whether change is truly improving care.",
+          "bullets": [
+            {
+              "label": "Outcome Measures",
+              "text": ""
+            },
+            {
+              "label": "Track the impact on patients — e.g. medication harm rates, hypoglycaemia incidents, adverse event frequency",
+              "text": ""
+            },
+            {
+              "label": "Process Measures",
+              "text": ""
+            },
+            {
+              "label": "Monitor whether care is delivered correctly — e.g. reconciliation completion rates, independent-check compliance",
+              "text": ""
+            },
+            {
+              "label": "Balancing Measures",
+              "text": ""
+            },
+            {
+              "label": "Detect unintended consequences — e.g. treatment delays caused by new safety protocols",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Pharmacovigilance",
+          "body": "Recognise. Document. Report.",
+          "bullets": [
+            {
+              "label": "Adverse drug reactions must be identified",
+              "text": "Adverse drug reactions must be identified promptly, documented accurately, and reported through the relevant national or institutional surveillance systems."
+            },
+            {
+              "label": "Aggregated reports from across healthcare",
+              "text": "Aggregated reports from across healthcare settings help regulators and clinicians identify rare, delayed, or emerging medicine risks — protecting future patients."
+            },
+            {
+              "label": "Every report matters. A single nurse's observation can trigger a national safety alert.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Medication Stewardship",
+          "body": "Stewardship ensures patients receive the right medicine, at the right dose, by the right route, for the right duration — and no longer than necessary.",
+          "bullets": [
+            {
+              "label": "Antimicrobial Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Monitor antibiotic use, question unnecessary continuation, and support de-escalation to reduce resistance",
+              "text": ""
+            },
+            {
+              "label": "Opioid Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Assess pain response regularly, flag prolonged prescribing, and educate patients on risks and alternatives",
+              "text": ""
+            },
+            {
+              "label": "Deprescribing",
+              "text": ""
+            },
+            {
+              "label": "Identify medicines that are no longer indicated, harmful, or duplicated, and support safe discontinuation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "The Nurse's Role in Stewardship",
+          "body": "Three Core Responsibilities",
+          "bullets": [
+            {
+              "label": "Monitor Response",
+              "text": ""
+            },
+            {
+              "label": "Observe and record patient response to medications, including therapeutic effect and side effects",
+              "text": ""
+            },
+            {
+              "label": "Question Continuation",
+              "text": ""
+            },
+            {
+              "label": "Raise concerns when a medicine appears unnecessary, duplicated, or causing harm",
+              "text": ""
+            },
+            {
+              "label": "Educate Patients",
+              "text": ""
+            },
+            {
+              "label": "Ensure patients understand their medicines, including when and why to stop a course",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Reducing Insulin-Related Hypoglycaemia",
+          "bullets": [
+            {
+              "label": "The Problem",
+              "text": ""
+            },
+            {
+              "label": "A hospital identifies a pattern of frequent",
+              "text": "A hospital identifies a pattern of frequent hypoglycaemia among patients receiving insulin. The improvement team investigates timing, meal delivery, prescribing, and glucose monitoring protocols."
+            },
+            {
+              "label": "The Intervention",
+              "text": ""
+            },
+            {
+              "label": "A revised protocol links insulin administration",
+              "text": "A revised protocol links insulin administration directly to food availability. A clear escalation pathway is established for at-risk patients."
+            },
+            {
+              "label": "The Outcome",
+              "text": ""
+            },
+            {
+              "label": "Hypoglycaemia rates fall — without delaying necessary insulin treatment.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Applying This to NCLEX Preparation",
+          "body": "These concepts are regularly tested in NCLEX-RN and NCLEX-PN examinations. Understanding the nurse's QI and stewardship role is essential for internationally qualified nurses seeking registration.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "QI Questions",
+              "text": ""
+            },
+            {
+              "label": "Expect scenarios asking you to identify correct outcome, process, or balancing measures in a clinical setting",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Pharmacovigilance Questions",
+              "text": ""
+            },
+            {
+              "label": "Know how to recognise and respond to an adverse drug reaction — including documentation and reporting steps",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Stewardship Questions",
+              "text": ""
+            },
+            {
+              "label": "Be ready to apply the five rights of medication and identify when to escalate, question, or educate",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Use data to define the problem",
+          "bullets": [
+            {
+              "label": "Evidence-based prioritisation is the foundation of effective quality improvement",
+              "text": ""
+            },
+            {
+              "label": "Measure processes, outcomes and unintended effects",
+              "text": ""
+            },
+            {
+              "label": "All three measurement types are needed for a complete picture of improvement",
+              "text": ""
+            },
+            {
+              "label": "Report suspected adverse reactions",
+              "text": ""
+            },
+            {
+              "label": "Timely, accurate reporting protects current and future patients",
+              "text": ""
+            },
+            {
+              "label": "Promote the right medicine for the right duration",
+              "text": ""
+            },
+            {
+              "label": "Stewardship is every nurse's responsibility — not just the prescriber's",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Digital Medication Safety, Innovation and Global Collaboration",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 3 - Level 3 - Section 4 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Digital Medication Safety, Innovation & Global Collaboration",
+          "body": "GNPS Program 3 · Level 3 — Global Nursing Professional Series",
+          "bullets": [
+            {
+              "label": "SECTION 4",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Why Digital Systems Matter",
+          "body": "Technology has transformed how medicines are prescribed, verified, and administered. When used critically and correctly, digital tools reduce harm and save lives. But they also introduce new risks that every Global Nursing Professional must recognise and manage.",
+          "bullets": [
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Evaluate",
+              "text": ""
+            },
+            {
+              "label": "Benefits and risks of digital medication systems",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Automation bias and alert fatigue in clinical settings",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Support",
+              "text": ""
+            },
+            {
+              "label": "Safe implementation of medication technology",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Contribute",
+              "text": ""
+            },
+            {
+              "label": "To global medication-safety learning and collaboration",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Core Digital Medication Systems",
+          "body": "Electronic Prescribing",
+          "bullets": [
+            {
+              "label": "Improves legibility and automates allergy checking, reducing transcription errors at the point of order entry.",
+              "text": ""
+            },
+            {
+              "label": "Barcode Administration",
+              "text": ""
+            },
+            {
+              "label": "Strengthens patient and product identification by confirming the right drug reaches the right patient.",
+              "text": ""
+            },
+            {
+              "label": "Smart Infusion Pumps",
+              "text": ""
+            },
+            {
+              "label": "Reduce infusion-programming errors with dose-error reduction software and customisable drug libraries.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Technology-Related Risks",
+          "body": "Hidden Dangers in Digital Systems",
+          "bullets": [
+            {
+              "label": "Wrong-patient selection — dropdown errors in busy environments",
+              "text": ""
+            },
+            {
+              "label": "Copied orders — outdated weight or doses carried forward silently",
+              "text": ""
+            },
+            {
+              "label": "Alert fatigue — excessive warnings lead to dangerous overrides",
+              "text": ""
+            },
+            {
+              "label": "Workarounds — staff bypass safeguards, creating new harm pathways",
+              "text": ""
+            },
+            {
+              "label": "Nurses remain responsible for verifying critical information — technology does not transfer accountability.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Automation Bias & Alert Fatigue",
+          "body": "Automation Bias",
+          "bullets": [
+            {
+              "label": "Over-reliance on system decisions, even when clinical judgement signals otherwise. The machine is not always right.",
+              "text": ""
+            },
+            {
+              "label": "Alert Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Hundreds of low-value alerts desensitise clinicians, making it easy to dismiss a genuinely critical warning.",
+              "text": ""
+            },
+            {
+              "label": "Your Role",
+              "text": ""
+            },
+            {
+              "label": "Question, verify, and escalate. Critical thinking remains the most important clinical tool you possess.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Safe Implementation: What It Takes",
+          "body": "Downtime Planning",
+          "bullets": [
+            {
+              "label": "Go-Live",
+              "text": ""
+            },
+            {
+              "label": "Training & Simulation",
+              "text": ""
+            },
+            {
+              "label": "Staff Involvement",
+              "text": ""
+            },
+            {
+              "label": "Workflow Analysis",
+              "text": ""
+            },
+            {
+              "label": "Successful technology rollouts place clinical",
+              "text": "Successful technology rollouts place clinical workflow first. Nurses on the frontline must be involved from design through to continuous improvement — not consulted as an afterthought."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Spotlight: Smart Pump Safety",
+          "body": "Real-World Case",
+          "bullets": [
+            {
+              "label": "A hospital introduced smart infusion pumps.",
+              "text": "A hospital introduced smart infusion pumps. Early audits revealed frequent alert overrides — default limits did not match local protocols."
+            },
+            {
+              "label": "The Response",
+              "text": ""
+            },
+            {
+              "label": "Nurse leaders collaborated with pharmacy and technical staff",
+              "text": ""
+            },
+            {
+              "label": "Drug library revised to reflect local clinical protocols",
+              "text": ""
+            },
+            {
+              "label": "Staff retrained through targeted simulation",
+              "text": ""
+            },
+            {
+              "label": "Override rates monitored as ongoing safety indicators",
+              "text": ""
+            },
+            {
+              "label": "Outcome: Technology became safer because frontline nurses drove the improvement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Global Collaboration in Medication Safety",
+          "body": "Shared Risks Across Borders",
+          "bullets": [
+            {
+              "label": "Medication risks travel through shared supply",
+              "text": "Medication risks travel through shared supply chains, products, and digital platforms — safety is a global responsibility."
+            },
+            {
+              "label": "Report and Share Hazards",
+              "text": ""
+            },
+            {
+              "label": "Contributing to national and international reporting systems helps identify patterns invisible at a local level.",
+              "text": ""
+            },
+            {
+              "label": "Adapt, Don't Just Adopt",
+              "text": ""
+            },
+            {
+              "label": "International learning must be contextualised to local resources, culture, and practice — one size never fits all.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways & Program Summary",
+          "body": "What You Now Carry Forward",
+          "bullets": [
+            {
+              "label": "Completing GNPS Program 3 prepares you to lead",
+              "text": "Completing GNPS Program 3 prepares you to lead governance, analyse systems, evaluate technology, and mentor others. You are a Global Nursing Professional."
+            },
+            {
+              "label": "Technology supports but never replaces clinical judgement",
+              "text": ""
+            },
+            {
+              "label": "Treat excessive overrides and workarounds as safety signals",
+              "text": ""
+            },
+            {
+              "label": "Include frontline nurses in system design and evaluation",
+              "text": ""
+            },
+            {
+              "label": "Share learning — and adapt solutions to local needs",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    }
+  ]
+}

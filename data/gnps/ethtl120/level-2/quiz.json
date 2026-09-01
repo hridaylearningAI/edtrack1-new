@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A woman at 35 weeks presents with severe epigastric pain, visual disturbance and a markedly elevated blood pressure. Fetal movement is present but reduced. Which nursing response is the highest priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Initiate urgent escalation for severe preeclampsia, prepare prescribed treatment and closely monitor maternal and fetal status."
+        },
+        {
+          "id": "B",
+          "text": "Reassure her that upper abdominal discomfort is common late in pregnancy."
+        },
+        {
+          "id": "C",
+          "text": "Advise rest in a dark room and repeat the blood pressure in two hours."
+        },
+        {
+          "id": "D",
+          "text": "Arrange routine antenatal follow-up within the week."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The combination of severe hypertension, visual disturbance and upper abdominal pain suggests severe preeclampsia with risk of seizure, stroke and organ dysfunction. Immediate structured escalation and close maternal-fetal monitoring are required."
+    },
+    {
+      "id": "q2",
+      "stem": "A woman at 32 weeks has painless bright-red vaginal bleeding. Her observations are stable and fetal heart activity is present. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform a digital vaginal examination to assess cervical dilatation."
+        },
+        {
+          "id": "B",
+          "text": "Treat the episode as possible placenta previa, avoid unsafe vaginal examination until placental location is known and arrange urgent obstetric review."
+        },
+        {
+          "id": "C",
+          "text": "Encourage ambulation to determine whether bleeding increases."
+        },
+        {
+          "id": "D",
+          "text": "Discharge her if the bleeding slows."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Painless bleeding may indicate placenta previa. Vaginal examination can worsen haemorrhage and should be avoided until placental location is confirmed."
+    },
+    {
+      "id": "q3",
+      "stem": "A pregnant woman at 30 weeks reports painful vaginal bleeding and a tender, rigid uterus. Which complication should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Placenta previa."
+        },
+        {
+          "id": "B",
+          "text": "Normal Braxton Hicks contractions."
+        },
+        {
+          "id": "C",
+          "text": "Placental abruption."
+        },
+        {
+          "id": "D",
+          "text": "Urinary tract infection."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Painful bleeding with uterine tenderness is characteristic of placental abruption and requires urgent assessment."
+    },
+    {
+      "id": "q4",
+      "stem": "A woman with gestational diabetes has several elevated blood glucose readings despite following her meal plan. What is the best nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell her that mild hyperglycaemia is expected in pregnancy."
+        },
+        {
+          "id": "B",
+          "text": "Advise her to stop all carbohydrates."
+        },
+        {
+          "id": "C",
+          "text": "Delay review until labour begins."
+        },
+        {
+          "id": "D",
+          "text": "Review glucose trends, medication or insulin plan, nutrition and fetal surveillance needs with the multidisciplinary team."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent hyperglycaemia requires coordinated review because it can affect maternal and fetal outcomes."
+    },
+    {
+      "id": "q5",
+      "stem": "A woman at 31 weeks reports regular painful contractions and pelvic pressure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess for preterm labour, including contractions, cervical change, fluid loss and fetal wellbeing, and escalate promptly."
+        },
+        {
+          "id": "B",
+          "text": "Advise rest at home and reassess the following day."
+        },
+        {
+          "id": "C",
+          "text": "Explain that contractions before term are always Braxton Hicks."
+        },
+        {
+          "id": "D",
+          "text": "Encourage walking to see whether contractions become stronger."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Regular contractions and pelvic pressure before term may indicate preterm labour and need prompt evaluation."
+    },
+    {
+      "id": "q6",
+      "stem": "A high-risk pregnant woman has a rising blood pressure trend but no headache or visual symptoms. How should the nurse respond?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the trend because severe symptoms are absent."
+        },
+        {
+          "id": "B",
+          "text": "Recognise that worsening trends may precede symptoms, repeat assessment, review urine and laboratory findings and escalate as indicated."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the next scheduled visit."
+        },
+        {
+          "id": "D",
+          "text": "Ask the woman to self-monitor only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Hypertensive disorders may progress before severe symptoms appear. Trends and associated findings must be assessed."
+    },
+    {
+      "id": "q7",
+      "stem": "Which finding in a woman with preeclampsia most strongly suggests worsening disease?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild ankle swelling after standing."
+        },
+        {
+          "id": "B",
+          "text": "Occasional heartburn."
+        },
+        {
+          "id": "C",
+          "text": "New right upper abdominal pain and abnormal liver tests."
+        },
+        {
+          "id": "D",
+          "text": "Urinary frequency."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Upper abdominal pain and abnormal liver results may indicate severe organ involvement."
+    },
+    {
+      "id": "q8",
+      "stem": "A woman with suspected placenta previa asks why the nurse will not perform a vaginal examination. What is the best explanation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The examination is unnecessary in all pregnant women."
+        },
+        {
+          "id": "B",
+          "text": "The examination is only performed after birth."
+        },
+        {
+          "id": "C",
+          "text": "The examination would not provide useful information."
+        },
+        {
+          "id": "D",
+          "text": "If the placenta is covering the cervix, examination could provoke severe bleeding, so placental location must be confirmed first."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The explanation supports informed care and reflects the risk of haemorrhage."
+    },
+    {
+      "id": "q9",
+      "stem": "A woman at 34 weeks says her baby's movements have reduced over the past day. Which action is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform prompt fetal assessment and escalate reduced movement according to local policy."
+        },
+        {
+          "id": "B",
+          "text": "Reassure her because fetal movement normally decreases near term."
+        },
+        {
+          "id": "C",
+          "text": "Advise her to wait until the next morning."
+        },
+        {
+          "id": "D",
+          "text": "Recommend increased physical activity."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reduced fetal movement may indicate fetal compromise and requires timely assessment."
+    },
+    {
+      "id": "q10",
+      "stem": "Which information is most important in an ISBAR escalation for a woman with severe preeclampsia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Current blood pressure, symptoms, relevant laboratory findings, fetal status and the urgent action required."
+        },
+        {
+          "id": "C",
+          "text": "The woman's full social history."
+        },
+        {
+          "id": "D",
+          "text": "A general statement that she looks unwell."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Structured escalation should communicate the clinical situation, evidence of severity and a clear recommendation."
+    },
+    {
+      "id": "q11",
+      "stem": "A woman with gestational diabetes becomes sweaty, shaky and confused after insulin. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage exercise."
+        },
+        {
+          "id": "B",
+          "text": "Give the next insulin dose."
+        },
+        {
+          "id": "C",
+          "text": "Check blood glucose immediately and treat suspected hypoglycaemia according to protocol."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the symptoms to settle."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The symptoms suggest hypoglycaemia, which requires immediate assessment and treatment."
+    },
+    {
+      "id": "q12",
+      "stem": "A woman at 29 weeks reports leaking fluid but no contractions. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume urinary leakage."
+        },
+        {
+          "id": "B",
+          "text": "Advise her to use a pad and wait two days."
+        },
+        {
+          "id": "C",
+          "text": "Recommend pelvic floor exercises only."
+        },
+        {
+          "id": "D",
+          "text": "Arrange prompt assessment for possible preterm rupture of membranes and evaluate maternal and fetal wellbeing."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Leaking fluid before term may indicate membrane rupture and carries infection and preterm-birth risks."
+    },
+    {
+      "id": "q13",
+      "stem": "Which assessment best reflects integrated care in a high-risk pregnancy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maternal observations, symptoms, laboratory trends, fetal growth, fetal movement and fetal heart assessment."
+        },
+        {
+          "id": "B",
+          "text": "Maternal blood pressure alone."
+        },
+        {
+          "id": "C",
+          "text": "Fetal heart rate alone."
+        },
+        {
+          "id": "D",
+          "text": "Ultrasound results only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "High-risk assessment must integrate maternal and fetal information."
+    },
+    {
+      "id": "q14",
+      "stem": "A woman with hypertension in pregnancy asks why laboratory tests are repeated. Which explanation is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are repeated only to confirm the diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "They help identify organ involvement and worsening disease before symptoms become severe."
+        },
+        {
+          "id": "C",
+          "text": "They replace blood pressure monitoring."
+        },
+        {
+          "id": "D",
+          "text": "They are routine and have no clinical significance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Laboratory trends may show renal, hepatic, haematological or other organ dysfunction."
+    },
+    {
+      "id": "q15",
+      "stem": "A woman with a high-risk pregnancy declines a recommended test because of fear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed without further discussion."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to overrule her."
+        },
+        {
+          "id": "C",
+          "text": "Explore her concerns, explain benefits, risks and alternatives, support informed choice and communicate the decision to the team."
+        },
+        {
+          "id": "D",
+          "text": "Document refusal and end the conversation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Shared decision-making requires respectful explanation and exploration of concerns."
+    },
+    {
+      "id": "q16",
+      "stem": "A woman with suspected placental abruption is becoming pale and tachycardic, but visible bleeding is limited. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The blood loss is minor because little is visible."
+        },
+        {
+          "id": "B",
+          "text": "The tachycardia is due to anxiety only."
+        },
+        {
+          "id": "C",
+          "text": "The condition is stable if fetal movement is present."
+        },
+        {
+          "id": "D",
+          "text": "Concealed haemorrhage may be occurring and urgent escalation is required."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Placental abruption may involve concealed bleeding and significant maternal compromise."
+    },
+    {
+      "id": "q17",
+      "stem": "Which nursing action best supports a woman with gestational diabetes before discharge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use teach-back to confirm glucose monitoring, medication use, warning signs and follow-up plans."
+        },
+        {
+          "id": "B",
+          "text": "Provide a generic diet leaflet only."
+        },
+        {
+          "id": "C",
+          "text": "Ask her family to manage the condition."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing possible complications."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Teach-back confirms practical understanding and supports safe self-management."
+    },
+    {
+      "id": "q18",
+      "stem": "A woman at 33 weeks has fever, uterine tenderness and reduced fetal movement. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide routine advice and reassess later."
+        },
+        {
+          "id": "B",
+          "text": "Assess for infection and fetal compromise and arrange urgent review."
+        },
+        {
+          "id": "C",
+          "text": "Encourage oral fluids only."
+        },
+        {
+          "id": "D",
+          "text": "Assume normal pregnancy discomfort."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Infection with fetal change is potentially serious and requires urgent assessment."
+    },
+    {
+      "id": "q19",
+      "stem": "Why should mother and fetus be monitored together in high-risk pregnancy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fetal assessment is unnecessary if the mother feels well."
+        },
+        {
+          "id": "B",
+          "text": "Maternal observations are enough to predict fetal status."
+        },
+        {
+          "id": "C",
+          "text": "Maternal and fetal conditions can affect each other and deterioration may occur in either."
+        },
+        {
+          "id": "D",
+          "text": "The two assessments are unrelated."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "High-risk maternity care requires simultaneous consideration of maternal and fetal wellbeing."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates safe high-risk pregnancy care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All appointments are completed."
+        },
+        {
+          "id": "B",
+          "text": "The woman receives written information only."
+        },
+        {
+          "id": "C",
+          "text": "Care is based on one isolated observation."
+        },
+        {
+          "id": "D",
+          "text": "Abnormal trends are identified early, communicated clearly and managed through coordinated maternal-fetal assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe care depends on early recognition, structured escalation, monitoring and shared decision-making. Section 2 - Responding to Obstetric Emergencies"
+    },
+    {
+      "id": "q21",
+      "stem": "Immediately after rupture of membranes, the fetal heart rate falls sharply and the umbilical cord is visible at the vaginal opening. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Call for emergency assistance, relieve pressure on the cord according to protocol, position the woman and prepare for urgent birth."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the obstetrician before touching the woman."
+        },
+        {
+          "id": "C",
+          "text": "Encourage the woman to push."
+        },
+        {
+          "id": "D",
+          "text": "Cover the cord and continue routine monitoring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cord prolapse threatens fetal oxygenation and requires immediate pressure relief and urgent birth preparation."
+    },
+    {
+      "id": "q22",
+      "stem": "A woman develops heavy bleeding shortly after birth, a boggy uterus, tachycardia and falling blood pressure. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observe for 15 minutes to confirm the trend."
+        },
+        {
+          "id": "B",
+          "text": "Activate the postpartum haemorrhage response, assess and massage the uterus where appropriate, support prescribed medication and fluids and prepare for blood products."
+        },
+        {
+          "id": "C",
+          "text": "Encourage oral fluids."
+        },
+        {
+          "id": "D",
+          "text": "Transfer her to the postnatal ward for monitoring."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "This is a time-critical postpartum haemorrhage requiring coordinated emergency management."
+    },
+    {
+      "id": "q23",
+      "stem": "During birth, the baby's head delivers but the shoulders do not. What should the nurse recognise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal slow progress."
+        },
+        {
+          "id": "B",
+          "text": "Placenta previa."
+        },
+        {
+          "id": "C",
+          "text": "Shoulder dystocia requiring immediate team activation and established manoeuvres."
+        },
+        {
+          "id": "D",
+          "text": "Cord prolapse."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Shoulder dystocia is an obstetric emergency requiring prompt coordinated response."
+    },
+    {
+      "id": "q24",
+      "stem": "A labouring woman with a previous uterine scar develops sudden severe abdominal pain, fetal bradycardia and loss of fetal station. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal transition."
+        },
+        {
+          "id": "B",
+          "text": "Postpartum haemorrhage."
+        },
+        {
+          "id": "C",
+          "text": "Gestational diabetes."
+        },
+        {
+          "id": "D",
+          "text": "Uterine rupture."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These findings are classic warning signs of uterine rupture and require immediate surgical response."
+    },
+    {
+      "id": "q25",
+      "stem": "A woman suddenly becomes hypoxic, hypotensive and collapses during labour. What is the nursing priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin resuscitation, activate emergency obstetric and critical-care support and coordinate rapidly."
+        },
+        {
+          "id": "B",
+          "text": "Complete a detailed history."
+        },
+        {
+          "id": "C",
+          "text": "Wait for diagnostic confirmation."
+        },
+        {
+          "id": "D",
+          "text": "Move the woman to a quiet room."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Sudden collapse may indicate amniotic fluid embolism or another catastrophic event and requires immediate resuscitation."
+    },
+    {
+      "id": "q26",
+      "stem": "Why is role clarity important during an obstetric emergency?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows one person to perform all tasks."
+        },
+        {
+          "id": "B",
+          "text": "It reduces duplication, delay and omitted actions during a rapidly changing event."
+        },
+        {
+          "id": "C",
+          "text": "It removes the need for communication."
+        },
+        {
+          "id": "D",
+          "text": "It is needed only after the emergency."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clear roles support coordinated and timely care."
+    },
+    {
+      "id": "q27",
+      "stem": "Which communication method is most appropriate during emergency medication administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unconfirmed verbal instructions."
+        },
+        {
+          "id": "B",
+          "text": "Non-verbal gestures only."
+        },
+        {
+          "id": "C",
+          "text": "Closed-loop communication with read-back and confirmation."
+        },
+        {
+          "id": "D",
+          "text": "Documentation after the event without verbal communication."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Closed-loop communication reduces error under pressure."
+    },
+    {
+      "id": "q28",
+      "stem": "A woman with postpartum haemorrhage remains hypotensive after initial treatment. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the treatment will work later."
+        },
+        {
+          "id": "B",
+          "text": "Stop monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Encourage ambulation."
+        },
+        {
+          "id": "D",
+          "text": "Continue urgent reassessment and escalate for ongoing haemorrhage and advanced management."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent hypotension suggests ongoing blood loss or inadequate response."
+    },
+    {
+      "id": "q29",
+      "stem": "During cord prolapse management, what is the main physiological goal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduce pressure on the cord to protect fetal oxygenation until birth."
+        },
+        {
+          "id": "B",
+          "text": "Increase uterine contractions."
+        },
+        {
+          "id": "C",
+          "text": "Delay birth."
+        },
+        {
+          "id": "D",
+          "text": "Promote maternal ambulation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Compression of the cord compromises fetal blood flow and oxygenation."
+    },
+    {
+      "id": "q30",
+      "stem": "A woman experiencing an emergency birth becomes visibly frightened. What should the nurse do while emergency care continues?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoid communication to prevent distraction."
+        },
+        {
+          "id": "B",
+          "text": "Use brief, clear explanations, reassurance and involve her chosen support person where possible."
+        },
+        {
+          "id": "C",
+          "text": "Promise that everything will be fine."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to explain the situation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Urgency does not remove the need for respectful, compassionate communication."
+    },
+    {
+      "id": "q31",
+      "stem": "Which finding is most concerning after treatment begins for postpartum haemorrhage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bleeding slows and blood pressure improves."
+        },
+        {
+          "id": "B",
+          "text": "The uterus becomes firm."
+        },
+        {
+          "id": "C",
+          "text": "The woman becomes more confused and urine output falls."
+        },
+        {
+          "id": "D",
+          "text": "The pulse rate decreases."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Confusion and oliguria suggest worsening hypoperfusion."
+    },
+    {
+      "id": "q32",
+      "stem": "A woman with suspected uterine rupture is being prepared for emergency surgery. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete routine discharge documentation."
+        },
+        {
+          "id": "B",
+          "text": "Delay transfer until all notes are finalised."
+        },
+        {
+          "id": "C",
+          "text": "Encourage oral intake."
+        },
+        {
+          "id": "D",
+          "text": "Continue maternal and fetal monitoring, support resuscitation and provide concise handover."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Transfer should occur with ongoing stabilisation, monitoring and clear communication."
+    },
+    {
+      "id": "q33",
+      "stem": "A shoulder dystocia emergency has resolved. What should happen after birth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess mother and newborn for complications, document events and participate in debriefing."
+        },
+        {
+          "id": "B",
+          "text": "No further action is required."
+        },
+        {
+          "id": "C",
+          "text": "Discuss the event only if injury occurred."
+        },
+        {
+          "id": "D",
+          "text": "Avoid family communication."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Post-event assessment and learning are important because maternal and neonatal complications may follow."
+    },
+    {
+      "id": "q34",
+      "stem": "Which action should be avoided in cord prolapse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calling for emergency assistance."
+        },
+        {
+          "id": "B",
+          "text": "Allowing pressure to remain on the cord while waiting passively."
+        },
+        {
+          "id": "C",
+          "text": "Positioning the woman to reduce compression."
+        },
+        {
+          "id": "D",
+          "text": "Preparing for urgent birth."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Passive delay risks prolonged fetal hypoxia."
+    },
+    {
+      "id": "q35",
+      "stem": "A woman with massive postpartum haemorrhage requires blood products. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delay until haemoglobin results are repeated."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to consent for each unit if the woman is conscious."
+        },
+        {
+          "id": "C",
+          "text": "Prepare and administer according to emergency protocol with required checks and ongoing monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Stop all other monitoring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Blood-product support is time-critical and requires safe verification and monitoring."
+    },
+    {
+      "id": "q36",
+      "stem": "What is the best reason to use established emergency protocols?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They remove the need for judgement."
+        },
+        {
+          "id": "B",
+          "text": "They apply only to junior staff."
+        },
+        {
+          "id": "C",
+          "text": "They prevent all adverse outcomes."
+        },
+        {
+          "id": "D",
+          "text": "They provide a reliable sequence of critical actions during high-stress events."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Protocols support timely coordinated response while clinical judgement remains essential."
+    },
+    {
+      "id": "q37",
+      "stem": "A patient collapses and the cause is uncertain. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respond to airway, breathing and circulation threats immediately while activating the emergency team."
+        },
+        {
+          "id": "B",
+          "text": "Wait for a diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Complete documentation first."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family for a full history before intervening."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Resuscitation priorities should not wait for diagnostic certainty."
+    },
+    {
+      "id": "q38",
+      "stem": "Which handover is best during transfer after an obstetric emergency?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A task list only."
+        },
+        {
+          "id": "B",
+          "text": "A concise summary of the event, maternal and fetal or newborn status, interventions, response, risks and outstanding actions."
+        },
+        {
+          "id": "C",
+          "text": "The woman's full antenatal history only."
+        },
+        {
+          "id": "D",
+          "text": "A verbal statement that she is unstable."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Risk-focused handover supports continuity and safe transfer."
+    },
+    {
+      "id": "q39",
+      "stem": "Why is emotional support still important during an obstetric emergency?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It delays treatment."
+        },
+        {
+          "id": "B",
+          "text": "It is only needed after recovery."
+        },
+        {
+          "id": "C",
+          "text": "It supports dignity, trust and participation during a frightening event."
+        },
+        {
+          "id": "D",
+          "text": "It replaces clinical intervention."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Compassionate communication remains part of safe care."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates effective emergency maternity nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The event is managed by one person."
+        },
+        {
+          "id": "B",
+          "text": "Documentation is completed before treatment."
+        },
+        {
+          "id": "C",
+          "text": "The family is excluded."
+        },
+        {
+          "id": "D",
+          "text": "Help is activated early, protocols are followed, maternal-fetal oxygenation is protected and communication remains clear."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective emergency response combines rapid action, teamwork, monitoring and communication. Section 3 - Caring for High-Risk Newborns"
+    },
+    {
+      "id": "q41",
+      "stem": "A premature newborn develops grunting, chest retractions and falling oxygen saturation. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintain warmth, support airway and breathing, apply prescribed respiratory support and urgently involve the neonatal team."
+        },
+        {
+          "id": "B",
+          "text": "Wait to see whether the baby settles."
+        },
+        {
+          "id": "C",
+          "text": "Feed the baby immediately."
+        },
+        {
+          "id": "D",
+          "text": "Move the baby away from monitors to reduce stimulation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These are signs of respiratory distress and require immediate assessment and neonatal support."
+    },
+    {
+      "id": "q42",
+      "stem": "Why are premature newborns especially vulnerable to hypothermia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They generate more heat than term newborns."
+        },
+        {
+          "id": "B",
+          "text": "They have limited fat stores and lose heat quickly."
+        },
+        {
+          "id": "C",
+          "text": "They regulate temperature independently."
+        },
+        {
+          "id": "D",
+          "text": "Hypothermia is uncommon in prematurity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Premature infants have limited thermoregulatory capacity."
+    },
+    {
+      "id": "q43",
+      "stem": "A growth-restricted newborn is jittery and feeding poorly. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal adaptation only."
+        },
+        {
+          "id": "B",
+          "text": "Excessive feeding."
+        },
+        {
+          "id": "C",
+          "text": "Possible hypoglycaemia requiring prompt glucose assessment."
+        },
+        {
+          "id": "D",
+          "text": "Post-term maturity."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Growth-restricted newborns are at risk of unstable blood glucose."
+    },
+    {
+      "id": "q44",
+      "stem": "A newborn has central cyanosis and episodes of apnoea. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine skin-to-skin care only."
+        },
+        {
+          "id": "B",
+          "text": "Delay assessment until the next feed."
+        },
+        {
+          "id": "C",
+          "text": "Provide oral glucose first."
+        },
+        {
+          "id": "D",
+          "text": "Urgent airway and breathing support and neonatal escalation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Central cyanosis and apnoea indicate severe respiratory compromise."
+    },
+    {
+      "id": "q45",
+      "stem": "Which combination may indicate neonatal sepsis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature instability, poor feeding, lethargy and respiratory change."
+        },
+        {
+          "id": "B",
+          "text": "Occasional sneezing and hiccups."
+        },
+        {
+          "id": "C",
+          "text": "Brief crying before feeds."
+        },
+        {
+          "id": "D",
+          "text": "Sleeping between feeds."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Neonatal sepsis can present subtly and deteriorate quickly."
+    },
+    {
+      "id": "q46",
+      "stem": "A high-risk newborn has jaundice that is worsening. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume all jaundice is normal."
+        },
+        {
+          "id": "B",
+          "text": "Assess severity and timing, review bilirubin monitoring and escalate for treatment according to policy."
+        },
+        {
+          "id": "C",
+          "text": "Expose the baby to direct sunlight only."
+        },
+        {
+          "id": "D",
+          "text": "Delay review until discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Worsening jaundice requires evaluation and may need phototherapy or other treatment."
+    },
+    {
+      "id": "q47",
+      "stem": "Which assessment best evaluates a high-risk newborn?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Weight only."
+        },
+        {
+          "id": "B",
+          "text": "Apgar score only."
+        },
+        {
+          "id": "C",
+          "text": "Breathing, colour, tone, temperature, feeding, glucose risk, output and behavioural changes."
+        },
+        {
+          "id": "D",
+          "text": "Maternal history only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Systematic ongoing assessment is essential because deterioration may be subtle."
+    },
+    {
+      "id": "q48",
+      "stem": "A premature newborn tires during feeding and oxygen saturation falls. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue feeding to complete the volume."
+        },
+        {
+          "id": "B",
+          "text": "Increase flow without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Feed more quickly."
+        },
+        {
+          "id": "D",
+          "text": "Stop or pause the feed, assess breathing and coordination and seek neonatal guidance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Feeding intolerance with desaturation suggests instability and aspiration risk."
+    },
+    {
+      "id": "q49",
+      "stem": "Why should subtle changes in a high-risk newborn be taken seriously?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Newborns may deteriorate rapidly and early signs can be non-specific."
+        },
+        {
+          "id": "B",
+          "text": "Only severe symptoms are significant."
+        },
+        {
+          "id": "C",
+          "text": "Premature babies normally appear unwell."
+        },
+        {
+          "id": "D",
+          "text": "Monitoring causes unnecessary concern."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Early recognition is critical in vulnerable newborns."
+    },
+    {
+      "id": "q50",
+      "stem": "Which action best supports thermoregulation in a premature newborn?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bathe immediately."
+        },
+        {
+          "id": "B",
+          "text": "Use a controlled warm environment and minimise unnecessary heat loss while monitoring temperature."
+        },
+        {
+          "id": "C",
+          "text": "Leave uncovered for observation."
+        },
+        {
+          "id": "D",
+          "text": "Use cold weighing surfaces."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Premature infants need active thermoregulation support."
+    },
+    {
+      "id": "q51",
+      "stem": "A newborn with suspected sepsis becomes mottled and less responsive. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for culture results."
+        },
+        {
+          "id": "B",
+          "text": "Offer another feed."
+        },
+        {
+          "id": "C",
+          "text": "Escalate urgently and support stabilisation while treatment is prepared."
+        },
+        {
+          "id": "D",
+          "text": "Reduce monitoring to allow rest."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mottling and reduced responsiveness suggest worsening perfusion and severe illness."
+    },
+    {
+      "id": "q52",
+      "stem": "A high-risk newborn is receiving oxygen. Which assessment is essential?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Feeding volume only."
+        },
+        {
+          "id": "C",
+          "text": "Parental anxiety only."
+        },
+        {
+          "id": "D",
+          "text": "Oxygen saturation, respiratory effort, colour and response to therapy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Oxygen therapy requires close monitoring of respiratory status and effectiveness."
+    },
+    {
+      "id": "q53",
+      "stem": "Why are low-birth-weight newborns at risk of hypoglycaemia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They may have limited energy stores and increased metabolic needs."
+        },
+        {
+          "id": "B",
+          "text": "They always receive too much milk."
+        },
+        {
+          "id": "C",
+          "text": "They cannot absorb glucose."
+        },
+        {
+          "id": "D",
+          "text": "Hypoglycaemia is unrelated to birth weight."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Limited glycogen and fat stores increase risk."
+    },
+    {
+      "id": "q54",
+      "stem": "A newborn receiving phototherapy becomes less interested in feeding. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore feeding while phototherapy continues."
+        },
+        {
+          "id": "B",
+          "text": "Assess hydration, feeding effectiveness and overall condition and escalate concerns."
+        },
+        {
+          "id": "C",
+          "text": "Stop phototherapy independently."
+        },
+        {
+          "id": "D",
+          "text": "Provide water only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Treatment does not remove the need for ongoing feeding and clinical assessment."
+    },
+    {
+      "id": "q55",
+      "stem": "Which parental communication is most appropriate when a newborn requires escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoid all discussion until the baby improves."
+        },
+        {
+          "id": "B",
+          "text": "Provide only technical terminology."
+        },
+        {
+          "id": "C",
+          "text": "Use calm, clear language about what is happening and involve parents where clinically possible."
+        },
+        {
+          "id": "D",
+          "text": "Ask another family member to explain."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clear compassionate communication supports family-centred care."
+    },
+    {
+      "id": "q56",
+      "stem": "A newborn has a low temperature and low blood glucose. What is the best interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The findings are unrelated."
+        },
+        {
+          "id": "B",
+          "text": "Low glucose improves temperature control."
+        },
+        {
+          "id": "C",
+          "text": "Hypothermia reduces metabolic needs."
+        },
+        {
+          "id": "D",
+          "text": "Cold stress may increase glucose use and worsen hypoglycaemia."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Thermoregulation and glucose stability are closely linked."
+    },
+    {
+      "id": "q57",
+      "stem": "Which finding most strongly suggests respiratory distress rather than normal transition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persistent grunting with retractions and central cyanosis."
+        },
+        {
+          "id": "B",
+          "text": "Brief irregular breathing without colour change."
+        },
+        {
+          "id": "C",
+          "text": "Occasional sneezing."
+        },
+        {
+          "id": "D",
+          "text": "Transient hiccups."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Persistent work of breathing and cyanosis are danger signs."
+    },
+    {
+      "id": "q58",
+      "stem": "A parent asks why the newborn is monitored so frequently. What is the best explanation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitoring is mainly for documentation."
+        },
+        {
+          "id": "B",
+          "text": "High-risk newborns can change quickly, and frequent assessment helps identify early deterioration."
+        },
+        {
+          "id": "C",
+          "text": "All newborns require identical intensive monitoring."
+        },
+        {
+          "id": "D",
+          "text": "The equipment replaces nursing assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Frequent assessment is justified by vulnerability and rapid change."
+    },
+    {
+      "id": "q59",
+      "stem": "A premature newborn has poor feeding, lethargy and temperature instability but no fever. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rule out infection."
+        },
+        {
+          "id": "B",
+          "text": "Wait for a rash."
+        },
+        {
+          "id": "C",
+          "text": "Assess for neonatal sepsis and escalate despite the absence of fever."
+        },
+        {
+          "id": "D",
+          "text": "Continue routine care."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Neonatal infection may present without fever and with subtle signs."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best demonstrates safe high-risk newborn care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only weight gain is monitored."
+        },
+        {
+          "id": "B",
+          "text": "Parents are excluded from care."
+        },
+        {
+          "id": "C",
+          "text": "Apgar scoring is used as the sole assessment."
+        },
+        {
+          "id": "D",
+          "text": "Respiratory distress, glucose instability and infection signs are recognised early while warmth, feeding and family communication are maintained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe care combines close assessment, stabilisation and family-centred communication. Section 4 - Culturally Safe, Family-Centred Maternity Care"
+    },
+    {
+      "id": "q61",
+      "stem": "A woman with limited English requires an urgent caesarean birth. Which nursing action best supports culturally safe care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrange a professional interpreter, explain the situation in clear steps, check understanding and involve her chosen support person where possible."
+        },
+        {
+          "id": "B",
+          "text": "Use a family member as interpreter for all consent discussions."
+        },
+        {
+          "id": "C",
+          "text": "Proceed without explanation because the situation is urgent."
+        },
+        {
+          "id": "D",
+          "text": "Ask staff to communicate only after surgery."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Urgency does not remove the need for accessible, respectful communication and informed participation."
+    },
+    {
+      "id": "q62",
+      "stem": "What is the best way to identify a woman's cultural preferences?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume preferences based on her background."
+        },
+        {
+          "id": "B",
+          "text": "Ask respectfully what matters to her and her family."
+        },
+        {
+          "id": "C",
+          "text": "Use a standard cultural checklist only."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient from the same community."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Cultural safety requires asking rather than stereotyping."
+    },
+    {
+      "id": "q63",
+      "stem": "A woman declines a recommended intervention after receiving information. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coerce her because the recommendation is evidence based."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to overrule her."
+        },
+        {
+          "id": "C",
+          "text": "Confirm understanding, explore concerns, respect the informed decision and communicate it to the team."
+        },
+        {
+          "id": "D",
+          "text": "Document refusal and avoid further discussion."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Consent is ongoing and informed refusal should be respected within legal and safety requirements."
+    },
+    {
+      "id": "q64",
+      "stem": "Which situation most clearly requires a professional interpreter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A routine greeting."
+        },
+        {
+          "id": "B",
+          "text": "Offering water."
+        },
+        {
+          "id": "C",
+          "text": "Explaining visiting hours."
+        },
+        {
+          "id": "D",
+          "text": "A complex discussion about emergency birth, risks and consent."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High-risk or complex information requires accurate professional interpretation."
+    },
+    {
+      "id": "q65",
+      "stem": "A woman has a history of traumatic birth and becomes distressed during an examination. What is the most appropriate nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pause if safe, explain each step, seek consent, offer choices and use a trauma-informed approach."
+        },
+        {
+          "id": "B",
+          "text": "Continue quickly to finish the procedure."
+        },
+        {
+          "id": "C",
+          "text": "Ask her partner to restrain her."
+        },
+        {
+          "id": "D",
+          "text": "Avoid acknowledging the distress."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Trauma-informed care promotes safety, control and dignity."
+    },
+    {
+      "id": "q66",
+      "stem": "A family's cultural practice is important to them and does not create clinical risk. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prohibit it because it is unfamiliar."
+        },
+        {
+          "id": "B",
+          "text": "Accommodate the practice where possible."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the request."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to leave."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe cultural practices should be respected and incorporated."
+    },
+    {
+      "id": "q67",
+      "stem": "A woman with hearing impairment needs discharge education. What is the best approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speak more loudly from behind her."
+        },
+        {
+          "id": "B",
+          "text": "Give written information only."
+        },
+        {
+          "id": "C",
+          "text": "Use accessible communication methods, visual material and teach-back."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to interpret all content."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Communication should be adapted to individual needs and understanding confirmed."
+    },
+    {
+      "id": "q68",
+      "stem": "What does informed choice require?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A signed form only."
+        },
+        {
+          "id": "B",
+          "text": "Agreement with the clinician."
+        },
+        {
+          "id": "C",
+          "text": "Family approval in every case."
+        },
+        {
+          "id": "D",
+          "text": "Clear information about options, benefits, risks and alternatives with time for questions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Informed choice depends on understanding and voluntary participation."
+    },
+    {
+      "id": "q69",
+      "stem": "A woman experiences pregnancy loss. Which response is most compassionate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Offer privacy, clear compassionate communication, memory-making where appropriate and referral to support services."
+        },
+        {
+          "id": "B",
+          "text": "Avoid discussing the baby."
+        },
+        {
+          "id": "C",
+          "text": "Encourage rapid discharge without support."
+        },
+        {
+          "id": "D",
+          "text": "Use routine language to minimise emotion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Bereavement care should acknowledge loss and provide individualised support."
+    },
+    {
+      "id": "q70",
+      "stem": "A support person asks to remain during an urgent procedure, and the woman wants them present. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude them automatically."
+        },
+        {
+          "id": "B",
+          "text": "Include the support person where clinically and safely possible."
+        },
+        {
+          "id": "C",
+          "text": "Ask the support person to make decisions."
+        },
+        {
+          "id": "D",
+          "text": "Delay treatment until they leave."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Family involvement should reflect the woman's wishes and clinical safety."
+    },
+    {
+      "id": "q71",
+      "stem": "Which action best supports shared decision-making during high-risk maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide one recommendation only."
+        },
+        {
+          "id": "B",
+          "text": "Use technical language to ensure accuracy."
+        },
+        {
+          "id": "C",
+          "text": "Present options and likely outcomes, explore preferences and agree on a plan where possible."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing uncertainty."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Shared decision-making combines evidence with informed patient preferences."
+    },
+    {
+      "id": "q72",
+      "stem": "A woman has low health literacy and is being discharged with a complex newborn feeding plan. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide a detailed technical leaflet only."
+        },
+        {
+          "id": "B",
+          "text": "Ask her to search online."
+        },
+        {
+          "id": "C",
+          "text": "Reduce the plan without consulting the team."
+        },
+        {
+          "id": "D",
+          "text": "Use plain language, demonstration, a simple written plan and teach-back."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accessible education and teach-back improve safety."
+    },
+    {
+      "id": "q73",
+      "stem": "A family member insists on receiving confidential information, but the woman has not consented. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respect confidentiality and clarify whom the woman wants involved."
+        },
+        {
+          "id": "B",
+          "text": "Provide the information because they are family."
+        },
+        {
+          "id": "C",
+          "text": "Discuss it outside the room."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse to decide."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Family-centred care does not override confidentiality."
+    },
+    {
+      "id": "q74",
+      "stem": "A woman expresses a spiritual preference that conflicts with a non-negotiable emergency requirement. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the preference."
+        },
+        {
+          "id": "B",
+          "text": "Explain the safety requirement respectfully and explore acceptable alternatives."
+        },
+        {
+          "id": "C",
+          "text": "Allow unsafe care."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to decide."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respect should be balanced with evidence-based safety."
+    },
+    {
+      "id": "q75",
+      "stem": "Why is consent described as an ongoing process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because signatures expire every hour."
+        },
+        {
+          "id": "B",
+          "text": "Because only doctors can confirm consent."
+        },
+        {
+          "id": "C",
+          "text": "Because understanding and willingness may change as the situation and options change."
+        },
+        {
+          "id": "D",
+          "text": "Because emergencies remove consent requirements."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients should remain informed and involved as care evolves."
+    },
+    {
+      "id": "q76",
+      "stem": "Which communication approach is most appropriate after an emergency neonatal transfer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Promise a positive outcome."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the family until the diagnosis is confirmed."
+        },
+        {
+          "id": "C",
+          "text": "Use only technical terms."
+        },
+        {
+          "id": "D",
+          "text": "Provide honest updates, acknowledge uncertainty and explain the next steps."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clear and compassionate communication supports families during uncertainty."
+    },
+    {
+      "id": "q77",
+      "stem": "A woman says staff are making assumptions about her feeding choices. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore her goals and preferences without judgement and provide balanced information."
+        },
+        {
+          "id": "B",
+          "text": "Tell her the standard approach must be followed."
+        },
+        {
+          "id": "C",
+          "text": "Ask her family to choose."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing feeding."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural and family-centred care requires individualised, non-judgemental discussion."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best demonstrates trauma-informed maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All procedures are completed quickly."
+        },
+        {
+          "id": "B",
+          "text": "The woman is informed, offered choices, treated respectfully and supported to retain control where possible."
+        },
+        {
+          "id": "C",
+          "text": "Distress is ignored to avoid delay."
+        },
+        {
+          "id": "D",
+          "text": "The family makes all decisions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Trauma-informed care emphasises safety, choice, collaboration and dignity."
+    },
+    {
+      "id": "q79",
+      "stem": "A bereaved family requests time and privacy with their baby. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refuse because the baby has died."
+        },
+        {
+          "id": "B",
+          "text": "Limit contact to a few minutes without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Support the request where clinically and legally appropriate and offer further resources."
+        },
+        {
+          "id": "D",
+          "text": "Avoid memory-making options."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Compassionate bereavement care should be individualised and respectful."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects culturally safe, family-centred maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Everyone receives identical care."
+        },
+        {
+          "id": "B",
+          "text": "Families make all decisions."
+        },
+        {
+          "id": "C",
+          "text": "Urgent care is delivered without explanation."
+        },
+        {
+          "id": "D",
+          "text": "Care is clinically safe while communication, informed choice, cultural preferences and compassionate support are maintained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe care integrates evidence, respect, access and participation."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL119",
+  "programTitle": "Advanced Adult Nursing Care",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Recognise acute deterioration and deliver safe priority nursing care for complex adult conditions.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Interpret complex data, manage high-risk therapies and coordinate multidisciplinary high-acuity care.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead high-acuity systems, rapid-response reliability and global adult critical-care improvement.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

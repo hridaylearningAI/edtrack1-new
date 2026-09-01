@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A person with recurrent depression says, 'I am more than this illness.' Which nursing response best reflects recovery-oriented practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask about the person's strengths, goals and what has helped previously."
+        },
+        {
+          "id": "B",
+          "text": "Focus the discussion on symptoms that must be eliminated."
+        },
+        {
+          "id": "C",
+          "text": "Explain that recovery depends mainly on medication adherence."
+        },
+        {
+          "id": "D",
+          "text": "Redirect the conversation to the diagnosis."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery-oriented care sees the person beyond diagnosis and supports hope, identity, choice and meaningful goals."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best describes recovery in mental health care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recovery always means complete absence of symptoms."
+        },
+        {
+          "id": "B",
+          "text": "Recovery may involve living a meaningful and self-directed life while managing ongoing symptoms."
+        },
+        {
+          "id": "C",
+          "text": "Recovery is determined only by the clinician."
+        },
+        {
+          "id": "D",
+          "text": "Recovery begins after treatment has ended."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Recovery is personal and may occur even when some symptoms remain."
+    },
+    {
+      "id": "q3",
+      "stem": "A nurse hears a colleague describe a person as 'a manipulative schizophrenic.' What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the comment because it is informal."
+        },
+        {
+          "id": "B",
+          "text": "Repeat the description in the clinical notes."
+        },
+        {
+          "id": "C",
+          "text": "Challenge the stigmatising language and encourage person-first, objective communication."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing the person with the colleague."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Stigmatising labels can damage care and should be replaced with respectful, person-centred language."
+    },
+    {
+      "id": "q4",
+      "stem": "A patient reports low mood, chronic pain, poor sleep and recent housing insecurity. Which assessment approach is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on the depressive symptoms."
+        },
+        {
+          "id": "B",
+          "text": "Refer all social concerns to another service without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Delay physical assessment until mood improves."
+        },
+        {
+          "id": "D",
+          "text": "Explore physical health, sleep, pain, medication, substance use and social conditions together."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Mental and physical health are interconnected, and social conditions may strongly influence wellbeing."
+    },
+    {
+      "id": "q5",
+      "stem": "Which action best supports a person's autonomy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing information and involving the person in choices within safety and legal limits."
+        },
+        {
+          "id": "B",
+          "text": "Making decisions quickly on the person's behalf."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding discussion of treatment options."
+        },
+        {
+          "id": "D",
+          "text": "Asking family members to decide routinely."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery-oriented care treats the person as an active partner."
+    },
+    {
+      "id": "q6",
+      "stem": "A person says that returning to study is an important goal. How should the nurse respond?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that education should wait until all symptoms resolve."
+        },
+        {
+          "id": "B",
+          "text": "Include the goal in care planning and explore practical supports."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on preventing relapse."
+        },
+        {
+          "id": "D",
+          "text": "Tell the person to discuss it after discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Meaningful personal goals are central to recovery-oriented practice."
+    },
+    {
+      "id": "q7",
+      "stem": "Which factor may influence mental health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnosis alone."
+        },
+        {
+          "id": "B",
+          "text": "Medication alone."
+        },
+        {
+          "id": "C",
+          "text": "Biological, psychological, social, cultural and environmental factors."
+        },
+        {
+          "id": "D",
+          "text": "Family history alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mental health exists on a continuum and is influenced by multiple interacting factors."
+    },
+    {
+      "id": "q8",
+      "stem": "A person with a long-term mental health condition is working, maintaining relationships and managing symptoms. What does this illustrate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The diagnosis was incorrect."
+        },
+        {
+          "id": "B",
+          "text": "Treatment is no longer necessary."
+        },
+        {
+          "id": "C",
+          "text": "Recovery requires no professional support."
+        },
+        {
+          "id": "D",
+          "text": "A person may live well while managing an ongoing condition."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Wellbeing and recovery are possible alongside long-term symptoms or treatment."
+    },
+    {
+      "id": "q9",
+      "stem": "A nurse notices that a patient with anxiety is also experiencing severe insomnia and poor nutrition. What should the care plan include?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sleep, nutrition and physical-health needs as well as emotional distress."
+        },
+        {
+          "id": "B",
+          "text": "Anxiety management only."
+        },
+        {
+          "id": "C",
+          "text": "Medication education only."
+        },
+        {
+          "id": "D",
+          "text": "Referral without further assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Holistic mental health care addresses physical, psychological and social needs."
+    },
+    {
+      "id": "q10",
+      "stem": "Which nursing statement is most strengths-based?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'What problems have you caused at home?'"
+        },
+        {
+          "id": "B",
+          "text": "'What has helped you cope during difficult times before?'"
+        },
+        {
+          "id": "C",
+          "text": "'Why did you stop following treatment?'"
+        },
+        {
+          "id": "D",
+          "text": "'You need to accept that you are unwell.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Strengths-based care explores capabilities, supports and previous successful coping."
+    },
+    {
+      "id": "q11",
+      "stem": "A person from a cultural background unfamiliar to the nurse describes distress in physical terms. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the person is avoiding mental-health discussion."
+        },
+        {
+          "id": "B",
+          "text": "Correct the person's understanding immediately."
+        },
+        {
+          "id": "C",
+          "text": "Explore the person's explanation of the symptoms and complete both physical and mental-health assessment."
+        },
+        {
+          "id": "D",
+          "text": "Focus on psychological symptoms only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Culture can shape how distress is understood and expressed; assessment should remain respectful and holistic."
+    },
+    {
+      "id": "q12",
+      "stem": "A patient says stigma has prevented them from seeking help. Which response is most therapeutic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'You should not worry about other people's opinions.'"
+        },
+        {
+          "id": "B",
+          "text": "'Most people are accepting now.'"
+        },
+        {
+          "id": "C",
+          "text": "'Try not to think about it.'"
+        },
+        {
+          "id": "D",
+          "text": "'It sounds as though fear of judgement has made it harder to seek support.'"
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Validation acknowledges the person's experience without minimising it."
+    },
+    {
+      "id": "q13",
+      "stem": "Which action is inconsistent with recovery-oriented practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Defining the person mainly by diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Supporting informed choice."
+        },
+        {
+          "id": "C",
+          "text": "Identifying strengths."
+        },
+        {
+          "id": "D",
+          "text": "Including meaningful personal goals."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery-oriented practice recognises the whole person, not only the diagnosis."
+    },
+    {
+      "id": "q14",
+      "stem": "A person wishes to involve a trusted family member in care planning. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude family to protect independence."
+        },
+        {
+          "id": "B",
+          "text": "Support involvement with the person's consent and clarify the family member's role."
+        },
+        {
+          "id": "C",
+          "text": "Share all clinical information automatically."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to make final decisions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Family participation should be guided by the person's preferences, consent and safety needs."
+    },
+    {
+      "id": "q15",
+      "stem": "A nurse is planning care with a person who has repeated admissions. What is the most useful first question?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Why do you keep relapsing?'"
+        },
+        {
+          "id": "B",
+          "text": "'Did you take every medicine correctly?'"
+        },
+        {
+          "id": "C",
+          "text": "'What was happening before the recent difficulties, and what support would be useful now?'"
+        },
+        {
+          "id": "D",
+          "text": "'Which diagnosis do you think is most accurate?'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A collaborative, non-judgemental question explores context and needed support."
+    },
+    {
+      "id": "q16",
+      "stem": "Which outcome best reflects person-centred mental health care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The person follows every recommendation without question."
+        },
+        {
+          "id": "B",
+          "text": "Symptoms are documented in detail."
+        },
+        {
+          "id": "C",
+          "text": "The nurse completes the assessment quickly."
+        },
+        {
+          "id": "D",
+          "text": "The care plan reflects the person's strengths, needs, preferences and safety concerns."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Person-centred care is individualised and collaborative."
+    },
+    {
+      "id": "q17",
+      "stem": "A person says spirituality is important to recovery. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore how spirituality supports the person and include it in care where appropriate."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the topic because it is not clinical."
+        },
+        {
+          "id": "C",
+          "text": "Refer immediately without discussion."
+        },
+        {
+          "id": "D",
+          "text": "Assume the person belongs to a particular faith."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Meaning, identity and cultural or spiritual supports may be important recovery resources."
+    },
+    {
+      "id": "q18",
+      "stem": "A nurse focuses only on psychiatric symptoms and overlooks uncontrolled diabetes. What is the main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The mental-health assessment will be shorter."
+        },
+        {
+          "id": "B",
+          "text": "Physical-health needs may be missed, worsening overall outcomes."
+        },
+        {
+          "id": "C",
+          "text": "The diagnosis may change."
+        },
+        {
+          "id": "D",
+          "text": "The person may become more independent."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Mental and physical healthcare should be integrated."
+    },
+    {
+      "id": "q19",
+      "stem": "Which statement best challenges discrimination?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'People with mental illness are unpredictable.'"
+        },
+        {
+          "id": "B",
+          "text": "'Mental illness usually prevents employment.'"
+        },
+        {
+          "id": "C",
+          "text": "'Risk should be assessed individually rather than assumed from a diagnosis.'"
+        },
+        {
+          "id": "D",
+          "text": "'Families should make decisions for most patients.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Individual assessment avoids harmful stereotypes."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates recovery-oriented nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse controls all treatment decisions."
+        },
+        {
+          "id": "B",
+          "text": "All symptoms disappear."
+        },
+        {
+          "id": "C",
+          "text": "The family accepts the diagnosis."
+        },
+        {
+          "id": "D",
+          "text": "The person develops hope, participates in care and pursues personally meaningful goals safely."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Recovery-oriented care supports participation, hope and meaningful life goals. Section 2 - Therapeutic Communication and Professional Relationships"
+    },
+    {
+      "id": "q21",
+      "stem": "A woman says, 'Nothing will ever get better.' Which response is most therapeutic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'It sounds as though things feel hopeless. Can you tell me more about what has been happening?'"
+        },
+        {
+          "id": "B",
+          "text": "'You will be fine once treatment starts.'"
+        },
+        {
+          "id": "C",
+          "text": "'Try to focus on the positive.'"
+        },
+        {
+          "id": "D",
+          "text": "'Other people have worse problems.'"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The response validates distress and invites further assessment without false reassurance."
+    },
+    {
+      "id": "q22",
+      "stem": "Which communication technique demonstrates active listening?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing the subject when emotion increases."
+        },
+        {
+          "id": "B",
+          "text": "Reflecting the person's meaning and asking for clarification."
+        },
+        {
+          "id": "C",
+          "text": "Giving immediate advice."
+        },
+        {
+          "id": "D",
+          "text": "Finishing the person's sentences."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reflection and clarification communicate attention and help organise thoughts."
+    },
+    {
+      "id": "q23",
+      "stem": "A suspicious patient answers questions briefly and appears overwhelmed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask many detailed questions rapidly."
+        },
+        {
+          "id": "B",
+          "text": "Challenge the patient's suspiciousness."
+        },
+        {
+          "id": "C",
+          "text": "Use calm, simple language and allow trust to develop gradually."
+        },
+        {
+          "id": "D",
+          "text": "End the interview immediately."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A calm, paced approach reduces pressure and supports trust."
+    },
+    {
+      "id": "q24",
+      "stem": "Which response is non-therapeutic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Tell me more about what worries you.'"
+        },
+        {
+          "id": "B",
+          "text": "'What happened before the anxiety increased?'"
+        },
+        {
+          "id": "C",
+          "text": "'I can see that this is difficult.'"
+        },
+        {
+          "id": "D",
+          "text": "'There is no reason to feel anxious.'"
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Dismissing emotion can close communication."
+    },
+    {
+      "id": "q25",
+      "stem": "A patient becomes silent and tearful. What is the most appropriate nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remain present and allow time before gently inviting the person to continue."
+        },
+        {
+          "id": "B",
+          "text": "Fill the silence with advice."
+        },
+        {
+          "id": "C",
+          "text": "End the interview."
+        },
+        {
+          "id": "D",
+          "text": "Ask several closed questions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Therapeutic silence can communicate support and allow emotional processing."
+    },
+    {
+      "id": "q26",
+      "stem": "A person says, 'No one listens to me.' Which response best demonstrates empathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'That is probably not true.'"
+        },
+        {
+          "id": "B",
+          "text": "'Feeling unheard sounds very painful.'"
+        },
+        {
+          "id": "C",
+          "text": "'You need to communicate more clearly.'"
+        },
+        {
+          "id": "D",
+          "text": "'Let's discuss your medication instead.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Empathy acknowledges the person's emotional experience."
+    },
+    {
+      "id": "q27",
+      "stem": "A patient offers the nurse an expensive personal gift. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept it to preserve trust."
+        },
+        {
+          "id": "B",
+          "text": "Accept it but do not tell colleagues."
+        },
+        {
+          "id": "C",
+          "text": "Decline respectfully and explain professional boundaries."
+        },
+        {
+          "id": "D",
+          "text": "Exchange a gift of similar value."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional boundaries protect both the person and nurse."
+    },
+    {
+      "id": "q28",
+      "stem": "Which behaviour is a boundary concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using attentive silence."
+        },
+        {
+          "id": "B",
+          "text": "Clarifying the purpose of care."
+        },
+        {
+          "id": "C",
+          "text": "Summarising the discussion."
+        },
+        {
+          "id": "D",
+          "text": "Sharing personal financial problems and asking the patient for help."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Personal financial involvement is outside the therapeutic role."
+    },
+    {
+      "id": "q29",
+      "stem": "A patient asks to connect with the nurse on social media after discharge. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintain professional boundaries and decline the request."
+        },
+        {
+          "id": "B",
+          "text": "Accept after the therapeutic relationship ends."
+        },
+        {
+          "id": "C",
+          "text": "Use a private account."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to contact another nurse."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Relationships outside the therapeutic role can blur boundaries and create harm."
+    },
+    {
+      "id": "q30",
+      "stem": "A person experiencing panic is struggling to process information. How should the nurse communicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide a detailed explanation of anxiety theory."
+        },
+        {
+          "id": "B",
+          "text": "Use short, calm statements and one question at a time."
+        },
+        {
+          "id": "C",
+          "text": "Speak loudly to gain attention."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to answer all questions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Simple, calm communication is easier to process during severe anxiety."
+    },
+    {
+      "id": "q31",
+      "stem": "A patient says, 'The staff are poisoning my food.' What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'That is impossible and you are mistaken.'"
+        },
+        {
+          "id": "B",
+          "text": "'Yes, the food may be dangerous.'"
+        },
+        {
+          "id": "C",
+          "text": "'I understand that the food feels unsafe to you. Can you tell me what makes you think that?'"
+        },
+        {
+          "id": "D",
+          "text": "'We will stop all meals immediately.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The nurse acknowledges the fear without agreeing with or arguing about the belief."
+    },
+    {
+      "id": "q32",
+      "stem": "Which statement is an example of summarising?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Why did you do that?'"
+        },
+        {
+          "id": "B",
+          "text": "'Everything will improve.'"
+        },
+        {
+          "id": "C",
+          "text": "'You should take leave from work.'"
+        },
+        {
+          "id": "D",
+          "text": "'You have described poor sleep, increasing worry and difficulty attending work.'"
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Summarising brings together key information and checks shared understanding."
+    },
+    {
+      "id": "q33",
+      "stem": "A nurse feels unusually protective of one patient and begins spending extra time with them. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflect on the response, seek supervision and restore consistent boundaries."
+        },
+        {
+          "id": "B",
+          "text": "Continue because the patient benefits."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient about the feelings."
+        },
+        {
+          "id": "D",
+          "text": "Avoid the patient completely."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Self-awareness and supervision help prevent boundary drift."
+    },
+    {
+      "id": "q34",
+      "stem": "Which question is most therapeutic when exploring distress?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Why are you behaving like this?'"
+        },
+        {
+          "id": "B",
+          "text": "'What was happening when the distress became worse?'"
+        },
+        {
+          "id": "C",
+          "text": "'Don't you think you are overreacting?'"
+        },
+        {
+          "id": "D",
+          "text": "'You will take the medicine, won't you?'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "An open, non-judgemental question supports exploration."
+    },
+    {
+      "id": "q35",
+      "stem": "A patient asks the nurse to keep a plan to self-harm secret. What is the appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Promise secrecy to preserve trust."
+        },
+        {
+          "id": "B",
+          "text": "Change the subject."
+        },
+        {
+          "id": "C",
+          "text": "Explain that immediate safety concerns cannot remain confidential and take protective action."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the patient repeats the statement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Confidentiality has limits when there is serious risk."
+    },
+    {
+      "id": "q36",
+      "stem": "Which behaviour best supports trust?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Making promises the nurse cannot guarantee."
+        },
+        {
+          "id": "B",
+          "text": "Sharing private information to build closeness."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding difficult topics."
+        },
+        {
+          "id": "D",
+          "text": "Being consistent, honest and clear about the nurse's role."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Trust develops through consistency, honesty and reliability."
+    },
+    {
+      "id": "q37",
+      "stem": "A person becomes withdrawn when asked several questions. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduce the number of questions, acknowledge the discomfort and allow time."
+        },
+        {
+          "id": "B",
+          "text": "Increase the pace to complete the assessment."
+        },
+        {
+          "id": "C",
+          "text": "End all communication."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to answer instead."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Communication should be adapted to the person's state."
+    },
+    {
+      "id": "q38",
+      "stem": "Which response uses clarification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'You should not feel unsafe here.'"
+        },
+        {
+          "id": "B",
+          "text": "'When you say you feel unsafe, what does unsafe mean for you?'"
+        },
+        {
+          "id": "C",
+          "text": "'I know exactly how you feel.'"
+        },
+        {
+          "id": "D",
+          "text": "'Let's move on.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clarification checks the meaning of the person's words."
+    },
+    {
+      "id": "q39",
+      "stem": "A patient repeatedly asks for personal information about the nurse. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide detailed information to build trust."
+        },
+        {
+          "id": "B",
+          "text": "Refuse to speak further."
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge the question and redirect to the patient's needs while maintaining boundaries."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient why they are being intrusive."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Limited, purposeful responses may be appropriate, but the focus remains on the person receiving care."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates effective therapeutic communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient agrees with the nurse."
+        },
+        {
+          "id": "B",
+          "text": "The interview is completed quickly."
+        },
+        {
+          "id": "C",
+          "text": "The nurse gives several solutions."
+        },
+        {
+          "id": "D",
+          "text": "The person feels heard, shares relevant information and participates in planning."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Therapeutic communication supports understanding, assessment and collaboration. Section 3 - Mental Health Assessment and Common Conditions"
+    },
+    {
+      "id": "q41",
+      "stem": "Which component is included in a mental state examination?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appearance, behaviour, speech, mood, thought, perception, cognition, insight and judgement."
+        },
+        {
+          "id": "B",
+          "text": "Blood tests only."
+        },
+        {
+          "id": "C",
+          "text": "Family history only."
+        },
+        {
+          "id": "D",
+          "text": "Medication history only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The mental state examination systematically describes current mental functioning."
+    },
+    {
+      "id": "q42",
+      "stem": "A patient speaks very rapidly, sleeps two hours each night and has begun spending large amounts of money. What condition should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Major depression."
+        },
+        {
+          "id": "B",
+          "text": "Mania or hypomania."
+        },
+        {
+          "id": "C",
+          "text": "Generalised anxiety only."
+        },
+        {
+          "id": "D",
+          "text": "Dementia."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Elevated mood, reduced sleep, rapid speech and risky behaviour are characteristic of mania."
+    },
+    {
+      "id": "q43",
+      "stem": "A person reports hearing a voice telling them to harm themselves. What should the nurse ask first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the voice is real."
+        },
+        {
+          "id": "B",
+          "text": "Why the person is imagining the voice."
+        },
+        {
+          "id": "C",
+          "text": "What the voice says, whether the person intends to act and whether they have access to means."
+        },
+        {
+          "id": "D",
+          "text": "Whether the family agrees."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Command hallucinations require direct assessment of content, intent, means and ability to resist."
+    },
+    {
+      "id": "q44",
+      "stem": "A patient says the television is sending personal messages. How should the nurse respond?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agree that the messages are real."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient the belief is irrational."
+        },
+        {
+          "id": "C",
+          "text": "Turn off the television and end the discussion."
+        },
+        {
+          "id": "D",
+          "text": "Explore the experience and assess distress and safety without arguing about the belief."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The nurse assesses meaning and risk without reinforcing or confronting the delusion."
+    },
+    {
+      "id": "q45",
+      "stem": "Which finding is most consistent with depression?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persistent low mood, loss of interest, sleep change and hopelessness."
+        },
+        {
+          "id": "B",
+          "text": "Elevated mood and reduced need for sleep."
+        },
+        {
+          "id": "C",
+          "text": "Rapid speech and grandiosity."
+        },
+        {
+          "id": "D",
+          "text": "Fluctuating consciousness over hours."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These are common depressive symptoms."
+    },
+    {
+      "id": "q46",
+      "stem": "A patient develops sudden confusion and fluctuating attention after surgery. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dementia."
+        },
+        {
+          "id": "B",
+          "text": "Delirium requiring urgent physical assessment."
+        },
+        {
+          "id": "C",
+          "text": "Chronic psychosis."
+        },
+        {
+          "id": "D",
+          "text": "Personality disorder."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Acute fluctuating confusion suggests delirium, often caused by physical illness or medication."
+    },
+    {
+      "id": "q47",
+      "stem": "Which feature is more typical of dementia than delirium?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sudden onset over hours."
+        },
+        {
+          "id": "B",
+          "text": "Marked fluctuation during the day."
+        },
+        {
+          "id": "C",
+          "text": "Gradual progressive cognitive decline."
+        },
+        {
+          "id": "D",
+          "text": "Acute change following infection."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Dementia usually develops gradually, while delirium is acute and fluctuating."
+    },
+    {
+      "id": "q48",
+      "stem": "A patient is restless, sweating and tremulous after abruptly stopping alcohol. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Major depression."
+        },
+        {
+          "id": "C",
+          "text": "Medication allergy."
+        },
+        {
+          "id": "D",
+          "text": "Alcohol withdrawal requiring assessment and monitoring."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Withdrawal can become severe and requires timely clinical assessment."
+    },
+    {
+      "id": "q49",
+      "stem": "Which finding may indicate a panic attack?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sudden intense fear, palpitations, breathlessness and a sense of losing control."
+        },
+        {
+          "id": "B",
+          "text": "Gradual memory decline."
+        },
+        {
+          "id": "C",
+          "text": "Elevated mood for weeks."
+        },
+        {
+          "id": "D",
+          "text": "Persistent hallucinations only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Panic attacks involve abrupt severe anxiety with physical symptoms."
+    },
+    {
+      "id": "q50",
+      "stem": "A nurse documents, 'Patient is difficult and manipulative.' What is the main problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The entry is too short."
+        },
+        {
+          "id": "B",
+          "text": "The language is subjective and should be replaced with objective observations."
+        },
+        {
+          "id": "C",
+          "text": "The diagnosis is missing."
+        },
+        {
+          "id": "D",
+          "text": "The note should include the nurse's feelings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation should describe behaviour and statements objectively."
+    },
+    {
+      "id": "q51",
+      "stem": "A patient says, 'I have no energy and nothing matters.' Which additional question is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'What hobbies do you have?'"
+        },
+        {
+          "id": "B",
+          "text": "'Why are you not trying harder?'"
+        },
+        {
+          "id": "C",
+          "text": "'Have you had thoughts of harming yourself or not wanting to live?'"
+        },
+        {
+          "id": "D",
+          "text": "'Would you like a different room?'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hopelessness can be associated with suicide risk and requires direct assessment."
+    },
+    {
+      "id": "q52",
+      "stem": "Which observation describes affect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The person's reported internal mood."
+        },
+        {
+          "id": "B",
+          "text": "The content of a delusion."
+        },
+        {
+          "id": "C",
+          "text": "The person's memory."
+        },
+        {
+          "id": "D",
+          "text": "The observable expression of emotion."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Affect is the outwardly observed emotional expression."
+    },
+    {
+      "id": "q53",
+      "stem": "A patient appears to respond to unseen stimuli but denies hallucinations. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Describe the observed behaviour and continue respectful assessment."
+        },
+        {
+          "id": "B",
+          "text": "Document that hallucinations are absent."
+        },
+        {
+          "id": "C",
+          "text": "Confront the patient."
+        },
+        {
+          "id": "D",
+          "text": "Ask other patients what they observed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Observation and conversation should be used together, and findings documented objectively."
+    },
+    {
+      "id": "q54",
+      "stem": "A person reports daily cannabis use and increasing paranoia. What is the best nursing approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the substance use is unrelated."
+        },
+        {
+          "id": "B",
+          "text": "Assess timing, amount, mental-state changes and safety, and seek further review."
+        },
+        {
+          "id": "C",
+          "text": "Tell the person to stop immediately and end the assessment."
+        },
+        {
+          "id": "D",
+          "text": "Diagnose a primary psychotic disorder."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Substance use can affect perception and behaviour and should be assessed carefully."
+    },
+    {
+      "id": "q55",
+      "stem": "Which finding most strongly suggests disorganised thought form?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The person reports sadness."
+        },
+        {
+          "id": "B",
+          "text": "The person believes neighbours are watching them."
+        },
+        {
+          "id": "C",
+          "text": "Speech is difficult to follow because ideas are loosely connected."
+        },
+        {
+          "id": "D",
+          "text": "The person hears music when alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Thought form refers to the organisation and flow of ideas."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient with depression has stopped eating and drinking. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on mood symptoms."
+        },
+        {
+          "id": "B",
+          "text": "Wait for appetite to return."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to bring favourite foods."
+        },
+        {
+          "id": "D",
+          "text": "Assess hydration, nutrition, physical health and immediate risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Mental-health assessment must include physical-health consequences and safety."
+    },
+    {
+      "id": "q57",
+      "stem": "A patient has reduced concentration, poor sleep and anxiety following bereavement. What is the most appropriate approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explore duration, severity, functioning, supports and risk without making premature conclusions."
+        },
+        {
+          "id": "B",
+          "text": "Assume a psychiatric disorder is present."
+        },
+        {
+          "id": "C",
+          "text": "Tell the person grief should be over."
+        },
+        {
+          "id": "D",
+          "text": "Begin medication education immediately."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Assessment should consider context, function and risk rather than label normal or complicated responses prematurely."
+    },
+    {
+      "id": "q58",
+      "stem": "Which finding requires urgent medical review rather than routine psychiatric follow-up?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Long-standing low confidence."
+        },
+        {
+          "id": "B",
+          "text": "New confusion with fever and reduced oxygen saturation."
+        },
+        {
+          "id": "C",
+          "text": "Stable social anxiety."
+        },
+        {
+          "id": "D",
+          "text": "Chronic sleep difficulty."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Acute cognitive change with physical abnormalities may indicate delirium or medical deterioration."
+    },
+    {
+      "id": "q59",
+      "stem": "A patient describes feeling watched but is unsure whether the belief is accurate. What does this suggest about insight?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insight is completely absent."
+        },
+        {
+          "id": "B",
+          "text": "Judgement is normal in all areas."
+        },
+        {
+          "id": "C",
+          "text": "Insight may be partially preserved."
+        },
+        {
+          "id": "D",
+          "text": "The person is malingering."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Questioning one's own interpretation can indicate partial insight."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best demonstrates a complete basic mental-health assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A diagnostic label is recorded."
+        },
+        {
+          "id": "B",
+          "text": "A symptom checklist is completed."
+        },
+        {
+          "id": "C",
+          "text": "The family provides all information."
+        },
+        {
+          "id": "D",
+          "text": "The person's story, mental state, physical health, substance use, function and current risks are assessed collaboratively."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A comprehensive assessment integrates observation, conversation, physical health and risk. Section 4 - Crisis, Safety and Psychotropic Medication"
+    },
+    {
+      "id": "q61",
+      "stem": "A patient says, 'I have been thinking about ending my life.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask directly about plan, intent, means, timing, past behaviour and protective factors."
+        },
+        {
+          "id": "B",
+          "text": "Avoid further questions to prevent increasing the risk."
+        },
+        {
+          "id": "C",
+          "text": "Reassure the patient that things will improve."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to complete the assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Direct suicide assessment does not create suicidal ideas and is essential for determining risk."
+    },
+    {
+      "id": "q62",
+      "stem": "Which finding indicates the highest immediate suicide risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passive thoughts with no plan and strong supports."
+        },
+        {
+          "id": "B",
+          "text": "A specific plan, intent to act and access to the means."
+        },
+        {
+          "id": "C",
+          "text": "Low mood without suicidal thoughts."
+        },
+        {
+          "id": "D",
+          "text": "Past anxiety treatment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Plan, intent and access to means indicate high immediate risk."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient becomes agitated, pacing and shouting. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stand close and speak firmly."
+        },
+        {
+          "id": "B",
+          "text": "Threaten restraint."
+        },
+        {
+          "id": "C",
+          "text": "Reduce stimulation, maintain a safe distance, use a calm tone and offer clear choices."
+        },
+        {
+          "id": "D",
+          "text": "Ask several staff to surround the patient."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Early de-escalation uses calm communication, respectful distance and reduced stimulation."
+    },
+    {
+      "id": "q64",
+      "stem": "Which action reflects least restrictive practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using restraint as soon as a person refuses care."
+        },
+        {
+          "id": "B",
+          "text": "Using seclusion for staff convenience."
+        },
+        {
+          "id": "C",
+          "text": "Removing all choices during distress."
+        },
+        {
+          "id": "D",
+          "text": "Trying verbal de-escalation, environmental change and support before restrictive measures when safe."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Restriction should be used only when less restrictive measures are insufficient for serious immediate risk."
+    },
+    {
+      "id": "q65",
+      "stem": "A patient states an intention to attack another person and moves toward them. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activate the emergency safety plan, protect others and seek immediate support."
+        },
+        {
+          "id": "B",
+          "text": "Continue a routine interview."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to write down the feelings."
+        },
+        {
+          "id": "D",
+          "text": "Leave the area without warning others."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "An immediate threat of violence requires urgent safety action."
+    },
+    {
+      "id": "q66",
+      "stem": "Which environment best supports de-escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A crowded noisy room."
+        },
+        {
+          "id": "B",
+          "text": "A quieter space with clear exits, reduced stimulation and appropriate staff support."
+        },
+        {
+          "id": "C",
+          "text": "A locked room without explanation."
+        },
+        {
+          "id": "D",
+          "text": "A brightly lit public area."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced stimulation and safe positioning can lower escalation risk."
+    },
+    {
+      "id": "q67",
+      "stem": "A patient taking an antipsychotic develops high fever, severe rigidity and altered consciousness. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serotonin syndrome."
+        },
+        {
+          "id": "B",
+          "text": "Mild sedation."
+        },
+        {
+          "id": "C",
+          "text": "Neuroleptic malignant syndrome requiring urgent medical care."
+        },
+        {
+          "id": "D",
+          "text": "Expected medication response."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fever, rigidity and altered consciousness are key warning signs of neuroleptic malignant syndrome."
+    },
+    {
+      "id": "q68",
+      "stem": "A patient taking an antidepressant develops agitation, sweating, diarrhoea, tremor and hyperreflexia after a medication change. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lithium toxicity."
+        },
+        {
+          "id": "B",
+          "text": "Normal anxiety."
+        },
+        {
+          "id": "C",
+          "text": "Alcohol withdrawal."
+        },
+        {
+          "id": "D",
+          "text": "Serotonin syndrome."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "This cluster is concerning for serotonin syndrome."
+    },
+    {
+      "id": "q69",
+      "stem": "A person taking lithium develops vomiting, coarse tremor, confusion and unsteady gait. What is the appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withhold the medicine according to policy and obtain urgent review for possible toxicity."
+        },
+        {
+          "id": "B",
+          "text": "Administer the next dose with food."
+        },
+        {
+          "id": "C",
+          "text": "Encourage exercise."
+        },
+        {
+          "id": "D",
+          "text": "Reassure the person that the effects are expected."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Gastrointestinal symptoms, coarse tremor, confusion and ataxia may indicate lithium toxicity."
+    },
+    {
+      "id": "q70",
+      "stem": "A patient becomes excessively sedated after an anxiolytic. What should the nurse assess first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appetite."
+        },
+        {
+          "id": "B",
+          "text": "Airway, respiratory rate, oxygenation and level of consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Mood only."
+        },
+        {
+          "id": "D",
+          "text": "Family support."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sedation can compromise breathing and requires immediate physiological assessment."
+    },
+    {
+      "id": "q71",
+      "stem": "Which question should be included in violence-risk assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Are you a violent person?'"
+        },
+        {
+          "id": "B",
+          "text": "'Why are you angry?'"
+        },
+        {
+          "id": "C",
+          "text": "'Have you had thoughts of harming anyone, and do you have a plan or access to weapons?'"
+        },
+        {
+          "id": "D",
+          "text": "'Can you promise to behave?'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Direct, specific questions assess thoughts, plan and means."
+    },
+    {
+      "id": "q72",
+      "stem": "A patient has self-inflicted injuries but denies current suicidal intent. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume there is no risk."
+        },
+        {
+          "id": "B",
+          "text": "Avoid discussing the injuries."
+        },
+        {
+          "id": "C",
+          "text": "Discharge the patient because intent is denied."
+        },
+        {
+          "id": "D",
+          "text": "Assess current intent, purpose of self-harm, past behaviour, supports and immediate safety needs."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Self-harm and suicide risk overlap but are not identical; both require careful assessment."
+    },
+    {
+      "id": "q73",
+      "stem": "Which action is most appropriate when a high-risk patient asks to be left alone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintain the level of observation required by the safety plan and explain the reason respectfully."
+        },
+        {
+          "id": "B",
+          "text": "Respect the request immediately."
+        },
+        {
+          "id": "C",
+          "text": "Ask another patient to observe them."
+        },
+        {
+          "id": "D",
+          "text": "Reduce monitoring to preserve dignity."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safety planning may require observation while preserving dignity as much as possible."
+    },
+    {
+      "id": "q74",
+      "stem": "A patient in severe panic says, 'I am going to die.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that the symptoms are not serious."
+        },
+        {
+          "id": "B",
+          "text": "Stay with the person, use calm short statements and assess physical as well as psychological causes."
+        },
+        {
+          "id": "C",
+          "text": "Leave to reduce stimulation."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to complete a questionnaire."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should provide calm support and ensure that physical emergencies are not overlooked."
+    },
+    {
+      "id": "q75",
+      "stem": "Which statement about restraint is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may be used when staff are busy."
+        },
+        {
+          "id": "B",
+          "text": "It requires no ongoing monitoring."
+        },
+        {
+          "id": "C",
+          "text": "It should follow law and policy and be used only when less restrictive measures cannot manage serious immediate risk."
+        },
+        {
+          "id": "D",
+          "text": "It is part of routine de-escalation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Restrictive interventions require strict justification, monitoring and legal compliance."
+    },
+    {
+      "id": "q76",
+      "stem": "A patient abruptly stops a long-term sedative medicine and develops severe agitation and tremor. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expected recovery."
+        },
+        {
+          "id": "B",
+          "text": "A boundary issue."
+        },
+        {
+          "id": "C",
+          "text": "Medication effectiveness."
+        },
+        {
+          "id": "D",
+          "text": "Potential withdrawal requiring urgent assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Abrupt cessation of some medicines can cause dangerous withdrawal."
+    },
+    {
+      "id": "q77",
+      "stem": "Which protective factor may reduce suicide risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A trusted support person and willingness to seek help."
+        },
+        {
+          "id": "B",
+          "text": "Social isolation."
+        },
+        {
+          "id": "C",
+          "text": "Access to lethal means."
+        },
+        {
+          "id": "D",
+          "text": "Increasing hopelessness."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Support, connection and help-seeking can be protective, although they do not remove the need for assessment."
+    },
+    {
+      "id": "q78",
+      "stem": "A suicidal patient agrees verbally to stay safe. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rely on the verbal promise alone."
+        },
+        {
+          "id": "B",
+          "text": "Develop an individual safety plan, reduce access to means and arrange appropriate observation and escalation."
+        },
+        {
+          "id": "C",
+          "text": "End the assessment."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to take full responsibility."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A verbal promise is not a substitute for comprehensive safety planning."
+    },
+    {
+      "id": "q79",
+      "stem": "Which documentation is most appropriate after de-escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Patient was aggressive.'"
+        },
+        {
+          "id": "B",
+          "text": "The nurse's opinion of the patient's personality."
+        },
+        {
+          "id": "C",
+          "text": "Objective behaviour, identified triggers, interventions used, response, remaining risk and who was informed."
+        },
+        {
+          "id": "D",
+          "text": "Only the final medication given."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Documentation should be factual and include risk, intervention and response."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects safe crisis care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient becomes silent."
+        },
+        {
+          "id": "B",
+          "text": "Medication is administered quickly."
+        },
+        {
+          "id": "C",
+          "text": "Family members agree with the plan."
+        },
+        {
+          "id": "D",
+          "text": "Immediate risk is assessed, dignity is preserved, the least restrictive effective response is used and treatment effects are monitored."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe crisis care balances protection, dignity, proportionality and reassessment."
+    }
+  ]
+}

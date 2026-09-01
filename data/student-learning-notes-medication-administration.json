@@ -1,0 +1,776 @@
+{
+  "courseCode": "NURS-M13",
+  "title": "Module 13 — Medication Administration",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Medication administration is one of the most tested and most high-risk nursing responsibilities in NCLEX, and it is a frequent station type in the OBA OSCE. The exam does not only test what the drug is used for—it tests whether you can administer safely, recognise unsafe orders, prevent harm, and respond appropriately to adverse effects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the same structure every time you administer a medication:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prepare: verify order, check expiry, gather equipment.",
+            "Identify: 3 identifiers + allergies.",
+            "Assess: baseline vitals and required pre-assessments.",
+            "Administer safely: apply rights and correct technique.",
+            "Evaluate: reassess patient and monitor for adverse effects.",
+            "Document: record what you gave, why, and response."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "OSCE tip: narrate your safety checks out loud (identity check, allergies, rights, expiry, indication, education). Assessors award marks when they hear your reasoning."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Apply the 10 rights of medication administration consistently.",
+            "Calculate medication doses accurately (tablets, liquids, weight-based, insulin, IV rates).",
+            "Prepare and administer medications safely via oral, sublingual, topical, inhalation, SC, IM, and IV routes (as appropriate).",
+            "Demonstrate safe infection control and sharps safety during administration.",
+            "Recognise and respond to adverse drug reactions including anaphylaxis.",
+            "Prioritise nursing actions for medication errors and near-misses.",
+            "Teach patients about medication purpose, schedule, side effects, and red flags.",
+            "Document medication administration objectively and report incidents according to policy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Medication Safety Foundation (High Yield for NCLEX)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Medication errors are preventable causes of harm. NCLEX and OSCE questions often test whether you prioritise safety over speed. The safest nurse is systematic."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "The 10 Rights of Medication Administration",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Right patient (3 identifiers, not room number).",
+                "Right medication (check label 3 times).",
+                "Right dose (calculate, double-check, consider safe range).",
+                "Right route (PO, IM, SC, IV, etc.).",
+                "Right time (schedule, last dose, clinical timing).",
+                "Right documentation (chart after giving; include response).",
+                "Right reason (indication matches condition).",
+                "Right assessment (vitals, labs, contraindications).",
+                "Right education (teach purpose and side effects).",
+                "Right evaluation/response (reassess, monitor)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: When multiple answers seem correct, choose the option that protects the rights—especially identity, allergies, assessment, and evaluation."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "3 Checks + 2 Identifiers + Allergy Check",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Many facilities teach the \"3 label checks\" during medication preparation and administration:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Check 1: when you take the medication from storage.",
+                "Check 2: when you prepare it (pour/draw up).",
+                "Check 3: at the bedside before giving."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Always verify allergies before administering. For high-alert meds, many workplaces require independent double-check."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.3",
+          "title": "High-Alert Medications (Must Know)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "High-alert medications are more likely to cause serious harm if an error occurs. In NCLEX and OSCE, insulin and anticoagulants are especially common."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Insulin (rapid/short/intermediate/long acting).",
+                "Anticoagulants (heparin, warfarin, DOACs).",
+                "Opioids (morphine, fentanyl).",
+                "Electrolytes (potassium chloride).",
+                "Sedatives and IV vasoactive drugs."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Rule: high-alert medication → slow down, double-check, monitor closely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Medication Calculations (Step-by-Step)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Calculation questions are common. Use a consistent method to avoid mistakes."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Tablets/Capsules",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Formula: (Ordered ÷ Available) × Quantity. Example: Order 250 mg. Available 500 mg tablet. Quantity 1 tablet. Calculation: (250 ÷ 500) × 1 = 0.5 tablet."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Liquid Oral Medications",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Example: Order 375 mg. Available 250 mg/5 mL. Calculation: (375 ÷ 250) × 5 mL = 7.5 mL."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "Weight-Based Doses",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Example: Order 2 mg/kg for child weighing 18 kg. Dose: 2 × 18 = 36 mg."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.4",
+          "title": "IV Rate (Basic)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "mL/hr = total volume ÷ hours. Example: 1000 mL over 8 hr → 125 mL/hr."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.5",
+          "title": "Safety Check for Calculations",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Does the dose look reasonable for this patient?",
+                "Is it a high-alert medication requiring double-check?",
+                "Did I include the correct units (mg vs mcg)?",
+                "Did I avoid decimal errors (0.5 not .5; never trailing zero)?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Administration Routes and Key Techniques",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "OSCE frequently tests correct technique, infection control, and patient communication."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Oral (PO)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Assess swallowing ability and aspiration risk.",
+                "Position upright (High Fowler's).",
+                "Do not crush sustained-release/enteric-coated meds.",
+                "Stay until medication swallowed; offer water unless contraindicated."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If patient has dysphagia, consult speech pathology or use prescribed thickened fluids; do not force tablets."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Sublingual/Buccal",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Place medication under tongue/inside cheek.",
+                "Do not chew or swallow.",
+                "Do not offer food/drink immediately unless ordered."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Topical/Transdermal (Patches)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Wear gloves; remove old patch first.",
+                "Date/time and initial the new patch.",
+                "Rotate sites and check skin integrity."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.4",
+          "title": "Inhalation (MDI / Nebuliser)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Assess baseline respiratory status before giving bronchodilator.",
+                "Teach: exhale first → seal lips → inhale slowly → hold breath 10 seconds.",
+                "Rinse mouth after steroid inhalers to prevent thrush."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.5",
+          "title": "Subcutaneous Injection (Insulin/Heparin)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Choose site: abdomen (fast absorption), thigh, upper arm.",
+                "Rotate sites; avoid scars/bruises.",
+                "Pinch skin; insert 45–90 degrees depending on needle length/body habitus.",
+                "For heparin: do NOT aspirate or massage to prevent hematoma."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.6",
+          "title": "Intramuscular Injection",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Select correct site (deltoid/ventrogluteal/vastus lateralis).",
+                "Landmark carefully to avoid nerve injury.",
+                "Use aseptic technique and correct needle length.",
+                "Dispose sharps immediately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.7",
+          "title": "Intravenous (IV) Medication Safety (Concepts)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In many OSCE frameworks, the focus is on IV safety checks rather than complex preparation. IV medication errors can cause immediate harm."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Confirm patency of IV site; assess for infiltration/phlebitis.",
+                "Check compatibility with IV fluids and other meds.",
+                "Administer at prescribed rate; monitor for reactions.",
+                "Never push medication without knowing correct dilution and rate."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Pre-Administration Assessments (What to Check Before Giving)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Many medications require specific pre-checks. NCLEX often tests these."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Antihypertensives: check BP; hold if BP low per parameters.",
+            "Digoxin: apical pulse 1 minute; hold if HR < 60 (adult) unless ordered otherwise.",
+            "Insulin: check BGL; confirm meal timing for rapid-acting insulin.",
+            "Opioids: assess pain score, respiratory rate, sedation; hold if RR low.",
+            "Anticoagulants: check bleeding risk and relevant labs (INR for warfarin, aPTT for heparin)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: If RR is 8 and patient is very drowsy, you hold opioid, stimulate patient, notify provider, and prepare naloxone per protocol."
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Patient Education (How to Explain Simply)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Education is one of the medication rights. In OSCE, short clear teaching earns marks."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Name and purpose: \"This is to lower your blood pressure.\"",
+            "How/when to take: timing and with food/without food.",
+            "Side effects: common and serious red flags.",
+            "What to do if a dose is missed.",
+            "When to seek urgent help."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Teach-back: \"Can you tell me in your own words what this medicine is for and what side effects to watch for?\""
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Adverse Reactions and Anaphylaxis (Emergency Priorities)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adverse reactions range from mild nausea to life-threatening anaphylaxis. You must recognise red flags and act quickly."
+        },
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Mild vs Severe Reaction",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Mild: itching, mild rash, nausea.",
+                "Severe: airway swelling, wheeze, stridor, hypotension, collapse."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Anaphylaxis Response (Priority Steps)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Stop the medication (do not continue infusion).",
+                "Call for help / rapid response.",
+                "Maintain airway and apply oxygen.",
+                "Administer IM adrenaline/epinephrine per protocol.",
+                "Prepare IV fluids and monitoring.",
+                "Document reaction and report as adverse event."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX cue: Breathing and airway always come first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Medication Errors and Near Misses",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Medication errors test professional practice and safety. In NCLEX, the first priority is patient safety—not blame or paperwork."
+        },
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "If an Error Occurs",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Assess the patient immediately for harm.",
+                "Notify provider and charge nurse.",
+                "Implement interventions/monitoring as ordered.",
+                "Document patient status and actions taken.",
+                "Complete incident report per policy (not in patient chart)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Never hide an error. Transparency and reporting are professional obligations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "NGN/OSCE Case Studies (Medication Administration Practice)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Rapid-Acting Insulin with Meal Timing",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient with type 2 diabetes has BGL 15 mmol/L. Order: rapid-acting insulin per sliding scale. Lunch tray has not arrived yet."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: High-alert medication; Risk of hypoglycemia if meal delayed. Learning objectives: Apply insulin safety checks; Assess timing and prevent hypoglycemia; Educate patient."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Perform hand hygiene and verify patient identity (3 identifiers). Confirm allergies and check the medication order against policy/sliding scale chart. Check BGL result and confirm it belongs to this patient and was done correctly. Verify meal timing—ensure food is available before giving rapid-acting insulin. Calculate dose; have second nurse double-check if required. Select site (abdomen preferred), clean skin, administer SC at correct angle. Dispose sharps immediately; do not recap. Monitor for hypoglycemia and recheck BGL as per policy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation and safety checks: Hold insulin if meal is delayed; notify RN in charge/provider if needed. Documentation essentials: Document BGL, insulin type/dose/site/time and meal status; monitor response. Pro tips: In OSCE, say aloud: \"Rapid insulin must match food intake; I will confirm meal arrives.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Opioid Safety (Low Respiratory Rate)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient reports severe pain 9/10. Order: morphine IV/IM as prescribed. Assessment: RR 8, drowsy, SpO2 92%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Respiratory depression risk; High-risk adverse effect. Learning objectives: Assess before giving opioid; Prioritise safety and escalation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Perform hand hygiene and confirm identity and allergies. Assess sedation level, RR, SpO2, and pain. Recognise RR 8 as unsafe for opioid administration. Hold opioid and stimulate patient; ensure airway and breathing support. Notify provider/rapid response as per policy. Prepare naloxone per protocol and monitor closely."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation and safety checks: Escalate urgently because patient has opioid toxicity risk. Documentation essentials: Document assessment, withheld medication, escalation, and interventions. Pro tips: NCLEX rule: You assess first; if unsafe, you hold and escalate."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Heparin SC in Patient with Bruising",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient ordered SC heparin for DVT prevention. They have bruising around the abdomen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Bleeding/bruising risk; Incorrect site can worsen hematoma. Learning objectives: Administer heparin safely; Reduce bruising risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Verify identity and allergy status; confirm indication. Assess skin; avoid bruised areas and scars. Select alternate site; clean with antiseptic. Pinch skin fold; inject at 90 degrees as per protocol. Do not aspirate; do not massage after injection. Dispose sharps safely and observe for bleeding."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation and safety checks: Report excessive bleeding/bruising to provider. Documentation essentials: Document dose, site, time, and skin condition. Pro tips: OSCE: mention \"No aspiration or massage\" to score marks."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Transdermal Patch (Old Patch Still Present)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient is prescribed a fentanyl patch. On assessment, an old patch is found under the gown."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Risk of overdose; Duplicate therapy. Learning objectives: Apply patch safely and prevent error."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Perform identity and allergy checks. Assess for existing patches (old patch must be removed). Remove old patch with gloves; dispose according to policy. Assess sedation, RR, pain; check for toxicity signs. Apply new patch to clean dry skin; date/time/initial patch. Educate patient not to touch patch and to avoid heat sources."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation and safety checks: Escalate if overdose signs present (low RR, drowsy). Documentation essentials: Document patch removal, new patch site/time, assessment findings. Pro tips: NCLEX clue: Heat increases fentanyl absorption—dangerous."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Medication Error (Wrong Dose Given)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Nurse realises they administered double the ordered antihypertensive dose."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Risk of hypotension; Potential harm. Learning objectives: Respond safely to medication error."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Assess vital signs immediately (BP, HR) and symptoms (dizziness). Position patient safely; prevent falls. Notify provider and charge nurse; anticipate monitoring orders. Monitor BP closely and implement interventions as ordered (fluids, observation). Document patient status and actions; complete incident report."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation and safety checks: Escalate if hypotension occurs or patient symptomatic. Documentation essentials: Document assessments and provider notification; do not mention incident report in chart. Pro tips: Professional integrity: never hide the error; act fast and report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Mini Quiz — Module 13 Medication Administration",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Choose the safest and most correct nursing action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 1: Before giving any medication, the nurse must FIRST:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Check the patient's room number",
+            "B. Verify identity using 2–3 identifiers and allergies",
+            "C. Document administration",
+            "D. Ask family permission"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Patient identification and allergy check prevent serious errors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 2: Which is a high-alert medication requiring extra checks?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Paracetamol",
+            "B. Insulin",
+            "C. Antacid",
+            "D. Vitamin C"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Insulin errors can cause severe hypoglycemia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 3: A patient's RR is 8 and they are very drowsy. The nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Administer opioid for pain",
+            "B. Hold opioid and escalate; support breathing",
+            "C. Give double dose",
+            "D. Ignore RR"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Low RR indicates respiratory depression risk; hold and escalate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 4: When giving heparin SC, the nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Massage the site after injection",
+            "B. Aspirate before injection",
+            "C. Avoid aspiration and avoid massage",
+            "D. Rub alcohol after injection"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: No aspiration or massage reduces hematoma/bruising."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 5: Anaphylaxis priority action is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Document first",
+            "B. Stop medication and support airway/breathing; call help",
+            "C. Offer water",
+            "D. Wait for rash to improve"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Airway/breathing come first; stop agent and call for help."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 6: Correct abdominal assessment order is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Inspect, palpate, auscultate",
+            "B. Inspect, auscultate, palpate",
+            "C. Auscultate, inspect, palpate",
+            "D. Palpate first"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Auscultate before palpation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 7: Best practice for transdermal patches is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Apply new patch over old patch",
+            "B. Remove old patch before applying new patch",
+            "C. Do not label patch",
+            "D. Apply near heat source"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Old patch must be removed to prevent overdose."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 8: A medication error occurs. First priority is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Complete incident report",
+            "B. Assess the patient for harm",
+            "C. Blame pharmacy",
+            "D. Hide the error"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Patient safety first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 9: Right documentation means:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Chart before giving medication",
+            "B. Chart after administration and include response",
+            "C. Never chart adverse effects",
+            "D. Only chart if asked"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Documentation includes what was given and patient response."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 10: Teach-back means the nurse:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Gives a long lecture",
+            "B. Asks patient to explain the medication in their own words",
+            "C. Asks family to sign",
+            "D. Avoids questions"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Teach-back checks patient understanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For any incorrect answer, identify whether the question tested: rights of administration, route technique, high-alert medication, assessment before giving, or adverse reaction response. Practise the correct steps aloud as if in OSCE."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX and OBA OSCE preparation and do not replace facility medication policies, professional standards, or supervision."
+        }
+      ]
+    }
+  ]
+}

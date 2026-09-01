@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A woman with bipolar disorder presents with two hours of sleep each night, rapid speech, impulsive spending and escalating conflict at home. Which assessment approach is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Integrate mental state, physical health, substance use, medication, trauma, supports, current risk and previous relapse signs."
+        },
+        {
+          "id": "B",
+          "text": "Complete a mental state examination only."
+        },
+        {
+          "id": "C",
+          "text": "Focus on financial behaviour because it is the main problem."
+        },
+        {
+          "id": "D",
+          "text": "Delay risk assessment until the woman becomes calmer."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A comprehensive assessment integrates current presentation with physical health, substance use, history, strengths, supports and risk."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best describes a nursing formulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A diagnostic label written by the nurse."
+        },
+        {
+          "id": "B",
+          "text": "A concise explanation linking presenting problems, contributing factors, strengths, risks and priority nursing needs."
+        },
+        {
+          "id": "C",
+          "text": "A list of symptoms copied from the medical record."
+        },
+        {
+          "id": "D",
+          "text": "A numerical risk score."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A formulation organises assessment findings into a meaningful explanation that guides care."
+    },
+    {
+      "id": "q3",
+      "stem": "A patient reports suicidal thoughts but denies a plan. Which factor should the nurse assess next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the severity of low mood."
+        },
+        {
+          "id": "B",
+          "text": "Whether the patient agrees with the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Intent, access to means, past attempts, recent triggers and protective factors."
+        },
+        {
+          "id": "D",
+          "text": "Whether family members are available to visit."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Risk formulation requires more than the presence or absence of a plan."
+    },
+    {
+      "id": "q4",
+      "stem": "Why should a numerical suicide-risk score not determine care by itself?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scores are never used in mental health."
+        },
+        {
+          "id": "B",
+          "text": "They are only useful for medication decisions."
+        },
+        {
+          "id": "C",
+          "text": "They are legally prohibited in every jurisdiction."
+        },
+        {
+          "id": "D",
+          "text": "They cannot fully capture changing triggers, history, protective factors and clinical judgement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Risk is dynamic and requires clinical formulation rather than reliance on one number."
+    },
+    {
+      "id": "q5",
+      "stem": "A patient with severe depression has stopped eating and has poorly controlled diabetes. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both immediate physical-health needs and mental-health risk."
+        },
+        {
+          "id": "B",
+          "text": "Psychological symptoms only."
+        },
+        {
+          "id": "C",
+          "text": "Diabetes education after discharge only."
+        },
+        {
+          "id": "D",
+          "text": "Referral to dietetics without further assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "International mental health practice requires integrated physical and mental healthcare."
+    },
+    {
+      "id": "q6",
+      "stem": "Which handover statement is most useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“The patient is difficult and unpredictable.”"
+        },
+        {
+          "id": "B",
+          "text": "“The patient is increasingly suspicious, has slept two hours, believes neighbours are watching him, and becomes calmer when approached by one staff member.”"
+        },
+        {
+          "id": "C",
+          "text": "“The patient has schizophrenia.”"
+        },
+        {
+          "id": "D",
+          "text": "“The patient needs review.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective handover communicates current mental state, triggers, helpful strategies and required action objectively."
+    },
+    {
+      "id": "q7",
+      "stem": "A person identifies regular contact with a sibling and commitment to caring for a pet as reasons to stay safe. How should the nurse use this information?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude it because protective factors do not affect risk."
+        },
+        {
+          "id": "B",
+          "text": "Treat it as proof that suicide risk is absent."
+        },
+        {
+          "id": "C",
+          "text": "Include it in the risk formulation and safety plan."
+        },
+        {
+          "id": "D",
+          "text": "Document it only after discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Protective factors are important but do not eliminate the need for ongoing assessment."
+    },
+    {
+      "id": "q8",
+      "stem": "A patient with mania refuses to discuss sleep because “sleep is a waste of time.” Which response is most therapeutic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Argue that the belief is irrational."
+        },
+        {
+          "id": "B",
+          "text": "End the interview."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient that medication will solve the problem."
+        },
+        {
+          "id": "D",
+          "text": "Explore how reduced sleep is affecting energy, judgement and safety."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The nurse should explore impact and risk without confrontation."
+    },
+    {
+      "id": "q9",
+      "stem": "Which care plan is most actionable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Patient will contact the crisis line or named support if suicidal urges increase; nurse will review daily and the team will confirm medicine access before discharge.”"
+        },
+        {
+          "id": "B",
+          "text": "“Improve mental health.”"
+        },
+        {
+          "id": "C",
+          "text": "“Continue monitoring.”"
+        },
+        {
+          "id": "D",
+          "text": "“Encourage compliance.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Actionable plans specify goals, responsibilities, timeframes and practical steps."
+    },
+    {
+      "id": "q10",
+      "stem": "A patient’s cultural explanation of distress differs from the clinical team’s interpretation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correct the patient immediately."
+        },
+        {
+          "id": "B",
+          "text": "Explore the patient’s meaning, cultural context and help-seeking preferences while completing a safe assessment."
+        },
+        {
+          "id": "C",
+          "text": "Avoid discussing culture."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to interpret the patient’s beliefs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Culturally safe assessment asks rather than assumes and incorporates the person’s perspective."
+    },
+    {
+      "id": "q11",
+      "stem": "A patient with psychosis reports chest pain. What is the safest nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume anxiety is the cause."
+        },
+        {
+          "id": "B",
+          "text": "Wait until psychotic symptoms settle."
+        },
+        {
+          "id": "C",
+          "text": "Complete an appropriate physical assessment and escalate as indicated."
+        },
+        {
+          "id": "D",
+          "text": "Document the complaint for the next shift."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Physical symptoms should not be attributed automatically to mental illness."
+    },
+    {
+      "id": "q12",
+      "stem": "Which finding is a dynamic risk factor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A past suicide attempt ten years ago."
+        },
+        {
+          "id": "B",
+          "text": "Family history of depression."
+        },
+        {
+          "id": "C",
+          "text": "Childhood trauma."
+        },
+        {
+          "id": "D",
+          "text": "Recent relationship breakdown with increasing alcohol use."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Dynamic factors can change and may increase or reduce current risk."
+    },
+    {
+      "id": "q13",
+      "stem": "A formulation identifies insomnia, stimulant use, family conflict and missed medication as contributors to relapse. What should the plan do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Target the identified contributors with clear interventions and responsibilities."
+        },
+        {
+          "id": "B",
+          "text": "Address the diagnosis only."
+        },
+        {
+          "id": "C",
+          "text": "Remove the patient from decision-making."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on medication adherence."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Care planning should flow directly from the formulation."
+    },
+    {
+      "id": "q14",
+      "stem": "Which assessment finding should be communicated urgently?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable chronic anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Command hallucinations telling the patient to harm another person, with stated intent."
+        },
+        {
+          "id": "C",
+          "text": "A request for a different room."
+        },
+        {
+          "id": "D",
+          "text": "Past substance use without current symptoms."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Command hallucinations with intent represent an immediate safety concern."
+    },
+    {
+      "id": "q15",
+      "stem": "A patient becomes confused after a medication change. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the mental illness is worsening."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next psychiatric review."
+        },
+        {
+          "id": "C",
+          "text": "Assess physical causes, medicines, substance use and possible delirium."
+        },
+        {
+          "id": "D",
+          "text": "Increase stimulation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Acute cognitive change requires broad assessment, including physical and medication causes."
+    },
+    {
+      "id": "q16",
+      "stem": "What is the main purpose of relapse-prevention planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To predict the exact date of relapse."
+        },
+        {
+          "id": "B",
+          "text": "To replace follow-up appointments."
+        },
+        {
+          "id": "C",
+          "text": "To ensure the family controls treatment."
+        },
+        {
+          "id": "D",
+          "text": "To identify early warning signs, triggers, helpful actions and support contacts."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A practical relapse plan supports early action and shared responsibility."
+    },
+    {
+      "id": "q17",
+      "stem": "A patient’s risk appears lower after admission. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review what has changed, what risks remain and whether the improvement is sustainable."
+        },
+        {
+          "id": "B",
+          "text": "Stop assessment because the risk has resolved."
+        },
+        {
+          "id": "C",
+          "text": "Reduce documentation."
+        },
+        {
+          "id": "D",
+          "text": "Discharge immediately."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Risk is dynamic and must be reformulated as circumstances change."
+    },
+    {
+      "id": "q18",
+      "stem": "Which statement best reflects person-centred formulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is written without the patient to preserve objectivity."
+        },
+        {
+          "id": "B",
+          "text": "It combines professional assessment with the person’s own understanding, goals and strengths."
+        },
+        {
+          "id": "C",
+          "text": "It focuses on deficits only."
+        },
+        {
+          "id": "D",
+          "text": "It is identical to diagnosis."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Shared formulation respects the person as an active partner."
+    },
+    {
+      "id": "q19",
+      "stem": "A patient has no fixed address and limited transport. Why should this be included in care planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is unrelated to mental health."
+        },
+        {
+          "id": "B",
+          "text": "It is relevant only to social workers."
+        },
+        {
+          "id": "C",
+          "text": "It may affect follow-up, medicine access, safety and relapse risk."
+        },
+        {
+          "id": "D",
+          "text": "It should be discussed after discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Social circumstances influence access, continuity and risk."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates effective comprehensive assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The mental state examination is completed."
+        },
+        {
+          "id": "B",
+          "text": "A diagnosis is confirmed."
+        },
+        {
+          "id": "C",
+          "text": "The patient agrees with every recommendation."
+        },
+        {
+          "id": "D",
+          "text": "Mental, physical, social, cultural and risk information is integrated into a clear shared plan."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The goal is a coherent, person-centred plan rather than checklist completion. Section 2 - Managing Suicide, Self-Harm and Acute Behavioural Disturbance"
+    },
+    {
+      "id": "q21",
+      "stem": "A patient states that tablets are hidden at home and will be taken after discharge. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintain immediate safety, do not leave the patient alone, and initiate urgent review."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to promise not to act."
+        },
+        {
+          "id": "C",
+          "text": "Wait for family confirmation."
+        },
+        {
+          "id": "D",
+          "text": "Document the statement and continue routine care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A stated plan with access to means indicates high immediate risk."
+    },
+    {
+      "id": "q22",
+      "stem": "Which question is essential in suicide assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Why would you do that?”"
+        },
+        {
+          "id": "B",
+          "text": "“Have you decided when or how you would act, and do you have access to the means?”"
+        },
+        {
+          "id": "C",
+          "text": "“Can you guarantee you will stay safe?”"
+        },
+        {
+          "id": "D",
+          "text": "“Do you think suicide is selfish?”"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Direct, non-judgemental questions assess plan, timing, intent and means."
+    },
+    {
+      "id": "q23",
+      "stem": "A person has self-harmed but denies wanting to die. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume suicide risk is absent."
+        },
+        {
+          "id": "B",
+          "text": "Confront the person about attention-seeking."
+        },
+        {
+          "id": "C",
+          "text": "Treat the injury, assess current suicide risk and explore the function of self-harm without punishment."
+        },
+        {
+          "id": "D",
+          "text": "Discharge once the wound is treated."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Self-harm may serve different functions and still requires full risk assessment."
+    },
+    {
+      "id": "q24",
+      "stem": "Which observation plan is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The highest level for every patient."
+        },
+        {
+          "id": "B",
+          "text": "A fixed level until discharge."
+        },
+        {
+          "id": "C",
+          "text": "Observation only when the patient is awake."
+        },
+        {
+          "id": "D",
+          "text": "A purposeful level linked to current risk, reviewed and adjusted as the situation changes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Observation should be proportionate, purposeful and regularly reviewed."
+    },
+    {
+      "id": "q25",
+      "stem": "A patient is pacing, shouting and clenching fists. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduce stimulation, maintain safe distance, offer clear choices and call for support early."
+        },
+        {
+          "id": "B",
+          "text": "Move closer and challenge the behaviour."
+        },
+        {
+          "id": "C",
+          "text": "Threaten restraint."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to explain everything immediately."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Early de-escalation can reduce risk while preserving dignity."
+    },
+    {
+      "id": "q26",
+      "stem": "A patient threatens another person and has access to a weapon. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue the therapeutic interview."
+        },
+        {
+          "id": "B",
+          "text": "Activate the emergency safety plan and protect those at risk."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the patient to calm independently."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient to intervene."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "An immediate credible threat requires urgent protective action."
+    },
+    {
+      "id": "q27",
+      "stem": "Which factor increases short-term suicide risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable housing and strong supports."
+        },
+        {
+          "id": "B",
+          "text": "Participation in safety planning."
+        },
+        {
+          "id": "C",
+          "text": "Recent loss, intoxication and access to lethal means."
+        },
+        {
+          "id": "D",
+          "text": "Improved sleep."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Recent loss, intoxication and means can significantly increase immediate risk."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient asks to leave despite being under involuntary care. What should an IQN do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the law from the nurse’s previous country."
+        },
+        {
+          "id": "B",
+          "text": "Allow departure to preserve autonomy."
+        },
+        {
+          "id": "C",
+          "text": "Physically restrain the patient immediately."
+        },
+        {
+          "id": "D",
+          "text": "Check the local legal status, policy and senior advice before acting."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Legal requirements differ by jurisdiction and must be confirmed locally."
+    },
+    {
+      "id": "q29",
+      "stem": "Which action best supports collaborative safety planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identifying warning signs, coping strategies, support contacts and ways to reduce access to means together."
+        },
+        {
+          "id": "B",
+          "text": "Creating a plan without the patient."
+        },
+        {
+          "id": "C",
+          "text": "Relying on a no-suicide contract."
+        },
+        {
+          "id": "D",
+          "text": "Giving the patient a generic leaflet."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safety planning should be practical, personalised and collaborative."
+    },
+    {
+      "id": "q30",
+      "stem": "When is restrictive intervention justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whenever a patient refuses care."
+        },
+        {
+          "id": "B",
+          "text": "When serious immediate risk cannot be managed by less restrictive measures and legal requirements are met."
+        },
+        {
+          "id": "C",
+          "text": "When staffing is limited."
+        },
+        {
+          "id": "D",
+          "text": "When the patient is verbally rude."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Restriction must be necessary, proportionate, lawful and monitored."
+    },
+    {
+      "id": "q31",
+      "stem": "A patient becomes more agitated when several staff surround them. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add more staff to show authority."
+        },
+        {
+          "id": "B",
+          "text": "Block all exits."
+        },
+        {
+          "id": "C",
+          "text": "Reduce crowding, clarify one lead communicator and maintain safe exit access."
+        },
+        {
+          "id": "D",
+          "text": "Continue multiple simultaneous instructions."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Crowding and mixed messages can escalate distress."
+    },
+    {
+      "id": "q32",
+      "stem": "Which documentation is required after restraint?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the start and end time."
+        },
+        {
+          "id": "B",
+          "text": "The patient’s diagnosis only."
+        },
+        {
+          "id": "C",
+          "text": "A brief note that the patient was aggressive."
+        },
+        {
+          "id": "D",
+          "text": "Legal basis, alternatives attempted, monitoring, injuries, response and post-event review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Restrictive interventions require detailed, objective and legally compliant documentation."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient with command hallucinations says, “The voice tells me to jump, but I do not want to.” What should the nurse assess?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Content, frequency, ability to resist, intent, access and protective factors."
+        },
+        {
+          "id": "B",
+          "text": "Whether the voice is imaginary."
+        },
+        {
+          "id": "C",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "D",
+          "text": "Whether family members also hear voices."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Command hallucinations require direct assessment of safety implications."
+    },
+    {
+      "id": "q34",
+      "stem": "A patient under close observation appears calmer. What should happen next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "End observation immediately."
+        },
+        {
+          "id": "B",
+          "text": "Review current risk, recent behaviour and protective factors before changing the plan."
+        },
+        {
+          "id": "C",
+          "text": "Maintain the level permanently."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to choose the observation level."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Observation levels should change only after structured review."
+    },
+    {
+      "id": "q35",
+      "stem": "Which response is least therapeutic after self-harm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treating injuries and exploring distress."
+        },
+        {
+          "id": "B",
+          "text": "Assessing suicide risk."
+        },
+        {
+          "id": "C",
+          "text": "Using a punitive tone and removing privileges automatically."
+        },
+        {
+          "id": "D",
+          "text": "Collaborating on alternatives for coping."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Punitive responses increase shame and undermine therapeutic engagement."
+    },
+    {
+      "id": "q36",
+      "stem": "A patient becomes intoxicated and increasingly aggressive. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aggression is purely behavioural."
+        },
+        {
+          "id": "B",
+          "text": "Only psychiatric medication."
+        },
+        {
+          "id": "C",
+          "text": "Discharge as soon as the patient quietens."
+        },
+        {
+          "id": "D",
+          "text": "Both immediate violence risk and possible medical complications of intoxication."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Substance effects can increase risk and require physical as well as behavioural assessment."
+    },
+    {
+      "id": "q37",
+      "stem": "What is the purpose of post-event debriefing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To review what happened, support those involved and identify learning for future safety."
+        },
+        {
+          "id": "B",
+          "text": "To assign blame."
+        },
+        {
+          "id": "C",
+          "text": "To justify restraint."
+        },
+        {
+          "id": "D",
+          "text": "To replace incident reporting."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Debriefing supports recovery, staff wellbeing and system learning."
+    },
+    {
+      "id": "q38",
+      "stem": "A patient refuses family involvement in safety planning. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Share information anyway."
+        },
+        {
+          "id": "B",
+          "text": "Respect confidentiality unless lawful disclosure is required to prevent serious harm, and explore other supports."
+        },
+        {
+          "id": "C",
+          "text": "End the safety plan."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to attend secretly."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Consent and confidentiality should be respected while legal safety duties are considered."
+    },
+    {
+      "id": "q39",
+      "stem": "Which outcome best demonstrates effective crisis management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient becomes quiet."
+        },
+        {
+          "id": "B",
+          "text": "Medication is administered."
+        },
+        {
+          "id": "C",
+          "text": "Immediate risk is reduced through proportionate action while dignity, engagement and review are maintained."
+        },
+        {
+          "id": "D",
+          "text": "The family agrees with the plan."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Crisis care balances safety, least restriction and therapeutic engagement."
+    },
+    {
+      "id": "q40",
+      "stem": "A patient’s suicide risk rises after receiving unexpected legal news. What does this illustrate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risk remains fixed."
+        },
+        {
+          "id": "B",
+          "text": "Protective factors are irrelevant."
+        },
+        {
+          "id": "C",
+          "text": "Numerical scores are sufficient."
+        },
+        {
+          "id": "D",
+          "text": "Dynamic triggers can rapidly alter risk and require reformulation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Risk changes with circumstances and must be reassessed. Section 3 - Psychopharmacology, Physical Health and Co-occurring Conditions"
+    },
+    {
+      "id": "q41",
+      "stem": "A patient taking lithium develops vomiting, coarse tremor and confusion after several days of dehydration. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withhold further doses according to policy and arrange urgent medical review and blood testing."
+        },
+        {
+          "id": "B",
+          "text": "Give the next dose with food."
+        },
+        {
+          "id": "C",
+          "text": "Encourage extra exercise."
+        },
+        {
+          "id": "D",
+          "text": "Reassure the patient that these effects are expected."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The symptoms are consistent with lithium toxicity."
+    },
+    {
+      "id": "q42",
+      "stem": "Which monitoring is required for ongoing lithium therapy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mood only."
+        },
+        {
+          "id": "B",
+          "text": "Blood levels, renal function, thyroid function and stable fluid and salt intake."
+        },
+        {
+          "id": "C",
+          "text": "Liver function only."
+        },
+        {
+          "id": "D",
+          "text": "Weight only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Lithium has a narrow therapeutic range and requires systematic monitoring."
+    },
+    {
+      "id": "q43",
+      "stem": "A patient taking an antipsychotic develops high fever, severe rigidity and altered consciousness. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serotonin syndrome."
+        },
+        {
+          "id": "B",
+          "text": "Mild sedation."
+        },
+        {
+          "id": "C",
+          "text": "Neuroleptic malignant syndrome."
+        },
+        {
+          "id": "D",
+          "text": "Alcohol withdrawal."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fever, rigidity and altered consciousness are key warning signs of neuroleptic malignant syndrome."
+    },
+    {
+      "id": "q44",
+      "stem": "Which adverse effect should be monitored with many antipsychotics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only nausea."
+        },
+        {
+          "id": "B",
+          "text": "Improved sleep."
+        },
+        {
+          "id": "C",
+          "text": "Increased appetite only."
+        },
+        {
+          "id": "D",
+          "text": "Weight gain, glucose disturbance, lipid changes, movement disorders and cardiac risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Antipsychotics may affect metabolic, neurological and cardiac health."
+    },
+    {
+      "id": "q45",
+      "stem": "A patient becomes restless, sweaty, tremulous and hyperreflexic after an antidepressant dose increase. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serotonin toxicity."
+        },
+        {
+          "id": "B",
+          "text": "Lithium toxicity."
+        },
+        {
+          "id": "C",
+          "text": "Expected activation only."
+        },
+        {
+          "id": "D",
+          "text": "Opioid withdrawal."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The cluster is concerning for serotonin syndrome."
+    },
+    {
+      "id": "q46",
+      "stem": "Why should physical-health screening be routine in severe mental illness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mental-health medicines eliminate physical risk."
+        },
+        {
+          "id": "B",
+          "text": "People experience significant physical-health inequality and may have unrecognised cardiometabolic disease."
+        },
+        {
+          "id": "C",
+          "text": "Physical health is managed only in primary care."
+        },
+        {
+          "id": "D",
+          "text": "Screening is needed only before admission."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Weight, blood pressure, glucose, lipids, smoking and preventive care should be addressed."
+    },
+    {
+      "id": "q47",
+      "stem": "A patient taking an antipsychotic gains 12 kg and develops elevated glucose. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the change because psychiatric stability is more important."
+        },
+        {
+          "id": "B",
+          "text": "Stop the medicine independently."
+        },
+        {
+          "id": "C",
+          "text": "Escalate for metabolic review and support nutrition, activity and treatment discussion."
+        },
+        {
+          "id": "D",
+          "text": "Document only at discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Metabolic effects require active monitoring and multidisciplinary management."
+    },
+    {
+      "id": "q48",
+      "stem": "A patient abruptly stops heavy alcohol use and develops agitation, sweating and tremor. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat as simple anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Encourage sleep without monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Delay care until hallucinations appear."
+        },
+        {
+          "id": "D",
+          "text": "Assess for severe withdrawal and arrange urgent medical management."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Alcohol withdrawal can progress rapidly and may be life-threatening."
+    },
+    {
+      "id": "q49",
+      "stem": "Which statement best reflects care for co-occurring substance use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both mental-health and substance-related needs should be assessed and managed together."
+        },
+        {
+          "id": "B",
+          "text": "Substance use must be treated before mental illness."
+        },
+        {
+          "id": "C",
+          "text": "The patient must stop all substances before receiving care."
+        },
+        {
+          "id": "D",
+          "text": "Substance use is outside nursing scope."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Integrated care avoids fragmented treatment."
+    },
+    {
+      "id": "q50",
+      "stem": "A patient taking a sedating medicine is difficult to rouse. What should the nurse assess first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appetite."
+        },
+        {
+          "id": "B",
+          "text": "Airway, breathing, oxygenation and level of consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Family support."
+        },
+        {
+          "id": "D",
+          "text": "Mood."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Excessive sedation may compromise breathing and requires urgent physiological assessment."
+    },
+    {
+      "id": "q51",
+      "stem": "A patient reports chest pain after stimulant use. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume panic."
+        },
+        {
+          "id": "B",
+          "text": "Wait until intoxication resolves."
+        },
+        {
+          "id": "C",
+          "text": "Complete urgent physical assessment and escalate possible cardiovascular complications."
+        },
+        {
+          "id": "D",
+          "text": "Focus on motivation to stop substances."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Stimulant use can cause serious cardiovascular harm."
+    },
+    {
+      "id": "q52",
+      "stem": "Which finding suggests movement-related antipsychotic adverse effects?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable gait."
+        },
+        {
+          "id": "B",
+          "text": "Improved concentration."
+        },
+        {
+          "id": "C",
+          "text": "Mild thirst."
+        },
+        {
+          "id": "D",
+          "text": "New tremor, rigidity or involuntary movements."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Movement disorders require assessment and review."
+    },
+    {
+      "id": "q53",
+      "stem": "A patient taking lithium begins a low-salt diet and intense exercise during hot weather. Why is this concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changes in salt and fluid balance may increase lithium levels and toxicity risk."
+        },
+        {
+          "id": "B",
+          "text": "It will improve lithium clearance."
+        },
+        {
+          "id": "C",
+          "text": "It affects thyroid function only."
+        },
+        {
+          "id": "D",
+          "text": "It has no relevance to lithium."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Dehydration and altered sodium balance can increase lithium concentration."
+    },
+    {
+      "id": "q54",
+      "stem": "Which nursing action supports cardiovascular health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitoring only when symptoms occur."
+        },
+        {
+          "id": "B",
+          "text": "Regular blood pressure, weight, smoking and metabolic assessment with health-promotion support."
+        },
+        {
+          "id": "C",
+          "text": "Leaving all physical care to medical staff."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding exercise discussion."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Whole-person care includes prevention and risk reduction."
+    },
+    {
+      "id": "q55",
+      "stem": "A patient with depression reports new agitation and suicidal thoughts after starting an antidepressant. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that this is always expected."
+        },
+        {
+          "id": "B",
+          "text": "Stop treatment independently."
+        },
+        {
+          "id": "C",
+          "text": "Assess risk urgently and communicate the possible activation effect."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the next routine appointment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Early activation or worsening suicidality requires prompt review."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient with opioid intoxication has slow breathing and reduced consciousness. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mental state examination."
+        },
+        {
+          "id": "B",
+          "text": "Discharge planning."
+        },
+        {
+          "id": "C",
+          "text": "Family education first."
+        },
+        {
+          "id": "D",
+          "text": "Emergency airway and breathing support and urgent medical response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Opioid overdose is a medical emergency."
+    },
+    {
+      "id": "q57",
+      "stem": "Why should nurses avoid diagnostic overshadowing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Physical symptoms may be wrongly attributed to mental illness, delaying treatment."
+        },
+        {
+          "id": "B",
+          "text": "It makes documentation longer."
+        },
+        {
+          "id": "C",
+          "text": "It increases medicine adherence."
+        },
+        {
+          "id": "D",
+          "text": "It applies only to older adults."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Diagnostic overshadowing contributes to physical-health inequality."
+    },
+    {
+      "id": "q58",
+      "stem": "A patient on antipsychotic treatment reports palpitations and fainting. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure the patient."
+        },
+        {
+          "id": "B",
+          "text": "Assess urgently for possible cardiac adverse effects."
+        },
+        {
+          "id": "C",
+          "text": "Advise more fluids only."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next medication review."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Palpitations and syncope may indicate significant cardiac risk."
+    },
+    {
+      "id": "q59",
+      "stem": "Which outcome best demonstrates integrated psychopharmacology care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient takes the medicine."
+        },
+        {
+          "id": "B",
+          "text": "The prescription remains unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Benefits, adverse effects, blood tests, physical health and substance use are monitored together."
+        },
+        {
+          "id": "D",
+          "text": "Only psychiatric symptoms improve."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe medication care is whole-person and ongoing."
+    },
+    {
+      "id": "q60",
+      "stem": "A patient using several substances presents with confusion. What is the best approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume primary psychosis."
+        },
+        {
+          "id": "B",
+          "text": "Wait until the patient is sober."
+        },
+        {
+          "id": "C",
+          "text": "Use a psychiatric checklist only."
+        },
+        {
+          "id": "D",
+          "text": "Assess intoxication, withdrawal, physical illness, medicines and mental state together."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Complex presentations require broad differential assessment. Section 4 - Legal, Ethical and Culturally Safe International Practice"
+    },
+    {
+      "id": "q61",
+      "stem": "An international nurse is unsure whether a voluntary patient may leave the unit. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check the patient’s legal status, local policy and senior advice before acting."
+        },
+        {
+          "id": "B",
+          "text": "Use practice from the nurse’s home country."
+        },
+        {
+          "id": "C",
+          "text": "Prevent departure automatically."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient what usually happens."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Mental-health law differs across jurisdictions and must be confirmed locally."
+    },
+    {
+      "id": "q62",
+      "stem": "Which principle should guide involuntary care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maximum control."
+        },
+        {
+          "id": "B",
+          "text": "Lawful, proportionate and least restrictive care with review rights respected."
+        },
+        {
+          "id": "C",
+          "text": "Family preference only."
+        },
+        {
+          "id": "D",
+          "text": "Convenience for the service."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Core principles include dignity, autonomy, proportionality and least restriction."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient lacks decision-making capacity for one treatment. What should the nurse understand?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Capacity is permanently absent for all decisions."
+        },
+        {
+          "id": "B",
+          "text": "The family automatically becomes the legal decision-maker."
+        },
+        {
+          "id": "C",
+          "text": "Capacity is decision-specific and may change over time."
+        },
+        {
+          "id": "D",
+          "text": "Involuntary status removes all rights."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Capacity should be assessed for the specific decision and context."
+    },
+    {
+      "id": "q64",
+      "stem": "A patient discloses a serious and immediate threat to another person. How should confidentiality be managed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keep the information secret in all circumstances."
+        },
+        {
+          "id": "B",
+          "text": "Tell the entire family."
+        },
+        {
+          "id": "C",
+          "text": "Post a general warning."
+        },
+        {
+          "id": "D",
+          "text": "Share information through lawful channels necessary to prevent serious harm and explain limits where possible."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Confidentiality has lawful limits when serious harm is at stake."
+    },
+    {
+      "id": "q65",
+      "stem": "A family asks for information, but the patient has not consented. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protect confidentiality, seek consent and share only what is lawfully permitted."
+        },
+        {
+          "id": "B",
+          "text": "Share everything because family members provide support."
+        },
+        {
+          "id": "C",
+          "text": "Refuse all communication with the family."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to access the record."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Family involvement must respect consent, confidentiality and safety."
+    },
+    {
+      "id": "q66",
+      "stem": "Which situation requires a professional interpreter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A casual greeting."
+        },
+        {
+          "id": "B",
+          "text": "A complex consent, risk or legal-status discussion when language barriers exist."
+        },
+        {
+          "id": "C",
+          "text": "Only discharge paperwork."
+        },
+        {
+          "id": "D",
+          "text": "Any conversation regardless of language ability."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional interpretation supports accuracy, consent and cultural safety."
+    },
+    {
+      "id": "q67",
+      "stem": "A patient’s family expects to make all treatment decisions, but the patient wishes to decide independently. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the family’s cultural expectation automatically."
+        },
+        {
+          "id": "B",
+          "text": "Exclude the family immediately."
+        },
+        {
+          "id": "C",
+          "text": "Explore the patient’s preferences and capacity, while respectfully discussing family roles."
+        },
+        {
+          "id": "D",
+          "text": "Ask the interpreter to decide."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cultural safety requires asking rather than assuming and prioritising the person’s rights."
+    },
+    {
+      "id": "q68",
+      "stem": "Which action is most trauma-informed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using surprise to avoid anticipatory anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Requiring detailed trauma disclosure."
+        },
+        {
+          "id": "C",
+          "text": "Using restraint early."
+        },
+        {
+          "id": "D",
+          "text": "Explaining what will happen, offering choices and avoiding unnecessary coercion."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Trauma-informed care promotes safety, trust, choice and control."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient under involuntary care requests information about review rights. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide accurate information according to local law and policy."
+        },
+        {
+          "id": "B",
+          "text": "Discourage the request."
+        },
+        {
+          "id": "C",
+          "text": "Refer the patient only after discharge."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family whether the review is appropriate."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patients retain legal rights and should receive clear information."
+    },
+    {
+      "id": "q70",
+      "stem": "Which documentation is most important when care is provided under mental-health legislation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A general statement that the patient is detained."
+        },
+        {
+          "id": "B",
+          "text": "Legal status, authority, assessments, decisions, restrictions, reviews and information provided."
+        },
+        {
+          "id": "C",
+          "text": "Diagnosis only."
+        },
+        {
+          "id": "D",
+          "text": "Family opinion only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Legal care requires precise and contemporaneous documentation."
+    },
+    {
+      "id": "q71",
+      "stem": "A nurse assumes that a patient from a particular culture does not discuss suicide. What is the main problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The assumption saves time."
+        },
+        {
+          "id": "B",
+          "text": "Culture has no relevance to mental health."
+        },
+        {
+          "id": "C",
+          "text": "It may prevent direct assessment and culturally safe care."
+        },
+        {
+          "id": "D",
+          "text": "The family should answer instead."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cultural safety requires respectful enquiry, not stereotypes."
+    },
+    {
+      "id": "q72",
+      "stem": "Which multidisciplinary practice best improves continuity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Each discipline writes a separate plan."
+        },
+        {
+          "id": "B",
+          "text": "The medical team makes all decisions."
+        },
+        {
+          "id": "C",
+          "text": "Families coordinate all services."
+        },
+        {
+          "id": "D",
+          "text": "Clear shared goals, named responsibilities and timely communication across settings."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Defined roles and shared planning reduce fragmentation."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient wants a spiritual leader involved. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Support involvement with consent and according to safety and service processes."
+        },
+        {
+          "id": "B",
+          "text": "Decline because spirituality is outside healthcare."
+        },
+        {
+          "id": "C",
+          "text": "Share all clinical information automatically."
+        },
+        {
+          "id": "D",
+          "text": "Ask the spiritual leader to make decisions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Culturally responsive care may include spiritual support chosen by the person."
+    },
+    {
+      "id": "q74",
+      "stem": "An IQN is unfamiliar with local restraint law. What is the safest action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use previous-country practice."
+        },
+        {
+          "id": "B",
+          "text": "Seek senior guidance and review policy before independent use except in immediate emergency actions within scope."
+        },
+        {
+          "id": "C",
+          "text": "Avoid all crisis care."
+        },
+        {
+          "id": "D",
+          "text": "Rely on another junior nurse."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Orientation to local law is essential before independent practice."
+    },
+    {
+      "id": "q75",
+      "stem": "Which statement best reflects autonomy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autonomy always overrides safety."
+        },
+        {
+          "id": "B",
+          "text": "Autonomy applies only to voluntary patients."
+        },
+        {
+          "id": "C",
+          "text": "People should be involved in decisions as far as possible, with limits only when lawfully justified."
+        },
+        {
+          "id": "D",
+          "text": "Families determine autonomy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Autonomy is fundamental but may be limited lawfully and proportionately."
+    },
+    {
+      "id": "q76",
+      "stem": "A family provides important relapse information, but the patient requests privacy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the family."
+        },
+        {
+          "id": "B",
+          "text": "Disclose the entire care plan."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to decide treatment."
+        },
+        {
+          "id": "D",
+          "text": "Receive relevant information, protect confidentiality and discuss with the patient how support can be involved."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinicians may receive information while still protecting what they disclose."
+    },
+    {
+      "id": "q77",
+      "stem": "Which question best supports cultural formulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“How do you understand what is happening, and who would you like involved?”"
+        },
+        {
+          "id": "B",
+          "text": "“Why do people from your culture believe this?”"
+        },
+        {
+          "id": "C",
+          "text": "“Do you follow traditional beliefs?”"
+        },
+        {
+          "id": "D",
+          "text": "“Would you prefer standard care?”"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Open respectful questions explore meaning and preferences without stereotyping."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient has hearing impairment and complex legal information must be discussed. What should the nurse arrange?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Written notes only."
+        },
+        {
+          "id": "B",
+          "text": "Appropriate accessible communication support and confirmation of understanding."
+        },
+        {
+          "id": "C",
+          "text": "Family interpretation only."
+        },
+        {
+          "id": "D",
+          "text": "Delay the discussion indefinitely."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Legal and consent discussions require accessible communication."
+    },
+    {
+      "id": "q79",
+      "stem": "Which outcome best demonstrates safe family collaboration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The family receives all information."
+        },
+        {
+          "id": "B",
+          "text": "The family directs the care plan."
+        },
+        {
+          "id": "C",
+          "text": "Family support is used appropriately while the patient’s consent, privacy and safety are respected."
+        },
+        {
+          "id": "D",
+          "text": "The patient is excluded from discussion."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Collaboration must balance support with rights and confidentiality."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects safe international mental-health practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse applies previous-country routines confidently."
+        },
+        {
+          "id": "B",
+          "text": "The patient accepts all treatment."
+        },
+        {
+          "id": "C",
+          "text": "The family is always involved."
+        },
+        {
+          "id": "D",
+          "text": "The nurse uses local law, culturally safe communication, least restriction and clear multidisciplinary coordination."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "International practice requires local legal orientation, cultural responsiveness and coordinated care."
+    }
+  ]
+}

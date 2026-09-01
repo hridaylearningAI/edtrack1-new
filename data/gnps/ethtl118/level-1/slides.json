@@ -1,0 +1,2061 @@
+{
+  "level": 1,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 1 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 4 - Level 1 - Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 4 · Adult Medical-Surgical Nursing I",
+          "bullets": [
+            {
+              "label": "\"Understand conditions. Deliver quality care.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 — QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to Program 4",
+          "body": "Adult medical-surgical nursing sits at the heart of everyday hospital practice. Nurses care for adults experiencing acute illness, long-term conditions, surgery, pain, reduced mobility and changing physical function.",
+          "bullets": [
+            {
+              "label": "This programme develops the practical",
+              "text": "This programme develops the practical knowledge, clinical reasoning and professional behaviours required to assess adults, plan care, recognise deterioration and deliver safe interventions across hospital, clinic and community settings."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Systematic Assessment",
+              "text": ""
+            },
+            {
+              "label": "Complete a structured head-to-toe adult patient assessment",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Relate common symptoms to underlying body system changes",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Nursing Process",
+              "text": ""
+            },
+            {
+              "label": "Develop individualised, evidence-based care plans",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Surgical Nursing",
+              "text": ""
+            },
+            {
+              "label": "Prepare patients for surgery and deliver safe postoperative care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "Adult patients rarely present with a single problem. A person admitted with pneumonia may also have diabetes, reduced mobility and kidney impairment — all at the same time.",
+          "bullets": [
+            {
+              "label": "Nurses must connect assessment findings,",
+              "text": "Nurses must connect assessment findings, identify the most urgent need and coordinate care — without losing sight of the patient's comfort, dignity and goals."
+            },
+            {
+              "label": "Holistic nursing means treating the whole person, not just the diagnosis.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Foundations of Adult Medical-Surgical Nursing",
+          "bullets": [
+            {
+              "label": "The Whole Person",
+              "text": ""
+            },
+            {
+              "label": "Nursing addresses how disease affects the person — physically, emotionally, socially and functionally.",
+              "text": ""
+            },
+            {
+              "label": "Pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Understanding how illness alters body function helps nurses interpret symptoms and anticipate complications.",
+              "text": ""
+            },
+            {
+              "label": "The Nursing Process",
+              "text": ""
+            },
+            {
+              "label": "Assess → Identify → Plan → Implement → Evaluate. Continuous, not a one-time written exercise.",
+              "text": ""
+            },
+            {
+              "label": "Prioritisation",
+              "text": ""
+            },
+            {
+              "label": "Airway, breathing and circulation guide urgent decisions. Safety and life-threatening concerns come first.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "The Nursing Process",
+          "body": "Assessment",
+          "bullets": [
+            {
+              "label": "Problem Identification",
+              "text": ""
+            },
+            {
+              "label": "Planning",
+              "text": ""
+            },
+            {
+              "label": "Implementation",
+              "text": ""
+            },
+            {
+              "label": "The nursing process is a continuous clinical",
+              "text": "The nursing process is a continuous clinical cycle — not a one-time exercise. Each stage informs the next, ensuring care remains safe, responsive and person-centred throughout the patient's journey."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example — Mr Singh",
+          "body": "Admitted with pneumonia: fever, productive cough, low oxygen saturation and weakness. The nurse first addresses breathing — positions him upright, applies prescribed oxygen and completes respiratory assessment. Hydration, medication, mobility and education follow, all prioritised by immediate risk while remaining person-centred.",
+          "bullets": [
+            {
+              "label": "Treat the person, not only the diagnosis",
+              "text": ""
+            },
+            {
+              "label": "Use pathophysiology to interpret assessment findings",
+              "text": ""
+            },
+            {
+              "label": "Prioritise airway, breathing, circulation and immediate safety",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Comprehensive Assessment & Clinical Reasoning",
+          "bullets": [
+            {
+              "label": "A thorough assessment provides the foundation",
+              "text": "A thorough assessment provides the foundation for every nursing decision. Adult patients may deteriorate gradually — early clues can be subtle."
+            },
+            {
+              "label": "History & Baseline",
+              "text": ""
+            },
+            {
+              "label": "Presenting problem, medications, allergies, cognition, nutrition and social circumstances",
+              "text": ""
+            },
+            {
+              "label": "Physical Assessment",
+              "text": ""
+            },
+            {
+              "label": "Systematic head-to-toe: airway, breathing, circulation, skin, abdomen, mobility",
+              "text": ""
+            },
+            {
+              "label": "Vital Sign Trends",
+              "text": ""
+            },
+            {
+              "label": "A single reading may appear normal — a trend may reveal deterioration",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Recognising Deterioration — Early Warning Signs",
+          "body": "Rising Respiratory Rate",
+          "bullets": [
+            {
+              "label": "An increasing respiratory rate is often the",
+              "text": "An increasing respiratory rate is often the earliest sign of clinical deterioration — observe trends, not single readings."
+            },
+            {
+              "label": "New Tachycardia",
+              "text": ""
+            },
+            {
+              "label": "Unexplained increase in heart rate may signal pain, bleeding, infection or cardiovascular compromise.",
+              "text": ""
+            },
+            {
+              "label": "Reduced Urine Output",
+              "text": ""
+            },
+            {
+              "label": "Falling urine output may indicate dehydration, reduced kidney perfusion or developing shock.",
+              "text": ""
+            },
+            {
+              "label": "Increasing Confusion",
+              "text": ""
+            },
+            {
+              "label": "New or worsening confusion is a red flag — assess oxygenation, blood glucose, infection and medication effects.",
+              "text": ""
+            },
+            {
+              "label": "Escalate concerns before severe deterioration occurs — act on trends, not just single abnormal values.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example — Mrs Chen",
+          "body": "Recovering from abdominal surgery. Blood pressure remains within normal range — but respiratory rate has risen, urine output has fallen and she appears restless. The nurse recognises the trend, repeats observations, assesses the wound and fluid balance, and escalates promptly.",
+          "bullets": [
+            {
+              "label": "Key lesson: A normal blood pressure alone does not mean a patient is safe. Always assess the full clinical picture.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Nursing Care for Common Medical Conditions",
+          "bullets": [
+            {
+              "label": "Cardiovascular",
+              "text": ""
+            },
+            {
+              "label": "Monitor pain, fluid balance, activity tolerance",
+              "text": "Monitor pain, fluid balance, activity tolerance and medication response. Escalate chest pain, hypotension or arrhythmia urgently."
+            },
+            {
+              "label": "Respiratory",
+              "text": ""
+            },
+            {
+              "label": "Asthma, COPD, pneumonia. Positioning, oxygen therapy, inhaled treatments, hydration and sputum management.",
+              "text": ""
+            },
+            {
+              "label": "Renal & Fluid Balance",
+              "text": ""
+            },
+            {
+              "label": "Accurate intake/output, daily weight, blood pressure and oedema assessment for kidney impairment.",
+              "text": ""
+            },
+            {
+              "label": "Endocrine & GI",
+              "text": ""
+            },
+            {
+              "label": "Blood glucose monitoring, medication safety, nutrition, foot care and recognition of hypo- or hyperglycaemia.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example — Mr Ali",
+          "body": "Mr Ali has heart failure and diabetes. He becomes more breathless, gains 2 kg in three days and develops ankle swelling.",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Fluid balance, oxygen saturation, lung sounds and blood glucose",
+              "text": ""
+            },
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "Administer prescribed therapy and escalate the clinical change",
+              "text": ""
+            },
+            {
+              "label": "Educate",
+              "text": ""
+            },
+            {
+              "label": "Teach the patient why daily weight monitoring is critical for self-management",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Surgical Nursing & Prevention of Complications",
+          "bullets": [
+            {
+              "label": "Preoperative",
+              "text": ""
+            },
+            {
+              "label": "Intraoperative",
+              "text": ""
+            },
+            {
+              "label": "Immediate Postop",
+              "text": ""
+            },
+            {
+              "label": "Recovery & Discharge",
+              "text": ""
+            },
+            {
+              "label": "Surgical nursing begins before the procedure",
+              "text": "Surgical nursing begins before the procedure and continues through recovery and discharge. Nurses prepare patients physically and emotionally, confirm safety requirements and prevent complications at every stage."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Preventing Postoperative Complications",
+          "body": "Deep Breathing & Coughing",
+          "bullets": [
+            {
+              "label": "Reduces risk of atelectasis and chest infection",
+              "text": ""
+            },
+            {
+              "label": "Early Mobilisation",
+              "text": ""
+            },
+            {
+              "label": "Prevents venous thromboembolism, pressure injuries and muscle weakness",
+              "text": ""
+            },
+            {
+              "label": "Aseptic Wound Care",
+              "text": ""
+            },
+            {
+              "label": "Prevents surgical site infection with sterile technique and regular assessment",
+              "text": ""
+            },
+            {
+              "label": "Pain Management",
+              "text": ""
+            },
+            {
+              "label": "Effective pain relief enables breathing, movement and rest — essential for recovery",
+              "text": ""
+            },
+            {
+              "label": "Clinical Example: Ms Brown reports calf pain",
+              "text": "Clinical Example: Ms Brown reports calf pain and swelling post knee surgery. The nurse recognises possible VTE, stops mobilisation, escalates urgently and follows the clinical pathway. Early recognition prevents treatment delay."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal — Level 1 Complete",
+          "body": "By completing GNPS Program 4 — Level 1, you have developed the foundational knowledge and clinical skills to:",
+          "bullets": [
+            {
+              "label": "Assess adults with common medical and surgical conditions",
+              "text": ""
+            },
+            {
+              "label": "Develop safe, individualised nursing care plans",
+              "text": ""
+            },
+            {
+              "label": "Recognise and respond to early signs of deterioration",
+              "text": ""
+            },
+            {
+              "label": "NEXT: LEVEL 2 — INTERNATIONAL QUALIFIED NURSE · COMPLEX CARE · MULTIDISCIPLINARY COORDINATION",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-16"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Foundations of Adult Medical-Surgical Nursing",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 4 - Level 1 - Section 1 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 4 · Adult Medical-Surgical Nursing I",
+          "bullets": [
+            {
+              "label": "\"Understand conditions. Deliver quality care.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 3 – GLOBAL NURSING PROFESSIONAL",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 – QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1: Foundations of Adult Medical-Surgical Nursing",
+          "body": "Introduction",
+          "bullets": [
+            {
+              "label": "Adult medical-surgical nursing focuses on",
+              "text": "Adult medical-surgical nursing focuses on caring for people who experience acute illness, chronic disease, injury, or surgery. Effective care addresses not only the clinical condition, but also pain, mobility, nutrition, emotional wellbeing, family support, and discharge readiness."
+            },
+            {
+              "label": "All care is organised through the nursing",
+              "text": "All care is organised through the nursing process: assessment, problem identification, planning, implementation, and evaluation."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Scope of Practice",
+              "text": ""
+            },
+            {
+              "label": "Explain the scope of adult medical-surgical nursing",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Nursing Process",
+              "text": ""
+            },
+            {
+              "label": "Describe each stage of the nursing process",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Relate pathophysiology to common clinical manifestations",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Patient Response",
+              "text": ""
+            },
+            {
+              "label": "Identify factors that influence an adult patient's response to illness",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "The Adult Patient as a Whole Person",
+          "body": "A medical diagnosis describes the disease — nursing care addresses how that disease affects the person. Assessment must consider physical, psychological, social, cultural, and functional dimensions.",
+          "bullets": [
+            {
+              "label": "Breathlessness",
+              "text": ""
+            },
+            {
+              "label": "May reduce mobility and disrupt sleep",
+              "text": ""
+            },
+            {
+              "label": "Pain",
+              "text": ""
+            },
+            {
+              "label": "May limit coughing or movement after surgery",
+              "text": ""
+            },
+            {
+              "label": "Social Factors",
+              "text": ""
+            },
+            {
+              "label": "Financial or family concerns can hinder recovery",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Pathophysiology & Clinical Presentation",
+          "body": "Understanding how a condition alters normal body function helps the nurse interpret symptoms and anticipate complications before they escalate.",
+          "bullets": [
+            {
+              "label": "Why It Matters",
+              "text": ""
+            },
+            {
+              "label": "When nurses understand the underlying mechanism, they can:",
+              "text": ""
+            },
+            {
+              "label": "Recognise early warning signs",
+              "text": ""
+            },
+            {
+              "label": "Prioritise urgent interventions",
+              "text": ""
+            },
+            {
+              "label": "Educate patients on what to expect",
+              "text": ""
+            },
+            {
+              "label": "Collaborate effectively with the medical team",
+              "text": ""
+            },
+            {
+              "label": "Pathophysiology knowledge bridges the gap",
+              "text": "Pathophysiology knowledge bridges the gap between knowing a diagnosis and understanding its impact on the individual patient."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "The Nursing Process",
+          "body": "Assessment",
+          "bullets": [
+            {
+              "label": "Problem Identification",
+              "text": ""
+            },
+            {
+              "label": "Planning",
+              "text": ""
+            },
+            {
+              "label": "Implementation & Evaluation",
+              "text": ""
+            },
+            {
+              "label": "The nursing process is continuous — not a",
+              "text": "The nursing process is continuous — not a single written exercise. Each stage informs the next, and evaluation loops back to reassessment, ensuring care remains responsive and evidence-based throughout the patient's journey."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Prioritisation in Clinical Practice",
+          "body": "Frameworks for Safe Decision-Making",
+          "bullets": [
+            {
+              "label": "Airway · Breathing · Circulation",
+              "text": ""
+            },
+            {
+              "label": "The immediate framework for any urgent or deteriorating patient",
+              "text": ""
+            },
+            {
+              "label": "Acute vs. Chronic",
+              "text": ""
+            },
+            {
+              "label": "New or worsening findings take precedence over stable, long-standing issues",
+              "text": ""
+            },
+            {
+              "label": "Stable vs. Unstable",
+              "text": ""
+            },
+            {
+              "label": "Unstable patients require continuous monitoring and rapid escalation",
+              "text": ""
+            },
+            {
+              "label": "Expected vs. Unexpected",
+              "text": ""
+            },
+            {
+              "label": "Unexpected changes signal potential complications requiring immediate action",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Mr Singh",
+          "body": "DIAGNOSIS: PNEUMONIA",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Presentation",
+              "text": ""
+            },
+            {
+              "label": "Fever, productive cough, low oxygen saturation, and weakness on admission",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Immediate Priority",
+              "text": ""
+            },
+            {
+              "label": "Position upright, apply prescribed oxygen, and complete respiratory assessment",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Ongoing Plan",
+              "text": ""
+            },
+            {
+              "label": "Hydration, prescribed medication, graded mobility, and patient education",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Person-Centred",
+              "text": ""
+            },
+            {
+              "label": "Clinical priorities are balanced with Mr Singh's individual needs and preferences",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Treat the Whole Person",
+          "bullets": [
+            {
+              "label": "Address not only the diagnosis, but the person's physical, emotional, and social experience of illness",
+              "text": ""
+            },
+            {
+              "label": "Apply Pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Use your understanding of disease mechanisms to interpret findings and anticipate problems",
+              "text": ""
+            },
+            {
+              "label": "Use the Nursing Process",
+              "text": ""
+            },
+            {
+              "label": "Apply assessment, planning, implementation, and evaluation continuously — not just at admission",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Safety First",
+              "text": ""
+            },
+            {
+              "label": "Airway, breathing, and circulation guide every urgent clinical decision",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Ready to Progress?",
+          "body": "You have completed Section 1: Foundations of Adult Medical-Surgical Nursing. These core principles underpin every clinical scenario you will encounter in Sections 2–5 and in your NCLEX preparation.",
+          "bullets": [
+            {
+              "label": "📋 Review",
+              "text": ""
+            },
+            {
+              "label": "Revisit the nursing process stages and prioritisation framework",
+              "text": ""
+            },
+            {
+              "label": "📖 Reflect",
+              "text": ""
+            },
+            {
+              "label": "Consider how pathophysiology shaped Mr Singh's nursing priorities",
+              "text": ""
+            },
+            {
+              "label": "➡️ Continue",
+              "text": ""
+            },
+            {
+              "label": "Proceed to Section 2: Caring for Patients with Respiratory Conditions",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 4 · ADULT MEDICAL-SURGICAL NURSING I",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Comprehensive Assessment & Clinical Reasoning",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 4 - Level 1 - Section 2 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Comprehensive Assessment & Clinical Reasoning",
+          "body": "GNPS Program 4 · Adult Medical-Surgical Nursing I",
+          "bullets": [
+            {
+              "label": "Section 2 — Global Nursing Professional Series (GNPS) · Level 3",
+              "text": ""
+            },
+            {
+              "label": "\"UNDERSTAND CONDITIONS. DELIVER QUALITY CARE.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Section Matters",
+          "body": "Assessment Is the Foundation of Every Nursing Decision",
+          "bullets": [
+            {
+              "label": "Adult patients can deteriorate gradually, and",
+              "text": "Adult patients can deteriorate gradually, and early warning signs are often subtle. A structured, thorough assessment gives nurses the information they need to act before a situation becomes critical."
+            },
+            {
+              "label": "Clinical reasoning means more than collecting",
+              "text": "Clinical reasoning means more than collecting data — it means interpreting what the data means and deciding what to do next, in the right order."
+            },
+            {
+              "label": "Early recognition saves lives. Assessment is not a one-time task — it is a continuous process.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Structured Assessment",
+              "text": ""
+            },
+            {
+              "label": "Conduct a systematic head-to-toe physical assessment",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Findings",
+              "text": ""
+            },
+            {
+              "label": "Distinguish normal from abnormal clinical findings confidently",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Interpret Trends",
+              "text": ""
+            },
+            {
+              "label": "Analyse trends in vital signs and basic investigations",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Problems",
+              "text": ""
+            },
+            {
+              "label": "Use clinical reasoning to identify and act on priority nursing problems",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 1",
+          "body": "History & Baseline",
+          "bullets": [
+            {
+              "label": "Knowing the patient's usual condition is",
+              "text": "Knowing the patient's usual condition is essential — it makes new changes far easier to recognise. A thorough history should cover:"
+            },
+            {
+              "label": "Presenting Problem",
+              "text": ""
+            },
+            {
+              "label": "Chief complaint & timeline",
+              "text": ""
+            },
+            {
+              "label": "Medical History",
+              "text": ""
+            },
+            {
+              "label": "Past conditions, medications, allergies",
+              "text": ""
+            },
+            {
+              "label": "Function & Nutrition",
+              "text": ""
+            },
+            {
+              "label": "Mobility, diet, elimination, sleep",
+              "text": ""
+            },
+            {
+              "label": "Cognition & Social",
+              "text": ""
+            },
+            {
+              "label": "Mental status, living situation, support",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 2",
+          "body": "Head-to-Toe Physical Assessment",
+          "bullets": [
+            {
+              "label": "A systematic approach ensures no system is",
+              "text": "A systematic approach ensures no system is overlooked. Findings must be recorded objectively and compared with previous observations."
+            },
+            {
+              "label": "Airway & Breathing",
+              "text": ""
+            },
+            {
+              "label": "Respiratory rate, effort, oxygen saturation, breath sounds",
+              "text": ""
+            },
+            {
+              "label": "Circulation",
+              "text": ""
+            },
+            {
+              "label": "Heart rate, blood pressure, skin colour, capillary refill, peripheral pulses",
+              "text": ""
+            },
+            {
+              "label": "Neurological Status",
+              "text": ""
+            },
+            {
+              "label": "Level of consciousness, orientation, confusion, GCS if indicated",
+              "text": ""
+            },
+            {
+              "label": "Skin, Abdomen & Mobility",
+              "text": ""
+            },
+            {
+              "label": "Wound condition, bowel sounds, pressure areas, assistive devices",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 3",
+          "body": "Vital Signs & Trends — Look Beyond the Single Reading",
+          "bullets": [
+            {
+              "label": "A single observation may appear acceptable in",
+              "text": "A single observation may appear acceptable in isolation, while a trend reveals deterioration. Train yourself to look for combinations and direction of change over time."
+            },
+            {
+              "label": "↑ Respiratory Rate",
+              "text": ""
+            },
+            {
+              "label": "Often the earliest warning sign",
+              "text": ""
+            },
+            {
+              "label": "↓ Oxygen Saturation",
+              "text": ""
+            },
+            {
+              "label": "May lag behind respiratory distress",
+              "text": ""
+            },
+            {
+              "label": "New Tachycardia",
+              "text": ""
+            },
+            {
+              "label": "Could indicate pain, sepsis, or hypovolaemia",
+              "text": ""
+            },
+            {
+              "label": "↓ Urine Output",
+              "text": ""
+            },
+            {
+              "label": "Sensitive indicator of fluid status and renal perfusion",
+              "text": ""
+            },
+            {
+              "label": "Increasing Confusion",
+              "text": ""
+            },
+            {
+              "label": "May signal hypoxia, infection, or haemodynamic compromise",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 4",
+          "body": "Interpreting Diagnostic Information",
+          "bullets": [
+            {
+              "label": "Laboratory and diagnostic results support —",
+              "text": "Laboratory and diagnostic results support — they do not replace — clinical assessment. Understand the clinical meaning of these common investigations within your scope of practice."
+            },
+            {
+              "label": "Full Blood Count",
+              "text": ""
+            },
+            {
+              "label": "Haemoglobin, WBC, platelets",
+              "text": ""
+            },
+            {
+              "label": "Electrolytes & Renal Function",
+              "text": ""
+            },
+            {
+              "label": "Na, K, creatinine, urea",
+              "text": ""
+            },
+            {
+              "label": "Blood Glucose",
+              "text": ""
+            },
+            {
+              "label": "Hypo/hyperglycaemia detection",
+              "text": ""
+            },
+            {
+              "label": "ECG & ABG",
+              "text": ""
+            },
+            {
+              "label": "Cardiac rhythm, acid-base balance",
+              "text": ""
+            },
+            {
+              "label": "Chest Imaging",
+              "text": ""
+            },
+            {
+              "label": "Lung fields, fluid, consolidation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example — Mrs Chen",
+          "body": "Mrs Chen is recovering from abdominal surgery. Her blood pressure remains within normal range — but her respiratory rate has risen, urine output has fallen, and she appears restless.",
+          "bullets": [
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Rising RR, low urine, restlessness",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Notify medical team promptly",
+              "text": ""
+            },
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Check wound, fluid balance, repeat obs",
+              "text": ""
+            },
+            {
+              "label": "The nurse does not wait for the blood pressure",
+              "text": "The nurse does not wait for the blood pressure to fall. The trend — not a single value — triggers timely assessment and escalation. This is clinical reasoning in action."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "The Clinical Reasoning Process",
+          "body": "From Cues to Action",
+          "bullets": [
+            {
+              "label": "Collect Cues",
+              "text": ""
+            },
+            {
+              "label": "Gather history, observations, and diagnostic data systematically",
+              "text": ""
+            },
+            {
+              "label": "Compare to Baseline",
+              "text": ""
+            },
+            {
+              "label": "What has changed from the patient's normal or previous readings?",
+              "text": ""
+            },
+            {
+              "label": "Interpret Meaning",
+              "text": ""
+            },
+            {
+              "label": "What could explain this combination of findings?",
+              "text": ""
+            },
+            {
+              "label": "Act & Escalate",
+              "text": ""
+            },
+            {
+              "label": "Intervene at your scope level and escalate concerns promptly",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Know the Baseline",
+          "bullets": [
+            {
+              "label": "Establish the patient's usual condition — changes are only meaningful against a known normal",
+              "text": ""
+            },
+            {
+              "label": "Assess Systematically",
+              "text": ""
+            },
+            {
+              "label": "A structured head-to-toe approach prevents missed findings — never rely on a single symptom",
+              "text": ""
+            },
+            {
+              "label": "Track Trends & Combinations",
+              "text": ""
+            },
+            {
+              "label": "Look for direction of change over time and patterns across multiple parameters",
+              "text": ""
+            },
+            {
+              "label": "Escalate Early",
+              "text": ""
+            },
+            {
+              "label": "Act before severe deterioration occurs — early escalation improves patient outcomes",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Tip: Questions often test your ability to",
+              "text": "NCLEX Tip: Questions often test your ability to recognise early deterioration and select the priority nursing action — escalation and reassessment are frequently correct responses."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Nursing Care for Common Medical Conditions",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 4 - Level 1 - Section 3 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Adult Medical-Surgical Nursing I",
+          "body": "Global Nursing Professional Series (GNPS) — Program 4",
+          "bullets": [
+            {
+              "label": "Section 3: Nursing Care for Common Medical Conditions",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 1 · Qualified Nurse",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "By the end of this section, you will be able to confidently care for adults with common medical conditions across five key body systems.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Describe Priority Care",
+              "text": ""
+            },
+            {
+              "label": "Identify nursing priorities for common adult medical conditions",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Monitor & Detect",
+              "text": ""
+            },
+            {
+              "label": "Track treatment response and recognise early complications",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Apply Safe Practice",
+              "text": ""
+            },
+            {
+              "label": "Deliver safe fluid, oxygen, nutrition and medication care",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Empower Patients",
+              "text": ""
+            },
+            {
+              "label": "Support self-management and health promotion strategies",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Cardiovascular Conditions",
+          "body": "Hypertension, coronary artery disease and heart failure are among the most common conditions nurses manage in adult wards.",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Pain, circulation, fluid balance and activity tolerance",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Response to medications, blood pressure and heart rhythm",
+              "text": ""
+            },
+            {
+              "label": "Escalate Urgently",
+              "text": ""
+            },
+            {
+              "label": "New chest pain, severe breathlessness, hypotension or arrhythmia",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Respiratory Conditions",
+          "body": "Asthma · COPD · Pneumonia",
+          "bullets": [
+            {
+              "label": "These conditions reduce oxygenation and increase the work of breathing. Timely, structured nursing care is critical.",
+              "text": ""
+            },
+            {
+              "label": "Positioning: Upright to ease breathlessness",
+              "text": ""
+            },
+            {
+              "label": "Oxygen therapy: As prescribed; monitor saturation",
+              "text": ""
+            },
+            {
+              "label": "Inhaled treatments: Bronchodilators and nebulisers",
+              "text": ""
+            },
+            {
+              "label": "Sputum management: Encourage hydration and expectoration",
+              "text": ""
+            },
+            {
+              "label": "Watch for: Fatigue, worsening effort or respiratory failure",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Renal & Fluid Balance",
+          "body": "Acute or chronic kidney impairment disrupts fluid regulation, electrolyte levels and medication clearance — requiring precise, consistent monitoring.",
+          "bullets": [
+            {
+              "label": "Intake & Output",
+              "text": ""
+            },
+            {
+              "label": "Accurate fluid charting every shift",
+              "text": ""
+            },
+            {
+              "label": "Daily Weight",
+              "text": ""
+            },
+            {
+              "label": "Detect fluid gain or loss early",
+              "text": ""
+            },
+            {
+              "label": "Blood Pressure & Oedema",
+              "text": ""
+            },
+            {
+              "label": "Key indicators of fluid status",
+              "text": ""
+            },
+            {
+              "label": "Renal Lab Results",
+              "text": ""
+            },
+            {
+              "label": "Review urea, creatinine and electrolytes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Gastrointestinal & Endocrine Conditions",
+          "body": "GI Assessment",
+          "bullets": [
+            {
+              "label": "Assess for abdominal pain, vomiting, bleeding",
+              "text": "Assess for abdominal pain, vomiting, bleeding and altered bowel function. Monitor nutritional intake and escalate signs of deterioration."
+            },
+            {
+              "label": "Diabetes Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Regular blood glucose checks, safe insulin or",
+              "text": "Regular blood glucose checks, safe insulin or medication administration, and early recognition of hypo- or hyperglycaemia."
+            },
+            {
+              "label": "Foot Care & Infection",
+              "text": ""
+            },
+            {
+              "label": "Inspect feet for wounds, pressure or infection. Diabetes impairs healing — prevention and early detection are essential.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Mr Ali",
+          "body": "\"He becomes more breathless, gains 2 kg in three days and develops ankle swelling.\"",
+          "bullets": [
+            {
+              "label": "Conditions: Heart failure + Diabetes",
+              "text": ""
+            },
+            {
+              "label": "This case illustrates how two conditions interact, and why holistic assessment matters.",
+              "text": ""
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Review Fluid Balance",
+              "text": ""
+            },
+            {
+              "label": "Intake, output and daily weight trend",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Assess Clinically",
+              "text": ""
+            },
+            {
+              "label": "O₂ saturation, lung sounds, blood glucose",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Administer & Escalate",
+              "text": ""
+            },
+            {
+              "label": "Prescribed therapy and timely referral",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Educate the Patient",
+              "text": ""
+            },
+            {
+              "label": "Explain the importance of daily weight monitoring",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Nursing Assessment Across Systems",
+          "body": "Each body system requires a targeted yet connected approach. Use this framework to structure your clinical thinking.",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Evaluate symptoms and vital signs promptly.",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Track trends and review lab results.",
+              "text": ""
+            },
+            {
+              "label": "Intervene",
+              "text": ""
+            },
+            {
+              "label": "Provide care and escalate as needed.",
+              "text": ""
+            },
+            {
+              "label": "Educate",
+              "text": ""
+            },
+            {
+              "label": "Teach self-management and follow-up.",
+              "text": ""
+            },
+            {
+              "label": "This cycle repeats with every patient contact — linking observation to action to outcomes.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Red Flag Recognition",
+          "body": "Timely escalation saves lives. Know when to act — these signs require urgent review regardless of the body system involved.",
+          "bullets": [
+            {
+              "label": "Cardiovascular",
+              "text": ""
+            },
+            {
+              "label": "New chest pain, hypotension, arrhythmia, severe breathlessness",
+              "text": ""
+            },
+            {
+              "label": "Respiratory",
+              "text": ""
+            },
+            {
+              "label": "Increasing effort, falling O₂ saturation, exhaustion, silent chest",
+              "text": ""
+            },
+            {
+              "label": "Renal",
+              "text": ""
+            },
+            {
+              "label": "Sudden fluid overload, oliguria, rising creatinine or potassium",
+              "text": ""
+            },
+            {
+              "label": "Endocrine",
+              "text": ""
+            },
+            {
+              "label": "Severe hypoglycaemia, DKA signs, uncontrolled hyperglycaemia",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Carry these principles into every shift — they underpin safe, effective medical-surgical nursing.",
+          "bullets": [
+            {
+              "label": "Connect Symptoms to Systems",
+              "text": ""
+            },
+            {
+              "label": "Link what you observe to the underlying condition and pathophysiology",
+              "text": ""
+            },
+            {
+              "label": "Monitor Disease and Treatment",
+              "text": ""
+            },
+            {
+              "label": "Track both progression of illness and the patient's response to interventions",
+              "text": ""
+            },
+            {
+              "label": "Use Fluid Balance & Weight",
+              "text": ""
+            },
+            {
+              "label": "These are vital, objective clinical indicators — chart them accurately every shift",
+              "text": ""
+            },
+            {
+              "label": "Teach Patients to Recognise Change",
+              "text": ""
+            },
+            {
+              "label": "Empowered patients detect deterioration earlier and manage conditions better",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Tip: Prioritisation questions often test",
+              "text": "NCLEX Tip: Prioritisation questions often test whether you can identify the most urgent finding and the most appropriate nursing action — practise applying these principles to clinical scenarios."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Surgical Nursing & Prevention of Complications",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 4 - Level 1 - Section 4 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Surgical Nursing and Prevention of Complications",
+          "body": "GNPS Programme 4 · Adult Medical-Surgical Nursing I · Level 1 — Qualified Nurse",
+          "bullets": [
+            {
+              "label": "SECTION 4",
+              "text": ""
+            },
+            {
+              "label": "UNDERSTAND CONDITIONS. DELIVER QUALITY CARE.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Global Nursing Professional Series",
+          "body": "What You Will Learn in This Section",
+          "bullets": [
+            {
+              "label": "Surgical nursing spans every phase — from",
+              "text": "Surgical nursing spans every phase — from pre-operative preparation to safe discharge. By the end of this section, you will be able to:"
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Prepare Safely",
+              "text": ""
+            },
+            {
+              "label": "Ready an adult patient for surgery with confidence",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Assess Post-Op",
+              "text": ""
+            },
+            {
+              "label": "Perform priority postoperative assessments accurately",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Recognise Complications",
+              "text": ""
+            },
+            {
+              "label": "Identify common postoperative complications early",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Promote Recovery",
+              "text": ""
+            },
+            {
+              "label": "Support recovery through pain relief, breathing and mobility",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Preoperative Care: Setting the Foundation for Safety",
+          "body": "Surgical safety begins well before the patient enters the theatre. Preoperative nursing is a systematic process covering all critical safety checkpoints.",
+          "bullets": [
+            {
+              "label": "Identity & Consent",
+              "text": ""
+            },
+            {
+              "label": "Confirm patient identity, valid signed consent and procedure details",
+              "text": ""
+            },
+            {
+              "label": "Clinical Readiness",
+              "text": ""
+            },
+            {
+              "label": "Check fasting status, allergies, medications and investigations",
+              "text": ""
+            },
+            {
+              "label": "Emotional Support",
+              "text": ""
+            },
+            {
+              "label": "Reduce anxiety through clear communication and patient education",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Immediate Postoperative Assessment",
+          "body": "On return from theatre, a structured ABCDE assessment is your first priority. Every finding must be compared with the patient's preoperative baseline and the procedure performed.",
+          "bullets": [
+            {
+              "label": "Why Baseline Comparison Matters",
+              "text": ""
+            },
+            {
+              "label": "A blood pressure of 100/60 mmHg may be normal",
+              "text": "A blood pressure of 100/60 mmHg may be normal for one patient and a red flag for another. Always interpret findings in context — the procedure type, anaesthetic used, and the patient's premorbid status all influence expected recovery parameters."
+            },
+            {
+              "label": "Escalate early. Subtle changes in consciousness",
+              "text": "Escalate early. Subtle changes in consciousness or urine output can signal serious complications before overt signs appear."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Core Complication Prevention",
+          "body": "Preventing Postoperative Complications",
+          "bullets": [
+            {
+              "label": "Respiratory Care",
+              "text": ""
+            },
+            {
+              "label": "Deep breathing, coughing exercises and incentive spirometry reduce atelectasis and pneumonia risk",
+              "text": ""
+            },
+            {
+              "label": "Early Mobilisation",
+              "text": ""
+            },
+            {
+              "label": "Getting patients up and moving — even briefly — significantly reduces VTE risk and aids recovery",
+              "text": ""
+            },
+            {
+              "label": "Wound & Pressure Care",
+              "text": ""
+            },
+            {
+              "label": "Aseptic wound technique and regular repositioning prevent infection and pressure injuries",
+              "text": ""
+            },
+            {
+              "label": "Hydration & VTE Prevention",
+              "text": ""
+            },
+            {
+              "label": "Adequate fluids, compression stockings and anticoagulants form a multi-layered thrombosis prevention strategy",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "The Role of Pain Management in Recovery",
+          "body": "Pain is More Than Discomfort",
+          "bullets": [
+            {
+              "label": "Undertreated pain prevents patients from",
+              "text": "Undertreated pain prevents patients from breathing deeply, mobilising safely, and resting adequately — directly increasing the risk of respiratory, thromboembolic and wound complications."
+            },
+            {
+              "label": "Assess pain regularly using a validated tool (e.g. NRS 0–10)",
+              "text": ""
+            },
+            {
+              "label": "Use a multimodal approach: analgesia, positioning, distraction",
+              "text": ""
+            },
+            {
+              "label": "Reassess after every intervention",
+              "text": ""
+            },
+            {
+              "label": "Document and escalate if uncontrolled",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Recognising VTE",
+          "body": "After knee surgery, Ms Brown reports increasing calf pain and swelling. This is a classic presentation requiring immediate action.",
+          "bullets": [
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Identify unilateral calf pain, swelling and warmth as possible DVT",
+              "text": ""
+            },
+            {
+              "label": "Respond",
+              "text": ""
+            },
+            {
+              "label": "Stop unnecessary mobilisation; perform full limb assessment",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Urgently notify the medical team and follow the clinical pathway",
+              "text": ""
+            },
+            {
+              "label": "Document",
+              "text": ""
+            },
+            {
+              "label": "Record findings, escalation time and interventions accurately",
+              "text": ""
+            },
+            {
+              "label": "Early recognition of VTE prevents progression",
+              "text": "Early recognition of VTE prevents progression to potentially fatal pulmonary embolism. Never delay escalation when symptoms are present."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Recovery and Safe Discharge",
+          "body": "Discharge planning begins on admission. Effective discharge reduces readmissions and empowers patients to manage their recovery safely at home.",
+          "bullets": [
+            {
+              "label": "Wound Care",
+              "text": ""
+            },
+            {
+              "label": "How to clean and dress the wound; signs of infection to watch for",
+              "text": ""
+            },
+            {
+              "label": "Medications",
+              "text": ""
+            },
+            {
+              "label": "Dosage, timing, side effects and what to do if a dose is missed",
+              "text": ""
+            },
+            {
+              "label": "Activity & Diet",
+              "text": ""
+            },
+            {
+              "label": "Graded return to activity, dietary guidance and hydration targets",
+              "text": ""
+            },
+            {
+              "label": "Follow-Up & Warning Signs",
+              "text": ""
+            },
+            {
+              "label": "Scheduled reviews and red flags that require urgent medical attention",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus",
+          "body": "Key Points for Examination Success",
+          "bullets": [
+            {
+              "label": "What the NCLEX Expects You to Know",
+              "text": ""
+            },
+            {
+              "label": "Surgical safety starts before the operation — preoperative checks are a nurse-led responsibility",
+              "text": ""
+            },
+            {
+              "label": "Always prioritise Airway, Breathing, Circulation in the immediate postoperative period",
+              "text": ""
+            },
+            {
+              "label": "Evidence-based early actions — breathing exercises, mobilisation, VTE prophylaxis — prevent complications",
+              "text": ""
+            },
+            {
+              "label": "Clear discharge teaching on warning signs is a core nursing obligation before every patient goes home",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 4 Complete",
+          "body": "You have covered the full surgical nursing journey — from preoperative preparation and immediate recovery assessment, through complication prevention, to safe and informed discharge.",
+          "bullets": [
+            {
+              "label": "Up Next",
+              "text": ""
+            },
+            {
+              "label": "GNPS Programme 4 · Section 5: Caring for Adults with Chronic Conditions",
+              "text": ""
+            },
+            {
+              "label": "Practise",
+              "text": ""
+            },
+            {
+              "label": "Review NCLEX-style questions on surgical complications and postoperative priorities",
+              "text": ""
+            },
+            {
+              "label": "Reflect",
+              "text": ""
+            },
+            {
+              "label": "Consider a surgical patient you have cared for — how does this framework apply?",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    }
+  ]
+}

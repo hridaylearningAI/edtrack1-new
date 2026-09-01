@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Dementia with agitation",
+      "scenario": "An elderly patient with diagnosed dementia becomes increasingly agitated, repeatedly attempting to leave the unit and shouting at staff. The patient appears confused about where they are and why they are hospitalized.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety and use calming communication.",
+      "modelWhy": "Agitation increases fall risk.",
+      "modelNext": "Assess for unmet needs.",
+      "trap": "Using restraints immediately.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Delirium vs dementia",
+      "scenario": "An older adult who was previously oriented becomes acutely confused following surgery. The patient is disoriented to time and place and has difficulty following simple instructions.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess for delirium and underlying causes.",
+      "modelWhy": "Delirium is often reversible.",
+      "modelNext": "Review medications and labs.",
+      "trap": "Assuming progression of dementia.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "PTSD flashback",
+      "scenario": "A patient suddenly becomes visibly distressed after hearing a loud noise. The patient appears disoriented, breathing rapidly, and reacts as if reliving a past traumatic event.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ground the patient in the present moment.",
+      "modelWhy": "Flashbacks can trigger panic.",
+      "modelNext": "Assess coping strategies.",
+      "trap": "Telling the patient it’s not real.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Violent behavior",
+      "scenario": "A patient becomes verbally aggressive, begins shouting, and throws nearby objects. The patient’s body language is tense, and they appear increasingly angry and unpredictable.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety and initiate de-escalation.",
+      "modelWhy": "Early intervention prevents injury.",
+      "modelNext": "Maintain a safe distance.",
+      "trap": "Arguing with the patient.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Involuntary admission",
+      "scenario": "A patient refuses further treatment and attempts to leave the unit despite expressing thoughts of self-harm earlier. The patient denies needing help and insists on leaving immediately.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate involuntary admission per legal protocol.",
+      "modelWhy": "Safety overrides autonomy in emergencies.",
+      "modelNext": "Document behavior thoroughly.",
+      "trap": "Allowing the patient to leave.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Medication consent",
+      "scenario": "A patient refuses prescribed antipsychotic medication, stating fear of side effects and lack of trust in medications. The patient appears guarded and questions the necessity of treatment.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide information and assess decision-making capacity.",
+      "modelWhy": "Informed consent is required.",
+      "modelNext": "Explore alternative options.",
+      "trap": "Forcing medication without assessment.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Sleep disturbance",
+      "scenario": "A patient reports chronic difficulty sleeping, stating they feel exhausted, irritable, and unable to concentrate during the day. The patient reports lying awake for hours each night.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess sleep hygiene and contributing factors.",
+      "modelWhy": "Sleep impacts mental health.",
+      "modelNext": "Monitor response to interventions.",
+      "trap": "Prescribing sedatives immediately.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Substance use relapse",
+      "scenario": "A patient in recovery for substance use disorder admits to using substances again after a period of sobriety. The patient appears ashamed and fears being judged or discharged from care.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Respond nonjudgmentally and assess triggers.",
+      "modelWhy": "Support reduces relapse severity.",
+      "modelNext": "Review relapse prevention plan.",
+      "trap": "Threatening discharge.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

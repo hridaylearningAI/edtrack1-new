@@ -1,0 +1,954 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Lithium Toxicity",
+      "stem": "Ms. Olivia Hart, a 36-year-old woman with bipolar disorder treated with lithium, presents with nausea, vomiting, coarse tremor, and increasing unsteadiness. She says she recently had several days of diarrhea and thought it would be fine to keep taking the same lithium dose. She now feels weak and confused. The nurse notes slurred speech, ataxic gait, dehydration signs, and a toxic lithium level reported from the laboratory. The nurse recognises lithium toxicity likely worsened by fluid loss. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate lithium toxicity? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ataxia and slurred speech"
+            },
+            {
+              "id": "B",
+              "text": "Dehydration after diarrhea"
+            },
+            {
+              "id": "C",
+              "text": "Nausea and vomiting"
+            },
+            {
+              "id": "D",
+              "text": "Elevated lithium level"
+            },
+            {
+              "id": "E",
+              "text": "Coarse tremor"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings support lithium toxicity. Dehydration reduces lithium clearance and can rapidly raise levels. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Simple viral illness only"
+            },
+            {
+              "id": "B",
+              "text": "Lithium toxicity requiring urgent intervention and fluid/renal assessment"
+            },
+            {
+              "id": "C",
+              "text": "Mild expected medication side effect only"
+            },
+            {
+              "id": "D",
+              "text": "Stable mania treatment response"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is beyond routine mild side effects. Neurological changes plus elevated lithium level signal toxicity. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for worsening neurological toxicity and impaired renal clearance"
+            },
+            {
+              "id": "B",
+              "text": "Mild anxiety"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep only"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The urgent concern is progressive toxicity affecting the nervous system and kidney handling of the drug. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold lithium, assess hydration and neurological status, and notify the provider urgently"
+            },
+            {
+              "id": "B",
+              "text": "Give the next dose with food"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the tremor because lithium always causes shaking"
+            },
+            {
+              "id": "D",
+              "text": "Tell the patient to continue the medication until the next appointment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The medication should be withheld in suspected toxicity, and the nurse must escalate urgently. Continuing lithium could worsen the condition. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume all tremors on lithium are harmless"
+            },
+            {
+              "id": "B",
+              "text": "Teach the patient later about maintaining hydration and when to seek help"
+            },
+            {
+              "id": "C",
+              "text": "Review recent illnesses, fluid loss, and sodium/fluid intake"
+            },
+            {
+              "id": "D",
+              "text": "Reassess gait, speech, and mental status closely"
+            },
+            {
+              "id": "E",
+              "text": "Monitor fluid balance and renal function"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Lithium safety depends on hydration and kidney function. Patient education about illness, dehydration, and toxicity is crucial. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Lithium Toxicity | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ataxia worsens and lithium continues unchanged"
+            },
+            {
+              "id": "B",
+              "text": "The patient becomes more confused without escalation"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one lab result"
+            },
+            {
+              "id": "D",
+              "text": "Tremor lessens, gait becomes steadier, confusion decreases, and hydration improves after treatment adjustments"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is shown by better neurological stability and correction of contributing factors."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Escalating Aggression and Violence Risk",
+      "stem": "Mr. Kevin D’Souza, a 29-year-old patient admitted involuntarily for psychosis, becomes increasingly agitated when told visiting hours are over. He begins pacing rapidly, clenching his fists, glaring at staff, and speaking in a louder, harsher voice. He invades another patient’s personal space and yells, “Don’t tell me what to do.” The nurse notices escalating motor tension, threatening posture, and poor impulse control. The team must intervene early using least restrictive, safety-focused de-escalation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which behaviours indicate increasing risk of violence? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pacing and motor agitation"
+            },
+            {
+              "id": "B",
+              "text": "Clenched fists"
+            },
+            {
+              "id": "C",
+              "text": "Invading personal space"
+            },
+            {
+              "id": "D",
+              "text": "Poor impulse control"
+            },
+            {
+              "id": "E",
+              "text": "Loud, threatening tone"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic escalation cues. Mental health nurses are expected to identify pre-assault behaviour early and intervene before physical violence occurs. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal assertiveness only"
+            },
+            {
+              "id": "B",
+              "text": "Escalating aggression with risk of imminent violence if not de-escalated"
+            },
+            {
+              "id": "C",
+              "text": "Harmless frustration only"
+            },
+            {
+              "id": "D",
+              "text": "Positive social interaction"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The cluster of behaviours suggests rising violence risk. Early intervention is safer and less restrictive than waiting until assault occurs. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "B",
+              "text": "Risk for violence directed toward self or others"
+            },
+            {
+              "id": "C",
+              "text": "Low self-esteem"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about rules"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Safety is the top priority. Potential violence overrides other concerns. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the behaviour until he throws something"
+            },
+            {
+              "id": "B",
+              "text": "Stand very close and argue about the rules"
+            },
+            {
+              "id": "C",
+              "text": "Challenge the patient publicly in front of peers"
+            },
+            {
+              "id": "D",
+              "text": "Use calm de-escalation, maintain safe distance, reduce environmental triggers, and call for support as needed"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The least restrictive effective intervention is calm de-escalation with environmental control and backup if required. Public confrontation or waiting for violence is unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing strategies are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Offer clear behavioural limits and choices"
+            },
+            {
+              "id": "B",
+              "text": "Mock the patient’s anger to break tension"
+            },
+            {
+              "id": "C",
+              "text": "Keep an exit route available for staff safety"
+            },
+            {
+              "id": "D",
+              "text": "Speak in a calm, low, brief manner"
+            },
+            {
+              "id": "E",
+              "text": "Remove bystanders and reduce stimulation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are evidence-based de-escalation principles. Mocking the patient is disrespectful and dangerous. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Escalating Aggression and Violence Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates successful early de-escalation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The environment remains crowded and noisy"
+            },
+            {
+              "id": "B",
+              "text": "The nurse stands trapped in the corner with no support"
+            },
+            {
+              "id": "C",
+              "text": "The patient becomes more physically intimidating and staff continue arguing"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s pacing slows, voice volume decreases, and he responds to simple limit-setting without assaultive behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Successful de-escalation reduces stimulation, lowers arousal, and prevents injury."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Adolescent Depression with Self-Harm and Social Withdrawal",
+      "stem": "A 15-year-old adolescent, Maya, is brought to the clinic by her mother because of cutting behaviour, declining school performance, and increasing withdrawal from friends. Maya shrugs during the assessment and says, “It doesn’t matter. Nothing gets better.” When asked about the cuts, she says they help her “feel something.” Her mother reports irritability, staying in bed, and refusing meals with the family. Maya denies a current suicide plan at first, but later admits she sometimes thinks everyone would be better off if she disappeared. The nurse must assess carefully because adolescents may minimise intent. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest significant depression and self-harm risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Irritability and isolation"
+            },
+            {
+              "id": "B",
+              "text": "Thoughts that others would be better off without her"
+            },
+            {
+              "id": "C",
+              "text": "Withdrawal from friends and school decline"
+            },
+            {
+              "id": "D",
+              "text": "Hopeless statements"
+            },
+            {
+              "id": "E",
+              "text": "Cutting behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are important risk indicators in adolescent depression. Self-harm, hopelessness, academic decline, and withdrawal are red flags. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal exam stress"
+            },
+            {
+              "id": "B",
+              "text": "Mild attention-seeking only"
+            },
+            {
+              "id": "C",
+              "text": "Adolescent depression with self-harm behaviour and possible suicidal ideation requiring careful safety assessment"
+            },
+            {
+              "id": "D",
+              "text": "Typical teenage mood only"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The pattern goes beyond ordinary adolescent distress. Nurses must not dismiss self-harm or hopelessness as “just a phase.” Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed sleep only"
+            },
+            {
+              "id": "B",
+              "text": "Need for study skills teaching"
+            },
+            {
+              "id": "C",
+              "text": "Risk for self-directed violence related to depression and self-harm"
+            },
+            {
+              "id": "D",
+              "text": "Social media overuse"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Safety is the immediate priority. Depression with self-harm warrants careful suicide assessment. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Focus only on school grades"
+            },
+            {
+              "id": "B",
+              "text": "Tell the mother to handle it alone at home"
+            },
+            {
+              "id": "C",
+              "text": "Avoid asking about suicide because it may give ideas"
+            },
+            {
+              "id": "D",
+              "text": "Conduct a direct but supportive suicide risk assessment and involve appropriate safety planning immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Asking directly about suicide does not create suicidal thoughts; it is necessary for safety. Family involvement may be important, but the nurse must first assess risk clearly. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which therapeutic responses are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“When you think people would be better off without you, do you think about killing yourself?”"
+            },
+            {
+              "id": "B",
+              "text": "“We will work on keeping you safe while we understand what’s been happening.”"
+            },
+            {
+              "id": "C",
+              "text": "“This is probably just drama.”"
+            },
+            {
+              "id": "D",
+              "text": "“I’m glad you told me. I want to understand how bad it has been feeling.”"
+            },
+            {
+              "id": "E",
+              "text": "“You have so much to live for, so you should stop cutting.”"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D"
+          ],
+          "rationale": "These responses are direct, nonjudgmental, and safety-focused. Minimising or lecturing the adolescent is non-therapeutic. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Adolescent Depression with Self-Harm and Social Withdrawal | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective immediate care?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The self-harm history is ignored because wounds are superficial"
+            },
+            {
+              "id": "B",
+              "text": "Suicide risk is clearly assessed, safety planning is initiated, and Maya continues talking honestly with the nurse and team"
+            },
+            {
+              "id": "C",
+              "text": "The nurse avoids further questions after the first answer"
+            },
+            {
+              "id": "D",
+              "text": "Maya is dismissed as dramatic and sent away without assessment"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The key early outcome is honest communication plus structured safety assessment and planning."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Delirium versus Dementia in an Older Adult",
+      "stem": "Mrs. Josephine Pereira, an 81-year-old woman admitted for a urinary infection, becomes suddenly confused during the evening. Earlier in the day she was mildly forgetful but cooperative. Now she is pulling at her IV line, saying there are children running across the ceiling, and does not know where she is. Her daughter says, “She has some memory problems, but this is much worse than usual.” The nurse notes fluctuating attention, visual misperceptions, and acute behavioural change. The challenge is to identify delirium superimposed on possible dementia and respond safely. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest delirium rather than stable dementia? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visual misperceptions"
+            },
+            {
+              "id": "B",
+              "text": "Pulling at lines and restless behaviour"
+            },
+            {
+              "id": "C",
+              "text": "Sudden onset of confusion"
+            },
+            {
+              "id": "D",
+              "text": "Fluctuating attention and disorientation"
+            },
+            {
+              "id": "E",
+              "text": "Acute worsening from baseline"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Delirium is typically acute, fluctuating, and often associated with medical illness. Visual misperceptions and sudden worsening from baseline are especially important clues. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable dementia only"
+            },
+            {
+              "id": "B",
+              "text": "Acute delirium likely related to medical illness, requiring urgent assessment and safety measures"
+            },
+            {
+              "id": "C",
+              "text": "This is simply normal ageing"
+            },
+            {
+              "id": "D",
+              "text": "Personality disorder"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The sudden, fluctuating, perceptual, medically linked change points to delirium. In NCLEX questions, delirium is an urgent reversible medical issue until proven otherwise. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Acute confusion with risk of injury and missed medical deterioration"
+            },
+            {
+              "id": "B",
+              "text": "Social withdrawal"
+            },
+            {
+              "id": "C",
+              "text": "Chronic low self-esteem"
+            },
+            {
+              "id": "D",
+              "text": "Sleep pattern only"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The patient is at risk of injuring herself and may be showing worsening infection or other medical instability. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Argue about the hallucinations and demand orientation"
+            },
+            {
+              "id": "B",
+              "text": "Assume nothing can be done because she is elderly"
+            },
+            {
+              "id": "C",
+              "text": "Reassess medical status, ensure environmental safety, and communicate the acute change promptly to the team"
+            },
+            {
+              "id": "D",
+              "text": "Leave the patient alone in a dark room"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Delirium requires medical reassessment and a safe, calm environment. Arguing about perceptions is not therapeutic. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which interventions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess for pain, infection, medication effects, and dehydration"
+            },
+            {
+              "id": "B",
+              "text": "Reduce unnecessary stimulation but maintain visibility and supervision"
+            },
+            {
+              "id": "C",
+              "text": "Use restraints as the first intervention"
+            },
+            {
+              "id": "D",
+              "text": "Involve family for reassurance if helpful"
+            },
+            {
+              "id": "E",
+              "text": "Reorient gently and frequently"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Delirium management focuses on treating underlying causes and supporting safety. Restraints are not first-line and should only be considered under strict least-restrictive principles if necessary. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Delirium versus Dementia in an Older Adult | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Family concerns are ignored"
+            },
+            {
+              "id": "B",
+              "text": "Confusion worsens and no reassessment occurs"
+            },
+            {
+              "id": "C",
+              "text": "Attention and orientation improve, agitation lessens, and the patient becomes more like baseline as the medical issue is treated"
+            },
+            {
+              "id": "D",
+              "text": "The patient is restrained without cause analysis"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement in delirium is shown by clearer attention, safer behaviour, and return toward prior baseline with treatment of the underlying trigger."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Refusal of Psychiatric Medication and Legal-Ethical Decision-Making",
+      "stem": "Mr. Liam Brooks, a 38-year-old voluntary psychiatric patient with schizoaffective disorder, is offered his prescribed antipsychotic medication. He is calm, oriented, and says, “I know what it’s for, but I don’t want to take it tonight because it makes me feel stiff and slowed down.” He is not currently violent or acutely disorganised, though he remains mildly suspicious of staff. A new nurse on the unit says, “He’s psychotic, so he has to take it,” and suggests that refusal should simply be documented as noncompliance. The primary nurse must act within legal and ethical boundaries while assessing risk and patient rights. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most relevant when considering the medication refusal? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "He appears calm and oriented"
+            },
+            {
+              "id": "B",
+              "text": "He can state a reason for refusal"
+            },
+            {
+              "id": "C",
+              "text": "He is not currently violent or acutely out of control"
+            },
+            {
+              "id": "D",
+              "text": "He reports side effects from the medication"
+            },
+            {
+              "id": "E",
+              "text": "The patient is voluntary"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors matter. A patient who is calm, oriented, and able to explain refusal may retain the right to refuse medication, depending on jurisdiction and current legal status. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "All psychiatric patients automatically lose the right to refuse medication"
+            },
+            {
+              "id": "B",
+              "text": "The nurse should force the medication immediately"
+            },
+            {
+              "id": "C",
+              "text": "Side effects are irrelevant if the order exists"
+            },
+            {
+              "id": "D",
+              "text": "The patient may have the right to refuse medication, and the nurse must assess capacity, risk, and legal status carefully"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Psychiatric diagnosis alone does not remove patient rights. The nurse must assess capacity, current risk, and legal context rather than assuming forced medication is appropriate. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sleep pattern documentation only"
+            },
+            {
+              "id": "B",
+              "text": "Balancing patient autonomy and safety through proper assessment of refusal and risk"
+            },
+            {
+              "id": "C",
+              "text": "Teaching about diet first"
+            },
+            {
+              "id": "D",
+              "text": "Group attendance planning"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse must evaluate refusal ethically and legally while ensuring the patient is not at immediate risk to self or others. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the refusal completely"
+            },
+            {
+              "id": "B",
+              "text": "Threaten the patient with punishment"
+            },
+            {
+              "id": "C",
+              "text": "Explore the patient’s concerns, assess understanding and current risk, and follow facility/legal procedures regarding refusal"
+            },
+            {
+              "id": "D",
+              "text": "Hide the medication in food"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The nurse should assess the patient’s understanding, discuss side effects, and follow legal policy. Covert medication and threats violate patient rights and trust. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Notify the provider if clinically indicated and discuss side effects/alternatives"
+            },
+            {
+              "id": "B",
+              "text": "Assess whether EPS or other adverse effects may be contributing to refusal"
+            },
+            {
+              "id": "C",
+              "text": "Respect the patient’s rights while continuing observation of mental state"
+            },
+            {
+              "id": "D",
+              "text": "Assume refusal means discharge is impossible"
+            },
+            {
+              "id": "E",
+              "text": "Document the refusal objectively and accurately"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "These are appropriate ethical and professional responses. The nurse should not jump to punitive conclusions. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Refusal of Psychiatric Medication and Legal-Ethical Decision-Making | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective and ethical nursing care?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Medication is forced without legal basis"
+            },
+            {
+              "id": "B",
+              "text": "The patient’s refusal is assessed and documented appropriately, side effects are addressed, and ongoing risk monitoring continues without coercion"
+            },
+            {
+              "id": "C",
+              "text": "The refusal is ignored and no one reassesses mental status"
+            },
+            {
+              "id": "D",
+              "text": "Staff shame the patient into accepting medication"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Effective care respects autonomy while still monitoring safety and engaging the patient in treatment decisions."
+        }
+      ]
+    }
+  ]
+}

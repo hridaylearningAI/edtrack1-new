@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A woman at 32 weeks' gestation attends the clinic reporting a severe frontal headache, blurred vision and sudden swelling of her hands. Her blood pressure is higher than at previous visits. Which nursing action is the highest priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeat the blood pressure, assess urine for protein, assess fetal wellbeing and arrange urgent medical review."
+        },
+        {
+          "id": "B",
+          "text": "Reassure her that swelling and headache are common late-pregnancy discomforts and arrange routine follow-up."
+        },
+        {
+          "id": "C",
+          "text": "Advise rest at home, increased oral fluids and reduced salt intake."
+        },
+        {
+          "id": "D",
+          "text": "Provide simple analgesia and ask her to return if symptoms persist for 24 hours."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Severe headache, visual disturbance, sudden swelling and raised blood pressure are danger signs that may indicate a hypertensive disorder of pregnancy. Maternal assessment, urine testing, fetal assessment and urgent escalation are required."
+    },
+    {
+      "id": "q2",
+      "stem": "During an antenatal assessment, a woman at 28 weeks says her baby has moved much less than usual since the previous evening. She has no pain or bleeding. What is the most appropriate nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that fetal movement normally decreases significantly in the third trimester."
+        },
+        {
+          "id": "B",
+          "text": "Treat reduced fetal movement as significant, complete the appropriate maternal and fetal assessment and arrange prompt review."
+        },
+        {
+          "id": "C",
+          "text": "Advise her to wait until the next scheduled appointment."
+        },
+        {
+          "id": "D",
+          "text": "Recommend a sugary drink and discharge her without further assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced fetal movement may indicate fetal compromise and should not be dismissed. Prompt assessment and escalation according to local policy are required."
+    },
+    {
+      "id": "q3",
+      "stem": "A pregnant woman reports urinary frequency and mild fatigue at 18 weeks. Her observations are stable and she has no dysuria, fever or abdominal pain. How should the nurse interpret these findings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They indicate a urinary tract infection requiring emergency treatment."
+        },
+        {
+          "id": "B",
+          "text": "They suggest imminent preterm labour."
+        },
+        {
+          "id": "C",
+          "text": "They are common physiological adaptations of pregnancy, but the nurse should continue routine assessment and education."
+        },
+        {
+          "id": "D",
+          "text": "They are evidence of gestational hypertension."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Urinary frequency and fatigue may be expected adaptations in pregnancy. The absence of pain, fever and other warning signs makes emergency pathology less likely, although routine monitoring remains necessary."
+    },
+    {
+      "id": "q4",
+      "stem": "A nurse is preparing health education for a woman in early pregnancy. Which teaching plan is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advise complete avoidance of physical activity and routine supplements unless symptoms develop."
+        },
+        {
+          "id": "B",
+          "text": "Recommend doubling all usual vitamin doses to support fetal growth."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on weight gain because other lifestyle factors have little effect."
+        },
+        {
+          "id": "D",
+          "text": "Discuss balanced nutrition, recommended folate and iron, safe activity, rest, immunisation guidance, avoidance of harmful substances and attendance at scheduled care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Antenatal health promotion includes nutrition, recommended supplementation, safe activity, rest, immunisation advice, avoidance of harmful substances and regular care."
+    },
+    {
+      "id": "q5",
+      "stem": "At 30 weeks' gestation, a woman reports a sudden gush of clear fluid from the vagina but no contractions. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrange prompt assessment because leaking fluid may indicate rupture of membranes."
+        },
+        {
+          "id": "B",
+          "text": "Advise her to observe the fluid at home for several hours."
+        },
+        {
+          "id": "C",
+          "text": "Explain that this is normal urinary leakage in pregnancy."
+        },
+        {
+          "id": "D",
+          "text": "Recommend pelvic floor exercises and routine follow-up."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Leaking fluid is a pregnancy danger sign and may indicate rupture of membranes, which requires timely assessment for maternal and fetal risk."
+    },
+    {
+      "id": "q6",
+      "stem": "A pregnant woman has mild breathlessness when climbing stairs but is comfortable at rest, has normal oxygen saturation and no chest pain. What is the best nursing interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Any breathlessness in pregnancy indicates pulmonary embolism."
+        },
+        {
+          "id": "B",
+          "text": "Mild exertional breathlessness can be a normal adaptation, but sudden, severe or resting breathlessness requires urgent assessment."
+        },
+        {
+          "id": "C",
+          "text": "The finding confirms anaemia."
+        },
+        {
+          "id": "D",
+          "text": "The woman should avoid all activity for the remainder of pregnancy."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pregnancy alters respiratory physiology, and mild exertional breathlessness can be expected. Sudden, severe or resting symptoms are not normal and require assessment."
+    },
+    {
+      "id": "q7",
+      "stem": "A nurse is completing a routine antenatal assessment. Which combination best reflects assessment of both maternal and fetal wellbeing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maternal weight and diet history only."
+        },
+        {
+          "id": "B",
+          "text": "Fetal heart rate only."
+        },
+        {
+          "id": "C",
+          "text": "Blood pressure, urine testing, fetal growth, fetal heart activity and the mother's report of fetal movement."
+        },
+        {
+          "id": "D",
+          "text": "Maternal pulse and temperature only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Antenatal care integrates maternal observations and screening with fetal growth, heart activity and movement."
+    },
+    {
+      "id": "q8",
+      "stem": "A woman at 24 weeks presents with vaginal bleeding and lower abdominal pain. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide reassurance because minor bleeding is common at this stage."
+        },
+        {
+          "id": "B",
+          "text": "Ask her to return if bleeding becomes heavier."
+        },
+        {
+          "id": "C",
+          "text": "Advise bed rest at home without assessment."
+        },
+        {
+          "id": "D",
+          "text": "Complete a prompt assessment, avoid unnecessary delay and escalate for urgent obstetric review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Bleeding with pain is a danger sign and may represent a serious obstetric complication requiring urgent review."
+    },
+    {
+      "id": "q9",
+      "stem": "A pregnant woman asks why urine testing is performed during antenatal visits. Which explanation is most accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can help identify protein, glucose or signs of infection that may indicate maternal or pregnancy complications."
+        },
+        {
+          "id": "B",
+          "text": "It is performed only to confirm pregnancy."
+        },
+        {
+          "id": "C",
+          "text": "It replaces blood pressure measurement."
+        },
+        {
+          "id": "D",
+          "text": "It is used primarily to determine fetal sex."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Urine testing may contribute to detection of hypertensive disorders, diabetes and infection when interpreted with other findings."
+    },
+    {
+      "id": "q10",
+      "stem": "A woman at 34 weeks has fever, chills and abdominal discomfort. What is the nurse's priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the fever as a normal pregnancy response."
+        },
+        {
+          "id": "B",
+          "text": "Assess maternal observations, fetal wellbeing and possible infection, and arrange urgent review."
+        },
+        {
+          "id": "C",
+          "text": "Advise routine hydration and wait until the next day."
+        },
+        {
+          "id": "D",
+          "text": "Recommend non-prescription medication without further assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fever during pregnancy may indicate infection and can threaten maternal and fetal wellbeing; urgent assessment is appropriate."
+    },
+    {
+      "id": "q11",
+      "stem": "A woman with no previous antenatal care presents late in pregnancy. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criticising the missed appointments to improve future attendance."
+        },
+        {
+          "id": "B",
+          "text": "Focusing only on the expected date of birth."
+        },
+        {
+          "id": "C",
+          "text": "A respectful comprehensive assessment of maternal history, current health, fetal wellbeing, screening needs and barriers to care."
+        },
+        {
+          "id": "D",
+          "text": "Delaying assessment until prior records are available."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Late presentation requires non-judgemental comprehensive assessment and identification of health and access needs."
+    },
+    {
+      "id": "q12",
+      "stem": "Which finding most clearly distinguishes a pregnancy danger sign from a common discomfort?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild fatigue after activity."
+        },
+        {
+          "id": "B",
+          "text": "Occasional urinary frequency."
+        },
+        {
+          "id": "C",
+          "text": "Mild nausea in early pregnancy."
+        },
+        {
+          "id": "D",
+          "text": "Severe abdominal pain with vaginal bleeding."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Severe pain with bleeding is not an expected adaptation and requires urgent evaluation."
+    },
+    {
+      "id": "q13",
+      "stem": "A woman reports taking an over-the-counter herbal preparation during pregnancy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask what she is taking, how much and why, and advise review with an appropriate clinician or pharmacist."
+        },
+        {
+          "id": "B",
+          "text": "Assume it is safe because it is natural."
+        },
+        {
+          "id": "C",
+          "text": "Tell her to stop all medicines immediately."
+        },
+        {
+          "id": "D",
+          "text": "Document it only if she develops symptoms."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Herbal products may have uncertain safety or interactions. A complete medication history and professional review are appropriate."
+    },
+    {
+      "id": "q14",
+      "stem": "A nurse identifies that a pregnant woman has difficulty reading written health information. Which education approach is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide the same detailed leaflet and ask her to sign it."
+        },
+        {
+          "id": "B",
+          "text": "Use plain language, demonstration, visual aids and teach-back to confirm understanding."
+        },
+        {
+          "id": "C",
+          "text": "Ask a family member to explain everything later."
+        },
+        {
+          "id": "D",
+          "text": "Reduce the amount of information and avoid discussing warning signs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Education should be adapted to health literacy while still covering essential safety information."
+    },
+    {
+      "id": "q15",
+      "stem": "A woman at 36 weeks reports sudden swelling of her face but no headache. What is the most appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure her because swelling is always normal near term."
+        },
+        {
+          "id": "B",
+          "text": "Recommend tighter footwear."
+        },
+        {
+          "id": "C",
+          "text": "Assess blood pressure, urine and other symptoms, and escalate if findings are concerning."
+        },
+        {
+          "id": "D",
+          "text": "Advise increased salt intake."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Sudden facial swelling can be associated with hypertensive disease and warrants assessment."
+    },
+    {
+      "id": "q16",
+      "stem": "A woman asks why regular antenatal visits are important when she feels well. Which answer is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are mainly for completing administrative forms."
+        },
+        {
+          "id": "B",
+          "text": "They are only necessary for first pregnancies."
+        },
+        {
+          "id": "C",
+          "text": "They are optional if fetal movement is present."
+        },
+        {
+          "id": "D",
+          "text": "They help monitor maternal and fetal wellbeing and identify complications before symptoms become severe."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Regular care supports prevention, screening and early identification of maternal and fetal concerns."
+    },
+    {
+      "id": "q17",
+      "stem": "A pregnant woman becomes dizzy and pale while lying flat during an assessment. Which immediate action is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reposition her laterally, reassess observations and evaluate her response."
+        },
+        {
+          "id": "B",
+          "text": "Keep her supine and obtain a full history."
+        },
+        {
+          "id": "C",
+          "text": "Ask her to stand and walk."
+        },
+        {
+          "id": "D",
+          "text": "Provide food before reassessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Lateral positioning may reduce compression of major vessels and improve venous return; reassessment is required."
+    },
+    {
+      "id": "q18",
+      "stem": "A woman presents with persistent vomiting, inability to keep fluids down and signs of dehydration. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure her that all vomiting is normal in pregnancy."
+        },
+        {
+          "id": "B",
+          "text": "Assess hydration, observations and severity and arrange clinical review."
+        },
+        {
+          "id": "C",
+          "text": "Recommend fasting until symptoms stop."
+        },
+        {
+          "id": "D",
+          "text": "Advise her to return in one week."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Persistent vomiting with dehydration is not a simple discomfort and may require treatment."
+    },
+    {
+      "id": "q19",
+      "stem": "Which antenatal finding requires the most urgent escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild backache at the end of the day."
+        },
+        {
+          "id": "B",
+          "text": "Occasional heartburn."
+        },
+        {
+          "id": "C",
+          "text": "Reduced fetal movement with maternal concern."
+        },
+        {
+          "id": "D",
+          "text": "Mild ankle swelling after prolonged standing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reduced fetal movement can indicate fetal compromise and requires prompt assessment."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates safe antenatal nursing care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse completes all scheduled forms."
+        },
+        {
+          "id": "B",
+          "text": "The woman is given general advice only."
+        },
+        {
+          "id": "C",
+          "text": "All pregnancy symptoms are treated as normal unless bleeding occurs."
+        },
+        {
+          "id": "D",
+          "text": "Expected changes are explained, maternal and fetal wellbeing are assessed, danger signs are recognised and concerns are escalated early."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe antenatal care combines education, comprehensive assessment and early escalation. Section 2 - Nursing Care During Labour and Birth"
+    },
+    {
+      "id": "q21",
+      "stem": "A woman in labour has recurrent fetal heart rate decelerations after contractions. Oxytocin is infusing. What is the nurse's best immediate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reposition the woman, stop oxytocin according to policy, increase assessment, call for urgent review and prepare for further intervention."
+        },
+        {
+          "id": "B",
+          "text": "Continue the infusion and observe for another hour."
+        },
+        {
+          "id": "C",
+          "text": "Encourage pushing regardless of labour stage."
+        },
+        {
+          "id": "D",
+          "text": "Document the pattern and wait for the next routine review."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recurrent post-contraction decelerations may indicate fetal compromise. Immediate supportive actions and urgent escalation are required."
+    },
+    {
+      "id": "q22",
+      "stem": "Which description of the stages of labour is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The first stage ends with birth and the second ends with placental delivery."
+        },
+        {
+          "id": "B",
+          "text": "The first stage involves cervical dilatation, the second ends with birth, the third involves placental delivery and the fourth is immediate recovery."
+        },
+        {
+          "id": "C",
+          "text": "The third stage is cervical dilatation."
+        },
+        {
+          "id": "D",
+          "text": "The fourth stage begins when contractions first become regular."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The four stages progress from cervical dilatation to birth, placental delivery and early recovery."
+    },
+    {
+      "id": "q23",
+      "stem": "A woman in labour is anxious and says she cannot cope with contractions. Which nursing response is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell her that labour pain is unavoidable and she should remain still."
+        },
+        {
+          "id": "B",
+          "text": "Encourage her family to decide on analgesia."
+        },
+        {
+          "id": "C",
+          "text": "Assess pain and labour progress, offer position changes, breathing, reassurance and available pain-relief options while supporting informed choice."
+        },
+        {
+          "id": "D",
+          "text": "Delay comfort measures until cervical dilatation is complete."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Supportive care includes non-pharmacological and pharmacological options, information and respect for choice."
+    },
+    {
+      "id": "q24",
+      "stem": "Which assessment best reflects care of both mother and fetus during labour?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maternal blood pressure only."
+        },
+        {
+          "id": "B",
+          "text": "Cervical dilatation only."
+        },
+        {
+          "id": "C",
+          "text": "Contraction frequency only."
+        },
+        {
+          "id": "D",
+          "text": "Fetal heart rate, contraction pattern, maternal observations, labour progress, pain and emotional wellbeing."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Labour care requires integrated assessment of the woman, fetus and labour progress."
+    },
+    {
+      "id": "q25",
+      "stem": "The Five Ps of labour include:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passenger, passageway, powers, position and psyche."
+        },
+        {
+          "id": "B",
+          "text": "Pulse, pain, pressure, pelvis and placenta."
+        },
+        {
+          "id": "C",
+          "text": "Patient, partner, progress, pain and policy."
+        },
+        {
+          "id": "D",
+          "text": "Position, protein, perfusion, placenta and pulse."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The Five Ps describe major influences on labour progress."
+    },
+    {
+      "id": "q26",
+      "stem": "A woman in labour suddenly reports constant severe abdominal pain between contractions, and fetal heart abnormalities are noted. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat this as normal transition and encourage breathing exercises."
+        },
+        {
+          "id": "B",
+          "text": "Perform urgent assessment and escalate immediately for possible obstetric emergency."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the next cervical examination."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral fluids and reassess later."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Severe continuous pain with fetal compromise may indicate a serious emergency and requires immediate action."
+    },
+    {
+      "id": "q27",
+      "stem": "A labouring woman requests to change position frequently. What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require her to remain supine throughout labour."
+        },
+        {
+          "id": "B",
+          "text": "Allow movement only during the first stage."
+        },
+        {
+          "id": "C",
+          "text": "Support movement and position changes if clinically safe and consistent with monitoring requirements."
+        },
+        {
+          "id": "D",
+          "text": "Explain that movement delays labour."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Movement and position changes may improve comfort and support labour progress when safe."
+    },
+    {
+      "id": "q28",
+      "stem": "Why should contraction frequency and duration be assessed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are used only to estimate pain."
+        },
+        {
+          "id": "B",
+          "text": "They replace fetal heart monitoring."
+        },
+        {
+          "id": "C",
+          "text": "They are irrelevant once membranes rupture."
+        },
+        {
+          "id": "D",
+          "text": "They help determine labour progress and identify excessive or inadequate uterine activity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Contraction characteristics influence labour progress and fetal tolerance."
+    },
+    {
+      "id": "q29",
+      "stem": "A woman's membranes rupture and the fluid is greenish. What is the most appropriate nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess fetal wellbeing promptly and escalate according to local policy."
+        },
+        {
+          "id": "B",
+          "text": "Document it as a normal finding."
+        },
+        {
+          "id": "C",
+          "text": "Encourage ambulation without further assessment."
+        },
+        {
+          "id": "D",
+          "text": "Delay review until contractions become stronger."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Abnormal fluid colour may indicate meconium and requires fetal assessment and appropriate escalation."
+    },
+    {
+      "id": "q30",
+      "stem": "A woman receiving opioid analgesia in labour becomes very drowsy and has a reduced respiratory rate. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow her to sleep and continue routine monitoring."
+        },
+        {
+          "id": "B",
+          "text": "Assess airway and breathing, seek urgent assistance and follow the medication-response protocol."
+        },
+        {
+          "id": "C",
+          "text": "Give another dose for comfort."
+        },
+        {
+          "id": "D",
+          "text": "Encourage oral fluids only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respiratory depression is a serious adverse effect requiring immediate assessment and escalation."
+    },
+    {
+      "id": "q31",
+      "stem": "A labouring woman says she does not understand why a proposed intervention is needed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because labour is time-sensitive."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to consent on her behalf."
+        },
+        {
+          "id": "C",
+          "text": "Provide a clear explanation, check understanding and support informed decision-making unless an immediate emergency prevents delay."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing risks because it may increase anxiety."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Respectful maternity care includes information, consent and advocacy."
+    },
+    {
+      "id": "q32",
+      "stem": "Which finding during labour is most concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The woman requests massage."
+        },
+        {
+          "id": "B",
+          "text": "Contractions become more uncomfortable as labour progresses."
+        },
+        {
+          "id": "C",
+          "text": "The woman changes position."
+        },
+        {
+          "id": "D",
+          "text": "The fetal heart pattern becomes persistently abnormal."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent fetal heart abnormalities may indicate fetal compromise."
+    },
+    {
+      "id": "q33",
+      "stem": "A woman is in the third stage of labour. What is the main event occurring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delivery of the placenta."
+        },
+        {
+          "id": "B",
+          "text": "Cervical dilatation."
+        },
+        {
+          "id": "C",
+          "text": "Birth of the baby."
+        },
+        {
+          "id": "D",
+          "text": "Immediate postnatal recovery only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The third stage extends from birth of the baby to delivery of the placenta."
+    },
+    {
+      "id": "q34",
+      "stem": "A nurse notes that labour progress is slower than expected. Which assessment is most useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess pain score only."
+        },
+        {
+          "id": "B",
+          "text": "Consider the passenger, passageway, powers, position and psyche together."
+        },
+        {
+          "id": "C",
+          "text": "Increase analgesia automatically."
+        },
+        {
+          "id": "D",
+          "text": "Assume the woman is not cooperating."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The Five Ps provide a structured way to consider causes of slow labour."
+    },
+    {
+      "id": "q35",
+      "stem": "A woman's fetal heart rate is abnormal, but she asks to continue walking. What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow walking because patient choice always overrides safety."
+        },
+        {
+          "id": "B",
+          "text": "Ask her partner to decide."
+        },
+        {
+          "id": "C",
+          "text": "Prioritise fetal assessment and explain why monitoring and review are needed before further mobilisation."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the abnormal finding if she feels well."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Choice remains important, but urgent safety concerns require explanation, assessment and escalation."
+    },
+    {
+      "id": "q36",
+      "stem": "Which action best supports emotional wellbeing during labour?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Limit communication to reduce distraction."
+        },
+        {
+          "id": "B",
+          "text": "Discuss only clinical measurements."
+        },
+        {
+          "id": "C",
+          "text": "Exclude support people regardless of the woman's wishes."
+        },
+        {
+          "id": "D",
+          "text": "Provide consistent reassurance, explain progress and involve the woman in decisions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clear communication and participation reduce fear and support coping."
+    },
+    {
+      "id": "q37",
+      "stem": "A woman in labour has very frequent contractions with little rest between them while receiving oxytocin. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognise possible uterine hyperstimulation, stop or adjust oxytocin according to policy, assess fetal wellbeing and escalate."
+        },
+        {
+          "id": "B",
+          "text": "Increase the infusion to improve progress."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the fetal heart rate to become abnormal."
+        },
+        {
+          "id": "D",
+          "text": "Encourage pushing."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Excessive contractions can compromise fetal oxygenation and require prompt action."
+    },
+    {
+      "id": "q38",
+      "stem": "During the fourth stage of labour, what is the priority nursing focus?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cervical dilatation."
+        },
+        {
+          "id": "B",
+          "text": "Immediate maternal recovery, bleeding, uterine tone, observations and newborn adaptation."
+        },
+        {
+          "id": "C",
+          "text": "Fetal position before birth."
+        },
+        {
+          "id": "D",
+          "text": "Routine discharge planning only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The fourth stage focuses on early recovery and detection of complications."
+    },
+    {
+      "id": "q39",
+      "stem": "Which documentation is most important when a fetal heart abnormality occurs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only that the doctor was called."
+        },
+        {
+          "id": "B",
+          "text": "Only the final outcome."
+        },
+        {
+          "id": "C",
+          "text": "The pattern, time, maternal and fetal assessments, interventions, escalation and response."
+        },
+        {
+          "id": "D",
+          "text": "A general statement that the fetus was distressed."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Detailed objective documentation supports continuity, accountability and review."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects safe nursing care during labour?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The labour is completed without analgesia."
+        },
+        {
+          "id": "B",
+          "text": "The nurse follows one routine for every woman."
+        },
+        {
+          "id": "C",
+          "text": "Only cervical dilatation is monitored."
+        },
+        {
+          "id": "D",
+          "text": "The woman receives respectful support while maternal and fetal status are monitored, abnormal patterns are recognised and action is timely."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe labour care combines surveillance, comfort, choice and early escalation. Section 3 - Postnatal Recovery and Maternal Wellbeing"
+    },
+    {
+      "id": "q41",
+      "stem": "Two hours after birth, a woman reports dizziness and her pad is rapidly saturating with blood. Her pulse is rising. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess uterine tone and vital signs, call for assistance and initiate the postpartum haemorrhage response."
+        },
+        {
+          "id": "B",
+          "text": "Reassure her that bleeding is expected after birth."
+        },
+        {
+          "id": "C",
+          "text": "Ask her to walk to the bathroom."
+        },
+        {
+          "id": "D",
+          "text": "Wait to weigh the pad before escalating."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Heavy bleeding with dizziness and tachycardia suggests postpartum haemorrhage and requires immediate assessment and emergency response."
+    },
+    {
+      "id": "q42",
+      "stem": "Which assessment is most appropriate during routine postnatal care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blood pressure and temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Vital signs, uterine tone and position, lochia, bladder, perineum or incision, pain, breasts, mobility and emotional state."
+        },
+        {
+          "id": "C",
+          "text": "Breastfeeding only."
+        },
+        {
+          "id": "D",
+          "text": "Wound assessment only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Postnatal assessment is systematic and includes physical recovery, feeding and emotional wellbeing."
+    },
+    {
+      "id": "q43",
+      "stem": "A postpartum woman's uterus feels boggy and bleeding is increasing. Which action is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage sleep."
+        },
+        {
+          "id": "B",
+          "text": "Delay action until blood pressure falls."
+        },
+        {
+          "id": "C",
+          "text": "Perform uterine massage where appropriate, call for help and follow the haemorrhage protocol."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral fluids only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A boggy uterus may indicate uterine atony, a common cause of postpartum haemorrhage."
+    },
+    {
+      "id": "q44",
+      "stem": "A woman five days after birth has fever, uterine tenderness and foul-smelling lochia. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal involution."
+        },
+        {
+          "id": "B",
+          "text": "Breast engorgement only."
+        },
+        {
+          "id": "C",
+          "text": "Postnatal blues."
+        },
+        {
+          "id": "D",
+          "text": "Postnatal infection requiring prompt review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Fever, uterine tenderness and offensive lochia are concerning for infection."
+    },
+    {
+      "id": "q45",
+      "stem": "A postnatal woman develops unilateral calf pain and swelling. What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess and escalate urgently for possible venous thromboembolism."
+        },
+        {
+          "id": "B",
+          "text": "Massage the calf and encourage walking."
+        },
+        {
+          "id": "C",
+          "text": "Apply heat and reassess tomorrow."
+        },
+        {
+          "id": "D",
+          "text": "Reassure her that leg pain is expected."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Unilateral calf pain and swelling may indicate deep vein thrombosis and should not be massaged or ignored."
+    },
+    {
+      "id": "q46",
+      "stem": "A woman suddenly becomes breathless and complains of chest pain three days after birth. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advise rest and oral fluids."
+        },
+        {
+          "id": "B",
+          "text": "Treat this as a possible pulmonary embolism and seek emergency assistance."
+        },
+        {
+          "id": "C",
+          "text": "Explain that breathlessness is common after delivery."
+        },
+        {
+          "id": "D",
+          "text": "Wait for routine medical review."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sudden breathlessness and chest pain in the postnatal period are emergency warning signs."
+    },
+    {
+      "id": "q47",
+      "stem": "Which finding is most consistent with normal postnatal emotional adjustment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persistent severe anxiety and inability to care for self or baby."
+        },
+        {
+          "id": "B",
+          "text": "Thoughts of harming self or the baby."
+        },
+        {
+          "id": "C",
+          "text": "Brief tearfulness and emotional sensitivity with preserved function and support."
+        },
+        {
+          "id": "D",
+          "text": "Progressively worsening low mood for several weeks."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mild transient emotional change may occur, but persistent or severe symptoms require assessment."
+    },
+    {
+      "id": "q48",
+      "stem": "A mother reports persistent low mood, severe anxiety and inability to sleep even when the baby sleeps. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure her this is normal and will pass."
+        },
+        {
+          "id": "B",
+          "text": "Advise her to avoid discussing the feelings."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to manage without professional support."
+        },
+        {
+          "id": "D",
+          "text": "Complete or arrange timely mental-health assessment and ensure she knows how to access help."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent, severe or function-limiting symptoms require timely assessment."
+    },
+    {
+      "id": "q49",
+      "stem": "Which teaching is most important before postnatal discharge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "How to recognise heavy bleeding, fever, wound problems, calf pain, breathlessness and severe emotional symptoms."
+        },
+        {
+          "id": "B",
+          "text": "Only newborn clothing requirements."
+        },
+        {
+          "id": "C",
+          "text": "Only breastfeeding positions."
+        },
+        {
+          "id": "D",
+          "text": "Only the date of the next appointment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Women and families need clear warning signs and escalation advice."
+    },
+    {
+      "id": "q50",
+      "stem": "A woman has increasing wound redness, pain and discharge after caesarean birth. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cover the wound and wait several days."
+        },
+        {
+          "id": "B",
+          "text": "Assess for infection and arrange prompt clinical review."
+        },
+        {
+          "id": "C",
+          "text": "Encourage vigorous exercise."
+        },
+        {
+          "id": "D",
+          "text": "Reassure her that discharge is normal."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These findings may indicate surgical-site infection."
+    },
+    {
+      "id": "q51",
+      "stem": "A postnatal woman is unable to void and her uterus is displaced from the midline. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is always normal."
+        },
+        {
+          "id": "B",
+          "text": "The uterus has completed involution."
+        },
+        {
+          "id": "C",
+          "text": "A full bladder may be affecting uterine position and contraction."
+        },
+        {
+          "id": "D",
+          "text": "The finding indicates breastfeeding failure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Bladder distension can displace the uterus and contribute to poor uterine tone and bleeding."
+    },
+    {
+      "id": "q52",
+      "stem": "Why is assessment of lochia important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is used only to estimate hydration."
+        },
+        {
+          "id": "B",
+          "text": "It replaces uterine assessment."
+        },
+        {
+          "id": "C",
+          "text": "It is irrelevant after the first hour."
+        },
+        {
+          "id": "D",
+          "text": "Changes in amount, colour and odour can help identify haemorrhage or infection."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Lochia is a key indicator of postnatal recovery and complications."
+    },
+    {
+      "id": "q53",
+      "stem": "A mother reports painful cracked nipples and the baby is feeding poorly. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observe a feed, assess attachment and swallowing, and provide practical support."
+        },
+        {
+          "id": "B",
+          "text": "Tell her to stop breastfeeding permanently."
+        },
+        {
+          "id": "C",
+          "text": "Advise feeding less often."
+        },
+        {
+          "id": "D",
+          "text": "Apply any available cream without assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Poor attachment may contribute to nipple trauma and ineffective feeding."
+    },
+    {
+      "id": "q54",
+      "stem": "Which action best supports bonding in the postnatal period?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separate mother and baby routinely."
+        },
+        {
+          "id": "B",
+          "text": "Encourage skin-to-skin contact and responsive interaction when mother and baby are clinically stable."
+        },
+        {
+          "id": "C",
+          "text": "Discourage family involvement."
+        },
+        {
+          "id": "D",
+          "text": "Delay contact until discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Skin-to-skin contact and responsive care support bonding and feeding."
+    },
+    {
+      "id": "q55",
+      "stem": "A woman's support person asks for detailed information, but the mother has not consented. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide all information because the person is family."
+        },
+        {
+          "id": "B",
+          "text": "Discuss care outside the room."
+        },
+        {
+          "id": "C",
+          "text": "Respect the mother's confidentiality and ask whom she wants involved."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse to decide."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Information sharing should respect consent and confidentiality."
+    },
+    {
+      "id": "q56",
+      "stem": "A mother becomes increasingly weak and pale, but visible bleeding appears modest. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume she is tired."
+        },
+        {
+          "id": "B",
+          "text": "Delay observations."
+        },
+        {
+          "id": "C",
+          "text": "Encourage ambulation."
+        },
+        {
+          "id": "D",
+          "text": "Consider concealed or underestimated blood loss, assess urgently and escalate."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Postpartum haemorrhage may be underestimated; clinical signs must be taken seriously."
+    },
+    {
+      "id": "q57",
+      "stem": "Which finding most strongly suggests effective postnatal recovery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable observations, firm uterus, expected lochia, controlled pain, safe mobility and adequate support."
+        },
+        {
+          "id": "B",
+          "text": "Absence of pain only."
+        },
+        {
+          "id": "C",
+          "text": "Discharge within 24 hours."
+        },
+        {
+          "id": "D",
+          "text": "Successful breastfeeding only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery should be assessed across multiple physical and psychosocial domains."
+    },
+    {
+      "id": "q58",
+      "stem": "A woman reports thoughts of harming herself. What is the nurse's priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Advise rest and routine follow-up."
+        },
+        {
+          "id": "B",
+          "text": "Ensure immediate safety, do not leave her alone and arrange urgent mental-health assessment."
+        },
+        {
+          "id": "C",
+          "text": "Ask her not to discuss the thoughts."
+        },
+        {
+          "id": "D",
+          "text": "Wait for family confirmation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Thoughts of harm require immediate safety measures and urgent assessment."
+    },
+    {
+      "id": "q59",
+      "stem": "Which action best supports safe postnatal discharge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide written instructions only."
+        },
+        {
+          "id": "B",
+          "text": "Assume family support is available."
+        },
+        {
+          "id": "C",
+          "text": "Begin planning early, assess physical recovery, emotional wellbeing, feeding, support and understanding of warning signs."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on the baby's condition."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe discharge depends on maternal recovery, newborn care, support and understanding."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects safe postnatal nursing care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The woman is discharged quickly."
+        },
+        {
+          "id": "B",
+          "text": "Only bleeding is monitored."
+        },
+        {
+          "id": "C",
+          "text": "Emotional health is discussed only if the woman asks."
+        },
+        {
+          "id": "D",
+          "text": "Complications are recognised early, recovery is monitored systematically and education supports safe care at home."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Comprehensive postnatal nursing includes physical and emotional assessment, feeding support and education. Section 4 - Essential Newborn Assessment and Care"
+    },
+    {
+      "id": "q61",
+      "stem": "A newborn is sleepy, feeds poorly and has a low temperature. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warm the baby, assess breathing and colour, check blood glucose according to policy and escalate for neonatal review."
+        },
+        {
+          "id": "B",
+          "text": "Assume the baby is simply tired after birth."
+        },
+        {
+          "id": "C",
+          "text": "Offer water and reassess later."
+        },
+        {
+          "id": "D",
+          "text": "Delay assessment until the next feed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Poor feeding, lethargy and hypothermia may indicate hypoglycaemia, infection or other illness and require prompt assessment."
+    },
+    {
+      "id": "q62",
+      "stem": "What are the immediate priorities after birth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bathing, weighing and dressing first."
+        },
+        {
+          "id": "B",
+          "text": "Airway, breathing, circulation, warmth and observation."
+        },
+        {
+          "id": "C",
+          "text": "Feeding before breathing assessment."
+        },
+        {
+          "id": "D",
+          "text": "Routine documentation before contact."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Immediate newborn care focuses on adaptation and thermoregulation."
+    },
+    {
+      "id": "q63",
+      "stem": "Which statement about Apgar scoring is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It predicts long-term development with certainty."
+        },
+        {
+          "id": "B",
+          "text": "It replaces clinical examination."
+        },
+        {
+          "id": "C",
+          "text": "It provides a structured description of adaptation but does not replace ongoing assessment."
+        },
+        {
+          "id": "D",
+          "text": "A normal score eliminates the need for monitoring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Apgar is a useful structured observation, but ongoing assessment remains essential."
+    },
+    {
+      "id": "q64",
+      "stem": "A newborn has central cyanosis, grunting and chest retractions. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine skin-to-skin contact without assessment."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next scheduled observation."
+        },
+        {
+          "id": "C",
+          "text": "Feed immediately."
+        },
+        {
+          "id": "D",
+          "text": "Urgent neonatal assessment and respiratory support according to protocol."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Central cyanosis and respiratory distress signs are neonatal emergencies."
+    },
+    {
+      "id": "q65",
+      "stem": "Why is thermoregulation especially important in newborns?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They lose heat quickly, and cold stress can increase oxygen and glucose use."
+        },
+        {
+          "id": "B",
+          "text": "They regulate temperature better than adults."
+        },
+        {
+          "id": "C",
+          "text": "Low temperature improves feeding."
+        },
+        {
+          "id": "D",
+          "text": "Cold stress is harmless if the baby is sleeping."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Hypothermia can contribute to hypoglycaemia and respiratory compromise."
+    },
+    {
+      "id": "q66",
+      "stem": "Which intervention best supports newborn warmth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediate bathing."
+        },
+        {
+          "id": "B",
+          "text": "Drying promptly, skin-to-skin contact, warm clothing and a suitable environment."
+        },
+        {
+          "id": "C",
+          "text": "Leaving the baby uncovered for observation."
+        },
+        {
+          "id": "D",
+          "text": "Using cold surfaces for weighing."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These measures reduce heat loss and support adaptation."
+    },
+    {
+      "id": "q67",
+      "stem": "A newborn develops jaundice within the first 24 hours. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat it as a normal finding."
+        },
+        {
+          "id": "B",
+          "text": "Increase feeding and wait several days."
+        },
+        {
+          "id": "C",
+          "text": "Arrange prompt neonatal review."
+        },
+        {
+          "id": "D",
+          "text": "Expose the baby to direct sunlight without assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Jaundice in the first day is a warning sign and requires evaluation."
+    },
+    {
+      "id": "q68",
+      "stem": "Which assessment best evaluates feeding effectiveness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Length of feeding only."
+        },
+        {
+          "id": "B",
+          "text": "Maternal intention only."
+        },
+        {
+          "id": "C",
+          "text": "Number of visitors."
+        },
+        {
+          "id": "D",
+          "text": "Readiness, attachment, sucking, swallowing, output and weight trend."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective feeding requires observation of technique and evidence of intake."
+    },
+    {
+      "id": "q69",
+      "stem": "A newborn has persistent low temperature despite warming measures. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Escalate for review and assess for hypoglycaemia, infection or other causes."
+        },
+        {
+          "id": "B",
+          "text": "Continue routine care only."
+        },
+        {
+          "id": "C",
+          "text": "Assume the room is cold."
+        },
+        {
+          "id": "D",
+          "text": "Delay feeding indefinitely."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Persistent hypothermia may indicate illness and requires investigation."
+    },
+    {
+      "id": "q70",
+      "stem": "Which finding is most concerning in a newborn?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occasional sneezing."
+        },
+        {
+          "id": "B",
+          "text": "Poor feeding with lethargy and temperature instability."
+        },
+        {
+          "id": "C",
+          "text": "Brief hiccups."
+        },
+        {
+          "id": "D",
+          "text": "Sleeping between feeds."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The combination may indicate systemic illness."
+    },
+    {
+      "id": "q71",
+      "stem": "Why should identification checks be completed carefully for newborns?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are only administrative."
+        },
+        {
+          "id": "B",
+          "text": "They are unnecessary if the mother recognises the baby."
+        },
+        {
+          "id": "C",
+          "text": "To prevent wrong-baby and wrong-mother errors during care and transfer."
+        },
+        {
+          "id": "D",
+          "text": "They are needed only before discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reliable identification protects mother and baby throughout care."
+    },
+    {
+      "id": "q72",
+      "stem": "A newborn has a seizure-like episode. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restrain the limbs."
+        },
+        {
+          "id": "B",
+          "text": "Feed the baby immediately."
+        },
+        {
+          "id": "C",
+          "text": "Wait to see if it happens again."
+        },
+        {
+          "id": "D",
+          "text": "Protect airway and safety, observe and time the event, and obtain urgent neonatal assistance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Seizures are a neonatal emergency requiring immediate assessment."
+    },
+    {
+      "id": "q73",
+      "stem": "Which family teaching is most important before newborn discharge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signs such as poor feeding, breathing difficulty, fever or low temperature, increasing jaundice, lethargy or seizures require urgent help."
+        },
+        {
+          "id": "B",
+          "text": "The baby should sleep through the night immediately."
+        },
+        {
+          "id": "C",
+          "text": "All crying indicates hunger."
+        },
+        {
+          "id": "D",
+          "text": "Jaundice is always normal."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Families need clear warning signs and escalation advice."
+    },
+    {
+      "id": "q74",
+      "stem": "A newborn is cold and has low blood glucose. How are these findings related?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothermia always raises blood glucose."
+        },
+        {
+          "id": "B",
+          "text": "Cold stress increases glucose use and can contribute to hypoglycaemia."
+        },
+        {
+          "id": "C",
+          "text": "The findings are unrelated."
+        },
+        {
+          "id": "D",
+          "text": "Low glucose improves temperature control."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Newborns use glucose to generate heat, increasing hypoglycaemia risk during cold stress."
+    },
+    {
+      "id": "q75",
+      "stem": "Which action best supports bonding and feeding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine separation."
+        },
+        {
+          "id": "B",
+          "text": "Delaying contact until after bathing."
+        },
+        {
+          "id": "C",
+          "text": "Early skin-to-skin contact when clinically safe."
+        },
+        {
+          "id": "D",
+          "text": "Restricting parental involvement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Skin-to-skin contact supports warmth, bonding and feeding readiness."
+    },
+    {
+      "id": "q76",
+      "stem": "A newborn has poor colour but is breathing normally. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore colour if breathing is present."
+        },
+        {
+          "id": "B",
+          "text": "Feed immediately."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the Apgar score is complete."
+        },
+        {
+          "id": "D",
+          "text": "Assess circulation, oxygenation and overall adaptation rather than assuming the baby is stable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Colour is part of immediate adaptation and requires assessment in context."
+    },
+    {
+      "id": "q77",
+      "stem": "Why should cord care follow local policy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce infection risk and ensure consistent safe practice."
+        },
+        {
+          "id": "B",
+          "text": "Cord care has no safety implications."
+        },
+        {
+          "id": "C",
+          "text": "Any household product is acceptable."
+        },
+        {
+          "id": "D",
+          "text": "The cord should always be covered tightly."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe cord care reduces contamination and infection risk."
+    },
+    {
+      "id": "q78",
+      "stem": "A mother says the baby is too sleepy to feed and has had few wet nappies. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure her without assessment."
+        },
+        {
+          "id": "B",
+          "text": "Assess feeding, hydration, weight, temperature and clinical condition, and escalate if concerning."
+        },
+        {
+          "id": "C",
+          "text": "Advise waiting 24 hours."
+        },
+        {
+          "id": "D",
+          "text": "Recommend water supplementation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Poor feeding and low output may indicate inadequate intake or illness."
+    },
+    {
+      "id": "q79",
+      "stem": "Which statement best distinguishes normal transition from danger signs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Any sleepiness is normal."
+        },
+        {
+          "id": "B",
+          "text": "Any crying is abnormal."
+        },
+        {
+          "id": "C",
+          "text": "Brief adaptation changes may resolve, but persistent respiratory distress, poor feeding, lethargy or temperature instability require review."
+        },
+        {
+          "id": "D",
+          "text": "A normal Apgar score excludes later problems."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Persistence, severity and associated findings help distinguish normal adaptation from illness."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects safe newborn nursing care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The baby is discharged quickly."
+        },
+        {
+          "id": "B",
+          "text": "Only weight is monitored."
+        },
+        {
+          "id": "C",
+          "text": "Apgar scoring is completed once."
+        },
+        {
+          "id": "D",
+          "text": "The baby is kept warm, assessed systematically, supported to feed and monitored for warning signs while the family receives clear education."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe newborn care combines adaptation assessment, thermoregulation, feeding support, ongoing monitoring and family education."
+    }
+  ]
+}

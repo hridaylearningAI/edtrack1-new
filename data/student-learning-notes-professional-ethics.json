@@ -1,0 +1,696 @@
+{
+  "courseCode": "NURS-M9",
+  "title": "Module 9 — Professional Practice and Ethics",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Professional Practice and Ethics is tested in NCLEX because safe nursing is not only about clinical skills. It also requires correct judgement, legal compliance, effective communication, and ethical decision-making. Many NCLEX questions in this area are about what you should do FIRST, who you should report to, and what is within your scope."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use these three guiding questions in every professional practice question:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is this situation safe, legal, and within the nurse's scope of practice?",
+            "What is my professional duty right now (advocate, report, document, escalate)?",
+            "What is the ethical action that protects the patient's rights and dignity?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For NGN questions, apply CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain scope of practice, delegation, and accountability principles.",
+            "Apply ethical principles in nursing decision-making (autonomy, beneficence, nonmaleficence, justice, fidelity, veracity).",
+            "Protect patient rights including privacy, confidentiality, informed consent, and refusal of care.",
+            "Recognise and respond to professional misconduct, unsafe practice, and errors.",
+            "Use clinical communication and documentation standards (SBAR, objective charting).",
+            "Apply conflict resolution, teamwork, and interprofessional collaboration.",
+            "Recognise legal responsibilities related to reporting (abuse, impaired practice, sentinel events).",
+            "Apply culturally safe, patient-centered care and advocacy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "NCLEX Professional Practice Mindset",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX professional practice questions often test whether you act like a safe, accountable nurse. Even if the options seem similar, the safest answer usually follows policy, supports patient rights, and uses proper escalation."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "The Nurse's Core Professional Responsibilities",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Patient safety: prevent harm and escalate concerns.",
+                "Accountability: you are responsible for your own actions and the care you delegate.",
+                "Advocacy: protect the patient's rights and wishes.",
+                "Communication: clear, timely reporting of changes in condition.",
+                "Documentation: accurate, objective, and timely charting."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: If a patient is deteriorating, you act and escalate first. You document after safety is restored."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Scope of Practice and Delegation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Scope of practice defines what a nurse is legally allowed and competent to do. Delegation is assigning tasks to others while remaining accountable for outcomes."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Delegation Rules (High Yield)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The nurse can delegate tasks that are routine, stable, and have predictable outcomes. The nurse cannot delegate assessment, teaching, evaluation, and clinical judgement."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Delegate to unlicensed assistive personnel (UAP): vital signs (stable patient), hygiene, ambulation, feeding (if no aspiration risk).",
+                "Do NOT delegate: initial assessment, clinical judgement, care planning, patient education, triage."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A post-op patient reports new chest pain. This is not stable or routine. The nurse must assess, not delegate."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Five Rights of Delegation",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Right task",
+                "Right circumstances",
+                "Right person",
+                "Right direction/communication",
+                "Right supervision/evaluation"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: If a question asks 'Who should the nurse assign?', choose the most stable patient for less-skilled staff, and higher-risk care for the RN."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Ethical Principles (Explained Simply)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ethics in nursing means doing what is morally right while respecting patient rights. NCLEX ethics questions often test autonomy and informed consent."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Key Ethical Principles",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Autonomy: the patient's right to make their own decisions.",
+                "Beneficence: do good.",
+                "Nonmaleficence: do no harm.",
+                "Justice: fairness (resources, equal care).",
+                "Fidelity: keep promises and commitments.",
+                "Veracity: tell the truth."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A competent patient refuses treatment. Even if you disagree, autonomy means you respect the refusal after providing full information."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Ethical Decision-Making Framework",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When faced with an ethical dilemma, nurses can follow a simple process:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Identify the ethical issue (rights vs safety; beneficence vs autonomy).",
+                "Gather facts (capacity, risks, wishes, legal directives).",
+                "Explore options and consequences.",
+                "Consult (charge nurse, ethics committee, policies).",
+                "Act and document."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Informed Consent and Patient Rights",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Informed consent means the patient agrees to a procedure after understanding risks, benefits, and alternatives. The provider performing the procedure is responsible for explaining it. The nurse verifies that consent is informed and voluntary."
+        },
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Nursing Role in Consent",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Verify correct patient, procedure, and signed form.",
+                "Ensure the patient is not sedated/pressured.",
+                "Confirm patient understands and can ask questions.",
+                "If patient has questions or misunderstanding, stop and notify provider."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: If the patient says 'I don't understand what I'm signing,' the nurse must stop and call the provider—do not explain risks yourself if you are not the procedural provider."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Refusal of Treatment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Competent adults have the right to refuse care, even if refusal leads to harm. The nurse must assess capacity, explain consequences, and document refusal."
+            },
+            {
+              "type": "paragraph",
+              "text": "If a patient refuses life-saving care but is confused/intoxicated, capacity may be impaired; escalate to provider and follow policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Confidentiality, Privacy, and HIPAA-Style Principles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX tests confidentiality as a safety and professional standard. Share patient information only with those directly involved in care and only what is necessary."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Do not discuss patient information in elevators, hallways, or public areas.",
+            "Log out of computers; protect passwords.",
+            "Do not access records out of curiosity.",
+            "Family members do not automatically have access without patient consent (unless legally authorized)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: A relative asks for lab results. The nurse should first confirm authorization and patient consent. If not allowed, respond politely: \"I'm sorry, I cannot share information without the patient's permission.\""
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Documentation and Incident Reporting",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Documentation is a legal record. It must be objective, accurate, and timely."
+        },
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Charting Principles",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Chart facts: what you see/hear/measure (not opinions).",
+                "Use quotes for patient statements.",
+                "Document assessments, interventions, patient response.",
+                "Correct errors according to policy (do not erase)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example of objective charting: \"Dressing saturated with blood; BP 88/52; HR 124; provider notified.\" Not: \"Patient is bleeding badly and looks terrible.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Medication Errors and Incident Reports",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If a medication error occurs, the first priority is patient safety. Then notify provider and follow incident reporting policy."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Assess patient for harm.",
+                "Notify provider and charge nurse.",
+                "Implement ordered monitoring/interventions.",
+                "Document patient status and actions taken.",
+                "Complete incident report per policy (not in the medical record)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: You never hide an error. Transparency and reporting is professional duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Professional Boundaries, Advocacy, and Cultural Safety",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "Boundaries",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Avoid personal relationships with patients.",
+                "Do not accept inappropriate gifts.",
+                "Do not share personal problems with patients.",
+                "Keep communication professional and respectful."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "Advocacy",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Advocacy means speaking up for the patient's needs, dignity, and preferences—especially when the patient cannot speak for themselves."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If a patient's pain is not being addressed and they have worsening distress, the nurse escalates to the provider and documents."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.3",
+          "title": "Cultural Safety and Respect",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Use interpreters (not family) when needed.",
+                "Ask about cultural preferences in care, diet, and gender considerations.",
+                "Respect beliefs while ensuring safety."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Interprofessional Communication and Teamwork",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX expects nurses to communicate clearly and escalate appropriately."
+        },
+        {
+          "type": "subsection",
+          "number": "8.1",
+          "title": "SBAR Communication",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Situation: why you're calling now.",
+                "Background: relevant history.",
+                "Assessment: what you found.",
+                "Recommendation: what you need."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: \"Situation: BP 88/52, HR 124 after surgery. Background: post-op 2 hours, bleeding noted. Assessment: dressing saturated, patient dizzy. Recommendation: need evaluation and orders for fluids/possible transfusion.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Legal Issues: Mandatory Reporting and Negligence",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Some situations require mandatory reporting by law and policy."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Suspected abuse (child, elder, intimate partner) per jurisdiction policy.",
+            "Impaired practice (substance misuse at work).",
+            "Certain infectious disease reporting requirements may apply.",
+            "Violence or threats that create risk to others."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Negligence occurs when duty is breached and harm results. NCLEX focuses on prevention: follow standards, verify orders, document, and communicate changes."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases help you practise ethical decisions, delegation, and safe professional action."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Informed Consent Confusion",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient scheduled for surgery says, \"I don't know what this operation is for, but they told me to sign this form.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Patient does not understand procedure; Consent may not be informed. Practice questions: What should the nurse do first? Who is responsible for explaining risks and benefits? What should be documented? Model CJMM: Recognize cues: lack of understanding. Analyze: consent may be invalid. Prioritize: patient rights and legal compliance. Solutions: stop process, notify provider to explain, ensure questions answered, document patient statement and actions. Evaluate: patient can state understanding and consents voluntarily."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Delegation Error Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: The RN is busy. A new nursing assistant offers to assess a newly admitted patient's pain and create the plan of care."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: New admission; Requires assessment and judgement. Practice questions: Can this be delegated? What tasks CAN be delegated to UAP? How should RN respond? Model CJMM: Recognize: task requires clinical judgement. Analyze: assessment and care plan cannot be delegated. Prioritize: safe scope and accountability. Solutions: RN completes assessment; delegate hygiene/vitals for stable patients; supervise and clarify roles. Evaluate: plan of care developed safely and accurately."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Medication Error",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A nurse discovers that a patient received double the ordered dose of insulin 20 minutes ago."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: High-alert medication; Potential hypoglycemia risk. Practice questions: What should the nurse do first? What monitoring is required? What reporting steps follow? Model CJMM: Recognize: insulin overdose risk. Analyze: hypoglycemia can be fatal. Prioritize: patient safety. Solutions: assess patient, check glucose, give carbs/IV dextrose as needed, notify provider, continuous monitoring. Evaluate: glucose stabilizes; incident report completed per policy."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Confidentiality Breach Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A staff member is discussing a celebrity patient's diagnosis loudly in the hallway."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Protected health information; Public discussion. Practice questions: What is the ethical problem? What should the nurse do? What is the correct professional behavior? Model CJMM: Recognize: privacy violation. Analyze: confidentiality breach harms patient and violates policy. Prioritize: stop breach and report appropriately. Solutions: intervene respectfully, remind staff of privacy, report to supervisor per policy. Evaluate: discussion stops; confidentiality maintained."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Patient Refuses Treatment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A competent adult with pneumonia refuses IV antibiotics, stating personal beliefs. They understand risks but still refuse."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Competent patient; Refusal of recommended care. Practice questions: What is the nurse's priority? How should the nurse respond? What documentation is needed? Model CJMM: Recognize: refusal with capacity. Analyze: autonomy vs beneficence. Prioritize: respect patient rights while ensuring informed refusal. Solutions: clarify understanding, explore concerns, notify provider, offer alternatives, document refusal and teaching. Evaluate: patient decision respected; safety plan arranged."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Mini Quiz (NCLEX-Style) — Module 9",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Choose the most professional, ethical, and policy-consistent action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A patient says, \"I don't understand this consent form.\" What should the nurse do?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Explain the surgical risks in detail",
+            "B. Notify the provider to explain and pause the consent process",
+            "C. Tell the patient to sign quickly",
+            "D. Ask family to sign instead"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: The provider explains risks/benefits. Nurse pauses and notifies provider when understanding is lacking."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which task can be delegated to UAP?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Initial assessment of new admission",
+            "B. Teaching about insulin injections",
+            "C. Ambulating a stable post-op patient with supervision",
+            "D. Evaluating response to pain medication"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Routine tasks for stable patients may be delegated; assessment/teaching/evaluation cannot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: A nurse makes a medication error. The first priority is to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Hide the error to avoid trouble",
+            "B. Assess the patient and notify provider/charge nurse",
+            "C. Complete incident report before assessment",
+            "D. Blame pharmacy"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Patient safety comes first; assess and notify, then report per policy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A family member asks for test results without patient permission. Best response:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Tell them everything to reduce anxiety",
+            "B. Explain you cannot share information without patient authorization",
+            "C. Ignore and walk away",
+            "D. Ask another nurse to answer"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Confidentiality must be protected unless authorized."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: The ethical principle of autonomy means:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Do no harm",
+            "B. Patient has right to make decisions",
+            "C. Provide equal resources",
+            "D. Keep promises"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Autonomy is the patient's right to choose."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A confused patient tries to leave the hospital. The nurse should first:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Restrain immediately",
+            "B. Assess capacity and safety; notify provider and follow policy",
+            "C. Let them leave because autonomy",
+            "D. Ignore because not your patient"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Confusion may impair capacity; safety and legal process required; least restrictive measures first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: Objective documentation means charting:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. \"Patient is rude and dramatic\"",
+            "B. \"Patient refused medication and stated, 'I don't want it.'\"",
+            "C. \"Patient is crazy\"",
+            "D. \"Family is annoying\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Objective charting uses facts and quotes, not judgemental labels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: A nurse overhears a staff member discussing patient info in elevator. Best action:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Join the conversation",
+            "B. Remind them to stop and maintain confidentiality; report if needed",
+            "C. Ignore",
+            "D. Post about it online"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Intervene to prevent privacy breach and escalate per policy if repeated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: Mandatory reporting requires the nurse to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Investigate abuse and collect evidence",
+            "B. Report suspected abuse to the proper authority per policy",
+            "C. Wait for confirmation",
+            "D. Ask patient to keep it secret"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Nurses report suspicion; they do not investigate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: Which is the best SBAR recommendation statement?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. \"The patient is bad.\"",
+            "B. \"I recommend you review the patient now and consider IV fluids due to hypotension.\"",
+            "C. \"Call me later.\"",
+            "D. \"The patient should be fine.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: SBAR includes a clear recommendation and clinical reason."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For wrong answers, identify whether the question tested scope/delegation, ethics, confidentiality, consent, or reporting. Rewrite the correct action in one sentence. Reattempt quiz after 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local laws, professional standards, facility policies, or clinical supervision."
+        }
+      ]
+    }
+  ]
+}

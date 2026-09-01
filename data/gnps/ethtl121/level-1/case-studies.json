@@ -1,0 +1,955 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Infant Bronchiolitis with Respiratory Distress",
+      "stem": "A 5-month-old infant, Aarav, is brought to the paediatric unit with cough, poor feeding, and increasing work of breathing. His mother reports that he has had a runny nose for two days, but today he has become more irritable, is feeding poorly, and seems to be breathing much faster. She says he has had fewer wet nappies since morning and has vomited once after coughing. On assessment, the nurse notes nasal flaring, subcostal retractions, diffuse wheeze and crackles, respiratory rate 62 breaths per minute, heart rate 168 beats per minute, and oxygen saturation 89% on room air. The infant appears tired and intermittently whimpers. The nurse suspects bronchiolitis with clinically significant respiratory compromise.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings most strongly indicate significant respiratory distress in this infant? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nasal flaring"
+            },
+            {
+              "id": "B",
+              "text": "Subcostal retractions"
+            },
+            {
+              "id": "C",
+              "text": "Poor feeding"
+            },
+            {
+              "id": "D",
+              "text": "Respiratory rate 62 breaths per minute"
+            },
+            {
+              "id": "E",
+              "text": "Oxygen saturation 89% on room air"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings indicate clinically important respiratory distress. Infants often show deterioration through feeding difficulty, increased work of breathing, tachypnoea, and falling oxygen saturation. NGN paediatric reasoning requires the nurse to see poor feeding not just as a comfort issue, but as a sign of reduced respiratory reserve and fatigue."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation of the infant’s condition?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild upper respiratory infection only"
+            },
+            {
+              "id": "B",
+              "text": "Bronchiolitis with increasing respiratory effort and risk of deterioration"
+            },
+            {
+              "id": "C",
+              "text": "Normal infant crying pattern"
+            },
+            {
+              "id": "D",
+              "text": "Isolated gastrointestinal upset"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is more than a mild viral cold. The infant has a lower respiratory process with increased work of breathing, poor feeding, and low oxygen saturation. Bronchiolitis can worsen quickly in infants because of their small airways and limited reserve."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for impaired gas exchange related to airway inflammation and increased secretions"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Parent anxiety alone"
+            },
+            {
+              "id": "D",
+              "text": "Risk for constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway and breathing are the top priorities. Parent anxiety matters, but the immediate threat is respiratory compromise and potential exhaustion."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support airway and breathing, position the infant appropriately, monitor oxygenation closely, and prepare for oxygen and suction as indicated by policy or orders"
+            },
+            {
+              "id": "B",
+              "text": "Force a full bottle feed immediately"
+            },
+            {
+              "id": "C",
+              "text": "Delay intervention until the next routine observation round"
+            },
+            {
+              "id": "D",
+              "text": "Place the infant flat to promote rest"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The first action is to support breathing. Positioning, oxygen assessment, and suction readiness are key interventions in bronchiolitis. Forcing oral intake may worsen distress, and lying flat can compromise breathing further."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor hydration and number of wet nappies"
+            },
+            {
+              "id": "B",
+              "text": "Use small frequent feeds only if the infant can tolerate them safely"
+            },
+            {
+              "id": "C",
+              "text": "Reassess for worsening fatigue or apnea"
+            },
+            {
+              "id": "D",
+              "text": "Teach the parent to ignore retractions if wheeze is present"
+            },
+            {
+              "id": "E",
+              "text": "Provide calm explanation and involve the caregiver in ongoing observation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Hydration monitoring is important because infants can dehydrate quickly when feeding is poor. Worsening fatigue or apnea may indicate impending failure. Parent education is essential. Retractions should never be ignored."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respiratory effort decreases, feeding tolerance improves, oxygen saturation rises, and the infant appears less fatigued"
+            },
+            {
+              "id": "B",
+              "text": "Retractions worsen and the infant becomes harder to rouse"
+            },
+            {
+              "id": "C",
+              "text": "Wet nappies remain low and feeding stops completely"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped because the infant is quieter"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by easier breathing, better oxygenation, and improved feeding and hydration. A quieter infant is not always reassuring if fatigue is increasing."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Toddler Dehydration from Gastroenteritis",
+      "stem": "A 2-year-old toddler, Meera, is brought to the emergency department after 24 hours of vomiting and frequent watery diarrhoea. Her father reports that she is much less playful than usual, has not produced tears when crying, and has had only one small wet nappy since early morning. He says she refuses most fluids and lies on his shoulder rather than exploring the room as she normally would. Assessment reveals dry lips, slightly sunken eyes, capillary refill of 3 seconds, heart rate 156 beats per minute, respiratory rate 34 breaths per minute, and weight that is lower than a recent clinic record. The nurse suspects moderate to severe dehydration related to gastroenteritis.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most concerning for dehydration? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "No tears when crying"
+            },
+            {
+              "id": "B",
+              "text": "One small wet nappy only"
+            },
+            {
+              "id": "C",
+              "text": "Dry lips and sunken eyes"
+            },
+            {
+              "id": "D",
+              "text": "Tachycardia"
+            },
+            {
+              "id": "E",
+              "text": "Less active behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings suggest dehydration. In toddlers, behaviour change is especially important. Reduced tears, poor urine output, dry mucosa, tachycardia, and decreased activity indicate fluid volume deficit."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normal toddler tantrum behaviour"
+            },
+            {
+              "id": "B",
+              "text": "Clinically significant dehydration requiring prompt rehydration support"
+            },
+            {
+              "id": "C",
+              "text": "Constipation only"
+            },
+            {
+              "id": "D",
+              "text": "Mild food refusal with no fluid deficit"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This child shows both physical and behavioural signs of dehydration. NCLEX paediatric questions often require recognising dehydration early before shock develops."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Deficient fluid volume with risk of worsening perfusion"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "C",
+              "text": "Stranger anxiety"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about play"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The urgent issue is fluid volume deficit. Dehydration in young children can progress quickly to shock."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess severity carefully, support oral or IV rehydration based on tolerance and orders, and continue close monitoring"
+            },
+            {
+              "id": "B",
+              "text": "Give solid food immediately"
+            },
+            {
+              "id": "C",
+              "text": "Delay fluids until vomiting fully stops for a day"
+            },
+            {
+              "id": "D",
+              "text": "Send the child home without assessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Rehydration is the key nursing priority. Some children can tolerate oral rehydration; others may require IV therapy. Delay increases risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Track intake and output closely"
+            },
+            {
+              "id": "B",
+              "text": "Reassess capillary refill and general responsiveness"
+            },
+            {
+              "id": "C",
+              "text": "Educate caregivers about small frequent rehydration amounts"
+            },
+            {
+              "id": "D",
+              "text": "Ignore weight change because scales vary"
+            },
+            {
+              "id": "E",
+              "text": "Monitor for worsening lethargy or inability to drink"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Intake, output, perfusion, and responsiveness are essential indicators in paediatric dehydration. Caregiver teaching is crucial. Weight changes are clinically important and should not be dismissed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The toddler becomes more alert, urine output improves, mucous membranes look moist, and heart rate begins to normalise"
+            },
+            {
+              "id": "B",
+              "text": "The child becomes more lethargic and capillary refill worsens"
+            },
+            {
+              "id": "C",
+              "text": "No wet nappy is produced for several more hours"
+            },
+            {
+              "id": "D",
+              "text": "The nurse stops reassessing because vomiting decreased once"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement in hydration is shown by better perfusion, better behaviour, moist mucosa, and improved urine output."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "School-Age Child with Asthma Exacerbation",
+      "stem": "An 8-year-old boy, Ryan, presents with coughing, wheezing, and shortness of breath after exposure to dust while cleaning the garage with his family. His mother reports that he used his rescue inhaler twice at home with only partial relief. He is now sitting forward, speaking in short phrases, and looks frightened. On examination, the nurse notes respiratory rate 36 breaths per minute, pulse 138 beats per minute, oxygen saturation 90% on room air, intercostal retractions, and widespread expiratory wheeze. The child says, “My chest feels tight,” and his mother says this attack feels worse than prior episodes.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate a significant asthma exacerbation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Speaking in short phrases"
+            },
+            {
+              "id": "B",
+              "text": "Intercostal retractions"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen saturation 90%"
+            },
+            {
+              "id": "D",
+              "text": "Tachycardia and tachypnoea"
+            },
+            {
+              "id": "E",
+              "text": "Repeated rescue inhaler use with poor relief"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings show significant lower airway obstruction and increased work of breathing. A child who cannot speak comfortably and has poor response to home rescue medication may be at risk of severe exacerbation."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild cough only"
+            },
+            {
+              "id": "B",
+              "text": "Asthma exacerbation with risk of respiratory fatigue and worsening hypoxaemia"
+            },
+            {
+              "id": "C",
+              "text": "Viral rash only"
+            },
+            {
+              "id": "D",
+              "text": "Stable allergic rhinitis"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This child has more than mild wheeze. The oxygen saturation, work of breathing, and poor response to home medication suggest a potentially severe exacerbation."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ineffective airway clearance and impaired ventilation related to bronchospasm"
+            },
+            {
+              "id": "B",
+              "text": "Fear of needles only"
+            },
+            {
+              "id": "C",
+              "text": "Need for school absence note"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway and breathing come first. Bronchospasm and work of breathing are the primary threats."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Initiate emergency asthma care, support oxygenation, administer or prepare bronchodilator therapy as ordered, and monitor closely"
+            },
+            {
+              "id": "B",
+              "text": "Encourage the child to lie flat and sleep"
+            },
+            {
+              "id": "C",
+              "text": "Delay treatment until wheezing stops on its own"
+            },
+            {
+              "id": "D",
+              "text": "Offer a meal before intervention"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Rapid bronchodilation and oxygen support are key priorities. Delayed treatment can lead to respiratory fatigue and failure."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess breath sounds, oxygenation, and work of breathing after treatment"
+            },
+            {
+              "id": "B",
+              "text": "Watch for decreasing wheeze with worsening distress, which may indicate less air movement"
+            },
+            {
+              "id": "C",
+              "text": "Involve the caregiver and explain what signs show improvement or worsening"
+            },
+            {
+              "id": "D",
+              "text": "Assume the child is better once medication is given once"
+            },
+            {
+              "id": "E",
+              "text": "Prepare for escalation if fatigue increases or oxygenation remains poor"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Asthma reassessment is essential. A quieter chest is not always reassuring if airflow is failing. Family support and escalation planning are part of safe paediatric care."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wheeze lessens but air movement remains good, oxygenation improves, and the child can speak more comfortably"
+            },
+            {
+              "id": "B",
+              "text": "The child becomes drowsy and quieter with less audible wheeze"
+            },
+            {
+              "id": "C",
+              "text": "Retractions worsen and oxygen saturation falls further"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped because the mother feels calmer"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement must include better airflow and oxygenation, not just less noise. Drowsiness and a quiet chest can mean deterioration."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Tetralogy of Fallot with Hypercyanotic Spell",
+      "stem": "A 10-month-old infant with known tetralogy of Fallot is brought to the ward by her father after a sudden episode of intense crying followed by marked cyanosis and rapid breathing. He says she drew her knees up and became very blue around the lips. By the time the nurse assesses her, she is still tachypnoeic and dusky, though the episode is beginning to ease. The infant is irritable, oxygen saturation is low, and her father says he was told these “blue spells” may happen but is unsure what to do. The nurse recognises a hypercyanotic spell requiring rapid supportive intervention.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support a hypercyanotic spell in tetralogy of Fallot? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sudden cyanosis"
+            },
+            {
+              "id": "B",
+              "text": "Tachypnoea after crying"
+            },
+            {
+              "id": "C",
+              "text": "Known cyanotic congenital heart disease"
+            },
+            {
+              "id": "D",
+              "text": "Knee-drawing behaviour"
+            },
+            {
+              "id": "E",
+              "text": "Irritability"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "A hypercyanotic spell often follows crying or stress and includes sudden cyanosis, tachypnoea, irritability, and instinctive flexion or knee-chest positioning. The known cardiac diagnosis is highly relevant."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Simple normal crying episode"
+            },
+            {
+              "id": "B",
+              "text": "Hypercyanotic spell causing decreased pulmonary blood flow and reduced oxygenation"
+            },
+            {
+              "id": "C",
+              "text": "Mild diaper rash pain only"
+            },
+            {
+              "id": "D",
+              "text": "Normal feeding discomfort"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "In tetralogy of Fallot, hypercyanotic spells reflect increased right-to-left shunting and reduced oxygenation. The infant requires prompt supportive care."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired oxygenation related to reduced pulmonary blood flow"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed parent sleep"
+            },
+            {
+              "id": "C",
+              "text": "Growth delay only"
+            },
+            {
+              "id": "D",
+              "text": "Delayed tooth eruption"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate danger is poor oxygenation. That must be addressed before education or long-term issues."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Place the infant in a knee-chest position, support oxygenation, and reduce agitation while seeking urgent assistance"
+            },
+            {
+              "id": "B",
+              "text": "Lay the infant flat and leave the room"
+            },
+            {
+              "id": "C",
+              "text": "Feed the infant immediately during the spell"
+            },
+            {
+              "id": "D",
+              "text": "Delay intervention until the father calms down"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The knee-chest position increases systemic vascular resistance and can reduce shunting, improving pulmonary blood flow. Oxygen and calming measures are essential."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep stimulation low and comfort the infant"
+            },
+            {
+              "id": "B",
+              "text": "Monitor oxygenation and colour trends closely"
+            },
+            {
+              "id": "C",
+              "text": "Teach the caregiver what to do if another spell occurs"
+            },
+            {
+              "id": "D",
+              "text": "Ignore these episodes because they always self-resolve safely"
+            },
+            {
+              "id": "E",
+              "text": "Prepare for escalation if the spell does not improve"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Caregiver teaching is especially important in congenital cardiac conditions. Spells can be dangerous and should never be dismissed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cyanosis decreases, breathing eases, oxygenation improves, and the infant settles"
+            },
+            {
+              "id": "B",
+              "text": "Cyanosis deepens and irritability worsens"
+            },
+            {
+              "id": "C",
+              "text": "The infant becomes limp and less responsive"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped because the colour changed slightly"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by better oxygenation, better colour, and reduced distress."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Kawasaki Disease",
+      "stem": "A 4-year-old child, Sofia, is admitted with five days of high fever unresponsive to usual antipyretics. Her mother reports red eyes, cracked red lips, swollen hands, and a rash across the trunk. The child is irritable and does not want to walk much because her feet hurt. On assessment, the nurse notes temperature 39.4 C, bilateral nonpurulent conjunctival redness, strawberry tongue, cervical lymph node enlargement, and erythema of the hands and feet. The nurse suspects Kawasaki disease and recognises the risk of coronary involvement.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support Kawasaki disease? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Persistent fever"
+            },
+            {
+              "id": "B",
+              "text": "Red cracked lips and strawberry tongue"
+            },
+            {
+              "id": "C",
+              "text": "Conjunctival redness"
+            },
+            {
+              "id": "D",
+              "text": "Swollen erythematous hands and feet"
+            },
+            {
+              "id": "E",
+              "text": "Cervical lymphadenopathy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are characteristic of Kawasaki disease. NCLEX questions often require pattern recognition of prolonged fever plus mucocutaneous inflammation."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Simple viral cold only"
+            },
+            {
+              "id": "B",
+              "text": "Kawasaki disease with risk of coronary artery complications"
+            },
+            {
+              "id": "C",
+              "text": "Normal teething symptoms"
+            },
+            {
+              "id": "D",
+              "text": "Mild food allergy alone"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Kawasaki disease is important because untreated inflammation can affect coronary arteries. Early recognition matters."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for cardiac complications from systemic vasculitis"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed play schedule"
+            },
+            {
+              "id": "C",
+              "text": "Need for school homework planning"
+            },
+            {
+              "id": "D",
+              "text": "Cosmetic skin concern"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The risk of coronary artery involvement makes cardiovascular monitoring and treatment a priority."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support full assessment, monitor cardiac status, and prepare for IV immunoglobulin and other prescribed therapy"
+            },
+            {
+              "id": "B",
+              "text": "Delay action because fever in children is common"
+            },
+            {
+              "id": "C",
+              "text": "Encourage vigorous physical activity"
+            },
+            {
+              "id": "D",
+              "text": "Send the child home with no follow-up"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must support treatment promptly because early therapy reduces cardiac complications. Fever should not be dismissed when associated with this pattern."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor fever, irritability, hydration, and cardiac status"
+            },
+            {
+              "id": "B",
+              "text": "Provide comfort for mucosal discomfort and irritability"
+            },
+            {
+              "id": "C",
+              "text": "Educate the caregiver about follow-up for cardiac evaluation"
+            },
+            {
+              "id": "D",
+              "text": "Ignore extremity changes because they are not important"
+            },
+            {
+              "id": "E",
+              "text": "Reassess response to therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Cardiac follow-up is essential. Extremity changes are part of the syndrome and should not be ignored."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fever decreases, the child becomes less irritable, and cardiac monitoring remains stable as treatment begins"
+            },
+            {
+              "id": "B",
+              "text": "Fever persists and lethargy increases without reassessment"
+            },
+            {
+              "id": "C",
+              "text": "No follow-up is arranged after discharge"
+            },
+            {
+              "id": "D",
+              "text": "Mucosal findings worsen and monitoring stops"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement includes fever reduction, better comfort, and stable cardiac status."
+        }
+      ]
+    }
+  ]
+}

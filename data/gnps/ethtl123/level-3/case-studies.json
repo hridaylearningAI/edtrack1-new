@@ -1,0 +1,955 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Documentation Integrity and Late Charting",
+      "stem": "During a hectic shift, a nurse forgets to document that a PRN pain medication was administered at 1400. At 1630, while reviewing the chart, the nurse considers entering the note as if it were documented in real time because “that’s easier and it still happened.” The patient is currently comfortable, and a second nurse is preparing to assess for another PRN dose. The nurse recognises that documentation must be accurate, timely, and honest. The record must reflect what happened without falsifying the time or sequence of care. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which facts make this a documentation issue? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Another dose may be considered soon"
+            },
+            {
+              "id": "B",
+              "text": "The nurse is considering charting as if it were done earlier"
+            },
+            {
+              "id": "C",
+              "text": "The medication was given but not charted at the time"
+            },
+            {
+              "id": "D",
+              "text": "The patient is currently comfortable"
+            },
+            {
+              "id": "E",
+              "text": "Accurate medication timing matters for safety"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these facts are relevant. Documentation timing affects medication safety and legal accuracy. Comfort does not remove the need for honest charting. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Late charting means the event should not be documented at all"
+            },
+            {
+              "id": "B",
+              "text": "Backdating the entry as if charted in real time is acceptable if the medication was actually given"
+            },
+            {
+              "id": "C",
+              "text": "Timing does not matter for PRN medications"
+            },
+            {
+              "id": "D",
+              "text": "The medication still must be documented, but the entry must accurately reflect that it is a late entry"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Late entries should be documented honestly according to policy. Falsifying time compromises the integrity of the record and may endanger the patient if repeat doses are considered. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Finishing charting quickly regardless of accuracy"
+            },
+            {
+              "id": "B",
+              "text": "Ensuring safe and truthful medication documentation so further dosing decisions are accurate"
+            },
+            {
+              "id": "C",
+              "text": "Protecting the nurse from embarrassment"
+            },
+            {
+              "id": "D",
+              "text": "Avoiding unit discussion"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Accurate medication records protect patient safety and legal accountability. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Enter the medication administration as a late entry according to policy and inform relevant staff if dosing decisions may be affected"
+            },
+            {
+              "id": "B",
+              "text": "Omit the record entirely because it is late"
+            },
+            {
+              "id": "C",
+              "text": "Ask another nurse to chart it under their login"
+            },
+            {
+              "id": "D",
+              "text": "Change the time to make the chart look neat"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must chart honestly and communicate if the omitted documentation could affect patient care or additional dosing. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clarify for the next nurse or provider exactly when the medication was actually given"
+            },
+            {
+              "id": "B",
+              "text": "Follow facility policy for late entries and corrections"
+            },
+            {
+              "id": "C",
+              "text": "Reflect on workflow changes needed to reduce repeat omissions"
+            },
+            {
+              "id": "D",
+              "text": "Assume the omission has no effect because the patient is comfortable"
+            },
+            {
+              "id": "E",
+              "text": "Reassess the patient’s current pain status"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "All these actions support professional documentation integrity and patient safety. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Documentation Integrity and Late Charting | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The documentation is altered to appear on time"
+            },
+            {
+              "id": "B",
+              "text": "The record accurately reflects the late entry, the timing is clear to the team, and future medication decisions remain safe"
+            },
+            {
+              "id": "C",
+              "text": "No correction is made because the patient is comfortable"
+            },
+            {
+              "id": "D",
+              "text": "The second PRN dose is given without knowing the first dose timing"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Effective management preserves both record integrity and clinical safety."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Confidentiality and Family Information Requests",
+      "stem": "Ms. Asha Patel, a competent adult patient, has been admitted for treatment of a newly diagnosed STI. She tells the nurse privately, “Please do not discuss my diagnosis with my parents. I’m not ready.” Later that day, her mother arrives, states that she helps with all medical decisions, and demands to know exactly why Asha is in hospital. She says, “I am her mother, so I have the right to know.” The nurse must balance family pressure with patient confidentiality and the patient’s expressed wishes. The situation requires calm, respectful, legally appropriate communication. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most relevant in deciding what information can be shared? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient explicitly requested privacy"
+            },
+            {
+              "id": "B",
+              "text": "The mother is demanding details"
+            },
+            {
+              "id": "C",
+              "text": "Family involvement does not automatically create access rights"
+            },
+            {
+              "id": "D",
+              "text": "The patient is a competent adult"
+            },
+            {
+              "id": "E",
+              "text": "The diagnosis is sensitive health information"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are important. Competent adult patients control who receives their information unless they provide permission or other legal exceptions apply. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sensitive diagnoses should be hidden from the chart entirely"
+            },
+            {
+              "id": "B",
+              "text": "Parents always have full access to adult children’s medical information"
+            },
+            {
+              "id": "C",
+              "text": "The nurse may share limited details because the mother seems concerned"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s confidentiality must be respected unless the patient authorizes disclosure or another legal basis exists"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Concern does not equal authorization. The nurse must protect the patient’s confidentiality and right to privacy. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Protecting the patient’s confidentiality while communicating professionally with the family"
+            },
+            {
+              "id": "B",
+              "text": "Giving the mother enough information to keep peace"
+            },
+            {
+              "id": "C",
+              "text": "Avoiding an awkward conversation with the mother"
+            },
+            {
+              "id": "D",
+              "text": "Finishing other tasks first and leaving the mother waiting indefinitely"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse’s priority is to uphold confidentiality while remaining respectful and calm. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain respectfully that patient information cannot be shared without the patient’s permission and offer to support a conversation if the patient agrees"
+            },
+            {
+              "id": "B",
+              "text": "Disclose the diagnosis because family support is important"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the mother completely"
+            },
+            {
+              "id": "D",
+              "text": "Tell the mother the diagnosis off the record"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should set a professional boundary, protect confidentiality, and offer a supportive pathway only if the patient consents. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume family relationship overrides confidentiality"
+            },
+            {
+              "id": "B",
+              "text": "Encourage the patient to decide if and when she wants family involved"
+            },
+            {
+              "id": "C",
+              "text": "Confirm the patient’s preferences about who may receive information"
+            },
+            {
+              "id": "D",
+              "text": "Avoid discussing the case in public or with unauthorized individuals"
+            },
+            {
+              "id": "E",
+              "text": "Document relevant confidentiality preferences if appropriate"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These actions reinforce privacy and patient autonomy. Family relationship alone does not override a competent adult’s confidentiality. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Confidentiality and Family Information Requests | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient’s privacy is preserved, family communication remains respectful, and any disclosure occurs only with patient consent"
+            },
+            {
+              "id": "B",
+              "text": "The staff discuss the STI at the nurses’ station within family hearing range"
+            },
+            {
+              "id": "C",
+              "text": "The mother is given information because she insists loudly enough"
+            },
+            {
+              "id": "D",
+              "text": "The patient’s wishes are ignored to reduce conflict"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects confidentiality while preserving professionalism and trust."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Scope of Practice and LPN Assignment Decision",
+      "stem": "An RN is supervising care on a step-down unit with an LPN and a UAP available. One patient needs a comprehensive admission assessment, another requires reinforcement of teaching after the RN’s initial education, a third is stable and needs routine oral medications, and a fourth has just returned from the operating room with worsening pain and dropping blood pressure. The charge nurse asks the RN to organise assignments quickly. The RN must use role clarity to determine what can be safely assigned to the LPN and what remains RN-only responsibility. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which factors are central when assigning to an LPN? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether initial teaching or evaluation is required"
+            },
+            {
+              "id": "B",
+              "text": "Whether the task requires comprehensive assessment"
+            },
+            {
+              "id": "C",
+              "text": "Need for complex judgment in a deteriorating patient"
+            },
+            {
+              "id": "D",
+              "text": "Routine medication administration for a stable patient"
+            },
+            {
+              "id": "E",
+              "text": "Patient stability"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors matter. LPN roles vary by jurisdiction, but NCLEX-style delegation questions emphasize that comprehensive assessment, initial teaching, and unstable patients generally remain RN responsibilities. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Initial admission assessments are always ideal for UAPs"
+            },
+            {
+              "id": "B",
+              "text": "Stable routine care and some reinforcement tasks may be assigned appropriately, but RN judgment tasks must remain with the RN"
+            },
+            {
+              "id": "C",
+              "text": "The RN has no accountability once the assignment is given"
+            },
+            {
+              "id": "D",
+              "text": "The LPN may independently manage the post-operative unstable patient because the unit is busy"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The RN must match task complexity and patient stability to role scope while remaining accountable for the delegation decision. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which task is safest to assign to the LPN?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Interpretation of new hypotension and pain deterioration without RN involvement"
+            },
+            {
+              "id": "B",
+              "text": "Routine oral medications for the stable patient and reinforcement after prior RN teaching if appropriate to local scope"
+            },
+            {
+              "id": "C",
+              "text": "Initial comprehensive admission assessment"
+            },
+            {
+              "id": "D",
+              "text": "Independent management of the unstable post-operative patient"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Routine care for stable patients is generally more appropriate for LPN assignment. Initial assessments and unstable patient evaluation remain RN responsibilities. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the RN do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoid assigning anything because delegation is risky"
+            },
+            {
+              "id": "B",
+              "text": "Assign the most complex case to the LPN to save time"
+            },
+            {
+              "id": "C",
+              "text": "Assign based on scope and stability, keeping unstable assessment/evaluation duties with the RN and giving clear direction for delegated tasks"
+            },
+            {
+              "id": "D",
+              "text": "Let the LPN choose whichever patient seems easiest"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The RN should actively organize care according to patient need, scope, and accountability. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume the LPN can substitute for full RN clinical judgment in all cases"
+            },
+            {
+              "id": "B",
+              "text": "Clarify what findings the LPN should report immediately"
+            },
+            {
+              "id": "C",
+              "text": "Reassess outcomes of delegated care as needed"
+            },
+            {
+              "id": "D",
+              "text": "Personally assess the unstable post-operative patient without delay"
+            },
+            {
+              "id": "E",
+              "text": "Ensure reinforcement teaching is based on the RN’s initial teaching plan"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These actions reflect safe assignment and supervision. The RN retains responsibility for assessment, interpretation, and evaluation. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Scope of Practice and LPN Assignment Decision | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective assignment and supervision?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable tasks are completed appropriately within role scope, the unstable patient is assessed promptly by the RN, and key findings are communicated clearly"
+            },
+            {
+              "id": "B",
+              "text": "The LPN independently manages the unstable patient’s hypotension with no RN involvement"
+            },
+            {
+              "id": "C",
+              "text": "Admission assessment is omitted due to poor assignment planning"
+            },
+            {
+              "id": "D",
+              "text": "No one knows who is responsible for follow-up"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective team management depends on safe role allocation, supervision, and clear communication."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Impaired Practice and Substance Use by a Nurse",
+      "stem": "On a night shift, a nurse notices that a colleague smells strongly of alcohol, has bloodshot eyes, and nearly drops a narcotic vial while preparing medications. The colleague insists they are “just exhausted” and asks the nurse not to say anything because they are short-staffed. The impaired nurse then attempts to care for a sedated patient receiving high-risk opioids. The observing nurse feels conflicted, knowing that reporting could affect the colleague’s career. However, patient safety and professional duty are at stake. The nurse must act within legal-ethical expectations and workplace policy. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest possible impaired practice? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Difficulty handling narcotic medication"
+            },
+            {
+              "id": "B",
+              "text": "Request to keep the concern secret"
+            },
+            {
+              "id": "C",
+              "text": "Bloodshot eyes and poor coordination"
+            },
+            {
+              "id": "D",
+              "text": "Smell of alcohol"
+            },
+            {
+              "id": "E",
+              "text": "Working with high-risk sedated patients"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings raise serious concern for impaired practice. The request for secrecy is especially concerning because it places patient safety below personal protection. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The colleague may be impaired and must be removed from patient care through proper reporting channels"
+            },
+            {
+              "id": "B",
+              "text": "Staffing shortage means the concern should be ignored"
+            },
+            {
+              "id": "C",
+              "text": "Fatigue alone always explains alcohol odor"
+            },
+            {
+              "id": "D",
+              "text": "The narcotic near-miss is unrelated to safety"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse’s duty is to protect patients. Potential impairment requires immediate action through appropriate supervisory processes. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoiding extra documentation"
+            },
+            {
+              "id": "B",
+              "text": "Immediate patient safety risk from possible impaired nursing practice"
+            },
+            {
+              "id": "C",
+              "text": "Protecting the colleague from embarrassment"
+            },
+            {
+              "id": "D",
+              "text": "Preventing staffing inconvenience"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Patient safety is the priority. Professional accountability includes reporting unsafe practice. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Notify the appropriate supervisor immediately and ensure the colleague is removed from direct patient care pending assessment"
+            },
+            {
+              "id": "B",
+              "text": "Personally cover for the colleague and say nothing"
+            },
+            {
+              "id": "C",
+              "text": "Publicly accuse the colleague in front of patients"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the issue until the end of the shift"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should act promptly and through the correct chain of command. Public confrontation is not the safest or most professional first step. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Document objective observations if required by policy"
+            },
+            {
+              "id": "B",
+              "text": "Assume friendship or sympathy overrides duty to report"
+            },
+            {
+              "id": "C",
+              "text": "Focus on observed behaviours rather than assumptions or gossip"
+            },
+            {
+              "id": "D",
+              "text": "Protect patients receiving high-risk medications from delayed monitoring"
+            },
+            {
+              "id": "E",
+              "text": "Cooperate with formal review or occupational health processes"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are all appropriate professional responses. Objectivity and patient safety are essential. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Impaired Practice and Substance Use by a Nurse | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The impaired practice concern is escalated promptly, patient care is reassigned safely, and the issue is handled through policy-based processes"
+            },
+            {
+              "id": "B",
+              "text": "The colleague continues high-risk care because the unit is short-staffed"
+            },
+            {
+              "id": "C",
+              "text": "Documentation is avoided because the issue feels uncomfortable"
+            },
+            {
+              "id": "D",
+              "text": "Staff agree informally to keep the problem quiet"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects patients immediately and addresses the concern through formal professional channels."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Cultural Beliefs, Advocacy, and Ethical Communication",
+      "stem": "Mrs. Noor Rahman is a 45-year-old patient admitted with uncontrolled diabetes. The care team recommends insulin initiation, but she states through an interpreter that she wants to speak with her husband and elder family members first because health decisions in her family are made collectively. A frustrated staff member says, “She is refusing treatment. Just make her sign refusal forms now.” The nurse recognises that culturally responsive care requires respect, clarification, and patient-centred advocacy rather than assuming noncompliance. At the same time, the nurse must ensure that the patient understands her condition and the consequences of delaying treatment. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most important in this cultural-ethical situation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient wants family involvement in decision-making"
+            },
+            {
+              "id": "B",
+              "text": "Insulin treatment is clinically important"
+            },
+            {
+              "id": "C",
+              "text": "An interpreter is needed for accurate communication"
+            },
+            {
+              "id": "D",
+              "text": "The patient may need more time and explanation"
+            },
+            {
+              "id": "E",
+              "text": "Staff are labeling the patient as noncompliant too quickly"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these cues matter. Cultural decision-making practices should be respected while ensuring the patient still receives accurate information and has the opportunity to make an informed decision. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Family involvement means the patient loses all autonomy"
+            },
+            {
+              "id": "B",
+              "text": "Cultural beliefs are irrelevant in hospital practice"
+            },
+            {
+              "id": "C",
+              "text": "The patient is automatically refusing treatment and should be pressured immediately"
+            },
+            {
+              "id": "D",
+              "text": "The nurse should support culturally sensitive communication, clarify understanding, and avoid premature labeling"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient is not necessarily refusing treatment; she may be requesting culturally meaningful consultation. The nurse should not confuse culturally shaped decision-making with simple noncompliance. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which issue is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Avoiding interpreter use to save time"
+            },
+            {
+              "id": "B",
+              "text": "Ensuring informed, respectful communication while protecting the patient’s right to participate in care decisions"
+            },
+            {
+              "id": "C",
+              "text": "Letting the family decide without including the patient"
+            },
+            {
+              "id": "D",
+              "text": "Ending the conversation quickly for staff convenience"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The priority is ethically sound communication that respects culture and patient rights while still addressing health risks. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pressure the patient to sign refusal forms immediately"
+            },
+            {
+              "id": "B",
+              "text": "Speak only to the husband because the family is involved"
+            },
+            {
+              "id": "C",
+              "text": "Stop all discussion of treatment until discharge"
+            },
+            {
+              "id": "D",
+              "text": "Use the interpreter appropriately, clarify the patient’s understanding, and explore how family involvement can occur without compromising informed care"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse should facilitate respectful, accurate communication. Using a qualified interpreter and exploring the patient’s preferences are key advocacy steps. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Advocate against dismissive labeling by staff"
+            },
+            {
+              "id": "B",
+              "text": "Assume that culturally based hesitation means the patient does not understand anything"
+            },
+            {
+              "id": "C",
+              "text": "Respect cultural beliefs while still explaining clinical risks clearly"
+            },
+            {
+              "id": "D",
+              "text": "Distinguish between delayed decision-making and true informed refusal"
+            },
+            {
+              "id": "E",
+              "text": "Document the patient’s preferences and discussions accurately"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are all appropriate. Cultural sensitivity does not mean abandoning education; rather, it means providing it respectfully and effectively. Program Area: Professional Practice and Ethics | Level: Level 3 - Global Nursing Professional | Section: Cultural Beliefs, Advocacy, and Ethical Communication | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective nursing advocacy?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient receives accurate information through appropriate communication, cultural preferences are respected, and treatment decisions are made with informed participation"
+            },
+            {
+              "id": "B",
+              "text": "Staff pressure the patient into signing refusal forms without interpreter support"
+            },
+            {
+              "id": "C",
+              "text": "The family speaks for the patient while the patient is excluded"
+            },
+            {
+              "id": "D",
+              "text": "Cultural concerns are ignored because insulin is important"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective advocacy balances respect, informed decision-making, and professional communication without stereotyping or coercion."
+        }
+      ]
+    }
+  ]
+}

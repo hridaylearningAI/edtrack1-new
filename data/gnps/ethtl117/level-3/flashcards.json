@@ -1,0 +1,1258 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "According to the GNPS Program, medication safety is an organizational responsibility supported by governance, leadership, policy, monitoring, and _____.",
+      "back": "education"
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Whose influence determines whether staff feel able to question unsafe medication orders?",
+      "back": "Nurse leaders"
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "What organizational framework defines how medicines are selected, stored, prescribed, and administered?",
+      "back": "Medication Governance"
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "List three of the five mechanisms mentioned that help an organization maintain oversight of medication governance.",
+      "back": "Committees, policies, audits, credentialing, or incident systems"
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What does a strong medication-safety culture make \"normal\" regarding unusual doses?",
+      "back": "Clarifying them"
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "In a positive safety culture, when should a nurse stop the medication process?",
+      "back": "When information is incomplete"
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "Besides actual errors, what specific type of safety event should staff feel encouraged to report in a strong culture?",
+      "back": "Near misses"
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "What two organizational factors must leaders prevent from silencing staff safety concerns?",
+      "back": "Workload and hierarchy"
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "Concept: Just Culture",
+      "back": "Definition: A framework that distinguishes between human error, at-risk shortcuts, and reckless behavior to support learning while maintaining accountability."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Name the three specific types of behavior distinguished within a just culture.",
+      "back": "Human error, at-risk shortcuts, and reckless behavior"
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "What is the primary goal of the response to incidents in a just culture?",
+      "back": "To support learning while maintaining fair accountability"
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "List the four requirements for establishing and maintaining medication competence.",
+      "back": "Education, supervised practice, assessment, and periodic review"
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "How do experienced nurses use mentoring to strengthen medication safety?",
+      "back": "By coaching others and providing constructive feedback"
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "In the Section 1 clinical example, what is the manager's very first action after an error is reported?",
+      "back": "Confirms patient safety"
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "In the clinical example, what did the manager review regarding the environment after the wrong concentration was selected?",
+      "back": "Storage and labelling"
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "In the clinical example, what did the manager review regarding the staff after the wrong concentration was selected?",
+      "back": "Training and workload"
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "The manager's response in the clinical example addressed both individual learning and _____.",
+      "back": "system design"
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Why did the manager in the clinical example thank the nurse for speaking up?",
+      "back": "To promote a positive medication-safety culture where reporting is safe"
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "Medication safety requires _____ governance.",
+      "back": "visible"
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "According to the key learning points, how should leaders respond to different types of behavior?",
+      "back": "Fairly"
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "What two methods should be used to strengthen practice according to the Section 1 summary?",
+      "back": "Coaching and competency assessment"
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "Which governance mechanism involves verifying a nurse's professional qualifications and skills for medication tasks?",
+      "back": "Credentialing"
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "A learning outcome of Section 1 is to explain the role of _____ in medication safety.",
+      "back": "clinical governance"
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "Section 1 aims to develop the ability to support staff _____ and accountability.",
+      "back": "competence"
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "In medication governance, identifying how medicines are _____ is the final step in the oversight lifecycle.",
+      "back": "reviewed"
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "In the medication governance lifecycle, which step follows 'administration'?",
+      "back": "Monitoring"
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "In the medication governance lifecycle, which step follows 'prescribing'?",
+      "back": "Preparation"
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "Medication governance includes how medicines are selected, stored, prescribed, prepared, administered, monitored, and _____.",
+      "back": "reviewed"
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "What type of culture distinguishes between 'at-risk shortcuts' and 'reckless behavior'?",
+      "back": "Just culture"
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "Clinical governance is an organisational responsibility supported by governance, leadership, policy, _____, and monitoring.",
+      "back": "education"
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "One key learning point is to make questioning and _____ safe for all staff.",
+      "back": "reporting"
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "Nurse leaders influence whether staff feel able to _____ mistakes.",
+      "back": "report"
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "What is the third requirement in the sequence of medication competence: Education, supervised practice, _____, and periodic review.",
+      "back": "assessment"
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "What is the fourth and final requirement for medication competence mentioned in Section 1?",
+      "back": "Periodic review"
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "Which component of medication governance involves systematic checks of practice against established standards?",
+      "back": "Audits"
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "According to the Safety Culture text, leaders must model behaviors such as clarifies unusual doses and stops when _____.",
+      "back": "information is incomplete"
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "In a just culture, how are responses tailored to maintain accountability?",
+      "back": "They are fair and distinguish based on the type of behavior"
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "Medication competence requires supervised practice to ensure safe _____ before independent work.",
+      "back": "application"
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What role does constructive feedback play in medication safety?",
+      "back": "It is a key part of mentoring to strengthen practice"
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "In the clinical example, the nurse reported selecting the wrong _____ of an infusion.",
+      "back": "concentration"
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "Governance committees are responsible for the _____ of how medicines are used within the organization.",
+      "back": "oversight"
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "Which element of medication governance provides specific instructions on how to handle medications safely?",
+      "back": "Policies"
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "A key learning point is to respond fairly to different types of _____.",
+      "back": "behavior"
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "Why is 'periodic review' necessary for medication competence?",
+      "back": "To ensure skills and knowledge remain current over time"
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "In the context of safety culture, what is the risk of a strong hierarchy?",
+      "back": "It can silence staff concerns and prevent safety questioning"
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "What is the second component in the sequence of medication competence: Education, _____, assessment, and periodic review.",
+      "back": "supervised practice"
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "A positive safety culture makes it _____ to clarify unusual doses.",
+      "back": "normal"
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "Under just culture principles, human error is met with a response that primarily supports _____.",
+      "back": "learning"
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "Incident systems help an organization maintain _____ over medication safety.",
+      "back": "oversight"
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "What specific action does a nurse leader take to promote 'questioning'?",
+      "back": "Models clarifying unusual doses and ensuring it is safe to speak up"
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "In the clinical example, the nurse reported the error before it reached the _____.",
+      "back": "patient"
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "Medication safety governance includes oversight of how medicines are _____ (the first step in the lifecycle).",
+      "back": "selected"
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "What is the primary focus of 'Clinical example' reviews in Section 1?",
+      "back": "Addressing both individual learning and system design"
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "The ability to 'Apply just-culture principles' is a _____ of Level 3 GNPS learning.",
+      "back": "learning outcome"
+    },
+    {
+      "id": "fc-55",
+      "section": 1,
+      "front": "In a strong safety culture, hierarchy does not _____ concerns.",
+      "back": "silence"
+    },
+    {
+      "id": "fc-56",
+      "section": 1,
+      "front": "Mentoring is a strategy to strengthen medication _____ in staff.",
+      "back": "competence"
+    },
+    {
+      "id": "fc-57",
+      "section": 1,
+      "front": "Credentialing is a governance process used to ensure staff _____.",
+      "back": "accountability and competence"
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "Where does systems thinking focus its analysis instead of the final action?",
+      "back": "It identifies the conditions that made the error possible."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "Medication errors typically occur within _____ involving people, packaging, and technology.",
+      "back": "complex systems"
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "Name the three human cognitive functions that are naturally limited.",
+      "back": "Attention, memory, and perception."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "List three environmental factors that exacerbate human cognitive limitations.",
+      "back": "Fatigue, interruption, and time pressure."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "What is the primary goal of designing a 'safe system' regarding human focus?",
+      "back": "To reduce dependence on perfect concentration."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "Term: LASA (in the context of medication risk).",
+      "back": "Definition: Look-alike and sound-alike medication names."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "How does 'poor storage' contribute to medication selection errors?",
+      "back": "It places similar-looking or sounding products in close proximity."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "What system risk is posed by 'unclear screens' in clinical technology?",
+      "back": "They contribute to the misinterpretation of data or orders."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "Why are 'incomplete handovers' considered a system risk factor?",
+      "back": "They create gaps in communication within the medication process."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "In the hierarchy of controls, why are education and reminders classified as 'weak'?",
+      "back": "They rely on human memory and performance to prevent errors."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "Hierarchy of Controls: Give an example of 'eliminating' a hazard.",
+      "back": "Removing a hazardous product from the facility."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "How does 'standardizing concentrations' act as a stronger risk control?",
+      "back": "It reduces complexity and the need for high-risk mental calculations."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "Concept: Forcing Functions.",
+      "back": "Definition: Physical or digital constraints that prevent an incorrect action from being completed."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "What is a 'stronger' risk control related to the physical environment?",
+      "back": "Separating the storage of similar medications."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "Who must be involved in learning reviews to ensure they capture practical workflow issues?",
+      "back": "Frontline staff."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "Instead of focusing on individual blame, what should learning reviews examine?",
+      "back": "The full medication process."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Learning review recommendations should be specific, evaluated after implementation, and assigned to _____.",
+      "back": "responsible people"
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "In the clinical example of injectable confusion, what was the primary cause related to labeling?",
+      "back": "The medicines had similar labels and packaging."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "In the clinical example, how was the electronic search redesigned to improve safety?",
+      "back": "It stopped displaying both similar products together."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "What technological control was introduced in the clinical example to verify products?",
+      "back": "Barcode verification."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "In the clinical example, why was storage separated?",
+      "back": "To provide a physical barrier against selecting the wrong injectable."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "According to key learning points, systems should be designed for _____.",
+      "back": "normal human limitations"
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "Why is it necessary to evaluate safety changes after they are implemented?",
+      "back": "To determine if the changes actually reduced error."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What should be preferred over 'warnings alone' when designing safety controls?",
+      "back": "Stronger controls (e.g., forcing functions or standardizing)."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "How do interruptions specifically impact a nurse's medication administration?",
+      "back": "They disrupt cognitive processes and increase the risk of skipping steps."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "What is the limitation of relying solely on 'perfect concentration' for safety?",
+      "back": "It is unsustainable under conditions like fatigue or time pressure."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Give an example of a system risk related to clinical workflow.",
+      "back": "Frequent interruptions during medication preparation."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "How does 'redesigning technology' improve medication safety?",
+      "back": "It ensures the system supports clinical work without creating workarounds."
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "What is the focus of a 'systems-factors' approach to incident analysis?",
+      "back": "Identifying environmental and organizational causes rather than individual fault."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "In the hierarchy of controls, 'separating storage' is considered a _____ control than education.",
+      "back": "stronger"
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "In the clinical example, what role did 'targeted education' play?",
+      "back": "It supported the implementation of new system designs and storage changes."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "What is the risk of using 'inconsistent concentrations' of the same medication?",
+      "back": "It increases the likelihood of dosing errors during administration."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "Systems thinking looks beyond the _____ to identify underlying conditions.",
+      "back": "final person involved"
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "What are 'measurable improvements' in the context of a learning review?",
+      "back": "Changes whose impact on safety can be objectively quantified."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "Why is 'adjacent storage' of look-alike medications dangerous?",
+      "back": "It facilitates selection errors through proximity and similarity."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "A learning review that examines the 'full medication process' looks at steps from _____.",
+      "back": "prescribing through to monitoring"
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "Why should recommendations be 'assigned to responsible people'?",
+      "back": "To ensure accountability for the completion of safety improvements."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "How does time pressure affect human 'perception' in nursing?",
+      "back": "It can cause a nurse to overlook critical safety details or warnings."
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "When analyzing medication incidents, what is the 'final action'?",
+      "back": "The immediate human act that preceded the error."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "Name one 'weak' control that relies on a nurse's memory.",
+      "back": "A printed reminder or poster."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "How does 'barcode verification' act as a digital safety control?",
+      "back": "It automates the matching of the patient and the product."
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "Systems thinking requires identifying the conditions that made _____ possible.",
+      "back": "error"
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "Which human factor is compromised when a nurse is forced to multitask under pressure?",
+      "back": "Attention."
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "What type of control is 'standardizing concentrations' in the hierarchy of controls?",
+      "back": "A stronger, system-level control."
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "Why is 'simulating' a new workflow important in system design?",
+      "back": "It identifies potential errors or workarounds before implementation."
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "What is the primary risk of 'sound-alike' medication names?",
+      "back": "Misunderstanding verbal orders or selecting the wrong item from a list."
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "In medication safety, 'Human Factors' study the interaction between people and _____.",
+      "back": "complex systems"
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "Why should nurses look for 'system factors' instead of 'individual blame'?",
+      "back": "System factors can be redesigned to prevent future errors by others."
+    },
+    {
+      "id": "fc-106",
+      "section": 2,
+      "front": "What is an example of a forcing function in an electronic prescribing system?",
+      "back": "A system that prevents an order from being saved if a weight is missing."
+    },
+    {
+      "id": "fc-107",
+      "section": 2,
+      "front": "The clinical example showed that errors were 'repeatedly confused' due to system design, meaning the error was _____.",
+      "back": "predictable"
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "Global Nursing Professionals use medication data to understand medication harm and to _____.",
+      "back": "Test improvements."
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "In addition to pharmacovigilance, Global Nursing Professionals contribute to stewardship by promoting the _____, evidence-informed use of medicines.",
+      "back": "Appropriate."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "What is the first step for a team starting a quality-improvement cycle?",
+      "back": "Define a specific problem."
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "During a quality-improvement cycle, what must a team do after defining a specific problem?",
+      "back": "Examine current practice."
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "What is the purpose of conducting 'small tests' during quality-improvement cycles?",
+      "back": "To allow for adaptation before broader implementation."
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "What type of measure is used to track medication-harm rates?",
+      "back": "Outcome measures."
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "What type of measure tracks the completion of medication reconciliation?",
+      "back": "Process measures."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "In quality improvement, what is 'independent-check compliance' an example of?",
+      "back": "A process measure."
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "Which type of measure is used to identify unintended effects like treatment delays?",
+      "back": "Balancing measures."
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "What is the primary goal of balancing measures in a safety project?",
+      "back": "To identify unintended effects."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "Adverse reactions should be recognized, documented, and reported through _____.",
+      "back": "Relevant systems."
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "How do aggregated pharmacovigilance reports assist in medication safety?",
+      "back": "They help identify rare or emerging medicine risks."
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "Concept: Medication Stewardship",
+      "back": "Definition: Promoting the right medicine, dose, route, and duration."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "Besides antimicrobial and opioid stewardship, what specific practice do nurses support to ensure appropriate medicine use?",
+      "back": "Deprescribing."
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "By what three primary actions do nurses support medication stewardship?",
+      "back": "Monitoring response, questioning unnecessary continuation, and educating patients."
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "In the insulin clinical example, what specific patient safety issue was identified for improvement?",
+      "back": "Frequent hypoglycaemia."
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "What four factors did the improvement team review in the insulin case study?",
+      "back": "Timing, meal delivery, prescribing, and monitoring."
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "In the revised protocol for insulin, what was the administration of insulin linked to?",
+      "back": "Food availability."
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "What was added to the insulin protocol to ensure safety besides linking it to food?",
+      "back": "A clear escalation pathway."
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "What was the outcome of the insulin protocol revision regarding treatment speed?",
+      "back": "Hypoglycaemia rates fell without delaying necessary treatment."
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "Medication data should be used to define _____ priorities.",
+      "back": "Improvement."
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "What core principle should be promoted regarding the duration of medication use?",
+      "back": "The right medicine for the right duration."
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "What should a nurse do immediately upon recognizing a suspected adverse reaction?",
+      "back": "Document and report it."
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "What is tested immediately after examining current practice in a QI cycle?",
+      "back": "A focused change."
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "How does stewardship impact the choice of medication 'route'?",
+      "back": "It ensures the patient receives the right route."
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "What are the four components of 'the right' medicine application in stewardship?",
+      "back": "Right medicine, right dose, right route, and right duration."
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "What is the final step in the quality-improvement cycle mentioned in the text?",
+      "back": "Study the results."
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "Why is 'questioning unnecessary continuation' a key part of the nurse's role in stewardship?",
+      "back": "To promote the right medicine for the right duration."
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "What does pharmacovigilance specifically aim to surveil?",
+      "back": "Adverse reactions."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "In the QI cycle, what action precedes studying the results?",
+      "back": "Testing a focused change."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "What is the purpose of 'Measurement' in the context of Section 3?",
+      "back": "To understand medication harm and test improvements."
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "How is 'deprescribing' defined within the context of medication stewardship?",
+      "back": "Questioning the unnecessary continuation of medicines."
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "Which specific stewardship focuses on the appropriate use of pain management medications?",
+      "back": "Opioid stewardship."
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "Which specific stewardship focuses on the appropriate use of antibiotics?",
+      "back": "Antimicrobial stewardship."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "What do 'process measures' evaluate in a clinical safety context?",
+      "back": "Compliance with specific safety steps or protocols."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "In the insulin clinical example, the team reviewed _____ to ensure they coincided with insulin administration.",
+      "back": "Meal delivery."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "According to the Section 3 learning outcomes, what should be used to guide improvement priorities?",
+      "back": "Medication data."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "What is a 'balancing measure' intended to catch during a change in protocol?",
+      "back": "Unintended effects."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Global Nursing Professionals support pharmacovigilance by _____ suspected adverse reactions.",
+      "back": "Reporting."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "What is the intended duration of a 'focused change' in the initial stages of a QI cycle?",
+      "back": "A small test."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "Why must nurses educate patients as part of stewardship?",
+      "back": "To promote the right and responsible use of medicines."
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "What is the relationship between stewardship and evidence-informed practice?",
+      "back": "Stewardship promotes the evidence-informed use of medicines."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "What kind of systems are used to report adverse reactions?",
+      "back": "Relevant surveillance systems."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "What happens in a QI cycle after testing a focused change?",
+      "back": "The team studies the results."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "How does a nurse support antimicrobial stewardship regarding duration?",
+      "back": "By questioning unnecessary continuation of the medicine."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "In the insulin example, what falling rate indicated the improvement was successful?",
+      "back": "Hypoglycaemia rates."
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "Which measure type specifically focuses on the end results of care, such as harm?",
+      "back": "Outcome measures."
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "What is 'reconciliation completion' categorized as in clinical measurement?",
+      "back": "A process measure."
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "According to the clinical example, why was the escalation pathway added to the insulin protocol?",
+      "back": "To address identified issues in monitoring and response."
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "What should be promoted for the 'right duration' according to the Key Learning Points?",
+      "back": "The right medicine."
+    },
+    {
+      "id": "fc-158",
+      "section": 4,
+      "front": "Which digital system improves medication safety by ensuring prescriptions are legible?",
+      "back": "Electronic prescribing."
+    },
+    {
+      "id": "fc-159",
+      "section": 4,
+      "front": "How does electronic prescribing assist with patient safety regarding allergies?",
+      "back": "It provides clinical decision support through automated allergy checking."
+    },
+    {
+      "id": "fc-160",
+      "section": 4,
+      "front": "Barcode systems strengthen safety by improving the identification of both the patient and the _____.",
+      "back": "Product."
+    },
+    {
+      "id": "fc-161",
+      "section": 4,
+      "front": "How do smart pumps help reduce errors in infusion therapy?",
+      "back": "They reduce infusion-programming errors."
+    },
+    {
+      "id": "fc-162",
+      "section": 4,
+      "front": "Digital medication tools work most effectively when they are integrated with _____.",
+      "back": "Sound clinical practice."
+    },
+    {
+      "id": "fc-163",
+      "section": 4,
+      "front": "Concept: Automation Bias",
+      "back": "Definition: The tendency to over-rely on automated systems, potentially ignoring critical contradictory information."
+    },
+    {
+      "id": "fc-164",
+      "section": 4,
+      "front": "What safety issue occurs when users are overwhelmed by too many system warnings?",
+      "back": "Alert fatigue."
+    },
+    {
+      "id": "fc-165",
+      "section": 4,
+      "front": "What is a major risk associated with \"copied orders\" in electronic health records?",
+      "back": "The propagation of outdated or incorrect clinical information."
+    },
+    {
+      "id": "fc-166",
+      "section": 4,
+      "front": "Why is \"outdated weight\" a critical risk in digital prescribing systems?",
+      "back": "It can lead to incorrect weight-based dosing calculations."
+    },
+    {
+      "id": "fc-167",
+      "section": 4,
+      "front": "Why are \"workarounds\" in digital systems considered dangerous?",
+      "back": "They create new pathways for potential harm by bypassing established safety controls."
+    },
+    {
+      "id": "fc-168",
+      "section": 4,
+      "front": "Who remains responsible for verifying critical medication information despite the use of automation?",
+      "back": "The nurse."
+    },
+    {
+      "id": "fc-169",
+      "section": 4,
+      "front": "What process is required before implementation to ensure technology fits into the clinical environment?",
+      "back": "Workflow analysis."
+    },
+    {
+      "id": "fc-170",
+      "section": 4,
+      "front": "Why should frontline staff be involved in the design of medication technology?",
+      "back": "To ensure the technology fits clinical work rather than creating unsafe workarounds."
+    },
+    {
+      "id": "fc-171",
+      "section": 4,
+      "front": "Name a preparation step for managing digital systems when technology is unavailable.",
+      "back": "Downtime planning."
+    },
+    {
+      "id": "fc-172",
+      "section": 4,
+      "front": "What should be treated as a \"safety signal\" when monitoring a new digital system?",
+      "back": "Excessive overrides and workarounds."
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "How do medication risks cross international borders in a globalized system?",
+      "back": "Through shared products, supply chains, and digital systems."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "How do nurses contribute to global medication-safety learning?",
+      "back": "By reporting hazards and participating in professional networks."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "When adapting international safety solutions, nurses must consider local resources and _____.",
+      "back": "Practice."
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "In the smart pump clinical example, why were nurses frequently overriding alerts?",
+      "back": "Default limits in the system did not match local protocols."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "Which group of professionals worked together to revise the drug library in the smart pump example?",
+      "back": "Nurse leaders, pharmacy, clinicians, and technical staff."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "What was the outcome of involving clinical users in the smart pump improvement process?",
+      "back": "Technology became safer because the drug library limits were made relevant to clinical use."
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "Digital technology should _____ but not replace clinical judgment.",
+      "back": "Support."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "What is a process measure for evaluating smart pump safety in a hospital?",
+      "back": "Monitoring the frequency of alert overrides."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "How does a \"drug library\" improve safety in smart infusion pumps?",
+      "back": "It provides preset limits for medication concentrations and flow rates."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "Beyond initial training, what ongoing activity is necessary after technology implementation?",
+      "back": "Ongoing monitoring."
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "How can \"wrong-patient selection\" occur in a digital prescribing environment?",
+      "back": "By selecting the incorrect electronic record from a high-volume list."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "What is the primary purpose of barcode administration systems at the bedside?",
+      "back": "To verify the identity of the patient and the medication product."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "Technology should be designed to fit _____ rather than creating unsafe workarounds.",
+      "back": "Clinical work."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "What should nurse leaders do when audits show frequent alert overrides on smart pumps?",
+      "back": "Collaborate with a multidisciplinary team to evaluate and revise the drug library."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "What is a key reason for conducting \"simulations\" during technology implementation?",
+      "back": "To test and refine workflows in a safe environment before the system goes live."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "In global medication safety, what are \"shared products\"?",
+      "back": "Medications that are distributed and used across multiple countries and borders."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "How does \"legibility\" in electronic prescribing directly reduce medication errors?",
+      "back": "It eliminates errors caused by the misinterpretation of handwritten instructions."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "Concept: Workaround",
+      "back": "Definition: An unauthorized practice used by staff to bypass a safety feature or step in a digital system."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "What does \"automation bias\" suggest about the role of the nurse?",
+      "back": "The nurse must remain vigilant and use independent clinical judgment despite automated cues."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "Why is \"workflow analysis\" considered a key human-factors approach in implementation?",
+      "back": "It identifies how technology interacts with the physical and mental processes of the staff."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "How do drug libraries within smart pumps provide a \"forcing function\" for safety?",
+      "back": "By setting hard limits that prevent the user from programming an unsafe dose."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "What is the consequence of \"alert fatigue\" on nursing staff?",
+      "back": "Nurses may ignore or bypass critical safety warnings due to sensory overload."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "How can \"frontline nurse involvement\" improve the safety of digital systems?",
+      "back": "By ensuring the technology supports the actual steps and demands of clinical care."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "What is a \"safety signal\" in the context of barcode medication administration?",
+      "back": "A pattern of scanning errors or frequent manual overrides by the user."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "How does global collaboration address hazards in the medication supply chain?",
+      "back": "By facilitating the international reporting and sharing of hazard alerts."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "Why is \"staff training\" alone insufficient for safe technology implementation?",
+      "back": "It must be paired with workflow analysis, simulation, and ongoing system monitoring."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "What happens when system \"default limits\" are too restrictive for local protocols?",
+      "back": "Nurses are forced to override alerts, which contributes to alert fatigue."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "What is the goal of \"professional networks\" in global medication safety?",
+      "back": "To disseminate evidence-informed practices and share learning across different healthcare systems."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Why is \"wrong-patient selection\" a heightened risk in electronic record environments?",
+      "back": "Similarity in names or high-volume lists can lead to selecting the wrong digital file."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "What is the primary focus of \"technology-related risk\" management?",
+      "back": "Identifying and mitigating hazards that are introduced by the digital systems themselves."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "How do nurses \"critically use\" medication technology in practice?",
+      "back": "By integrating data from the technology with their own professional assessment and judgment."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "What is the relationship between \"workarounds\" and \"system design\"?",
+      "back": "Workarounds often signal that the digital system design does not align with clinical workflow."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "In global medication safety, what must be done to \"international learning\" before local use?",
+      "back": "It must be adapted to fit local resources and clinical practices."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "What digital system is specifically used to cross-reference prescriptions against patient allergy records?",
+      "back": "Clinical decision support within electronic prescribing systems."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "What risk is introduced by duplication of instructions in an electronic health record?",
+      "back": "The risk of copied orders carrying forward outdated or incorrect data."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "What is the purpose of \"drug library\" revisions based on alert override data?",
+      "back": "To ensure that safety limits are clinically relevant and minimize unnecessary alerts."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "How does barcode scanning at the point of care improve \"product identification\"?",
+      "back": "It verifies that the scanned medication package matches the prescribed order for that patient."
+    }
+  ]
+}

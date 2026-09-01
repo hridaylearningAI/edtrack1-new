@@ -1,0 +1,1264 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What is the primary focus of advanced nursing assessment in patients with complex conditions?",
+      "back": "Identifying the problem that threatens life or function first."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "In advanced assessment, what action should follow every nursing intervention?",
+      "back": "Focused reassessment."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "What three clinical areas are prioritized for immediate attention to prevent circulatory or respiratory collapse?",
+      "back": "Airway, Breathing, and Circulation (ABC)."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "While activating an emergency response for an airway obstruction, what should the nurse simultaneously do?",
+      "back": "Begin actions within their scope of practice."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "How does the significance of a worsening clinical pattern compare to a single abnormal result?",
+      "back": "A worsening pattern is generally more important than an isolated abnormal number."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "Which specific biochemical marker is mentioned as a potential indicator of clinical decompensation?",
+      "back": "Rising lactate."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "List three changes in vital signs or clinical findings that may indicate a patient is decompensating.",
+      "back": "Increasing respiratory rate, falling blood pressure, and reduced urine output."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Concept: Expected Findings",
+      "back": "Definition: Clinical findings that are consistent with the patient's condition or current stage of recovery."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What nursing action is required when an unexpected finding, such as a sudden neurological change, occurs?",
+      "back": "Immediate reassessment and escalation."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Under what circumstances should a nurse treat clinical changes as 'clinically significant'?",
+      "back": "When the changes are unexpected or represent a new trend."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "What three possible outcomes of reassessment determine a nurse's next action?",
+      "back": "Improvement, no change, or worsening."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "In the clinical example of Mr. Kumar, what four symptoms suggested a specific clinical pattern?",
+      "back": "Restlessness, tachycardia, hypotension, and falling urine output."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "What specific pattern of compromise did the nurse identify in the case of Mr. Kumar?",
+      "back": "Circulatory compromise."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "What action should a nurse take immediately after recognizing a pattern of deterioration in a patient like Mr. Kumar?",
+      "back": "Initiate the deterioration pathway and prepare for urgent review."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "According to the key learning points, what must be prioritized before routine care?",
+      "back": "Immediate threats to the patient."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "The nurse should interpret combinations and _____, rather than isolated numbers.",
+      "back": "trends"
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "What is the goal of a rapid ABC assessment?",
+      "back": "To identify threats to life that require immediate attention."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Beyond vital signs, what change in a patient's mental state may indicate decompensation?",
+      "back": "Altered consciousness."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "Give an example of a focused nursing intervention that requires subsequent reassessment.",
+      "back": "Positioning (or oxygen, fluids, and medication)."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "What is the purpose of distinguishing stable from unstable findings during assessment?",
+      "back": "To prioritize nursing actions in complex clinical situations."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "In the context of the GNPS Program 5, what does 'escalating early' refer to?",
+      "back": "Activating the emergency response or seeking senior review as soon as deterioration is suspected."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "Why is 'no change' in a patient's condition after an intervention considered a significant finding?",
+      "back": "It informs the nurse that the current intervention may be insufficient and determines the next step."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "What does a falling urine output specifically suggest regarding a patient's physiological status?",
+      "back": "It may indicate reduced organ perfusion or circulatory compromise."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "How should a nurse approach a patient who shows several abnormal findings at the same time?",
+      "back": "Identify the threat to life or function first while collecting the whole clinical picture."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "Term: Decompensation",
+      "back": "Definition: The failure of physiological systems to maintain homeostasis, often indicated by worsening clinical trends."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "What is the primary objective of recognizing clinical patterns of deterioration?",
+      "back": "To act before the deterioration becomes irreversible."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "After identifying an immediate threat and calling for assistance, what is the nurse's next responsibility?",
+      "back": "Begin actions within their scope of practice while waiting for the emergency response."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "Which framework is used to prioritize nursing actions in urgent, high-acuity situations?",
+      "back": "The safety-first framework (incorporating ABC)."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "In Section 1, what is defined as a finding 'consistent with the condition or stage of recovery'?",
+      "back": "An expected finding."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "What nursing action is prompted by a 'new chest pain' in a stable patient?",
+      "back": "Immediate reassessment and escalation."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Why must a nurse continue to 'collect information about the whole clinical picture' during an emergency?",
+      "back": "To identify underlying causes and support the multidisciplinary management of complex conditions."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "What is the significance of 'tachycardia' when paired with 'hypotension' in an acute patient?",
+      "back": "It suggests a pattern of circulatory compromise rather than isolated abnormalities."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "What does 'acting within scope' mean during an emergency response?",
+      "back": "Performing only the clinical actions the nurse is trained and authorized to do."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "According to the Section 1 learning outcomes, what should a nurse be able to prioritize in complex situations?",
+      "back": "Nursing actions."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "Clinical example: A patient with pancreatitis becomes restless and their blood pressure drops. What should the nurse suspect?",
+      "back": "Circulatory compromise."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "The phrase 'ABC and safety-first' is intended to guide nurses in _____ situations.",
+      "back": "urgent"
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "How frequently should focused reassessment occur in high-acuity care?",
+      "back": "After every single intervention."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "What is the clinical significance of an increasing respiratory rate in a complex adult patient?",
+      "back": "It is a key indicator of potential physiological decompensation."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What determines if a finding is 'unexpected'?",
+      "back": "If it is inconsistent with the patient's known condition or predicted recovery path."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "What is the nurse's priority when routine care tasks conflict with an identified clinical threat?",
+      "back": "Address the immediate threat first."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "How does 'rising lactate' assist in the assessment of a deteriorating patient?",
+      "back": "It serves as a marker for worsening tissue perfusion or metabolic stress."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "In the GNPS Level 1 curriculum, what is the purpose of 'interpreting combinations' of findings?",
+      "back": "To recognize patterns of deterioration rather than treating symptoms in isolation."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "What is the first step of a rapid assessment in an unstable patient?",
+      "back": "The ABC assessment (Airway, Breathing, and Circulation)."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "A nurse notices a patient is suddenly drowsy and has a low urine output. What is the immediate priority?",
+      "back": "Performing a rapid assessment and escalating the concern."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "According to the Section 1 summary, what should be done with isolated numbers?",
+      "back": "They should be interpreted as part of a trend or combination of findings."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "What is the primary risk of failing to recognize a pattern of deterioration early?",
+      "back": "The deterioration may become irreversible."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "What is the first action a nurse takes when they recognize a pattern of circulatory compromise?",
+      "back": "Initiate the deterioration pathway."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "Which vital sign change is specifically listed as an indicator of decompensation alongside falling blood pressure?",
+      "back": "Increasing respiratory rate."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "Define 'Safety-first' framework in the context of GNPS Level 1.",
+      "back": "A framework that prioritizes immediate life-saving actions and early escalation in urgent situations."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "When a nurse administers medication to an unstable patient, what is the mandatory next step?",
+      "back": "Perform a focused reassessment of the patient's response."
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "How does the nurse contribute to 'emergency and multidisciplinary management'?",
+      "back": "By recognizing and responding safely to high-acuity conditions and prioritizing care effectively."
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "What does a 'sudden neurological change after surgery' indicate to a nurse?",
+      "back": "An unexpected finding requiring immediate reassessment."
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "In the case of Mr. Kumar, what did 'falling urine output' contribute to the clinical picture?",
+      "back": "It helped identify the overall pattern of circulatory compromise."
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "True or False: Advanced assessment only focuses on life threats and ignores the whole clinical picture.",
+      "back": "False (It focuses on life threats first while still collecting information on the whole picture)."
+    },
+    {
+      "id": "fc-55",
+      "section": 1,
+      "front": "What is the ultimate goal of prioritizing immediate threats before routine care?",
+      "back": "To ensure patient safety and prevent rapid clinical deterioration."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "What are the five primary focuses of nursing care for cardiovascular and respiratory emergencies?",
+      "back": "Early recognition, oxygenation, circulation, monitoring, and timely escalation."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "Which skin-related finding is a common sign of myocardial ischaemia in Acute Coronary Syndrome?",
+      "back": "Diaphoresis."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "What gastrointestinal symptom may be an indicator of Acute Coronary Syndrome?",
+      "back": "Nausea."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "Beyond chest pressure and nausea, what two physical symptoms are common signs of Acute Coronary Syndrome?",
+      "back": "Diaphoresis and breathlessness."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "What objective diagnostic finding is essential for identifying myocardial ischaemia in the emergency setting?",
+      "back": "ECG change."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "What is the first essential nursing action when Acute Coronary Syndrome is suspected?",
+      "back": "Immediate assessment."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "In addition to immediate assessment and emergency treatment, which monitoring action is required for ACS?",
+      "back": "Cardiac monitoring."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "What are the four essential components of nursing management for Acute Coronary Syndrome?",
+      "back": "Immediate assessment, cardiac monitoring, prescribed emergency treatment, and rapid escalation."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "How do fast, slow, or irregular rhythms typically affect hemodynamic status?",
+      "back": "They may reduce cardiac output."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "What are the four hallmark signs of acute heart failure mentioned in the GNPS Level 1 notes?",
+      "back": "Breathlessness, crackles, hypoxia, and fluid overload."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "Which lung sound is specifically associated with the fluid overload of acute heart failure?",
+      "back": "Crackles."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "Nurses monitoring arrhythmias and heart failure must track rhythm, oxygenation, response to therapy, and _____.",
+      "back": "Perfusion."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "What is the clinical significance of sudden dyspnoea combined with pleuritic pain?",
+      "back": "It may suggest a pulmonary embolism."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "What four signs together suggest a patient may have a pulmonary embolism?",
+      "back": "Sudden dyspnoea, pleuritic pain, hypoxia, and tachycardia."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "What is the primary clinical manifestation of Acute Respiratory Distress Syndrome (ARDS)?",
+      "back": "Severe oxygenation failure."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "What type of management is required for both Pulmonary Embolism and ARDS?",
+      "back": "Urgent multidisciplinary management."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "In severe asthma, what does the inability to speak indicate?",
+      "back": "Severe risk."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "What does a 'silent chest' finding in an asthma patient signify?",
+      "back": "Severe risk."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Which five clinical findings indicate severe risk in a patient with asthma or respiratory failure?",
+      "back": "Inability to speak, silent chest, exhaustion, altered consciousness, and worsening blood gases."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What are the two immediate nursing priorities for a patient in severe respiratory failure?",
+      "back": "Escalate immediately and support emergency airway and breathing care."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Why is a 'quieter' asthma patient with reduced air entry and drowsiness a high-priority concern?",
+      "back": "It may indicate exhaustion rather than improvement."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "True or False: In acute respiratory conditions, reduced symptoms like wheezing always indicate patient improvement.",
+      "back": "False (it can indicate exhaustion/silent chest)."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "Which two signs are identified as late indicators of respiratory failure?",
+      "back": "Fatigue and altered consciousness."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "When managing cardiac emergencies, what must be monitored alongside the heart rhythm?",
+      "back": "Perfusion."
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "What is the appropriate nursing response to sudden breathlessness or chest pain?",
+      "back": "Urgent escalation."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What is the significance of worsening blood gases in a patient with asthma?",
+      "back": "It indicates severe risk and potential respiratory failure."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "Which cardiovascular condition is specifically linked to the symptoms of chest pressure and diaphoresis?",
+      "back": "Acute Coronary Syndrome (ACS)."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "In the context of heart failure, hypoxia and crackles are typically signs of _____.",
+      "back": "Fluid overload."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "What specific heart rate change is associated with pulmonary embolism?",
+      "back": "Tachycardia."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "A patient with asthma who becomes drowsy despite having less audible wheezing requires what action?",
+      "back": "Activation of an urgent medical review."
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "In nursing care for emergencies, what does 'timely escalation' follow?",
+      "back": "Early recognition."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "What is the primary goal of supporting 'emergency airway and breathing care' in severe asthma?",
+      "back": "To manage severe risk and prevent respiratory failure."
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "Terminology: What does ARDS stand for?",
+      "back": "Acute Respiratory Distress Syndrome."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "What physical finding suggests a lack of air movement in a severe asthma attack?",
+      "back": "Silent chest."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "How should a nurse interpret an asthma patient becoming 'quieter' with reduced air entry?",
+      "back": "As a sign of clinical deterioration/exhaustion."
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "Which vital sign change is a primary indicator of pulmonary embolism?",
+      "back": "Tachycardia."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "In heart failure management, what does the nurse monitor to evaluate the effectiveness of diuretics or other treatments?",
+      "back": "Response to therapy."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "Which condition is characterized by chest pressure, nausea, and ECG changes?",
+      "back": "Myocardial ischaemia (Acute Coronary Syndrome)."
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "What is the nursing priority when a patient exhibits altered consciousness during an asthma attack?",
+      "back": "Immediate escalation (as it is a late respiratory sign)."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "What are the four specific monitoring requirements for patients with arrhythmias?",
+      "back": "Rhythm, perfusion, oxygenation, and response to therapy."
+    },
+    {
+      "id": "fc-96",
+      "section": 3,
+      "front": "What facial symptom is a primary 'red flag' sign of a stroke?",
+      "back": "Sudden facial weakness."
+    },
+    {
+      "id": "fc-97",
+      "section": 3,
+      "front": "Which speech-related change may indicate a stroke emergency?",
+      "back": "Speech difficulty."
+    },
+    {
+      "id": "fc-98",
+      "section": 3,
+      "front": "Name the limb-related change that serves as a 'red flag' for stroke.",
+      "back": "Limb weakness."
+    },
+    {
+      "id": "fc-99",
+      "section": 3,
+      "front": "Which visual symptom is categorized as a neurological emergency sign?",
+      "back": "Visual change."
+    },
+    {
+      "id": "fc-100",
+      "section": 3,
+      "front": "What is the nurse's primary airway priority during a patient's seizure?",
+      "back": "To protect the airway."
+    },
+    {
+      "id": "fc-101",
+      "section": 3,
+      "front": "Besides the airway, what must the nurse protect the patient from during a seizure?",
+      "back": "Protect the patient from injury."
+    },
+    {
+      "id": "fc-102",
+      "section": 3,
+      "front": "In the context of a seizure, what procedural action should the nurse take regarding the duration?",
+      "back": "Time the event."
+    },
+    {
+      "id": "fc-103",
+      "section": 3,
+      "front": "What should a nurse observe once a seizure has concluded?",
+      "back": "The recovery phase."
+    },
+    {
+      "id": "fc-104",
+      "section": 3,
+      "front": "How does the level of consciousness typically change in cases of raised intracranial pressure?",
+      "back": "It declines."
+    },
+    {
+      "id": "fc-105",
+      "section": 3,
+      "front": "Which gastrointestinal symptom is associated with increased intracranial pressure?",
+      "back": "Vomiting."
+    },
+    {
+      "id": "fc-106",
+      "section": 3,
+      "front": "What pupil finding is a characteristic sign of raised intracranial pressure?",
+      "back": "Unequal pupils."
+    },
+    {
+      "id": "fc-107",
+      "section": 3,
+      "front": "What level of headache severity is indicative of raised intracranial pressure?",
+      "back": "Severe headache."
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "In raised intracranial pressure, what happens to vital-sign patterns?",
+      "back": "They become abnormal."
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "How should a nurse classify any sudden neurological change?",
+      "back": "As an emergency."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "What action should a nurse prioritize to prevent harm in cases of raised intracranial pressure?",
+      "back": "Avoid delays in escalation."
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "Which renal condition is characterized by reduced urine output and fluid overload?",
+      "back": "Acute kidney injury."
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "What metabolic state is a common presentation of acute kidney injury?",
+      "back": "Acidosis."
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "Besides fluid overload and acidosis, what metabolic change occurs in acute kidney injury?",
+      "back": "Electrolyte disturbance."
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "Which body system's function is primarily affected by severe sodium ($Na^{+}$) changes?",
+      "back": "Neurological function."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "Which body system's function is primarily affected by severe potassium ($K^{+}$) changes?",
+      "back": "Cardiac function."
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "Urine output serves as a key clinical indicator for which physiological state?",
+      "back": "Perfusion."
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "What is a primary clinical risk of severe electrolyte changes in an emergency setting?",
+      "back": "Arrhythmias."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "What are the two primary physiological effects caused by DKA and HHS?",
+      "back": "Dehydration and metabolic instability."
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "Name the life-threatening emergency associated with extreme hyperthyroidism.",
+      "back": "Thyroid storm."
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "Name the life-threatening emergency associated with extreme hypothyroidism.",
+      "back": "Myxoedema coma."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "Which metabolic parameter must be monitored in endocrine emergencies?",
+      "back": "Glucose."
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "Why is temperature monitoring essential in endocrine emergencies like thyroid storm?",
+      "back": "To detect life-threatening fluctuations in metabolic activity."
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "Which breathing pattern is characteristic of a patient with diabetic ketoacidosis?",
+      "back": "Deep rapid breathing."
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "What type of pain is commonly reported in the clinical example of DKA?",
+      "back": "Abdominal pain."
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "Which substance, besides glucose, should be checked immediately if DKA is suspected?",
+      "back": "Ketones."
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "In the DKA clinical example, what is the significance of increasing drowsiness?",
+      "back": "It indicates deteriorating neurological status."
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "What should a nurse monitor to evaluate a patient's response to endocrine treatment?",
+      "back": "Treatment response (including fluids and electrolytes)."
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "What must a nurse do continuously while following emergency protocols?",
+      "back": "Reassess the patient."
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "Which electrolyte, denoted as $Ca^{2+}$, can affect cardiac and neurological function?",
+      "back": "Calcium."
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "Sudden facial weakness, speech difficulty, or limb weakness are signs of _____.",
+      "back": "Stroke"
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "Reduced urine output is a key indicator of poor _____.",
+      "back": "Perfusion"
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "The acronym 'DKA' stands for _____.",
+      "back": "Diabetic ketoacidosis"
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "The acronym 'HHS' stands for _____.",
+      "back": "Hyperglycaemic hyperosmolar state"
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "Dangerous electrolyte changes are a known cause of cardiac _____.",
+      "back": "Arrhythmias"
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "During a seizure, a nurse must _____ the event and observe the recovery phase.",
+      "back": "Time"
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "Vomiting, unequal pupils, and severe headache are 'red flags' for _____.",
+      "back": "Raised intracranial pressure"
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "Deep rapid breathing and abdominal pain in a diabetic patient suggest _____.",
+      "back": "Diabetic ketoacidosis"
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Severe sodium ($Na^{+}$) changes primarily impact _____ function.",
+      "back": "Neurological"
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "Thyroid storm and myxoedema coma are life-threatening _____ emergencies.",
+      "back": "Endocrine"
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "Acute kidney injury may present with reduced urine output, fluid overload, or _____.",
+      "back": "Acidosis"
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "Any sudden neurological change must be treated as an _____.",
+      "back": "Emergency"
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "Concept: Stroke Signs",
+      "back": "Definition: Sudden facial, limb, or speech impairments and visual changes requiring immediate escalation."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "Concept: Seizure Safety",
+      "back": "Definition: Actions including protecting the airway/patient, timing the event, and observing recovery."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Concept: Raised Intracranial Pressure (ICP)",
+      "back": "Definition: A condition marked by declining consciousness, unequal pupils, and abnormal vital signs."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "Concept: Acute Kidney Injury (AKI)",
+      "back": "Definition: Sudden renal failure presenting with reduced urine, fluid overload, and electrolyte disturbances."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Concept: Diabetic Ketoacidosis (DKA)",
+      "back": "Definition: An endocrine emergency causing dehydration, metabolic instability, and deep rapid breathing."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "Concept: Thyroid Emergencies",
+      "back": "Definition: Life-threatening crises such as thyroid storm or myxoedema coma requiring intensive monitoring."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "What is the clinical significance of unequal pupils in an acute care setting?",
+      "back": "It is a sign of raised intracranial pressure."
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "In the DKA clinical example, what does 'deep rapid breathing' indicate?",
+      "back": "Metabolic instability/acidosis related to diabetic ketoacidosis."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "Which electrolyte change is most likely to cause neurological dysfunction?",
+      "back": "Sodium ($Na^{+}$) change."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "Why is fluid status monitored during the treatment of DKA?",
+      "back": "To address severe dehydration caused by the condition."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "What is the consequence of cardiac function being affected by potassium ($K^{+}$) changes?",
+      "back": "The development of life-threatening arrhythmias."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "What is the priority when a patient shows signs of a stroke?",
+      "back": "Immediate reassessment and escalation."
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "What metabolic sign, often checked in urine or blood, is essential for diagnosing DKA?",
+      "back": "Ketones."
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "Name one life-threatening pattern of vital signs associated with raised ICP.",
+      "back": "Abnormal vital-sign patterns."
+    },
+    {
+      "id": "fc-156",
+      "section": 4,
+      "front": "What is the clinical definition of sepsis recognition?",
+      "back": "A possible infection combined with signs of new organ dysfunction or altered perfusion."
+    },
+    {
+      "id": "fc-157",
+      "section": 4,
+      "front": "Name the mental status change often associated with the early recognition of sepsis.",
+      "back": "New confusion."
+    },
+    {
+      "id": "fc-158",
+      "section": 4,
+      "front": "Which respiratory sign is a key indicator for recognizing sepsis?",
+      "back": "Rapid breathing (tachypnoea)."
+    },
+    {
+      "id": "fc-159",
+      "section": 4,
+      "front": "What blood pressure finding is indicative of potential sepsis?",
+      "back": "Hypotension."
+    },
+    {
+      "id": "fc-160",
+      "section": 4,
+      "front": "Besides fever, what temperature-related finding can indicate sepsis?",
+      "back": "Hypothermia."
+    },
+    {
+      "id": "fc-161",
+      "section": 4,
+      "front": "What renal indicator suggests organ dysfunction during a septic episode?",
+      "back": "Reduced urine output."
+    },
+    {
+      "id": "fc-162",
+      "section": 4,
+      "front": "Which biochemical marker rises as a sign of tissue hypoperfusion in sepsis?",
+      "back": "Lactate."
+    },
+    {
+      "id": "fc-163",
+      "section": 4,
+      "front": "Sepsis and shock can progress to a severe state known as _____.",
+      "back": "Multiorgan failure."
+    },
+    {
+      "id": "fc-164",
+      "section": 4,
+      "front": "According to Section 4, which healthcare professional is often the first to recognize sepsis?",
+      "back": "The nurse."
+    },
+    {
+      "id": "fc-165",
+      "section": 4,
+      "front": "Identify the four common types of shock.",
+      "back": "Hypovolaemic, cardiogenic, distributive, and obstructive."
+    },
+    {
+      "id": "fc-166",
+      "section": 4,
+      "front": "What is a common neurological sign of shock?",
+      "back": "Altered consciousness."
+    },
+    {
+      "id": "fc-167",
+      "section": 4,
+      "front": "How does shock typically affect skin perfusion?",
+      "back": "It causes poor skin perfusion."
+    },
+    {
+      "id": "fc-168",
+      "section": 4,
+      "front": "What is the typical heart rate response in a patient experiencing shock?",
+      "back": "Tachycardia."
+    },
+    {
+      "id": "fc-169",
+      "section": 4,
+      "front": "Which blood pressure trend is a classic sign of circulatory failure in shock?",
+      "back": "Hypotension."
+    },
+    {
+      "id": "fc-170",
+      "section": 4,
+      "front": "What is the primary renal sign of reduced systemic perfusion in shock?",
+      "back": "Reduced urine output."
+    },
+    {
+      "id": "fc-171",
+      "section": 4,
+      "front": "What is the primary goal of early recognition and rapid treatment in sepsis?",
+      "back": "To improve patient outcomes."
+    },
+    {
+      "id": "fc-172",
+      "section": 4,
+      "front": "Term: Hypovolaemic shock",
+      "back": "Definition: Circulatory failure resulting from a significant loss of fluid or blood volume."
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "Term: Cardiogenic shock",
+      "back": "Definition: Circulatory failure caused by the heart's inability to pump effectively."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "Term: Distributive shock",
+      "back": "Definition: Shock resulting from excessive vasodilation and abnormal distribution of blood flow."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "Term: Obstructive shock",
+      "back": "Definition: Shock caused by a physical obstruction to the flow of blood through the central circulation."
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "In time-critical sepsis care, why are cultures obtained?",
+      "back": "To identify the causative organism and guide treatment."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "What is the priority pharmacological intervention in the sepsis emergency pathway?",
+      "back": "Antimicrobial therapy."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "Why is oxygen administered in the early stages of sepsis and shock?",
+      "back": "To support oxygenation and mitigate tissue hypoxia."
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "What is the purpose of establishing intravenous access in an emergency sepsis pathway?",
+      "back": "To allow for the rapid administration of fluids and medications."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "What is the role of intravenous fluids in treating shock?",
+      "back": "To restore circulating volume and improve perfusion."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "Why is lactate measurement included in time-critical sepsis protocols?",
+      "back": "To assess the severity of tissue hypoperfusion and monitor the response to treatment."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "What is indicated by worsening respiratory, renal, and cardiovascular function in a septic patient?",
+      "back": "Multiorgan dysfunction."
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "Which two additional systems, besides respiratory and renal, are monitored for multiorgan dysfunction?",
+      "back": "Hepatic and neurological systems."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "How does a nurse support coordinated care during multisystem deterioration?",
+      "back": "Through accurate documentation and clear communication of clinical trends."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "Clinical Example: Ms Lee presents with a urinary infection, confusion, and hypotension. What should the nurse suspect?",
+      "back": "Sepsis with possible shock."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "Action: Once the nurse suspects sepsis/shock in Ms Lee, what is the immediate next step?",
+      "back": "Activate the emergency pathway."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "Action: After activating the emergency pathway for a septic patient, what should the nurse obtain as directed?",
+      "back": "Observations and specimens (such as cultures)."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "Safety Principle: When should a nurse act on suspected sepsis?",
+      "back": "Before severe collapse occurs."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "Nursing Assessment: To assess organ function effectively, the nurse should use perfusion indicators _____.",
+      "back": "Together with other organ-function indicators."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "Nursing Responsibility: How must nurses follow time-critical pathways?",
+      "back": "Accurately and according to local protocols."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "Communication: What two elements should be communicated clearly during a patient's treatment for sepsis?",
+      "back": "Clinical trends and treatment response."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "What does 'distributive shock' imply regarding blood vessel state?",
+      "back": "Widespread vasodilation causing a drop in blood pressure."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "What is the significance of 'new confusion' in an infected patient?",
+      "back": "It is a sign of neurological organ dysfunction related to sepsis."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "The presence of infection plus altered perfusion defines _____.",
+      "back": "Sepsis."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "What is the relationship between sepsis and multiorgan failure?",
+      "back": "Sepsis can progress to shock, which then leads to multiorgan failure."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "Identify a common hepatic sign of multiorgan dysfunction.",
+      "back": "Worsening hepatic function (e.g., jaundice or abnormal labs)."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "In the case of Ms Lee, what specific finding suggested tachypnoea?",
+      "back": "Rapid breathing."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "Why is it important for a nurse to monitor the 'response' to emergency interventions?",
+      "back": "To determine if the treatment is effective or if further escalation is needed."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "Sepsis Recognition Indicator: Fever or _____.",
+      "back": "Hypothermia."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "Shock Sign: Poor skin _____.",
+      "back": "Perfusion."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Time-Critical Care: Intravenous _____.",
+      "back": "Access and fluids."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "Sepsis Pathway: Accurate _____ and trend communication.",
+      "back": "Documentation."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "Key Point: Act on suspected sepsis before _____ collapse.",
+      "back": "Severe."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "What specific system is failing if a septic patient becomes tachypnoeic?",
+      "back": "The respiratory system."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "What specific system is failing if a septic patient's urine output drops significantly?",
+      "back": "The renal system."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "Nursing Action: In the clinical example of Ms Lee, what did the nurse monitor after initiating treatment?",
+      "back": "The patient's response."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "Which type of shock involves a physical blockage like a pulmonary embolism?",
+      "back": "Obstructive shock."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "Which type of shock involves heart failure?",
+      "back": "Cardiogenic shock."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "Which type of shock involves severe dehydration or hemorrhage?",
+      "back": "Hypovolaemic shock."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "Recognition of sepsis requires identifying the combination of infection, altered perfusion, and _____.",
+      "back": "Organ dysfunction."
+    }
+  ]
+}

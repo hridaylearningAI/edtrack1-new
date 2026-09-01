@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Pressure injury",
+      "scenario": "An immobile patient is found to have reddened skin over the sacral area that does not blanch when pressure is applied. The patient is incontinent and requires full assistance with repositioning.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Reposition and offload.",
+      "modelWhy": "Early tissue injury.",
+      "modelNext": "Assess skin.",
+      "trap": "Applying lotion only.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Post‑op confusion",
+      "scenario": "An older adult who was alert earlier becomes acutely confused and agitated following surgery. The patient is pulling at monitoring equipment and attempting to get out of bed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess oxygenation.",
+      "modelWhy": "Hypoxia is common cause.",
+      "modelNext": "Check vitals.",
+      "trap": "Assuming age-related.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Allergic reaction",
+      "scenario": "Shortly after receiving an intravenous antibiotic, a patient develops widespread hives, wheezing, and difficulty breathing. Blood pressure is 90/54 mmHg.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop drug and call emergency.",
+      "modelWhy": "Anaphylaxis risk.",
+      "modelNext": "Prepare epinephrine.",
+      "trap": "Documenting first.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "CKD fluid issue",
+      "scenario": "A patient with chronic kidney disease has reduced urine output and increasing peripheral oedema. The patient complains of shortness of breath when lying flat.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess fluid status and notify provider.",
+      "modelWhy": "Fluid overload risk.",
+      "modelNext": "Monitor electrolytes.",
+      "trap": "Encouraging fluids.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Hypocalcemia",
+      "scenario": "A patient reports tingling around the mouth and muscle cramps in the hands. Laboratory results show a low calcium level.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify provider and ensure safety.",
+      "modelWhy": "Neuromuscular excitability.",
+      "modelNext": "Monitor ECG.",
+      "trap": "Reassurance only.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Stroke signs",
+      "scenario": "A patient suddenly develops slurred speech and weakness on the right side of the body. Family members state that these symptoms started less than one hour ago.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Activate emergency response.",
+      "modelWhy": "Time‑critical stroke care.",
+      "modelNext": "Check glucose.",
+      "trap": "Waiting.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "DVT signs",
+      "scenario": "A post-operative patient complains of pain in the left calf. The leg appears swollen, warm, and tender compared to the other side.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify provider.",
+      "modelWhy": "Risk of PE.",
+      "modelNext": "Monitor dyspnea.",
+      "trap": "Massaging leg.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Low urine output",
+      "scenario": "A patient’s urine output has dropped to less than 20 mL per hour for the past two hours. The patient appears fatigued and slightly confused.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess perfusion and notify provider.",
+      "modelWhy": "Kidney perfusion failure.",
+      "modelNext": "Check BP.",
+      "trap": "Waiting.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

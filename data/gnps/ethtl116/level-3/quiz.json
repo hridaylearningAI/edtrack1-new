@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A junior nurse reports a near miss involving an incorrectly connected feeding tube. What is the BEST initial leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thank the nurse, confirm patient safety and begin a fair review of contributing factors."
+        },
+        {
+          "id": "B",
+          "text": "Issue an immediate warning before reviewing the event."
+        },
+        {
+          "id": "C",
+          "text": "Tell the nurse not to discuss the incident."
+        },
+        {
+          "id": "D",
+          "text": "Wait to see whether the error recurs."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A positive safety culture begins by protecting the patient, encouraging reporting and examining the event fairly rather than reacting with automatic blame."
+    },
+    {
+      "id": "q2",
+      "stem": "Which behaviour most clearly demonstrates psychological safety in a nursing team?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff avoid asking questions during busy shifts."
+        },
+        {
+          "id": "B",
+          "text": "Team members can admit uncertainty and raise concerns without humiliation."
+        },
+        {
+          "id": "C",
+          "text": "Only senior staff may question decisions."
+        },
+        {
+          "id": "D",
+          "text": "Errors are discussed only in private management meetings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety allows staff to speak up, ask for help and report concerns early while accountability is still maintained."
+    },
+    {
+      "id": "q3",
+      "stem": "A nurse repeatedly bypasses a safety check because it saves time and no harm has yet occurred. Under just-culture principles, this is MOST consistent with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Human error only."
+        },
+        {
+          "id": "B",
+          "text": "Reckless behaviour requiring automatic dismissal."
+        },
+        {
+          "id": "C",
+          "text": "At-risk behaviour requiring coaching and removal of incentives for shortcuts."
+        },
+        {
+          "id": "D",
+          "text": "Acceptable practice during workload pressure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "At-risk behaviour involves a risky choice where the danger may be underestimated or normalised. Coaching and system changes are appropriate responses."
+    },
+    {
+      "id": "q4",
+      "stem": "Which action by a nurse leader most strongly demonstrates that safety is an organisational priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Displaying safety posters."
+        },
+        {
+          "id": "B",
+          "text": "Discussing safety only after major incidents."
+        },
+        {
+          "id": "C",
+          "text": "Delegating all safety concerns to quality staff."
+        },
+        {
+          "id": "D",
+          "text": "Responding promptly to reported hazards and following through on corrective action."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Visible follow-through builds trust and shows that safety messages are matched by action."
+    },
+    {
+      "id": "q5",
+      "stem": "A staff member makes an unintentional documentation error despite following the usual process. What response best reflects just culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Support the staff member and examine whether the process or interface contributed."
+        },
+        {
+          "id": "B",
+          "text": "Punish the staff member to deter future mistakes."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the error because it was unintentional."
+        },
+        {
+          "id": "D",
+          "text": "Remove documentation duties permanently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Human error should prompt support and system review while preserving appropriate accountability."
+    },
+    {
+      "id": "q6",
+      "stem": "Which outcome BEST indicates a strong safety culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low incident-report numbers regardless of circumstances."
+        },
+        {
+          "id": "B",
+          "text": "Staff openly report hazards and near misses and use them for learning."
+        },
+        {
+          "id": "C",
+          "text": "Managers control all decisions."
+        },
+        {
+          "id": "D",
+          "text": "Policies are rarely questioned."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Open reporting and shared learning are hallmarks of a mature safety culture."
+    },
+    {
+      "id": "q7",
+      "stem": "A senior clinician dismisses a junior nurse's concern about a deteriorating patient. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the junior nurse to wait."
+        },
+        {
+          "id": "B",
+          "text": "Avoid challenging hierarchy."
+        },
+        {
+          "id": "C",
+          "text": "Support respectful escalation and review the communication barrier."
+        },
+        {
+          "id": "D",
+          "text": "Remove the junior nurse from the case."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Leaders should protect speaking up and address hierarchical barriers that delay safe care."
+    },
+    {
+      "id": "q8",
+      "stem": "Which statement about accountability is MOST accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Psychological safety removes individual accountability."
+        },
+        {
+          "id": "B",
+          "text": "All errors require the same response."
+        },
+        {
+          "id": "C",
+          "text": "Only managers are accountable for safety."
+        },
+        {
+          "id": "D",
+          "text": "Accountability should be proportionate to behaviour and context."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Just culture balances learning with fair and proportionate accountability."
+    },
+    {
+      "id": "q9",
+      "stem": "A unit has low incident reporting despite frequent informal discussion of errors. What should the leader suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff may fear blame or believe reporting produces no action."
+        },
+        {
+          "id": "B",
+          "text": "The unit is highly reliable."
+        },
+        {
+          "id": "C",
+          "text": "The reporting system is unnecessary."
+        },
+        {
+          "id": "D",
+          "text": "Only serious harm should be reported."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Under-reporting commonly reflects fear, poor trust or lack of visible follow-through."
+    },
+    {
+      "id": "q10",
+      "stem": "What is the BEST way for a leader to encourage staff participation in safety meetings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask only senior nurses to speak."
+        },
+        {
+          "id": "B",
+          "text": "Invite contributions, respond respectfully and explain resulting actions."
+        },
+        {
+          "id": "C",
+          "text": "Focus meetings on individual mistakes."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing unresolved risks."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Inclusive leadership and visible response strengthen engagement and psychological safety."
+    },
+    {
+      "id": "q11",
+      "stem": "A nurse knowingly ignores a critical safety policy and exposes patients to serious risk. Which response is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat it as ordinary human error."
+        },
+        {
+          "id": "B",
+          "text": "Ignore it if no patient was harmed."
+        },
+        {
+          "id": "C",
+          "text": "Apply proportionate accountability while protecting patients and reviewing the context."
+        },
+        {
+          "id": "D",
+          "text": "Provide education only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reckless disregard requires proportionate accountability, alongside review of contributing system conditions."
+    },
+    {
+      "id": "q12",
+      "stem": "Which leadership action best supports learning after an incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask who is to blame first."
+        },
+        {
+          "id": "B",
+          "text": "Limit discussion to the final action."
+        },
+        {
+          "id": "C",
+          "text": "Send a general reminder to be careful."
+        },
+        {
+          "id": "D",
+          "text": "Ask what happened, how it happened and what conditions shaped the event."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Learning reviews should explore the full chain of contributing factors rather than only the final act."
+    },
+    {
+      "id": "q13",
+      "stem": "A leader thanks staff for reporting but never communicates outcomes. What is the likely consequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reporting confidence may decline."
+        },
+        {
+          "id": "B",
+          "text": "Staff will report more frequently."
+        },
+        {
+          "id": "C",
+          "text": "Psychological safety will automatically improve."
+        },
+        {
+          "id": "D",
+          "text": "No effect is expected."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Failure to close the feedback loop weakens trust and future reporting."
+    },
+    {
+      "id": "q14",
+      "stem": "Which measure would BEST assess psychological safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of policies issued."
+        },
+        {
+          "id": "B",
+          "text": "Staff willingness to speak up, ask for help and report concerns."
+        },
+        {
+          "id": "C",
+          "text": "Number of managers on duty."
+        },
+        {
+          "id": "D",
+          "text": "Average patient age."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety concerns team members' confidence to voice uncertainty and concerns."
+    },
+    {
+      "id": "q15",
+      "stem": "A manager publicly criticises a nurse who reported a near miss. What is the greatest system risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation will improve."
+        },
+        {
+          "id": "B",
+          "text": "Accountability will increase appropriately."
+        },
+        {
+          "id": "C",
+          "text": "Staff may hide future risks and errors."
+        },
+        {
+          "id": "D",
+          "text": "Near misses will decrease."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Public blame discourages reporting and can drive safety problems underground."
+    },
+    {
+      "id": "q16",
+      "stem": "Which action best models professional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding disclosure to protect reputation."
+        },
+        {
+          "id": "B",
+          "text": "Blaming the workload only."
+        },
+        {
+          "id": "C",
+          "text": "Delegating the incident report."
+        },
+        {
+          "id": "D",
+          "text": "Admitting a mistake, protecting the patient and participating in improvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accountability includes honest disclosure, patient protection and learning."
+    },
+    {
+      "id": "q17",
+      "stem": "A team member is unsure how to use new equipment. What should a psychologically safe leader encourage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Early help-seeking and supervised practice."
+        },
+        {
+          "id": "B",
+          "text": "Independent trial and error."
+        },
+        {
+          "id": "C",
+          "text": "Silence until formal assessment."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding the equipment permanently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe teams normalise asking for help before harm occurs."
+    },
+    {
+      "id": "q18",
+      "stem": "What is the strongest indicator that a leader values safety over productivity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meeting throughput targets."
+        },
+        {
+          "id": "B",
+          "text": "Stopping an unsafe process despite service pressure."
+        },
+        {
+          "id": "C",
+          "text": "Reducing incident reports."
+        },
+        {
+          "id": "D",
+          "text": "Shortening orientation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Leaders demonstrate priorities through decisions, especially when safety conflicts with operational pressure."
+    },
+    {
+      "id": "q19",
+      "stem": "A unit's staff believe only nurses are responsible for safety. What leadership message is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Safety belongs only to bedside staff."
+        },
+        {
+          "id": "B",
+          "text": "Quality staff manage all safety risks."
+        },
+        {
+          "id": "C",
+          "text": "Safety is a shared organisational responsibility involving all roles and systems."
+        },
+        {
+          "id": "D",
+          "text": "Patients should monitor staff performance."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safety is created by the whole system, including leadership, staffing, equipment, policy and frontline practice."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome BEST demonstrates effective safety leadership after a reported hazard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The report is filed without discussion."
+        },
+        {
+          "id": "B",
+          "text": "The reporter is transferred."
+        },
+        {
+          "id": "C",
+          "text": "A reminder email is sent once."
+        },
+        {
+          "id": "D",
+          "text": "The hazard is controlled, staff receive feedback and recurrence is monitored."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective leadership includes action, communication and evaluation of whether risk has actually reduced."
+    },
+    {
+      "id": "q21",
+      "stem": "A medication error occurs after a nurse selects one of two look-alike vials stored together. What is the BEST systems response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separate storage, improve labelling and review selection workflow."
+        },
+        {
+          "id": "B",
+          "text": "Retrain the nurse only."
+        },
+        {
+          "id": "C",
+          "text": "Tell staff to be more careful."
+        },
+        {
+          "id": "D",
+          "text": "Stop reporting similar errors."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "System redesign addresses the conditions that made the error likely and is stronger than education alone."
+    },
+    {
+      "id": "q22",
+      "stem": "Which factor is an example of a human limitation that safe systems should anticipate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perfect memory under all conditions."
+        },
+        {
+          "id": "B",
+          "text": "Reduced attention during interruptions and fatigue."
+        },
+        {
+          "id": "C",
+          "text": "Unlimited ability to multitask."
+        },
+        {
+          "id": "D",
+          "text": "Identical perception among all staff."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Human factors recognises predictable limits in attention, memory and perception."
+    },
+    {
+      "id": "q23",
+      "stem": "Which intervention is highest in the hierarchy of controls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sending a reminder email."
+        },
+        {
+          "id": "B",
+          "text": "Providing annual education."
+        },
+        {
+          "id": "C",
+          "text": "Removing the hazardous product from use."
+        },
+        {
+          "id": "D",
+          "text": "Adding a warning poster."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Elimination removes the hazard and is stronger than administrative controls or education."
+    },
+    {
+      "id": "q24",
+      "stem": "A unit experiences repeated infusion programming errors. What should the review examine FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only which nurse made each error."
+        },
+        {
+          "id": "B",
+          "text": "Staff motivation alone."
+        },
+        {
+          "id": "C",
+          "text": "Patient complaints only."
+        },
+        {
+          "id": "D",
+          "text": "Device design, default settings, workflow, interruptions and training."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Systems thinking examines interacting human, technical and environmental conditions."
+    },
+    {
+      "id": "q25",
+      "stem": "Which recommendation is MOST likely to produce sustainable risk reduction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise concentrations and introduce forcing functions where possible."
+        },
+        {
+          "id": "B",
+          "text": "Be more careful."
+        },
+        {
+          "id": "C",
+          "text": "Discuss the incident at one meeting."
+        },
+        {
+          "id": "D",
+          "text": "Ask staff to memorise all doses."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Standardisation and forcing functions are stronger and more reliable than generic reminders."
+    },
+    {
+      "id": "q26",
+      "stem": "What is the primary purpose of root-cause analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identify one person responsible."
+        },
+        {
+          "id": "B",
+          "text": "Understand contributing conditions and prevent recurrence."
+        },
+        {
+          "id": "C",
+          "text": "Complete regulatory paperwork only."
+        },
+        {
+          "id": "D",
+          "text": "Defend current processes."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Root-cause approaches seek system learning rather than blame."
+    },
+    {
+      "id": "q27",
+      "stem": "A checklist is introduced but staff frequently bypass it. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discipline everyone immediately."
+        },
+        {
+          "id": "B",
+          "text": "Add more checklist items."
+        },
+        {
+          "id": "C",
+          "text": "Examine usability, workflow fit and reasons for workarounds."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the bypasses."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Workarounds are signals that design or workflow may be misaligned with practice."
+    },
+    {
+      "id": "q28",
+      "stem": "Which action best reflects systems thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focusing only on the final mistake."
+        },
+        {
+          "id": "B",
+          "text": "Assuming experienced staff do not err."
+        },
+        {
+          "id": "C",
+          "text": "Replacing all staff involved."
+        },
+        {
+          "id": "D",
+          "text": "Mapping the sequence of events and interacting factors."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Systems thinking examines the chain of events and surrounding conditions."
+    },
+    {
+      "id": "q29",
+      "stem": "A review finds frequent interruptions during medication preparation. Which control is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Redesign the area and workflow to reduce avoidable interruptions."
+        },
+        {
+          "id": "B",
+          "text": "Ask nurses to concentrate harder."
+        },
+        {
+          "id": "C",
+          "text": "Post a warning sign only."
+        },
+        {
+          "id": "D",
+          "text": "Repeat annual education."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Environmental and workflow redesign is stronger than reminders alone."
+    },
+    {
+      "id": "q30",
+      "stem": "Why should frontline staff participate in incident review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They can assign blame accurately."
+        },
+        {
+          "id": "B",
+          "text": "They understand how work is actually performed."
+        },
+        {
+          "id": "C",
+          "text": "Managers should avoid responsibility."
+        },
+        {
+          "id": "D",
+          "text": "Their involvement is only symbolic."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Frontline staff provide practical insight into real processes and barriers."
+    },
+    {
+      "id": "q31",
+      "stem": "Which statement about checklists is MOST accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace professional judgement."
+        },
+        {
+          "id": "B",
+          "text": "They prevent every error."
+        },
+        {
+          "id": "C",
+          "text": "They support reliable performance when well designed and integrated into workflow."
+        },
+        {
+          "id": "D",
+          "text": "They are useful only for novice staff."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Checklists support memory and standardisation but do not replace judgement."
+    },
+    {
+      "id": "q32",
+      "stem": "A technology alert appears so frequently that staff routinely dismiss it. This is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effective forcing function."
+        },
+        {
+          "id": "B",
+          "text": "Strong elimination control."
+        },
+        {
+          "id": "C",
+          "text": "Psychological safety."
+        },
+        {
+          "id": "D",
+          "text": "Alert fatigue."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Excessive low-value alerts can desensitise staff and reduce response to important warnings."
+    },
+    {
+      "id": "q33",
+      "stem": "Which review question best identifies latent conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "What staffing, interface and workflow conditions made the selection error possible?"
+        },
+        {
+          "id": "B",
+          "text": "Who pressed the wrong button?"
+        },
+        {
+          "id": "C",
+          "text": "Why was the nurse careless?"
+        },
+        {
+          "id": "D",
+          "text": "Who should be disciplined?"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Latent conditions are underlying system weaknesses that shape frontline actions."
+    },
+    {
+      "id": "q34",
+      "stem": "A recommendation is assigned to no one and has no completion date. What is the main problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will encourage innovation."
+        },
+        {
+          "id": "B",
+          "text": "It is unlikely to be implemented or evaluated."
+        },
+        {
+          "id": "C",
+          "text": "It automatically improves safety."
+        },
+        {
+          "id": "D",
+          "text": "It reduces workload."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Recommendations require ownership, timelines and monitoring to produce change."
+    },
+    {
+      "id": "q35",
+      "stem": "Which control best reduces wrong-patient specimen labelling?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A yearly reminder."
+        },
+        {
+          "id": "B",
+          "text": "More incident forms."
+        },
+        {
+          "id": "C",
+          "text": "Bedside barcode verification linked to label printing."
+        },
+        {
+          "id": "D",
+          "text": "Asking patients to monitor labels alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Engineering and workflow controls reduce reliance on memory and vigilance."
+    },
+    {
+      "id": "q36",
+      "stem": "A team replaces one confusing connector with a non-interchangeable design. This is an example of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Education only."
+        },
+        {
+          "id": "B",
+          "text": "A weak administrative reminder."
+        },
+        {
+          "id": "C",
+          "text": "Punitive management."
+        },
+        {
+          "id": "D",
+          "text": "A forcing function or engineering control."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Non-interchangeable design physically prevents the wrong connection."
+    },
+    {
+      "id": "q37",
+      "stem": "What is the BEST way to evaluate an incident recommendation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure whether the targeted risk or event rate decreases."
+        },
+        {
+          "id": "B",
+          "text": "Check whether it was discussed."
+        },
+        {
+          "id": "C",
+          "text": "Count emails sent."
+        },
+        {
+          "id": "D",
+          "text": "Assume success after implementation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effectiveness should be assessed using relevant process or outcome data."
+    },
+    {
+      "id": "q38",
+      "stem": "Why are 'be more careful' recommendations weak?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are too expensive."
+        },
+        {
+          "id": "B",
+          "text": "They rely on perfect attention without changing the system."
+        },
+        {
+          "id": "C",
+          "text": "They eliminate hazards."
+        },
+        {
+          "id": "D",
+          "text": "They are engineering controls."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Generic vigilance messages do not address predictable human limitations or system design."
+    },
+    {
+      "id": "q39",
+      "stem": "A hospital installs a new device but error rates rise. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume staff resistance is the only cause."
+        },
+        {
+          "id": "B",
+          "text": "Remove incident reporting."
+        },
+        {
+          "id": "C",
+          "text": "Review implementation, training, interface design and workflow integration."
+        },
+        {
+          "id": "D",
+          "text": "Blame users."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology can introduce new risks if implementation and workflow fit are poor."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome BEST indicates successful human-factors redesign?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More reminders are posted."
+        },
+        {
+          "id": "B",
+          "text": "Policy length increases."
+        },
+        {
+          "id": "C",
+          "text": "Training attendance reaches 100% only."
+        },
+        {
+          "id": "D",
+          "text": "Staff report the process is easier and the targeted error rate falls."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A successful redesign improves usability and reduces actual risk."
+    },
+    {
+      "id": "q41",
+      "stem": "A ward wants to reduce catheter-associated urinary tract infections. What should be done FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the problem and understand current catheter practice."
+        },
+        {
+          "id": "B",
+          "text": "Introduce several solutions at once."
+        },
+        {
+          "id": "C",
+          "text": "Publish infection rates only."
+        },
+        {
+          "id": "D",
+          "text": "Discipline staff involved."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Quality improvement begins by clearly defining the problem and understanding current processes."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an outcome measure for a CAUTI project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage of daily catheter reviews completed."
+        },
+        {
+          "id": "B",
+          "text": "CAUTI rate per catheter days."
+        },
+        {
+          "id": "C",
+          "text": "Number of education sessions."
+        },
+        {
+          "id": "D",
+          "text": "Number of posters displayed."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures show what happened to patients or systems, such as infection rates."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is a process measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate of infection."
+        },
+        {
+          "id": "B",
+          "text": "Patient mortality."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of catheters reviewed daily for necessity."
+        },
+        {
+          "id": "D",
+          "text": "Length of stay only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process measures show whether recommended care occurred."
+    },
+    {
+      "id": "q44",
+      "stem": "A project reduces infections but causes frequent urgent reinsertion of catheters. Reinsertion rate is a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Outcome measure only."
+        },
+        {
+          "id": "B",
+          "text": "Staffing measure."
+        },
+        {
+          "id": "C",
+          "text": "Financial target."
+        },
+        {
+          "id": "D",
+          "text": "Balancing measure."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Balancing measures identify unintended consequences of improvement."
+    },
+    {
+      "id": "q45",
+      "stem": "What is the purpose of a small test of change?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To learn and adapt before wider implementation."
+        },
+        {
+          "id": "B",
+          "text": "To implement across the whole organisation immediately."
+        },
+        {
+          "id": "C",
+          "text": "To avoid measurement."
+        },
+        {
+          "id": "D",
+          "text": "To replace evidence review."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Small tests allow rapid learning with limited risk."
+    },
+    {
+      "id": "q46",
+      "stem": "Surveillance data show infections clustering on one shift. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume staff incompetence."
+        },
+        {
+          "id": "B",
+          "text": "Explore shift-specific workflow, staffing and practice factors."
+        },
+        {
+          "id": "C",
+          "text": "Stop sharing data."
+        },
+        {
+          "id": "D",
+          "text": "Average the data across all shifts."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Stratified data can reveal local contributing factors that need targeted action."
+    },
+    {
+      "id": "q47",
+      "stem": "Which statement about feedback is MOST accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data are useful only when published annually."
+        },
+        {
+          "id": "B",
+          "text": "Feedback should identify individual blame."
+        },
+        {
+          "id": "C",
+          "text": "Timely, understandable feedback supports local action."
+        },
+        {
+          "id": "D",
+          "text": "Only leaders need access to results."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Data support improvement when they reach those who can act in a usable form."
+    },
+    {
+      "id": "q48",
+      "stem": "A hand-hygiene project increases compliance but infection rates do not change. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declare failure immediately."
+        },
+        {
+          "id": "B",
+          "text": "Stop surveillance."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the outcome data."
+        },
+        {
+          "id": "D",
+          "text": "Review measurement quality, other infection drivers and implementation fidelity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Improvement teams should interpret both process and outcome measures and investigate why expected effects did not occur."
+    },
+    {
+      "id": "q49",
+      "stem": "Which nursing action supports antimicrobial stewardship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer antimicrobials at the prescribed time and monitor response."
+        },
+        {
+          "id": "B",
+          "text": "Continue treatment without review."
+        },
+        {
+          "id": "C",
+          "text": "Obtain cultures after antibiotics whenever possible."
+        },
+        {
+          "id": "D",
+          "text": "Avoid checking allergies."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Timely administration, monitoring, culture collection and allergy checking are core nursing contributions."
+    },
+    {
+      "id": "q50",
+      "stem": "Why should unnecessary antimicrobial continuation be questioned through appropriate channels?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce documentation."
+        },
+        {
+          "id": "B",
+          "text": "To reduce resistance and avoidable harm."
+        },
+        {
+          "id": "C",
+          "text": "To shorten all admissions."
+        },
+        {
+          "id": "D",
+          "text": "Because nurses prescribe independently in all settings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unnecessary antimicrobial use increases resistance and adverse effects."
+    },
+    {
+      "id": "q51",
+      "stem": "Which data display would BEST support ward-level action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A national report published years later only."
+        },
+        {
+          "id": "B",
+          "text": "A raw spreadsheet without explanation."
+        },
+        {
+          "id": "C",
+          "text": "A timely dashboard showing local trends and targets."
+        },
+        {
+          "id": "D",
+          "text": "A staff ranking list."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Local, timely and interpretable data are most useful for action."
+    },
+    {
+      "id": "q52",
+      "stem": "A QI project introduces a daily device-review prompt. What should happen NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume it works."
+        },
+        {
+          "id": "B",
+          "text": "Stop collecting baseline data."
+        },
+        {
+          "id": "C",
+          "text": "Expand immediately without review."
+        },
+        {
+          "id": "D",
+          "text": "Measure completion, device days, infections and unintended effects."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Implementation should be followed by evaluation using process, outcome and balancing measures."
+    },
+    {
+      "id": "q53",
+      "stem": "Which statement best defines continuous quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An ongoing cycle of testing, learning and refining care."
+        },
+        {
+          "id": "B",
+          "text": "A one-time response to serious harm."
+        },
+        {
+          "id": "C",
+          "text": "Annual policy review only."
+        },
+        {
+          "id": "D",
+          "text": "Replacing all current practice."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Continuous improvement is iterative and data driven."
+    },
+    {
+      "id": "q54",
+      "stem": "A surveillance system shows rising infections, but case definitions changed. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compare rates without adjustment."
+        },
+        {
+          "id": "B",
+          "text": "Verify data consistency before concluding performance worsened."
+        },
+        {
+          "id": "C",
+          "text": "Stop surveillance."
+        },
+        {
+          "id": "D",
+          "text": "Blame the ward."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reliable interpretation requires consistent definitions and data quality."
+    },
+    {
+      "id": "q55",
+      "stem": "What is the strongest link between infection prevention and antimicrobial stewardship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are unrelated."
+        },
+        {
+          "id": "B",
+          "text": "Stewardship applies only to doctors."
+        },
+        {
+          "id": "C",
+          "text": "Preventing infection reduces the need for antimicrobial treatment."
+        },
+        {
+          "id": "D",
+          "text": "Infection prevention increases antimicrobial use."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fewer infections mean fewer antimicrobial exposures and less resistance pressure."
+    },
+    {
+      "id": "q56",
+      "stem": "Which project aim is MOST specific?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improve safety."
+        },
+        {
+          "id": "B",
+          "text": "Increase awareness."
+        },
+        {
+          "id": "C",
+          "text": "Do better infection control."
+        },
+        {
+          "id": "D",
+          "text": "Reduce CAUTI by 25% in six months on Ward B."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A clear, measurable and time-bound aim guides improvement."
+    },
+    {
+      "id": "q57",
+      "stem": "A team collects data but never changes practice. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Translation of findings into tested interventions."
+        },
+        {
+          "id": "B",
+          "text": "More data only."
+        },
+        {
+          "id": "C",
+          "text": "Punitive accountability."
+        },
+        {
+          "id": "D",
+          "text": "A larger committee."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Measurement alone does not improve care; findings must inform action."
+    },
+    {
+      "id": "q58",
+      "stem": "A nurse obtains a culture using contaminated technique. What is the stewardship risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No effect is expected."
+        },
+        {
+          "id": "B",
+          "text": "False results may lead to unnecessary or inappropriate treatment."
+        },
+        {
+          "id": "C",
+          "text": "It only affects documentation."
+        },
+        {
+          "id": "D",
+          "text": "It improves sensitivity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Poor specimen quality can mislead prescribing and promote unnecessary antimicrobial use."
+    },
+    {
+      "id": "q59",
+      "stem": "Which outcome BEST demonstrates successful surveillance use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data are collected and stored."
+        },
+        {
+          "id": "B",
+          "text": "Reports become longer."
+        },
+        {
+          "id": "C",
+          "text": "Teams identify a pattern, act on it and observe sustained improvement."
+        },
+        {
+          "id": "D",
+          "text": "Staff receive more emails."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Surveillance is valuable when it informs action and improves outcomes."
+    },
+    {
+      "id": "q60",
+      "stem": "Why are balancing measures important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace outcome measures."
+        },
+        {
+          "id": "B",
+          "text": "They are used only for finance."
+        },
+        {
+          "id": "C",
+          "text": "They eliminate the need for clinical judgement."
+        },
+        {
+          "id": "D",
+          "text": "They reveal unintended harm or burden caused by an intervention."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Balancing measures ensure improvement in one area does not create new problems elsewhere."
+    },
+    {
+      "id": "q61",
+      "stem": "An AI deterioration alert identifies a patient as high risk. What remains the nurse's PRIMARY responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the alert as decision support and assess the patient clinically."
+        },
+        {
+          "id": "B",
+          "text": "Accept the alert without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the system."
+        },
+        {
+          "id": "D",
+          "text": "Allow the algorithm to determine care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology supports but does not replace professional assessment and judgement."
+    },
+    {
+      "id": "q62",
+      "stem": "What is automation bias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A failure of electricity supply."
+        },
+        {
+          "id": "B",
+          "text": "The tendency to over-trust technology recommendations."
+        },
+        {
+          "id": "C",
+          "text": "A secure login process."
+        },
+        {
+          "id": "D",
+          "text": "A human-factors checklist."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Automation bias occurs when users rely on automated output despite conflicting clinical evidence."
+    },
+    {
+      "id": "q63",
+      "stem": "A copied electronic note contains outdated information. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave it because it was copied from a previous entry."
+        },
+        {
+          "id": "B",
+          "text": "Delete the whole record."
+        },
+        {
+          "id": "C",
+          "text": "Verify the patient, correct the record according to policy and communicate significant changes."
+        },
+        {
+          "id": "D",
+          "text": "Ask IT to decide clinically."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Digital records remain legal clinical documents and require accurate, current information."
+    },
+    {
+      "id": "q64",
+      "stem": "Which action best protects patient confidentiality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sharing passwords within the team."
+        },
+        {
+          "id": "B",
+          "text": "Discussing patients on personal messaging apps."
+        },
+        {
+          "id": "C",
+          "text": "Leaving records open for convenience."
+        },
+        {
+          "id": "D",
+          "text": "Accessing records only for legitimate care purposes and securing screens."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Information governance requires legitimate access and secure handling of data."
+    },
+    {
+      "id": "q65",
+      "stem": "A remote-monitoring system generates many non-urgent alerts. What is the BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review thresholds, workflow and alert performance with clinical and technical teams."
+        },
+        {
+          "id": "B",
+          "text": "Tell staff to ignore alerts."
+        },
+        {
+          "id": "C",
+          "text": "Switch off all alerts."
+        },
+        {
+          "id": "D",
+          "text": "Add more alerts."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Alert fatigue should be addressed through system review and redesign."
+    },
+    {
+      "id": "q66",
+      "stem": "What is the purpose of a downtime plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To eliminate documentation."
+        },
+        {
+          "id": "B",
+          "text": "To guide safe care when digital systems are unavailable."
+        },
+        {
+          "id": "C",
+          "text": "To replace cyber security."
+        },
+        {
+          "id": "D",
+          "text": "To reduce staff training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Downtime planning supports continuity and safety during technology failure."
+    },
+    {
+      "id": "q67",
+      "stem": "Which action best demonstrates preparedness for an outbreak?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waiting until cases rise."
+        },
+        {
+          "id": "B",
+          "text": "Relying on informal communication."
+        },
+        {
+          "id": "C",
+          "text": "Developing roles, PPE plans, communication pathways and simulation before the event."
+        },
+        {
+          "id": "D",
+          "text": "Stockpiling equipment without training."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Preparedness requires planning, practice, role clarity and workforce support before emergencies."
+    },
+    {
+      "id": "q68",
+      "stem": "A disaster plan exists but has never been practised. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The policy is automatically effective."
+        },
+        {
+          "id": "B",
+          "text": "Simulation is unnecessary."
+        },
+        {
+          "id": "C",
+          "text": "Only managers need familiarity."
+        },
+        {
+          "id": "D",
+          "text": "Staff may not know how to apply it under pressure."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Plans require rehearsal to identify gaps and build team readiness."
+    },
+    {
+      "id": "q69",
+      "stem": "Which principle is MOST important when sharing a successful intervention internationally?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapt the evidence to local resources, culture and systems."
+        },
+        {
+          "id": "B",
+          "text": "Assume the same solution fits every setting."
+        },
+        {
+          "id": "C",
+          "text": "Avoid local consultation."
+        },
+        {
+          "id": "D",
+          "text": "Use identical equipment everywhere."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global learning should be adapted rather than copied without context."
+    },
+    {
+      "id": "q70",
+      "stem": "A nurse accesses a celebrity patient's record out of curiosity. Which principle is breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Innovation."
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality and legitimate access."
+        },
+        {
+          "id": "C",
+          "text": "Preparedness."
+        },
+        {
+          "id": "D",
+          "text": "Stewardship."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Records may be accessed only for legitimate care purposes."
+    },
+    {
+      "id": "q71",
+      "stem": "A wearable device reports normal observations, but the patient looks unwell. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trust the device only."
+        },
+        {
+          "id": "B",
+          "text": "Wait for an alarm."
+        },
+        {
+          "id": "C",
+          "text": "Perform direct assessment and escalate concerns."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to restart the device."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical assessment overrides false reassurance from technology."
+    },
+    {
+      "id": "q72",
+      "stem": "What is the BEST indicator that digital technology has improved safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The system was purchased."
+        },
+        {
+          "id": "B",
+          "text": "Staff attended training."
+        },
+        {
+          "id": "C",
+          "text": "More data were collected."
+        },
+        {
+          "id": "D",
+          "text": "Relevant errors or delays decreased without new harms."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Technology should be evaluated by outcomes and unintended effects, not adoption alone."
+    },
+    {
+      "id": "q73",
+      "stem": "A cyber incident disrupts electronic records. What should nurse leaders prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuity of safe care, secure downtime procedures and accurate later reconciliation."
+        },
+        {
+          "id": "B",
+          "text": "Continuing routine digital access attempts."
+        },
+        {
+          "id": "C",
+          "text": "Sharing passwords to restore access."
+        },
+        {
+          "id": "D",
+          "text": "Stopping all patient care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Downtime procedures should preserve care, confidentiality and accurate documentation."
+    },
+    {
+      "id": "q74",
+      "stem": "Which factor is essential for resilient healthcare during emergencies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One leader making all decisions."
+        },
+        {
+          "id": "B",
+          "text": "Clear roles, communication, supplies, staff support and continuity plans."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding simulation."
+        },
+        {
+          "id": "D",
+          "text": "Reducing information sharing."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Resilience depends on coordinated systems and workforce support."
+    },
+    {
+      "id": "q75",
+      "stem": "A hospital shares outbreak data with public-health partners. What is the primary benefit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduced confidentiality obligations."
+        },
+        {
+          "id": "B",
+          "text": "Elimination of local assessment."
+        },
+        {
+          "id": "C",
+          "text": "Improved surveillance and coordinated response."
+        },
+        {
+          "id": "D",
+          "text": "Replacement of infection-control teams."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Timely data sharing supports broader surveillance and response."
+    },
+    {
+      "id": "q76",
+      "stem": "Why should nurses report technology-related hazards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only IT staff are responsible."
+        },
+        {
+          "id": "B",
+          "text": "Technology is always reliable."
+        },
+        {
+          "id": "C",
+          "text": "Reports slow implementation."
+        },
+        {
+          "id": "D",
+          "text": "Digital systems can introduce new forms of patient harm."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Connected systems may create errors through poor data, design or workflow and require clinical reporting."
+    },
+    {
+      "id": "q77",
+      "stem": "A remote-monitoring program excludes patients without internet access. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Develop equitable alternatives such as telephone or community support."
+        },
+        {
+          "id": "B",
+          "text": "Continue because digital care is efficient."
+        },
+        {
+          "id": "C",
+          "text": "Discharge excluded patients."
+        },
+        {
+          "id": "D",
+          "text": "Ask families to purchase technology."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital innovation should not widen inequity and requires accessible alternatives."
+    },
+    {
+      "id": "q78",
+      "stem": "Which statement best describes global collaboration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exporting one standard solution without adaptation."
+        },
+        {
+          "id": "B",
+          "text": "Sharing learning while respecting local context and resources."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding data exchange."
+        },
+        {
+          "id": "D",
+          "text": "Restricting learning to high-income systems."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective global collaboration combines shared evidence with contextual adaptation."
+    },
+    {
+      "id": "q79",
+      "stem": "A digital decision-support tool conflicts with the nurse's assessment. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the tool automatically."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the patient findings."
+        },
+        {
+          "id": "C",
+          "text": "Reassess, verify information and escalate using professional judgement."
+        },
+        {
+          "id": "D",
+          "text": "Disable the system without reporting."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Nurses remain accountable for assessment and should investigate conflicts between technology and clinical findings."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome BEST demonstrates preparedness and resilience?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The plan remains unused on a shelf."
+        },
+        {
+          "id": "B",
+          "text": "Staff work without defined roles."
+        },
+        {
+          "id": "C",
+          "text": "Incidents are not discussed."
+        },
+        {
+          "id": "D",
+          "text": "The organisation maintains safe essential care during disruption and improves after review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Resilience is demonstrated by continuity, adaptation and learning during and after disruption."
+    }
+  ]
+}

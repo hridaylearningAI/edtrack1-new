@@ -1,0 +1,466 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "Explain: Competency Assessment Competence",
+      "back": "includes preparation, technical performance, infection prevention, communication, interpretation and documentation. A checklist supports consistency but does not replace judgement."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Explain: Safe Adaptation Request",
+      "back": "orientation and supervised practice for unfamiliar devices or procedures. Seeking help demonstrates professionalism."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Local Policy and Scope Review ____ procedure, required supervision, approved equipment and escalation criteria.",
+      "back": "Local Policy and Scope Review who may perform the procedure, required supervision, approved equipment and escalation criteria."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Demonstrate procedural competence ____ Verbalise rationales and critical safety points",
+      "back": "Demonstrate procedural competence under supervision Verbalise rationales and critical safety points"
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "Relate local procedure policy ____ principles Adapt safely to unfamiliar equipment",
+      "back": "Relate local procedure policy to broader safety principles Adapt safely to unfamiliar equipment"
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "Previous experience ____ replace local credentialing.",
+      "back": "Previous experience does not replace local credentialing."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "What is covered in 'Clinical example'?",
+      "back": "An IQN is asked to use an infusion device not previously encountered. The nurse reviews the local policy, completes supervised training and demonstrates correct programming before independent use."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "International healthcare systems use different equipment, terminology, documentation ____ orientation, supervised practice and confirmation of competence before independent performance.",
+      "back": "International healthcare systems use different equipment, terminology, documentation and competency processes. Safe adaptation requires orientation, supervised practice and confirmation of competence before independent performance."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "Verbalising Clinical Reasoning In simulation or OSCE-style assessment, ____ findings and actions they would take if the patient deteriorated.",
+      "back": "Verbalising Clinical Reasoning In simulation or OSCE-style assessment, nurses should explain safety checks, expected findings and actions they would take if the patient deteriorated."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Know the local procedure ____ Confirm competence before independent practice",
+      "back": "Know the local procedure and scope requirements Confirm competence before independent practice"
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Decision — Urinary output monitoring: what is your first action?",
+      "back": "Assess hydration and notify provider. Reason: Low output may indicate renal impairment."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "Decision — Wound dressing change: what is your first action?",
+      "back": "Assess wound before cleaning. Reason: Assessment guides care."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "Which outcome best demonstrates procedural competence?",
+      "back": "The nurse prepares safely, performs correctly, communicates clearly, interprets findings and documents the outcome. Why: Competence includes preparation, technical skill, infection prevention, communication, interpretation and documentation."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "An IQN is asked to use an infusion pump model not previously encountered. What is the safest response?",
+      "back": "Review local policy, complete supervised orientation and demonstrate competence before independent use. Why: Previous experience does not replace local orientation and competency verification for unfamiliar equipment."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "During an OSCE, the assessor asks why the nurse checks allergies before a procedure. What is the best explanation?",
+      "back": "It identifies risks that may change equipment, medicines or whether the procedure can proceed safely. Why: Verbalising the rationale demonstrates that the nurse understands how allergy information changes care."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Which factor should be checked before independently performing a procedure in a new healthcare system?",
+      "back": "Local scope, required supervision, approved equipment and escalation criteria. Why: Safe international practice requires confirmation of local scope, policy, equipment and supervision requirements."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "Which action best demonstrates safe adaptation to international practice?",
+      "back": "Relating local policy to universal safety principles while following local requirements. Why: Safe adaptation combines broad safety principles with local law, policy and equipment."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "An IQN notices that local terminology differs from previous practice. What should the nurse do?",
+      "back": "Clarify the local meaning and use approved terms in communication and documentation. Why: Terminology differences can cause misunderstanding and should be resolved explicitly."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "A nurse completes every checklist step but fails to recognise that the patient is deteriorating. What does this show?",
+      "back": "Technical completion without clinical judgement is incomplete competence. Why: A checklist supports consistency but does not replace assessment, interpretation or judgement."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "A local policy requires a competency sign-off for a procedure the nurse has performed for years. What is the correct response?",
+      "back": "Complete the local competency process before independent practice. Why: Local credentialing requirements apply even when the nurse has previous experience."
+    },
+    {
+      "id": "fc-21",
+      "section": 2,
+      "front": "Explain: Advanced Wound Care Assess",
+      "back": "wound type, tissue, exudate, infection risk and surrounding skin. Select or apply prescribed products and evaluate healing."
+    },
+    {
+      "id": "fc-22",
+      "section": 2,
+      "front": "Explain: Vascular Access Care Inspect",
+      "back": "for redness, pain, swelling, leakage and patency. Use approved aseptic technique and ensure securement and labelling."
+    },
+    {
+      "id": "fc-23",
+      "section": 2,
+      "front": "Recognise device-related complications ____ and prevent avoidable infection",
+      "back": "Recognise device-related complications Escalate concerns and prevent avoidable infection"
+    },
+    {
+      "id": "fc-24",
+      "section": 2,
+      "front": "Urinary and Enteral ____ closed systems, correct positioning and hygiene.",
+      "back": "Urinary and Enteral Devices Maintain closed systems, correct positioning and hygiene."
+    },
+    {
+      "id": "fc-25",
+      "section": 2,
+      "front": "Confirm placement and safety ____ before use of enteral tubes.",
+      "back": "Confirm placement and safety according to policy before use of enteral tubes."
+    },
+    {
+      "id": "fc-26",
+      "section": 2,
+      "front": "Assess invasive ____ access sites",
+      "back": "Assess invasive devices and access sites"
+    },
+    {
+      "id": "fc-27",
+      "section": 2,
+      "front": "Perform complex ____ care safely",
+      "back": "Perform complex aseptic care safely"
+    },
+    {
+      "id": "fc-28",
+      "section": 2,
+      "front": "Complex procedures involving vascular access, urinary catheters, enteral tubes ____ Nurses must assess indication, maintain asepsis, recognise complications and evaluate ongoing need.",
+      "back": "Complex procedures involving vascular access, urinary catheters, enteral tubes and advanced wounds carry significant risks. Nurses must assess indication, maintain asepsis, recognise complications and evaluate ongoing need."
+    },
+    {
+      "id": "fc-29",
+      "section": 2,
+      "front": "Complication Recognition Infiltration, phlebitis, infection, blockage, displacement ____ action. Continuing a procedure despite warning signs may cause harm.",
+      "back": "Complication Recognition Infiltration, phlebitis, infection, blockage, displacement and pressure injury require prompt action. Continuing a procedure despite warning signs may cause harm."
+    },
+    {
+      "id": "fc-30",
+      "section": 2,
+      "front": "Decision — Pain assessment: what is your first action?",
+      "back": "Assess pain characteristics. Reason: Pain assessment guides intervention."
+    },
+    {
+      "id": "fc-31",
+      "section": 2,
+      "front": "Decision — Positioning for safety: what is your first action?",
+      "back": "Ensure safety and reposition patient. Reason: Prevents falls."
+    },
+    {
+      "id": "fc-32",
+      "section": 2,
+      "front": "During an IV infusion, the patient reports burning and the site becomes swollen. What should the nurse do first?",
+      "back": "Stop the infusion, assess the site and manage the device according to policy. Why: Burning and swelling suggest infiltration or another complication. Continuing may worsen tissue injury."
+    },
+    {
+      "id": "fc-33",
+      "section": 2,
+      "front": "A central-line dressing is loose and damp. What is the safest response?",
+      "back": "Replace it using approved aseptic technique and assess the site. Why: A loose or damp dressing increases infection risk and requires prompt aseptic management."
+    },
+    {
+      "id": "fc-34",
+      "section": 2,
+      "front": "A vascular access device has no date or identification label. What should the nurse do?",
+      "back": "Verify details through approved records and correct the labelling according to policy. Why: Accurate labelling supports safe device review and accountability."
+    },
+    {
+      "id": "fc-35",
+      "section": 2,
+      "front": "A wound is not healing despite correct dressing changes. What should the nurse assess?",
+      "back": "Wound type, tissue, exudate, infection risk, surrounding skin and wider patient factors. Why: Advanced wound assessment considers local and systemic factors."
+    },
+    {
+      "id": "fc-36",
+      "section": 2,
+      "front": "A urinary catheter stops draining and the patient reports suprapubic discomfort. What should the nurse do?",
+      "back": "Assess tubing, kinks, position and patient condition, then follow policy for suspected blockage. Why: Systematic assessment is required before intervention."
+    },
+    {
+      "id": "fc-37",
+      "section": 2,
+      "front": "Which action helps prevent catheter-associated infection?",
+      "back": "Maintain a closed system, provide hygiene and review ongoing need daily. Why: Closed drainage, hygiene and early removal are key preventive strategies."
+    },
+    {
+      "id": "fc-38",
+      "section": 2,
+      "front": "Before administering through an enteral tube, the external length differs from the documented position. What should the nurse do?",
+      "back": "Stop and verify placement according to local policy before use. Why: A change in external length may indicate displacement and requires verification."
+    },
+    {
+      "id": "fc-39",
+      "section": 2,
+      "front": "During an aseptic procedure, a sterile key part touches an unsterile surface. What should happen?",
+      "back": "Treat it as contaminated, replace the item and re-establish the field. Why: Suspected contamination should be treated as contamination."
+    },
+    {
+      "id": "fc-40",
+      "section": 3,
+      "front": "Explain: Pre-Procedure Judgement Confirm",
+      "back": "the indication and assess whether the patient's current condition supports the planned procedure. Delay and seek review when risks outweigh immediate benefit."
+    },
+    {
+      "id": "fc-41",
+      "section": 3,
+      "front": "Explain: Intra-Procedure Monitoring Observe",
+      "back": "pain, breathing, colour, consciousness and tolerance. Procedures should be paused or stopped if deterioration occurs."
+    },
+    {
+      "id": "fc-42",
+      "section": 3,
+      "front": "Explain: Post-Procedure Evaluation Confirm",
+      "back": "that the intervention achieved its purpose and assess for complications. Record and communicate outstanding concerns."
+    },
+    {
+      "id": "fc-43",
+      "section": 3,
+      "front": "Recognise expected and ____ Escalate using structured communication",
+      "back": "Recognise expected and unexpected findings Escalate using structured communication"
+    },
+    {
+      "id": "fc-44",
+      "section": 3,
+      "front": "Use clinical ____ during and after procedures",
+      "back": "Use clinical reasoning before, during and after procedures"
+    },
+    {
+      "id": "fc-45",
+      "section": 3,
+      "front": "Prioritise airway, ____ and safety",
+      "back": "Prioritise airway, breathing, circulation and safety"
+    },
+    {
+      "id": "fc-46",
+      "section": 3,
+      "front": "A clinical procedure should never become a task performed ____ is safe to proceed, interpret findings, respond to changes and evaluate the outcome.",
+      "back": "A clinical procedure should never become a task performed in isolation. Nurses must decide whether it is safe to proceed, interpret findings, respond to changes and evaluate the outcome."
+    },
+    {
+      "id": "fc-47",
+      "section": 3,
+      "front": "Structured Escalation Use ISBAR or the ____ the situation, assessment, relevant background and required action.",
+      "back": "Structured Escalation Use ISBAR or the approved framework to communicate the situation, assessment, relevant background and required action."
+    },
+    {
+      "id": "fc-48",
+      "section": 3,
+      "front": "The patient's condition ____ to continue Monitor throughout the procedure",
+      "back": "The patient's condition determines whether to continue Monitor throughout the procedure"
+    },
+    {
+      "id": "fc-49",
+      "section": 3,
+      "front": "Evaluate outcomes and ____ structured escalation for urgent concerns",
+      "back": "Evaluate outcomes and complications Use structured escalation for urgent concerns"
+    },
+    {
+      "id": "fc-50",
+      "section": 3,
+      "front": "Decision — Enteral feeding check: what is your first action?",
+      "back": "Verify tube placement. Reason: Incorrect placement risks aspiration."
+    },
+    {
+      "id": "fc-51",
+      "section": 3,
+      "front": "A procedure is indicated, but current observations show severe hypotension. What should the nurse do?",
+      "back": "Delay and seek urgent review because current risk outweighs immediate benefit. Why: Pre-procedure judgement includes deciding whether current physiology supports the intervention."
+    },
+    {
+      "id": "fc-52",
+      "section": 3,
+      "front": "Before a routine procedure, the patient develops new chest pain and diaphoresis. What should the nurse do?",
+      "back": "Delay the procedure, assess airway, breathing and circulation, and escalate urgently. Why: The patient's current condition determines whether a procedure is safe to proceed."
+    },
+    {
+      "id": "fc-53",
+      "section": 3,
+      "front": "A patient reports worsening pain after a procedure despite the site appearing normal. What should the nurse do?",
+      "back": "Assess the patient, review the procedure outcome and escalate if unexplained or severe. Why: Pain may be an early sign of complication even before visible changes."
+    },
+    {
+      "id": "fc-54",
+      "section": 3,
+      "front": "A patient has severe coughing and desaturation during nasogastric tube insertion. What should the nurse do?",
+      "back": "Stop, remove the tube as appropriate, support breathing and escalate. Why: The notes identify this as a reason to stop rather than complete the task."
+    },
+    {
+      "id": "fc-55",
+      "section": 3,
+      "front": "Which statement best reflects intra-procedure monitoring?",
+      "back": "Observe pain, breathing, colour, consciousness and overall tolerance. Why: Ongoing clinical observation is broader than a single number or monitor."
+    },
+    {
+      "id": "fc-56",
+      "section": 3,
+      "front": "Which action demonstrates post-procedure evaluation?",
+      "back": "Confirming the intended outcome and assessing for complications. Why: Evaluation determines whether the intervention achieved its purpose safely."
+    },
+    {
+      "id": "fc-57",
+      "section": 3,
+      "front": "Which finding is expected after an uncomplicated procedure?",
+      "back": "A response consistent with the procedure and stable observations. Why: Expected findings should be distinguished from signs of complication."
+    },
+    {
+      "id": "fc-58",
+      "section": 3,
+      "front": "Which information is most important in an ISBAR escalation?",
+      "back": "Current situation, relevant background, assessment and the action or review required. Why: ISBAR supports concise, structured escalation."
+    },
+    {
+      "id": "fc-59",
+      "section": 4,
+      "front": "Explain: End-of-Program Summary By",
+      "back": "completing GNPS Program 10 - Level 2, you have strengthened your ability to adapt to international clinical environments, perform complex procedures, integrate clinical judgement and communicate and document to professional standards. You are now prepared for Level 3, where the focus moves to leadership, competency systems and procedural quality improvement."
+    },
+    {
+      "id": "fc-60",
+      "section": 4,
+      "front": "Explain: Simulation Practice Simulation",
+      "back": "should reproduce realistic safety challenges and be followed by structured reflection. Errors become opportunities to improve reasoning and teamwork."
+    },
+    {
+      "id": "fc-61",
+      "section": 4,
+      "front": "Explain: Culturally Safe Interaction Use",
+      "back": "professional interpreters when required, adapt information to health literacy and ask rather than assume preferences."
+    },
+    {
+      "id": "fc-62",
+      "section": 4,
+      "front": "Explain: Closed-Loop Communication Critical",
+      "back": "instructions are repeated back and confirmed. This is especially important in emergencies and team procedures."
+    },
+    {
+      "id": "fc-63",
+      "section": 4,
+      "front": "Participate effectively in ____ debriefing Use closed-loop communication during procedures",
+      "back": "Participate effectively in simulation and debriefing Use closed-loop communication during procedures"
+    },
+    {
+      "id": "fc-64",
+      "section": 4,
+      "front": "Provide culturally ____ and consent processes",
+      "back": "Provide culturally safe explanations and consent processes"
+    },
+    {
+      "id": "fc-65",
+      "section": 4,
+      "front": "Document procedural ____ professional standards",
+      "back": "Document procedural care to professional standards"
+    },
+    {
+      "id": "fc-66",
+      "section": 4,
+      "front": "Simulation allows nurses to practise procedures, emergencies and communication ____ International practice also expects clear handover, objective records and culturally safe interaction.",
+      "back": "Simulation allows nurses to practise procedures, emergencies and communication without exposing patients to avoidable risk. International practice also expects clear handover, objective records and culturally safe interaction."
+    },
+    {
+      "id": "fc-67",
+      "section": 4,
+      "front": "Documentation and Handover Record indication, assessment, procedure, ____ Handover should make current risks and required actions clear.",
+      "back": "Documentation and Handover Record indication, assessment, procedure, findings, complications, response and follow-up. Handover should make current risks and required actions clear."
+    },
+    {
+      "id": "fc-68",
+      "section": 4,
+      "front": "Use simulation to ____ skill and judgement Confirm critical communication",
+      "back": "Use simulation to practise both skill and judgement Confirm critical communication"
+    },
+    {
+      "id": "fc-69",
+      "section": 4,
+      "front": "Adapt explanations to ____ Document complications and follow-up clearly",
+      "back": "Adapt explanations to the individual Document complications and follow-up clearly"
+    },
+    {
+      "id": "fc-70",
+      "section": 4,
+      "front": "A patient with limited English needs consent for an invasive procedure. What should the nurse do?",
+      "back": "Arrange a professional interpreter and adapt information to the patient's health literacy. Why: Culturally safe consent requires accurate communication and meaningful understanding."
+    },
+    {
+      "id": "fc-71",
+      "section": 4,
+      "front": "Which documentation is most complete after a procedural complication?",
+      "back": "Indication, assessment, procedure, complication, actions, response, escalation and follow-up. Why: Professional records should show the entire clinical sequence and ongoing plan."
+    },
+    {
+      "id": "fc-72",
+      "section": 4,
+      "front": "Which simulation scenario best assesses clinical judgement?",
+      "back": "A procedure in which the patient deteriorates and the nurse must stop, escalate and communicate. Why: Realistic safety challenges assess more than technical steps."
+    },
+    {
+      "id": "fc-73",
+      "section": 4,
+      "front": "Which approach is culturally safe?",
+      "back": "Ask the patient what matters, use appropriate interpretation and adapt explanations. Why: Cultural safety depends on respectful enquiry rather than assumptions."
+    },
+    {
+      "id": "fc-74",
+      "section": 4,
+      "front": "A simulation participant becomes defensive during debriefing. What should the facilitator do?",
+      "back": "Use a respectful, psychologically safe approach focused on actions, reasoning and learning. Why: Effective debriefing supports reflection without humiliation."
+    },
+    {
+      "id": "fc-75",
+      "section": 4,
+      "front": "During simulation, a nurse makes an error but recognises it during debriefing. What is the main purpose of the debrief?",
+      "back": "Identify reasoning and teamwork improvements for future practice. Why: Structured reflection turns simulation errors into learning without patient harm."
+    },
+    {
+      "id": "fc-76",
+      "section": 4,
+      "front": "A nurse finishes a procedure but forgets to document the patient's response. Why is this significant?",
+      "back": "The record does not show whether the intervention was effective or safe. Why: Evaluation and response are essential components of documentation."
+    },
+    {
+      "id": "fc-77",
+      "section": 4,
+      "front": "During a team procedure, a delegated task is not acknowledged. What should the team leader do?",
+      "back": "Restate the task to a named person and obtain confirmation. Why: Named allocation and confirmation strengthen closed-loop communication."
+    }
+  ]
+}

@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A paediatric unit finds that junior nurses hesitate to question unusual medication doses prescribed by senior clinicians. Which leadership action is most likely to improve safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduce dose-check huddles, a clear escalation pathway and simulation that includes respectful challenge."
+        },
+        {
+          "id": "B",
+          "text": "Remind staff to be more confident."
+        },
+        {
+          "id": "C",
+          "text": "Require all dose concerns to wait for the next ward round."
+        },
+        {
+          "id": "D",
+          "text": "Restrict medication discussions to senior nurses."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety improves when speaking up is explicitly supported, practised and linked to a reliable escalation process."
+    },
+    {
+      "id": "q2",
+      "stem": "Which service change best demonstrates child- and family-centred leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expecting children to adapt to adult ward routines."
+        },
+        {
+          "id": "B",
+          "text": "Adapting communication, privacy, visiting and procedures to developmental and family needs."
+        },
+        {
+          "id": "C",
+          "text": "Using one standard education package for all ages."
+        },
+        {
+          "id": "D",
+          "text": "Limiting family involvement to discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Child-centred services adapt systems to children rather than expecting children to fit adult models."
+    },
+    {
+      "id": "q3",
+      "stem": "A family reports that staff discuss treatment plans without involving their adolescent. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that parents are responsible for all decisions."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to submit a formal complaint before action is taken."
+        },
+        {
+          "id": "C",
+          "text": "Review communication practice and strengthen age-appropriate participation, privacy and assent."
+        },
+        {
+          "id": "D",
+          "text": "Limit discussions to the medical team."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Children and adolescents have rights to information and participation according to maturity."
+    },
+    {
+      "id": "q4",
+      "stem": "A unit's emergency simulations are well attended, but staff still struggle during real events. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Attendance records only."
+        },
+        {
+          "id": "B",
+          "text": "Whether the scenarios are entertaining."
+        },
+        {
+          "id": "C",
+          "text": "The number of policies available."
+        },
+        {
+          "id": "D",
+          "text": "Role clarity, equipment access, workflow and whether simulation learning transfers into practice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Simulation must be linked to operational systems, role clarity and real-world performance."
+    },
+    {
+      "id": "q5",
+      "stem": "Which outcome best reflects psychological safety in a paediatric team?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff raise concerns early, admit uncertainty and seek help without humiliation."
+        },
+        {
+          "id": "B",
+          "text": "Rapid-response calls decrease to zero."
+        },
+        {
+          "id": "C",
+          "text": "Only senior staff challenge decisions."
+        },
+        {
+          "id": "D",
+          "text": "Near misses are discussed informally but not reported."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety is demonstrated by timely speaking up and help-seeking."
+    },
+    {
+      "id": "q6",
+      "stem": "A newly employed nurse is allocated to manage a complex infusion without verified competence. Which leadership principle has been breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Family partnership."
+        },
+        {
+          "id": "B",
+          "text": "Matching staff competence and supervision to patient acuity and task risk."
+        },
+        {
+          "id": "C",
+          "text": "Patient privacy."
+        },
+        {
+          "id": "D",
+          "text": "Discharge planning."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Leaders must align capability and supervision with clinical complexity."
+    },
+    {
+      "id": "q7",
+      "stem": "A child with developmental disability becomes distressed by a standard ward routine. What should a child-centred leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require the child to follow the routine to maintain consistency."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to manage all care."
+        },
+        {
+          "id": "C",
+          "text": "Review how the routine can be adapted while preserving safety."
+        },
+        {
+          "id": "D",
+          "text": "Transfer the child to another service."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Service routines should be responsive to developmental and individual needs."
+    },
+    {
+      "id": "q8",
+      "stem": "A senior nurse publicly criticises a junior colleague for escalating a concern that later proves non-urgent. What is the most likely consequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff will become more selective and safer."
+        },
+        {
+          "id": "B",
+          "text": "Rapid-response use will improve."
+        },
+        {
+          "id": "C",
+          "text": "Accountability will become clearer."
+        },
+        {
+          "id": "D",
+          "text": "Future concerns may be delayed because psychological safety has been weakened."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Humiliation discourages future escalation and increases risk."
+    },
+    {
+      "id": "q9",
+      "stem": "Which activity provides the strongest evidence of paediatric competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observed performance in assessment, calculations, emergency response and safeguarding, supported by feedback."
+        },
+        {
+          "id": "B",
+          "text": "Years of experience."
+        },
+        {
+          "id": "C",
+          "text": "Completion of an online module."
+        },
+        {
+          "id": "D",
+          "text": "Self-declaration."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Competence should be demonstrated through practice, not inferred from tenure or attendance."
+    },
+    {
+      "id": "q10",
+      "stem": "A parent says the ward routinely ignores the child's preferred communication method. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that standardisation is necessary."
+        },
+        {
+          "id": "B",
+          "text": "Review the concern and ensure the care plan documents and uses the child's communication needs."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to provide all communication support."
+        },
+        {
+          "id": "D",
+          "text": "Wait until discharge to address it."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Child-centred care incorporates individual communication needs into daily practice."
+    },
+    {
+      "id": "q11",
+      "stem": "Which action best embeds children's rights into everyday care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Displaying a rights poster only."
+        },
+        {
+          "id": "B",
+          "text": "Discussing rights only during complaints."
+        },
+        {
+          "id": "C",
+          "text": "Including safety, dignity, information, privacy and participation in policies, training and audits."
+        },
+        {
+          "id": "D",
+          "text": "Leaving rights to family advocates."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Rights become reliable when incorporated into systems and monitored practice."
+    },
+    {
+      "id": "q12",
+      "stem": "A unit has frequent near misses involving decimal errors. What should the leader do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discipline the staff involved."
+        },
+        {
+          "id": "B",
+          "text": "Send a reminder email."
+        },
+        {
+          "id": "C",
+          "text": "Ask pharmacy to manage all paediatric medicines."
+        },
+        {
+          "id": "D",
+          "text": "Review calculation processes, prescribing formats, interruptions and dose-check systems."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A systems review identifies why the risk persists and supports stronger controls."
+    },
+    {
+      "id": "q13",
+      "stem": "What is the most appropriate leadership response when staff report that workload prevents family communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review staffing and workflow so essential communication remains reliable."
+        },
+        {
+          "id": "B",
+          "text": "Accept reduced communication during busy periods."
+        },
+        {
+          "id": "C",
+          "text": "Ask families to wait until discharge."
+        },
+        {
+          "id": "D",
+          "text": "Reduce documentation of family concerns."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Communication and participation are safety standards, not optional extras."
+    },
+    {
+      "id": "q14",
+      "stem": "Which mentoring method best develops paediatric clinical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing the correct answer immediately."
+        },
+        {
+          "id": "B",
+          "text": "Using case review, guided questioning, supervised practice and reflective feedback."
+        },
+        {
+          "id": "C",
+          "text": "Focusing only on policy recall."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding discussion of uncertainty."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical reasoning develops through active reflection and supported application."
+    },
+    {
+      "id": "q15",
+      "stem": "A child reports that staff repeatedly enter without explaining procedures. What should the leader prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster workflow."
+        },
+        {
+          "id": "B",
+          "text": "More written information for parents only."
+        },
+        {
+          "id": "C",
+          "text": "Consistent age-appropriate preparation and consent or assent practices."
+        },
+        {
+          "id": "D",
+          "text": "Limiting the child's questions."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Children have a right to information and participation appropriate to their ability."
+    },
+    {
+      "id": "q16",
+      "stem": "Which measure best evaluates whether child-centred leadership is improving care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of staff meetings."
+        },
+        {
+          "id": "B",
+          "text": "Length of policies."
+        },
+        {
+          "id": "C",
+          "text": "Average discharge time only."
+        },
+        {
+          "id": "D",
+          "text": "Child and family experience, participation, complaints, safety outcomes and equity data."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A balanced evaluation includes experience, safety and equity."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse reports uncertainty about managing a safeguarding disclosure. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide immediate guidance, ensure safety and use the case for supervised learning."
+        },
+        {
+          "id": "B",
+          "text": "Expect the nurse to manage independently."
+        },
+        {
+          "id": "C",
+          "text": "Delay action until formal training."
+        },
+        {
+          "id": "D",
+          "text": "Transfer responsibility to the family."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety should support prompt help-seeking while maintaining safeguarding action."
+    },
+    {
+      "id": "q18",
+      "stem": "Which statement best reflects fair accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every error receives the same punishment."
+        },
+        {
+          "id": "B",
+          "text": "Leaders consider behaviour, context and system factors while maintaining clear standards."
+        },
+        {
+          "id": "C",
+          "text": "Only system factors matter."
+        },
+        {
+          "id": "D",
+          "text": "Self-reporting removes accountability."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fair accountability distinguishes human error, at-risk behaviour and reckless conduct."
+    },
+    {
+      "id": "q19",
+      "stem": "What is the central role of a Global Nursing Professional in paediatric leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete complex bedside tasks only."
+        },
+        {
+          "id": "B",
+          "text": "Leave quality work to administrators."
+        },
+        {
+          "id": "C",
+          "text": "Connect child-centred care, workforce capability, governance and improvement."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on clinical outcomes."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Level 3 practice extends from bedside expertise to service leadership and improvement."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates mature paediatric leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The unit has many protocols."
+        },
+        {
+          "id": "B",
+          "text": "Only senior nurses handle complex cases."
+        },
+        {
+          "id": "C",
+          "text": "Complaints decline because families are less involved."
+        },
+        {
+          "id": "D",
+          "text": "Staff speak up, children participate, competence is supported and safe practice remains reliable under pressure."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Mature leadership combines rights, capability, safety and psychological support. Section 2 - Systems for Paediatric Safety and Deterioration"
+    },
+    {
+      "id": "q21",
+      "stem": "A hospital records paediatric early-warning scores accurately, yet delayed transfers to intensive care continue. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The full pathway from recognition to escalation, clinical review and treatment."
+        },
+        {
+          "id": "B",
+          "text": "Score completion only."
+        },
+        {
+          "id": "C",
+          "text": "The number of observation charts."
+        },
+        {
+          "id": "D",
+          "text": "Family satisfaction only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A deterioration tool is effective only when it leads to timely response."
+    },
+    {
+      "id": "q22",
+      "stem": "A review identifies repeated infusion errors caused by inconsistent concentration charts and frequent interruptions. Which intervention is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remind nurses to concentrate."
+        },
+        {
+          "id": "B",
+          "text": "Standardise concentrations, redesign preparation areas and introduce dose-range checking."
+        },
+        {
+          "id": "C",
+          "text": "Increase annual education."
+        },
+        {
+          "id": "D",
+          "text": "Ask families to verify infusions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "System redesign is stronger than reminders alone."
+    },
+    {
+      "id": "q23",
+      "stem": "Which paediatric medication risk is most likely to cause severe harm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using a current verified weight in kilograms."
+        },
+        {
+          "id": "B",
+          "text": "Independent double checking."
+        },
+        {
+          "id": "C",
+          "text": "Incorrect weight, decimal placement or adult formulation."
+        },
+        {
+          "id": "D",
+          "text": "Standard concentration use."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Weight, decimal and formulation errors can produce major dosing harm."
+    },
+    {
+      "id": "q24",
+      "stem": "A nurse's concern is dismissed because the early-warning score is below threshold. What should the system allow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No action until the score rises."
+        },
+        {
+          "id": "B",
+          "text": "Review only after hypotension develops."
+        },
+        {
+          "id": "C",
+          "text": "Documentation without response."
+        },
+        {
+          "id": "D",
+          "text": "Escalation based on clinical concern and caregiver information."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Scores support but do not replace clinical judgement."
+    },
+    {
+      "id": "q25",
+      "stem": "Which human factor should be considered when repeated errors occur during night shifts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fatigue, interruptions, unfamiliar equipment and reduced support."
+        },
+        {
+          "id": "B",
+          "text": "Staff motivation only."
+        },
+        {
+          "id": "C",
+          "text": "Patient age only."
+        },
+        {
+          "id": "D",
+          "text": "The colour of medication labels."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Human factors and work conditions shape performance."
+    },
+    {
+      "id": "q26",
+      "stem": "A learning review focuses entirely on the final nurse who administered the wrong dose. What is the main weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The review is too detailed."
+        },
+        {
+          "id": "B",
+          "text": "It fails to examine prescribing, concentration, workflow, technology and communication factors."
+        },
+        {
+          "id": "C",
+          "text": "It involves clinical staff."
+        },
+        {
+          "id": "D",
+          "text": "It may identify accountability."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective reviews examine the full system, not only the last action."
+    },
+    {
+      "id": "q27",
+      "stem": "Which measure best evaluates a rapid-response pathway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of policies."
+        },
+        {
+          "id": "B",
+          "text": "Number of nurses on duty."
+        },
+        {
+          "id": "C",
+          "text": "Time from trigger or concern to appropriate clinical review and treatment."
+        },
+        {
+          "id": "D",
+          "text": "Average length of stay."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Timeliness from recognition to response reflects pathway reliability."
+    },
+    {
+      "id": "q28",
+      "stem": "A paediatric unit experiences frequent barcode overrides because scanners fail. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff are resistant to safety."
+        },
+        {
+          "id": "B",
+          "text": "Barcode systems are unnecessary."
+        },
+        {
+          "id": "C",
+          "text": "All overrides should receive disciplinary action."
+        },
+        {
+          "id": "D",
+          "text": "The workaround signals equipment and workflow problems requiring investigation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Frequent workarounds often indicate system design failures."
+    },
+    {
+      "id": "q29",
+      "stem": "Which intervention best reduces decimal-point dosing errors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardised prescribing formats, dose-range checks and independent verification."
+        },
+        {
+          "id": "B",
+          "text": "A reminder poster."
+        },
+        {
+          "id": "C",
+          "text": "More frequent ward rounds."
+        },
+        {
+          "id": "D",
+          "text": "Asking parents to check the chart."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Forcing and verification controls are more reliable than reminders."
+    },
+    {
+      "id": "q30",
+      "stem": "A child deteriorates overnight, but senior review is repeatedly delayed. What is the most appropriate systems response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase daytime staffing."
+        },
+        {
+          "id": "B",
+          "text": "Analyse night coverage, escalation authority and access to specialist response."
+        },
+        {
+          "id": "C",
+          "text": "Provide another observation chart."
+        },
+        {
+          "id": "D",
+          "text": "Reduce overnight admissions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Shift-specific delays require targeted pathway redesign."
+    },
+    {
+      "id": "q31",
+      "stem": "Why should families be included in learning reviews where appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace clinical reviewers."
+        },
+        {
+          "id": "B",
+          "text": "They should decide accountability."
+        },
+        {
+          "id": "C",
+          "text": "They can provide information about communication, baseline behaviour and care experience."
+        },
+        {
+          "id": "D",
+          "text": "They eliminate the need for staff input."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Families may reveal factors not visible in records."
+    },
+    {
+      "id": "q32",
+      "stem": "A hospital adds more alerts to prevent missed deterioration, but staff begin ignoring them. What has occurred?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved surveillance."
+        },
+        {
+          "id": "B",
+          "text": "Reliable escalation."
+        },
+        {
+          "id": "C",
+          "text": "Reduced cognitive load."
+        },
+        {
+          "id": "D",
+          "text": "Alert fatigue."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Excessive low-value alerts can desensitise staff."
+    },
+    {
+      "id": "q33",
+      "stem": "Which recommendation is least likely to prevent recurrence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell staff to be more careful."
+        },
+        {
+          "id": "B",
+          "text": "Standardise infusion concentrations."
+        },
+        {
+          "id": "C",
+          "text": "Clarify escalation roles."
+        },
+        {
+          "id": "D",
+          "text": "Redesign preparation workflow."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "General reminders are weak controls when used alone."
+    },
+    {
+      "id": "q34",
+      "stem": "A review finds that a child's weight was copied from an old admission. What system improvement is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell nurses to remember to update weight."
+        },
+        {
+          "id": "B",
+          "text": "Require current weight verification before dose calculation and add electronic age or date prompts."
+        },
+        {
+          "id": "C",
+          "text": "Remove weight-based dosing."
+        },
+        {
+          "id": "D",
+          "text": "Ask parents to update the record."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A reliable process should prevent stale data from driving medication decisions."
+    },
+    {
+      "id": "q35",
+      "stem": "Which finding suggests that a deterioration system is psychologically unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff activate it when genuinely concerned."
+        },
+        {
+          "id": "B",
+          "text": "Families know how to raise concerns."
+        },
+        {
+          "id": "C",
+          "text": "Junior staff wait for senior approval because they fear criticism."
+        },
+        {
+          "id": "D",
+          "text": "Response roles are clear."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fear and hierarchy delay escalation."
+    },
+    {
+      "id": "q36",
+      "stem": "A hospital standardises emergency trolleys but does not audit them. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardisation becomes unnecessary."
+        },
+        {
+          "id": "B",
+          "text": "Staff will rely less on memory."
+        },
+        {
+          "id": "C",
+          "text": "Emergency response will automatically improve."
+        },
+        {
+          "id": "D",
+          "text": "The control may not remain reliable over time."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Controls require monitoring to ensure sustained readiness."
+    },
+    {
+      "id": "q37",
+      "stem": "Which outcome best shows that a learning review has been effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Specific actions are assigned, implemented and shown to reduce the targeted risk."
+        },
+        {
+          "id": "B",
+          "text": "A report is completed."
+        },
+        {
+          "id": "C",
+          "text": "Staff are reminded of policy."
+        },
+        {
+          "id": "D",
+          "text": "The event is discussed once."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Learning should produce measurable and sustained improvement."
+    },
+    {
+      "id": "q38",
+      "stem": "A paediatric score increases, but no clinician is clearly responsible for responding. What is the primary system failure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observation accuracy."
+        },
+        {
+          "id": "B",
+          "text": "Unclear ownership of escalation and response."
+        },
+        {
+          "id": "C",
+          "text": "Family communication."
+        },
+        {
+          "id": "D",
+          "text": "Medication calculation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Recognition must be connected to a defined responder."
+    },
+    {
+      "id": "q39",
+      "stem": "Which strategy best designs for normal human limitations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relying on perfect concentration."
+        },
+        {
+          "id": "B",
+          "text": "Increasing memory-based steps."
+        },
+        {
+          "id": "C",
+          "text": "Standardisation, clear labelling, reduced interruptions and forcing functions."
+        },
+        {
+          "id": "D",
+          "text": "Using annual education alone."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Human-factors design supports safe performance despite predictable limitations."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects a reliable paediatric safety system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tools are completed."
+        },
+        {
+          "id": "B",
+          "text": "Incidents decrease because reporting falls."
+        },
+        {
+          "id": "C",
+          "text": "Only senior staff use safety systems."
+        },
+        {
+          "id": "D",
+          "text": "Medication and deterioration risks are recognised, escalated and addressed consistently across shifts."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reliability means consistent safe performance, not form completion alone. Section 3 - Quality Improvement, Safeguarding and Integrated Care"
+    },
+    {
+      "id": "q41",
+      "stem": "A service identifies frequent asthma readmissions among children from one disadvantaged area. What should the improvement team do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use data and family input to identify barriers to medicines, technique, school support and follow-up."
+        },
+        {
+          "id": "B",
+          "text": "Provide the same education again."
+        },
+        {
+          "id": "C",
+          "text": "Increase inpatient length of stay."
+        },
+        {
+          "id": "D",
+          "text": "Exclude social factors from the review."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement should define the specific local causes of readmission before selecting interventions."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an outcome measure for an asthma improvement project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage receiving inhaler teaching."
+        },
+        {
+          "id": "B",
+          "text": "Asthma readmission rate."
+        },
+        {
+          "id": "C",
+          "text": "Number of school plans completed."
+        },
+        {
+          "id": "D",
+          "text": "Staff training attendance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures describe what happened to children."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is a process measure for the same project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Readmission rate."
+        },
+        {
+          "id": "B",
+          "text": "Emergency-department crowding."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of families receiving technique assessment and a written action plan."
+        },
+        {
+          "id": "D",
+          "text": "Family income."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process measures show whether recommended care occurred."
+    },
+    {
+      "id": "q44",
+      "stem": "Why should family experience be included in paediatric quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces clinical outcomes."
+        },
+        {
+          "id": "B",
+          "text": "It matters only after complaints."
+        },
+        {
+          "id": "C",
+          "text": "It applies only to chronic illness."
+        },
+        {
+          "id": "D",
+          "text": "It reveals whether care is understandable, accessible and responsive, not only clinically effective."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Quality includes safety, outcomes and experience."
+    },
+    {
+      "id": "q45",
+      "stem": "A safeguarding review identifies inconsistent reporting between hospital and community services. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create clear shared pathways, multidisciplinary review and defined communication responsibilities."
+        },
+        {
+          "id": "B",
+          "text": "Ask individual nurses to be more vigilant."
+        },
+        {
+          "id": "C",
+          "text": "Limit reporting to hospital cases."
+        },
+        {
+          "id": "D",
+          "text": "Wait for another serious incident."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safeguarding requires reliable links across services."
+    },
+    {
+      "id": "q46",
+      "stem": "A child with complex needs receives conflicting plans from hospital, school and disability services. What should leaders introduce?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separate plans for each service."
+        },
+        {
+          "id": "B",
+          "text": "An integrated plan with named responsibilities, shared goals and coordinated review."
+        },
+        {
+          "id": "C",
+          "text": "Family responsibility for resolving conflicts."
+        },
+        {
+          "id": "D",
+          "text": "More referrals without coordination."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Integrated care reduces fragmentation and duplication."
+    },
+    {
+      "id": "q47",
+      "stem": "Which equity analysis is most useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overall average only."
+        },
+        {
+          "id": "B",
+          "text": "Staff opinion only."
+        },
+        {
+          "id": "C",
+          "text": "Outcome and process data reviewed by age, geography, disability and cultural group."
+        },
+        {
+          "id": "D",
+          "text": "Number of beds."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Disaggregated data can reveal unequal care hidden by averages."
+    },
+    {
+      "id": "q48",
+      "stem": "A project improves pain documentation but children still report poor pain control. What should the team examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether pain scores are entered."
+        },
+        {
+          "id": "B",
+          "text": "The number of pain policies."
+        },
+        {
+          "id": "C",
+          "text": "Staff attendance."
+        },
+        {
+          "id": "D",
+          "text": "Whether assessment leads to timely treatment, reassessment and child involvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Improvement should address the complete care process, not documentation alone."
+    },
+    {
+      "id": "q49",
+      "stem": "Which statement best describes a small test of change?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A limited trial used to learn and refine an intervention before wider implementation."
+        },
+        {
+          "id": "B",
+          "text": "Immediate organisation-wide rollout."
+        },
+        {
+          "id": "C",
+          "text": "A policy discussion without measurement."
+        },
+        {
+          "id": "D",
+          "text": "Annual education."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Small tests allow learning with less risk."
+    },
+    {
+      "id": "q50",
+      "stem": "A new safeguarding pathway increases reporting but overwhelms the response team. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discourage reporting."
+        },
+        {
+          "id": "B",
+          "text": "Review workload and balancing measures, then adapt the pathway without weakening safety."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the delay."
+        },
+        {
+          "id": "D",
+          "text": "Stop collecting data."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Improvement must consider unintended effects while preserving the intended benefit."
+    },
+    {
+      "id": "q51",
+      "stem": "Which intervention best addresses asthma readmissions caused by fragmented care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhaler education alone."
+        },
+        {
+          "id": "B",
+          "text": "Longer hospital admission only."
+        },
+        {
+          "id": "C",
+          "text": "Technique review, school plans, community follow-up and access support."
+        },
+        {
+          "id": "D",
+          "text": "A new leaflet."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Multicomponent coordination addresses several causes of readmission."
+    },
+    {
+      "id": "q52",
+      "stem": "Why should safeguarding education be combined with system redesign?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Education is never useful."
+        },
+        {
+          "id": "B",
+          "text": "System design eliminates professional judgement."
+        },
+        {
+          "id": "C",
+          "text": "Reporting is solely a legal issue."
+        },
+        {
+          "id": "D",
+          "text": "Knowledge alone may not overcome unclear reporting routes or poor interagency communication."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Education is stronger when supported by reliable pathways."
+    },
+    {
+      "id": "q53",
+      "stem": "A project reduces medication errors overall, but errors remain high among children with disability. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Investigate the unequal pattern and adapt the intervention to communication and care needs."
+        },
+        {
+          "id": "B",
+          "text": "Report overall success."
+        },
+        {
+          "id": "C",
+          "text": "Exclude these cases from analysis."
+        },
+        {
+          "id": "D",
+          "text": "Increase general education only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equity requires examining who is not benefiting."
+    },
+    {
+      "id": "q54",
+      "stem": "Which outcome best demonstrates integrated care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Each service documents separately."
+        },
+        {
+          "id": "B",
+          "text": "Hospital, primary care, school and community teams share responsibilities and a coherent plan."
+        },
+        {
+          "id": "C",
+          "text": "The family repeats the history at every visit."
+        },
+        {
+          "id": "D",
+          "text": "One specialist controls all decisions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Integrated care provides coordinated continuity across settings."
+    },
+    {
+      "id": "q55",
+      "stem": "A process map shows repeated delays waiting for pharmacy review of complex doses. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask nurses to work faster."
+        },
+        {
+          "id": "B",
+          "text": "Remove pharmacy review."
+        },
+        {
+          "id": "C",
+          "text": "Redesign the workflow and pharmacy support while monitoring safety and delays."
+        },
+        {
+          "id": "D",
+          "text": "Increase documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process mapping should lead to practical redesign of the identified bottleneck."
+    },
+    {
+      "id": "q56",
+      "stem": "Which result best indicates sustainable improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One month of better data."
+        },
+        {
+          "id": "B",
+          "text": "Policy approval."
+        },
+        {
+          "id": "C",
+          "text": "High training attendance."
+        },
+        {
+          "id": "D",
+          "text": "Improved outcomes maintained over time without unacceptable workload or unequal access."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sustainability includes durability, feasibility and equity."
+    },
+    {
+      "id": "q57",
+      "stem": "Why should frontline staff participate in improvement design?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They understand real workflow and practical barriers."
+        },
+        {
+          "id": "B",
+          "text": "They replace data analysis."
+        },
+        {
+          "id": "C",
+          "text": "They should decide accountability."
+        },
+        {
+          "id": "D",
+          "text": "They eliminate the need for leadership."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Frontline knowledge improves usability and implementation."
+    },
+    {
+      "id": "q58",
+      "stem": "A service plans to copy a successful urban chronic-care model into a remote region. What should happen first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implement it unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Assess local workforce, resources, transport, culture and digital access, then adapt the model."
+        },
+        {
+          "id": "C",
+          "text": "Delay all improvement."
+        },
+        {
+          "id": "D",
+          "text": "Use only telehealth."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evidence should be adapted to local context."
+    },
+    {
+      "id": "q59",
+      "stem": "Which set of measures provides the strongest evaluation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Training attendance only."
+        },
+        {
+          "id": "B",
+          "text": "Incident reports only."
+        },
+        {
+          "id": "C",
+          "text": "Outcome, process, balancing, family-experience and equity measures."
+        },
+        {
+          "id": "D",
+          "text": "Average length of stay only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A balanced measurement set gives a complete picture."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects successful quality improvement in paediatric care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A committee is formed."
+        },
+        {
+          "id": "B",
+          "text": "A guideline is published."
+        },
+        {
+          "id": "C",
+          "text": "More data are collected."
+        },
+        {
+          "id": "D",
+          "text": "The targeted harm decreases, care processes become reliable and benefits are experienced across groups."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful improvement produces measurable, reliable and equitable benefit. Section 4 - Digital Child Health and Global Paediatric Practice"
+    },
+    {
+      "id": "q61",
+      "stem": "A shared digital record lists an old weight that would produce a substantially larger medication dose. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify the current weight, correct the record and recalculate before administration."
+        },
+        {
+          "id": "B",
+          "text": "Trust the record because it is electronic."
+        },
+        {
+          "id": "C",
+          "text": "Ask the parent to estimate the dose."
+        },
+        {
+          "id": "D",
+          "text": "Use the previous dose until discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Critical paediatric data must be current and verified."
+    },
+    {
+      "id": "q62",
+      "stem": "What is automation bias in paediatric care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding technology."
+        },
+        {
+          "id": "B",
+          "text": "Over-trusting a digital score or recommendation despite concerning clinical findings."
+        },
+        {
+          "id": "C",
+          "text": "Using electronic records correctly."
+        },
+        {
+          "id": "D",
+          "text": "Reporting a device fault."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Automation bias occurs when technology displaces professional judgement."
+    },
+    {
+      "id": "q63",
+      "stem": "A remote monitoring system shows normal readings, but a parent reports increasing lethargy and poor feeding. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure the parent based on the device."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next scheduled upload."
+        },
+        {
+          "id": "C",
+          "text": "Assess the child and escalate according to the clinical concern."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent to reset the device."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Remote data should not override caregiver concern or direct assessment."
+    },
+    {
+      "id": "q64",
+      "stem": "Which design feature is essential for safe paediatric telehealth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digital appointments only."
+        },
+        {
+          "id": "B",
+          "text": "Assuming all families have reliable internet."
+        },
+        {
+          "id": "C",
+          "text": "Replacing all face-to-face care."
+        },
+        {
+          "id": "D",
+          "text": "Clear escalation pathways, local assessment options and alternatives for limited digital access."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Virtual care requires contingency and escalation planning."
+    },
+    {
+      "id": "q65",
+      "stem": "A copied electronic note contains an outdated rescue-medication dose. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify the current plan and weight, correct the note and communicate the change."
+        },
+        {
+          "id": "B",
+          "text": "Continue using it because it appears in the record."
+        },
+        {
+          "id": "C",
+          "text": "Delete the whole record."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to choose the dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Copied data can perpetuate dangerous errors."
+    },
+    {
+      "id": "q66",
+      "stem": "Which issue is most important when documenting adolescent health information electronically?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Making all information visible to caregivers."
+        },
+        {
+          "id": "B",
+          "text": "Protecting sensitive information according to law and policy while supporting safe communication."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding electronic documentation."
+        },
+        {
+          "id": "D",
+          "text": "Using family accounts for access."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Adolescent privacy requires careful access and disclosure controls."
+    },
+    {
+      "id": "q67",
+      "stem": "A telehealth service improves attendance but excludes families without devices. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Report the improved attendance only."
+        },
+        {
+          "id": "B",
+          "text": "Require families to purchase devices."
+        },
+        {
+          "id": "C",
+          "text": "Introduce equipment loans, interpreter access and community or telephone alternatives."
+        },
+        {
+          "id": "D",
+          "text": "Stop in-person services."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Digital innovation should not widen inequality."
+    },
+    {
+      "id": "q68",
+      "stem": "Which action best prepares for digital downtime?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rely on staff memory."
+        },
+        {
+          "id": "B",
+          "text": "Suspend all medication administration."
+        },
+        {
+          "id": "C",
+          "text": "Use personal messaging apps."
+        },
+        {
+          "id": "D",
+          "text": "Maintain tested backup documentation, communication and escalation processes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Downtime planning preserves continuity and safety."
+    },
+    {
+      "id": "q69",
+      "stem": "A predictive tool consistently underestimates risk in one cultural group. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review data quality, bias and model performance before further reliance."
+        },
+        {
+          "id": "B",
+          "text": "Continue using it because overall accuracy is acceptable."
+        },
+        {
+          "id": "C",
+          "text": "Train staff to trust the system."
+        },
+        {
+          "id": "D",
+          "text": "Exclude the group from digital monitoring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital tools must be evaluated for bias and equity."
+    },
+    {
+      "id": "q70",
+      "stem": "Which measure best evaluates digital equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of video consultations."
+        },
+        {
+          "id": "B",
+          "text": "Access, completion and outcomes by geography, income, language, disability and digital capability."
+        },
+        {
+          "id": "C",
+          "text": "Average connection speed only."
+        },
+        {
+          "id": "D",
+          "text": "Number of devices purchased."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Equity requires disaggregated access and outcome data."
+    },
+    {
+      "id": "q71",
+      "stem": "A rural child with diabetes needs specialist support. Which model is safest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Telehealth alone."
+        },
+        {
+          "id": "B",
+          "text": "Transfer every child to a tertiary centre."
+        },
+        {
+          "id": "C",
+          "text": "Remote specialist consultation linked to local assessment, clear escalation and backup communication."
+        },
+        {
+          "id": "D",
+          "text": "Decision support without local training."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Remote expertise works best when integrated with local capability and contingency plans."
+    },
+    {
+      "id": "q72",
+      "stem": "Which statement best reflects responsible use of decision support?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the recommendation automatically."
+        },
+        {
+          "id": "B",
+          "text": "Disable all alerts."
+        },
+        {
+          "id": "C",
+          "text": "Use it only for documentation."
+        },
+        {
+          "id": "D",
+          "text": "Verify critical inputs and use clinical judgement when the recommendation conflicts with the child’s condition."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Decision support augments rather than replaces professional judgement."
+    },
+    {
+      "id": "q73",
+      "stem": "A global child-health programme is being introduced in a low-resource setting. What should guide adaptation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local disease patterns, culture, workforce, resources and access to emergency services."
+        },
+        {
+          "id": "B",
+          "text": "Exact replication of the original model."
+        },
+        {
+          "id": "C",
+          "text": "The prestige of the originating institution."
+        },
+        {
+          "id": "D",
+          "text": "Technology availability alone."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global evidence should be adapted to local needs and capacity."
+    },
+    {
+      "id": "q74",
+      "stem": "Which global child-health intervention addresses several major determinants of childhood wellbeing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospital technology alone."
+        },
+        {
+          "id": "B",
+          "text": "Vaccination, nutrition, injury prevention, clean environments, primary care and timely emergency access."
+        },
+        {
+          "id": "C",
+          "text": "Specialist services only."
+        },
+        {
+          "id": "D",
+          "text": "Digital records only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Child health depends on broad preventive and service factors."
+    },
+    {
+      "id": "q75",
+      "stem": "A family uses a shared device for telehealth, making private adolescent discussion difficult. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed with sensitive questions openly."
+        },
+        {
+          "id": "B",
+          "text": "Exclude the adolescent from the consultation."
+        },
+        {
+          "id": "C",
+          "text": "Arrange a safe private alternative and explain confidentiality."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent to answer all questions."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Virtual care must preserve appropriate adolescent privacy."
+    },
+    {
+      "id": "q76",
+      "stem": "A remote monitoring programme creates many false alerts. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell staff to respond faster."
+        },
+        {
+          "id": "B",
+          "text": "Disable all monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Ignore override patterns."
+        },
+        {
+          "id": "D",
+          "text": "Review thresholds, workflow and clinical relevance with users and technical teams."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "High false-alert rates create alert fatigue and require system optimisation."
+    },
+    {
+      "id": "q77",
+      "stem": "Which outcome best demonstrates effective digital innovation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clinical outcomes and access improve without creating unsafe workarounds, privacy breaches or exclusion."
+        },
+        {
+          "id": "B",
+          "text": "Technology use increases."
+        },
+        {
+          "id": "C",
+          "text": "Face-to-face care decreases."
+        },
+        {
+          "id": "D",
+          "text": "More data are collected."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Successful innovation must be safe, effective and equitable."
+    },
+    {
+      "id": "q78",
+      "stem": "How can Global Nursing Professionals contribute to international child-health improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copy successful models unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Share learning, evaluate evidence and adapt solutions to local communities and resources."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on hospital care."
+        },
+        {
+          "id": "D",
+          "text": "Avoid cross-border collaboration."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Global improvement depends on respectful adaptation and shared learning."
+    },
+    {
+      "id": "q79",
+      "stem": "A digital record contains conflicting allergy information. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choose the most recent entry automatically."
+        },
+        {
+          "id": "B",
+          "text": "Delete both entries."
+        },
+        {
+          "id": "C",
+          "text": "Verify the history with reliable sources and resolve the discrepancy before treatment."
+        },
+        {
+          "id": "D",
+          "text": "Ask the child to decide."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Conflicting critical data require verification before use."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects the Level 3 Global Nursing Professional role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manage digital devices only."
+        },
+        {
+          "id": "B",
+          "text": "Rely on automated scores."
+        },
+        {
+          "id": "C",
+          "text": "Focus exclusively on bedside care."
+        },
+        {
+          "id": "D",
+          "text": "Use technology critically, strengthen equitable systems and adapt global evidence to improve child health."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 practice combines leadership, equity, systems improvement and responsible innovation."
+    }
+  ]
+}

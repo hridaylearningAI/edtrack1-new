@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A patient suddenly develops noisy breathing and is unable to speak. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess and support the airway while activating emergency assistance."
+        },
+        {
+          "id": "B",
+          "text": "Complete a full head-to-toe assessment."
+        },
+        {
+          "id": "C",
+          "text": "Obtain the patient's medication history."
+        },
+        {
+          "id": "D",
+          "text": "Document the event before acting."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "An immediate airway threat takes priority. The nurse should call for help and begin airway support within scope."
+    },
+    {
+      "id": "q2",
+      "stem": "Which finding most strongly suggests circulatory compromise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warm skin and normal urine output."
+        },
+        {
+          "id": "B",
+          "text": "Falling blood pressure, tachycardia and reduced urine output."
+        },
+        {
+          "id": "C",
+          "text": "Stable respiratory rate and appetite."
+        },
+        {
+          "id": "D",
+          "text": "Mild chronic pain."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Hypotension, tachycardia and oliguria suggest reduced perfusion and possible shock."
+    },
+    {
+      "id": "q3",
+      "stem": "Why are clinical trends more important than isolated values?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They remove the need for reassessment."
+        },
+        {
+          "id": "B",
+          "text": "They apply only in intensive care."
+        },
+        {
+          "id": "C",
+          "text": "They show whether the patient's condition is improving or worsening over time."
+        },
+        {
+          "id": "D",
+          "text": "They are easier to document."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Trends may reveal decompensation before one result becomes critically abnormal."
+    },
+    {
+      "id": "q4",
+      "stem": "A patient with pancreatitis becomes restless, tachycardic and hypotensive with falling urine output. What is the BEST interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient is experiencing several unrelated minor problems."
+        },
+        {
+          "id": "B",
+          "text": "The findings are expected and require no action."
+        },
+        {
+          "id": "C",
+          "text": "Only the pain should be treated."
+        },
+        {
+          "id": "D",
+          "text": "The pattern suggests circulatory compromise and deterioration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The combination indicates possible decompensation and should trigger urgent escalation."
+    },
+    {
+      "id": "q5",
+      "stem": "Which finding is unexpected after uncomplicated surgery and requires urgent reassessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sudden unilateral weakness."
+        },
+        {
+          "id": "B",
+          "text": "Mild incisional pain."
+        },
+        {
+          "id": "C",
+          "text": "Temporary tiredness."
+        },
+        {
+          "id": "D",
+          "text": "Reduced appetite on the first evening."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A sudden focal neurological deficit may indicate stroke or another acute neurological event."
+    },
+    {
+      "id": "q6",
+      "stem": "After administering oxygen to a hypoxic patient, what should the nurse do NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the treatment worked."
+        },
+        {
+          "id": "B",
+          "text": "Reassess oxygen saturation, respiratory effort and overall response."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next scheduled observations."
+        },
+        {
+          "id": "D",
+          "text": "Document without reassessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Every intervention should be followed by reassessment to determine effectiveness and next steps."
+    },
+    {
+      "id": "q7",
+      "stem": "A patient has a respiratory rate of 32, new confusion and a lactate that is rising. Which action is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue routine care."
+        },
+        {
+          "id": "B",
+          "text": "Repeat the lactate tomorrow."
+        },
+        {
+          "id": "C",
+          "text": "Initiate the deterioration pathway and escalate urgently."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral fluids only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The combination suggests severe deterioration and possible shock or sepsis."
+    },
+    {
+      "id": "q8",
+      "stem": "Which patient should the nurse assess FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A stable patient awaiting discharge."
+        },
+        {
+          "id": "B",
+          "text": "A patient requesting a meal."
+        },
+        {
+          "id": "C",
+          "text": "A patient with chronic constipation."
+        },
+        {
+          "id": "D",
+          "text": "A patient with new chest pain and diaphoresis."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "New chest pain with diaphoresis may indicate acute coronary syndrome and takes priority."
+    },
+    {
+      "id": "q9",
+      "stem": "What does reassessment determine after an intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the patient improved, remained unchanged or worsened."
+        },
+        {
+          "id": "B",
+          "text": "Whether documentation is complete."
+        },
+        {
+          "id": "C",
+          "text": "Whether the diagnosis should be changed independently."
+        },
+        {
+          "id": "D",
+          "text": "Whether the nurse can end monitoring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reassessment guides whether the current plan should continue, change or escalate."
+    },
+    {
+      "id": "q10",
+      "stem": "A patient's blood pressure is still normal, but respiratory rate is rising and urine output is decreasing. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for hypotension to develop."
+        },
+        {
+          "id": "B",
+          "text": "Recognise early deterioration and reassess promptly."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the findings because blood pressure is normal."
+        },
+        {
+          "id": "D",
+          "text": "Document for the next shift only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Normal blood pressure does not exclude early decompensation. Trends and organ-perfusion indicators matter."
+    },
+    {
+      "id": "q11",
+      "stem": "Which statement best describes an unstable finding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A chronic symptom unchanged for months."
+        },
+        {
+          "id": "B",
+          "text": "A predictable mild side effect."
+        },
+        {
+          "id": "C",
+          "text": "A new or worsening change that threatens function or life."
+        },
+        {
+          "id": "D",
+          "text": "A stable laboratory value."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unstable findings are acute, worsening or associated with immediate risk."
+    },
+    {
+      "id": "q12",
+      "stem": "A patient improves briefly after positioning but becomes breathless again. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the condition is resolved."
+        },
+        {
+          "id": "B",
+          "text": "Delay further review."
+        },
+        {
+          "id": "C",
+          "text": "Encourage the patient to sleep."
+        },
+        {
+          "id": "D",
+          "text": "Repeat assessment and escalate because the response was not sustained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A temporary response followed by recurrent symptoms requires further assessment and escalation."
+    },
+    {
+      "id": "q13",
+      "stem": "Which combination most strongly suggests decompensation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing tachycardia, falling blood pressure and altered consciousness."
+        },
+        {
+          "id": "B",
+          "text": "Stable pulse, normal urine output and improved alertness."
+        },
+        {
+          "id": "C",
+          "text": "Normal temperature and good appetite."
+        },
+        {
+          "id": "D",
+          "text": "Chronic mild oedema."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Worsening circulation and neurological status indicate serious deterioration."
+    },
+    {
+      "id": "q14",
+      "stem": "A nurse identifies an airway threat but is outside their usual skill area. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for a specialist."
+        },
+        {
+          "id": "B",
+          "text": "Call for emergency help and begin actions within scope."
+        },
+        {
+          "id": "C",
+          "text": "Leave the patient to find equipment."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to assist."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should not delay emergency action and should work within scope while help arrives."
+    },
+    {
+      "id": "q15",
+      "stem": "Why should unexpected findings be treated as clinically significant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are always documentation errors."
+        },
+        {
+          "id": "B",
+          "text": "They usually resolve without intervention."
+        },
+        {
+          "id": "C",
+          "text": "They may indicate a new complication or deterioration."
+        },
+        {
+          "id": "D",
+          "text": "They are less important than expected findings."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unexpected changes may signal a serious new problem and require reassessment."
+    },
+    {
+      "id": "q16",
+      "stem": "A patient remains hypotensive after prescribed fluid therapy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop all monitoring."
+        },
+        {
+          "id": "B",
+          "text": "Assume the reading is incorrect."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next shift."
+        },
+        {
+          "id": "D",
+          "text": "Continue reassessment and escalate because the intervention has not corrected the problem."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Failure to respond to treatment is clinically important and requires further review."
+    },
+    {
+      "id": "q17",
+      "stem": "Which action best reflects safety-first prioritisation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Addressing immediate airway, breathing or circulation threats before routine tasks."
+        },
+        {
+          "id": "B",
+          "text": "Completing medication rounds first."
+        },
+        {
+          "id": "C",
+          "text": "Finishing documentation before reassessment."
+        },
+        {
+          "id": "D",
+          "text": "Following the task list in order."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Life-threatening problems and immediate safety concerns take priority."
+    },
+    {
+      "id": "q18",
+      "stem": "A patient's observations are individually only mildly abnormal, but all are worsening. What is the BEST nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for one severe abnormality."
+        },
+        {
+          "id": "B",
+          "text": "Interpret the pattern and escalate early."
+        },
+        {
+          "id": "C",
+          "text": "Ignore mild changes."
+        },
+        {
+          "id": "D",
+          "text": "Document without action."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A worsening pattern can be more significant than one isolated result."
+    },
+    {
+      "id": "q19",
+      "stem": "Which finding indicates poor perfusion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warm peripheries, alertness and good urine output."
+        },
+        {
+          "id": "B",
+          "text": "Normal capillary refill and pulse."
+        },
+        {
+          "id": "C",
+          "text": "Cool skin, confusion and oliguria."
+        },
+        {
+          "id": "D",
+          "text": "Improved appetite."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cool skin, altered mental status and reduced urine output suggest impaired circulation."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates effective advanced assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse completes all forms."
+        },
+        {
+          "id": "B",
+          "text": "The patient receives routine care."
+        },
+        {
+          "id": "C",
+          "text": "Only abnormal values are documented."
+        },
+        {
+          "id": "D",
+          "text": "The nurse recognises the most urgent threat, intervenes, reassesses and escalates appropriately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Advanced assessment links prioritisation, intervention and ongoing reassessment."
+    },
+    {
+      "id": "q21",
+      "stem": "A patient reports central chest pressure, nausea and sweating. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acute coronary syndrome."
+        },
+        {
+          "id": "B",
+          "text": "Simple indigestion only."
+        },
+        {
+          "id": "C",
+          "text": "Stable chronic pain."
+        },
+        {
+          "id": "D",
+          "text": "Mild anxiety only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Chest pressure with autonomic symptoms may indicate myocardial ischaemia."
+    },
+    {
+      "id": "q22",
+      "stem": "A patient with asthma becomes quieter, drowsy and has reduced air entry. What does this most likely indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improvement."
+        },
+        {
+          "id": "B",
+          "text": "Possible respiratory exhaustion and failure."
+        },
+        {
+          "id": "C",
+          "text": "Reduced anxiety."
+        },
+        {
+          "id": "D",
+          "text": "Normal recovery."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A silent or quieter chest with drowsiness may indicate severe airflow limitation and fatigue."
+    },
+    {
+      "id": "q23",
+      "stem": "Which finding is most consistent with acute pulmonary oedema?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dry skin and constipation."
+        },
+        {
+          "id": "B",
+          "text": "Bradycardia with normal breathing."
+        },
+        {
+          "id": "C",
+          "text": "Crackles, severe breathlessness and hypoxia."
+        },
+        {
+          "id": "D",
+          "text": "Mild chronic ankle pain."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pulmonary oedema causes fluid in the lungs, impaired oxygenation and respiratory distress."
+    },
+    {
+      "id": "q24",
+      "stem": "Sudden dyspnoea, pleuritic chest pain and tachycardia should raise concern for:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastroenteritis."
+        },
+        {
+          "id": "B",
+          "text": "Urinary infection."
+        },
+        {
+          "id": "C",
+          "text": "Stable angina."
+        },
+        {
+          "id": "D",
+          "text": "Pulmonary embolism."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "This cluster is characteristic of pulmonary embolism and requires urgent assessment."
+    },
+    {
+      "id": "q25",
+      "stem": "A rapid irregular rhythm is accompanied by hypotension and dizziness. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess perfusion and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Document and reassess tomorrow."
+        },
+        {
+          "id": "C",
+          "text": "Encourage mobilisation."
+        },
+        {
+          "id": "D",
+          "text": "Offer food."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "An arrhythmia causing haemodynamic instability requires urgent review."
+    },
+    {
+      "id": "q26",
+      "stem": "Which late sign of respiratory failure is most concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild cough."
+        },
+        {
+          "id": "B",
+          "text": "Altered consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Normal speech."
+        },
+        {
+          "id": "D",
+          "text": "Stable oxygen saturation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Altered consciousness may indicate severe hypoxia, hypercapnia or exhaustion."
+    },
+    {
+      "id": "q27",
+      "stem": "A patient with heart failure becomes increasingly breathless with crackles and low oxygen saturation. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage lying flat."
+        },
+        {
+          "id": "B",
+          "text": "Give large oral fluids."
+        },
+        {
+          "id": "C",
+          "text": "Position upright, assess and escalate while providing prescribed oxygen."
+        },
+        {
+          "id": "D",
+          "text": "Delay review until after medications."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Upright positioning and urgent respiratory assessment support oxygenation while escalation occurs."
+    },
+    {
+      "id": "q28",
+      "stem": "Which finding suggests reduced cardiac output?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warm skin and strong pulses."
+        },
+        {
+          "id": "B",
+          "text": "Normal urine output."
+        },
+        {
+          "id": "C",
+          "text": "Stable blood pressure and alertness."
+        },
+        {
+          "id": "D",
+          "text": "Cool peripheries, weak pulse and confusion."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Poor perfusion signs may reflect reduced cardiac output."
+    },
+    {
+      "id": "q29",
+      "stem": "A patient with suspected acute coronary syndrome should receive which immediate nursing priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rapid assessment, cardiac monitoring and escalation."
+        },
+        {
+          "id": "B",
+          "text": "Routine discharge teaching."
+        },
+        {
+          "id": "C",
+          "text": "High-intensity exercise."
+        },
+        {
+          "id": "D",
+          "text": "Delayed observations."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Time-critical assessment and monitoring are essential in suspected ACS."
+    },
+    {
+      "id": "q30",
+      "stem": "Why can decreased wheeze be dangerous in severe asthma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It always indicates recovery."
+        },
+        {
+          "id": "B",
+          "text": "It may reflect minimal airflow rather than improvement."
+        },
+        {
+          "id": "C",
+          "text": "It means oxygen is no longer needed."
+        },
+        {
+          "id": "D",
+          "text": "It confirms anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced wheeze with worsening distress may mean severely reduced air movement."
+    },
+    {
+      "id": "q31",
+      "stem": "A patient with sudden hypoxia after surgery is tachycardic and anxious. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal postoperative fatigue."
+        },
+        {
+          "id": "B",
+          "text": "Constipation."
+        },
+        {
+          "id": "C",
+          "text": "Pulmonary embolism or another acute respiratory complication."
+        },
+        {
+          "id": "D",
+          "text": "Stable recovery."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Sudden hypoxia and tachycardia after surgery are red flags for pulmonary embolism."
+    },
+    {
+      "id": "q32",
+      "stem": "Which observation is most important after an emergency bronchodilator?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meal intake only."
+        },
+        {
+          "id": "B",
+          "text": "Urine colour."
+        },
+        {
+          "id": "C",
+          "text": "Mobility score only."
+        },
+        {
+          "id": "D",
+          "text": "Respiratory effort, air entry, oxygenation and ability to speak."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Response should be evaluated using respiratory signs and function."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient with pulmonary oedema becomes hypotensive after treatment. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassess perfusion and escalate promptly."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the change."
+        },
+        {
+          "id": "C",
+          "text": "Give extra treatment independently."
+        },
+        {
+          "id": "D",
+          "text": "Encourage walking."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Hypotension may reflect worsening cardiac output or treatment-related compromise."
+    },
+    {
+      "id": "q34",
+      "stem": "Which symptom combination most strongly suggests myocardial ischaemia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Localised reproducible chest wall pain only."
+        },
+        {
+          "id": "B",
+          "text": "Chest pressure radiating to arm with diaphoresis."
+        },
+        {
+          "id": "C",
+          "text": "Mild cough."
+        },
+        {
+          "id": "D",
+          "text": "Chronic back pain."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Radiating chest pressure with sweating is typical of acute coronary syndrome."
+    },
+    {
+      "id": "q35",
+      "stem": "A patient with ARDS remains severely hypoxic despite oxygen therapy. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine observation."
+        },
+        {
+          "id": "B",
+          "text": "Oral hydration only."
+        },
+        {
+          "id": "C",
+          "text": "Urgent multidisciplinary escalation and advanced respiratory support preparation."
+        },
+        {
+          "id": "D",
+          "text": "Discharge planning."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "ARDS causes severe oxygenation failure and requires urgent critical care management."
+    },
+    {
+      "id": "q36",
+      "stem": "Which ECG-related nursing action is appropriate when an arrhythmia causes symptoms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the monitor only."
+        },
+        {
+          "id": "B",
+          "text": "Ignore blood pressure."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the rhythm stops."
+        },
+        {
+          "id": "D",
+          "text": "Correlate rhythm with perfusion and patient condition."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The significance of an arrhythmia depends on its haemodynamic effect on the patient."
+    },
+    {
+      "id": "q37",
+      "stem": "Which finding requires the most urgent response in asthma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inability to speak full sentences and increasing drowsiness."
+        },
+        {
+          "id": "B",
+          "text": "Mild wheeze with good air entry."
+        },
+        {
+          "id": "C",
+          "text": "Occasional cough."
+        },
+        {
+          "id": "D",
+          "text": "Stable respiratory rate."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Inability to speak and drowsiness indicate severe respiratory compromise."
+    },
+    {
+      "id": "q38",
+      "stem": "A patient with chest pain has a normal initial ECG but ongoing symptoms. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure and discharge."
+        },
+        {
+          "id": "B",
+          "text": "Continue assessment and escalation because one normal ECG does not exclude ACS."
+        },
+        {
+          "id": "C",
+          "text": "Stop monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next day."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ongoing symptoms require continued evaluation despite one normal result."
+    },
+    {
+      "id": "q39",
+      "stem": "Which outcome best indicates improvement in acute respiratory distress?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lower wheeze alone."
+        },
+        {
+          "id": "B",
+          "text": "Sleepiness after treatment."
+        },
+        {
+          "id": "C",
+          "text": "Reduced work of breathing, improved oxygenation and alertness."
+        },
+        {
+          "id": "D",
+          "text": "Normal temperature only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Improvement should be assessed using multiple respiratory and neurological indicators."
+    },
+    {
+      "id": "q40",
+      "stem": "Which nursing principle is central to cardiovascular and respiratory emergencies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Delay reassessment."
+        },
+        {
+          "id": "C",
+          "text": "Treat one vital sign in isolation."
+        },
+        {
+          "id": "D",
+          "text": "Recognise early, support oxygenation and circulation, monitor closely and escalate promptly."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Rapid recognition, support and reassessment are essential in these emergencies."
+    },
+    {
+      "id": "q41",
+      "stem": "Sudden facial droop, arm weakness and speech difficulty most strongly suggest:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stroke."
+        },
+        {
+          "id": "B",
+          "text": "Hypoglycaemia only."
+        },
+        {
+          "id": "C",
+          "text": "Chronic neuropathy."
+        },
+        {
+          "id": "D",
+          "text": "Migraine without further assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These are classic stroke warning signs and require urgent action."
+    },
+    {
+      "id": "q42",
+      "stem": "During a seizure, what is the nurse's priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restrict all movement forcefully."
+        },
+        {
+          "id": "B",
+          "text": "Protect the patient from injury and maintain airway safety."
+        },
+        {
+          "id": "C",
+          "text": "Place an object in the mouth."
+        },
+        {
+          "id": "D",
+          "text": "Leave to obtain paperwork."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should protect the airway and prevent injury without restraining or inserting objects."
+    },
+    {
+      "id": "q43",
+      "stem": "Which finding may indicate raised intracranial pressure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved alertness."
+        },
+        {
+          "id": "B",
+          "text": "Stable headache unchanged for years."
+        },
+        {
+          "id": "C",
+          "text": "Declining consciousness and unequal pupils."
+        },
+        {
+          "id": "D",
+          "text": "Normal neurological assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reduced consciousness and pupillary changes are neurological red flags."
+    },
+    {
+      "id": "q44",
+      "stem": "Reduced urine output with rising creatinine suggests:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved renal function."
+        },
+        {
+          "id": "B",
+          "text": "Normal fluid balance."
+        },
+        {
+          "id": "C",
+          "text": "Hyperthyroidism."
+        },
+        {
+          "id": "D",
+          "text": "Acute kidney injury."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Oliguria and rising creatinine may indicate acute kidney injury."
+    },
+    {
+      "id": "q45",
+      "stem": "Why are severe potassium abnormalities dangerous?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They may cause life-threatening arrhythmias."
+        },
+        {
+          "id": "B",
+          "text": "They affect only appetite."
+        },
+        {
+          "id": "C",
+          "text": "They improve kidney function."
+        },
+        {
+          "id": "D",
+          "text": "They are rarely clinically important."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Potassium disturbances can impair cardiac conduction and muscle function."
+    },
+    {
+      "id": "q46",
+      "stem": "A patient with diabetes has deep rapid breathing, abdominal pain and dehydration. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild hypoglycaemia."
+        },
+        {
+          "id": "B",
+          "text": "Diabetic ketoacidosis."
+        },
+        {
+          "id": "C",
+          "text": "Stable diabetes."
+        },
+        {
+          "id": "D",
+          "text": "Simple anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Kussmaul breathing, abdominal pain and dehydration suggest DKA."
+    },
+    {
+      "id": "q47",
+      "stem": "A patient with HHS is most likely to present with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marked ketosis in every case."
+        },
+        {
+          "id": "B",
+          "text": "Low blood glucose."
+        },
+        {
+          "id": "C",
+          "text": "Severe hyperglycaemia, dehydration and altered consciousness."
+        },
+        {
+          "id": "D",
+          "text": "Stable hydration."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "HHS causes profound hyperglycaemia and dehydration, often with neurological changes."
+    },
+    {
+      "id": "q48",
+      "stem": "A patient develops sudden weakness on one side after surgery. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for symptoms to settle."
+        },
+        {
+          "id": "B",
+          "text": "Encourage walking."
+        },
+        {
+          "id": "C",
+          "text": "Document at discharge."
+        },
+        {
+          "id": "D",
+          "text": "Activate the stroke or deterioration pathway urgently."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sudden focal neurological change is an emergency."
+    },
+    {
+      "id": "q49",
+      "stem": "Which action is appropriate after a seizure ends?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess airway, breathing, neurological recovery and injuries."
+        },
+        {
+          "id": "B",
+          "text": "Give oral fluids immediately."
+        },
+        {
+          "id": "C",
+          "text": "Restrain the patient."
+        },
+        {
+          "id": "D",
+          "text": "Leave the patient alone."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Postictal assessment focuses on airway, breathing, recovery and injury."
+    },
+    {
+      "id": "q50",
+      "stem": "A patient with acute kidney injury develops crackles and oedema. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dehydration only."
+        },
+        {
+          "id": "B",
+          "text": "Fluid overload."
+        },
+        {
+          "id": "C",
+          "text": "Improved renal function."
+        },
+        {
+          "id": "D",
+          "text": "Normal recovery."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced renal excretion can lead to fluid accumulation and pulmonary congestion."
+    },
+    {
+      "id": "q51",
+      "stem": "A patient with severe hyponatraemia becomes confused and has a seizure. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage free water."
+        },
+        {
+          "id": "B",
+          "text": "Delay escalation."
+        },
+        {
+          "id": "C",
+          "text": "Emergency assessment and treatment according to protocol."
+        },
+        {
+          "id": "D",
+          "text": "Give food only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Severe sodium disturbance can cause cerebral oedema and seizures."
+    },
+    {
+      "id": "q52",
+      "stem": "Which finding is most concerning in raised intracranial pressure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild stable headache."
+        },
+        {
+          "id": "B",
+          "text": "Normal pupils."
+        },
+        {
+          "id": "C",
+          "text": "Improved orientation."
+        },
+        {
+          "id": "D",
+          "text": "Worsening consciousness with vomiting."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Progressive neurological decline suggests increasing intracranial pressure."
+    },
+    {
+      "id": "q53",
+      "stem": "A patient with DKA is receiving treatment. Which parameters require close monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glucose, ketones, fluids, electrolytes and neurological status."
+        },
+        {
+          "id": "B",
+          "text": "Temperature only."
+        },
+        {
+          "id": "C",
+          "text": "Appetite only."
+        },
+        {
+          "id": "D",
+          "text": "Mobility only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "DKA treatment can rapidly alter glucose, potassium and fluid balance."
+    },
+    {
+      "id": "q54",
+      "stem": "Which sign may indicate myxoedema coma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High fever and severe agitation."
+        },
+        {
+          "id": "B",
+          "text": "Hypothermia, bradycardia and reduced consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Tachycardia with sweating."
+        },
+        {
+          "id": "D",
+          "text": "Mild tremor."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Myxoedema coma is a life-threatening severe hypothyroid state."
+    },
+    {
+      "id": "q55",
+      "stem": "Which sign may indicate thyroid storm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothermia and bradycardia."
+        },
+        {
+          "id": "B",
+          "text": "Stable pulse."
+        },
+        {
+          "id": "C",
+          "text": "High fever, marked tachycardia and agitation."
+        },
+        {
+          "id": "D",
+          "text": "Mild fatigue."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Thyroid storm causes severe hypermetabolic instability."
+    },
+    {
+      "id": "q56",
+      "stem": "Why is urine output a key clinical indicator?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It measures respiratory effort."
+        },
+        {
+          "id": "B",
+          "text": "It replaces blood pressure."
+        },
+        {
+          "id": "C",
+          "text": "It is relevant only in urology."
+        },
+        {
+          "id": "D",
+          "text": "It reflects renal perfusion and organ function."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reduced urine output may indicate hypoperfusion or kidney injury."
+    },
+    {
+      "id": "q57",
+      "stem": "A patient with renal failure has muscle weakness and ECG changes. Which electrolyte should be considered urgently?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Potassium."
+        },
+        {
+          "id": "B",
+          "text": "Calcium only in every case."
+        },
+        {
+          "id": "C",
+          "text": "Sodium only."
+        },
+        {
+          "id": "D",
+          "text": "Magnesium is never relevant."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Hyperkalaemia commonly causes muscle weakness and ECG changes."
+    },
+    {
+      "id": "q58",
+      "stem": "During stroke assessment, why is the time symptoms began important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is needed only for documentation."
+        },
+        {
+          "id": "B",
+          "text": "It affects eligibility for time-critical treatment."
+        },
+        {
+          "id": "C",
+          "text": "It does not affect care."
+        },
+        {
+          "id": "D",
+          "text": "It predicts discharge date."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Stroke treatments are time-dependent, so onset time is critical."
+    },
+    {
+      "id": "q59",
+      "stem": "A patient remains drowsy after treatment for hypoglycaemia. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume recovery."
+        },
+        {
+          "id": "B",
+          "text": "Give insulin."
+        },
+        {
+          "id": "C",
+          "text": "Reassess glucose and neurological status and escalate if recovery is incomplete."
+        },
+        {
+          "id": "D",
+          "text": "Stop monitoring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Incomplete recovery requires reassessment for persistent hypoglycaemia or another cause."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects effective nursing care in neurological, renal and endocrine emergencies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the diagnosis is documented."
+        },
+        {
+          "id": "B",
+          "text": "Monitoring stops after one intervention."
+        },
+        {
+          "id": "C",
+          "text": "The nurse waits for severe collapse."
+        },
+        {
+          "id": "D",
+          "text": "Red flags are recognised, immediate safety is protected and treatment response is reassessed continuously."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These emergencies require rapid recognition, protection and ongoing reassessment."
+    },
+    {
+      "id": "q61",
+      "stem": "Which combination most strongly suggests sepsis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Possible infection, confusion, tachypnoea and hypotension."
+        },
+        {
+          "id": "B",
+          "text": "Stable temperature and appetite."
+        },
+        {
+          "id": "C",
+          "text": "Chronic pain only."
+        },
+        {
+          "id": "D",
+          "text": "Normal urine output."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Infection with organ-dysfunction signs suggests sepsis and requires urgent action."
+    },
+    {
+      "id": "q62",
+      "stem": "What is shock?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Any episode of pain."
+        },
+        {
+          "id": "B",
+          "text": "A state of inadequate tissue perfusion."
+        },
+        {
+          "id": "C",
+          "text": "A high temperature only."
+        },
+        {
+          "id": "D",
+          "text": "A normal response to illness."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Shock occurs when circulation fails to meet tissue oxygen and nutrient needs."
+    },
+    {
+      "id": "q63",
+      "stem": "Which finding is common in shock?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved alertness."
+        },
+        {
+          "id": "B",
+          "text": "Warm dry skin in every type."
+        },
+        {
+          "id": "C",
+          "text": "Reduced urine output."
+        },
+        {
+          "id": "D",
+          "text": "Normal capillary refill."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Oliguria is a common sign of reduced organ perfusion."
+    },
+    {
+      "id": "q64",
+      "stem": "Hypovolaemic shock is most commonly caused by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Severe pump failure."
+        },
+        {
+          "id": "B",
+          "text": "Widespread vasodilation only."
+        },
+        {
+          "id": "C",
+          "text": "Pulmonary embolism only."
+        },
+        {
+          "id": "D",
+          "text": "Loss of circulating volume."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Blood or fluid loss reduces circulating volume."
+    },
+    {
+      "id": "q65",
+      "stem": "Cardiogenic shock results primarily from:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Failure of the heart to pump effectively."
+        },
+        {
+          "id": "B",
+          "text": "Loss of fluid volume."
+        },
+        {
+          "id": "C",
+          "text": "An allergic reaction only."
+        },
+        {
+          "id": "D",
+          "text": "Airway obstruction."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cardiogenic shock is caused by severe cardiac pump failure."
+    },
+    {
+      "id": "q66",
+      "stem": "Distributive shock is characterised by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduced circulating volume only."
+        },
+        {
+          "id": "B",
+          "text": "Abnormal vasodilation and maldistribution of blood flow."
+        },
+        {
+          "id": "C",
+          "text": "Mechanical obstruction only."
+        },
+        {
+          "id": "D",
+          "text": "Isolated kidney failure."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Septic and anaphylactic shock are distributive forms involving vasodilation."
+    },
+    {
+      "id": "q67",
+      "stem": "Obstructive shock may occur with:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild dehydration."
+        },
+        {
+          "id": "B",
+          "text": "Simple fever."
+        },
+        {
+          "id": "C",
+          "text": "Massive pulmonary embolism."
+        },
+        {
+          "id": "D",
+          "text": "Stable arrhythmia."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A large pulmonary embolus can obstruct circulation and cause shock."
+    },
+    {
+      "id": "q68",
+      "stem": "A patient with infection becomes confused, tachypnoeic and hypotensive. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for laboratory confirmation."
+        },
+        {
+          "id": "B",
+          "text": "Give oral fluids only."
+        },
+        {
+          "id": "C",
+          "text": "Document for the next shift."
+        },
+        {
+          "id": "D",
+          "text": "Activate the sepsis or deterioration pathway and begin time-critical actions within scope."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sepsis treatment should begin promptly when suspected."
+    },
+    {
+      "id": "q69",
+      "stem": "Why is lactate measured in suspected sepsis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It may indicate impaired tissue perfusion."
+        },
+        {
+          "id": "B",
+          "text": "It diagnoses every infection."
+        },
+        {
+          "id": "C",
+          "text": "It measures renal clearance only."
+        },
+        {
+          "id": "D",
+          "text": "It replaces clinical assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Elevated lactate can reflect tissue hypoperfusion and severity."
+    },
+    {
+      "id": "q70",
+      "stem": "Which finding suggests worsening organ dysfunction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved alertness."
+        },
+        {
+          "id": "B",
+          "text": "Increasing oxygen requirement and falling urine output."
+        },
+        {
+          "id": "C",
+          "text": "Stable liver tests."
+        },
+        {
+          "id": "D",
+          "text": "Normal blood pressure."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Worsening respiratory and renal function indicate multiorgan deterioration."
+    },
+    {
+      "id": "q71",
+      "stem": "A patient remains hypotensive after prescribed fluids. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop monitoring."
+        },
+        {
+          "id": "B",
+          "text": "Assume the reading is wrong."
+        },
+        {
+          "id": "C",
+          "text": "Reassess and escalate urgently because shock may be persisting."
+        },
+        {
+          "id": "D",
+          "text": "Wait until morning."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Persistent hypotension after treatment is a serious sign requiring further intervention."
+    },
+    {
+      "id": "q72",
+      "stem": "Which action is commonly included in sepsis pathways?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delayed assessment."
+        },
+        {
+          "id": "B",
+          "text": "Routine discharge education only."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding repeated observations."
+        },
+        {
+          "id": "D",
+          "text": "Cultures, antimicrobials, oxygen, IV access, fluids and lactate assessment as directed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sepsis pathways focus on rapid investigation and treatment."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient with septic shock develops new respiratory distress and confusion. What does this suggest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Progressing multiorgan dysfunction."
+        },
+        {
+          "id": "B",
+          "text": "Expected recovery."
+        },
+        {
+          "id": "C",
+          "text": "Improved perfusion."
+        },
+        {
+          "id": "D",
+          "text": "A minor side effect."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "New respiratory and neurological dysfunction suggest severe progression."
+    },
+    {
+      "id": "q74",
+      "stem": "Which indicator best reflects treatment response in shock?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Improving blood pressure, mental status, skin perfusion and urine output."
+        },
+        {
+          "id": "C",
+          "text": "Pain score only."
+        },
+        {
+          "id": "D",
+          "text": "Meal intake only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Perfusion improvement should be assessed across multiple organ indicators."
+    },
+    {
+      "id": "q75",
+      "stem": "Why should suspected sepsis be acted on before severe collapse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sepsis always resolves spontaneously."
+        },
+        {
+          "id": "B",
+          "text": "Laboratory confirmation must precede care."
+        },
+        {
+          "id": "C",
+          "text": "Early treatment improves outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Only doctors recognise sepsis."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Delays increase the risk of shock and organ failure."
+    },
+    {
+      "id": "q76",
+      "stem": "Which documentation is most important during sepsis care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A general note at discharge."
+        },
+        {
+          "id": "B",
+          "text": "Only the initial temperature."
+        },
+        {
+          "id": "C",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "D",
+          "text": "Time-based trends, interventions, response and escalation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accurate trend documentation supports coordinated time-critical care."
+    },
+    {
+      "id": "q77",
+      "stem": "A patient with shock becomes increasingly cool, mottled and confused. What should the nurse infer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perfusion is worsening."
+        },
+        {
+          "id": "B",
+          "text": "The patient is improving."
+        },
+        {
+          "id": "C",
+          "text": "The findings are unrelated."
+        },
+        {
+          "id": "D",
+          "text": "Only skin care is needed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cool mottled skin and confusion are signs of worsening circulatory failure."
+    },
+    {
+      "id": "q78",
+      "stem": "Which statement best distinguishes shock types?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All shock is caused by bleeding."
+        },
+        {
+          "id": "B",
+          "text": "The underlying mechanism differs, but all can cause poor perfusion and organ dysfunction."
+        },
+        {
+          "id": "C",
+          "text": "Only septic shock affects urine output."
+        },
+        {
+          "id": "D",
+          "text": "Cardiogenic shock never causes hypotension."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Different mechanisms lead to the shared consequence of inadequate perfusion."
+    },
+    {
+      "id": "q79",
+      "stem": "A patient with possible sepsis has a normal temperature but is confused and tachypnoeic. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude sepsis."
+        },
+        {
+          "id": "B",
+          "text": "Wait for fever."
+        },
+        {
+          "id": "C",
+          "text": "Recognise that sepsis may occur without fever and assess urgently."
+        },
+        {
+          "id": "D",
+          "text": "Provide routine care only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Sepsis may present with normal temperature or hypothermia, especially in vulnerable adults."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects effective nursing management of sepsis and shock?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waiting for severe hypotension."
+        },
+        {
+          "id": "B",
+          "text": "Documenting only."
+        },
+        {
+          "id": "C",
+          "text": "Treating each abnormal sign separately."
+        },
+        {
+          "id": "D",
+          "text": "Early recognition, rapid pathway activation, close monitoring and clear communication of response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective care recognises the pattern, acts quickly and monitors organ response."
+    }
+  ]
+}

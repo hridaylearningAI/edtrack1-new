@@ -1,0 +1,699 @@
+{
+  "courseCode": "NURS-M14",
+  "title": "Module 14 — Documentation and Legal Responsibilities",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Documentation and legal responsibilities are tested heavily in NCLEX and are also assessed indirectly in OBA OSCE because every station expects safe practice, correct reporting, and professional behaviour. In Australia and internationally, nursing documentation is a legal record. If it is not documented, it is considered not done."
+        },
+        {
+          "type": "paragraph",
+          "text": "Think of documentation as a clinical skill: accurate charting protects the patient and protects you."
+        },
+        {
+          "type": "paragraph",
+          "text": "The safest approach is to follow these principles every time:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Be timely: document as soon as possible after care.",
+            "Be objective: record facts, measurements, and direct quotes—not opinions.",
+            "Be complete: assessment, interventions, response, and escalation.",
+            "Be legally safe: correct errors properly, maintain confidentiality.",
+            "Be professional: clear, accurate, and respectful language."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain why documentation is a legal and clinical safety requirement.",
+            "Document assessments, interventions, and evaluations accurately using professional language.",
+            "Differentiate between clinical documentation and incident reporting.",
+            "Apply confidentiality and privacy principles in patient records and communication.",
+            "Understand informed consent, refusal of care, and capacity as legal concepts.",
+            "Recognise negligence, duty of care, scope of practice, and professional accountability.",
+            "Identify mandatory reporting responsibilities (where required by policy/law).",
+            "Use structured communication tools (ISBAR/SBAR) and document escalation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Why Documentation Matters",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Documentation has three main purposes: (1) patient safety and continuity of care, (2) professional communication among the healthcare team, and (3) legal evidence of what occurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "In real practice, documentation answers critical questions: What did you assess? What did you do? What was the patient response? Did you escalate concerns?"
+        },
+        {
+          "type": "paragraph",
+          "text": "NCLEX frequently tests documentation through scenarios involving medication errors, falls, refusal of care, abnormal findings, and patient safety events."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Core Principles of High-Quality Nursing Documentation",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Objective vs Subjective",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Objective data is measurable and observable: vital signs, assessment findings, wound condition, patient behaviour observed. Subjective data is what the patient says: symptoms, pain, feelings, perceptions. Always include both when relevant."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: Subjective: \"Patient states pain is 8/10 in right hip.\" Objective: \"Patient grimacing; HR 112; limited ROM noted.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Documentation Standards: Clear, Accurate, Professional",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Use approved abbreviations only.",
+                "Write legibly (or type clearly).",
+                "Chart in real time when possible.",
+                "Use correct date/time and sign with name/designation.",
+                "Never document for someone else.",
+                "Never leave blank spaces; follow facility policy."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Avoid judgemental language. Document behaviour, not labels. Unsafe: \"Patient is lazy and non-compliant.\" Safe: \"Patient declined physiotherapy session despite education; states 'I am too tired.'\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "Charting Formats You May See",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "SOAP/SOAPIE: Subjective, Objective, Assessment, Plan (with Implementation/Evaluation).",
+                "PIE: Problem, Intervention, Evaluation.",
+                "DAR/Focus charting: Data, Action, Response.",
+                "Narrative progress notes (often used for complex events)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For exam preparation, focus on including assessment + action + response + escalation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "What Must Always Be Documented",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A simple rule: if it affects clinical decisions, it must be documented."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assessment findings (including abnormal results).",
+            "Interventions performed (including medications, wound care, education).",
+            "Patient response and outcomes (reassessment).",
+            "Escalation actions (who you notified, when, what was communicated).",
+            "Refusals of care and education provided.",
+            "Safety events: falls, medication errors, near misses (clinical aspect only)."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Documentation Examples (Student-Friendly Templates)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Vital Signs and Deterioration Note",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "1500: Observations: BP 88/52, HR 124, RR 28, SpO2 90% RA, Temp 37.8°C. Patient pale and diaphoretic, reports dizziness.",
+                "Intervention: patient positioned supine; oxygen applied 4 L/min via nasal cannula as per protocol; IV site checked.",
+                "Escalation: RN in charge and MO notified using ISBAR at 1505; rapid response initiated.",
+                "Evaluation: 1515 SpO2 94% on O2; BP 92/56; patient reports reduced dizziness."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Medication Administration Note",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "0900: Allergies confirmed: NKDA. Paracetamol 1 g PO administered as ordered for pain 7/10.",
+                "0930: Pain reassessed 3/10. No adverse effects noted."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Refusal of Care Note",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Patient declined IM injection despite education on purpose and benefits.",
+                "Patient verbalised understanding and stated: \"I don't want it today.\"",
+                "RN in charge notified. Plan: re-offer later and notify MO if ongoing refusal affects treatment."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Correcting Documentation Errors (Legal Safe Practice)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Never erase, delete, scribble out, or use correction fluid. Follow policy."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Paper chart: draw a single line through the error so it remains readable; write \"error,\" initial, date/time; enter correct information.",
+            "Electronic record: use correction function/addendum; never alter earlier notes without traceability."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you forgot to document something, do a late entry according to policy and clearly state the actual time care occurred."
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Incident Reports vs Clinical Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A common NCLEX and OSCE trap: mixing incident reporting with clinical documentation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clinical note: objective facts of what happened, assessment, interventions, outcome.",
+            "Incident report: risk management document; not part of the clinical record; used for investigation and prevention."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Do NOT write: \"Incident report completed\" in the patient chart unless facility policy explicitly requires it. Instead document the event and the patient response objectively."
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Confidentiality, Privacy, and Professional Communication",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Confidentiality is a legal and ethical duty. Breaches occur easily through casual conversation, social media, and improper handling of records."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Access records only for patients you are caring for.",
+            "Do not discuss patient details in public areas (lifts, cafés, corridors).",
+            "Do not post patient information or photos on social media.",
+            "Use privacy screens and log out of computers.",
+            "Secure printed notes; dispose of in confidential waste."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "NCLEX clue: If asked what action is appropriate, choose the option that protects patient privacy and limits sharing to the minimum necessary."
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Legal Responsibilities in Nursing Practice",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "8.1",
+          "title": "Duty of Care and Standard of Care",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Duty of care means nurses must act in a way that a reasonable nurse would act to prevent foreseeable harm. Standard of care means care should align with professional standards, policies, and guidelines."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.2",
+          "title": "Negligence and Malpractice (Key Exam Concept)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Negligence generally includes these elements: 1) Duty owed to patient. 2) Breach of duty (failure to meet standard). 3) Harm/injury occurred. 4) Harm caused by breach."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: Nurse fails to check allergies and gives antibiotic → anaphylaxis → harm. This may be negligence."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.3",
+          "title": "Scope of Practice and Delegation",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Practice within your scope and competence. If you are not trained or authorised, you must seek supervision or decline the task.",
+                "RNs cannot delegate assessment and clinical judgement.",
+                "Delegation requires the right task, circumstance, person, communication, and supervision.",
+                "You remain accountable for the outcome."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.4",
+          "title": "Informed Consent and Refusal",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Consent must be informed, voluntary, and given by a person with capacity.",
+                "Patient has right to refuse treatment.",
+                "Nurse must provide education, explore concerns, and document refusal.",
+                "Emergency exceptions may apply if patient lacks capacity and immediate action is required."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Mandatory Reporting and Professional Conduct",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mandatory reporting varies by jurisdiction and organisation but commonly includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Suspected child abuse/neglect.",
+            "Family/domestic violence (policy-dependent).",
+            "Notifiable infectious diseases (through public health processes).",
+            "Impaired practitioner or professional misconduct (as required)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Always follow local policy. When in doubt, escalate to senior nurse/manager."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Communication and Handover as Legal Evidence",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Handover is a patient safety step and becomes part of the legal record when documented. Use ISBAR/SBAR to communicate risk clearly."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identification: who is the patient?",
+            "Situation: what is happening now?",
+            "Background: what is relevant history?",
+            "Assessment: what did you find?",
+            "Recommendation: what do you need?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Document escalation: who you contacted, when, what you said, and what instructions you received."
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Case Studies (Documentation + Legal Responsibilities)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Patient Fall in Bathroom",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: An older patient slipped in the bathroom and is now complaining of hip pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key documentation/legal issues: Safety incident; Need immediate assessment and monitoring; Incident report vs clinical note."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Assess ABCs and level of consciousness immediately. Perform neuro observations and pain assessment. Keep patient safe; do not mobilise until assessed for injury. Notify RN in charge and medical officer; follow falls policy. Arrange imaging as ordered; continue monitoring."
+            },
+            {
+              "type": "paragraph",
+              "text": "What to document (example phrasing): \"Found patient on bathroom floor at 0835; call bell was not in reach.\" \"Patient reports hip pain 8/10; unable to bear weight.\" \"Neuro obs stable; vitals BP 132/78 HR 96.\" \"MO notified at 0845; X-ray ordered; patient kept on bed rest.\" Legal/professional responsibilities: Document objective facts only; do not assign blame. Complete incident report separately per policy. Pro tips: Use direct quotes; include reassessment and escalation."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Medication Error (Wrong Dose Administered)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Nurse realises a double dose of antihypertensive was administered."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key documentation/legal issues: Medication error; Risk of hypotension; Disclosure and documentation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Assess patient immediately (BP/HR symptoms). Position patient safely and implement falls precautions. Notify RN in charge and MO; anticipate monitoring/fluids. Monitor vitals frequently and document changes. Complete incident report per policy."
+            },
+            {
+              "type": "paragraph",
+              "text": "What to document (example phrasing): \"At 1105, BP 98/60 HR 88; patient reports mild dizziness.\" \"Medication error recognised; MO notified at 1110; monitoring commenced.\" Legal/professional responsibilities: Patient safety first; transparency required; incident report not documented in chart. Pro tips: Focus documentation on assessment and actions; avoid emotional language."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Refusal of Blood Transfusion",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient refuses transfusion due to personal beliefs."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key documentation/legal issues: Autonomy and informed refusal; Capacity assessment; Documentation of education."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Explore reasons for refusal respectfully. Assess understanding and capacity. Provide education about risks/benefits and alternatives. Notify provider; document decision and plan."
+            },
+            {
+              "type": "paragraph",
+              "text": "What to document (example phrasing): \"Patient states: 'I do not consent to blood products.'\" \"Education provided on risks of refusal; patient verbalised understanding.\" \"MO notified; alternative plan discussed.\" Legal/professional responsibilities: Respect patient autonomy; document informed refusal; follow policy. Pro tips: Use neutral language; ensure interpreter used if needed."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Confidentiality Breach Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A nurse is asked by a friend about a well-known patient admitted to the ward."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key documentation/legal issues: Confidentiality obligation; Minimum necessary sharing; Professional boundary."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Do not disclose any patient information. State that you cannot discuss patients due to privacy laws. Report/seek advice if ongoing pressure or breach occurs."
+            },
+            {
+              "type": "paragraph",
+              "text": "What to document (example phrasing): \"Confidentiality maintained; no patient information disclosed.\" (if documentation required by policy) Legal/professional responsibilities: Privacy is a legal duty; unauthorised disclosure is misconduct. Pro tips: Use simple script: \"I'm sorry, I can't discuss any patient details.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Deterioration Not Escalated",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient has repeated low SpO2 readings overnight but no escalation occurred. Morning nurse finds SpO2 85% and confusion."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key documentation/legal issues: Failure to escalate risk; Duty of care; Documentation and handover gaps."
+            },
+            {
+              "type": "paragraph",
+              "text": "Safe nursing actions: Initiate ABC interventions immediately (upright position, oxygen per policy). Perform focused respiratory assessment and vitals. Escalate urgently to MO/rapid response using ISBAR. Document current findings and actions; review previous charts for trend."
+            },
+            {
+              "type": "paragraph",
+              "text": "What to document (example phrasing): \"0705 SpO2 85% RA; RR 30; confused.\" \"O2 applied; rapid response activated; MO notified.\" Legal/professional responsibilities: Duty of care includes timely escalation; documentation must show actions taken. Pro tips: Always document trend and escalation; reassess after intervention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Mini Quiz — Module 14 Documentation and Legal Responsibilities",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Choose the safest and most legally correct nursing action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 1: Which entry is the most objective documentation?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Patient is rude and non-compliant",
+            "B. Patient states 'I don't want medication'; education provided",
+            "C. Family is annoying",
+            "D. Patient is lazy"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Objective charting includes quotes and factual education/interventions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 2: A nurse makes an error in paper charting. Correct action is to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Use correction fluid",
+            "B. Erase the entry",
+            "C. Draw one line through, initial/date/time, write correct info",
+            "D. Tear out the page"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Legal corrections must maintain record integrity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 3: After a patient fall, the nurse should document:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. \"Incident report completed\" only",
+            "B. Objective assessment findings and actions taken",
+            "C. Blame the patient",
+            "D. Nothing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Document assessment, interventions, response, and escalation objectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 4: A friend asks about a patient on your ward. The nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Share details because it's a friend",
+            "B. Share if friend promises secrecy",
+            "C. Do not disclose any information",
+            "D. Post on social media"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Confidentiality is a legal duty—no disclosure without authorisation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 5: An incident report is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Part of the patient's medical record",
+            "B. A risk management document separate from clinical notes",
+            "C. A substitute for documentation",
+            "D. Only for doctors"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Incident reports are separate from clinical charting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 6: A patient refuses treatment. The nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Force the treatment",
+            "B. Respect refusal, educate, document, notify provider",
+            "C. Ignore the refusal",
+            "D. Document that patient is difficult"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Informed refusal must be respected and documented."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 7: Negligence requires:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Only patient dissatisfaction",
+            "B. Duty, breach, harm, causation",
+            "C. No harm at all",
+            "D. Only error occurrence"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: These are key elements of negligence/malpractice."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 8: Best practice for documentation is to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Chart at end of shift only",
+            "B. Chart as soon as possible after care",
+            "C. Chart before care",
+            "D. Let someone else chart"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Timely documentation improves accuracy and safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 9: In SBAR, the nurse's Recommendation should include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. A clear request for provider action",
+            "B. Only patient opinions",
+            "C. Unrelated details",
+            "D. Nothing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: SBAR ends with specific recommendation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 10: Which should NOT be included in the patient chart?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Assessment findings",
+            "B. Interventions and response",
+            "C. Incident report details such as blame/investigation",
+            "D. Escalation actions"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Investigation and blame belong to incident reporting, not clinical record."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For incorrect answers, identify whether the concept tested: objective charting, confidentiality, informed consent, negligence, incident reporting, or escalation. Practise writing one correct sample note for the scenario."
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX and OBA OSCE preparation and do not replace local workplace policies, legal advice, or professional standards."
+        }
+      ]
+    }
+  ]
+}

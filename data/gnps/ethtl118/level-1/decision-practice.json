@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Acute chest pain (possible MI)",
+      "scenario": "A 58-year-old patient presents to the ward complaining of sudden-onset, crushing chest pain that radiates to the left arm. The patient appears pale and diaphoretic and reports nausea. Vital signs show a blood pressure of 92/60 mmHg, heart rate of 118 beats per minute, and oxygen saturation of 91% on room air.\n\nStop & Decide (write your answers before reading further)\n\nWhat would you do FIRST?\n\nWhy is this the priority?\n\nWhat will you check or do next?",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply oxygen if hypoxic and initiate emergency cardiac assessment.",
+      "modelWhy": "Unstable circulation and oxygenation threaten life.",
+      "modelNext": "Reassess vitals, obtain ECG, prepare IV access.",
+      "trap": "Delaying care to give antacids.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Heart failure respiratory distress",
+      "scenario": "A patient with a known history of chronic heart failure is admitted with worsening shortness of breath. The patient is unable to lie flat, is using accessory muscles to breathe, and has audible crackles on auscultation. Oxygen saturation is 88% on room air.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Sit upright and apply oxygen.",
+      "modelWhy": "Pulmonary congestion impairs breathing.",
+      "modelNext": "Assess lung sounds, prepare diuretics.",
+      "trap": "Checking weight first.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Post‑op sudden dyspnea",
+      "scenario": "One day after hip replacement surgery, a patient suddenly complains of sharp chest pain and difficulty breathing. The patient appears anxious, respiratory rate is increased, and heart rate is 124 beats per minute. The surgical site is intact and dry.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply oxygen and call rapid response.",
+      "modelWhy": "Suspected pulmonary embolism.",
+      "modelNext": "Monitor SpO₂ and BP.",
+      "trap": "Reassessing later.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Asthma attack",
+      "scenario": "A patient with chronic obstructive pulmonary disease (COPD) receiving oxygen via nasal cannula becomes increasingly drowsy and difficult to arouse. The respiratory rate has decreased to 10 breaths per minute, and oxygen saturation is 93%.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer bronchodilator and oxygen.",
+      "modelWhy": "Airway obstruction is immediate threat.",
+      "modelNext": "Reassess breath sounds.",
+      "trap": "Waiting for X‑ray.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "COPD drowsiness",
+      "scenario": "A patient with a history of asthma presents with severe shortness of breath. The patient is visibly distressed, has audible wheezing, and is unable to complete full sentences. Oxygen saturation is 87% on room air.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess and notify provider.",
+      "modelWhy": "Possible CO₂ retention.",
+      "modelNext": "Monitor ABGs.",
+      "trap": "Increasing O₂ blindly.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "GI bleed",
+      "scenario": "A patient reports dizziness and weakness and has passed several black, tarry stools. On assessment, the patient’s blood pressure is 88/54 mmHg, heart rate is 122 beats per minute, and the skin is cool and clammy.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess vitals and maintain IV access.",
+      "modelWhy": "Risk of hypovolemic shock.",
+      "modelNext": "Prepare fluids/blood.",
+      "trap": "Offering oral fluids.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Hypoglycemia",
+      "scenario": "A patient with diabetes becomes confused, sweaty, and shaky while waiting for lunch. Capillary blood glucose testing reveals a level of 2.9 mmol/L. The patient is awake and able to swallow.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Give fast‑acting carbohydrate.",
+      "modelWhy": "Brain glucose deprivation.",
+      "modelNext": "Recheck glucose.",
+      "trap": "Giving insulin.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "DKA",
+      "scenario": "A patient with type 1 diabetes presents with nausea, vomiting, and abdominal pain. The patient has deep, rapid breathing and a fruity odour on the breath. Blood glucose level is 28 mmol/L.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Start IV fluids.",
+      "modelWhy": "Severe dehydration.",
+      "modelNext": "Monitor potassium.",
+      "trap": "Insulin first.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

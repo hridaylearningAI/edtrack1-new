@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Acute stroke with unknown onset",
+      "scenario": "A patient is brought to the emergency department with sudden confusion and right-sided weakness. Family members are unsure when the symptoms began. The patient’s blood pressure is 190/100 mmHg.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Activate emergency response and initiate rapid stroke assessment.",
+      "modelWhy": "Acute neurological changes suggest stroke. Rapid assessment determines eligibility for time-sensitive interventions.",
+      "modelNext": "Check blood glucose, perform neurological assessment, and prepare for urgent imaging.",
+      "trap": "Waiting for a full history before escalating.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Raised intracranial pressure",
+      "scenario": "A patient with a head injury becomes increasingly drowsy and begins vomiting. Pupils are unequal, and blood pressure is rising.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Elevate the head of the bed and notify the provider immediately.",
+      "modelWhy": "These findings indicate increased intracranial pressure, which can lead to brain herniation.",
+      "modelNext": "Monitor neurological status and vital signs closely.",
+      "trap": "Laying the patient flat or delaying escalation.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Status epilepticus",
+      "scenario": "A patient with epilepsy is actively seizing and has not regained consciousness between seizures.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure airway safety and administer emergency anticonvulsant as prescribed.",
+      "modelWhy": "Continuous seizures threaten airway and brain oxygenation.",
+      "modelNext": "Monitor oxygen saturation and prepare for advanced airway support.",
+      "trap": "Attempting to restrain the patient.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Parkinson’s disease aspiration risk",
+      "scenario": "A patient with Parkinson’s disease coughs and drools while eating and reports difficulty swallowing.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop oral intake and request a swallow assessment.",
+      "modelWhy": "Dysphagia increases aspiration risk and pneumonia.",
+      "modelNext": "Assess lung sounds and oxygenation.",
+      "trap": "Encouraging the patient to eat slowly.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Myasthenic crisis",
+      "scenario": "A patient with myasthenia gravis presents with increasing muscle weakness and shallow breathing.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess respiratory function and prepare for ventilatory support.",
+      "modelWhy": "Respiratory muscle weakness can lead to respiratory failure.",
+      "modelNext": "Check vital capacity and oxygen saturation.",
+      "trap": "Focusing only on limb weakness.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Acute kidney injury",
+      "scenario": "A hospitalized patient has a sudden rise in creatinine and urine output has fallen significantly.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess fluid status and notify the provider.",
+      "modelWhy": "Reduced perfusion or obstruction can rapidly worsen kidney injury.",
+      "modelNext": "Monitor intake and output and blood pressure.",
+      "trap": "Waiting for the next lab result.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Spinal cord injury",
+      "scenario": "A patient with a recent spinal cord injury develops sudden hypotension and bradycardia.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Recognize neurogenic shock and support circulation.",
+      "modelWhy": "Loss of sympathetic tone causes severe hypotension.",
+      "modelNext": "Monitor heart rate and blood pressure continuously.",
+      "trap": "Assuming hypovolemia without assessment.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Autonomic dysreflexia",
+      "scenario": "A patient with a spinal cord injury above T6 reports a pounding headache and nasal congestion. Blood pressure is 210/110 mmHg.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Sit the patient upright and remove triggering stimuli.",
+      "modelWhy": "Autonomic dysreflexia is life-threatening hypertension.",
+      "modelNext": "Check bladder and bowel distension.",
+      "trap": "Laying the patient flat.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Chemical exposure",
+      "scenario": "A hazardous chemical spills onto the floor in a treatment area. The substance produces a strong odor, and staff are unsure how to safely manage the spill.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Isolate the area and follow spill protocol.",
+      "modelWhy": "Chemical exposure is dangerous.",
+      "modelNext": "Use appropriate PPE.",
+      "trap": "Cleaning without protection.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Pressure injury prevention",
+      "scenario": "An immobile patient who spends most of the day in bed is noted to have redness over the sacral area. The skin is intact but warm and tender to touch.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Reposition the patient and protect skin.",
+      "modelWhy": "Pressure injuries are preventable.",
+      "modelNext": "Assess skin regularly.",
+      "trap": "Ignoring early signs.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Infection outbreak",
+      "scenario": "Several patients on the unit develop vomiting and diarrhea within a short time frame. Staff notice a pattern of similar symptoms emerging across multiple rooms.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify infection control and implement precautions.",
+      "modelWhy": "Outbreaks spread rapidly.",
+      "modelNext": "Collect specimens as ordered.",
+      "trap": "Waiting for confirmation.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Bloodborne pathogen exposure",
+      "scenario": "During a procedure, blood splashes into a nurse’s eyes. The nurse feels startled and experiences immediate discomfort but continues assisting with the procedure.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Flush eyes immediately and report exposure.",
+      "modelWhy": "Prompt action reduces risk.",
+      "modelNext": "Follow exposure protocol.",
+      "trap": "Delaying care.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Safe patient identification",
+      "scenario": "A patient scheduled for a procedure is found without an identification band. The patient confirms their name verbally, but no formal identification is visible.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Verify identity and apply ID band.",
+      "modelWhy": "Correct identification prevents errors.",
+      "modelNext": "Confirm with patient records.",
+      "trap": "Proceeding without ID.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Emergency preparedness",
+      "scenario": "A sudden power outage occurs in the hospital. Lights go out briefly before emergency lighting activates, and several patients rely on electrically powered medical equipment.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Follow emergency power procedures.",
+      "modelWhy": "Critical equipment depends on power.",
+      "modelNext": "Check life-support devices.",
+      "trap": "Waiting for instructions.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Food safety",
+      "scenario": "A patient undergoing chemotherapy with severe neutropenia is served a meal containing raw fruit and unpasteurised food items. The patient begins eating the meal.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Remove food and provide safe alternatives.",
+      "modelWhy": "Immunocompromised patients risk infection.",
+      "modelNext": "Educate dietary services.",
+      "trap": "Allowing consumption.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Waste disposal",
+      "scenario": "A staff member disposes of blood-contaminated materials into a regular trash bin instead of the designated biohazard container.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Correct the disposal and educate staff.",
+      "modelWhy": "Improper disposal spreads infection.",
+      "modelNext": "Follow waste management policy.",
+      "trap": "Ignoring the error.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

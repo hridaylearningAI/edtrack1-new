@@ -1,0 +1,2245 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A newly graduated nurse understands that professional nursing practice is based primarily on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delivering safe, ethical and evidence-informed patient care"
+        },
+        {
+          "id": "B",
+          "text": "Working independently without consulting colleagues"
+        },
+        {
+          "id": "C",
+          "text": "Completing documentation at the end of the shift"
+        },
+        {
+          "id": "D",
+          "text": "Following doctors' instructions only"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional nursing practice requires nurses to provide safe, ethical, patient-centred and evidence-informed care while working collaboratively with the healthcare team. Nurses are accountable for their own professional decisions and actions."
+    },
+    {
+      "id": "q2",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is preparing to administer medication but notices that the patient's identification band is missing. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer the medication because the patient is familiar."
+        },
+        {
+          "id": "B",
+          "text": "Stop the medication administration until the patient's identity is confirmed."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient's family to confirm the identity."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse if they know the patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Correct patient identification is one of the most important patient safety principles. Medication should never be administered until the patient's identity has been verified using approved identification procedures."
+    },
+    {
+      "id": "q3",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which behaviour best demonstrates professional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reporting a medication error immediately."
+        },
+        {
+          "id": "B",
+          "text": "Ignoring a near miss because no harm occurred."
+        },
+        {
+          "id": "C",
+          "text": "Asking another nurse to document observations."
+        },
+        {
+          "id": "D",
+          "text": "Waiting until the end of the shift to report an incident."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Accountability means accepting responsibility for one's professional actions, including reporting errors or near misses promptly to protect patient safety."
+    },
+    {
+      "id": "q4",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Patient confidentiality means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discussing patient information in public areas."
+        },
+        {
+          "id": "B",
+          "text": "Allowing family members unrestricted access to all medical information."
+        },
+        {
+          "id": "C",
+          "text": "Discussing patient information only with friends."
+        },
+        {
+          "id": "D",
+          "text": "Sharing information only with authorised healthcare professionals involved in the patient's care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patient information must only be shared with authorised healthcare professionals directly involved in providing care, while maintaining privacy and confidentiality."
+    },
+    {
+      "id": "q5",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse notices another staff member using inappropriate language towards a patient. What is the nurse's professional responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Report the behaviour according to organisational policy."
+        },
+        {
+          "id": "B",
+          "text": "Wait until another nurse notices."
+        },
+        {
+          "id": "C",
+          "text": "Discuss the incident with other patients."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the situation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional nurses advocate for respectful and safe patient care. Unprofessional behaviour should be addressed and reported through the appropriate organisational channels."
+    },
+    {
+      "id": "q6",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best reflects patient-centred care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient is actively involved in decisions about their care."
+        },
+        {
+          "id": "B",
+          "text": "The healthcare team decides what is best without consulting the patient."
+        },
+        {
+          "id": "C",
+          "text": "The nurse makes all healthcare decisions."
+        },
+        {
+          "id": "D",
+          "text": "Family members always make healthcare decisions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient-centred care recognises the patient's right to participate in decisions affecting their health and wellbeing."
+    },
+    {
+      "id": "q7",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse realises they are unfamiliar with a newly introduced medical device. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refuse to care for the patient."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse to operate it without supervision."
+        },
+        {
+          "id": "C",
+          "text": "Use the equipment and learn while caring for the patient."
+        },
+        {
+          "id": "D",
+          "text": "Seek appropriate training or guidance before using the equipment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional nurses recognise the limits of their competence and seek assistance or training before performing unfamiliar procedures."
+    },
+    {
+      "id": "q8",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action best demonstrates respect for cultural diversity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assuming patients from the same country have identical beliefs."
+        },
+        {
+          "id": "B",
+          "text": "Ignoring cultural practices that differ from the nurse's own beliefs."
+        },
+        {
+          "id": "C",
+          "text": "Asking patients about their cultural preferences and incorporating them into care whenever possible."
+        },
+        {
+          "id": "D",
+          "text": "Providing identical care to every patient regardless of individual beliefs."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Culturally competent nursing involves respecting each patient's individual beliefs, values, and preferences while planning care."
+    },
+    {
+      "id": "q9",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Professional communication within the healthcare team is important because it:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduces documentation requirements."
+        },
+        {
+          "id": "B",
+          "text": "Replaces written documentation."
+        },
+        {
+          "id": "C",
+          "text": "Eliminates the need for clinical judgement."
+        },
+        {
+          "id": "D",
+          "text": "Prevents misunderstandings and improves patient safety."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clear communication reduces errors, improves teamwork, and contributes to safer, higher-quality patient care."
+    },
+    {
+      "id": "q10",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement best describes evidence-informed nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Following only physician instructions."
+        },
+        {
+          "id": "B",
+          "text": "Combining current evidence, clinical expertise and patient preferences."
+        },
+        {
+          "id": "C",
+          "text": "Following outdated routines."
+        },
+        {
+          "id": "D",
+          "text": "Relying only on personal experience."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evidence-informed nursing integrates research evidence, professional expertise, and patient values to provide the highest quality care."
+    },
+    {
+      "id": "q11",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse is asked to perform a procedure that they have never been trained to undertake. What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decline the procedure and seek appropriate supervision or training."
+        },
+        {
+          "id": "B",
+          "text": "Perform the procedure if the patient agrees."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to sign the documentation."
+        },
+        {
+          "id": "D",
+          "text": "Perform the procedure carefully."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nurses are professionally accountable for practising within their scope of competence. Seeking guidance or supervision protects patient safety and demonstrates professional responsibility."
+    },
+    {
+      "id": "q12",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action best demonstrates patient advocacy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speaking up when a patient's safety is at risk."
+        },
+        {
+          "id": "B",
+          "text": "Following every medical order without question."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding discussions with patients about treatment options."
+        },
+        {
+          "id": "D",
+          "text": "Allowing family members to make all decisions."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient advocacy involves protecting patients' rights, ensuring their voices are heard, and acting when patient safety or wellbeing is threatened."
+    },
+    {
+      "id": "q13",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient refuses a prescribed medication. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discard the medication and leave."
+        },
+        {
+          "id": "B",
+          "text": "Document the refusal without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Explore the patient's concerns and provide appropriate education."
+        },
+        {
+          "id": "D",
+          "text": "Force the patient to take the medication."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients have the right to refuse treatment. The nurse should first determine the reason for refusal, provide education, and support informed decision-making before documenting the outcome."
+    },
+    {
+      "id": "q14",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which characteristic is essential for maintaining professional boundaries?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintaining respectful and therapeutic relationships."
+        },
+        {
+          "id": "B",
+          "text": "Accepting expensive gifts from patients."
+        },
+        {
+          "id": "C",
+          "text": "Becoming close personal friends with patients."
+        },
+        {
+          "id": "D",
+          "text": "Sharing personal financial information."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional boundaries protect both the patient and the nurse by ensuring that relationships remain therapeutic, respectful, and focused on patient care."
+    },
+    {
+      "id": "q15",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse notices a colleague documenting care that was not provided. What is the most appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the situation."
+        },
+        {
+          "id": "B",
+          "text": "Confront the colleague publicly."
+        },
+        {
+          "id": "C",
+          "text": "Follow organisational policy by reporting the concern appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Change the documentation yourself."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Falsification of documentation is a serious professional and legal issue. Nurses have a responsibility to report concerns through appropriate organisational procedures."
+    },
+    {
+      "id": "q16",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Professional appearance is important because it:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Is only required during inspections."
+        },
+        {
+          "id": "B",
+          "text": "Builds patient confidence and promotes professionalism."
+        },
+        {
+          "id": "C",
+          "text": "Helps nurses appear more authoritative."
+        },
+        {
+          "id": "D",
+          "text": "Has no impact on patient care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional appearance contributes to patient trust, confidence, infection prevention, and the professional image of nursing."
+    },
+    {
+      "id": "q17",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which behaviour demonstrates effective teamwork?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sharing important patient information during handover."
+        },
+        {
+          "id": "B",
+          "text": "Withholding concerns until the next shift."
+        },
+        {
+          "id": "C",
+          "text": "Completing all work independently."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding communication with other healthcare professionals."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effective teamwork depends on timely communication, collaboration, and sharing accurate patient information to ensure continuity of care."
+    },
+    {
+      "id": "q18",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse accidentally administers the wrong dose of medication but the patient experiences no immediate harm. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inform the patient only if symptoms develop."
+        },
+        {
+          "id": "B",
+          "text": "Wait until the next shift to inform the manager."
+        },
+        {
+          "id": "C",
+          "text": "Report the medication error immediately and monitor the patient."
+        },
+        {
+          "id": "D",
+          "text": "Keep the incident confidential."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Medication errors and near misses must be reported promptly to protect the patient, initiate appropriate treatment if necessary, and improve healthcare systems."
+    },
+    {
+      "id": "q19",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best describes lifelong learning in nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nurses continually update their knowledge and skills throughout their careers."
+        },
+        {
+          "id": "B",
+          "text": "Education finishes after graduation."
+        },
+        {
+          "id": "C",
+          "text": "Learning is only necessary when changing jobs."
+        },
+        {
+          "id": "D",
+          "text": "Nurses only learn when required by employers."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Healthcare continually evolves. Lifelong learning helps nurses maintain competence, deliver evidence-informed care, and meet professional standards."
+    },
+    {
+      "id": "q20",
+      "section": 1,
+      "sectionLabel": "Professional Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A professional nurse demonstrates integrity by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing documentation before providing care."
+        },
+        {
+          "id": "B",
+          "text": "Sharing confidential information with colleagues during breaks."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding responsibility when mistakes occur."
+        },
+        {
+          "id": "D",
+          "text": "Being honest, ethical, and accountable in all professional activities."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Integrity is a core professional value. It involves honesty, accountability, ethical behaviour, and consistently acting in the best interests of patients."
+    },
+    {
+      "id": "q21",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Before administering any medication, what is the nurse's FIRST responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check the expiry date"
+        },
+        {
+          "id": "B",
+          "text": "Verify the patient's identity using approved identifiers"
+        },
+        {
+          "id": "C",
+          "text": "Prepare the medication tray"
+        },
+        {
+          "id": "D",
+          "text": "Explain the medication"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Correct patient identification is the first step in preventing medication errors. Nurses should follow organisational policy by using at least two approved patient identifiers before administering medications."
+    },
+    {
+      "id": "q22",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse enters a patient's room and finds water spilled on the floor. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell housekeeping to clean it later."
+        },
+        {
+          "id": "B",
+          "text": "Remove the hazard immediately or ensure it is cleaned."
+        },
+        {
+          "id": "C",
+          "text": "Continue with patient care."
+        },
+        {
+          "id": "D",
+          "text": "Place a chair over the spill."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Removing environmental hazards immediately helps prevent patient falls and promotes a safe healthcare environment."
+    },
+    {
+      "id": "q23",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which patient is at the highest risk of experiencing a fall?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An elderly patient receiving sedative medication."
+        },
+        {
+          "id": "B",
+          "text": "A middle-aged visitor."
+        },
+        {
+          "id": "C",
+          "text": "A healthy young adult."
+        },
+        {
+          "id": "D",
+          "text": "A nurse completing documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Older adults taking sedatives are at significantly higher risk of falls due to impaired balance, reduced alertness, and slower reaction times."
+    },
+    {
+      "id": "q24",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "When assisting a patient to stand, the nurse should:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Twist while lifting."
+        },
+        {
+          "id": "B",
+          "text": "Lock the bed and wheelchair brakes before transfer."
+        },
+        {
+          "id": "C",
+          "text": "Stand several steps away."
+        },
+        {
+          "id": "D",
+          "text": "Pull the patient quickly by the arms."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Locking equipment prevents unexpected movement and reduces the risk of falls during patient transfers."
+    },
+    {
+      "id": "q25",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient rings the call bell requesting assistance to the bathroom. The nurse is busy with documentation. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the patient to walk independently."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to wait until documentation is complete."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the call bell."
+        },
+        {
+          "id": "D",
+          "text": "Respond promptly or arrange assistance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Responding promptly to patient requests helps prevent falls, promotes dignity, and demonstrates patient-centred care."
+    },
+    {
+      "id": "q26",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which action best demonstrates safe body mechanics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Twist while lifting."
+        },
+        {
+          "id": "B",
+          "text": "Keep your feet together."
+        },
+        {
+          "id": "C",
+          "text": "Keep the load close to your body."
+        },
+        {
+          "id": "D",
+          "text": "Bend from the waist."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Keeping the load close to the body reduces spinal strain and improves balance during lifting or moving activities."
+    },
+    {
+      "id": "q27",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient has remained in bed for several days. Which nursing action best prevents pressure injuries?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reposition the patient regularly."
+        },
+        {
+          "id": "B",
+          "text": "Encourage long periods of uninterrupted sleep."
+        },
+        {
+          "id": "C",
+          "text": "Limit fluid intake."
+        },
+        {
+          "id": "D",
+          "text": "Massage reddened skin."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Regular repositioning reduces prolonged pressure on tissues and is one of the most effective methods of preventing pressure injuries."
+    },
+    {
+      "id": "q28",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which patient requires the highest level of pressure injury prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Visitor waiting in the reception area."
+        },
+        {
+          "id": "B",
+          "text": "Patient attending an outpatient appointment."
+        },
+        {
+          "id": "C",
+          "text": "Patient with limited mobility following a stroke."
+        },
+        {
+          "id": "D",
+          "text": "Independent patient walking daily."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients with limited mobility are unable to relieve pressure independently and are at greater risk of developing pressure injuries."
+    },
+    {
+      "id": "q29",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient suddenly reports severe chest pain while walking. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete documentation first."
+        },
+        {
+          "id": "B",
+          "text": "Offer food."
+        },
+        {
+          "id": "C",
+          "text": "Assist the patient to rest and assess immediately."
+        },
+        {
+          "id": "D",
+          "text": "Encourage the patient to continue walking."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Chest pain may indicate a life-threatening condition. The nurse should stop activity, assess the patient promptly, and initiate appropriate emergency procedures."
+    },
+    {
+      "id": "q30",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement best reflects a culture of patient safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mistakes should be hidden whenever possible."
+        },
+        {
+          "id": "B",
+          "text": "Near misses should not be reported."
+        },
+        {
+          "id": "C",
+          "text": "Incident reporting is only for serious injuries."
+        },
+        {
+          "id": "D",
+          "text": "Staff should report safety concerns to improve patient care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reporting incidents and near misses supports organisational learning and helps prevent future patient harm."
+    },
+    {
+      "id": "q31",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse is preparing to administer medication. Which of the following is one of the recognised medication rights?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Right hospital"
+        },
+        {
+          "id": "B",
+          "text": "Right patient"
+        },
+        {
+          "id": "C",
+          "text": "Right visitor"
+        },
+        {
+          "id": "D",
+          "text": "Right diagnosis"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The \"Right Patient\" is one of the fundamental medication administration rights that helps reduce medication errors."
+    },
+    {
+      "id": "q32",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action should the nurse take when using a wheelchair?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave the footrests down during transfers."
+        },
+        {
+          "id": "B",
+          "text": "Lock the wheelchair brakes before transfer."
+        },
+        {
+          "id": "C",
+          "text": "Push the wheelchair as quickly as possible."
+        },
+        {
+          "id": "D",
+          "text": "Allow the patient to stand without assistance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Locking wheelchair brakes ensures stability during patient transfers and reduces the risk of falls."
+    },
+    {
+      "id": "q33",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse notices that a patient's bed is in the highest position after care has been completed. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave it as it is."
+        },
+        {
+          "id": "B",
+          "text": "Raise the side rails only."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to check later."
+        },
+        {
+          "id": "D",
+          "text": "Lower the bed and ensure safety measures are in place."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Keeping the bed in its lowest safe position helps reduce injury should a patient attempt to get out of bed independently."
+    },
+    {
+      "id": "q34",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse discovers smoke coming from an electrical device. According to the RACE principle, what is the FIRST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Close all windows."
+        },
+        {
+          "id": "B",
+          "text": "Call the patient's family."
+        },
+        {
+          "id": "C",
+          "text": "Rescue anyone in immediate danger."
+        },
+        {
+          "id": "D",
+          "text": "Extinguish the fire."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "RACE stands for Rescue, Alarm, Contain and Extinguish/Evacuate. Protecting people from immediate danger is always the priority."
+    },
+    {
+      "id": "q35",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which action best promotes safe medication administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administering medication without reading the label."
+        },
+        {
+          "id": "B",
+          "text": "Leaving medications at the bedside for later."
+        },
+        {
+          "id": "C",
+          "text": "Preparing medications for several patients at the same time."
+        },
+        {
+          "id": "D",
+          "text": "Checking the medication label carefully before administration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Carefully checking medication labels helps prevent medication errors and supports patient safety."
+    },
+    {
+      "id": "q36",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient appears dizzy while walking. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assist the patient to sit safely and assess the condition."
+        },
+        {
+          "id": "B",
+          "text": "Leave the patient alone."
+        },
+        {
+          "id": "C",
+          "text": "Continue walking to the destination."
+        },
+        {
+          "id": "D",
+          "text": "Encourage faster walking."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Stopping activity and ensuring patient safety helps prevent falls while allowing the nurse to assess the cause of dizziness."
+    },
+    {
+      "id": "q37",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Why should nurses document patient care promptly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To satisfy patients."
+        },
+        {
+          "id": "B",
+          "text": "To reduce paperwork later."
+        },
+        {
+          "id": "C",
+          "text": "Documentation is optional."
+        },
+        {
+          "id": "D",
+          "text": "To ensure accurate communication and continuity of care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accurate and timely documentation supports communication, legal accountability, and continuity of patient care."
+    },
+    {
+      "id": "q38",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient with impaired mobility needs assistance transferring from bed to chair. Which equipment provides additional safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blood pressure cuff."
+        },
+        {
+          "id": "B",
+          "text": "Stethoscope."
+        },
+        {
+          "id": "C",
+          "text": "Thermometer."
+        },
+        {
+          "id": "D",
+          "text": "Gait belt."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A gait belt improves control during transfers and helps reduce the risk of patient and staff injury."
+    },
+    {
+      "id": "q39",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which behaviour contributes most to a positive patient safety culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignoring minor incidents."
+        },
+        {
+          "id": "B",
+          "text": "Blaming staff for mistakes."
+        },
+        {
+          "id": "C",
+          "text": "Encouraging open communication about safety concerns."
+        },
+        {
+          "id": "D",
+          "text": "Reporting only major accidents."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Open communication encourages learning, supports continuous improvement, and strengthens patient safety."
+    },
+    {
+      "id": "q40",
+      "section": 2,
+      "sectionLabel": "Patient Safety and Quality Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse notices a colleague bypassing the patient identification process to save time. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remind the colleague of the correct procedure and escalate if necessary."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the behaviour."
+        },
+        {
+          "id": "C",
+          "text": "Tell other staff members."
+        },
+        {
+          "id": "D",
+          "text": "Complete the identification on behalf of the colleague."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "All nurses share responsibility for maintaining patient safety. Addressing unsafe practices promptly helps prevent errors and reinforces a culture of safety."
+    },
+    {
+      "id": "q41",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "What is the single most effective method of preventing the spread of infection in healthcare settings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cleaning patient rooms daily"
+        },
+        {
+          "id": "B",
+          "text": "Wearing a surgical mask"
+        },
+        {
+          "id": "C",
+          "text": "Hand hygiene before and after patient contact"
+        },
+        {
+          "id": "D",
+          "text": "Wearing gloves at all times"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hand hygiene is recognised worldwide as the most effective measure for preventing healthcare-associated infections. It should be performed before and after every patient contact and after contact with body fluids or contaminated surfaces."
+    },
+    {
+      "id": "q42",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse removes gloves after providing patient care. What should the nurse do NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prepare medications."
+        },
+        {
+          "id": "B",
+          "text": "Remove the uniform."
+        },
+        {
+          "id": "C",
+          "text": "Touch the patient's bed rails."
+        },
+        {
+          "id": "D",
+          "text": "Perform hand hygiene."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Gloves do not replace hand hygiene. Hands should always be cleaned immediately after glove removal because microscopic contamination may still occur."
+    },
+    {
+      "id": "q43",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "When should a nurse perform hand hygiene?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Before and after patient contact and whenever hands may be contaminated."
+        },
+        {
+          "id": "B",
+          "text": "Only before patient contact."
+        },
+        {
+          "id": "C",
+          "text": "Only after patient contact."
+        },
+        {
+          "id": "D",
+          "text": "At the beginning of the shift only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Hand hygiene should be performed at multiple points during patient care to reduce the transmission of microorganisms."
+    },
+    {
+      "id": "q44",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which Personal Protective Equipment (PPE) should always be selected according to the anticipated exposure risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Randomly selected PPE"
+        },
+        {
+          "id": "B",
+          "text": "Appropriate PPE based on the expected exposure to blood, body fluids or infectious materials"
+        },
+        {
+          "id": "C",
+          "text": "Gloves only"
+        },
+        {
+          "id": "D",
+          "text": "Face shield only"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "PPE selection depends on the type of patient care being provided and the likelihood of exposure to infectious material."
+    },
+    {
+      "id": "q45",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient has a suspected infectious respiratory illness. Which action best helps prevent transmission?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage visitors without precautions."
+        },
+        {
+          "id": "B",
+          "text": "Leave the patient in a crowded waiting room."
+        },
+        {
+          "id": "C",
+          "text": "Apply appropriate transmission-based precautions."
+        },
+        {
+          "id": "D",
+          "text": "Remove all PPE before entering the room."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Transmission-based precautions provide additional protection beyond standard precautions when caring for patients with known or suspected infectious diseases."
+    },
+    {
+      "id": "q46",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which action contaminates a sterile field?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keeping the sterile field within sight."
+        },
+        {
+          "id": "B",
+          "text": "Reaching across the sterile field."
+        },
+        {
+          "id": "C",
+          "text": "Keeping the sterile field above waist level."
+        },
+        {
+          "id": "D",
+          "text": "Opening sterile packages carefully."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reaching over a sterile field may allow microorganisms from clothing or skin to contaminate sterile equipment."
+    },
+    {
+      "id": "q47",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse preparing a sterile dressing notices that the sterile package has a small tear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discard the package and obtain a new sterile item."
+        },
+        {
+          "id": "B",
+          "text": "Use the package carefully."
+        },
+        {
+          "id": "C",
+          "text": "Cover the tear with tape."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse if it is acceptable."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Any damage to sterile packaging compromises sterility. The item should not be used."
+    },
+    {
+      "id": "q48",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement about sterile technique is CORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sterile fields may be left unattended."
+        },
+        {
+          "id": "B",
+          "text": "Sterile gloves eliminate the need for aseptic technique."
+        },
+        {
+          "id": "C",
+          "text": "Sterile items may touch clean surfaces."
+        },
+        {
+          "id": "D",
+          "text": "Moisture can contaminate a sterile field."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Moisture allows microorganisms to travel through packaging by capillary action, contaminating the sterile field."
+    },
+    {
+      "id": "q49",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "When caring for a patient with an indwelling urinary catheter, which nursing action best reduces the risk of infection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raise the drainage bag above bladder level."
+        },
+        {
+          "id": "B",
+          "text": "Disconnect the drainage tubing daily."
+        },
+        {
+          "id": "C",
+          "text": "Maintain a closed drainage system."
+        },
+        {
+          "id": "D",
+          "text": "Irrigate the catheter routinely."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Maintaining a closed urinary drainage system significantly reduces the risk of catheter-associated urinary tract infections (CAUTIs)."
+    },
+    {
+      "id": "q50",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "The urinary drainage bag should always be positioned:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Below the level of the bladder."
+        },
+        {
+          "id": "B",
+          "text": "At the same height as the bladder."
+        },
+        {
+          "id": "C",
+          "text": "On the patient's bed."
+        },
+        {
+          "id": "D",
+          "text": "Above the bladder."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Keeping the drainage bag below bladder level prevents urine backflow and reduces infection risk."
+    },
+    {
+      "id": "q51",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action demonstrates correct respiratory hygiene?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Covering the mouth and nose when coughing or sneezing and performing hand hygiene afterwards."
+        },
+        {
+          "id": "B",
+          "text": "Sneezing into your hands."
+        },
+        {
+          "id": "C",
+          "text": "Coughing openly."
+        },
+        {
+          "id": "D",
+          "text": "Removing your mask to cough."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respiratory hygiene reduces the spread of respiratory infections and protects patients and healthcare workers."
+    },
+    {
+      "id": "q52",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Why should reusable patient equipment be cleaned between patients?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce healthcare-associated infections."
+        },
+        {
+          "id": "B",
+          "text": "To make storage easier."
+        },
+        {
+          "id": "C",
+          "text": "To improve appearance."
+        },
+        {
+          "id": "D",
+          "text": "To reduce paperwork."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cleaning and disinfecting reusable equipment prevents cross-contamination between patients."
+    },
+    {
+      "id": "q53",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which patient requires the nurse to be especially vigilant regarding infection prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Healthy visitor."
+        },
+        {
+          "id": "B",
+          "text": "Patient with a weakened immune system."
+        },
+        {
+          "id": "C",
+          "text": "Young athlete."
+        },
+        {
+          "id": "D",
+          "text": "Hospital volunteer."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Immunocompromised patients are more susceptible to infections and require strict adherence to infection prevention practices."
+    },
+    {
+      "id": "q54",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse accidentally touches the outside of a sterile glove with bare fingers while putting it on. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue the procedure."
+        },
+        {
+          "id": "B",
+          "text": "Remove the glove and begin again with a new sterile glove."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to complete the procedure."
+        },
+        {
+          "id": "D",
+          "text": "Wipe the glove with alcohol."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Touching the outside of a sterile glove with bare hands contaminates the glove, requiring replacement."
+    },
+    {
+      "id": "q55",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "What is the purpose of Standard Precautions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To replace hand hygiene."
+        },
+        {
+          "id": "B",
+          "text": "To reduce the risk of transmission of microorganisms from all patients."
+        },
+        {
+          "id": "C",
+          "text": "To apply only to patients with confirmed infections."
+        },
+        {
+          "id": "D",
+          "text": "To eliminate the need for PPE."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Standard Precautions are applied to every patient because any individual may carry infectious microorganisms."
+    },
+    {
+      "id": "q56",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Before preparing a sterile procedure, the nurse should FIRST:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apply sterile gloves."
+        },
+        {
+          "id": "B",
+          "text": "Complete documentation."
+        },
+        {
+          "id": "C",
+          "text": "Wash or sanitise hands thoroughly."
+        },
+        {
+          "id": "D",
+          "text": "Arrange the patient's pillows."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hand hygiene is the first step in preventing contamination before any aseptic procedure."
+    },
+    {
+      "id": "q57",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which action is appropriate when disposing of a used needle?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bend the needle before disposal."
+        },
+        {
+          "id": "B",
+          "text": "Recap the needle carefully."
+        },
+        {
+          "id": "C",
+          "text": "Wrap it in paper before disposal."
+        },
+        {
+          "id": "D",
+          "text": "Place it immediately into an approved sharps container."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sharps should be disposed of immediately into approved puncture-resistant containers to reduce needlestick injuries."
+    },
+    {
+      "id": "q58",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse notices that hand sanitiser is not effective because the hands are visibly soiled. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wash hands thoroughly with soap and water."
+        },
+        {
+          "id": "B",
+          "text": "Wear gloves."
+        },
+        {
+          "id": "C",
+          "text": "Dry hands with paper towels only."
+        },
+        {
+          "id": "D",
+          "text": "Apply extra sanitiser."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Soap and water should be used whenever hands are visibly dirty or contaminated."
+    },
+    {
+      "id": "q59",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which nursing action best prevents cross-contamination between patients?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing gloves and performing hand hygiene between patient contacts."
+        },
+        {
+          "id": "B",
+          "text": "Wearing an apron only."
+        },
+        {
+          "id": "C",
+          "text": "Wearing the same gloves between patients."
+        },
+        {
+          "id": "D",
+          "text": "Using the same equipment without cleaning."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Changing gloves and cleaning hands between patients interrupts the chain of infection."
+    },
+    {
+      "id": "q60",
+      "section": 3,
+      "sectionLabel": "Infection Prevention and Control",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best describes infection prevention in nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only doctors are responsible for preventing infections."
+        },
+        {
+          "id": "B",
+          "text": "Infection prevention is the responsibility of every healthcare worker during every patient interaction."
+        },
+        {
+          "id": "C",
+          "text": "Infection prevention is mainly the responsibility of infection control nurses."
+        },
+        {
+          "id": "D",
+          "text": "Infection prevention is only important during outbreaks."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Every healthcare professional shares responsibility for preventing infections by consistently following evidence-based infection prevention and control practices."
+    },
+    {
+      "id": "q61",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is introducing themselves to a newly admitted patient. Which approach demonstrates therapeutic communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Hello, my name is Sarah. I'll be your nurse today. How would you like me to address you?\""
+        },
+        {
+          "id": "B",
+          "text": "\"You don't need to worry about asking questions.\""
+        },
+        {
+          "id": "C",
+          "text": "\"Please don't interrupt while I'm working.\""
+        },
+        {
+          "id": "D",
+          "text": "\"I'm very busy today, so let's make this quick.\""
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Introducing oneself respectfully and asking the patient's preferred form of address establishes trust, rapport, and a therapeutic nurse-patient relationship."
+    },
+    {
+      "id": "q62",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient appears anxious before surgery. What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"You should try to relax.\""
+        },
+        {
+          "id": "B",
+          "text": "\"Many people feel anxious before surgery. Would you like to tell me what concerns you most?\""
+        },
+        {
+          "id": "C",
+          "text": "\"You'll be asleep anyway.\""
+        },
+        {
+          "id": "D",
+          "text": "\"There's nothing to worry about.\""
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Acknowledging emotions and encouraging patients to express concerns demonstrates empathy and therapeutic communication."
+    },
+    {
+      "id": "q63",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Active listening involves:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Looking at documentation while the patient speaks."
+        },
+        {
+          "id": "B",
+          "text": "Finishing the patient's sentences."
+        },
+        {
+          "id": "C",
+          "text": "Giving full attention, maintaining eye contact, and responding appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Interrupting to offer advice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Active listening helps nurses understand patients' concerns, improves trust, and enhances the quality of care."
+    },
+    {
+      "id": "q64",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "When communicating with a patient who has hearing impairment, the nurse should:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speak loudly into the patient's ear."
+        },
+        {
+          "id": "B",
+          "text": "Communicate only through family members."
+        },
+        {
+          "id": "C",
+          "text": "Face the patient while speaking clearly at a normal pace."
+        },
+        {
+          "id": "D",
+          "text": "Avoid eye contact."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Facing the patient allows them to observe facial expressions and lip movements, improving communication without unnecessary shouting."
+    },
+    {
+      "id": "q65",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is preparing to assist a patient with personal hygiene. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave the room to collect equipment later."
+        },
+        {
+          "id": "B",
+          "text": "Close the curtains and maintain the patient's privacy."
+        },
+        {
+          "id": "C",
+          "text": "Remove the patient's clothing immediately."
+        },
+        {
+          "id": "D",
+          "text": "Begin washing without explanation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Maintaining privacy preserves dignity and demonstrates respect before commencing personal care."
+    },
+    {
+      "id": "q66",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which nursing action best promotes patient dignity during bathing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow visitors to remain in the room."
+        },
+        {
+          "id": "B",
+          "text": "Complete the bath as quickly as possible without speaking."
+        },
+        {
+          "id": "C",
+          "text": "Expose the entire body for convenience."
+        },
+        {
+          "id": "D",
+          "text": "Cover body areas not being washed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Maintaining body coverage during personal care protects dignity, privacy, and comfort."
+    },
+    {
+      "id": "q67",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient requires assistance with oral hygiene. Why is regular oral care important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces tooth brushing at home."
+        },
+        {
+          "id": "B",
+          "text": "It is only necessary before discharge."
+        },
+        {
+          "id": "C",
+          "text": "It only improves appearance."
+        },
+        {
+          "id": "D",
+          "text": "It reduces the risk of infection and promotes comfort."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Good oral hygiene promotes comfort, prevents infection, supports nutrition, and improves overall health."
+    },
+    {
+      "id": "q68",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient has difficulty swallowing fluids. What is the nurse's PRIORITY action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Report the difficulty and follow swallowing safety precautions."
+        },
+        {
+          "id": "B",
+          "text": "Encourage the patient to drink quickly."
+        },
+        {
+          "id": "C",
+          "text": "Give fluids through a straw immediately."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the complaint."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Difficulty swallowing (dysphagia) increases the risk of aspiration. Appropriate assessment and safety measures are essential."
+    },
+    {
+      "id": "q69",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which position is generally recommended when assisting a patient to eat?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flat on the back."
+        },
+        {
+          "id": "B",
+          "text": "Trendelenburg position."
+        },
+        {
+          "id": "C",
+          "text": "Upright sitting position."
+        },
+        {
+          "id": "D",
+          "text": "Semi-recumbent."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "An upright position promotes safe swallowing and reduces the risk of aspiration."
+    },
+    {
+      "id": "q70",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "During mealtime, the nurse notices a patient coughing repeatedly while eating. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give water immediately."
+        },
+        {
+          "id": "B",
+          "text": "Encourage the patient to continue eating."
+        },
+        {
+          "id": "C",
+          "text": "Leave the patient alone."
+        },
+        {
+          "id": "D",
+          "text": "Stop the meal and assess for swallowing difficulty."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent coughing during meals may indicate aspiration risk and requires immediate assessment."
+    },
+    {
+      "id": "q71",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient is unable to reposition independently in bed. What is the nurse's BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assist with regular repositioning using safe techniques."
+        },
+        {
+          "id": "B",
+          "text": "Raise the bed to the highest position."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to manage independently."
+        },
+        {
+          "id": "D",
+          "text": "Leave the patient in one position."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Regular repositioning improves comfort, circulation, and reduces the risk of pressure injuries."
+    },
+    {
+      "id": "q72",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "When assisting a patient to walk, the nurse should:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage the patient to walk alone."
+        },
+        {
+          "id": "B",
+          "text": "Hold only the patient's clothing."
+        },
+        {
+          "id": "C",
+          "text": "Stay close to the patient's weaker side if assistance is needed."
+        },
+        {
+          "id": "D",
+          "text": "Walk several metres ahead."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Supporting the patient's weaker side improves stability and reduces fall risk during ambulation."
+    },
+    {
+      "id": "q73",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient asks a question that the nurse cannot answer confidently. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Change the subject."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient you will find accurate information and return."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the question."
+        },
+        {
+          "id": "D",
+          "text": "Guess the answer."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Honesty and professional accountability require nurses to seek accurate information rather than guessing."
+    },
+    {
+      "id": "q74",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement best demonstrates empathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"It's not a serious problem.\""
+        },
+        {
+          "id": "B",
+          "text": "\"I understand this is a difficult time for you.\""
+        },
+        {
+          "id": "C",
+          "text": "\"Everyone feels this way.\""
+        },
+        {
+          "id": "D",
+          "text": "\"You shouldn't worry.\""
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Empathy acknowledges the patient's feelings and helps build a trusting therapeutic relationship."
+    },
+    {
+      "id": "q75",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient refuses assistance with bathing. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave without documentation."
+        },
+        {
+          "id": "B",
+          "text": "Force the patient to bathe."
+        },
+        {
+          "id": "C",
+          "text": "Explore the patient's reasons and respect their wishes while promoting hygiene."
+        },
+        {
+          "id": "D",
+          "text": "Report the refusal immediately."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients have the right to participate in decisions regarding their care. Understanding the reason for refusal allows appropriate support and education."
+    },
+    {
+      "id": "q76",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Why is accurate documentation after providing patient care important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It communicates care provided and supports continuity of care."
+        },
+        {
+          "id": "B",
+          "text": "It is only used for legal purposes."
+        },
+        {
+          "id": "C",
+          "text": "It is optional."
+        },
+        {
+          "id": "D",
+          "text": "It replaces verbal handover."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Documentation provides an accurate record of care, facilitates communication among healthcare professionals, and supports patient safety."
+    },
+    {
+      "id": "q77",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "During handover, the nurse should communicate patient information that is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accurate, relevant, timely, and confidential."
+        },
+        {
+          "id": "B",
+          "text": "Shared with everyone present."
+        },
+        {
+          "id": "C",
+          "text": "Based on assumptions."
+        },
+        {
+          "id": "D",
+          "text": "Limited to medication information only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effective clinical handover relies on accurate and relevant information to ensure continuity and safety of patient care."
+    },
+    {
+      "id": "q78",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient who speaks limited English is unable to understand important healthcare information. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a qualified interpreter according to organisational policy."
+        },
+        {
+          "id": "B",
+          "text": "Avoid discussing the treatment."
+        },
+        {
+          "id": "C",
+          "text": "Ask family members to interpret complex medical information."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient to translate."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Qualified interpreters help ensure accurate communication, informed consent, and patient safety."
+    },
+    {
+      "id": "q79",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient begins crying while discussing their diagnosis. What is the nurse's MOST appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Change the subject."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient not to cry."
+        },
+        {
+          "id": "C",
+          "text": "Leave the room immediately."
+        },
+        {
+          "id": "D",
+          "text": "Sit quietly, acknowledge the patient's feelings, and offer support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Providing emotional support and allowing patients to express their feelings demonstrates compassionate, person-centred nursing care."
+    },
+    {
+      "id": "q80",
+      "section": 4,
+      "sectionLabel": "Communication and Basic Patient Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best summarises effective nursing communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It depends mainly on completing documentation."
+        },
+        {
+          "id": "B",
+          "text": "It combines listening, empathy, respect, clear information, and patient involvement."
+        },
+        {
+          "id": "C",
+          "text": "It focuses mainly on giving instructions."
+        },
+        {
+          "id": "D",
+          "text": "It is only necessary during admission."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective nursing communication is a two-way process that includes active listening, empathy, respect, clear explanations, and involving patients in their care, leading to improved safety, satisfaction, and health outcomes."
+    }
+  ]
+}

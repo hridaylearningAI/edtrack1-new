@@ -1,0 +1,466 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "Explain: Patient Identification Use",
+      "back": "at least two approved identifiers before every procedure. Bed number, room location or familiarity is not sufficient. Any inconsistency should be resolved before proceeding."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Explain: Pre-Procedure Assessment Review",
+      "back": "allergies, observations, pain, mobility, cognition, relevant results and contraindications. Consider whether assistance or escalation is needed."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Explain the purpose, key ____ and possible discomfort in clear language.",
+      "back": "Explain the purpose, key steps, expected sensations and possible discomfort in clear language."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Confirm that the ____ and provide an opportunity for questions.",
+      "back": "Confirm that the patient agrees and provide an opportunity for questions."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "Assess risks before ____ privacy, dignity and comfort",
+      "back": "Assess risks before beginning Maintain privacy, dignity and comfort"
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "Prepare a patient ____ for a clinical procedure",
+      "back": "Prepare a patient and environment for a clinical procedure"
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "Apply patient ____ consent requirements",
+      "back": "Apply patient identification and consent requirements"
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Can you: Consent and Explanation?",
+      "back": "Consent and Explanation"
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What is covered in 'Clinical example'?",
+      "back": "Before inserting a urinary catheter, the nurse confirms the patient's identity, explains the procedure, checks allergies, ensures privacy and prepares all equipment. When the patient reports a latex allergy, the standard kit is replaced before the procedure begins."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Safe procedures begin before equipment is touched. The nurse ____ explain the procedure, obtain consent, gather equipment and plan infection-prevention and safety measures.",
+      "back": "Safe procedures begin before equipment is touched. The nurse should confirm the indication, assess the patient, explain the procedure, obtain consent, gather equipment and plan infection-prevention and safety measures."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Environment and Equipment Prepare a clean, private ____ equipment is correct, intact, within expiry and functioning before use.",
+      "back": "Environment and Equipment Prepare a clean, private and well-lit space. Check that equipment is correct, intact, within expiry and functioning before use."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "Decision — Vital signs assessment: what is your first action?",
+      "back": "Assess respiratory status first. Reason: Respiration is the most immediate indicator of deterioration."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "Before inserting a urinary catheter, the nurse notices that the patient's identification band does not match the name on the procedure request. What should the nurse do?",
+      "back": "Stop and resolve the identification discrepancy using approved processes before preparing the sterile field. Why: At least two approved identifiers must match before a procedure. Familiarity, bed number or verbal reassurance does not resolve an identification discrepancy."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Which pre-procedure assessment is most complete?",
+      "back": "Review identity, consent, allergies, observations, pain, cognition, mobility, relevant results and contraindications. Why: Safe preparation includes patient, procedural and environmental risks, not just technical readiness."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "A patient says, 'I do not understand why this dressing change is needed.' What is the nurse's best response?",
+      "back": "Explain the purpose, main steps, expected sensations and possible discomfort, then confirm agreement. Why: Consent requires clear information, opportunity for questions and voluntary agreement before proceeding."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Before a procedure, the patient reports a latex allergy. The available kit contains latex components. What is the safest action?",
+      "back": "Replace the kit with latex-free equipment before beginning. Why: Known allergies must be addressed before exposure. The correct equipment should be obtained rather than relying on monitoring after exposure."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "A patient reports severe pain before wound care. What is the best nursing action?",
+      "back": "Assess the pain and arrange appropriate comfort or analgesia before proceeding when clinically possible. Why: Pain assessment and preparation improve dignity, cooperation and procedural safety."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "A patient withdraws consent immediately before a non-urgent procedure. What should the nurse do?",
+      "back": "Stop, explore the concern respectfully and notify the appropriate clinician if needed. Why: Consent is ongoing and may be withdrawn. The patient's concerns should be explored without coercion."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "Which environmental preparation best supports a safe procedure?",
+      "back": "A clean, private, well-lit space with equipment checked for integrity, expiry and function. Why: The environment should protect privacy, visibility, infection prevention and equipment safety."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "The nurse discovers that a required piece of emergency equipment is not functioning. What should happen?",
+      "back": "Do not start until functioning equipment and a safe contingency are available. Why: Equipment should be checked before use, particularly when failure could delay urgent care."
+    },
+    {
+      "id": "fc-21",
+      "section": 2,
+      "front": "Explain: Focused Assessment Respiratory",
+      "back": "assessment includes breathing pattern, effort, chest movement and breath sounds. Cardiovascular assessment includes pulse, perfusion, oedema and circulation. Neurological checks include consciousness, pupils, movement and relevant scoring tools."
+    },
+    {
+      "id": "fc-22",
+      "section": 2,
+      "front": "Explain: Clinical Measurements Blood",
+      "back": "glucose monitoring, urinalysis, fluid balance and specimen collection require correct identification, preparation, technique and documentation."
+    },
+    {
+      "id": "fc-23",
+      "section": 2,
+      "front": "Vital Signs and Pain Measure temperature, ____ oxygen saturation and pain using correct equipment and technique.",
+      "back": "Vital Signs and Pain Measure temperature, pulse, respirations, blood pressure, oxygen saturation and pain using correct equipment and technique."
+    },
+    {
+      "id": "fc-24",
+      "section": 2,
+      "front": "Perform focused ____ and neurological checks",
+      "back": "Perform focused respiratory, cardiovascular and neurological checks"
+    },
+    {
+      "id": "fc-25",
+      "section": 2,
+      "front": "Complete blood ____ balance and specimen-related tasks",
+      "back": "Complete blood glucose, fluid balance and specimen-related tasks"
+    },
+    {
+      "id": "fc-26",
+      "section": 2,
+      "front": "Compare results with ____ baseline and recent trends.",
+      "back": "Compare results with the patient's baseline and recent trends."
+    },
+    {
+      "id": "fc-27",
+      "section": 2,
+      "front": "Recognise abnormal ____ requiring escalation",
+      "back": "Recognise abnormal findings requiring escalation"
+    },
+    {
+      "id": "fc-28",
+      "section": 2,
+      "front": "Measure vital ____ accurately",
+      "back": "Measure vital signs accurately"
+    },
+    {
+      "id": "fc-29",
+      "section": 2,
+      "front": "Accurate measurement provides essential information about the patient's condition. ____ important. Recording a number without recognising its clinical meaning is incomplete nursing practice.",
+      "back": "Accurate measurement provides essential information about the patient's condition. Technique, interpretation and timely response are equally important. Recording a number without recognising its clinical meaning is incomplete nursing practice."
+    },
+    {
+      "id": "fc-30",
+      "section": 2,
+      "front": "Responding to Findings Repeat unexpected results when appropriate, assess ____ Do not delay action while waiting for a single severely abnormal value.",
+      "back": "Responding to Findings Repeat unexpected results when appropriate, assess the patient and escalate according to urgency. Do not delay action while waiting for a single severely abnormal value."
+    },
+    {
+      "id": "fc-31",
+      "section": 2,
+      "front": "Decision — Manual blood pressure: what is your first action?",
+      "back": "Measure blood pressure manually. Reason: Manual readings are more accurate in some cases."
+    },
+    {
+      "id": "fc-32",
+      "section": 2,
+      "front": "A patient becomes drowsy and diaphoretic. Capillary blood glucose is low. What is the best nursing response?",
+      "back": "Confirm the result, assess consciousness and swallowing safety, initiate the approved hypoglycaemia protocol and recheck response. Why: Treatment must reflect consciousness and swallowing safety, followed by reassessment."
+    },
+    {
+      "id": "fc-33",
+      "section": 2,
+      "front": "A patient's blood pressure is unexpectedly much lower than the previous reading, and the patient reports dizziness. What should the nurse do first?",
+      "back": "Assess the patient, verify the measurement when appropriate and escalate according to urgency. Why: Unexpected abnormal findings require prompt patient assessment, appropriate verification and timely escalation."
+    },
+    {
+      "id": "fc-34",
+      "section": 2,
+      "front": "A pulse oximeter displays an unexpectedly low reading on a patient with cold fingers and no respiratory symptoms. What should the nurse do?",
+      "back": "Check probe placement and perfusion, reassess the patient and repeat the reading appropriately. Why: Unexpected results should be checked for technical and clinical causes while the patient is assessed."
+    },
+    {
+      "id": "fc-35",
+      "section": 2,
+      "front": "A urine specimen label has been completed away from the bedside and the nurse is no longer certain which patient it belongs to. What should happen?",
+      "back": "Discard it according to policy and recollect using correct identification and bedside labelling. Why: An uncertain specimen identity creates a serious diagnostic risk and must not be guessed."
+    },
+    {
+      "id": "fc-36",
+      "section": 2,
+      "front": "A patient has an oxygen saturation of 91%, increasing respiratory effort and difficulty speaking. What should the nurse prioritise?",
+      "back": "Perform a focused respiratory assessment and escalate promptly. Why: The oxygen reading must be interpreted with work of breathing and functional signs; this pattern suggests deterioration."
+    },
+    {
+      "id": "fc-37",
+      "section": 2,
+      "front": "A patient reports severe pain but appears calm. How should the nurse respond?",
+      "back": "Accept the report, assess the pain systematically and evaluate relevant clinical factors. Why: Pain is subjective and should be assessed using the patient's report and appropriate tools."
+    },
+    {
+      "id": "fc-38",
+      "section": 2,
+      "front": "A patient's respiratory rate rises from 18 to 26 over two hours, although other values remain within range. What should the nurse do?",
+      "back": "Assess the patient, review the trend and escalate if clinically concerning. Why: Trends and changes may indicate deterioration before a single result becomes extreme."
+    },
+    {
+      "id": "fc-39",
+      "section": 2,
+      "front": "Which action improves the accuracy of a blood-pressure measurement?",
+      "back": "Use a cuff appropriate to the patient's arm size and position the patient correctly. Why: Correct equipment size and positioning are essential for valid results."
+    },
+    {
+      "id": "fc-40",
+      "section": 3,
+      "front": "Explain: Aseptic Technique Prepare",
+      "back": "equipment, protect key parts and sites, avoid unnecessary contact and stop if contamination occurs. An unattended or compromised field should be re-established."
+    },
+    {
+      "id": "fc-41",
+      "section": 3,
+      "front": "Explain: Wound Care Assess",
+      "back": "the wound, exudate, surrounding skin, pain and signs of infection. Use the ordered dressing and document findings objectively."
+    },
+    {
+      "id": "fc-42",
+      "section": 3,
+      "front": "Hand Hygiene and PPE Perform hand ____ moments and select PPE according to anticipated exposure.",
+      "back": "Hand Hygiene and PPE Perform hand hygiene at the appropriate moments and select PPE according to anticipated exposure."
+    },
+    {
+      "id": "fc-43",
+      "section": 3,
+      "front": "Apply standard precautions ____ Select and use PPE appropriately",
+      "back": "Apply standard precautions during procedures Select and use PPE appropriately"
+    },
+    {
+      "id": "fc-44",
+      "section": 3,
+      "front": "Provide safe ____ for invasive devices",
+      "back": "Provide safe basic care for invasive devices"
+    },
+    {
+      "id": "fc-45",
+      "section": 3,
+      "front": "Gloves do ____ hand hygiene.",
+      "back": "Gloves do not replace hand hygiene."
+    },
+    {
+      "id": "fc-46",
+      "section": 3,
+      "front": "Maintain an ____ field",
+      "back": "Maintain an aseptic field"
+    },
+    {
+      "id": "fc-47",
+      "section": 3,
+      "front": "Many clinical procedures create a pathway for microorganisms to enter vulnerable ____ key parts and key sites are essential during wound, catheter, intravenous and enteral care.",
+      "back": "Many clinical procedures create a pathway for microorganisms to enter vulnerable sites. Hand hygiene, appropriate PPE and protection of key parts and key sites are essential during wound, catheter, intravenous and enteral care."
+    },
+    {
+      "id": "fc-48",
+      "section": 3,
+      "front": "Device Care Catheters, peripheral intravenous lines and ____ patency checks, site assessment and review of ongoing need.",
+      "back": "Device Care Catheters, peripheral intravenous lines and nasogastric tubes require securement, hygiene, patency checks, site assessment and review of ongoing need."
+    },
+    {
+      "id": "fc-49",
+      "section": 3,
+      "front": "Assess devices and wounds, not ____ unnecessary invasive devices promptly through approved processes",
+      "back": "Assess devices and wounds, not only the dressing Remove unnecessary invasive devices promptly through approved processes"
+    },
+    {
+      "id": "fc-50",
+      "section": 3,
+      "front": "Decision — Peripheral IV insertion: what is your first action?",
+      "back": "Perform hand hygiene and verify order. Reason: Prevents infection and errors."
+    },
+    {
+      "id": "fc-51",
+      "section": 3,
+      "front": "During wound care, the nurse touches a sterile key part with an unsterile glove. What should the nurse do?",
+      "back": "Discard the contaminated item, repeat hand hygiene as needed and re-establish the aseptic field. Why: Suspected contamination should be treated as contamination. Continuing would create an avoidable infection risk."
+    },
+    {
+      "id": "fc-52",
+      "section": 3,
+      "front": "What is a key part during an aseptic procedure?",
+      "back": "A component that must not be touched because contamination could introduce microorganisms. Why: Key parts connect directly with susceptible sites or sterile fluids and must remain uncontaminated."
+    },
+    {
+      "id": "fc-53",
+      "section": 3,
+      "front": "A peripheral IV site is red, painful and swollen. What should the nurse do?",
+      "back": "Stop using the site, assess it and follow the approved process for removal and escalation. Why: Redness, pain and swelling may indicate infiltration or phlebitis and require prompt action."
+    },
+    {
+      "id": "fc-54",
+      "section": 3,
+      "front": "Which wound documentation is most objective?",
+      "back": "'Wound measures 3 cm by 2 cm with moderate yellow exudate and 1 cm surrounding erythema.' Why: Objective documentation describes measurable findings rather than judgemental conclusions."
+    },
+    {
+      "id": "fc-55",
+      "section": 3,
+      "front": "Which catheter-care action helps reduce infection risk?",
+      "back": "Maintain a closed system, provide hygiene, secure the catheter and review ongoing need. Why: A closed, secure and well-maintained system with early removal reduces risk."
+    },
+    {
+      "id": "fc-56",
+      "section": 3,
+      "front": "A patient's wound has increasing redness, pain, warmth and purulent exudate. What is the appropriate nursing response?",
+      "back": "Assess and document the wound, follow orders and escalate possible infection. Why: The pattern suggests infection and requires objective assessment and timely review."
+    },
+    {
+      "id": "fc-57",
+      "section": 3,
+      "front": "Which statement about gloves is correct?",
+      "back": "Hand hygiene is required at appropriate moments even when gloves are used. Why: Gloves do not replace hand hygiene and should be selected according to exposure risk."
+    },
+    {
+      "id": "fc-58",
+      "section": 3,
+      "front": "Which PPE selection principle is correct?",
+      "back": "Choose PPE according to anticipated exposure and transmission risk. Why: PPE should match the expected risk rather than be selected routinely or inadequately."
+    },
+    {
+      "id": "fc-59",
+      "section": 4,
+      "front": "Explain: End-of-Program Summary By",
+      "back": "completing GNPS Program 10 - Level 1, you have developed the foundational knowledge and practical behaviours required to prepare, perform, evaluate and document essential nursing procedures safely. These capabilities prepare you for Level 2 - International Qualified Nurse, where procedural skill is integrated with international standards, simulation and more complex clinical judgement."
+    },
+    {
+      "id": "fc-60",
+      "section": 4,
+      "front": "Explain: Medication Administration Confirm",
+      "back": "the order, patient, medicine, dose, route, time, allergies and relevant assessment. Prepare one patient's medicines at a time and monitor the response."
+    },
+    {
+      "id": "fc-61",
+      "section": 4,
+      "front": "Explain: Documentation Record",
+      "back": "the assessment, procedure, findings, patient response and follow-up. Documentation should be timely, factual and completed after the intervention."
+    },
+    {
+      "id": "fc-62",
+      "section": 4,
+      "front": "Explain: Communication Explain",
+      "back": "each step, check comfort, invite questions and use therapeutic language. Patients should know how to report pain, dizziness or other concerns."
+    },
+    {
+      "id": "fc-63",
+      "section": 4,
+      "front": "Apply core medication ____ Assist patients with mobility safely",
+      "back": "Apply core medication administration principles Assist patients with mobility safely"
+    },
+    {
+      "id": "fc-64",
+      "section": 4,
+      "front": "Use approved equipment ____ to protect both patient and staff.",
+      "back": "Use approved equipment and techniques to protect both patient and staff."
+    },
+    {
+      "id": "fc-65",
+      "section": 4,
+      "front": "Assess strength, ____ and required assistance.",
+      "back": "Assess strength, balance, cognition and required assistance."
+    },
+    {
+      "id": "fc-66",
+      "section": 4,
+      "front": "Document care ____ and objectively",
+      "back": "Document care accurately and objectively"
+    },
+    {
+      "id": "fc-67",
+      "section": 4,
+      "front": "Can you: Communicate throughout procedures?",
+      "back": "Communicate throughout procedures"
+    },
+    {
+      "id": "fc-68",
+      "section": 4,
+      "front": "Mobility and ____ Handling",
+      "back": "Mobility and Manual Handling"
+    },
+    {
+      "id": "fc-69",
+      "section": 4,
+      "front": "Clinical skills are integrated. Medication administration, ____ and documentation all require safety checks, communication and evaluation.",
+      "back": "Clinical skills are integrated. Medication administration, mobility assistance, patient education and documentation all require safety checks, communication and evaluation."
+    },
+    {
+      "id": "fc-70",
+      "section": 4,
+      "front": "A patient refuses a prescribed medicine. What should the nurse do?",
+      "back": "Explore the reason, provide appropriate information, notify the relevant clinician and document the refusal. Why: A capable patient may refuse treatment; the nurse should respond without coercion and communicate the clinical implications."
+    },
+    {
+      "id": "fc-71",
+      "section": 4,
+      "front": "Before giving a medicine, the nurse finds that the prescribed dose is inconsistent with the patient's renal function. What should the nurse do?",
+      "back": "Withhold the dose and clarify the order after assessing the patient and relevant results. Why: Relevant assessment findings must be considered before administration. A potentially unsafe order requires clarification."
+    },
+    {
+      "id": "fc-72",
+      "section": 4,
+      "front": "Which documentation is most complete after a procedure?",
+      "back": "Assessment, procedure performed, findings, patient response and required follow-up. Why: Documentation should show what was assessed, done, found and how the patient responded."
+    },
+    {
+      "id": "fc-73",
+      "section": 4,
+      "front": "A patient reports new pain during a procedure. What should the nurse do?",
+      "back": "Pause, assess the pain and decide whether to modify, stop or escalate the procedure. Why: Ongoing communication and reassessment are essential during clinical interventions."
+    },
+    {
+      "id": "fc-74",
+      "section": 4,
+      "front": "After administering an opioid, which assessment is most important?",
+      "back": "Respiratory rate, sedation, oxygenation and pain response. Why: Opioids can depress breathing and consciousness, so both benefit and harm must be monitored."
+    },
+    {
+      "id": "fc-75",
+      "section": 4,
+      "front": "A patient requires more assistance than expected during transfer. What should the nurse do?",
+      "back": "Stop and obtain appropriate staff or equipment before continuing. Why: The transfer plan should be revised when actual ability differs from the assessment."
+    },
+    {
+      "id": "fc-76",
+      "section": 4,
+      "front": "Which medication check is essential before administration?",
+      "back": "Order, patient, medicine, dose, route, time, allergies and relevant assessment. Why: These checks form the core of safe medication administration."
+    },
+    {
+      "id": "fc-77",
+      "section": 4,
+      "front": "A patient becomes dizzy during transfer from bed to chair. What should the nurse do?",
+      "back": "Stop, support the patient safely, call for assistance and assess observations. Why: A change in condition takes priority over task completion."
+    }
+  ]
+}

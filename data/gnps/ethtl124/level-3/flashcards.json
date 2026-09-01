@@ -1,0 +1,466 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "Explain: Competency Frameworks Competency",
+      "back": "should assess knowledge, preparation, technical accuracy, communication, judgement and evaluation, not only completion of steps."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Explain: Psychological Safety Staff",
+      "back": "should be able to admit uncertainty and request supervision without humiliation. This prevents unsafe independent practice."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Simulation and Deliberate ____ focused practice with feedback strengthens performance.",
+      "back": "Simulation and Deliberate Practice Repeated focused practice with feedback strengthens performance."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Design clinical-skills learning ____ processes Use simulation and deliberate practice",
+      "back": "Design clinical-skills learning and competency processes Use simulation and deliberate practice"
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "Provide constructive feedback ____ Promote psychological safety in skills education",
+      "back": "Provide constructive feedback and coaching Promote psychological safety in skills education"
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "Scenarios should ____ and decision points.",
+      "back": "Scenarios should include complications and decision points."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "What is covered in 'Clinical example'?",
+      "back": "A skills educator observes that staff can perform catheter insertion steps but struggle when contamination occurs. The program is redesigned to include interruption and contamination scenarios followed by immediate feedback and repeat practice."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Clinical competence is strengthened through clear standards, supervised learning, ____ create learning environments where staff can practise safely and speak up about uncertainty.",
+      "back": "Clinical competence is strengthened through clear standards, supervised learning, simulation, feedback and reassessment. Global Nursing Professionals create learning environments where staff can practise safely and speak up about uncertainty."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "Feedback and Coaching Feedback should be ____ to observable behaviour. Learners need opportunities to practise again.",
+      "back": "Feedback and Coaching Feedback should be specific, timely and linked to observable behaviour. Learners need opportunities to practise again."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Decision — Specimen collection: what is your first action?",
+      "back": "Explain collection technique. Reason: Ensures accurate results."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Decision — Mobility assistance: what is your first action?",
+      "back": "Assess strength and dizziness. Reason: Prevents falls."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "Decision — Specimen collection: what should you check or do next?",
+      "back": "Label specimen correctly."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "A competency assessment shows that staff can complete catheter-insertion steps correctly but often fail to respond when contamination occurs. What is the best programme redesign?",
+      "back": "Include realistic contamination interruptions, immediate feedback and repeat practice until safe judgement is demonstrated. Why: Competence includes judgement and response to complications, not only completion of steps. Deliberate practice with feedback targets the observed gap."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Which feedback statement is most effective?",
+      "back": "During sterile setup, your sleeve crossed the field; pause, re-establish the field and repeat the setup now. Why: Feedback should be specific, timely, linked to observable behaviour and followed by another practice opportunity."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "Which simulation scenario best develops clinical judgement?",
+      "back": "A procedure that includes changing observations, equipment difficulty and a decision about whether to stop. Why: Realistic decision points and complications strengthen judgement, not just motor performance."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "A learner performs a procedure correctly once during simulation. What should the educator do before confirming competence?",
+      "back": "Assess consistency, reasoning, communication and response to complications through further supervised performance. Why: One successful performance may not demonstrate reliable competence across conditions."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "Which element should a comprehensive clinical-skills competency framework assess?",
+      "back": "Knowledge, preparation, technical accuracy, communication, judgement and evaluation. Why: The notes emphasise that competence is multidimensional and cannot be reduced to a procedural checklist."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "A nurse admits uncertainty about using a device and asks for supervision. What is the most appropriate educator response?",
+      "back": "Support the request and arrange supervised practice before independent use. Why: Psychological safety makes help-seeking expected and prevents unsafe independent practice."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "A skills educator notices wide variation in how assessors judge the same performance. What should happen?",
+      "back": "Clarify standards, use agreed criteria and calibrate assessors using shared examples. Why: Consistent criteria and assessor calibration improve fairness and reliability."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "A learner becomes defensive after feedback. What is the best coaching response?",
+      "back": "Return to observable behaviour, invite reflection and agree on a specific practice goal. Why: Constructive coaching remains specific, respectful and improvement-focused."
+    },
+    {
+      "id": "fc-21",
+      "section": 2,
+      "front": "Explain: Learning Reviews Reviews",
+      "back": "should include frontline staff and focus on what happened, how and why. Recommendations should be specific, assigned and evaluated."
+    },
+    {
+      "id": "fc-22",
+      "section": 2,
+      "front": "Explain: Standardisation Standard",
+      "back": "equipment layouts, kits, labels and procedure pathways reduce variation and omissions."
+    },
+    {
+      "id": "fc-23",
+      "section": 2,
+      "front": "Human Factors Memory, attention ____ limited, especially under fatigue or interruption.",
+      "back": "Human Factors Memory, attention and perception are limited, especially under fatigue or interruption."
+    },
+    {
+      "id": "fc-24",
+      "section": 2,
+      "front": "Apply stronger ____ Standardise high-risk procedures",
+      "back": "Apply stronger risk controls Standardise high-risk procedures"
+    },
+    {
+      "id": "fc-25",
+      "section": 2,
+      "front": "Safe systems ____ on perfect concentration.",
+      "back": "Safe systems reduce reliance on perfect concentration."
+    },
+    {
+      "id": "fc-26",
+      "section": 2,
+      "front": "Analyse procedural ____ individual blame",
+      "back": "Analyse procedural incidents beyond individual blame"
+    },
+    {
+      "id": "fc-27",
+      "section": 2,
+      "front": "Identify human ____ system factors",
+      "back": "Identify human and system factors"
+    },
+    {
+      "id": "fc-28",
+      "section": 2,
+      "front": "Procedural incidents often involve equipment design, interruptions, ____ processes. Systems thinking helps leaders identify and redesign these conditions.",
+      "back": "Procedural incidents often involve equipment design, interruptions, workload, unclear labelling or inconsistent processes. Systems thinking helps leaders identify and redesign these conditions."
+    },
+    {
+      "id": "fc-29",
+      "section": 2,
+      "front": "Hierarchy of Controls Redesign, forcing functions and ____ reminders alone. Education should support, not replace, safer design.",
+      "back": "Hierarchy of Controls Redesign, forcing functions and engineering controls are stronger than reminders alone. Education should support, not replace, safer design."
+    },
+    {
+      "id": "fc-30",
+      "section": 2,
+      "front": "Decision — Intake and output recording: what is your first action?",
+      "back": "Review and correct documentation. Reason: Accurate records guide treatment."
+    },
+    {
+      "id": "fc-31",
+      "section": 2,
+      "front": "Decision — Personal protective equipment: what is your first action?",
+      "back": "Apply appropriate PPE. Reason: Protects patient and nurse."
+    },
+    {
+      "id": "fc-32",
+      "section": 2,
+      "front": "Which control is strongest in the hierarchy of controls?",
+      "back": "A connector design that makes incorrect attachment physically impossible. Why: Forcing functions and engineering controls are stronger than administrative reminders."
+    },
+    {
+      "id": "fc-33",
+      "section": 2,
+      "front": "Repeated specimen-labelling errors occur because labels print away from the bedside and several patients have similar names. Which intervention is strongest?",
+      "back": "Introduce bedside label printing, barcode verification and a redesigned workflow. Why: Workflow redesign and forcing functions are stronger than reminders alone."
+    },
+    {
+      "id": "fc-34",
+      "section": 2,
+      "front": "Which question best supports a systems learning review?",
+      "back": "What happened, how did conditions shape the event and what controls could reduce recurrence? Why: Learning reviews should focus on how and why, not blame alone."
+    },
+    {
+      "id": "fc-35",
+      "section": 2,
+      "front": "A medication-preparation area is frequently interrupted. What is the strongest control?",
+      "back": "Redesign the area and workflow to reduce interruptions during high-risk tasks. Why: Environmental and workflow redesign is stronger than relying on vigilance."
+    },
+    {
+      "id": "fc-36",
+      "section": 2,
+      "front": "Which statement best reflects human-factors thinking?",
+      "back": "Systems should reduce reliance on perfect memory, attention and concentration. Why: Human performance is limited, especially under fatigue and interruption."
+    },
+    {
+      "id": "fc-37",
+      "section": 2,
+      "front": "A new checklist increases completion time and staff begin bypassing it. What should leaders do?",
+      "back": "Review usability, workflow impact and whether the checklist targets meaningful risks. Why: Workarounds may signal poor design and should prompt evaluation."
+    },
+    {
+      "id": "fc-38",
+      "section": 2,
+      "front": "Why should frontline staff participate in learning reviews?",
+      "back": "They understand how work is actually performed and where pressures or workarounds occur. Why: Frontline insight helps reveal practical system conditions."
+    },
+    {
+      "id": "fc-39",
+      "section": 2,
+      "front": "A service standardises infusion pumps but leaves programming terminology inconsistent. What risk remains?",
+      "back": "Cognitive confusion and programming error due to inconsistent language. Why: Standardisation should include interfaces, labels and terminology."
+    },
+    {
+      "id": "fc-40",
+      "section": 3,
+      "front": "Explain: Measurement Process",
+      "back": "measures may include hand hygiene or checklist completion. Outcome measures may include infection, infiltration, falls or pressure injury. Balancing measures identify delay or workload effects."
+    },
+    {
+      "id": "fc-41",
+      "section": 3,
+      "front": "Explain: Improvement Cycles Teams",
+      "back": "define a specific problem, test a focused change, study results and adapt before wider implementation."
+    },
+    {
+      "id": "fc-42",
+      "section": 3,
+      "front": "Governance Policies, credentialing, competency ____ incident review and audit provide organisational oversight.",
+      "back": "Governance Policies, credentialing, competency records, equipment maintenance, incident review and audit provide organisational oversight."
+    },
+    {
+      "id": "fc-43",
+      "section": 3,
+      "front": "Explain clinical-skills governance ____ and data to identify improvement priorities",
+      "back": "Explain clinical-skills governance Use audit and data to identify improvement priorities"
+    },
+    {
+      "id": "fc-44",
+      "section": 3,
+      "front": "Evaluate procedural ____ patient experience",
+      "back": "Evaluate procedural outcomes and patient experience"
+    },
+    {
+      "id": "fc-45",
+      "section": 3,
+      "front": "Can you: Apply quality-improvement methods?",
+      "back": "Apply quality-improvement methods"
+    },
+    {
+      "id": "fc-46",
+      "section": 3,
+      "front": "Clinical-skills governance ensures that procedures are supported by current ____ monitoring. Global Nursing Professionals use data to identify variation and improve care.",
+      "back": "Clinical-skills governance ensures that procedures are supported by current policy, competent staff, reliable equipment and outcome monitoring. Global Nursing Professionals use data to identify variation and improve care."
+    },
+    {
+      "id": "fc-47",
+      "section": 3,
+      "front": "Patient Experience Pain, dignity, ____ should be included when evaluating procedural quality.",
+      "back": "Patient Experience Pain, dignity, explanation and confidence should be included when evaluating procedural quality."
+    },
+    {
+      "id": "fc-48",
+      "section": 3,
+      "front": "Use data to define ____ Combine governance with frontline learning",
+      "back": "Use data to define the procedural problem Combine governance with frontline learning"
+    },
+    {
+      "id": "fc-49",
+      "section": 3,
+      "front": "Measure patient outcomes and ____ adapt changes before wider rollout",
+      "back": "Measure patient outcomes and experience Test and adapt changes before wider rollout"
+    },
+    {
+      "id": "fc-50",
+      "section": 3,
+      "front": "Decision — Temperature measurement: what is your first action?",
+      "back": "Recheck temperature using appropriate method. Reason: Different sites yield different results."
+    },
+    {
+      "id": "fc-51",
+      "section": 3,
+      "front": "A ward has frequent peripheral IV failures. What should the improvement team do first?",
+      "back": "Define the problem using baseline data and review insertion, securement, site selection and daily assessment. Why: Improvement begins with a clearly defined problem and understanding of current practice."
+    },
+    {
+      "id": "fc-52",
+      "section": 3,
+      "front": "A quality project improves checklist completion but patient pain remains unchanged. What should leaders conclude?",
+      "back": "Process compliance has improved, but the intervention has not yet improved the patient outcome. Why: Process improvement should be linked to meaningful outcomes and experience."
+    },
+    {
+      "id": "fc-53",
+      "section": 3,
+      "front": "A service introduces a procedural bundle and sees fewer infections but more treatment delays. What should happen?",
+      "back": "Review the balancing measure and adapt the bundle to preserve benefit while reducing delay. Why: Quality improvement should consider both benefits and unintended effects."
+    },
+    {
+      "id": "fc-54",
+      "section": 3,
+      "front": "Which governance elements support safe clinical procedures?",
+      "back": "Policies, credentialing, competency records, equipment maintenance, incident review and audit. Why: Clinical-skills governance requires multiple organisational controls."
+    },
+    {
+      "id": "fc-55",
+      "section": 3,
+      "front": "Which audit finding most clearly indicates a governance gap?",
+      "back": "High-risk procedures are performed by staff without current competency records. Why: High-risk practice without verified competence is a significant governance failure."
+    },
+    {
+      "id": "fc-56",
+      "section": 3,
+      "front": "A policy remains current, but the approved equipment is no longer available. What should leaders do?",
+      "back": "Review the procedure, equipment, training and policy together before continued use. Why: Governance requires alignment between policy, equipment and competence."
+    },
+    {
+      "id": "fc-57",
+      "section": 3,
+      "front": "Which data source can identify procedural variation?",
+      "back": "Audit, incident reports, equipment records, patient outcomes and experience. Why: Multiple sources provide a fuller picture of quality and reliability."
+    },
+    {
+      "id": "fc-58",
+      "section": 3,
+      "front": "A team wants to test a new wound-care bundle. What is the best approach?",
+      "back": "Test a focused change in a small setting, study results and adapt before wider rollout. Why: Small improvement cycles allow learning before scale-up."
+    },
+    {
+      "id": "fc-59",
+      "section": 4,
+      "front": "Explain: End-of-Program Summary By",
+      "back": "completing GNPS Program 10 - Level 3, you have developed the advanced perspective of a Global Nursing Professional. You are prepared not only to perform essential clinical skills safely but also to lead competency development, analyse systems, improve procedural quality and support innovation across diverse healthcare environments."
+    },
+    {
+      "id": "fc-60",
+      "section": 4,
+      "front": "Explain: Electronic Support Digital",
+      "back": "checklists, barcode systems and device prompts can reduce omission, but incorrect data, alert fatigue and workarounds may create risk."
+    },
+    {
+      "id": "fc-61",
+      "section": 4,
+      "front": "Explain: Digital Simulation Virtual",
+      "back": "simulation and video review can support preparation and reflection but should complement hands-on supervised practice."
+    },
+    {
+      "id": "fc-62",
+      "section": 4,
+      "front": "Explain: Global Collaboration Clinical-skills",
+      "back": "standards can be shared across systems while adapting equipment, scope and workflow to local resources and regulation."
+    },
+    {
+      "id": "fc-63",
+      "section": 4,
+      "front": "Explain: Level 2 - International Qualified Nurse",
+      "back": "Integrate complex skills, clinical judgement and international practice expectations."
+    },
+    {
+      "id": "fc-64",
+      "section": 4,
+      "front": "Explain: GNPS Learning Pathway Level 1 - Qualified Nurse",
+      "back": "Build safe foundations in assessment, infection prevention and essential procedures."
+    },
+    {
+      "id": "fc-65",
+      "section": 4,
+      "front": "Explain: Level 3 - Global Nursing Professional",
+      "back": "Lead competency, procedural governance, quality improvement and innovation."
+    },
+    {
+      "id": "fc-66",
+      "section": 4,
+      "front": "Support remote and ____ education Contribute to global clinical-skills learning",
+      "back": "Support remote and blended skills education Contribute to global clinical-skills learning"
+    },
+    {
+      "id": "fc-67",
+      "section": 4,
+      "front": "Evaluate digital ____ technologies",
+      "back": "Evaluate digital clinical-skills technologies"
+    },
+    {
+      "id": "fc-68",
+      "section": 4,
+      "front": "Recognise automation ____ access risks",
+      "back": "Recognise automation and access risks"
+    },
+    {
+      "id": "fc-69",
+      "section": 4,
+      "front": "Digital simulation, virtual reality, electronic checklists and decision support ____ tools should be evaluated critically and made accessible across different resource settings.",
+      "back": "Digital simulation, virtual reality, electronic checklists and decision support can strengthen clinical-skills learning and safety. These tools should be evaluated critically and made accessible across different resource settings."
+    },
+    {
+      "id": "fc-70",
+      "section": 4,
+      "front": "A virtual simulation programme improves test scores but learners still struggle with hands-on device setup. What should leaders do?",
+      "back": "Use virtual simulation for preparation and reflection while retaining supervised hands-on practice. Why: Digital simulation complements but does not replace supervised physical practice."
+    },
+    {
+      "id": "fc-71",
+      "section": 4,
+      "front": "Which outcome best demonstrates successful blended education?",
+      "back": "Learners gain knowledge remotely and demonstrate safe hands-on competence under supervision. Why: Blended learning should connect digital preparation with verified practical performance."
+    },
+    {
+      "id": "fc-72",
+      "section": 4,
+      "front": "A barcode system frequently fails and staff bypass it. What should leaders do?",
+      "back": "Investigate reliability, workflow and user experience, then redesign the system and contingency process. Why: Workarounds often signal usability or reliability problems."
+    },
+    {
+      "id": "fc-73",
+      "section": 4,
+      "front": "Which statement best reflects automation bias?",
+      "back": "Accepting a digital recommendation despite contradictory clinical evidence. Why: Automation bias occurs when technology is trusted over professional judgement."
+    },
+    {
+      "id": "fc-74",
+      "section": 4,
+      "front": "Which action best supports digital equity?",
+      "back": "Provide alternatives for limited connectivity, equipment or digital literacy. Why: Access barriers should be addressed so technology does not exclude learners."
+    },
+    {
+      "id": "fc-75",
+      "section": 4,
+      "front": "Which risk is associated with electronic checklists?",
+      "back": "Incorrect data, alert fatigue and workarounds may create new risks. Why: Digital support can reduce omission but also introduce automation-related hazards."
+    },
+    {
+      "id": "fc-76",
+      "section": 4,
+      "front": "A digital checklist produces frequent non-actionable alerts. What should leaders do?",
+      "back": "Review thresholds and workflow to reduce alert fatigue while preserving critical warnings. Why: Excessive alerts can reduce attention to important signals."
+    },
+    {
+      "id": "fc-77",
+      "section": 4,
+      "front": "Which measure best evaluates a digital skills tool?",
+      "back": "Safety, usability, learning performance, access, unintended effects and user experience. Why: Digital tools require balanced evaluation beyond uptake."
+    }
+  ]
+}

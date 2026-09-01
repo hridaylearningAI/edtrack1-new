@@ -1,0 +1,460 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "A competency assessment shows that staff can complete",
+      "stem": "A competency assessment shows that staff can complete catheter-insertion steps correctly but often fail to respond when contamination occurs. What is the best programme redesign?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "A competency assessment shows that staff can complete catheter-insertion steps correctly but often fail to respond when contamination occurs. What is the best programme redesign?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Include realistic contamination interruptions, immediate feedback and repeat practice until safe judgement is demonstrated."
+            },
+            {
+              "id": "B",
+              "text": "Add more written theory about catheterisation."
+            },
+            {
+              "id": "C",
+              "text": "Shorten the assessment checklist."
+            },
+            {
+              "id": "D",
+              "text": "Allow staff to self-certify after watching a video."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Competence includes judgement and response to complications, not only completion of steps. Deliberate practice with feedback targets the observed gap."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which element should a comprehensive clinical-skills competency framework assess?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Technical completion only."
+            },
+            {
+              "id": "B",
+              "text": "Knowledge, preparation, technical accuracy, communication, judgement and evaluation."
+            },
+            {
+              "id": "C",
+              "text": "Years of experience and confidence."
+            },
+            {
+              "id": "D",
+              "text": "Attendance at training."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The notes emphasise that competence is multidimensional and cannot be reduced to a procedural checklist."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "A learner performs a procedure correctly once during simulation. What should the educator do before confirming competence?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sign off immediately because the steps were correct."
+            },
+            {
+              "id": "B",
+              "text": "Ask the learner to complete a reflective paragraph only."
+            },
+            {
+              "id": "C",
+              "text": "Assess consistency, reasoning, communication and response to complications through further supervised performance."
+            },
+            {
+              "id": "D",
+              "text": "Rely on peer opinion."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "One successful performance may not demonstrate reliable competence across conditions."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Which feedback statement is most effective",
+      "stem": "Which feedback statement is most effective?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which feedback statement is most effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "You need to be more careful."
+            },
+            {
+              "id": "B",
+              "text": "You are not ready for practice."
+            },
+            {
+              "id": "C",
+              "text": "Everyone makes mistakes."
+            },
+            {
+              "id": "D",
+              "text": "During sterile setup, your sleeve crossed the field; pause, re-establish the field and repeat the setup now."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Feedback should be specific, timely, linked to observable behaviour and followed by another practice opportunity."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "A nurse admits uncertainty about using a device and asks for supervision. What is the most appropriate educator response?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support the request and arrange supervised practice before independent use."
+            },
+            {
+              "id": "B",
+              "text": "Criticise the nurse for lack of confidence."
+            },
+            {
+              "id": "C",
+              "text": "Ask the nurse to learn by trial and error."
+            },
+            {
+              "id": "D",
+              "text": "Remove the nurse permanently from device use."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Psychological safety makes help-seeking expected and prevents unsafe independent practice."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which simulation scenario best develops clinical judgement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "A predictable procedure with no interruptions."
+            },
+            {
+              "id": "B",
+              "text": "A procedure that includes changing observations, equipment difficulty and a decision about whether to stop."
+            },
+            {
+              "id": "C",
+              "text": "A lecture followed by a quiz."
+            },
+            {
+              "id": "D",
+              "text": "A demonstration without learner participation."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Realistic decision points and complications strengthen judgement, not just motor performance."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "A skills educator notices wide variation in how assessors judge the",
+      "stem": "A skills educator notices wide variation in how assessors judge the same performance. What should happen?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "A skills educator notices wide variation in how assessors judge the same performance. What should happen?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Allow assessor preference because clinical practice varies."
+            },
+            {
+              "id": "B",
+              "text": "Use only one assessor for all staff."
+            },
+            {
+              "id": "C",
+              "text": "Clarify standards, use agreed criteria and calibrate assessors using shared examples."
+            },
+            {
+              "id": "D",
+              "text": "Remove judgement from the assessment."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Consistent criteria and assessor calibration improve fairness and reliability."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which action best supports deliberate practice?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Completing one long simulation annually."
+            },
+            {
+              "id": "B",
+              "text": "Reading the policy after an error."
+            },
+            {
+              "id": "C",
+              "text": "Observing an expert without participation."
+            },
+            {
+              "id": "D",
+              "text": "Repeated focused practice of a specific weakness with feedback and another attempt."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Deliberate practice is focused, repeated and feedback-driven."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "A learner becomes defensive after feedback. What is the best coaching response?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Return to observable behaviour, invite reflection and agree on a specific practice goal."
+            },
+            {
+              "id": "B",
+              "text": "End the discussion."
+            },
+            {
+              "id": "C",
+              "text": "Compare the learner with stronger colleagues."
+            },
+            {
+              "id": "D",
+              "text": "Document failure without discussion."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Constructive coaching remains specific, respectful and improvement-focused."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "What is the main limitation of a checklist-only competency assessment",
+      "stem": "What is the main limitation of a checklist-only competency assessment?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "What is the main limitation of a checklist-only competency assessment?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Checklists are too difficult to score."
+            },
+            {
+              "id": "B",
+              "text": "They may confirm task completion without assessing reasoning, communication or adaptation."
+            },
+            {
+              "id": "C",
+              "text": "They cannot be used in simulation."
+            },
+            {
+              "id": "D",
+              "text": "They always reduce consistency."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "A checklist supports consistency but does not replace judgement."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "A nurse repeatedly performs well in simulation but poorly during busy shifts. What should the educator investigate?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether simulation should be abandoned."
+            },
+            {
+              "id": "B",
+              "text": "Whether the nurse prefers another specialty."
+            },
+            {
+              "id": "C",
+              "text": "Transfer of learning, workload, interruptions, supervision and real-world conditions."
+            },
+            {
+              "id": "D",
+              "text": "Only the nurse’s motivation."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Performance is shaped by both competence and workplace conditions."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which outcome best demonstrates an effective skills programme?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "High attendance."
+            },
+            {
+              "id": "B",
+              "text": "Positive course evaluations only."
+            },
+            {
+              "id": "C",
+              "text": "Completion of every checklist."
+            },
+            {
+              "id": "D",
+              "text": "Consistent safe performance, appropriate help-seeking and improved patient outcomes."
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Training should translate into reliable practice and safer care."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "A mentor observes that a nurse understands theory but hesitates during",
+      "stem": "A mentor observes that a nurse understands theory but hesitates during complications. What is the best next step?",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "A mentor observes that a nurse understands theory but hesitates during complications. What is the best next step?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use supervised complication scenarios with guided reasoning and feedback."
+            },
+            {
+              "id": "B",
+              "text": "Provide more reading."
+            },
+            {
+              "id": "C",
+              "text": "Sign off theory competence only."
+            },
+            {
+              "id": "D",
+              "text": "Avoid exposing the nurse to complexity."
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The identified gap is applied judgement under changing conditions."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "Which environment most strongly supports learning?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "One in which errors are hidden."
+            },
+            {
+              "id": "B",
+              "text": "One in which uncertainty can be discussed without humiliation while standards remain clear."
+            },
+            {
+              "id": "C",
+              "text": "One in which only experts speak."
+            },
+            {
+              "id": "D",
+              "text": "One in which every error leads to punishment."
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Psychological safety supports honest learning and early help-seeking."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "A competency programme uses the same assessment for novice and advanced nurses. What is the main concern?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The programme is too efficient."
+            },
+            {
+              "id": "B",
+              "text": "All learners should be assessed identically."
+            },
+            {
+              "id": "C",
+              "text": "Assessment may not match role, risk or expected level of judgement."
+            },
+            {
+              "id": "D",
+              "text": "Advanced nurses need no assessment."
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Competency processes should align with role and clinical risk."
+        }
+      ]
+    }
+  ]
+}

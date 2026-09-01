@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which statement best describes medication governance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A system of oversight covering selection, storage, prescribing, preparation, administration, monitoring and review of medicines."
+        },
+        {
+          "id": "B",
+          "text": "A process limited to ordering pharmacy stock."
+        },
+        {
+          "id": "C",
+          "text": "A nursing checklist used only at the bedside."
+        },
+        {
+          "id": "D",
+          "text": "A financial system for medicine purchasing."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Medication governance provides organisational oversight across the full medication-use process, supported by policy, committees, audits, credentialing and incident systems."
+    },
+    {
+      "id": "q2",
+      "stem": "A junior nurse reports selecting the wrong infusion concentration before it reached the patient. What is the BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discipline the nurse immediately."
+        },
+        {
+          "id": "B",
+          "text": "Confirm patient safety, thank the nurse for reporting and review both individual learning and system factors."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the event because no harm occurred."
+        },
+        {
+          "id": "D",
+          "text": "Remove the nurse permanently from medication duties."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A just and learning-oriented response protects the patient, supports reporting and examines training, storage, labelling, workload and workflow."
+    },
+    {
+      "id": "q3",
+      "stem": "Which leader behaviour most strongly supports a positive medication-safety culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expecting staff to manage uncertainty privately."
+        },
+        {
+          "id": "B",
+          "text": "Discouraging questions during busy shifts."
+        },
+        {
+          "id": "C",
+          "text": "Encouraging staff to clarify unusual doses and report near misses."
+        },
+        {
+          "id": "D",
+          "text": "Focusing only on completed medication rounds."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A positive culture makes questioning, stopping and reporting normal and safe."
+    },
+    {
+      "id": "q4",
+      "stem": "A nurse repeatedly bypasses an independent check because the process is inconvenient, despite coaching and clear warnings. Which just-culture category is MOST relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Human error only."
+        },
+        {
+          "id": "B",
+          "text": "Reckless behaviour in every circumstance."
+        },
+        {
+          "id": "C",
+          "text": "No accountability is required."
+        },
+        {
+          "id": "D",
+          "text": "At-risk behaviour."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Repeatedly choosing a shortcut while underestimating risk is generally at-risk behaviour and calls for coaching, removal of incentives for shortcuts and proportionate accountability."
+    },
+    {
+      "id": "q5",
+      "stem": "A nurse administers a medicine incorrectly after selecting the wrong item from two almost identical packages. Which response best reflects systems thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review packaging, storage, labelling, workflow, interruptions and training."
+        },
+        {
+          "id": "B",
+          "text": "Focus only on the nurse's final action."
+        },
+        {
+          "id": "C",
+          "text": "Assume the nurse was careless."
+        },
+        {
+          "id": "D",
+          "text": "Replace the nurse without changing the system."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Medication harm often results from interacting system conditions rather than one action alone."
+    },
+    {
+      "id": "q6",
+      "stem": "Which governance activity best confirms continuing medication competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Annual policy distribution only."
+        },
+        {
+          "id": "B",
+          "text": "Supervised practice, formal assessment and periodic review."
+        },
+        {
+          "id": "C",
+          "text": "Self-declaration without evidence."
+        },
+        {
+          "id": "D",
+          "text": "Length of employment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Medication competence should be supported by education, supervised practice, assessment and periodic review."
+    },
+    {
+      "id": "q7",
+      "stem": "A senior clinician dismisses a nurse's concern about an unusual opioid dose because of hierarchy. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the nurse to follow the senior clinician."
+        },
+        {
+          "id": "B",
+          "text": "Delay review until the next meeting."
+        },
+        {
+          "id": "C",
+          "text": "Reinforce that concerns should be raised regardless of hierarchy and ensure the order is reviewed."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to decide."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Leaders must ensure hierarchy does not silence medication-safety concerns and should support timely review."
+    },
+    {
+      "id": "q8",
+      "stem": "Which outcome BEST indicates that medication governance is functioning effectively?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policies exist but are rarely used."
+        },
+        {
+          "id": "B",
+          "text": "Medication incidents are not discussed."
+        },
+        {
+          "id": "C",
+          "text": "Only pharmacy staff review errors."
+        },
+        {
+          "id": "D",
+          "text": "Staff can access guidance, report concerns, demonstrate competence and receive feedback from audits."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective governance is visible in accessible guidance, competent practice, transparent reporting and monitored improvement."
+    },
+    {
+      "id": "q9",
+      "stem": "A nurse makes a one-time calculation slip in a poorly designed electronic form and reports it immediately. Which response is most consistent with just culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Support the nurse and redesign the form while addressing learning needs."
+        },
+        {
+          "id": "B",
+          "text": "Punitive action without review."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the error completely."
+        },
+        {
+          "id": "D",
+          "text": "Assume reckless behaviour."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A human error should prompt support and system redesign while still ensuring competence and learning."
+    },
+    {
+      "id": "q10",
+      "stem": "Which leadership action best strengthens medication accountability without creating fear?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apply the same punishment to every incident."
+        },
+        {
+          "id": "B",
+          "text": "Use fair review based on behaviour, context and risk."
+        },
+        {
+          "id": "C",
+          "text": "Avoid discussing errors."
+        },
+        {
+          "id": "D",
+          "text": "Publicly identify staff involved."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fair, proportionate review supports accountability while preserving openness and trust."
+    },
+    {
+      "id": "q11",
+      "stem": "A medication committee notices repeated insulin incidents. What should it do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduce a new policy immediately."
+        },
+        {
+          "id": "B",
+          "text": "Discipline all staff involved."
+        },
+        {
+          "id": "C",
+          "text": "Review incident patterns, current processes and contributing conditions."
+        },
+        {
+          "id": "D",
+          "text": "Stop insulin use temporarily."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Governance decisions should begin with analysis of data and current practice before selecting interventions."
+    },
+    {
+      "id": "q12",
+      "stem": "Which statement best reflects professional accountability in advanced medication practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Following orders without question."
+        },
+        {
+          "id": "B",
+          "text": "Transferring responsibility to technology."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding complex medication tasks."
+        },
+        {
+          "id": "D",
+          "text": "Using judgement, questioning unsafe practice and accepting responsibility for decisions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Advanced accountability includes clinical judgement, speaking up and ownership of professional decisions."
+    },
+    {
+      "id": "q13",
+      "stem": "A new infusion policy is introduced but staff lack training and equipment. What is the primary governance failure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The organisation did not align policy with implementation resources."
+        },
+        {
+          "id": "B",
+          "text": "The policy was too detailed."
+        },
+        {
+          "id": "C",
+          "text": "Staff should learn independently."
+        },
+        {
+          "id": "D",
+          "text": "The policy should not be monitored."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Policies require staffing, equipment, education and implementation support to become reliable practice."
+    },
+    {
+      "id": "q14",
+      "stem": "Which activity is most appropriate for an experienced nurse mentor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correct errors privately without explanation."
+        },
+        {
+          "id": "B",
+          "text": "Coach, observe practice and provide constructive feedback linked to standards."
+        },
+        {
+          "id": "C",
+          "text": "Complete medication tasks for junior staff indefinitely."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing near misses."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Mentoring should build competence through coaching, supervised practice and feedback."
+    },
+    {
+      "id": "q15",
+      "stem": "A nurse leader thanks staff for reporting incidents but never follows up. What is the likely consequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medication competence will automatically improve."
+        },
+        {
+          "id": "B",
+          "text": "Near misses will disappear."
+        },
+        {
+          "id": "C",
+          "text": "Trust in reporting may decline."
+        },
+        {
+          "id": "D",
+          "text": "Governance will strengthen."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Staff notice when leadership messages are not matched by action; failure to follow through weakens trust."
+    },
+    {
+      "id": "q16",
+      "stem": "Which factor most clearly demonstrates psychological safety in medication practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff avoid questions to appear competent."
+        },
+        {
+          "id": "B",
+          "text": "Only senior staff raise concerns."
+        },
+        {
+          "id": "C",
+          "text": "Near misses remain informal."
+        },
+        {
+          "id": "D",
+          "text": "Staff admit uncertainty before administering a medicine."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Psychological safety allows people to ask questions, admit uncertainty and speak up early."
+    },
+    {
+      "id": "q17",
+      "stem": "An experienced nurse intentionally overrides a critical safety control for convenience after repeated warnings. What response is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proportionate accountability alongside review of contributing factors."
+        },
+        {
+          "id": "B",
+          "text": "System redesign only."
+        },
+        {
+          "id": "C",
+          "text": "No action because the nurse is experienced."
+        },
+        {
+          "id": "D",
+          "text": "Education alone."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reckless disregard requires fair accountability, while organisations should still examine system conditions."
+    },
+    {
+      "id": "q18",
+      "stem": "Which metric would best support governance oversight of controlled-drug practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff satisfaction only."
+        },
+        {
+          "id": "B",
+          "text": "Audit findings, discrepancies, incident trends and competency compliance."
+        },
+        {
+          "id": "C",
+          "text": "Number of medication trolleys."
+        },
+        {
+          "id": "D",
+          "text": "Ward occupancy alone."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Governance oversight should use relevant quality, safety and competence indicators."
+    },
+    {
+      "id": "q19",
+      "stem": "A medication-safety policy is consistently bypassed because it adds unnecessary duplication. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insist on compliance without review."
+        },
+        {
+          "id": "B",
+          "text": "Remove the policy immediately without approval."
+        },
+        {
+          "id": "C",
+          "text": "Investigate workflow, redesign the process safely and monitor the change."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the workaround."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Persistent workarounds are safety signals and may indicate poor process design that requires structured review."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome BEST reflects mature medication-safety leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Incidents are hidden to protect reputation."
+        },
+        {
+          "id": "B",
+          "text": "Policies are numerous."
+        },
+        {
+          "id": "C",
+          "text": "Medication rounds are faster."
+        },
+        {
+          "id": "D",
+          "text": "Staff report risks, leaders respond fairly, competence is monitored and improvements are sustained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Mature leadership combines openness, fair accountability, competence assurance and sustained system improvement."
+    },
+    {
+      "id": "q21",
+      "stem": "Why are reminders alone often weak medication-safety controls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They rely heavily on memory and attention."
+        },
+        {
+          "id": "B",
+          "text": "They remove the hazard."
+        },
+        {
+          "id": "C",
+          "text": "They standardise equipment automatically."
+        },
+        {
+          "id": "D",
+          "text": "They prevent all workarounds."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Education and reminders depend on human attention and are less reliable than stronger system controls."
+    },
+    {
+      "id": "q22",
+      "stem": "Which intervention is strongest in the hierarchy of controls for look-alike medicines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send an email reminder."
+        },
+        {
+          "id": "B",
+          "text": "Separate storage and redesign packaging or selection systems."
+        },
+        {
+          "id": "C",
+          "text": "Ask staff to be more careful."
+        },
+        {
+          "id": "D",
+          "text": "Add a poster."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Removing or redesigning the hazard is stronger than relying on awareness alone."
+    },
+    {
+      "id": "q23",
+      "stem": "A ward has repeated wrong-drug selection involving adjacent storage. What should the review examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the nurse involved."
+        },
+        {
+          "id": "B",
+          "text": "Only the prescribing clinician."
+        },
+        {
+          "id": "C",
+          "text": "Storage, labelling, electronic search design, interruptions and workflow."
+        },
+        {
+          "id": "D",
+          "text": "Patient satisfaction."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Systems thinking examines the full medication process and interacting contributory factors."
+    },
+    {
+      "id": "q24",
+      "stem": "Which human factor most directly increases risk during medication preparation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clear labelling."
+        },
+        {
+          "id": "B",
+          "text": "Standard concentrations."
+        },
+        {
+          "id": "C",
+          "text": "Adequate lighting."
+        },
+        {
+          "id": "D",
+          "text": "Frequent interruptions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Interruptions disrupt attention and working memory, increasing error risk."
+    },
+    {
+      "id": "q25",
+      "stem": "What is a forcing function?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A design feature that makes an unsafe action impossible or difficult."
+        },
+        {
+          "id": "B",
+          "text": "A written reminder."
+        },
+        {
+          "id": "C",
+          "text": "A voluntary checklist."
+        },
+        {
+          "id": "D",
+          "text": "A disciplinary procedure."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Forcing functions physically or electronically prevent or constrain unsafe choices."
+    },
+    {
+      "id": "q26",
+      "stem": "A smart pump allows a dangerously high dose because the drug library is outdated. What type of contributing factor is this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient non-adherence."
+        },
+        {
+          "id": "B",
+          "text": "Technology and governance failure."
+        },
+        {
+          "id": "C",
+          "text": "A documentation issue only."
+        },
+        {
+          "id": "D",
+          "text": "A human error only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outdated safety limits reflect technology maintenance and governance weaknesses."
+    },
+    {
+      "id": "q27",
+      "stem": "Which review question best reflects systems thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Who made the mistake?"
+        },
+        {
+          "id": "B",
+          "text": "Why was the nurse careless?"
+        },
+        {
+          "id": "C",
+          "text": "What conditions made the error possible?"
+        },
+        {
+          "id": "D",
+          "text": "How quickly can staff be retrained?"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Systems thinking seeks the conditions and interactions that shaped the event."
+    },
+    {
+      "id": "q28",
+      "stem": "A nurse chooses the wrong medicine from a cluttered screen. Which redesign is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add more alerts."
+        },
+        {
+          "id": "B",
+          "text": "Tell staff to slow down."
+        },
+        {
+          "id": "C",
+          "text": "Increase annual education."
+        },
+        {
+          "id": "D",
+          "text": "Improve name display, differentiation and search results."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Interface redesign addresses the selection hazard directly and is stronger than reminders."
+    },
+    {
+      "id": "q29",
+      "stem": "Which recommendation is least useful after an incident review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Be more careful."
+        },
+        {
+          "id": "B",
+          "text": "Separate high-risk products."
+        },
+        {
+          "id": "C",
+          "text": "Standardise concentrations."
+        },
+        {
+          "id": "D",
+          "text": "Assign responsibility and measure compliance."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "General instructions are not specific, measurable or reliable controls."
+    },
+    {
+      "id": "q30",
+      "stem": "A review identifies fatigue and understaffing during night shifts. Which response best addresses the risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send a safety memo."
+        },
+        {
+          "id": "B",
+          "text": "Review staffing, workload and medication timing while monitoring outcomes."
+        },
+        {
+          "id": "C",
+          "text": "Require staff to sign a pledge."
+        },
+        {
+          "id": "D",
+          "text": "Add more labels only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Workload and staffing are system factors that require operational redesign and evaluation."
+    },
+    {
+      "id": "q31",
+      "stem": "Which measure best tests whether separated storage reduced selection errors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff attendance at education."
+        },
+        {
+          "id": "B",
+          "text": "Number of posters displayed."
+        },
+        {
+          "id": "C",
+          "text": "Wrong-selection incident and near-miss rates before and after change."
+        },
+        {
+          "id": "D",
+          "text": "Average shift length only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Outcome data should show whether the intervention actually reduced the targeted error."
+    },
+    {
+      "id": "q32",
+      "stem": "Why should frontline staff participate in learning reviews?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They can assign blame more easily."
+        },
+        {
+          "id": "B",
+          "text": "They replace governance committees."
+        },
+        {
+          "id": "C",
+          "text": "They eliminate the need for data."
+        },
+        {
+          "id": "D",
+          "text": "They understand how work is actually performed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Frontline staff provide practical insight into real workflow, constraints and workarounds."
+    },
+    {
+      "id": "q33",
+      "stem": "A medication process depends on remembering six separate verbal steps. Which redesign is BEST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise and embed the sequence into workflow or technology."
+        },
+        {
+          "id": "B",
+          "text": "Repeat the steps more often."
+        },
+        {
+          "id": "C",
+          "text": "Ask patients to remind staff."
+        },
+        {
+          "id": "D",
+          "text": "Discipline staff who forget."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Embedding the process reduces reliance on memory and makes safe action easier."
+    },
+    {
+      "id": "q34",
+      "stem": "Which is an example of a latent system condition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A nurse pressing the wrong button."
+        },
+        {
+          "id": "B",
+          "text": "A confusing electronic display that has existed for months."
+        },
+        {
+          "id": "C",
+          "text": "A patient refusing treatment."
+        },
+        {
+          "id": "D",
+          "text": "A one-time documentation delay."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Latent conditions are underlying system weaknesses that may remain hidden until they contribute to an event."
+    },
+    {
+      "id": "q35",
+      "stem": "A barcode is repeatedly bypassed because scanners fail. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff are simply resistant."
+        },
+        {
+          "id": "B",
+          "text": "Barcode systems are unnecessary."
+        },
+        {
+          "id": "C",
+          "text": "The workaround is a signal to investigate equipment reliability and workflow."
+        },
+        {
+          "id": "D",
+          "text": "All staff need punishment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Frequent workarounds often indicate technology or workflow problems that require redesign."
+    },
+    {
+      "id": "q36",
+      "stem": "Which control best reduces wrong-route administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colour-coded warnings only."
+        },
+        {
+          "id": "B",
+          "text": "Annual training."
+        },
+        {
+          "id": "C",
+          "text": "Verbal reminders."
+        },
+        {
+          "id": "D",
+          "text": "Non-interchangeable connectors and route-specific equipment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Engineering controls such as non-interchangeable connectors are stronger than warnings."
+    },
+    {
+      "id": "q37",
+      "stem": "A learning review produces ten recommendations but none have owners. What is the main weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recommendations are unlikely to be implemented or monitored."
+        },
+        {
+          "id": "B",
+          "text": "The review is too detailed."
+        },
+        {
+          "id": "C",
+          "text": "Frontline staff were involved."
+        },
+        {
+          "id": "D",
+          "text": "The event was documented."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recommendations should be specific, assigned and evaluated."
+    },
+    {
+      "id": "q38",
+      "stem": "Which finding suggests a control has created an unintended risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff receive training."
+        },
+        {
+          "id": "B",
+          "text": "Error rates fall but treatment delays increase substantially."
+        },
+        {
+          "id": "C",
+          "text": "Compliance improves."
+        },
+        {
+          "id": "D",
+          "text": "Near-miss reporting rises initially."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Balancing measures identify unintended consequences such as harmful delays."
+    },
+    {
+      "id": "q39",
+      "stem": "What is the primary aim of human-factors design?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require perfect concentration."
+        },
+        {
+          "id": "B",
+          "text": "Remove professional judgement."
+        },
+        {
+          "id": "C",
+          "text": "Design systems that support normal human limitations."
+        },
+        {
+          "id": "D",
+          "text": "Reduce all documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Human-factors design recognises limits in attention, memory and perception and supports safer performance."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome BEST demonstrates effective system redesign?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff remember the new policy."
+        },
+        {
+          "id": "B",
+          "text": "The policy is longer."
+        },
+        {
+          "id": "C",
+          "text": "Incidents are discussed once."
+        },
+        {
+          "id": "D",
+          "text": "The safer action becomes easier, error rates fall and the improvement is sustained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful redesign changes the system, reduces error and remains effective over time."
+    },
+    {
+      "id": "q41",
+      "stem": "What is the first step in a medication quality-improvement project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the specific problem using data."
+        },
+        {
+          "id": "B",
+          "text": "Choose a solution immediately."
+        },
+        {
+          "id": "C",
+          "text": "Train all staff."
+        },
+        {
+          "id": "D",
+          "text": "Purchase technology."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement begins by defining the problem and understanding current practice."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an outcome measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage of staff trained."
+        },
+        {
+          "id": "B",
+          "text": "Medication-harm rate."
+        },
+        {
+          "id": "C",
+          "text": "Independent-check compliance."
+        },
+        {
+          "id": "D",
+          "text": "Number of meetings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures show what happened to patients or systems, such as harm rates."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is a process measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate of adverse events."
+        },
+        {
+          "id": "B",
+          "text": "Mortality rate."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of medication reconciliations completed on time."
+        },
+        {
+          "id": "D",
+          "text": "Patient length of stay."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process measures show whether recommended care occurred."
+    },
+    {
+      "id": "q44",
+      "stem": "Why are balancing measures important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace outcome measures."
+        },
+        {
+          "id": "B",
+          "text": "They identify staff to blame."
+        },
+        {
+          "id": "C",
+          "text": "They confirm training attendance only."
+        },
+        {
+          "id": "D",
+          "text": "They detect unintended effects such as delays or workload burden."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Balancing measures help determine whether an improvement causes new problems."
+    },
+    {
+      "id": "q45",
+      "stem": "A ward reports frequent hypoglycaemia after insulin. Which change best reflects a focused improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Link insulin timing with meal availability and add an escalation pathway."
+        },
+        {
+          "id": "B",
+          "text": "Stop all insulin."
+        },
+        {
+          "id": "C",
+          "text": "Send a reminder email."
+        },
+        {
+          "id": "D",
+          "text": "Discipline nurses."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The intervention addresses the identified process factors and includes a safer response pathway."
+    },
+    {
+      "id": "q46",
+      "stem": "What is pharmacovigilance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Checking pharmacy stock."
+        },
+        {
+          "id": "B",
+          "text": "Monitoring, recognising and reporting adverse medicine effects."
+        },
+        {
+          "id": "C",
+          "text": "Managing staff rosters."
+        },
+        {
+          "id": "D",
+          "text": "Recording only known allergies."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pharmacovigilance supports detection of rare, serious or emerging medicine risks."
+    },
+    {
+      "id": "q47",
+      "stem": "Why should suspected adverse reactions be reported even if causation is uncertain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only confirmed reactions matter."
+        },
+        {
+          "id": "B",
+          "text": "Reporting replaces clinical care."
+        },
+        {
+          "id": "C",
+          "text": "Aggregated reports may reveal emerging patterns."
+        },
+        {
+          "id": "D",
+          "text": "It guarantees compensation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pharmacovigilance systems rely on reports to detect possible safety signals."
+    },
+    {
+      "id": "q48",
+      "stem": "Which nursing action supports antimicrobial stewardship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encouraging antibiotics for viral illness."
+        },
+        {
+          "id": "B",
+          "text": "Delaying cultures until after treatment."
+        },
+        {
+          "id": "C",
+          "text": "Stopping antibiotics independently."
+        },
+        {
+          "id": "D",
+          "text": "Questioning unnecessary continuation through appropriate channels."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Nurses support appropriate medicine, dose, route and duration through monitoring, communication and patient education."
+    },
+    {
+      "id": "q49",
+      "stem": "Which action best supports opioid stewardship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitor pain, sedation, respiratory status and ongoing need."
+        },
+        {
+          "id": "B",
+          "text": "Administer without reassessment."
+        },
+        {
+          "id": "C",
+          "text": "Avoid discussing adverse effects."
+        },
+        {
+          "id": "D",
+          "text": "Increase doses automatically."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Stewardship balances benefit and harm through assessment and review."
+    },
+    {
+      "id": "q50",
+      "stem": "A quality project reduces errors but doubles medication-round time. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the delay."
+        },
+        {
+          "id": "B",
+          "text": "Review the balancing measure and adapt the intervention."
+        },
+        {
+          "id": "C",
+          "text": "Stop measuring."
+        },
+        {
+          "id": "D",
+          "text": "Declare success."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The team should evaluate unintended consequences and refine the change."
+    },
+    {
+      "id": "q51",
+      "stem": "Why are small tests of change useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They eliminate the need for data."
+        },
+        {
+          "id": "B",
+          "text": "They guarantee success."
+        },
+        {
+          "id": "C",
+          "text": "They allow learning and adaptation before broad implementation."
+        },
+        {
+          "id": "D",
+          "text": "They avoid staff involvement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Small tests reduce risk and help teams refine interventions."
+    },
+    {
+      "id": "q52",
+      "stem": "Which data source best identifies a new pattern of medication harm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One staff opinion."
+        },
+        {
+          "id": "B",
+          "text": "A single policy."
+        },
+        {
+          "id": "C",
+          "text": "Ward inventory."
+        },
+        {
+          "id": "D",
+          "text": "Aggregated incident, adverse-reaction and audit data."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Multiple data sources can reveal trends and improvement priorities."
+    },
+    {
+      "id": "q53",
+      "stem": "A hospital sees high reconciliation compliance but continued omission errors. What should the team investigate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The quality and accuracy of reconciliation, not only completion."
+        },
+        {
+          "id": "B",
+          "text": "Whether forms were signed."
+        },
+        {
+          "id": "C",
+          "text": "Staff attendance only."
+        },
+        {
+          "id": "D",
+          "text": "Hospital occupancy."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "High completion does not guarantee effective performance; process quality matters."
+    },
+    {
+      "id": "q54",
+      "stem": "Which statement best reflects medication stewardship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Minimise all medicine use."
+        },
+        {
+          "id": "B",
+          "text": "Use the right medicine, dose, route and duration."
+        },
+        {
+          "id": "C",
+          "text": "Continue medicines indefinitely."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on cost."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Stewardship promotes appropriate, evidence-informed medicine use."
+    },
+    {
+      "id": "q55",
+      "stem": "A new adverse reaction appears across several countries. What is the value of global pharmacovigilance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces local reporting."
+        },
+        {
+          "id": "B",
+          "text": "It removes the need for assessment."
+        },
+        {
+          "id": "C",
+          "text": "It can identify rare signals not visible in one organisation."
+        },
+        {
+          "id": "D",
+          "text": "It applies only to manufacturers."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pooling reports across settings helps detect rare and emerging risks."
+    },
+    {
+      "id": "q56",
+      "stem": "Which intervention best supports deprescribing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop all long-term medicines."
+        },
+        {
+          "id": "B",
+          "text": "Leave medicines unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to decide without information."
+        },
+        {
+          "id": "D",
+          "text": "Review ongoing need, benefit, harm and patient goals with the multidisciplinary team."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Deprescribing is a structured, patient-centred review of ongoing necessity and risk."
+    },
+    {
+      "id": "q57",
+      "stem": "What should happen after a successful medication-safety pilot?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise effective practices, monitor sustainability and adapt before wider spread."
+        },
+        {
+          "id": "B",
+          "text": "Stop data collection."
+        },
+        {
+          "id": "C",
+          "text": "Implement everywhere without review."
+        },
+        {
+          "id": "D",
+          "text": "Remove staff feedback."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Successful changes should be embedded, monitored and scaled thoughtfully."
+    },
+    {
+      "id": "q58",
+      "stem": "Which indicator best measures independent-check reliability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of nurses on shift."
+        },
+        {
+          "id": "B",
+          "text": "Percentage of high-risk doses with a correctly completed independent check."
+        },
+        {
+          "id": "C",
+          "text": "Medication cost."
+        },
+        {
+          "id": "D",
+          "text": "Number of computers."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The indicator directly measures the intended safety process."
+    },
+    {
+      "id": "q59",
+      "stem": "A stewardship programme tracks antibiotic duration and readmission. Why both?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both are financial measures."
+        },
+        {
+          "id": "B",
+          "text": "Neither relates to stewardship."
+        },
+        {
+          "id": "C",
+          "text": "One is a process measure and the other helps assess outcomes or unintended effects."
+        },
+        {
+          "id": "D",
+          "text": "They replace clinical review."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Using multiple measure types provides a fuller picture of effectiveness and safety."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome BEST demonstrates effective quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A policy was issued."
+        },
+        {
+          "id": "B",
+          "text": "Staff attended education."
+        },
+        {
+          "id": "C",
+          "text": "The project ended on time."
+        },
+        {
+          "id": "D",
+          "text": "The targeted harm decreased, key processes improved and unintended effects remained acceptable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Improvement should show measurable benefit, reliable process change and acceptable balancing outcomes."
+    },
+    {
+      "id": "q61",
+      "stem": "What is automation bias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Over-relying on technology recommendations despite conflicting clinical information."
+        },
+        {
+          "id": "B",
+          "text": "Ignoring all technology."
+        },
+        {
+          "id": "C",
+          "text": "Using barcode scanning correctly."
+        },
+        {
+          "id": "D",
+          "text": "Reporting a system fault."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Automation bias occurs when users trust technology too readily and fail to apply independent judgement."
+    },
+    {
+      "id": "q62",
+      "stem": "Which situation best illustrates alert fatigue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A critical allergy alert prevents prescribing."
+        },
+        {
+          "id": "B",
+          "text": "Clinicians override many alerts because they are excessive and often irrelevant."
+        },
+        {
+          "id": "C",
+          "text": "A nurse reports a malfunction."
+        },
+        {
+          "id": "D",
+          "text": "A barcode confirms the correct patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Too many low-value alerts can desensitise users and increase override behaviour."
+    },
+    {
+      "id": "q63",
+      "stem": "A barcode system confirms the medicine, but the patient says it is not their usual dose. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer because the barcode passed."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to accept it."
+        },
+        {
+          "id": "C",
+          "text": "Pause and verify the order, patient and clinical context."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the concern."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology supports but does not replace clinical judgement or patient participation."
+    },
+    {
+      "id": "q64",
+      "stem": "A smart pump alert is overridden repeatedly because limits do not match local protocols. What is the BEST leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell staff never to override."
+        },
+        {
+          "id": "B",
+          "text": "Disable all alerts."
+        },
+        {
+          "id": "C",
+          "text": "Discipline every user."
+        },
+        {
+          "id": "D",
+          "text": "Review the drug library, workflow and override data with frontline users."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Frequent overrides are safety signals that may reflect poor configuration or workflow mismatch."
+    },
+    {
+      "id": "q65",
+      "stem": "Which risk is associated with copied electronic medication orders?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Outdated or incorrect information may be carried forward."
+        },
+        {
+          "id": "B",
+          "text": "Legibility always improves."
+        },
+        {
+          "id": "C",
+          "text": "Allergy checking becomes unnecessary."
+        },
+        {
+          "id": "D",
+          "text": "Patient identification is guaranteed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Copying can perpetuate outdated doses, weights, indications or durations."
+    },
+    {
+      "id": "q66",
+      "stem": "Why should frontline nurses be involved in technology implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace technical staff."
+        },
+        {
+          "id": "B",
+          "text": "They understand real workflow and potential workarounds."
+        },
+        {
+          "id": "C",
+          "text": "They remove the need for testing."
+        },
+        {
+          "id": "D",
+          "text": "They guarantee no errors."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical users can identify usability risks and workflow mismatch before and after implementation."
+    },
+    {
+      "id": "q67",
+      "stem": "What is an essential component of medication-system downtime planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stopping all medication administration."
+        },
+        {
+          "id": "B",
+          "text": "Using personal messaging apps."
+        },
+        {
+          "id": "C",
+          "text": "A safe alternative process for orders, verification, administration and documentation."
+        },
+        {
+          "id": "D",
+          "text": "Relying on memory."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Downtime plans maintain safe medication processes when electronic systems are unavailable."
+    },
+    {
+      "id": "q68",
+      "stem": "A patient's weight in the electronic record is outdated and drives a dose calculation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the existing weight."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to estimate."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the calculation."
+        },
+        {
+          "id": "D",
+          "text": "Verify the current weight and correct the record before use."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Critical input data must be accurate because technology can amplify incorrect information."
+    },
+    {
+      "id": "q69",
+      "stem": "Which implementation strategy best reduces unsafe workarounds?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analyse workflow, train staff, simulate use and monitor practice."
+        },
+        {
+          "id": "B",
+          "text": "Install the system without consultation."
+        },
+        {
+          "id": "C",
+          "text": "Add more alerts."
+        },
+        {
+          "id": "D",
+          "text": "Punish early users."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Successful implementation aligns technology with clinical work and includes testing, training and monitoring."
+    },
+    {
+      "id": "q70",
+      "stem": "How can barcode technology improve medication safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By replacing all nursing checks."
+        },
+        {
+          "id": "B",
+          "text": "By strengthening patient and product identification."
+        },
+        {
+          "id": "C",
+          "text": "By eliminating adverse reactions."
+        },
+        {
+          "id": "D",
+          "text": "By removing the need for documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Barcode systems support identification but do not replace professional checks."
+    },
+    {
+      "id": "q71",
+      "stem": "Which finding most strongly suggests poor digital-system design?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff complete training."
+        },
+        {
+          "id": "B",
+          "text": "The system records audit trails."
+        },
+        {
+          "id": "C",
+          "text": "High rates of workarounds and repeated near misses."
+        },
+        {
+          "id": "D",
+          "text": "Alerts are clinically relevant."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Workarounds and near misses often indicate a mismatch between technology and workflow."
+    },
+    {
+      "id": "q72",
+      "stem": "A hospital shares a successful medication intervention internationally. What is the most appropriate approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copy it without modification."
+        },
+        {
+          "id": "B",
+          "text": "Assume one solution fits all settings."
+        },
+        {
+          "id": "C",
+          "text": "Ignore local staff input."
+        },
+        {
+          "id": "D",
+          "text": "Adapt it to local resources, policy and practice before implementation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global learning should be adapted to local context and resources."
+    },
+    {
+      "id": "q73",
+      "stem": "Which digital control best reduces infusion-programming errors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A well-maintained smart-pump drug library with appropriate limits."
+        },
+        {
+          "id": "B",
+          "text": "A general reminder poster."
+        },
+        {
+          "id": "C",
+          "text": "Faster data entry."
+        },
+        {
+          "id": "D",
+          "text": "Fewer audits."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Configured dose-error reduction software can support safer programming when maintained and monitored."
+    },
+    {
+      "id": "q74",
+      "stem": "A clinical decision-support system recommends a dose that conflicts with renal results. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the system automatically."
+        },
+        {
+          "id": "B",
+          "text": "Apply clinical judgement and seek review before administration."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the renal result."
+        },
+        {
+          "id": "D",
+          "text": "Delete the alert."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Decision support does not replace assessment, evidence or professional accountability."
+    },
+    {
+      "id": "q75",
+      "stem": "Why should override rates be monitored?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Overrides always indicate misconduct."
+        },
+        {
+          "id": "B",
+          "text": "Monitoring is only for finance."
+        },
+        {
+          "id": "C",
+          "text": "Frequent overrides may indicate alert fatigue, poor settings or unsafe practice."
+        },
+        {
+          "id": "D",
+          "text": "Overrides are not clinically relevant."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Override data can reveal technology and workflow risks requiring review."
+    },
+    {
+      "id": "q76",
+      "stem": "Which information-governance practice is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Share passwords during busy shifts."
+        },
+        {
+          "id": "B",
+          "text": "Photograph medication charts on personal devices."
+        },
+        {
+          "id": "C",
+          "text": "Leave screens open for convenience."
+        },
+        {
+          "id": "D",
+          "text": "Access medication records only for legitimate care purposes and protect passwords."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Digital convenience does not reduce confidentiality and security obligations."
+    },
+    {
+      "id": "q77",
+      "stem": "A global supply alert identifies contamination in a medicine batch. What should nurse leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify local stock, communicate the alert and follow recall procedures."
+        },
+        {
+          "id": "B",
+          "text": "Wait for an incident."
+        },
+        {
+          "id": "C",
+          "text": "Ignore international alerts."
+        },
+        {
+          "id": "D",
+          "text": "Use the batch quickly."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global medication risks can affect local supply chains and require prompt coordinated action."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best indicates safe technology implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff log in successfully."
+        },
+        {
+          "id": "B",
+          "text": "Relevant errors decrease without creating excessive delays or workarounds."
+        },
+        {
+          "id": "C",
+          "text": "The system has many alerts."
+        },
+        {
+          "id": "D",
+          "text": "Training was completed once."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Implementation should improve safety while remaining usable and sustainable."
+    },
+    {
+      "id": "q79",
+      "stem": "A remote monitoring system generates many false alerts. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore all alerts."
+        },
+        {
+          "id": "B",
+          "text": "Ask nurses to work faster."
+        },
+        {
+          "id": "C",
+          "text": "Review thresholds, clinical workflow and response protocols with users and technical staff."
+        },
+        {
+          "id": "D",
+          "text": "Turn off monitoring permanently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Excessive false alerts create fatigue and require collaborative system optimisation."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome BEST reflects the role of a Global Nursing Professional in digital medication safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trust automation completely."
+        },
+        {
+          "id": "B",
+          "text": "Avoid digital systems."
+        },
+        {
+          "id": "C",
+          "text": "Leave technology decisions entirely to IT."
+        },
+        {
+          "id": "D",
+          "text": "Use technology critically, report hazards, lead improvement and preserve clinical judgement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global professionals combine digital capability, governance, clinical judgement and system improvement."
+    }
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Sharps Safety and Needle Stick Exposure",
+      "stem": "A nurse finishes giving a subcutaneous injection during a hectic morning round. As another alarm sounds, the nurse reflexively attempts to recap the used needle before disposal. The needle slips and punctures the glove and skin of the nurse’s finger. The nurse immediately feels embarrassed and wonders whether the injury is too small to report. However, the source patient’s bloodborne pathogen status is not yet fully known. The event requires correct exposure response and reinforces why recapping sharps is unsafe.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which elements make this a significant sharps safety incident? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "A used needle punctured the nurse’s skin"
+            },
+            {
+              "id": "B",
+              "text": "The needle was being recapped"
+            },
+            {
+              "id": "C",
+              "text": "The patient’s bloodborne risk status may be unknown"
+            },
+            {
+              "id": "D",
+              "text": "The injury occurred during a distracted workflow moment"
+            },
+            {
+              "id": "E",
+              "text": "Reporting and follow-up may be needed"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these details matter. Recapping is a known sharps hazard, and even a small puncture requires appropriate exposure management."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Small needle sticks can be ignored if the glove was on"
+            },
+            {
+              "id": "B",
+              "text": "This is an occupational exposure requiring immediate first aid, reporting, and follow-up according to policy"
+            },
+            {
+              "id": "C",
+              "text": "Only the employee’s supervisor needs to know next week"
+            },
+            {
+              "id": "D",
+              "text": "Recapping is acceptable if done carefully"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Gloves reduce but do not eliminate risk. The nurse must treat this as a reportable exposure and follow policy promptly."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for bloodborne pathogen exposure related to sharps injury"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Embarrassment about the incident"
+            },
+            {
+              "id": "D",
+              "text": "Delay in lunch break"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The priority is exposure management and prevention of infection-related harm."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Perform immediate first aid, report the exposure promptly, and follow occupational health or exposure protocol"
+            },
+            {
+              "id": "B",
+              "text": "Hide the injury because it seems minor"
+            },
+            {
+              "id": "C",
+              "text": "Continue working without telling anyone"
+            },
+            {
+              "id": "D",
+              "text": "Recap the needle more carefully next time and do nothing else"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Immediate first aid and reporting are required. Delayed or hidden exposure increases risk and weakens safety culture."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional safety actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review sharps disposal practices and avoid recapping"
+            },
+            {
+              "id": "B",
+              "text": "Complete required documentation and source/exposed-person follow-up steps"
+            },
+            {
+              "id": "C",
+              "text": "Participate in system review if workflow contributed to the incident"
+            },
+            {
+              "id": "D",
+              "text": "Reinforce use of puncture-resistant sharps containers nearby"
+            },
+            {
+              "id": "E",
+              "text": "Assume near-misses and minor injuries do not matter"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate. Safety culture depends on learning from both injuries and near-misses."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The exposure is addressed promptly, follow-up is completed, and safer sharps handling is reinforced"
+            },
+            {
+              "id": "B",
+              "text": "The injury is hidden and no protocol is followed"
+            },
+            {
+              "id": "C",
+              "text": "Recapping continues because the staff are busy"
+            },
+            {
+              "id": "D",
+              "text": "Documentation is avoided to protect reputations"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects staff, supports legal and occupational requirements, and prevents recurrence."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Oxygen Therapy and Fire Hazard",
+      "stem": "Mr. Luke Bennett, a 69-year-old patient with COPD, is receiving oxygen via nasal cannula. The nurse notices that he is using petroleum-based lip ointment and that his daughter has plugged in a small electric heating device near the bed because he says the room feels cold. The oxygen tubing runs loosely across the linens. The patient says no one told him the lip ointment or electrical setup could be dangerous. The nurse recognises a serious environmental safety hazard in an oxygen-enriched setting.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which factors create fire or burn risk in this scenario? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oxygen therapy in use"
+            },
+            {
+              "id": "B",
+              "text": "Petroleum-based product near the face"
+            },
+            {
+              "id": "C",
+              "text": "Electrical heating device near the bed"
+            },
+            {
+              "id": "D",
+              "text": "Loose oxygen tubing near linens and equipment"
+            },
+            {
+              "id": "E",
+              "text": "Lack of patient education about oxygen safety"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these factors increase hazard in an oxygen-enriched environment. Oxygen supports combustion, petroleum products are unsafe near oxygen, and electrical heat sources add risk."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The setup is safe because oxygen itself does not burn"
+            },
+            {
+              "id": "B",
+              "text": "The patient is at increased risk of fire or burn injury and requires immediate environmental safety correction"
+            },
+            {
+              "id": "C",
+              "text": "Lip ointment choice is only a comfort issue"
+            },
+            {
+              "id": "D",
+              "text": "Electrical devices are always safe if the patient is awake"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Although oxygen is not itself flammable, it greatly increases combustion risk. The setup requires immediate correction."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for fire-related injury in an oxygen-enriched environment"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Mild discomfort from dry lips"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about nutrition"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate threat is environmental fire or burn injury."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Remove the unsafe items, correct the environment immediately, and educate the patient and family about oxygen precautions"
+            },
+            {
+              "id": "B",
+              "text": "Wait until discharge teaching to mention oxygen safety"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the petroleum product because it is only on the lips"
+            },
+            {
+              "id": "D",
+              "text": "Turn the oxygen up higher to compensate for the room setup"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safety hazards should be corrected immediately, not later. Oxygen safety education is part of risk reduction."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ensure only approved water-based products are used if needed"
+            },
+            {
+              "id": "B",
+              "text": "Keep ignition sources away from oxygen equipment"
+            },
+            {
+              "id": "C",
+              "text": "Secure tubing to reduce tangling and environmental hazard"
+            },
+            {
+              "id": "D",
+              "text": "Reinforce no-smoking and fire-risk education as appropriate"
+            },
+            {
+              "id": "E",
+              "text": "Assume family members already know oxygen safety rules"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all correct safety interventions. Education should never be assumed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unsafe products and devices are removed, the patient understands oxygen precautions, and the environment is safer"
+            },
+            {
+              "id": "B",
+              "text": "The heating device remains because the family prefers it"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen tubing stays tangled across the bed"
+            },
+            {
+              "id": "D",
+              "text": "Education is omitted because no fire has occurred yet"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Preventing harm is the goal. A safer environment and improved understanding show effective nursing intervention."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Aspiration Risk After Stroke",
+      "stem": "Mr. Victor Singh, a 77-year-old man recovering from an acute stroke, is awaiting formal swallow assessment. A family member tries to help by offering water while he is semi-reclined in bed. The patient coughs forcefully, his voice sounds wet afterward, and he appears distressed. The nurse recognises that the patient may have dysphagia and that aspiration prevention is critical. The situation requires immediate assessment, education, and safe feeding precautions.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest aspiration risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recent stroke"
+            },
+            {
+              "id": "B",
+              "text": "No completed swallow assessment yet"
+            },
+            {
+              "id": "C",
+              "text": "Water given while semi-reclined"
+            },
+            {
+              "id": "D",
+              "text": "Coughing during swallowing"
+            },
+            {
+              "id": "E",
+              "text": "Wet voice afterward"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues suggest dysphagia and aspiration risk. Stroke can impair swallowing, and coughing with a wet voice after intake is especially concerning."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient tolerated fluids well"
+            },
+            {
+              "id": "B",
+              "text": "The patient may have aspirated and needs immediate swallowing safety intervention"
+            },
+            {
+              "id": "C",
+              "text": "Coughing always means the airway is cleared and there is no problem"
+            },
+            {
+              "id": "D",
+              "text": "Family feeding before assessment is harmless"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse must take the event seriously. Aspiration may lead to airway compromise or pneumonia if precautions are not applied."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for aspiration and impaired airway protection"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Low self-esteem"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway protection comes first in a patient with suspected swallowing impairment."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop oral intake, assess the patient’s respiratory status, position safely, and ensure formal swallowing precautions are followed"
+            },
+            {
+              "id": "B",
+              "text": "Offer more water to test tolerance"
+            },
+            {
+              "id": "C",
+              "text": "Leave the family to continue helping because they mean well"
+            },
+            {
+              "id": "D",
+              "text": "Delay assessment until meal time"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must stop unsafe oral intake and protect the airway immediately. Family intention does not change the aspiration risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maintain upright positioning during any allowed intake"
+            },
+            {
+              "id": "B",
+              "text": "Clarify NPO status and swallow orders with the team"
+            },
+            {
+              "id": "C",
+              "text": "Educate the family about why unapproved oral intake is unsafe"
+            },
+            {
+              "id": "D",
+              "text": "Monitor for coughing, choking, wet voice, or respiratory change"
+            },
+            {
+              "id": "E",
+              "text": "Assume aspiration risk ends once the coughing stops"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these actions are appropriate. Aspiration complications may continue even after immediate coughing subsides."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oral intake is withheld until safe, aspiration signs do not recur, and the family understands swallowing precautions"
+            },
+            {
+              "id": "B",
+              "text": "Water continues to be offered because the patient is thirsty"
+            },
+            {
+              "id": "C",
+              "text": "The patient develops worsening respiratory symptoms without reassessment"
+            },
+            {
+              "id": "D",
+              "text": "Positioning is ignored during future meals"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective care prevents repeat aspiration and improves family understanding of safety precautions."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Pressure Injury Prevention in an Immobile Patient",
+      "stem": "Mrs. Janet Clarke is a 68-year-old patient with limited mobility after a stroke. She requires assistance for turning and has poor nutritional intake due to fatigue. During a busy shift, repositioning is delayed several times. By evening, the nurse notices non-blanching redness over the sacral area and mild skin warmth. The nurse recognises early pressure injury development and understands that prevention is safer and far easier than treatment. The situation requires immediate protective action and reassessment of the turning plan.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate increased pressure injury risk or early injury? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Immobility after stroke"
+            },
+            {
+              "id": "B",
+              "text": "Repositioning delays"
+            },
+            {
+              "id": "C",
+              "text": "Poor nutritional intake"
+            },
+            {
+              "id": "D",
+              "text": "Non-blanching redness over sacrum"
+            },
+            {
+              "id": "E",
+              "text": "Warmth at pressure area"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are relevant. Immobility, delayed turning, poor nutrition, and early skin changes are classic pressure injury concerns."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The skin changes are insignificant and can be reviewed later"
+            },
+            {
+              "id": "B",
+              "text": "Early pressure injury is developing and immediate prevention/escalation measures are required"
+            },
+            {
+              "id": "C",
+              "text": "Warm skin means circulation is fine and there is no issue"
+            },
+            {
+              "id": "D",
+              "text": "Pressure injuries occur only in ICU patients"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The patient is showing early pressure damage. Prompt intervention can prevent progression."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for worsening tissue injury related to sustained pressure and impaired mobility"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "C",
+              "text": "Social withdrawal"
+            },
+            {
+              "id": "D",
+              "text": "Need for reading materials"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Tissue preservation is the immediate priority. Delay may convert an early injury into a deeper wound."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Relieve pressure immediately, reposition the patient, assess the skin thoroughly, and update the prevention plan"
+            },
+            {
+              "id": "B",
+              "text": "Massage the reddened area vigorously"
+            },
+            {
+              "id": "C",
+              "text": "Leave the patient in the same position until morning"
+            },
+            {
+              "id": "D",
+              "text": "Cover the area without reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Pressure must be relieved immediately. Vigorous massage can worsen tissue damage and is not appropriate."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use pressure-relieving surfaces or devices as indicated"
+            },
+            {
+              "id": "B",
+              "text": "Strengthen repositioning schedules and staff communication"
+            },
+            {
+              "id": "C",
+              "text": "Address nutrition and moisture management"
+            },
+            {
+              "id": "D",
+              "text": "Document skin findings precisely"
+            },
+            {
+              "id": "E",
+              "text": "Assume redness will resolve without follow-up"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these are core pressure injury prevention measures. Accurate documentation and regular reassessment are essential."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pressure is relieved, skin is monitored closely, the area does not worsen, and preventive measures are consistently maintained"
+            },
+            {
+              "id": "B",
+              "text": "Redness deepens while repositioning remains inconsistent"
+            },
+            {
+              "id": "C",
+              "text": "Nutrition is ignored because skin care alone is enough"
+            },
+            {
+              "id": "D",
+              "text": "Documentation is skipped"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management prevents progression and supports whole-patient pressure injury prevention."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Infusion Pump Alarm and Equipment Safety",
+      "stem": "A patient on IV fluids and vasoactive support has an infusion pump that alarms repeatedly during the night shift. Because the alarm has sounded several times earlier for minor occlusion issues, a fatigued nurse silences it twice without immediately checking the line and pump settings. Shortly afterward, the patient becomes more short of breath and develops worsening blood pressure instability. When the nurse finally checks the equipment, the infusion settings are incorrect and the IV line is partially occluded. The scenario highlights the danger of alarm fatigue and failure to assess equipment safety promptly.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which factors make this a serious equipment safety event? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Repeated pump alarms"
+            },
+            {
+              "id": "B",
+              "text": "Silencing the alarm without full assessment"
+            },
+            {
+              "id": "C",
+              "text": "Incorrect infusion settings later discovered"
+            },
+            {
+              "id": "D",
+              "text": "Partial line occlusion"
+            },
+            {
+              "id": "E",
+              "text": "Patient deterioration occurring during the delay"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these factors contribute to a serious safety event. Alarm fatigue is dangerous because it may delay recognition of true equipment malfunction or medication error."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pump alarms can usually be ignored if they happen often"
+            },
+            {
+              "id": "B",
+              "text": "Repeated alarms require direct assessment because unresolved equipment issues can rapidly harm patients"
+            },
+            {
+              "id": "C",
+              "text": "Only biomedical engineering is responsible for infusion safety"
+            },
+            {
+              "id": "D",
+              "text": "Patient symptoms are probably unrelated to the pump"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Nurses must assess alarms directly rather than assuming they are routine nuisances. Infusion pumps deliver high-risk therapy and incorrect settings can quickly cause harm."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for medication or fluid harm due to faulty infusion delivery"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern caused by alarms"
+            },
+            {
+              "id": "C",
+              "text": "Staff annoyance"
+            },
+            {
+              "id": "D",
+              "text": "Mild paperwork delay"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate concern is patient harm from incorrect infusion delivery, particularly with vasoactive or other critical fluids."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess the patient and infusion system immediately, correct the equipment issue safely, and escalate as needed based on the patient’s condition"
+            },
+            {
+              "id": "B",
+              "text": "Silence the alarm again and observe from the doorway"
+            },
+            {
+              "id": "C",
+              "text": "Turn off the pump and ignore the IV order"
+            },
+            {
+              "id": "D",
+              "text": "Wait until the next scheduled equipment round"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must treat the alarm as a potential patient safety event. Both patient assessment and equipment correction are essential."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Verify infusion orders, settings, and line patency"
+            },
+            {
+              "id": "B",
+              "text": "Document the event and patient response accurately"
+            },
+            {
+              "id": "C",
+              "text": "Report defective or unreliable equipment if relevant"
+            },
+            {
+              "id": "D",
+              "text": "Reflect on alarm fatigue and prevention strategies with the team"
+            },
+            {
+              "id": "E",
+              "text": "Assume alarms are harmless if the patient is asleep"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All of these are correct. Safe equipment use includes clear documentation, order verification, and reporting of malfunction or workflow issues."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is reassessed promptly, the infusion problem is corrected, and the equipment issue is not ignored again"
+            },
+            {
+              "id": "B",
+              "text": "Alarms continue to be silenced without review"
+            },
+            {
+              "id": "C",
+              "text": "Documentation omits the incident"
+            },
+            {
+              "id": "D",
+              "text": "The patient worsens while staff assume the pump is fine"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management involves rapid correction, patient reassessment, and prevention of repeated unsafe alarm responses."
+        }
+      ]
+    }
+  ]
+}

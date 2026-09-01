@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Failure to thrive",
+      "scenario": "An infant attending a routine health visit is noted to have poor weight gain compared to previous visits. The caregiver reports feeding difficulties and limited intake. Developmental milestones appear delayed compared to age expectations.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess feeding patterns and caregiver interaction.",
+      "modelWhy": "Early intervention improves outcomes.",
+      "modelNext": "Monitor growth trends.",
+      "trap": "Assuming small size is normal.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Congenital heart defect",
+      "scenario": "An infant with a known congenital heart defect becomes visibly cyanotic during feeding. The infant tires quickly, stops sucking frequently, and shows increased work of breathing during feeds.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop feeding and assess oxygenation.",
+      "modelWhy": "Feeding increases oxygen demand.",
+      "modelNext": "Monitor oxygen saturation and heart sounds.",
+      "trap": "Forcing the infant to finish feeding.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Pediatric shock",
+      "scenario": "A child presents appearing pale and lethargic. The skin feels cool to touch, heart rate is elevated, and capillary refill is delayed. Blood pressure remains within normal range, but the child’s overall appearance suggests deterioration.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate emergency response and support circulation.",
+      "modelWhy": "Children compensate until sudden collapse.",
+      "modelNext": "Monitor vital signs closely.",
+      "trap": "Waiting for hypotension.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Type 1 diabetes – hypoglycemia",
+      "scenario": "A school-aged child with type 1 diabetes is participating in physical activity when they suddenly appear pale, sweaty, and confused. The child reports feeling shaky and weak but has not yet checked blood glucose levels.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Check blood glucose and provide fast-acting carbohydrate.",
+      "modelWhy": "Hypoglycemia threatens brain function.",
+      "modelNext": "Recheck glucose after treatment.",
+      "trap": "Administering insulin.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Diabetic ketoacidosis",
+      "scenario": "A child is admitted with vomiting, abdominal pain, and deep, rapid breathing. The caregiver reports increased thirst and frequent urination over several days. A fruity odor is noticeable on the child’s breath.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Begin IV fluids as ordered.",
+      "modelWhy": "Fluid deficit is severe in DKA.",
+      "modelNext": "Monitor electrolytes.",
+      "trap": "Starting insulin before fluids.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Pediatric burn",
+      "scenario": "A child is brought to the emergency department after pulling a container of hot liquid onto themselves. Burns are visible over the chest and arms, and the child is crying in pain. Blistering is present in some areas.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the burning process and assess airway.",
+      "modelWhy": "Burns can compromise airway and circulation.",
+      "modelNext": "Estimate burn size and monitor vitals.",
+      "trap": "Applying ice directly to burns.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Suspected child abuse",
+      "scenario": "A toddler presents with multiple bruises in different stages of healing. The explanation provided by the caregiver does not align with the child’s developmental abilities. The child appears withdrawn during the assessment.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure child safety and report concerns per policy.",
+      "modelWhy": "Healthcare professionals are mandatory reporters.",
+      "modelNext": "Document objective findings.",
+      "trap": "Confronting caregivers aggressively.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Poison ingestion",
+      "scenario": "A child is brought in after accidentally ingesting an unknown quantity of household cleaning product. The caregiver is unsure how much was swallowed. The child is drooling slightly and appears uncomfortable.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Call poison control and assess airway.",
+      "modelWhy": "Some substances cause rapid tissue injury.",
+      "modelNext": "Monitor vital signs and symptoms.",
+      "trap": "Inducing vomiting.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

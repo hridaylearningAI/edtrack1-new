@@ -1,0 +1,1983 @@
+{
+  "level": 3,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 3 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 5 - Level 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Advanced Adult Nursing Care · Level 3",
+          "bullets": [
+            {
+              "label": "\"Manage complexity with confidence.\"",
+              "text": ""
+            },
+            {
+              "label": "ADULT MEDICAL-SURGICAL NURSING II",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to Level 3",
+          "body": "Level 3 is the highest tier of the GNPS learning pathway. At this level, Global Nursing Professionals move beyond individual bedside care to influence complex adult care systems.",
+          "bullets": [
+            {
+              "label": "You will strengthen rapid-response systems,",
+              "text": "You will strengthen rapid-response systems, lead clinical education, analyse high-acuity outcomes and improve coordination across emergency, critical and general-care environments."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Lead Safe Complex Care",
+              "text": ""
+            },
+            {
+              "label": "Guide care for deteriorating and high-acuity adults with confidence and accountability.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Rapid-Response Systems",
+              "text": ""
+            },
+            {
+              "label": "Strengthen escalation pathways and evaluate early-warning systems in real environments.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Evidence Translation",
+              "text": ""
+            },
+            {
+              "label": "Convert clinical evidence into practical, sustainable acute-care pathways and workflows.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Digital & Equitable Care",
+              "text": ""
+            },
+            {
+              "label": "Use predictive technology responsibly and champion equitable access to specialist support.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "High-acuity outcomes depend not only on individual knowledge but also on reliable systems, staffing, communication, technology and access to specialist support.",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals connect these",
+              "text": "Global Nursing Professionals connect these factors and lead improvements that make timely, safe care more dependable — for every patient, in every shift."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "By completing Level 3, you should be prepared to lead complex adult-care improvement, mentor colleagues, use data and evidence effectively, and contribute to safer high-acuity healthcare — locally and globally.",
+          "bullets": [
+            {
+              "label": "Lead",
+              "text": ""
+            },
+            {
+              "label": "High-acuity systems & workforce capability",
+              "text": ""
+            },
+            {
+              "label": "Mentor",
+              "text": ""
+            },
+            {
+              "label": "Colleagues through simulation & case review",
+              "text": ""
+            },
+            {
+              "label": "Improve",
+              "text": ""
+            },
+            {
+              "label": "Outcomes using data, evidence & quality methods",
+              "text": ""
+            },
+            {
+              "label": "Connect",
+              "text": ""
+            },
+            {
+              "label": "Global learning to local clinical context",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Leading High-Acuity Adult Nursing Practice",
+          "bullets": [
+            {
+              "label": "Clinical leaders create the conditions in which",
+              "text": "Clinical leaders create the conditions in which nurses can identify deterioration, access help and deliver consistent evidence-based care."
+            },
+            {
+              "label": "Visible support and psychological safety",
+              "text": ""
+            },
+            {
+              "label": "Safe staffing aligned to patient acuity",
+              "text": ""
+            },
+            {
+              "label": "Ongoing competence development",
+              "text": ""
+            },
+            {
+              "label": "Accountable, calm decision-making",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Core Leadership Concepts",
+          "body": "Clinical Presence",
+          "bullets": [
+            {
+              "label": "Leaders remain aware of patient acuity,",
+              "text": "Leaders remain aware of patient acuity, workload and resources — providing timely support when staff face uncertainty or competing priorities."
+            },
+            {
+              "label": "Psychological Safety",
+              "text": ""
+            },
+            {
+              "label": "Staff must feel able to ask questions and",
+              "text": "Staff must feel able to ask questions and escalate concerns without fear of humiliation. Early communication prevents preventable harm."
+            },
+            {
+              "label": "Capability Development",
+              "text": ""
+            },
+            {
+              "label": "Simulation, case review, supervised practice",
+              "text": "Simulation, case review, supervised practice and structured feedback sharpen nursing judgement for emergencies and complex therapies."
+            },
+            {
+              "label": "Fair Accountability",
+              "text": ""
+            },
+            {
+              "label": "Leaders balance learning with fair accountability, ensuring standards remain reliable even under pressure.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Section 1: Clinical Example",
+          "body": "A senior nurse notices that junior staff hesitate to activate rapid response without medical approval. The leader clarifies the policy, conducts simulation and reinforces that nursing concern alone is a valid trigger.",
+          "bullets": [
+            {
+              "label": "Key principle: Make escalation safe, expected and nurse-led.",
+              "text": ""
+            },
+            {
+              "label": "Clarify Policy",
+              "text": ""
+            },
+            {
+              "label": "Remove ambiguity around escalation triggers",
+              "text": ""
+            },
+            {
+              "label": "Run Simulation",
+              "text": ""
+            },
+            {
+              "label": "Build confidence through practice scenarios",
+              "text": ""
+            },
+            {
+              "label": "Reinforce Culture",
+              "text": ""
+            },
+            {
+              "label": "Validate nurse-initiated rapid response",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Designing Reliable Deterioration & Rapid-Response Systems",
+          "bullets": [
+            {
+              "label": "Effective deterioration systems combine",
+              "text": "Effective deterioration systems combine accurate monitoring, trend recognition, clear activation criteria and timely specialist response. The measure of success is real patient outcomes — not only whether forms are completed."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "System Reliability & Human Factors",
+          "body": "What Leaders Must Address",
+          "bullets": [
+            {
+              "label": "Ensure observation frequency and equipment are consistent across all shifts",
+              "text": ""
+            },
+            {
+              "label": "Challenge hierarchy barriers that delay escalation",
+              "text": ""
+            },
+            {
+              "label": "Include patient and family escalation as a safety pathway",
+              "text": ""
+            },
+            {
+              "label": "Monitor unplanned ICU admissions, cardiac arrests and response times",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "Section 2: Clinical Example & Measurement",
+          "body": "A hospital finds that deteriorating patients are recognised but escalation is delayed overnight. Review identifies reduced senior coverage and unclear call pathways. Leaders redesign overnight response and monitor time to review.",
+          "bullets": [
+            {
+              "label": "What to Measure",
+              "text": ""
+            },
+            {
+              "label": "Recognition-to-response time",
+              "text": ""
+            },
+            {
+              "label": "Unplanned ICU admissions",
+              "text": ""
+            },
+            {
+              "label": "Cardiac arrest rates",
+              "text": ""
+            },
+            {
+              "label": "Staff escalation confidence",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Quality Improvement & Evidence Translation",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals use evidence and",
+              "text": "Global Nursing Professionals use evidence and local data to reduce complications such as sepsis mortality, unplanned transfers, treatment delays and medication harm. Effective improvement converts evidence into practical workflow — not just policy documents."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "The Improvement Framework",
+          "body": "Define Priorities",
+          "bullets": [
+            {
+              "label": "Use incident trends, audits and staff feedback.",
+              "text": ""
+            },
+            {
+              "label": "Design Pathways",
+              "text": ""
+            },
+            {
+              "label": "Create evidence-based sepsis, stroke, chest pain protocols.",
+              "text": ""
+            },
+            {
+              "label": "Test Change",
+              "text": ""
+            },
+            {
+              "label": "Run small tests before wider rollout to learn quickly.",
+              "text": ""
+            },
+            {
+              "label": "Sustain",
+              "text": ""
+            },
+            {
+              "label": "Redesign workflow, add digital prompts, ensure leadership follow-through.",
+              "text": ""
+            },
+            {
+              "label": "Small, tested changes allow teams to learn",
+              "text": "Small, tested changes allow teams to learn before wider implementation. Education alone is rarely sufficient — sustainable improvement also requires workflow redesign, equipment, digital prompts and consistent leadership follow-through."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3: Sepsis Improvement Example",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "A unit experiences repeated delays in recognising sepsis. The improvement team acts on multiple fronts simultaneously.",
+              "text": ""
+            },
+            {
+              "label": "Screening Prompt",
+              "text": ""
+            },
+            {
+              "label": "Embedded in documentation workflow",
+              "text": ""
+            },
+            {
+              "label": "Escalation Algorithm",
+              "text": ""
+            },
+            {
+              "label": "Clear criteria, nurse-initiated",
+              "text": ""
+            },
+            {
+              "label": "Simulation & Audit",
+              "text": ""
+            },
+            {
+              "label": "Feedback loop on antibiotic timing",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Digital Monitoring, Equity & Global Collaboration",
+          "bullets": [
+            {
+              "label": "Digital Surveillance",
+              "text": ""
+            },
+            {
+              "label": "Electronic trends and predictive scores can",
+              "text": "Electronic trends and predictive scores can identify risk earlier — but accuracy depends on data quality and appropriate clinical response."
+            },
+            {
+              "label": "Automation Bias",
+              "text": ""
+            },
+            {
+              "label": "Clinicians may over-trust a normal score and",
+              "text": "Clinicians may over-trust a normal score and skip direct assessment. Technology supports — it does not replace — professional judgement."
+            },
+            {
+              "label": "Equity & Access",
+              "text": ""
+            },
+            {
+              "label": "Rapid response, diagnostics and specialist care",
+              "text": "Rapid response, diagnostics and specialist care differ widely between settings. Improvement must consider rural, remote and resource-limited environments."
+            },
+            {
+              "label": "Global Collaboration",
+              "text": ""
+            },
+            {
+              "label": "Sharing innovations can improve care globally —",
+              "text": "Sharing innovations can improve care globally — but solutions must be adapted to local disease patterns, workforce capacity and available resources."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Section 4: Rural Specialist Support Example",
+          "body": "A health system introduces remote specialist support for rural hospitals managing deteriorating adults. Nurse leaders develop clear activation criteria, local stabilisation protocols and backup communication plans for when technology fails.",
+          "bullets": [
+            {
+              "label": "Design for unequal access — not just the ideal scenario.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "content",
+          "title": "The GNPS Learning Pathway",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Level 1 · Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Recognise and respond safely to common high-acuity adult conditions.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Level 2 · Internationally Qualified Nurse",
+              "text": ""
+            },
+            {
+              "label": "Apply advanced interpretation, high-risk therapy management and international acute-care standards.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Level 3 · Global Nursing Professional",
+              "text": ""
+            },
+            {
+              "label": "Lead high-acuity systems, workforce capability, quality improvement and equitable innovation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "Program Complete: You Are a Global Nursing Professional",
+          "body": "By completing GNPS Program 5 – Level 3, you are prepared to lead complex adult-care improvement, mentor colleagues, use data and evidence effectively and contribute to safer high-acuity healthcare — locally and globally.",
+          "bullets": [
+            {
+              "label": "Lead",
+              "text": ""
+            },
+            {
+              "label": "High-acuity systems",
+              "text": ""
+            },
+            {
+              "label": "Translate",
+              "text": ""
+            },
+            {
+              "label": "Evidence into practice",
+              "text": ""
+            },
+            {
+              "label": "Improve",
+              "text": ""
+            },
+            {
+              "label": "Outcomes with data",
+              "text": ""
+            },
+            {
+              "label": "Inspire",
+              "text": ""
+            },
+            {
+              "label": "Equitable global care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Leading High-Acuity Adult Nursing Practice",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 5 - Level 3 - Section 1 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II — \"Manage complexity with confidence.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 3 · GLOBAL NURSING PROFESSIONAL",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Program Overview",
+          "body": "Section 1: Leading High-Acuity Adult Nursing Practice",
+          "bullets": [
+            {
+              "label": "This section equips nursing professionals with",
+              "text": "This section equips nursing professionals with the leadership skills needed to manage complex, high-acuity clinical environments — promoting safety, accountability, and team competence."
+            },
+            {
+              "label": "ADULT MEDICAL-SURGICAL NURSING II",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "The Role of Clinical Leadership",
+          "body": "Clinical leaders create the conditions in which nurses can identify deterioration early, access help swiftly, and deliver consistent evidence-based care — every shift, every patient.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Lead Safe Practice",
+              "text": ""
+            },
+            {
+              "label": "Direct high-acuity nursing with confidence and clinical authority.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Promote Psychological Safety",
+              "text": ""
+            },
+            {
+              "label": "Encourage early escalation without fear of humiliation or blame.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Support Competence",
+              "text": ""
+            },
+            {
+              "label": "Develop workforce capability through structured learning and feedback.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Model Accountability",
+              "text": ""
+            },
+            {
+              "label": "Demonstrate fair, principled clinical decision-making under pressure.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Clinical Leadership Presence",
+          "body": "Staying Aware and Available",
+          "bullets": [
+            {
+              "label": "Effective leaders maintain continuous awareness",
+              "text": "Effective leaders maintain continuous awareness of patient acuity, workload distribution, and available resources. When staff face uncertainty or competing priorities, leaders provide timely, visible support — not just administrative oversight."
+            },
+            {
+              "label": "Presence is not just physical — it is clinical awareness made visible to your team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Psychological Safety",
+          "body": "Speak Up Culture",
+          "bullets": [
+            {
+              "label": "Staff must feel safe to ask questions, raise concerns, and escalate — without fear of embarrassment or reprisal.",
+              "text": ""
+            },
+            {
+              "label": "Early Communication",
+              "text": ""
+            },
+            {
+              "label": "Concerns raised early prevent harm. Delay caused by hesitation is a patient safety risk in itself.",
+              "text": ""
+            },
+            {
+              "label": "Leader Responsibility",
+              "text": ""
+            },
+            {
+              "label": "Leaders actively model openness and respond to concerns with respect and action — not dismissal.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Capability Development",
+          "body": "Building Clinical Judgement",
+          "bullets": [
+            {
+              "label": "Competence in emergency and complex care scenarios is built through deliberate practice — not experience alone.",
+              "text": ""
+            },
+            {
+              "label": "Simulation",
+              "text": ""
+            },
+            {
+              "label": "Safe environments to practise high-stakes decisions.",
+              "text": ""
+            },
+            {
+              "label": "Case Review",
+              "text": ""
+            },
+            {
+              "label": "Structured reflection on real clinical scenarios.",
+              "text": ""
+            },
+            {
+              "label": "Supervised Practice",
+              "text": ""
+            },
+            {
+              "label": "Guided learning with timely, constructive feedback.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Accountability",
+          "body": "Balancing Learning and Standards",
+          "bullets": [
+            {
+              "label": "Leaders hold both values simultaneously. A",
+              "text": "Leaders hold both values simultaneously. A learning culture does not mean absence of accountability — it means accountability applied fairly and consistently, even under operational pressure."
+            },
+            {
+              "label": "Reliable standards protect patients. Fair processes protect nurses.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Rapid Response Hesitation",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "Junior staff hesitate to activate rapid response without medical approval — delaying critical intervention.",
+              "text": ""
+            },
+            {
+              "label": "The Leadership Response",
+              "text": ""
+            },
+            {
+              "label": "A senior nurse clarifies policy: nursing concern alone is a valid trigger for rapid response activation.",
+              "text": ""
+            },
+            {
+              "label": "The Outcome",
+              "text": ""
+            },
+            {
+              "label": "Simulation is conducted, confidence is rebuilt, and early escalation becomes the team's standard practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Make Escalation Safe",
+          "bullets": [
+            {
+              "label": "Escalation must be culturally expected, not reluctantly tolerated.",
+              "text": ""
+            },
+            {
+              "label": "Align Staffing to Acuity",
+              "text": ""
+            },
+            {
+              "label": "Match workforce competence and numbers to patient complexity at all times.",
+              "text": ""
+            },
+            {
+              "label": "Strengthen Judgement",
+              "text": ""
+            },
+            {
+              "label": "Use simulation and case review to build reliable clinical decision-making.",
+              "text": ""
+            },
+            {
+              "label": "Model Calm Leadership",
+              "text": ""
+            },
+            {
+              "label": "Accountable, composed leaders set the standard for the whole team.",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Relevance: Leadership, safety culture,",
+              "text": "NCLEX Relevance: Leadership, safety culture, and delegation principles are frequently tested in NCLEX management of care questions."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Designing Reliable Deterioration & Rapid-Response Systems",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 5 - Level 3 - Section 2 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Advanced Adult Nursing Care",
+          "body": "Global Nursing Professional Series (GNPS) — Program 5",
+          "bullets": [
+            {
+              "label": "Section 2: Designing Reliable Deterioration and Rapid-Response Systems",
+              "text": ""
+            },
+            {
+              "label": "ADULT MEDICAL-SURGICAL NURSING II",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section Overview",
+          "body": "\"Manage complexity with confidence.\" This section equips nurses and nursing leaders to build, evaluate, and improve systems that detect patient deterioration early and trigger timely, effective responses.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Early-Warning Systems",
+              "text": ""
+            },
+            {
+              "label": "Evaluate scoring tools and monitoring protocols",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Barriers to Recognition",
+              "text": ""
+            },
+            {
+              "label": "Identify human and organisational factors that cause delay",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Escalation Pathways",
+              "text": ""
+            },
+            {
+              "label": "Design clear, reliable response chains",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Outcome Measurement",
+              "text": ""
+            },
+            {
+              "label": "Use data to drive continuous improvement",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Evaluate",
+              "text": ""
+            },
+            {
+              "label": "Early-warning and rapid-response systems against real patient outcomes",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Identify",
+              "text": ""
+            },
+            {
+              "label": "Barriers to timely recognition across shifts and care settings",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Design",
+              "text": ""
+            },
+            {
+              "label": "Reliable escalation pathways with clear activation criteria",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Apply Data",
+              "text": ""
+            },
+            {
+              "label": "Use outcome metrics to evaluate and improve system performance",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "What Makes a Deterioration System Effective?",
+          "body": "Effective systems do not simply produce completed forms — they deliver timely, appropriate specialist responses to real patients in real conditions. Four pillars must align:",
+          "bullets": [
+            {
+              "label": "Accurate Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Consistent observation of vital parameters across every shift",
+              "text": ""
+            },
+            {
+              "label": "Trend Recognition",
+              "text": ""
+            },
+            {
+              "label": "Identifying subtle changes before a crisis develops",
+              "text": ""
+            },
+            {
+              "label": "Clear Activation Criteria",
+              "text": ""
+            },
+            {
+              "label": "Agreed thresholds that trigger immediate escalation",
+              "text": ""
+            },
+            {
+              "label": "Timely Response",
+              "text": ""
+            },
+            {
+              "label": "Specialist review that arrives within defined timeframes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: System Reliability",
+          "body": "Reliability means the system performs consistently — not just during the day shift, but across all shifts, all wards, and all staffing levels.",
+          "bullets": [
+            {
+              "label": "Observation Frequency",
+              "text": ""
+            },
+            {
+              "label": "Monitoring intervals matched to patient acuity",
+              "text": ""
+            },
+            {
+              "label": "Equipment Availability",
+              "text": ""
+            },
+            {
+              "label": "Functional, calibrated devices at the point of care",
+              "text": ""
+            },
+            {
+              "label": "Documentation Standards",
+              "text": ""
+            },
+            {
+              "label": "Accurate, timely recording of all observations",
+              "text": ""
+            },
+            {
+              "label": "Response Pathways",
+              "text": ""
+            },
+            {
+              "label": "Clear escalation routes that every nurse knows and trusts",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Human Factors",
+          "body": "Even well-designed systems can fail when human and environmental factors interfere with recognition and response. Leaders must identify and mitigate these risks proactively.",
+          "bullets": [
+            {
+              "label": "Alarm Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Frequent false or low-priority alerts cause staff to desensitise, increasing the risk of missing critical warnings",
+              "text": ""
+            },
+            {
+              "label": "Hierarchy Barriers",
+              "text": ""
+            },
+            {
+              "label": "Junior nurses may hesitate to escalate concerns to senior clinicians, delaying timely review",
+              "text": ""
+            },
+            {
+              "label": "Workload Pressure",
+              "text": ""
+            },
+            {
+              "label": "High patient-to-nurse ratios and interruptions reduce the time available for thorough observation",
+              "text": ""
+            },
+            {
+              "label": "Normalisation of Deviation",
+              "text": ""
+            },
+            {
+              "label": "Repeated exposure to abnormal findings without consequence can lead staff to accept them as routine",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Patient and Family Escalation",
+          "body": "Some rapid-response systems extend beyond clinical staff, empowering patients and families to request urgent review when they feel concerns are not being addressed.",
+          "bullets": [
+            {
+              "label": "This is not a failure of the nursing team — it",
+              "text": "This is not a failure of the nursing team — it is an additional safety layer that catches deterioration that might otherwise go unnoticed."
+            },
+            {
+              "label": "Systems like \"Ryan's Rule\" (Australia) and",
+              "text": "Systems like \"Ryan's Rule\" (Australia) and \"Condition H\" (USA) are examples of patient-activated escalation pathways now used internationally."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Measuring What Matters",
+          "body": "Chart completion alone does not confirm that the system is working. Leaders must track outcome-level metrics that reflect real patient safety.",
+          "bullets": [
+            {
+              "label": "Unplanned ICU Admissions",
+              "text": ""
+            },
+            {
+              "label": "A rise may indicate late recognition or delayed escalation",
+              "text": ""
+            },
+            {
+              "label": "Cardiac Arrest Rates",
+              "text": ""
+            },
+            {
+              "label": "Preventable arrests signal failure in the detection-to-response chain",
+              "text": ""
+            },
+            {
+              "label": "Response Time",
+              "text": ""
+            },
+            {
+              "label": "Time from escalation trigger to senior clinical review",
+              "text": ""
+            },
+            {
+              "label": "Staff Confidence",
+              "text": ""
+            },
+            {
+              "label": "Self-reported confidence in recognising and escalating deterioration",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Overnight Escalation Gap",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "A hospital identifies that deteriorating",
+              "text": "A hospital identifies that deteriorating patients are being recognised correctly — but escalation is significantly delayed during overnight hours."
+            },
+            {
+              "label": "Root Cause Review Reveals:",
+              "text": ""
+            },
+            {
+              "label": "Reduced senior medical coverage after midnight",
+              "text": ""
+            },
+            {
+              "label": "Unclear on-call pathways — staff unsure who to contact",
+              "text": ""
+            },
+            {
+              "label": "Junior nurses reluctant to escalate without clear guidance",
+              "text": ""
+            },
+            {
+              "label": "The Intervention",
+              "text": ""
+            },
+            {
+              "label": "Redesigned On-Call Structure",
+              "text": ""
+            },
+            {
+              "label": "Named senior clinician assigned and visible on each overnight shift",
+              "text": ""
+            },
+            {
+              "label": "Clear Call Pathways",
+              "text": ""
+            },
+            {
+              "label": "Step-by-step escalation guide posted in every clinical area",
+              "text": ""
+            },
+            {
+              "label": "Outcome Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Time-to-review tracked weekly; trends reviewed at governance meetings",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Reliable deterioration systems require ongoing leadership, measurement, and a culture where every concern — from staff, patient, or family — is taken seriously.",
+          "bullets": [
+            {
+              "label": "Measure the Complete Pathway",
+              "text": ""
+            },
+            {
+              "label": "Track recognition, escalation and response — not only documentation compliance",
+              "text": ""
+            },
+            {
+              "label": "Address Staffing and Hierarchy Barriers",
+              "text": ""
+            },
+            {
+              "label": "Ensure all nurses feel safe and supported to escalate concerns without hesitation",
+              "text": ""
+            },
+            {
+              "label": "Include Patient and Family Voice",
+              "text": ""
+            },
+            {
+              "label": "Patient-activated escalation pathways add a vital additional layer of safety",
+              "text": ""
+            },
+            {
+              "label": "Use Data to Drive Improvement",
+              "text": ""
+            },
+            {
+              "label": "Test whether changes actually improve outcomes, then share results with your team",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Quality Improvement & Evidence Translation",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 5 - Level 3 - Section 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 5 · Advanced Adult Nursing Care",
+          "bullets": [
+            {
+              "label": "Adult Medical-Surgical Nursing II — \"Manage complexity with confidence.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 3 · GLOBAL NURSING PROFESSIONAL",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3: Quality Improvement & Evidence Translation",
+          "body": "Global Nursing Professionals use evidence and local data to reduce serious complications — including sepsis mortality, unplanned transfers, treatment delays, and medication harm. Effective improvement converts evidence into practical, sustainable workflow.",
+          "bullets": [
+            {
+              "label": "Identify",
+              "text": ""
+            },
+            {
+              "label": "High-acuity improvement priorities",
+              "text": ""
+            },
+            {
+              "label": "Apply",
+              "text": ""
+            },
+            {
+              "label": "Structured improvement methods",
+              "text": ""
+            },
+            {
+              "label": "Translate",
+              "text": ""
+            },
+            {
+              "label": "Evidence into clinical practice",
+              "text": ""
+            },
+            {
+              "label": "Evaluate",
+              "text": ""
+            },
+            {
+              "label": "Sustainability and unintended effects",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be equipped to lead and contribute to quality improvement in complex adult care settings.",
+          "bullets": [
+            {
+              "label": "Identify high-acuity improvement priorities",
+              "text": ""
+            },
+            {
+              "label": "Using incident trends, audit data, and staff feedback.",
+              "text": ""
+            },
+            {
+              "label": "Apply structured improvement methods",
+              "text": ""
+            },
+            {
+              "label": "Plan-Do-Study-Act and other evidence-based frameworks.",
+              "text": ""
+            },
+            {
+              "label": "Translate evidence into clinical practice",
+              "text": ""
+            },
+            {
+              "label": "Bridging research and real-world workflow.",
+              "text": ""
+            },
+            {
+              "label": "Evaluate sustainability and unintended effects",
+              "text": ""
+            },
+            {
+              "label": "Monitor outcomes beyond the initial improvement cycle.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Defining Improvement Priorities",
+          "body": "Where Does the Evidence Come From?",
+          "bullets": [
+            {
+              "label": "Teams must look beyond instinct and identify priorities using objective sources:",
+              "text": ""
+            },
+            {
+              "label": "Incident trends — repeated near-misses or adverse events",
+              "text": ""
+            },
+            {
+              "label": "Audit data — compliance with care standards and guidelines",
+              "text": ""
+            },
+            {
+              "label": "Patient outcomes — mortality, readmission, complication rates",
+              "text": ""
+            },
+            {
+              "label": "Staff feedback — frontline insights into workflow gaps",
+              "text": ""
+            },
+            {
+              "label": "Define the problem clearly before choosing any solution.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Pathways: Evidence into Action",
+          "body": "Evidence-based clinical pathways standardise care for high-risk conditions, reducing variation and improving patient outcomes across complex adult settings.",
+          "bullets": [
+            {
+              "label": "Sepsis Care",
+              "text": ""
+            },
+            {
+              "label": "Timely screening, antibiotic administration, and fluid resuscitation guided by structured protocols.",
+              "text": ""
+            },
+            {
+              "label": "Stroke Response",
+              "text": ""
+            },
+            {
+              "label": "Rapid recognition, imaging, and thrombolysis pathways to minimise neurological damage.",
+              "text": ""
+            },
+            {
+              "label": "Chest Pain Assessment",
+              "text": ""
+            },
+            {
+              "label": "Structured triage, ECG timing, and troponin protocols for acute coronary presentations.",
+              "text": ""
+            },
+            {
+              "label": "Emergency Management",
+              "text": ""
+            },
+            {
+              "label": "Escalation algorithms and rapid response integration for deteriorating patients.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Testing Change: Small Steps, Big Impact",
+          "body": "Plan",
+          "bullets": [
+            {
+              "label": "Do",
+              "text": ""
+            },
+            {
+              "label": "Study",
+              "text": ""
+            },
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "Why Small Tests Matter",
+              "text": ""
+            },
+            {
+              "label": "Large-scale rollouts carry significant risk. Small tests of change allow teams to:",
+              "text": ""
+            },
+            {
+              "label": "Learn quickly with minimal disruption",
+              "text": ""
+            },
+            {
+              "label": "Refine interventions before wider implementation",
+              "text": ""
+            },
+            {
+              "label": "Build staff confidence and buy-in",
+              "text": ""
+            },
+            {
+              "label": "Identify unintended consequences early",
+              "text": ""
+            },
+            {
+              "label": "The PDSA (Plan-Do-Study-Act) cycle is the cornerstone of iterative improvement in clinical settings.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Sustainability: Beyond Education Alone",
+          "body": "Education is a starting point — not a complete solution. Lasting improvement requires a multi-layered approach.",
+          "bullets": [
+            {
+              "label": "Workflow Redesign",
+              "text": ""
+            },
+            {
+              "label": "Restructure processes so the safe option is the easy option for every team member.",
+              "text": ""
+            },
+            {
+              "label": "Equipment & Resources",
+              "text": ""
+            },
+            {
+              "label": "Ensure the right tools are available at the point of care when they are needed most.",
+              "text": ""
+            },
+            {
+              "label": "Digital Prompts",
+              "text": ""
+            },
+            {
+              "label": "Electronic reminders, checklists, and alerts embedded in clinical systems to reduce reliance on memory.",
+              "text": ""
+            },
+            {
+              "label": "Leadership Follow-Through",
+              "text": ""
+            },
+            {
+              "label": "Consistent monitoring, visible support, and accountability from ward leaders and managers.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Sepsis Recognition Delays",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "A medical-surgical unit experienced repeated",
+              "text": "A medical-surgical unit experienced repeated delays in recognising sepsis, leading to late antibiotic administration and avoidable patient deterioration."
+            },
+            {
+              "label": "The Improvement Strategy",
+              "text": ""
+            },
+            {
+              "label": "Introduced a bedside sepsis screening prompt",
+              "text": ""
+            },
+            {
+              "label": "Implemented a structured escalation algorithm",
+              "text": ""
+            },
+            {
+              "label": "Conducted simulation-based training for all ward staff",
+              "text": ""
+            },
+            {
+              "label": "Established regular audit and feedback cycles",
+              "text": ""
+            },
+            {
+              "label": "What Leaders Monitored",
+              "text": ""
+            },
+            {
+              "label": "⏱ Antibiotic Timing",
+              "text": ""
+            },
+            {
+              "label": "Time from recognition to first dose",
+              "text": ""
+            },
+            {
+              "label": "💧 Fluid Safety",
+              "text": ""
+            },
+            {
+              "label": "Appropriate resuscitation volumes",
+              "text": ""
+            },
+            {
+              "label": "👩‍⚕️ Staff Workload",
+              "text": ""
+            },
+            {
+              "label": "Unintended burden on nursing teams",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Connection: Quality & Safety",
+          "body": "This section directly supports NCLEX-RN competencies in Safety and Infection Control, Management of Care, and Physiological Adaptation — critical domains for internationally qualified nurses.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Safely",
+              "text": ""
+            },
+            {
+              "label": "Recognise which patients require urgent escalation based on clinical cues and early warning scores.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Apply the Process",
+              "text": ""
+            },
+            {
+              "label": "Use structured frameworks (SBAR, PDSA) to communicate and implement improvements effectively.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Evaluate Outcomes",
+              "text": ""
+            },
+            {
+              "label": "Continuously assess whether changes achieve intended benefits without creating new risks.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Define the problem before choosing the solution",
+          "bullets": [
+            {
+              "label": "Use data, not assumptions, to guide your improvement priorities.",
+              "text": ""
+            },
+            {
+              "label": "Translate evidence into usable workflow",
+              "text": ""
+            },
+            {
+              "label": "Research must be adapted to fit your clinical environment to have real impact.",
+              "text": ""
+            },
+            {
+              "label": "Use multiple strategies, not education alone",
+              "text": ""
+            },
+            {
+              "label": "Combine training with redesign, digital tools, and leadership support.",
+              "text": ""
+            },
+            {
+              "label": "Monitor both benefits and unintended effects",
+              "text": ""
+            },
+            {
+              "label": "Every change carries risk — sustained audit keeps patients and staff safe.",
+              "text": ""
+            },
+            {
+              "label": "Section 3 Complete. Continue to Section 4: Leadership, Delegation and Interprofessional Practice in Adult Care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Digital Monitoring, Equity & Global Collaboration",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 5 - Level 3 - Section 4 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 5 · Advanced Adult Nursing Care · Medical-Surgical Nursing II",
+          "bullets": [
+            {
+              "label": "\"Manage complexity with confidence.\"",
+              "text": ""
+            },
+            {
+              "label": "SECTION 4: DIGITAL MONITORING, EQUITY & GLOBAL COLLABORATION",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section Introduction",
+          "body": "Digital monitoring and predictive analytics can support early recognition of deterioration — but they also carry real risks: alert fatigue, false reassurance, and inequity in access.",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals evaluate",
+              "text": "Global Nursing Professionals evaluate technology critically and adapt solutions to local needs, ensuring that innovation serves all patients, not just the well-resourced."
+            },
+            {
+              "label": "Technology informs care. It does not replace clinical judgement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Evaluate Digital Tools",
+              "text": ""
+            },
+            {
+              "label": "Critically assess electronic monitoring for high-acuity adult care settings.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Alert Fatigue",
+              "text": ""
+            },
+            {
+              "label": "Identify automation bias and its risks to safe clinical decision-making.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Promote Equity",
+              "text": ""
+            },
+            {
+              "label": "Advocate for equitable access to complex care across diverse environments.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Share Global Learning",
+              "text": ""
+            },
+            {
+              "label": "Adapt international evidence and innovations to local clinical contexts.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Digital Surveillance",
+          "body": "What It Offers",
+          "bullets": [
+            {
+              "label": "Electronic trends and predictive scoring tools",
+              "text": "Electronic trends and predictive scoring tools can identify patient deterioration earlier than manual observation alone — enabling faster intervention."
+            },
+            {
+              "label": "The Critical Caveat",
+              "text": ""
+            },
+            {
+              "label": "Accuracy depends entirely on data quality and",
+              "text": "Accuracy depends entirely on data quality and appropriate clinical response. A score is only as useful as the nurse who interprets it."
+            },
+            {
+              "label": "Validate digital outputs against direct patient assessment",
+              "text": ""
+            },
+            {
+              "label": "Understand the algorithm's limitations and population data",
+              "text": ""
+            },
+            {
+              "label": "Document and escalate when findings conflict",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Automation Bias",
+          "body": "The Risk",
+          "bullets": [
+            {
+              "label": "Clinicians may over-trust a normal score and",
+              "text": "Clinicians may over-trust a normal score and skip direct assessment — or dismiss a deteriorating patient because the monitor looks reassuring."
+            },
+            {
+              "label": "Technology should support, never replace, professional judgement. This is a patient safety imperative, not a preference.",
+              "text": ""
+            },
+            {
+              "label": "A normal early warning score does not mean a patient is stable.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Equity in Complex Care",
+          "body": "Access to rapid response teams, diagnostics and specialist care differs significantly between settings. Equity-centred nursing practice means designing services that work for rural, remote and resource-limited environments — not only well-funded hospitals.",
+          "bullets": [
+            {
+              "label": "Rural & Remote",
+              "text": ""
+            },
+            {
+              "label": "Limited specialist access and longer response times demand robust local protocols.",
+              "text": ""
+            },
+            {
+              "label": "Resource-Limited",
+              "text": ""
+            },
+            {
+              "label": "Improvement efforts must consider available workforce, equipment and infrastructure.",
+              "text": ""
+            },
+            {
+              "label": "Equity by Design",
+              "text": ""
+            },
+            {
+              "label": "Safety systems must be built for the most underserved, not the best resourced.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept: Global Collaboration",
+          "body": "Sharing Knowledge Across Borders",
+          "bullets": [
+            {
+              "label": "Sharing case learning, standards and",
+              "text": "Sharing case learning, standards and innovations can meaningfully improve care outcomes globally. However, solutions must always be adapted to local context:"
+            },
+            {
+              "label": "Local disease patterns and prevalence",
+              "text": ""
+            },
+            {
+              "label": "Workforce capacity and skill mix",
+              "text": ""
+            },
+            {
+              "label": "Available resources and infrastructure",
+              "text": ""
+            },
+            {
+              "label": "Global evidence is a starting point — local wisdom makes it work.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Remote Specialist Support",
+          "body": "The Scenario",
+          "bullets": [
+            {
+              "label": "A health system introduces remote specialist",
+              "text": "A health system introduces remote specialist support for rural hospitals managing deteriorating adult patients. Nurse leaders respond by developing:"
+            },
+            {
+              "label": "Clear activation criteria for when to call for specialist input",
+              "text": ""
+            },
+            {
+              "label": "Local stabilisation protocols tailored to available resources",
+              "text": ""
+            },
+            {
+              "label": "Backup communication plans when technology fails",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Verify Against Assessment",
+          "bullets": [
+            {
+              "label": "Always validate digital information against your direct clinical assessment of the patient.",
+              "text": ""
+            },
+            {
+              "label": "Alert Fatigue Is a System Risk",
+              "text": ""
+            },
+            {
+              "label": "Treat excessive or poorly calibrated alerts as an organisational safety issue requiring systemic action.",
+              "text": ""
+            },
+            {
+              "label": "Design for Inequity",
+              "text": ""
+            },
+            {
+              "label": "Build and advocate for services that account for unequal access, resources and geography.",
+              "text": ""
+            },
+            {
+              "label": "Adapt Global Evidence",
+              "text": ""
+            },
+            {
+              "label": "Apply international learning thoughtfully — shaped by local context, culture and clinical realities.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Program Summary",
+          "body": "You are ready to lead.",
+          "bullets": [
+            {
+              "label": "By completing GNPS Program 5 – Level 3, you",
+              "text": "By completing GNPS Program 5 – Level 3, you have developed the advanced perspective of a Global Nursing Professional. You are prepared to:"
+            },
+            {
+              "label": "Manage Complexity",
+              "text": ""
+            },
+            {
+              "label": "Lead high-acuity adult care with clinical confidence.",
+              "text": ""
+            },
+            {
+              "label": "Strengthen Systems",
+              "text": ""
+            },
+            {
+              "label": "Improve deterioration recognition and rapid response systems.",
+              "text": ""
+            },
+            {
+              "label": "Translate Evidence",
+              "text": ""
+            },
+            {
+              "label": "Apply global research and adapt it to your clinical setting.",
+              "text": ""
+            },
+            {
+              "label": "Champion Equity",
+              "text": ""
+            },
+            {
+              "label": "Support safe, equitable care for all patients, regardless of geography or resources.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

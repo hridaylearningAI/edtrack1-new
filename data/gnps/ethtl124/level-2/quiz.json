@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "An IQN is asked to use an infusion pump model not previously encountered. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review local policy, complete supervised orientation and demonstrate competence before independent use."
+        },
+        {
+          "id": "B",
+          "text": "Use it based on previous pump experience."
+        },
+        {
+          "id": "C",
+          "text": "Ask another new nurse for instructions."
+        },
+        {
+          "id": "D",
+          "text": "Decline all future infusion-pump use."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Previous experience does not replace local orientation and competency verification for unfamiliar equipment."
+    },
+    {
+      "id": "q2",
+      "stem": "Which factor should be checked before independently performing a procedure in a new healthcare system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the procedure was performed overseas."
+        },
+        {
+          "id": "B",
+          "text": "Local scope, required supervision, approved equipment and escalation criteria."
+        },
+        {
+          "id": "C",
+          "text": "The nurse's confidence only."
+        },
+        {
+          "id": "D",
+          "text": "Whether the patient has had it before."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe international practice requires confirmation of local scope, policy, equipment and supervision requirements."
+    },
+    {
+      "id": "q3",
+      "stem": "During an OSCE, the assessor asks why the nurse checks allergies before a procedure. What is the best explanation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is required only for documentation."
+        },
+        {
+          "id": "B",
+          "text": "It reassures the patient."
+        },
+        {
+          "id": "C",
+          "text": "It identifies risks that may change equipment, medicines or whether the procedure can proceed safely."
+        },
+        {
+          "id": "D",
+          "text": "It replaces consent."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Verbalising the rationale demonstrates that the nurse understands how allergy information changes care."
+    },
+    {
+      "id": "q4",
+      "stem": "A nurse completes every checklist step but fails to recognise that the patient is deteriorating. What does this show?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The checklist is sufficient."
+        },
+        {
+          "id": "B",
+          "text": "The procedure should always continue."
+        },
+        {
+          "id": "C",
+          "text": "Documentation is the only missing element."
+        },
+        {
+          "id": "D",
+          "text": "Technical completion without clinical judgement is incomplete competence."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A checklist supports consistency but does not replace assessment, interpretation or judgement."
+    },
+    {
+      "id": "q5",
+      "stem": "Which outcome best demonstrates procedural competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse prepares safely, performs correctly, communicates clearly, interprets findings and documents the outcome."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completes the task quickly."
+        },
+        {
+          "id": "C",
+          "text": "The nurse follows the checklist silently."
+        },
+        {
+          "id": "D",
+          "text": "The patient experiences no pain."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Competence includes preparation, technical skill, infection prevention, communication, interpretation and documentation."
+    },
+    {
+      "id": "q6",
+      "stem": "An unfamiliar device has a control layout different from the one used in the nurse's home country. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the controls have equivalent functions."
+        },
+        {
+          "id": "B",
+          "text": "Request instruction and supervised practice before use."
+        },
+        {
+          "id": "C",
+          "text": "Use trial and error on a low-risk patient."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient whether the settings look correct."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unfamiliar equipment requires orientation because similar devices may operate differently."
+    },
+    {
+      "id": "q7",
+      "stem": "A local policy requires a competency sign-off for a procedure the nurse has performed for years. What is the correct response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Challenge the requirement as unnecessary."
+        },
+        {
+          "id": "B",
+          "text": "Proceed because previous experience proves competence."
+        },
+        {
+          "id": "C",
+          "text": "Complete the local competency process before independent practice."
+        },
+        {
+          "id": "D",
+          "text": "Ask a colleague to sign without observing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Local credentialing requirements apply even when the nurse has previous experience."
+    },
+    {
+      "id": "q8",
+      "stem": "Which behaviour is most professional when a nurse is uncertain about a local procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hide the uncertainty."
+        },
+        {
+          "id": "B",
+          "text": "Proceed to maintain confidence."
+        },
+        {
+          "id": "C",
+          "text": "Delegate the procedure without checking the other person's competence."
+        },
+        {
+          "id": "D",
+          "text": "Seek clarification and supervision before acting."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Seeking help is a professional safety behaviour, not a sign of weakness."
+    },
+    {
+      "id": "q9",
+      "stem": "An IQN notices that local terminology differs from previous practice. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clarify the local meaning and use approved terms in communication and documentation."
+        },
+        {
+          "id": "B",
+          "text": "Continue using previous terminology."
+        },
+        {
+          "id": "C",
+          "text": "Avoid documentation."
+        },
+        {
+          "id": "D",
+          "text": "Ask patients to interpret the terms."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Terminology differences can cause misunderstanding and should be resolved explicitly."
+    },
+    {
+      "id": "q10",
+      "stem": "Which action best demonstrates safe adaptation to international practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copying the procedure used in the previous country."
+        },
+        {
+          "id": "B",
+          "text": "Relating local policy to universal safety principles while following local requirements."
+        },
+        {
+          "id": "C",
+          "text": "Following colleagues without asking questions."
+        },
+        {
+          "id": "D",
+          "text": "Using personal preference when policies differ."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe adaptation combines broad safety principles with local law, policy and equipment."
+    },
+    {
+      "id": "q11",
+      "stem": "In simulation, the nurse verbalises what would trigger escalation. Why is this important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It shortens the station."
+        },
+        {
+          "id": "B",
+          "text": "It replaces technical performance."
+        },
+        {
+          "id": "C",
+          "text": "It demonstrates recognition of risk and planned clinical response."
+        },
+        {
+          "id": "D",
+          "text": "It is needed only for examination marking."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Explaining escalation criteria shows clinical reasoning beyond memorised steps."
+    },
+    {
+      "id": "q12",
+      "stem": "A nurse is competent with one brand of device but has not used another brand. What should be assumed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competence transfers automatically."
+        },
+        {
+          "id": "B",
+          "text": "Only the manufacturer is responsible."
+        },
+        {
+          "id": "C",
+          "text": "The patient can supervise use."
+        },
+        {
+          "id": "D",
+          "text": "Additional orientation may be required because operation and safety features may differ."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Device-specific differences may affect safe operation."
+    },
+    {
+      "id": "q13",
+      "stem": "Which evidence best supports independent procedural practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Observed successful performance against local competency criteria."
+        },
+        {
+          "id": "B",
+          "text": "Previous job title."
+        },
+        {
+          "id": "C",
+          "text": "Self-reported confidence."
+        },
+        {
+          "id": "D",
+          "text": "A colleague's informal opinion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Competence should be demonstrated, not assumed."
+    },
+    {
+      "id": "q14",
+      "stem": "A patient deteriorates while the nurse is being assessed on a procedure. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing the assessment station."
+        },
+        {
+          "id": "B",
+          "text": "Stopping the procedure, supporting the patient and escalating appropriately."
+        },
+        {
+          "id": "C",
+          "text": "Waiting for the assessor to intervene."
+        },
+        {
+          "id": "D",
+          "text": "Finishing documentation first."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Patient safety always takes priority over task completion or assessment requirements."
+    },
+    {
+      "id": "q15",
+      "stem": "Which statement about local policy is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces clinical judgement."
+        },
+        {
+          "id": "B",
+          "text": "It is optional for experienced nurses."
+        },
+        {
+          "id": "C",
+          "text": "It guides approved practice but must be applied with patient assessment and professional judgement."
+        },
+        {
+          "id": "D",
+          "text": "It applies only during orientation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Policy and judgement must work together."
+    },
+    {
+      "id": "q16",
+      "stem": "A procedure is within scope but the nurse has not recently performed it. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed independently."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to consent to the risk."
+        },
+        {
+          "id": "C",
+          "text": "Avoid the procedure permanently."
+        },
+        {
+          "id": "D",
+          "text": "Assess current competence and seek refresher supervision if needed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Competence must be current as well as historically demonstrated."
+    },
+    {
+      "id": "q17",
+      "stem": "Which component is most likely to be missed if procedural training focuses only on motor steps?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clinical interpretation and response to complications."
+        },
+        {
+          "id": "B",
+          "text": "Equipment opening."
+        },
+        {
+          "id": "C",
+          "text": "Hand position."
+        },
+        {
+          "id": "D",
+          "text": "Procedure duration."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "International expectations emphasise judgement, rationale and response, not steps alone."
+    },
+    {
+      "id": "q18",
+      "stem": "A nurse is asked to use a device without a local instruction manual or trained support. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use online information from any source."
+        },
+        {
+          "id": "B",
+          "text": "Delay use until approved guidance or competent support is available, unless an emergency protocol directs otherwise."
+        },
+        {
+          "id": "C",
+          "text": "Estimate the settings."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unverified device use creates avoidable risk."
+    },
+    {
+      "id": "q19",
+      "stem": "What is the main purpose of supervised practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce the nurse's accountability."
+        },
+        {
+          "id": "B",
+          "text": "To replace policy review."
+        },
+        {
+          "id": "C",
+          "text": "To confirm safe performance and provide feedback before independent practice."
+        },
+        {
+          "id": "D",
+          "text": "To allow shortcuts."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Supervision supports competency development and verification."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects Level 2 adaptation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse performs familiar procedures only."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completes checklists without speaking."
+        },
+        {
+          "id": "C",
+          "text": "The nurse avoids unfamiliar equipment."
+        },
+        {
+          "id": "D",
+          "text": "The nurse applies local standards, explains rationales and responds appropriately to unexpected findings."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 2 integrates adaptation, reasoning, competence and escalation. Section 2 - Complex Aseptic Procedures and Clinical Devices"
+    },
+    {
+      "id": "q21",
+      "stem": "During an IV infusion, the patient reports burning and the site becomes swollen. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop the infusion, assess the site and manage the device according to policy."
+        },
+        {
+          "id": "B",
+          "text": "Slow the infusion."
+        },
+        {
+          "id": "C",
+          "text": "Apply a tighter dressing."
+        },
+        {
+          "id": "D",
+          "text": "Flush the line forcefully."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Burning and swelling suggest infiltration or another complication. Continuing may worsen tissue injury."
+    },
+    {
+      "id": "q22",
+      "stem": "Which finding most strongly suggests phlebitis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cool pale skin around the cannula."
+        },
+        {
+          "id": "B",
+          "text": "Redness, warmth, tenderness and a palpable venous cord."
+        },
+        {
+          "id": "C",
+          "text": "No pain and brisk flow."
+        },
+        {
+          "id": "D",
+          "text": "Generalised oedema."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Phlebitis commonly presents with local inflammation along the vein."
+    },
+    {
+      "id": "q23",
+      "stem": "A central-line dressing is loose and damp. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reinforce it and review tomorrow."
+        },
+        {
+          "id": "B",
+          "text": "Leave it if the line is functioning."
+        },
+        {
+          "id": "C",
+          "text": "Replace it using approved aseptic technique and assess the site."
+        },
+        {
+          "id": "D",
+          "text": "Remove the line without an order."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A loose or damp dressing increases infection risk and requires prompt aseptic management."
+    },
+    {
+      "id": "q24",
+      "stem": "Before administering through an enteral tube, the external length differs from the documented position. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Push the tube back to the recorded mark."
+        },
+        {
+          "id": "B",
+          "text": "Use the tube for water only."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient if it feels normal."
+        },
+        {
+          "id": "D",
+          "text": "Stop and verify placement according to local policy before use."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A change in external length may indicate displacement and requires verification."
+    },
+    {
+      "id": "q25",
+      "stem": "Which action helps prevent catheter-associated infection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintain a closed system, provide hygiene and review ongoing need daily."
+        },
+        {
+          "id": "B",
+          "text": "Disconnect the drainage system for routine cleaning."
+        },
+        {
+          "id": "C",
+          "text": "Keep the drainage bag above bladder level."
+        },
+        {
+          "id": "D",
+          "text": "Irrigate routinely without indication."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Closed drainage, hygiene and early removal are key preventive strategies."
+    },
+    {
+      "id": "q26",
+      "stem": "A urinary catheter stops draining and the patient reports suprapubic discomfort. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase the bag height."
+        },
+        {
+          "id": "B",
+          "text": "Assess tubing, kinks, position and patient condition, then follow policy for suspected blockage."
+        },
+        {
+          "id": "C",
+          "text": "Remove the catheter immediately."
+        },
+        {
+          "id": "D",
+          "text": "Flush it without an order."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Systematic assessment is required before intervention."
+    },
+    {
+      "id": "q27",
+      "stem": "Which wound finding requires prompt escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gradual reduction in exudate."
+        },
+        {
+          "id": "B",
+          "text": "Healthy granulation tissue."
+        },
+        {
+          "id": "C",
+          "text": "Increasing erythema, pain, malodour and purulent drainage."
+        },
+        {
+          "id": "D",
+          "text": "Dry intact surrounding skin."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "This pattern suggests infection or deterioration."
+    },
+    {
+      "id": "q28",
+      "stem": "During an aseptic procedure, a sterile key part touches an unsterile surface. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue if contact was brief."
+        },
+        {
+          "id": "B",
+          "text": "Wipe it and continue."
+        },
+        {
+          "id": "C",
+          "text": "Use extra antiseptic later."
+        },
+        {
+          "id": "D",
+          "text": "Treat it as contaminated, replace the item and re-establish the field."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Suspected contamination should be treated as contamination."
+    },
+    {
+      "id": "q29",
+      "stem": "A wound is not healing despite correct dressing changes. What should the nurse assess?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wound type, tissue, exudate, infection risk, surrounding skin and wider patient factors."
+        },
+        {
+          "id": "B",
+          "text": "Only dressing brand."
+        },
+        {
+          "id": "C",
+          "text": "Only pain."
+        },
+        {
+          "id": "D",
+          "text": "Only wound size."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Advanced wound assessment considers local and systemic factors."
+    },
+    {
+      "id": "q30",
+      "stem": "Which action best evaluates whether an invasive device is still appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm that it remains inserted."
+        },
+        {
+          "id": "B",
+          "text": "Review the current indication, risks, function and alternatives."
+        },
+        {
+          "id": "C",
+          "text": "Change the dressing daily."
+        },
+        {
+          "id": "D",
+          "text": "Ask whether the patient likes it."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ongoing need should be reviewed to reduce avoidable device harm."
+    },
+    {
+      "id": "q31",
+      "stem": "A peripheral IV site is cool, pale and swollen. Which complication is most likely?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phlebitis."
+        },
+        {
+          "id": "B",
+          "text": "Local infection only."
+        },
+        {
+          "id": "C",
+          "text": "Infiltration."
+        },
+        {
+          "id": "D",
+          "text": "Normal infusion response."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Coolness, pallor and swelling suggest non-vesicant fluid entering surrounding tissue."
+    },
+    {
+      "id": "q32",
+      "stem": "A vascular access device has no date or identification label. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume it was inserted today."
+        },
+        {
+          "id": "B",
+          "text": "Use it until replacement."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to estimate the date."
+        },
+        {
+          "id": "D",
+          "text": "Verify details through approved records and correct the labelling according to policy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accurate labelling supports safe device review and accountability."
+    },
+    {
+      "id": "q33",
+      "stem": "Which practice best protects a key site?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Minimise contact and maintain aseptic non-touch technique."
+        },
+        {
+          "id": "B",
+          "text": "Touch it with clean gloves to check sterility."
+        },
+        {
+          "id": "C",
+          "text": "Expose it early for convenience."
+        },
+        {
+          "id": "D",
+          "text": "Allow equipment to rest across it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Key sites should be protected from direct or indirect contamination."
+    },
+    {
+      "id": "q34",
+      "stem": "A patient develops neck swelling and breathing difficulty during central-line use. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the infusion."
+        },
+        {
+          "id": "B",
+          "text": "Stop use as appropriate, support airway and breathing, and escalate urgently."
+        },
+        {
+          "id": "C",
+          "text": "Apply a cold compress."
+        },
+        {
+          "id": "D",
+          "text": "Document and reassess later."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Breathing difficulty and swelling may indicate a serious device-related complication."
+    },
+    {
+      "id": "q35",
+      "stem": "Which approach is correct when an advanced wound product is prescribed but unavailable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Substitute any available product."
+        },
+        {
+          "id": "B",
+          "text": "Leave the wound uncovered."
+        },
+        {
+          "id": "C",
+          "text": "Clarify an approved alternative before application."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to purchase one."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Prescribed products should not be substituted without appropriate clinical review."
+    },
+    {
+      "id": "q36",
+      "stem": "A nasogastric tube is used before placement is confirmed. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delayed feeding only."
+        },
+        {
+          "id": "B",
+          "text": "Minor discomfort."
+        },
+        {
+          "id": "C",
+          "text": "Reduced documentation quality."
+        },
+        {
+          "id": "D",
+          "text": "Administration into an incorrect location, including the respiratory tract."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Incorrect tube placement can cause severe harm."
+    },
+    {
+      "id": "q37",
+      "stem": "Which finding should be assessed before every vascular-access use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Site condition, patency, securement and signs of complication."
+        },
+        {
+          "id": "B",
+          "text": "Device colour only."
+        },
+        {
+          "id": "C",
+          "text": "Patient age."
+        },
+        {
+          "id": "D",
+          "text": "Previous shift documentation only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Direct assessment is required before and during use."
+    },
+    {
+      "id": "q38",
+      "stem": "A device complication is suspected but the prescribed therapy is urgent. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue through the compromised device."
+        },
+        {
+          "id": "B",
+          "text": "Stop using the device and arrange safe alternative access while escalating."
+        },
+        {
+          "id": "C",
+          "text": "Increase the rate."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to tolerate the discomfort."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Urgency does not justify using a potentially unsafe device."
+    },
+    {
+      "id": "q39",
+      "stem": "Which documentation best supports device care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Device present."
+        },
+        {
+          "id": "B",
+          "text": "Dressing changed."
+        },
+        {
+          "id": "C",
+          "text": "Site findings, patency, care performed, complications, response and ongoing need."
+        },
+        {
+          "id": "D",
+          "text": "Patient comfortable."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Detailed objective documentation supports continuity and safety."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates safe complex device care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The procedure is technically completed."
+        },
+        {
+          "id": "B",
+          "text": "The device remains in place."
+        },
+        {
+          "id": "C",
+          "text": "The dressing looks clean."
+        },
+        {
+          "id": "D",
+          "text": "The nurse confirms indication, maintains asepsis, detects complications and reviews ongoing need."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe device care integrates assessment, technique, judgement and evaluation. Section 3 - Integrating Clinical Judgement with Procedural Care"
+    },
+    {
+      "id": "q41",
+      "stem": "Before a routine procedure, the patient develops new chest pain and diaphoresis. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delay the procedure, assess airway, breathing and circulation, and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Proceed quickly."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to sign a refusal."
+        },
+        {
+          "id": "D",
+          "text": "Document and continue."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The patient's current condition determines whether a procedure is safe to proceed."
+    },
+    {
+      "id": "q42",
+      "stem": "Which finding during a procedure requires immediate stopping?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild expected discomfort."
+        },
+        {
+          "id": "B",
+          "text": "Sudden oxygen desaturation with severe coughing."
+        },
+        {
+          "id": "C",
+          "text": "A request for more explanation."
+        },
+        {
+          "id": "D",
+          "text": "Temporary anxiety with stable observations."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Acute respiratory compromise requires immediate interruption and support."
+    },
+    {
+      "id": "q43",
+      "stem": "A patient becomes pale and less responsive during a bedside procedure. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Finish the procedure."
+        },
+        {
+          "id": "B",
+          "text": "Complete documentation."
+        },
+        {
+          "id": "C",
+          "text": "Stop, assess ABC and call for assistance."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to observe."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Changes in consciousness and colour may indicate deterioration."
+    },
+    {
+      "id": "q44",
+      "stem": "Which information is most important in an ISBAR escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The entire admission history."
+        },
+        {
+          "id": "B",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Only the abnormal observation."
+        },
+        {
+          "id": "D",
+          "text": "Current situation, relevant background, assessment and the action or review required."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "ISBAR supports concise, structured escalation."
+    },
+    {
+      "id": "q45",
+      "stem": "A patient has severe coughing and desaturation during nasogastric tube insertion. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop, remove the tube as appropriate, support breathing and escalate."
+        },
+        {
+          "id": "B",
+          "text": "Continue to complete placement."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to swallow harder."
+        },
+        {
+          "id": "D",
+          "text": "Wait for saturation to recover."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The notes identify this as a reason to stop rather than complete the task."
+    },
+    {
+      "id": "q46",
+      "stem": "Which action demonstrates post-procedure evaluation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recording that the task was completed."
+        },
+        {
+          "id": "B",
+          "text": "Confirming the intended outcome and assessing for complications."
+        },
+        {
+          "id": "C",
+          "text": "Discarding equipment."
+        },
+        {
+          "id": "D",
+          "text": "Informing the next shift only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evaluation determines whether the intervention achieved its purpose safely."
+    },
+    {
+      "id": "q47",
+      "stem": "A procedure is indicated, but current observations show severe hypotension. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because the procedure is ordered."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to decide."
+        },
+        {
+          "id": "C",
+          "text": "Delay and seek urgent review because current risk outweighs immediate benefit."
+        },
+        {
+          "id": "D",
+          "text": "Use a shorter technique."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pre-procedure judgement includes deciding whether current physiology supports the intervention."
+    },
+    {
+      "id": "q48",
+      "stem": "Which finding is expected after an uncomplicated procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New severe pain and bleeding."
+        },
+        {
+          "id": "B",
+          "text": "Reduced consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Progressive breathlessness."
+        },
+        {
+          "id": "D",
+          "text": "A response consistent with the procedure and stable observations."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Expected findings should be distinguished from signs of complication."
+    },
+    {
+      "id": "q49",
+      "stem": "A patient reports worsening pain after a procedure despite the site appearing normal. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient, review the procedure outcome and escalate if unexplained or severe."
+        },
+        {
+          "id": "B",
+          "text": "Reassure and discharge."
+        },
+        {
+          "id": "C",
+          "text": "Document only."
+        },
+        {
+          "id": "D",
+          "text": "Wait until visible changes appear."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Pain may be an early sign of complication even before visible changes."
+    },
+    {
+      "id": "q50",
+      "stem": "What should guide the decision to continue a procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The time already invested."
+        },
+        {
+          "id": "B",
+          "text": "The patient's condition, tolerance and safety."
+        },
+        {
+          "id": "C",
+          "text": "Whether documentation has begun."
+        },
+        {
+          "id": "D",
+          "text": "The nurse's workload."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Task completion never takes priority over patient safety."
+    },
+    {
+      "id": "q51",
+      "stem": "Which statement best reflects intra-procedure monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitor only vital signs."
+        },
+        {
+          "id": "B",
+          "text": "Monitor after completion only."
+        },
+        {
+          "id": "C",
+          "text": "Observe pain, breathing, colour, consciousness and overall tolerance."
+        },
+        {
+          "id": "D",
+          "text": "Rely on equipment alarms."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Ongoing clinical observation is broader than a single number or monitor."
+    },
+    {
+      "id": "q52",
+      "stem": "A patient improves after an intervention but deteriorates again 20 minutes later. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the procedure succeeded."
+        },
+        {
+          "id": "B",
+          "text": "Wait until the next round."
+        },
+        {
+          "id": "C",
+          "text": "Document the initial improvement only."
+        },
+        {
+          "id": "D",
+          "text": "Reassess and escalate because the response was not sustained."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A temporary response does not confirm a successful outcome."
+    },
+    {
+      "id": "q53",
+      "stem": "Which communication is most appropriate when urgent review is needed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is the current deterioration, these are the findings, and I need urgent review now."
+        },
+        {
+          "id": "B",
+          "text": "The patient does not look right."
+        },
+        {
+          "id": "C",
+          "text": "Please review when available."
+        },
+        {
+          "id": "D",
+          "text": "The procedure was difficult."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Structured escalation should state findings and required action clearly."
+    },
+    {
+      "id": "q54",
+      "stem": "A colleague gives a critical instruction during an emergency procedure. What should the receiver do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Act silently."
+        },
+        {
+          "id": "B",
+          "text": "Repeat the instruction back and obtain confirmation."
+        },
+        {
+          "id": "C",
+          "text": "Wait for written documentation."
+        },
+        {
+          "id": "D",
+          "text": "Ask another colleague later."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Closed-loop communication reduces misunderstanding."
+    },
+    {
+      "id": "q55",
+      "stem": "Which finding after urinary-catheter insertion requires prompt review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expected mild awareness."
+        },
+        {
+          "id": "B",
+          "text": "Clear urine flow."
+        },
+        {
+          "id": "C",
+          "text": "No urine drainage with suprapubic pain."
+        },
+        {
+          "id": "D",
+          "text": "Secure tubing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "This pattern may indicate obstruction, misplacement or retention."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient develops a rash and wheeze shortly after a procedure involving a new product. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue observation only."
+        },
+        {
+          "id": "B",
+          "text": "Apply moisturiser."
+        },
+        {
+          "id": "C",
+          "text": "Finish the procedure."
+        },
+        {
+          "id": "D",
+          "text": "Stop exposure, assess ABC and activate the appropriate emergency response."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "This may represent an acute allergic reaction."
+    },
+    {
+      "id": "q57",
+      "stem": "Which post-procedure handover is safest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indication, findings, complications, response, current risks and required follow-up."
+        },
+        {
+          "id": "B",
+          "text": "Procedure completed, patient stable."
+        },
+        {
+          "id": "C",
+          "text": "Only the device type."
+        },
+        {
+          "id": "D",
+          "text": "Only the time completed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Handover should make unresolved risks and actions explicit."
+    },
+    {
+      "id": "q58",
+      "stem": "When should a procedure be delayed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whenever the patient is anxious."
+        },
+        {
+          "id": "B",
+          "text": "When current risk outweighs immediate benefit or required safety conditions are absent."
+        },
+        {
+          "id": "C",
+          "text": "Whenever equipment is unfamiliar, even after training."
+        },
+        {
+          "id": "D",
+          "text": "Whenever the nurse is busy."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Delay is appropriate when safe conditions are not met."
+    },
+    {
+      "id": "q59",
+      "stem": "A procedure achieved the technical goal, but the patient developed a complication. How should success be judged?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Successful because the technical task was completed."
+        },
+        {
+          "id": "B",
+          "text": "Successful if documented."
+        },
+        {
+          "id": "C",
+          "text": "Incomplete or unsafe because outcome includes complications and patient response."
+        },
+        {
+          "id": "D",
+          "text": "Successful if the patient consented."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Procedural success includes both intended effect and absence or management of harm."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects integrated clinical judgement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse follows the steps exactly."
+        },
+        {
+          "id": "B",
+          "text": "The procedure is completed quickly."
+        },
+        {
+          "id": "C",
+          "text": "The checklist is signed."
+        },
+        {
+          "id": "D",
+          "text": "The nurse decides whether to proceed, monitors continuously and evaluates the outcome."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Judgement is required before, during and after the procedure. Section 4 - Simulation, Communication and Professional Documentation"
+    },
+    {
+      "id": "q61",
+      "stem": "During simulation, a nurse makes an error but recognises it during debriefing. What is the main purpose of the debrief?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identify reasoning and teamwork improvements for future practice."
+        },
+        {
+          "id": "B",
+          "text": "Assign blame."
+        },
+        {
+          "id": "C",
+          "text": "Repeat the station immediately without discussion."
+        },
+        {
+          "id": "D",
+          "text": "Remove the nurse from training."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Structured reflection turns simulation errors into learning without patient harm."
+    },
+    {
+      "id": "q62",
+      "stem": "Which communication best demonstrates closed-loop practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give oxygen at 10 litres."
+        },
+        {
+          "id": "B",
+          "text": "Give oxygen at 10 litres. - Oxygen at 10 litres confirmed."
+        },
+        {
+          "id": "C",
+          "text": "The instruction is written down."
+        },
+        {
+          "id": "D",
+          "text": "The receiver nods."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The message is repeated back and confirmed."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient with limited English needs consent for an invasive procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a family member for convenience."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to sign first."
+        },
+        {
+          "id": "C",
+          "text": "Arrange a professional interpreter and adapt information to the patient's health literacy."
+        },
+        {
+          "id": "D",
+          "text": "Use only written English."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Culturally safe consent requires accurate communication and meaningful understanding."
+    },
+    {
+      "id": "q64",
+      "stem": "Which documentation is most complete after a procedural complication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complication occurred."
+        },
+        {
+          "id": "B",
+          "text": "Doctor informed."
+        },
+        {
+          "id": "C",
+          "text": "Patient stable."
+        },
+        {
+          "id": "D",
+          "text": "Indication, assessment, procedure, complication, actions, response, escalation and follow-up."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional records should show the entire clinical sequence and ongoing plan."
+    },
+    {
+      "id": "q65",
+      "stem": "A nurse finishes a procedure but forgets to document the patient's response. Why is this significant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The record does not show whether the intervention was effective or safe."
+        },
+        {
+          "id": "B",
+          "text": "Response is optional."
+        },
+        {
+          "id": "C",
+          "text": "Only the procedure matters."
+        },
+        {
+          "id": "D",
+          "text": "The next shift can infer the response."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evaluation and response are essential components of documentation."
+    },
+    {
+      "id": "q66",
+      "stem": "Which simulation scenario best assesses clinical judgement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A procedure with no variation."
+        },
+        {
+          "id": "B",
+          "text": "A procedure in which the patient deteriorates and the nurse must stop, escalate and communicate."
+        },
+        {
+          "id": "C",
+          "text": "A written quiz only."
+        },
+        {
+          "id": "D",
+          "text": "Equipment assembly without a patient scenario."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Realistic safety challenges assess more than technical steps."
+    },
+    {
+      "id": "q67",
+      "stem": "A critical verbal instruction is not repeated back during an emergency. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The documentation will be shorter."
+        },
+        {
+          "id": "B",
+          "text": "The patient may ask questions."
+        },
+        {
+          "id": "C",
+          "text": "The instruction may be misunderstood or not completed."
+        },
+        {
+          "id": "D",
+          "text": "The team may work faster."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Closed-loop confirmation reduces missed or incorrect actions."
+    },
+    {
+      "id": "q68",
+      "stem": "Which approach is culturally safe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume preferences based on background."
+        },
+        {
+          "id": "B",
+          "text": "Use the same explanation for everyone."
+        },
+        {
+          "id": "C",
+          "text": "Ask family members to make decisions."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient what matters, use appropriate interpretation and adapt explanations."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Cultural safety depends on respectful enquiry rather than assumptions."
+    },
+    {
+      "id": "q69",
+      "stem": "A simulation participant becomes defensive during debriefing. What should the facilitator do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a respectful, psychologically safe approach focused on actions, reasoning and learning."
+        },
+        {
+          "id": "B",
+          "text": "End the debrief."
+        },
+        {
+          "id": "C",
+          "text": "Publicly compare performance."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the behaviour."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effective debriefing supports reflection without humiliation."
+    },
+    {
+      "id": "q70",
+      "stem": "A nurse documents an event hours later without indicating it is a late entry. What is the concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The entry is too detailed."
+        },
+        {
+          "id": "B",
+          "text": "The timing may be misleading and the record may not be transparent."
+        },
+        {
+          "id": "C",
+          "text": "Late documentation is never allowed."
+        },
+        {
+          "id": "D",
+          "text": "The patient must sign it."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Late entries should be clearly identified according to policy."
+    },
+    {
+      "id": "q71",
+      "stem": "Which statement best explains why objective documentation matters?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It prevents all complaints."
+        },
+        {
+          "id": "B",
+          "text": "It makes records shorter."
+        },
+        {
+          "id": "C",
+          "text": "It supports continuity, accountability and reliable interpretation by others."
+        },
+        {
+          "id": "D",
+          "text": "It removes the need for handover."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Factual records are essential for safe shared care."
+    },
+    {
+      "id": "q72",
+      "stem": "During a team procedure, a delegated task is not acknowledged. What should the team leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume it will be completed."
+        },
+        {
+          "id": "B",
+          "text": "Complete all tasks personally."
+        },
+        {
+          "id": "C",
+          "text": "Document the omission later."
+        },
+        {
+          "id": "D",
+          "text": "Restate the task to a named person and obtain confirmation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Named allocation and confirmation strengthen closed-loop communication."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient does not understand a written procedural leaflet. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain using plain language and teach-back, with visual or interpreter support as needed."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to sign anyway."
+        },
+        {
+          "id": "C",
+          "text": "Give a longer leaflet."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to decide."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Information must be adapted to health literacy and understanding confirmed."
+    },
+    {
+      "id": "q74",
+      "stem": "Which handover statement makes responsibility clear?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The site needs review."
+        },
+        {
+          "id": "B",
+          "text": "The IV site is red and painful; the line is not in use, and the receiving nurse must arrange review within 30 minutes."
+        },
+        {
+          "id": "C",
+          "text": "Please keep an eye on it."
+        },
+        {
+          "id": "D",
+          "text": "The procedure was difficult."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Specific findings, current status and required action reduce ambiguity."
+    },
+    {
+      "id": "q75",
+      "stem": "What should be included in simulation competency assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical performance only."
+        },
+        {
+          "id": "B",
+          "text": "Speed only."
+        },
+        {
+          "id": "C",
+          "text": "Preparation, communication, infection prevention, judgement, escalation and documentation."
+        },
+        {
+          "id": "D",
+          "text": "Confidence only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Competence is multidimensional."
+    },
+    {
+      "id": "q76",
+      "stem": "A nurse uses a family member to interpret a low-risk preference discussion. When may this still be inappropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When the family member speaks the language."
+        },
+        {
+          "id": "B",
+          "text": "When the patient is comfortable."
+        },
+        {
+          "id": "C",
+          "text": "When the discussion is brief."
+        },
+        {
+          "id": "D",
+          "text": "When confidentiality, accuracy or patient preference requires professional interpretation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional interpretation may still be needed for privacy, accuracy or sensitive information."
+    },
+    {
+      "id": "q77",
+      "stem": "Which debriefing question best supports reflection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "What cues did you notice, what influenced your decision and what would you do differently?"
+        },
+        {
+          "id": "B",
+          "text": "Who caused the error?"
+        },
+        {
+          "id": "C",
+          "text": "Why did you fail?"
+        },
+        {
+          "id": "D",
+          "text": "Did you follow the checklist?"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reflective questions explore reasoning and future improvement."
+    },
+    {
+      "id": "q78",
+      "stem": "A nurse documents a complication but not who was informed. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The device brand."
+        },
+        {
+          "id": "B",
+          "text": "Evidence of escalation and continuity of responsibility."
+        },
+        {
+          "id": "C",
+          "text": "The patient's room number."
+        },
+        {
+          "id": "D",
+          "text": "The nurse's opinion."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation should show communication and follow-up."
+    },
+    {
+      "id": "q79",
+      "stem": "Which outcome best indicates effective simulation learning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The participant completes the station."
+        },
+        {
+          "id": "B",
+          "text": "No errors occur."
+        },
+        {
+          "id": "C",
+          "text": "The participant identifies learning and improves later performance and communication."
+        },
+        {
+          "id": "D",
+          "text": "The checklist score is high."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Simulation should translate into better reasoning and teamwork."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects professional Level 2 procedural communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse speaks confidently."
+        },
+        {
+          "id": "B",
+          "text": "The nurse uses technical language."
+        },
+        {
+          "id": "C",
+          "text": "The procedure is completed silently."
+        },
+        {
+          "id": "D",
+          "text": "Critical instructions are confirmed, explanations are adapted and records make risks and follow-up clear."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 2 communication integrates closed-loop teamwork, cultural safety and professional documentation."
+    }
+  ]
+}

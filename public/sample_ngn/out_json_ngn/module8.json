@@ -1,0 +1,1686 @@
+{
+  "moduleTitle": "Safety and Infection Control",
+  "moduleNumber": 8,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Hand Hygiene Failure and Surgical Site Infection Risk",
+      "narrative": "A busy surgical ward nurse moves quickly between patients during a high-acuity shift. After assisting one patient with wound drainage, the nurse answers another call bell and begins helping a fresh postoperative patient to reposition in bed. In the rush, hand hygiene is not performed before touching the second patient’s dressing area and IV tubing.\nTwo days later, the postoperative patient develops increasing incisional pain, redness, warmth, and low-grade fever. The nurse reviewing the event recognises that a seemingly brief lapse in standard precautions may have contributed to preventable infection risk. The scenario requires understanding that hand hygiene is one of the most powerful safety measures in all clinical settings.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which elements in this scenario create infection transmission risk? Select all that apply.",
+          "options": {
+            "A": "Moving from one patient to another without hand hygiene",
+            "B": "Contact with wound drainage before assisting the second patient",
+            "C": "Touching the postoperative dressing area",
+            "D": "Contact with IV tubing after contamination risk",
+            "E": "Development of redness and fever later"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings are relevant. The initial lapse in hand hygiene created an infection transmission opportunity, and the later wound findings raise concern that preventable contamination may have occurred. NCLEX safety questions often test the link between a simple omission and later hospital-acquired infection."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation of this event?",
+          "options": {
+            "A": "Hand hygiene matters only when gloves are unavailable",
+            "B": "A lapse in standard precautions may have increased the patient’s risk for healthcare-associated infection",
+            "C": "Postoperative redness is always normal and unrelated to care",
+            "D": "The only important issue is whether antibiotics are ordered"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Standard precautions apply to all patient care. Hand hygiene is required before and after patient contact and before clean or aseptic tasks. The nurse should interpret the event as a safety failure with potential infection consequences."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent now?",
+          "options": {
+            "A": "Risk for or evidence of wound infection requiring prompt assessment and response",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about exercise",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Once signs of infection appear, the priority becomes prompt assessment and intervention to prevent worsening. The broader systems issue also matters, but the patient’s current safety comes first."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess the wound and patient comprehensively, perform correct hand hygiene, notify the provider as appropriate, and reinforce infection-prevention practice",
+            "B": "Ignore the wound because mild fever is common after surgery",
+            "C": "Cover the wound without reassessment and wait until tomorrow",
+            "D": "Focus only on apologising to the patient"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The first step is patient assessment and appropriate escalation. Hand hygiene must be performed correctly going forward, and infection signs must not be dismissed."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review wound drainage, pain, temperature, and incision appearance",
+            "B": "Reinforce hand hygiene compliance among staff",
+            "C": "Use standard precautions consistently even when the exact organism is unknown",
+            "D": "Document objective findings and actions taken",
+            "E": "Assume gloves replace hand hygiene in all cases"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate actions. Gloves do not replace hand hygiene. Safety culture includes honest assessment, documentation, and reinforcement of core precautions."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The wound is assessed early, infection is addressed promptly, and correct hand hygiene practice is consistently followed thereafter",
+            "B": "Staff continue skipping hand hygiene when busy",
+            "C": "The wound worsens and no documentation is completed",
+            "D": "Monitoring stops because one dressing was changed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management means both immediate patient protection and prevention of repeated lapses through safe practice."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Contact Precautions for Clostridioides difficile",
+      "narrative": "Mr. James Cole, a 72-year-old patient recently treated with broad-spectrum antibiotics, develops frequent watery diarrhea with abdominal cramping while on the medical ward. A nurse initially assumes it is simply a side effect of the antibiotics and continues routine care without isolation. Shared bathroom facilities are still being used.\nWithin the next day, two nearby patients also develop diarrhea. The infection control team raises concern for Clostridioides difficile. The nurse must understand the importance of early contact precautions, dedicated equipment, and correct environmental cleaning in preventing spread.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest the need to suspect and isolate for C. difficile? Select all that apply.",
+          "options": {
+            "A": "Recent broad-spectrum antibiotic use",
+            "B": "Frequent watery diarrhea",
+            "C": "Shared bathroom use on the ward",
+            "D": "Additional patients later developing diarrhea",
+            "E": "Delay in contact precautions"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed cues are important. Antibiotic exposure and watery diarrhea are classic triggers for suspicion. Shared bathrooms and delayed isolation increase transmission risk."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Routine diarrhea care is enough until culture results are final",
+            "B": "Early contact precautions and environmental control are indicated when C. difficile is suspected",
+            "C": "Hand hygiene is unnecessary if gloves are worn",
+            "D": "Isolation should start only after multiple patients are affected"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Infection control practice prioritises early suspicion and immediate precautions to reduce spread. Waiting for widespread transmission is unsafe."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for transmission of infectious diarrhea to other patients and staff",
+            "B": "Disturbed sleep pattern",
+            "C": "Need for entertainment activities",
+            "D": "Social withdrawal"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Protecting other patients and staff from spread is the immediate safety priority while the symptomatic patient is assessed and treated."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate contact precautions promptly, use dedicated equipment, and ensure proper hand hygiene and environmental measures",
+            "B": "Continue routine care until the next shift",
+            "C": "Move the patient around the ward for observation",
+            "D": "Share equipment freely to save time"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate contact precautions reduce spread. Shared equipment and unnecessary patient movement increase contamination risk."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Wash hands appropriately and follow local policy, especially after glove removal",
+            "B": "Use dedicated or disinfected equipment for this patient",
+            "C": "Reinforce environmental cleaning for contaminated surfaces",
+            "D": "Educate staff and visitors about gown and glove use",
+            "E": "Assume alcohol hand rub alone is always sufficient in every C. difficile situation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. Local policy often emphasises soap-and-water hand hygiene after caring for patients with C. difficile because spores are difficult to remove."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Contact precautions are applied promptly, contamination is reduced, and no further linked spread occurs",
+            "B": "Diarrhea continues spreading because isolation remains delayed",
+            "C": "Equipment is shared without cleaning",
+            "D": "Staff stop precautions when symptoms lessen slightly"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Successful management limits further transmission and applies contact precautions consistently."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Airborne Precautions for Suspected Tuberculosis",
+      "narrative": "Ms. Lila Fernandez is admitted with persistent cough, night sweats, low-grade fever, fatigue, and recent weight loss. Because no isolation rooms appear immediately available, she is placed temporarily in a general ward bed while tests are pending. She is coughing frequently, and one patient nearby is immunocompromised.\nLater that day, the nurse reviewing the history recognises the strong possibility of pulmonary tuberculosis. The delay in instituting airborne precautions may have exposed others to preventable risk. The nurse must act quickly to contain further harm.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which features should raise suspicion for pulmonary tuberculosis? Select all that apply.",
+          "options": {
+            "A": "Persistent cough",
+            "B": "Night sweats",
+            "C": "Weight loss and fatigue",
+            "D": "Placement in a shared room before review",
+            "E": "Frequent coughing near vulnerable patients"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors are important. The symptom pattern plus delayed isolation in a shared environment creates a significant airborne transmission concern."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Airborne precautions can wait until final confirmation",
+            "B": "Suspected TB should trigger urgent airborne isolation and exposure prevention measures",
+            "C": "Standard precautions alone are always enough for cough-related illness",
+            "D": "Patient placement matters only after sputum results return"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "TB should be managed with a high index of suspicion. Airborne precautions are based on risk, not only final confirmation."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for airborne transmission to other patients and staff",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about nutrition",
+            "D": "Constipation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Preventing spread to others is the most urgent system-wide safety issue while also supporting the patient’s care."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Arrange airborne isolation immediately, minimise patient movement, and ensure appropriate respiratory protection for staff",
+            "B": "Keep the patient in the shared room until all labs return",
+            "C": "Encourage the patient to walk around the ward for exercise",
+            "D": "Remove all masks to improve patient comfort"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airborne isolation and staff respiratory protection are key priorities. Delay increases exposure risk."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Communicate clearly about exposure risk and required precautions",
+            "B": "Limit unnecessary transport and ensure masking as appropriate if transport is required",
+            "C": "Consider vulnerable nearby patients in the response plan",
+            "D": "Document the time precautions were initiated and actions taken",
+            "E": "Assume cough etiquette alone is enough in suspected TB"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are appropriate. Cough etiquette is helpful but not enough by itself for suspected airborne infection."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient is isolated appropriately, staff use correct respiratory protection, and additional exposure risk is reduced",
+            "B": "The patient remains in a shared room without intervention",
+            "C": "Vulnerable patients are not considered in planning",
+            "D": "Isolation is delayed until widespread exposure occurs"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management reduces ongoing transmission risk quickly and systematically."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Sterile Technique During Central Line Dressing Change",
+      "narrative": "A nurse prepares to perform a central line dressing change for a patient receiving long-term IV therapy. During the procedure, the sterile field is set up correctly at first, but while reaching for supplies the nurse’s sterile glove brushes against a non-sterile bedrail. The nurse hesitates, wondering whether to continue since only a small part of the glove touched the rail.\nThe patient has multiple risk factors for bloodstream infection, and the line is essential to treatment. The nurse must apply correct principles of surgical asepsis and understand that even brief contamination can compromise the sterile field.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate a break in sterile technique? Select all that apply.",
+          "options": {
+            "A": "Sterile glove touched a non-sterile bedrail",
+            "B": "The procedure involves a central line",
+            "C": "The line is an invasive device with infection risk",
+            "D": "The nurse considered continuing despite contamination",
+            "E": "The dressing change depends on maintaining sterility"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these findings matter. Central lines carry serious infection risk, and contamination of sterile gloves means sterility has been broken."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Small contamination can be ignored if the rest of the field looks clean",
+            "B": "The sterile field has been compromised and aseptic technique must be re-established",
+            "C": "Sterility matters only in operating rooms",
+            "D": "Only hand hygiene is relevant during dressing changes"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Asepsis is not partial. Once contamination occurs, the nurse must restore sterility rather than continue with a compromised glove or field."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for catheter-related bloodstream infection due to break in sterile technique",
+            "B": "Disturbed sleep pattern",
+            "C": "Anxiety about supplies",
+            "D": "Mild inconvenience for the nurse"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s central line creates a direct route for infection, making sterile integrity essential."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop, replace contaminated sterile equipment or gloves as needed, and re-establish full sterile technique before continuing",
+            "B": "Continue quickly before contamination spreads",
+            "C": "Skip the dressing change entirely and do nothing",
+            "D": "Touch other supplies to see if they are still sterile"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The safest response is to stop and restore asepsis before proceeding. Rushing forward would expose the patient to unnecessary infection risk."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document the dressing change and patient line status accurately",
+            "B": "Maintain central line infection-prevention standards throughout the procedure",
+            "C": "Reinforce to staff that any break in sterility requires correction",
+            "D": "Assess the site for redness, drainage, or tenderness",
+            "E": "Assume contamination is acceptable if no one saw it happen"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate responses. Infection prevention depends on consistent correction of breaks in sterile technique, whether or not others observed them."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The dressing change is completed with restored sterility, the line site remains clean, and infection risk is minimized",
+            "B": "The nurse continues with contaminated gloves and the site later becomes inflamed",
+            "C": "Documentation omits the procedure details",
+            "D": "Infection prevention standards are applied inconsistently"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care means restoring sterile technique and protecting the patient from preventable line infection."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "Fall Prevention in a Confused Older Adult",
+      "narrative": "Mrs. Joan Peters, an 84-year-old woman admitted with urinary infection and dehydration, becomes increasingly confused in the evening. She repeatedly tries to climb out of bed, saying she must get home. Her gait is weak and unsteady, and she becomes more agitated when left alone. The bed is currently in a mid-height position and the call bell is under the blanket.\nThe nurse knows that older adults with delirium and weakness are at high risk of falls and injury. The priority is to use the least restrictive but safest strategies to prevent harm.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate high fall risk? Select all that apply.",
+          "options": {
+            "A": "Acute confusion",
+            "B": "Repeated attempts to get out of bed unassisted",
+            "C": "Weak, unsteady gait",
+            "D": "Hidden call bell and bed not optimally positioned",
+            "E": "Evening agitation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors increase fall risk. Cognitive change, poor mobility, environmental setup, and agitation are classic contributors in hospital falls."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is restless but not at significant risk",
+            "B": "The patient is at high risk for preventable fall injury and needs immediate safety intervention",
+            "C": "The best solution is to ignore the behaviour so she settles down",
+            "D": "Restraints are always the first-line intervention"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This patient has multiple fall risk factors. First-line care should focus on least restrictive safety measures and close observation."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for injury related to delirium, weakness, and unsafe mobility attempts",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about infection",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is injury prevention. Falls can lead to major complications in older adults."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Make the environment safer immediately, place the bed low, ensure call bell access, increase observation, and assist with toileting and orientation needs",
+            "B": "Leave the patient alone until she rings the bell",
+            "C": "Raise the bed higher so staff can reach her more easily",
+            "D": "Use restraints immediately without trying alternatives"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should first address the environment and supervision. A low bed, accessible call bell, and assistance with needs are evidence-based fall prevention steps."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use non-slip footwear and clear pathways",
+            "B": "Reassess the cause of confusion and treat contributing medical issues",
+            "C": "Consider bed alarm use if appropriate to policy",
+            "D": "Provide calm reorientation and frequent rounding",
+            "E": "Assume confusion is permanent and cannot be improved"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Delirium may improve when underlying causes are addressed, so reassessment matters."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient remains free from falls, receives assistance before mobilising, and becomes somewhat calmer with supportive reorientation",
+            "B": "She falls overnight because the environment was not adjusted",
+            "C": "Staff remove the call bell to stop repeated use",
+            "D": "Monitoring is reduced because she looks sleepy"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective fall prevention combines environmental measures, observation, and support for the underlying cause of confusion."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Sharps Safety and Needle Stick Exposure",
+      "narrative": "A nurse finishes giving a subcutaneous injection during a hectic morning round. As another alarm sounds, the nurse reflexively attempts to recap the used needle before disposal. The needle slips and punctures the glove and skin of the nurse’s finger.\nThe nurse immediately feels embarrassed and wonders whether the injury is too small to report. However, the source patient’s bloodborne pathogen status is not yet fully known. The event requires correct exposure response and reinforces why recapping sharps is unsafe.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which elements make this a significant sharps safety incident? Select all that apply.",
+          "options": {
+            "A": "A used needle punctured the nurse’s skin",
+            "B": "The needle was being recapped",
+            "C": "The patient’s bloodborne risk status may be unknown",
+            "D": "The injury occurred during a distracted workflow moment",
+            "E": "Reporting and follow-up may be needed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these details matter. Recapping is a known sharps hazard, and even a small puncture requires appropriate exposure management."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Small needle sticks can be ignored if the glove was on",
+            "B": "This is an occupational exposure requiring immediate first aid, reporting, and follow-up according to policy",
+            "C": "Only the employee’s supervisor needs to know next week",
+            "D": "Recapping is acceptable if done carefully"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Gloves reduce but do not eliminate risk. The nurse must treat this as a reportable exposure and follow policy promptly."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for bloodborne pathogen exposure related to sharps injury",
+            "B": "Disturbed sleep pattern",
+            "C": "Embarrassment about the incident",
+            "D": "Delay in lunch break"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is exposure management and prevention of infection-related harm."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Perform immediate first aid, report the exposure promptly, and follow occupational health or exposure protocol",
+            "B": "Hide the injury because it seems minor",
+            "C": "Continue working without telling anyone",
+            "D": "Recap the needle more carefully next time and do nothing else"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate first aid and reporting are required. Delayed or hidden exposure increases risk and weakens safety culture."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional safety actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review sharps disposal practices and avoid recapping",
+            "B": "Complete required documentation and source/exposed-person follow-up steps",
+            "C": "Participate in system review if workflow contributed to the incident",
+            "D": "Reinforce use of puncture-resistant sharps containers nearby",
+            "E": "Assume near-misses and minor injuries do not matter"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Safety culture depends on learning from both injuries and near-misses."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The exposure is addressed promptly, follow-up is completed, and safer sharps handling is reinforced",
+            "B": "The injury is hidden and no protocol is followed",
+            "C": "Recapping continues because the staff are busy",
+            "D": "Documentation is avoided to protect reputations"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects staff, supports legal and occupational requirements, and prevents recurrence."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Oxygen Therapy and Fire Hazard",
+      "narrative": "Mr. Luke Bennett, a 69-year-old patient with COPD, is receiving oxygen via nasal cannula. The nurse notices that he is using petroleum-based lip ointment and that his daughter has plugged in a small electric heating device near the bed because he says the room feels cold. The oxygen tubing runs loosely across the linens.\nThe patient says no one told him the lip ointment or electrical setup could be dangerous. The nurse recognises a serious environmental safety hazard in an oxygen-enriched setting.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors create fire or burn risk in this scenario? Select all that apply.",
+          "options": {
+            "A": "Oxygen therapy in use",
+            "B": "Petroleum-based product near the face",
+            "C": "Electrical heating device near the bed",
+            "D": "Loose oxygen tubing near linens and equipment",
+            "E": "Lack of patient education about oxygen safety"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these factors increase hazard in an oxygen-enriched environment. Oxygen supports combustion, petroleum products are unsafe near oxygen, and electrical heat sources add risk."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The setup is safe because oxygen itself does not burn",
+            "B": "The patient is at increased risk of fire or burn injury and requires immediate environmental safety correction",
+            "C": "Lip ointment choice is only a comfort issue",
+            "D": "Electrical devices are always safe if the patient is awake"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Although oxygen is not itself flammable, it greatly increases combustion risk. The setup requires immediate correction."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for fire-related injury in an oxygen-enriched environment",
+            "B": "Disturbed sleep pattern",
+            "C": "Mild discomfort from dry lips",
+            "D": "Knowledge deficit about nutrition"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate threat is environmental fire or burn injury."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Remove the unsafe items, correct the environment immediately, and educate the patient and family about oxygen precautions",
+            "B": "Wait until discharge teaching to mention oxygen safety",
+            "C": "Ignore the petroleum product because it is only on the lips",
+            "D": "Turn the oxygen up higher to compensate for the room setup"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safety hazards should be corrected immediately, not later. Oxygen safety education is part of risk reduction."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Ensure only approved water-based products are used if needed",
+            "B": "Keep ignition sources away from oxygen equipment",
+            "C": "Secure tubing to reduce tangling and environmental hazard",
+            "D": "Reinforce no-smoking and fire-risk education as appropriate",
+            "E": "Assume family members already know oxygen safety rules"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all correct safety interventions. Education should never be assumed."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Unsafe products and devices are removed, the patient understands oxygen precautions, and the environment is safer",
+            "B": "The heating device remains because the family prefers it",
+            "C": "Oxygen tubing stays tangled across the bed",
+            "D": "Education is omitted because no fire has occurred yet"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Preventing harm is the goal. A safer environment and improved understanding show effective nursing intervention."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Aspiration Risk After Stroke",
+      "narrative": "Mr. Victor Singh, a 77-year-old man recovering from an acute stroke, is awaiting formal swallow assessment. A family member tries to help by offering water while he is semi-reclined in bed. The patient coughs forcefully, his voice sounds wet afterward, and he appears distressed.\nThe nurse recognises that the patient may have dysphagia and that aspiration prevention is critical. The situation requires immediate assessment, education, and safe feeding precautions.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest aspiration risk? Select all that apply.",
+          "options": {
+            "A": "Recent stroke",
+            "B": "No completed swallow assessment yet",
+            "C": "Water given while semi-reclined",
+            "D": "Coughing during swallowing",
+            "E": "Wet voice afterward"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed cues suggest dysphagia and aspiration risk. Stroke can impair swallowing, and coughing with a wet voice after intake is especially concerning."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient tolerated fluids well",
+            "B": "The patient may have aspirated and needs immediate swallowing safety intervention",
+            "C": "Coughing always means the airway is cleared and there is no problem",
+            "D": "Family feeding before assessment is harmless"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must take the event seriously. Aspiration may lead to airway compromise or pneumonia if precautions are not applied."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for aspiration and impaired airway protection",
+            "B": "Disturbed sleep pattern",
+            "C": "Social isolation",
+            "D": "Low self-esteem"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airway protection comes first in a patient with suspected swallowing impairment."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop oral intake, assess the patient’s respiratory status, position safely, and ensure formal swallowing precautions are followed",
+            "B": "Offer more water to test tolerance",
+            "C": "Leave the family to continue helping because they mean well",
+            "D": "Delay assessment until meal time"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must stop unsafe oral intake and protect the airway immediately. Family intention does not change the aspiration risk."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Maintain upright positioning during any allowed intake",
+            "B": "Clarify NPO status and swallow orders with the team",
+            "C": "Educate the family about why unapproved oral intake is unsafe",
+            "D": "Monitor for coughing, choking, wet voice, or respiratory change",
+            "E": "Assume aspiration risk ends once the coughing stops"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. Aspiration complications may continue even after immediate coughing subsides."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Oral intake is withheld until safe, aspiration signs do not recur, and the family understands swallowing precautions",
+            "B": "Water continues to be offered because the patient is thirsty",
+            "C": "The patient develops worsening respiratory symptoms without reassessment",
+            "D": "Positioning is ignored during future meals"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care prevents repeat aspiration and improves family understanding of safety precautions."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Pressure Injury Prevention in an Immobile Patient",
+      "narrative": "Mrs. Janet Clarke is a 68-year-old patient with limited mobility after a stroke. She requires assistance for turning and has poor nutritional intake due to fatigue. During a busy shift, repositioning is delayed several times. By evening, the nurse notices non-blanching redness over the sacral area and mild skin warmth.\nThe nurse recognises early pressure injury development and understands that prevention is safer and far easier than treatment. The situation requires immediate protective action and reassessment of the turning plan.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate increased pressure injury risk or early injury? Select all that apply.",
+          "options": {
+            "A": "Immobility after stroke",
+            "B": "Repositioning delays",
+            "C": "Poor nutritional intake",
+            "D": "Non-blanching redness over sacrum",
+            "E": "Warmth at pressure area"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All listed findings are relevant. Immobility, delayed turning, poor nutrition, and early skin changes are classic pressure injury concerns."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The skin changes are insignificant and can be reviewed later",
+            "B": "Early pressure injury is developing and immediate prevention/escalation measures are required",
+            "C": "Warm skin means circulation is fine and there is no issue",
+            "D": "Pressure injuries occur only in ICU patients"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient is showing early pressure damage. Prompt intervention can prevent progression."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for worsening tissue injury related to sustained pressure and impaired mobility",
+            "B": "Disturbed sleep",
+            "C": "Social withdrawal",
+            "D": "Need for reading materials"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Tissue preservation is the immediate priority. Delay may convert an early injury into a deeper wound."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Relieve pressure immediately, reposition the patient, assess the skin thoroughly, and update the prevention plan",
+            "B": "Massage the reddened area vigorously",
+            "C": "Leave the patient in the same position until morning",
+            "D": "Cover the area without reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Pressure must be relieved immediately. Vigorous massage can worsen tissue damage and is not appropriate."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use pressure-relieving surfaces or devices as indicated",
+            "B": "Strengthen repositioning schedules and staff communication",
+            "C": "Address nutrition and moisture management",
+            "D": "Document skin findings precisely",
+            "E": "Assume redness will resolve without follow-up"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are core pressure injury prevention measures. Accurate documentation and regular reassessment are essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Pressure is relieved, skin is monitored closely, the area does not worsen, and preventive measures are consistently maintained",
+            "B": "Redness deepens while repositioning remains inconsistent",
+            "C": "Nutrition is ignored because skin care alone is enough",
+            "D": "Documentation is skipped"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management prevents progression and supports whole-patient pressure injury prevention."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "Infusion Pump Alarm and Equipment Safety",
+      "narrative": "A patient on IV fluids and vasoactive support has an infusion pump that alarms repeatedly during the night shift. Because the alarm has sounded several times earlier for minor occlusion issues, a fatigued nurse silences it twice without immediately checking the line and pump settings. Shortly afterward, the patient becomes more short of breath and develops worsening blood pressure instability.\nWhen the nurse finally checks the equipment, the infusion settings are incorrect and the IV line is partially occluded. The scenario highlights the danger of alarm fatigue and failure to assess equipment safety promptly.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors make this a serious equipment safety event? Select all that apply.",
+          "options": {
+            "A": "Repeated pump alarms",
+            "B": "Silencing the alarm without full assessment",
+            "C": "Incorrect infusion settings later discovered",
+            "D": "Partial line occlusion",
+            "E": "Patient deterioration occurring during the delay"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these factors contribute to a serious safety event. Alarm fatigue is dangerous because it may delay recognition of true equipment malfunction or medication error."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Pump alarms can usually be ignored if they happen often",
+            "B": "Repeated alarms require direct assessment because unresolved equipment issues can rapidly harm patients",
+            "C": "Only biomedical engineering is responsible for infusion safety",
+            "D": "Patient symptoms are probably unrelated to the pump"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Nurses must assess alarms directly rather than assuming they are routine nuisances. Infusion pumps deliver high-risk therapy and incorrect settings can quickly cause harm."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for medication or fluid harm due to faulty infusion delivery",
+            "B": "Disturbed sleep pattern caused by alarms",
+            "C": "Staff annoyance",
+            "D": "Mild paperwork delay"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate concern is patient harm from incorrect infusion delivery, particularly with vasoactive or other critical fluids."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess the patient and infusion system immediately, correct the equipment issue safely, and escalate as needed based on the patient’s condition",
+            "B": "Silence the alarm again and observe from the doorway",
+            "C": "Turn off the pump and ignore the IV order",
+            "D": "Wait until the next scheduled equipment round"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must treat the alarm as a potential patient safety event. Both patient assessment and equipment correction are essential."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Verify infusion orders, settings, and line patency",
+            "B": "Document the event and patient response accurately",
+            "C": "Report defective or unreliable equipment if relevant",
+            "D": "Reflect on alarm fatigue and prevention strategies with the team",
+            "E": "Assume alarms are harmless if the patient is asleep"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are correct. Safe equipment use includes clear documentation, order verification, and reporting of malfunction or workflow issues."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient is reassessed promptly, the infusion problem is corrected, and the equipment issue is not ignored again",
+            "B": "Alarms continue to be silenced without review",
+            "C": "Documentation omits the incident",
+            "D": "The patient worsens while staff assume the pump is fine"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management involves rapid correction, patient reassessment, and prevention of repeated unsafe alarm responses."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Fire Response Using RACE Principles",
+      "narrative": "On a rehabilitation unit, a staff member smells smoke near a patient room and sees a small electrical fire beginning at a portable warmer that had been brought in without proper approval. Several patients on the unit have mobility limitations, and one is receiving oxygen therapy nearby.\nThe nurse must act rapidly to protect patients and staff while following institutional fire safety principles. Panic and delay could increase injury risk, especially for vulnerable patients who cannot evacuate independently.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which features make this an immediate fire safety emergency? Select all that apply.",
+          "options": {
+            "A": "Visible smoke and ignition source",
+            "B": "Mobility-limited patients on the unit",
+            "C": "Oxygen therapy nearby",
+            "D": "Unapproved electrical equipment",
+            "E": "Need for rapid structured response"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors increase risk. Oxygen therapy and reduced patient mobility can make even a small fire much more dangerous."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The staff should wait to see if the smoke clears",
+            "B": "The unit requires immediate structured fire response according to safety protocol",
+            "C": "Only maintenance staff should respond",
+            "D": "Fire safety is less urgent than finishing medication rounds"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Fire response requires immediate action according to protocol. Delay may place multiple patients at risk."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for smoke inhalation, burn injury, and rapid spread of harm to vulnerable patients",
+            "B": "Disturbed sleep pattern",
+            "C": "Missed lunch break",
+            "D": "Mild inconvenience"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate concern is preventing injury and protecting vulnerable patients from smoke and fire."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Begin the RACE response by protecting patients in immediate danger, activating the alarm, and following the next protocol steps",
+            "B": "Finish charting before responding",
+            "C": "Leave patients in place until someone else arrives",
+            "D": "Ignore the small fire if it seems contained"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Fire response must be prompt and structured. RACE provides a clear priority sequence to protect patients and staff."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Move or protect those at greatest immediate risk first",
+            "B": "Be aware of oxygen-related hazards near the fire area",
+            "C": "Follow facility policy regarding containment and extinguisher use if appropriate and safe",
+            "D": "Keep exits and evacuation routes clear",
+            "E": "Assume mobility-limited patients can self-evacuate without assistance"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all correct. Nurses must consider who is least able to self-protect in an emergency."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective fire response?",
+          "options": {
+            "A": "Patients at immediate risk are protected, the alarm is activated, spread is limited, and evacuation or containment proceeds safely",
+            "B": "Smoke spreads because staff hesitate and do nothing",
+            "C": "Oxygen-dependent patients remain beside the fire source",
+            "D": "Policy is ignored because the fire looks small"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective fire response is organised, fast, and focused on immediate patient protection."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Wrong-Patient Medication Near Miss",
+      "narrative": "On a busy morning, two patients with similar surnames are assigned to adjacent beds. One is due for insulin and the other is due for an antihypertensive medication. A nurse approaches the bedside with medications prepared and is about to administer them after asking only, “Are you Mr. Taylor?” The patient nods, distracted by television.\nAt the last moment, another nurse notices the chart in hand belongs to the other patient. The event is a near miss that highlights the critical role of two identifiers and medication verification.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors created wrong-patient medication risk? Select all that apply.",
+          "options": {
+            "A": "Similar surnames in nearby beds",
+            "B": "Only one verbal identifier used",
+            "C": "Distracted patient response",
+            "D": "Medications prepared before full bedside verification",
+            "E": "Near miss detected just before administration"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these contributed to risk. Similar names and incomplete identifier use are classic medication safety traps."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient’s nod was enough confirmation",
+            "B": "A serious wrong-patient medication near miss occurred and safe identifier practice failed",
+            "C": "Near misses do not matter because no medication was given",
+            "D": "Similar names are unavoidable and cannot be managed"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Near misses matter because they reveal unsafe systems or practice gaps before harm occurs. Two identifiers are essential."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for wrong-patient medication administration due to identification failure",
+            "B": "Disturbed sleep pattern",
+            "C": "Delayed breakfast service",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Wrong-patient medication administration can cause significant harm and must be prevented through strict identification practices."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stop the process, verify identity using two approved identifiers, and restart medication administration safely",
+            "B": "Give the medications because the patient already nodded",
+            "C": "Ask the roommate to confirm identity",
+            "D": "Chart the medications as administered to save time"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The near miss must be corrected immediately by proper patient verification. Roommates or nods are not acceptable identifiers."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Report the near miss according to policy",
+            "B": "Reinforce unit practices for patients with similar names",
+            "C": "Review the medication administration process for vulnerabilities",
+            "D": "Document accurately and continue to use two identifiers every time",
+            "E": "Assume that because no drug was given, no learning is needed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Near misses are valuable safety data. They should be reported and used to improve process reliability."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The near miss is corrected before administration, reported appropriately, and safer identification practice is reinforced on the unit",
+            "B": "Staff dismiss the event because no harm occurred",
+            "C": "Similar-name safeguards are not reviewed",
+            "D": "Single-identifier practice continues"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safety culture depends on learning from near misses as well as actual errors."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Mandatory Reporting and Unsafe Practice by an Impaired Coworker",
+      "narrative": "During an evening shift, a nurse notices that a coworker appears unusually drowsy, is slurring words slightly, and nearly gives medication to the wrong patient before being interrupted. Later, the same coworker struggles to calculate a simple dosage and asks to borrow someone else’s login to fix charting quickly.\nThe observing nurse feels uneasy because the colleague is well liked and has recently gone through personal difficulties. However, patient safety may be at serious risk if impairment is affecting practice. The nurse must balance professionalism, reporting duty, and prevention of harm.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate a potential impaired-practice safety issue? Select all that apply.",
+          "options": {
+            "A": "Slurred speech and drowsiness",
+            "B": "Near wrong-patient medication administration",
+            "C": "Difficulty with simple dosage calculation",
+            "D": "Request to use someone else’s login",
+            "E": "Repeated unsafe behaviour during the shift"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings suggest serious impairment or unsafe practice. The issue must be addressed because patient safety is at risk."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Personal problems mean the coworker should be left alone",
+            "B": "The colleague may be impaired or unsafe to practice, requiring immediate reporting through proper channels",
+            "C": "Friendship should outweigh safety concerns",
+            "D": "Only the final error matters, not the pattern of near misses"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s duty is to protect patients. Reporting unsafe practice is an ethical and legal safety responsibility."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for patient harm due to unsafe clinical performance by an impaired coworker",
+            "B": "Social discomfort between coworkers",
+            "C": "Disturbed work friendships",
+            "D": "Shift scheduling problems"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Patient safety is the priority. Personal discomfort must not override professional duty."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Remove the immediate patient safety risk by reporting the concern to the appropriate supervisor promptly and factually",
+            "B": "Ignore the behaviour for one more shift",
+            "C": "Cover up the errors to protect the coworker",
+            "D": "Publicly shame the coworker in front of patients"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Unsafe practice requires prompt factual reporting through the correct chain of command. Public humiliation is not the appropriate response."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document objective observations according to policy if required",
+            "B": "Focus on patient safety rather than personal judgment about the coworker",
+            "C": "Prevent unauthorized use of another staff member’s login",
+            "D": "Cooperate with follow-up processes to protect patients",
+            "E": "Assume near misses do not require action"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these support a professional safety response. Objective reporting is key; assumptions or gossip are not."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The unsafe practice concern is reported promptly, immediate patient risk is reduced, and the issue is handled through proper safety channels",
+            "B": "The coworker continues making errors because no one wanted conflict",
+            "C": "Staff share rumours instead of reporting appropriately",
+            "D": "Login misuse continues unchecked"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects patients and handles the issue through formal safety processes."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Disaster Triage in a Multi-Casualty Event",
+      "narrative": "Following a bus collision, multiple injured patients arrive rapidly at a small emergency department. Resources are limited, and the triage nurse must make fast decisions. One adult is walking and crying with a bleeding arm wound, another is not breathing until repositioned, and a third is unconscious with severe head trauma and weak pulses. Several others have fractures and moderate pain.\nThe nurse must apply mass-casualty triage principles rather than usual one-patient-at-a-time priorities. Safety, resource allocation, and rapid categorization are essential.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which features are central in mass-casualty triage? Select all that apply.",
+          "options": {
+            "A": "Limited resources compared with patient volume",
+            "B": "Need to sort by survivability and urgency",
+            "C": "Different prioritisation than standard bedside care",
+            "D": "Walking wounded may be categorized differently",
+            "E": "Airway opening response may rapidly change triage priority"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are true. Disaster triage requires rapid sorting based on urgency and likelihood of benefit from immediate intervention, not routine one-on-one care patterns."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Standard detailed full assessments should be completed on each patient before triage",
+            "B": "Rapid triage frameworks such as START/SALT are needed to prioritise care safely in this setting",
+            "C": "The loudest patient is always the highest priority",
+            "D": "Only physicians can triage in disaster situations"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Mass-casualty situations require rapid, structured triage. The loudest or most visible patient is not always the sickest."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Need to rapidly allocate limited resources to maximize survival and prevent avoidable deaths",
+            "B": "Ensuring everyone is seen in arrival order",
+            "C": "Avoiding any emotional discomfort for staff",
+            "D": "Providing full discharge teaching immediately"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The purpose of disaster triage is to maximize safe and effective use of limited resources."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Begin rapid triage using approved disaster principles, identifying who can walk, who needs immediate airway/life-saving attention, and who can wait briefly",
+            "B": "Perform a full medication reconciliation on the first patient",
+            "C": "Treat the bleeding arm wound first because it is obvious",
+            "D": "Delay triage until every chart is prepared"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Rapid categorisation comes first. Disaster response requires concise, lifesaving prioritisation rather than full routine assessment."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess triage categories as patient condition changes",
+            "B": "Communicate clearly with the team using the chosen triage framework",
+            "C": "Keep safety and scene organization in mind",
+            "D": "Direct ambulatory patients to a designated safer area if appropriate",
+            "E": "Assume triage labels never need updating"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Disaster triage is dynamic. Patients may worsen or improve, so reassessment is important."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective triage management?",
+          "options": {
+            "A": "Patients are sorted rapidly and logically, the most salvageable critical cases receive immediate attention, and team coordination remains organized",
+            "B": "All patients are treated strictly by arrival order",
+            "C": "No one is reassessed after initial labeling",
+            "D": "Staff spend too long on one moderate injury while critical cases wait"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective disaster triage balances speed, organization, and lifesaving prioritisation."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Early Sepsis Recognition and Escalation",
+      "narrative": "Mr. Aaron Matthews, a 61-year-old patient with pneumonia, initially appears stable on the ward. Over several hours, the nurse notices subtle changes: increasing confusion, respiratory rate 28, temperature 38.9 C, heart rate 124, blood pressure falling from baseline, and urine output lower than expected. Family members say, “He seems more confused than this morning.”\nThe nurse realises that infection may be progressing toward sepsis. Early recognition and escalation are vital because delaying action can rapidly increase morbidity and mortality.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible sepsis progression? Select all that apply.",
+          "options": {
+            "A": "Fever",
+            "B": "Tachycardia and tachypnoea",
+            "C": "New confusion",
+            "D": "Decreasing blood pressure from baseline",
+            "E": "Reduced urine output"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are important sepsis warning signs. New confusion and low urine output often indicate worsening perfusion and organ dysfunction."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is just tired from pneumonia",
+            "B": "The patient may be progressing to sepsis and requires urgent reassessment and escalation",
+            "C": "Confusion is unrelated to infection",
+            "D": "Vital sign changes should be ignored until the next round"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The pattern is concerning for sepsis, not routine fatigue. NCLEX safety questions heavily test early recognition of deterioration."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for impaired tissue perfusion and organ dysfunction related to sepsis",
+            "B": "Disturbed sleep pattern",
+            "C": "Nutrition knowledge deficit",
+            "D": "Social isolation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Sepsis threatens multiple organ systems. Early intervention is essential to prevent shock and failure."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Escalate urgently, reassess the patient comprehensively, and prepare for sepsis-related interventions according to protocol",
+            "B": "Wait to see if the confusion resolves spontaneously",
+            "C": "Focus only on reducing fever with comfort measures",
+            "D": "Delay reporting until the next doctor round"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should respond to the trend immediately. Sepsis care is time-sensitive and requires urgent action."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor blood pressure, urine output, and mental status closely",
+            "B": "Prepare for cultures, fluids, and timely antimicrobial-related steps as ordered or protocol-based",
+            "C": "Communicate the trend clearly using structured handover",
+            "D": "Continue watching for worsening respiratory distress",
+            "E": "Assume confusion is unimportant if the fever is treated"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions are appropriate. Confusion is an important sign of deterioration and should never be dismissed."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "Sepsis concern is escalated early, treatment begins promptly, and perfusion/mental status trends are followed closely",
+            "B": "Hypotension worsens because signs were not reported",
+            "C": "Monitoring is reduced after one intervention",
+            "D": "Urine output continues falling with no reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective sepsis management depends on early recognition, rapid escalation, and continuous reassessment."
+        }
+      ]
+    }
+  ]
+}

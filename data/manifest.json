@@ -1,0 +1,21 @@
+{
+  "programOverview": {
+    "folder": "Introduction",
+    "label": "Program Overview"
+  },
+  "topics": [
+    { "id": "topic-1", "folder": "Topic 1", "label": "Topic 1" },
+    { "id": "topic-2", "folder": "Topic 2", "label": "Topic 2" },
+    { "id": "topic-3", "folder": "Topic 3", "label": "Topic 3" },
+    { "id": "topic-4", "folder": "Topic 4", "label": "Topic 4" },
+    { "id": "topic-5", "folder": "Topic 5", "label": "Topic 5" },
+    { "id": "topic-6", "folder": "Topic 6", "label": "Topic 6" },
+    { "id": "topic-7", "folder": "Topic 7", "label": "Topic 7" },
+    { "id": "topic-8", "folder": "Topic 8", "label": "Topic 8" },
+    { "id": "topic-9", "folder": "Topic 9", "label": "Topic 9" },
+    { "id": "topic-10", "folder": "Topic 10", "label": "Topic 10" },
+    { "id": "topic-11", "folder": "Topic 11", "label": "Topic 11" },
+    { "id": "topic-12", "folder": "Topic 12", "label": "Topic 12" },
+    { "id": "topic-13", "folder": "Topic 13", "label": "Topic 13" }
+  ]
+}

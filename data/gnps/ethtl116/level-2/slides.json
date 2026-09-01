@@ -1,0 +1,1939 @@
+{
+  "level": 2,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 2 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 2 - Level 2 - Internationaly Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 2 · Level 2 — International Qualified Nurse",
+          "bullets": [
+            {
+              "label": "Creating Safe Healthcare Environments",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Level 2",
+          "body": "When nurses move into an international healthcare system, they are expected to apply safety standards consistently, explain the reasoning behind their actions, and respond appropriately when systems or practices place patients at risk.",
+          "bullets": [
+            {
+              "label": "This level bridges national nursing preparation",
+              "text": "This level bridges national nursing preparation with international expectations — strengthening your understanding of infection prevention, clinical risk, communication, documentation and culturally safe care."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Infection Prevention",
+              "text": ""
+            },
+            {
+              "label": "Apply internationally recognised infection-prevention principles and aseptic technique during complex clinical care.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Risk & Escalation",
+              "text": ""
+            },
+            {
+              "label": "Use risk assessment and clinical reasoning to prevent harm and recognise, escalate and document safety concerns.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Communication",
+              "text": ""
+            },
+            {
+              "label": "Communicate safety information during handover and within multidisciplinary care environments.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Support patients and families to participate in safe care, adapting to diverse healthcare systems and policies.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "Beyond Task Completion",
+          "bullets": [
+            {
+              "label": "International practice requires nurses to",
+              "text": "International practice requires nurses to recognise emerging risks, use evidence to guide care and communicate concerns assertively."
+            },
+            {
+              "label": "Safe International Practice Combines:",
+              "text": ""
+            },
+            {
+              "label": "Competence — technical skills applied reliably across settings",
+              "text": ""
+            },
+            {
+              "label": "Accountability — owning your decisions and their impact on the team",
+              "text": ""
+            },
+            {
+              "label": "Adaptability — adjusting safely to new systems without compromising standards",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "PROGRAMME OVERVIEW",
+          "body": "Your Learning Goal",
+          "bullets": [
+            {
+              "label": "By completing Level 2, you should be able to",
+              "text": "By completing Level 2, you should be able to deliver safe, culturally responsive and evidence-informed nursing care while meeting the professional expectations of international healthcare environments."
+            },
+            {
+              "label": "International Standards",
+              "text": ""
+            },
+            {
+              "label": "Risk Assessment",
+              "text": ""
+            },
+            {
+              "label": "Communication",
+              "text": ""
+            },
+            {
+              "label": "Culturally Safe Care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Applying International Safety & Infection-Prevention Standards",
+          "bullets": [
+            {
+              "label": "Core Principle",
+              "text": ""
+            },
+            {
+              "label": "While terminology and local procedures may",
+              "text": "While terminology and local procedures may vary, the underlying principles remain consistent: prevent avoidable harm, use standard precautions, assess risk, communicate clearly and practise within professional standards."
+            },
+            {
+              "label": "Standards",
+              "text": ""
+            },
+            {
+              "label": "Know local policy and professional guidelines",
+              "text": ""
+            },
+            {
+              "label": "Consistency",
+              "text": ""
+            },
+            {
+              "label": "Same safety behaviour across all shifts and settings",
+              "text": ""
+            },
+            {
+              "label": "Evidence",
+              "text": ""
+            },
+            {
+              "label": "Use current guidance, not outdated habits",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Safe Adaptation in a New Healthcare System",
+          "body": "Unfamiliar Technology",
+          "bullets": [
+            {
+              "label": "Ask for orientation to electronic records and medication systems before practising independently.",
+              "text": ""
+            },
+            {
+              "label": "Use Supervision",
+              "text": ""
+            },
+            {
+              "label": "Seeking supervised practice confirms competence within the organisation's approved process.",
+              "text": ""
+            },
+            {
+              "label": "Seek Clarification",
+              "text": ""
+            },
+            {
+              "label": "Asking for help demonstrates professionalism — not weakness. Confirm competence before independent practice.",
+              "text": ""
+            },
+            {
+              "label": "Clinical Example: Latha, new to an overseas",
+              "text": "Clinical Example: Latha, new to an overseas hospital, is asked to access an implanted port with unfamiliar equipment. She requests the local procedure and supervised practice first — protecting the patient while building her competence."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Clinical Risk Assessment & Early Escalation",
+          "bullets": [
+            {
+              "label": "Dynamic Risk Assessment",
+              "text": ""
+            },
+            {
+              "label": "Risk changes over time. A patient who was safe",
+              "text": "Risk changes over time. A patient who was safe to mobilise in the morning may deteriorate by the afternoon. Assessment must be repeated when condition, treatment or environment changes."
+            },
+            {
+              "label": "Recognising Deterioration",
+              "text": ""
+            },
+            {
+              "label": "Early warning signs include:",
+              "text": ""
+            },
+            {
+              "label": "Altered respiratory rate or oxygen saturation",
+              "text": ""
+            },
+            {
+              "label": "New confusion or reduced consciousness",
+              "text": ""
+            },
+            {
+              "label": "Reduced urine output or fever",
+              "text": ""
+            },
+            {
+              "label": "A general sense the patient is becoming unwell",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Escalation Using ISBAR",
+          "body": "I — Identify",
+          "bullets": [
+            {
+              "label": "State your name, role and the patient's name and ID.",
+              "text": ""
+            },
+            {
+              "label": "S — Situation",
+              "text": ""
+            },
+            {
+              "label": "Explain the current concern clearly and concisely.",
+              "text": ""
+            },
+            {
+              "label": "B — Background",
+              "text": ""
+            },
+            {
+              "label": "Give relevant history, diagnosis and recent changes.",
+              "text": ""
+            },
+            {
+              "label": "A — Assessment",
+              "text": ""
+            },
+            {
+              "label": "Share your clinical interpretation of the findings.",
+              "text": ""
+            },
+            {
+              "label": "R — Recommendation",
+              "text": ""
+            },
+            {
+              "label": "State what assistance or action you are requesting.",
+              "text": ""
+            },
+            {
+              "label": "Escalation should continue if the response does",
+              "text": "Escalation should continue if the response does not match the urgency of the concern. Patient and family observations are also valuable — their concerns should always be heard and assessed."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Safe Communication, Documentation & Incident Management",
+          "bullets": [
+            {
+              "label": "Communication failures contribute to many preventable incidents.",
+              "text": ""
+            },
+            {
+              "label": "IQNs must provide accurate handover, document",
+              "text": "IQNs must provide accurate handover, document care objectively, clarify uncertain instructions and report incidents through approved systems."
+            },
+            {
+              "label": "Handover — identify risks, recent changes, required monitoring and outstanding actions",
+              "text": ""
+            },
+            {
+              "label": "Documentation — timely, factual and clearly attributable to the author",
+              "text": ""
+            },
+            {
+              "label": "Closed-loop — receiver repeats the message; sender confirms accuracy",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Documentation & Incident Reporting",
+          "body": "What to Document",
+          "bullets": [
+            {
+              "label": "What was assessed, what action was taken, how",
+              "text": "What was assessed, what action was taken, how the patient responded and who was informed. Use objective language — replace labels like \"non-compliant\" with factual descriptions."
+            },
+            {
+              "label": "Incident Reports",
+              "text": ""
+            },
+            {
+              "label": "Complement — not replace — clinical",
+              "text": "Complement — not replace — clinical documentation. Immediate patient care comes first. Reports record facts so patterns and contributing factors can be reviewed."
+            },
+            {
+              "label": "Near-Miss Reporting",
+              "text": ""
+            },
+            {
+              "label": "Near misses reveal system weaknesses before",
+              "text": "Near misses reveal system weaknesses before harm occurs. Reporting them is a professional responsibility and a key driver of quality improvement."
+            },
+            {
+              "label": "Clinical Example: A nurse receives an unclear",
+              "text": "Clinical Example: A nurse receives an unclear telephone order for a high-risk medicine. She reads back patient details, medicine name, dose, route and timing. The prescriber corrects one digit — a near miss prevented through closed-loop communication."
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Culturally Safe & Patient-Centred Care",
+          "bullets": [
+            {
+              "label": "Safety practices are most effective when",
+              "text": "Safety practices are most effective when patients understand and can participate in them. Cultural beliefs, language, health literacy and prior healthcare experiences all influence communication and decision-making."
+            },
+            {
+              "label": "Communication Access",
+              "text": ""
+            },
+            {
+              "label": "Use professional interpreters for complex or",
+              "text": "Use professional interpreters for complex or high-risk conversations. Family members provide emotional support but may not translate accurately."
+            },
+            {
+              "label": "Shared Safety",
+              "text": ""
+            },
+            {
+              "label": "Invite patients to confirm identity, report allergies, describe changes and ask whether hands have been cleaned.",
+              "text": ""
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Ask what matters to the patient rather than",
+              "text": "Ask what matters to the patient rather than assuming beliefs. Accommodate preferences while explaining non-negotiable safety requirements."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Teach-Back: Confirming Understanding",
+          "body": "What is Teach-Back?",
+          "bullets": [
+            {
+              "label": "Teach-back checks whether your explanation was",
+              "text": "Teach-back checks whether your explanation was effective — it is not a test of the patient. Ask the patient to explain information in their own words or demonstrate a skill."
+            },
+            {
+              "label": "When to Use It",
+              "text": ""
+            },
+            {
+              "label": "Medication instructions",
+              "text": ""
+            },
+            {
+              "label": "Infection prevention at home",
+              "text": ""
+            },
+            {
+              "label": "Wound and drain care at discharge",
+              "text": ""
+            },
+            {
+              "label": "When to seek urgent help",
+              "text": ""
+            },
+            {
+              "label": "Clinical Example: A patient with limited",
+              "text": "Clinical Example: A patient with limited English is discharged with a wound drain. Using an interpreter and visual aids, the nurse asks the patient to demonstrate drain care. A misunderstanding is identified and corrected before discharge."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways Across All Sections",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Safety Standards",
+              "text": ""
+            },
+            {
+              "label": "Know your workplace policies, apply core safety behaviours consistently and use current evidence — not outdated habit.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Risk & Escalation",
+              "text": ""
+            },
+            {
+              "label": "Assessment is continuous. Trends and subtle",
+              "text": "Assessment is continuous. Trends and subtle changes matter. Use ISBAR to escalate clearly and listen to patients and families."
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Communication",
+              "text": ""
+            },
+            {
+              "label": "Clear handover supports continuity. Document",
+              "text": "Clear handover supports continuity. Document facts and responses. Repeat back critical information and report near misses."
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Provide communication support for high-risk",
+              "text": "Provide communication support for high-risk information. Ask rather than assume. Use teach-back to confirm understanding."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Ready for Level 3",
+          "body": "You have strengthened your ability to assess risk, apply international infection-prevention standards, communicate safety information and participate in incident management.",
+          "bullets": [
+            {
+              "label": "Level 3 moves from safe individual practice to leading safer systems and driving global quality improvement.",
+              "text": ""
+            },
+            {
+              "label": "CONTINUE TO GNPS LEVEL 3",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Applying International Safety and Infection-Prevention Standards",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 2 - Level 2 - Section 1 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 2: Creating Safe Healthcare Environments",
+          "bullets": [
+            {
+              "label": "Level 2 — International Qualified Nurse (IQN) · Student Learning Notes",
+              "text": ""
+            },
+            {
+              "label": "SECTION 1",
+              "text": ""
+            },
+            {
+              "label": "SAFETY & INFECTION PREVENTION",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Applying International Safety Standards",
+          "body": "International healthcare systems expect nurses to translate policies and evidence into reliable clinical behaviour. While terminology and local procedures may vary, the underlying principles remain universal: prevent avoidable harm, apply standard precautions, assess risk clearly, and practise within professional standards.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Section Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Relate Local to Global",
+              "text": ""
+            },
+            {
+              "label": "Link local workplace policies to broader international safety principles.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Apply Precautions",
+              "text": ""
+            },
+            {
+              "label": "Consistently apply standard and transmission-based precautions in any setting.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Evidence-Based Practice",
+              "text": ""
+            },
+            {
+              "label": "Recognise how guidelines and current evidence underpin safe clinical practice.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Safe Adaptation",
+              "text": ""
+            },
+            {
+              "label": "Adapt safely and professionally when entering an unfamiliar healthcare system.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "CORE CONCEPT 1",
+          "body": "Standards & Local Policy",
+          "bullets": [
+            {
+              "label": "Every workplace operates within a framework of",
+              "text": "Every workplace operates within a framework of regulatory standards, clinical guidelines, and organisational procedures. A policy sets out the local process — but professional judgement remains essential."
+            },
+            {
+              "label": "Familiarise yourself with your organisation's specific protocols",
+              "text": ""
+            },
+            {
+              "label": "Understand the difference between the policy and the underlying principle",
+              "text": ""
+            },
+            {
+              "label": "Apply professional judgement when circumstances differ from routine practice",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Consistency and Reliability in Safe Practice",
+          "body": "A safe system depends on reliable, repeatable behaviour — regardless of how busy the ward is or how experienced the nurse.",
+          "bullets": [
+            {
+              "label": "Hand Hygiene",
+              "text": ""
+            },
+            {
+              "label": "Every time, every patient, every setting. Non-negotiable.",
+              "text": ""
+            },
+            {
+              "label": "Patient Identification",
+              "text": ""
+            },
+            {
+              "label": "Verify identity before every procedure, medication, or intervention.",
+              "text": ""
+            },
+            {
+              "label": "Allergy Checks",
+              "text": ""
+            },
+            {
+              "label": "Confirm allergies at every encounter — never assume prior verification is sufficient.",
+              "text": ""
+            },
+            {
+              "label": "Aseptic Technique",
+              "text": ""
+            },
+            {
+              "label": "Maintain sterile practice consistently, not selectively under pressure.",
+              "text": ""
+            },
+            {
+              "label": "International employers assess whether safety",
+              "text": "International employers assess whether safety behaviours are maintained across shifts and settings — not just when being observed."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Translating Evidence into Practice",
+          "body": "Clinical guidance evolves as new research emerges. Nurses must stay current and avoid relying on outdated habits.",
+          "bullets": [
+            {
+              "label": "Use current organisational resources and clinical guidelines",
+              "text": ""
+            },
+            {
+              "label": "Seek clarification when guidance is unclear or conflicting",
+              "text": ""
+            },
+            {
+              "label": "Participate actively in education and training updates",
+              "text": ""
+            },
+            {
+              "label": "Recognise that \"this is how we've always done it\" can place patients at risk",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Safe Adaptation in a New System",
+          "body": "An IQN may encounter unfamiliar devices, electronic record systems, medication platforms, or isolation procedures. Safe adaptation is a professional skill — not a weakness.",
+          "bullets": [
+            {
+              "label": "Request Orientation",
+              "text": ""
+            },
+            {
+              "label": "Ask for a formal introduction to unfamiliar equipment, systems, and local workflows before independent practice.",
+              "text": ""
+            },
+            {
+              "label": "Use Supervision Appropriately",
+              "text": ""
+            },
+            {
+              "label": "Work under supervision until competence is confirmed through practice and assessment.",
+              "text": ""
+            },
+            {
+              "label": "Confirm Competence First",
+              "text": ""
+            },
+            {
+              "label": "Never proceed independently with an unfamiliar",
+              "text": "Never proceed independently with an unfamiliar task until you have practised and been assessed within the organisation's approved process."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Latha's First Week",
+          "body": "On her first week in an overseas hospital, Latha is asked to access an implanted port using equipment she has not previously used. Although she understands the general principles, she requests the local procedure and supervised practice before proceeding.",
+          "bullets": [
+            {
+              "label": "This decision protects the patient while",
+              "text": "This decision protects the patient while allowing Latha to develop competence within the organisation's approved process. It reflects professional integrity — not a lack of skill."
+            },
+            {
+              "label": "What Latha Did Right",
+              "text": ""
+            },
+            {
+              "label": "Recognised the limits of her current familiarity",
+              "text": ""
+            },
+            {
+              "label": "Asked for the local procedure document",
+              "text": ""
+            },
+            {
+              "label": "Requested supervised practice before acting independently",
+              "text": ""
+            },
+            {
+              "label": "Protected patient safety without refusing the task",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "The Four Pillars of Safe International Practice",
+          "body": "Know Your Standards",
+          "bullets": [
+            {
+              "label": "Understand the regulatory and organisational policies that govern your workplace.",
+              "text": ""
+            },
+            {
+              "label": "Behave Consistently",
+              "text": ""
+            },
+            {
+              "label": "Apply core safety behaviours every time — across every shift, every patient, every setting.",
+              "text": ""
+            },
+            {
+              "label": "Use Current Evidence",
+              "text": ""
+            },
+            {
+              "label": "Follow current guidelines and resources — not habit or outdated practice.",
+              "text": ""
+            },
+            {
+              "label": "Seek Orientation",
+              "text": ""
+            },
+            {
+              "label": "Ask for supervision and confirm competence before practising independently in unfamiliar areas.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "📋 Policies + Judgement",
+          "bullets": [
+            {
+              "label": "Policies guide practice; professional judgement adapts it to individual patient situations.",
+              "text": ""
+            },
+            {
+              "label": "🔄 Consistent Safety",
+              "text": ""
+            },
+            {
+              "label": "Core safety behaviours must never be compromised by workload, experience, or familiarity.",
+              "text": ""
+            },
+            {
+              "label": "📚 Evidence-Led",
+              "text": ""
+            },
+            {
+              "label": "Update your practice as clinical evidence evolves — never rely on habit alone.",
+              "text": ""
+            },
+            {
+              "label": "🤝 Ask for Help",
+              "text": ""
+            },
+            {
+              "label": "Seeking orientation and supervision in a new system is a hallmark of professional competence.",
+              "text": ""
+            },
+            {
+              "label": "Section 1 Complete — Global Nursing Professional Series (GNPS) Programme 2",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Clinical Risk Assessment and Early Escalation",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 2 - Level 2 - Section 2 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Clinical Risk Assessment and Early Escalation",
+          "body": "Global Nursing Professional Series (GNPS) · Program 2 · Level 2",
+          "bullets": [
+            {
+              "label": "Creating Safe Healthcare Environments — International Qualified Nurse (IQN)",
+              "text": ""
+            },
+            {
+              "label": "SECTION 2 · STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Use Structured Assessments",
+              "text": ""
+            },
+            {
+              "label": "Apply risk assessment tools appropriately across clinical settings.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Recognise Deterioration",
+              "text": ""
+            },
+            {
+              "label": "Identify early indicators of patient decline or infection.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Safety Actions",
+              "text": ""
+            },
+            {
+              "label": "Take immediate and appropriate action when risk is identified.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Escalate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Use structured communication to escalate concerns effectively.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Dynamic Risk Assessment",
+          "body": "Risk is not static — it changes as patient condition, treatment, and environment evolve. A patient safely mobilising in the morning may become dizzy after medication or develop new weakness by afternoon.",
+          "bullets": [
+            {
+              "label": "Key principle: Repeat your assessment whenever",
+              "text": "Key principle: Repeat your assessment whenever the condition, treatment, or environment changes — not just at scheduled intervals."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Recognising Early Deterioration",
+          "body": "Early Warning Signs to Watch For",
+          "bullets": [
+            {
+              "label": "Altered or rising respiratory rate",
+              "text": ""
+            },
+            {
+              "label": "New-onset confusion or agitation",
+              "text": ""
+            },
+            {
+              "label": "Reduced urine output",
+              "text": ""
+            },
+            {
+              "label": "Fever or signs of infection",
+              "text": ""
+            },
+            {
+              "label": "Low oxygen saturation (SpO₂)",
+              "text": ""
+            },
+            {
+              "label": "Increasing or uncontrolled pain",
+              "text": ""
+            },
+            {
+              "label": "A general sense the patient is becoming unwell",
+              "text": ""
+            },
+            {
+              "label": "Always compare findings against the patient's baseline and act on concerning trends — not isolated values.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Escalation Using ISBAR",
+          "body": "ISBAR provides a structured framework for communicating patient concerns clearly and efficiently to medical teams.",
+          "bullets": [
+            {
+              "label": "I — Identify",
+              "text": ""
+            },
+            {
+              "label": "State who you are and identify the patient clearly.",
+              "text": ""
+            },
+            {
+              "label": "S — Situation",
+              "text": ""
+            },
+            {
+              "label": "Describe the current concern or change in condition.",
+              "text": ""
+            },
+            {
+              "label": "B — Background",
+              "text": ""
+            },
+            {
+              "label": "Provide relevant clinical history and context.",
+              "text": ""
+            },
+            {
+              "label": "A — Assessment",
+              "text": ""
+            },
+            {
+              "label": "Share your clinical assessment of what is happening.",
+              "text": ""
+            },
+            {
+              "label": "R — Recommendation",
+              "text": ""
+            },
+            {
+              "label": "State clearly what action or assistance you require.",
+              "text": ""
+            },
+            {
+              "label": "If the response does not match the urgency of the concern, continue to escalate through the appropriate chain.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Listening to Patients and Families",
+          "body": "Why Their Perspective Matters",
+          "bullets": [
+            {
+              "label": "Patients and families often notice subtle",
+              "text": "Patients and families often notice subtle changes before clinical measurements become abnormal. They know the patient's normal behaviour, mood, and function better than any chart."
+            },
+            {
+              "label": "Concerns raised by family should always be heard and assessed",
+              "text": ""
+            },
+            {
+              "label": "Dismissing them can delay recognition of deterioration",
+              "text": ""
+            },
+            {
+              "label": "It erodes trust and undermines person-centred care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Mr Evans",
+          "body": "\"He is not himself.\" — Mr Evans's daughter",
+          "bullets": [
+            {
+              "label": "Mr Evans presents with normal blood pressure",
+              "text": "Mr Evans presents with normal blood pressure but is newly confused and breathing faster than earlier. His daughter's concern raises a flag."
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Repeat Observations",
+              "text": ""
+            },
+            {
+              "label": "Re-assess vital signs and document the trend, not just the current reading.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Assess for Infection",
+              "text": ""
+            },
+            {
+              "label": "Consider sepsis screening — confusion and raised respiratory rate are early indicators.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Escalate Using ISBAR",
+              "text": ""
+            },
+            {
+              "label": "Request urgent medical review using structured communication.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Assessment vs. Escalation",
+          "body": "The Complete Clinical Picture",
+          "bullets": [
+            {
+              "label": "Effective nursing decisions rely on combining",
+              "text": "Effective nursing decisions rely on combining structured tools with clinical judgement. A score alone cannot replace the nurse's direct observation and interpretation of context."
+            },
+            {
+              "label": "Tools support decision-making — they do not replace it",
+              "text": ""
+            },
+            {
+              "label": "Trends are more informative than single readings",
+              "text": ""
+            },
+            {
+              "label": "Act on the full clinical picture",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Connection: What to Remember",
+          "body": "These concepts are directly tested in NCLEX and international nursing competency assessments.",
+          "bullets": [
+            {
+              "label": "🔁 Continuous Assessment",
+              "text": ""
+            },
+            {
+              "label": "Risk assessment is an ongoing process, not a one-time event. Reassess with every change.",
+              "text": ""
+            },
+            {
+              "label": "📈 Trends Over Single Values",
+              "text": ""
+            },
+            {
+              "label": "Deterioration patterns matter more than a single abnormal reading. Monitor and document trends.",
+              "text": ""
+            },
+            {
+              "label": "📢 Structured Escalation",
+              "text": ""
+            },
+            {
+              "label": "Use ISBAR every time. Clear, structured communication improves patient safety outcomes.",
+              "text": ""
+            },
+            {
+              "label": "👂 Patient Voice",
+              "text": ""
+            },
+            {
+              "label": "Always listen to patients and families. Their insight can be the earliest clinical warning sign.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Risk assessment is continuous",
+          "bullets": [
+            {
+              "label": "Reassess whenever the patient's condition, environment, or treatment changes.",
+              "text": ""
+            },
+            {
+              "label": "Trends and subtle changes matter",
+              "text": ""
+            },
+            {
+              "label": "Do not wait for a severely abnormal value — act on the emerging pattern.",
+              "text": ""
+            },
+            {
+              "label": "Escalate using structured communication",
+              "text": ""
+            },
+            {
+              "label": "ISBAR ensures your concern is heard clearly and acted upon promptly.",
+              "text": ""
+            },
+            {
+              "label": "Listen to patients and families",
+              "text": ""
+            },
+            {
+              "label": "Their observations are a valid and important part of the clinical picture.",
+              "text": ""
+            },
+            {
+              "label": "GNPS Program 2 · Section 2 Complete — Proceed to Section 3: Safe Medication Administration",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Safe Communication, Documentation and Incident Management",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 2 - Level 2 - Section 3 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Communication, Documentation & Incident Management",
+          "body": "Section 3 · Global Nursing Professional Series (GNPS) · Program 2 · Level 2 – Internationally Qualified Nurse",
+          "bullets": [
+            {
+              "label": "CREATING SAFE HEALTHCARE ENVIRONMENTS",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Why Communication Matters",
+          "body": "Communication failures are a leading cause of preventable patient harm. For internationally qualified nurses, mastering accurate handover, objective documentation, and clear information exchange is essential to patient safety.",
+          "bullets": [
+            {
+              "label": "Good communication makes the patient's current risks visible to everyone involved in care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "1",
+          "bullets": [
+            {
+              "label": "Clinical Handover",
+              "text": ""
+            },
+            {
+              "label": "Deliver concise, accurate, and structured clinical handover",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Documentation",
+              "text": ""
+            },
+            {
+              "label": "Record safety information objectively and promptly",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Closed-Loop Comms",
+              "text": ""
+            },
+            {
+              "label": "Use read-back techniques for critical information",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Incident Reporting",
+              "text": ""
+            },
+            {
+              "label": "Participate constructively in reporting and review processes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Handover: What to Include",
+          "body": "Handover should be structured, prioritised, and meaningful — not simply a recitation of facts.",
+          "bullets": [
+            {
+              "label": "Identify",
+              "text": ""
+            },
+            {
+              "label": "Patient identity & current condition",
+              "text": ""
+            },
+            {
+              "label": "Context",
+              "text": ""
+            },
+            {
+              "label": "Relevant history & recent changes",
+              "text": ""
+            },
+            {
+              "label": "Risks",
+              "text": ""
+            },
+            {
+              "label": "Active risks & required monitoring",
+              "text": ""
+            },
+            {
+              "label": "Actions",
+              "text": ""
+            },
+            {
+              "label": "Outstanding tasks & confirmed responsibility",
+              "text": ""
+            },
+            {
+              "label": "The receiving clinician must always have an",
+              "text": "The receiving clinician must always have an opportunity to ask questions and confirm responsibility before handover is complete."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Documentation Standards",
+          "body": "Every record must be:",
+          "bullets": [
+            {
+              "label": "Timely",
+              "text": ""
+            },
+            {
+              "label": "Documented promptly after the event",
+              "text": ""
+            },
+            {
+              "label": "Accurate & Factual",
+              "text": ""
+            },
+            {
+              "label": "Reflect what was assessed, the action taken, and patient response",
+              "text": ""
+            },
+            {
+              "label": "Attributable",
+              "text": ""
+            },
+            {
+              "label": "Clearly linked to the author who provided care",
+              "text": ""
+            },
+            {
+              "label": "Objective",
+              "text": ""
+            },
+            {
+              "label": "Replace labels like \"non-compliant\" with factual descriptions",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Closed-Loop Communication",
+          "body": "A structured technique to eliminate misunderstanding during high-stakes exchanges — especially in emergencies, telephone orders, or noisy clinical environments.",
+          "bullets": [
+            {
+              "label": "Sender Gives Instruction",
+              "text": ""
+            },
+            {
+              "label": "Receiver Reads Back",
+              "text": ""
+            },
+            {
+              "label": "Sender Confirms Accuracy",
+              "text": ""
+            },
+            {
+              "label": "Cycle Continues",
+              "text": ""
+            },
+            {
+              "label": "This simple loop reduces errors significantly",
+              "text": "This simple loop reduces errors significantly when managing urgent instructions, particularly for high-risk medications or time-critical decisions."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Incident & Near-Miss Reporting",
+          "body": "The Reporting Principle",
+          "bullets": [
+            {
+              "label": "An incident report complements — but never replaces — clinical documentation. Patient care always comes first.",
+              "text": ""
+            },
+            {
+              "label": "The report then records relevant facts so that",
+              "text": "The report then records relevant facts so that patterns and contributing factors can be systematically reviewed and addressed."
+            },
+            {
+              "label": "Near misses are valuable learning opportunities — they expose system weaknesses before harm can occur.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Telephone Order for High-Risk Medicine",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Recognise the Risk",
+              "text": ""
+            },
+            {
+              "label": "The line is unclear and the dose sounds unusual — the nurse does not guess.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply Closed-Loop",
+              "text": ""
+            },
+            {
+              "label": "The nurse reads back: patient details, medicine name, dose, route, and timing.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Prescriber Corrects",
+              "text": ""
+            },
+            {
+              "label": "One digit is corrected — a potentially harmful error is prevented.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Document & Report",
+              "text": ""
+            },
+            {
+              "label": "The order is documented per policy, and the communication risk is reported to the shift leader.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Common Documentation Pitfalls",
+          "body": "Replace Subjective Labels With Facts",
+          "bullets": [
+            {
+              "label": "Objective language protects patients, colleagues, and the nurse's professional accountability.",
+              "text": ""
+            },
+            {
+              "label": "❌ \"Difficult patient\"",
+              "text": ""
+            },
+            {
+              "label": "Replace with: \"Patient refused medication and stated concerns about side effects.\"",
+              "text": ""
+            },
+            {
+              "label": "❌ \"Non-compliant\"",
+              "text": ""
+            },
+            {
+              "label": "Replace with: \"Patient did not attend dressing change at 10:00. Reason documented.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Structured Handover",
+          "bullets": [
+            {
+              "label": "Supports continuity of care and reduces risk at transition points",
+              "text": ""
+            },
+            {
+              "label": "Objective Documentation",
+              "text": ""
+            },
+            {
+              "label": "Record facts, actions taken, and patient responses — always",
+              "text": ""
+            },
+            {
+              "label": "Read-Back Technique",
+              "text": ""
+            },
+            {
+              "label": "Repeat critical information to confirm accuracy in every high-stakes exchange",
+              "text": ""
+            },
+            {
+              "label": "Report Near Misses",
+              "text": ""
+            },
+            {
+              "label": "Every near miss is a chance to strengthen the system before harm occurs",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Tip: Communication, documentation, and",
+              "text": "NCLEX Tip: Communication, documentation, and incident management questions frequently appear in the Safe and Effective Care Environment domain."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Delivering Culturally Safe and Patient-Centred Safety Care",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 2 - Level 2 - Section 4 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Delivering Culturally Safe & Patient-Centred Care",
+          "body": "Section 4 — GNPS Programme 2, Level 2 | Equipping international nurses to communicate safely, bridge cultural gaps, and keep every patient at the centre of care.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Identify Barriers",
+              "text": ""
+            },
+            {
+              "label": "Recognise communication barriers — language, literacy, disability, culture — that affect patient safety.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Use Interpreters",
+              "text": ""
+            },
+            {
+              "label": "Apply professional interpretation and accessible information appropriately in clinical settings.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Involve Patients",
+              "text": ""
+            },
+            {
+              "label": "Engage patients in infection prevention, risk reduction, and shared decision-making.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Balance Respect & Safety",
+              "text": ""
+            },
+            {
+              "label": "Honour cultural preferences whilst upholding evidence-based, non-negotiable safety standards.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Communication Access",
+          "body": "Language barriers are a significant patient safety risk. Knowing when and how to use the right communication support is a core clinical skill.",
+          "bullets": [
+            {
+              "label": "✅ Professional Interpreters",
+              "text": ""
+            },
+            {
+              "label": "Required for complex or high-risk conversations",
+              "text": ""
+            },
+            {
+              "label": "Maintain accuracy and confidentiality",
+              "text": ""
+            },
+            {
+              "label": "Available in person, by phone, or video",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Family Members as Translators",
+              "text": ""
+            },
+            {
+              "label": "May provide emotional support — but not clinical translation",
+              "text": ""
+            },
+            {
+              "label": "Risk of inaccuracy, omission, or confidentiality breach",
+              "text": ""
+            },
+            {
+              "label": "Never rely on family for high-risk information exchange",
+              "text": ""
+            },
+            {
+              "label": "Also adapt materials for hearing, vision, cognitive, and literacy needs.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Shared Safety — Patients as Partners",
+          "body": "Safety is a shared responsibility. Nurses should actively invite patient participation — not assume it will happen automatically.",
+          "bullets": [
+            {
+              "label": "Confirm Identity",
+              "text": ""
+            },
+            {
+              "label": "Ask patients to state their name and date of birth at every key interaction.",
+              "text": ""
+            },
+            {
+              "label": "Hand Hygiene Check",
+              "text": ""
+            },
+            {
+              "label": "Patients can — and should — feel empowered to ask: \"Have you cleaned your hands?\"",
+              "text": ""
+            },
+            {
+              "label": "Report Allergies & Changes",
+              "text": ""
+            },
+            {
+              "label": "Encourage patients to speak up about allergies and any new or worsening symptoms.",
+              "text": ""
+            },
+            {
+              "label": "Post-Discharge Care",
+              "text": ""
+            },
+            {
+              "label": "Ensure patients understand wound or device care before leaving — with demonstration and return demonstration.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "CULTURAL SAFETY",
+          "body": "Ask, Don't Assume",
+          "bullets": [
+            {
+              "label": "Culturally safe care begins with self-awareness",
+              "text": "Culturally safe care begins with self-awareness and respectful enquiry. A patient's background does not predict their beliefs or preferences."
+            },
+            {
+              "label": "Ask: \"What matters most to you about your care?\" — rather than assuming based on ethnicity or religion.",
+              "text": ""
+            },
+            {
+              "label": "Accommodate cultural preferences wherever clinically possible",
+              "text": ""
+            },
+            {
+              "label": "Clearly explain any non-negotiable safety requirements",
+              "text": ""
+            },
+            {
+              "label": "Document preferences and communicate them to the wider team",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "The Teach-Back Method",
+          "body": "Teach-back is one of the most effective tools for confirming patient understanding — particularly for medication, infection prevention, and discharge instructions.",
+          "bullets": [
+            {
+              "label": "Nurse Explains",
+              "text": ""
+            },
+            {
+              "label": "Clear, jargon-free instruction",
+              "text": ""
+            },
+            {
+              "label": "Nurse Confirms",
+              "text": ""
+            },
+            {
+              "label": "Corrects gaps and re-explains",
+              "text": ""
+            },
+            {
+              "label": "Patient Demonstrates",
+              "text": ""
+            },
+            {
+              "label": "Explains or shows in own words",
+              "text": ""
+            },
+            {
+              "label": "Key principle: Teach-back is not a test of the",
+              "text": "Key principle: Teach-back is not a test of the patient — it tests whether the nurse's explanation was effective. If the patient cannot recall correctly, the nurse re-teaches."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Discharge with a Wound Drain",
+          "body": "Putting it all together — a patient with limited English is discharged with a wound drain.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Arrange an Interpreter",
+              "text": ""
+            },
+            {
+              "label": "A professional interpreter is booked — not a family member — to ensure accuracy throughout discharge education.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Demonstrate & Provide Visual Aids",
+              "text": ""
+            },
+            {
+              "label": "The nurse demonstrates hand hygiene and drain care, then provides picture-based written instructions for home reference.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Apply Teach-Back",
+              "text": ""
+            },
+            {
+              "label": "The patient is asked to show and explain each",
+              "text": "The patient is asked to show and explain each step. A misunderstanding about when to seek help is identified and corrected before discharge."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "🗣 Communication Support",
+          "bullets": [
+            {
+              "label": "Always provide professional interpreters or adapted materials for high-risk clinical information.",
+              "text": ""
+            },
+            {
+              "label": "🤝 Invite Participation",
+              "text": ""
+            },
+            {
+              "label": "Respectfully engage every patient in their own safety — identity checks, hygiene, reporting changes.",
+              "text": ""
+            },
+            {
+              "label": "🌏 Ask, Don't Assume",
+              "text": ""
+            },
+            {
+              "label": "Cultural safety means enquiring — not inferring — what matters to each individual patient.",
+              "text": ""
+            },
+            {
+              "label": "✅ Use Teach-Back",
+              "text": ""
+            },
+            {
+              "label": "Confirm understanding by asking patients to demonstrate or explain in their own words before discharge.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Programme Summary",
+          "body": "GNPS Programme 2 — Level 2 Complete",
+          "bullets": [
+            {
+              "label": "You have successfully strengthened four core competencies across this programme:",
+              "text": ""
+            },
+            {
+              "label": "Risk Assessment",
+              "text": ""
+            },
+            {
+              "label": "Identifying and responding to clinical and environmental risks before harm occurs.",
+              "text": ""
+            },
+            {
+              "label": "Infection Prevention",
+              "text": ""
+            },
+            {
+              "label": "Applying international standards — hand hygiene, PPE, aseptic technique, isolation protocols.",
+              "text": ""
+            },
+            {
+              "label": "Safety Communication",
+              "text": ""
+            },
+            {
+              "label": "Delivering clear, culturally safe information to patients, families, and multidisciplinary teams.",
+              "text": ""
+            },
+            {
+              "label": "Incident Management",
+              "text": ""
+            },
+            {
+              "label": "Participating in reporting, reflection, and systemic learning when things go wrong.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Ready for Level 3",
+          "body": "From Safe Practice to Leading Safer Systems",
+          "bullets": [
+            {
+              "label": "Level 3 moves beyond individual safe practice.",
+              "text": "Level 3 moves beyond individual safe practice. You will develop skills to lead quality improvement, contribute to global safety initiatives, and support colleagues in building safer healthcare environments."
+            },
+            {
+              "label": "Completing Level 2 means you are equipped to",
+              "text": "Completing Level 2 means you are equipped to practise safely, communicate effectively, and advocate for every patient — wherever in the world you work."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

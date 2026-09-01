@@ -1,0 +1,1390 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What three groups of people does a safe healthcare environment protect?",
+      "back": "Patients, visitors, and healthcare workers."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "According to Section 1, what does a safe healthcare environment protect people from?",
+      "back": "Preventable infection, injury, and clinical harm."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Beyond specialized equipment, what is the primary source of safety in a healthcare setting?",
+      "back": "The everyday decisions of healthcare professionals."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Name one of the everyday decisions mentioned in Section 1 that creates a safe environment.",
+      "back": "Keeping the environment uncluttered (or confirming patient identity, checking equipment, communicating changes)."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "Why are nurses in a strong position to notice hazards early?",
+      "back": "They spend more time with patients than many other healthcare professionals."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "List two examples of environmental hazards mentioned in Section 1.",
+      "back": "A wet floor and a damaged electrical cable."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "List two examples of clinical hazards mentioned in Section 1.",
+      "back": "An unclear medication label and a change in a patient’s mobility."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "What are the three steps of professional responsibility when a nurse notices a risk?",
+      "back": "Notice the risk, take immediate action, and report the concern through the correct process."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What is the goal of organizing the patient area?",
+      "back": "To ensure it is clean, organized, and appropriate to the person's needs."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Where should frequently used items and the call bell be positioned?",
+      "back": "Within the patient's reach."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "What action must be taken regarding pathways in the healthcare environment?",
+      "back": "They should remain clear."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "What should be done with equipment like beds and wheelchairs to ensure safety?",
+      "back": "They should be stable and checked before use."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "Why do oxygen and electrical equipment require particular care?",
+      "back": "Incorrect use can cause fire, injury, or interruption of treatment."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Concept: Risk Awareness",
+      "back": "Definition: Observing the environment and the patient together to identify potential dangers."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "Why might the same environment be safe for an independent adult but unsafe for a different patient?",
+      "back": "The patient may be confused, visually impaired, or weak."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Name two individual patient factors a nurse should consider during a safety assessment.",
+      "back": "Mobility and cognition (or medication effects, communication needs, and ability to seek assistance)."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "What is the potential consequence of remaining silent when a nurse identifies unsafe practice?",
+      "back": "It may allow harm to occur."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "In what manner should safety concerns be communicated?",
+      "back": "Respectfully and promptly."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "What type of hazard requires 'immediate action'?",
+      "back": "An immediate danger."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "How should less urgent hazards be handled to ensure they are addressed?",
+      "back": "They should be documented or reported according to organizational policy for correction and monitoring."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "In the clinical example, why was Mr. Rao unsteady?",
+      "back": "He had just received pain medication."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "What safety hazard did Meena identify regarding Mr. Rao's bed?",
+      "back": "The bed had been left raised."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "What hazard was identified regarding Mr. Rao's walking frame?",
+      "back": "It was placed across the room rather than within reach."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "What action did Meena take with the bed to reduce the risk of a fall?",
+      "back": "She lowered the bed."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "What specific floor check did Meena perform in the clinical example?",
+      "back": "She checked that the floor was dry."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "What instruction did Meena give Mr. Rao to prevent an unassisted fall?",
+      "back": "She reminded him to ask for assistance before standing."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "How did Meena ensure the next shift was aware of Mr. Rao's safety needs?",
+      "back": "She informed the next nurse during handover."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "Key Learning Point: Safety begins with _____.",
+      "back": "Careful observation."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "When should immediate hazards be corrected?",
+      "back": "Without delay."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "Why is it important to communicate and report risks to others?",
+      "back": "So that others remain informed and safety can be monitored."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Safety is created through _____ such as keeping the environment uncluttered.",
+      "back": "everyday decisions."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "A nurse’s professional responsibility involves noticing a risk and taking _____ action.",
+      "back": "immediate."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "What must be confirmed regarding a patient before proceeding with care tasks?",
+      "back": "Patient identity."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "What is the risk associated with a change in a patient's mobility if ignored?",
+      "back": "It can lead to harm (such as a fall)."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "What should be within reach for every patient to allow them to call for help?",
+      "back": "The call bell."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "Risk awareness involves considering a person's ability to seek _____.",
+      "back": "assistance."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "What is the nurse's role regarding avoidable harm?",
+      "back": "Preventing it through early hazard recognition and action."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "How does a clean and organized patient area contribute to safety?",
+      "back": "It ensures the environment is appropriate to the person's needs and reduces hazards."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "In the context of safety, what does 'acting promptly' mean?",
+      "back": "Taking action immediately when something appears unsafe."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "What is the purpose of reporting a hazard through a 'correct process'?",
+      "back": "To ensure the concern is documented, corrected, and monitored by the organization."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "True or False: Safety depends only on specialized equipment.",
+      "back": "False (it is created through everyday decisions of professionals)."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "Which patient factor refers to a person's mental processing and awareness in safety assessments?",
+      "back": "Cognition."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "What should be done if identification information for a patient is missing?",
+      "back": "The task should pause until identity is confirmed."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "What is a primary reason why an incorrectly positioned bed is dangerous?",
+      "back": "It can lead to falls or injury when the patient attempts to move."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Safe environments are created by safe _____ actions.",
+      "back": "everyday."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "A safe healthcare environment protects against preventable _____.",
+      "back": "infection (or injury/clinical harm)."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "Environmental safety requires that equipment be _____ before use.",
+      "back": "checked."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "In 'speaking up for safety,' how should concerns regarding less urgent hazards be handled?",
+      "back": "They should be documented or reported according to policy."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "What is the nurse's role when a medication label is unclear?",
+      "back": "Notice the risk, take action to clarify, and report the concern."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "What is the consequence of incorrect use of oxygen equipment?",
+      "back": "Fire, injury, or interruption of treatment."
+    },
+    {
+      "id": "fc-51",
+      "section": 2,
+      "front": "Which core nursing responsibility aims to prevent microorganisms from spreading through hands and equipment?",
+      "back": "Infection prevention."
+    },
+    {
+      "id": "fc-52",
+      "section": 2,
+      "front": "Name four mediums through which microorganisms can spread in a healthcare environment.",
+      "back": "They can spread through hands, equipment, body fluids, and respiratory droplets."
+    },
+    {
+      "id": "fc-53",
+      "section": 2,
+      "front": "What factors make patients especially vulnerable to healthcare-associated infections?",
+      "back": "Vulnerability is increased by illness, surgery, age, or reduced immunity."
+    },
+    {
+      "id": "fc-54",
+      "section": 2,
+      "front": "How are many healthcare-associated infections prevented in everyday nursing?",
+      "back": "They are prevented through the consistent application of basic precautions."
+    },
+    {
+      "id": "fc-55",
+      "section": 2,
+      "front": "What is the sequence of events that allows an infection to occur in a susceptible person?",
+      "back": "An infectious organism moves from a source through a mode of transmission."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "Name three practices that can interrupt the chain of infection.",
+      "back": "The chain can be interrupted by hand hygiene, cleaning, and appropriate PPE use."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "Besides PPE and cleaning, what are two additional ways to break the chain of infection?",
+      "back": "Safe waste disposal and respiratory hygiene interrupt the chain."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "Which intervention targets the management of invasive devices to break the infection chain?",
+      "back": "Correct management of invasive devices ensures they do not become transmission routes."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "What is considered one of the most effective single measures for preventing infection?",
+      "back": "Hand hygiene."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "When must hand hygiene be performed in relation to touching a patient?",
+      "back": "It must be performed both before and after touching a patient."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "What is the requirement for hand hygiene before a clean or aseptic procedure?",
+      "back": "Hand hygiene must be performed immediately before the procedure begins."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "Which hand hygiene moment follows potential contact with blood or body fluids?",
+      "back": "Moment 3: After exposure to body fluids."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "Why is hand hygiene required after a nurse touches a patient's bed or bedside table?",
+      "back": "Hand hygiene is required because microorganisms can persist on the patient's surroundings."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "What is the relationship between wearing gloves and performing hand hygiene?",
+      "back": "Gloves are a supplement and do not replace the need for hand hygiene."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "When using gloves, at what two points must hand hygiene specifically occur?",
+      "back": "Hands must be cleaned before putting gloves on and after removing them."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "What is the primary function of Personal Protective Equipment (PPE)?",
+      "back": "To create a physical barrier between the healthcare worker and potential infection sources."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "What determines which specific PPE a nurse should select for a task?",
+      "back": "Selection depends on the expected level of exposure to infectious materials."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "Which PPE is specifically required for anticipated contact with blood or body fluids?",
+      "back": "Gloves."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "What is the purpose of wearing gowns or aprons during patient care?",
+      "back": "They are used to protect the nurse's clothing and skin from contamination."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "When are masks and eye protection necessary for infection control?",
+      "back": "They are necessary when there is a risk of exposure to droplets or splashes."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "Which piece of PPE is required when dealing with airborne infection risks?",
+      "back": "A respirator."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "Why must PPE be removed using a specific technique?",
+      "back": "Correct removal technique is required to avoid self-contamination."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "To which patient population do standard precautions apply?",
+      "back": "They apply to every patient regardless of their known or suspected infection status."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "List three components of standard precautions beyond hand hygiene and PPE.",
+      "back": "They include respiratory hygiene, safe injection practices, and sharps safety."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "Which environmental practices are included under standard precautions?",
+      "back": "Environmental cleaning and safe handling of linen and waste are included."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "What process is required for shared medical equipment between patients?",
+      "back": "Shared equipment must undergo reprocessing or cleaning."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "In the clinical example of Daniel, what is his first action before wound care?",
+      "back": "He cleans his hands."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "In the clinical example of Daniel, how does he decide to use gloves and an apron?",
+      "back": "He bases his selection on the expected exposure during the wound care procedure."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "What action does Daniel take with waste after completing patient care?",
+      "back": "He disposes of the waste safely according to infection control standards."
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "How does Daniel prevent self-contamination when finishing a procedure?",
+      "back": "He removes his PPE without touching the contaminated outer surfaces."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What does Daniel do to reusable equipment before it is used for another patient?",
+      "back": "He cleans the equipment to prevent cross-contamination."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "Microorganisms move from a _____ through a mode of transmission in the chain of infection.",
+      "back": "Source."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "Standard precautions include safe _____ practices for needle use.",
+      "back": "Injection."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Standard precautions include the reprocessing of shared _____.",
+      "back": "Equipment."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "What is the purpose of respiratory hygiene in a clinical setting?",
+      "back": "To prevent the transmission of organisms through respiratory secretions."
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "How does safe handling of linen contribute to patient safety?",
+      "back": "It prevents the spread of microorganisms from used fabrics to other surfaces or people."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "What is the primary goal of sharps safety within standard precautions?",
+      "back": "To prevent accidental needle-stick injuries and the transmission of blood-borne pathogens."
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "In the chain of infection, what is the term for the individual the organism enters?",
+      "back": "A susceptible person."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "Why is 'every area of nursing' responsible for infection prevention?",
+      "back": "Infection can spread in any setting where healthcare is provided."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "When is a respirator necessary instead of a standard surgical mask?",
+      "back": "A respirator is necessary when there is a risk of inhaling airborne particles."
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "What is the final step in Daniel's clinical example after removing PPE?",
+      "back": "He performs hand hygiene again."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "How does environmental cleaning interrupt the chain of infection?",
+      "back": "It removes microorganisms from surfaces, eliminating them as a potential source."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "Which hand hygiene moment occurs immediately after providing direct clinical care?",
+      "back": "Moment 4: After touching a patient."
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "What should a nurse do with gloves after completing a task that involved body fluids?",
+      "back": "The nurse should remove the gloves and immediately perform hand hygiene."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "What are the five moments of hand hygiene for every patient interaction?",
+      "back": "Before touching a patient, before procedures, after fluid exposure, after touching a patient, and after touching surroundings."
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "How does the nurse protect their own clothing during a procedure with potential splashes?",
+      "back": "The nurse wears a gown or an apron."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "What is the role of the 'mode of transmission' in the chain of infection?",
+      "back": "It is the mechanism by which an organism travels from the source to the host."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "Which patient characteristic increases the risk of infection due to a weakened immune system?",
+      "back": "Reduced immunity."
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "What is the expected practice for handling sharps to ensure safety?",
+      "back": "Following safe injection practices and correct disposal of needles."
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "How should a nurse approach infection prevention during a busy shift?",
+      "back": "The nurse must maintain consistent attention to basic precautions without taking shortcuts."
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "Which PPE protects against splashes to the eyes and face?",
+      "back": "Masks and eye protection."
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "In the chain of infection, what role do contaminated surfaces play?",
+      "back": "They act as a source or mode of transmission for microorganisms."
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "When is the 'before a clean or aseptic procedure' hand hygiene moment performed?",
+      "back": "It is performed after touching the patient or environment but immediately before starting the procedure."
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "What is the main reason for performing hand hygiene before putting on gloves?",
+      "back": "To ensure that any organisms on the nurse's hands are not transferred to the gloves or the patient."
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "Which specific practice helps manage the risk of infection from medical tubes or catheters?",
+      "back": "Correct management of invasive devices."
+    },
+    {
+      "id": "fc-106",
+      "section": 3,
+      "front": "What is the primary aim of aseptic practice in nursing?",
+      "back": "To prevent harmful microorganisms from entering susceptible sites."
+    },
+    {
+      "id": "fc-107",
+      "section": 3,
+      "front": "Name three examples of susceptible sites that aseptic practice protects.",
+      "back": "Wounds, vascular access devices, and the urinary tract."
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "What action should a nurse take regarding equipment before beginning an aseptic procedure?",
+      "back": "Prepare all required equipment."
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "In aseptic practice, what two specific areas must be protected from contamination?",
+      "back": "Key parts and key sites."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "What is the required action if a nurse identifies that an item used in an aseptic procedure has become contaminated?",
+      "back": "Replace the contaminated item."
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "Where must an aseptic field remain at all times during a procedure to ensure safety?",
+      "back": "Visible and under the nurse’s control."
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "Why is reaching over an aseptic field considered a safety risk?",
+      "back": "It is a form of contamination that compromises the field."
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "How does moisture affect a sterile barrier during an aseptic procedure?",
+      "back": "It allows microorganisms to pass through the barrier."
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "What is the recommended response if a nurse suspects a field is contaminated, even if no visible contamination exists?",
+      "back": "Stop the procedure and re-establish the field."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "When are transmission-based precautions applied in relation to standard precautions?",
+      "back": "They are used in addition to standard precautions."
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "Under what condition are contact precautions specifically required?",
+      "back": "When organisms spread through direct or indirect contact."
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "Which specific transmission-based precaution is designed to reduce the spread of larger respiratory droplets?",
+      "back": "Droplet precautions."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "Which precautions are used for organisms that remain suspended in the air?",
+      "back": "Airborne precautions."
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "What type of personal protective equipment (PPE) is uniquely required for airborne precautions?",
+      "back": "A suitable respirator."
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "Name three negative experiences patients in isolation may encounter.",
+      "back": "Loneliness, fear, or stigma."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "How should a nurse address a patient’s psychological needs regarding isolation precautions?",
+      "back": "Explain the reason for the precautions clearly."
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "What is the nurse's responsibility regarding social isolation for patients in transmission-based precautions?",
+      "back": "Avoid unnecessary social isolation and maintain compassionate care."
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "Aseptic practice aims to prevent microorganisms from entering _____ such as wounds or vascular access devices.",
+      "back": "Susceptible sites"
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "True or False: Leaving an aseptic field unattended is considered a form of contamination.",
+      "back": "True"
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "In the clinical example of Nurse Anita, why did she restart the catheterization field despite no visible dirt?",
+      "back": "Because the field had been left unattended."
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "What must a nurse perform immediately after discarding contaminated items and before preparing a new aseptic field?",
+      "back": "Hand hygiene."
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "Airborne precautions may require the patient to be placed in a _____.",
+      "back": "Suitable room"
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "To ensure patient safety, a nurse should treat _____ contamination as actual contamination.",
+      "back": "Uncertain"
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "What is the goal of maintaining patient dignity during isolation?",
+      "back": "To ensure safety and compassionate care occur together."
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "Which nursing action helps patients feel less isolated when using transmission-based precautions?",
+      "back": "Ensuring the patient has access to assistance."
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "During an aseptic procedure, a nurse should avoid _____ contact with the environment.",
+      "back": "Unnecessary"
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "What specific site is being protected when a nurse uses aseptic practice during urinary catheter insertion?",
+      "back": "The urinary tract."
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "According to the key learning points, what should be protected alongside 'susceptible sites'?",
+      "back": "Key parts."
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "Transmission-based precautions are only effective when nurses apply them _____.",
+      "back": "Consistently"
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "What are the two modes of spread addressed by contact precautions?",
+      "back": "Direct and indirect contact."
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "What is the risk of continuing a procedure when an aseptic field is compromised?",
+      "back": "Exposing the patient to a preventable infection."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "Concept: Aseptic Field Visibility",
+      "back": "Definition: The requirement that the sterile workspace remains within the nurse's line of sight at all times."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Concept: Droplet Precautions",
+      "back": "Definition: Measures taken to prevent the spread of pathogens through large respiratory particles."
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "Concept: Airborne Precautions",
+      "back": "Definition: Measures used for pathogens that stay in the air, requiring specific ventilation and respirators."
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "What is the nursing priority when an emergency interrupts an aseptic procedure?",
+      "back": "Recognize the field is now contaminated and restart the process."
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "Why is 'Key Part' protection essential in aseptic technique?",
+      "back": "To prevent microorganisms from being transferred to the patient via equipment."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "Name a non-physical nursing intervention required for patients in isolation.",
+      "back": "Communicating clearly to reduce fear or stigma."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "An aseptic field is compromised if the nurse allows _____ to pass through a sterile barrier.",
+      "back": "Moisture"
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Which transmission-based precaution level specifically requires a respirator rather than a standard mask?",
+      "back": "Airborne precautions."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "A nurse should treat any _____ contamination of a sterile field as a reason to stop and restart.",
+      "back": "Suspected"
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "In aseptic practice, why is it necessary to 'protect key parts'?",
+      "back": "They are the parts of the equipment that will come into contact with the patient's susceptible site."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "What is the primary difference between standard and transmission-based precautions?",
+      "back": "TBP are specifically tailored to the mode of spread (contact, droplet, airborne) of a known or suspected organism."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "Isolation precautions must be balanced with the nursing goal of preserving patient _____.",
+      "back": "Dignity"
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "Before beginning the 'insertion' phase of an aseptic procedure, when should hand hygiene be performed?",
+      "back": "Immediately before the clean or aseptic procedure begins."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "Why does Nurse Anita in the clinical example perform hand hygiene *after* discarding the unattended field?",
+      "back": "To ensure hands are clean before preparing a completely new, sterile field."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "What is the outcome of consistent application of aseptic practice and transmission-based precautions?",
+      "back": "The interruption of the spread of harmful organisms and protection of the patient."
+    },
+    {
+      "id": "fc-152",
+      "section": 4,
+      "front": "How many approved identifiers are required at minimum to verify a patient's identity?",
+      "back": "At least two approved identifiers."
+    },
+    {
+      "id": "fc-153",
+      "section": 4,
+      "front": "Name two specific instances, besides medication administration, when patient identity must be verified.",
+      "back": "Specimen collection and transfer of care."
+    },
+    {
+      "id": "fc-154",
+      "section": 4,
+      "front": "What should a nurse do if identification information for a patient is missing or inconsistent?",
+      "back": "Pause the task until the patient's identity is confirmed."
+    },
+    {
+      "id": "fc-155",
+      "section": 4,
+      "front": "Why is a room number considered an unacceptable substitute for patient identification?",
+      "back": "It is not an approved identifier and can lead to identification errors."
+    },
+    {
+      "id": "fc-156",
+      "section": 4,
+      "front": "The use of _____ to identify a patient is not an acceptable substitute for approved identifiers.",
+      "back": "familiarity"
+    },
+    {
+      "id": "fc-157",
+      "section": 4,
+      "front": "Besides medication and specimens, what two clinical actions require verifying at least two patient identifiers?",
+      "back": "Procedures and administration of blood products."
+    },
+    {
+      "id": "fc-158",
+      "section": 4,
+      "front": "List three internal patient factors that increase the risk of falls.",
+      "back": "Weakness, confusion, and dizziness."
+    },
+    {
+      "id": "fc-159",
+      "section": 4,
+      "front": "What environmental factor, besides pathways and footwear, should be managed to prevent falls?",
+      "back": "Maintaining a low bed position."
+    },
+    {
+      "id": "fc-160",
+      "section": 4,
+      "front": "Which communication tool must be kept within a patient's reach to reduce falls risk?",
+      "back": "The call bell."
+    },
+    {
+      "id": "fc-161",
+      "section": 4,
+      "front": "How do medications that affect balance impact patient safety?",
+      "back": "They increase the individual's risk of falling."
+    },
+    {
+      "id": "fc-162",
+      "section": 4,
+      "front": "Instead of simply preventing activity, what should a safety plan for mobility aim to do?",
+      "back": "Support the patient's mobility."
+    },
+    {
+      "id": "fc-163",
+      "section": 4,
+      "front": "What is the consequence of restricting a patient's movement unnecessarily for safety?",
+      "back": "It can cause harm to the patient."
+    },
+    {
+      "id": "fc-164",
+      "section": 4,
+      "front": "Falls risk may increase when a patient is in _____ surroundings.",
+      "back": "unfamiliar"
+    },
+    {
+      "id": "fc-165",
+      "section": 4,
+      "front": "What three clinical tasks related to skin care are essential for preventing pressure injuries?",
+      "back": "Regular skin assessment, repositioning, and moisture management."
+    },
+    {
+      "id": "fc-166",
+      "section": 4,
+      "front": "Identify two non-physical interventions (nutritional or equipment) for pressure-injury prevention.",
+      "back": "Adequate nutrition and pressure redistribution."
+    },
+    {
+      "id": "fc-167",
+      "section": 4,
+      "front": "What is the earliest physical sign that a nurse should recognize in pressure-injury prevention?",
+      "back": "Redness or skin changes."
+    },
+    {
+      "id": "fc-168",
+      "section": 4,
+      "front": "In the context of skin integrity, why is prevention preferred over treatment?",
+      "back": "It is more effective and less distressing for the patient."
+    },
+    {
+      "id": "fc-169",
+      "section": 4,
+      "front": "Patients with _____ mobility require regular skin assessment and repositioning.",
+      "back": "limited"
+    },
+    {
+      "id": "fc-170",
+      "section": 4,
+      "front": "What are the three components of medication safety checks performed before administration?",
+      "back": "Rights of administration, allergy checks, and correct calculations."
+    },
+    {
+      "id": "fc-171",
+      "section": 4,
+      "front": "What documentation requirement is essential for medication safety?",
+      "back": "Clear documentation of the administration."
+    },
+    {
+      "id": "fc-172",
+      "section": 4,
+      "front": "What is the nurse's responsibility immediately after administering a medication?",
+      "back": "Monitoring the patient's response."
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "What is the primary purpose of reporting incidents and near misses in healthcare?",
+      "back": "To help the organization understand risks and prevent recurrence."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "Why is reporting not solely about assigning responsibility?",
+      "back": "Its main goal is to improve the system by learning from errors."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "Errors and near misses should be reported _____ to be effective.",
+      "back": "promptly"
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "In the clinical example, why did Sara decide to pause the medication round?",
+      "back": "She noticed two patients had similar names and the scanner was unavailable."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "What did Sara's colleague suggest when the barcode scanner was unavailable?",
+      "back": "Proceeding with the round because the patients were well known to the team."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "What error did Sara discover by checking the medication chart against the identifiers?",
+      "back": "The medicines were placed in the wrong sequence."
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "What factor should never replace formal safety checks, even during busy periods?",
+      "back": "Familiarity with the patient."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "Concept: Near Miss",
+      "back": "Definition: An unplanned event that did not result in injury or illness but had the potential to do so."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "How does individualised assessment contribute to falls prevention?",
+      "back": "It allows safety plans to address the specific needs and risks of the patient."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "What specific item should a nurse check to ensure a patient can walk safely without tripping?",
+      "back": "Suitable footwear."
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "Term: Pressure Redistribution",
+      "back": "Definition: The practice of using surfaces or positioning to spread body weight and reduce skin pressure."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "Why is 'moisture management' a key part of pressure-injury prevention?",
+      "back": "Excessive moisture can weaken the skin and lead to breakdown."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "What is the danger of 'time pressure' in a clinical environment?",
+      "back": "It can tempt healthcare workers to take shortcuts that bypass safety checks."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "When should a nurse use the 'rights of administration'?",
+      "back": "During every medication round."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "According to the key learning points, how should identifiers be used?",
+      "back": "Approved identifiers must be used every single time."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "What action should be taken if a nurse finds a mismatch in patient identifiers?",
+      "back": "The task should stop immediately until the conflict is resolved."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "How does 'adequate nutrition' support skin health?",
+      "back": "It provides the nutrients necessary for maintaining skin integrity and repair."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "What does a nurse's decision to report a near miss help the organization to do?",
+      "back": "Learn from the event and improve safety systems."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "Why should pathways always remain clear in the patient area?",
+      "back": "To prevent tripping hazards that lead to falls."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "A patient with _____ impairment may find an environment unsafe that an independent adult does not.",
+      "back": "visual"
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "Identify the safety principle: Do not allow familiarity to replace _____.",
+      "back": "safety checks"
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "What is the nurse's role in medication allergy checks?",
+      "back": "Verifying the patient's allergy status before administering any medicine."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "How can a nurse involve the patient in falls prevention?",
+      "back": "By ensuring the call bell is reachable and educating the patient on its use."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "What does Sara's clinical example teach about the use of technology like barcode scanners?",
+      "back": "Manual verification is essential when technology is unavailable."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "Why is repositioning critical for patients with limited mobility?",
+      "back": "It relieves prolonged pressure on vulnerable skin areas."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "Safety plans should _____ mobility rather than simply preventing activity.",
+      "back": "support"
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "Which patient group requires the most frequent skin assessments?",
+      "back": "Patients with limited mobility."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "What is the nurse's priority when two patients on a ward have similar names?",
+      "back": "Strict adherence to the two-identifier verification process."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "How do correct calculations impact medication safety?",
+      "back": "They prevent dosage errors that could lead to toxicity or ineffective treatment."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "What should a nurse monitor to ensure a patient did not have an adverse reaction to a new drug?",
+      "back": "The patient's response after administration."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "The goal of incident reporting is for the _____ to learn.",
+      "back": "system"
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "Which safety risk is associated with a patient receiving medication that causes dizziness?",
+      "back": "An increased risk of falls."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "Identify the next step: Perform skin assessment, identify redness, and then _____.",
+      "back": "apply repositioning and pressure redistribution measures."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "Why is 'room number' not a valid identifier for procedures?",
+      "back": "Patients can be moved to different rooms, leading to errors."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "What factor makes an environment unsafe for a 'weak' patient?",
+      "back": "A lack of accessible mobility aids or call bells."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "What are the 'approved identifiers' checked against during medication rounds?",
+      "back": "The medication chart."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "Name one non-environmental factor (e.g., related to the person) that nurses should consider for falls risk.",
+      "back": "Medication effects."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "Why is it important to recognize 'redness' early in skin assessments?",
+      "back": "It allows for intervention before a pressure injury becomes established."
+    },
+    {
+      "id": "fc-211",
+      "section": 4,
+      "front": "What should a nurse do when a patient is in an 'unfamiliar' environment?",
+      "back": "Assess their falls risk and ensure safety aids are accessible."
+    },
+    {
+      "id": "fc-212",
+      "section": 4,
+      "front": "What is the link between 'clear documentation' and 'preventing recurrence' of errors?",
+      "back": "It provides the data necessary to analyze and fix systemic safety issues."
+    },
+    {
+      "id": "fc-213",
+      "section": 4,
+      "front": "How can a nurse ensure a patient is 'correctly identified' before a transfer of care?",
+      "back": "By checking at least two approved identifiers."
+    },
+    {
+      "id": "fc-214",
+      "section": 4,
+      "front": "Identify a hazard: 'walking frame placed across the room' for an unsteady patient.",
+      "back": "This increases the risk of the patient falling while trying to reach it."
+    },
+    {
+      "id": "fc-215",
+      "section": 4,
+      "front": "What is the nurse's role in 'incident safety'?",
+      "back": "Reporting errors and near misses promptly."
+    },
+    {
+      "id": "fc-216",
+      "section": 4,
+      "front": "In Sara's case, what was the primary preventer of the medication error?",
+      "back": "Following the identification process despite social pressure."
+    },
+    {
+      "id": "fc-217",
+      "section": 4,
+      "front": "What safety risk is heightened by 'delays in recognising deterioration'?",
+      "back": "General patient harm or clinical failure."
+    },
+    {
+      "id": "fc-218",
+      "section": 4,
+      "front": "In the phrase 'rights of administration', what does 'rights' refer to?",
+      "back": "Standard checks (e.g., right patient, right drug) to ensure safety."
+    },
+    {
+      "id": "fc-219",
+      "section": 4,
+      "front": "What is a 'near miss' report intended to capture?",
+      "back": "Potential errors that were caught before reaching the patient."
+    },
+    {
+      "id": "fc-220",
+      "section": 4,
+      "front": "How does 'pressure redistribution' assist a patient who cannot move themselves?",
+      "back": "It prevents the concentration of weight on a single skin area."
+    },
+    {
+      "id": "fc-221",
+      "section": 4,
+      "front": "Which action should be taken if identification information on a specimen bottle is inconsistent?",
+      "back": "Pause the process until the identity is confirmed."
+    },
+    {
+      "id": "fc-222",
+      "section": 4,
+      "front": "Safety checks must not be replaced by _____.",
+      "back": "time pressure"
+    },
+    {
+      "id": "fc-223",
+      "section": 4,
+      "front": "What is the consequence of incorrect patient identification during blood product administration?",
+      "back": "A serious, potentially life-threatening clinical error."
+    },
+    {
+      "id": "fc-224",
+      "section": 4,
+      "front": "How does 'suitable footwear' contribute to mobility safety?",
+      "back": "It provides grip and stability to prevent slipping or tripping."
+    },
+    {
+      "id": "fc-225",
+      "section": 4,
+      "front": "Regular skin assessments should include checking for _____.",
+      "back": "redness or skin changes"
+    },
+    {
+      "id": "fc-226",
+      "section": 4,
+      "front": "Why must allergy checks be performed every time a medication is given?",
+      "back": "To ensure no known allergens are present in the prescribed treatment."
+    },
+    {
+      "id": "fc-227",
+      "section": 4,
+      "front": "What is the benefit of keeping the bed in a 'low position'?",
+      "back": "It minimizes the distance of a potential fall."
+    },
+    {
+      "id": "fc-228",
+      "section": 4,
+      "front": "The clinical example of Sara highlights the danger of _____ when identifying patients.",
+      "back": "similar names"
+    },
+    {
+      "id": "fc-229",
+      "section": 4,
+      "front": "What should a nurse do if they suspect a medication calculation is incorrect?",
+      "back": "Re-calculate and confirm the dose before administration."
+    },
+    {
+      "id": "fc-230",
+      "section": 4,
+      "front": "Why is 'adequate nutrition' mentioned specifically for skin safety?",
+      "back": "Poor nutrition increases the risk of skin breakdown and slows healing."
+    },
+    {
+      "id": "fc-231",
+      "section": 4,
+      "front": "Reporting helps the organization understand risks and prevent _____.",
+      "back": "recurrence"
+    }
+  ]
+}

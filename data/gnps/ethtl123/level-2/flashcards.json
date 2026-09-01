@@ -1,0 +1,964 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What is the primary requirement for an International Qualified Nurse (IQN) before practicing independently in a new country?",
+      "back": "The nurse must understand the local regulatory framework."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Regardless of the country, what are the four consistent underlying expectations of professional nursing regulation?",
+      "back": "Practise safely, maintain competence, protect the public, and comply with lawful standards."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Which three components define the expectations for nursing competence, conduct, and accountability?",
+      "back": "Nurse practice laws, registration conditions, and professional standards."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "In the context of nursing regulation, what do 'Codes' specifically describe?",
+      "back": "Professional behavior."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "In the context of nursing regulation, what do 'Standards' specifically describe?",
+      "back": "Expected practice."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "What is the primary role of organisational policies in nursing practice?",
+      "back": "To provide local processes for care delivery."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "Why is organisational policy considered secondary to professional judgement?",
+      "back": "Policy supports local processes but does not replace the nurse's professional judgement."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Name the four common categories of mandatory reporting requirements mentioned in Section 1.",
+      "back": "Suspected abuse, impaired practice, serious misconduct, and communicable disease."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What is the first step an IQN should take to ensure safe adaptation to an unfamiliar legal system?",
+      "back": "Complete a formal orientation."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "When an IQN is unsure about local requirements or systems, what is the professional course of action?",
+      "back": "Ask for supervision or seek advice."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Why must an IQN verify their scope of practice in a new international healthcare system?",
+      "back": "To ensure they are acting within the specific legal and professional boundaries of that country."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "If an IQN is uncertain about whether a safeguarding concern must be reported, what should they do?",
+      "back": "Consult the local policy and a senior clinician immediately."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "What mistake should an IQN avoid when dealing with local mandatory reporting duties?",
+      "back": "Relying on the practices or requirements of their previous country."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "The principle 'Policy supports but does not replace judgement' emphasizes the importance of _____.",
+      "back": "Professional judgement."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "True or False: Seeking clarification regarding local standards is considered a mark of professional practice.",
+      "back": "True."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "According to the Section 1 clinical example, who is the most appropriate person to consult regarding legal uncertainty?",
+      "back": "A senior clinician."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "What defines the legal expectations for a nurse's accountability in a specific jurisdiction?",
+      "back": "Regulatory frameworks (including laws, conditions, and standards)."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Regulatory expectations for _____ ensure that nurses possess the necessary skills for safe practice.",
+      "back": "Competence."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "What is the relationship between nurse practice laws and registration conditions?",
+      "back": "Both are elements of the regulatory framework that define expectations for the profession."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "Which regulatory element focuses on describing expected practice rather than behavior?",
+      "back": "Professional standards."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "Under mandatory reporting, what must a nurse report regarding another practitioner's health or behavior?",
+      "back": "Impaired practice."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "Under mandatory reporting, what category covers illegal or highly unethical professional actions?",
+      "back": "Serious misconduct."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "Why is 'recognizing when to seek advice' listed as a learning outcome for Section 1?",
+      "back": "It is essential for adapting safely to unfamiliar legal and regulatory systems."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "The underlying expectation to 'protect the public' is a core component of _____.",
+      "back": "Professional regulation."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "Term: Professional Conduct",
+      "back": "Definition: The behavior and actions of a nurse as defined by local regulatory codes and standards."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "Concept: Safe Adaptation",
+      "back": "Definition: The process of an IQN adjusting to new legal systems through orientation, scope verification, and supervision."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "What is the primary objective of local nurse practice laws?",
+      "back": "To define expectations for competence, conduct, and accountability."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "What should a nurse do if they find a conflict between local policy and their professional judgement?",
+      "back": "Prioritize professional judgement while using policy as a supporting tool."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "What specific type of reporting is required for public health threats like outbreaks?",
+      "back": "Reporting of communicable diseases."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "Which document provides the specific local processes for a healthcare facility?",
+      "back": "Organisational policy."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Professional accountability in nursing remains _____ even when working within a team.",
+      "back": "Personal."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "How does an IQN bridge national preparation with international expectations?",
+      "back": "By interpreting local nursing standards and codes of conduct."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "The expectation to 'comply with lawful standards' falls under which broader nursing requirement?",
+      "back": "Professional regulation."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "When should an IQN verify their scope of practice?",
+      "back": "Upon entering a new healthcare system or when requirements are unfamiliar."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "A nurse who reports a colleague's impaired practice is fulfilling a _____ requirement.",
+      "back": "Mandatory reporting."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "What is the goal of relating local regulation to professional nursing practice?",
+      "back": "To ensure the nurse operates safely within the specific legal framework of their current location."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "What does Section 1 identify as a 'professional practice' when a nurse is uncertain?",
+      "back": "Seeking clarification."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "Which element of the regulatory framework sets the specific requirements for maintaining a nursing license?",
+      "back": "Registration conditions."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "In Section 1, what is the role of the 'senior clinician' in the clinical example?",
+      "back": "To provide guidance on whether a safeguarding concern must be reported externally."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "Why is 'competence' a central focus of professional standards?",
+      "back": "To ensure that nurses are capable of providing safe and effective care."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "Mandatory reporting of _____ helps prevent the spread of infections within a community.",
+      "back": "Communicable diseases."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "True or False: Professional regulation is consistent in its underlying goals despite differences between countries.",
+      "back": "True."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "A nurse's duty to report suspected abuse is an example of a _____ obligation.",
+      "back": "Local mandatory reporting."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "What must an IQN interpret to provide legally responsible nursing care?",
+      "back": "Codes, standards, and organisational policies."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Why is relying on 'previous-country practice' dangerous for an IQN?",
+      "back": "It may lead to violations of local laws and professional standards."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "The term used to describe the legal and professional boundaries of a nurse's role is _____.",
+      "back": "Scope (or Scope of Practice)."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "What is the purpose of interpreting local codes of conduct?",
+      "back": "To understand the professional behavior expected in the current jurisdiction."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "What are 'lawful standards' in the context of nursing?",
+      "back": "The legal requirements and professional rules that govern nursing practice."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "In the hierarchy of guidance, where does 'professional judgement' sit in relation to 'organisational policy'?",
+      "back": "Professional judgement is primary; policy supports but does not replace it."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "What is the intended outcome of Section 1 for an IQN?",
+      "back": "The ability to adapt safely to unfamiliar legal systems and relate local regulation to practice."
+    },
+    {
+      "id": "fc-51",
+      "section": 2,
+      "front": "What four conditions often lead to the need for complex decision-making in nursing?",
+      "back": "Uncertain capacity, conflicting family views, high treatment burdens, or required urgent action."
+    },
+    {
+      "id": "fc-52",
+      "section": 2,
+      "front": "In nursing ethics, what four elements must a transparent process separate?",
+      "back": "Facts, values, law, and professional obligations."
+    },
+    {
+      "id": "fc-53",
+      "section": 2,
+      "front": "True or False: Capacity is a global assessment that applies to all of a patient's decisions simultaneously.",
+      "back": "False (Capacity is decision-specific and may fluctuate)."
+    },
+    {
+      "id": "fc-54",
+      "section": 2,
+      "front": "What are the four functional components of decision-making capacity?",
+      "back": "Understanding, retaining, weighing information, and communicating a choice."
+    },
+    {
+      "id": "fc-55",
+      "section": 2,
+      "front": "What is the first step in the structured Ethical Decision Framework?",
+      "back": "Identifying the problem."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "What step follows identifying the problem in the Ethical Decision Framework?",
+      "back": "Gathering facts."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "In the Ethical Decision Framework, what must be clarified after gathering facts?",
+      "back": "Stakeholders and values."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "In the Ethical Decision Framework, what step occurs after clarifying stakeholders and values?",
+      "back": "Reviewing law and policy."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "In the Ethical Decision Framework, what action is taken after reviewing law and policy?",
+      "back": "Considering options."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "What is the final step in the Ethical Decision Framework?",
+      "back": "Documenting the reasoning."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "What is the primary goal regarding decision-making for patients with potential impairments?",
+      "back": "Providing support so they can make their own decisions wherever possible."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "When a lawful substitute is required, what three factors should their decisions reflect?",
+      "back": "The person's known wishes, values, and best interests."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "When should a nurse seek an ethics consultation or specialist support?",
+      "back": "When there is complex or unresolved ethical conflict."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "In the clinical example of an older patient with delirium, what does the nurse identify about capacity?",
+      "back": "That capacity may vary or fluctuate."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "What immediate medical action should a nurse take when a patient with delirium refuses a procedure?",
+      "back": "Seek an urgent medical assessment of the patient's capacity."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "Capacity involves the ability to _____ information, meaning the patient can keep the facts in mind to make a choice.",
+      "back": "retain"
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "Capacity involves the ability to _____ information, meaning the patient can use facts as part of a reasoning process.",
+      "back": "weigh"
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "According to the Section 2 learning points, what should a nurse do before replacing a patient's decision-making?",
+      "back": "Support the patient's own decision-making process."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "What must be documented alongside the reasoning in a complex ethical case?",
+      "back": "The consultation process."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "Term: Supported Decision-Making",
+      "back": "Definition: Providing a patient with necessary assistance and communication tools to make their own healthcare choices."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "Term: Substitute Decision-Making",
+      "back": "Definition: A legal process where a designated person makes decisions for a patient who lacks capacity, based on the patient's known values."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "What should a nurse avoid assuming when a patient with fluctuating delirium refuses treatment?",
+      "back": "The nurse should avoid assuming incapacity."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "What is the purpose of 'fact-gathering' in an ethical framework?",
+      "back": "To separate objective information from personal values, laws, and professional obligations."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Who might a nurse consult if an ethical conflict remains unresolved after applying a framework?",
+      "back": "Senior clinicians, legal advisors, or ethics consultants."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "Why is it important for an ethical decision-making process to be 'transparent'?",
+      "back": "To ensure that the reasoning, facts, and values used to reach a decision are clear and accountable."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Capacity: _____ information.",
+      "back": "Understanding"
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "Capacity: _____ a choice.",
+      "back": "Communicating"
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "When capacity is uncertain, what does a nurse use to move through the conflict systematically?",
+      "back": "A structured ethical decision framework."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "In the case of a patient with delirium, the nurse ensures any decision follows the _____ rather than a personal assumption of incapacity.",
+      "back": "legal process"
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "Which specific step of the ethical framework involves identifying who is involved and what they care about?",
+      "back": "Clarifying stakeholders and values."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What two things must a nurse do when their limits are reached in managing an ethical conflict?",
+      "back": "Seek guidance and consultation."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "Ethical decisions regarding treatment should prioritize the patient's _____ if their specific wishes are unknown.",
+      "back": "best interests"
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "What is the primary nursing action for a patient with fluctuating delirium to ensure their rights are protected during consent?",
+      "back": "Supporting communication to facilitate their participation in the decision-making process."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Why must a nurse review 'organisational policy' during an ethical dilemma?",
+      "back": "To ensure the proposed options comply with local procedural and legal expectations."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "A nurse's documentation in a capacity case should move beyond the final choice to include the _____ behind it.",
+      "back": "reasoning"
+    },
+    {
+      "id": "fc-86",
+      "section": 3,
+      "front": "What three factors determine whether a delegation is safe in an international healthcare setting?",
+      "back": "Local scopes of practice, patient stability, and the competence of the worker receiving the task."
+    },
+    {
+      "id": "fc-87",
+      "section": 3,
+      "front": "Why must an International Qualified Nurse verify role boundaries rather than assuming equivalence?",
+      "back": "Titles and responsibilities for nursing categories and support roles differ across healthcare systems."
+    },
+    {
+      "id": "fc-88",
+      "section": 3,
+      "front": "What are the three core components of supervision provided by a delegating nurse?",
+      "back": "Direction, monitoring, and follow-up."
+    },
+    {
+      "id": "fc-89",
+      "section": 3,
+      "front": "To what two variables should the level of nurse supervision be proportionate?",
+      "back": "Patient risk and the competence of the worker."
+    },
+    {
+      "id": "fc-90",
+      "section": 3,
+      "front": "When is professional advocacy specifically required in a nursing context?",
+      "back": "When systems or decisions threaten patient rights, or during unsafe or discriminatory practice."
+    },
+    {
+      "id": "fc-91",
+      "section": 3,
+      "front": "What are the four key actions involved in nursing advocacy according to the GNPS program?",
+      "back": "Clarifying information, protecting vulnerable people, challenging unsafe orders, and helping patients navigate the system."
+    },
+    {
+      "id": "fc-92",
+      "section": 3,
+      "front": "What three tools help resolve professional disagreements without personal attacks?",
+      "back": "Structured communication, evidence, and escalation pathways."
+    },
+    {
+      "id": "fc-93",
+      "section": 3,
+      "front": "How should a nurse respond when asked to delegate a task involving clinical judgement to a worker whose role excludes it?",
+      "back": "Decline the delegation, explain the scope concern, and propose an appropriate alternative."
+    },
+    {
+      "id": "fc-94",
+      "section": 3,
+      "front": "What is the nurse's responsibility regarding delegated care besides direction and monitoring?",
+      "back": "The nurse must evaluate the delegated care."
+    },
+    {
+      "id": "fc-95",
+      "section": 3,
+      "front": "The principle of matching delegation to the recipient requires assessing their _____ and the patient's stability.",
+      "back": "competence"
+    },
+    {
+      "id": "fc-96",
+      "section": 3,
+      "front": "In the context of delegation, what should a nurse verify before assigning a task to a team member?",
+      "back": "The local scope of the team member's role."
+    },
+    {
+      "id": "fc-97",
+      "section": 3,
+      "front": "What action should be taken if a safety concern remains unresolved after initial advocacy?",
+      "back": "Escalate the concern through formal pathways."
+    },
+    {
+      "id": "fc-98",
+      "section": 3,
+      "front": "Advocacy in nursing practice may require a _____ of unsafe orders or discriminatory practice.",
+      "back": "respectful challenge"
+    },
+    {
+      "id": "fc-99",
+      "section": 3,
+      "front": "In international teams, titles and responsibilities differ, so nurses should verify _____ rather than assuming equivalence.",
+      "back": "role boundaries"
+    },
+    {
+      "id": "fc-100",
+      "section": 3,
+      "front": "What must a nurse ensure happens promptly after declining an inappropriate delegation request?",
+      "back": "The patient must be assessed by a qualified individual."
+    },
+    {
+      "id": "fc-101",
+      "section": 3,
+      "front": "What is the primary goal of using 'structured communication' during a professional conflict?",
+      "back": "To resolve the disagreement without personal attack."
+    },
+    {
+      "id": "fc-102",
+      "section": 3,
+      "front": "Concept: Delegation",
+      "back": "Definition: Assigning a task based on local scope, patient stability, and worker competence while providing supervision and evaluation."
+    },
+    {
+      "id": "fc-103",
+      "section": 3,
+      "front": "What is the specific role of 'monitoring' within the supervision process?",
+      "back": "Observing the progress and safety of the task while it is being performed."
+    },
+    {
+      "id": "fc-104",
+      "section": 3,
+      "front": "What is the purpose of 'follow-up' in the delegation process?",
+      "back": "To confirm that the task was completed correctly and to evaluate the outcome for the patient."
+    },
+    {
+      "id": "fc-105",
+      "section": 3,
+      "front": "Why is 'patient stability' a prerequisite for safe delegation?",
+      "back": "Unstable patients require continuous clinical judgement that cannot be safely delegated to support roles."
+    },
+    {
+      "id": "fc-106",
+      "section": 3,
+      "front": "What does a nurse clarify as part of their advocacy role?",
+      "back": "Information that is unclear or potentially threatening to patient rights."
+    },
+    {
+      "id": "fc-107",
+      "section": 3,
+      "front": "Term: Interprofessional Accountability",
+      "back": "Definition: The personal and shared responsibility of team members to ensure safe care within their respective scopes."
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "What is the first step a nurse should take when encountering a system that threatens patient rights?",
+      "back": "Advocate for the patient by clarifying information or challenging the threat."
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "A nurse is asked to delegate a complex assessment to a support worker; why is 'declining' the correct action?",
+      "back": "Complex assessments require clinical judgement which is outside the scope of support worker roles."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "What should be used as the basis for resolving professional disagreements to ensure they remain professional?",
+      "back": "Clinical evidence and structured communication."
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "Supervision is described as 'proportionate' to risk; what does this mean in practice?",
+      "back": "Higher-risk patients or less-competent workers require more intensive direction and monitoring."
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "What are the learning outcomes for GNPS Level 2 Section 3?",
+      "back": "Delegating by scope, supervising/evaluating care, advocating against unsafe practice, and communicating conflict assertively."
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "What is a key learning point regarding every team role in an international setting?",
+      "back": "A nurse must know the local scope of every team role before delegating."
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "How does a nurse support a patient in 'navigating the system' as an advocate?",
+      "back": "By helping the patient understand and access necessary care pathways and rights."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "What must be provided alongside direction and monitoring when a nurse delegates a task?",
+      "back": "Follow-up and evaluation of the care provided."
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "A nurse observes discriminatory practice in the ward; what professional skill must they apply?",
+      "back": "Advocacy through respectful challenge and escalation."
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "When a nurse proposes an 'appropriate alternative' to an unsafe delegation, what is their primary concern?",
+      "back": "Ensuring the patient is assessed and cared for promptly by a qualified person."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "In the delegation process, the term 'direction' refers to providing _____ for the task.",
+      "back": "clear instructions and expectations"
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "Why is 'evidence' a crucial part of the escalation pathway?",
+      "back": "It provides a factual basis for the safety concern being raised."
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "What is the expected outcome of completing GNPS Level 2 Section 3 regarding conflict?",
+      "back": "The ability to communicate conflict assertively and resolve disagreements professionally."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "How does a nurse protect 'vulnerable people' as part of their advocacy role?",
+      "back": "By ensuring their rights are not threatened by systems or clinical decisions."
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "In delegation, the nurse must verify the _____ of the person receiving the task to ensure they can perform it safely.",
+      "back": "competence"
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "What is the relationship between 'role boundaries' and 'local scope'?",
+      "back": "Local scope defines the legal role boundaries for healthcare workers in a specific jurisdiction."
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "What is the goal of 'assertive communication' during a professional conflict?",
+      "back": "To address the safety or professional concern clearly without attacking the person involved."
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "If a nurse delegates a task, who remains responsible for the evaluation of that task's outcome?",
+      "back": "The delegating nurse."
+    },
+    {
+      "id": "fc-126",
+      "section": 4,
+      "front": "What is the primary focus of 'Cultural Safety' in professional nursing?",
+      "back": "How the patient experiences care."
+    },
+    {
+      "id": "fc-127",
+      "section": 4,
+      "front": "Beyond self-awareness and respectful enquiry, what does cultural safety require attention to?",
+      "back": "The patient's experience of care."
+    },
+    {
+      "id": "fc-128",
+      "section": 4,
+      "front": "According to the text, what action should a nurse take rather than making assumptions about a patient's culture?",
+      "back": "Ask the patient directly."
+    },
+    {
+      "id": "fc-129",
+      "section": 4,
+      "front": "What is a prerequisite for a nurse to provide culturally safe professional care?",
+      "back": "Self-awareness."
+    },
+    {
+      "id": "fc-130",
+      "section": 4,
+      "front": "When communicating with patients, what should nurses be aware of that can affect a patient's participation?",
+      "back": "Power differences."
+    },
+    {
+      "id": "fc-131",
+      "section": 4,
+      "front": "Nurses must use professional interpreters when the discussion is high-risk or _____.",
+      "back": "Complex."
+    },
+    {
+      "id": "fc-132",
+      "section": 4,
+      "front": "Nurses must use professional interpreters when the discussion is complex or _____.",
+      "back": "High-risk."
+    },
+    {
+      "id": "fc-133",
+      "section": 4,
+      "front": "What is the appropriate role for family members when a patient has limited English proficiency?",
+      "back": "Providing support."
+    },
+    {
+      "id": "fc-134",
+      "section": 4,
+      "front": "Why should family members NOT replace qualified interpreters when accuracy is vital?",
+      "back": "They may lack the necessary qualifications for precise medical interpretation."
+    },
+    {
+      "id": "fc-135",
+      "section": 4,
+      "front": "Under what circumstance should a family member be excluded from interpreting in favor of a professional?",
+      "back": "When confidentiality or accuracy matters."
+    },
+    {
+      "id": "fc-136",
+      "section": 4,
+      "front": "Which digital medium specifically requires secure access and appropriate information sharing in nursing?",
+      "back": "Electronic records."
+    },
+    {
+      "id": "fc-137",
+      "section": 4,
+      "front": "Name one of the digital communication methods mentioned that requires protection of confidentiality.",
+      "back": "Email (or messaging/remote care)."
+    },
+    {
+      "id": "fc-138",
+      "section": 4,
+      "front": "What is required for digital messaging to ensure professional privacy standards are met?",
+      "back": "Secure access."
+    },
+    {
+      "id": "fc-139",
+      "section": 4,
+      "front": "How should information be shared across digital platforms like remote care?",
+      "back": "Appropriately and securely."
+    },
+    {
+      "id": "fc-140",
+      "section": 4,
+      "front": "What is the purpose of using structured handover in interprofessional communication?",
+      "back": "To make responsibility and risk visible across disciplines."
+    },
+    {
+      "id": "fc-141",
+      "section": 4,
+      "front": "What type of communication helps make responsibility visible across various healthcare disciplines?",
+      "back": "Closed-loop communication."
+    },
+    {
+      "id": "fc-142",
+      "section": 4,
+      "front": "Concept: Closed-loop communication",
+      "back": "Definition: A structured technique making responsibility and risk visible across professional teams."
+    },
+    {
+      "id": "fc-143",
+      "section": 4,
+      "front": "In the clinical example, why did the nurse pause the consent process for a patient with limited English?",
+      "back": "To arrange a professional interpreter."
+    },
+    {
+      "id": "fc-144",
+      "section": 4,
+      "front": "In the clinical example, what did the nurse ensure happened before the patient with limited English made a decision?",
+      "back": "The patient received a clear explanation via a professional interpreter."
+    },
+    {
+      "id": "fc-145",
+      "section": 4,
+      "front": "Cultural respect should never be used as a reason to reduce _____.",
+      "back": "Safety standards."
+    },
+    {
+      "id": "fc-146",
+      "section": 4,
+      "front": "In which mediums are nurses obligated to protect patient confidentiality?",
+      "back": "Every medium."
+    },
+    {
+      "id": "fc-147",
+      "section": 4,
+      "front": "What specific factor must be made clear during a professional handover?",
+      "back": "Responsibility."
+    },
+    {
+      "id": "fc-148",
+      "section": 4,
+      "front": "What does a nurse seek to protect by using a professional interpreter instead of a relative for consent?",
+      "back": "Confidentiality and accuracy."
+    },
+    {
+      "id": "fc-149",
+      "section": 4,
+      "front": "Professionalism requires nurses to provide care for people with diverse languages, values, and _____.",
+      "back": "Experiences."
+    },
+    {
+      "id": "fc-150",
+      "section": 4,
+      "front": "What is the key learning point regarding cultural safety and safety standards?",
+      "back": "Cultural respect does not reduce safety standards."
+    },
+    {
+      "id": "fc-151",
+      "section": 4,
+      "front": "What tool is recommended for complex or high-risk interprofessional discussions to ensure accuracy?",
+      "back": "Professional interpreters."
+    },
+    {
+      "id": "fc-152",
+      "section": 4,
+      "front": "How should a nurse approach learning about a patient's cultural needs?",
+      "back": "Through respectful enquiry."
+    },
+    {
+      "id": "fc-153",
+      "section": 4,
+      "front": "What is the goal of structured interprofessional communication?",
+      "back": "To make responsibility and risk visible."
+    },
+    {
+      "id": "fc-154",
+      "section": 4,
+      "front": "Term: Cultural Safety",
+      "back": "Definition: A practice requiring self-awareness and respectful enquiry to ensure the patient's experience of care is safe."
+    },
+    {
+      "id": "fc-155",
+      "section": 4,
+      "front": "According to Section 4, where must responsibility and risk be visible?",
+      "back": "Across disciplines."
+    },
+    {
+      "id": "fc-156",
+      "section": 4,
+      "front": "When is it inappropriate to use a relative as an interpreter for a patient?",
+      "back": "When accuracy or confidentiality is required for complex information."
+    },
+    {
+      "id": "fc-157",
+      "section": 4,
+      "front": "Nurses should protect confidentiality in _____ medium.",
+      "back": "Every."
+    },
+    {
+      "id": "fc-158",
+      "section": 4,
+      "front": "What does 'respectful enquiry' entail in the context of cultural safety?",
+      "back": "Asking the patient about their needs rather than assuming them."
+    },
+    {
+      "id": "fc-159",
+      "section": 4,
+      "front": "Digital privacy requirements apply to electronic records, messaging, email, and _____.",
+      "back": "Remote care."
+    },
+    {
+      "id": "fc-160",
+      "section": 4,
+      "front": "Why is 'closed-loop communication' emphasized in interprofessional settings?",
+      "back": "It ensures responsibility and risk are clearly visible."
+    }
+  ]
+}

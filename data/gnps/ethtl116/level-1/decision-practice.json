@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Fall risk patient",
+      "scenario": "An elderly patient admitted to the medical ward is identified as a high fall risk due to unsteady gait and recent confusion. Despite repeated reminders, the patient attempts to climb out of bed without assistance, reaching for the bedrail while appearing unsteady and disoriented.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient safety and assist back to bed.",
+      "modelWhy": "Falls can cause serious injury.",
+      "modelNext": "Implement fall prevention measures.",
+      "trap": "Scolding the patient.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Wet floor hazard",
+      "scenario": "During a routine walk through the ward, a nurse notices liquid spilled on the floor near several patient rooms. Staff and patients are walking through the area, and there are no warning signs or barriers in place.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Block the area and request immediate cleanup.",
+      "modelWhy": "Environmental hazards cause preventable injuries.",
+      "modelNext": "Place warning signage.",
+      "trap": "Ignoring the hazard.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Needlestick injury",
+      "scenario": "While disposing of a used syringe after administering an injection, a nurse accidentally sustains a needlestick injury to the finger. The skin is punctured, and the nurse is unsure of the patient’s infectious status.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Wash the area and report the incident immediately.",
+      "modelWhy": "Early reporting reduces infection risk.",
+      "modelNext": "Follow post-exposure protocol.",
+      "trap": "Delaying reporting.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Isolation precautions",
+      "scenario": "A patient admitted with persistent coughing, weight loss, and night sweats is suspected of having tuberculosis. The patient is coughing frequently in a shared room while staff enter and exit without specialised respiratory protection.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate airborne precautions.",
+      "modelWhy": "TB spreads through airborne particles.",
+      "modelNext": "Ensure appropriate PPE is used.",
+      "trap": "Using standard precautions only.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Hand hygiene breach",
+      "scenario": "A staff member exits a patient’s room after providing care but does not perform hand hygiene before moving on to the next patient. Other staff and patients are nearby, and the breach is clearly visible.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Remind and perform hand hygiene.",
+      "modelWhy": "Hand hygiene prevents infection spread.",
+      "modelNext": "Educate on proper technique.",
+      "trap": "Ignoring the breach.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Central line infection risk",
+      "scenario": "A patient with a central venous catheter suddenly develops fever, chills, and malaise. The catheter insertion site appears slightly red, and the patient reports feeling unwell shortly after a routine line access.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess the site and notify the provider.",
+      "modelWhy": "Central line infections can progress rapidly.",
+      "modelNext": "Obtain cultures as ordered.",
+      "trap": "Assuming a mild infection.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Urinary catheter care",
+      "scenario": "A patient with an indwelling urinary catheter complains of discomfort in the lower abdomen. The urine appears cloudy with a strong odor, and the patient reports a burning sensation.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess catheter necessity and signs of infection.",
+      "modelWhy": "Catheters increase UTI risk.",
+      "modelNext": "Monitor urine output.",
+      "trap": "Ignoring symptoms.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Surgical site infection",
+      "scenario": "A postoperative patient reports increasing pain around the surgical incision. On inspection, the incision site shows redness, warmth, and drainage that was not present earlier.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess the wound and notify the provider.",
+      "modelWhy": "Early treatment prevents complications.",
+      "modelNext": "Monitor temperature.",
+      "trap": "Covering without assessment.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

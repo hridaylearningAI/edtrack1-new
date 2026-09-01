@@ -1,0 +1,1336 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "Why is it incorrect to treat children as \"smaller adults\" in a nursing context?",
+      "back": "Their anatomy, physiology, and responses to illness differ across age groups."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "What does a child's developmental stage influence regarding their healthcare experience?",
+      "back": "How they communicate, respond to illness, and participate in care."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "How should a nurse adapt their interventions for a paediatric patient?",
+      "back": "By tailoring them to the child's specific developmental stage."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "In family-centred care, which individuals are recognized as important partners?",
+      "back": "Parents and carers."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What are the five distinct paediatric age groups mentioned in GNPS Program 7?",
+      "back": "Infants, toddlers, preschool children, school-age children, and adolescents."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "What two factors should be considered together when assessing a child's progress?",
+      "back": "Chronological age and individual ability."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "What is the primary function of developmental milestones in paediatric nursing?",
+      "back": "To provide guidance on expected motor, language, social, and cognitive progress."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "In the context of milestones, what does 'motor' progress refer to?",
+      "back": "The development of physical movement and coordination."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "In the context of milestones, what does 'social' progress refer to?",
+      "back": "The development of how a child interacts with others."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "How should a nurse interpret variation in the timing of a child's milestones?",
+      "back": "As a normal occurrence, provided there is no persistent delay or loss of skills."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Identify a 'red flag' in developmental progress that requires further assessment.",
+      "back": "Persistent delay in reaching milestones."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "Besides persistent delay, what other developmental change requires further assessment?",
+      "back": "The loss of previously acquired skills."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "Which term describes the loss of previously acquired developmental skills?",
+      "back": "Regression."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "What is the primary goal of using age-appropriate communication and play during care?",
+      "back": "To reduce fear in the paediatric patient."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "How should language be adjusted when explaining a procedure to a child?",
+      "back": "It should be kept simple and age-appropriate."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Which communication technique involves showing a child how a procedure works using equipment or toys?",
+      "back": "Demonstration."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "Which communication technique uses focus-shifting to help a child cope with a painful procedure?",
+      "back": "Distraction."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Which technique uses play activities specifically to help a child understand and participate in care?",
+      "back": "Therapeutic play."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "How does offering 'limited choices' benefit a child during a clinical intervention?",
+      "back": "It empowers the child and improves cooperation."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "What specific environmental need should be provided to adolescents to respect their development?",
+      "back": "Privacy."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "Why is 'respect' specifically emphasized when nursing adolescents?",
+      "back": "To address their maturing psychosocial needs and desire for independence."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "What opportunity should be given to adolescents during clinical consultations where appropriate?",
+      "back": "The opportunity to speak independently."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "What is the core premise of family-centred care regarding the child's behaviour?",
+      "back": "Parents and carers usually know the child's normal behaviour best."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "How should a nurse treat the observations made by a parent about their child?",
+      "back": "They should be valued as critical clinical information."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "In family-centred care, in what three areas should families be actively involved?",
+      "back": "Decisions, comfort, and care."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "What factors determine the extent of family involvement in a child's care?",
+      "back": "The child's needs and the preferences of the family."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "In the clinical example of the 4-year-old, what was the primary reason for using a doll?",
+      "back": "To demonstrate the blood test procedure in a developmentally appropriate way."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "What limited choice was the 4-year-old given during the blood test clinical example?",
+      "back": "Choosing which arm to present for the procedure."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "In the clinical example of the 4-year-old, what was the parent's role during the test?",
+      "back": "Remaining nearby to provide reassurance to the child."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "What is the expected outcome of developmentally appropriate preparation for a medical procedure?",
+      "back": "Reduced fear and improved cooperation from the child."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Concept: Therapeutic Play",
+      "back": "Definition: A clinical tool used to communicate with children and reduce fear through play-based demonstration."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "According to the Section 1 key learning points, how should nurses view families?",
+      "back": "As partners in care."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "Term: Chronological age",
+      "back": "Definition: The actual age of the child in years, months, or days."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "The goal of family-centred care is to involve parents in _____, comfort, and care.",
+      "back": "decisions"
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "How does growth and development affect a child's understanding of medical procedures?",
+      "back": "It determines their cognitive capacity to process the information provided."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "Identify the four main categories of progress tracked by developmental milestones.",
+      "back": "Motor, language, social, and cognitive."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "Who should be consulted first to determine a child's normal baseline behaviour?",
+      "back": "The parents or carers."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "In the clinical example, how did simple language and demonstration impact the 4-year-old?",
+      "back": "They reduced the child's fear before the blood test."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What should a nurse do if they recognize developmental delay or regression in a patient?",
+      "back": "Initiate further assessment to determine the cause."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "Which paediatric age group is specifically mentioned as needing opportunities for independent speech?",
+      "back": "Adolescents."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "True or False: Family-centred care means the nurse makes all decisions while the family watches.",
+      "back": "False (Families should be involved in decisions and treated as partners)."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "What type of communication involves using activities to distract a child from pain?",
+      "back": "Distraction."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "Paediatric nurses must adapt interventions to a child's developmental stage while recognizing parents as _____.",
+      "back": "partners"
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "In milestone assessment, what does 'cognitive' progress refer to?",
+      "back": "The development of thinking, learning, and problem-solving skills."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Which group of children requires nurses to adapt care to physical, cognitive, language, and psychosocial needs?",
+      "back": "All paediatric age groups (infants through adolescents)."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "What is the purpose of offering a child the choice of 'which arm' to use for a test?",
+      "back": "To provide a sense of control through a limited, age-appropriate choice."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "Which key learning point emphasizes the use of play as more than just recreation?",
+      "back": "Using play as a clinical communication tool."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "What should be the nurse's priority when a child shows a loss of previously acquired skills?",
+      "back": "Recognizing it as a sign that requires further assessment."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "Why should a nurse observe a child's developmental ability rather than just their age?",
+      "back": "Individual ability may vary from standard chronological age expectations."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "What is the primary outcome of involving parents in the comfort of a child during a procedure?",
+      "back": "It provides reassurance and helps maintain the family-centred care partnership."
+    },
+    {
+      "id": "fc-51",
+      "section": 2,
+      "front": "Why is early recognition of deterioration essential in children?",
+      "back": "Children often compensate for illness before deteriorating suddenly."
+    },
+    {
+      "id": "fc-52",
+      "section": 2,
+      "front": "What is the first step a nurse should take in a systematic paediatric assessment?",
+      "back": "Observe the child before touching them."
+    },
+    {
+      "id": "fc-53",
+      "section": 2,
+      "front": "What qualities should be assessed during the 'observation first' phase?",
+      "back": "Appearance, interaction, breathing, colour, posture, and response to caregiver."
+    },
+    {
+      "id": "fc-54",
+      "section": 2,
+      "front": "What does a 'floppy' or 'poorly responsive' child usually indicate?",
+      "back": "The child may be seriously unwell."
+    },
+    {
+      "id": "fc-55",
+      "section": 2,
+      "front": "Why must a nurse use age-specific ranges for heart rate and blood pressure?",
+      "back": "Normal vital sign ranges vary significantly with age."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "Name three pain assessment tools used when verbal reporting is limited.",
+      "back": "FLACC, Wong-Baker, and CRIES."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "Why do children have higher oxygen demands than adults?",
+      "back": "They have smaller airways and different physiological needs."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "Which upper airway sound requires urgent medical attention in a child?",
+      "back": "Stridor."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "What respiratory sign involves the widening of the nostrils during breathing?",
+      "back": "Nasal flaring."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "What is the clinical significance of 'grunting' in an infant?",
+      "back": "It is a sign of respiratory distress and potential deterioration."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "What term describes the visible sinking of the chest or neck muscles during breathing?",
+      "back": "Retractions."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "Which physical finding indicates a lack of oxygen in the central areas of the body?",
+      "back": "Central cyanosis."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "Name four physical indicators used to assess a child's hydration status.",
+      "back": "Tears, mucous membranes, fontanel tension, and capillary refill."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "How does urine output help in assessing a child's hydration?",
+      "back": "Reduced urine output is a key indicator of dehydration."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "Which neurological symptoms in a child indicate serious illness?",
+      "back": "Irritability, lethargy, seizures, or altered consciousness."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "In the clinical example of bronchiolitis, what was the first behavioral cue of deterioration?",
+      "back": "The infant became less interested in feeding and quieter."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "According to Section 2, what should be treated as a priority during assessment?",
+      "back": "Respiratory distress."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "What role does 'fontanel tension' play in paediatric assessment?",
+      "back": "It helps determine the child's hydration status."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "The principle of observing behavior _____ the examination helps capture a child's baseline status.",
+      "back": "Before."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "What is the significance of 'reduced wet nappies' in an infant?",
+      "back": "It is an important cue for dehydration and clinical deterioration."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "Which assessment tool is most appropriate for a child who cannot yet speak to describe their pain?",
+      "back": "FLACC (or CRIES)."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "What does 'poor air entry' suggest during a respiratory assessment?",
+      "back": "Severe respiratory distress requiring urgent attention."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "How should a nurse interpret a child being 'quieter than earlier'?",
+      "back": "As a potential early sign of serious illness or deterioration."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Why is 'posture' included in the initial observation of a child?",
+      "back": "To identify signs of distress, pain, or muscle tone issues like floppiness."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What does a change in a child's 'interaction' with their caregiver often signal?",
+      "back": "A change in neurological or overall health status."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Normal paediatric vital signs: Heart rate, respiratory rate, and _____ vary by age.",
+      "back": "Blood pressure."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "What physical indicator on the head is specifically assessed in infants for hydration?",
+      "back": "Fontanel tension."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "Why is 'lethargy' considered a red-flag symptom in paediatric nursing?",
+      "back": "It indicates a high risk of serious illness or neurological compromise."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "What is the nursing priority when an infant shows nasal flaring and chest retractions?",
+      "back": "Requesting an urgent medical review."
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "Term: FLACC",
+      "back": "Definition: A pain assessment tool used for children who are non-verbal or limited in verbal reporting."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What assessment finding involves the time it takes for color to return to the skin after pressure?",
+      "back": "Capillary refill."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "What is the significance of 'mucous membranes' in a physical exam?",
+      "back": "Their moisture level helps determine hydration status."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "How does 'irritability' function as a clinical cue?",
+      "back": "It may indicate a serious change in neurological status or severe discomfort."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "What should the nurse assess regarding a child's 'colour' during the first observation?",
+      "back": "Signs of pallor, mottling, or cyanosis."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "Children have higher _____ demands compared to adults, making respiratory assessment critical.",
+      "back": "Oxygen."
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "Which pain tool uses a series of faces to help children communicate their pain level?",
+      "back": "Wong-Baker."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "What is the primary risk of a child 'compensating' for illness?",
+      "back": "They may appear stable before a sudden and rapid collapse."
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "What 'interaction' cue suggests a child is severely unwell?",
+      "back": "A lack of response to the caregiver."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "What is the purpose of assessing 'activity' levels in children?",
+      "back": "To help determine hydration and neurological status."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "In paediatric nursing, 'early action' is dependent on which three factors?",
+      "back": "Careful observation, developmental knowledge, and early recognition of cues."
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "Which assessment finding involves a high-pitched inspiratory sound?",
+      "back": "Stridor."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "Poor feeding is a critical cue for deterioration in which paediatric age group?",
+      "back": "Infants."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "What does a 'sunken' fontanel typically indicate?",
+      "back": "Dehydration."
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "What action should follow the recognition of a child becoming 'floppy'?",
+      "back": "Immediate escalation for urgent medical review."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "Respiratory assessment includes checking for _____, which is a sound made during expiration.",
+      "back": "Grunting."
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "What is the clinical meaning of a child having 'dry mucous membranes'?",
+      "back": "It is a sign of dehydration."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "What is the primary goal of using age-appropriate pain assessment tools?",
+      "back": "To support assessment when a child's verbal reporting is limited."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "Which specific vital sign is most likely to be elevated first in respiratory distress?",
+      "back": "Respiratory rate."
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "What should a nurse observe regarding a child's 'response to the caregiver'?",
+      "back": "Whether the child is easily comforted or remains irritable/unresponsive."
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "Which physical sign in the neck and ribs is a marker of increased work of breathing?",
+      "back": "Retractions."
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "A systematic paediatric assessment must integrate age-specific vital signs, behavior, and _____ status.",
+      "back": "Neurological."
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "How does the size of a child's airway impact their vulnerability to respiratory illness?",
+      "back": "Smaller airways are more easily obstructed."
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "What is the significance of assessing if a child is 'quieter' than usual?",
+      "back": "It is a subtle but important cue of potential deterioration."
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "Which assessment component evaluates circulation and hydration simultaneously?",
+      "back": "Capillary refill."
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "What does 'altered consciousness' encompass in a paediatric patient?",
+      "back": "Confusion, extreme drowsiness, or inability to be fully roused."
+    },
+    {
+      "id": "fc-106",
+      "section": 2,
+      "front": "What is the 'Observation First' principle designed to prevent?",
+      "back": "Disturbing the child and masking their true clinical state with distress."
+    },
+    {
+      "id": "fc-107",
+      "section": 2,
+      "front": "What is the expected nursing response to 'nasal flaring' in a toddler?",
+      "back": "Treat as respiratory distress and prioritize assessment/escalation."
+    },
+    {
+      "id": "fc-108",
+      "section": 2,
+      "front": "In the bronchiolitis example, what was the significance of the change in 'interaction'?",
+      "back": "The infant being 'quieter' was recognized as a sign of deterioration."
+    },
+    {
+      "id": "fc-109",
+      "section": 2,
+      "front": "Why is 'hydration' status closely linked to neurological status in infants?",
+      "back": "Severe dehydration can lead to irritability or lethargy."
+    },
+    {
+      "id": "fc-110",
+      "section": 2,
+      "front": "What assessment finding involves checking for the 'presence of tears'?",
+      "back": "Hydration assessment."
+    },
+    {
+      "id": "fc-111",
+      "section": 2,
+      "front": "Children may not describe symptoms clearly, so safe nursing depends on _____.",
+      "back": "Careful observation."
+    },
+    {
+      "id": "fc-112",
+      "section": 2,
+      "front": "Which finding during 'observation' might suggest a cardiac or respiratory issue?",
+      "back": "Abnormal skin colour (e.g., cyanosis or pallor)."
+    },
+    {
+      "id": "fc-113",
+      "section": 2,
+      "front": "How should a nurse approach the assessment of an irritable child?",
+      "back": "Observe from a distance first to identify signs of serious illness."
+    },
+    {
+      "id": "fc-114",
+      "section": 2,
+      "front": "What are the three main components of a paediatric assessment mentioned in Section 2?",
+      "back": "Vital signs, physical assessment (breathing/circulation/hydration), and neurological status."
+    },
+    {
+      "id": "fc-115",
+      "section": 2,
+      "front": "What is the nursing implication of 'age-specific vital-sign ranges'?",
+      "back": "Nurses must consult reference charts based on the child's specific age."
+    },
+    {
+      "id": "fc-116",
+      "section": 2,
+      "front": "In the bronchiolitis clinical example, why was the reduction in wet nappies significant?",
+      "back": "It indicated the infant was not taking in enough fluids or was dehydrating."
+    },
+    {
+      "id": "fc-117",
+      "section": 2,
+      "front": "What is the clinical goal of 'early recognition' in paediatrics?",
+      "back": "To intervene before the child's compensatory mechanisms fail."
+    },
+    {
+      "id": "fc-118",
+      "section": 2,
+      "front": "What is the relationship between 'feeding' and 'deterioration' in Section 2?",
+      "back": "Reduced feeding is often an early sign of serious illness."
+    },
+    {
+      "id": "fc-119",
+      "section": 2,
+      "front": "What does 'posture' specifically help evaluate in a sick child?",
+      "back": "Muscle tone and work of breathing."
+    },
+    {
+      "id": "fc-120",
+      "section": 2,
+      "front": "What is the significance of 'seizures' in a paediatric assessment?",
+      "back": "They are a sign of serious neurological or systemic illness requiring urgent action."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "According to Section 3, safe nursing care for children combines early recognition, support for the family, and _____.",
+      "back": "Evidence-based intervention"
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "Identify the respiratory condition starting with 'A' that commonly impairs breathing in children.",
+      "back": "Asthma"
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "Identify the respiratory condition starting with 'B' that commonly impairs breathing in children.",
+      "back": "Bronchiolitis"
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "Identify the respiratory condition starting with 'C' that commonly impairs breathing in children.",
+      "back": "Croup"
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "Identify the respiratory condition starting with 'P' that commonly impairs breathing in children.",
+      "back": "Pneumonia"
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "Identify the respiratory condition starting with 'CF' that commonly impairs breathing in children.",
+      "back": "Cystic fibrosis"
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "What is the priority assessment for a child with a respiratory condition?",
+      "back": "Airway assessment"
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "Which nursing intervention involves optimizing a child's posture to assist breathing?",
+      "back": "Positioning"
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "What type of prescribed treatment is commonly inhaled for paediatric respiratory conditions?",
+      "back": "Inhaled treatment"
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "In respiratory nursing care, what must be monitored besides hydration and airway?",
+      "back": "Fatigue"
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "Why is hydration a priority in nursing care for respiratory conditions?",
+      "back": "To support the child during impaired breathing and illness"
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "Name the cardiac condition mentioned that may present with sweating and reduced growth.",
+      "back": "Congenital heart disease"
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "Which cardiac condition may present with cyanosis and poor feeding?",
+      "back": "Heart failure"
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "In children with cardiac conditions, what specific symptom often occurs during feeding?",
+      "back": "Sweating"
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "What skin color change is a common symptom of congenital heart disease?",
+      "back": "Cyanosis"
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "How might a cardiac condition affect a child's physical development?",
+      "back": "Reduced growth"
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "What type of difficulty often accompanies cardiac conditions in children?",
+      "back": "Respiratory difficulty"
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "What nursing strategy is used for feeding a child with heart failure?",
+      "back": "Pacing"
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "What nursing strategy is used for activity in a child with congenital heart disease?",
+      "back": "Pacing"
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "What is the most common gastrointestinal condition in children?",
+      "back": "Gastroenteritis"
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "What is a common complication of paediatric gastroenteritis?",
+      "back": "Dehydration"
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "What does the presence of bilious vomiting in a child indicate?",
+      "back": "An urgent surgical condition"
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "What does 'currant-jelly' stool indicate in a paediatric gastrointestinal assessment?",
+      "back": "An urgent surgical condition"
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Which abdominal symptom, besides distension, indicates an urgent surgical condition?",
+      "back": "Severe abdominal pain"
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "What physical finding on the abdomen is considered a red flag for surgical intervention?",
+      "back": "Distended abdomen"
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Which neurological condition requires rapid assessment in a paediatric setting?",
+      "back": "Seizures"
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "Which infectious neurological condition is identified as requiring rapid assessment?",
+      "back": "Meningitis"
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "Name the endocrine condition that requires rapid assessment in children.",
+      "back": "Type 1 diabetes"
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "What acute complication of type 1 diabetes requires rapid assessment?",
+      "back": "Diabetic ketoacidosis (DKA)"
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "What is the required action for a child with a fever and a non-blanching rash?",
+      "back": "Urgent action"
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "A bulging fontanel in an infant is a red flag requiring _____.",
+      "back": "Urgent action"
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "In neurological assessment, what level of consciousness is considered a red flag?",
+      "back": "Altered consciousness"
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "Which breathing pattern is a red-flag symptom for neurological or endocrine conditions?",
+      "back": "Deep breathing"
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "A child with DKA may present with which two gastrointestinal symptoms?",
+      "back": "Vomiting and abdominal pain"
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "What specific respiratory symptom is noted in the clinical example of a child with DKA?",
+      "back": "Deep breathing"
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "What neurological change occurs as DKA progresses according to the clinical example?",
+      "back": "Increasing drowsiness"
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "Which metabolic level must a nurse check immediately if DKA is suspected?",
+      "back": "Glucose"
+    },
+    {
+      "id": "fc-158",
+      "section": 3,
+      "front": "Besides glucose, what else should a nurse check to confirm suspected DKA?",
+      "back": "Ketones"
+    },
+    {
+      "id": "fc-159",
+      "section": 3,
+      "front": "What is the nurse's priority action once DKA is recognized?",
+      "back": "Activate urgent medical management"
+    },
+    {
+      "id": "fc-160",
+      "section": 3,
+      "front": "Nursing care involves monitoring the child's response to _____.",
+      "back": "Treatment"
+    },
+    {
+      "id": "fc-161",
+      "section": 3,
+      "front": "Besides treatment response, what three clinical areas must be monitored closely in ill children?",
+      "back": "Breathing, hydration, and consciousness"
+    },
+    {
+      "id": "fc-162",
+      "section": 3,
+      "front": "Identify the specific escalation red flag related to vomiting color.",
+      "back": "Bilious vomiting"
+    },
+    {
+      "id": "fc-163",
+      "section": 3,
+      "front": "Identify the specific escalation red flag related to skin presentation.",
+      "back": "Non-blanching rash"
+    },
+    {
+      "id": "fc-164",
+      "section": 3,
+      "front": "Identify the specific escalation red flag related to neurological status.",
+      "back": "Altered consciousness"
+    },
+    {
+      "id": "fc-165",
+      "section": 3,
+      "front": "Whom should the nurse support during a child's acute illness?",
+      "back": "The child and the family"
+    },
+    {
+      "id": "fc-166",
+      "section": 3,
+      "front": "What is the purpose of pacing activity and feeding in cardiac patients?",
+      "back": "To manage the child's energy and respiratory effort"
+    },
+    {
+      "id": "fc-167",
+      "section": 3,
+      "front": "In the context of paediatric GI health, 'bilious' refers to what color of vomit?",
+      "back": "Green/Bile-colored"
+    },
+    {
+      "id": "fc-168",
+      "section": 3,
+      "front": "Which clinical area does a bulging fontanel primarily help assess?",
+      "back": "Neurological status"
+    },
+    {
+      "id": "fc-169",
+      "section": 3,
+      "front": "According to Section 3, when should a nurse escalate care for a child with a non-blanching rash?",
+      "back": "Immediately/Urgent action"
+    },
+    {
+      "id": "fc-170",
+      "section": 3,
+      "front": "What role does the nurse play regarding red-flag symptoms?",
+      "back": "Recognizing and escalating them"
+    },
+    {
+      "id": "fc-171",
+      "section": 3,
+      "front": "Nursing care for cystic fibrosis includes airway assessment, positioning, and _____.",
+      "back": "Oxygen/Inhaled treatment"
+    },
+    {
+      "id": "fc-172",
+      "section": 3,
+      "front": "What is the focus of Section 3 regarding common childhood conditions?",
+      "back": "Safe care through early recognition and evidence-based intervention"
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "What is the standard basis for determining pediatric medication dosages?",
+      "back": "Weight-based principles."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "Why is precision critical when administering pediatric medications?",
+      "back": "Small errors can cause serious harm to children."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "Which specific unit of measurement must be confirmed for pediatric weight calculations?",
+      "back": "Kilograms ($kg$)."
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "Besides dose and weight, what are three other factors that must be checked for medication safety?",
+      "back": "Concentration, route, and maximum safe dose."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "What process is often required to ensure the safety of pediatric medicine administration?",
+      "back": "Independent verification."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "In the Section 4 clinical example, what error led to a potentially serious medication overdose?",
+      "back": "The weight was recorded in pounds instead of kilograms."
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "What action should a nurse take if a weight-based dose calculation error is suspected?",
+      "back": "Pause administration, reweigh the child, and recalculate the dose."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "How do feeding needs change throughout childhood?",
+      "back": "They evolve continuously from infancy through adolescence."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "Which three assessment tools help nurses identify undernutrition or obesity in children?",
+      "back": "Growth charts, dietary history, and feeding observation."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "What is the purpose of using growth charts in pediatric nursing?",
+      "back": "To monitor physical development and identify nutritional concerns."
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "To what must injury prevention strategies be tailored for effectiveness?",
+      "back": "The child's age and developmental stage."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "Why do children require specific nursing focus on injury prevention and protection?",
+      "back": "They depend on adults for their care and safety."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "List four key areas of focus for age-appropriate injury prevention.",
+      "back": "Safe sleep, car restraints, drowning prevention, and poison storage."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "Which injury prevention topics are specifically mentioned for older children and adolescents?",
+      "back": "Burn prevention and sport safety."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "What is a major indicator of potential abuse regarding the history of a child's injury?",
+      "back": "The injury is inconsistent with the explanation provided."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "Regarding physical marks, what may indicate a safeguarding concern?",
+      "back": "Unusual bruising patterns."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "How does the timing of seeking medical care serve as a safeguarding cue?",
+      "back": "A delayed presentation for an injury may indicate abuse or neglect."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "Which physical state of the child might be a sign of neglect?",
+      "back": "Poor hygiene."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "What behavioral sign in a child suggests they may be experiencing abuse?",
+      "back": "Fearfulness."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "What should a nurse monitor in caregivers when assessing for safeguarding concerns?",
+      "back": "Concerning or unusual caregiver behavior."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "What are the two primary frameworks a nurse must follow when reporting safeguarding concerns?",
+      "back": "Legal and organizational reporting requirements."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "The principle of double-checking pediatric medications is known as _____ verification.",
+      "back": "Independent"
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "Term: Safeguarding",
+      "back": "Definition: The process of protecting children from abuse or neglect through observation and reporting."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "What is a key learning point regarding the inclusion of injury prevention in care?",
+      "back": "It should be integrated into family education."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "When calculating high-risk doses, what is a mandatory nursing action?",
+      "back": "Perform an independent double-check."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "How should a nurse approach the reporting of safeguarding concerns?",
+      "back": "Follow the specific approved pathways of their organization."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "Which tool is specifically used to monitor the trajectory of a child's physical size over time?",
+      "back": "Growth charts."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "In the context of injury prevention, what is the significance of 'poison storage'?",
+      "back": "It must be tailored to the child's age and ability to access hazards."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Why is 'feeding observation' a necessary part of nutritional assessment?",
+      "back": "To identify specific feeding difficulties that history or charts might miss."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "What is the primary risk of using the wrong weight unit (e.g., $lb$ vs $kg$) in pediatrics?",
+      "back": "Inaccurate weight-based medication dosing leading to toxicity or sub-therapeutic treatment."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "In the 'Safeguarding' section, what does 'delayed presentation' refer to?",
+      "back": "A significant gap between the time of injury and seeking medical help."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "What nursing action is required when a child presents with injuries inconsistent with the story?",
+      "back": "Follow legal and organizational safeguarding reporting requirements."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "Under medication safety, what must be confirmed regarding the medication's 'concentration'?",
+      "back": "That the amount of drug per volume matches the prescribed dose and calculation."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "What is a common clinical tool used to gather information about a child's typical food intake?",
+      "back": "Dietary history."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "Concept: Safe Sleep",
+      "back": "An injury prevention strategy tailored to infants to prevent sleep-related accidents or deaths."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "Why must a nurse check the 'maximum safe dose' for a pediatric patient?",
+      "back": "To ensure the weight-based calculation does not exceed adult limits or established safety thresholds."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "What are the core components of the 'Medication Safety' section's key learning points?",
+      "back": "Using kilograms for calculations and double-checking high-risk doses."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "What specific physical sign of neglect is listed in Section 4?",
+      "back": "Poor hygiene."
+    },
+    {
+      "id": "fc-211",
+      "section": 4,
+      "front": "In pediatric medication safety, what does the term 'route' refer to?",
+      "back": "The specific path (e.g., oral, IV) by which a drug is administered."
+    },
+    {
+      "id": "fc-212",
+      "section": 4,
+      "front": "How does the nurse use 'kilograms' in Section 4 calculations?",
+      "back": "As the mandatory unit for all pediatric weight-based medication dosages."
+    },
+    {
+      "id": "fc-213",
+      "section": 4,
+      "front": "What does the Section 4 summary state regarding nutrition and hydration?",
+      "back": "They are central because children depend on adults for protection and care."
+    },
+    {
+      "id": "fc-214",
+      "section": 4,
+      "front": "According to Section 4, what should be done with safeguarding concerns?",
+      "back": "They must be reported through approved pathways."
+    },
+    {
+      "id": "fc-215",
+      "section": 4,
+      "front": "What category of nursing care includes car restraints and drowning prevention?",
+      "back": "Injury prevention."
+    },
+    {
+      "id": "fc-216",
+      "section": 4,
+      "front": "What must be confirmed about a child's weight before every medication calculation?",
+      "back": "That it is the current weight in kilograms ($kg$)."
+    },
+    {
+      "id": "fc-217",
+      "section": 4,
+      "front": "What type of bruising is highlighted as a red flag for child abuse?",
+      "back": "Unusual bruising patterns."
+    },
+    {
+      "id": "fc-218",
+      "section": 4,
+      "front": "Which pediatric population's medication doses are 'commonly based on weight'?",
+      "back": "All age groups from infancy to adolescence."
+    },
+    {
+      "id": "fc-219",
+      "section": 4,
+      "front": "Why is 'independent verification' emphasized for pediatric medicines?",
+      "back": "To catch human errors in complex weight-based calculations."
+    },
+    {
+      "id": "fc-220",
+      "section": 4,
+      "front": "What is the intended outcome of providing 'age-appropriate injury prevention' education?",
+      "back": "To reduce the risk of accidents by matching safety measures to the child's development."
+    },
+    {
+      "id": "fc-221",
+      "section": 4,
+      "front": "Which assessment component focuses on the physical act of the child eating?",
+      "back": "Feeding observation."
+    },
+    {
+      "id": "fc-222",
+      "section": 4,
+      "front": "True or False: Safeguarding is only necessary if the nurse witnesses abuse.",
+      "back": "False; indicators like inconsistent injuries or poor hygiene require reporting."
+    }
+  ]
+}

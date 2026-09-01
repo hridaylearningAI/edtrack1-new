@@ -1,0 +1,1258 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What is the primary motto of GNPS Program 3: Safe Medication Practice?",
+      "back": "The right medication. The right patient. Every time."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Which level of the GNPS Program targets the 'International Qualified Nurse'?",
+      "back": "Level 2"
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "What is the primary purpose of GNPS Level 2 for international nurses?",
+      "back": "To bridge national nursing preparation with international healthcare expectations."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "List four international systems an IQN must adapt to when entering a new healthcare environment.",
+      "back": "Medication charts, electronic systems, prescribing conventions, and controlled-drug processes."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What clinical reasoning skills are strengthened in GNPS Level 2?",
+      "back": "Clinical pharmacology, medication reconciliation, and high-risk medication management."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "According to the Level 2 Learning Goals, what should an IQN be able to recognize?",
+      "back": "Complex medication risks."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "International medication practice requires nurses to integrate the order with which specific patient data point regarding sensitivities?",
+      "back": "Allergies."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Beyond the medication chart, safe international practice combines technical competence with clinical judgement and _____.",
+      "back": "Professional accountability."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "Name four aspects of international medication systems that may vary between healthcare facilities.",
+      "back": "Charts, formularies, electronic records, and controlled-drug procedures."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Safe practice in any medication system is built on consistent _____, allergy checking, clinical assessment, documentation, and communication.",
+      "back": "Identification"
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "What must an IQN do before they begin practising independently in a new system?",
+      "back": "Learn the local system."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "In a workplace, what document describes the specific processes for prescribing, administering, and storing medicines?",
+      "back": "Local policy."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "What do professional standards define in the context of medication safety?",
+      "back": "Accountability, competence, and the duty to protect patients."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Local policy identifies which healthcare workers are permitted to _____ medicines in the workplace.",
+      "back": "Prescribe, administer, check, store, and dispose of"
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "What are the six components required for a valid medication order?",
+      "back": "The patient, medicine, dose, route, timing, and prescriber."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "How can abbreviations and incomplete instructions affect medication safety?",
+      "back": "They create significant risk for error."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "What specific risk is associated with decimals in medication orders?",
+      "back": "Unclear decimals can lead to dosing errors."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "What is the mandatory action for a nurse when faced with an uncertain medication order?",
+      "back": "Clarify the order before administration."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "What does the abbreviation eMAR stand for in the context of medication records?",
+      "back": "Electronic medication administration records."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "List three safety benefits provided by electronic medication systems.",
+      "back": "Allergy alerts, scheduling, and traceability."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "How can electronic systems lead to patient identification errors?",
+      "back": "By increasing the risk of selecting the wrong patient record."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "What risk is introduced by the ability to copy information in an eMAR?",
+      "back": "Copying outdated or incorrect information into current records."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "Define 'alert fatigue' in electronic medication systems.",
+      "back": "A state where clinicians ignore safety warnings due to the high volume of system alerts."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "What is the danger of assuming an electronic system has 'checked everything'?",
+      "back": "It can lead to a reduction in manual clinical verification and critical thinking."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "During orientation, an IQN should request specific training on local _____.",
+      "back": "Medicines, storage systems, infusion devices, and controlled-drug processes."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "What requirement should an IQN verify regarding 'double checks' during orientation?",
+      "back": "Independent-check requirements."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "True or False: Previous nursing experience replaces the need for a local competence assessment.",
+      "back": "False."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "In the Level 2 clinical example, what did the IQN do when encountering unfamiliar insulin abbreviations?",
+      "back": "Reviewed local policy and confirmed the order with the prescriber."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "In the Level 2 clinical example, how was the insulin administration completed to ensure safety?",
+      "back": "Via supervised administration."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "What should a nurse do with incomplete or ambiguous medication orders?",
+      "back": "Clarify them immediately."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Why should a nurse avoid relying solely on electronic medication alerts?",
+      "back": "Electronic systems can fail to detect certain risks or introduce new ones like alert fatigue."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "How long should an IQN seek supervision in a new workplace?",
+      "back": "Until local competence is confirmed."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "A valid order must specify the _____, which is the path by which the drug enters the body.",
+      "back": "Route"
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "A valid order must specify the _____, indicating when the medicine should be given.",
+      "back": "Timing"
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "Which professional document defines the duty of a nurse to protect their patients?",
+      "back": "Professional standards."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "What is the risk of using verbal medication orders?",
+      "back": "They are highly prone to misunderstanding and error."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "Which pillar of safe practice involves reviewing a patient's current condition before giving a drug?",
+      "back": "Clinical assessment."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "What pillar of safe practice ensures that every administration is recorded accurately?",
+      "back": "Documentation."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What is the relationship between technical competence and clinical judgement in international practice?",
+      "back": "They must be integrated with professional accountability for safe practice."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "Why is 'identification' considered a foundational pillar of medication safety?",
+      "back": "To ensure the right patient receives the medication."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "What type of healthcare record improves traceability of medication administration?",
+      "back": "Electronic medication records."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "In the clinical example regarding insulin, why did the nurse NOT rely on 'previous practice'?",
+      "back": "Because the abbreviations and systems were unfamiliar in the new international environment."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "What specific orientation item covers the hardware used to deliver intravenous medications?",
+      "back": "Infusion devices."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "What is the core expectation for nurses regarding medication concerns in Level 2?",
+      "back": "To communicate concerns clearly using structured professional communication."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Safe medication practice requires integrating the order with the patient's _____ results.",
+      "back": "Pathology"
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "Besides the medicine and dose, what must be identified on a valid order to ensure professional legality?",
+      "back": "The prescriber."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "What is the primary focus of 'Section 1' in the Level 2 GNPS notes?",
+      "back": "Applying International Medication Safety Standards."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "Local medication policies relate to which broader context?",
+      "back": "Broader safety principles."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "What should a nurse do if they are unsure of a local medicine storage system?",
+      "back": "Request orientation to the system."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "According to the key learning points, what must be done with workplace medication systems?",
+      "back": "Learn them."
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "What is the expected outcome of completing GNPS Level 2 regarding patient interaction?",
+      "back": "Communicating confidently with patients and multidisciplinary teams."
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "The ability to 'interpret paper and electronic medication orders safely' is a learning outcome of which section?",
+      "back": "Section 1."
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "What specific safety principle involves checking if a patient has a reaction history before dosing?",
+      "back": "Allergy checking."
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "Why does GNPS Level 2 focus on 'prescribing conventions'?",
+      "back": "Because these vary internationally and can lead to errors if misunderstood."
+    },
+    {
+      "id": "fc-55",
+      "section": 2,
+      "front": "How are 'high-risk medicines' defined in GNPS Level 2?",
+      "back": "Medicines with a greater potential to cause serious harm if used incorrectly."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "Which high-risk medication group includes drugs like heparin or warfarin?",
+      "back": "Anticoagulants"
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "Name the high-risk medication group that requires monitoring of blood glucose levels.",
+      "back": "Insulin"
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "Which high-risk medication category includes drugs primarily used for pain management and requiring respiratory monitoring?",
+      "back": "Opioids"
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "What type of electrolytes are classified as high-risk due to their potential for serious harm?",
+      "back": "Concentrated electrolytes"
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "Into which high-risk category do drugs used for calming or sleep induction fall?",
+      "back": "Sedatives"
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "Which high-risk medication group is used specifically for the treatment of cancer?",
+      "back": "Chemotherapy"
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "What specific route of administration for various medicines is inherently categorized as high-risk?",
+      "back": "Intravenous (IV)"
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "What type of storage is often required for high-risk medicines to prevent errors?",
+      "back": "Restricted storage"
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "Besides restricted storage and monitoring, what is a standard safety measure for preparing high-risk medicines?",
+      "back": "Using standard concentrations"
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "What verification process is mandatory for many high-risk medications before administration?",
+      "back": "Independent double checks"
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "What is the clinical purpose of closer monitoring when administering high-risk drugs?",
+      "back": "To detect and respond to adverse effects or toxicity early."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "What must an internationally qualified nurse combine with pharmacological knowledge to manage high-risk medicines?",
+      "back": "Current patient assessment, pathology results, and monitoring requirements."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "How should a nurse use clinical data when managing high-risk medications?",
+      "back": "To support and justify medication decisions."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "What is the nurse's primary responsibility regarding abnormal findings discovered before medication administration?",
+      "back": "Respond to the findings before giving the dose."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "Which patient assessment factor is most critical before administering an antihypertensive medication?",
+      "back": "Blood pressure"
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "Which clinical assessment parameter is essential for determining the safety of an opioid dose?",
+      "back": "Respiratory rate"
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "Why is assessment of swallowing ability necessary for medication administration?",
+      "back": "To ensure the patient can safely take oral medications without aspiration."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "Which assessment finding would most directly influence the administration of a PRN analgesic?",
+      "back": "Pain score"
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Why must renal function be assessed for certain high-risk medications?",
+      "back": "To determine if the dose is appropriate given the patient's drug clearance ability."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What is the defining requirement of a 'meaningful' independent check?",
+      "back": "Each clinician verifies the details separately before comparing results."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Why is 'watching another person prepare the medicine' insufficient for safety?",
+      "back": "It does not constitute a true independent check."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "Identify one of the five components that must be verified separately during an independent check.",
+      "back": "The medication order."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "Identify the patient-specific component that must be verified separately during an independent check.",
+      "back": "The patient's identity."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "Which pharmacological component must be verified separately during an independent double check?",
+      "back": "The medicine and its concentration."
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "Which mathematical step must be performed separately by both clinicians during an independent check?",
+      "back": "The dose calculation."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What non-mathematical patient data must be verified during an independent check for high-risk meds?",
+      "back": "Relevant clinical assessment data."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "What is the purpose of 'therapeutic monitoring' for specific medications?",
+      "back": "To ensure drug levels or physiological responses remain within a safe range."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "Name a type of monitoring required for medications that affect heart rhythm.",
+      "back": "ECG monitoring"
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Which specific blood tests are used to monitor the safety of medications like anticoagulants?",
+      "back": "Coagulation results"
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "What tests are used to monitor a patient's ability to metabolize and excrete high-risk drugs?",
+      "back": "Renal and liver tests"
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "When should a nurse withhold a dose according to GNPS guidelines?",
+      "back": "When clinical findings or test results fall outside of safe parameters defined by policy."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "In the clinical example of an anticoagulant, what physical finding prompted the nurse to withhold the dose?",
+      "back": "New bruising"
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "What action follows withholding a dose and assessing the patient after an abnormal finding?",
+      "back": "Informing the medical team."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "Where should a nurse record the reasons for withholding a medication based on clinical assessment?",
+      "back": "In the patient documentation."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "True or False: A medicine should be administered simply because it appears on the chart.",
+      "back": "False"
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "What is the key learning point regarding the frequency of relating doses to patient status?",
+      "back": "Link every single dose to the patient's current assessment."
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "When must abnormal results be escalated to the medical team?",
+      "back": "Before administration of the medication."
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "How should high-risk medicines be treated compared to standard medications?",
+      "back": "With additional safeguards and higher clinical scrutiny."
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "What determines whether a specific drug level finding requires withholding a medication?",
+      "back": "Local workplace policy and therapeutic ranges."
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "Which clinical assessment factor is most important for a patient on concentrated electrolytes?",
+      "back": "Electrolyte levels"
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "What step must be taken after identifying a 'significantly abnormal' lab result for a scheduled high-risk drug?",
+      "back": "Withhold the dose and seek a clinical review."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "In an independent check, when do the two clinicians compare their findings?",
+      "back": "Only after both have completed their separate verifications."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "Which high-risk medicine group is most likely to require monitoring of the respiratory rate?",
+      "back": "Opioids"
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "What is the nurse's role in therapeutic monitoring besides observing results?",
+      "back": "Knowing which specific findings require withholding a dose."
+    },
+    {
+      "id": "fc-100",
+      "section": 3,
+      "front": "What is the primary purpose of medication reconciliation?",
+      "back": "To compare the medicines a patient is actually taking with their current orders."
+    },
+    {
+      "id": "fc-101",
+      "section": 3,
+      "front": "Which three time points are identified as high-risk periods for medication harm?",
+      "back": "Admission, transfer, and discharge."
+    },
+    {
+      "id": "fc-102",
+      "section": 3,
+      "front": "Medication reconciliation must include prescription medicines, non-prescription products, supplements, allergies, and _____.",
+      "back": "Recent changes."
+    },
+    {
+      "id": "fc-103",
+      "section": 3,
+      "front": "What action should be taken immediately after a medication discrepancy is identified?",
+      "back": "Clarify and document the difference."
+    },
+    {
+      "id": "fc-104",
+      "section": 3,
+      "front": "List three settings outside the hospital ward where transitions of care occur.",
+      "back": "Home, emergency care, and aged care."
+    },
+    {
+      "id": "fc-105",
+      "section": 3,
+      "front": "What is the specific risk of having inaccurate medication lists during a patient discharge?",
+      "back": "Omitted medicines, duplication, and confusion."
+    },
+    {
+      "id": "fc-106",
+      "section": 3,
+      "front": "Which structured framework is recommended for communicating medication concerns?",
+      "back": "ISBAR."
+    },
+    {
+      "id": "fc-107",
+      "section": 3,
+      "front": "What is the very first priority for a nurse when a medication incident occurs?",
+      "back": "Assess the patient."
+    },
+    {
+      "id": "fc-108",
+      "section": 3,
+      "front": "After assessing the patient following an incident, which two individuals must be notified?",
+      "back": "The appropriate clinician and the senior nurse."
+    },
+    {
+      "id": "fc-109",
+      "section": 3,
+      "front": "What is the third step in the medication incident management process?",
+      "back": "Initiate treatment."
+    },
+    {
+      "id": "fc-110",
+      "section": 3,
+      "front": "What should be the focus of documentation in an incident report?",
+      "back": "Facts and contributing conditions."
+    },
+    {
+      "id": "fc-111",
+      "section": 3,
+      "front": "What is the primary professional purpose of using incident reporting?",
+      "back": "To support learning."
+    },
+    {
+      "id": "fc-112",
+      "section": 3,
+      "front": "In the ISBAR framework for medication, what information is included in the 'Current problem'?",
+      "back": "The specific medication concern or issue being observed."
+    },
+    {
+      "id": "fc-113",
+      "section": 3,
+      "front": "In the ISBAR framework, what should be stated immediately after identifying the patient?",
+      "back": "The medicine involved."
+    },
+    {
+      "id": "fc-114",
+      "section": 3,
+      "front": "What are 'Relevant findings' in a structured medication communication meant to clarify?",
+      "back": "The clinical context or data supporting the medication concern."
+    },
+    {
+      "id": "fc-115",
+      "section": 3,
+      "front": "In the ISBAR framework, what does the final 'Action required' component state?",
+      "back": "What the nurse needs the other professional to do."
+    },
+    {
+      "id": "fc-116",
+      "section": 3,
+      "front": "According to the clinical example, which three sources help confirm a patient's home medications?",
+      "back": "The patient, pharmacy, and previous records."
+    },
+    {
+      "id": "fc-117",
+      "section": 3,
+      "front": "When must an identified medication discrepancy be resolved in a clinical setting?",
+      "back": "Before the next dose is due."
+    },
+    {
+      "id": "fc-118",
+      "section": 3,
+      "front": "Term: Medication Reconciliation",
+      "back": "Definition: The process of comparing a patient's actual medication use against their prescribed orders to ensure accuracy."
+    },
+    {
+      "id": "fc-119",
+      "section": 3,
+      "front": "Why should non-prescription and complementary medicines be included in reconciliation?",
+      "back": "They can interact with prescribed treatments or explain clinical findings."
+    },
+    {
+      "id": "fc-120",
+      "section": 3,
+      "front": "Accurate medication lists and clear instructions help protect patients during _____.",
+      "back": "Transitions of care."
+    },
+    {
+      "id": "fc-121",
+      "section": 3,
+      "front": "Communication with _____ providers is essential to reduce medication errors at discharge.",
+      "back": "Community."
+    },
+    {
+      "id": "fc-122",
+      "section": 3,
+      "front": "True or False: Incident reports are intended to assign blame to the staff member involved.",
+      "back": "False (they should record facts and contributing conditions)."
+    },
+    {
+      "id": "fc-123",
+      "section": 3,
+      "front": "What is the relationship between 'near misses' and professional management?",
+      "back": "They should be reported professionally to support organizational learning."
+    },
+    {
+      "id": "fc-124",
+      "section": 3,
+      "front": "What action follows initiating treatment in the management of a medication incident?",
+      "back": "Complete documentation."
+    },
+    {
+      "id": "fc-125",
+      "section": 3,
+      "front": "How often should medication reconciliation be performed?",
+      "back": "At every transition of care."
+    },
+    {
+      "id": "fc-126",
+      "section": 3,
+      "front": "Discrepancies in medication history should be communicated _____.",
+      "back": "Promptly."
+    },
+    {
+      "id": "fc-127",
+      "section": 3,
+      "front": "What specific risk is associated with moving between hospital wards and aged care services?",
+      "back": "Medication harm due to transition errors."
+    },
+    {
+      "id": "fc-128",
+      "section": 3,
+      "front": "In the clinical example of the missing blood thinner, who was informed to resolve the discrepancy?",
+      "back": "The prescriber."
+    },
+    {
+      "id": "fc-129",
+      "section": 3,
+      "front": "Concept: Structured Communication",
+      "back": "Definition: Using a standardized framework like ISBAR to relay clinical information clearly and effectively."
+    },
+    {
+      "id": "fc-130",
+      "section": 3,
+      "front": "What information regarding 'recent changes' should be captured in a reconciliation?",
+      "back": "Any modifications to the patient's usual medication regimen occurring just prior to admission."
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "What does 'Identify' mean in the context of medication reconciliation?",
+      "back": "Recognizing differences between what the patient takes and what is currently ordered."
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "What is the purpose of documenting 'contributing conditions' in an incident report?",
+      "back": "To identify systemic factors that led to the medication error."
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "Identify one outcome of clear communication with community providers at discharge.",
+      "back": "Reduced medication duplication."
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "Why is 'Clarify' a necessary step after identifying a medication difference?",
+      "back": "To determine if the change was intentional or an error in ordering."
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "How does medication reconciliation improve patient safety?",
+      "back": "By resolving discrepancies that could lead to medication harm."
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "The 'I' in ISBAR stands for Identification, which primarily involves stating the _____.",
+      "back": "Patient."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "Which ISBAR component covers the patient's current clinical problem?",
+      "back": "Situation."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Which ISBAR component includes stating the specific medicine and history?",
+      "back": "Background."
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "Which ISBAR component focuses on what the nurse has found through assessment?",
+      "back": "Assessment."
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "Which ISBAR component defines the request for a specific clinical action?",
+      "back": "Recommendation/Request."
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "What is the nursing priority immediately after a 'near miss' is identified?",
+      "back": "Reporting the event professionally to support learning."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "In the clinical example, why was the patient's pharmacy contacted?",
+      "back": "To confirm the medication the patient was taking at home."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "Identify a 'non-prescription product' that must be included in a medication history.",
+      "back": "Over-the-counter medicines (e.g., pain relief, cold remedies)."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Medication harm often occurs when patients move between community services and _____.",
+      "back": "Hospital wards."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "What is the nurse's role in 'transitions of care' regarding community providers?",
+      "back": "Ensuring clear communication and accurate medication lists are shared."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Process: Managing a medication incident",
+      "back": "Sequence: Assess patient → Notify clinician/senior nurse → Initiate treatment → Document facts."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "What does a nurse need to state regarding the 'Medicine' in structured communication?",
+      "back": "The name of the medication causing the concern."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "According to Section 3, when is a medication incident report completed?",
+      "back": "After the patient is assessed, staff are notified, and treatment is initiated."
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "Medication reconciliation prevents harm by identifying _____ between home and hospital records.",
+      "back": "Discrepancies."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "What is a 'contributing condition' in the context of nursing documentation?",
+      "back": "A factor that may have influenced or led to a medication incident."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "Why are allergies included in every medication reconciliation?",
+      "back": "To ensure they are accurately documented and avoided during transitions."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "What should the nurse do if a medicine is absent from the admission chart but taken at home?",
+      "back": "Confirm with sources, inform the prescriber, and resolve before the next dose."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "Clear instructions at transfer reduce the risk of _____.",
+      "back": "Omitted medicines."
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "Who is responsible for clarifying discrepancies in medication histories?",
+      "back": "The nurse (working with the patient and prescriber)."
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "How should medication concerns be communicated professionally?",
+      "back": "Using a structured framework like ISBAR."
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "Identify the high-risk period when a patient moves from the emergency department to a ward.",
+      "back": "Admission/Transfer."
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "What is the nurse's primary goal during discharge medication education?",
+      "back": "To ensure the patient has clear instructions to reduce confusion and duplication."
+    },
+    {
+      "id": "fc-158",
+      "section": 3,
+      "front": "Reporting 'near misses' is a professional responsibility to prevent _____.",
+      "back": "Future medication harm."
+    },
+    {
+      "id": "fc-159",
+      "section": 3,
+      "front": "What is the final step in the incident management process outlined in Section 3?",
+      "back": "Complete documentation."
+    },
+    {
+      "id": "fc-160",
+      "section": 4,
+      "front": "Why is patient participation in treatment decisions critical for medication safety?",
+      "back": "It improves the patient's understanding and participation in safe administration."
+    },
+    {
+      "id": "fc-161",
+      "section": 4,
+      "front": "When providing medication education, what should nurses avoid doing regarding the patient's background?",
+      "back": "Nurses should avoid making assumptions."
+    },
+    {
+      "id": "fc-162",
+      "section": 4,
+      "front": "What is the primary learning outcome for assessing a patient's medication education requirements?",
+      "back": "The nurse should be able to assess medication-related learning needs."
+    },
+    {
+      "id": "fc-163",
+      "section": 4,
+      "front": "Nurses must provide medication education that is culturally _____.",
+      "back": "responsive"
+    },
+    {
+      "id": "fc-164",
+      "section": 4,
+      "front": "What are two methods used to support safe medication self-management and adherence?",
+      "back": "Shared decision-making and teach-back."
+    },
+    {
+      "id": "fc-165",
+      "section": 4,
+      "front": "Difficulty understanding labels, schedules, or risk information is a characteristic of limited _____.",
+      "back": "health literacy"
+    },
+    {
+      "id": "fc-166",
+      "section": 4,
+      "front": "How can health literacy affect a patient who speaks the same language as the clinician?",
+      "back": "They may still have difficulty understanding medication labels or risk information."
+    },
+    {
+      "id": "fc-167",
+      "section": 4,
+      "front": "What tool involves the use of pictures or diagrams to reduce confusion in medication education?",
+      "back": "Visual aids."
+    },
+    {
+      "id": "fc-168",
+      "section": 4,
+      "front": "Besides visual aids and plain language, what method can a nurse use to help a patient understand a medication schedule?",
+      "back": "Demonstration."
+    },
+    {
+      "id": "fc-169",
+      "section": 4,
+      "front": "What type of document can a nurse provide to help a patient with low health literacy follow a medication regimen?",
+      "back": "A written plan."
+    },
+    {
+      "id": "fc-170",
+      "section": 4,
+      "front": "Which four specific beliefs may influence a patient's medication use?",
+      "back": "Beliefs about illness, fasting, traditional medicines, or dependence."
+    },
+    {
+      "id": "fc-171",
+      "section": 4,
+      "front": "How should a nurse approach a patient regarding their personal beliefs about illness and medication?",
+      "back": "The nurse should ask respectfully and explore their concerns."
+    },
+    {
+      "id": "fc-172",
+      "section": 4,
+      "front": "What is the nurse's responsibility when a patient's personal beliefs might impact medication safety?",
+      "back": "Coordinate safe options with the healthcare team."
+    },
+    {
+      "id": "fc-173",
+      "section": 4,
+      "front": "In shared decision-making, what must patients understand regarding their treatment?",
+      "back": "Available options, benefits, and risks."
+    },
+    {
+      "id": "fc-174",
+      "section": 4,
+      "front": "What is the relationship between shared decision-making and patient trust?",
+      "back": "Shared decisions improve trust between the patient and the healthcare team."
+    },
+    {
+      "id": "fc-175",
+      "section": 4,
+      "front": "How does shared decision-making typically affect medication adherence?",
+      "back": "It may strengthen adherence."
+    },
+    {
+      "id": "fc-176",
+      "section": 4,
+      "front": "What does the 'teach-back' method require a patient to do?",
+      "back": "The patient must explain how they will use the medicine."
+    },
+    {
+      "id": "fc-177",
+      "section": 4,
+      "front": "What should medication education address regarding the physical environment of the medicine?",
+      "back": "Proper storage of the medication."
+    },
+    {
+      "id": "fc-178",
+      "section": 4,
+      "front": "Nurses must educate patients on what specific action to take if they experience a _____.",
+      "back": "missed dose"
+    },
+    {
+      "id": "fc-179",
+      "section": 4,
+      "front": "Name two safety-related activities that medication education should address regarding the patient's lifestyle.",
+      "back": "Driving and alcohol consumption."
+    },
+    {
+      "id": "fc-180",
+      "section": 4,
+      "front": "What clinical monitoring instruction should be included in person-centred medication education?",
+      "back": "Instructions on when the patient should seek help."
+    },
+    {
+      "id": "fc-181",
+      "section": 4,
+      "front": "Which life stages or conditions require specific mention in medication education according to Section 4?",
+      "back": "Pregnancy and driving."
+    },
+    {
+      "id": "fc-182",
+      "section": 4,
+      "front": "In the clinical example of an insulin discharge, what was arranged for the patient with limited English?",
+      "back": "A professional interpreter."
+    },
+    {
+      "id": "fc-183",
+      "section": 4,
+      "front": "What intervention did the nurse use in the clinical example to ensure the patient could physically administer insulin?",
+      "back": "Demonstration of the device."
+    },
+    {
+      "id": "fc-184",
+      "section": 4,
+      "front": "In the insulin clinical example, how did the nurse ensure the patient understood the timing of doses?",
+      "back": "The nurse provided a simple written schedule."
+    },
+    {
+      "id": "fc-185",
+      "section": 4,
+      "front": "How was the patient's actual ability to administer insulin verified in the clinical example?",
+      "back": "The patient was asked to demonstrate the injection."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "What specific complication of insulin was the patient asked to explain in the clinical example?",
+      "back": "Signs of low blood glucose."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "What action was taken in the clinical example when a technique error was identified during teach-back?",
+      "back": "The error was corrected before discharge."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "According to the Key Learning Points, what two factors should nurses use to adapt education?",
+      "back": "Language and health literacy."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "What should nurses explicitly ask about during medication education to ensure safety with other products?",
+      "back": "Complementary medicines."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "What is the purpose of inviting patients to participate in medication decisions?",
+      "back": "To promote person-centred care and shared decision-making."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "What two methods are used to confirm a patient's understanding of their medication?",
+      "back": "Teach-back and demonstration."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "Term: Health Literacy",
+      "back": "Definition: The ability of a patient to understand and act on health information such as labels and risk instructions."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "Concept: Teach-back",
+      "back": "Definition: A communication confirmation method where the patient restates instructions in their own words."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "Under what condition should a nurse coordinate with the healthcare team regarding a patient's beliefs?",
+      "back": "When those beliefs influence medication use or safety."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "What is the intended outcome of providing a simple written schedule to a patient with limited English?",
+      "back": "To clarify the medication timing and reduce confusion."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "Why is 'demonstration' a key part of confirming understanding for device-based medications?",
+      "back": "It allows the nurse to identify and correct technique errors before discharge."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "Besides language, what other diversity factor must nurses consider when providing medication education?",
+      "back": "Varying health literacy and personal beliefs."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "What is the primary benefit of assessing 'learning needs' before starting medication education?",
+      "back": "It allows for individualised education without making assumptions."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "How should a nurse use 'plain language' in medication education?",
+      "back": "To reduce confusion for patients who struggle with labels or risk information."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "What safety topic should be covered for a patient on medication that causes drowsiness?",
+      "back": "The risks associated with driving."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Why is it important to ask about a patient's use of complementary medicines?",
+      "back": "They may interact with prescribed medications or influence treatment options."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "In the context of Section 4, what defines 'Culturally Responsive Medication Education'?",
+      "back": "Education that respects beliefs about illness, fasting, and traditional medicines."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "What is the specific goal of asking a patient to 'explain signs of low blood glucose'?",
+      "back": "To ensure the patient can monitor for and respond to adverse effects."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "When should a nurse use a professional interpreter for medication education?",
+      "back": "When a patient has limited proficiency in the clinician's language."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "What must be done immediately if a patient demonstrates an incorrect injection technique?",
+      "back": "The nurse must correct the technique error."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "Shared decision-making requires that patients have the opportunity to express their _____.",
+      "back": "preferences"
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "What role do visual aids play for patients with high health literacy?",
+      "back": "They can still reduce confusion and reinforce schedules or risk information."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "How does asking a patient about 'fasting' relate to medication safety?",
+      "back": "Fasting can significantly impact the timing and safety of certain medication administrations."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "What is the end goal of teaching a patient about storage and missed doses?",
+      "back": "To support safe self-management of their medications."
+    }
+  ]
+}

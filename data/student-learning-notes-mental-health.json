@@ -1,0 +1,828 @@
+{
+  "courseCode": "NURS-M6",
+  "title": "Module 6 — Mental Health Nursing",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mental Health Nursing is heavily tested in NCLEX because every nurse—no matter the clinical area—will care for patients with anxiety, depression, substance use, trauma responses, confusion, or psychiatric crises. The NCLEX does not only test mental health facts. It tests safety, therapeutic communication, and crisis prioritisation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use these three guiding questions in every mental health item:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is the patient safe right now (self-harm, harm to others, inability to care for self)?",
+            "What is the most therapeutic response (listen, reflect, clarify, validate)?",
+            "What intervention is the least restrictive yet safest?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For NGN questions, use CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain core concepts of mental health, illness, wellness, and recovery-oriented care.",
+            "Use therapeutic communication techniques and avoid non-therapeutic responses.",
+            "Perform a mental status examination and assess suicide/violence risk safely.",
+            "Recognise major psychiatric disorders and prioritise nursing care for each.",
+            "Provide crisis intervention and de-escalation while maintaining safety.",
+            "Administer and monitor psychotropic medications and recognise life-threatening adverse effects.",
+            "Apply legal and ethical principles (rights, consent, confidentiality, restraints, involuntary care).",
+            "Adapt mental health nursing approaches for children, adolescents, and older adults."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Mental Health Nursing NCLEX Mindset",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mental health questions are often about what you say and what you do FIRST. Even if the disorder is unfamiliar, you can still get the right answer by applying three rules: safety, therapeutic communication, and least restrictive intervention."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Safety First: Suicide and Violence Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If the question includes suicidal thoughts, a plan, command hallucinations, or violent intent, treat it as an emergency. Your priority is safety—not long teaching sessions or emotional debates."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX red-flag phrases include: \"I have a plan\", \"I have the means\", \"I'm hearing voices telling me to kill\", \"I will hurt someone\"."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Least Restrictive Principle",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The nurse should always start with the least restrictive intervention that can keep the patient safe. This typically means:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Verbal de-escalation and calming communication",
+                "Environmental control (reduce stimuli)",
+                "Medication (if ordered)",
+                "Physical restraint or seclusion only when imminent danger exists and other measures failed"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: restraints are never first choice and must follow policy and legal standards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Foundations of Mental Health Nursing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mental health includes the ability to cope with stress, work productively, and contribute to community. Mental illness occurs when patterns of thinking, mood, or behavior cause distress and impair function."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Factors Influencing Mental Health",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Mental health is influenced by a combination of biological, psychological, and environmental factors."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Biological: genetics, neurotransmitters, brain injury, endocrine issues.",
+                "Psychological: trauma, coping skills, personality traits.",
+                "Environmental: family stress, poverty, discrimination, substance access, social support."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A client with a family history of bipolar disorder and substance misuse is at higher risk of mood instability. Nursing care includes safety planning and relapse prevention teaching."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Stigma and Culture",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Stigma is a barrier to treatment. Some patients fear being judged or rejected. Cultural beliefs may influence how symptoms are expressed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Therapeutic nursing approach: be nonjudgmental, use respectful language, ask open questions, and include culturally safe supports where possible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Therapeutic Communication (Highest Yield NCLEX Topic)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Therapeutic communication is the most frequently tested skill in mental health nursing. It focuses on helping the patient explore feelings and build insight—not giving advice or trying to fix emotions quickly."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Therapeutic Techniques with Examples",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are high-yield techniques with simple examples:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Open-ended questions: \"Tell me more about what you're experiencing.\"",
+                "Reflection: Patient: \"I feel worthless.\" Nurse: \"You're feeling like you have no value.\"",
+                "Restating: \"You said you feel anxious when you're alone.\"",
+                "Clarification: \"When you say you feel unsafe, what do you mean?\"",
+                "Exploring: \"What was happening right before you started feeling panicky?\"",
+                "Validation: \"That sounds very frightening.\"",
+                "Silence: staying present while patient expresses feelings."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Non-Therapeutic Responses to Avoid",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "NCLEX often gives one option that sounds nice but is not therapeutic. Avoid:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Giving advice: \"You should…\"",
+                "Judging: \"That's wrong…\"",
+                "False reassurance: \"Everything will be fine.\"",
+                "Changing topic: \"Let's not talk about that.\"",
+                "Why questions: \"Why did you do that?\" (sounds accusatory)"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX example: If a patient says \"I feel like ending my life,\" the therapeutic response is not reassurance. The correct response explores safety: \"Are you thinking about harming yourself? Do you have a plan?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Mental Health Assessment (Mental Status Examination)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "MSE Components (Simple Checklist)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Appearance and behavior (hygiene, eye contact, agitation).",
+                "Speech (rapid, pressured, slowed).",
+                "Mood (patient's feeling) and affect (observed expression).",
+                "Thought process (logical vs disorganised).",
+                "Thought content (delusions, suicidal/homicidal ideation).",
+                "Perception (hallucinations).",
+                "Cognition (orientation, attention, memory).",
+                "Insight and judgement."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Suicide Risk Assessment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Always ask directly. Asking about suicide does NOT plant the idea."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key NCLEX elements: suicidal ideation, plan, means, intent, previous attempts, protective factors."
+            },
+            {
+              "type": "paragraph",
+              "text": "Priority nursing action when plan + means present: keep patient safe, continuous observation per protocol, remove dangerous objects, notify provider/team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Major Psychiatric Disorders and Nursing Priorities",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Mood Disorders (Depression and Bipolar)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Depression includes persistent low mood and loss of pleasure. Bipolar disorder includes episodes of mania/hypomania and depression."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX emphasis: suicide risk in depression and safety risks in mania."
+            },
+            {
+              "type": "paragraph",
+              "text": "Depression cues: poor sleep, loss of appetite, hopelessness, slowed speech, withdrawal. Mania cues: decreased need for sleep, pressured speech, impulsive spending, risky behavior, grandiosity."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priorities: Depression: assess suicide risk, encourage self-care, small achievable goals. Mania: provide low-stimulus environment, set limits, offer high-calorie finger foods, monitor exhaustion and risky behavior."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A manic client wants to run around unit and refuses meals. Best nursing action: provide finger foods and set safe boundaries rather than long teaching sessions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Anxiety Disorders",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Anxiety disorders include GAD, panic disorder, PTSD, OCD and phobias. NCLEX tests crisis-level support during panic and grounding techniques."
+            },
+            {
+              "type": "paragraph",
+              "text": "Panic attack cues: chest tightness, shortness of breath, fear of dying, trembling. Priority: stay with patient, calm voice, reduce stimuli."
+            },
+            {
+              "type": "paragraph",
+              "text": "Grounding example for PTSD flashback: \"Name five things you can see. Focus on my voice.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Psychotic Disorders (Schizophrenia)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Psychosis involves loss of contact with reality. Hallucinations and delusions are common."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX rule for hallucinations: acknowledge feelings, present reality, do not argue. Example: \"I understand the voices feel real to you. I do not hear them, but I can stay with you.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Command hallucinations are an emergency: ask what the voices are saying and assess risk of harm."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.4",
+          "title": "Personality Disorders (Focus: Borderline and Antisocial)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Personality disorders involve long-term patterns. NCLEX tests boundary setting and safety."
+            },
+            {
+              "type": "paragraph",
+              "text": "Borderline: fear of abandonment, impulsivity, self-harm. Nursing: consistent boundaries, do not split staff, validate feelings."
+            },
+            {
+              "type": "paragraph",
+              "text": "Antisocial: manipulation, rule-breaking. Nursing: set limits, clear consequences, maintain safety."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.5",
+          "title": "Substance Use Disorders and Withdrawal Emergencies",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Withdrawal is often more dangerous than intoxication. Alcohol withdrawal can progress to delirium tremens (DTs), which can be fatal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alcohol withdrawal cues: tremors, sweating, agitation, tachycardia; DTs include hallucinations, severe confusion, seizures."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priorities: seizure precautions, monitor vitals, benzodiazepines per protocol, hydration, safety."
+            },
+            {
+              "type": "paragraph",
+              "text": "Opioid withdrawal is uncomfortable but usually not fatal; stimulant intoxication can cause severe agitation and cardiac issues."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.6",
+          "title": "Eating Disorders",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Anorexia involves restricted intake and body image distortion. Bulimia involves binge/purge cycles."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX focus: medical complications (electrolyte imbalance, arrhythmias, refeeding syndrome)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing approach: monitor weight and vitals, supervise after meals if purging risk, support body image with therapeutic communication."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Crisis Intervention and De-escalation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Crisis intervention is immediate, short-term support focused on safety and stabilisation."
+        },
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "De-escalation Steps",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Stay calm; maintain safe distance and exit path.",
+                "Use short sentences and simple choices.",
+                "Validate feelings: \"I can see you're very upset.\"",
+                "Set limits: \"It's okay to be angry, but it's not okay to hit.\"",
+                "Offer options: quiet room, PRN medication if ordered.",
+                "Call for help early if risk escalates."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: the best option is the one that reduces risk and preserves dignity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Psychopharmacology (NCLEX High Yield)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Psych medications are tested because they have serious side effects and require monitoring."
+        },
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "Antidepressants (SSRIs, SNRIs, TCAs, MAOIs)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "SSRIs are common first-line treatment for depression and anxiety. Key risk: serotonin syndrome—agitation, sweating, fever, diarrhea, confusion."
+            },
+            {
+              "type": "paragraph",
+              "text": "TCAs: risk of cardiac toxicity and overdose; monitor ECG if indicated."
+            },
+            {
+              "type": "paragraph",
+              "text": "MAOIs: dangerous interaction with tyramine foods → hypertensive crisis."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "Mood Stabilizers (Lithium)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Lithium is effective for bipolar disorder. It has a narrow therapeutic range."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lithium toxicity cues: nausea/vomiting, diarrhea, tremor, confusion, ataxia. Nursing: hold dose and notify provider; check level."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.3",
+          "title": "Antipsychotics and EPS/NMS",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Typical antipsychotics can cause extrapyramidal symptoms (EPS): dystonia, parkinsonism, akathisia, tardive dyskinesia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Neuroleptic Malignant Syndrome (NMS) is life-threatening: fever, severe rigidity, autonomic instability, confusion. Nursing: stop medication and treat as emergency."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.4",
+          "title": "Benzodiazepines",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Benzodiazepines reduce acute anxiety and alcohol withdrawal symptoms. Risk: sedation and respiratory depression, especially with opioids/alcohol."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX safety: if RR decreases and patient is overly sedated, hold medication and notify provider."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Legal and Ethical Responsibilities",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Voluntary vs involuntary admission: involuntary requires danger to self/others or inability to care for self.",
+            "Confidentiality limits: threats to harm others, abuse reporting.",
+            "Right to refuse medication: unless emergency or court order.",
+            "Restraints: last resort, time-limited, continuous monitoring and documentation."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "NCLEX rule: always document objective behavior (what you see/hear), not labels like 'crazy' or 'manipulative'."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Mental Health Across the Lifespan",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "9.1",
+          "title": "Children and Adolescents",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "High-yield topics include ADHD, autism spectrum, ODD/conduct disorder, and adolescent depression/suicide risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Therapeutic principle: structure and clear expectations; support family education and safety."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "9.2",
+          "title": "Older Adults",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Differentiate delirium (acute and reversible) from dementia (chronic progressive)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Delirium: sudden confusion, fluctuating alertness, often due to infection/medications—treat as medical emergency."
+            },
+            {
+              "type": "paragraph",
+              "text": "Depression in older adults may present as physical complaints. Always assess suicide risk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases train therapeutic responses and crisis prioritisation."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Suicidal Ideation With a Plan",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 24-year-old says, \"I can't do this anymore. Tonight I'm going to take all my pills.\" They have access to medications at home."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Direct suicidal statement; Plan and means present; Time frame is imminent. Practice questions: What is the priority nursing action? What questions must be asked immediately? What level of observation may be required? Model CJMM: Recognize cues: suicidal ideation + plan + means. Analyze: immediate self-harm risk. Prioritize: safety first. Solutions: stay with patient, remove access to harmful items, notify provider/team, initiate constant observation per policy. Evaluate: patient remains safe; risk reassessed frequently."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Panic Attack in the ED",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A client arrives trembling and hyperventilating, saying \"I'm dying.\" SpO2 is normal; HR 122."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Severe anxiety symptoms; Hyperventilation; Fear of dying. Practice questions: What should the nurse do first? What is the best therapeutic response? What technique can reduce symptoms? Model CJMM: Recognize cues: panic symptoms with stable oxygenation. Analyze: anxiety crisis. Prioritize: reduce panic and ensure safety. Solutions: stay with client, speak calmly, guide slow breathing and grounding, reduce stimuli. Evaluate: RR decreases, client can verbalize feelings."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Command Hallucinations",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient with schizophrenia says, \"The voices tell me to stab my roommate.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Command hallucinations; Threat to others. Practice questions: What is the priority action? How should the nurse respond therapeutically? What safety steps are needed? Model CJMM: Recognize: command hallucinations with harm intent. Analyze: imminent violence risk. Prioritize: safety of others and patient. Solutions: ask what voices say and intent, do not leave patient alone, notify team, safe environment, possible one-to-one observation. Evaluate: violence risk reduced; treatment initiated."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Lithium Toxicity",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A client on lithium reports nausea, diarrhea, and hand tremors. They appear confused."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: GI symptoms; Tremor; Confusion. Practice questions: What should the nurse do first? Why is this urgent? What teaching prevents toxicity? Model CJMM: Recognize: toxicity cues. Analyze: lithium level likely high. Prioritize: prevent severe neuro/cardiac complications. Solutions: hold lithium, notify provider, obtain lithium level as ordered, assess hydration. Evaluate: symptoms resolve and level returns to therapeutic."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Alcohol Withdrawal Progressing",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A client with alcohol use disorder becomes agitated, sweating, tremulous. HR 128, BP elevated. Later they report seeing insects on wall."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Autonomic hyperactivity; Hallucinations; Seizure risk. Practice questions: What is the priority nursing action? What complication is feared? What medication class is commonly used? Model CJMM: Recognize: withdrawal escalation with hallucinations. Analyze: risk for delirium tremens and seizures. Prioritize: safety and seizure prevention. Solutions: seizure precautions, monitor vitals, benzodiazepines per protocol, calm environment, hydration. Evaluate: vitals stabilise; agitation decreases; no seizure occurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Mini Quiz (NCLEX-Style) — Module 6",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Choose the most therapeutic and safest response."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A patient says, \"I want to kill myself.\" What is the best nurse response?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Don't say that. You have so much to live for.",
+            "B. Are you thinking about harming yourself? Do you have a plan?",
+            "C. You should talk to your family about this.",
+            "D. Everything will be okay."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Safety assessment is priority. Explore suicidal ideation, plan, and means directly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which response is therapeutic when a patient says, \"I'm hearing voices\"?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. You are imagining things.",
+            "B. I don't hear the voices, but I understand this is scary for you.",
+            "C. Stop talking about that.",
+            "D. You should ignore them."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Acknowledge feelings and present reality without arguing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: A client becomes increasingly loud and threatens staff. The nurse should first:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Argue and demand they calm down",
+            "B. Use calm de-escalation, set limits, and call for assistance early",
+            "C. Immediately apply restraints without attempt to speak",
+            "D. Leave the area and ignore the client"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Least restrictive approach first; ensure safety by de-escalation and backup."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A patient taking lithium develops diarrhea, tremor, and confusion. What is priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Give next lithium dose with food",
+            "B. Hold lithium and notify provider",
+            "C. Encourage jogging for mood",
+            "D. Offer high-sodium foods"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: These are lithium toxicity cues. Hold medication and notify provider urgently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: Neuroleptic malignant syndrome (NMS) is suspected when the patient has:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Mild nausea and headache",
+            "B. High fever, severe rigidity, confusion",
+            "C. Insomnia and increased appetite",
+            "D. Itching and rash only"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: NMS is life-threatening with fever and rigidity; treat as emergency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: Which technique is non-therapeutic?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Exploring",
+            "B. Giving advice",
+            "C. Reflection",
+            "D. Clarification"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Advice-giving reduces autonomy and blocks exploration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: A client is having a panic attack. Best nursing action:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Leave them alone to calm down",
+            "B. Stay with client, speak calmly, guide slow breathing",
+            "C. Tell them to stop being dramatic",
+            "D. Explain complex physiology"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Presence and grounding reduce panic; avoid judgment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: Which is a legal reason for involuntary admission?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Client refuses family visit",
+            "B. Client is an imminent danger to self or others",
+            "C. Client wants different nurse",
+            "D. Client requests more food"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Involuntary admission requires danger or inability to care for self."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: A nurse suspects child abuse. What is correct action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Investigate and collect proof",
+            "B. Report suspicion to appropriate authority per policy",
+            "C. Confront caregiver aggressively",
+            "D. Wait until child confesses"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Mandatory reporting requires reporting suspicion; nurse does not investigate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: Which antidepressant teaching is critical for MAOIs?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Eat high-tyramine foods to increase energy",
+            "B. Avoid tyramine foods to prevent hypertensive crisis",
+            "C. Stop medication suddenly when better",
+            "D. Double dose if one missed"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Tyramine interaction with MAOIs can cause dangerous hypertensive crisis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For wrong answers, write: (1) cue missed, (2) whether the question is about safety or therapeutic communication, (3) the most therapeutic response. Reattempt after 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace clinical supervision, local policy, or medical advice."
+        }
+      ]
+    }
+  ]
+}

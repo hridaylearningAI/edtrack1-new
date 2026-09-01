@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Diabetic neuropathy foot ulcer",
+      "scenario": "A patient with long-standing diabetes has a painless ulcer on the sole of the foot with surrounding redness.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Protect the area and notify the provider.",
+      "modelWhy": "Neuropathy masks pain, increasing infection risk.",
+      "modelNext": "Assess circulation and sensation.",
+      "trap": "Allowing the patient to walk barefoot.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Thyroid storm",
+      "scenario": "A patient with hyperthyroidism presents with high fever, tachycardia, agitation, and confusion.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate emergency care and notify the provider immediately.",
+      "modelWhy": "Thyroid storm is a life-threatening endocrine emergency.",
+      "modelNext": "Monitor cardiac rhythm and temperature.",
+      "trap": "Attributing symptoms to anxiety.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Addisonian crisis",
+      "scenario": "A patient with adrenal insufficiency presents with severe weakness, hypotension, and vomiting.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer IV fluids and steroids as ordered.",
+      "modelWhy": "Cortisol deficiency causes shock and electrolyte imbalance.",
+      "modelNext": "Monitor electrolytes and blood pressure.",
+      "trap": "Delaying treatment for lab confirmation.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "SIADH",
+      "scenario": "A patient develops headache, confusion, and low urine output. Sodium level is 118 mmol/L.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Implement fluid restriction and notify the provider.",
+      "modelWhy": "Severe hyponatremia can cause cerebral edema.",
+      "modelNext": "Monitor neurological status closely.",
+      "trap": "Encouraging fluids.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Diabetes insipidus",
+      "scenario": "A patient has excessive urine output and intense thirst following head surgery.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Measure urine output and administer desmopressin as prescribed.",
+      "modelWhy": "Loss of ADH leads to dehydration and hypernatremia.",
+      "modelNext": "Monitor sodium and hydration status.",
+      "trap": "Restricting fluids.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Acute pancreatitis",
+      "scenario": "A patient presents with severe epigastric pain radiating to the back, nausea, and vomiting.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Keep the patient NPO and manage pain.",
+      "modelWhy": "Pancreatic rest reduces enzyme activation.",
+      "modelNext": "Monitor vital signs and glucose.",
+      "trap": "Encouraging oral intake.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Upper GI obstruction",
+      "scenario": "A patient reports persistent vomiting and abdominal distension with high-pitched bowel sounds.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Insert nasogastric tube as ordered for decompression.",
+      "modelWhy": "Obstruction causes fluid and electrolyte imbalance.",
+      "modelNext": "Monitor output and electrolytes.",
+      "trap": "Administering laxatives.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Liver failure and encephalopathy",
+      "scenario": "A patient with cirrhosis becomes increasingly confused and has asterixis.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient safety and administer lactulose as prescribed.",
+      "modelWhy": "Ammonia accumulation affects brain function.",
+      "modelNext": "Monitor mental status and bowel movements.",
+      "trap": "Restricting protein abruptly.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

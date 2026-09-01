@@ -1,0 +1,852 @@
+{
+  "courseCode": "NURS-M11",
+  "title": "Module 11 — Core Clinical Skills",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Module 11 focuses on the practical nursing skills that appear in both NCLEX clinical scenario questions and Australian OBA OSCE stations. Success in this module is not only about knowing the steps—it is about performing safely, explaining what you are doing, recognising abnormal findings, and escalating appropriately."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the following approach for every clinical skill:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prepare: confirm equipment, check infection control requirements.",
+            "Identify: confirm patient identity using 3 identifiers and check allergies.",
+            "Explain: explain the procedure and obtain consent.",
+            "Perform safely: follow the exact steps, avoid contamination, maintain dignity.",
+            "Evaluate: reassess findings, document clearly, and escalate if abnormal."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tip: During OSCE practice, say your steps out loud. Assessors award marks when they SEE and HEAR safe nursing actions."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Perform accurate baseline and focused assessments (vitals, respiratory, cardiovascular, neurological).",
+            "Apply infection control and aseptic technique consistently during clinical procedures.",
+            "Perform clinical measurements (blood glucose, urinalysis, specimen collection) and interpret results safely.",
+            "Administer medications safely across common routes and complete calculations accurately.",
+            "Perform basic wound care and implement pressure injury prevention strategies.",
+            "Support safe mobility, transfers, and fall prevention using correct manual handling.",
+            "Communicate therapeutically, provide patient education, and deliver structured SBAR/ISBAR handover.",
+            "Document objectively and report incidents according to professional standards."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Essential Assessment Skills",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Comprehensive assessment is a core nursing responsibility. In NCLEX, you are tested on recognising cues and acting on abnormal findings. In OSCE, you are assessed on correct technique, patient communication, and accurate reporting."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Vital Signs Assessment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Vital signs are often the first clue that something is wrong. Always link the measurement to what it means clinically."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Temperature: infection, inflammation, heat exposure, adverse drug reactions.",
+                "Pulse: tachycardia may indicate pain, fever, dehydration, bleeding, sepsis.",
+                "Respirations: a sensitive indicator of deterioration; count a full minute when abnormal.",
+                "Blood pressure: hypotension may indicate shock/bleeding; hypertension may indicate pain/anxiety or hypertensive crisis.",
+                "Oxygen saturation: low SpO2 indicates respiratory compromise; check probe placement and waveform.",
+                "Pain score: use appropriate scale, and reassess after interventions."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example (NCLEX-style reasoning): A post-op patient has BP 88/52 and HR 126. This combination suggests possible bleeding or shock. The nurse prioritises assessment of surgical site, level of consciousness, urine output, and escalates urgently."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Respiratory Assessment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A structured respiratory assessment includes inspection and auscultation."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Inspect: breathing pattern, symmetry, use of accessory muscles, cyanosis.",
+                "Auscultate: compare both sides, listen for wheeze (narrowed airways), crackles (fluid), stridor (upper airway emergency).",
+                "Assess work of breathing: ability to speak full sentences, position, anxiety/restlessness.",
+                "Check cough and sputum characteristics."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Red flags: SpO2 < 92% (or facility threshold), RR > 24, stridor, confusion, inability to speak."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.3",
+          "title": "Cardiovascular Assessment",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Pulse quality (rate, rhythm, strength).",
+                "Capillary refill and skin temperature.",
+                "Peripheral edema and fluid status.",
+                "Chest pain assessment using PQRST (provokes, quality, radiates, severity, time)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.4",
+          "title": "Neurological Assessment",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Level of consciousness: alert, confused, drowsy, unresponsive.",
+                "Orientation: person, place, time.",
+                "Pupils: PERRLA (size, equality, reaction).",
+                "Motor strength: hand grips, leg strength; compare sides.",
+                "Glasgow Coma Scale (where relevant)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Infection Prevention and Aseptic Technique",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Hand Hygiene",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hand hygiene is the most effective infection prevention action."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Before touching a patient.",
+                "Before clean/aseptic procedures.",
+                "After body fluid exposure risk.",
+                "After touching a patient.",
+                "After touching patient surroundings."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Soap and water is required when hands are visibly soiled or for organisms such as C. difficile."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "PPE",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Gloves: blood/body fluids, mucous membranes, contaminated equipment.",
+                "Gown: splashes or contact precautions.",
+                "Mask/eye protection: splashes, droplet risk.",
+                "N95/respirator: airborne precautions (e.g., TB, measles)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "Sterile Technique Rules",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Keep sterile field above waist and in view.",
+                "The 1-inch border is contaminated.",
+                "If contamination occurs, replace contaminated item immediately."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Clinical Measurement and Diagnostic Skills",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Blood Glucose Monitoring",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "BGL monitoring is common in OSCE and NCLEX. Always connect the result to patient symptoms."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Verify patient identity and explain the procedure.",
+                "Prepare equipment and check expiry of strips.",
+                "Use correct fingerstick technique and safe sharps disposal.",
+                "Interpret result and act on abnormalities; reassess."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: Patient is sweaty and confused; BGL 2.6 mmol/L → treat as hypoglycemia emergency (fast glucose, reassess)."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Urinalysis and Specimens",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Use clean-catch midstream method to reduce contamination.",
+                "Label specimen at bedside with correct identifiers.",
+                "Interpret: leukocytes/nitrites suggest UTI; ketones suggest poor glucose control."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Fluid Balance Monitoring",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Record all oral and IV intake.",
+                "Measure urine output and alert if low per policy.",
+                "Assess for edema, lung crackles, and daily weight changes."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Medication Administration Skills",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Rights of Medication Administration",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Right patient, medication, dose, route, time.",
+                "Right documentation and education.",
+                "Right reason and assessment.",
+                "Right evaluation/response."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Always check allergies, expiry date, and medication integrity before administration."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Common Routes Tested",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Oral: assess swallowing; sit upright; ensure medication swallowed.",
+                "Subcutaneous: insulin/heparin; correct site and technique; safe disposal.",
+                "Intramuscular: correct landmarking; aseptic technique.",
+                "Inhalers/nebulisers: teach technique; reassess respiratory response."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Medication Calculations",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Use a formula and double-check decimals."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tablets: (ordered ÷ available) × quantity.",
+                "Weight-based: mg/kg × weight (kg).",
+                "IV rate: volume ÷ time."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Wound Care and Pressure Injury Prevention",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Wound Assessment",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Location, size/depth, edges, tissue type.",
+                "Exudate amount/colour/odour.",
+                "Signs of infection: redness, warmth, swelling, pus, fever.",
+                "Pain assessment."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Dressing Change (Sterile)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Remove old dressing using clean technique, assess wound, set sterile field, cleanse least to most contaminated, apply dressing, dispose waste, document."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Pressure Injury Prevention",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Regular repositioning and skin inspection.",
+                "Pressure-relieving devices.",
+                "Moisture management.",
+                "Nutrition and hydration support."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Mobility, Manual Handling, and Fall Prevention",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Mobility Assessment",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Assess strength, balance, gait and orthostatic risk.",
+                "Determine mobility aid needs."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Safe Transfers",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Explain procedure; use gait belt if available.",
+                "Lock bed/chair; clear environment.",
+                "Use correct posture; request help/hoist when needed."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.3",
+          "title": "Fall Prevention",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Bed low and locked; call bell within reach.",
+                "Non-slip footwear and clutter-free environment.",
+                "Close observation for confused patients."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Communication and Documentation",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "Therapeutic Communication",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Use open-ended questions.",
+                "Validate feelings.",
+                "Use teach-back for education."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "SBAR/ISBAR Handover",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Use structured communication for escalation: Identification, Situation, Background, Assessment, Recommendation."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.3",
+          "title": "Objective Documentation",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Chart facts and measurable data.",
+                "Use quotes for patient statements.",
+                "Document interventions and responses.",
+                "Report incidents per policy."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "OSCE-Style Case Studies (Core Skills Stations)",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Vital Signs and Early Deterioration",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Post-op patient observations: BP 90/54, HR 128, RR 26, SpO2 91%, pale and sweaty."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Hypotension + tachycardia; Tachypnea; Low SpO2; Diaphoresis suggests shock risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Station objectives: Take accurate observations and interpret findings; Initiate immediate actions; Escalate using SBAR."
+            },
+            {
+              "type": "paragraph",
+              "text": "Checklist (what assessors look for): Hand hygiene + ID; Explain/consent; Accurate vitals; Recognise abnormal findings aloud; Position patient; Apply oxygen per policy; Call help; Reassess."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected performance: Show ABC prioritisation and prompt escalation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation / documentation: Document vitals; notify senior nurse/MO; record SBAR and response."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pro tips: Say aloud: \"These observations are abnormal; I am escalating now.\""
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Blood Glucose and Hypoglycemia",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Patient reports dizziness and sweating. BGL is 2.8 mmol/L."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Autonomic symptoms; Low BGL; Risk of seizure/unconsciousness."
+            },
+            {
+              "type": "paragraph",
+              "text": "Station objectives: Confirm BGL and treat promptly; Reassess and document."
+            },
+            {
+              "type": "paragraph",
+              "text": "Checklist (what assessors look for): ID + consent; Fingerstick technique; Sharps disposal; Treat with fast glucose; Recheck BGL."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected performance: Immediate hypoglycemia treatment and monitoring."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation / documentation: Document BGL values, treatment provided, and patient response; escalate if persistent."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pro tips: Check swallowing safety; use IV dextrose/glucagon per policy if needed."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Sterile Wound Dressing Change",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Surgical wound dressing change required; old dressing has moderate serous drainage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: Risk of contamination; Need sterile field; Monitor for infection."
+            },
+            {
+              "type": "paragraph",
+              "text": "Station objectives: Perform sterile dressing change; Assess wound and drainage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Checklist (what assessors look for): Explain/consent; PPE; Remove old dressing (clean); Hand hygiene; Set sterile field; Clean wound; Apply dressing; Dispose waste."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected performance: Aseptic technique with accurate wound assessment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation / documentation: Document wound appearance, drainage amount/type, dressing applied, pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pro tips: If sterile field contaminated, state it and replace items immediately."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Subcutaneous Insulin Administration",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Administer rapid-acting insulin on sliding scale for BGL 15 mmol/L."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: High-alert medication; Risk of hypoglycemia; Need double-check per policy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Station objectives: Calculate and administer correctly; Educate patient and monitor."
+            },
+            {
+              "type": "paragraph",
+              "text": "Checklist (what assessors look for): Hand hygiene; 3 identifiers; Allergy check; Confirm insulin type; Dose calculation; Injection site; Skin prep; Sharps disposal; Monitoring."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected performance: Safe insulin technique, correct documentation and follow-up."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation / documentation: Document BGL, insulin type/dose/site/time and monitoring plan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pro tips: Double-check insulin dose with second nurse if required."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Safe Transfer and Fall Prevention",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Older adult unsteady gait needs transfer bed-to-chair."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues / red flags: High fall risk; Orthostatic hypotension risk; Need safe environment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Station objectives: Assess mobility and complete safe transfer; Prevent fall."
+            },
+            {
+              "type": "paragraph",
+              "text": "Checklist (what assessors look for): Explain; Non-slip footwear; Lock bed/chair; Clear path; Gait belt/aid; Call bell reachable."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected performance: Safe transfer using correct body mechanics."
+            },
+            {
+              "type": "paragraph",
+              "text": "Escalation / documentation: Document mobility status and fall risk plan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pro tips: If dizzy, stop transfer, sit patient, reassess vitals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Mini Quiz — Core Clinical Skills",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Choose the safest and most professional response."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 1: RR 28 and SpO2 89% is noted. Priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Document and recheck later",
+            "B. Position upright, apply oxygen per policy, escalate",
+            "C. Offer water",
+            "D. Ask to rest"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Low SpO2 with tachypnea indicates deterioration. Act using ABCs and escalate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 2: Which task must NOT be delegated?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Vitals on stable patient",
+            "B. Hygiene assistance",
+            "C. Initial assessment of new admission",
+            "D. Transport stable patient"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Initial assessment requires RN judgement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 3: Sterile glove touches bed linen. Nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Continue",
+            "B. Change glove immediately",
+            "C. Wipe with alcohol",
+            "D. Ignore"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Bed linen is non-sterile; glove contaminated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 4: Before giving insulin, nurse must first:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Verify ID and allergies",
+            "B. Give snack",
+            "C. Document first",
+            "D. Ask family permission"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: High-alert medication—ID and allergy checks are essential."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 5: Best patient ID method:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Room number",
+            "B. Name + DOB + MRN identifiers",
+            "C. Ask visitor",
+            "D. Bed card only"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Use 2–3 identifiers per policy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 6: A dizzy patient stands. First action:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Encourage walking",
+            "B. Assist to sit/lie safely",
+            "C. Document immediately",
+            "D. Leave alone"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Prevent fall/injury first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 7: Most effective infection prevention is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Double gloves",
+            "B. Hand hygiene",
+            "C. Perfume",
+            "D. Extra gown always"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Hand hygiene is the most effective intervention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 8: In SBAR, the 'R' stands for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Reassure",
+            "B. Recommendation",
+            "C. Respiration",
+            "D. Record"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: SBAR = Situation, Background, Assessment, Recommendation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 9: After treating hypoglycemia, nurse must:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Leave immediately",
+            "B. Recheck BGL and reassess",
+            "C. Stop monitoring",
+            "D. Document only"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Reassessment confirms response and safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 10: Objective documentation example is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Patient is lazy",
+            "B. Patient reports pain 8/10 and grimacing noted",
+            "C. Family is difficult",
+            "D. Patient is faking"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Objective charting uses observed facts and quotes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For incorrect answers, identify whether the question tested: (1) safety/ABC, (2) infection control/asepsis, (3) medication rights, or (4) communication/documentation. Practise the correct action aloud 3 times."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX and OBA OSCE preparation and do not replace local clinical policy, supervision, or professional standards."
+        }
+      ]
+    }
+  ]
+}

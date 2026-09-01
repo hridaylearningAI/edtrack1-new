@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Heparin infusion",
+      "scenario": "A patient receiving a continuous heparin infusion has laboratory results indicating that the activated partial thromboplastin time (aPTT) is higher than the prescribed therapeutic range.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Adjust or hold infusion per protocol.",
+      "modelWhy": "Excess anticoagulation causes bleeding.",
+      "modelNext": "Monitor aPTT levels.",
+      "trap": "Ignoring lab values.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Medication error discovery",
+      "scenario": "While reviewing documentation, a nurse realises that an incorrect medication dose was administered to a patient earlier in the shift. The patient currently shows no obvious signs of distress.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient safety and report the error.",
+      "modelWhy": "Early reporting reduces harm.",
+      "modelNext": "Monitor patient for adverse effects.",
+      "trap": "Hiding the error.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "High-risk medication – chemotherapy",
+      "scenario": "A nurse is preparing to administer chemotherapy medication as part of a patient’s cancer treatment regimen. The medication requires special handling, preparation, and verification due to its toxic nature.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Follow specialised handling and double-check protocols.",
+      "modelWhy": "Chemotherapy drugs are highly toxic.",
+      "modelNext": "Use appropriate PPE.",
+      "trap": "Rushing preparation.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Medication and pregnancy",
+      "scenario": "A pregnant patient is prescribed a medication during a routine antenatal visit. While reviewing the medication profile, the nurse recognises that the drug is known to be teratogenic.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Clarify the order with the prescriber.",
+      "modelWhy": "Some drugs harm fetal development.",
+      "modelNext": "Review pregnancy-safe alternatives.",
+      "trap": "Administering without question.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Pediatric weight-based dosing",
+      "scenario": "A medication order is written for a child, but the dose appears to be the same as an adult dose. The child’s weight is documented in the medical record but has not been used in dose calculation.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Recalculate dose based on weight.",
+      "modelWhy": "Children are at high risk of dosing errors.",
+      "modelNext": "Confirm dose with prescriber.",
+      "trap": "Using adult dosing.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Elderly polypharmacy",
+      "scenario": "An elderly patient taking multiple prescribed medications reports feeling dizzy and unsteady when standing. The patient has recently been started on a new medication in addition to existing therapies.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Review medication list for interactions.",
+      "modelWhy": "Polypharmacy increases adverse effects.",
+      "modelNext": "Monitor blood pressure.",
+      "trap": "Adding another medication.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Medication refusal",
+      "scenario": "A patient refuses to take a prescribed medication, stating concern about potential side effects after reading information online. The patient appears anxious and asks whether the medication is truly necessary.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Provide education and assess concerns.",
+      "modelWhy": "Informed consent is required.",
+      "modelNext": "Document refusal appropriately.",
+      "trap": "Forcing administration.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Time-critical medication",
+      "scenario": "A patient with Parkinson’s disease is scheduled to receive medication at a specific time to control symptoms. Due to workload delays, the medication administration time has already passed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer medication as soon as possible.",
+      "modelWhy": "Delayed dosing worsens symptoms.",
+      "modelNext": "Monitor symptom response.",
+      "trap": "Skipping the dose.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

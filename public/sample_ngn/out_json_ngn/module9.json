@@ -1,0 +1,1685 @@
+{
+  "moduleTitle": "Professional Practice and Ethics",
+  "moduleNumber": 9,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Informed Consent and Patient Confusion Before Surgery",
+      "narrative": "Mr. Adrian Lewis, a 58-year-old patient, is scheduled for abdominal surgery later in the morning. The consent form is signed and present in the chart, but when the pre-operative nurse reviews the plan with him, he appears confused and says, “I know I signed something yesterday, but I still don’t really understand what they are going to remove.” He looks anxious and asks whether the surgery will leave him with a permanent stoma.\nThe surgeon is currently in theatre with another patient, and the operating schedule is running on time pressure. A staff member remarks that since the form is signed, the case should proceed. The nurse recognises that a signed form alone does not prove informed consent if the patient still lacks understanding.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest a possible problem with informed consent? Select all that apply.",
+          "options": {
+            "A": "The patient says he does not understand the procedure fully",
+            "B": "He has unanswered questions about the surgical outcome",
+            "C": "The form is signed in the chart",
+            "D": "Staff pressure exists to keep the schedule moving",
+            "E": "The patient appears anxious and uncertain"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "The important cues are not the signature but the patient’s current lack of understanding and unresolved questions. Time pressure from staff can create unsafe shortcuts. Anxiety may occur in any pre-op patient, but when combined with confusion and unanswered questions, it signals a consent concern."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Consent is complete because the form is signed",
+            "B": "The patient may not have provided truly informed consent and further clarification is needed before proceeding",
+            "C": "The nurse should explain the surgery in full and obtain a new consent independently",
+            "D": "The patient is simply nervous and should be reassured without delay"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Informed consent requires understanding, voluntariness, and capacity. A signed document is not enough if the patient still does not understand. The nurse can witness and verify the process, but the procedural explanation and consent responsibility belong to the provider performing the procedure."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Protecting the patient’s right to informed decision-making before surgery proceeds",
+            "B": "Maintaining the operating room schedule",
+            "C": "Reducing pre-operative paperwork burden",
+            "D": "Avoiding conflict with the surgical team"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Patient autonomy and legal consent take priority over efficiency or staff convenience. Proceeding without true informed understanding risks ethical and legal harm."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Pause the pre-operative progression, notify the surgeon or responsible provider, and ensure the patient’s questions are addressed before transfer",
+            "B": "Tell the patient it is too late to ask questions because the form is signed",
+            "C": "Send the patient to theatre and let the anaesthetist answer questions later",
+            "D": "Ask the family to explain the surgery and proceed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should stop the process long enough to ensure valid consent. Family explanation is not a substitute for the responsible provider’s explanation. Proceeding without clarification would be unsafe and unethical."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document the patient’s statements and the actions taken objectively",
+            "B": "Advocate for the patient even if staff are frustrated by delay",
+            "C": "Assess whether the patient is currently oriented and able to participate in decision-making",
+            "D": "Avoid discussing the issue to prevent conflict with the surgeon",
+            "E": "Use calm, respectful communication to support the patient’s questions"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these are appropriate. Nurses have a duty to advocate, document clearly, and assess the patient’s present ability to participate. Avoiding the issue to prevent conflict would neglect professional responsibility."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing management?",
+          "options": {
+            "A": "The patient receives clarification from the appropriate provider, demonstrates better understanding, and surgery proceeds only after valid consent is confirmed",
+            "B": "The patient remains confused but is transferred because the form is signed",
+            "C": "Staff avoid documentation because the schedule was delayed",
+            "D": "Family pressure replaces provider explanation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects autonomy, ensures legal-ethical compliance, and still allows care to proceed safely once true informed consent is present."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Medication Refusal by a Competent Adult",
+      "narrative": "Mrs. Helen Brooks, a 67-year-old alert and oriented patient with heart failure, is prescribed a diuretic that she has taken at home for years. This morning she refuses the medication, saying, “I know what it does, but I do not want it right now because it makes me feel weak and I have been running to the toilet all night.” She clearly explains that she understands the purpose and the possible consequences of skipping a dose.\nA new graduate nurse says, “If she refuses a prescribed medication, we should just crush it into food so she still gets it.” The primary nurse recognises that the patient’s right to refuse must be respected unless there are special legal circumstances that do not appear to apply here.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most relevant when evaluating this refusal? Select all that apply.",
+          "options": {
+            "A": "The patient is alert and oriented",
+            "B": "She can state the reason for refusal",
+            "C": "She understands the purpose and consequences",
+            "D": "Another nurse suggests covert administration",
+            "E": "The medication is routinely prescribed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these details matter. The patient appears to have decision-making capacity regarding this medication, and covert administration would violate rights and trust. The fact that the medication is routinely prescribed does not cancel the patient’s right to refuse."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "A competent patient may refuse treatment, and the nurse must assess, educate, document, and notify as appropriate",
+            "B": "Prescribed medications must always be given regardless of refusal",
+            "C": "Crushing medication secretly is acceptable if the nurse believes it is beneficial",
+            "D": "Refusal means the patient loses all other rights to participate in care"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Respect for autonomy means competent adults may refuse medication after understanding the implications. The nurse should assess the reason, provide education, document accurately, and communicate appropriately."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Respecting autonomy while ensuring the patient understands the risks and alternatives",
+            "B": "Avoiding inconvenience for the medication round",
+            "C": "Preventing any future discussion of side effects",
+            "D": "Teaching the patient about unrelated discharge topics"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s immediate priority is ethical decision-making that respects the patient’s rights while ensuring informed refusal."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Explore the patient’s concerns, clarify the risks and benefits, and document the refusal accurately while notifying the provider if needed",
+            "B": "Hide the medication in juice so the patient still receives it",
+            "C": "Tell the patient refusal is not allowed in hospital",
+            "D": "Walk away without documenting the event"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct response is respectful exploration, education, documentation, and communication. Covert medication is unethical and may be illegal."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Assess whether timing adjustments or symptom management could help address the patient’s concerns",
+            "B": "Document the refusal factually without judgmental language",
+            "C": "Communicate the refusal to the provider if clinically indicated",
+            "D": "Respect the patient’s decision while continuing to monitor clinical status",
+            "E": "Shame the patient by warning that she is being difficult"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions support ethical nursing practice. The nurse can advocate for practical solutions while still respecting the patient’s right to decline."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing care?",
+          "options": {
+            "A": "The patient’s refusal is respected and documented, her concerns are addressed honestly, and her clinical status is monitored appropriately",
+            "B": "The medication is administered secretly to avoid charting a refusal",
+            "C": "No one documents the refusal because the patient is familiar with the medication",
+            "D": "Staff pressure the patient until she takes it out of fear"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe, professional nursing care respects autonomy, documents clearly, and maintains patient safety through ongoing assessment."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Delegation to an Unlicensed Assistive Personnel",
+      "narrative": "A registered nurse is managing four patients on a medical-surgical ward. One patient is newly post-operative and unstable, another needs discharge teaching for a new anticoagulant, a third requires a routine bed bath, and a fourth has just returned from dialysis with stable vital signs and needs help with lunch setup. A UAP is available to assist.\nThe nurse must decide which tasks can be safely delegated and which require RN assessment, judgment, or teaching. A hurried colleague suggests giving the UAP the discharge teaching because “it will save time.” The nurse recognises that delegation must follow scope and stability principles.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which facts are most important when deciding what to delegate? Select all that apply.",
+          "options": {
+            "A": "Patient stability",
+            "B": "Whether assessment or teaching is required",
+            "C": "Scope of the UAP role",
+            "D": "The complexity of the task",
+            "E": "Need for ongoing RN evaluation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are essential delegation considerations. NCLEX frequently tests delegation using the principles of right task, circumstance, person, direction, and supervision."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Any task may be delegated if the nurse is busy enough",
+            "B": "Routine, predictable tasks for stable patients may be delegated, but assessment, teaching, and unstable situations remain RN responsibilities",
+            "C": "Discharge teaching may always be given by UAPs",
+            "D": "Newly post-operative instability is appropriate for UAP monitoring alone"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Delegation is based on stability and task complexity. RN-only functions include assessment, teaching, clinical judgment, and evaluation."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which delegation decision is safest?",
+          "options": {
+            "A": "Ask the UAP to assist the stable dialysis patient with lunch setup and provide the routine bed bath for the stable patient",
+            "B": "Ask the UAP to complete anticoagulant discharge teaching",
+            "C": "Ask the UAP to assess the unstable post-operative patient’s deterioration",
+            "D": "Ask the UAP to independently interpret abnormal vital signs"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Routine tasks for stable patients are appropriate to delegate. Teaching, interpretation, and care of unstable patients are not."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Match the task to the appropriate person and provide clear direction and follow-up expectations for delegated care",
+            "B": "Delegate everything and sort it out later",
+            "C": "Avoid delegation entirely even for routine tasks",
+            "D": "Let the UAP decide which patients are stable enough"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Safe delegation requires clear assignment, expected observations to report, and RN oversight. The RN remains accountable for the delegation decision."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate when delegating? Select all that apply.",
+          "options": {
+            "A": "Give specific instructions about what findings must be reported immediately",
+            "B": "Reassess the patient personally if the UAP reports a concerning change",
+            "C": "Avoid delegating patient education that requires judgment",
+            "D": "Evaluate whether the delegated task was completed safely",
+            "E": "Assume no supervision is needed once the task is assigned"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Delegation includes supervision and evaluation. The RN does not abandon accountability after handing off a task."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective delegation?",
+          "options": {
+            "A": "Stable routine care is completed appropriately, concerning findings are reported back promptly, and RN-only tasks remain with the nurse",
+            "B": "The UAP teaches anticoagulant side effects and the RN never checks understanding",
+            "C": "The unstable patient deteriorates while delegated assessment is delayed",
+            "D": "The RN cannot explain why the task was delegated"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective delegation improves care efficiency without compromising scope, safety, or professional responsibility."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Medication Error and Professional Reporting Duty",
+      "narrative": "During an evening medication round, a nurse administers 50 mg of a cardiac medication instead of the prescribed 25 mg after misreading the MAR on a small screen. Within minutes, the nurse realises the mistake. The patient is currently stable and has no immediate symptoms. Another staff member quietly says, “If the patient looks fine, maybe just watch and don’t report it.”\nThe nurse understands that ethical and professional practice requires immediate patient-focused action, honest documentation, and incident reporting. The key priority is harm prevention, not self-protection.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings confirm that a medication error has occurred? Select all that apply.",
+          "options": {
+            "A": "The wrong dose was administered",
+            "B": "The order clearly specified a lower dose",
+            "C": "The patient is not yet symptomatic",
+            "D": "Another staff member suggests not reporting",
+            "E": "The nurse recognised the error after administration"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "A medication error occurred the moment the wrong dose was administered. The absence of symptoms does not remove the error or the need to act. Staff pressure to hide the error is a serious professionalism concern."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "If no harm is visible, reporting is unnecessary",
+            "B": "The error requires immediate assessment, provider notification, documentation, and reporting according to policy",
+            "C": "The nurse should rewrite the MAR to match what was given",
+            "D": "The safest action is to wait and see"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Professional integrity and patient safety require prompt action. Delaying response can worsen harm if adverse effects develop."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Protecting the patient from adverse effects related to the wrong dose",
+            "B": "Protecting the nurse from embarrassment",
+            "C": "Avoiding extra paperwork",
+            "D": "Preventing unit gossip"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s safety is always the priority after an error. The nurse’s emotional discomfort is secondary."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess the patient immediately, monitor for adverse effects, and notify the provider while preparing appropriate follow-up",
+            "B": "Hide the medication packaging and say nothing",
+            "C": "Ask the next shift to handle it",
+            "D": "Wait for symptoms before intervening"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The correct response begins with patient assessment and communication. Hiding the error is unethical and unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document factually what occurred and the patient’s response",
+            "B": "Complete an incident report according to policy",
+            "C": "Participate in review of factors that contributed to the error",
+            "D": "Communicate honestly within the appropriate reporting process",
+            "E": "Change the chart to reflect the dose that should have been given"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate professional responses. Altering the record would be falsification and a serious legal-ethical violation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective professional management?",
+          "options": {
+            "A": "The patient is monitored and protected, the event is reported honestly, and contributing system issues are addressed for prevention",
+            "B": "The nurse avoids reporting because the patient had no symptoms",
+            "C": "The chart is altered to avoid investigation",
+            "D": "The error becomes unit gossip instead of formal reporting"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Ethical nursing practice supports patient safety, truth-telling, and system improvement after errors."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "Breach of Confidentiality in a Public Area",
+      "narrative": "Two nurses leave a patient room and continue discussing the patient’s new cancer diagnosis in a crowded elevator. They mention the patient’s full name, prognosis, and family reaction. A visitor standing nearby later tells the charge nurse that she recognised the patient as her neighbour and was shocked to hear such private information discussed openly.\nThe charge nurse must address the breach immediately. The scenario highlights that confidentiality extends beyond chart access and includes how, where, and with whom information is shared.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which elements make this a confidentiality breach? Select all that apply.",
+          "options": {
+            "A": "Discussion occurred in a public elevator",
+            "B": "The patient’s name and diagnosis were spoken aloud",
+            "C": "A third party recognized the patient",
+            "D": "Sensitive health information was shared outside a private clinical context",
+            "E": "The conversation included family details"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these contribute to a clear confidentiality breach. Protected health information should not be discussed in public areas where unauthorized people may hear."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "This is acceptable because both speakers were nurses",
+            "B": "A serious privacy and confidentiality breach has occurred and requires corrective action",
+            "C": "The problem exists only if it appears on social media",
+            "D": "Public discussion is fine if the patient is not in the elevator"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The location and the identifiability of the patient make this a clear breach. Privacy rules apply regardless of whether the patient is physically present."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Protecting patient privacy and addressing professional misconduct promptly",
+            "B": "Avoiding awkwardness among staff",
+            "C": "Keeping the event informal to save time",
+            "D": "Moving the conversation to another elevator"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate priority is to address the breach, protect the patient, and prevent recurrence."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the charge nurse do first?",
+          "options": {
+            "A": "Stop the inappropriate discussion, address the breach promptly, and follow facility reporting or managerial procedures as required",
+            "B": "Ignore it because the information was already said",
+            "C": "Ask the visitor not to mention it again and do nothing else",
+            "D": "Continue the conversation in a quieter public hallway"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The breach must be addressed immediately and professionally. Allowing it to continue would worsen the violation."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reinforce that patient information should be discussed only in appropriate private clinical settings",
+            "B": "Document or report the breach according to policy if required",
+            "C": "Use the incident as a professional teaching moment on confidentiality",
+            "D": "Limit access to information to those directly involved in care",
+            "E": "Assume confidentiality only applies to electronic records"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Confidentiality applies in verbal, written, and electronic communication."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The inappropriate discussion stops immediately, the breach is addressed through proper channels, and staff privacy awareness improves",
+            "B": "Staff continue discussing patients in public because it is convenient",
+            "C": "The event is dismissed because no chart was accessed",
+            "D": "Patient information is shared casually in hallways afterward"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects privacy and strengthens professional behaviour going forward."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Social Media Boundary Violation",
+      "narrative": "A student nurse proudly posts a photo from the ward on a personal social media account after a difficult shift, captioning it, “Another tragic ICU night.” In the background of the photo, part of a monitor screen and a patient room number are visible. A colleague notices the post and realises that the details could identify the patient when combined with other local information.\nThe supervising nurse understands that even if no name was written in the caption, this may still represent a serious privacy and professionalism breach. Immediate action is required.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which features make this post unsafe or unprofessional? Select all that apply.",
+          "options": {
+            "A": "It was taken in a clinical environment",
+            "B": "Potentially identifying details are visible in the background",
+            "C": "The caption references a tragic clinical situation",
+            "D": "Social media posts can breach privacy even without a patient name",
+            "E": "The student used a personal account"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are relevant. Personal accounts do not remove professional obligations, and de-identification may fail if contextual details remain visible."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The post is harmless because no full name is shown",
+            "B": "The post may violate confidentiality and professional standards and must be addressed promptly",
+            "C": "Students are exempt from social media rules",
+            "D": "Only direct patient selfies are prohibited"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Clinical content on personal social media can breach privacy and damage professionalism even when names are omitted."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Preventing further privacy breach and addressing the professional violation immediately",
+            "B": "Protecting the student from embarrassment only",
+            "C": "Avoiding all discussion of the event",
+            "D": "Waiting to see whether the post gets more likes"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is limiting harm and addressing the breach through appropriate supervisory channels."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the supervising nurse do first?",
+          "options": {
+            "A": "Instruct the student to remove the post immediately and escalate the matter according to policy",
+            "B": "Ignore the post because it is outside work hours",
+            "C": "Share the post privately with friends as a warning example",
+            "D": "Comment publicly under the post to criticize the student"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The content should be removed immediately, and the issue should be handled professionally through policy-based processes."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Review facility policy on privacy and social media use",
+            "B": "Reinforce that even indirect identifiers can breach confidentiality",
+            "C": "Document/report the incident if required by policy",
+            "D": "Use the event as education on professional boundaries and digital conduct",
+            "E": "Assume the issue ends once the post is deleted"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Deleting the post helps, but the incident may still require reporting and education. Professional standards extend to online conduct."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The post is removed promptly, the incident is handled according to policy, and the student demonstrates improved understanding of digital professionalism",
+            "B": "Similar posts continue because no one addressed the issue",
+            "C": "The post remains online because no full name is visible",
+            "D": "Staff mock the student instead of educating and reporting appropriately"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management reduces ongoing harm and supports professional learning and accountability."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Professional Boundary Crossing with a Patient",
+      "narrative": "A nurse has been caring for a long-term rehabilitation patient for several weeks. The patient begins giving the nurse expensive gifts and asks for the nurse’s personal phone number so they can “stay friends” after discharge. The nurse feels sympathy for the patient, who has little family support, and begins spending extra nonclinical time in the room talking about personal life problems.\nAnother nurse notices the growing closeness and becomes concerned that the relationship is moving beyond therapeutic boundaries. The situation requires the primary nurse to reflect on professionalism and therapeutic use of self.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest a potential boundary problem? Select all that apply.",
+          "options": {
+            "A": "Expensive gifts from the patient",
+            "B": "Request for personal phone number",
+            "C": "Increasing personal disclosure by the nurse",
+            "D": "Extra time spent in a nonclinical personal role",
+            "E": "Patient’s limited family support"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are relevant. Patient vulnerability does not justify crossing boundaries. Gifts, personal contact, and self-disclosure may shift the relationship away from therapeutic purpose."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "This is harmless kindness and should continue",
+            "B": "The relationship may be moving beyond therapeutic boundaries and requires corrective action",
+            "C": "Personal friendships with patients are encouraged if intentions are good",
+            "D": "Gifts prove the care is effective and should be accepted"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Professional boundaries exist to protect patients and preserve safe care. Good intentions do not remove risk."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Maintaining therapeutic boundaries to prevent exploitation or impaired judgment",
+            "B": "Avoiding discomfort in saying no",
+            "C": "Preserving gift-giving etiquette",
+            "D": "Delaying discharge planning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is protecting the patient and ensuring the nurse’s clinical judgment remains professional and unbiased."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Re-establish professional boundaries, decline inappropriate gifts or personal contact, and seek supervisory guidance if needed",
+            "B": "Accept the gifts but avoid mentioning them",
+            "C": "Give the patient a private number to ease loneliness",
+            "D": "Continue self-disclosure to build trust"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should re-establish boundaries immediately. Accepting gifts or personal contact risks exploitation and professional misconduct."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use therapeutic communication while keeping the relationship professionally focused",
+            "B": "Reflect on countertransference or personal emotional involvement",
+            "C": "Involve the team if boundary concerns may affect care",
+            "D": "Document relevant boundary issues if required by policy or the care situation",
+            "E": "Assume that because the patient requested it, the contact is ethically acceptable"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions support safe, ethical practice. Patient request alone does not make a boundary crossing acceptable."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The nurse maintains a professional therapeutic relationship, declines inappropriate contact, and care remains patient-centred and ethically sound",
+            "B": "The nurse accepts gifts and continues private communication after discharge",
+            "C": "Staff ignore the issue because the patient is lonely",
+            "D": "Clinical judgment becomes influenced by favoritism"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management restores and preserves therapeutic boundaries while still offering compassionate care."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Suspected Elder Abuse and Mandatory Reporting",
+      "narrative": "Mrs. Teresa Clarke, an 86-year-old woman, is admitted with dehydration, bruises of different ages on her arms, and a healing burn on her forearm. Her nephew answers most questions for her and becomes defensive when asked about home support. When the nurse speaks with Mrs. Clarke alone, she becomes tearful and says quietly, “Please don’t make trouble. He gets angry.”\nThe nurse suspects possible elder abuse and neglect. The situation requires sensitive assessment, immediate safety thinking, and awareness of mandatory reporting responsibilities according to law and policy.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings raise concern for possible elder abuse or neglect? Select all that apply.",
+          "options": {
+            "A": "Bruises of different ages",
+            "B": "Unexplained healing burn",
+            "C": "Dehydration",
+            "D": "Controlling family member behaviour",
+            "E": "Patient fearfulness and reluctance to speak"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are classic abuse or neglect warning signs. The patient’s fear and the controlling behaviour of the relative are especially concerning."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The injuries are normal for ageing and should not be questioned",
+            "B": "The patient may be experiencing abuse or neglect and requires protection and reporting according to law/policy",
+            "C": "Family privacy should always override nursing concern",
+            "D": "Reporting is unnecessary unless the patient signs a written complaint"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must not dismiss suspicious patterns. Mandatory reporting laws and safeguarding responsibilities may apply even if the patient is frightened or reluctant."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Protecting the patient from further harm while initiating appropriate assessment and reporting steps",
+            "B": "Avoiding conflict with the family member",
+            "C": "Completing discharge paperwork first",
+            "D": "Preserving family reputation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Patient safety and protection are the priority. The nurse must act on suspicious findings rather than avoid discomfort."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Ensure the patient is assessed privately and safely, document objective findings, and follow mandatory reporting or safeguarding procedures promptly",
+            "B": "Confront the nephew aggressively in the hallway",
+            "C": "Promise absolute secrecy and do nothing",
+            "D": "Ignore the injuries because the patient asked not to make trouble"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should focus on safe assessment, objective documentation, and formal reporting pathways. Confrontation without a plan may increase danger."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document findings objectively, including statements made by the patient",
+            "B": "Involve social work, safeguarding, or the appropriate protective services as required",
+            "C": "Avoid leading questions during assessment",
+            "D": "Maintain awareness that fear may limit disclosure",
+            "E": "Decide alone that no report is needed because the patient seems embarrassed"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are appropriate actions. Abuse assessments require careful documentation, interdisciplinary support, and avoidance of assumptions or leading language."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing management?",
+          "options": {
+            "A": "The patient is protected, objective findings are documented, and the concern is reported through the proper safeguarding process",
+            "B": "The family is allowed to take the patient home immediately without review",
+            "C": "Documentation is vague and incomplete",
+            "D": "Staff ignore the pattern of injuries to avoid conflict"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects the vulnerable patient and follows legal-professional obligations."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Unsafe Provider Order and Nursing Advocacy",
+      "narrative": "A patient with a known severe allergy to a particular antibiotic is admitted with sepsis. During the rush of urgent treatment, a covering provider accidentally enters an order for that same antibiotic. The allergy is clearly documented in the chart and on the wristband, but the provider is difficult to reach and a colleague says, “Just give it now because the infection is serious.”\nThe nurse recognises a direct conflict between urgency and safety. Advocacy requires questioning unsafe orders and preventing harm, even when time pressure is high.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate that the order is unsafe? Select all that apply.",
+          "options": {
+            "A": "A documented severe allergy exists",
+            "B": "The ordered medication matches the allergy",
+            "C": "The patient is septic and treatment is urgent",
+            "D": "Another staff member suggests giving it anyway",
+            "E": "The allergy is visible on the chart and wristband"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these details matter. Urgency increases complexity, but it does not justify ignoring a known severe allergy. Staff pressure can contribute to unsafe decisions."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The antibiotic should be given because speed matters more than allergy history",
+            "B": "The order is unsafe and must be questioned immediately; the nurse must advocate for an alternative",
+            "C": "Wristband allergies are only advisory, not clinically important",
+            "D": "The nurse has no role in questioning orders"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Professional nursing requires active safety advocacy. A nurse must not knowingly administer a drug that may cause severe harm when a documented allergy exists."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Preventing serious medication-related harm from an unsafe order",
+            "B": "Avoiding disagreement with the provider",
+            "C": "Keeping the workflow simple",
+            "D": "Finishing the medication round on time"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s immediate safety is the priority, even under time pressure."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Hold the medication, clarify the allergy/order conflict urgently, and escalate through the appropriate chain if the provider is unavailable",
+            "B": "Administer the antibiotic and document the allergy later",
+            "C": "Delete the order independently without communication",
+            "D": "Ignore the wristband because the infection is severe"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should not administer the unsafe medication. Urgent escalation and clarification are necessary to protect the patient."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use assertive professional communication to explain the safety concern",
+            "B": "Review whether an alternative appropriate antibiotic has been ordered or can be requested promptly",
+            "C": "Document the clarification process and patient allergy clearly",
+            "D": "Escalate to a supervisor or rapid chain-of-command process if necessary",
+            "E": "Assume provider authority overrides all nursing safety concerns"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all correct advocacy actions. Professional accountability includes speaking up when an order is unsafe."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective advocacy?",
+          "options": {
+            "A": "The unsafe medication is not given, the allergy conflict is addressed promptly, and a safer treatment plan is implemented",
+            "B": "The nurse gives the medication despite the known allergy",
+            "C": "Staff delay action because they do not want conflict",
+            "D": "The allergy remains undocumented in follow-up communication"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective advocacy prevents harm, even in urgent situations."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "End-of-Life Conflict and Advance Directive",
+      "narrative": "Mr. Peter Hall, a 74-year-old patient with advanced metastatic cancer, is unresponsive in the palliative care unit. His chart contains a valid advance directive and a documented do-not-resuscitate order. Earlier in the admission, he clearly stated that he wanted comfort-focused care only and did not want CPR or intubation. When his condition worsens, his son becomes distressed and demands, “Do everything possible. He would want to live.”\nThe bedside nurse must respond compassionately while upholding the patient’s documented wishes, legal directives, and the ethical principles of autonomy and fidelity.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most important in this end-of-life conflict? Select all that apply.",
+          "options": {
+            "A": "A valid advance directive is present",
+            "B": "A DNR order is documented",
+            "C": "The patient previously expressed comfort-focused wishes",
+            "D": "The family member is requesting aggressive treatment",
+            "E": "The patient is now unable to speak for himself"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors are central. The patient’s own documented wishes remain the primary guide, even when family members are distressed or disagree."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Family demand automatically overrides the patient’s documented wishes",
+            "B": "The nurse must honor the patient’s advance directive and DNR while responding compassionately to the family",
+            "C": "The nurse should ignore the family and walk away",
+            "D": "The chart should be changed immediately based on the son’s emotions"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient’s autonomy and previously expressed choices remain ethically and legally important. Family distress should be addressed with empathy, but it does not automatically cancel the directive."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Upholding the patient’s end-of-life wishes while maintaining compassionate communication with the family",
+            "B": "Avoiding any emotionally difficult conversation",
+            "C": "Delaying all comfort care until the son agrees",
+            "D": "Prioritising staff convenience"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s urgent role is to ensure the patient’s directives are followed while supporting the family through distress."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Continue comfort-focused care, confirm the documented directives, and involve the appropriate provider/team to support the family conversation",
+            "B": "Begin CPR immediately because the son is upset",
+            "C": "Tear up the DNR because the family disagrees",
+            "D": "Leave the family alone without explanation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should maintain the patient’s plan of care, confirm documentation, and use the interdisciplinary team to support communication and grief."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Use calm, compassionate language to explain that the team is honoring the patient’s expressed wishes",
+            "B": "Involve palliative care, chaplaincy, or ethics support if needed",
+            "C": "Continue comfort measures and symptom relief",
+            "D": "Document family concerns and the team response objectively",
+            "E": "Suggest ignoring the directive to avoid conflict"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions respect autonomy, support the family, and maintain professional clarity. Ignoring the directive would be unethical and potentially unlawful."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient’s comfort remains the focus, the documented directive is upheld, and the family receives compassionate support and explanation",
+            "B": "CPR is started despite the DNR to satisfy the family",
+            "C": "Comfort care is delayed because the family is upset",
+            "D": "No one explains the plan to the family"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective end-of-life nursing care protects patient wishes and supports family understanding and dignity."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Documentation Integrity and Late Charting",
+      "narrative": "During a hectic shift, a nurse forgets to document that a PRN pain medication was administered at 1400. At 1630, while reviewing the chart, the nurse considers entering the note as if it were documented in real time because “that’s easier and it still happened.” The patient is currently comfortable, and a second nurse is preparing to assess for another PRN dose.\nThe nurse recognises that documentation must be accurate, timely, and honest. The record must reflect what happened without falsifying the time or sequence of care.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which facts make this a documentation issue? Select all that apply.",
+          "options": {
+            "A": "The medication was given but not charted at the time",
+            "B": "Another dose may be considered soon",
+            "C": "The nurse is considering charting as if it were done earlier",
+            "D": "Accurate medication timing matters for safety",
+            "E": "The patient is currently comfortable"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these facts are relevant. Documentation timing affects medication safety and legal accuracy. Comfort does not remove the need for honest charting."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Backdating the entry as if charted in real time is acceptable if the medication was actually given",
+            "B": "The medication still must be documented, but the entry must accurately reflect that it is a late entry",
+            "C": "Late charting means the event should not be documented at all",
+            "D": "Timing does not matter for PRN medications"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Late entries should be documented honestly according to policy. Falsifying time compromises the integrity of the record and may endanger the patient if repeat doses are considered."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Ensuring safe and truthful medication documentation so further dosing decisions are accurate",
+            "B": "Protecting the nurse from embarrassment",
+            "C": "Finishing charting quickly regardless of accuracy",
+            "D": "Avoiding unit discussion"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Accurate medication records protect patient safety and legal accountability."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Enter the medication administration as a late entry according to policy and inform relevant staff if dosing decisions may be affected",
+            "B": "Omit the record entirely because it is late",
+            "C": "Change the time to make the chart look neat",
+            "D": "Ask another nurse to chart it under their login"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must chart honestly and communicate if the omitted documentation could affect patient care or additional dosing."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess the patient’s current pain status",
+            "B": "Clarify for the next nurse or provider exactly when the medication was actually given",
+            "C": "Follow facility policy for late entries and corrections",
+            "D": "Reflect on workflow changes needed to reduce repeat omissions",
+            "E": "Assume the omission has no effect because the patient is comfortable"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "All these actions support professional documentation integrity and patient safety."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The record accurately reflects the late entry, the timing is clear to the team, and future medication decisions remain safe",
+            "B": "The documentation is altered to appear on time",
+            "C": "The second PRN dose is given without knowing the first dose timing",
+            "D": "No correction is made because the patient is comfortable"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management preserves both record integrity and clinical safety."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Confidentiality and Family Information Requests",
+      "narrative": "Ms. Asha Patel, a competent adult patient, has been admitted for treatment of a newly diagnosed STI. She tells the nurse privately, “Please do not discuss my diagnosis with my parents. I’m not ready.” Later that day, her mother arrives, states that she helps with all medical decisions, and demands to know exactly why Asha is in hospital. She says, “I am her mother, so I have the right to know.”\nThe nurse must balance family pressure with patient confidentiality and the patient’s expressed wishes. The situation requires calm, respectful, legally appropriate communication.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most relevant in deciding what information can be shared? Select all that apply.",
+          "options": {
+            "A": "The patient is a competent adult",
+            "B": "The patient explicitly requested privacy",
+            "C": "The diagnosis is sensitive health information",
+            "D": "The mother is demanding details",
+            "E": "Family involvement does not automatically create access rights"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are important. Competent adult patients control who receives their information unless they provide permission or other legal exceptions apply."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Parents always have full access to adult children’s medical information",
+            "B": "The patient’s confidentiality must be respected unless the patient authorizes disclosure or another legal basis exists",
+            "C": "Sensitive diagnoses should be hidden from the chart entirely",
+            "D": "The nurse may share limited details because the mother seems concerned"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Concern does not equal authorization. The nurse must protect the patient’s confidentiality and right to privacy."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Protecting the patient’s confidentiality while communicating professionally with the family",
+            "B": "Avoiding an awkward conversation with the mother",
+            "C": "Giving the mother enough information to keep peace",
+            "D": "Finishing other tasks first and leaving the mother waiting indefinitely"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s priority is to uphold confidentiality while remaining respectful and calm."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Explain respectfully that patient information cannot be shared without the patient’s permission and offer to support a conversation if the patient agrees",
+            "B": "Disclose the diagnosis because family support is important",
+            "C": "Tell the mother the diagnosis off the record",
+            "D": "Ignore the mother completely"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should set a professional boundary, protect confidentiality, and offer a supportive pathway only if the patient consents."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Confirm the patient’s preferences about who may receive information",
+            "B": "Avoid discussing the case in public or with unauthorized individuals",
+            "C": "Document relevant confidentiality preferences if appropriate",
+            "D": "Encourage the patient to decide if and when she wants family involved",
+            "E": "Assume family relationship overrides confidentiality"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions reinforce privacy and patient autonomy. Family relationship alone does not override a competent adult’s confidentiality."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The patient’s privacy is preserved, family communication remains respectful, and any disclosure occurs only with patient consent",
+            "B": "The mother is given information because she insists loudly enough",
+            "C": "The staff discuss the STI at the nurses’ station within family hearing range",
+            "D": "The patient’s wishes are ignored to reduce conflict"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects confidentiality while preserving professionalism and trust."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Scope of Practice and LPN Assignment Decision",
+      "narrative": "An RN is supervising care on a step-down unit with an LPN and a UAP available. One patient needs a comprehensive admission assessment, another requires reinforcement of teaching after the RN’s initial education, a third is stable and needs routine oral medications, and a fourth has just returned from the operating room with worsening pain and dropping blood pressure.\nThe charge nurse asks the RN to organise assignments quickly. The RN must use role clarity to determine what can be safely assigned to the LPN and what remains RN-only responsibility.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which factors are central when assigning to an LPN? Select all that apply.",
+          "options": {
+            "A": "Patient stability",
+            "B": "Whether the task requires comprehensive assessment",
+            "C": "Whether initial teaching or evaluation is required",
+            "D": "Routine medication administration for a stable patient",
+            "E": "Need for complex judgment in a deteriorating patient"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these factors matter. LPN roles vary by jurisdiction, but NCLEX-style delegation questions emphasize that comprehensive assessment, initial teaching, and unstable patients generally remain RN responsibilities."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The LPN may independently manage the post-operative unstable patient because the unit is busy",
+            "B": "Stable routine care and some reinforcement tasks may be assigned appropriately, but RN judgment tasks must remain with the RN",
+            "C": "Initial admission assessments are always ideal for UAPs",
+            "D": "The RN has no accountability once the assignment is given"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The RN must match task complexity and patient stability to role scope while remaining accountable for the delegation decision."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which task is safest to assign to the LPN?",
+          "options": {
+            "A": "Routine oral medications for the stable patient and reinforcement after prior RN teaching if appropriate to local scope",
+            "B": "Initial comprehensive admission assessment",
+            "C": "Independent management of the unstable post-operative patient",
+            "D": "Interpretation of new hypotension and pain deterioration without RN involvement"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Routine care for stable patients is generally more appropriate for LPN assignment. Initial assessments and unstable patient evaluation remain RN responsibilities."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the RN do first?",
+          "options": {
+            "A": "Assign based on scope and stability, keeping unstable assessment/evaluation duties with the RN and giving clear direction for delegated tasks",
+            "B": "Assign the most complex case to the LPN to save time",
+            "C": "Let the LPN choose whichever patient seems easiest",
+            "D": "Avoid assigning anything because delegation is risky"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The RN should actively organize care according to patient need, scope, and accountability."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Clarify what findings the LPN should report immediately",
+            "B": "Personally assess the unstable post-operative patient without delay",
+            "C": "Ensure reinforcement teaching is based on the RN’s initial teaching plan",
+            "D": "Reassess outcomes of delegated care as needed",
+            "E": "Assume the LPN can substitute for full RN clinical judgment in all cases"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These actions reflect safe assignment and supervision. The RN retains responsibility for assessment, interpretation, and evaluation."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective assignment and supervision?",
+          "options": {
+            "A": "Stable tasks are completed appropriately within role scope, the unstable patient is assessed promptly by the RN, and key findings are communicated clearly",
+            "B": "The LPN independently manages the unstable patient’s hypotension with no RN involvement",
+            "C": "Admission assessment is omitted due to poor assignment planning",
+            "D": "No one knows who is responsible for follow-up"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective team management depends on safe role allocation, supervision, and clear communication."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Impaired Practice and Substance Use by a Nurse",
+      "narrative": "On a night shift, a nurse notices that a colleague smells strongly of alcohol, has bloodshot eyes, and nearly drops a narcotic vial while preparing medications. The colleague insists they are “just exhausted” and asks the nurse not to say anything because they are short-staffed. The impaired nurse then attempts to care for a sedated patient receiving high-risk opioids.\nThe observing nurse feels conflicted, knowing that reporting could affect the colleague’s career. However, patient safety and professional duty are at stake. The nurse must act within legal-ethical expectations and workplace policy.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible impaired practice? Select all that apply.",
+          "options": {
+            "A": "Smell of alcohol",
+            "B": "Bloodshot eyes and poor coordination",
+            "C": "Difficulty handling narcotic medication",
+            "D": "Working with high-risk sedated patients",
+            "E": "Request to keep the concern secret"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings raise serious concern for impaired practice. The request for secrecy is especially concerning because it places patient safety below personal protection."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "Staffing shortage means the concern should be ignored",
+            "B": "The colleague may be impaired and must be removed from patient care through proper reporting channels",
+            "C": "Fatigue alone always explains alcohol odor",
+            "D": "The narcotic near-miss is unrelated to safety"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse’s duty is to protect patients. Potential impairment requires immediate action through appropriate supervisory processes."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Immediate patient safety risk from possible impaired nursing practice",
+            "B": "Protecting the colleague from embarrassment",
+            "C": "Avoiding extra documentation",
+            "D": "Preventing staffing inconvenience"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Patient safety is the priority. Professional accountability includes reporting unsafe practice."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Notify the appropriate supervisor immediately and ensure the colleague is removed from direct patient care pending assessment",
+            "B": "Ignore the issue until the end of the shift",
+            "C": "Personally cover for the colleague and say nothing",
+            "D": "Publicly accuse the colleague in front of patients"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should act promptly and through the correct chain of command. Public confrontation is not the safest or most professional first step."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Document objective observations if required by policy",
+            "B": "Focus on observed behaviours rather than assumptions or gossip",
+            "C": "Protect patients receiving high-risk medications from delayed monitoring",
+            "D": "Cooperate with formal review or occupational health processes",
+            "E": "Assume friendship or sympathy overrides duty to report"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate professional responses. Objectivity and patient safety are essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The impaired practice concern is escalated promptly, patient care is reassigned safely, and the issue is handled through policy-based processes",
+            "B": "The colleague continues high-risk care because the unit is short-staffed",
+            "C": "Staff agree informally to keep the problem quiet",
+            "D": "Documentation is avoided because the issue feels uncomfortable"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective management protects patients immediately and addresses the concern through formal professional channels."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Cultural Beliefs, Advocacy, and Ethical Communication",
+      "narrative": "Mrs. Noor Rahman is a 45-year-old patient admitted with uncontrolled diabetes. The care team recommends insulin initiation, but she states through an interpreter that she wants to speak with her husband and elder family members first because health decisions in her family are made collectively. A frustrated staff member says, “She is refusing treatment. Just make her sign refusal forms now.”\nThe nurse recognises that culturally responsive care requires respect, clarification, and patient-centred advocacy rather than assuming noncompliance. At the same time, the nurse must ensure that the patient understands her condition and the consequences of delaying treatment.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most important in this cultural-ethical situation? Select all that apply.",
+          "options": {
+            "A": "The patient wants family involvement in decision-making",
+            "B": "An interpreter is needed for accurate communication",
+            "C": "Staff are labeling the patient as noncompliant too quickly",
+            "D": "Insulin treatment is clinically important",
+            "E": "The patient may need more time and explanation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these cues matter. Cultural decision-making practices should be respected while ensuring the patient still receives accurate information and has the opportunity to make an informed decision."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s best interpretation?",
+          "options": {
+            "A": "The patient is automatically refusing treatment and should be pressured immediately",
+            "B": "The nurse should support culturally sensitive communication, clarify understanding, and avoid premature labeling",
+            "C": "Cultural beliefs are irrelevant in hospital practice",
+            "D": "Family involvement means the patient loses all autonomy"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The patient is not necessarily refusing treatment; she may be requesting culturally meaningful consultation. The nurse should not confuse culturally shaped decision-making with simple noncompliance."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which issue is most urgent?",
+          "options": {
+            "A": "Ensuring informed, respectful communication while protecting the patient’s right to participate in care decisions",
+            "B": "Ending the conversation quickly for staff convenience",
+            "C": "Avoiding interpreter use to save time",
+            "D": "Letting the family decide without including the patient"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is ethically sound communication that respects culture and patient rights while still addressing health risks."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Use the interpreter appropriately, clarify the patient’s understanding, and explore how family involvement can occur without compromising informed care",
+            "B": "Pressure the patient to sign refusal forms immediately",
+            "C": "Speak only to the husband because the family is involved",
+            "D": "Stop all discussion of treatment until discharge"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should facilitate respectful, accurate communication. Using a qualified interpreter and exploring the patient’s preferences are key advocacy steps."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Distinguish between delayed decision-making and true informed refusal",
+            "B": "Respect cultural beliefs while still explaining clinical risks clearly",
+            "C": "Advocate against dismissive labeling by staff",
+            "D": "Document the patient’s preferences and discussions accurately",
+            "E": "Assume that culturally based hesitation means the patient does not understand anything"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "These are all appropriate. Cultural sensitivity does not mean abandoning education; rather, it means providing it respectfully and effectively."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective nursing advocacy?",
+          "options": {
+            "A": "The patient receives accurate information through appropriate communication, cultural preferences are respected, and treatment decisions are made with informed participation",
+            "B": "Staff pressure the patient into signing refusal forms without interpreter support",
+            "C": "The family speaks for the patient while the patient is excluded",
+            "D": "Cultural concerns are ignored because insulin is important"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective advocacy balances respect, informed decision-making, and professional communication without stereotyping or coercion."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1474 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "In international acute-care nursing, bedside assessment must be combined with diagnostic data and _____.",
+      "back": "Monitoring data."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Clinical data results should be interpreted in relation to the patient, the treatment plan, and the _____.",
+      "back": "Trend."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "Rather than being viewed in isolation, how should clinical results be interpreted?",
+      "back": "In relation to the patient, the trend, and the treatment plan."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "What must an IQN relate diagnostic findings to in order to understand their clinical impact?",
+      "back": "Pathophysiology."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What are the three ECG characteristics a nurse should recognize within their scope?",
+      "back": "Rate, rhythm regularity, and major warning patterns."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "What two factors determine the urgency of an ECG rhythm abnormality?",
+      "back": "Clinical symptoms and haemodynamic effect."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "Arterial Blood Gases ($ABGs$) are used to identify respiratory disturbances and _____ disturbances.",
+      "back": "Metabolic."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Which four specific values on an $ABG$ help identify clinical disturbances?",
+      "back": "$pH$, carbon dioxide, bicarbonate, and oxygenation."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What physical assessment finding is essential to interpret alongside $ABG$ trends?",
+      "back": "The patient's work of breathing."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Which laboratory trend is monitored to evaluate kidney function?",
+      "back": "Renal function."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "Which laboratory trend is monitored to evaluate the liver?",
+      "back": "Liver function."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "Which laboratory trend is monitored to evaluate clotting ability?",
+      "back": "Coagulation."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "Which laboratory trend is a marker for cardiac damage?",
+      "back": "Troponin."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "Which laboratory trend can indicate tissue hypoxia or deterioration?",
+      "back": "Lactate."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "What is the role of technology in relation to direct physical examination?",
+      "back": "Technology supports but does not replace direct examination."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Identify two types of imaging mentioned that should be integrated with bedside assessment.",
+      "back": "Chest imaging and CT findings."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "Which bedside monitoring tool is specifically mentioned as data to be integrated with assessment?",
+      "back": "Ultrasound."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "In the Section 1 clinical example, what does rising carbon dioxide and falling $pH$ indicate?",
+      "back": "Respiratory decompensation."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "What communication framework is used to report the clinical trend of a decompensating patient?",
+      "back": "ISBAR."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "When a nurse recognizes respiratory decompensation, what should they prepare for?",
+      "back": "Higher-level respiratory support."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "When interpreting clinical results, what should current findings be compared with besides the trend?",
+      "back": "The baseline."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "How quickly should critical values be escalated?",
+      "back": "Promptly."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "What must a nurse explain clearly when communicating clinical significance?",
+      "back": "What the result means for immediate care."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "International practice requires a nurse to explain the clinical _____ of findings.",
+      "back": "Significance."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "Safe care depends on combining protocols with _____ _____.",
+      "back": "Professional judgement."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "An IQN should not wait for a single _____ _____ before using professional judgement.",
+      "back": "Severe abnormality."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "Besides clinical significance, what should a nurse anticipate regarding patient findings?",
+      "back": "Likely complications."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "What must accompany an escalation when a nurse contacts a provider?",
+      "back": "A clear recommendation."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "Term: Arterial Blood Gases ($ABGs$)",
+      "back": "Tests measuring $pH$, $CO_{2}$, $HCO_{3}^{-}$, and $O_{2}$ to identify respiratory and metabolic disturbances."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "In an $ABG$, what does the $pH$ level indicate?",
+      "back": "The acid-base balance of the blood."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "Which $ABG$ value is primarily associated with metabolic disturbances?",
+      "back": "Bicarbonate ($HCO_{3}^{-}$)."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "Which $ABG$ value is primarily associated with respiratory disturbances?",
+      "back": "Carbon dioxide ($CO_{2}$)."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "What does a rising lactate level often indicate in a high-acuity patient?",
+      "back": "Deterioration or treatment risk."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "How does an IQN use 'trends' in clinical practice?",
+      "back": "By comparing current diagnostic results with baseline and previous values."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "Which lab trend is used to monitor a patient's blood sugar stability?",
+      "back": "Glucose."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "Laboratory trends such as electrolytes and blood count may indicate treatment risk or _____.",
+      "back": "Deterioration."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "The clinical example patient is described as having worsening _____ on serial blood gases.",
+      "back": "Oxygenation."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "Interpret results in clinical context rather than in _____.",
+      "back": "Isolation."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What is the primary goal of the Learning Outcome 'Relate diagnostic findings to pathophysiology'?",
+      "back": "To understand why a result is occurring and what it means for the patient."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "What is the purpose of recognizing 'rhythm regularity' on an ECG?",
+      "back": "To identify potential arrhythmias or warning patterns."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "Which imaging type is used to check for internal structural changes in the lungs or heart?",
+      "back": "Chest imaging."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "Diagnostic results must be interpreted specifically in relation to the patient's _____ plan.",
+      "back": "Treatment."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "What is the specific requirement for communicating clinical significance during escalation?",
+      "back": "Communicating it clearly using a recommendation."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "Clinical symptoms and _____ _____ determine the urgency of an ECG rhythm.",
+      "back": "Haemodynamic effect."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "Trends in $pH$ and $CO_{2}$ help identify _____ disturbances.",
+      "back": "Respiratory."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "What lab result measures the concentration of ions like sodium and potassium?",
+      "back": "Electrolytes."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "What bedside data includes continuous heart rate and blood pressure tracking?",
+      "back": "Bedside monitoring."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "The IQN is expected to combine bedside assessment with _____ and monitoring data.",
+      "back": "Diagnostic."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "What does a falling $pH$ indicate on a serial blood gas?",
+      "back": "Increasing acidity (acidosis), often signaling decompensation."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "In the Section 1 summary, what is a key learning point for immediate care?",
+      "back": "Explain what the result means for immediate care."
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "Nurses should identify laboratory results requiring _____ _____.",
+      "back": "Urgent escalation."
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "Which $ABG$ value is specifically used to assess a patient's $O_{2}$ status?",
+      "back": "Oxygenation."
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "An IQN should provide evidence-informed care for patients who are _____ and unstable.",
+      "back": "Complex."
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "Technology should be used to support assessment but never to _____ it.",
+      "back": "Replace."
+    },
+    {
+      "id": "fc-55",
+      "section": 1,
+      "front": "What is a 'major warning pattern' in an ECG context?",
+      "back": "A rhythm abnormality that suggests high risk for sudden deterioration."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "Safe practice for high-risk therapies in acute care depends on competence, independent checks, close monitoring, and _____.",
+      "back": "clear escalation"
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "What should an International Qualified Nurse (IQN) seek if a required therapy is unfamiliar?",
+      "back": "Supervision"
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "Nursing actions during the management of high-risk therapies must be guided by _____.",
+      "back": "monitoring"
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "What is a primary learning outcome for managing high-risk therapies in Level 2 nursing care?",
+      "back": "Recognize adverse effects and treatment complications"
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "Name one of the four specific types of intravenous infusions identified as high-risk in Section 2.",
+      "back": "Vasoactive infusions"
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "Name a second specific type of intravenous infusion identified as high-risk in Section 2.",
+      "back": "Antiarrhythmic infusions"
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "Name a third specific type of intravenous infusion identified as high-risk in Section 2.",
+      "back": "Insulin infusions"
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "Name a fourth specific type of intravenous infusion identified as high-risk in Section 2.",
+      "back": "Electrolyte infusions"
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "High-risk intravenous infusions require controlled administration and _____ assessment.",
+      "back": "frequent"
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "Safe administration of high-risk infusions involves ensuring accurate _____ of delivery devices.",
+      "back": "programming"
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "To manage high-risk infusions safely, the nurse must ensure the use of appropriate _____.",
+      "back": "access"
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "What specific laboratory results must nurses monitor for patients receiving anticoagulation?",
+      "back": "Coagulation results"
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "Besides bleeding and lab results, what status must be monitored in patients on anticoagulants?",
+      "back": "Haemodynamic status"
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "During anticoagulation therapy, nurses must monitor for bleeding and potential _____.",
+      "back": "drug interactions"
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "Which two changes in a patient on anticoagulants require urgent nursing action?",
+      "back": "Unexpected bleeding or neurological change"
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "Oxygen delivery devices are selected based on their ability to provide different _____ and support.",
+      "back": "concentrations"
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "Nurses monitor oxygenation and _____ to assess the effectiveness of respiratory support.",
+      "back": "ventilation"
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "To ensure patient well-being during oxygen therapy, nurses must monitor comfort and _____.",
+      "back": "skin integrity"
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Nurses monitor patients on ventilatory support for signs of _____ to evaluate respiratory effort.",
+      "back": "fatigue"
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What dual characteristics define emergency medicines in high-acuity care?",
+      "back": "Rapid benefits and serious risks"
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "Before administering emergency medicines, the nurse must confirm the _____ and the dose.",
+      "back": "indication"
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "Safe emergency medicine administration requires confirming the indication, dose, route, and _____ requirements.",
+      "back": "monitoring"
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "When administering emergency medicines, the nurse must maintain a readiness to respond to _____.",
+      "back": "adverse effects"
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "In the clinical example, what symptom besides weakness indicates a potential anticoagulant complication?",
+      "back": "Sudden severe headache"
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "What is the first action a nurse takes when an anticoagulated patient develops a sudden headache?",
+      "back": "Stop non-essential activity"
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "Following the cessation of activity in a suspected anticoagulant-related emergency, what assessment is initiated?",
+      "back": "Neurological assessment"
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "What should a nurse prepare for after escalating a suspected neurological complication of anticoagulation?",
+      "back": "Emergency imaging and reversal treatment"
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "According to Section 2 key learning points, high-risk treatment requires _____ monitoring.",
+      "back": "high-quality"
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "Where should independent checks be used during high-risk therapy management?",
+      "back": "Where required by protocol or policy"
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "New symptoms in a high-acuity patient should be linked to possible _____.",
+      "back": "treatment complications"
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "Nurses must not use unfamiliar equipment without first receiving _____.",
+      "back": "orientation"
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "Vasoactive infusions are classified as high-risk and require _____ administration.",
+      "back": "controlled"
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "What determines the urgency of intervention when managing high-risk therapies?",
+      "back": "Clinical symptoms and haemodynamic effect"
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "Which type of infusion requires frequent assessment of blood glucose levels according to high-risk therapy lists?",
+      "back": "Insulin infusions"
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "Nurses managing high-risk therapies must be competent to safely work within their _____.",
+      "back": "scope"
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "The use of _____ checks is a critical safety principle for high-risk medication administration.",
+      "back": "independent"
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "In Section 2, what is the primary purpose of monitoring 'haemodynamic status' in anticoagulated patients?",
+      "back": "To detect signs of internal bleeding or shock"
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "How should a nurse approach the administration of electrolyte infusions?",
+      "back": "With controlled administration and accurate programming"
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "Nurses monitor skin integrity in oxygen therapy to prevent damage caused by _____.",
+      "back": "delivery devices"
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "Nurses must confirm the _____ of an emergency medicine to ensure it is given via the correct path.",
+      "back": "route"
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "What is the intended goal of initiating emergency imaging in an anticoagulant-related neurological crisis?",
+      "back": "To identify potential intracranial bleeding"
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "What clinical action follows the detection of an adverse effect from high-risk therapy?",
+      "back": "Urgent escalation"
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "Frequent assessment for patients on high-risk infusions focuses on identifying _____ early.",
+      "back": "deterioration"
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "A nurse should always check _____ before starting any antiarrhythmic infusion.",
+      "back": "appropriate access"
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "Which high-risk therapy requires specific attention to coagulation results and drug interactions?",
+      "back": "Anticoagulation"
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "Why is 'readiness to respond' a critical component of emergency medicine administration?",
+      "back": "Due to the serious risks and potential for adverse effects"
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "In Section 2, which high-risk therapy category includes seizure management?",
+      "back": "Acute interventions"
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "Nurses must link any _____ to possible treatment complications during high-acuity care.",
+      "back": "new symptoms"
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "A nurse must use monitoring data to guide their _____ during high-risk therapy.",
+      "back": "nursing action"
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "What is the importance of 'controlled administration' for vasoactive drugs?",
+      "back": "To maintain haemodynamic stability and prevent rapid fluctuations"
+    },
+    {
+      "id": "fc-106",
+      "section": 2,
+      "front": "Oxygenation monitoring assesses the amount of oxygen in the blood, while ventilation monitoring assesses _____.",
+      "back": "the movement of air and carbon dioxide removal"
+    },
+    {
+      "id": "fc-107",
+      "section": 2,
+      "front": "What should the nurse prepare for if an anticoagulant reversal protocol is triggered?",
+      "back": "Reversal treatment"
+    },
+    {
+      "id": "fc-108",
+      "section": 2,
+      "front": "Safe practice in high-acuity settings requires that nurses act within their _____.",
+      "back": "competence"
+    },
+    {
+      "id": "fc-109",
+      "section": 2,
+      "front": "What is one way a nurse ensures 'accurate programming' of an infusion pump?",
+      "back": "Using independent checks"
+    },
+    {
+      "id": "fc-110",
+      "section": 2,
+      "front": "A patient on a high-risk therapy experiences a sudden change; the nurse must _____ clearly and promptly.",
+      "back": "escalate"
+    },
+    {
+      "id": "fc-111",
+      "section": 2,
+      "front": "Which intervention listed in Section 2 requires monitoring for drug interactions and haemodynamic status?",
+      "back": "Anticoagulation"
+    },
+    {
+      "id": "fc-112",
+      "section": 2,
+      "front": "Why must a nurse seek supervision for 'unfamiliar therapies'?",
+      "back": "To ensure patient safety and meet professional scope requirements"
+    },
+    {
+      "id": "fc-113",
+      "section": 2,
+      "front": "High-risk therapies include intravenous infusions, anticoagulation, insulin, oxygen systems, emergency medicines, and _____.",
+      "back": "seizure management"
+    },
+    {
+      "id": "fc-114",
+      "section": 2,
+      "front": "Monitoring for signs of fatigue in a breathless patient on oxygen helps identify _____.",
+      "back": "respiratory failure or the need for higher support"
+    },
+    {
+      "id": "fc-115",
+      "section": 2,
+      "front": "Safe delivery of high-risk medicines requires the nurse to confirm the indication, dose, route, and _____.",
+      "back": "monitoring requirements"
+    },
+    {
+      "id": "fc-116",
+      "section": 2,
+      "front": "If a patient on anticoagulants has a sudden headache, the nurse should assume a _____ change has occurred.",
+      "back": "neurological"
+    },
+    {
+      "id": "fc-117",
+      "section": 2,
+      "front": "Emergency medicines provide rapid benefits but carry _____ risks.",
+      "back": "serious"
+    },
+    {
+      "id": "fc-118",
+      "section": 2,
+      "front": "The clinical example of anticoagulant-related weakness requires preparation for _____ according to protocol.",
+      "back": "reversal treatment"
+    },
+    {
+      "id": "fc-119",
+      "section": 2,
+      "front": "A nurse must use _____ monitoring when managing high-risk treatments.",
+      "back": "high-quality"
+    },
+    {
+      "id": "fc-120",
+      "section": 2,
+      "front": "One of the learning outcomes of Section 2 is to identify results requiring _____.",
+      "back": "urgent escalation"
+    },
+    {
+      "id": "fc-121",
+      "section": 2,
+      "front": "What is the primary responsibility of a nurse when using high-risk oxygen delivery systems?",
+      "back": "Monitor oxygenation, ventilation, and signs of fatigue"
+    },
+    {
+      "id": "fc-122",
+      "section": 2,
+      "front": "Before administering a high-risk infusion, a nurse should verify the _____ is correct and functioning.",
+      "back": "access"
+    },
+    {
+      "id": "fc-123",
+      "section": 2,
+      "front": "If a nurse encounters an unfamiliar piece of medical equipment, what is the first safety step?",
+      "back": "Obtain orientation"
+    },
+    {
+      "id": "fc-124",
+      "section": 2,
+      "front": "The nurse's ability to _____ adverse effects is vital to managing high-risk therapies.",
+      "back": "recognise"
+    },
+    {
+      "id": "fc-125",
+      "section": 2,
+      "front": "High-risk intravenous infusions such as _____ require accurate programming and frequent assessment.",
+      "back": "electrolyte infusions"
+    },
+    {
+      "id": "fc-126",
+      "section": 2,
+      "front": "Monitoring coagulation results is a standard nursing action for patients on _____ therapy.",
+      "back": "anticoagulation"
+    },
+    {
+      "id": "fc-127",
+      "section": 2,
+      "front": "In the context of Section 2, what does 'readiness to respond' mean for emergency medicines?",
+      "back": "Being prepared to manage immediate adverse effects"
+    },
+    {
+      "id": "fc-128",
+      "section": 2,
+      "front": "A patient with a sudden severe headache and weakness while on anticoagulants likely needs _____ imaging.",
+      "back": "emergency"
+    },
+    {
+      "id": "fc-129",
+      "section": 2,
+      "front": "Linking new symptoms to treatment complications is a key _____ point in Section 2.",
+      "back": "learning"
+    },
+    {
+      "id": "fc-130",
+      "section": 2,
+      "front": "Vasoactive infusions require appropriate access to ensure _____ of the medication.",
+      "back": "safe delivery"
+    },
+    {
+      "id": "fc-131",
+      "section": 2,
+      "front": "What is the role of 'independent checks' in medication safety?",
+      "back": "To provide a second layer of verification for high-risk doses"
+    },
+    {
+      "id": "fc-132",
+      "section": 2,
+      "front": "Nursing care for patients on oxygen delivery systems includes assessing _____ for pressure injuries.",
+      "back": "skin integrity"
+    },
+    {
+      "id": "fc-133",
+      "section": 2,
+      "front": "Nurses must verify the _____ of any emergency medication to ensure it matches the patient's current condition.",
+      "back": "indication"
+    },
+    {
+      "id": "fc-134",
+      "section": 2,
+      "front": "In the provided clinical example, why is non-essential activity stopped first?",
+      "back": "To prevent worsening of a potential haemorrhage"
+    },
+    {
+      "id": "fc-135",
+      "section": 2,
+      "front": "Safe practice with high-risk therapies involves combining protocols with _____.",
+      "back": "professional judgement"
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "In high-acuity care, which role is specifically responsible for clinical assessment, prioritisation, and evaluation?",
+      "back": "The registered nurse."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "What is the primary purpose of defining clear roles within a multidisciplinary team?",
+      "back": "To reduce duplication and missed care."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Beyond knowing who is leading the team, what two things should a nurse know about the status of care?",
+      "back": "What has been completed and what remains outstanding."
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "A task may be delegated only when it is appropriate to the patient, the activity, and the _____.",
+      "back": "Worker competence."
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "When considering delegation, the task must be appropriate to which three factors?",
+      "back": "The patient, the activity, and worker competence."
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "Which primary nursing process task must always remain the responsibility of the registered nurse?",
+      "back": "Clinical assessment."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "Which cognitive skill is categorized as a non-delegable registered-nurse responsibility?",
+      "back": "Clinical judgement."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "Why is patient teaching excluded from tasks that can be delegated by a registered nurse?",
+      "back": "It is a core professional responsibility of the registered nurse."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Which phase of task oversight must the registered nurse retain even after delegating an activity?",
+      "back": "Evaluation."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "Nurses are instructed to delegate tasks, but they must never delegate their _____.",
+      "back": "Professional accountability."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Term: Closed-Loop Communication",
+      "back": "Definition: A communication technique where critical messages are repeated back and confirmed by the receiver."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "During which type of emergency event is closed-loop communication specifically identified as essential?",
+      "back": "Rapid response (or resuscitation)."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "Which specific type of medication instruction requires the use of closed-loop communication?",
+      "back": "Verbal medication orders."
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "What is the first step required when preparing for a transfer to a higher level of care?",
+      "back": "Stabilisation."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "What characteristic should a handover have when a patient is being transferred to higher care?",
+      "back": "It should be concise."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "What two types of support materials must be prepared for a patient transfer?",
+      "back": "Equipment and documentation."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "When does the registered nurse's responsibility for monitoring officially end during a transfer?",
+      "back": "When responsibility is formally accepted by the receiving party."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "In the Section 3 clinical example, which specific task was allocated to competent team members during a rapid response?",
+      "back": "Observation recording (or equipment collection)."
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "In the Section 3 clinical example, which three roles did the nurse retain while others collected equipment?",
+      "back": "Assessment, communication, and evaluation."
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "What is the primary benefit of using repeated-back instructions in a stressful clinical situation?",
+      "back": "Reducing error."
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "What is a learning outcome for Section 3 regarding multidisciplinary coordination?",
+      "back": "Collaborating effectively during high-acuity care."
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "What is a learning outcome for Section 3 regarding the assignment of duties?",
+      "back": "Delegating tasks safely and appropriately."
+    },
+    {
+      "id": "fc-158",
+      "section": 3,
+      "front": "What is a learning outcome for Section 3 regarding communication in emergencies?",
+      "back": "Using closed-loop communication."
+    },
+    {
+      "id": "fc-159",
+      "section": 3,
+      "front": "What is a learning outcome for Section 3 regarding the movement of patients?",
+      "back": "Coordinating escalation and transfer of care."
+    },
+    {
+      "id": "fc-160",
+      "section": 3,
+      "front": "Who is responsible for determining if a worker is competent enough to receive a delegated task?",
+      "back": "The registered nurse."
+    },
+    {
+      "id": "fc-161",
+      "section": 3,
+      "front": "Besides medicine and nursing, name two other disciplines involved in the coordination of complex adult care.",
+      "back": "Respiratory therapy and pharmacy (or critical care)."
+    },
+    {
+      "id": "fc-162",
+      "section": 3,
+      "front": "Care must be maintained until a transfer is _____ completed.",
+      "back": "Formally."
+    },
+    {
+      "id": "fc-163",
+      "section": 3,
+      "front": "In high-acuity settings, who remains responsible for the prioritisation of patient problems?",
+      "back": "The registered nurse."
+    },
+    {
+      "id": "fc-164",
+      "section": 3,
+      "front": "To avoid duplication of effort in a team, the nurse must identify who is _____ the team.",
+      "back": "Leading."
+    },
+    {
+      "id": "fc-165",
+      "section": 3,
+      "front": "Critical messages in a rapid response should be _____ back and confirmed.",
+      "back": "Repeated."
+    },
+    {
+      "id": "fc-166",
+      "section": 3,
+      "front": "What must be maintained throughout the entire escalation process until responsibility is accepted?",
+      "back": "Continued monitoring."
+    },
+    {
+      "id": "fc-167",
+      "section": 3,
+      "front": "Which non-delegable task involves measuring the effectiveness of an intervention?",
+      "back": "Evaluation."
+    },
+    {
+      "id": "fc-168",
+      "section": 3,
+      "front": "What is the purpose of preparing equipment and documentation before a transfer?",
+      "back": "To ensure a safe and coordinated transfer of care."
+    },
+    {
+      "id": "fc-169",
+      "section": 3,
+      "front": "During a crisis, which communication loop must be closed to ensure the accuracy of verbal orders?",
+      "back": "Closed-loop communication."
+    },
+    {
+      "id": "fc-170",
+      "section": 3,
+      "front": "Which discipline mentioned in Section 3 is specifically linked to the management of breathing support in coordination with nursing?",
+      "back": "Respiratory therapy."
+    },
+    {
+      "id": "fc-171",
+      "section": 3,
+      "front": "A nurse should only delegate a task if it is appropriate for the _____ being performed.",
+      "back": "Activity."
+    },
+    {
+      "id": "fc-172",
+      "section": 3,
+      "front": "Which non-delegable RN duty ensures that the nursing plan is tailored to the patient's changing status?",
+      "back": "Clinical judgement."
+    },
+    {
+      "id": "fc-173",
+      "section": 3,
+      "front": "What must be provided during a transfer to ensure the receiving team understands the patient's current state?",
+      "back": "A concise handover."
+    },
+    {
+      "id": "fc-174",
+      "section": 3,
+      "front": "In the Section 3 example, what was the result of using closed-loop communication during a stressful event?",
+      "back": "Error was reduced."
+    },
+    {
+      "id": "fc-175",
+      "section": 3,
+      "front": "Who is responsible for the final evaluation of a task that has been delegated to a nursing assistant?",
+      "back": "The registered nurse."
+    },
+    {
+      "id": "fc-176",
+      "section": 3,
+      "front": "Before transferring a patient to a higher level of care, the patient's condition must first be _____.",
+      "back": "Stabilised."
+    },
+    {
+      "id": "fc-177",
+      "section": 3,
+      "front": "Which professional role acts as the coordinator for the multidisciplinary team in complex adult care?",
+      "back": "The registered nurse."
+    },
+    {
+      "id": "fc-178",
+      "section": 3,
+      "front": "If a nurse is unsure of a team member's skills, why should they hesitate to delegate a high-acuity task?",
+      "back": "Delegation must be appropriate to worker competence."
+    },
+    {
+      "id": "fc-179",
+      "section": 3,
+      "front": "Which core nursing responsibility involves the systematic collection of patient data and cannot be passed to others?",
+      "back": "Assessment."
+    },
+    {
+      "id": "fc-180",
+      "section": 3,
+      "front": "What status must be formally achieved before a nurse can stop monitoring a patient during an escalation?",
+      "back": "Formal acceptance of responsibility by the new care provider."
+    },
+    {
+      "id": "fc-181",
+      "section": 3,
+      "front": "In closed-loop communication, what action follows the receiver repeating back a message?",
+      "back": "The sender confirms the message is correct."
+    },
+    {
+      "id": "fc-182",
+      "section": 3,
+      "front": "What is the key learning point regarding the distinction between tasks and professional standing?",
+      "back": "Delegate tasks, not professional accountability."
+    },
+    {
+      "id": "fc-183",
+      "section": 3,
+      "front": "Which discipline provides specialized medication expertise during the coordination of complex care?",
+      "back": "Pharmacy."
+    },
+    {
+      "id": "fc-184",
+      "section": 3,
+      "front": "Why is 'concise handover' emphasized during the transfer of care?",
+      "back": "To ensure efficient and accurate communication of critical information."
+    },
+    {
+      "id": "fc-185",
+      "section": 3,
+      "front": "Which non-delegable task involves educating the patient or family about their condition?",
+      "back": "Teaching."
+    },
+    {
+      "id": "fc-186",
+      "section": 3,
+      "front": "How does clear role identification prevent 'missed care'?",
+      "back": "By ensuring every necessary task is assigned and tracked as completed or outstanding."
+    },
+    {
+      "id": "fc-187",
+      "section": 3,
+      "front": "In the clinical example, who was responsible for equipment collection?",
+      "back": "Competent team members (delegated by the nurse)."
+    },
+    {
+      "id": "fc-188",
+      "section": 3,
+      "front": "Closed-loop communication is most vital during _____ medication orders.",
+      "back": "Verbal."
+    },
+    {
+      "id": "fc-189",
+      "section": 3,
+      "front": "What is the registered nurse's responsibility regarding 'prioritisation' in multidisciplinary care?",
+      "back": "The RN remains responsible for determining the priority of clinical problems."
+    },
+    {
+      "id": "fc-190",
+      "section": 3,
+      "front": "Safe delegation requires matching the task to the worker's _____.",
+      "back": "Competence."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "How is serious illness typically described in relation to its impact on patients and families?",
+      "back": "It is described as frightening."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "What three elements remain essential in nursing care even during urgent situations?",
+      "back": "Communication, dignity, and cultural safety."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "In what two areas can families provide valuable information for nursing care?",
+      "back": "Subtle changes and patient preferences."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "What is a primary learning outcome regarding complex information in high-acuity care?",
+      "back": "To communicate it clearly and compassionately."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "What should be a nurse's goal regarding family involvement in acute care?",
+      "back": "To involve them appropriately."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "Which three patient-centered factors must be respected according to Section 4 learning outcomes?",
+      "back": "Culture, consent, and patient preferences."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "What should nurses support patients and families through during acute illness?",
+      "back": "Uncertainty."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "What specific type of language is required for communication during a crisis?",
+      "back": "Clear and honest language."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "What should a nurse avoid using when communicating during a crisis?",
+      "back": "Unexplained terminology."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "Crisis communication: What is the first thing a nurse should explain to a family?",
+      "back": "What is currently known."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "Crisis communication: What should a nurse explain regarding the current plan of care?",
+      "back": "What is being done."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "Crisis communication: What should a nurse tell a family regarding future updates?",
+      "back": "When further information will be available."
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "Why is family knowledge specifically valuable for assessment?",
+      "back": "Families recognize changes from the patient's baseline."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "When is family information particularly critical for assessment?",
+      "back": "When the patient cannot communicate."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "Which four areas of patient care may be influenced by cultural beliefs?",
+      "back": "Decision-making, touch, family roles, and end-of-life preferences."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "How might cultural beliefs influence physical interaction with a patient?",
+      "back": "By affecting preferences regarding touch."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "What resource should be used for critical discussions with patients from different cultures?",
+      "back": "Professional interpreters."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "What must patients and substitute decision-makers understand in shared decision-making?",
+      "back": "Options, likely outcomes, and burdens."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "How does nursing advocacy function in the context of shared decision-making?",
+      "back": "It supports informed decisions."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "Clinical Example: What is the nurse's first action when a stroke patient cannot communicate?",
+      "back": "Listen to the family's explanation of the patient's previous wishes."
+    },
+    {
+      "id": "fc-211",
+      "section": 4,
+      "front": "Clinical Example: What does the nurse arrange for complex discussions with a non-communicative patient's family?",
+      "back": "A professional interpreter."
+    },
+    {
+      "id": "fc-212",
+      "section": 4,
+      "front": "Clinical Example: What must a nurse do after gathering family input about a patient's wishes?",
+      "back": "Ensure the information is communicated to the treating team."
+    },
+    {
+      "id": "fc-213",
+      "section": 4,
+      "front": "Learning Point: What is the relationship between clinical urgency and patient dignity?",
+      "back": "Urgency does not remove dignity."
+    },
+    {
+      "id": "fc-214",
+      "section": 4,
+      "front": "Learning Point: When are interpreters specifically required in high-acuity care?",
+      "back": "For high-risk communication."
+    },
+    {
+      "id": "fc-215",
+      "section": 4,
+      "front": "Learning Point: How should a nurse listen to family members' input?",
+      "back": "Without making assumptions."
+    },
+    {
+      "id": "fc-216",
+      "section": 4,
+      "front": "Learning Point: What should a nurse advocate for regarding the patient's care?",
+      "back": "The patient's known values and preferences."
+    },
+    {
+      "id": "fc-217",
+      "section": 4,
+      "front": "Definition: Shared Decision-Making",
+      "back": "A process where patients and substitute decision-makers understand options, likely outcomes, and burdens."
+    },
+    {
+      "id": "fc-218",
+      "section": 4,
+      "front": "Safety Principle: High-risk communication",
+      "back": "Professional interpreters should be used for all critical discussions."
+    },
+    {
+      "id": "fc-219",
+      "section": 4,
+      "front": "Nursing Action: Supporting family assessment",
+      "back": "Listen to families as they may recognize changes from the patient's baseline."
+    },
+    {
+      "id": "fc-220",
+      "section": 4,
+      "front": "Nursing Action: Crisis interaction",
+      "back": "Use clear, honest language and avoid unexplained terminology."
+    },
+    {
+      "id": "fc-221",
+      "section": 4,
+      "front": "Concept: Family Knowledge",
+      "back": "Information from families that supports assessment, especially when the patient cannot communicate."
+    },
+    {
+      "id": "fc-222",
+      "section": 4,
+      "front": "Nursing Action: Cultural Respect",
+      "back": "Acknowledge that cultural beliefs influence decision-making and end-of-life preferences."
+    },
+    {
+      "id": "fc-223",
+      "section": 4,
+      "front": "Key Learning Point: Dignity in emergencies",
+      "back": "Urgent care must still be provided with dignity and cultural safety."
+    },
+    {
+      "id": "fc-224",
+      "section": 4,
+      "front": "What is the role of 'substitute decision-makers' in high-acuity care?",
+      "back": "To understand treatment options and outcomes when the patient cannot."
+    },
+    {
+      "id": "fc-225",
+      "section": 4,
+      "front": "Which aspect of family knowledge supports assessment when the patient is incapacitated?",
+      "back": "Recognition of changes from baseline."
+    },
+    {
+      "id": "fc-226",
+      "section": 4,
+      "front": "Nursing Action: Advocacy in decision-making",
+      "back": "Supporting the patient's known values and preferences during shared decision-making."
+    },
+    {
+      "id": "fc-227",
+      "section": 4,
+      "front": "What does Section 4 specify as an essential element alongside communication and dignity?",
+      "back": "Cultural safety."
+    },
+    {
+      "id": "fc-228",
+      "section": 4,
+      "front": "In the stroke clinical example, why was an interpreter arranged?",
+      "back": "For complex discussion regarding the patient's wishes."
+    },
+    {
+      "id": "fc-229",
+      "section": 4,
+      "front": "According to the Section 4 summary, what should nurses avoid making when listening to families?",
+      "back": "Assumptions."
+    },
+    {
+      "id": "fc-230",
+      "section": 4,
+      "front": "What is the nurse's primary goal when communicating during a crisis?",
+      "back": "To explain what is known, what is being done, and future info availability."
+    },
+    {
+      "id": "fc-231",
+      "section": 4,
+      "front": "How can families contribute to the clinical assessment of an unstable patient?",
+      "back": "By identifying subtle changes from the patient's baseline."
+    },
+    {
+      "id": "fc-232",
+      "section": 4,
+      "front": "Besides options and outcomes, what third factor must be understood in shared decision-making?",
+      "back": "Burdens."
+    },
+    {
+      "id": "fc-233",
+      "section": 4,
+      "front": "What patient-centered outcome is achieved by nursing advocacy?",
+      "back": "Informed decisions."
+    },
+    {
+      "id": "fc-234",
+      "section": 4,
+      "front": "When a patient cannot communicate, what serves as a key resource for their preferences?",
+      "back": "The family's knowledge of the patient's wishes."
+    },
+    {
+      "id": "fc-235",
+      "section": 4,
+      "front": "What type of language helps reduce fear for families during a crisis?",
+      "back": "Clear and honest language without jargon."
+    },
+    {
+      "id": "fc-236",
+      "section": 4,
+      "front": "Nursing Action: Post-family consultation",
+      "back": "Communicate the gathered information to the entire treating team."
+    },
+    {
+      "id": "fc-237",
+      "section": 4,
+      "front": "What is a major learning outcome for managing uncertainty in high-acuity care?",
+      "back": "Supporting patients and families through it."
+    },
+    {
+      "id": "fc-238",
+      "section": 4,
+      "front": "Cultural beliefs can specifically influence the roles played by _____ during care.",
+      "back": "Families."
+    },
+    {
+      "id": "fc-239",
+      "section": 4,
+      "front": "What is the pedagogical focus of Section 4?",
+      "back": "Family Communication and Person-Centred High-Acuity Care."
+    },
+    {
+      "id": "fc-240",
+      "section": 4,
+      "front": "True or False: Cultural beliefs only affect the patient's end-of-life preferences.",
+      "back": "False (they also affect decision-making, touch, and family roles)."
+    },
+    {
+      "id": "fc-241",
+      "section": 4,
+      "front": "What is the expected nursing response to 'frightening' serious illness for a family?",
+      "back": "Clear, honest communication and compassionate support."
+    },
+    {
+      "id": "fc-242",
+      "section": 4,
+      "front": "What remains a registered nurse's responsibility regarding patient preferences?",
+      "back": "Advocating for the patient's known values."
+    },
+    {
+      "id": "fc-243",
+      "section": 4,
+      "front": "In high-acuity settings, professional interpreters are reserved for _____.",
+      "back": "Critical discussions."
+    },
+    {
+      "id": "fc-244",
+      "section": 4,
+      "front": "How does a nurse ensure cultural safety during urgent care?",
+      "back": "By respecting culture, consent, and patient preferences even when care is urgent."
+    },
+    {
+      "id": "fc-245",
+      "section": 4,
+      "front": "What is the benefit of listening to family knowledge during a crisis?",
+      "back": "It provides valuable information about subtle clinical changes."
+    }
+  ]
+}

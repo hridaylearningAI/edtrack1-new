@@ -1,0 +1,1679 @@
+{
+  "moduleTitle": "Maternal and Newborn Nursing",
+  "moduleNumber": 4,
+  "caseStudies": [
+    {
+      "caseStudyNumber": 1,
+      "caseStudyTitle": "Hyperemesis Gravidarum with Dehydration",
+      "narrative": "Mrs. Nisha Kapoor is a 25-year-old primigravida at 10 weeks of pregnancy who presents to the antenatal unit with persistent nausea and vomiting for the last several days. She reports that she is unable to tolerate food and has kept down only small sips of water. She feels dizzy on standing, has a dry mouth, and says her clothes feel loose because she has been losing weight.\nOn assessment, the nurse notes blood pressure 92/58 mmHg, pulse 112 beats per minute, dry mucous membranes, dark concentrated urine, and visible fatigue. The patient says, “I wanted this pregnancy so much, but I feel miserable and weak all the time.” The nurse suspects hyperemesis gravidarum rather than normal morning sickness.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings most strongly support hyperemesis gravidarum rather than common nausea of pregnancy? Select all that apply.",
+          "options": {
+            "A": "Persistent vomiting with poor intake",
+            "B": "Dizziness and weakness",
+            "C": "Dark concentrated urine",
+            "D": "Tachycardia and low blood pressure",
+            "E": "Dry mucous membranes"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these cues point to clinically significant fluid volume deficit rather than ordinary early-pregnancy nausea. Hyperemesis gravidarum is characterised by persistent vomiting, dehydration, weight loss, and hemodynamic changes. Dark urine and dry mucous membranes indicate poor hydration, while tachycardia and hypotension suggest the body is compensating for low circulating volume."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s priority interpretation of this presentation?",
+          "options": {
+            "A": "Normal first-trimester discomfort that can be managed by reassurance alone",
+            "B": "Hyperemesis gravidarum with dehydration and risk of electrolyte imbalance",
+            "C": "Labour-related abdominal pain",
+            "D": "A psychiatric cause of vomiting with no obstetric significance"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This patient’s findings show more than common morning sickness. The signs of dehydration and likely electrolyte loss make this an obstetric and medical concern. NCLEX reasoning requires distinguishing expected pregnancy discomforts from findings that threaten maternal wellbeing and fetal support."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem should the nurse prioritise first?",
+          "options": {
+            "A": "Deficient fluid volume related to persistent vomiting",
+            "B": "Fear related to pregnancy adjustment",
+            "C": "Knowledge deficit regarding infant care",
+            "D": "Disturbed body image"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Although emotional support is important, the most urgent issue is fluid deficit. Dehydration can quickly worsen maternal perfusion, renal function, and nutritional status, which in turn may compromise pregnancy progress."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Begin focused assessment of hydration status, support rest, and prepare for fluid replacement and antiemetic therapy as prescribed",
+            "B": "Encourage the patient to eat a heavy meal immediately",
+            "C": "Tell the patient that vomiting is normal and she should go home",
+            "D": "Delay intervention until the next prenatal visit"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Immediate nursing care should focus on hydration, safety, and preparation for treatment. Forcing a heavy meal is unrealistic and may worsen symptoms. Sending the patient home without treatment would ignore signs of dehydration and clinical deterioration."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor intake and output closely",
+            "B": "Reassess weight trends and urine concentration",
+            "C": "Observe for worsening dizziness or electrolyte-related weakness",
+            "D": "Provide nonjudgmental support and explain the condition",
+            "E": "Ignore emotional distress because physical issues are the only priority"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "NGN-level maternity care includes both physical and emotional support. Intake/output and weight trends help evaluate hydration and nutrition. Emotional reassurance matters because prolonged vomiting can be frightening and discouraging. Ignoring distress would not reflect holistic nursing care."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that the plan of care is effective?",
+          "options": {
+            "A": "The patient tolerates fluids better, urine becomes less concentrated, pulse slows, and dizziness decreases",
+            "B": "Vomiting worsens and the patient becomes more hypotensive",
+            "C": "The nurse stops monitoring after one dose of antiemetic",
+            "D": "The patient remains unable to take in fluids but says she feels hopeful"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by better hydration, less concentrated urine, more stable vital signs, and reduced dizziness. Hopefulness is valuable, but physiological improvement is the clearest outcome indicator."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 2,
+      "caseStudyTitle": "Severe Preeclampsia",
+      "narrative": "Mrs. Farah Ahmed is a 31-year-old woman at 34 weeks’ gestation who presents to the labour assessment unit complaining of a severe frontal headache, blurred vision, and sudden swelling of her hands and face. She reports that the baby has been moving, but she feels unusually unwell and says, “My head feels like it will burst.”\nAssessment reveals blood pressure 168/112 mmHg, brisk reflexes, +3 protein on dipstick, and mild right upper quadrant discomfort. The fetal monitor is applied, and the nurse recognises that this pattern is concerning for severe preeclampsia with risk of maternal and fetal deterioration.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are red flags for severe preeclampsia? Select all that apply.",
+          "options": {
+            "A": "Severe headache",
+            "B": "Visual disturbance",
+            "C": "Blood pressure 168/112 mmHg",
+            "D": "Proteinuria and brisk reflexes",
+            "E": "Right upper quadrant discomfort"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these are classic warning signs of severe preeclampsia. Headache, visual disturbance, and hypertension suggest cerebral involvement. Brisk reflexes indicate increased neuromuscular irritability, and right upper quadrant pain may reflect hepatic involvement. NCLEX-style maternity questions place heavy emphasis on recognising these as urgent findings."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation of this presentation?",
+          "options": {
+            "A": "Normal third-trimester discomforts",
+            "B": "Severe preeclampsia with risk of seizure, placental compromise, and maternal organ injury",
+            "C": "Simple anxiety about labour",
+            "D": "Early postpartum haemorrhage"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom cluster is highly concerning for severe preeclampsia. This is not an expected discomfort of pregnancy. The nurse must think about maternal cerebral, renal, hepatic, and placental risks."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for maternal seizure and reduced placental perfusion",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit regarding breastfeeding",
+            "D": "Anxiety about motherhood"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The priority is prevention of maternal and fetal injury. Preeclampsia threatens the brain, liver, kidneys, and uteroplacental circulation. That risk overrides all long-term teaching needs."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reduce stimulation, maintain safety, initiate close maternal-fetal monitoring, and prepare for urgent antihypertensive and magnesium sulfate therapy as prescribed",
+            "B": "Encourage the patient to walk around to reduce swelling",
+            "C": "Offer a large meal and discharge home",
+            "D": "Delay intervention until laboratory results return next day"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must reduce seizure risk, support close monitoring, and prepare for time-sensitive management. Walking, discharge, or delay would be unsafe. In severe preeclampsia, nursing priorities include seizure precautions, fetal assessment, and readiness for urgent escalation."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor reflexes, respiratory status, and urine output closely if magnesium sulfate is started",
+            "B": "Assess fetal heart rate patterns and maternal symptoms frequently",
+            "C": "Maintain a calm, low-stimulation environment",
+            "D": "Dismiss blurred vision because oedema alone explains it",
+            "E": "Prepare for possible urgent birth if maternal or fetal status worsens"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Magnesium sulfate monitoring is critical because toxicity can depress respirations. Fetal monitoring remains essential because placental perfusion may be impaired. Visual changes should never be dismissed in preeclampsia. Anticipating possible urgent delivery reflects advanced clinical judgment."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement or stabilisation?",
+          "options": {
+            "A": "Blood pressure becomes better controlled, severe headache lessens, reflexes are appropriately monitored, and fetal status remains reassuring",
+            "B": "Headache intensifies and blood pressure rises further",
+            "C": "Respirations fall dangerously on magnesium sulfate without reassessment",
+            "D": "Fetal monitoring is discontinued because the mother feels calmer"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Stabilisation is shown by improved blood pressure, reduced neurological symptoms, and continued maternal-fetal monitoring. Respiratory depression or worsening hypertension would indicate poor control or complications."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 3,
+      "caseStudyTitle": "Eclampsia During Antepartum Admission",
+      "narrative": "Mrs. Simran Kaur is a 29-year-old woman at 35 weeks’ gestation admitted earlier in the day with severe preeclampsia. While the nurse is updating observations, the patient suddenly becomes rigid and begins to seize in bed. Her partner panics and calls for help.\nThe fetal monitor is in place, the room has low lighting, and side rails are raised. The nurse must protect the mother from injury, support airway safety, and prepare for emergency management while recognising that fetal compromise may also occur during the event.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "What makes this an obstetric emergency? Select all that apply.",
+          "options": {
+            "A": "Tonic-clonic seizure activity",
+            "B": "Known severe preeclampsia",
+            "C": "Pregnancy at 35 weeks",
+            "D": "Maternal risk of airway compromise and trauma",
+            "E": "Possible fetal compromise during maternal seizure"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "A seizure in a patient with severe preeclampsia is eclampsia, a life-threatening obstetric emergency. Pregnancy context is important, but what makes the situation emergent is the direct risk to maternal airway, oxygenation, circulation, and fetal wellbeing."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the nurse’s priority interpretation?",
+          "options": {
+            "A": "The patient is having a normal labour event",
+            "B": "The patient is experiencing eclampsia requiring immediate seizure management and maternal-fetal stabilisation",
+            "C": "The patient only needs comfort measures",
+            "D": "The seizure can be ignored until it stops"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is eclampsia and must be treated urgently. NCLEX expects immediate recognition of seizure risk in hypertensive pregnancy complications and rapid implementation of emergency priorities."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent during the seizure?",
+          "options": {
+            "A": "Airway obstruction, maternal injury, and decreased oxygen delivery to mother and fetus",
+            "B": "Disturbed sleep pattern",
+            "C": "Need for postpartum teaching",
+            "D": "Anxiety about labour pain"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "During active seizure, the greatest danger is compromise of maternal airway, oxygenation, and physical safety. The fetus is also vulnerable if maternal oxygen delivery drops."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Stay with the patient, protect from injury, position for airway safety as feasible after the seizure, call for urgent help, and prepare prescribed seizure management",
+            "B": "Put an object in the patient’s mouth to prevent tongue injury",
+            "C": "Try to hold the patient down forcefully",
+            "D": "Leave the room to find the doctor before doing anything else"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must remain with the patient, protect from injury, and support airway safety. Objects should never be forced into the mouth. Forceful restraint can injure the patient. Leaving the room without first ensuring active response and protection would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate after the seizure subsides? Select all that apply.",
+          "options": {
+            "A": "Reassess airway, breathing, circulation, and maternal level of consciousness",
+            "B": "Assess fetal status and continue close monitoring",
+            "C": "Prepare for magnesium sulfate or review of ongoing magnesium therapy as ordered",
+            "D": "Maintain seizure precautions and low stimulation",
+            "E": "Assume no further assessment is needed once the shaking stops"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Post-seizure care includes full maternal reassessment, fetal reassessment, seizure prevention strategies, and medication management. The end of visible seizure activity does not mean the emergency has ended."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that immediate nursing management is effective?",
+          "options": {
+            "A": "The mother is protected from injury, airway is maintained, maternal status is reassessed, and fetal monitoring resumes appropriately",
+            "B": "The patient remains unmonitored after the seizure ends",
+            "C": "The nurse documents only the duration without reassessment",
+            "D": "Fetal status is ignored because the seizure is over"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective care includes protection during the seizure and comprehensive reassessment afterward. Both mother and fetus require continued evaluation."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 4,
+      "caseStudyTitle": "Placenta Previa with Third-Trimester Bleeding",
+      "narrative": "Mrs. Elena D’Souza is a 33-year-old woman at 32 weeks’ gestation who presents with sudden painless bright-red vaginal bleeding. She denies abdominal pain or contractions and says the baby has been moving normally. She appears frightened and asks whether her baby is in danger.\nHer blood pressure is 110/68 mmHg, pulse 102 beats per minute, respiratory rate 20 breaths per minute, and the bleeding continues lightly onto the pad. The nurse suspects placenta previa and understands that some common examination approaches are unsafe until the placenta location is confirmed.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are most consistent with placenta previa? Select all that apply.",
+          "options": {
+            "A": "Bright-red vaginal bleeding",
+            "B": "Painless bleeding",
+            "C": "Third-trimester presentation",
+            "D": "Absence of abdominal pain",
+            "E": "Ongoing fetal movement"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Placenta previa typically presents with painless bright-red bleeding in the second half of pregnancy. Fetal movement may still be present, especially if fetal compromise has not yet developed. The absence of pain helps distinguish it from placental abruption in many cases."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the most appropriate interpretation?",
+          "options": {
+            "A": "Likely placenta previa requiring maternal-fetal assessment and bleeding precautions",
+            "B": "Normal labour show",
+            "C": "Placental abruption with severe pain",
+            "D": "Postpartum haemorrhage"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The bleeding pattern strongly suggests placenta previa. Because placenta overlies or approaches the cervical os, vaginal bleeding may occur without pain. The nurse must think about safe assessment and preventing further bleeding."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for maternal blood loss and fetal compromise related to placental bleeding",
+            "B": "Disturbed body image",
+            "C": "Knowledge deficit about newborn sleep",
+            "D": "Readiness for discharge"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The immediate concern is ongoing bleeding and its impact on maternal circulation and fetal perfusion."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess maternal-fetal status, monitor bleeding, and avoid vaginal examination until placenta location is confirmed by the appropriate team",
+            "B": "Perform a digital vaginal exam to check dilation",
+            "C": "Encourage the patient to walk around",
+            "D": "Delay fetal monitoring until bleeding stops"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "In suspected placenta previa, digital vaginal examination may provoke severe bleeding and is contraindicated unless specifically directed in a controlled setting. Maternal and fetal monitoring are immediate priorities."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor vital signs and bleeding amount closely",
+            "B": "Apply fetal monitoring and assess fetal status",
+            "C": "Prepare for ultrasound-based evaluation and possible admission",
+            "D": "Explain the need for pelvic rest if ordered",
+            "E": "Ignore maternal anxiety because bleeding is the only priority"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Maternity care is both physiological and supportive. Monitoring, fetal assessment, preparation for evaluation, and patient teaching are all appropriate. Anxiety should not be ignored."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates stable management at this stage?",
+          "options": {
+            "A": "Bleeding decreases or remains controlled, maternal vital signs stay stable, and fetal status remains reassuring",
+            "B": "Bleeding increases while monitoring is reduced",
+            "C": "A digital exam is performed without indication",
+            "D": "The patient is discharged without ongoing assessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Stable maternal signs and reassuring fetal assessment indicate the situation is under better control, though continued vigilance is still needed."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 5,
+      "caseStudyTitle": "Placental Abruption",
+      "narrative": "Mrs. Priya Menon, a 37-year-old multiparous woman at 35 weeks’ gestation, arrives complaining of sudden severe abdominal pain and dark vaginal bleeding after she slipped on wet flooring earlier in the day. She is guarding her abdomen and says the pain is constant. She reports reduced fetal movement since the pain began.\nOn assessment, the uterus feels firm and tender. Blood pressure is 96/60 mmHg, pulse 124 beats per minute, respiratory rate 24 breaths per minute, and the fetal monitor shows a concerning pattern. The nurse suspects placental abruption.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support placental abruption? Select all that apply.",
+          "options": {
+            "A": "Severe abdominal pain",
+            "B": "Uterine tenderness and firmness",
+            "C": "Dark vaginal bleeding",
+            "D": "Reduced fetal movement",
+            "E": "Signs of maternal instability"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Placental abruption typically presents with painful bleeding, uterine tenderness, and often reduced fetal movement due to compromised placental exchange. Maternal tachycardia and hypotension suggest significant blood loss or shock."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal labour discomfort",
+            "B": "Placental abruption with risk of maternal haemorrhage and fetal compromise",
+            "C": "Placenta previa",
+            "D": "Baby blues"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This is a painful bleeding emergency, unlike the typically painless bleeding seen with placenta previa. The nurse must recognise the dual risk to mother and fetus."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired placental perfusion with maternal haemorrhage risk",
+            "B": "Disturbed sleep pattern",
+            "C": "Knowledge deficit about parenting",
+            "D": "Need for menu planning"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Placental separation compromises fetal oxygenation and may lead to severe maternal bleeding. This is a high-priority obstetric emergency."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate urgent maternal-fetal assessment, support circulation, and prepare for emergency obstetric management",
+            "B": "Encourage the patient to walk to the toilet",
+            "C": "Delay fetal monitoring until the bleeding is measured for several hours",
+            "D": "Offer oral food and fluids first"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must stabilise maternal circulation and monitor fetal status immediately. Delay or unnecessary activity would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Frequent monitoring of maternal vital signs and bleeding",
+            "B": "Continuous fetal heart rate assessment",
+            "C": "Preparation for urgent birth if maternal or fetal instability worsens",
+            "D": "Maintaining IV access and readiness for rapid intervention as ordered",
+            "E": "Assuming that reduced fetal movement is not important"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Reduced fetal movement is highly significant and should not be ignored. The nurse must prepare for escalation and possible urgent delivery."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates the patient is being effectively stabilised while definitive care is arranged?",
+          "options": {
+            "A": "Maternal perfusion is supported, fetal status is continuously assessed, and the team is prepared for rapid obstetric intervention",
+            "B": "Monitoring is stopped because pain is present",
+            "C": "Bleeding increases without reassessment",
+            "D": "The patient is left alone because the doctor has been called"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Effective emergency nursing care involves continuous assessment, support, and anticipation of urgent obstetric management."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 6,
+      "caseStudyTitle": "Fetal Heart Rate Late Decelerations during Labour",
+      "narrative": "Mrs. Jasmine Thomas is in active labour at 39 weeks and is receiving oxytocin augmentation. Over the last 20 minutes the nurse notices repeated fetal heart rate decelerations that begin after the peak of each contraction and return to baseline after the contraction has ended.\nThe mother is anxious and tired. Maternal vital signs are stable, contractions are strong and regular, and the fetal strip shows a concerning pattern. The nurse recognises late decelerations as potentially indicating uteroplacental insufficiency.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which description best identifies late decelerations?",
+          "options": {
+            "A": "Decelerations that mirror the contraction exactly",
+            "B": "Decelerations that begin after the contraction peak and recover after the contraction ends",
+            "C": "Abrupt drops associated with cord compression",
+            "D": "A reassuring fetal pattern"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Late decelerations start after the peak of the contraction and recover after it ends. This timing is the key identifying feature and usually reflects impaired uteroplacental perfusion."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation of repeated late decelerations?",
+          "options": {
+            "A": "Reassuring fetal adaptation",
+            "B": "Fetal oxygenation concern related to uteroplacental insufficiency",
+            "C": "Normal pushing pattern",
+            "D": "Maternal anxiety only"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Late decelerations are abnormal because they suggest the fetus is not tolerating contractions well, often due to decreased oxygen transfer."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Potential fetal compromise due to reduced placental oxygen exchange",
+            "B": "Maternal boredom",
+            "C": "Need for breastfeeding education",
+            "D": "Room temperature discomfort"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The fetus is the most immediate concern here. The nurse must intervene to improve oxygen delivery and reduce stress on the fetus."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Reposition the mother, reduce or stop oxytocin as indicated by protocol, support oxygenation, and increase maternal-fetal assessment",
+            "B": "Encourage the mother to push harder",
+            "C": "Leave the oxytocin unchanged and ignore the tracing",
+            "D": "Delay action until the next shift"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Intrauterine resuscitation measures include maternal repositioning, addressing oxytocin-driven uterine stress, supporting oxygenation, and close monitoring. This is a classic NCLEX maternity priority question."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Assess maternal blood pressure and contraction pattern",
+            "B": "Consider an IV fluid bolus if indicated or ordered",
+            "C": "Notify the provider or midwife of the non-reassuring pattern",
+            "D": "Continue to label the pattern as normal to calm the patient",
+            "E": "Prepare for further intervention if the pattern persists"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "The nurse must address reversible causes and escalate appropriately. Falsely labelling the pattern as normal would be unsafe and misleading."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that the interventions are effective?",
+          "options": {
+            "A": "Late decelerations reduce or resolve and fetal tracing becomes more reassuring",
+            "B": "Decelerations worsen while oxytocin continues unchanged",
+            "C": "Fetal tracing is not reassessed after repositioning",
+            "D": "The mother remains uninformed and distressed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The goal of intervention is a more reassuring fetal pattern. The nurse must evaluate whether intrauterine resuscitation is working and escalate if it is not."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 7,
+      "caseStudyTitle": "Umbilical Cord Prolapse",
+      "narrative": "Mrs. Catherine George is in labour at 38 weeks. Shortly after spontaneous rupture of membranes, the fetal heart rate suddenly drops deeply and does not recover normally. On rapid assessment, the nurse suspects umbilical cord prolapse.\nThe patient is frightened and asks what is happening. The fetal tracing remains concerning. The nurse understands that compression of the prolapsed cord can rapidly compromise fetal oxygenation and requires immediate action.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest possible cord prolapse? Select all that apply.",
+          "options": {
+            "A": "Sudden fetal bradycardia after rupture of membranes",
+            "B": "Abrupt severe decelerations",
+            "C": "Timing immediately after membranes rupture",
+            "D": "Ongoing non-reassuring fetal tracing",
+            "E": "Need for rapid intrauterine resuscitation"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Cord prolapse is classically suspected when severe fetal heart rate compromise occurs immediately after rupture of membranes. The sequence of events is highly important in the diagnosis."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Reassuring labour progression",
+            "B": "Probable umbilical cord compression/prolapse causing acute fetal hypoxia risk",
+            "C": "Normal maternal anxiety response",
+            "D": "Postpartum complication"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The problem is urgent fetal compromise from cord compression. NCLEX expects immediate recognition because delay can be catastrophic."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Acute interruption of fetal oxygen delivery due to cord compression",
+            "B": "Maternal sleep deprivation",
+            "C": "Need for newborn bath preparation",
+            "D": "Breastfeeding readiness"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The fetus is at immediate risk because the compressed cord limits oxygenated blood flow."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Call for help, relieve pressure from the presenting part as indicated, reposition the patient urgently, and prepare for emergency birth",
+            "B": "Leave the patient to find paperwork first",
+            "C": "Encourage the patient to sit upright and push",
+            "D": "Delay intervention until contractions slow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Relieving cord compression and summoning urgent obstetric help are the priorities. Time is critical, and the nurse must act immediately."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Continuous fetal monitoring",
+            "B": "Clear communication with the patient and team",
+            "C": "Preparation for urgent operative birth if indicated",
+            "D": "Maintaining interventions that reduce cord compression",
+            "E": "Assuming the tracing will normalise without action"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Every minute matters in cord prolapse. Ongoing monitoring, communication, decompression, and preparation for emergency birth are all correct."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates that nursing management is helping while definitive delivery is arranged?",
+          "options": {
+            "A": "Fetal heart rate improves or is better maintained while pressure is relieved and the team prepares for urgent birth",
+            "B": "Fetal tracing worsens while interventions are stopped",
+            "C": "The patient is left uninformed and alone",
+            "D": "No further monitoring is done after the first response"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improved or better-maintained fetal status while emergency delivery is organised shows that decompression efforts are helping."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 8,
+      "caseStudyTitle": "Shoulder Dystocia",
+      "narrative": "Mrs. Amy Wilson is in the second stage of labour and the fetal head has just delivered. However, the head retracts tightly against the perineum and the shoulders fail to deliver with gentle downward guidance. The birth team quickly recognises possible shoulder dystocia.\nThe mother is exhausted and frightened, and the nurse must help coordinate the emergency response while understanding that forceful traction may injure both mother and infant.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings suggest shoulder dystocia? Select all that apply.",
+          "options": {
+            "A": "Head delivers but shoulders do not follow",
+            "B": "Retraction of the fetal head against the perineum",
+            "C": "Need for urgent manoeuvres",
+            "D": "Risk of fetal hypoxia and birth injury",
+            "E": "Birth process suddenly stalls"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These findings strongly indicate shoulder dystocia. The retraction of the head, often called the turtle sign, is a classic cue."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal labour delay",
+            "B": "Shoulder dystocia requiring immediate coordinated obstetric manoeuvres",
+            "C": "Placenta previa",
+            "D": "Postpartum haemorrhage"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Shoulder dystocia is an obstetric emergency because the impacted shoulder can prevent delivery and compromise fetal oxygenation."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for fetal hypoxia and traumatic birth injury",
+            "B": "Maternal thirst",
+            "C": "Need for discharge teaching",
+            "D": "Sleep deprivation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The urgency lies in relieving the shoulder impaction to allow delivery and prevent hypoxia or injury."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Call for help immediately and assist with emergency manoeuvres according to the provider’s direction",
+            "B": "Pull forcefully on the fetal head",
+            "C": "Leave the room to call family",
+            "D": "Delay action until the next contraction"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Shoulder dystocia requires immediate team response and use of recognised manoeuvres. Forceful traction can cause serious injury and is inappropriate."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Provide clear, focused support to the mother",
+            "B": "Prepare equipment and personnel for neonatal assessment after birth",
+            "C": "Anticipate possible maternal trauma or postpartum bleeding after delivery",
+            "D": "Assume the infant will always be fine after delivery",
+            "E": "Maintain calm communication with the team"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "The nurse must think beyond the moment of delivery and anticipate neonatal and maternal complications. Calm teamwork is essential."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective emergency management?",
+          "options": {
+            "A": "The infant is delivered, immediate neonatal assessment occurs, and the mother is assessed for trauma and bleeding",
+            "B": "Delivery remains stalled with no coordinated response",
+            "C": "The nurse stops monitoring after the infant is born",
+            "D": "Maternal assessment is ignored after delivery"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Successful management includes safe delivery and immediate follow-up care for both mother and infant."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 9,
+      "caseStudyTitle": "Postpartum Hemorrhage due to Uterine Atony",
+      "narrative": "Mrs. Riya Sharma has just delivered vaginally 30 minutes ago. The nurse notices that she is bleeding more heavily than expected, soaking pads rapidly. She says she feels weak and dizzy. On palpation, the uterus feels boggy and enlarged above the expected level.\nHer blood pressure is 92/58 mmHg, pulse 122 beats per minute, and she appears pale. The nurse recognises likely postpartum haemorrhage caused by uterine atony.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings indicate postpartum haemorrhage with uterine atony? Select all that apply.",
+          "options": {
+            "A": "Heavy vaginal bleeding",
+            "B": "Boggy enlarged uterus",
+            "C": "Dizziness and weakness",
+            "D": "Tachycardia and low blood pressure",
+            "E": "Pallor"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "These are hallmark findings of postpartum haemorrhage. A boggy uterus suggests uterine atony, one of the most common causes of PPH. Hemodynamic changes show significant blood loss."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal postpartum lochia",
+            "B": "Postpartum haemorrhage likely caused by uterine atony",
+            "C": "Retained urine only",
+            "D": "Normal fatigue after delivery"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This bleeding exceeds normal lochia and is associated with a soft, enlarged uterus and unstable vital signs. NCLEX maternity care requires rapid recognition of uterine atony as an emergency."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for hypovolemic shock from postpartum blood loss",
+            "B": "Sleep deprivation",
+            "C": "Need for infant bathing teaching",
+            "D": "Mild discomfort from contractions"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Severe blood loss threatens maternal perfusion and can lead quickly to shock. That is the immediate priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Massage the fundus, call for assistance, assess bleeding, and prepare uterotonic therapy as prescribed",
+            "B": "Send the patient to shower",
+            "C": "Delay action because bleeding is common after birth",
+            "D": "Focus only on breastfeeding support"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Fundal massage and urgent support are initial priorities in uterine atony. The nurse must not minimise heavy bleeding because postpartum haemorrhage can deteriorate rapidly."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor vital signs frequently",
+            "B": "Evaluate bladder distention because a full bladder can worsen atony",
+            "C": "Prepare IV fluids and medications as ordered",
+            "D": "Continue to assess lochia and uterine tone",
+            "E": "Ignore the patient’s dizziness if bleeding seems to slow briefly"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "PPH requires repeated reassessment. Bladder distention can interfere with uterine contraction. Dizziness remains clinically important and should not be dismissed."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates effective management?",
+          "options": {
+            "A": "The uterus becomes firm, bleeding decreases, vital signs begin to stabilise, and the patient feels less dizzy",
+            "B": "The uterus remains boggy and bleeding continues",
+            "C": "Monitoring stops because the fundus was massaged once",
+            "D": "The patient becomes more hypotensive without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "A firm fundus, reduced bleeding, and improved hemodynamic status show effective control of uterine atony."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 10,
+      "caseStudyTitle": "Postpartum Endometritis",
+      "narrative": "Mrs. Linda Fernandes is two days postpartum after a prolonged labour and operative vaginal birth. She now reports chills, lower abdominal pain, and foul-smelling lochia. She says she feels hot and unwell, and she winces when the uterus is palpated.\nHer temperature is 38.8 C, pulse 112 beats per minute, and the uterus is tender. The nurse suspects postpartum endometritis.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support endometritis? Select all that apply.",
+          "options": {
+            "A": "Fever",
+            "B": "Uterine tenderness",
+            "C": "Foul-smelling lochia",
+            "D": "Chills and malaise",
+            "E": "Tachycardia"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All findings are consistent with postpartum uterine infection. Risk factors include prolonged labour and invasive or operative birth."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal postpartum healing",
+            "B": "Postpartum endometritis requiring prompt treatment",
+            "C": "Baby blues",
+            "D": "Breast engorgement only"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptoms suggest uterine infection, not normal recovery. Prompt treatment is needed to prevent progression to sepsis."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Infection with risk of systemic spread",
+            "B": "Disturbed sleep",
+            "C": "Need for newborn bath education",
+            "D": "Minor perineal discomfort"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The main concern is infection and possible systemic deterioration if untreated."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess thoroughly, obtain needed cultures as ordered, and prepare for prescribed antibiotic therapy while monitoring maternal status",
+            "B": "Ignore the odour because lochia can vary",
+            "C": "Encourage discharge home immediately",
+            "D": "Delay treatment until fever is rechecked tomorrow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse should support timely diagnosis and treatment. Foul-smelling lochia and uterine tenderness are not normal findings to dismiss."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor temperature and vital signs closely",
+            "B": "Assess lochia and uterine tenderness trends",
+            "C": "Encourage hydration and rest as clinically appropriate",
+            "D": "Watch for worsening signs of sepsis",
+            "E": "Ignore the patient’s pain if antibiotics are started"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Close monitoring remains important even after treatment starts. Pain and sepsis risk both require ongoing reassessment."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Fever decreases, lochia becomes less offensive, uterine tenderness lessens, and the patient feels stronger",
+            "B": "Fever rises and confusion develops",
+            "C": "No reassessment occurs after antibiotics begin",
+            "D": "Tachycardia worsens with ongoing pain"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by reduction in infection signs and better overall maternal wellbeing."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 11,
+      "caseStudyTitle": "Newborn Respiratory Distress",
+      "narrative": "A term male newborn is delivered after a prolonged labour. Five minutes after birth, the nurse notes persistent grunting, nasal flaring, intercostal retractions, and central cyanosis despite routine drying and stimulation. The infant’s breathing appears laboured.\nThe mother asks whether this is normal. The nurse knows that while some transitional findings can be expected, this pattern indicates probable respiratory distress requiring immediate action.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings are concerning for significant newborn respiratory distress? Select all that apply.",
+          "options": {
+            "A": "Grunting",
+            "B": "Nasal flaring",
+            "C": "Retractions",
+            "D": "Central cyanosis",
+            "E": "Laboured breathing"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these signs indicate increased work of breathing and poor oxygenation. Unlike benign transitional findings such as acrocyanosis, central cyanosis and significant respiratory effort are urgent."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal newborn transition only",
+            "B": "Newborn respiratory distress requiring immediate assessment and support",
+            "C": "Simple hunger cues",
+            "D": "Mild sleepiness"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "This infant is not transitioning normally. The pattern strongly indicates respiratory compromise."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired oxygenation and ineffective breathing in the newborn",
+            "B": "Need for routine feeding",
+            "C": "Disturbed parent-infant bonding only",
+            "D": "Bathing delay"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airway and breathing always come first, especially in the newborn, who can deteriorate rapidly."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate immediate newborn respiratory assessment and support according to neonatal protocol, and escalate urgently",
+            "B": "Swaddle tightly and wait an hour",
+            "C": "Feed the infant first",
+            "D": "Assume cyanosis will resolve without reassessment"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The nurse must act immediately because this infant shows clear signs of respiratory distress. Delay may lead to severe hypoxia."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Maintain thermoregulation while respiratory support is organised",
+            "B": "Reassess colour, respiratory effort, and oxygenation frequently",
+            "C": "Communicate clearly with the parent while continuing urgent care",
+            "D": "Observe for worsening grunting or apnea",
+            "E": "Ignore retractions if the infant is term"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Respiratory distress management includes warmth, reassessment, communication, and observation for worsening fatigue or apnea. Term status does not make retractions normal."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Colour improves, grunting decreases, breathing becomes easier, and the infant maintains better oxygenation",
+            "B": "Cyanosis persists and respirations become weaker",
+            "C": "Monitoring stops once the infant is quieter",
+            "D": "The infant becomes more lethargic without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improved work of breathing and oxygenation indicate effective early management."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 12,
+      "caseStudyTitle": "Newborn Hypoglycaemia",
+      "narrative": "A late preterm infant born to a mother with gestational diabetes is being monitored in the postnatal unit. A few hours after birth, the infant becomes jittery, sleepy, and demonstrates poor feeding. The nurse checks the glucose result and finds it below the expected safe range for the newborn.\nThe infant is otherwise warm and pink but less vigorous than earlier. The nurse recognises newborn hypoglycaemia as a priority problem because the brain is highly sensitive to low glucose.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support neonatal hypoglycaemia? Select all that apply.",
+          "options": {
+            "A": "Jitteriness",
+            "B": "Poor feeding",
+            "C": "Sleepiness/lethargy",
+            "D": "Infant of a mother with gestational diabetes",
+            "E": "Low glucose reading"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All of these factors support neonatal hypoglycaemia. Infants of diabetic mothers are at particular risk because of altered glucose-insulin adaptation after birth."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal newborn behaviour only",
+            "B": "Neonatal hypoglycaemia requiring prompt treatment and reassessment",
+            "C": "Mild cold stress alone",
+            "D": "Benign sleep cycle"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Low glucose with symptoms must be treated promptly. Waiting risks worsening neurological compromise."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Inadequate glucose availability to the newborn brain",
+            "B": "Need for routine discharge teaching",
+            "C": "Disturbed family sleep",
+            "D": "Delayed bathing"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "In neonatal hypoglycaemia, neurological protection is the main priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Initiate feeding or other protocol-based glucose support promptly and reassess the infant closely",
+            "B": "Delay action until the next routine blood sugar check",
+            "C": "Bathe the infant before feeding",
+            "D": "Ignore symptoms if the infant is warm"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Rapid correction and close reassessment are required. Hypoglycaemia should not be left untreated simply because the infant looks otherwise stable."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Maintain warmth and reduce energy expenditure",
+            "B": "Recheck glucose after treatment according to protocol",
+            "C": "Monitor feeding effectiveness and tone",
+            "D": "Explain the situation calmly to the parents",
+            "E": "Assume one low reading is never important"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Thermoregulation, repeat glucose testing, feeding assessment, and parent communication are all appropriate. A low symptomatic reading is always important."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Glucose rises to a safer range, feeding improves, jitteriness resolves, and the infant becomes more alert",
+            "B": "Lethargy worsens and feeding remains poor",
+            "C": "Monitoring stops after one feed",
+            "D": "The infant becomes weaker without escalation"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is reflected in both biochemical correction and clinical behaviour."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 13,
+      "caseStudyTitle": "Neonatal Hyperbilirubinemia",
+      "narrative": "A 3-day-old newborn is brought to the nursery for assessment because the mother notices increasing yellow discoloration of the skin and eyes. The infant is feeding but appears sleepier than on the previous day. The bilirubin result is above the safe threshold for the infant’s age and clinical context.\nThe nurse must assess severity, feeding adequacy, and risk of worsening jaundice while preparing for phototherapy and parent teaching if ordered.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support clinically important neonatal jaundice? Select all that apply.",
+          "options": {
+            "A": "Yellow discoloration of skin and sclera",
+            "B": "Increased sleepiness",
+            "C": "Elevated bilirubin level",
+            "D": "Need to assess feeding pattern",
+            "E": "Newborn age of 3 days"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All the listed points matter. Jaundice is common in newborns, but rising bilirubin plus sleepiness and feeding concerns can indicate a need for treatment and close monitoring."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "This can never be significant because jaundice is always normal",
+            "B": "The infant may have clinically significant hyperbilirubinemia requiring monitoring and possibly phototherapy",
+            "C": "The infant has postpartum depression",
+            "D": "The colour change is unrelated to bilirubin"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "Physiologic jaundice may be common, but significant bilirubin elevation can be harmful. The nurse must assess severity and follow treatment thresholds."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for bilirubin-related neurological injury if levels rise further",
+            "B": "Disturbed sleep pattern of the parents",
+            "C": "Need for routine bathing advice",
+            "D": "Umbilical cord stump education only"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Very high bilirubin can become dangerous, so preventing neurological injury is the priority."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Assess feeding and elimination, verify bilirubin trends, and prepare for phototherapy or other management as ordered",
+            "B": "Delay all care until the next day",
+            "C": "Stop feeding the infant",
+            "D": "Ignore sleepiness if the infant is yellow"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Feeding and bilirubin trend assessment are crucial because poor intake can worsen jaundice. Delaying care or stopping feeds would be unsafe."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor hydration and feeding effectiveness",
+            "B": "Provide parent education about jaundice and phototherapy if used",
+            "C": "Reassess bilirubin according to protocol",
+            "D": "Observe for worsening lethargy or poor feeding",
+            "E": "Assume jaundice will always resolve without follow-up"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "Safe newborn care includes monitoring, education, and follow-up. A passive wait-and-see approach is inappropriate when bilirubin is already elevated."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Bilirubin trends down, feeding improves, and the infant is more alert",
+            "B": "Sleepiness increases and feeding declines",
+            "C": "Phototherapy is started but never reassessed",
+            "D": "Parents remain uninformed about warning signs"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by falling bilirubin and better feeding/alertness."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 14,
+      "caseStudyTitle": "Neonatal Sepsis",
+      "narrative": "A newborn delivered after prolonged rupture of membranes becomes increasingly lethargic within the first day of life. The infant feeds poorly, has temperature instability, and shows periods of mottled skin and intermittent grunting. The mother asks why the baby seems less responsive than immediately after birth.\nThe nurse understands that newborn sepsis may present subtly and can deteriorate rapidly. The infant requires urgent assessment and escalation.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings raise concern for neonatal sepsis? Select all that apply.",
+          "options": {
+            "A": "Poor feeding",
+            "B": "Lethargy",
+            "C": "Temperature instability",
+            "D": "Mottling and grunting",
+            "E": "Prolonged rupture of membranes"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "All these findings are concerning. Neonatal sepsis often presents with non-specific signs, so nurses must respond quickly to subtle deterioration."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal newborn tiredness",
+            "B": "Possible neonatal sepsis requiring urgent evaluation and treatment",
+            "C": "Mild jaundice only",
+            "D": "Benign adaptation"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The symptom cluster plus prolonged rupture of membranes makes infection a serious concern."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Risk for overwhelming infection and respiratory compromise in the newborn",
+            "B": "Need for discharge teaching",
+            "C": "Delayed infant bath",
+            "D": "Parent inconvenience"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Newborn sepsis can become life-threatening quickly. The priority is survival and prevention of rapid decline."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Escalate urgently, support thermoregulation and respiratory assessment, and prepare for sepsis evaluation and treatment as ordered",
+            "B": "Wait to see whether the infant perks up after sleep",
+            "C": "Stop monitoring because the baby is quiet",
+            "D": "Feed only when convenient later"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Urgent action is required because newborn sepsis may progress rapidly. Thermoregulation and respiratory support are important immediate priorities."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Monitor colour, tone, respirations, and feeding closely",
+            "B": "Support family understanding while urgent care continues",
+            "C": "Anticipate cultures and antibiotic therapy as ordered",
+            "D": "Ignore grunting if the infant is term",
+            "E": "Reassess temperature and perfusion frequently"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Close observation and family communication are important. Grunting is a serious respiratory sign and must not be ignored."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Feeding improves, colour and tone stabilise, temperature becomes more consistent, and respiratory effort eases",
+            "B": "Lethargy deepens and grunting worsens",
+            "C": "Monitoring stops after antibiotics start",
+            "D": "Perfusion is not reassessed"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement must be seen in behaviour, temperature, perfusion, and breathing."
+        }
+      ]
+    },
+    {
+      "caseStudyNumber": 15,
+      "caseStudyTitle": "Preterm Infant with Respiratory Distress Syndrome",
+      "narrative": "A 32-week preterm infant is admitted to the neonatal care area shortly after birth. The nurse observes tachypnoea, grunting, nasal flaring, and subcostal retractions. The infant is small, has minimal respiratory reserve, and requires support to maintain temperature and oxygenation.\nThe mother is anxious and asks whether the baby will be able to breathe independently. The nurse recognises the pattern as consistent with respiratory distress syndrome related to prematurity.",
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionTitle": "Recognise cues",
+          "prompt": "Which findings support respiratory distress syndrome in a preterm infant? Select all that apply.",
+          "options": {
+            "A": "Prematurity at 32 weeks",
+            "B": "Tachypnoea",
+            "C": "Grunting and nasal flaring",
+            "D": "Retractions",
+            "E": "Reduced physiological reserve"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerType": "multi",
+          "rationale": "Prematurity strongly predisposes to surfactant deficiency and RDS. The visible work of breathing confirms respiratory compromise."
+        },
+        {
+          "questionNumber": 2,
+          "questionTitle": "Analyse cues",
+          "prompt": "What is the best interpretation?",
+          "options": {
+            "A": "Normal newborn transition only",
+            "B": "Respiratory distress syndrome requiring close support of breathing and thermoregulation",
+            "C": "Benign feeding difficulty",
+            "D": "Stable sleep pattern"
+          },
+          "correctKeys": [
+            "B"
+          ],
+          "answerType": "single",
+          "rationale": "The infant’s prematurity and clear respiratory distress signs indicate RDS rather than normal transition."
+        },
+        {
+          "questionNumber": 3,
+          "questionTitle": "Prioritise hypothesis",
+          "prompt": "Which problem is most urgent?",
+          "options": {
+            "A": "Impaired gas exchange and risk of worsening fatigue in the premature infant",
+            "B": "Need for routine cord teaching only",
+            "C": "Parent fatigue",
+            "D": "Delayed naming ceremony"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Airway and breathing are always first, especially in preterm infants who fatigue quickly."
+        },
+        {
+          "questionNumber": 4,
+          "questionTitle": "Take action",
+          "prompt": "What should the nurse do first?",
+          "options": {
+            "A": "Support airway and breathing according to neonatal protocol, maintain thermoregulation, and escalate for advanced neonatal management",
+            "B": "Delay intervention to allow longer skin-to-skin time only",
+            "C": "Bathe the infant immediately",
+            "D": "Ignore the grunting because preterm infants are noisy"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "The infant requires respiratory and thermal support immediately. Delay may worsen hypoxia and exhaustion."
+        },
+        {
+          "questionNumber": 5,
+          "questionTitle": "Advanced decision",
+          "prompt": "Which additional nursing actions are appropriate? Select all that apply.",
+          "options": {
+            "A": "Reassess colour, work of breathing, and oxygenation frequently",
+            "B": "Minimise energy expenditure and unnecessary stimulation",
+            "C": "Support parent understanding while urgent care continues",
+            "D": "Prepare for neonatal respiratory support measures as ordered",
+            "E": "Assume the infant will self-correct without reassessment"
+          },
+          "correctKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerType": "multi",
+          "rationale": "A preterm infant with RDS needs close reassessment, energy conservation, and timely escalation. Parent communication remains important."
+        },
+        {
+          "questionNumber": 6,
+          "questionTitle": "Evaluate outcomes",
+          "prompt": "Which finding best indicates improvement?",
+          "options": {
+            "A": "Respiratory effort lessens, oxygenation improves, and the infant maintains temperature and colour more effectively",
+            "B": "Retractions worsen and the infant becomes more lethargic",
+            "C": "Monitoring stops once the infant is quieter",
+            "D": "Temperature falls further without action"
+          },
+          "correctKeys": [
+            "A"
+          ],
+          "answerType": "single",
+          "rationale": "Improvement is shown by easier breathing, better oxygenation, and more stable thermal control."
+        }
+      ]
+    }
+  ]
+}

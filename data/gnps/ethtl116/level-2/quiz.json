@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "An IQN is asked to use an unfamiliar electronic medication system independently on the first shift. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Request orientation and supervised practice before independent use."
+        },
+        {
+          "id": "B",
+          "text": "Proceed because the medication principles are familiar."
+        },
+        {
+          "id": "C",
+          "text": "Ask a colleague to enter the medicine under their login."
+        },
+        {
+          "id": "D",
+          "text": "Refuse all medication-related duties."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe adaptation requires orientation, supervision and confirmation of competence before independent practice. Previous experience does not replace local system training."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best explains the relationship between organisational policy and professional judgement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Professional judgement allows nurses to ignore policy."
+        },
+        {
+          "id": "B",
+          "text": "Policy provides the local process, while professional judgement remains necessary for individual circumstances."
+        },
+        {
+          "id": "C",
+          "text": "Policy removes the need to assess the patient."
+        },
+        {
+          "id": "D",
+          "text": "Professional judgement applies only when no policy exists."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Policies define approved processes, but nurses must still assess the patient and respond safely when circumstances differ from routine practice."
+    },
+    {
+      "id": "q3",
+      "stem": "A busy ward is short-staffed. Which safety behaviour should remain unchanged?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Postponing allergy checks until later."
+        },
+        {
+          "id": "B",
+          "text": "Using familiarity instead of identifiers."
+        },
+        {
+          "id": "C",
+          "text": "Completing hand hygiene and patient identification checks."
+        },
+        {
+          "id": "D",
+          "text": "Skipping aseptic steps for simple procedures."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Core safety behaviours must remain reliable despite workload pressure. Busy conditions do not justify shortcuts."
+    },
+    {
+      "id": "q4",
+      "stem": "An IQN notices that a local isolation procedure differs from previous overseas practice. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow previous practice because it is familiar."
+        },
+        {
+          "id": "B",
+          "text": "Combine both procedures without approval."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient which method to use."
+        },
+        {
+          "id": "D",
+          "text": "Use the local approved procedure and seek clarification if needed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "International practice requires adaptation to local standards, policies and equipment while maintaining evidence-based safety principles."
+    },
+    {
+      "id": "q5",
+      "stem": "A nurse finds that a commonly used ward practice conflicts with a newly issued guideline. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the evidence and raise the issue through organisational governance."
+        },
+        {
+          "id": "B",
+          "text": "Continue the old practice until an incident occurs."
+        },
+        {
+          "id": "C",
+          "text": "Change practice independently without discussion."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the guideline because routines are established."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evidence-based change should be considered through approved governance and implementation processes rather than ignored or introduced independently."
+    },
+    {
+      "id": "q6",
+      "stem": "Which action best demonstrates consistent international safety practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using safety checks only with unfamiliar patients."
+        },
+        {
+          "id": "B",
+          "text": "Applying identification, allergy and aseptic checks across every shift and setting."
+        },
+        {
+          "id": "C",
+          "text": "Relaxing checks when working with experienced colleagues."
+        },
+        {
+          "id": "D",
+          "text": "Following policies only during audits."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reliable systems depend on consistent behaviour regardless of experience, workload or familiarity."
+    },
+    {
+      "id": "q7",
+      "stem": "An IQN has performed implanted port access many times overseas but has not been assessed locally. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform it independently because the skill is transferable."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse to sign afterwards."
+        },
+        {
+          "id": "C",
+          "text": "Request supervised practice and local competency assessment."
+        },
+        {
+          "id": "D",
+          "text": "Avoid learning the procedure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Local competency requirements protect patients and confirm safe use of approved equipment and processes."
+    },
+    {
+      "id": "q8",
+      "stem": "Which source should an IQN use FIRST when unsure about a local procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Social media posts from nurses."
+        },
+        {
+          "id": "B",
+          "text": "Personal notes from previous employment."
+        },
+        {
+          "id": "C",
+          "text": "A patient's preference."
+        },
+        {
+          "id": "D",
+          "text": "The current organisational policy or clinical guideline."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Current organisational policies and guidelines are the primary source for local approved practice."
+    },
+    {
+      "id": "q9",
+      "stem": "A nurse says, 'This is how we have always done it.' What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask whether current evidence and policy support the practice."
+        },
+        {
+          "id": "B",
+          "text": "Accept the routine without question."
+        },
+        {
+          "id": "C",
+          "text": "Avoid discussing it to preserve teamwork."
+        },
+        {
+          "id": "D",
+          "text": "Continue until management changes it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Habit alone is not sufficient. Nurses should compare routine practice with current evidence and policy."
+    },
+    {
+      "id": "q10",
+      "stem": "What best demonstrates professionalism when entering a new healthcare system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pretending to understand unfamiliar processes."
+        },
+        {
+          "id": "B",
+          "text": "Seeking clarification and supervision when needed."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding questions to appear competent."
+        },
+        {
+          "id": "D",
+          "text": "Using previous-country practice automatically."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Seeking support is a professional safety behaviour, not a weakness."
+    },
+    {
+      "id": "q11",
+      "stem": "A local policy is unclear in a high-risk situation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess based on experience."
+        },
+        {
+          "id": "B",
+          "text": "Delay all care indefinitely."
+        },
+        {
+          "id": "C",
+          "text": "Escalate for clarification while maintaining immediate patient safety."
+        },
+        {
+          "id": "D",
+          "text": "Use the oldest version available."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "When guidance is unclear, the nurse should protect the patient and seek timely clarification through appropriate channels."
+    },
+    {
+      "id": "q12",
+      "stem": "Which practice most strongly supports reliable infection prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allowing staff to choose hand hygiene moments individually."
+        },
+        {
+          "id": "B",
+          "text": "Relying on annual reminders only."
+        },
+        {
+          "id": "C",
+          "text": "Assuming senior staff need fewer checks."
+        },
+        {
+          "id": "D",
+          "text": "Standardising key procedures and auditing consistent performance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Standardisation and monitoring improve reliability and reduce variation in critical safety processes."
+    },
+    {
+      "id": "q13",
+      "stem": "A nurse encounters unfamiliar PPE for an airborne-risk patient. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the local procedure and seek assistance before entry if time permits safely."
+        },
+        {
+          "id": "B",
+          "text": "Use any available mask."
+        },
+        {
+          "id": "C",
+          "text": "Enter without PPE to avoid delay."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to provide care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Correct PPE selection and use are essential. The nurse should follow local guidance and seek assistance while ensuring urgent care is not delayed unsafely."
+    },
+    {
+      "id": "q14",
+      "stem": "Which statement about international nursing standards is MOST accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They remove the need for local policies."
+        },
+        {
+          "id": "B",
+          "text": "They provide broad expectations that are implemented through local procedures."
+        },
+        {
+          "id": "C",
+          "text": "They are optional for experienced nurses."
+        },
+        {
+          "id": "D",
+          "text": "They apply only to infection control."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional and regulatory standards establish broad expectations, while organisations translate them into local processes."
+    },
+    {
+      "id": "q15",
+      "stem": "An IQN notices that two local policies appear inconsistent. What is the BEST next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choose the easier one."
+        },
+        {
+          "id": "B",
+          "text": "Combine parts from both."
+        },
+        {
+          "id": "C",
+          "text": "Ask a senior clinician or governance lead to clarify the current approved process."
+        },
+        {
+          "id": "D",
+          "text": "Follow previous overseas practice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Conflicting guidance should be clarified through appropriate organisational channels before proceeding."
+    },
+    {
+      "id": "q16",
+      "stem": "Why is orientation to local equipment important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All devices operate identically."
+        },
+        {
+          "id": "B",
+          "text": "Orientation is required only for students."
+        },
+        {
+          "id": "C",
+          "text": "Previous experience guarantees competence."
+        },
+        {
+          "id": "D",
+          "text": "Equipment design and safety features may differ between systems."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Different devices may have unique settings, alarms and risks; orientation reduces avoidable harm."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse is asked to bypass a new electronic identification step because it slows workflow. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the approved process and raise workflow concerns through proper channels."
+        },
+        {
+          "id": "B",
+          "text": "Agree during busy periods."
+        },
+        {
+          "id": "C",
+          "text": "Skip it only for familiar patients."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse to take responsibility."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safety requirements should not be bypassed. Workflow issues should be addressed through system improvement, not unsafe shortcuts."
+    },
+    {
+      "id": "q18",
+      "stem": "Which action best supports evidence into practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reading a new guideline but changing nothing."
+        },
+        {
+          "id": "B",
+          "text": "Participating in education and applying the approved updated process."
+        },
+        {
+          "id": "C",
+          "text": "Relying on memory from years ago."
+        },
+        {
+          "id": "D",
+          "text": "Waiting until accreditation visits."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evidence translation requires education, implementation and ongoing use in practice."
+    },
+    {
+      "id": "q19",
+      "stem": "A nurse is competent in a procedure but unfamiliar with the local documentation system. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation can be added days later."
+        },
+        {
+          "id": "B",
+          "text": "Another nurse may document without observing."
+        },
+        {
+          "id": "C",
+          "text": "The procedure may proceed only if documentation can be completed safely according to policy."
+        },
+        {
+          "id": "D",
+          "text": "Documentation is optional if the skill is performed correctly."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe care includes accurate, timely documentation. If the nurse cannot complete this safely, support is required."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome BEST indicates successful adaptation by an IQN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse avoids asking questions."
+        },
+        {
+          "id": "B",
+          "text": "The nurse follows previous practice unchanged."
+        },
+        {
+          "id": "C",
+          "text": "The nurse depends on colleagues for all decisions."
+        },
+        {
+          "id": "D",
+          "text": "The nurse applies local policies consistently while using sound clinical judgement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful transition combines adaptation to local systems with professional judgement and accountability."
+    },
+    {
+      "id": "q21",
+      "stem": "A patient's respiratory rate rises from 18 to 30 breaths per minute over two hours. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient immediately and review the observation trend."
+        },
+        {
+          "id": "B",
+          "text": "Document the change for the next shift."
+        },
+        {
+          "id": "C",
+          "text": "Wait for blood pressure to fall."
+        },
+        {
+          "id": "D",
+          "text": "Repeat the rate tomorrow."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A rising respiratory rate is an early sign of deterioration and requires immediate assessment and escalation as indicated."
+    },
+    {
+      "id": "q22",
+      "stem": "Which statement best describes dynamic risk assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risk is assessed once at admission."
+        },
+        {
+          "id": "B",
+          "text": "Risk is reassessed when condition, treatment or environment changes."
+        },
+        {
+          "id": "C",
+          "text": "Only managers reassess risk."
+        },
+        {
+          "id": "D",
+          "text": "Risk tools replace clinical judgement."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Risk changes over time and should be reassessed when relevant circumstances change."
+    },
+    {
+      "id": "q23",
+      "stem": "A patient is newly confused, febrile and passing little urine. What is the PRIORITY interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal ageing."
+        },
+        {
+          "id": "B",
+          "text": "Anxiety only."
+        },
+        {
+          "id": "C",
+          "text": "Possible infection and deterioration requiring urgent assessment."
+        },
+        {
+          "id": "D",
+          "text": "Expected response to hospitalisation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "New confusion, fever and reduced urine output may indicate serious infection or sepsis."
+    },
+    {
+      "id": "q24",
+      "stem": "A patient's early warning score is below the trigger threshold, but the nurse believes the patient is deteriorating. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait until the score increases."
+        },
+        {
+          "id": "B",
+          "text": "Ignore intuition."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to decide."
+        },
+        {
+          "id": "D",
+          "text": "Escalate based on clinical concern and provide objective findings."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Structured scores support but do not replace clinical judgement. Concern should be escalated when the clinical picture is worrying."
+    },
+    {
+      "id": "q25",
+      "stem": "Which part of ISBAR contains the nurse's clinical findings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessment."
+        },
+        {
+          "id": "B",
+          "text": "Identification."
+        },
+        {
+          "id": "C",
+          "text": "Situation."
+        },
+        {
+          "id": "D",
+          "text": "Recommendation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The Assessment component communicates current findings and the nurse's clinical interpretation."
+    },
+    {
+      "id": "q26",
+      "stem": "A family member says, 'He is not himself today,' although vital signs are near baseline. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure the family and continue routine care."
+        },
+        {
+          "id": "B",
+          "text": "Take the concern seriously and reassess the patient."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the doctor."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Families may identify subtle changes before objective deterioration becomes obvious."
+    },
+    {
+      "id": "q27",
+      "stem": "A patient becomes dizzy after a new antihypertensive medication. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the morning mobility assessment."
+        },
+        {
+          "id": "B",
+          "text": "Encourage independent walking."
+        },
+        {
+          "id": "C",
+          "text": "Repeat risk assessment before mobilisation."
+        },
+        {
+          "id": "D",
+          "text": "Discontinue the medicine independently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Medication changes can alter falls risk; reassessment is required before activity."
+    },
+    {
+      "id": "q28",
+      "stem": "Which finding requires the MOST urgent escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable chronic pain 3/10."
+        },
+        {
+          "id": "B",
+          "text": "Routine discharge question."
+        },
+        {
+          "id": "C",
+          "text": "Mild thirst."
+        },
+        {
+          "id": "D",
+          "text": "New reduction in level of consciousness."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Altered consciousness may indicate serious deterioration and requires urgent review."
+    },
+    {
+      "id": "q29",
+      "stem": "A patient on oxygen has saturation of 84%. What is the BEST initial action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient and oxygen delivery system while initiating escalation."
+        },
+        {
+          "id": "B",
+          "text": "Increase fluids."
+        },
+        {
+          "id": "C",
+          "text": "Wait ten minutes."
+        },
+        {
+          "id": "D",
+          "text": "Document the reading only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Immediate assessment of the patient and equipment is required because severe hypoxaemia may be life-threatening."
+    },
+    {
+      "id": "q30",
+      "stem": "Escalation has been initiated, but the response is delayed and the patient worsens. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for the original responder."
+        },
+        {
+          "id": "B",
+          "text": "Continue escalation through the next approved level while providing ongoing care."
+        },
+        {
+          "id": "C",
+          "text": "Leave the patient."
+        },
+        {
+          "id": "D",
+          "text": "Repeat handover later."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Escalation should continue until the response matches the urgency of the situation."
+    },
+    {
+      "id": "q31",
+      "stem": "Which trend is MOST concerning after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable pain score and urine output."
+        },
+        {
+          "id": "B",
+          "text": "Improving oxygen saturation."
+        },
+        {
+          "id": "C",
+          "text": "Falling blood pressure with rising pulse."
+        },
+        {
+          "id": "D",
+          "text": "Increasing appetite."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Falling blood pressure and rising pulse may indicate bleeding or shock."
+    },
+    {
+      "id": "q32",
+      "stem": "A patient has a normal blood pressure but new tachypnoea and confusion. What should the nurse conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal blood pressure excludes deterioration."
+        },
+        {
+          "id": "B",
+          "text": "Only blood pressure matters."
+        },
+        {
+          "id": "C",
+          "text": "Wait for a severe abnormality."
+        },
+        {
+          "id": "D",
+          "text": "The combined changes require urgent reassessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Deterioration may be present despite one normal observation. Trends and combined findings matter."
+    },
+    {
+      "id": "q33",
+      "stem": "What is the primary purpose of structured risk tools?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To support consistent recognition and communication of risk."
+        },
+        {
+          "id": "B",
+          "text": "To replace nursing assessment."
+        },
+        {
+          "id": "C",
+          "text": "To reduce documentation."
+        },
+        {
+          "id": "D",
+          "text": "To determine diagnosis independently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Risk tools support, but do not replace, clinical judgement."
+    },
+    {
+      "id": "q34",
+      "stem": "A nurse identifies increasing pain despite analgesia. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the patient is exaggerating."
+        },
+        {
+          "id": "B",
+          "text": "Reassess and investigate possible complications."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the next round."
+        },
+        {
+          "id": "D",
+          "text": "Document 'pain uncontrolled' only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Persistent or increasing pain may indicate complications and requires reassessment."
+    },
+    {
+      "id": "q35",
+      "stem": "Which ISBAR statement is the strongest recommendation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'He looks unwell.'"
+        },
+        {
+          "id": "B",
+          "text": "'I thought you should know.'"
+        },
+        {
+          "id": "C",
+          "text": "'Please review the patient urgently because of new confusion, RR 32 and oxygen saturation 88%.'"
+        },
+        {
+          "id": "D",
+          "text": "'The family is concerned.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A strong recommendation clearly states the requested action and the clinical reasons."
+    },
+    {
+      "id": "q36",
+      "stem": "A patient becomes pale and sweaty on standing. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue walking."
+        },
+        {
+          "id": "B",
+          "text": "Offer food before assessment."
+        },
+        {
+          "id": "C",
+          "text": "Leave to find help."
+        },
+        {
+          "id": "D",
+          "text": "Assist the patient to a safe position and assess."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Immediate safety and assessment are priorities when instability occurs."
+    },
+    {
+      "id": "q37",
+      "stem": "Which action best demonstrates prioritisation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessing sudden chest pain and breathlessness before non-urgent requests."
+        },
+        {
+          "id": "B",
+          "text": "Completing routine documentation before assessing chest pain."
+        },
+        {
+          "id": "C",
+          "text": "Answering all call bells in order received."
+        },
+        {
+          "id": "D",
+          "text": "Finishing medication rounds before escalation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Potentially life-threatening airway, breathing and circulation concerns take priority."
+    },
+    {
+      "id": "q38",
+      "stem": "A patient is deteriorating after a procedure. Which information is MOST important during escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Current observations, changes from baseline, interventions and response."
+        },
+        {
+          "id": "C",
+          "text": "The room number."
+        },
+        {
+          "id": "D",
+          "text": "The nurse's opinion without findings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Escalation should include objective, relevant clinical data and the response to interventions."
+    },
+    {
+      "id": "q39",
+      "stem": "Why should reduced urine output be escalated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is always normal after surgery."
+        },
+        {
+          "id": "B",
+          "text": "It only affects documentation."
+        },
+        {
+          "id": "C",
+          "text": "It may indicate reduced perfusion or organ dysfunction."
+        },
+        {
+          "id": "D",
+          "text": "It is less important than temperature."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Falling urine output may indicate reduced renal perfusion or systemic deterioration."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best shows effective early escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The form was completed."
+        },
+        {
+          "id": "B",
+          "text": "The nurse informed one colleague."
+        },
+        {
+          "id": "C",
+          "text": "The score was recorded."
+        },
+        {
+          "id": "D",
+          "text": "The patient received timely review and treatment before severe deterioration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The purpose of escalation is timely intervention that prevents worsening harm."
+    },
+    {
+      "id": "q41",
+      "stem": "During handover, which information is MOST important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Current condition, recent changes, risks and required actions."
+        },
+        {
+          "id": "B",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Personal opinions."
+        },
+        {
+          "id": "D",
+          "text": "All notes read word for word."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Effective handover prioritises clinically relevant information and outstanding actions."
+    },
+    {
+      "id": "q42",
+      "stem": "Which documentation entry is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Patient difficult and uncooperative.'"
+        },
+        {
+          "id": "B",
+          "text": "'Patient declined shower, stating fatigue; education provided and plan reviewed.'"
+        },
+        {
+          "id": "C",
+          "text": "'Patient rude.'"
+        },
+        {
+          "id": "D",
+          "text": "'Care refused.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation should be objective, factual and describe what occurred and what action was taken."
+    },
+    {
+      "id": "q43",
+      "stem": "A nurse receives a telephone order that sounds unclear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess the intended dose."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse later."
+        },
+        {
+          "id": "C",
+          "text": "Use closed-loop read-back and follow policy."
+        },
+        {
+          "id": "D",
+          "text": "Delay documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Read-back confirms accuracy and reduces communication errors."
+    },
+    {
+      "id": "q44",
+      "stem": "What should happen FIRST after a medication incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the incident report."
+        },
+        {
+          "id": "B",
+          "text": "Inform risk management."
+        },
+        {
+          "id": "C",
+          "text": "Discuss it at handover."
+        },
+        {
+          "id": "D",
+          "text": "Assess and protect the patient."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Immediate patient care takes priority before reporting and review."
+    },
+    {
+      "id": "q45",
+      "stem": "A near miss causes no harm. Why should it still be reported?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To identify system weaknesses before harm occurs."
+        },
+        {
+          "id": "B",
+          "text": "To discipline staff."
+        },
+        {
+          "id": "C",
+          "text": "Because all staff must be blamed."
+        },
+        {
+          "id": "D",
+          "text": "Only for legal reasons."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Near misses are valuable learning opportunities that reveal latent risks."
+    },
+    {
+      "id": "q46",
+      "stem": "Which statement about incident reports is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace clinical notes."
+        },
+        {
+          "id": "B",
+          "text": "They complement but do not replace clinical documentation."
+        },
+        {
+          "id": "C",
+          "text": "They should include blame."
+        },
+        {
+          "id": "D",
+          "text": "They are completed only if injury occurs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical documentation records care; incident reports support organisational learning."
+    },
+    {
+      "id": "q47",
+      "stem": "A receiving nurse does not understand an outstanding action during handover. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume responsibility silently."
+        },
+        {
+          "id": "B",
+          "text": "Wait until later."
+        },
+        {
+          "id": "C",
+          "text": "Ask for clarification and confirm who will act."
+        },
+        {
+          "id": "D",
+          "text": "Ignore it."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Handover should allow questions and clear transfer of responsibility."
+    },
+    {
+      "id": "q48",
+      "stem": "A nurse documents before providing care. Why is this unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It saves time."
+        },
+        {
+          "id": "B",
+          "text": "It is acceptable for routine care."
+        },
+        {
+          "id": "C",
+          "text": "It improves accuracy."
+        },
+        {
+          "id": "D",
+          "text": "It may create a false record if care changes or is not completed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Documentation should reflect actual care provided, not intended future actions."
+    },
+    {
+      "id": "q49",
+      "stem": "Which statement best demonstrates closed-loop communication in an emergency?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Give 5 mg morphine IV now.' '5 mg morphine IV now.' 'Correct.'"
+        },
+        {
+          "id": "B",
+          "text": "'Give 5 mg.'"
+        },
+        {
+          "id": "C",
+          "text": "'You know what to do.'"
+        },
+        {
+          "id": "D",
+          "text": "'Can someone help?'"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The receiver repeats the message and the sender confirms it, reducing misunderstanding."
+    },
+    {
+      "id": "q50",
+      "stem": "A patient deteriorates rapidly. What should the nurse document?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the final outcome."
+        },
+        {
+          "id": "B",
+          "text": "Assessment findings, times, interventions, responses and notifications."
+        },
+        {
+          "id": "C",
+          "text": "A summary at discharge."
+        },
+        {
+          "id": "D",
+          "text": "Only the doctor's actions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Comprehensive, time-based documentation supports continuity, accountability and review."
+    },
+    {
+      "id": "q51",
+      "stem": "Which phrase should be avoided in professional documentation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Patient walked 10 metres with one assistant.'"
+        },
+        {
+          "id": "B",
+          "text": "'Pain score 6/10.'"
+        },
+        {
+          "id": "C",
+          "text": "'Patient non-compliant.'"
+        },
+        {
+          "id": "D",
+          "text": "'Wound 3 cm with serous drainage.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Labels such as 'non-compliant' are subjective and should be replaced with objective descriptions."
+    },
+    {
+      "id": "q52",
+      "stem": "An incident report asks for contributing factors. Which response is BEST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "State only who made the error."
+        },
+        {
+          "id": "B",
+          "text": "Use emotional language."
+        },
+        {
+          "id": "C",
+          "text": "Omit system factors."
+        },
+        {
+          "id": "D",
+          "text": "Describe workload, interruptions, equipment and communication factors factually."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Incident review should examine factual contributing conditions, not assign blame."
+    },
+    {
+      "id": "q53",
+      "stem": "A critical laboratory result is telephoned to the ward. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeat the result back, document it and notify the appropriate clinician promptly."
+        },
+        {
+          "id": "B",
+          "text": "Write it down without confirmation."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the electronic record."
+        },
+        {
+          "id": "D",
+          "text": "Tell the next shift."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Critical results require read-back, timely documentation and escalation."
+    },
+    {
+      "id": "q54",
+      "stem": "During handover, the outgoing nurse says a patient is 'fine.' What should the receiving nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the statement."
+        },
+        {
+          "id": "B",
+          "text": "Request objective observations, recent changes and outstanding risks."
+        },
+        {
+          "id": "C",
+          "text": "Wait until rounds."
+        },
+        {
+          "id": "D",
+          "text": "Read the notes at discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Vague handover is unsafe; objective information is required."
+    },
+    {
+      "id": "q55",
+      "stem": "A nurse discovers an error in the electronic record. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delete the original entry."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse to change it."
+        },
+        {
+          "id": "C",
+          "text": "Correct it according to policy while preserving the audit trail."
+        },
+        {
+          "id": "D",
+          "text": "Ignore it."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Corrections must follow legal and organisational requirements and maintain transparency."
+    },
+    {
+      "id": "q56",
+      "stem": "Why should responsibility be confirmed at handover?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To reduce teamwork."
+        },
+        {
+          "id": "B",
+          "text": "To shorten documentation."
+        },
+        {
+          "id": "C",
+          "text": "To shift blame."
+        },
+        {
+          "id": "D",
+          "text": "To prevent important actions from being assumed or omitted."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clear ownership reduces missed care and communication failures."
+    },
+    {
+      "id": "q57",
+      "stem": "A nurse reports a near miss but omits it from team review. What learning opportunity is lost?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The chance to identify patterns and prevent recurrence."
+        },
+        {
+          "id": "B",
+          "text": "None, because no harm occurred."
+        },
+        {
+          "id": "C",
+          "text": "Only a legal opportunity."
+        },
+        {
+          "id": "D",
+          "text": "Only a staffing issue."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Near misses can reveal system weaknesses and trends before patients are harmed."
+    },
+    {
+      "id": "q58",
+      "stem": "Which handover format best supports safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unstructured storytelling."
+        },
+        {
+          "id": "B",
+          "text": "Prioritised ISBAR with opportunity for questions."
+        },
+        {
+          "id": "C",
+          "text": "Reading every note."
+        },
+        {
+          "id": "D",
+          "text": "Discussing only medications."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Structured handover improves clarity and continuity."
+    },
+    {
+      "id": "q59",
+      "stem": "A nurse documents 'doctor informed' without details. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient's bed number."
+        },
+        {
+          "id": "B",
+          "text": "The nurse's feelings."
+        },
+        {
+          "id": "C",
+          "text": "The clinician's name, time, information communicated and response or plan."
+        },
+        {
+          "id": "D",
+          "text": "The shift roster."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Documentation should clearly identify who was informed, when, what was communicated and the resulting plan."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome BEST reflects effective communication and incident management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The report is completed."
+        },
+        {
+          "id": "B",
+          "text": "Staff avoid discussion."
+        },
+        {
+          "id": "C",
+          "text": "Only managers know the event."
+        },
+        {
+          "id": "D",
+          "text": "Risks are clearly communicated, patient care is protected and system learning occurs."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective management combines immediate safety, accurate communication and organisational learning."
+    },
+    {
+      "id": "q61",
+      "stem": "A patient with limited English needs discharge education about wound care. What is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a professional interpreter and teach-back."
+        },
+        {
+          "id": "B",
+          "text": "Ask a child family member to translate."
+        },
+        {
+          "id": "C",
+          "text": "Provide written English instructions only."
+        },
+        {
+          "id": "D",
+          "text": "Skip education."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional interpretation and teach-back support accurate, safe communication."
+    },
+    {
+      "id": "q62",
+      "stem": "What is the purpose of teach-back?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To test the patient's intelligence."
+        },
+        {
+          "id": "B",
+          "text": "To confirm whether the explanation was understood."
+        },
+        {
+          "id": "C",
+          "text": "To reduce time spent teaching."
+        },
+        {
+          "id": "D",
+          "text": "To replace written information."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Teach-back checks the effectiveness of the nurse's explanation."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient asks whether the nurse cleaned their hands. What is the BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Become defensive."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient not to question staff."
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge the question and perform hand hygiene if needed."
+        },
+        {
+          "id": "D",
+          "text": "Ignore it."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients should be invited to participate in safety, including hand hygiene awareness."
+    },
+    {
+      "id": "q64",
+      "stem": "A family member offers to interpret a complex consent discussion. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the family member because it is quicker."
+        },
+        {
+          "id": "B",
+          "text": "Cancel the procedure."
+        },
+        {
+          "id": "C",
+          "text": "Use gestures only."
+        },
+        {
+          "id": "D",
+          "text": "Arrange a qualified interpreter while allowing family support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Qualified interpreters improve accuracy, confidentiality and informed decision-making."
+    },
+    {
+      "id": "q65",
+      "stem": "Which action best demonstrates cultural safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asking the patient what matters to them and adapting care where safe."
+        },
+        {
+          "id": "B",
+          "text": "Assuming preferences from cultural background."
+        },
+        {
+          "id": "C",
+          "text": "Providing identical care without discussion."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding cultural topics."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural safety requires respectful enquiry and avoidance of stereotypes."
+    },
+    {
+      "id": "q66",
+      "stem": "A cultural preference conflicts with a non-negotiable infection-control requirement. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the preference."
+        },
+        {
+          "id": "B",
+          "text": "Explain the safety requirement respectfully and explore acceptable alternatives."
+        },
+        {
+          "id": "C",
+          "text": "Allow unsafe practice."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to decide."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should balance cultural respect with evidence-based safety and seek alternatives where possible."
+    },
+    {
+      "id": "q67",
+      "stem": "A patient with hearing impairment receives safety instructions. What is the BEST method?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speak from behind."
+        },
+        {
+          "id": "B",
+          "text": "Shout."
+        },
+        {
+          "id": "C",
+          "text": "Face the patient, use accessible written or visual support and confirm understanding."
+        },
+        {
+          "id": "D",
+          "text": "Communicate only through relatives."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Communication should be adapted to the patient's needs and verified."
+    },
+    {
+      "id": "q68",
+      "stem": "Which patient action should nurses encourage as part of shared safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding questions."
+        },
+        {
+          "id": "B",
+          "text": "Relying entirely on staff."
+        },
+        {
+          "id": "C",
+          "text": "Withholding concerns."
+        },
+        {
+          "id": "D",
+          "text": "Confirming identity and reporting allergies or changes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patients can contribute meaningfully by confirming identity, reporting allergies and describing changes."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient nods throughout education but cannot explain the plan. What should the nurse conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The explanation should be adapted and repeated using teach-back."
+        },
+        {
+          "id": "B",
+          "text": "Understanding is confirmed."
+        },
+        {
+          "id": "C",
+          "text": "The patient is non-compliant."
+        },
+        {
+          "id": "D",
+          "text": "No further action is needed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Nodding does not prove understanding. Teaching should be adapted and checked."
+    },
+    {
+      "id": "q70",
+      "stem": "A patient with low health literacy needs medication instructions. What is BEST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use technical language."
+        },
+        {
+          "id": "B",
+          "text": "Use plain language, visual aids and teach-back."
+        },
+        {
+          "id": "C",
+          "text": "Provide a long leaflet only."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to search online."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Accessible communication improves safety and self-management."
+    },
+    {
+      "id": "q71",
+      "stem": "A patient refuses a safety intervention because of a previous traumatic healthcare experience. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Force the intervention."
+        },
+        {
+          "id": "B",
+          "text": "Label the patient difficult."
+        },
+        {
+          "id": "C",
+          "text": "Explore concerns, explain options and use a trauma-informed approach."
+        },
+        {
+          "id": "D",
+          "text": "End the discussion."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Trauma-informed care supports safety through choice, explanation and respectful engagement."
+    },
+    {
+      "id": "q72",
+      "stem": "Which action best preserves patient autonomy during safety planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Make the plan without the patient."
+        },
+        {
+          "id": "B",
+          "text": "Use restriction as the first option."
+        },
+        {
+          "id": "C",
+          "text": "Ask family to decide without consent."
+        },
+        {
+          "id": "D",
+          "text": "Discuss risks and agree on practical strategies with the patient."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Shared decision-making improves engagement and respects autonomy."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient with visual impairment must learn drain care. What is the BEST approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use tactile demonstration, verbal explanation and return demonstration."
+        },
+        {
+          "id": "B",
+          "text": "Provide standard printed instructions only."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to do everything."
+        },
+        {
+          "id": "D",
+          "text": "Delay discharge indefinitely."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Education should be adapted to sensory needs and confirmed through performance."
+    },
+    {
+      "id": "q74",
+      "stem": "A patient prefers a traditional practice that does not create clinical risk. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prohibit it automatically."
+        },
+        {
+          "id": "B",
+          "text": "Accommodate it where possible."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the request."
+        },
+        {
+          "id": "D",
+          "text": "Tell the patient to adopt local customs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe cultural preferences should be respected and incorporated where possible."
+    },
+    {
+      "id": "q75",
+      "stem": "Which response best invites patient participation in infection prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Safety is only the staff's responsibility.'"
+        },
+        {
+          "id": "B",
+          "text": "'Do not ask questions.'"
+        },
+        {
+          "id": "C",
+          "text": "'You may remind us about hand hygiene and tell us if your dressing changes.'"
+        },
+        {
+          "id": "D",
+          "text": "'Report concerns after discharge.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Inviting participation helps patients contribute to safe care."
+    },
+    {
+      "id": "q76",
+      "stem": "A patient cannot read the discharge sheet. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Record 'non-compliant.'"
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to sign anyway."
+        },
+        {
+          "id": "C",
+          "text": "Skip the instructions."
+        },
+        {
+          "id": "D",
+          "text": "Provide verbal and visual education and confirm understanding."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Education must be accessible and comprehension verified."
+    },
+    {
+      "id": "q77",
+      "stem": "A nurse assumes that a patient will refuse blood products based on cultural background. Why is this unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It relies on stereotyping rather than individual assessment."
+        },
+        {
+          "id": "B",
+          "text": "It saves time."
+        },
+        {
+          "id": "C",
+          "text": "It protects cultural rights."
+        },
+        {
+          "id": "D",
+          "text": "It is required practice."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural safety requires asking individual preferences rather than making assumptions."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient with cognitive impairment needs safety education. What is the BEST plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide one complex explanation."
+        },
+        {
+          "id": "B",
+          "text": "Use simple repeated information, involve appropriate support and assess capacity and understanding."
+        },
+        {
+          "id": "C",
+          "text": "Avoid involving the patient."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient to explain."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Communication should be adapted to cognition while preserving participation and support."
+    },
+    {
+      "id": "q79",
+      "stem": "Which outcome BEST indicates effective teach-back?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient signs the form."
+        },
+        {
+          "id": "B",
+          "text": "The nurse finishes the education quickly."
+        },
+        {
+          "id": "C",
+          "text": "The patient accurately explains or demonstrates the safety steps in their own words."
+        },
+        {
+          "id": "D",
+          "text": "A family member nods."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Teach-back is successful when the patient can explain or demonstrate the plan accurately."
+    },
+    {
+      "id": "q80",
+      "stem": "What best defines patient-centred safety care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Applying identical interventions to everyone."
+        },
+        {
+          "id": "B",
+          "text": "Allowing all preferences regardless of risk."
+        },
+        {
+          "id": "C",
+          "text": "Focusing only on policy compliance."
+        },
+        {
+          "id": "D",
+          "text": "Combining evidence-based safety with individual communication, culture, preferences and participation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patient-centred safety integrates evidence with the person's needs, values and involvement."
+    }
+  ]
+}

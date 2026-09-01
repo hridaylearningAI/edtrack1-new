@@ -1,0 +1,954 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Rapid-Acting Insulin and Symptomatic Hypoglycaemia",
+      "stem": "Mr. Karan Mehta, a 56-year-old man with type 2 diabetes, is admitted for cellulitis and is receiving mealtime rapid-acting insulin. Before lunch, the nurse administers the prescribed insulin after verifying the order and checking his blood glucose. A short time later, the patient develops nausea and says he no longer feels like eating more than a few bites of food. Thirty minutes later the nurse notices that he is pale, diaphoretic, shaky, and suddenly confused. He says, “I feel strange,” and struggles to answer questions clearly. Repeat capillary glucose is markedly low. The nurse recognises symptomatic hypoglycaemia caused by insulin-food mismatch and must act quickly to protect the patient.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate acute hypoglycaemia? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Diaphoresis"
+            },
+            {
+              "id": "B",
+              "text": "Tremor and shakiness"
+            },
+            {
+              "id": "C",
+              "text": "Confusion"
+            },
+            {
+              "id": "D",
+              "text": "Poor oral intake after insulin"
+            },
+            {
+              "id": "E",
+              "text": "Low repeat glucose value"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings point to hypoglycaemia. Insulin given before inadequate food intake is a common cause. Sweating, tremor, confusion, and low glucose are classic warning signs. NCLEX pharmacology questions often require the nurse to connect medication timing with nutrition and symptom onset."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is simply tired from infection"
+            },
+            {
+              "id": "B",
+              "text": "The patient is experiencing symptomatic hypoglycaemia related to rapid-acting insulin and insufficient intake"
+            },
+            {
+              "id": "C",
+              "text": "The patient is developing serotonin syndrome"
+            },
+            {
+              "id": "D",
+              "text": "The patient is having a normal insulin response and needs no intervention"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The symptom cluster clearly fits hypoglycaemia. Infection alone does not explain the rapid onset of adrenergic and neuroglycopenic symptoms after insulin administration and poor food intake."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for neurological injury related to low blood glucose"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about long-term foot care"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The brain depends on glucose for function. Acute hypoglycaemia threatens neurological safety and may progress to seizure or loss of consciousness if untreated."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Follow hypoglycaemia protocol immediately, using an appropriate treatment route based on whether the patient can swallow safely"
+            },
+            {
+              "id": "B",
+              "text": "Delay treatment until the next scheduled meal"
+            },
+            {
+              "id": "C",
+              "text": "Give more insulin to prevent rebound hyperglycaemia"
+            },
+            {
+              "id": "D",
+              "text": "Ask the patient to walk around to improve alertness"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must treat low glucose immediately using oral carbohydrate if swallowing is safe or an alternative route if not. Delay is unsafe. Additional insulin would worsen the problem."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recheck glucose after treatment according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Assess why intake was poor after insulin administration"
+            },
+            {
+              "id": "C",
+              "text": "Notify the provider if recurrent hypoglycaemia or regimen adjustment is needed"
+            },
+            {
+              "id": "D",
+              "text": "Educate the patient later about matching insulin to meals"
+            },
+            {
+              "id": "E",
+              "text": "Assume the event is resolved once symptoms improve and stop monitoring"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Repeat glucose checks are essential because recurrence can occur. Understanding why the patient ate poorly matters for prevention. Provider review and patient education help prevent future episodes. Monitoring should continue until stability is clear."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Glucose rises to a safer range, confusion resolves, tremor decreases, and the patient is able to eat or continue treatment safely"
+            },
+            {
+              "id": "B",
+              "text": "The patient remains confused and increasingly drowsy"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one snack is given"
+            },
+            {
+              "id": "D",
+              "text": "The nurse ignores the event because it happened only once"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement in hypoglycaemia is demonstrated by both objective and clinical recovery: better glucose value and resolution of symptoms."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Long-Acting Insulin Error and Medication Safety Reporting",
+      "stem": "Mrs. Elena D'Souza, a 67-year-old patient with diabetes, is due to receive her evening long-acting insulin. During a busy medication round, the nurse realises after administration that the dose given was the short-acting insulin from a similar-looking pen rather than the prescribed basal preparation. The patient has not yet gone to dinner and currently has no symptoms. The nurse feels alarmed and briefly considers waiting to see whether the patient becomes hypoglycaemic before telling anyone. The medication administration record confirms the wrong insulin type was given. The situation requires immediate patient safety action and transparent reporting.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings confirm that a medication error has occurred? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "The wrong insulin type was administered"
+            },
+            {
+              "id": "B",
+              "text": "Similar packaging contributed to selection error"
+            },
+            {
+              "id": "C",
+              "text": "The MAR confirms the intended drug was different"
+            },
+            {
+              "id": "D",
+              "text": "The patient is not yet symptomatic"
+            },
+            {
+              "id": "E",
+              "text": "The patient has not yet eaten dinner"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "A medication error occurred because the wrong drug type was administered. Similar packaging is a relevant contributing factor, and the timing relative to meals increases risk. The absence of immediate symptoms does not erase the error or reduce the need to act."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "No problem exists unless the patient becomes symptomatic"
+            },
+            {
+              "id": "B",
+              "text": "A high-risk medication error has occurred and requires immediate assessment, monitoring, disclosure, and reporting"
+            },
+            {
+              "id": "C",
+              "text": "The error should be hidden if no harm occurs"
+            },
+            {
+              "id": "D",
+              "text": "Only the pharmacy needs to know"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Insulin is a high-alert medication. Even if the patient is asymptomatic, the wrong insulin type can cause serious hypoglycaemia. NCLEX medication safety questions prioritise immediate patient assessment and transparent error management."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for hypoglycaemia due to wrong insulin administration"
+            },
+            {
+              "id": "B",
+              "text": "Nurse anxiety about disciplinary action"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The first priority is the patient’s risk of harm from the error, not the nurse’s emotional response."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess the patient, implement close glucose monitoring, ensure access to food or treatment as appropriate, and notify the provider immediately"
+            },
+            {
+              "id": "B",
+              "text": "Wait to see if the patient looks unwell later"
+            },
+            {
+              "id": "C",
+              "text": "Chart the correct insulin type instead of the one actually given"
+            },
+            {
+              "id": "D",
+              "text": "Ask another nurse to keep it quiet"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Immediate patient-focused action is essential. The provider must be informed, glucose must be monitored, and intervention planning should begin promptly. Falsifying documentation or hiding the error is unethical and unsafe."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Document factually what occurred and the patient’s status"
+            },
+            {
+              "id": "B",
+              "text": "Complete incident reporting according to policy"
+            },
+            {
+              "id": "C",
+              "text": "Monitor glucose frequently and watch for symptoms"
+            },
+            {
+              "id": "D",
+              "text": "Participate in system review of look-alike/sound-alike risks"
+            },
+            {
+              "id": "E",
+              "text": "Avoid telling the patient because transparency may upset them"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Objective documentation, incident reporting, and monitoring are all appropriate. Medication errors should be disclosed appropriately and honestly rather than concealed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management of the error?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient remains safe under close monitoring, any glucose abnormalities are treated promptly, and the error is documented and reported appropriately"
+            },
+            {
+              "id": "B",
+              "text": "The error is hidden because no immediate harm is seen"
+            },
+            {
+              "id": "C",
+              "text": "The record is altered to avoid investigation"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped after one normal glucose reading"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects the patient and supports safety culture through honest reporting and corrective system review."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Warfarin Therapy with Elevated INR and Bleeding Risk",
+      "stem": "Mr. Noel Pereira, a 73-year-old man receiving warfarin for atrial fibrillation, reports gum bleeding while brushing his teeth and notices that his stools appear darker than usual. He says he recently started taking an over-the-counter herbal product because a friend recommended it for “better circulation.” Laboratory results show a significantly elevated INR. On assessment, the nurse notes bruising on his arms and mild weakness. The nurse suspects excessive anticoagulation with possible interaction-related bleeding risk.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate excessive anticoagulation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Elevated INR"
+            },
+            {
+              "id": "B",
+              "text": "Gum bleeding"
+            },
+            {
+              "id": "C",
+              "text": "Dark stools"
+            },
+            {
+              "id": "D",
+              "text": "Easy bruising"
+            },
+            {
+              "id": "E",
+              "text": "Recent new herbal supplement"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings raise concern for bleeding risk in a patient on warfarin. The new herbal product may have altered anticoagulant effect. NCLEX pharmacology questions often test medication-food-supplement interactions in anticoagulation therapy."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is showing likely warfarin-related bleeding risk and requires prompt intervention"
+            },
+            {
+              "id": "B",
+              "text": "Mild bruising is always expected and does not matter"
+            },
+            {
+              "id": "C",
+              "text": "The INR is unimportant if the patient feels well"
+            },
+            {
+              "id": "D",
+              "text": "Black stools are unrelated to anticoagulation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The elevated INR plus bleeding signs strongly suggest excessive anticoagulation. Dark stools may indicate gastrointestinal bleeding and should never be dismissed."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for significant bleeding related to excessive anticoagulation"
+            },
+            {
+              "id": "B",
+              "text": "Social isolation"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about exercise"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Bleeding is the immediate safety threat. Ongoing anticoagulation in the setting of elevated INR can lead to major haemorrhage."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold or question further warfarin administration as appropriate, assess bleeding status, and notify the provider urgently"
+            },
+            {
+              "id": "B",
+              "text": "Give the next dose on time because atrial fibrillation remains present"
+            },
+            {
+              "id": "C",
+              "text": "Tell the patient to stop brushing teeth"
+            },
+            {
+              "id": "D",
+              "text": "Delay reporting until the next clinic review"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must respond to the elevated INR and bleeding cues immediately. Continuing warfarin without review may worsen harm."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review all prescription, OTC, and herbal products the patient is taking"
+            },
+            {
+              "id": "B",
+              "text": "Monitor for worsening weakness, hypotension, or signs of occult bleeding"
+            },
+            {
+              "id": "C",
+              "text": "Provide teaching about consistent diet and interaction risks once stable"
+            },
+            {
+              "id": "D",
+              "text": "Reassess the patient’s understanding of warfarin monitoring"
+            },
+            {
+              "id": "E",
+              "text": "Assume black stools are dietary unless proven otherwise and stop monitoring"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "A full medication history and patient education are essential in warfarin care. Black stools may reflect GI bleeding and require careful monitoring rather than dismissal."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bleeding signs are addressed promptly, INR management is adjusted appropriately, and the patient demonstrates better understanding of interaction risks"
+            },
+            {
+              "id": "B",
+              "text": "Additional bruising develops with no medication review"
+            },
+            {
+              "id": "C",
+              "text": "The next warfarin dose is given automatically"
+            },
+            {
+              "id": "D",
+              "text": "Documentation focuses only on the herbal product and ignores bleeding"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe management includes reducing bleeding risk, addressing the INR abnormality, and improving patient understanding to prevent recurrence."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Heparin Infusion with Prolonged aPTT",
+      "stem": "Mrs. Anita Roy is receiving an IV heparin infusion for treatment of a deep vein thrombosis. During the shift, the nurse reviews the latest laboratory results and finds that the aPTT is well above the therapeutic target. At the same time, the patient reports oozing from the gums and the nurse notices bleeding at the IV insertion site. The patient is otherwise hemodynamically stable, but the combination of over-anticoagulation and visible bleeding requires prompt action. The nurse must apply safe infusion monitoring principles and avoid further harm.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate excessive heparin effect? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "aPTT above therapeutic range"
+            },
+            {
+              "id": "B",
+              "text": "Gum bleeding"
+            },
+            {
+              "id": "C",
+              "text": "Oozing at IV site"
+            },
+            {
+              "id": "D",
+              "text": "Ongoing heparin infusion"
+            },
+            {
+              "id": "E",
+              "text": "Need for close infusion reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings indicate excessive anticoagulant effect. Heparin infusions require strict monitoring, and visible bleeding plus high aPTT are significant warning signs."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The current heparin effect is likely too strong and may cause significant bleeding if not adjusted"
+            },
+            {
+              "id": "B",
+              "text": "The infusion should continue unchanged because DVT is serious"
+            },
+            {
+              "id": "C",
+              "text": "aPTT is irrelevant once the infusion starts"
+            },
+            {
+              "id": "D",
+              "text": "Minor bleeding should be ignored if the patient is stable"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This patient shows evidence of over-anticoagulation. Continuing the infusion unchanged could cause major bleeding."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for haemorrhage related to excessive heparin effect"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Anxiety about hospitalisation"
+            },
+            {
+              "id": "D",
+              "text": "Constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should prioritise prevention of bleeding complications above all other concerns."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop or adjust the infusion according to protocol, assess the patient carefully, and notify the provider or follow the heparin titration protocol immediately"
+            },
+            {
+              "id": "B",
+              "text": "Increase the infusion to prevent clot extension"
+            },
+            {
+              "id": "C",
+              "text": "Delay action until the next scheduled aPTT"
+            },
+            {
+              "id": "D",
+              "text": "Remove the IV and send the patient home"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Heparin safety depends on protocol-based response to abnormal aPTT and bleeding signs. Delay is unsafe. Increasing the infusion would worsen risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor for worsening bleeding, bruising, or hypotension"
+            },
+            {
+              "id": "B",
+              "text": "Reassess laboratory values after protocol-based adjustment"
+            },
+            {
+              "id": "C",
+              "text": "Review whether any other medications increase bleeding risk"
+            },
+            {
+              "id": "D",
+              "text": "Document the infusion status and patient findings accurately"
+            },
+            {
+              "id": "E",
+              "text": "Assume the gum bleeding is unrelated and continue without reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All of these are appropriate. Polypharmacy can worsen bleeding risk, and careful documentation and reassessment are essential."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "aPTT moves toward the target range, bleeding decreases, and the patient remains hemodynamically stable"
+            },
+            {
+              "id": "B",
+              "text": "Oozing continues while the infusion runs unchanged"
+            },
+            {
+              "id": "C",
+              "text": "Laboratory reassessment is skipped"
+            },
+            {
+              "id": "D",
+              "text": "The patient becomes hypotensive without escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is demonstrated by better control of anticoagulation and less bleeding without loss of therapeutic oversight."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Digoxin Toxicity",
+      "stem": "Mr. Samuel Brooks, a 79-year-old man with heart failure, is taking digoxin and a loop diuretic. He reports nausea, poor appetite, increasing fatigue, and says that lights seem to have a yellow-green halo around them. On assessment, his apical pulse is slower than usual and irregular. The nurse reviews his medication list and notes that recent vomiting and poor intake may have worsened electrolyte imbalance. The combination of visual changes, gastrointestinal symptoms, and bradycardia raises concern for digoxin toxicity.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are consistent with digoxin toxicity? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nausea and poor appetite"
+            },
+            {
+              "id": "B",
+              "text": "Yellow-green visual halos"
+            },
+            {
+              "id": "C",
+              "text": "Bradycardia or irregular pulse"
+            },
+            {
+              "id": "D",
+              "text": "Older age with polypharmacy risk"
+            },
+            {
+              "id": "E",
+              "text": "Possible electrolyte imbalance"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic or highly relevant digoxin toxicity clues. Older adults are especially vulnerable, and electrolyte disturbances such as hypokalaemia can increase toxicity risk."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The symptoms likely suggest digoxin toxicity requiring prompt medication review and cardiac assessment"
+            },
+            {
+              "id": "B",
+              "text": "The patient has mild indigestion only"
+            },
+            {
+              "id": "C",
+              "text": "Visual changes are unrelated to digoxin"
+            },
+            {
+              "id": "D",
+              "text": "Bradycardia is expected and never important in digoxin therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The combination of GI upset, visual disturbance, and bradycardia is highly suspicious for digoxin toxicity. This requires prompt action."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for dysrhythmia and worsening cardiac instability related to digoxin toxicity"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Digoxin toxicity can trigger dangerous cardiac dysrhythmias. This is the immediate priority."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold digoxin, assess apical pulse and rhythm carefully, and notify the provider while preparing for further evaluation"
+            },
+            {
+              "id": "B",
+              "text": "Give the next dose because the patient has heart failure"
+            },
+            {
+              "id": "C",
+              "text": "Offer a larger dose to improve cardiac output"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the pulse irregularity if nausea settles"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Suspected digoxin toxicity requires withholding the drug and escalating evaluation. Continuing the medication could worsen harm."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review potassium and renal function results"
+            },
+            {
+              "id": "B",
+              "text": "Monitor the ECG or cardiac rhythm closely"
+            },
+            {
+              "id": "C",
+              "text": "Reassess for vomiting, weakness, and mental status changes"
+            },
+            {
+              "id": "D",
+              "text": "Teach the patient later to check pulse as instructed before dosing if appropriate"
+            },
+            {
+              "id": "E",
+              "text": "Assume visual symptoms are harmless in older adults"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Potassium and kidney function are crucial in digoxin safety. Ongoing symptom and rhythm monitoring are appropriate. Visual changes should not be dismissed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pulse and rhythm stabilise, symptoms lessen, and contributing factors such as electrolyte imbalance are addressed"
+            },
+            {
+              "id": "B",
+              "text": "Digoxin is continued despite worsening bradycardia"
+            },
+            {
+              "id": "C",
+              "text": "Nausea worsens and no labs are reviewed"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped because the patient looks tired"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe improvement involves both symptom resolution and correction of the underlying causes of toxicity."
+        }
+      ]
+    }
+  ]
+}

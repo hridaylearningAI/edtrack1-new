@@ -1,0 +1,955 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Hand Hygiene Failure and Surgical Site Infection Risk",
+      "stem": "A busy surgical ward nurse moves quickly between patients during a high-acuity shift. After assisting one patient with wound drainage, the nurse answers another call bell and begins helping a fresh postoperative patient to reposition in bed. In the rush, hand hygiene is not performed before touching the second patient’s dressing area and IV tubing. Two days later, the postoperative patient develops increasing incisional pain, redness, warmth, and low-grade fever. The nurse reviewing the event recognises that a seemingly brief lapse in standard precautions may have contributed to preventable infection risk. The scenario requires understanding that hand hygiene is one of the most powerful safety measures in all clinical settings.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which elements in this scenario create infection transmission risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moving from one patient to another without hand hygiene"
+            },
+            {
+              "id": "B",
+              "text": "Contact with wound drainage before assisting the second patient"
+            },
+            {
+              "id": "C",
+              "text": "Touching the postoperative dressing area"
+            },
+            {
+              "id": "D",
+              "text": "Contact with IV tubing after contamination risk"
+            },
+            {
+              "id": "E",
+              "text": "Development of redness and fever later"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings are relevant. The initial lapse in hand hygiene created an infection transmission opportunity, and the later wound findings raise concern that preventable contamination may have occurred. NCLEX safety questions often test the link between a simple omission and later hospital-acquired infection."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation of this event?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hand hygiene matters only when gloves are unavailable"
+            },
+            {
+              "id": "B",
+              "text": "A lapse in standard precautions may have increased the patient’s risk for healthcare-associated infection"
+            },
+            {
+              "id": "C",
+              "text": "Postoperative redness is always normal and unrelated to care"
+            },
+            {
+              "id": "D",
+              "text": "The only important issue is whether antibiotics are ordered"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Standard precautions apply to all patient care. Hand hygiene is required before and after patient contact and before clean or aseptic tasks. The nurse should interpret the event as a safety failure with potential infection consequences."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent now?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for or evidence of wound infection requiring prompt assessment and response"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Once signs of infection appear, the priority becomes prompt assessment and intervention to prevent worsening. The broader systems issue also matters, but the patient’s current safety comes first."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assess the wound and patient comprehensively, perform correct hand hygiene, notify the provider as appropriate, and reinforce infection-prevention practice"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the wound because mild fever is common after surgery"
+            },
+            {
+              "id": "C",
+              "text": "Cover the wound without reassessment and wait until tomorrow"
+            },
+            {
+              "id": "D",
+              "text": "Focus only on apologising to the patient"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The first step is patient assessment and appropriate escalation. Hand hygiene must be performed correctly going forward, and infection signs must not be dismissed."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review wound drainage, pain, temperature, and incision appearance"
+            },
+            {
+              "id": "B",
+              "text": "Reinforce hand hygiene compliance among staff"
+            },
+            {
+              "id": "C",
+              "text": "Use standard precautions consistently even when the exact organism is unknown"
+            },
+            {
+              "id": "D",
+              "text": "Document objective findings and actions taken"
+            },
+            {
+              "id": "E",
+              "text": "Assume gloves replace hand hygiene in all cases"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate actions. Gloves do not replace hand hygiene. Safety culture includes honest assessment, documentation, and reinforcement of core precautions."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The wound is assessed early, infection is addressed promptly, and correct hand hygiene practice is consistently followed thereafter"
+            },
+            {
+              "id": "B",
+              "text": "Staff continue skipping hand hygiene when busy"
+            },
+            {
+              "id": "C",
+              "text": "The wound worsens and no documentation is completed"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring stops because one dressing was changed"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management means both immediate patient protection and prevention of repeated lapses through safe practice."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Contact Precautions for Clostridioides difficile",
+      "stem": "Mr. James Cole, a 72-year-old patient recently treated with broad-spectrum antibiotics, develops frequent watery diarrhea with abdominal cramping while on the medical ward. A nurse initially assumes it is simply a side effect of the antibiotics and continues routine care without isolation. Shared bathroom facilities are still being used. Within the next day, two nearby patients also develop diarrhea. The infection control team raises concern for Clostridioides difficile. The nurse must understand the importance of early contact precautions, dedicated equipment, and correct environmental cleaning in preventing spread.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest the need to suspect and isolate for C. difficile? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recent broad-spectrum antibiotic use"
+            },
+            {
+              "id": "B",
+              "text": "Frequent watery diarrhea"
+            },
+            {
+              "id": "C",
+              "text": "Shared bathroom use on the ward"
+            },
+            {
+              "id": "D",
+              "text": "Additional patients later developing diarrhea"
+            },
+            {
+              "id": "E",
+              "text": "Delay in contact precautions"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed cues are important. Antibiotic exposure and watery diarrhea are classic triggers for suspicion. Shared bathrooms and delayed isolation increase transmission risk."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Routine diarrhea care is enough until culture results are final"
+            },
+            {
+              "id": "B",
+              "text": "Early contact precautions and environmental control are indicated when C. difficile is suspected"
+            },
+            {
+              "id": "C",
+              "text": "Hand hygiene is unnecessary if gloves are worn"
+            },
+            {
+              "id": "D",
+              "text": "Isolation should start only after multiple patients are affected"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Infection control practice prioritises early suspicion and immediate precautions to reduce spread. Waiting for widespread transmission is unsafe."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for transmission of infectious diarrhea to other patients and staff"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Need for entertainment activities"
+            },
+            {
+              "id": "D",
+              "text": "Social withdrawal"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Protecting other patients and staff from spread is the immediate safety priority while the symptomatic patient is assessed and treated."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Initiate contact precautions promptly, use dedicated equipment, and ensure proper hand hygiene and environmental measures"
+            },
+            {
+              "id": "B",
+              "text": "Continue routine care until the next shift"
+            },
+            {
+              "id": "C",
+              "text": "Move the patient around the ward for observation"
+            },
+            {
+              "id": "D",
+              "text": "Share equipment freely to save time"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Immediate contact precautions reduce spread. Shared equipment and unnecessary patient movement increase contamination risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wash hands appropriately and follow local policy, especially after glove removal"
+            },
+            {
+              "id": "B",
+              "text": "Use dedicated or disinfected equipment for this patient"
+            },
+            {
+              "id": "C",
+              "text": "Reinforce environmental cleaning for contaminated surfaces"
+            },
+            {
+              "id": "D",
+              "text": "Educate staff and visitors about gown and glove use"
+            },
+            {
+              "id": "E",
+              "text": "Assume alcohol hand rub alone is always sufficient in every C. difficile situation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these actions are appropriate. Local policy often emphasises soap-and-water hand hygiene after caring for patients with C. difficile because spores are difficult to remove."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Contact precautions are applied promptly, contamination is reduced, and no further linked spread occurs"
+            },
+            {
+              "id": "B",
+              "text": "Diarrhea continues spreading because isolation remains delayed"
+            },
+            {
+              "id": "C",
+              "text": "Equipment is shared without cleaning"
+            },
+            {
+              "id": "D",
+              "text": "Staff stop precautions when symptoms lessen slightly"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Successful management limits further transmission and applies contact precautions consistently."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Airborne Precautions for Suspected Tuberculosis",
+      "stem": "Ms. Lila Fernandez is admitted with persistent cough, night sweats, low-grade fever, fatigue, and recent weight loss. Because no isolation rooms appear immediately available, she is placed temporarily in a general ward bed while tests are pending. She is coughing frequently, and one patient nearby is immunocompromised. Later that day, the nurse reviewing the history recognises the strong possibility of pulmonary tuberculosis. The delay in instituting airborne precautions may have exposed others to preventable risk. The nurse must act quickly to contain further harm.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features should raise suspicion for pulmonary tuberculosis? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Persistent cough"
+            },
+            {
+              "id": "B",
+              "text": "Night sweats"
+            },
+            {
+              "id": "C",
+              "text": "Weight loss and fatigue"
+            },
+            {
+              "id": "D",
+              "text": "Placement in a shared room before review"
+            },
+            {
+              "id": "E",
+              "text": "Frequent coughing near vulnerable patients"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors are important. The symptom pattern plus delayed isolation in a shared environment creates a significant airborne transmission concern."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Airborne precautions can wait until final confirmation"
+            },
+            {
+              "id": "B",
+              "text": "Suspected TB should trigger urgent airborne isolation and exposure prevention measures"
+            },
+            {
+              "id": "C",
+              "text": "Standard precautions alone are always enough for cough-related illness"
+            },
+            {
+              "id": "D",
+              "text": "Patient placement matters only after sputum results return"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "TB should be managed with a high index of suspicion. Airborne precautions are based on risk, not only final confirmation."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for airborne transmission to other patients and staff"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about nutrition"
+            },
+            {
+              "id": "D",
+              "text": "Constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Preventing spread to others is the most urgent system-wide safety issue while also supporting the patient’s care."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Arrange airborne isolation immediately, minimise patient movement, and ensure appropriate respiratory protection for staff"
+            },
+            {
+              "id": "B",
+              "text": "Keep the patient in the shared room until all labs return"
+            },
+            {
+              "id": "C",
+              "text": "Encourage the patient to walk around the ward for exercise"
+            },
+            {
+              "id": "D",
+              "text": "Remove all masks to improve patient comfort"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airborne isolation and staff respiratory protection are key priorities. Delay increases exposure risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Communicate clearly about exposure risk and required precautions"
+            },
+            {
+              "id": "B",
+              "text": "Limit unnecessary transport and ensure masking as appropriate if transport is required"
+            },
+            {
+              "id": "C",
+              "text": "Consider vulnerable nearby patients in the response plan"
+            },
+            {
+              "id": "D",
+              "text": "Document the time precautions were initiated and actions taken"
+            },
+            {
+              "id": "E",
+              "text": "Assume cough etiquette alone is enough in suspected TB"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All of these are appropriate. Cough etiquette is helpful but not enough by itself for suspected airborne infection."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is isolated appropriately, staff use correct respiratory protection, and additional exposure risk is reduced"
+            },
+            {
+              "id": "B",
+              "text": "The patient remains in a shared room without intervention"
+            },
+            {
+              "id": "C",
+              "text": "Vulnerable patients are not considered in planning"
+            },
+            {
+              "id": "D",
+              "text": "Isolation is delayed until widespread exposure occurs"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management reduces ongoing transmission risk quickly and systematically."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Sterile Technique During Central Line Dressing Change",
+      "stem": "A nurse prepares to perform a central line dressing change for a patient receiving long-term IV therapy. During the procedure, the sterile field is set up correctly at first, but while reaching for supplies the nurse’s sterile glove brushes against a non-sterile bedrail. The nurse hesitates, wondering whether to continue since only a small part of the glove touched the rail. The patient has multiple risk factors for bloodstream infection, and the line is essential to treatment. The nurse must apply correct principles of surgical asepsis and understand that even brief contamination can compromise the sterile field.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate a break in sterile technique? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sterile glove touched a non-sterile bedrail"
+            },
+            {
+              "id": "B",
+              "text": "The procedure involves a central line"
+            },
+            {
+              "id": "C",
+              "text": "The line is an invasive device with infection risk"
+            },
+            {
+              "id": "D",
+              "text": "The nurse considered continuing despite contamination"
+            },
+            {
+              "id": "E",
+              "text": "The dressing change depends on maintaining sterility"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings matter. Central lines carry serious infection risk, and contamination of sterile gloves means sterility has been broken."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Small contamination can be ignored if the rest of the field looks clean"
+            },
+            {
+              "id": "B",
+              "text": "The sterile field has been compromised and aseptic technique must be re-established"
+            },
+            {
+              "id": "C",
+              "text": "Sterility matters only in operating rooms"
+            },
+            {
+              "id": "D",
+              "text": "Only hand hygiene is relevant during dressing changes"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Asepsis is not partial. Once contamination occurs, the nurse must restore sterility rather than continue with a compromised glove or field."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for catheter-related bloodstream infection due to break in sterile technique"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Anxiety about supplies"
+            },
+            {
+              "id": "D",
+              "text": "Mild inconvenience for the nurse"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The patient’s central line creates a direct route for infection, making sterile integrity essential."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop, replace contaminated sterile equipment or gloves as needed, and re-establish full sterile technique before continuing"
+            },
+            {
+              "id": "B",
+              "text": "Continue quickly before contamination spreads"
+            },
+            {
+              "id": "C",
+              "text": "Skip the dressing change entirely and do nothing"
+            },
+            {
+              "id": "D",
+              "text": "Touch other supplies to see if they are still sterile"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The safest response is to stop and restore asepsis before proceeding. Rushing forward would expose the patient to unnecessary infection risk."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Document the dressing change and patient line status accurately"
+            },
+            {
+              "id": "B",
+              "text": "Maintain central line infection-prevention standards throughout the procedure"
+            },
+            {
+              "id": "C",
+              "text": "Reinforce to staff that any break in sterility requires correction"
+            },
+            {
+              "id": "D",
+              "text": "Assess the site for redness, drainage, or tenderness"
+            },
+            {
+              "id": "E",
+              "text": "Assume contamination is acceptable if no one saw it happen"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate responses. Infection prevention depends on consistent correction of breaks in sterile technique, whether or not others observed them."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The dressing change is completed with restored sterility, the line site remains clean, and infection risk is minimized"
+            },
+            {
+              "id": "B",
+              "text": "The nurse continues with contaminated gloves and the site later becomes inflamed"
+            },
+            {
+              "id": "C",
+              "text": "Documentation omits the procedure details"
+            },
+            {
+              "id": "D",
+              "text": "Infection prevention standards are applied inconsistently"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective care means restoring sterile technique and protecting the patient from preventable line infection."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Fall Prevention in a Confused Older Adult",
+      "stem": "Mrs. Joan Peters, an 84-year-old woman admitted with urinary infection and dehydration, becomes increasingly confused in the evening. She repeatedly tries to climb out of bed, saying she must get home. Her gait is weak and unsteady, and she becomes more agitated when left alone. The bed is currently in a mid-height position and the call bell is under the blanket. The nurse knows that older adults with delirium and weakness are at high risk of falls and injury. The priority is to use the least restrictive but safest strategies to prevent harm.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate high fall risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Acute confusion"
+            },
+            {
+              "id": "B",
+              "text": "Repeated attempts to get out of bed unassisted"
+            },
+            {
+              "id": "C",
+              "text": "Weak, unsteady gait"
+            },
+            {
+              "id": "D",
+              "text": "Hidden call bell and bed not optimally positioned"
+            },
+            {
+              "id": "E",
+              "text": "Evening agitation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors increase fall risk. Cognitive change, poor mobility, environmental setup, and agitation are classic contributors in hospital falls."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is restless but not at significant risk"
+            },
+            {
+              "id": "B",
+              "text": "The patient is at high risk for preventable fall injury and needs immediate safety intervention"
+            },
+            {
+              "id": "C",
+              "text": "The best solution is to ignore the behaviour so she settles down"
+            },
+            {
+              "id": "D",
+              "text": "Restraints are always the first-line intervention"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This patient has multiple fall risk factors. First-line care should focus on least restrictive safety measures and close observation."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for injury related to delirium, weakness, and unsafe mobility attempts"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about infection"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The priority is injury prevention. Falls can lead to major complications in older adults."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make the environment safer immediately, place the bed low, ensure call bell access, increase observation, and assist with toileting and orientation needs"
+            },
+            {
+              "id": "B",
+              "text": "Leave the patient alone until she rings the bell"
+            },
+            {
+              "id": "C",
+              "text": "Raise the bed higher so staff can reach her more easily"
+            },
+            {
+              "id": "D",
+              "text": "Use restraints immediately without trying alternatives"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should first address the environment and supervision. A low bed, accessible call bell, and assistance with needs are evidence-based fall prevention steps."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use non-slip footwear and clear pathways"
+            },
+            {
+              "id": "B",
+              "text": "Reassess the cause of confusion and treat contributing medical issues"
+            },
+            {
+              "id": "C",
+              "text": "Consider bed alarm use if appropriate to policy"
+            },
+            {
+              "id": "D",
+              "text": "Provide calm reorientation and frequent rounding"
+            },
+            {
+              "id": "E",
+              "text": "Assume confusion is permanent and cannot be improved"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate. Delirium may improve when underlying causes are addressed, so reassessment matters."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient remains free from falls, receives assistance before mobilising, and becomes somewhat calmer with supportive reorientation"
+            },
+            {
+              "id": "B",
+              "text": "She falls overnight because the environment was not adjusted"
+            },
+            {
+              "id": "C",
+              "text": "Staff remove the call bell to stop repeated use"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is reduced because she looks sleepy"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective fall prevention combines environmental measures, observation, and support for the underlying cause of confusion."
+        }
+      ]
+    }
+  ]
+}

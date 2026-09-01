@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A service audit shows that most care-plan goals are written by clinicians, while service users rarely contribute. Which leadership response best reflects recovery-oriented practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Co-design a revised planning process with people who use the service and measure participation at reviews."
+        },
+        {
+          "id": "B",
+          "text": "Provide staff with a reminder to ask about goals."
+        },
+        {
+          "id": "C",
+          "text": "Require service users to sign existing plans."
+        },
+        {
+          "id": "D",
+          "text": "Ask families to write the goals instead."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery leadership requires systems that reflect personal goals, strengths and choice. Co-production and measurement are stronger than symbolic consultation."
+    },
+    {
+      "id": "q2",
+      "stem": "Which action is the clearest example of co-production?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inviting one service user to endorse a completed policy."
+        },
+        {
+          "id": "B",
+          "text": "Involving people with lived experience as equal partners in designing, delivering and evaluating a programme."
+        },
+        {
+          "id": "C",
+          "text": "Collecting satisfaction surveys after implementation."
+        },
+        {
+          "id": "D",
+          "text": "Asking staff to predict what service users would prefer."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Co-production means meaningful partnership, not token representation or consultation after decisions are made."
+    },
+    {
+      "id": "q3",
+      "stem": "A nurse reports that staff avoid reflective supervision because they fear being judged. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Make supervision optional."
+        },
+        {
+          "id": "B",
+          "text": "Use supervision only after incidents."
+        },
+        {
+          "id": "C",
+          "text": "Create psychologically safe supervision with clear purpose, confidentiality boundaries and supportive facilitation."
+        },
+        {
+          "id": "D",
+          "text": "Ask managers to record staff weaknesses."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reflective supervision should support learning and wellbeing rather than function as punishment."
+    },
+    {
+      "id": "q4",
+      "stem": "A person with psychosis is repeatedly denied routine physical-health review because staff attribute symptoms to mental illness. Which leadership issue is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medication compliance."
+        },
+        {
+          "id": "B",
+          "text": "Inadequate family involvement."
+        },
+        {
+          "id": "C",
+          "text": "Poor documentation only."
+        },
+        {
+          "id": "D",
+          "text": "Diagnostic overshadowing and discrimination."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Rights-based leadership challenges stigma and ensures equal access to physical healthcare."
+    },
+    {
+      "id": "q5",
+      "stem": "Which outcome best demonstrates supported decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The person receives accessible information, support to express preferences and maximum participation in decisions."
+        },
+        {
+          "id": "B",
+          "text": "The clinician chooses the safest option without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Family members automatically make decisions."
+        },
+        {
+          "id": "D",
+          "text": "The person is asked to agree after the plan is finalised."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Supported decision-making promotes autonomy while providing assistance needed for meaningful participation."
+    },
+    {
+      "id": "q6",
+      "stem": "A service advertises itself as recovery-oriented, but ward routines remain rigid and personal goals are rarely discussed. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The service is recovery-oriented because the policy uses correct language."
+        },
+        {
+          "id": "B",
+          "text": "Organisational routines are undermining stated recovery values."
+        },
+        {
+          "id": "C",
+          "text": "Staff require more diagnostic education."
+        },
+        {
+          "id": "D",
+          "text": "The issue is limited to documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Recovery values must be visible in routines, communication, care planning and evaluation."
+    },
+    {
+      "id": "q7",
+      "stem": "Which measure would best evaluate whether a service is becoming more rights-based?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of policies published."
+        },
+        {
+          "id": "B",
+          "text": "Average admission length only."
+        },
+        {
+          "id": "C",
+          "text": "Service-user participation, complaints, supported decision-making, access to physical healthcare and restrictive-practice rates."
+        },
+        {
+          "id": "D",
+          "text": "Staff attendance at training."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A rights-based service should be evaluated through participation, equity, dignity and safety indicators."
+    },
+    {
+      "id": "q8",
+      "stem": "A team uses stigmatising shorthand during handover. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore informal language if care remains safe."
+        },
+        {
+          "id": "B",
+          "text": "Replace verbal handover with written notes."
+        },
+        {
+          "id": "C",
+          "text": "Ask service users not to hear handover."
+        },
+        {
+          "id": "D",
+          "text": "Challenge the language, model objective communication and include anti-stigma expectations in supervision and audit."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Language shapes attitudes and care; leaders should address stigma in everyday systems."
+    },
+    {
+      "id": "q9",
+      "stem": "A family wants to participate in care, but the service user has not given consent. What is the best leadership standard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Family involvement should respect consent, confidentiality and safety while still allowing general support and listening."
+        },
+        {
+          "id": "B",
+          "text": "Families should always receive information."
+        },
+        {
+          "id": "C",
+          "text": "Exclude the family completely."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to obtain legal authority."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Partnership must be balanced with the person's rights and confidentiality."
+    },
+    {
+      "id": "q10",
+      "stem": "Which workforce strategy is most likely to preserve compassion in complex care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing productivity targets."
+        },
+        {
+          "id": "B",
+          "text": "Reflective supervision, debriefing, manageable workload and psychological safety."
+        },
+        {
+          "id": "C",
+          "text": "Reducing discussion of emotional impact."
+        },
+        {
+          "id": "D",
+          "text": "Using only mandatory resilience training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Compassion is supported by healthy systems, not by expecting individual resilience alone."
+    },
+    {
+      "id": "q11",
+      "stem": "A person with lived experience is invited to a committee but receives papers late and has no voting role. What is the main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The meeting is too formal."
+        },
+        {
+          "id": "B",
+          "text": "The person needs more clinical education."
+        },
+        {
+          "id": "C",
+          "text": "Participation is tokenistic rather than meaningful."
+        },
+        {
+          "id": "D",
+          "text": "Voting should remain restricted to professionals."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Meaningful partnership requires access, influence and equitable participation."
+    },
+    {
+      "id": "q12",
+      "stem": "A leader wants to improve anti-stigma practice. Which intervention is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A poster campaign only."
+        },
+        {
+          "id": "B",
+          "text": "A single awareness day."
+        },
+        {
+          "id": "C",
+          "text": "Removing diagnostic labels from all records."
+        },
+        {
+          "id": "D",
+          "text": "Lived-experience education combined with policy review, language standards, outcome monitoring and accountability."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sustained anti-stigma action requires multiple system-level strategies."
+    },
+    {
+      "id": "q13",
+      "stem": "Which statement best reflects recovery leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leaders align language, routines, planning and evaluation with hope, identity, choice and strengths."
+        },
+        {
+          "id": "B",
+          "text": "Leaders focus on symptom control above all else."
+        },
+        {
+          "id": "C",
+          "text": "Leaders avoid risk discussion to preserve hope."
+        },
+        {
+          "id": "D",
+          "text": "Leaders delegate recovery work to peer staff."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recovery leadership embeds recovery values throughout the service."
+    },
+    {
+      "id": "q14",
+      "stem": "A team member admits uncertainty after a difficult interaction. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Record the concern for performance review."
+        },
+        {
+          "id": "B",
+          "text": "Use reflective discussion to support learning while maintaining accountability."
+        },
+        {
+          "id": "C",
+          "text": "Tell the nurse to be more confident."
+        },
+        {
+          "id": "D",
+          "text": "Remove the nurse from direct care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety allows uncertainty to be explored constructively."
+    },
+    {
+      "id": "q15",
+      "stem": "Which action best advances mental-health equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Offering identical services to everyone."
+        },
+        {
+          "id": "B",
+          "text": "Focusing only on the majority population."
+        },
+        {
+          "id": "C",
+          "text": "Examining access and outcomes across groups and adapting services where inequity is found."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding demographic data collection."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Equity requires identifying and addressing unequal access or outcomes."
+    },
+    {
+      "id": "q16",
+      "stem": "A service user says reviews feel rushed and decisions are made before the meeting. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase meeting frequency."
+        },
+        {
+          "id": "B",
+          "text": "Ask the person to prepare more carefully."
+        },
+        {
+          "id": "C",
+          "text": "Reduce attendance at reviews."
+        },
+        {
+          "id": "D",
+          "text": "Redesign reviews so information is shared beforehand and the person's goals guide discussion."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Participation must be practical and timely, not symbolic."
+    },
+    {
+      "id": "q17",
+      "stem": "Which outcome best reflects psychologically safe leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff speak up early, seek support and participate honestly in learning reviews."
+        },
+        {
+          "id": "B",
+          "text": "Staff rarely report errors."
+        },
+        {
+          "id": "C",
+          "text": "Only senior staff lead debriefing."
+        },
+        {
+          "id": "D",
+          "text": "Incidents are discussed privately by managers."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety is demonstrated through open reporting and learning."
+    },
+    {
+      "id": "q18",
+      "stem": "A service has strong clinical outcomes but repeated reports of coercive communication. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prioritise outcomes because communication is subjective."
+        },
+        {
+          "id": "B",
+          "text": "Treat experience and dignity as quality indicators and redesign communication practice."
+        },
+        {
+          "id": "C",
+          "text": "Refer all concerns to complaints staff."
+        },
+        {
+          "id": "D",
+          "text": "Increase security presence."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Rights-based quality includes how care is delivered, not only clinical outcomes."
+    },
+    {
+      "id": "q19",
+      "stem": "Which action best supports staff wellbeing after a serious event?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediate blame-focused review."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding discussion to reduce distress."
+        },
+        {
+          "id": "C",
+          "text": "Timely debriefing, access to support and a fair learning process."
+        },
+        {
+          "id": "D",
+          "text": "Requiring staff to return to normal duties immediately."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Staff wellbeing and learning are supported through psychologically safe review."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates mature recovery-oriented leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policies mention recovery."
+        },
+        {
+          "id": "B",
+          "text": "Admissions decrease regardless of experience."
+        },
+        {
+          "id": "C",
+          "text": "Clinicians retain final control over all plans."
+        },
+        {
+          "id": "D",
+          "text": "People influence service design, staff feel safe to reflect and systems protect dignity, choice and equity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Mature leadership integrates partnership, workforce culture, rights and measurable system change. Section 2 - Reducing Restrictive Practice and Strengthening Safety Systems"
+    },
+    {
+      "id": "q21",
+      "stem": "A unit has high restraint use during evening shifts. Data show crowding, limited activity, inconsistent staffing and delayed medication review. What should leaders do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Address the environmental and staffing contributors and evaluate trauma-informed alternatives."
+        },
+        {
+          "id": "B",
+          "text": "Retrain staff in restraint technique."
+        },
+        {
+          "id": "C",
+          "text": "Increase security staffing only."
+        },
+        {
+          "id": "D",
+          "text": "Require earlier documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The pattern points to system conditions, not simply individual behaviour."
+    },
+    {
+      "id": "q22",
+      "stem": "Which data set is most useful when reviewing restrictive practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Total annual number only."
+        },
+        {
+          "id": "B",
+          "text": "Frequency, duration, population, shift, trigger, intervention and outcome."
+        },
+        {
+          "id": "C",
+          "text": "Staff opinion only."
+        },
+        {
+          "id": "D",
+          "text": "Medication use only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Meaningful review requires context and disaggregation to identify patterns and inequity."
+    },
+    {
+      "id": "q23",
+      "stem": "A restraint event ends without physical injury. What should happen next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No review is needed."
+        },
+        {
+          "id": "B",
+          "text": "Only the legal form should be completed."
+        },
+        {
+          "id": "C",
+          "text": "The event should be reviewed for triggers, alternatives, experience and learning."
+        },
+        {
+          "id": "D",
+          "text": "Staff should avoid discussing it with the person."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Every restrictive event should prompt learning because psychological harm and system risk may remain."
+    },
+    {
+      "id": "q24",
+      "stem": "Which service feature is most consistent with trauma-informed care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strict uniform rules for all people."
+        },
+        {
+          "id": "B",
+          "text": "Frequent unannounced room entry."
+        },
+        {
+          "id": "C",
+          "text": "Use of restriction to establish control."
+        },
+        {
+          "id": "D",
+          "text": "Predictable routines, choice, collaboration and attention to sensory needs."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Trauma-informed systems maximise safety, predictability, collaboration and choice."
+    },
+    {
+      "id": "q25",
+      "stem": "A suicide-prevention audit shows good inpatient assessment but poor follow-up after discharge. Which improvement should be prioritised?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reliable transition communication, rapid follow-up and accessible crisis plans."
+        },
+        {
+          "id": "B",
+          "text": "Longer inpatient forms."
+        },
+        {
+          "id": "C",
+          "text": "More diagnostic testing."
+        },
+        {
+          "id": "D",
+          "text": "Reducing family involvement."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Suicide prevention depends on continuity across transitions, not assessment alone."
+    },
+    {
+      "id": "q26",
+      "stem": "A service reports lower restraint use overall, but rates remain high among one ethnic group. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Report overall success."
+        },
+        {
+          "id": "B",
+          "text": "Examine the inequity, involve the affected community and adapt practice."
+        },
+        {
+          "id": "C",
+          "text": "Exclude the group from analysis."
+        },
+        {
+          "id": "D",
+          "text": "Increase restraint training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Disaggregated data may reveal inequity hidden by averages."
+    },
+    {
+      "id": "q27",
+      "stem": "Which intervention best reduces behavioural escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waiting until aggression is severe."
+        },
+        {
+          "id": "B",
+          "text": "Using medication as the first response."
+        },
+        {
+          "id": "C",
+          "text": "Early engagement, meaningful activity, sensory support and clear communication."
+        },
+        {
+          "id": "D",
+          "text": "Increasing environmental noise."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Prevention and early engagement are central to safer alternatives."
+    },
+    {
+      "id": "q28",
+      "stem": "A person in crisis says previous restraint was traumatic. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoid discussing the experience."
+        },
+        {
+          "id": "B",
+          "text": "Explain that restraint may still be necessary."
+        },
+        {
+          "id": "C",
+          "text": "Ask family to decide the plan."
+        },
+        {
+          "id": "D",
+          "text": "Include triggers, preferences and alternatives in a collaboratively developed safety plan."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Trauma-informed planning uses the person's experience to prevent re-traumatisation."
+    },
+    {
+      "id": "q29",
+      "stem": "Which measure is a balancing measure in a restraint-reduction project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff injuries and emergency response delays."
+        },
+        {
+          "id": "B",
+          "text": "Restraint rate."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of staff trained."
+        },
+        {
+          "id": "D",
+          "text": "Number of sensory rooms."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Balancing measures identify unintended effects of the intervention."
+    },
+    {
+      "id": "q30",
+      "stem": "A ward redesign reduces blind spots but also removes quiet spaces. What should leaders consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only security visibility."
+        },
+        {
+          "id": "B",
+          "text": "Whether the change increases sensory distress or escalation."
+        },
+        {
+          "id": "C",
+          "text": "Whether the ward looks modern."
+        },
+        {
+          "id": "D",
+          "text": "Only construction cost."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Environmental safety must balance observation with trauma-informed and sensory needs."
+    },
+    {
+      "id": "q31",
+      "stem": "Which factor most strongly supports violence prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine use of seclusion."
+        },
+        {
+          "id": "B",
+          "text": "Reliance on one experienced clinician."
+        },
+        {
+          "id": "C",
+          "text": "Clear roles, early recognition, de-escalation and coordinated team response."
+        },
+        {
+          "id": "D",
+          "text": "Removing all personal choice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Prevention depends on early and coordinated action."
+    },
+    {
+      "id": "q32",
+      "stem": "A staff member says, 'This patient always needs restraint.' What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the judgement based on experience."
+        },
+        {
+          "id": "B",
+          "text": "Document the statement."
+        },
+        {
+          "id": "C",
+          "text": "Transfer the person to another ward."
+        },
+        {
+          "id": "D",
+          "text": "Challenge the assumption and review individual triggers, alternatives and system conditions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Normalising restriction undermines trauma-informed review and individualised care."
+    },
+    {
+      "id": "q33",
+      "stem": "A safety plan is stored in the record but unavailable during crisis. What is the primary system weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The plan is not accessible and actionable when needed."
+        },
+        {
+          "id": "B",
+          "text": "The plan is too detailed."
+        },
+        {
+          "id": "C",
+          "text": "The person did not memorise it."
+        },
+        {
+          "id": "D",
+          "text": "The record system is unnecessary."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Crisis plans must be practical and readily accessible."
+    },
+    {
+      "id": "q34",
+      "stem": "A service wants to evaluate sensory interventions. Which outcome is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of sensory items purchased."
+        },
+        {
+          "id": "B",
+          "text": "Changes in distress, restrictive practice, injuries and service-user experience."
+        },
+        {
+          "id": "C",
+          "text": "Staff satisfaction only."
+        },
+        {
+          "id": "D",
+          "text": "Ward decoration."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evaluation should focus on safety, experience and actual use."
+    },
+    {
+      "id": "q35",
+      "stem": "A suicide-risk score is low, but the person has a recent loss, escalating alcohol use and access to lethal means. What should the nurse leader reinforce?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The numerical score determines risk."
+        },
+        {
+          "id": "B",
+          "text": "Protective factors can be ignored."
+        },
+        {
+          "id": "C",
+          "text": "Dynamic formulation and clinical judgement should guide action."
+        },
+        {
+          "id": "D",
+          "text": "Only past attempts matter."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Risk formulation integrates dynamic triggers and access to means; scores do not replace judgement."
+    },
+    {
+      "id": "q36",
+      "stem": "Which review method best supports learning after an inpatient suicide attempt?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on compliance with observation policy."
+        },
+        {
+          "id": "B",
+          "text": "Identify one person to blame."
+        },
+        {
+          "id": "C",
+          "text": "Avoid family input."
+        },
+        {
+          "id": "D",
+          "text": "Examine assessment, communication, environment, transitions and the person's experience."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A systems review explores multiple interacting contributors."
+    },
+    {
+      "id": "q37",
+      "stem": "A unit reduces restraint but increases forced medication. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restriction may have shifted form and broader coercion data should be reviewed."
+        },
+        {
+          "id": "B",
+          "text": "The project is successful."
+        },
+        {
+          "id": "C",
+          "text": "Medication is not restrictive."
+        },
+        {
+          "id": "D",
+          "text": "No further action is needed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement should not simply substitute one restrictive practice for another."
+    },
+    {
+      "id": "q38",
+      "stem": "Which outcome best reflects purposeful observation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuous monitoring without review."
+        },
+        {
+          "id": "B",
+          "text": "Observation level is linked to current risk, engagement and regular reassessment."
+        },
+        {
+          "id": "C",
+          "text": "The person is watched from a distance only."
+        },
+        {
+          "id": "D",
+          "text": "Observation continues unchanged until discharge."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Observation should be therapeutic, proportionate and reviewed."
+    },
+    {
+      "id": "q39",
+      "stem": "A service has repeated aggression near medication times. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the individuals involved."
+        },
+        {
+          "id": "B",
+          "text": "Whether staff used restraint quickly."
+        },
+        {
+          "id": "C",
+          "text": "Waiting time, communication, environment, medication access and unmet needs."
+        },
+        {
+          "id": "D",
+          "text": "The diagnosis distribution."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patterns around time and workflow may reveal preventable triggers."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates a safer mental-health system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restrictive events are documented."
+        },
+        {
+          "id": "B",
+          "text": "Security incidents are hidden."
+        },
+        {
+          "id": "C",
+          "text": "Staff use restraint more efficiently."
+        },
+        {
+          "id": "D",
+          "text": "Restriction decreases without increased harm, and people report greater safety and dignity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful safety systems reduce harm while preserving dignity and protection. Section 3 - Quality Improvement, Integrated Care and Population Mental Health"
+    },
+    {
+      "id": "q41",
+      "stem": "A community service identifies poor metabolic monitoring for people receiving antipsychotics. What should the improvement team do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the current gap using reliable data and map where monitoring fails."
+        },
+        {
+          "id": "B",
+          "text": "Purchase new software."
+        },
+        {
+          "id": "C",
+          "text": "Train all staff immediately."
+        },
+        {
+          "id": "D",
+          "text": "Refer all monitoring to primary care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Quality improvement begins with a clearly defined problem and understanding of current practice."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an outcome measure for an integrated physical-health pathway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage receiving glucose testing."
+        },
+        {
+          "id": "B",
+          "text": "Improvement in detection and follow-up of metabolic risk."
+        },
+        {
+          "id": "C",
+          "text": "Number of reminders sent."
+        },
+        {
+          "id": "D",
+          "text": "Staff attendance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures describe the effect on health or care results."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is a process measure for the same pathway?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Readmission rate."
+        },
+        {
+          "id": "B",
+          "text": "Mortality."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of eligible people receiving weight, blood pressure, glucose and lipid monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Patient housing status."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process measures show whether recommended care occurred."
+    },
+    {
+      "id": "q44",
+      "stem": "Which is an experience measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of appointments."
+        },
+        {
+          "id": "B",
+          "text": "Staffing level."
+        },
+        {
+          "id": "C",
+          "text": "Laboratory cost."
+        },
+        {
+          "id": "D",
+          "text": "Service users report whether physical-health care was respectful and understandable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Experience measures capture how care is perceived and whether it is acceptable."
+    },
+    {
+      "id": "q45",
+      "stem": "A project improves monitoring but creates long delays in clinic. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the balancing measure and redesign workflow."
+        },
+        {
+          "id": "B",
+          "text": "Ignore delays because monitoring improved."
+        },
+        {
+          "id": "C",
+          "text": "Stop monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Reduce patient feedback."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Balancing measures help identify unintended burdens."
+    },
+    {
+      "id": "q46",
+      "stem": "Why is integrated care important in mental health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One team should control all decisions."
+        },
+        {
+          "id": "B",
+          "text": "Physical, mental, substance-use and social needs interact and fragmented services can miss risk."
+        },
+        {
+          "id": "C",
+          "text": "Primary care is sufficient for all needs."
+        },
+        {
+          "id": "D",
+          "text": "Social conditions are outside healthcare."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Integration reduces gaps and coordinates care around the person."
+    },
+    {
+      "id": "q47",
+      "stem": "A person repeatedly attends emergency care because housing instability disrupts treatment. What should the improvement plan include?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medication education only."
+        },
+        {
+          "id": "B",
+          "text": "Longer hospital admission only."
+        },
+        {
+          "id": "C",
+          "text": "Coordination with housing and social services alongside clinical care."
+        },
+        {
+          "id": "D",
+          "text": "A stricter attendance policy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Social determinants directly affect mental-health outcomes and continuity."
+    },
+    {
+      "id": "q48",
+      "stem": "Which quality priority is most consistent with the notes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improving ward décor."
+        },
+        {
+          "id": "B",
+          "text": "Increasing diagnostic labels."
+        },
+        {
+          "id": "C",
+          "text": "Reducing family contact."
+        },
+        {
+          "id": "D",
+          "text": "Suicide follow-up, medication safety, physical-health monitoring and continuity of care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These are identified mental-health quality priorities."
+    },
+    {
+      "id": "q49",
+      "stem": "A service reduces readmission overall, but rates remain high for rural patients. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analyse access, transport, digital connectivity and follow-up for rural populations."
+        },
+        {
+          "id": "B",
+          "text": "Report the overall improvement."
+        },
+        {
+          "id": "C",
+          "text": "Exclude rural data."
+        },
+        {
+          "id": "D",
+          "text": "Increase inpatient medication."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equity analysis should identify who remains excluded."
+    },
+    {
+      "id": "q50",
+      "stem": "Which measure set provides the strongest evaluation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Outcome measures only."
+        },
+        {
+          "id": "B",
+          "text": "Outcome, process, experience and balancing measures."
+        },
+        {
+          "id": "C",
+          "text": "Training attendance only."
+        },
+        {
+          "id": "D",
+          "text": "Incident reports only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A balanced set shows effectiveness, reliability, acceptability and unintended effects."
+    },
+    {
+      "id": "q51",
+      "stem": "A project uses reminders for physical-health monitoring but completion remains low. What is the best next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send more reminders."
+        },
+        {
+          "id": "B",
+          "text": "Discipline staff."
+        },
+        {
+          "id": "C",
+          "text": "Examine workflow, role responsibility, access and communication between services."
+        },
+        {
+          "id": "D",
+          "text": "Stop measuring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Persistent gaps suggest system barriers beyond awareness."
+    },
+    {
+      "id": "q52",
+      "stem": "Which intervention best supports continuity after crisis discharge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A written summary only."
+        },
+        {
+          "id": "B",
+          "text": "Advice to contact services if needed."
+        },
+        {
+          "id": "C",
+          "text": "Family responsibility alone."
+        },
+        {
+          "id": "D",
+          "text": "Clear handover, rapid follow-up, crisis plan and named responsibilities."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe transitions require timely and coordinated follow-up."
+    },
+    {
+      "id": "q53",
+      "stem": "A service user says the new pathway is confusing. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use feedback to simplify and co-design the pathway."
+        },
+        {
+          "id": "B",
+          "text": "Explain it again using the same materials."
+        },
+        {
+          "id": "C",
+          "text": "Remove the person from the project."
+        },
+        {
+          "id": "D",
+          "text": "Focus on clinical outcomes only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Service-user experience should inform redesign."
+    },
+    {
+      "id": "q54",
+      "stem": "Which finding suggests diagnostic overshadowing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A person with schizophrenia receives prompt chest-pain assessment."
+        },
+        {
+          "id": "B",
+          "text": "Physical symptoms are attributed to mental illness without adequate examination."
+        },
+        {
+          "id": "C",
+          "text": "Mental and physical records are linked."
+        },
+        {
+          "id": "D",
+          "text": "Primary care is involved."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Diagnostic overshadowing contributes to physical-health inequality."
+    },
+    {
+      "id": "q55",
+      "stem": "A project improves physical-health checks but follow-up of abnormal results remains poor. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The project is complete."
+        },
+        {
+          "id": "B",
+          "text": "More screening is the solution."
+        },
+        {
+          "id": "C",
+          "text": "The full pathway from screening to action must be redesigned."
+        },
+        {
+          "id": "D",
+          "text": "Abnormal results are the person's responsibility."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Screening alone is insufficient without reliable follow-up."
+    },
+    {
+      "id": "q56",
+      "stem": "Which factor should be examined when evaluating equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Staff preference."
+        },
+        {
+          "id": "C",
+          "text": "Length of stay only."
+        },
+        {
+          "id": "D",
+          "text": "Culture, gender, age, disability, geography and socioeconomic conditions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The notes identify these dimensions for equity analysis."
+    },
+    {
+      "id": "q57",
+      "stem": "A service copies an urban intervention into a remote area and uptake is low. What is the most likely issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The intervention was not adapted to local resources and context."
+        },
+        {
+          "id": "B",
+          "text": "Remote populations resist care."
+        },
+        {
+          "id": "C",
+          "text": "More advertising is needed."
+        },
+        {
+          "id": "D",
+          "text": "Clinical evidence is irrelevant."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement should respect local access, culture and resources."
+    },
+    {
+      "id": "q58",
+      "stem": "Which action best supports sustainable quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A one-time education session."
+        },
+        {
+          "id": "B",
+          "text": "Embedding responsibilities, workflow, feedback and ongoing measurement."
+        },
+        {
+          "id": "C",
+          "text": "Relying on one enthusiastic leader."
+        },
+        {
+          "id": "D",
+          "text": "Stopping data collection after improvement."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sustainability requires integration into routine systems."
+    },
+    {
+      "id": "q59",
+      "stem": "A multidisciplinary pathway has unclear ownership for abnormal results. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave decisions to individual clinicians."
+        },
+        {
+          "id": "B",
+          "text": "Ask service users to coordinate."
+        },
+        {
+          "id": "C",
+          "text": "Assign clear responsibilities and review timeframes."
+        },
+        {
+          "id": "D",
+          "text": "Increase documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Integrated care requires explicit roles and accountability."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects successful population mental-health improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A policy is approved."
+        },
+        {
+          "id": "B",
+          "text": "More referrals are made."
+        },
+        {
+          "id": "C",
+          "text": "Data collection increases."
+        },
+        {
+          "id": "D",
+          "text": "Care becomes more coordinated, outcomes improve and unequal access is reduced."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful improvement should be effective, integrated and equitable. Section 4 - Digital Mental Health and Global Collaboration"
+    },
+    {
+      "id": "q61",
+      "stem": "During a tele-mental health review, a person discloses an immediate suicide plan, but their exact location is unknown. What should the clinician do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm identity and location, activate the emergency plan and maintain engagement."
+        },
+        {
+          "id": "B",
+          "text": "Continue the routine assessment."
+        },
+        {
+          "id": "C",
+          "text": "End the call and document it."
+        },
+        {
+          "id": "D",
+          "text": "Ask the person to attend later."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Remote care requires a clear emergency response, including identity and location confirmation."
+    },
+    {
+      "id": "q62",
+      "stem": "Which privacy practice is essential in tele-mental health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using any convenient platform."
+        },
+        {
+          "id": "B",
+          "text": "Confirming privacy, identity and secure communication before sensitive discussion."
+        },
+        {
+          "id": "C",
+          "text": "Recording every session automatically."
+        },
+        {
+          "id": "D",
+          "text": "Allowing family members to remain without consent."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Virtual care requires deliberate privacy and identity checks."
+    },
+    {
+      "id": "q63",
+      "stem": "A mental-health app claims to predict relapse but does not explain its evidence or data use. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recommend it because it is innovative."
+        },
+        {
+          "id": "B",
+          "text": "Use it only with younger people."
+        },
+        {
+          "id": "C",
+          "text": "Evaluate evidence, transparency, privacy and clinical support before adoption."
+        },
+        {
+          "id": "D",
+          "text": "Replace clinician review with the app."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Digital tools should be evidence-informed, transparent and ethically integrated."
+    },
+    {
+      "id": "q64",
+      "stem": "What is algorithmic bias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A technical error that affects everyone equally."
+        },
+        {
+          "id": "B",
+          "text": "Staff reluctance to use technology."
+        },
+        {
+          "id": "C",
+          "text": "A privacy breach only."
+        },
+        {
+          "id": "D",
+          "text": "Systematic unfairness that may arise when predictive tools are trained on unrepresentative or biased data."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Biased data can produce unequal predictions and outcomes."
+    },
+    {
+      "id": "q65",
+      "stem": "A predictive tool rates a person low risk, but the clinician identifies escalating intent and access to means. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use professional judgement and escalate based on the clinical formulation."
+        },
+        {
+          "id": "B",
+          "text": "Follow the algorithm."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the score to change."
+        },
+        {
+          "id": "D",
+          "text": "Repeat the digital assessment only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology supports but does not replace clinical judgement."
+    },
+    {
+      "id": "q66",
+      "stem": "A rural video service improves access but excludes people without internet. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Make video the only route to care."
+        },
+        {
+          "id": "B",
+          "text": "Provide telephone and in-person alternatives and examine digital access barriers."
+        },
+        {
+          "id": "C",
+          "text": "Ask families to purchase devices."
+        },
+        {
+          "id": "D",
+          "text": "Limit the service to connected users."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Digital innovation should address exclusion rather than widen it."
+    },
+    {
+      "id": "q67",
+      "stem": "Which feature is necessary when using telehealth in crisis-prone populations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A long questionnaire."
+        },
+        {
+          "id": "B",
+          "text": "Automatic recording."
+        },
+        {
+          "id": "C",
+          "text": "A tested emergency escalation plan and awareness of what cannot be assessed remotely."
+        },
+        {
+          "id": "D",
+          "text": "Reduced face-to-face options."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Remote care must plan for emergencies and clinical limitations."
+    },
+    {
+      "id": "q68",
+      "stem": "A service uses online peer support. What should leaders consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only user numbers."
+        },
+        {
+          "id": "B",
+          "text": "Replacing all professional care."
+        },
+        {
+          "id": "C",
+          "text": "Anonymous access without safeguards."
+        },
+        {
+          "id": "D",
+          "text": "Moderation, evidence, privacy, escalation pathways and integration with clinical support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Online support should be safe, transparent and connected to appropriate care."
+    },
+    {
+      "id": "q69",
+      "stem": "A digital tool recommends a diagnosis based on limited self-report data. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the result as one source of information and complete a broader assessment."
+        },
+        {
+          "id": "B",
+          "text": "Accept the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Tell the person the tool is definitive."
+        },
+        {
+          "id": "D",
+          "text": "Avoid documenting the result."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital outputs should be interpreted within comprehensive clinical assessment."
+    },
+    {
+      "id": "q70",
+      "stem": "Which measure best evaluates digital equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Total number of virtual visits."
+        },
+        {
+          "id": "B",
+          "text": "Access and outcomes by geography, age, disability, language and socioeconomic status."
+        },
+        {
+          "id": "C",
+          "text": "Average call length."
+        },
+        {
+          "id": "D",
+          "text": "Number of app downloads."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Disaggregated data reveal who benefits and who remains excluded."
+    },
+    {
+      "id": "q71",
+      "stem": "A virtual consultation takes place while family members can overhear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue because the person joined the call."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to listen quietly."
+        },
+        {
+          "id": "C",
+          "text": "Check whether the person has privacy and arrange an alternative if needed."
+        },
+        {
+          "id": "D",
+          "text": "Avoid sensitive questions permanently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Privacy must be actively assessed in remote care."
+    },
+    {
+      "id": "q72",
+      "stem": "A digital service experiences a platform failure during a crisis call. What should be available?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No alternative process."
+        },
+        {
+          "id": "B",
+          "text": "Personal social-media messaging."
+        },
+        {
+          "id": "C",
+          "text": "Routine follow-up only."
+        },
+        {
+          "id": "D",
+          "text": "A tested backup communication and emergency pathway."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Downtime and backup planning are essential for safety."
+    },
+    {
+      "id": "q73",
+      "stem": "A global programme proposes copying a high-income digital model into a low-resource setting. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapt it to local culture, infrastructure, workforce and community priorities."
+        },
+        {
+          "id": "B",
+          "text": "Implement it unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Reject all international learning."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on technology cost."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global collaboration should respect local knowledge and resources."
+    },
+    {
+      "id": "q74",
+      "stem": "Which statement best reflects ethical digital mental-health practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technology should replace therapeutic relationships."
+        },
+        {
+          "id": "B",
+          "text": "Digital tools should support access while preserving privacy, judgement, transparency and choice."
+        },
+        {
+          "id": "C",
+          "text": "Algorithms are more objective than clinicians."
+        },
+        {
+          "id": "D",
+          "text": "Online care is suitable for every situation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Technology should augment, not replace, humane and accountable care."
+    },
+    {
+      "id": "q75",
+      "stem": "A predictive model performs less accurately for one cultural group. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue because overall accuracy is acceptable."
+        },
+        {
+          "id": "B",
+          "text": "Exclude that group from the service."
+        },
+        {
+          "id": "C",
+          "text": "Investigate bias, involve affected communities and reconsider use until safety is addressed."
+        },
+        {
+          "id": "D",
+          "text": "Train clinicians to trust the model."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unequal model performance creates safety and equity concerns."
+    },
+    {
+      "id": "q76",
+      "stem": "Which global mental-health initiative is most sustainable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A short-term imported programme."
+        },
+        {
+          "id": "B",
+          "text": "A technology-only solution."
+        },
+        {
+          "id": "C",
+          "text": "A programme dependent on external experts."
+        },
+        {
+          "id": "D",
+          "text": "A locally co-designed service that builds workforce capability and uses available resources."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sustainability requires local relevance, ownership and capacity."
+    },
+    {
+      "id": "q77",
+      "stem": "An app sends alarming notifications without access to clinical support. What is the main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The tool may increase distress without a safe response pathway."
+        },
+        {
+          "id": "B",
+          "text": "The design is engaging."
+        },
+        {
+          "id": "C",
+          "text": "Notifications improve adherence."
+        },
+        {
+          "id": "D",
+          "text": "Clinical integration is unnecessary."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital tools should include appropriate support and escalation."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best demonstrates successful tele-mental health implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More video appointments occur."
+        },
+        {
+          "id": "B",
+          "text": "Access improves without compromising privacy, emergency response, therapeutic quality or equity."
+        },
+        {
+          "id": "C",
+          "text": "Face-to-face care decreases."
+        },
+        {
+          "id": "D",
+          "text": "The platform has many features."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Success requires safety, quality and equitable access, not volume alone."
+    },
+    {
+      "id": "q79",
+      "stem": "How should Global Nursing Professionals use international evidence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copy the strongest model exactly."
+        },
+        {
+          "id": "B",
+          "text": "Use only local evidence."
+        },
+        {
+          "id": "C",
+          "text": "Critically appraise and adapt learning to local culture, resources and service-user priorities."
+        },
+        {
+          "id": "D",
+          "text": "Prioritise technology over relationships."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global learning should be adapted respectfully and sustainably."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects Level 3 digital and global practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse uses advanced software."
+        },
+        {
+          "id": "B",
+          "text": "All care becomes virtual."
+        },
+        {
+          "id": "C",
+          "text": "Algorithms make final decisions."
+        },
+        {
+          "id": "D",
+          "text": "Technology is used critically, exclusion is addressed and global learning strengthens culturally relevant care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 practice combines ethical technology use, equity and adapted global collaboration."
+    }
+  ]
+}

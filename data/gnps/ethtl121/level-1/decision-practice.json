@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Infant respiratory distress",
+      "scenario": "A 4-month-old infant is brought to the emergency department by a caregiver who reports fast breathing and increased fussiness. On assessment, the infant has rapid respirations, visible nasal flaring, and intercostal chest retractions. The infant is irritable, cries weakly, and oxygen saturation is 89% on room air while lying supine in the cot.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Position the infant to maintain airway and provide oxygen.",
+      "modelWhy": "Infants have limited respiratory reserve and deteriorate quickly.",
+      "modelNext": "Assess respiratory rate, breath sounds, and response to oxygen.",
+      "trap": "Waiting for diagnostic tests before supporting breathing.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Bronchiolitis",
+      "scenario": "A 6-month-old infant diagnosed with RSV bronchiolitis is admitted to the paediatric ward. The infant has audible wheezing, increased work of breathing, and nasal congestion. The caregiver reports the infant is feeding poorly and tiring easily during feeds. Respiratory effort appears to be worsening.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure airway patency and provide supportive oxygen therapy.",
+      "modelWhy": "Bronchiolitis primarily affects airway clearance and oxygenation.",
+      "modelNext": "Monitor hydration and respiratory status.",
+      "trap": "Administering antibiotics routinely.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Croup",
+      "scenario": "A toddler is brought to the emergency department late at night with a harsh, barking cough and a hoarse cry. The caregiver reports symptoms worsen when the child becomes upset. On assessment, inspiratory stridor is present, especially when the child cries or moves.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Keep the child calm and administer prescribed corticosteroids.",
+      "modelWhy": "Agitation worsens airway obstruction.",
+      "modelNext": "Monitor respiratory effort and stridor.",
+      "trap": "Examining the throat aggressively.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Asthma exacerbation in child",
+      "scenario": "A school-aged child with a history of asthma presents with wheezing, prolonged expiration, and visible difficulty breathing. The child is sitting upright, appears anxious, and is struggling to complete full sentences without pausing for breath.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Administer bronchodilator and oxygen.",
+      "modelWhy": "Airway obstruction is the immediate threat.",
+      "modelNext": "Reassess lung sounds after treatment.",
+      "trap": "Waiting for peak flow measurement before treatment.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Foreign body aspiration",
+      "scenario": "A toddler is playing on the floor when they suddenly begin coughing forcefully and gagging. The caregiver reports the child had access to small toys just moments before. The child appears distressed and is making high-pitched coughing sounds.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess airway patency and initiate choking interventions if needed.",
+      "modelWhy": "Foreign body aspiration can rapidly obstruct the airway.",
+      "modelNext": "Monitor breathing and prepare for emergency removal.",
+      "trap": "Offering water to drink.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Dehydration from gastroenteritis",
+      "scenario": "A 2-year-old child is admitted with a history of vomiting and diarrhea for the past two days. On assessment, the child has dry lips and oral mucosa, appears lethargic, and has produced very little urine over the last 12 hours according to the caregiver.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Begin oral rehydration therapy or IV fluids as ordered.",
+      "modelWhy": "Young children dehydrate quickly.",
+      "modelNext": "Monitor intake and output.",
+      "trap": "Waiting for lab results before rehydration.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Febrile seizure",
+      "scenario": "A toddler is brought to the emergency department after experiencing a sudden generalized seizure at home. The caregiver reports the child had a high fever earlier in the day. On arrival, the child is postictal, with a recorded temperature of 39.5°C.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Protect the child from injury and maintain airway.",
+      "modelWhy": "Most febrile seizures are self-limiting but airway safety is priority.",
+      "modelNext": "Monitor temperature and seizure duration.",
+      "trap": "Restraint or inserting objects into mouth.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Suspected meningitis",
+      "scenario": "A child presents with high fever, neck stiffness, and sensitivity to light. The caregiver reports the child has become increasingly drowsy and irritable. During assessment, the child shows altered level of consciousness and appears uncomfortable with movement.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Initiate isolation precautions and notify the provider immediately.",
+      "modelWhy": "Meningitis is life-threatening and contagious.",
+      "modelNext": "Monitor neurological status and vital signs.",
+      "trap": "Delaying care until lab confirmation.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

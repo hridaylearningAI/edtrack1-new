@@ -1,0 +1,2216 @@
+{
+  "level": 2,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 2 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 6 - Level 2 - Internationaly Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 6 · Level 2 — International Qualified Nurse (IQN)",
+          "bullets": [
+            {
+              "label": "\"Healthy beginnings. Compassionate care.\"",
+              "text": ""
+            },
+            {
+              "label": "Maternal and Newborn Nursing — Student Learning Notes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Level 2",
+          "body": "International maternity settings expect nurses to combine evidence-based assessment with cultural safety, structured escalation, multidisciplinary teamwork and informed family participation.",
+          "bullets": [
+            {
+              "label": "This level bridges national nursing preparation",
+              "text": "This level bridges national nursing preparation with international expectations — strengthening your ability to interpret fetal and maternal trends, manage high-risk pregnancy, respond to obstetric emergencies and communicate clearly across teams."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Maternal Assessment",
+              "text": ""
+            },
+            {
+              "label": "Apply international standards for maternal and newborn assessment",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Fetal Wellbeing",
+              "text": ""
+            },
+            {
+              "label": "Interpret fetal wellbeing and labour-progress information",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "High-Risk Recognition",
+              "text": ""
+            },
+            {
+              "label": "Recognise and escalate high-risk pregnancy complications",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Emergency Response",
+              "text": ""
+            },
+            {
+              "label": "Respond to obstetric emergencies and postpartum deterioration",
+              "text": ""
+            },
+            {
+              "label": "05",
+              "text": ""
+            },
+            {
+              "label": "Newborn & Family Care",
+              "text": ""
+            },
+            {
+              "label": "Assess high-risk newborns and provide culturally safe, family-centred care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "Safe. Culturally Responsive. Evidence-Informed.",
+          "bullets": [
+            {
+              "label": "By completing Level 2, you will be equipped to",
+              "text": "By completing Level 2, you will be equipped to deliver maternity and newborn care that meets the professional expectations of international healthcare environments — integrating the woman's history, observations, fetal wellbeing, labour progress, newborn adaptation and family preferences."
+            },
+            {
+              "label": "🩺 Clinical Excellence",
+              "text": ""
+            },
+            {
+              "label": "Integrate evidence-based practice into every assessment",
+              "text": ""
+            },
+            {
+              "label": "🌍 International Standards",
+              "text": ""
+            },
+            {
+              "label": "Meet global expectations for maternity nursing",
+              "text": ""
+            },
+            {
+              "label": "⚡ Alert Response",
+              "text": ""
+            },
+            {
+              "label": "Remain vigilant for rapid deterioration at all times",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "High-Risk Pregnancy & Maternal Assessment",
+          "bullets": [
+            {
+              "label": "International maternity practice places strong",
+              "text": "International maternity practice places strong emphasis on early risk identification, evidence-based monitoring and shared decision-making. High-risk pregnancy may involve hypertension, diabetes, placental problems, infection, fetal growth concerns or preterm labour."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Section 1 Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "Assess women with high-risk pregnancy conditions",
+              "text": ""
+            },
+            {
+              "label": "Interpret maternal and fetal trends accurately",
+              "text": ""
+            },
+            {
+              "label": "Recognise preeclampsia, diabetes and placental complications",
+              "text": ""
+            },
+            {
+              "label": "Escalate concerns using structured communication",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts: High-Risk Pregnancy",
+          "body": "Hypertensive Disorders",
+          "bullets": [
+            {
+              "label": "Preeclampsia: hypertension, proteinuria,",
+              "text": "Preeclampsia: hypertension, proteinuria, headache, visual disturbance, upper abdominal pain. Severe disease can progress to seizures, stroke or organ dysfunction."
+            },
+            {
+              "label": "Gestational Diabetes",
+              "text": ""
+            },
+            {
+              "label": "Includes glucose monitoring, insulin or",
+              "text": "Includes glucose monitoring, insulin or medication support, nutrition education and surveillance for maternal and fetal complications."
+            },
+            {
+              "label": "Placental Complications",
+              "text": ""
+            },
+            {
+              "label": "Placenta previa: painless bleeding. Abruption:",
+              "text": "Placenta previa: painless bleeding. Abruption: pain, tenderness and bleeding. Avoid vaginal examination until placental location is confirmed."
+            },
+            {
+              "label": "Preterm Labour & Growth",
+              "text": ""
+            },
+            {
+              "label": "Regular contractions, cervical change, leaking",
+              "text": "Regular contractions, cervical change, leaking fluid or fetal growth and movement concerns before term require prompt evaluation."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Severe Preeclampsia",
+          "body": "A woman at 35 weeks reports severe upper abdominal pain and visual disturbance. Her blood pressure is markedly elevated.",
+          "bullets": [
+            {
+              "label": "Nursing Response: Recognise severe preeclampsia",
+              "text": "Nursing Response: Recognise severe preeclampsia → initiate urgent escalation → prepare prescribed treatment → monitor maternal and fetal status closely."
+            },
+            {
+              "label": "⚠️ Treat as urgent",
+              "text": ""
+            },
+            {
+              "label": "Severe hypertension symptoms require immediate action",
+              "text": ""
+            },
+            {
+              "label": "🚫 Avoid unsafe procedures",
+              "text": ""
+            },
+            {
+              "label": "No vaginal examination if placenta previa is possible",
+              "text": ""
+            },
+            {
+              "label": "📋 Document clearly",
+              "text": ""
+            },
+            {
+              "label": "Use structured escalation and accurate records",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Responding to Obstetric Emergencies",
+          "bullets": [
+            {
+              "label": "Obstetric emergencies can develop suddenly and",
+              "text": "Obstetric emergencies can develop suddenly and threaten the life of the mother, fetus or both. Effective nursing response requires rapid assessment, role clarity, teamwork and preparation for emergency birth or resuscitation."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "concepts",
+          "title": "Obstetric Emergency: Core Concepts",
+          "body": "Postpartum Haemorrhage",
+          "bullets": [
+            {
+              "label": "Activate emergency response. Assess uterus, administer medications, prepare blood products and monitor continuously.",
+              "text": ""
+            },
+            {
+              "label": "Cord Prolapse",
+              "text": ""
+            },
+            {
+              "label": "Relieve pressure on cord, reposition the woman, call for emergency assistance and prepare for urgent birth.",
+              "text": ""
+            },
+            {
+              "label": "Shoulder Dystocia & Rupture",
+              "text": ""
+            },
+            {
+              "label": "Immediate team response. Follow established manoeuvres or surgical pathways without delay.",
+              "text": ""
+            },
+            {
+              "label": "Amniotic Fluid Embolism",
+              "text": ""
+            },
+            {
+              "label": "Sudden hypoxia or collapse: initiate resuscitation, coordinate obstetric and critical-care support rapidly.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Cord Prolapse",
+          "body": "After rupture of membranes, the fetal heart rate falls sharply and the nurse sees the umbilical cord at the vaginal opening.",
+          "bullets": [
+            {
+              "label": "Immediate actions:",
+              "text": ""
+            },
+            {
+              "label": "Call for emergency assistance immediately",
+              "text": ""
+            },
+            {
+              "label": "Relieve pressure on the cord per protocol",
+              "text": ""
+            },
+            {
+              "label": "Reposition the woman to reduce compression",
+              "text": ""
+            },
+            {
+              "label": "Prepare for immediate operative birth",
+              "text": ""
+            },
+            {
+              "label": "Activate help early. Communicate clearly during rapidly changing events.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Caring for High-Risk Newborns",
+          "bullets": [
+            {
+              "label": "High-risk newborns may be premature, growth",
+              "text": "High-risk newborns may be premature, growth restricted, hypoglycaemic, jaundiced, infected or experiencing respiratory distress. Their condition can deteriorate quickly — making close assessment and timely intervention essential."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "concepts",
+          "title": "High-Risk Newborn: Core Concepts",
+          "body": "Prematurity & Low Birth Weight",
+          "bullets": [
+            {
+              "label": "Vulnerable to heat loss, respiratory",
+              "text": "Vulnerable to heat loss, respiratory difficulty, infection, feeding problems and unstable blood glucose. Developmentally supportive care is essential."
+            },
+            {
+              "label": "Respiratory Distress",
+              "text": ""
+            },
+            {
+              "label": "Grunting, nasal flaring, retractions, central cyanosis or apnoea require immediate assessment and neonatal support.",
+              "text": ""
+            },
+            {
+              "label": "Hypoglycaemia & Jaundice",
+              "text": ""
+            },
+            {
+              "label": "Monitor at-risk newborns. Treat with feeding support, glucose therapy or phototherapy per severity and policy.",
+              "text": ""
+            },
+            {
+              "label": "Neonatal Sepsis",
+              "text": ""
+            },
+            {
+              "label": "Temperature instability, poor feeding, lethargy",
+              "text": "Temperature instability, poor feeding, lethargy or abnormal colour may indicate infection. Early escalation and treatment are critical."
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Premature Newborn in Distress",
+          "body": "A premature newborn develops grunting, chest retractions and falling oxygen saturation.",
+          "bullets": [
+            {
+              "label": "Inform Parents",
+              "text": ""
+            },
+            {
+              "label": "Call Neonatal Team",
+              "text": ""
+            },
+            {
+              "label": "Respiratory Support",
+              "text": ""
+            },
+            {
+              "label": "Warmth & Airway",
+              "text": ""
+            },
+            {
+              "label": "Subtle changes in a newborn can signal",
+              "text": "Subtle changes in a newborn can signal significant deterioration. Maintain warmth, stabilise glucose and never delay escalation of respiratory distress. Include parents in care whenever clinically possible."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Culturally Safe, Family-Centred Maternity Care",
+          "bullets": [
+            {
+              "label": "Maternity care occurs within personal, cultural",
+              "text": "Maternity care occurs within personal, cultural and family contexts. International nurses must communicate respectfully, support informed choice and avoid assumptions about pregnancy, birth, feeding or family roles."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Principles of Culturally Safe Care",
+          "body": "Cultural Safety",
+          "bullets": [
+            {
+              "label": "Ask what matters to the woman and family rather",
+              "text": "Ask what matters to the woman and family rather than assuming preferences based on background. Accommodate cultural practices when clinically safe."
+            },
+            {
+              "label": "Informed Choice",
+              "text": ""
+            },
+            {
+              "label": "Provide clear information on options, benefits,",
+              "text": "Provide clear information on options, benefits, risks and alternatives. Allow time for questions. Consent is an ongoing process — not a single event."
+            },
+            {
+              "label": "Communication Access",
+              "text": ""
+            },
+            {
+              "label": "Use professional interpreters for complex or",
+              "text": "Use professional interpreters for complex or high-risk discussions. Adapt information for literacy, hearing, vision or cognitive needs."
+            },
+            {
+              "label": "Trauma & Bereavement",
+              "text": ""
+            },
+            {
+              "label": "Pregnancy loss and neonatal illness can be",
+              "text": "Pregnancy loss and neonatal illness can be traumatic. Provide compassionate communication, privacy and referral to appropriate support services."
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Urgent Caesarean with Language Barrier",
+          "body": "A woman with limited English requires an urgent caesarean birth.",
+          "bullets": [
+            {
+              "label": "The nurse arranges a professional interpreter,",
+              "text": "The nurse arranges a professional interpreter, explains each step clearly, checks understanding and keeps the chosen support person involved wherever possible."
+            },
+            {
+              "label": "Urgency does not remove the need for respectful, informed and compassionate communication.",
+              "text": ""
+            },
+            {
+              "label": "Ask, don't assume",
+              "text": ""
+            },
+            {
+              "label": "Respect individual preferences at every step",
+              "text": ""
+            },
+            {
+              "label": "Use interpreters",
+              "text": ""
+            },
+            {
+              "label": "Always for complex or high-stakes conversations",
+              "text": ""
+            },
+            {
+              "label": "Keep family involved",
+              "text": ""
+            },
+            {
+              "label": "Support participation even during urgent care",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        },
+        {
+          "kind": "content",
+          "title": "Programme 6 Complete — Well Done!",
+          "body": "By completing GNPS Programme 6 Level 2, you have strengthened your ability to:",
+          "bullets": [
+            {
+              "label": "🤰 High-Risk Pregnancy",
+              "text": ""
+            },
+            {
+              "label": "Assess, monitor and escalate maternal and fetal concerns",
+              "text": ""
+            },
+            {
+              "label": "🚨 Obstetric Emergencies",
+              "text": ""
+            },
+            {
+              "label": "Respond rapidly with role clarity and team coordination",
+              "text": ""
+            },
+            {
+              "label": "👶 Newborn Care",
+              "text": ""
+            },
+            {
+              "label": "Stabilise and support high-risk neonates with confidence",
+              "text": ""
+            },
+            {
+              "label": "🌍 Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Deliver respectful, family-centred, informed care globally",
+              "text": ""
+            },
+            {
+              "label": "You are now ready for Level 3 — focusing on leadership, quality improvement and global maternal-newborn health.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-18"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "High-Risk Pregnancy and Maternal Assessment",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 6 - Level 2 - Section 1 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 6 · Maternal and Newborn Nursing",
+          "bullets": [
+            {
+              "label": "\"Healthy beginnings. Compassionate care.\"",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 · INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1",
+          "body": "High-Risk Pregnancy and Maternal Assessment",
+          "bullets": [
+            {
+              "label": "International maternity practice places strong",
+              "text": "International maternity practice places strong emphasis on early risk identification, evidence-based monitoring, and shared decision-making. High-risk pregnancy may involve hypertension, diabetes, placental problems, infection, fetal growth concerns, or preterm labour."
+            },
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Identify high-risk conditions early",
+              "text": ""
+            },
+            {
+              "label": "Interpret",
+              "text": ""
+            },
+            {
+              "label": "Monitor maternal and fetal trends",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Use structured communication",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Assess High-Risk Conditions",
+              "text": ""
+            },
+            {
+              "label": "Evaluate women presenting with complex or high-risk pregnancy conditions",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Interpret Clinical Trends",
+              "text": ""
+            },
+            {
+              "label": "Analyse maternal and fetal monitoring data to identify deterioration",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Recognise Complications",
+              "text": ""
+            },
+            {
+              "label": "Identify preeclampsia, gestational diabetes, and placental problems",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Escalate Effectively",
+              "text": ""
+            },
+            {
+              "label": "Apply structured communication tools and clear documentation",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Hypertensive Disorders in Pregnancy",
+          "body": "Recognising Preeclampsia",
+          "bullets": [
+            {
+              "label": "Preeclampsia may present with any combination of the following warning signs:",
+              "text": ""
+            },
+            {
+              "label": "Hypertension and proteinuria",
+              "text": ""
+            },
+            {
+              "label": "Severe headache or visual disturbance",
+              "text": ""
+            },
+            {
+              "label": "Upper abdominal pain",
+              "text": ""
+            },
+            {
+              "label": "Abnormal laboratory results (platelets, liver enzymes, creatinine)",
+              "text": ""
+            },
+            {
+              "label": "Risk of Progression",
+              "text": ""
+            },
+            {
+              "label": "Severe disease can escalate rapidly to:",
+              "text": ""
+            },
+            {
+              "label": "Eclamptic seizures",
+              "text": ""
+            },
+            {
+              "label": "Stroke or cerebral haemorrhage",
+              "text": ""
+            },
+            {
+              "label": "Multi-organ dysfunction",
+              "text": ""
+            },
+            {
+              "label": "HELLP syndrome",
+              "text": ""
+            },
+            {
+              "label": "Treat severe hypertension symptoms as a clinical emergency. Escalate immediately.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Gestational Diabetes",
+          "body": "Careful management of blood glucose protects both mother and baby. Nursing care includes:",
+          "bullets": [
+            {
+              "label": "Glucose Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Regular fasting and post-meal checks to guide treatment decisions",
+              "text": ""
+            },
+            {
+              "label": "Medication Support",
+              "text": ""
+            },
+            {
+              "label": "Oral agents or insulin therapy as prescribed; patient education on administration",
+              "text": ""
+            },
+            {
+              "label": "Nutrition Education",
+              "text": ""
+            },
+            {
+              "label": "Meal planning, carbohydrate awareness, and dietary guidance",
+              "text": ""
+            },
+            {
+              "label": "Complication Surveillance",
+              "text": ""
+            },
+            {
+              "label": "Monitor for macrosomia, polyhydramnios, and neonatal hypoglycaemia",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Placental Complications",
+          "body": "Placenta Praevia",
+          "bullets": [
+            {
+              "label": "Painless vaginal bleeding, often sudden onset. Placenta partially or fully covers the cervical os.",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Vaginal examination is unsafe until placental location is confirmed by ultrasound.",
+              "text": ""
+            },
+            {
+              "label": "Placental Abruption",
+              "text": ""
+            },
+            {
+              "label": "Painful bleeding with uterine tenderness and rigidity. Premature separation of a normally sited placenta.",
+              "text": ""
+            },
+            {
+              "label": "⚠️ Risk of haemorrhagic shock and fetal compromise — escalate urgently.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Preterm Labour and Fetal Growth Concerns",
+          "body": "Prompt evaluation is essential when any of the following are present before term:",
+          "bullets": [
+            {
+              "label": "Regular Contractions",
+              "text": ""
+            },
+            {
+              "label": "Rhythmic uterine tightening, especially with cervical change before 37 weeks",
+              "text": ""
+            },
+            {
+              "label": "Fluid Leaking",
+              "text": ""
+            },
+            {
+              "label": "Prelabour rupture of membranes — assess colour, odour, and amount",
+              "text": ""
+            },
+            {
+              "label": "Fetal Growth Restriction",
+              "text": ""
+            },
+            {
+              "label": "Reduced fundal growth or small-for-dates findings require further investigation",
+              "text": ""
+            },
+            {
+              "label": "Reduced Fetal Movement",
+              "text": ""
+            },
+            {
+              "label": "Any perceived decrease in movement requires immediate assessment and CTG monitoring",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario",
+          "body": "Recognising Severe Preeclampsia",
+          "bullets": [
+            {
+              "label": "A woman at 35 weeks presents with severe upper",
+              "text": "A woman at 35 weeks presents with severe upper abdominal pain and visual disturbance. Her blood pressure is markedly elevated. The nurse recognises severe preeclampsia, initiates urgent escalation, prepares prescribed treatment, and monitors maternal and fetal status closely."
+            },
+            {
+              "label": "Nursing Actions Taken",
+              "text": ""
+            },
+            {
+              "label": "Recognise danger signs — do not wait for a doctor to identify urgency",
+              "text": ""
+            },
+            {
+              "label": "Call for senior support using SBAR or local escalation protocol",
+              "text": ""
+            },
+            {
+              "label": "Prepare antihypertensive and magnesium sulphate as prescribed",
+              "text": ""
+            },
+            {
+              "label": "Continuous CTG monitoring and hourly urine output measurement",
+              "text": ""
+            },
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Identify danger signs and high BP.",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Make an SBAR call to senior clinician.",
+              "text": ""
+            },
+            {
+              "label": "Treat",
+              "text": ""
+            },
+            {
+              "label": "Administer prescribed antihypertensives and magnesium.",
+              "text": ""
+            },
+            {
+              "label": "Monitor",
+              "text": ""
+            },
+            {
+              "label": "Continuous maternal and fetal observation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Consolidate your understanding of high-risk maternal assessment with these essential principles:",
+          "bullets": [
+            {
+              "label": "Treat Severe Hypertension Urgently",
+              "text": ""
+            },
+            {
+              "label": "Symptoms of severe preeclampsia are a medical emergency — act without delay",
+              "text": ""
+            },
+            {
+              "label": "Avoid Unsafe Procedures",
+              "text": ""
+            },
+            {
+              "label": "Never perform vaginal examination if placenta praevia has not been excluded",
+              "text": ""
+            },
+            {
+              "label": "Monitor Mother and Fetus Together",
+              "text": ""
+            },
+            {
+              "label": "Maternal deterioration affects fetal wellbeing — assess both simultaneously",
+              "text": ""
+            },
+            {
+              "label": "Escalate and Document Clearly",
+              "text": ""
+            },
+            {
+              "label": "Use structured tools such as SBAR; accurate records support safe handover",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Ready to Continue Your GNPS Journey?",
+          "body": "Section 1 is complete. You have built a strong foundation in high-risk pregnancy recognition and maternal assessment — essential competencies for NCLEX preparation and international practice.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Review Key Concepts",
+              "text": ""
+            },
+            {
+              "label": "Revisit hypertensive disorders, diabetes, and placental complications",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply Clinical Reasoning",
+              "text": ""
+            },
+            {
+              "label": "Practise with case-based NCLEX-style questions",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Proceed to Section 2",
+              "text": ""
+            },
+            {
+              "label": "Intrapartum care and labour management",
+              "text": ""
+            },
+            {
+              "label": "GNPS Programme 6 · Supporting Mothers and Newborns · Level 2 IQN · NCLEX Aligned",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Responding to Obstetric Emergencies",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 6 - Level 2 - Section 2 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Responding to Obstetric Emergencies",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 6 · Level 2 – International Qualified Nurse",
+          "bullets": [
+            {
+              "label": "SECTION 2",
+              "text": ""
+            },
+            {
+              "label": "MATERNAL & NEWBORN NURSING",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What Are Obstetric Emergencies?",
+          "body": "Obstetric emergencies develop suddenly and can threaten the life of the mother, fetus, or both. Rapid recognition and a coordinated response are critical to improving outcomes.",
+          "bullets": [
+            {
+              "label": "Rapid Assessment",
+              "text": ""
+            },
+            {
+              "label": "Identify deterioration early",
+              "text": ""
+            },
+            {
+              "label": "Role Clarity",
+              "text": ""
+            },
+            {
+              "label": "Every team member knows their task",
+              "text": ""
+            },
+            {
+              "label": "Teamwork",
+              "text": ""
+            },
+            {
+              "label": "Coordinated, calm communication",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "Recognise Common Emergencies",
+              "text": ""
+            },
+            {
+              "label": "Identify key obstetric emergencies from clinical signs",
+              "text": ""
+            },
+            {
+              "label": "Prioritise Actions",
+              "text": ""
+            },
+            {
+              "label": "Apply correct immediate responses for mother and fetus",
+              "text": ""
+            },
+            {
+              "label": "Work in Emergency Teams",
+              "text": ""
+            },
+            {
+              "label": "Contribute effectively within a multi-disciplinary team",
+              "text": ""
+            },
+            {
+              "label": "Communicate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Provide accurate handover and emotional support under pressure",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Postpartum Haemorrhage (PPH)",
+          "body": "Rapid blood loss is one of the leading causes of maternal mortality worldwide. Immediate action saves lives.",
+          "bullets": [
+            {
+              "label": "Activate Response",
+              "text": ""
+            },
+            {
+              "label": "Call for emergency assistance without delay",
+              "text": ""
+            },
+            {
+              "label": "Assess Uterus",
+              "text": ""
+            },
+            {
+              "label": "Fundal massage and tone assessment",
+              "text": ""
+            },
+            {
+              "label": "Medication & Fluids",
+              "text": ""
+            },
+            {
+              "label": "Oxytocics, IV access, fluid resuscitation",
+              "text": ""
+            },
+            {
+              "label": "Blood Products",
+              "text": ""
+            },
+            {
+              "label": "Prepare and monitor transfusion as prescribed",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Cord Prolapse & Fetal Compromise",
+          "body": "Cord prolapse occurs when the umbilical cord descends ahead of the presenting part, compressing the cord and reducing fetal oxygenation. Every second counts.",
+          "bullets": [
+            {
+              "label": "Relieve pressure on the cord manually and immediately",
+              "text": ""
+            },
+            {
+              "label": "Reposition the mother — knee-chest or Trendelenburg position",
+              "text": ""
+            },
+            {
+              "label": "Call for emergency assistance and alert the obstetric team",
+              "text": ""
+            },
+            {
+              "label": "Prepare for urgent birth — operative delivery is likely",
+              "text": ""
+            },
+            {
+              "label": "Maintain continuous fetal monitoring throughout",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Shoulder Dystocia & Uterine Rupture",
+          "body": "Shoulder Dystocia",
+          "bullets": [
+            {
+              "label": "After delivery of the head, the anterior",
+              "text": "After delivery of the head, the anterior shoulder becomes impacted. Apply established manoeuvres (HELPERR protocol): call for Help, Episiotomy, Legs (McRoberts), Pressure, Enter, Remove arm, Roll."
+            },
+            {
+              "label": "Uterine Rupture",
+              "text": ""
+            },
+            {
+              "label": "A full-thickness tear of the uterine wall.",
+              "text": "A full-thickness tear of the uterine wall. Signs include sudden severe pain, fetal bradycardia and maternal collapse. Requires immediate surgical intervention and resuscitation support."
+            },
+            {
+              "label": "Both emergencies demand immediate team",
+              "text": "Both emergencies demand immediate team activation. Do not hesitate — call for senior obstetric support at the first sign."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Amniotic Fluid Embolism & Collapse",
+          "body": "Amniotic fluid embolism (AFE) is rare but rapidly fatal. Amniotic fluid enters the maternal circulation, triggering cardiovascular collapse, hypoxia and coagulopathy.",
+          "bullets": [
+            {
+              "label": "Clinical signs include:",
+              "text": ""
+            },
+            {
+              "label": "Sudden hypoxia and dyspnoea",
+              "text": ""
+            },
+            {
+              "label": "Hypotension and cardiovascular collapse",
+              "text": ""
+            },
+            {
+              "label": "Loss of consciousness or seizures",
+              "text": ""
+            },
+            {
+              "label": "DIC (disseminated intravascular coagulation)",
+              "text": ""
+            },
+            {
+              "label": "Resuscitation",
+              "text": ""
+            },
+            {
+              "label": "Begin CPR immediately if pulseless",
+              "text": ""
+            },
+            {
+              "label": "Obstetric Support",
+              "text": ""
+            },
+            {
+              "label": "Alert team for emergency delivery",
+              "text": ""
+            },
+            {
+              "label": "Critical Care",
+              "text": ""
+            },
+            {
+              "label": "ICU involvement, airway management",
+              "text": ""
+            },
+            {
+              "label": "Rapid Coordination",
+              "text": ""
+            },
+            {
+              "label": "Clear communication across all teams",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Cord Prolapse in Action",
+          "body": "Following rupture of membranes, the fetal heart rate falls sharply and the nurse observes the umbilical cord at the vaginal opening.",
+          "bullets": [
+            {
+              "label": "Call for Help",
+              "text": ""
+            },
+            {
+              "label": "Relieve Cord Pressure",
+              "text": ""
+            },
+            {
+              "label": "Reposition Mother",
+              "text": ""
+            },
+            {
+              "label": "Prepare Operative Birth",
+              "text": ""
+            },
+            {
+              "label": "This scenario illustrates how rapid recognition",
+              "text": "This scenario illustrates how rapid recognition and protocol-driven action can protect fetal oxygenation and facilitate a safe emergency birth."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Effective Team Communication",
+          "body": "Clear, structured communication during obstetric emergencies prevents errors and ensures every team member is informed. Use closed-loop communication and structured handover tools.",
+          "bullets": [
+            {
+              "label": "Remember",
+              "text": ""
+            },
+            {
+              "label": "Even in crisis, a calm tone and clear language",
+              "text": "Even in crisis, a calm tone and clear language protect both the patient and team performance. Panic is contagious — composure saves lives."
+            },
+            {
+              "label": "SBAR Framework",
+              "text": ""
+            },
+            {
+              "label": "Situation · Background · Assessment · Recommendation",
+              "text": ""
+            },
+            {
+              "label": "Read-Back Technique",
+              "text": ""
+            },
+            {
+              "label": "Confirm verbal orders to avoid medication errors",
+              "text": ""
+            },
+            {
+              "label": "Emotional Support",
+              "text": ""
+            },
+            {
+              "label": "Acknowledge the woman's fear; brief, reassuring statements",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Carry these principles into every clinical setting:",
+          "bullets": [
+            {
+              "label": "Activate Help Early",
+              "text": ""
+            },
+            {
+              "label": "Do not manage obstetric emergencies alone. Call for support at the earliest sign of deterioration.",
+              "text": ""
+            },
+            {
+              "label": "Use Established Protocols",
+              "text": ""
+            },
+            {
+              "label": "Follow evidence-based emergency protocols consistently. Preparation and practice improve response speed.",
+              "text": ""
+            },
+            {
+              "label": "Protect Oxygenation",
+              "text": ""
+            },
+            {
+              "label": "Maintain maternal and fetal oxygenation as the primary clinical priority throughout any emergency.",
+              "text": ""
+            },
+            {
+              "label": "Communicate Clearly",
+              "text": ""
+            },
+            {
+              "label": "Structured, calm communication keeps the team aligned during rapidly evolving situations.",
+              "text": ""
+            },
+            {
+              "label": "\"Healthy beginnings. Compassionate care.\" — GNPS Programme 6 · Section 2 Complete",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Caring for High-Risk Newborns",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 6 - Level 2 - Section 3 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Caring for High-Risk Newborns",
+          "body": "Global Nursing Professional Series (GNPS) · Programme 6 · Section 3",
+          "bullets": [
+            {
+              "label": "LEVEL 2 – INTERNATIONAL QUALIFIED NURSE (IQN)",
+              "text": ""
+            },
+            {
+              "label": "\"Healthy beginnings. Compassionate care.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What Is a High-Risk Newborn?",
+          "body": "High-risk newborns require heightened vigilance. Their condition can deteriorate rapidly — making systematic assessment and timely intervention essential.",
+          "bullets": [
+            {
+              "label": "Prematurity",
+              "text": ""
+            },
+            {
+              "label": "Born before 37 weeks",
+              "text": ""
+            },
+            {
+              "label": "Growth Restriction",
+              "text": ""
+            },
+            {
+              "label": "Low birth weight",
+              "text": ""
+            },
+            {
+              "label": "Infection",
+              "text": ""
+            },
+            {
+              "label": "Neonatal sepsis risk",
+              "text": ""
+            },
+            {
+              "label": "Metabolic",
+              "text": ""
+            },
+            {
+              "label": "Hypoglycaemia, jaundice",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Systematic Assessment",
+              "text": ""
+            },
+            {
+              "label": "Assess a high-risk newborn using a structured, head-to-toe approach",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Recognise Key Conditions",
+              "text": ""
+            },
+            {
+              "label": "Identify signs of respiratory distress, hypoglycaemia and neonatal sepsis",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Supportive Interventions",
+              "text": ""
+            },
+            {
+              "label": "Support thermoregulation, feeding and oxygenation effectively",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Team Communication",
+              "text": ""
+            },
+            {
+              "label": "Communicate clearly with neonatal teams and families under pressure",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Prematurity and Low Birth Weight",
+          "body": "Premature newborns (born before 37 weeks) are particularly vulnerable. Their physiological immaturity affects multiple body systems simultaneously.",
+          "bullets": [
+            {
+              "label": "🌡️ Heat Loss",
+              "text": ""
+            },
+            {
+              "label": "Thin skin and low fat stores impair thermoregulation",
+              "text": ""
+            },
+            {
+              "label": "🫁 Respiratory",
+              "text": ""
+            },
+            {
+              "label": "Immature lungs increase risk of respiratory difficulty",
+              "text": ""
+            },
+            {
+              "label": "🍼 Feeding",
+              "text": ""
+            },
+            {
+              "label": "Weak suck reflex makes oral feeding challenging",
+              "text": ""
+            },
+            {
+              "label": "🧪 Glucose",
+              "text": ""
+            },
+            {
+              "label": "Unstable blood sugar requires close monitoring",
+              "text": ""
+            },
+            {
+              "label": "Developmentally supportive care — minimising",
+              "text": "Developmentally supportive care — minimising stimulation and promoting skin-to-skin — is fundamental to premature newborn wellbeing."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Recognising Respiratory Distress",
+          "body": "Why It Matters",
+          "bullets": [
+            {
+              "label": "Respiratory distress is one of the most urgent",
+              "text": "Respiratory distress is one of the most urgent presentations in neonatal care. Each sign reflects increasing work of breathing and potential oxygen failure."
+            },
+            {
+              "label": "Immediate actions:",
+              "text": ""
+            },
+            {
+              "label": "Maintain warmth and open airway",
+              "text": ""
+            },
+            {
+              "label": "Apply prescribed oxygen or respiratory support",
+              "text": ""
+            },
+            {
+              "label": "Escalate to neonatal team without delay",
+              "text": ""
+            },
+            {
+              "label": "Monitor saturation continuously",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Hypoglycaemia and Jaundice",
+          "body": "Hypoglycaemia",
+          "bullets": [
+            {
+              "label": "Blood glucose instability is common in",
+              "text": "Blood glucose instability is common in premature, large-for-dates, and infants of diabetic mothers. Early feeding and glucose monitoring are critical."
+            },
+            {
+              "label": "Signs: jitteriness, poor tone, poor feeding, seizures",
+              "text": ""
+            },
+            {
+              "label": "Management: early feeding, glucose gel or IV dextrose per policy",
+              "text": ""
+            },
+            {
+              "label": "Neonatal Jaundice",
+              "text": ""
+            },
+            {
+              "label": "Visible yellowing of skin and sclera indicates",
+              "text": "Visible yellowing of skin and sclera indicates rising bilirubin. Most is physiological but requires assessment and monitoring."
+            },
+            {
+              "label": "Appears day 2–3 in term infants; earlier is pathological",
+              "text": ""
+            },
+            {
+              "label": "Treatment: phototherapy or exchange transfusion per severity",
+              "text": ""
+            },
+            {
+              "label": "Identify",
+              "text": ""
+            },
+            {
+              "label": "Assess risk factors and skin colour",
+              "text": ""
+            },
+            {
+              "label": "Treat",
+              "text": ""
+            },
+            {
+              "label": "Start phototherapy or escalate care",
+              "text": ""
+            },
+            {
+              "label": "Measure",
+              "text": ""
+            },
+            {
+              "label": "Transcutaneous or serum bilirubin",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Neonatal Sepsis: Early Warning Signs",
+          "body": "Sepsis in newborns is life-threatening and can present subtly. A single unexplained change warrants prompt escalation.",
+          "bullets": [
+            {
+              "label": "Temperature Instability",
+              "text": ""
+            },
+            {
+              "label": "Hypothermia or fever — either may indicate infection in the newborn",
+              "text": ""
+            },
+            {
+              "label": "Poor Feeding",
+              "text": ""
+            },
+            {
+              "label": "Reduced interest in feeding or weak suck is an early, often overlooked sign",
+              "text": ""
+            },
+            {
+              "label": "Respiratory Change",
+              "text": ""
+            },
+            {
+              "label": "Tachypnoea, apnoea or grunting may accompany systemic infection",
+              "text": ""
+            },
+            {
+              "label": "Abnormal Colour or Tone",
+              "text": ""
+            },
+            {
+              "label": "Mottling, pallor, jaundice or lethargy all require immediate assessment",
+              "text": ""
+            },
+            {
+              "label": "Early escalation and prompt antibiotic therapy",
+              "text": "Early escalation and prompt antibiotic therapy are essential. Do not wait for culture results before initiating treatment if sepsis is suspected."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Scenario: Applying Your Skills",
+          "body": "The Situation",
+          "bullets": [
+            {
+              "label": "A premature newborn develops grunting, chest retractions and falling oxygen saturation shortly after birth.",
+              "text": ""
+            },
+            {
+              "label": "The Nurse's Response",
+              "text": ""
+            },
+            {
+              "label": "Maintains warmth — prevents cold stress worsening distress",
+              "text": ""
+            },
+            {
+              "label": "Opens and supports the airway",
+              "text": ""
+            },
+            {
+              "label": "Applies prescribed respiratory support promptly",
+              "text": ""
+            },
+            {
+              "label": "Urgently involves the neonatal team",
+              "text": ""
+            },
+            {
+              "label": "Informs parents calmly and compassionately",
+              "text": ""
+            },
+            {
+              "label": "Clear, timely communication with both the team and the family is as important as the clinical intervention itself.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "concepts",
+          "title": "Nursing Priorities at a Glance",
+          "body": "Include Parents in Care",
+          "bullets": [
+            {
+              "label": "Involve families in decisions and updates whenever clinically possible — it supports bonding and reduces anxiety",
+              "text": ""
+            },
+            {
+              "label": "Maintain Glucose Stability",
+              "text": ""
+            },
+            {
+              "label": "Monitor blood glucose regularly in at-risk newborns; initiate feeding or therapy early",
+              "text": ""
+            },
+            {
+              "label": "Preserve Warmth",
+              "text": ""
+            },
+            {
+              "label": "Use incubators, warm blankets or skin-to-skin care to prevent dangerous heat loss",
+              "text": ""
+            },
+            {
+              "label": "Escalate Without Delay",
+              "text": ""
+            },
+            {
+              "label": "Subtle changes matter — act on early signs of respiratory distress or sepsis immediately",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3 Summary",
+          "body": "High-risk newborn care demands vigilance, rapid decision-making and compassionate communication. The principles from this section underpin safe neonatal practice across all clinical settings.",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Systematic, head-to-toe newborn assessment",
+              "text": ""
+            },
+            {
+              "label": "Recognise",
+              "text": ""
+            },
+            {
+              "label": "Respiratory distress, hypoglycaemia, sepsis",
+              "text": ""
+            },
+            {
+              "label": "Intervene",
+              "text": ""
+            },
+            {
+              "label": "Warmth, airway, glucose, feeding support",
+              "text": ""
+            },
+            {
+              "label": "Communicate",
+              "text": ""
+            },
+            {
+              "label": "Escalate early; keep families informed",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAMME 6 · SECTION 3 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Culturally Safe, Family-Centred Maternity Care",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 6 - Level 2 - Section 4 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Culturally Safe, Family-Centred Maternity Care",
+          "body": "\"Healthy beginnings. Compassionate care.\"",
+          "bullets": [
+            {
+              "label": "GNPS PROGRAMME 6 · SECTION 4",
+              "text": ""
+            },
+            {
+              "label": "LEVEL 2 – INTERNATIONAL QUALIFIED NURSE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Global Nursing Professional Series",
+          "body": "What You Will Learn",
+          "bullets": [
+            {
+              "label": "By the end of this section, you will be",
+              "text": "By the end of this section, you will be equipped to deliver respectful, informed and compassionate maternity care across diverse cultural contexts."
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Cultural Safety",
+              "text": ""
+            },
+            {
+              "label": "Provide care that respects individual values and practices",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Informed Choice",
+              "text": ""
+            },
+            {
+              "label": "Support shared decision-making throughout the care journey",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Communication Access",
+              "text": ""
+            },
+            {
+              "label": "Use interpreters and accessible, adapted communication",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Trauma-Informed Care",
+              "text": ""
+            },
+            {
+              "label": "Respond with compassion after loss, emergency or bereavement",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Why Cultural Safety Matters",
+          "body": "Maternity care does not happen in a vacuum — it unfolds within deeply personal, cultural and family contexts. International nurses must be mindful of this at every step.",
+          "bullets": [
+            {
+              "label": "Ask, Don't Assume",
+              "text": ""
+            },
+            {
+              "label": "Never presume preferences based on a woman's",
+              "text": "Never presume preferences based on a woman's cultural background, ethnicity or religion. Always ask what matters most to her and her family."
+            },
+            {
+              "label": "Accommodate Safely",
+              "text": ""
+            },
+            {
+              "label": "Cultural practices — around birth, feeding,",
+              "text": "Cultural practices — around birth, feeding, naming, or family roles — should be supported wherever it is clinically safe to do so."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Informed Choice & Shared Decision-Making",
+          "bullets": [
+            {
+              "label": "Informed choice is not a single event — it is an ongoing process throughout pregnancy, labour and the postnatal period.",
+              "text": ""
+            },
+            {
+              "label": "Present clear information on options, benefits, risks and alternatives",
+              "text": ""
+            },
+            {
+              "label": "Allow sufficient time for questions and reflection",
+              "text": ""
+            },
+            {
+              "label": "Confirm understanding without pressure or judgment",
+              "text": ""
+            },
+            {
+              "label": "Revisit consent at each stage of care",
+              "text": ""
+            },
+            {
+              "label": "Consent is never a one-time tick-box — it is a continuous, respectful conversation.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Communication Access in Maternity Care",
+          "bullets": [
+            {
+              "label": "When to Use a Professional Interpreter",
+              "text": ""
+            },
+            {
+              "label": "Complex clinical discussions (diagnosis, prognosis)",
+              "text": ""
+            },
+            {
+              "label": "High-risk or urgent situations",
+              "text": ""
+            },
+            {
+              "label": "Consent for procedures or surgery",
+              "text": ""
+            },
+            {
+              "label": "Bereavement conversations",
+              "text": ""
+            },
+            {
+              "label": "Family members — especially children — should not act as interpreters for clinical information.",
+              "text": ""
+            },
+            {
+              "label": "Adapting for Other Needs",
+              "text": ""
+            },
+            {
+              "label": "🧏 Hearing",
+              "text": ""
+            },
+            {
+              "label": "Sign language interpreters or written communication",
+              "text": ""
+            },
+            {
+              "label": "👁️ Vision",
+              "text": ""
+            },
+            {
+              "label": "Audio information and tactile resources",
+              "text": ""
+            },
+            {
+              "label": "📖 Literacy",
+              "text": ""
+            },
+            {
+              "label": "Plain language, visual aids and verbal explanation",
+              "text": ""
+            },
+            {
+              "label": "🧠 Cognitive",
+              "text": ""
+            },
+            {
+              "label": "Simplified steps, repetition and carer involvement",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Trauma, Loss & Bereavement",
+          "body": "Pregnancy loss, emergency birth and neonatal illness can be profoundly traumatic. Compassionate, trauma-informed care is essential — not optional.",
+          "bullets": [
+            {
+              "label": "Compassionate Communication",
+              "text": ""
+            },
+            {
+              "label": "Use calm, honest, sensitive language. Acknowledge grief without minimising it.",
+              "text": ""
+            },
+            {
+              "label": "Privacy & Dignity",
+              "text": ""
+            },
+            {
+              "label": "Ensure private spaces for families during difficult moments. Limit unnecessary interruptions.",
+              "text": ""
+            },
+            {
+              "label": "Memory-Making",
+              "text": ""
+            },
+            {
+              "label": "Offer footprints, photographs or naming ceremonies where culturally and clinically appropriate.",
+              "text": ""
+            },
+            {
+              "label": "Referral & Support",
+              "text": ""
+            },
+            {
+              "label": "Connect families with social workers, chaplaincy, counselling and peer support services.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Urgent Caesarean Birth: Respectful Care Under Pressure",
+          "bullets": [
+            {
+              "label": "A woman with limited English requires an urgent",
+              "text": "A woman with limited English requires an urgent caesarean section. Even in high-pressure situations, respectful communication remains non-negotiable."
+            },
+            {
+              "label": "Keep Support Person",
+              "text": ""
+            },
+            {
+              "label": "Check Understanding",
+              "text": ""
+            },
+            {
+              "label": "Explain in Steps",
+              "text": ""
+            },
+            {
+              "label": "Arrange Interpreter",
+              "text": ""
+            },
+            {
+              "label": "Key principle: Urgency does not remove the",
+              "text": "Key principle: Urgency does not remove the right to respectful, informed communication. Adapt your approach — never abandon it."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Applying the Framework",
+          "body": "Putting It All Together",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Ask about preferences, language needs and cultural values at first contact",
+              "text": ""
+            },
+            {
+              "label": "Plan",
+              "text": ""
+            },
+            {
+              "label": "Arrange interpreters, adapt resources and involve family as directed by the woman",
+              "text": ""
+            },
+            {
+              "label": "Deliver",
+              "text": ""
+            },
+            {
+              "label": "Provide care that is informed, respectful and trauma-sensitive throughout",
+              "text": ""
+            },
+            {
+              "label": "Review",
+              "text": ""
+            },
+            {
+              "label": "Reflect on the interaction, document clearly and refer to additional support where needed",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Preparation Focus",
+          "body": "Test Yourself",
+          "bullets": [
+            {
+              "label": "Common NCLEX-Style Themes in This Section",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Cultural Competence",
+              "text": ""
+            },
+            {
+              "label": "Questions on avoiding assumptions and accommodating diverse beliefs",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Client Rights",
+              "text": ""
+            },
+            {
+              "label": "Informed consent, autonomy and the right to refuse treatment",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Communication & Safety",
+              "text": ""
+            },
+            {
+              "label": "Use of professional interpreters and SBAR in urgent situations",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "🙋 Ask, Don't Assume",
+          "bullets": [
+            {
+              "label": "Always ask what matters to the woman — never presume based on background",
+              "text": ""
+            },
+            {
+              "label": "🗣️ Use Professional Interpreters",
+              "text": ""
+            },
+            {
+              "label": "For complex, high-risk or sensitive discussions — every time",
+              "text": ""
+            },
+            {
+              "label": "✅ Informed Participation",
+              "text": ""
+            },
+            {
+              "label": "Support active involvement in decisions — even during urgent care",
+              "text": ""
+            },
+            {
+              "label": "💛 Compassionate Response",
+              "text": ""
+            },
+            {
+              "label": "Provide trauma-informed, dignified care after any loss or emergency",
+              "text": ""
+            },
+            {
+              "label": "GNPS Programme 6 · Section 4 Complete — Healthy beginnings. Compassionate care.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1067 @@
+{
+  "level": 1,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 1 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 1 - Level 1 - Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series",
+          "body": "GNPS Program 1 – Building Strong Foundations in Nursing Practice Level 1 Student Learning Notes · Internationally Qualified Nurses",
+          "bullets": [],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Program 1",
+          "body": "Every successful nursing career begins with strong fundamentals. Before advancing to specialised clinical procedures, every nurse must develop a sound understanding of core nursing principles. This programme is aligned with national nursing education outcomes — including those set by country-specific Nursing Councils and international regulatory bodies — to ensure globally recognised standards of care. Strong foundations create confident nurses.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "Throughout GNPS Program 1, you will strengthen your understanding of nine essential areas of professional nursing practice.",
+          "bullets": [
+            {
+              "label": "Professional Roles",
+              "text": "Responsibilities of nurses in any setting"
+            },
+            {
+              "label": "Basic Patient Care",
+              "text": "Comfort, hygiene, and fundamental care"
+            },
+            {
+              "label": "Patient Safety",
+              "text": "Infection prevention and risk reduction"
+            },
+            {
+              "label": "Communication",
+              "text": "With patients and healthcare teams"
+            },
+            {
+              "label": "Ethics & Law",
+              "text": "Accountability, documentation, and conduct"
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "🛡️ Safe",
+          "bullets": [
+            {
+              "label": "Safe, Patient-Centred Care Within Your Scope",
+              "text": "By the end of Level 1, you should feel confident delivering care that meets national nursing standards and institutional policies — while knowing when to seek guidance and how to protect both patients and yourself."
+            },
+            {
+              "label": "Confident",
+              "text": "Act with knowledge and purpose"
+            }
+          ],
+          "callout": "Minimise risk at every step ❤️ Compassionate Place patients first, always",
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Professional nursing combines scientific knowledge",
+          "bullets": [
+            {
+              "label": "Professional Nursing Practice",
+              "text": "Nursing is more than a profession — it is a commitment to safe, compassionate, and ethical care. Patients trust nurses not only for clinical skills but for honesty, respect, and professionalism."
+            },
+            {
+              "label": "compassionate care",
+              "text": ". A professional nurse always places the patient's safety and wellbeing first."
+            }
+          ],
+          "callout": ", clinical skills , effective communication , and",
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1 · KEY CONCEPTS",
+          "body": "Accountability, Scope & Ethics",
+          "bullets": [
+            {
+              "label": "Accountability",
+              "text": "Accept responsibility for every action — whether administering medication, documenting care, or educating a patient. Ensure it is done safely and correctly."
+            },
+            {
+              "label": "Scope of Practice",
+              "text": "Understand the limits of your professional role. When a situation exceeds your authority or training, seek guidance from senior staff immediately."
+            },
+            {
+              "label": "Ethics & Confidentiality",
+              "text": "Uphold patient dignity, privacy, and confidentiality at all times. Ethical behaviour is the backbone of professional nursing practice."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Priya, a newly graduated nurse, is asked to insert a central venous catheter. She has observed the procedure but has never been trained to perform it independently. Instead of attempting the procedure, she informs her senior nurse and requests supervision.",
+          "bullets": [
+            {
+              "label": "Recognising the Limits of Competence",
+              "text": "Priya, a newly graduated nurse, is asked to insert a central venous catheter. She has observed the procedure but has never been trained to perform it independently. Instead of attempting the procedure, she informs her senior nurse and requests supervision."
+            },
+            {
+              "label": "Priya protects her patient",
+              "text": "and demonstrates professional accountability in action."
+            },
+            {
+              "label": "Never attempt beyond your training",
+              "text": "Escalate to senior staff promptly"
+            },
+            {
+              "label": "Document the escalation clearly",
+              "text": "Seek supervised learning opportunities"
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Patient Safety & Quality Care",
+              "text": "Patient safety is the foundation of nursing practice. Even small actions — such as checking a patient's identity or securing bed rails — can prevent serious incidents and save lives."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2 · FRAMEWORK",
+          "body": "The Four Pillars of Quality Care Always verify patient identity before any procedure or medication administration.",
+          "bullets": [
+            {
+              "label": "Safe",
+              "text": "Avoid harm through consistent checks and risk awareness"
+            },
+            {
+              "label": "Effective",
+              "text": "Base every decision on best available evidence"
+            },
+            {
+              "label": "Patient-Centred",
+              "text": "Respect individual needs, preferences, and dignity"
+            },
+            {
+              "label": "Timely",
+              "text": "Respond promptly to changes in a patient's condition"
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Appropriate use of personal protective equipment (PPE) Maintaining a clean clinical environment",
+          "bullets": [
+            {
+              "label": "Infection Prevention & Control",
+              "text": "Many healthcare-associated infections are entirely preventable. Consistent infection control practices protect both patients and healthcare workers every single day."
+            },
+            {
+              "label": "Breaking the chain of infection begins with:",
+              "text": "Effective hand hygiene before and after every patient contact"
+            },
+            {
+              "label": "Safe disposal of clinical waste",
+              "text": "Cleaning and decontaminating patient equipment"
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "example",
+          "title": "SECTION 3 · CLINICAL EXAMPLE",
+          "body": "Maria performs hand hygiene before examining a patient, wears appropriate PPE during assessment, then cleans her hands again before attending her next patient.",
+          "bullets": [
+            {
+              "label": "Before Contact",
+              "text": "Maria performs hand hygiene before examining a patient, wears appropriate PPE during assessment, then cleans her hands again before attending her next patient."
+            }
+          ],
+          "callout": "This simple routine significantly reduces infection transmission risk.",
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Communication & Basic Patient Care",
+              "text": "Patients remember not only the treatment they received — but how they were treated. Excellent nursing care depends equally on effective communication and attentiveness to patients' fundamental needs."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "concepts",
+          "title": "SECTION 4 · CORE CONCEPTS",
+          "body": "Basic Care & Effective Communication Nutrition and hydration",
+          "bullets": [
+            {
+              "label": "Basic Nursing Care Includes",
+              "text": "Personal hygiene and skin care"
+            },
+            {
+              "label": "Active Listening",
+              "text": "Give full attention; avoid interrupting"
+            },
+            {
+              "label": "Empathy",
+              "text": "Acknowledge feelings and concerns genuinely"
+            },
+            {
+              "label": "Clarity",
+              "text": "Use simple language that patients understand"
+            },
+            {
+              "label": "Non-Verbal Cues",
+              "text": "Posture, eye contact, and tone matter"
+            }
+          ],
+          "callout": "Mobility and repositioning Comfort and pain management Observation of vital signs Communication Skills",
+          "id": "card-13"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Sometimes, Listening is the Most Important Intervention Mr Sharma appears unusually quiet during the morning round. Rather than assuming everything is normal, the nurse sits beside him and asks how he is feeling. Mr Sharma explains he has been experiencing increasing pain overnight but didn't want to trouble anyone. The nurse assesses the pain, informs the medical team, and arranges appropriate care. A single conversation prevented a serious clinical deterioration.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Summary & What's Next",
+          "body": "By completing GNPS Program 1 – Level 1, you have built the essential knowledge and skills that underpin all of professional nursing practice. — applying these principles within international healthcare environments and evidence-based practice.",
+          "bullets": [
+            {
+              "label": "Professional Practice",
+              "text": "Accountability, ethics, and scope"
+            },
+            {
+              "label": "Patient Safety",
+              "text": "Quality frameworks and risk checks"
+            },
+            {
+              "label": "Infection Control",
+              "text": "Hand hygiene and standard precautions"
+            },
+            {
+              "label": "Communication",
+              "text": "Empathy, listening, and basic care"
+            },
+            {
+              "label": "Next:",
+              "text": "Level 2 – International Qualified Nurse"
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Professional Nursing Practice",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 1 - Level 1 - Section 1 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 1 – Building Strong Foundations in Nursing Practice Level 1 Student Learning Notes — Your pathway to confident, competent, and compassionate nursing care.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Programme 1",
+          "body": "Every successful nursing career begins with strong fundamentals. Before advancing to complex clinical procedures, every nurse must develop a sound understanding of core nursing principles — the knowledge, ethics, and skills that define professional practice.",
+          "bullets": [
+            {
+              "label": "Purpose",
+              "text": "Build your foundational competence in professional nursing"
+            },
+            {
+              "label": "Focus",
+              "text": "Core principles that apply across all clinical settings"
+            },
+            {
+              "label": "Relevance",
+              "text": "Aligned with NCLEX standards for internationally qualified nurses"
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Section 1: Professional Nursing Practice",
+          "body": "",
+          "bullets": [
+            {
+              "label": "LEARNING OUTCOMES",
+              "text": "After completing this section, you will be able to:"
+            },
+            {
+              "label": "Define the Role",
+              "text": "Explain the responsibilities of a professional nurse"
+            },
+            {
+              "label": "Understand Accountability",
+              "text": "Recognise your duty for every clinical action and decision"
+            },
+            {
+              "label": "Ethics & Confidentiality",
+              "text": "Apply ethical principles and protect patient information"
+            },
+            {
+              "label": "Scope of Practice",
+              "text": "Work safely within your professional boundaries"
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "WHAT IS PROFESSIONAL NURSING?",
+          "body": "Professional nursing brings together:",
+          "bullets": [
+            {
+              "label": "More Than a Profession",
+              "text": "Nursing is a commitment to safe, compassionate, and ethical care. Patients trust nurses not only for clinical skills, but for their honesty, respect, and professionalism."
+            },
+            {
+              "label": "Scientific knowledge",
+              "text": "— evidence-based clinical practice"
+            },
+            {
+              "label": "Clinical skills",
+              "text": "— safe, competent hands-on care"
+            },
+            {
+              "label": "Communication",
+              "text": "— clear, empathetic interaction"
+            },
+            {
+              "label": "Compassion",
+              "text": "— placing patient wellbeing first"
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts at a Glance",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Accountability",
+              "text": "Accepting full responsibility for your actions — whether administering medication, documenting care, or educating patients."
+            },
+            {
+              "label": "Ethics",
+              "text": "Upholding honesty, respect, and moral integrity in every patient interaction and clinical decision."
+            },
+            {
+              "label": "Confidentiality",
+              "text": "Protecting sensitive patient information in line with professional and legal obligations at all times."
+            },
+            {
+              "label": "Scope of Practice",
+              "text": "Understanding the limits of your role and seeking guidance when a situation exceeds your training or authority."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Accountability in Action",
+          "body": "Being accountable means owning your decisions — before, during, and after care is delivered.",
+          "bullets": [
+            {
+              "label": "Administering Medication",
+              "text": "You are responsible for the right drug, right dose, right patient, right route, and right time."
+            },
+            {
+              "label": "Documenting Care",
+              "text": "Accurate records protect patients and reflect the standard of care provided."
+            },
+            {
+              "label": "Patient Education",
+              "text": "Ensure information is clearly understood and appropriately tailored to the patient's needs."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Knowing Your Scope of Practice",
+          "body": "Every nurse must recognise the limits of their professional role. When a situation falls outside your training or authority, seeking guidance is not a weakness — it is a professional obligation.",
+          "bullets": [
+            {
+              "label": "Identify the Situation",
+              "text": "Assess whether the task is within your competence"
+            },
+            {
+              "label": "Pause and Reflect",
+              "text": "Never proceed if you have doubts about safety or authority"
+            },
+            {
+              "label": "Seek Supervision",
+              "text": "Consult a senior nurse or the healthcare team immediately"
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Priya, a newly graduated nurse, is asked to insert a central venous catheter. She has observed the procedure but has never been trained to perform it independently.",
+          "bullets": [
+            {
+              "label": "Priya's Story: Accountability in Practice",
+              "text": "Priya, a newly graduated nurse, is asked to insert a central venous catheter. She has observed the procedure but has never been trained to perform it independently."
+            },
+            {
+              "label": "Protects the patient from potential harm",
+              "text": "Demonstrates genuine professional accountability"
+            },
+            {
+              "label": "Reflects confidence in recognising one's limits",
+              "text": "Builds trust within the healthcare team"
+            }
+          ],
+          "callout": "Rather than attempting the procedure alone, Priya informs her senior nurse and requests supervision. This decision: Seeking help when needed is a sign of professionalism, not inadequacy.",
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Knowledge, Ethics & Compassion",
+              "text": "Professional nursing is built on all three — none can be compromised."
+            },
+            {
+              "label": "Total Accountability",
+              "text": "You are responsible for every action you perform, document, or delegate."
+            },
+            {
+              "label": "Practise Within Your Competence",
+              "text": "Always work within your scope of practice and escalate when appropriate."
+            },
+            {
+              "label": "Ask for Help",
+              "text": "Never hesitate to seek assistance — patient safety always comes first."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Your Foundation Starts Here",
+          "body": "These principles are the bedrock of every nursing role — in any country, any setting, any speciality. As you progress through the GNPS programme, return to these foundations whenever you face clinical or ethical challenges.",
+          "bullets": [
+            {
+              "label": "Next Step",
+              "text": "Continue to Section 2 of Programme 1"
+            },
+            {
+              "label": "NCLEX Ready",
+              "text": "Revisit these concepts as core test preparation themes"
+            },
+            {
+              "label": "Stay Curious",
+              "text": "Engage with peers, mentors, and clinical scenarios"
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Patient Safety and Quality Care",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 1 - Level 1 - Section 2 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "content",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 1 – Building Strong Foundations in Nursing Practice Level 1 Qualified Nurse · Student Learning Notes",
+          "bullets": [
+            {
+              "label": "NCLEX PREPARATION",
+              "text": "PATIENT SAFETY & QUALITY CARE"
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 2 Overview",
+          "body": "Patient Safety & Quality Care . Every day, nurses make decisions that protect patients from harm and improve health outcomes.",
+          "bullets": [
+            {
+              "label": "Patient safety is the",
+              "text": "foundation of nursing practice"
+            }
+          ],
+          "callout": "Even small actions — such as checking a patient's identity or securing bed rails — can prevent serious incidents and save lives. This section aligns directly with NCLEX core competencies in Safe and Effective Care Environment.",
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "Identify Risks",
+              "text": "Recognise common patient safety risks in everyday clinical settings."
+            },
+            {
+              "label": "Apply Strategies",
+              "text": "Apply basic risk reduction strategies to protect patients from harm."
+            },
+            {
+              "label": "Promote Quality",
+              "text": "Champion quality care principles in all aspects of daily nursing practice."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "What Is Patient Safety?",
+          "body": ". It is a proactive approach — not a reactive one — embedded in every clinical decision a nurse makes. Safe nursing practice requires vigilance, communication, and a commitment to continuous improvement.",
+          "bullets": [
+            {
+              "label": "Patient safety means",
+              "text": "recognising hazards before they cause harm"
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "The Four Pillars of Quality Care",
+          "body": "Quality care is defined by four essential attributes that guide nursing decisions at every level.",
+          "bullets": [
+            {
+              "label": "Safe",
+              "text": "Avoiding harm to patients during the delivery of care."
+            },
+            {
+              "label": "Effective",
+              "text": "Providing evidence-based care that achieves the best outcomes."
+            },
+            {
+              "label": "Patient-Centred",
+              "text": "Respecting individual needs, preferences, and values."
+            },
+            {
+              "label": "Timely",
+              "text": "Reducing delays that may harm patients or waste resources."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example in Practice",
+          "body": "This brief, three-second check prevents a potentially life-threatening medication error.",
+          "bullets": [
+            {
+              "label": "Ahmed",
+              "text": "notices two patients with similar names on the ward."
+            }
+          ],
+          "callout": "A small habit, practised consistently, is the difference between safe care and a critical incident.",
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Common Patient Safety Risks",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Medication Errors",
+              "text": "Wrong patient, wrong dose, wrong drug — all preventable with systematic checks."
+            },
+            {
+              "label": "Falls & Pressure Injuries",
+              "text": "Environmental hazards and mobility limitations increase patient vulnerability."
+            },
+            {
+              "label": "Infection Risk",
+              "text": "Poor hand hygiene and inadequate equipment sterilisation spread preventable infections."
+            },
+            {
+              "label": "Communication Failures",
+              "text": "Incomplete handovers or unclear documentation can lead to missed treatments."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Risk Reduction in Practice",
+          "body": "Identify Hazard Assess Risk",
+          "bullets": [
+            {
+              "label": "Report & Escalate",
+              "text": "Every nurse follows this cycle — consciously or instinctively — in every clinical encounter. Making it a deliberate habit ensures consistent, high-quality safe care delivery."
+            }
+          ],
+          "callout": "Act Now",
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Safety Is a Team Responsibility",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Speak Up",
+              "text": "Every team member has the right — and duty — to raise a safety concern."
+            },
+            {
+              "label": "Report Hazards",
+              "text": "Report incidents and near-misses immediately via your organisation's system."
+            },
+            {
+              "label": "Collaborate",
+              "text": "Safe outcomes rely on open communication across the entire care team."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Section 2 Summary",
+          "body": "Key Learning Points Shared Responsibility",
+          "bullets": [
+            {
+              "label": "everyone's responsibility",
+              "text": "— from the ward nurse to the hospital executive."
+            },
+            {
+              "label": "Always Verify Identity",
+              "text": "Confirm patient identity before"
+            },
+            {
+              "label": "every",
+              "text": "procedure, medication administration, or treatment."
+            },
+            {
+              "label": "Report Immediately",
+              "text": "Hazards and near-misses must be reported"
+            },
+            {
+              "label": "Small Checks, Big Impact",
+              "text": "Consistent safety habits — however brief —"
+            }
+          ],
+          "callout": "Patient safety is without delay to prevent future harm. prevent major clinical incidents . Continue to Programme 1 – Section 3 to build on these foundations in your GNPS journey.",
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Infection Prevention and Control",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 1 - Level 1 - Section 3 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 1 – Building Strong Foundations in Nursing Practice Level 1 Qualified Nurse Student Learning Notes · Section 3: Infection Prevention and Control",
+          "bullets": [],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Programme 1",
+          "body": "Every successful nursing career begins with strong fundamentals. Before advancing to complex clinical procedures or specialised care, every nurse must build a sound understanding of core principles of nursing practice . This section focuses on one of the most critical competencies in nursing: Infection Prevention and Control .",
+          "bullets": [],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3: Infection Prevention and Control",
+          "body": "Infection prevention is not optional — it is a core professional responsibility for every nurse, every shift.",
+          "bullets": [
+            {
+              "label": "Why It Matters",
+              "text": "Preventing infection is one of the most effective ways nurses protect both"
+            },
+            {
+              "label": "patients and themselves",
+              "text": ". Many healthcare-associated infections (HAIs) are entirely preventable through consistent, evidence-based infection control practices."
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "Explain Transmission",
+              "text": "Describe how infections spread within healthcare settings"
+            },
+            {
+              "label": "Perform Hand Hygiene",
+              "text": "Demonstrate correct and effective hand hygiene technique"
+            },
+            {
+              "label": "Use PPE Correctly",
+              "text": "Select and apply Personal Protective Equipment appropriately"
+            },
+            {
+              "label": "Apply Standard Precautions",
+              "text": "Implement standard precautions consistently with every patient"
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Breaking the Chain of Infection",
+          "body": "Infection spreads through a predictable chain. Breaking any link stops transmission.",
+          "bullets": [
+            {
+              "label": "Hand hygiene",
+              "text": "— removes pathogens from the hands"
+            },
+            {
+              "label": "Equipment cleaning",
+              "text": "— removes contaminated surfaces"
+            }
+          ],
+          "callout": "Nursing interventions target multiple links simultaneously: PPE — creates a physical barrier Safe waste disposal — eliminates reservoirs Clean environment — reduces pathogen load",
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Core Infection Control Practices",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Hand Hygiene",
+              "text": "The single most effective measure to prevent the spread of infection"
+            },
+            {
+              "label": "Personal Protective Equipment",
+              "text": "Gloves, aprons, masks, and eye protection used appropriately"
+            },
+            {
+              "label": "Safe Waste Disposal",
+              "text": "Correct segregation and disposal of clinical and sharps waste"
+            },
+            {
+              "label": "Equipment Cleaning",
+              "text": "Decontamination of patient equipment between each use"
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Standard Precautions in Practice",
+          "body": "This simple routine, repeated consistently, significantly reduces the risk of cross-infection between patients.",
+          "bullets": [
+            {
+              "label": "Hand Hygiene",
+              "text": "This simple routine, repeated consistently, significantly reduces the risk of cross-infection between patients."
+            },
+            {
+              "label": "examining the patient",
+              "text": "Wears appropriate gloves during the assessment"
+            }
+          ],
+          "callout": "What Maria Does Right Performs hand hygiene before Removes and disposes of gloves safely Cleans hands again before attending the next patient",
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "The 5 Moments of Hand Hygiene",
+          "body": "The WHO's Before patient contact",
+          "bullets": [
+            {
+              "label": "5 Moments of Hand Hygiene",
+              "text": "framework guides nurses on precisely"
+            },
+            {
+              "label": "when",
+              "text": "hand hygiene must be performed to protect patients and staff."
+            },
+            {
+              "label": "After body fluid exposure risk",
+              "text": "04"
+            },
+            {
+              "label": "05",
+              "text": "After contact with patient surroundings"
+            }
+          ],
+          "callout": "Before aseptic procedure After patient contact",
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Infection Prevention Is Everyone's Responsibility",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Clean Hands Save Lives",
+              "text": "Simple, consistent hand hygiene is the most powerful tool against HAIs"
+            },
+            {
+              "label": "PPE Protects All",
+              "text": "Correctly worn PPE safeguards both patients and healthcare workers"
+            },
+            {
+              "label": "Standard Precautions Always",
+              "text": "Apply standard precautions with"
+            },
+            {
+              "label": "every",
+              "text": "patient, every time — no exceptions"
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Section 3 — Infection Prevention and Control",
+          "bullets": [
+            {
+              "label": "Understand Transmission",
+              "text": "Know how infections spread and identify opportunities to break the chain"
+            },
+            {
+              "label": "Master Hand Hygiene",
+              "text": "Follow the WHO 5 Moments — before and after every patient contact"
+            },
+            {
+              "label": "Use PPE Appropriately",
+              "text": "Select, wear, and remove PPE correctly to prevent self-contamination"
+            },
+            {
+              "label": "Shared Responsibility",
+              "text": "Infection prevention is a collective duty across the entire healthcare team"
+            },
+            {
+              "label": "NCLEX Tip:",
+              "text": "Infection control questions frequently appear on the NCLEX-RN. Know your standard precautions, PPE selection, and hand hygiene moments inside out."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Communication and Basic Patient Care",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 1 - Level 1 - Section 4 Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "content",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 1 – Building Strong Foundations in Nursing Practice Level 1 Student Learning Notes NCLEX PREPARATION INTERNATIONAL NURSES",
+          "bullets": [],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Programme 1",
+          "body": "Every successful nursing career begins with strong fundamentals. Before advancing to specialised clinical procedures, every nurse must develop a sound understanding of core principles of nursing practice . This programme equips internationally qualified nurses with the essential knowledge and skills to thrive in global healthcare environments — and to succeed in competitive assessments such as the NCLEX .",
+          "bullets": [],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "how they were treated.",
+          "bullets": [
+            {
+              "label": "Communication and Basic Patient Care",
+              "text": "Excellent nursing care depends on effective communication and close attention to patients' basic needs. Patients remember not only the treatment they received — but"
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "Communicate Effectively",
+              "text": "Engage patients clearly and with confidence across diverse healthcare settings."
+            },
+            {
+              "label": "Demonstrate Empathy",
+              "text": "Apply active listening and empathetic responses in patient interactions."
+            },
+            {
+              "label": "Provide Safe Basic Care",
+              "text": "Deliver fundamental nursing care that upholds dignity and safety."
+            },
+            {
+              "label": "Perform Observations",
+              "text": "Accurately carry out and record simple patient observations and vital signs."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts in Basic Nursing Care",
+          "body": "Basic nursing care is the foundation of all clinical practice. These six domains are interconnected — neglecting one can affect the others. Good communication underpins every aspect of care. It builds trust and measurably improves patient outcomes.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE",
+          "body": "Mr Sharma appears unusually quiet during the morning round. Rather than assuming everything is normal, the nurse sits beside him and asks how he is feeling. He explains that he has been experiencing increasing pain overnight — but didn't want to trouble anyone.",
+          "bullets": [
+            {
+              "label": "The Case of Mr Sharma",
+              "text": "Mr Sharma appears unusually quiet during the morning round. Rather than assuming everything is normal, the nurse sits beside him and asks how he is feeling. He explains that he has been experiencing increasing pain overnight — but didn't want to trouble anyone."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "What Happened Next?",
+          "body": "Act & Care Assess & Report",
+          "bullets": [
+            {
+              "label": "This case illustrates that",
+              "text": "listening carefully is sometimes the most important nursing intervention"
+            }
+          ],
+          "callout": "Observe & Listen . Early recognition of unreported pain prevents deterioration and demonstrates person-centred care.",
+          "id": "card-7"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "",
+          "bullets": [
+            {
+              "label": "Listen Before You Respond",
+              "text": "Pause, observe, and truly hear what a patient is telling you — verbally and non-verbally."
+            },
+            {
+              "label": "Respect Dignity",
+              "text": "Every patient deserves to be treated with respect, regardless of condition or background."
+            },
+            {
+              "label": "Kindness Matters",
+              "text": "Small acts of compassion significantly enhance the patient experience and promote healing."
+            },
+            {
+              "label": "Communication = Clinical Skill",
+              "text": "Good communication is not a soft skill — it is as essential as any clinical technique."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "title",
+          "title": "\"Sometimes, listening carefully is the most important nursing intervention.\"",
+          "body": "— GNPS Programme 1, Section 4",
+          "bullets": [],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Programme Summary",
+          "body": "By completing These fundamentals will support your growth as you progress to:",
+          "bullets": [
+            {
+              "label": "GNPS Programme 1 – Level 1",
+              "text": ", you have built the essential knowledge and practical skills that form the bedrock of professional nursing practice."
+            },
+            {
+              "label": "Level 2",
+              "text": "International Qualified Nurse — applying principles within global healthcare environments and evidence-based practice."
+            },
+            {
+              "label": "NCLEX Ready",
+              "text": "Strengthening your competency for competitive international nursing registration examinations."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

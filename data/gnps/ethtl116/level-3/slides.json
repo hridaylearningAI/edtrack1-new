@@ -1,0 +1,1868 @@
+{
+  "level": 3,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 3 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 2 - Level 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Program 2 · Level 3 — Creating Safe Healthcare Environments",
+          "bullets": [
+            {
+              "label": "Student Learning Notes · Advanced Pathway for Internationally Qualified Nurses",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to Level 3",
+          "body": "Global Nursing Professionals do more than follow safety procedures. At this level, you will lead improvements, analyse patterns of harm, strengthen systems and help create environments where safety is a shared organisational value.",
+          "bullets": [
+            {
+              "label": "Lead Culture",
+              "text": ""
+            },
+            {
+              "label": "Champion safety, openness and continuous learning",
+              "text": ""
+            },
+            {
+              "label": "Analyse Systems",
+              "text": ""
+            },
+            {
+              "label": "Apply human-factors and systems-thinking approaches",
+              "text": ""
+            },
+            {
+              "label": "Use Data",
+              "text": ""
+            },
+            {
+              "label": "Design, evaluate and improve quality initiatives",
+              "text": ""
+            },
+            {
+              "label": "Collaborate Globally",
+              "text": ""
+            },
+            {
+              "label": "Contribute to resilient, sustainable healthcare",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "Lead a culture of safety, openness and continuous learning",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Analyse incidents using systems and human-factors approaches",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Design and evaluate quality-improvement initiatives",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Use surveillance data to strengthen infection prevention",
+              "text": ""
+            },
+            {
+              "label": "05",
+              "text": ""
+            },
+            {
+              "label": "Apply digital technologies safely and ethically",
+              "text": ""
+            },
+            {
+              "label": "06",
+              "text": ""
+            },
+            {
+              "label": "Lead preparedness for outbreaks, disasters and emerging risks",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Why This Learning Matters",
+          "body": "Healthcare harm rarely results from one person's action alone. It arises from weaknesses in communication, workflow, technology, staffing, policy and organisational culture.",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals recognise these",
+              "text": "Global Nursing Professionals recognise these connections and lead practical improvements that make safe practice easier for everyone."
+            },
+            {
+              "label": "Your goal: lead safety and quality initiatives,",
+              "text": "Your goal: lead safety and quality initiatives, use data and evidence to improve systems, support colleagues and contribute to safer healthcare — locally and globally."
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Leading a Culture of Safety & Psychological Safety",
+          "bullets": [
+            {
+              "label": "Safety culture reflects the values and",
+              "text": "Safety culture reflects the values and behaviours that determine how an organisation responds to risk, error and improvement. Nurse leaders influence culture through their daily actions."
+            },
+            {
+              "label": "Listen to concerns and respond fairly",
+              "text": ""
+            },
+            {
+              "label": "Support learning from every incident",
+              "text": ""
+            },
+            {
+              "label": "Model the standards expected of others",
+              "text": ""
+            },
+            {
+              "label": "Communicate that safety is a priority — even under pressure",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts: Safety Culture",
+          "body": "Safety Culture",
+          "bullets": [
+            {
+              "label": "Makes it normal to report hazards, question",
+              "text": "Makes it normal to report hazards, question unsafe decisions and learn from incidents. Supported by staffing, equipment, education and visible leadership."
+            },
+            {
+              "label": "Psychological Safety",
+              "text": ""
+            },
+            {
+              "label": "Team members can ask questions, admit",
+              "text": "Team members can ask questions, admit uncertainty and raise concerns without fear of humiliation. Enables early communication to prevent or correct mistakes."
+            },
+            {
+              "label": "Just Culture",
+              "text": ""
+            },
+            {
+              "label": "Distinguishes human error, at-risk behaviour",
+              "text": "Distinguishes human error, at-risk behaviour and recklessness. Automatic blame discourages reporting; absence of accountability also damages safety."
+            },
+            {
+              "label": "Leadership Presence",
+              "text": ""
+            },
+            {
+              "label": "Strengthen trust by responding promptly,",
+              "text": "Strengthen trust by responding promptly, following through on concerns and explaining decisions. Staff notice when safety messages are not matched by action."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE · SECTION 1",
+          "body": "Reporting a Near-Miss: The Right Response",
+          "bullets": [
+            {
+              "label": "A junior nurse reports connecting a feeding",
+              "text": "A junior nurse reports connecting a feeding tube incorrectly but identifies the problem before use. The manager responds by:"
+            },
+            {
+              "label": "Confirming patient safety first",
+              "text": ""
+            },
+            {
+              "label": "Thanking the nurse for reporting",
+              "text": ""
+            },
+            {
+              "label": "Reviewing equipment, training and workflow",
+              "text": ""
+            },
+            {
+              "label": "The review identifies confusing connectors and",
+              "text": "The review identifies confusing connectors and interruptions during preparation. The team introduces a standard setup and simulation practice."
+            },
+            {
+              "label": "Key Takeaways",
+              "text": ""
+            },
+            {
+              "label": "Make speaking up safe and expected",
+              "text": ""
+            },
+            {
+              "label": "Respond with Fairness",
+              "text": ""
+            },
+            {
+              "label": "Curiosity over blame — always",
+              "text": ""
+            },
+            {
+              "label": "Match Accountability",
+              "text": ""
+            },
+            {
+              "label": "To behaviour and context, not outcome alone",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Systems Thinking & Human Factors",
+          "bullets": [
+            {
+              "label": "Healthcare is a complex system where people,",
+              "text": "Healthcare is a complex system where people, equipment, technology, workload, environment and procedures interact. Systems thinking looks beyond the final action to understand why the conditions for error developed."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "Understanding How Errors Happen",
+          "body": "Incident",
+          "bullets": [
+            {
+              "label": "Error Opportunity",
+              "text": ""
+            },
+            {
+              "label": "Conditions",
+              "text": ""
+            },
+            {
+              "label": "Effective review asks: what happened, how it happened — and what conditions made it possible.",
+              "text": ""
+            },
+            {
+              "label": "Human Factors Principles",
+              "text": ""
+            },
+            {
+              "label": "People have limits in memory, attention and perception",
+              "text": ""
+            },
+            {
+              "label": "Safe systems do not depend on perfect concentration",
+              "text": ""
+            },
+            {
+              "label": "Standardisation and checklists support performance",
+              "text": ""
+            },
+            {
+              "label": "Forcing functions make errors harder to commit",
+              "text": ""
+            },
+            {
+              "label": "Reduced interruptions protect critical tasks",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Hierarchy of Controls",
+          "body": "Education and reminders are useful but often weak when used alone. Stronger controls are always preferred.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Quality Improvement, Surveillance & Antimicrobial Stewardship",
+          "bullets": [
+            {
+              "label": "Global Nursing Professionals use data to",
+              "text": "Global Nursing Professionals use data to identify patterns, test improvements and evaluate outcomes. Infection surveillance, clinical audits, patient feedback and incident trends turn everyday observations into organised learning."
+            },
+            {
+              "label": "Nurses also contribute to antimicrobial",
+              "text": "Nurses also contribute to antimicrobial stewardship by preventing infection and supporting appropriate use of antimicrobial medicines."
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Quality Improvement Cycle & Measurement",
+          "body": "Define Problem",
+          "bullets": [
+            {
+              "label": "Introduce Change",
+              "text": ""
+            },
+            {
+              "label": "Study Results",
+              "text": ""
+            },
+            {
+              "label": "Adapt Intervention",
+              "text": ""
+            },
+            {
+              "label": "Small tests of change allow learning before wider implementation.",
+              "text": ""
+            },
+            {
+              "label": "Three Types of Measures",
+              "text": ""
+            },
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Outcome Measures",
+              "text": ""
+            },
+            {
+              "label": "Infection or fall rates — what happened",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Process Measures",
+              "text": ""
+            },
+            {
+              "label": "Hand-hygiene compliance — whether care occurred",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Balancing Measures",
+              "text": ""
+            },
+            {
+              "label": "Delays or increased workload — unintended effects",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "Antimicrobial Stewardship: The Nursing Role",
+          "body": "Obtain Cultures Correctly",
+          "bullets": [
+            {
+              "label": "Before antimicrobial treatment begins to ensure accurate identification of organisms.",
+              "text": ""
+            },
+            {
+              "label": "Administer on Time",
+              "text": ""
+            },
+            {
+              "label": "Timely administration maintains therapeutic levels and reduces resistance risk.",
+              "text": ""
+            },
+            {
+              "label": "Check Allergy Information",
+              "text": ""
+            },
+            {
+              "label": "Verify and document allergy status before every course of treatment.",
+              "text": ""
+            },
+            {
+              "label": "Educate Patients",
+              "text": ""
+            },
+            {
+              "label": "Explain why completing the course matters and what side effects to report.",
+              "text": ""
+            },
+            {
+              "label": "Preventing infection reduces the need for antimicrobial treatment — the strongest form of stewardship.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Digital Safety, Preparedness & Global Collaboration",
+          "bullets": [
+            {
+              "label": "Modern safety practice extends beyond the",
+              "text": "Modern safety practice extends beyond the physical ward. Electronic records, clinical decision support, remote monitoring and connected devices can improve care — but also introduce new risks that require critical professional judgement."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Digital Safety & Global Preparedness",
+          "body": "Digital Clinical Safety",
+          "bullets": [
+            {
+              "label": "Technology can reduce errors but alert fatigue,",
+              "text": "Technology can reduce errors but alert fatigue, automation bias and system downtime create new hazards. Always verify critical information."
+            },
+            {
+              "label": "Information Governance",
+              "text": ""
+            },
+            {
+              "label": "Access patient data only for legitimate care.",
+              "text": "Access patient data only for legitimate care. Use secure passwords, appropriate screens and careful communication. Confidentiality is non-negotiable."
+            },
+            {
+              "label": "Outbreak Preparedness",
+              "text": ""
+            },
+            {
+              "label": "Clear roles, communication pathways, PPE",
+              "text": "Clear roles, communication pathways, PPE availability and triage processes — practised through simulation, not created after an emergency begins."
+            },
+            {
+              "label": "Global Collaboration",
+              "text": ""
+            },
+            {
+              "label": "Share surveillance information, participate in",
+              "text": "Share surveillance information, participate in professional networks and adapt global evidence to local contexts and resources."
+            },
+            {
+              "label": "Technology supports but never replaces professional clinical judgement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "example",
+          "title": "CLINICAL EXAMPLE · SECTION 4",
+          "body": "Managing a Respiratory Outbreak with Remote Monitoring",
+          "bullets": [
+            {
+              "label": "During a respiratory outbreak, a hospital",
+              "text": "During a respiratory outbreak, a hospital introduces remote monitoring to reduce unnecessary room entry. Nurse leaders identify that alarm thresholds are generating too many non-urgent alerts."
+            },
+            {
+              "label": "They work with clinicians and technical staff",
+              "text": "They work with clinicians and technical staff to adjust the system, maintain direct assessment for concerning patients and establish a downtime plan."
+            },
+            {
+              "label": "Outcome: Technology supports care without replacing professional judgement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-16"
+        },
+        {
+          "kind": "content",
+          "title": "Program Summary & Your Path Forward",
+          "body": "You are now prepared to:",
+          "bullets": [
+            {
+              "label": "Lead safety culture and psychological safety in your team",
+              "text": ""
+            },
+            {
+              "label": "Analyse systems using human-factors approaches",
+              "text": ""
+            },
+            {
+              "label": "Design and evaluate quality-improvement initiatives",
+              "text": ""
+            },
+            {
+              "label": "Use digital tools safely and protect patient information",
+              "text": ""
+            },
+            {
+              "label": "Contribute to global learning and resilient healthcare",
+              "text": ""
+            },
+            {
+              "label": "Protecting patients and protecting the",
+              "text": "Protecting patients and protecting the workforce are shared responsibilities requiring knowledge, courage, collaboration and continuous learning."
+            }
+          ],
+          "callout": null,
+          "id": "card-17"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Leading a Culture of Safety and Psychological Safety",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 2 - Level 3 - Section 1 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 2 · Level 3 — Global Nursing Professional",
+          "bullets": [
+            {
+              "label": "Creating Safe Healthcare Environments — Section 1: Leading a Culture of Safety and Psychological Safety",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What Is Safety Culture?",
+          "body": "Safety culture reflects the shared values and behaviours that determine how an organisation responds to risk, error, and improvement.",
+          "bullets": [
+            {
+              "label": "A strong safety culture makes it normal — and expected — to:",
+              "text": ""
+            },
+            {
+              "label": "Report hazards and near misses",
+              "text": ""
+            },
+            {
+              "label": "Question unsafe decisions",
+              "text": ""
+            },
+            {
+              "label": "Learn openly from incidents",
+              "text": ""
+            },
+            {
+              "label": "Policies must be matched by staffing, equipment, education, and visible leadership behaviour.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "The Role of Nurse Leaders in Shaping Culture",
+          "body": "Listen Actively",
+          "bullets": [
+            {
+              "label": "Respond to concerns promptly and without dismissal.",
+              "text": ""
+            },
+            {
+              "label": "Respond Fairly",
+              "text": ""
+            },
+            {
+              "label": "Match your response to behaviour, not just outcomes.",
+              "text": ""
+            },
+            {
+              "label": "Model Standards",
+              "text": ""
+            },
+            {
+              "label": "Demonstrate the behaviours you expect from your team every day.",
+              "text": ""
+            },
+            {
+              "label": "Support Learning",
+              "text": ""
+            },
+            {
+              "label": "Treat every incident as an opportunity to improve systems.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Psychological Safety in Healthcare Teams",
+          "body": "Psychological safety means team members have the confidence to speak up — to ask questions, admit uncertainty, and raise concerns — without fear of humiliation or punishment.",
+          "bullets": [
+            {
+              "label": "It is not the absence of accountability. It is",
+              "text": "It is not the absence of accountability. It is the foundation for early communication that prevents mistakes before they reach patients."
+            },
+            {
+              "label": "Teams with high psychological safety report errors earlier and recover faster.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Understanding Just Culture",
+          "body": "A just culture distinguishes between three types of behaviour when responding to incidents:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Human Error",
+              "text": ""
+            },
+            {
+              "label": "Unintentional mistake — requires system redesign and support, not blame.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "At-Risk Behaviour",
+              "text": ""
+            },
+            {
+              "label": "Shortcuts taken without full awareness of risk — requires coaching and removal of incentives for unsafe shortcuts.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Reckless Behaviour",
+              "text": ""
+            },
+            {
+              "label": "Conscious disregard for risk — requires proportionate accountability.",
+              "text": ""
+            },
+            {
+              "label": "Automatic blame discourages reporting. A",
+              "text": "Automatic blame discourages reporting. A complete absence of accountability also damages safety. Just culture seeks the balance."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Why Just Culture Matters for NCLEX Candidates",
+          "body": "NCLEX tests your ability to prioritise patient safety above all else",
+          "bullets": [
+            {
+              "label": "Questions on incident response assess knowledge of error classification and escalation pathways",
+              "text": ""
+            },
+            {
+              "label": "Understanding just culture helps you select answers that reflect systemic thinking, not reactive blame",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Feeding Tube Incident",
+          "body": "A junior nurse realises she has connected a feeding tube incorrectly — and identifies it before patient use.",
+          "bullets": [
+            {
+              "label": "The manager's response:",
+              "text": ""
+            },
+            {
+              "label": "Confirms patient safety first",
+              "text": ""
+            },
+            {
+              "label": "Thanks the nurse for reporting",
+              "text": ""
+            },
+            {
+              "label": "Reviews equipment, training, and workflow",
+              "text": ""
+            },
+            {
+              "label": "Root cause identified: Confusing connectors and interruptions during preparation.",
+              "text": ""
+            },
+            {
+              "label": "Team action: Introduced a standard setup",
+              "text": "Team action: Introduced a standard setup protocol and simulation practice — treating this as a system issue, not individual carelessness."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Leadership Presence: Turning Words Into Action",
+          "body": "Follow Through",
+          "bullets": [
+            {
+              "label": "Always act on reported concerns — staff notice when nothing changes.",
+              "text": ""
+            },
+            {
+              "label": "Explain Decisions",
+              "text": ""
+            },
+            {
+              "label": "Transparency about outcomes builds trust in the reporting process.",
+              "text": ""
+            },
+            {
+              "label": "Be Visible",
+              "text": ""
+            },
+            {
+              "label": "Regular presence on the floor reinforces that safety is lived, not just stated.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "The Safety Culture Cycle",
+          "body": "Speak Up",
+          "bullets": [
+            {
+              "label": "Respond Fairly",
+              "text": ""
+            },
+            {
+              "label": "Investigate Systems",
+              "text": ""
+            },
+            {
+              "label": "Implement Change",
+              "text": ""
+            },
+            {
+              "label": "Safety culture is not built in a single",
+              "text": "Safety culture is not built in a single intervention. It is reinforced every time a leader responds to a concern with fairness, curiosity, and visible action."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Make Speaking Up Safe",
+          "bullets": [
+            {
+              "label": "Create an environment where raising concerns is expected and valued.",
+              "text": ""
+            },
+            {
+              "label": "Respond With Fairness",
+              "text": ""
+            },
+            {
+              "label": "Match accountability to the behaviour and its context — not just the outcome.",
+              "text": ""
+            },
+            {
+              "label": "Investigate With Curiosity",
+              "text": ""
+            },
+            {
+              "label": "Ask what in the system allowed an error to occur, not only who made it.",
+              "text": ""
+            },
+            {
+              "label": "Demonstrate Through Action",
+              "text": ""
+            },
+            {
+              "label": "Safety culture is visible only when leaders act on every concern raised.",
+              "text": ""
+            },
+            {
+              "label": "NCLEX Tip: When answering safety and leadership",
+              "text": "NCLEX Tip: When answering safety and leadership questions, always look for the option that addresses the system first and supports team communication."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Using Systems Thinking and Human Factors to Prevent Harm",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 2 - Level 3 - Section 2 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Systems Thinking & Human Factors in Nursing",
+          "body": "Section 2 · Global Nursing Professional Series (GNPS) — Programme 2: Creating Safe Healthcare Environments",
+          "bullets": [
+            {
+              "label": "LEVEL 3 · GNPS",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Analyse Incidents",
+              "text": ""
+            },
+            {
+              "label": "Move beyond individual blame to understand the full chain of events.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Identify Risk Factors",
+              "text": ""
+            },
+            {
+              "label": "Recognise human and system factors that contribute to unsafe conditions.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Apply Root-Cause Approaches",
+              "text": ""
+            },
+            {
+              "label": "Use contributory-factor frameworks to investigate incidents systematically.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Recommend Controls",
+              "text": ""
+            },
+            {
+              "label": "Propose practical, evidence-based system improvements to reduce risk.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What Is Systems Thinking?",
+          "body": "When an error occurs, the visible action is rarely the whole story. A longer chain of conditions — staffing gaps, look-alike packaging, poor lighting, interruptions, or unclear responsibilities — may all contribute.",
+          "bullets": [
+            {
+              "label": "What happened?",
+              "text": ""
+            },
+            {
+              "label": "The observable event or near miss.",
+              "text": ""
+            },
+            {
+              "label": "How did it happen?",
+              "text": ""
+            },
+            {
+              "label": "The sequence of actions and decisions.",
+              "text": ""
+            },
+            {
+              "label": "What conditions made it possible?",
+              "text": ""
+            },
+            {
+              "label": "The underlying system factors that created the opportunity for error.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Human Factors in Healthcare",
+          "body": "People Have Limits",
+          "bullets": [
+            {
+              "label": "Memory, attention and perception are all",
+              "text": "Memory, attention and perception are all finite. Safe systems are designed around normal human limitations — not perfect performance."
+            },
+            {
+              "label": "Standardisation reduces reliance on memory",
+              "text": ""
+            },
+            {
+              "label": "Clear labelling minimises misidentification",
+              "text": ""
+            },
+            {
+              "label": "Forcing functions prevent common errors",
+              "text": ""
+            },
+            {
+              "label": "Checklists support consistent practice",
+              "text": ""
+            },
+            {
+              "label": "Reducing interruptions protects focus",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Hierarchy of Controls",
+          "body": "Not all safety measures are equally effective. Stronger controls make safe actions the default — not just the intended action.",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Training & Reminders",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Policy & Procedures",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Engineering Safeguards",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Process Redesign",
+              "text": ""
+            },
+            {
+              "label": "5",
+              "text": ""
+            },
+            {
+              "label": "Eliminate or Substitute",
+              "text": ""
+            },
+            {
+              "label": "Education and reminders alone are often the",
+              "text": "Education and reminders alone are often the weakest control. Prioritise elimination, substitution and redesign wherever possible."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Learning Reviews: Beyond \"Be More Careful\"",
+          "body": "Who Should Be Involved?",
+          "bullets": [
+            {
+              "label": "Effective incident reviews must include those",
+              "text": "Effective incident reviews must include those who understand the work — frontline nurses, clinical staff and, where appropriate, patients and families."
+            },
+            {
+              "label": "Recommendations must be:",
+              "text": ""
+            },
+            {
+              "label": "Specific — not vague guidance",
+              "text": ""
+            },
+            {
+              "label": "Assigned — with clear ownership",
+              "text": ""
+            },
+            {
+              "label": "Monitored — with follow-up timelines",
+              "text": ""
+            },
+            {
+              "label": "Evaluated — to confirm risk reduction",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Wrong-Selection Medication Errors",
+          "body": "A ward experiences repeated errors involving two injectable medicines with similar packaging stored side by side. A systems review reveals multiple contributing factors — not a single individual mistake.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Root Causes Identified",
+          "body": "Adjacent Storage",
+          "bullets": [
+            {
+              "label": "Both medicines stored next to each other, increasing selection confusion.",
+              "text": ""
+            },
+            {
+              "label": "Similar Labels",
+              "text": ""
+            },
+            {
+              "label": "Look-alike packaging with insufficient visual differentiation between products.",
+              "text": ""
+            },
+            {
+              "label": "Frequent Interruptions",
+              "text": ""
+            },
+            {
+              "label": "Staff distracted during preparation, reducing attentional accuracy.",
+              "text": ""
+            },
+            {
+              "label": "Electronic Display Flaw",
+              "text": ""
+            },
+            {
+              "label": "Search results displayed both drug names together, prompting confusion at the point of selection.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "System-Level Response",
+          "body": "Separated Storage",
+          "bullets": [
+            {
+              "label": "Warning Labels",
+              "text": ""
+            },
+            {
+              "label": "Barcode Safeguards",
+              "text": ""
+            },
+            {
+              "label": "Display Redesign",
+              "text": ""
+            },
+            {
+              "label": "Each intervention targeted a specific",
+              "text": "Each intervention targeted a specific contributing factor — moving from weaker (education alone) to stronger (engineering and system redesign) controls to sustainably reduce risk."
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Look for Conditions, Not Just Actions",
+          "bullets": [
+            {
+              "label": "Seek the system factors that shaped the error — not just the final act.",
+              "text": ""
+            },
+            {
+              "label": "Design for Normal Human Limits",
+              "text": ""
+            },
+            {
+              "label": "Build processes that support — not punish — human cognitive constraints.",
+              "text": ""
+            },
+            {
+              "label": "Prefer Stronger Controls",
+              "text": ""
+            },
+            {
+              "label": "Reminders and training are weak when used alone. Prioritise redesign and engineering safeguards.",
+              "text": ""
+            },
+            {
+              "label": "Monitor Recommendations",
+              "text": ""
+            },
+            {
+              "label": "Evaluate whether changes actually reduce risk. Learning is a cycle, not a one-off event.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Quality Improvement, Surveillance and Antimicrobial Stewardship",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 2 - Level 3 - Section 3 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Quality Improvement, Surveillance & Antimicrobial Stewardship",
+          "body": "Global Nursing Professional Series (GNPS) · Program 2 · Level 3",
+          "bullets": [
+            {
+              "label": "SECTION 3 STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Define the Problem",
+              "text": ""
+            },
+            {
+              "label": "Use data to identify a safety or infection-prevention issue clearly before acting.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply a QI Cycle",
+              "text": ""
+            },
+            {
+              "label": "Use a structured quality-improvement approach to test and refine change.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Interpret Measures",
+              "text": ""
+            },
+            {
+              "label": "Distinguish between process, outcome and balancing measures.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Support Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Explain the nurse's contribution to antimicrobial stewardship and infection prevention.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Introduction: Data-Driven Nursing Practice",
+          "body": "Global Nursing Professionals use data to identify patterns, test improvements and evaluate outcomes. Everyday observations — infection trends, incident reports, patient feedback — become organised learning when captured systematically. Nurses are central to turning data into safer care.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Quality-Improvement Cycles",
+          "body": "How Improvement Works",
+          "bullets": [
+            {
+              "label": "Improvement begins by defining a specific problem and understanding current practice. Teams then:",
+              "text": ""
+            },
+            {
+              "label": "Introduce a focused, testable change",
+              "text": ""
+            },
+            {
+              "label": "Study the results carefully",
+              "text": ""
+            },
+            {
+              "label": "Adapt the intervention based on evidence",
+              "text": ""
+            },
+            {
+              "label": "Small tests of change allow learning before wider implementation — reducing risk and building confidence.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "The Plan–Do–Study–Act Framework",
+          "body": "Plan",
+          "bullets": [
+            {
+              "label": "Do",
+              "text": ""
+            },
+            {
+              "label": "Study",
+              "text": ""
+            },
+            {
+              "label": "Act",
+              "text": ""
+            },
+            {
+              "label": "The PDSA cycle is the foundation of structured",
+              "text": "The PDSA cycle is the foundation of structured quality improvement. Each completed cycle generates evidence to refine the next iteration, enabling safe, incremental progress towards measurable goals."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Understanding Measurement",
+          "body": "📊 Outcome Measures",
+          "bullets": [
+            {
+              "label": "What actually happened — e.g., infection rates, fall rates, length of stay. Shows the impact of care.",
+              "text": ""
+            },
+            {
+              "label": "✅ Process Measures",
+              "text": ""
+            },
+            {
+              "label": "Whether recommended care occurred — e.g., hand-hygiene compliance, timely device review. Shows delivery of care.",
+              "text": ""
+            },
+            {
+              "label": "⚖️ Balancing Measures",
+              "text": ""
+            },
+            {
+              "label": "Unintended consequences — e.g., delays, increased workload, need for reinsertion. Prevents harm shifting.",
+              "text": ""
+            },
+            {
+              "label": "Always measure across all three categories. A",
+              "text": "Always measure across all three categories. A successful outcome measure means little if balancing measures reveal new harms."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Surveillance & Feedback",
+          "body": "What Surveillance Does",
+          "bullets": [
+            {
+              "label": "Surveillance identifies trends by location,",
+              "text": "Surveillance identifies trends by location, organism, procedure or device. It turns routine data into actionable intelligence — but only when the data are:"
+            },
+            {
+              "label": "Timely and reliable",
+              "text": ""
+            },
+            {
+              "label": "Communicated to those who can act",
+              "text": ""
+            },
+            {
+              "label": "Used to support improvement, not just report performance",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Antimicrobial Stewardship: The Nurse's Role",
+          "body": "Nurses are on the front line of stewardship — every shift, every patient.",
+          "bullets": [
+            {
+              "label": "Obtain Cultures Correctly",
+              "text": ""
+            },
+            {
+              "label": "Accurate specimens before antimicrobials start — ensuring targeted therapy.",
+              "text": ""
+            },
+            {
+              "label": "Timely Administration",
+              "text": ""
+            },
+            {
+              "label": "Give antimicrobials at the prescribed time to maintain therapeutic levels.",
+              "text": ""
+            },
+            {
+              "label": "Monitor & Question",
+              "text": ""
+            },
+            {
+              "label": "Check allergy status, monitor response, and challenge unnecessary continuation through appropriate channels.",
+              "text": ""
+            },
+            {
+              "label": "Educate Patients",
+              "text": ""
+            },
+            {
+              "label": "Explain why completing treatment matters and the risks of antimicrobial resistance.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Reducing Catheter-Associated UTIs",
+          "body": "The Problem",
+          "bullets": [
+            {
+              "label": "A ward records a rise in catheter-associated",
+              "text": "A ward records a rise in catheter-associated urinary tract infections (CAUTIs). The improvement team maps the process and discovers catheter necessity is not reviewed consistently."
+            },
+            {
+              "label": "The Intervention",
+              "text": ""
+            },
+            {
+              "label": "Daily catheter necessity review prompt introduced",
+              "text": ""
+            },
+            {
+              "label": "Clear removal criteria established",
+              "text": ""
+            },
+            {
+              "label": "Feedback dashboard created for the team",
+              "text": ""
+            },
+            {
+              "label": "Measures Monitored",
+              "text": ""
+            },
+            {
+              "label": "Infection rates (outcome)",
+              "text": ""
+            },
+            {
+              "label": "Catheter days (process)",
+              "text": ""
+            },
+            {
+              "label": "Reinsertion need (balancing)",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Key Takeaways",
+          "body": "Define Before You Solve",
+          "bullets": [
+            {
+              "label": "Clearly identify the problem and understand current practice before choosing an intervention.",
+              "text": ""
+            },
+            {
+              "label": "Measure What Matters",
+              "text": ""
+            },
+            {
+              "label": "Track both outcome and process measures — and always check for unintended consequences.",
+              "text": ""
+            },
+            {
+              "label": "Make Feedback Actionable",
+              "text": ""
+            },
+            {
+              "label": "Data should reach the people who can act on it, in time to make a difference.",
+              "text": ""
+            },
+            {
+              "label": "Prevention = Stewardship",
+              "text": ""
+            },
+            {
+              "label": "Every infection prevented is an antimicrobial not needed. Prevention and stewardship are inseparable.",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 2 · SECTION 3 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Digital Safety, Preparedness and Global Collaboration",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 2 - Level 3 - Section 4 - Global Nurse Professional - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Global Nursing Professional Series (GNPS)",
+          "body": "Programme 2 · Level 3 · Section 4",
+          "bullets": [
+            {
+              "label": "Digital Safety, Preparedness and Global Collaboration",
+              "text": ""
+            },
+            {
+              "label": "STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 4 Overview",
+          "body": "Why Digital Safety Matters in Modern Nursing",
+          "bullets": [
+            {
+              "label": "Modern nursing extends well beyond the physical",
+              "text": "Modern nursing extends well beyond the physical ward. Electronic records, clinical decision support tools, remote monitoring and connected devices can transform care quality — but they also introduce new and complex risks."
+            },
+            {
+              "label": "Global Nursing Professionals must use",
+              "text": "Global Nursing Professionals must use technology critically and responsibly, protect patient information, and contribute to preparedness for outbreaks, disasters and emerging health threats."
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Identify Benefits & Risks",
+              "text": ""
+            },
+            {
+              "label": "Recognise both the opportunities and hazards of digital healthcare systems in clinical settings.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Promote Safe Digital Use",
+              "text": ""
+            },
+            {
+              "label": "Apply best practices for electronic records, connected devices and information governance.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Support Preparedness",
+              "text": ""
+            },
+            {
+              "label": "Contribute meaningfully to outbreak and emergency preparedness plans.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Collaborate Globally",
+              "text": ""
+            },
+            {
+              "label": "Share learning across organisations and countries to strengthen healthcare systems worldwide.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Digital Clinical Safety",
+          "body": "Technology Can Help",
+          "bullets": [
+            {
+              "label": "Reduce transcription errors",
+              "text": ""
+            },
+            {
+              "label": "Highlight allergies and drug interactions",
+              "text": ""
+            },
+            {
+              "label": "Improve access to real-time information",
+              "text": ""
+            },
+            {
+              "label": "Technology Can Also Harm",
+              "text": ""
+            },
+            {
+              "label": "Incorrect or copied data",
+              "text": ""
+            },
+            {
+              "label": "Alert fatigue and automation bias",
+              "text": ""
+            },
+            {
+              "label": "System downtime and access failures",
+              "text": ""
+            },
+            {
+              "label": "Nurses must verify critical information and report technology-related hazards promptly.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept",
+          "body": "Information Governance",
+          "bullets": [
+            {
+              "label": "Patient information must be accessed only for",
+              "text": "Patient information must be accessed only for legitimate care purposes. Digital convenience does not diminish the duty of confidentiality — it demands even greater vigilance."
+            },
+            {
+              "label": "Secure Passwords",
+              "text": ""
+            },
+            {
+              "label": "Use strong, unique credentials and never share login details.",
+              "text": ""
+            },
+            {
+              "label": "Screen Awareness",
+              "text": ""
+            },
+            {
+              "label": "Position screens appropriately and lock devices when unattended.",
+              "text": ""
+            },
+            {
+              "label": "Careful Communication",
+              "text": ""
+            },
+            {
+              "label": "Use only approved channels when sharing patient data digitally.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Preparedness and Resilience",
+          "body": "Outbreaks and disasters cannot wait for a plan to be created. Preparedness must be built before an emergency begins.",
+          "bullets": [
+            {
+              "label": "Clear Roles",
+              "text": ""
+            },
+            {
+              "label": "Every team member knows their responsibilities during an emergency response.",
+              "text": ""
+            },
+            {
+              "label": "Communication Pathways",
+              "text": ""
+            },
+            {
+              "label": "Established chains of communication ensure rapid, accurate information flow.",
+              "text": ""
+            },
+            {
+              "label": "PPE & Triage",
+              "text": ""
+            },
+            {
+              "label": "Adequate PPE availability and triage processes protect staff and patients alike.",
+              "text": ""
+            },
+            {
+              "label": "Practice & Simulation",
+              "text": ""
+            },
+            {
+              "label": "Regular drills and education embed preparedness into everyday culture.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Global Collaboration in Nursing",
+          "body": "Infection and safety threats do not respect borders. Global Nursing Professionals play a vital role in strengthening international responses.",
+          "bullets": [
+            {
+              "label": "Share Surveillance",
+              "text": ""
+            },
+            {
+              "label": "Contribute data to outbreak monitoring networks and WHO-aligned systems.",
+              "text": ""
+            },
+            {
+              "label": "Adapt Evidence Locally",
+              "text": ""
+            },
+            {
+              "label": "Apply global best practices within the context of local resources and culture.",
+              "text": ""
+            },
+            {
+              "label": "Respect Diversity",
+              "text": ""
+            },
+            {
+              "label": "Avoid assuming one solution fits every setting — local knowledge is essential.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Respiratory Outbreak: Smart Technology Response",
+          "bullets": [
+            {
+              "label": "During a respiratory outbreak, a hospital",
+              "text": "During a respiratory outbreak, a hospital introduces remote monitoring to reduce unnecessary room entry. Nurse leaders quickly identify that alarm thresholds are generating too many non-urgent alerts — a classic case of alert fatigue."
+            },
+            {
+              "label": "They collaborate with clinicians and technical",
+              "text": "They collaborate with clinicians and technical staff to recalibrate the system, maintain direct assessment for concerning patients, and establish a clear downtime plan."
+            },
+            {
+              "label": "Technology supports care — it does not replace professional judgement.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Technology Supports, Not Replaces",
+          "bullets": [
+            {
+              "label": "Clinical judgement remains central. Use digital tools critically and verify all critical information.",
+              "text": ""
+            },
+            {
+              "label": "Protect Confidentiality Always",
+              "text": ""
+            },
+            {
+              "label": "Every digital interaction is governed by the same duty of confidentiality as face-to-face care.",
+              "text": ""
+            },
+            {
+              "label": "Preparedness Is an Ongoing Commitment",
+              "text": ""
+            },
+            {
+              "label": "Planning, regular simulation, and workforce support build true resilience before crises emerge.",
+              "text": ""
+            },
+            {
+              "label": "Share and Adapt Global Learning",
+              "text": ""
+            },
+            {
+              "label": "Engage with international networks — and always adapt solutions to fit local needs and resources.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Programme Summary",
+          "body": "By completing GNPS Programme 2 – Level 3, you have developed the advanced perspective of a Global Nursing Professional.",
+          "bullets": [
+            {
+              "label": "Lead Culture",
+              "text": ""
+            },
+            {
+              "label": "Champion safety and quality in every environment you work in.",
+              "text": ""
+            },
+            {
+              "label": "Analyse Systems",
+              "text": ""
+            },
+            {
+              "label": "Use data and critical thinking to identify and address risks.",
+              "text": ""
+            },
+            {
+              "label": "Support Innovation",
+              "text": ""
+            },
+            {
+              "label": "Embrace technology while preserving the primacy of clinical judgement.",
+              "text": ""
+            },
+            {
+              "label": "Build Resilience",
+              "text": ""
+            },
+            {
+              "label": "Protect patients and the workforce through knowledge, courage and collaboration.",
+              "text": ""
+            },
+            {
+              "label": "Protecting patients and protecting the",
+              "text": "Protecting patients and protecting the workforce are shared responsibilities — requiring knowledge, courage, collaboration and continuous learning."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        }
+      ]
+    }
+  ]
+}

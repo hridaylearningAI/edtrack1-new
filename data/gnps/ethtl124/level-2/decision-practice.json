@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Urinary output monitoring",
+      "scenario": "You review the patient’s fluid balance chart and notice that urine output has been significantly lower than expected over the past two hours. The patient looks tired and reports feeling thirsty.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess hydration and notify provider.",
+      "modelWhy": "Low output may indicate renal impairment.",
+      "modelNext": "Check vital signs.",
+      "trap": "",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Wound dressing change",
+      "scenario": "You prepare to change a surgical dressing. The patient is lying comfortably but looks concerned and asks whether the wound is healing properly. The old dressing is still in place, and you have not yet inspected the wound.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess wound before cleaning.",
+      "modelWhy": "Assessment guides care.",
+      "modelNext": "Note drainage and appearance.",
+      "trap": "",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Pain assessment",
+      "scenario": "The patient tells you their pain is 7 out of 10 and looks uncomfortable. They shift position frequently and say the pain is affecting their ability to rest. No pain relief has yet been administered.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess pain characteristics.",
+      "modelWhy": "Pain assessment guides intervention.",
+      "modelNext": "Plan pain management.",
+      "trap": "",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Positioning for safety",
+      "scenario": "A confused patient repeatedly tries to climb out of bed without assistance. They appear disoriented and do not respond to verbal reminders. The bed rails are down, and the call bell is out of reach.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety and reposition patient.",
+      "modelWhy": "Prevents falls.",
+      "modelNext": "Apply fall precautions.",
+      "trap": "",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Feeding assistance",
+      "scenario": "You assist a patient during a meal. As they begin eating, they suddenly start coughing and clearing their throat repeatedly. The patient looks distressed and pauses eating but does not stop on their own.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop feeding and assess swallowing.",
+      "modelWhy": "Risk of aspiration.",
+      "modelNext": "Notify provider if needed.",
+      "trap": "",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Enteral feeding check",
+      "scenario": "You are about to commence enteral feeding through a feeding tube. The feeding formula is ready, and the pump is set up. The patient is lying in bed and has not shown any signs of discomfort, but tube placement has not yet been checked.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Verify tube placement.",
+      "modelWhy": "Incorrect placement risks aspiration.",
+      "modelNext": "Check residuals per policy.",
+      "trap": "",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Medication administration",
+      "scenario": "You prepare to administer oral medication to a patient. The medication cup is ready, and the patient reaches for it. The medication chart is nearby, but the patient’s identification band has not yet been checked.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Perform medication rights check.",
+      "modelWhy": "Prevents medication errors.",
+      "modelNext": "Confirm allergies.",
+      "trap": "",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Blood glucose monitoring",
+      "scenario": "The patient suddenly appears pale, sweaty, and shaky. They tell you they feel “strange” and lightheaded. The patient has a history of diabetes, but their blood glucose has not yet been checked.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Check blood glucose.",
+      "modelWhy": "Signs of hypoglycemia.",
+      "modelNext": "Treat if low.",
+      "trap": "",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

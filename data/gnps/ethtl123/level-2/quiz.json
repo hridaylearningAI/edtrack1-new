@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "An internationally qualified nurse is unsure whether a safeguarding concern must be reported directly to an external authority. What is the most professional action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consult local law, organisational policy and an appropriate senior clinician immediately."
+        },
+        {
+          "id": "B",
+          "text": "Follow the reporting process used in the nurse's previous country."
+        },
+        {
+          "id": "C",
+          "text": "Wait until definite proof is available."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family whether they want the concern reported."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Mandatory-reporting duties vary between jurisdictions. Safe adaptation requires checking the local framework rather than relying on previous-country practice."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best distinguishes a professional code from a practice standard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Codes are legally binding in every situation, while standards are optional."
+        },
+        {
+          "id": "B",
+          "text": "Codes describe expected professional behaviour, while standards describe the level of practice required."
+        },
+        {
+          "id": "C",
+          "text": "Standards apply only to managers."
+        },
+        {
+          "id": "D",
+          "text": "There is no practical difference."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Codes commonly describe conduct and values, while standards define expected professional performance."
+    },
+    {
+      "id": "q3",
+      "stem": "An IQN is asked to perform a procedure that was within scope in a previous country but is unfamiliar under the new employer's policy. What should happen first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because previous registration confirms competence."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to consent to the uncertainty."
+        },
+        {
+          "id": "C",
+          "text": "Verify local scope, policy and supervision requirements before performing the procedure."
+        },
+        {
+          "id": "D",
+          "text": "Delegate the procedure to another new employee."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Previous experience does not automatically establish authority in a new regulatory and organisational system."
+    },
+    {
+      "id": "q4",
+      "stem": "Which source most directly defines registration conditions and legal nursing authority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Workplace custom."
+        },
+        {
+          "id": "B",
+          "text": "A colleague's opinion."
+        },
+        {
+          "id": "C",
+          "text": "The nurse's previous-country job description."
+        },
+        {
+          "id": "D",
+          "text": "The local nursing regulator and applicable nurse-practice law."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Registration conditions and nurse-practice law define legal authority and obligations."
+    },
+    {
+      "id": "q5",
+      "stem": "A workplace policy conflicts with the nurse's professional judgement about immediate patient safety. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protect the patient, seek urgent clarification and escalate through approved channels."
+        },
+        {
+          "id": "B",
+          "text": "Follow policy without question."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the policy permanently."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to resolve the conflict."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Policy supports practice but does not replace professional judgement or accountability."
+    },
+    {
+      "id": "q6",
+      "stem": "Which situation may create a mandatory-reporting obligation, depending on local law?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A colleague requesting annual leave."
+        },
+        {
+          "id": "B",
+          "text": "Suspected abuse, serious misconduct or impaired practice."
+        },
+        {
+          "id": "C",
+          "text": "A patient refusing food."
+        },
+        {
+          "id": "D",
+          "text": "A minor disagreement during handover."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The notes identify suspected abuse, impaired practice, serious misconduct and communicable disease as possible reporting areas."
+    },
+    {
+      "id": "q7",
+      "stem": "A nurse is unfamiliar with the local medication-checking process. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the system from the previous workplace."
+        },
+        {
+          "id": "B",
+          "text": "Avoid all medication administration indefinitely."
+        },
+        {
+          "id": "C",
+          "text": "Complete orientation, review policy and request supervision until competent."
+        },
+        {
+          "id": "D",
+          "text": "Ask another IQN to explain informally."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Seeking clarification and supervised orientation are professional safety behaviours."
+    },
+    {
+      "id": "q8",
+      "stem": "Which action best demonstrates personal accountability within an international team?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assuming the team leader carries responsibility for all decisions."
+        },
+        {
+          "id": "B",
+          "text": "Following established habits without question."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding documentation of uncertainty."
+        },
+        {
+          "id": "D",
+          "text": "Understanding local expectations and accepting responsibility for one's own decisions and omissions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional accountability remains personal even when care is delivered by a team."
+    },
+    {
+      "id": "q9",
+      "stem": "A nurse discovers that a local code requires disclosure of a conflict of interest. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the local code and seek guidance if the process is unclear."
+        },
+        {
+          "id": "B",
+          "text": "Use the previous country's rules instead."
+        },
+        {
+          "id": "C",
+          "text": "Disclose only if a patient complains."
+        },
+        {
+          "id": "D",
+          "text": "Keep the matter private."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "IQNs must adapt to the local regulatory and professional framework."
+    },
+    {
+      "id": "q10",
+      "stem": "Which action is most appropriate when a legal requirement is unclear during urgent care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delay all care until a lawyer is available."
+        },
+        {
+          "id": "B",
+          "text": "Provide necessary safe care within scope while seeking immediate senior or specialist advice."
+        },
+        {
+          "id": "C",
+          "text": "Rely on memory from previous practice."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient's relative to decide."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse should protect safety, remain within scope and obtain timely advice."
+    },
+    {
+      "id": "q11",
+      "stem": "A nurse is told, 'This is how we always do it here,' but the practice appears inconsistent with professional standards. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the custom as local policy."
+        },
+        {
+          "id": "B",
+          "text": "Copy the practice to fit in."
+        },
+        {
+          "id": "C",
+          "text": "Check the applicable standard and raise the concern respectfully."
+        },
+        {
+          "id": "D",
+          "text": "Document the concern only after harm occurs."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Workplace custom does not override professional standards or legal duties."
+    },
+    {
+      "id": "q12",
+      "stem": "Which outcome best indicates successful regulatory adaptation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse performs all tasks independently within the first week."
+        },
+        {
+          "id": "B",
+          "text": "The nurse continues previous-country routines."
+        },
+        {
+          "id": "C",
+          "text": "The nurse avoids complex decisions."
+        },
+        {
+          "id": "D",
+          "text": "The nurse understands local laws, standards, scope and reporting duties and seeks advice appropriately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe adaptation combines knowledge, verified scope and appropriate consultation."
+    },
+    {
+      "id": "q13",
+      "stem": "An IQN notices a colleague showing signs of impairment while providing care. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protect patients and follow local escalation and reporting requirements."
+        },
+        {
+          "id": "B",
+          "text": "Wait until an error occurs."
+        },
+        {
+          "id": "C",
+          "text": "Confront the colleague publicly."
+        },
+        {
+          "id": "D",
+          "text": "Send an anonymous social-media message."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient protection and local reporting processes take priority."
+    },
+    {
+      "id": "q14",
+      "stem": "Which statement about organisational policy is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policy replaces professional judgement."
+        },
+        {
+          "id": "B",
+          "text": "Policy provides local processes but must be interpreted alongside law, standards and patient needs."
+        },
+        {
+          "id": "C",
+          "text": "Policy applies only to permanent employees."
+        },
+        {
+          "id": "D",
+          "text": "Policy is optional for experienced nurses."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Policies guide local practice but do not remove professional accountability."
+    },
+    {
+      "id": "q15",
+      "stem": "A new nurse has completed orientation but remains unsure about one high-risk task. What is the most appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform it independently to build confidence."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient whether supervision is necessary."
+        },
+        {
+          "id": "C",
+          "text": "Request supervised practice and competency verification."
+        },
+        {
+          "id": "D",
+          "text": "Refuse to learn the task."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Competence should be demonstrated, especially for unfamiliar or high-risk activities."
+    },
+    {
+      "id": "q16",
+      "stem": "Which professional behaviour most protects the public?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keeping uncertainty private."
+        },
+        {
+          "id": "B",
+          "text": "Relying on senior staff to notice problems."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding unfamiliar patients."
+        },
+        {
+          "id": "D",
+          "text": "Recognising limits, maintaining competence and reporting serious risks appropriately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional regulation is intended to maintain competence and protect the public."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse learns that communicable-disease reporting differs locally. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review current local requirements and follow the designated pathway."
+        },
+        {
+          "id": "B",
+          "text": "Use the process remembered from nursing school."
+        },
+        {
+          "id": "C",
+          "text": "Leave reporting to the patient."
+        },
+        {
+          "id": "D",
+          "text": "Share the diagnosis with all staff."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reporting requirements are jurisdiction-specific and must be verified."
+    },
+    {
+      "id": "q18",
+      "stem": "What is the best reason for an IQN to seek clarification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It shows lack of preparation."
+        },
+        {
+          "id": "B",
+          "text": "It is a professional response when local systems, law or scope are uncertain."
+        },
+        {
+          "id": "C",
+          "text": "It transfers accountability to the adviser."
+        },
+        {
+          "id": "D",
+          "text": "It is required only during orientation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Seeking clarification supports safe practice and does not remove personal accountability."
+    },
+    {
+      "id": "q19",
+      "stem": "A senior colleague instructs an IQN not to report a serious safety event. What should the IQN do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the senior colleague's instruction."
+        },
+        {
+          "id": "B",
+          "text": "Wait until employment probation ends."
+        },
+        {
+          "id": "C",
+          "text": "Use the approved escalation or reporting pathway despite hierarchy."
+        },
+        {
+          "id": "D",
+          "text": "Discuss the event outside the organisation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hierarchy does not remove legal and professional reporting obligations."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects safe international professional practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse adapts previous habits only when convenient."
+        },
+        {
+          "id": "B",
+          "text": "The nurse avoids asking questions."
+        },
+        {
+          "id": "C",
+          "text": "The nurse relies on workplace tradition."
+        },
+        {
+          "id": "D",
+          "text": "The nurse applies local law, standards, policy and professional judgement consistently."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "International practice requires deliberate adaptation to the local framework. Section 2 - Complex Consent, Capacity and Ethical Decision-Making"
+    },
+    {
+      "id": "q21",
+      "stem": "An older patient with fluctuating delirium refuses a procedure. What is the nurse's best initial action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess and support communication, seek timely clinical review and recognise that capacity may fluctuate."
+        },
+        {
+          "id": "B",
+          "text": "Assume the patient lacks capacity because delirium is present."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to consent immediately."
+        },
+        {
+          "id": "D",
+          "text": "Proceed because the procedure is beneficial."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Capacity is decision-specific and may fluctuate. It should not be removed solely because delirium is present."
+    },
+    {
+      "id": "q22",
+      "stem": "Which abilities are central to decision-making capacity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signing a form and agreeing with the clinician."
+        },
+        {
+          "id": "B",
+          "text": "Understanding, retaining, weighing information and communicating a choice."
+        },
+        {
+          "id": "C",
+          "text": "Remembering all previous treatment."
+        },
+        {
+          "id": "D",
+          "text": "Having no mental-health diagnosis."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These are the core functional elements described in the notes."
+    },
+    {
+      "id": "q23",
+      "stem": "A patient understands information about a low-risk blood test but cannot understand a complex surgical decision. What principle applies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Capacity is all-or-nothing."
+        },
+        {
+          "id": "B",
+          "text": "The patient lacks capacity for all care."
+        },
+        {
+          "id": "C",
+          "text": "Capacity is decision-specific."
+        },
+        {
+          "id": "D",
+          "text": "Family consent is always required."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A person may have capacity for one decision and not another."
+    },
+    {
+      "id": "q24",
+      "stem": "Which action best supports decision-making before considering a substitute?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the family to decide first."
+        },
+        {
+          "id": "B",
+          "text": "Withhold difficult information."
+        },
+        {
+          "id": "C",
+          "text": "Assume refusal indicates incapacity."
+        },
+        {
+          "id": "D",
+          "text": "Use simpler language, an interpreter, visual aids or additional time."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "People should receive practical support to decide wherever possible."
+    },
+    {
+      "id": "q25",
+      "stem": "A family requests treatment that conflicts with the patient's clearly documented prior wishes. What should guide the decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient's known wishes, values, applicable law and best interests."
+        },
+        {
+          "id": "B",
+          "text": "The family's preference alone."
+        },
+        {
+          "id": "C",
+          "text": "The most expensive option."
+        },
+        {
+          "id": "D",
+          "text": "The opinion of the most senior relative."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Substitute decisions should reflect the person's known values and lawful best-interest processes."
+    },
+    {
+      "id": "q26",
+      "stem": "What is the first step in a structured ethical decision framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choose the safest option immediately."
+        },
+        {
+          "id": "B",
+          "text": "Identify the ethical problem and gather relevant facts."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to vote."
+        },
+        {
+          "id": "D",
+          "text": "Document the final decision."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A transparent process begins by defining the problem and facts."
+    },
+    {
+      "id": "q27",
+      "stem": "Which factor should be separated clearly during ethical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the medical diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Only the patient's preference."
+        },
+        {
+          "id": "C",
+          "text": "Facts, stakeholder values, law, policy and professional obligations."
+        },
+        {
+          "id": "D",
+          "text": "Only organisational cost."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Structured reasoning distinguishes these elements before options are considered."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient refuses a beneficial treatment for cultural reasons. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the refusal is uninformed."
+        },
+        {
+          "id": "B",
+          "text": "Ask family to override the refusal."
+        },
+        {
+          "id": "C",
+          "text": "Document the patient as non-compliant."
+        },
+        {
+          "id": "D",
+          "text": "Assess understanding, explore the person's values and respect the decision if capacity and voluntariness are present."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Autonomy applies to informed decisions that professionals may not prefer."
+    },
+    {
+      "id": "q29",
+      "stem": "When is ethics consultation most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When complex or unresolved conflict remains after appropriate discussion and review."
+        },
+        {
+          "id": "B",
+          "text": "For every routine consent."
+        },
+        {
+          "id": "C",
+          "text": "Only after litigation begins."
+        },
+        {
+          "id": "D",
+          "text": "When the nurse wants to transfer accountability."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Senior, legal, ethics or specialist consultation may be needed when conflict remains unresolved."
+    },
+    {
+      "id": "q30",
+      "stem": "A patient communicates a choice but cannot explain relevant risks or compare options. What should the nurse recognise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Communication alone proves capacity."
+        },
+        {
+          "id": "B",
+          "text": "Further assessment of understanding and weighing is required."
+        },
+        {
+          "id": "C",
+          "text": "The choice must be accepted immediately."
+        },
+        {
+          "id": "D",
+          "text": "The family should decide without assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Capacity requires more than expressing a preference."
+    },
+    {
+      "id": "q31",
+      "stem": "Which documentation best supports a complex capacity decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The conclusion only."
+        },
+        {
+          "id": "B",
+          "text": "The family's opinion only."
+        },
+        {
+          "id": "C",
+          "text": "Information provided, supports used, the person's responses, consultation and reasoning."
+        },
+        {
+          "id": "D",
+          "text": "A statement that the patient was confused."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Transparent documentation should show the assessment and reasoning process."
+    },
+    {
+      "id": "q32",
+      "stem": "A patient with fluctuating cognition is most alert in the morning. What should the team consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assuming permanent incapacity."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding all consent discussions."
+        },
+        {
+          "id": "C",
+          "text": "Using family consent automatically."
+        },
+        {
+          "id": "D",
+          "text": "Making the decision at the person's best time where clinically possible."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Timing may support the person's decision-making ability."
+    },
+    {
+      "id": "q33",
+      "stem": "A substitute decision-maker requests an option that appears contrary to the patient's values. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raise the concern and seek senior, legal or ethics review."
+        },
+        {
+          "id": "B",
+          "text": "Follow the request automatically."
+        },
+        {
+          "id": "C",
+          "text": "Ask another relative to decide."
+        },
+        {
+          "id": "D",
+          "text": "Proceed without documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Substitute authority must be exercised lawfully and consistently with the person's wishes and interests."
+    },
+    {
+      "id": "q34",
+      "stem": "Which statement about capacity is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A diagnosis of dementia automatically removes capacity."
+        },
+        {
+          "id": "B",
+          "text": "Capacity may fluctuate and should be assessed for the specific decision."
+        },
+        {
+          "id": "C",
+          "text": "Only doctors may notice capacity concerns."
+        },
+        {
+          "id": "D",
+          "text": "Refusal proves incapacity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Capacity cannot be assumed absent based on diagnosis or disagreement."
+    },
+    {
+      "id": "q35",
+      "stem": "An urgent intervention is required and the patient's decision-making capacity cannot be assessed fully. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delay all care regardless of risk."
+        },
+        {
+          "id": "B",
+          "text": "Ask any family member to sign."
+        },
+        {
+          "id": "C",
+          "text": "Follow the applicable emergency legal and clinical process and document the circumstances."
+        },
+        {
+          "id": "D",
+          "text": "Use the process from the nurse's previous country."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Urgent care must follow local emergency law and policy."
+    },
+    {
+      "id": "q36",
+      "stem": "Which approach best prevents coercion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presenting one option as the only responsible choice."
+        },
+        {
+          "id": "B",
+          "text": "Using family pressure."
+        },
+        {
+          "id": "C",
+          "text": "Withholding risks to reduce anxiety."
+        },
+        {
+          "id": "D",
+          "text": "Providing balanced information and allowing voluntary choice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Voluntariness is an essential part of valid consent."
+    },
+    {
+      "id": "q37",
+      "stem": "A patient needs an interpreter to understand a serious treatment decision. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrange professional interpretation and reassess understanding."
+        },
+        {
+          "id": "B",
+          "text": "Use a family member for convenience."
+        },
+        {
+          "id": "C",
+          "text": "Proceed with written English information."
+        },
+        {
+          "id": "D",
+          "text": "Assume nodding indicates consent."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Communication support is necessary for meaningful consent."
+    },
+    {
+      "id": "q38",
+      "stem": "Which outcome best demonstrates supported decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The family makes the decision quickly."
+        },
+        {
+          "id": "B",
+          "text": "The person participates as fully as possible using tailored communication and assistance."
+        },
+        {
+          "id": "C",
+          "text": "The clinician selects the least risky option."
+        },
+        {
+          "id": "D",
+          "text": "The consent form is signed."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Supported decision-making maximises the person's own participation."
+    },
+    {
+      "id": "q39",
+      "stem": "A disagreement between family and team remains unresolved after several meetings. What is the next appropriate step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue arguing informally."
+        },
+        {
+          "id": "B",
+          "text": "Follow the family's preference."
+        },
+        {
+          "id": "C",
+          "text": "Seek senior review, legal advice, ethics consultation or specialist support."
+        },
+        {
+          "id": "D",
+          "text": "Discharge the patient."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unresolved complex conflict requires formal consultation."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects sound ethical decision-making?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The most senior clinician decides."
+        },
+        {
+          "id": "B",
+          "text": "The family agrees."
+        },
+        {
+          "id": "C",
+          "text": "The decision is made quickly."
+        },
+        {
+          "id": "D",
+          "text": "Facts, values, law, policy and options are considered transparently and the reasoning is documented."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A transparent, structured process is the defining feature. Section 3 - Delegation, Advocacy and Interprofessional Accountability"
+    },
+    {
+      "id": "q41",
+      "stem": "An IQN is asked to delegate a complex assessment to a worker whose local role excludes clinical judgement. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decline, explain the scope concern and arrange an appropriate alternative assessment."
+        },
+        {
+          "id": "B",
+          "text": "Delegate because the worker performed similar tasks overseas."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to accept the risk."
+        },
+        {
+          "id": "D",
+          "text": "Delegate and review the result later."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Titles and duties differ across systems; role boundaries must be verified locally."
+    },
+    {
+      "id": "q42",
+      "stem": "Which factor is most important before delegating care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the task is convenient."
+        },
+        {
+          "id": "B",
+          "text": "Patient stability, task complexity, local scope and the worker's competence."
+        },
+        {
+          "id": "C",
+          "text": "The worker's confidence only."
+        },
+        {
+          "id": "D",
+          "text": "The nurse's workload only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe delegation requires matching the task and circumstances to authorised competence."
+    },
+    {
+      "id": "q43",
+      "stem": "How should supervision be adjusted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the same level for every worker."
+        },
+        {
+          "id": "B",
+          "text": "Supervision ends after the task is assigned."
+        },
+        {
+          "id": "C",
+          "text": "Match direction, monitoring and follow-up to patient risk and worker competence."
+        },
+        {
+          "id": "D",
+          "text": "Provide supervision only to students."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Supervision should be proportionate to risk and capability."
+    },
+    {
+      "id": "q44",
+      "stem": "A delegated worker reports a significant change in a patient's condition. What should the registered nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the worker to decide the next step."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next scheduled review."
+        },
+        {
+          "id": "C",
+          "text": "Document the report only."
+        },
+        {
+          "id": "D",
+          "text": "Reassess promptly and determine the required escalation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Assessment, judgement and evaluation remain nursing responsibilities."
+    },
+    {
+      "id": "q45",
+      "stem": "Which action best demonstrates advocacy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clarifying information and challenging an unsafe order respectfully."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding disagreement with the team."
+        },
+        {
+          "id": "C",
+          "text": "Making decisions without the patient."
+        },
+        {
+          "id": "D",
+          "text": "Sharing concerns only after discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Advocacy may require respectful challenge to protect rights and safety."
+    },
+    {
+      "id": "q46",
+      "stem": "A patient from a minority group receives dismissive responses to repeated pain reports. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the pattern reflects different communication style."
+        },
+        {
+          "id": "B",
+          "text": "Assess the pain objectively, advocate for equitable care and escalate if required."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to be more assertive."
+        },
+        {
+          "id": "D",
+          "text": "Wait for a formal complaint."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Advocacy includes challenging discriminatory or unsafe care."
+    },
+    {
+      "id": "q47",
+      "stem": "Which communication is most assertive?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'You are wrong.'"
+        },
+        {
+          "id": "B",
+          "text": "'Do whatever you think.'"
+        },
+        {
+          "id": "C",
+          "text": "'I am concerned that the patient's condition is worsening. These are the changes, and I need urgent review.'"
+        },
+        {
+          "id": "D",
+          "text": "'This always happens on your shift.'"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Assertive communication is clear, factual, respectful and action-focused."
+    },
+    {
+      "id": "q48",
+      "stem": "A colleague dismisses an IQN's safety concern because of hierarchy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withdraw the concern."
+        },
+        {
+          "id": "B",
+          "text": "Discuss the colleague on social media."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to complain."
+        },
+        {
+          "id": "D",
+          "text": "Use structured communication and continue through the escalation pathway if unresolved."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Hierarchy should not prevent escalation of safety concerns."
+    },
+    {
+      "id": "q49",
+      "stem": "Which task is least appropriate to delegate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clinical interpretation of new deterioration."
+        },
+        {
+          "id": "B",
+          "text": "Routine observations for a stable patient."
+        },
+        {
+          "id": "C",
+          "text": "Assistance with hygiene."
+        },
+        {
+          "id": "D",
+          "text": "Recording oral intake."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Clinical judgement generally remains with the registered nurse."
+    },
+    {
+      "id": "q50",
+      "stem": "A worker accepts a delegated task but has not used the equipment before. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow the worker to learn during the task."
+        },
+        {
+          "id": "B",
+          "text": "Provide training or reassign the task to a competent person."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to supervise."
+        },
+        {
+          "id": "D",
+          "text": "Proceed if the worker signs responsibility."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Competence must be established before delegation."
+    },
+    {
+      "id": "q51",
+      "stem": "Which outcome best demonstrates effective supervision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The task is completed."
+        },
+        {
+          "id": "B",
+          "text": "The nurse saves time."
+        },
+        {
+          "id": "C",
+          "text": "The worker receives clear direction, changes are reported and the nurse evaluates the outcome."
+        },
+        {
+          "id": "D",
+          "text": "The worker accepts legal accountability."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Completion alone does not demonstrate safe supervision."
+    },
+    {
+      "id": "q52",
+      "stem": "A patient needs help navigating several unfamiliar services. What is the nurse's advocacy role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refer the patient without explanation."
+        },
+        {
+          "id": "B",
+          "text": "Choose services without consultation."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to manage alone."
+        },
+        {
+          "id": "D",
+          "text": "Clarify pathways, support communication and help coordinate access."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Advocacy includes helping people navigate complex systems."
+    },
+    {
+      "id": "q53",
+      "stem": "A nurse disagrees with a medical plan but has incomplete information. What should happen first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clarify the facts and rationale before escalating the concern."
+        },
+        {
+          "id": "B",
+          "text": "Reject the plan."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient the plan is unsafe."
+        },
+        {
+          "id": "D",
+          "text": "Document a complaint."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional disagreement should begin with facts and structured communication."
+    },
+    {
+      "id": "q54",
+      "stem": "An assistant performs delegated observations but fails to report a concerning change. What should the registered nurse review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the assistant's attitude."
+        },
+        {
+          "id": "B",
+          "text": "The clarity of instructions, reporting parameters, supervision and competence."
+        },
+        {
+          "id": "C",
+          "text": "Whether the patient complained."
+        },
+        {
+          "id": "D",
+          "text": "Only the observation form."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Delegation failures may reflect both individual and system factors."
+    },
+    {
+      "id": "q55",
+      "stem": "Which statement about delegation is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delegation transfers accountability completely."
+        },
+        {
+          "id": "B",
+          "text": "Any task may be delegated if the ward is busy."
+        },
+        {
+          "id": "C",
+          "text": "The nurse remains accountable for selecting, directing, supervising and evaluating delegated care."
+        },
+        {
+          "id": "D",
+          "text": "Role titles are equivalent across countries."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional accountability remains with the delegating nurse for the delegation process."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient's rights are threatened by an organisational process. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the process because it is policy."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient nothing can be done."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the issue unless harm occurs."
+        },
+        {
+          "id": "D",
+          "text": "Raise the concern through appropriate advocacy and escalation channels."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Advocacy may require challenging systems that threaten rights."
+    },
+    {
+      "id": "q57",
+      "stem": "Which action best manages professional disagreement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Structured communication using evidence and patient needs."
+        },
+        {
+          "id": "B",
+          "text": "Personal criticism."
+        },
+        {
+          "id": "C",
+          "text": "Avoidance."
+        },
+        {
+          "id": "D",
+          "text": "Public confrontation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional conflict should remain respectful and evidence-based."
+    },
+    {
+      "id": "q58",
+      "stem": "A nurse is unsure whether a local support-worker category may administer medication. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume equivalence with the previous country."
+        },
+        {
+          "id": "B",
+          "text": "Verify the local role and policy before delegating."
+        },
+        {
+          "id": "C",
+          "text": "Ask the worker what they usually do."
+        },
+        {
+          "id": "D",
+          "text": "Delegate only simple medicines."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Role titles and responsibilities differ across jurisdictions."
+    },
+    {
+      "id": "q59",
+      "stem": "A delegated task becomes inappropriate because the patient's condition becomes unstable. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow completion to avoid confusion."
+        },
+        {
+          "id": "B",
+          "text": "Ask the worker to make the decision."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the patient and revise or withdraw the delegation."
+        },
+        {
+          "id": "D",
+          "text": "Document the change after the shift."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Delegation must be reconsidered when circumstances change."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects interprofessional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Each profession works independently."
+        },
+        {
+          "id": "B",
+          "text": "The most senior clinician carries all accountability."
+        },
+        {
+          "id": "C",
+          "text": "Conflict is avoided."
+        },
+        {
+          "id": "D",
+          "text": "Roles are clear, concerns are communicated respectfully and unresolved risks are escalated."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accountability within teams requires role clarity and communication. Section 4 - Cultural Safety, Privacy and Professional Communication"
+    },
+    {
+      "id": "q61",
+      "stem": "A patient with limited English is asked to sign consent using a relative as interpreter. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pause and arrange a professional interpreter before the decision."
+        },
+        {
+          "id": "B",
+          "text": "Proceed because the relative knows the patient."
+        },
+        {
+          "id": "C",
+          "text": "Ask the relative to sign instead."
+        },
+        {
+          "id": "D",
+          "text": "Provide a leaflet and obtain the signature."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional interpretation is required for complex or high-risk information when accuracy and confidentiality matter."
+    },
+    {
+      "id": "q62",
+      "stem": "Which action best demonstrates cultural safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treating every patient identically."
+        },
+        {
+          "id": "B",
+          "text": "Using self-awareness, respectful enquiry and attention to how the patient experiences care."
+        },
+        {
+          "id": "C",
+          "text": "Relying on cultural stereotypes."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding discussion of beliefs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Cultural safety is determined through respectful, individualised care rather than assumptions."
+    },
+    {
+      "id": "q63",
+      "stem": "A patient declines a care practice for cultural reasons that do not create safety concerns. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insist on the routine."
+        },
+        {
+          "id": "B",
+          "text": "Document non-compliance."
+        },
+        {
+          "id": "C",
+          "text": "Explore and accommodate the preference where possible."
+        },
+        {
+          "id": "D",
+          "text": "Ask family to persuade the patient."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cultural respect should be accommodated when clinically safe."
+    },
+    {
+      "id": "q64",
+      "stem": "Which situation requires a professional interpreter most clearly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A simple greeting."
+        },
+        {
+          "id": "B",
+          "text": "Choosing a meal."
+        },
+        {
+          "id": "C",
+          "text": "Asking the room temperature."
+        },
+        {
+          "id": "D",
+          "text": "A complex consent or high-risk treatment discussion."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accuracy and confidentiality are critical in complex or high-risk discussions."
+    },
+    {
+      "id": "q65",
+      "stem": "A family member answers every question for a capable patient. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Address the patient directly, explore preferences and ensure an opportunity for independent participation."
+        },
+        {
+          "id": "B",
+          "text": "Accept the arrangement automatically."
+        },
+        {
+          "id": "C",
+          "text": "Exclude the family immediately."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to sign all forms."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Power differences can limit participation; the nurse should support the patient's own voice."
+    },
+    {
+      "id": "q66",
+      "stem": "Which practice best protects digital confidentiality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using personal messaging for convenience."
+        },
+        {
+          "id": "B",
+          "text": "Using secure approved systems and sharing only necessary information."
+        },
+        {
+          "id": "C",
+          "text": "Sharing passwords during busy shifts."
+        },
+        {
+          "id": "D",
+          "text": "Leaving records open for team access."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Electronic communication requires secure access and appropriate sharing."
+    },
+    {
+      "id": "q67",
+      "stem": "A nurse sends patient details to the wrong email address. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delete the sent message and do nothing else."
+        },
+        {
+          "id": "B",
+          "text": "Ask the recipient to ignore it."
+        },
+        {
+          "id": "C",
+          "text": "Follow the organisation's privacy-breach reporting and containment process immediately."
+        },
+        {
+          "id": "D",
+          "text": "Wait to see whether harm occurs."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Digital breaches require prompt containment and reporting."
+    },
+    {
+      "id": "q68",
+      "stem": "Which statement about family interpreters is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are always preferable because they know the patient."
+        },
+        {
+          "id": "B",
+          "text": "They may interpret any legal discussion."
+        },
+        {
+          "id": "C",
+          "text": "They remove the need to check understanding."
+        },
+        {
+          "id": "D",
+          "text": "They may support the patient but should not replace qualified interpretation when accuracy or confidentiality matters."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional interpreters provide accuracy, neutrality and confidentiality."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient says a care interaction felt culturally unsafe even though staff followed policy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Listen, reflect on power and communication, and explore how care could be improved."
+        },
+        {
+          "id": "B",
+          "text": "Explain that policy proves the care was safe."
+        },
+        {
+          "id": "C",
+          "text": "Dismiss the concern as subjective."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to explain the culture."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural safety includes the patient's experience, not merely staff intention."
+    },
+    {
+      "id": "q70",
+      "stem": "Which handover feature makes responsibility clear?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A general statement that the patient is stable."
+        },
+        {
+          "id": "B",
+          "text": "Structured information including current risks, actions, outstanding tasks and who is responsible."
+        },
+        {
+          "id": "C",
+          "text": "A diagnosis list only."
+        },
+        {
+          "id": "D",
+          "text": "Informal conversation without confirmation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Structured handover should make risk and ownership visible."
+    },
+    {
+      "id": "q71",
+      "stem": "What is closed-loop communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A written message without response."
+        },
+        {
+          "id": "B",
+          "text": "A confidential discussion."
+        },
+        {
+          "id": "C",
+          "text": "The receiver repeats the message and the sender confirms it."
+        },
+        {
+          "id": "D",
+          "text": "A handover completed by one person."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Closed-loop communication verifies that a message was heard and understood correctly."
+    },
+    {
+      "id": "q72",
+      "stem": "A verbal order is unclear during an emergency. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guess based on experience."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse later."
+        },
+        {
+          "id": "C",
+          "text": "Document the order after administration."
+        },
+        {
+          "id": "D",
+          "text": "Read back the order and seek confirmation before acting."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Read-back reduces misunderstanding in high-risk communication."
+    },
+    {
+      "id": "q73",
+      "stem": "A patient requests that sensitive information not be shared with family. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respect confidentiality unless disclosure is legally required for safety."
+        },
+        {
+          "id": "B",
+          "text": "Share it because family support is important."
+        },
+        {
+          "id": "C",
+          "text": "Tell the family indirectly."
+        },
+        {
+          "id": "D",
+          "text": "Ask another clinician to disclose it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patient preferences and privacy should be respected within legal limits."
+    },
+    {
+      "id": "q74",
+      "stem": "Which action best supports communication across cultures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assuming silence means agreement."
+        },
+        {
+          "id": "B",
+          "text": "Checking understanding through teach-back and asking what matters to the patient."
+        },
+        {
+          "id": "C",
+          "text": "Using only written information."
+        },
+        {
+          "id": "D",
+          "text": "Speaking more loudly."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Understanding should be confirmed, and preferences should be explored directly."
+    },
+    {
+      "id": "q75",
+      "stem": "A remote consultation takes place while other people can overhear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue because the patient joined voluntarily."
+        },
+        {
+          "id": "B",
+          "text": "Avoid documenting the consultation."
+        },
+        {
+          "id": "C",
+          "text": "Check privacy and arrange a safer alternative if needed."
+        },
+        {
+          "id": "D",
+          "text": "Ask others to remain quiet."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Remote care requires active protection of privacy."
+    },
+    {
+      "id": "q76",
+      "stem": "A patient's cultural preference conflicts with an immediate safety requirement. What is the best approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the preference."
+        },
+        {
+          "id": "B",
+          "text": "Follow the preference regardless of risk."
+        },
+        {
+          "id": "C",
+          "text": "Ask security to intervene immediately."
+        },
+        {
+          "id": "D",
+          "text": "Explain the safety concern respectfully and seek the least intrusive acceptable alternative."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Cultural respect does not remove safety responsibilities, but alternatives should be explored."
+    },
+    {
+      "id": "q77",
+      "stem": "Which outcome best demonstrates culturally safe communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient can participate, understands information and feels respected rather than stereotyped."
+        },
+        {
+          "id": "B",
+          "text": "The nurse avoids offence."
+        },
+        {
+          "id": "C",
+          "text": "The family agrees with the plan."
+        },
+        {
+          "id": "D",
+          "text": "An interpreter is used for every interaction."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cultural safety focuses on the person's experience and meaningful participation."
+    },
+    {
+      "id": "q78",
+      "stem": "A handover omits who will follow up an abnormal result. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The handover is too short."
+        },
+        {
+          "id": "B",
+          "text": "Responsibility may be unclear and necessary action may be missed."
+        },
+        {
+          "id": "C",
+          "text": "The patient may ask questions."
+        },
+        {
+          "id": "D",
+          "text": "Documentation becomes repetitive."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clear ownership is essential across teams."
+    },
+    {
+      "id": "q79",
+      "stem": "Which action best protects confidentiality during verbal communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discussing patient details in a staff cafeteria."
+        },
+        {
+          "id": "B",
+          "text": "Using initials in a public place."
+        },
+        {
+          "id": "C",
+          "text": "Using an appropriate private setting and limiting information to those involved in care."
+        },
+        {
+          "id": "D",
+          "text": "Speaking quietly in a lift."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Privacy depends on both audience and setting."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects professional international communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse uses one standard style for everyone."
+        },
+        {
+          "id": "B",
+          "text": "Family members interpret all discussions."
+        },
+        {
+          "id": "C",
+          "text": "Digital communication is used whenever convenient."
+        },
+        {
+          "id": "D",
+          "text": "Communication is culturally safe, secure, structured and clear about responsibility."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "International professionalism integrates cultural safety, privacy and reliable team communication."
+    }
+  ]
+}

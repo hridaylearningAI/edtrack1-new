@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A nurse reports a medication error that was intercepted before reaching the patient. What is the most appropriate first response from the manager?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm patient safety, thank the nurse for reporting and review individual and system factors before deciding a fair response."
+        },
+        {
+          "id": "B",
+          "text": "Issue a formal warning immediately."
+        },
+        {
+          "id": "C",
+          "text": "Avoid documenting the event because no harm occurred."
+        },
+        {
+          "id": "D",
+          "text": "Transfer the nurse to another unit."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A just culture begins with safety, openness and fair review. Human error, at-risk behaviour and reckless behaviour require different responses."
+    },
+    {
+      "id": "q2",
+      "stem": "Which leadership behaviour most clearly demonstrates integrity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing expectations according to staff seniority."
+        },
+        {
+          "id": "B",
+          "text": "Applying standards consistently even when doing so is inconvenient."
+        },
+        {
+          "id": "C",
+          "text": "Protecting the organisation's reputation by limiting disclosure."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding difficult conversations."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Integrity requires consistency between stated values and actual decisions."
+    },
+    {
+      "id": "q3",
+      "stem": "A senior clinician humiliates a junior nurse for raising a genuine safety concern. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the incident because the patient was not harmed."
+        },
+        {
+          "id": "B",
+          "text": "Tell the junior nurse to become more resilient."
+        },
+        {
+          "id": "C",
+          "text": "Address the behaviour promptly and reinforce that respectful speaking up is expected."
+        },
+        {
+          "id": "D",
+          "text": "Wait for a formal complaint."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Humiliation undermines psychological safety and may delay future escalation."
+    },
+    {
+      "id": "q4",
+      "stem": "Which statement best reflects psychological safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff avoid errors because leaders are strict."
+        },
+        {
+          "id": "B",
+          "text": "Only senior staff may challenge practice."
+        },
+        {
+          "id": "C",
+          "text": "No accountability follows self-reporting."
+        },
+        {
+          "id": "D",
+          "text": "Staff can question, admit uncertainty and report concerns without fear of humiliation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Psychological safety supports open communication while accountability remains clear."
+    },
+    {
+      "id": "q5",
+      "stem": "A leader says reporting is encouraged but repeatedly punishes staff who disclose near misses. What is the likely consequence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trust will weaken and staff may hide concerns."
+        },
+        {
+          "id": "B",
+          "text": "Reporting will become more accurate."
+        },
+        {
+          "id": "C",
+          "text": "Accountability will improve automatically."
+        },
+        {
+          "id": "D",
+          "text": "Near misses will stop occurring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Inconsistent behaviour quickly weakens trust and safety culture."
+    },
+    {
+      "id": "q6",
+      "stem": "Which response is most appropriate for a one-time human error caused by a confusing electronic form?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punishment alone."
+        },
+        {
+          "id": "B",
+          "text": "Support, learning and redesign of the confusing process."
+        },
+        {
+          "id": "C",
+          "text": "No review because the error was accidental."
+        },
+        {
+          "id": "D",
+          "text": "Permanent removal from practice."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Human error calls for consolation, learning and system improvement rather than automatic punishment."
+    },
+    {
+      "id": "q7",
+      "stem": "A nurse knowingly bypasses a safety control for convenience despite repeated coaching. Which just-culture category is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Human error."
+        },
+        {
+          "id": "B",
+          "text": "No accountability."
+        },
+        {
+          "id": "C",
+          "text": "At-risk behaviour."
+        },
+        {
+          "id": "D",
+          "text": "A system issue only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Repeatedly choosing a shortcut while underestimating risk is generally at-risk behaviour and requires coaching and removal of incentives for unsafe workarounds."
+    },
+    {
+      "id": "q8",
+      "stem": "A staff member intentionally disregards a critical safety rule despite understanding the serious risk. What should leadership do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide education only."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the action if no harm occurred."
+        },
+        {
+          "id": "C",
+          "text": "Treat the behaviour as ordinary human error."
+        },
+        {
+          "id": "D",
+          "text": "Apply proportionate accountability while also reviewing system conditions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reckless behaviour requires fair accountability, though system contributors should still be examined."
+    },
+    {
+      "id": "q9",
+      "stem": "Which leadership action best protects standards during workforce pressure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adjust workload and resources while maintaining core safety and ethical standards."
+        },
+        {
+          "id": "B",
+          "text": "Relax essential requirements temporarily."
+        },
+        {
+          "id": "C",
+          "text": "Ask staff to work faster without support."
+        },
+        {
+          "id": "D",
+          "text": "Reduce incident reporting."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Ethical leaders place patient welfare above convenience or reputation."
+    },
+    {
+      "id": "q10",
+      "stem": "A manager acknowledges uncertainty about a complex ethical issue and seeks consultation. What does this demonstrate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Weak leadership."
+        },
+        {
+          "id": "B",
+          "text": "Transparency and accountable judgement."
+        },
+        {
+          "id": "C",
+          "text": "Loss of authority."
+        },
+        {
+          "id": "D",
+          "text": "Avoidance of responsibility."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ethical leaders explain decisions, acknowledge uncertainty and seek appropriate support."
+    },
+    {
+      "id": "q11",
+      "stem": "Which outcome best indicates a strong ethical culture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Few incidents are reported."
+        },
+        {
+          "id": "B",
+          "text": "Only managers discuss errors."
+        },
+        {
+          "id": "C",
+          "text": "Staff speak up early, leaders respond fairly and standards remain consistent under pressure."
+        },
+        {
+          "id": "D",
+          "text": "Policies are extensive."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A strong culture is visible in behaviour, reporting, fairness and reliability."
+    },
+    {
+      "id": "q12",
+      "stem": "A leader publicly rewards productivity while privately asking staff to maintain compassionate care. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff will balance both equally."
+        },
+        {
+          "id": "B",
+          "text": "Productivity has no effect on culture."
+        },
+        {
+          "id": "C",
+          "text": "Private messages are stronger than public incentives."
+        },
+        {
+          "id": "D",
+          "text": "The rewarded behaviour may dominate and compassion may decline."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Leaders shape culture through what they reward, tolerate and address."
+    },
+    {
+      "id": "q13",
+      "stem": "Which mentoring approach best develops ethical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use case review, guided reflection and transparent reasoning about values, law and consequences."
+        },
+        {
+          "id": "B",
+          "text": "Provide the correct answer without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on policy recall."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing uncertainty."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Ethical reasoning develops through structured reflection and explanation."
+    },
+    {
+      "id": "q14",
+      "stem": "A leader receives repeated complaints that staff communication is coercive. What should happen first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Defend staff because clinical outcomes are good."
+        },
+        {
+          "id": "B",
+          "text": "Review patient experience, observe practice and identify system and behaviour factors."
+        },
+        {
+          "id": "C",
+          "text": "Refer every complaint to legal services."
+        },
+        {
+          "id": "D",
+          "text": "Increase security presence."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ethical quality includes dignity, communication and patient experience, not only clinical outcomes."
+    },
+    {
+      "id": "q15",
+      "stem": "Which action best models accountability after a leadership mistake?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Minimise the issue."
+        },
+        {
+          "id": "B",
+          "text": "Ask a subordinate to take responsibility."
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge the mistake, explain corrective action and monitor the outcome."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing the decision."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Visible accountability strengthens trust and professional culture."
+    },
+    {
+      "id": "q16",
+      "stem": "A service has a stated zero-tolerance policy for bullying, but senior staff are rarely challenged. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The policy is sufficient."
+        },
+        {
+          "id": "B",
+          "text": "Junior staff need better resilience."
+        },
+        {
+          "id": "C",
+          "text": "Bullying is unavoidable in pressured settings."
+        },
+        {
+          "id": "D",
+          "text": "Inconsistent enforcement is undermining trust and integrity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Standards must be applied consistently regardless of status."
+    },
+    {
+      "id": "q17",
+      "stem": "Which measure would best evaluate psychological safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff willingness to speak up, report errors and seek help, combined with response data."
+        },
+        {
+          "id": "B",
+          "text": "Number of policies."
+        },
+        {
+          "id": "C",
+          "text": "Average length of service."
+        },
+        {
+          "id": "D",
+          "text": "Number of meetings."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety is reflected in staff behaviour and leadership response."
+    },
+    {
+      "id": "q18",
+      "stem": "A nurse who reported an error becomes isolated by colleagues. What is the most appropriate leadership action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore informal team behaviour."
+        },
+        {
+          "id": "B",
+          "text": "Address retaliation, support the nurse and reinforce reporting expectations."
+        },
+        {
+          "id": "C",
+          "text": "Advise the nurse to transfer."
+        },
+        {
+          "id": "D",
+          "text": "Stop discussing the incident."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Retaliation threatens speaking up and should be addressed directly."
+    },
+    {
+      "id": "q19",
+      "stem": "Which outcome best demonstrates ethical role modelling?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff know the leader's values."
+        },
+        {
+          "id": "B",
+          "text": "The leader avoids conflict."
+        },
+        {
+          "id": "C",
+          "text": "Leader decisions, communication and responses consistently reflect fairness, transparency and patient welfare."
+        },
+        {
+          "id": "D",
+          "text": "The leader delegates ethical issues."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Role modelling is demonstrated through consistent action."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects Level 3 ethical leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse personally resolves every dilemma."
+        },
+        {
+          "id": "B",
+          "text": "Staff follow instructions without question."
+        },
+        {
+          "id": "C",
+          "text": "Incidents remain confidential."
+        },
+        {
+          "id": "D",
+          "text": "The nurse builds a culture where integrity, speaking up, learning and fair accountability are reliable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global Nursing Professionals shape ethical systems, not only individual decisions. Section 2 - Governance, Regulation and Professional Quality Improvement"
+    },
+    {
+      "id": "q21",
+      "stem": "What is the primary purpose of professional governance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To connect standards, competence, risk oversight and public protection."
+        },
+        {
+          "id": "B",
+          "text": "To increase paperwork."
+        },
+        {
+          "id": "C",
+          "text": "To replace clinical judgement."
+        },
+        {
+          "id": "D",
+          "text": "To manage staffing rosters."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional governance makes accountability and standards visible across the organisation."
+    },
+    {
+      "id": "q22",
+      "stem": "An audit finds repeated incomplete consent documentation. What should the organisation do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discipline all staff involved."
+        },
+        {
+          "id": "B",
+          "text": "Analyse the workflow and clarify where responsibility and understanding are breaking down."
+        },
+        {
+          "id": "C",
+          "text": "Add more forms."
+        },
+        {
+          "id": "D",
+          "text": "Stop auditing consent."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Improvement begins by defining the process failure rather than assuming individual negligence."
+    },
+    {
+      "id": "q23",
+      "stem": "Which credentialing practice is most reliable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assuming capability from job title."
+        },
+        {
+          "id": "B",
+          "text": "Relying on years of experience."
+        },
+        {
+          "id": "C",
+          "text": "Verifying qualifications, scope and continuing competence before assigning responsibilities."
+        },
+        {
+          "id": "D",
+          "text": "Accepting self-declaration."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe systems verify capability rather than assume it."
+    },
+    {
+      "id": "q24",
+      "stem": "A nurse's formal qualification is current, but observed practice does not meet required standards. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue practice because the qualification is valid."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the issue unless harm occurs."
+        },
+        {
+          "id": "C",
+          "text": "Change the job title."
+        },
+        {
+          "id": "D",
+          "text": "Provide supervised remediation and reassess competence before independent practice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Credentialing and continuing competence are both necessary."
+    },
+    {
+      "id": "q25",
+      "stem": "Which data source may reveal a professional-practice improvement priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consent audits, delegation incidents, privacy breaches and complaints."
+        },
+        {
+          "id": "B",
+          "text": "Cafeteria sales."
+        },
+        {
+          "id": "C",
+          "text": "Staff parking use."
+        },
+        {
+          "id": "D",
+          "text": "Ward decoration surveys."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The notes specifically identify these governance indicators."
+    },
+    {
+      "id": "q26",
+      "stem": "A policy is evidence-based but rarely followed. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether staff have read it."
+        },
+        {
+          "id": "B",
+          "text": "Education, resources, workflow, leadership support and monitoring."
+        },
+        {
+          "id": "C",
+          "text": "The policy font."
+        },
+        {
+          "id": "D",
+          "text": "Whether a newer policy exists."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Standards become effective only when implementation conditions support them."
+    },
+    {
+      "id": "q27",
+      "stem": "Which outcome best demonstrates that a policy has changed practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The policy is published."
+        },
+        {
+          "id": "B",
+          "text": "Staff attend training."
+        },
+        {
+          "id": "C",
+          "text": "Observed compliance and relevant patient or professional outcomes improve over time."
+        },
+        {
+          "id": "D",
+          "text": "The policy is discussed at meetings."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Implementation must be evaluated through actual practice and outcomes."
+    },
+    {
+      "id": "q28",
+      "stem": "A committee identifies repeated delegation failures. What is the strongest first action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send a reminder email."
+        },
+        {
+          "id": "B",
+          "text": "Stop all delegation."
+        },
+        {
+          "id": "C",
+          "text": "Blame the delegated workers."
+        },
+        {
+          "id": "D",
+          "text": "Review role clarity, competence verification, instructions, supervision and follow-up."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Delegation failures usually involve interacting governance and workflow factors."
+    },
+    {
+      "id": "q29",
+      "stem": "Which governance body has the broadest responsibility for organisational oversight and public protection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Boards, committees, professional leaders and regulators working through defined structures."
+        },
+        {
+          "id": "B",
+          "text": "An informal peer group."
+        },
+        {
+          "id": "C",
+          "text": "Individual patients."
+        },
+        {
+          "id": "D",
+          "text": "The payroll department."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Governance structures distribute oversight across formal accountable bodies."
+    },
+    {
+      "id": "q30",
+      "stem": "A professional complaint trend shows poor communication with patients from one language group. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide general communication training only."
+        },
+        {
+          "id": "B",
+          "text": "Analyse the inequity and redesign interpreter access, communication processes and monitoring."
+        },
+        {
+          "id": "C",
+          "text": "Exclude language data from reports."
+        },
+        {
+          "id": "D",
+          "text": "Ask families to translate."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Data should be used to identify and address unequal practice."
+    },
+    {
+      "id": "q31",
+      "stem": "Which measure best tests documentation quality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of notes written."
+        },
+        {
+          "id": "B",
+          "text": "Average note length."
+        },
+        {
+          "id": "C",
+          "text": "Timeliness, accuracy, objectivity, attribution and evidence of assessment, action and response."
+        },
+        {
+          "id": "D",
+          "text": "Number of abbreviations."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Quality depends on content and reliability, not volume."
+    },
+    {
+      "id": "q32",
+      "stem": "An organisation introduces annual competence checks but never follows up failures. What is the main weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The checks are too frequent."
+        },
+        {
+          "id": "B",
+          "text": "Staff may feel anxious."
+        },
+        {
+          "id": "C",
+          "text": "Competence cannot be measured."
+        },
+        {
+          "id": "D",
+          "text": "The governance process lacks action and accountability."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Assessment must be linked to remediation, restriction or support where needed."
+    },
+    {
+      "id": "q33",
+      "stem": "Which statement best describes audit and feedback?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Audit identifies compliance, and feedback supports improvement and accountability."
+        },
+        {
+          "id": "B",
+          "text": "Audit replaces education."
+        },
+        {
+          "id": "C",
+          "text": "Feedback is only for poor performers."
+        },
+        {
+          "id": "D",
+          "text": "Audit is useful only after incidents."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Audit and feedback help identify gaps and improve practice."
+    },
+    {
+      "id": "q34",
+      "stem": "A serious privacy breach occurs because staff share passwords. What is the strongest governance response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remind staff not to share passwords."
+        },
+        {
+          "id": "B",
+          "text": "Address access design, staffing workflow, education, monitoring and accountability."
+        },
+        {
+          "id": "C",
+          "text": "Change the password once."
+        },
+        {
+          "id": "D",
+          "text": "Stop electronic documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Strong responses combine system redesign and fair accountability."
+    },
+    {
+      "id": "q35",
+      "stem": "Which outcome best reflects effective credentialing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every staff member has a certificate."
+        },
+        {
+          "id": "B",
+          "text": "Staff choose their own scope."
+        },
+        {
+          "id": "C",
+          "text": "Only appropriately qualified and competent staff perform defined roles."
+        },
+        {
+          "id": "D",
+          "text": "Managers assume competence."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Credentialing protects patients by verifying authority and capability."
+    },
+    {
+      "id": "q36",
+      "stem": "A quality project improves documentation completion but patient understanding remains poor. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The project is successful."
+        },
+        {
+          "id": "B",
+          "text": "Patient understanding is outside governance."
+        },
+        {
+          "id": "C",
+          "text": "More signatures are needed."
+        },
+        {
+          "id": "D",
+          "text": "Documentation and actual informed participation must both be addressed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The clinical example emphasises monitoring both documentation and understanding."
+    },
+    {
+      "id": "q37",
+      "stem": "Which intervention best sustains professional improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embedding standards in workflow, resources, supervision, audit and feedback."
+        },
+        {
+          "id": "B",
+          "text": "A single lecture."
+        },
+        {
+          "id": "C",
+          "text": "Relying on one champion."
+        },
+        {
+          "id": "D",
+          "text": "Stopping measurement after launch."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reliable change requires system integration and ongoing monitoring."
+    },
+    {
+      "id": "q38",
+      "stem": "A regulator raises concern about repeated boundary violations. What should the organisation do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat each case as unrelated."
+        },
+        {
+          "id": "B",
+          "text": "Review policy, education, supervision, reporting and cultural factors across the service."
+        },
+        {
+          "id": "C",
+          "text": "Remove all patient contact from staff."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing the trend."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A pattern requires governance-level analysis and response."
+    },
+    {
+      "id": "q39",
+      "stem": "Which outcome best indicates professional governance maturity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Committees meet regularly."
+        },
+        {
+          "id": "B",
+          "text": "Policies are numerous."
+        },
+        {
+          "id": "C",
+          "text": "Competence is verified, data drive action and standards are reliably translated into practice."
+        },
+        {
+          "id": "D",
+          "text": "Complaints are low because reporting is difficult."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mature governance connects oversight with measurable practice change."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects the Level 3 governance role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse follows existing systems."
+        },
+        {
+          "id": "B",
+          "text": "The nurse audits only documentation."
+        },
+        {
+          "id": "C",
+          "text": "The nurse delegates governance to regulators."
+        },
+        {
+          "id": "D",
+          "text": "The nurse helps identify professional-risk trends, strengthen competence systems and evaluate improvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global Nursing Professionals contribute actively to governance and public protection. Section 3 - Ethical Practice in Digital Health, Research and Innovation"
+    },
+    {
+      "id": "q41",
+      "stem": "A predictive tool repeatedly assigns lower risk to a minority population despite concerning clinical findings. What should nurse leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Document the pattern, suspend unsafe reliance and initiate a bias and governance review."
+        },
+        {
+          "id": "B",
+          "text": "Continue using the score because it is automated."
+        },
+        {
+          "id": "C",
+          "text": "Ask staff to trust the tool."
+        },
+        {
+          "id": "D",
+          "text": "Exclude the population from the tool."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology must be critically appraised and monitored for bias and harm."
+    },
+    {
+      "id": "q42",
+      "stem": "Which statement best describes digital professionalism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electronic communication may be less formal than face-to-face care."
+        },
+        {
+          "id": "B",
+          "text": "Digital communication should remain respectful, secure and clinically appropriate."
+        },
+        {
+          "id": "C",
+          "text": "Copying records saves time and is always acceptable."
+        },
+        {
+          "id": "D",
+          "text": "Accessing records for learning is permitted."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional duties apply in every medium."
+    },
+    {
+      "id": "q43",
+      "stem": "A nurse accesses a celebrity patient's record without a care-related need. What has occurred?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appropriate professional curiosity."
+        },
+        {
+          "id": "B",
+          "text": "A research activity."
+        },
+        {
+          "id": "C",
+          "text": "A privacy and professional-duty breach."
+        },
+        {
+          "id": "D",
+          "text": "A minor documentation issue."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Information should be accessed only for legitimate purposes."
+    },
+    {
+      "id": "q44",
+      "stem": "Which risk is associated with copying electronic records forward?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved accuracy."
+        },
+        {
+          "id": "B",
+          "text": "Reduced documentation time only."
+        },
+        {
+          "id": "C",
+          "text": "Automatic verification."
+        },
+        {
+          "id": "D",
+          "text": "Outdated or incorrect information may be perpetuated."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Copying may compromise data integrity and clinical safety."
+    },
+    {
+      "id": "q45",
+      "stem": "A decision-support system recommends a medicine that conflicts with the patient's allergy history. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apply clinical judgement, withhold administration and escalate the discrepancy."
+        },
+        {
+          "id": "B",
+          "text": "Follow the system recommendation."
+        },
+        {
+          "id": "C",
+          "text": "Delete the allergy record."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to decide."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology supports but does not replace professional judgement."
+    },
+    {
+      "id": "q46",
+      "stem": "Which principle requires research participants to receive adequate information and choose voluntarily?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justice only."
+        },
+        {
+          "id": "B",
+          "text": "Respect for persons and informed consent."
+        },
+        {
+          "id": "C",
+          "text": "Data efficiency."
+        },
+        {
+          "id": "D",
+          "text": "Scientific merit alone."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ethical research requires informed and voluntary participation."
+    },
+    {
+      "id": "q47",
+      "stem": "A research project exposes participants to avoidable harm without sufficient benefit. Which principle is breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confidentiality only."
+        },
+        {
+          "id": "B",
+          "text": "Credentialing."
+        },
+        {
+          "id": "C",
+          "text": "Minimisation of harm."
+        },
+        {
+          "id": "D",
+          "text": "Fidelity."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Research ethics requires risks to be minimised and justified."
+    },
+    {
+      "id": "q48",
+      "stem": "Why is independent ethical review important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It guarantees successful results."
+        },
+        {
+          "id": "B",
+          "text": "It replaces researcher accountability."
+        },
+        {
+          "id": "C",
+          "text": "It is required only for drug trials."
+        },
+        {
+          "id": "D",
+          "text": "It provides oversight of consent, fairness, risk and participant protection."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Independent review supports trust and participant protection."
+    },
+    {
+      "id": "q49",
+      "stem": "A researcher pressures dependent patients to enrol. What is the main ethical concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voluntariness may be compromised by power imbalance."
+        },
+        {
+          "id": "B",
+          "text": "Low recruitment."
+        },
+        {
+          "id": "C",
+          "text": "The sample may be too small."
+        },
+        {
+          "id": "D",
+          "text": "Data collection may be slow."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Participation must be free from coercion or undue influence."
+    },
+    {
+      "id": "q50",
+      "stem": "Which action best protects research privacy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collecting all available information."
+        },
+        {
+          "id": "B",
+          "text": "Limiting access, securing data and using information only for approved purposes."
+        },
+        {
+          "id": "C",
+          "text": "Sharing datasets informally."
+        },
+        {
+          "id": "D",
+          "text": "Retaining identifiable data indefinitely."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Privacy and data integrity are core research obligations."
+    },
+    {
+      "id": "q51",
+      "stem": "A new AI system is introduced without patient involvement or post-implementation monitoring. What is the main governance weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The project may take longer."
+        },
+        {
+          "id": "B",
+          "text": "AI requires no patient input."
+        },
+        {
+          "id": "C",
+          "text": "Innovation lacks participation, accountability and safety surveillance."
+        },
+        {
+          "id": "D",
+          "text": "Monitoring is needed only after an incident."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Innovation should be tested, monitored and reviewed with patient involvement and clear accountability."
+    },
+    {
+      "id": "q52",
+      "stem": "Which measure is most useful for monitoring a new digital tool?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of users only."
+        },
+        {
+          "id": "B",
+          "text": "Purchase cost only."
+        },
+        {
+          "id": "C",
+          "text": "Training attendance."
+        },
+        {
+          "id": "D",
+          "text": "Accuracy, bias, privacy incidents, overrides, unintended harm and patient experience."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Evaluation should include safety, equity, use and experience."
+    },
+    {
+      "id": "q53",
+      "stem": "A digital consent system is difficult for people with low literacy. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide accessible alternatives and monitor meaningful participation."
+        },
+        {
+          "id": "B",
+          "text": "Require everyone to use it."
+        },
+        {
+          "id": "C",
+          "text": "Ask family members to complete it."
+        },
+        {
+          "id": "D",
+          "text": "Exclude those unable to use it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Innovation must support equitable, informed participation."
+    },
+    {
+      "id": "q54",
+      "stem": "Which statement best reflects accountability for AI-supported decisions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The AI vendor holds all accountability."
+        },
+        {
+          "id": "B",
+          "text": "Clinicians remain responsible for critical appraisal and escalation."
+        },
+        {
+          "id": "C",
+          "text": "The patient accepts the risk by using the system."
+        },
+        {
+          "id": "D",
+          "text": "Accountability is shared so no one is individually responsible."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional accountability is not transferred to technology."
+    },
+    {
+      "id": "q55",
+      "stem": "A clinical trial recruits only populations with easy access but claims broad benefit. Which ethical concern is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digital professionalism."
+        },
+        {
+          "id": "B",
+          "text": "Boundary management."
+        },
+        {
+          "id": "C",
+          "text": "Fairness and justice in participant selection and applicability."
+        },
+        {
+          "id": "D",
+          "text": "Credentialing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Research ethics includes fair selection and distribution of burdens and benefits."
+    },
+    {
+      "id": "q56",
+      "stem": "A researcher discovers a serious protocol deviation. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hide it to protect the study."
+        },
+        {
+          "id": "B",
+          "text": "Correct the data silently."
+        },
+        {
+          "id": "C",
+          "text": "Wait until publication."
+        },
+        {
+          "id": "D",
+          "text": "Report it through the approved research-governance process and protect participants."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Research integrity requires transparency and participant protection."
+    },
+    {
+      "id": "q57",
+      "stem": "Which action best supports responsible innovation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pilot, evaluate, involve patients, protect privacy and define accountability."
+        },
+        {
+          "id": "B",
+          "text": "Implement quickly to remain competitive."
+        },
+        {
+          "id": "C",
+          "text": "Rely on vendor claims."
+        },
+        {
+          "id": "D",
+          "text": "Use the system without override options."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Innovation governance must address ethical and technical performance."
+    },
+    {
+      "id": "q58",
+      "stem": "A nurse identifies that an algorithm's recommendation differs from the patient's condition. What should be documented?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the final decision."
+        },
+        {
+          "id": "B",
+          "text": "The clinical findings, algorithm output, reasoning, escalation and action taken."
+        },
+        {
+          "id": "C",
+          "text": "A complaint about technology."
+        },
+        {
+          "id": "D",
+          "text": "Nothing if harm was avoided."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Transparent documentation supports accountability and learning."
+    },
+    {
+      "id": "q59",
+      "stem": "Which outcome best demonstrates ethical digital health?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technology use increases."
+        },
+        {
+          "id": "B",
+          "text": "Manual systems disappear."
+        },
+        {
+          "id": "C",
+          "text": "Technology improves care while preserving judgement, privacy, fairness and informed participation."
+        },
+        {
+          "id": "D",
+          "text": "Clinicians follow recommendations consistently."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Ethical digital practice balances benefit with rights and accountability."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects the Level 3 role in research and innovation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse uses new tools confidently."
+        },
+        {
+          "id": "B",
+          "text": "The nurse leaves ethics to researchers."
+        },
+        {
+          "id": "C",
+          "text": "The nurse focuses only on technical performance."
+        },
+        {
+          "id": "D",
+          "text": "The nurse evaluates evidence, identifies ethical risks and strengthens governance before and after implementation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global Nursing Professionals guide responsible and trustworthy innovation. Section 4 - Global Professional Standards, Advocacy and the Future of Nursing"
+    },
+    {
+      "id": "q61",
+      "stem": "Which values provide common ground across different nursing systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dignity, safety, fairness, confidentiality and accountability."
+        },
+        {
+          "id": "B",
+          "text": "Identical laws and policies."
+        },
+        {
+          "id": "C",
+          "text": "One universal delegation model."
+        },
+        {
+          "id": "D",
+          "text": "A single cultural approach."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global values may be shared even when legal and cultural contexts differ."
+    },
+    {
+      "id": "q62",
+      "stem": "A service identifies that a digital-only appointment system disadvantages older adults. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require digital literacy training only."
+        },
+        {
+          "id": "B",
+          "text": "Introduce accessible alternatives and monitor participation across groups."
+        },
+        {
+          "id": "C",
+          "text": "Exclude non-digital users."
+        },
+        {
+          "id": "D",
+          "text": "Return entirely to paper systems."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional advocacy includes equitable participation and access."
+    },
+    {
+      "id": "q63",
+      "stem": "Which action best demonstrates advocacy for human rights?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Applying one process to everyone."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding political issues."
+        },
+        {
+          "id": "C",
+          "text": "Identifying discrimination and changing systems that restrict dignity, access or participation."
+        },
+        {
+          "id": "D",
+          "text": "Focusing only on individual bedside care."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global professionalism includes advocacy for ethical systems and vulnerable populations."
+    },
+    {
+      "id": "q64",
+      "stem": "A global guideline conflicts with local law. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the guideline because it is international."
+        },
+        {
+          "id": "B",
+          "text": "Ignore both sources."
+        },
+        {
+          "id": "C",
+          "text": "Use the nurse's personal preference."
+        },
+        {
+          "id": "D",
+          "text": "Apply shared values while adapting practice to lawful local requirements."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global values must be applied within local legal and cultural context."
+    },
+    {
+      "id": "q65",
+      "stem": "Which factor most strongly supports public trust?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competence, honesty and visible accountability."
+        },
+        {
+          "id": "B",
+          "text": "Professional prestige."
+        },
+        {
+          "id": "C",
+          "text": "Low complaint numbers."
+        },
+        {
+          "id": "D",
+          "text": "Confidential decision-making."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Trust depends on safe practice and transparent responsibility."
+    },
+    {
+      "id": "q66",
+      "stem": "A nurse mentor notices a colleague repeatedly avoiding reflection after errors. What is the best approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publicly criticise the colleague."
+        },
+        {
+          "id": "B",
+          "text": "Use constructive feedback, supported reflection and clear accountability expectations."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the pattern."
+        },
+        {
+          "id": "D",
+          "text": "Remove the colleague immediately."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Mentoring should combine respect, learning and professional standards."
+    },
+    {
+      "id": "q67",
+      "stem": "Which mentoring behaviour is most effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giving advice without listening."
+        },
+        {
+          "id": "B",
+          "text": "Correcting every decision directly."
+        },
+        {
+          "id": "C",
+          "text": "Using questions, feedback and reflection to help the colleague reason independently."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding difficult feedback."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mentoring develops professional judgement, not dependence."
+    },
+    {
+      "id": "q68",
+      "stem": "A workforce-development programme uses examples from one cultural setting only. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keep the programme consistent."
+        },
+        {
+          "id": "B",
+          "text": "Remove ethics content."
+        },
+        {
+          "id": "C",
+          "text": "Use only legal rules."
+        },
+        {
+          "id": "D",
+          "text": "Include diverse contexts and examine how global values apply locally."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global professional education should be culturally relevant while preserving common values."
+    },
+    {
+      "id": "q69",
+      "stem": "Which equity concern should professional leaders monitor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Differences in access and outcomes related to discrimination, geography, disability or social disadvantage."
+        },
+        {
+          "id": "B",
+          "text": "Only individual satisfaction."
+        },
+        {
+          "id": "C",
+          "text": "Staff promotion rates only."
+        },
+        {
+          "id": "D",
+          "text": "Documentation length."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The notes explicitly link advocacy to discrimination, access and vulnerable populations."
+    },
+    {
+      "id": "q70",
+      "stem": "A service receives evidence that its complaint process is inaccessible to low-literacy patients. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask families to complete complaints."
+        },
+        {
+          "id": "B",
+          "text": "Co-design accessible alternatives and monitor who can use the system."
+        },
+        {
+          "id": "C",
+          "text": "Reduce complaint information."
+        },
+        {
+          "id": "D",
+          "text": "Maintain the process to ensure consistency."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Public trust requires meaningful access to accountability processes."
+    },
+    {
+      "id": "q71",
+      "stem": "Which statement best reflects lifelong learning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competence is established at registration."
+        },
+        {
+          "id": "B",
+          "text": "Only new nurses need mentoring."
+        },
+        {
+          "id": "C",
+          "text": "Professional capability requires continuing education, reflection and feedback."
+        },
+        {
+          "id": "D",
+          "text": "Experience replaces formal development."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Standards evolve, so competence must be maintained throughout practice."
+    },
+    {
+      "id": "q72",
+      "stem": "A global nursing partnership proposes importing a governance model unchanged. What should local leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implement it exactly."
+        },
+        {
+          "id": "B",
+          "text": "Reject all international collaboration."
+        },
+        {
+          "id": "C",
+          "text": "Use only the technology component."
+        },
+        {
+          "id": "D",
+          "text": "Adapt the model to local law, culture, resources and workforce while preserving core ethical values."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global learning should be adapted rather than copied mechanically."
+    },
+    {
+      "id": "q73",
+      "stem": "Which outcome best demonstrates effective professional advocacy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An inequitable process is changed and access improves for affected populations."
+        },
+        {
+          "id": "B",
+          "text": "A concern is raised."
+        },
+        {
+          "id": "C",
+          "text": "A policy is written."
+        },
+        {
+          "id": "D",
+          "text": "A committee discusses the issue."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Advocacy should lead to measurable system improvement."
+    },
+    {
+      "id": "q74",
+      "stem": "A leader withholds information about a serious system failure to protect reputation. What is the greatest professional risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temporary media attention."
+        },
+        {
+          "id": "B",
+          "text": "Loss of public trust due to lack of honesty and accountability."
+        },
+        {
+          "id": "C",
+          "text": "Increased staff workload."
+        },
+        {
+          "id": "D",
+          "text": "More regulatory paperwork."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Transparency and visible accountability are foundations of trust."
+    },
+    {
+      "id": "q75",
+      "stem": "Which action best supports future professional standards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preserve existing standards unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Follow technology trends automatically."
+        },
+        {
+          "id": "C",
+          "text": "Use evidence, emerging risks, lived experience and global learning to update standards responsibly."
+        },
+        {
+          "id": "D",
+          "text": "Leave standards solely to regulators."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional standards should evolve while preserving core values."
+    },
+    {
+      "id": "q76",
+      "stem": "A nurse leader identifies systemic discrimination but fears organisational resistance. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remain silent."
+        },
+        {
+          "id": "B",
+          "text": "Discuss the concern only informally."
+        },
+        {
+          "id": "C",
+          "text": "Wait for external criticism."
+        },
+        {
+          "id": "D",
+          "text": "Use evidence, advocacy and appropriate governance channels to pursue change."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Ethical leadership includes challenging unfair systems."
+    },
+    {
+      "id": "q77",
+      "stem": "Which outcome best reflects global professional integrity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shared ethical values are applied transparently within local context."
+        },
+        {
+          "id": "B",
+          "text": "All countries use the same rules."
+        },
+        {
+          "id": "C",
+          "text": "Nurses avoid cultural differences."
+        },
+        {
+          "id": "D",
+          "text": "International standards replace local accountability."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Integrity combines common values with context-sensitive lawful practice."
+    },
+    {
+      "id": "q78",
+      "stem": "A mentor gives feedback that focuses only on weaknesses. What should be improved?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Feedback should be avoided."
+        },
+        {
+          "id": "B",
+          "text": "Feedback should identify strengths, specific gaps and practical next steps."
+        },
+        {
+          "id": "C",
+          "text": "Only formal assessment should be used."
+        },
+        {
+          "id": "D",
+          "text": "The mentor should compare the nurse with peers."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Constructive mentoring is respectful, balanced and action-oriented."
+    },
+    {
+      "id": "q79",
+      "stem": "Which measure best reflects public trust?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of promotional campaigns."
+        },
+        {
+          "id": "B",
+          "text": "Low incident reporting."
+        },
+        {
+          "id": "C",
+          "text": "Patient confidence, transparent complaint response, competence data and visible accountability."
+        },
+        {
+          "id": "D",
+          "text": "Staff satisfaction only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Trust should be evaluated through experience and organisational behaviour."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects the Level 3 global professional role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse practises ethically as an individual."
+        },
+        {
+          "id": "B",
+          "text": "The nurse focuses on international travel."
+        },
+        {
+          "id": "C",
+          "text": "The nurse avoids governance decisions."
+        },
+        {
+          "id": "D",
+          "text": "The nurse mentors others, advocates for equity and helps standards evolve while protecting public trust."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Global Nursing Professionals influence culture, systems and future standards."
+    }
+  ]
+}

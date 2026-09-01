@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Vital signs assessment",
+      "scenario": "You approach a patient to take routine vital signs. As you greet them, you notice they are breathing faster than usual and appear slightly breathless while speaking. The patient pauses between sentences and places a hand on their chest, saying they feel “a bit short of breath today,” even before you begin the assessment.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess respiratory status first.",
+      "modelWhy": "Respiration is the most immediate indicator of deterioration.",
+      "modelNext": "Check oxygen saturation.",
+      "trap": "",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Blood pressure cuff size",
+      "scenario": "You wrap the blood pressure cuff around the patient’s upper arm and realise it barely fits. The cuff looks tight, and the patient comments that it feels uncomfortable. You recall that using an incorrect cuff size can affect the accuracy of the reading, especially in patients with larger arms.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Select an appropriate cuff size.",
+      "modelWhy": "Incorrect cuff size gives false readings.",
+      "modelNext": "Recheck blood pressure.",
+      "trap": "",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Manual blood pressure",
+      "scenario": "You attempt to take the patient’s blood pressure using an automatic machine, but the device displays an error message. A second attempt gives a reading that seems inconsistent with the patient’s condition. The patient is watching and asks whether everything is alright.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Measure blood pressure manually.",
+      "modelWhy": "Manual readings are more accurate in some cases.",
+      "modelNext": "Compare results.",
+      "trap": "",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Pulse assessment",
+      "scenario": "While assessing the patient’s radial pulse, you notice that the rhythm feels irregular. Some beats feel strong, while others are weaker, and the timing between beats is uneven. The patient reports feeling occasional palpitations.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess apical pulse.",
+      "modelWhy": "Irregular pulses require further assessment.",
+      "modelNext": "Count for a full minute.",
+      "trap": "",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Oxygen therapy",
+      "scenario": "You measure the patient’s oxygen saturation and find it is 89% on room air. The patient appears mildly short of breath and is breathing faster than normal. They mention feeling tired and slightly dizzy when moving.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply supplemental oxygen.",
+      "modelWhy": "Hypoxia threatens tissue perfusion.",
+      "modelNext": "Monitor response.",
+      "trap": "",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Peripheral IV insertion",
+      "scenario": "You are preparing to insert a peripheral IV cannula for fluid administration. The patient watches closely and asks whether it will hurt. The IV tray is set up beside the bed, and you are aware that infection prevention and correct preparation are essential before starting.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Perform hand hygiene and verify order.",
+      "modelWhy": "Prevents infection and errors.",
+      "modelNext": "Select appropriate vein.",
+      "trap": "",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "IV site monitoring",
+      "scenario": "While checking an existing IV site, you notice redness and swelling around the insertion area. The patient reports mild pain and tightness at the site, especially when fluids are running.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop infusion and assess site.",
+      "modelWhy": "Indicates infiltration or phlebitis.",
+      "modelNext": "Document findings.",
+      "trap": "",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Urinary catheter insertion",
+      "scenario": "You are about to insert a urinary catheter for a patient who looks anxious and uncomfortable. The patient asks why the catheter is needed and appears embarrassed. The room is quiet, and privacy measures have not yet been fully arranged.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Explain procedure and ensure privacy.",
+      "modelWhy": "Reduces anxiety and maintains dignity.",
+      "modelNext": "Use aseptic technique.",
+      "trap": "",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

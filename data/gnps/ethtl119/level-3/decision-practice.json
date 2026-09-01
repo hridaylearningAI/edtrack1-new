@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Hepatitis infection control",
+      "scenario": "A patient with hepatitis B has jaundice and elevated liver enzymes.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Implement standard precautions.",
+      "modelWhy": "Hepatitis B is transmitted through blood and body fluids.",
+      "modelNext": "Educate patient on transmission prevention.",
+      "trap": "Placing the patient in isolation unnecessarily.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Acute urinary retention",
+      "scenario": "A patient reports severe suprapubic discomfort and inability to void for 10 hours.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess bladder distension and catheterize as ordered.",
+      "modelWhy": "Urinary retention can cause kidney injury.",
+      "modelNext": "Monitor urine output after catheterization.",
+      "trap": "Encouraging fluids only.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Prostate surgery complication",
+      "scenario": "A patient post-TURP has bright red urine with clots and decreasing urine output.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Increase irrigation flow and notify the provider.",
+      "modelWhy": "Clots can obstruct urine flow and cause bladder distension.",
+      "modelNext": "Monitor intake and output closely.",
+      "trap": "Stopping irrigation without assessment.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Ostomy care complication",
+      "scenario": "A patient with a new colostomy has a stoma that appears dusky and pale.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider immediately.",
+      "modelWhy": "Poor perfusion threatens stoma viability.",
+      "modelNext": "Assess stoma color and output.",
+      "trap": "Reassuring the patient without escalation.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Rheumatoid arthritis flare",
+      "scenario": "A patient with rheumatoid arthritis reports sudden joint swelling, pain, and fever.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess for infection and notify the provider.",
+      "modelWhy": "Immunosuppression increases infection risk.",
+      "modelNext": "Check temperature and inflammatory markers.",
+      "trap": "Assuming it is a routine flare.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Systemic lupus erythematosus exacerbation",
+      "scenario": "A patient with lupus presents with joint pain, rash, and decreased urine output.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess renal function and notify the provider.",
+      "modelWhy": "Lupus nephritis can cause kidney failure.",
+      "modelNext": "Monitor urine output and labs.",
+      "trap": "Treating with NSAIDs only.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Multiple sclerosis relapse",
+      "scenario": "A patient with MS reports new onset of vision problems and limb weakness.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Notify the provider and prepare for corticosteroid therapy.",
+      "modelWhy": "Relapses require prompt treatment to reduce inflammation.",
+      "modelNext": "Assess neurological status.",
+      "trap": "Assuming symptoms will resolve on their own.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "ALS respiratory decline",
+      "scenario": "A patient with ALS reports increasing shortness of breath and weak cough.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess respiratory function and prepare for ventilatory support.",
+      "modelWhy": "Respiratory muscle weakness is the leading cause of death in ALS.",
+      "modelNext": "Monitor oxygenation and vital capacity.",
+      "trap": "Focusing only on limb strength.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

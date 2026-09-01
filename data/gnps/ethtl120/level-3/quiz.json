@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A maternity service finds that women from one cultural community report feeling ignored during labour and are less likely to ask questions. Which leadership response best reflects respectful maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meet with women and community representatives, examine care experiences and redesign communication and consent practices with measurable standards."
+        },
+        {
+          "id": "B",
+          "text": "Provide staff with a reminder to be polite."
+        },
+        {
+          "id": "C",
+          "text": "Ask families to raise concerns after discharge."
+        },
+        {
+          "id": "D",
+          "text": "Use the same communication approach for all women to avoid differences."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respectful maternity care requires dignity, informed choice and freedom from discrimination. Leaders should use patient experience data and co-design practical improvements rather than rely on reminders alone."
+    },
+    {
+      "id": "q2",
+      "stem": "Junior staff hesitate to activate an obstetric emergency call because they fear criticism if the situation proves less serious than expected. What should the nurse leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require medical approval before any activation."
+        },
+        {
+          "id": "B",
+          "text": "Clarify escalation criteria, reinforce that clinical concern is a valid trigger, use simulation and provide supportive debriefing."
+        },
+        {
+          "id": "C",
+          "text": "Reduce the number of emergency drills."
+        },
+        {
+          "id": "D",
+          "text": "Ask junior nurses to escalate only through senior midwives."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety supports early escalation. Clear criteria, simulation and non-punitive debriefing help staff act promptly while preserving accountability."
+    },
+    {
+      "id": "q3",
+      "stem": "Which activity best demonstrates clinical governance in maternity services?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Informal discussion among experienced staff."
+        },
+        {
+          "id": "B",
+          "text": "Reliance on individual clinical judgement only."
+        },
+        {
+          "id": "C",
+          "text": "Policies, credentialing, audit, incident review and outcome monitoring linked to leadership action."
+        },
+        {
+          "id": "D",
+          "text": "Annual education without monitoring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical governance provides structured oversight through policy, competence assurance, audit, review and monitoring."
+    },
+    {
+      "id": "q4",
+      "stem": "A unit performs regular emergency drills, but response times remain inconsistent. What should leaders examine next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether staff enjoyed the simulation."
+        },
+        {
+          "id": "B",
+          "text": "Only the number of staff who attended."
+        },
+        {
+          "id": "C",
+          "text": "Whether the drill scenario was realistic enough."
+        },
+        {
+          "id": "D",
+          "text": "Role clarity, equipment availability, workflow and whether learning is transferred into real practice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Simulation is useful only when system factors and translation into practice are evaluated."
+    },
+    {
+      "id": "q5",
+      "stem": "A woman reports feeling coerced into a procedure during labour. What is the most appropriate leadership response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the incident respectfully, examine consent and communication processes, support the woman and address system and staff learning."
+        },
+        {
+          "id": "B",
+          "text": "Explain that emergency care sometimes requires rapid decisions."
+        },
+        {
+          "id": "C",
+          "text": "Assume the procedure was justified and take no action."
+        },
+        {
+          "id": "D",
+          "text": "Refer the issue only to legal services."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respectful care includes informed choice and freedom from mistreatment. Leaders should review both the individual experience and the system conditions that enabled it."
+    },
+    {
+      "id": "q6",
+      "stem": "Which outcome best indicates psychological safety within a maternity team?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Emergency calls decrease to near zero."
+        },
+        {
+          "id": "B",
+          "text": "Staff ask questions, admit uncertainty and escalate abnormal findings without humiliation."
+        },
+        {
+          "id": "C",
+          "text": "Only senior clinicians raise concerns."
+        },
+        {
+          "id": "D",
+          "text": "Near misses are discussed informally but not reported."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety is demonstrated when staff can speak up early and safely."
+    },
+    {
+      "id": "q7",
+      "stem": "A new graduate is assigned to manage a high-risk labour without adequate supervision. Which leadership principle has been breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respectful care only."
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality."
+        },
+        {
+          "id": "C",
+          "text": "Alignment of staff competence and support with patient acuity."
+        },
+        {
+          "id": "D",
+          "text": "Patient education."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safe services require that competence, staffing and supervision match clinical risk."
+    },
+    {
+      "id": "q8",
+      "stem": "Which approach best strengthens emergency readiness for postpartum haemorrhage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single annual lecture."
+        },
+        {
+          "id": "B",
+          "text": "Posting the protocol on the wall."
+        },
+        {
+          "id": "C",
+          "text": "Relying on experienced staff to lead without drills."
+        },
+        {
+          "id": "D",
+          "text": "Regular multidisciplinary simulation, standardised equipment, role allocation and post-event review."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Readiness depends on capability, equipment, role clarity and repeated practice."
+    },
+    {
+      "id": "q9",
+      "stem": "A leader notices that respectful care standards deteriorate during high workload. What is the best action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review staffing, workflow and priorities so dignity, consent and communication remain reliable."
+        },
+        {
+          "id": "B",
+          "text": "Accept reduced communication during busy periods."
+        },
+        {
+          "id": "C",
+          "text": "Tell women to be patient."
+        },
+        {
+          "id": "D",
+          "text": "Reduce documentation of patient experience."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Respectful care is a safety standard and should not disappear under pressure."
+    },
+    {
+      "id": "q10",
+      "stem": "Which measure would best evaluate respectful maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of policies issued."
+        },
+        {
+          "id": "B",
+          "text": "Patient-reported experience of dignity, communication and involvement, reviewed across different groups."
+        },
+        {
+          "id": "C",
+          "text": "Average length of stay."
+        },
+        {
+          "id": "D",
+          "text": "Number of staff meetings."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respectful care should be measured through patient experience and equity data."
+    },
+    {
+      "id": "q11",
+      "stem": "A senior clinician publicly dismisses a junior nurse's concern about fetal deterioration. What should the service leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the interaction because the senior clinician is accountable."
+        },
+        {
+          "id": "B",
+          "text": "Ask the junior nurse to be more confident next time."
+        },
+        {
+          "id": "C",
+          "text": "Address the behaviour, reinforce escalation expectations and ensure the patient is reviewed."
+        },
+        {
+          "id": "D",
+          "text": "Delay action until the annual performance review."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hierarchy and humiliation undermine psychological safety and can delay care."
+    },
+    {
+      "id": "q12",
+      "stem": "Which statement best reflects fair accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every incident should receive the same response."
+        },
+        {
+          "id": "B",
+          "text": "Only system factors should be considered."
+        },
+        {
+          "id": "C",
+          "text": "No accountability should follow self-reporting."
+        },
+        {
+          "id": "D",
+          "text": "Leaders distinguish human error, at-risk behaviour and reckless behaviour while examining system contributors."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Fair accountability balances learning with proportionate response to behaviour and context."
+    },
+    {
+      "id": "q13",
+      "stem": "A maternity service introduces a new fetal monitoring protocol. What is needed beyond policy publication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Training, equipment, workflow integration, competency assessment and audit."
+        },
+        {
+          "id": "B",
+          "text": "A staff email only."
+        },
+        {
+          "id": "C",
+          "text": "Patient information only."
+        },
+        {
+          "id": "D",
+          "text": "No further action if the guideline is evidence-based."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evidence-based policy must be translated into reliable practice through implementation supports."
+    },
+    {
+      "id": "q14",
+      "stem": "A woman with limited English is excluded from discussions because the team is busy. Which leadership standard is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Efficiency."
+        },
+        {
+          "id": "B",
+          "text": "Communication access and informed participation."
+        },
+        {
+          "id": "C",
+          "text": "Documentation volume."
+        },
+        {
+          "id": "D",
+          "text": "Staff autonomy."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respectful care requires communication access, including interpreter use where needed."
+    },
+    {
+      "id": "q15",
+      "stem": "Which action best develops clinical judgement in maternity emergencies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memorising protocols only."
+        },
+        {
+          "id": "B",
+          "text": "Watching experienced staff without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Case review, simulation, supervised practice and reflective feedback."
+        },
+        {
+          "id": "D",
+          "text": "Reducing exposure to complex cases."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Judgement develops through active, supported learning and reflection."
+    },
+    {
+      "id": "q16",
+      "stem": "A service has strong policies but repeated failures in emergency response. What does this suggest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policies are sufficient and staff are solely responsible."
+        },
+        {
+          "id": "B",
+          "text": "The incidents are unrelated."
+        },
+        {
+          "id": "C",
+          "text": "More policies are the only solution."
+        },
+        {
+          "id": "D",
+          "text": "There is a gap between governance documents and operational reliability."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Visible leadership and implementation are needed to make policy reliable in practice."
+    },
+    {
+      "id": "q17",
+      "stem": "A woman reports discrimination based on age and marital status. What should the leader do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Investigate respectfully, support the woman and examine whether service practices create unequal treatment."
+        },
+        {
+          "id": "B",
+          "text": "Treat it as a customer-service complaint only."
+        },
+        {
+          "id": "C",
+          "text": "Advise her to make a written complaint after discharge."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the concern if clinical care was technically correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Freedom from discrimination is part of respectful and safe maternity care."
+    },
+    {
+      "id": "q18",
+      "stem": "Which outcome best demonstrates effective maternity leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff complete annual training."
+        },
+        {
+          "id": "B",
+          "text": "Women receive dignified care, staff escalate concerns early and emergency responses are reliable."
+        },
+        {
+          "id": "C",
+          "text": "The unit has fewer complaints because reporting is difficult."
+        },
+        {
+          "id": "D",
+          "text": "Only senior staff manage emergencies."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective leadership combines respectful care, psychological safety and reliable clinical systems."
+    },
+    {
+      "id": "q19",
+      "stem": "A near miss during neonatal resuscitation reveals confusion over roles. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blame the least experienced staff member."
+        },
+        {
+          "id": "B",
+          "text": "Avoid discussion because no harm occurred."
+        },
+        {
+          "id": "C",
+          "text": "Conduct a structured review, clarify roles, update drills and monitor future performance."
+        },
+        {
+          "id": "D",
+          "text": "Add another written policy without practice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Near misses provide valuable learning and should drive practical system improvement."
+    },
+    {
+      "id": "q20",
+      "stem": "What is the central role of a Global Nursing Professional in maternity leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deliver bedside care only."
+        },
+        {
+          "id": "B",
+          "text": "Delegate all quality work to managers."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on clinical outcomes, not experience."
+        },
+        {
+          "id": "D",
+          "text": "Connect respectful practice, workforce capability, governance and system improvement."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 leadership extends beyond individual care to the systems that support safe and respectful services. Section 2 - Improving Maternal and Neonatal Safety Systems"
+    },
+    {
+      "id": "q21",
+      "stem": "A maternal death review identifies delays in recognising shock, unclear escalation roles and unavailable emergency equipment. Which response best reflects systems thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Redesign recognition, role allocation and equipment access, then monitor response times and outcomes."
+        },
+        {
+          "id": "B",
+          "text": "Focus on the final nurse who documented the deterioration."
+        },
+        {
+          "id": "C",
+          "text": "Provide a general reminder to be more careful."
+        },
+        {
+          "id": "D",
+          "text": "Suspend one staff member and close the review."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Systems thinking examines interacting clinical and organisational contributors and leads to measurable redesign."
+    },
+    {
+      "id": "q22",
+      "stem": "Which feature is essential for a maternal early warning system to improve outcomes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A complex scoring system."
+        },
+        {
+          "id": "B",
+          "text": "Accurate completion linked to timely escalation and response."
+        },
+        {
+          "id": "C",
+          "text": "Electronic documentation only."
+        },
+        {
+          "id": "D",
+          "text": "Use by senior staff only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A tool is useful only when it leads to timely clinical action."
+    },
+    {
+      "id": "q23",
+      "stem": "A neonatal observation pathway identifies risk, but review is delayed because no receiving clinician is clearly responsible. What is the primary weakness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The observation tool."
+        },
+        {
+          "id": "B",
+          "text": "The newborn assessment."
+        },
+        {
+          "id": "C",
+          "text": "The connection between recognition and response."
+        },
+        {
+          "id": "D",
+          "text": "The family's communication."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Recognition without a reliable response pathway does not protect patients."
+    },
+    {
+      "id": "q24",
+      "stem": "A rural facility has repeated delays transferring women with severe preeclampsia. What should leaders examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only ambulance speed."
+        },
+        {
+          "id": "B",
+          "text": "Whether staff can complete more documentation."
+        },
+        {
+          "id": "C",
+          "text": "Whether women should travel earlier in pregnancy."
+        },
+        {
+          "id": "D",
+          "text": "Referral criteria, communication channels, transport arrangements, stabilisation capacity and receiving-team coordination."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe referral requires a complete pathway, particularly in rural settings."
+    },
+    {
+      "id": "q25",
+      "stem": "Which review process is most appropriate after a stillbirth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A respectful multidisciplinary review examining clinical care, communication and system factors."
+        },
+        {
+          "id": "B",
+          "text": "Review by the final clinician only."
+        },
+        {
+          "id": "C",
+          "text": "No review unless a complaint is made."
+        },
+        {
+          "id": "D",
+          "text": "A discussion focused only on individual errors."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Serious-event review should support learning while respecting families and staff."
+    },
+    {
+      "id": "q26",
+      "stem": "A unit's postpartum haemorrhage trolleys differ between rooms. What is the strongest risk control?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask staff to memorise each trolley layout."
+        },
+        {
+          "id": "B",
+          "text": "Standardise trolley contents and layout, label clearly and audit readiness."
+        },
+        {
+          "id": "C",
+          "text": "Add a poster."
+        },
+        {
+          "id": "D",
+          "text": "Rely on experienced staff."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Standardisation reduces delay and reliance on memory during emergencies."
+    },
+    {
+      "id": "q27",
+      "stem": "Which human factor most likely contributes to missed deterioration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clear role allocation."
+        },
+        {
+          "id": "B",
+          "text": "Adequate staffing."
+        },
+        {
+          "id": "C",
+          "text": "Fatigue, interruptions and hierarchy."
+        },
+        {
+          "id": "D",
+          "text": "Standardised equipment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Workload, fatigue and hierarchy can impair recognition and escalation."
+    },
+    {
+      "id": "q28",
+      "stem": "A service reports that neonatal deterioration is recognised but escalation is often delayed at night. What is the best next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase daytime staffing."
+        },
+        {
+          "id": "B",
+          "text": "Provide annual neonatal education."
+        },
+        {
+          "id": "C",
+          "text": "Reduce observation frequency."
+        },
+        {
+          "id": "D",
+          "text": "Analyse night-shift senior coverage, communication pathways and access to specialist support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The pattern suggests shift-specific system barriers requiring targeted redesign."
+    },
+    {
+      "id": "q29",
+      "stem": "Why should serious-event reviews include frontline staff?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They understand how work is actually performed and where system pressures occur."
+        },
+        {
+          "id": "B",
+          "text": "They can identify who is to blame."
+        },
+        {
+          "id": "C",
+          "text": "They replace leadership review."
+        },
+        {
+          "id": "D",
+          "text": "They eliminate the need for data."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Frontline insight helps explain practical workflow and latent conditions."
+    },
+    {
+      "id": "q30",
+      "stem": "Which recommendation is least likely to prevent recurrence after an incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise roles and equipment."
+        },
+        {
+          "id": "B",
+          "text": "Tell staff to be more careful."
+        },
+        {
+          "id": "C",
+          "text": "Introduce clear escalation criteria."
+        },
+        {
+          "id": "D",
+          "text": "Monitor response times."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "General reminders are weak controls because they rely on memory and attention."
+    },
+    {
+      "id": "q31",
+      "stem": "A maternal early warning score remains below the threshold, but the nurse is deeply concerned. What should the system permit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No escalation until the score rises."
+        },
+        {
+          "id": "B",
+          "text": "Review only if the woman requests it."
+        },
+        {
+          "id": "C",
+          "text": "Escalation based on clinical concern."
+        },
+        {
+          "id": "D",
+          "text": "Documentation without action."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical judgement should be able to trigger review even when scores are not elevated."
+    },
+    {
+      "id": "q32",
+      "stem": "Which measure best evaluates referral-system performance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of referral forms completed."
+        },
+        {
+          "id": "B",
+          "text": "Number of staff on duty."
+        },
+        {
+          "id": "C",
+          "text": "Distance travelled only."
+        },
+        {
+          "id": "D",
+          "text": "Time from recognition to acceptance and transfer, with maternal and neonatal outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A complete measure should assess timeliness and outcomes across the referral pathway."
+    },
+    {
+      "id": "q33",
+      "stem": "A review finds that emergency role cards improved response speed but confused new staff. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refine the cards, retrain staff and retest through simulation."
+        },
+        {
+          "id": "B",
+          "text": "Remove the role cards immediately."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the feedback."
+        },
+        {
+          "id": "D",
+          "text": "Use verbal roles only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement should be adapted using feedback and testing."
+    },
+    {
+      "id": "q34",
+      "stem": "Which outcome indicates a reliable deterioration system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warnings are documented."
+        },
+        {
+          "id": "B",
+          "text": "Abnormal trends are recognised, escalated and treated before preventable collapse."
+        },
+        {
+          "id": "C",
+          "text": "Emergency calls decrease to zero."
+        },
+        {
+          "id": "D",
+          "text": "Only specialists interpret observations."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reliability is shown by timely recognition and response."
+    },
+    {
+      "id": "q35",
+      "stem": "A maternal near miss involves equipment that was present but difficult to locate. What type of control is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff education only."
+        },
+        {
+          "id": "B",
+          "text": "Punitive action."
+        },
+        {
+          "id": "C",
+          "text": "Redesign storage and standardise equipment placement."
+        },
+        {
+          "id": "D",
+          "text": "Longer documentation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "System redesign is stronger than reminders when equipment access is the problem."
+    },
+    {
+      "id": "q36",
+      "stem": "Why should families be included in deterioration systems where appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They replace professional assessment."
+        },
+        {
+          "id": "B",
+          "text": "They should activate every emergency."
+        },
+        {
+          "id": "C",
+          "text": "Their concerns are always correct."
+        },
+        {
+          "id": "D",
+          "text": "They may recognise changes from baseline and provide another safety signal."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Family observations can contribute to earlier recognition when taken seriously and assessed."
+    },
+    {
+      "id": "q37",
+      "stem": "A service reviews maternal deaths but does not assign responsibility for recommendations. What is the main problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recommendations may not be implemented or monitored."
+        },
+        {
+          "id": "B",
+          "text": "The review is too detailed."
+        },
+        {
+          "id": "C",
+          "text": "The events are too rare to measure."
+        },
+        {
+          "id": "D",
+          "text": "Staff may feel supported."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Actions need ownership, timelines and evaluation."
+    },
+    {
+      "id": "q38",
+      "stem": "Which action best strengthens transfer safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send the patient as soon as transport arrives."
+        },
+        {
+          "id": "B",
+          "text": "Stabilise within capability, provide concise handover, prepare equipment and confirm receiving-team acceptance."
+        },
+        {
+          "id": "C",
+          "text": "Wait until all tests are complete."
+        },
+        {
+          "id": "D",
+          "text": "Transfer responsibility before departure."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe transfer requires stabilisation, communication and continuity until care is accepted."
+    },
+    {
+      "id": "q39",
+      "stem": "A review finds that women from remote communities experience longer referral delays. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Report the average referral time only."
+        },
+        {
+          "id": "B",
+          "text": "Apply the same pathway without modification."
+        },
+        {
+          "id": "C",
+          "text": "Analyse outcomes by population and redesign services to address geographic inequity."
+        },
+        {
+          "id": "D",
+          "text": "Exclude remote cases from reporting."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Equity analysis should identify unequal access and outcomes across groups."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates systems improvement after a serious event?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A report is completed."
+        },
+        {
+          "id": "B",
+          "text": "Staff receive counselling only."
+        },
+        {
+          "id": "C",
+          "text": "The policy is rewritten."
+        },
+        {
+          "id": "D",
+          "text": "Specific controls are implemented, response becomes more reliable and outcomes improve."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Learning should result in measurable change, not documentation alone. Section 3 - Quality Improvement and Evidence Translation"
+    },
+    {
+      "id": "q41",
+      "stem": "A maternity service identifies a high rate of newborn hypothermia. What should the improvement team do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the problem using baseline data and map current care from birth through transfer."
+        },
+        {
+          "id": "B",
+          "text": "Purchase more warmers immediately."
+        },
+        {
+          "id": "C",
+          "text": "Train all staff before understanding the process."
+        },
+        {
+          "id": "D",
+          "text": "Change the policy wording."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement begins by defining the problem and understanding current practice."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is an outcome measure for a newborn-warming initiative?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage of babies dried immediately."
+        },
+        {
+          "id": "B",
+          "text": "Rate of newborn hypothermia."
+        },
+        {
+          "id": "C",
+          "text": "Number of staff trained."
+        },
+        {
+          "id": "D",
+          "text": "Availability of warm blankets."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Outcome measures describe what happened to patients."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is a process measure for the same initiative?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate of hypothermia."
+        },
+        {
+          "id": "B",
+          "text": "Length of stay."
+        },
+        {
+          "id": "C",
+          "text": "Percentage of newborns receiving immediate drying and skin-to-skin contact."
+        },
+        {
+          "id": "D",
+          "text": "Readmission rate."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Process measures show whether recommended care occurred."
+    },
+    {
+      "id": "q44",
+      "stem": "Which is a balancing measure for uninterrupted skin-to-skin contact?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothermia rate only."
+        },
+        {
+          "id": "B",
+          "text": "Number of births."
+        },
+        {
+          "id": "C",
+          "text": "Staff attendance."
+        },
+        {
+          "id": "D",
+          "text": "Maternal comfort and whether necessary newborn assessment is delayed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Balancing measures identify unintended effects."
+    },
+    {
+      "id": "q45",
+      "stem": "A guideline on severe hypertension is published but practice does not change. What is the most likely problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The guideline has not been translated into practical workflow, training, equipment and documentation."
+        },
+        {
+          "id": "B",
+          "text": "The evidence is weak."
+        },
+        {
+          "id": "C",
+          "text": "Staff do not need the guideline."
+        },
+        {
+          "id": "D",
+          "text": "Clinical governance is irrelevant."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Policy alone rarely changes practice without implementation supports."
+    },
+    {
+      "id": "q46",
+      "stem": "Why are small tests of change useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They guarantee success."
+        },
+        {
+          "id": "B",
+          "text": "They allow teams to learn and adapt before wider implementation."
+        },
+        {
+          "id": "C",
+          "text": "They remove the need for measurement."
+        },
+        {
+          "id": "D",
+          "text": "They avoid staff involvement."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Small tests reduce risk and support local learning."
+    },
+    {
+      "id": "q47",
+      "stem": "A service improves haemorrhage response time but increases unnecessary emergency activations. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the increase because response is faster."
+        },
+        {
+          "id": "B",
+          "text": "Stop the project."
+        },
+        {
+          "id": "C",
+          "text": "Review the balancing data and refine activation criteria."
+        },
+        {
+          "id": "D",
+          "text": "Remove emergency criteria."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Improvement should balance benefit with unintended consequences."
+    },
+    {
+      "id": "q48",
+      "stem": "Which data source may help identify an improvement priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One anecdote only."
+        },
+        {
+          "id": "B",
+          "text": "Policy count."
+        },
+        {
+          "id": "C",
+          "text": "Ward occupancy alone."
+        },
+        {
+          "id": "D",
+          "text": "Incident trends, audit findings, patient outcomes and staff feedback."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Multiple data sources provide a more complete understanding of performance."
+    },
+    {
+      "id": "q49",
+      "stem": "A breastfeeding-support project improves initiation rates but women from one language group still receive less support. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examine access and outcomes by population and adapt the intervention for communication needs."
+        },
+        {
+          "id": "B",
+          "text": "Report overall success only."
+        },
+        {
+          "id": "C",
+          "text": "Stop collecting demographic data."
+        },
+        {
+          "id": "D",
+          "text": "Provide the same written leaflet to everyone."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equity requires examining whether improvement benefits all groups."
+    },
+    {
+      "id": "q50",
+      "stem": "Which statement best describes evidence translation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publishing a journal article."
+        },
+        {
+          "id": "B",
+          "text": "Turning guidance into usable pathways, education, equipment and documentation."
+        },
+        {
+          "id": "C",
+          "text": "Copying another service without adaptation."
+        },
+        {
+          "id": "D",
+          "text": "Distributing a policy by email."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evidence translation embeds recommendations into everyday work."
+    },
+    {
+      "id": "q51",
+      "stem": "A team wants to reduce delayed referral. Which process measure is most useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maternal mortality only."
+        },
+        {
+          "id": "B",
+          "text": "Number of policies."
+        },
+        {
+          "id": "C",
+          "text": "Time from recognition of risk to referral acceptance."
+        },
+        {
+          "id": "D",
+          "text": "Staff satisfaction only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "This directly measures the targeted process."
+    },
+    {
+      "id": "q52",
+      "stem": "A project reduces infection but increases workload to an unsustainable level. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the burden because infection decreased."
+        },
+        {
+          "id": "B",
+          "text": "Stop measuring workload."
+        },
+        {
+          "id": "C",
+          "text": "Declare success."
+        },
+        {
+          "id": "D",
+          "text": "Review workflow and adapt the intervention before wider spread."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sustainable improvement requires acceptable balancing outcomes."
+    },
+    {
+      "id": "q53",
+      "stem": "Which strategy best supports sustainability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embedding the change in workflow, equipment, documentation, audit and leadership follow-through."
+        },
+        {
+          "id": "B",
+          "text": "Education only."
+        },
+        {
+          "id": "C",
+          "text": "Relying on one enthusiastic clinician."
+        },
+        {
+          "id": "D",
+          "text": "Stopping data collection after launch."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Sustainability requires system integration and ongoing oversight."
+    },
+    {
+      "id": "q54",
+      "stem": "Why should patient experience be measured in maternity improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It replaces safety data."
+        },
+        {
+          "id": "B",
+          "text": "Clinical outcomes alone do not show whether care was respectful, accessible and person-centred."
+        },
+        {
+          "id": "C",
+          "text": "It is useful only after complaints."
+        },
+        {
+          "id": "D",
+          "text": "It applies only to low-risk care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Quality includes both clinical outcomes and care experience."
+    },
+    {
+      "id": "q55",
+      "stem": "A service introduces a new preeclampsia pathway. Which combination of measures is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of printed pathways only."
+        },
+        {
+          "id": "B",
+          "text": "Staff attendance only."
+        },
+        {
+          "id": "C",
+          "text": "Seizure rate, timely blood-pressure treatment, medication-related adverse effects and patient experience."
+        },
+        {
+          "id": "D",
+          "text": "Length of the policy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Outcome, process, balancing and experience measures provide a complete view."
+    },
+    {
+      "id": "q56",
+      "stem": "A pilot works well in a tertiary hospital. What should happen before implementing it in a rural service?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copy the process unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Delay implementation indefinitely."
+        },
+        {
+          "id": "C",
+          "text": "Use only online training."
+        },
+        {
+          "id": "D",
+          "text": "Assess local resources, referral capacity and workflow, then adapt while preserving core safety goals."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Evidence should be adapted to local context and resources."
+    },
+    {
+      "id": "q57",
+      "stem": "Which result best demonstrates sustainable improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved outcomes maintained over time across different settings and populations."
+        },
+        {
+          "id": "B",
+          "text": "One month of good data."
+        },
+        {
+          "id": "C",
+          "text": "High staff attendance."
+        },
+        {
+          "id": "D",
+          "text": "Fewer incident reports."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Sustainability and equity require continued benefit over time."
+    },
+    {
+      "id": "q58",
+      "stem": "A process map shows repeated delays while staff search for emergency medicines. What is the strongest intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide another reminder."
+        },
+        {
+          "id": "B",
+          "text": "Redesign storage, standardise locations and monitor availability."
+        },
+        {
+          "id": "C",
+          "text": "Ask staff to memorise alternative locations."
+        },
+        {
+          "id": "D",
+          "text": "Increase documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "System redesign is more reliable than education alone."
+    },
+    {
+      "id": "q59",
+      "stem": "Which action best supports frontline ownership of change?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Design the intervention without clinical staff."
+        },
+        {
+          "id": "B",
+          "text": "Announce the final solution after implementation."
+        },
+        {
+          "id": "C",
+          "text": "Involve staff in mapping, testing and refining the new process."
+        },
+        {
+          "id": "D",
+          "text": "Limit feedback to managers."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Frontline involvement improves usability and adoption."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects successful quality improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A guideline is approved."
+        },
+        {
+          "id": "B",
+          "text": "Staff complete education."
+        },
+        {
+          "id": "C",
+          "text": "A committee meets regularly."
+        },
+        {
+          "id": "D",
+          "text": "The targeted harm decreases, care processes become reliable and unintended effects remain acceptable across groups."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Successful improvement produces measurable, sustainable and equitable benefit. Section 4 - Digital Maternity Care and Global Maternal-Newborn Health"
+    },
+    {
+      "id": "q61",
+      "stem": "A shared electronic maternity record shows that a woman has no drug allergies, but she reports a severe allergy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify the history, update the record and communicate the discrepancy before treatment."
+        },
+        {
+          "id": "B",
+          "text": "Trust the electronic record."
+        },
+        {
+          "id": "C",
+          "text": "Ask the woman to wait until records are transferred."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the verbal report."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital records may be incomplete; critical information must be verified."
+    },
+    {
+      "id": "q62",
+      "stem": "What is automation bias in maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding all digital tools."
+        },
+        {
+          "id": "B",
+          "text": "Over-trusting an electronic score or interpretation despite concerning clinical findings."
+        },
+        {
+          "id": "C",
+          "text": "Using alerts appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Reporting a system fault."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Automation bias occurs when technology is trusted more than direct assessment and judgement."
+    },
+    {
+      "id": "q63",
+      "stem": "A fetal-monitoring system reports a reassuring status, but the nurse identifies recurrent concerning decelerations. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Follow the system interpretation."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the software to change."
+        },
+        {
+          "id": "C",
+          "text": "Use clinical judgement, verify the tracing and escalate appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Reduce monitoring frequency."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology supports but does not replace professional assessment."
+    },
+    {
+      "id": "q64",
+      "stem": "A telehealth antenatal service is introduced for rural women. What is essential for safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digital appointments only."
+        },
+        {
+          "id": "B",
+          "text": "Assuming all women have devices."
+        },
+        {
+          "id": "C",
+          "text": "Reducing face-to-face care for everyone."
+        },
+        {
+          "id": "D",
+          "text": "Clear escalation pathways, local assessment options and alternatives for women without reliable internet."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Remote care requires escalation pathways and attention to digital exclusion."
+    },
+    {
+      "id": "q65",
+      "stem": "Which risk is most associated with copied electronic maternity notes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Outdated or incorrect information being carried forward."
+        },
+        {
+          "id": "B",
+          "text": "Improved continuity."
+        },
+        {
+          "id": "C",
+          "text": "Reduced documentation."
+        },
+        {
+          "id": "D",
+          "text": "Guaranteed accuracy."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Copied notes may create false confidence if information is outdated."
+    },
+    {
+      "id": "q66",
+      "stem": "A service uses remote blood-pressure monitoring for high-risk pregnancy. Which design feature is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Automatic reassurance messages."
+        },
+        {
+          "id": "B",
+          "text": "A clear response pathway for abnormal readings."
+        },
+        {
+          "id": "C",
+          "text": "Data collection without review."
+        },
+        {
+          "id": "D",
+          "text": "Patient responsibility for interpretation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Monitoring has value only when abnormal results lead to timely action."
+    },
+    {
+      "id": "q67",
+      "stem": "What is alert fatigue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single critical alert prompts action."
+        },
+        {
+          "id": "B",
+          "text": "Staff verify every alert."
+        },
+        {
+          "id": "C",
+          "text": "Clinicians become desensitised because alerts are excessive or frequently irrelevant."
+        },
+        {
+          "id": "D",
+          "text": "Technology fails completely."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Excessive alerts can reduce attention to important warnings."
+    },
+    {
+      "id": "q68",
+      "stem": "A woman lacks digital access for telehealth follow-up. What should the service do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude her from the programme."
+        },
+        {
+          "id": "B",
+          "text": "Ask her family to purchase a device."
+        },
+        {
+          "id": "C",
+          "text": "Delay care until internet access improves."
+        },
+        {
+          "id": "D",
+          "text": "Provide telephone, community or face-to-face alternatives."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Equitable services require alternatives for people without digital access."
+    },
+    {
+      "id": "q69",
+      "stem": "Which action best protects privacy in digital maternity care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use secure systems, legitimate access and careful communication."
+        },
+        {
+          "id": "B",
+          "text": "Share passwords during emergencies."
+        },
+        {
+          "id": "C",
+          "text": "Use personal messaging apps routinely."
+        },
+        {
+          "id": "D",
+          "text": "Leave screens open for convenience."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital convenience does not reduce confidentiality obligations."
+    },
+    {
+      "id": "q70",
+      "stem": "A remote monitoring platform fails during a high-risk pregnancy review. What should be available?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No alternative pathway."
+        },
+        {
+          "id": "B",
+          "text": "A tested downtime and backup communication process."
+        },
+        {
+          "id": "C",
+          "text": "Personal social-media messaging."
+        },
+        {
+          "id": "D",
+          "text": "Delayed assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Downtime planning is essential for continuity and safety."
+    },
+    {
+      "id": "q71",
+      "stem": "Which outcome best indicates equitable digital care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High uptake among women with smartphones."
+        },
+        {
+          "id": "B",
+          "text": "Reduced face-to-face contact."
+        },
+        {
+          "id": "C",
+          "text": "Improved access and outcomes without excluding rural, low-income or digitally limited families."
+        },
+        {
+          "id": "D",
+          "text": "More electronic alerts."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Equity means benefits are shared across different populations."
+    },
+    {
+      "id": "q72",
+      "stem": "A predictive tool repeatedly underestimates risk in one population. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue using it unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Blame staff interpretation."
+        },
+        {
+          "id": "C",
+          "text": "Remove clinical assessment."
+        },
+        {
+          "id": "D",
+          "text": "Review data quality, model performance and potential bias before further use."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Digital tools should be evaluated for accuracy and equity across populations."
+    },
+    {
+      "id": "q73",
+      "stem": "Why is integrated maternity care important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It coordinates antenatal, birth, postnatal, neonatal and community services, reducing fragmented care."
+        },
+        {
+          "id": "B",
+          "text": "It removes the need for referral."
+        },
+        {
+          "id": "C",
+          "text": "It applies only to high-risk women."
+        },
+        {
+          "id": "D",
+          "text": "It replaces informed choice."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Coordination across services supports continuity and timely care."
+    },
+    {
+      "id": "q74",
+      "stem": "A regional service adapts an international maternal-emergency pathway. What should guide adaptation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prestige of the source only."
+        },
+        {
+          "id": "B",
+          "text": "Local disease patterns, workforce, resources, referral capacity and community needs."
+        },
+        {
+          "id": "C",
+          "text": "Technology availability only."
+        },
+        {
+          "id": "D",
+          "text": "A requirement to copy every step exactly."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Global evidence should be adapted to local context while preserving core safety principles."
+    },
+    {
+      "id": "q75",
+      "stem": "Which statement best reflects global maternal-newborn improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One solution should be used everywhere."
+        },
+        {
+          "id": "B",
+          "text": "Only tertiary hospitals contribute."
+        },
+        {
+          "id": "C",
+          "text": "Shared evidence and learning should be adapted to local resources and inequities."
+        },
+        {
+          "id": "D",
+          "text": "Technology is the main determinant of outcomes."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Global collaboration is most effective when adapted respectfully to local conditions."
+    },
+    {
+      "id": "q76",
+      "stem": "A telehealth programme improves attendance but women report less opportunity to discuss sensitive issues. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the concern because attendance improved."
+        },
+        {
+          "id": "B",
+          "text": "Stop collecting experience data."
+        },
+        {
+          "id": "C",
+          "text": "Replace all visits with telehealth."
+        },
+        {
+          "id": "D",
+          "text": "Review privacy, communication and patient experience, and adapt the model."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Digital improvement should consider experience and unintended effects."
+    },
+    {
+      "id": "q77",
+      "stem": "Which measure best evaluates digital maternity equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Access and outcomes by geography, language, income and digital capability."
+        },
+        {
+          "id": "B",
+          "text": "Number of virtual visits."
+        },
+        {
+          "id": "C",
+          "text": "Average consultation length only."
+        },
+        {
+          "id": "D",
+          "text": "Number of devices purchased."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equity requires disaggregated access and outcome data."
+    },
+    {
+      "id": "q78",
+      "stem": "A rural service lacks specialist neonatal support. Which innovation may help?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technology without local training."
+        },
+        {
+          "id": "B",
+          "text": "Remote specialist consultation combined with local stabilisation protocols and backup communication."
+        },
+        {
+          "id": "C",
+          "text": "Automatic transfer of every newborn."
+        },
+        {
+          "id": "D",
+          "text": "Replacing nurses with decision-support software."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Remote support can extend expertise when integrated with local capability and contingency planning."
+    },
+    {
+      "id": "q79",
+      "stem": "Which action best reflects responsible use of fetal-monitoring technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rely on automated interpretation."
+        },
+        {
+          "id": "B",
+          "text": "Ignore patient symptoms if the tracing appears normal."
+        },
+        {
+          "id": "C",
+          "text": "Verify digital information against direct assessment and escalate concerning findings."
+        },
+        {
+          "id": "D",
+          "text": "Reduce staff training."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Technology should augment, not replace, professional judgement."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects the Level 3 Global Nursing Professional role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on bedside tasks."
+        },
+        {
+          "id": "B",
+          "text": "Rely mainly on automation."
+        },
+        {
+          "id": "C",
+          "text": "Avoid cross-system collaboration."
+        },
+        {
+          "id": "D",
+          "text": "Use digital tools critically, strengthen integrated care and adapt global evidence to improve equitable outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 practice combines leadership, technology, integration, equity and global learning."
+    }
+  ]
+}

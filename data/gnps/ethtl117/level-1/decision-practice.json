@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Wrong patient risk",
+      "scenario": "During a busy medication round, a nurse prepares to administer an oral medication at the bedside. As the nurse compares the medication label with the patient’s wristband, they notice that the name on the medication label does not match the patient’s identification band.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop and verify patient identity.",
+      "modelWhy": "Wrong-patient errors can cause serious harm.",
+      "modelNext": "Check two patient identifiers.",
+      "trap": "Assuming the medication is correct.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Insulin administration",
+      "scenario": "A patient with type 2 diabetes is prescribed insulin as part of their treatment plan. While reviewing the medication order, the nurse notices that the prescribed dose appears unusually high compared to standard dosing and the patient’s previous insulin requirements.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Hold the medication and verify the order.",
+      "modelWhy": "Insulin is a high-alert medication.",
+      "modelNext": "Recalculate the dose and confirm with prescriber.",
+      "trap": "Administering without clarification.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Hypoglycemia after insulin",
+      "scenario": "Shortly after receiving a scheduled dose of insulin, a patient becomes sweaty, pale, and confused. The patient appears restless and has difficulty answering questions appropriately while sitting in bed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Check blood glucose immediately.",
+      "modelWhy": "Hypoglycemia is a medical emergency.",
+      "modelNext": "Administer fast-acting carbohydrate if indicated.",
+      "trap": "Assuming anxiety.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Opioid overdose",
+      "scenario": "A patient receiving opioid analgesia for postoperative pain becomes increasingly drowsy. During routine observation, the nurse finds the patient difficult to arouse, with shallow breathing and a noticeably reduced respiratory rate.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess airway and administer naloxone.",
+      "modelWhy": "Respiratory depression is life-threatening.",
+      "modelNext": "Monitor oxygen saturation.",
+      "trap": "Waiting for provider review.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Allergic reaction to antibiotic",
+      "scenario": "Within minutes of receiving an IV antibiotic, a patient develops raised hives across the chest and arms. The patient begins wheezing and complains of difficulty breathing, appearing anxious and flushed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the medication and initiate emergency response.",
+      "modelWhy": "Anaphylaxis progresses rapidly.",
+      "modelNext": "Assess airway and circulation.",
+      "trap": "Documenting before intervening.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "IV potassium administration",
+      "scenario": "A nurse prepares medications for administration and notices an order for potassium chloride to be given intravenously. The nurse realises the order specifies IV push administration rather than infusion.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop and question the administration method.",
+      "modelWhy": "IV potassium must never be given IV push.",
+      "modelNext": "Verify infusion guidelines.",
+      "trap": "Proceeding with administration.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Digoxin toxicity",
+      "scenario": "A patient taking digoxin for heart failure reports feeling nauseated and complains that objects appear blurry and have a yellowish tint. The patient also mentions feeling unusually tired and dizzy.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Check apical pulse and digoxin level.",
+      "modelWhy": "Digoxin toxicity can cause fatal arrhythmias.",
+      "modelNext": "Monitor heart rhythm.",
+      "trap": "Administering next dose.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Warfarin therapy",
+      "scenario": "A patient receiving warfarin therapy presents with bleeding gums when brushing teeth. Recent laboratory results show an INR value of 5.0, which is above the therapeutic range.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Hold the dose and notify the provider.",
+      "modelWhy": "Elevated INR increases bleeding risk.",
+      "modelNext": "Monitor for signs of bleeding.",
+      "trap": "Administering the medication.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

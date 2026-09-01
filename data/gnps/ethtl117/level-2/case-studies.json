@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "IV Potassium Chloride Safety",
+      "stem": "A patient with hypokalaemia has an order for IV potassium chloride replacement. During preparation, the nurse notices that a newly oriented staff member has drawn up potassium as if it were a routine IV push medication and is about to administer it rapidly. The patient has continuous telemetry monitoring available but is not yet connected. The nurse recognises a major medication safety threat. IV potassium is a high-alert medication that must be administered in a controlled, diluted manner and monitored carefully.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which facts make this a high-risk medication situation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Potassium chloride is a high-alert medication"
+            },
+            {
+              "id": "B",
+              "text": "IV push administration is unsafe for potassium replacement"
+            },
+            {
+              "id": "C",
+              "text": "The patient is not yet on telemetry despite cardiac risk"
+            },
+            {
+              "id": "D",
+              "text": "A new staff member may be unfamiliar with infusion safety"
+            },
+            {
+              "id": "E",
+              "text": "Rapid administration could cause lethal arrhythmia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed statements are correct. IV potassium given rapidly can precipitate fatal arrhythmias, making this a critical safety intervention point."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "This is a severe medication safety risk requiring immediate interruption of the planned administration"
+            },
+            {
+              "id": "B",
+              "text": "Potassium can be given quickly if the nurse stays nearby"
+            },
+            {
+              "id": "C",
+              "text": "Telemetry is unnecessary when potassium is low"
+            },
+            {
+              "id": "D",
+              "text": "The route and rate do not matter if the order exists"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must recognise and stop the unsafe practice immediately. Potassium administration requires correct dilution, route, infusion control, and monitoring."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for fatal cardiac dysrhythmia due to unsafe IV potassium administration"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Need for discharge teaching"
+            },
+            {
+              "id": "D",
+              "text": "Social withdrawal"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate threat is catastrophic cardiac injury from incorrect administration technique."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the unsafe preparation, clarify the correct administration method, and ensure the patient is monitored and the medication is prepared according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Let the staff member continue for the sake of learning"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the issue because the medication was ordered"
+            },
+            {
+              "id": "D",
+              "text": "Give the potassium more quickly to save time"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must stop unsafe medication administration before harm occurs. Patient safety comes before workflow speed or staff comfort."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use an infusion pump and correct dilution according to policy"
+            },
+            {
+              "id": "B",
+              "text": "Review the patient’s latest potassium level and renal function"
+            },
+            {
+              "id": "C",
+              "text": "Connect telemetry if indicated by policy and patient condition"
+            },
+            {
+              "id": "D",
+              "text": "Reinforce education to the new staff member about high-alert medication precautions"
+            },
+            {
+              "id": "E",
+              "text": "Assume all concentrated electrolyte errors are harmless if corrected early"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all appropriate. High-alert medication teaching and safe systems practice are part of harm prevention."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates safe management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Potassium is administered at the correct rate with appropriate monitoring and no dysrhythmia develops"
+            },
+            {
+              "id": "B",
+              "text": "The patient receives a rapid bolus but reports only mild discomfort"
+            },
+            {
+              "id": "C",
+              "text": "Documentation omits the near-miss event"
+            },
+            {
+              "id": "D",
+              "text": "The nurse avoids addressing the unsafe practice with staff"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe outcomes depend on correct administration, monitoring, and learning from near-miss events."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Opioid Administration with Respiratory Depression",
+      "stem": "Mrs. Harini Iyer, a 64-year-old post-operative patient, receives IV opioid analgesia for severe abdominal pain. One hour later, the nurse finds her very sleepy, difficult to rouse, and breathing slowly. Her oxygen saturation has fallen and her respiratory rate is 8 breaths per minute. The nurse must recognise opioid-induced respiratory depression and intervene immediately while balancing pain management and patient safety. The patient is at risk of progressing to respiratory arrest if the problem is missed.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate opioid-induced respiratory depression? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Increased sedation"
+            },
+            {
+              "id": "B",
+              "text": "Difficulty arousing the patient"
+            },
+            {
+              "id": "C",
+              "text": "Respiratory rate 8 breaths per minute"
+            },
+            {
+              "id": "D",
+              "text": "Falling oxygen saturation"
+            },
+            {
+              "id": "E",
+              "text": "Recent opioid administration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic signs of opioid-related oversedation and respiratory depression. NCLEX questions often emphasise the link between sedation level and respiratory compromise."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is resting comfortably and should not be disturbed"
+            },
+            {
+              "id": "B",
+              "text": "The patient may be experiencing opioid-induced respiratory depression requiring urgent intervention"
+            },
+            {
+              "id": "C",
+              "text": "This is expected sleep after surgery and is reassuring"
+            },
+            {
+              "id": "D",
+              "text": "Oxygen saturation does not matter if pain is relieved"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This patient is not just sleeping; she is showing objective signs of dangerous opioid effect. Pain relief never takes priority over airway and breathing."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired ventilation related to opioid effect"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about wound care"
+            },
+            {
+              "id": "D",
+              "text": "Constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Breathing is the priority. The nurse must act before the patient deteriorates further."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stimulate the patient, support airway and breathing, stop further opioid dosing, and call for urgent review while preparing reversal if indicated"
+            },
+            {
+              "id": "B",
+              "text": "Give another opioid dose because pain may recur"
+            },
+            {
+              "id": "C",
+              "text": "Leave the patient to sleep"
+            },
+            {
+              "id": "D",
+              "text": "Wait for the next scheduled observation round"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Immediate airway and respiratory support are required. Further opioid administration would worsen the situation. Delay is unsafe."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continuous monitoring of respirations, oxygenation, and sedation level"
+            },
+            {
+              "id": "B",
+              "text": "Review whether the patient has other sedating medications or risk factors"
+            },
+            {
+              "id": "C",
+              "text": "Reassess pain only after safety is addressed"
+            },
+            {
+              "id": "D",
+              "text": "Educate the patient later about requesting pain medication safely"
+            },
+            {
+              "id": "E",
+              "text": "Assume that oxygen alone solves the problem without further review"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All of these are correct. Oxygen may help temporarily, but the underlying opioid effect still requires evaluation and management."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respiratory rate improves, oxygenation rises, responsiveness increases, and further opioid dosing is safely re-evaluated"
+            },
+            {
+              "id": "B",
+              "text": "Sedation deepens while the nurse documents only pain scores"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after the patient opens her eyes briefly"
+            },
+            {
+              "id": "D",
+              "text": "The patient remains bradypnoeic without escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by better ventilation, oxygenation, and responsiveness with ongoing reassessment."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Antibiotic Anaphylaxis",
+      "stem": "Ms. Rose Fernandes receives the first dose of an IV antibiotic for pyelonephritis. Within minutes she reports itching, throat tightness, and dizziness. The nurse sees urticaria spreading across the chest, swelling around the lips, and increasing wheeze. The patient becomes frightened and says, “I can’t breathe properly.” The nurse recognises probable anaphylaxis, a life-threatening medication reaction requiring immediate emergency response.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate anaphylaxis? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Urticaria"
+            },
+            {
+              "id": "B",
+              "text": "Lip swelling"
+            },
+            {
+              "id": "C",
+              "text": "Throat tightness"
+            },
+            {
+              "id": "D",
+              "text": "Wheeze and breathing difficulty"
+            },
+            {
+              "id": "E",
+              "text": "Rapid onset after antibiotic exposure"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings indicate a systemic allergic reaction affecting the airway and skin. The timing after exposure is highly significant."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild rash only"
+            },
+            {
+              "id": "B",
+              "text": "Acute anaphylactic reaction requiring immediate emergency treatment"
+            },
+            {
+              "id": "C",
+              "text": "Panic attack only"
+            },
+            {
+              "id": "D",
+              "text": "A harmless side effect"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The airway involvement and rapid onset show that this is far more serious than a mild drug rash."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for airway obstruction and cardiovascular collapse due to anaphylaxis"
+            },
+            {
+              "id": "B",
+              "text": "Knowledge deficit about antibiotics"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Social anxiety"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Anaphylaxis is an airway and circulation emergency."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the antibiotic, call for emergency assistance, support airway and breathing, and prepare immediate anaphylaxis treatment according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Slow the infusion and continue observing"
+            },
+            {
+              "id": "C",
+              "text": "Offer oral fluids and reassurance only"
+            },
+            {
+              "id": "D",
+              "text": "Delay action until rash size is documented"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The antibiotic must be stopped immediately and emergency treatment initiated. Delay can be fatal."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor airway, breathing, circulation, and response to treatment continuously"
+            },
+            {
+              "id": "B",
+              "text": "Document the reaction clearly as a probable allergy"
+            },
+            {
+              "id": "C",
+              "text": "Educate the patient later about avoiding the drug and related agents if confirmed"
+            },
+            {
+              "id": "D",
+              "text": "Prepare for worsening airway compromise if needed"
+            },
+            {
+              "id": "E",
+              "text": "Assume hives are the only important symptom"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these are appropriate. Airway symptoms are central in anaphylaxis and should never be overshadowed by the skin findings alone."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wheeze decreases, swelling lessens, breathing eases, and the patient remains under close monitoring"
+            },
+            {
+              "id": "B",
+              "text": "The reaction worsens and no escalation occurs"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops as soon as the rash fades slightly"
+            },
+            {
+              "id": "D",
+              "text": "The allergy is not documented"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by reduced airway compromise and continued observation because recurrence can occur."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Beta-Blocker Administration with Bradycardia",
+      "stem": "Mr. Thomas George, a 70-year-old man with hypertension and coronary artery disease, is due for his morning beta-blocker. Before administration, the nurse checks vital signs and finds a heart rate of 48 beats per minute and blood pressure lower than his usual baseline. The patient says he feels slightly dizzy when sitting up. The medication order is due now, and the new nurse asks whether it should still be given because “the doctor ordered it every morning.” The nurse must apply safe medication assessment principles before administration.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are relevant before beta-blocker administration? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Heart rate 48 beats per minute"
+            },
+            {
+              "id": "B",
+              "text": "Lower-than-usual blood pressure"
+            },
+            {
+              "id": "C",
+              "text": "Reported dizziness"
+            },
+            {
+              "id": "D",
+              "text": "The medication is due now"
+            },
+            {
+              "id": "E",
+              "text": "Need for baseline assessment before administration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are relevant, but the bradycardia, hypotension trend, and dizziness are particularly important because beta-blockers can worsen them."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The drug should be given automatically because it is scheduled"
+            },
+            {
+              "id": "B",
+              "text": "The patient may have a contraindication to receiving the dose right now and needs further assessment/provider guidance"
+            },
+            {
+              "id": "C",
+              "text": "The pulse is too low to matter"
+            },
+            {
+              "id": "D",
+              "text": "Dizziness is unrelated to cardiovascular status"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Medication administration requires assessment, not blind timing. Beta-blockers may need to be withheld if heart rate or blood pressure are too low, depending on the order parameters and clinical picture."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for worsening bradycardia and impaired perfusion if the medication is administered unsafely"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Nutrition deficit"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The priority is preventing iatrogenic worsening of bradycardia and hypotension."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold the dose temporarily, reassess the patient, and clarify administration parameters with the provider or follow standing guidance"
+            },
+            {
+              "id": "B",
+              "text": "Give the dose quickly to stay on schedule"
+            },
+            {
+              "id": "C",
+              "text": "Ask the patient to stand and walk before deciding"
+            },
+            {
+              "id": "D",
+              "text": "Document it as given without actually administering it"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should never administer a potentially unsafe cardiac medication without considering current assessment findings. False documentation is unethical and illegal."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Review the medication order for hold parameters"
+            },
+            {
+              "id": "B",
+              "text": "Monitor the patient for worsening dizziness or signs of poor perfusion"
+            },
+            {
+              "id": "C",
+              "text": "Explain to the patient why the assessment is important"
+            },
+            {
+              "id": "D",
+              "text": "Reassess pulse and blood pressure after the decision is made"
+            },
+            {
+              "id": "E",
+              "text": "Assume chronic cardiac patients always need every dose regardless of vitals"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Safe pharmacology practice includes using hold parameters, reassessing symptoms, and educating the patient. Chronic disease does not justify unsafe dosing."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The medication decision is made based on assessment and parameters, the patient remains stable, and documentation reflects the actual action taken"
+            },
+            {
+              "id": "B",
+              "text": "The drug is given despite bradycardia and dizziness worsen"
+            },
+            {
+              "id": "C",
+              "text": "The nurse omits the dose but fails to document or communicate it"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is not repeated"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safe medication management is assessment-based, well-documented, and clearly communicated."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "ACE Inhibitor and Angioedema",
+      "stem": "Mr. Daniel Peters has recently started an ACE inhibitor for hypertension. He presents to the clinic with swelling of the lips and tongue that began this morning. He says his throat feels strange and his voice sounds different. He has no rash, but he is anxious and repeatedly touches his neck. The nurse recognises possible ACE inhibitor–related angioedema, which can threaten the airway. Immediate recognition and escalation are essential.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate angioedema related to ACE inhibitor therapy? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lip swelling"
+            },
+            {
+              "id": "B",
+              "text": "Tongue swelling"
+            },
+            {
+              "id": "C",
+              "text": "Voice change and throat symptoms"
+            },
+            {
+              "id": "D",
+              "text": "Recent ACE inhibitor initiation"
+            },
+            {
+              "id": "E",
+              "text": "Potential airway risk"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic angioedema cues. ACE inhibitor–related angioedema may occur without rash and can progress rapidly to airway obstruction."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minor dry mouth only"
+            },
+            {
+              "id": "B",
+              "text": "Possible ACE inhibitor–induced angioedema requiring urgent airway-focused response"
+            },
+            {
+              "id": "C",
+              "text": "Harmless food intolerance"
+            },
+            {
+              "id": "D",
+              "text": "Stable expected medication effect"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This presentation is a medication emergency. The airway must be prioritised."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for airway obstruction related to angioedema"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "C",
+              "text": "Need for long-term exercise teaching"
+            },
+            {
+              "id": "D",
+              "text": "Constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway compromise is the immediate life-threatening concern."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold the ACE inhibitor, escalate urgently, and assess airway and breathing continuously"
+            },
+            {
+              "id": "B",
+              "text": "Instruct the patient to take the next dose with food"
+            },
+            {
+              "id": "C",
+              "text": "Delay evaluation until the swelling is measured precisely"
+            },
+            {
+              "id": "D",
+              "text": "Assume the problem will resolve without action"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Medication-related angioedema requires prompt action because airway involvement can worsen rapidly."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor for progression of swelling and breathing difficulty"
+            },
+            {
+              "id": "B",
+              "text": "Document the reaction clearly as a serious adverse effect"
+            },
+            {
+              "id": "C",
+              "text": "Provide patient education later about avoiding the medication unless re-evaluated by the provider"
+            },
+            {
+              "id": "D",
+              "text": "Maintain readiness for emergency airway management if symptoms worsen"
+            },
+            {
+              "id": "E",
+              "text": "Assume that lack of rash means the airway is safe"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Rash is not required for angioedema. Airway monitoring and documentation are essential."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Swelling does not progress, breathing remains stable, and the medication issue is clearly documented and escalated"
+            },
+            {
+              "id": "B",
+              "text": "Tongue swelling increases while reassessment is delayed"
+            },
+            {
+              "id": "C",
+              "text": "The patient is sent home without warning signs education"
+            },
+            {
+              "id": "D",
+              "text": "The ACE inhibitor is continued unchanged"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective care protects the airway and prevents repeat exposure without review."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "level": 1,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Oxygenation drop (ABCs)",
+      "scenario": "It is mid-morning on a general medical ward. You are completing routine rounds when one of your patients suddenly presses the call bell. The patient, who has been clinically stable since admission, is sitting upright in bed and looks visibly uncomfortable. As you enter the room, you notice that the patient appears anxious, slightly pale, and is taking rapid, shallow breaths.\n\nThe patient tells you, “I’m feeling short of breath… I just can’t seem to catch my breath.”\n\nYou quickly glance at the monitor. Their oxygen saturation (SpO₂), which had been normal earlier, has now dropped to 88% on room air. You also note that their respiratory rate is 28 breaths per minute, significantly higher than normal. The patient is speaking in short sentences and appears increasingly distressed.\n\nThere is no oxygen currently in use, and no immediate medical team present in the room. You recognise that this change in breathing and oxygen level suggests a potential compromise in the patient’s airway or breathing and could rapidly worsen if not addressed promptly.\n\nIn this moment, you must decide your first priority action using the principles of ABCs (Airway, Breathing, Circulation) to ensure the patient’s immediate safety.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Position the patient upright and apply oxygen per facility protocol while you rapidly assess airway/breathing.",
+      "modelWhy": "Hypoxaemia is an immediate breathing threat. Upright positioning improves lung expansion; oxygen supports gas exchange. Immediate support comes before routine tasks.",
+      "modelNext": "Auscultate lungs and assess work of breathing (use of accessory muscles), then recheck SpO₂ and vital signs; escalate using ISBAR if not improving.",
+      "trap": "Calling the provider first without stabilising breathing, or documenting before intervening.",
+      "programNumber": 1,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Unresponsive patient (emergency response)",
+      "scenario": "You enter a single room on your ward to check on a patient who has not used their call bell for several hours. As you walk in, you immediately notice that the patient is lying very still in bed. You call their name softly, but there is no response. You gently touch their shoulder, but they do not react. The room is quiet, and there is no family member present. You do not know what happened, how long they have been like this, or whether they are breathing normally. In this critical moment, you must quickly decide what to do first to protect the patient’s life.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Activate emergency response (call for help) and assess airway and breathing immediately.",
+      "modelWhy": "Unresponsiveness may indicate airway obstruction, respiratory arrest, or cardiac arrest. Early activation brings the team and equipment; ABC assessment guides immediate actions.",
+      "modelNext": "Check breathing and pulse; begin CPR if no pulse; apply AED as available.",
+      "trap": "Leaving the room to find someone without activating emergency response or delaying ABC assessment.",
+      "programNumber": 2,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Chest pain (assessment before intervention)",
+      "scenario": "You are completing routine rounds when a patient suddenly presses their call bell. When you arrive at the bedside, the patient looks anxious and is clutching the centre of their chest. They tell you, “The pain just started, and it feels very heavy.” They rate the pain as 7 out of 10 and are visibly sweating. Their breathing is slightly rapid, and they look pale. You are alone in the room at this moment. You must decide your first action in response to this potentially life-threatening situation.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Stay with the patient and perform focused assessment and vital signs; call for help/escalate promptly based on findings.",
+      "modelWhy": "Chest pain could be acute coronary syndrome. The safest approach is rapid assessment and escalation while monitoring for instability.",
+      "modelNext": "Check BP, HR, RR, SpO₂, pain characteristics (onset, radiation), and obtain ECG as per policy.",
+      "trap": "Giving PRN pain meds first without assessment or leaving the patient alone.",
+      "programNumber": 3,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Fall risk (safety first)",
+      "scenario": "You are caring for an older adult patient with delirium in a general medical ward. The patient is confused, restless, and repeatedly trying to climb out of bed despite being weak and unsteady. You notice that the bed is in a high position, and the call bell has slipped out of the patient’s reach onto the floor. There is no family member present, and other staff members are busy in nearby rooms. You can see that the patient is at high risk of falling at any moment. You must decide your immediate priority action.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Make the environment safe immediately: stay with the patient, lower bed, place call bell within reach, and request assistance/supervision.",
+      "modelWhy": "The immediate risk is a fall with injury. Safety and supervision come before documentation or routine care.",
+      "modelNext": "Assess orientation, toileting needs, pain, and oxygenation; review meds that increase confusion; implement falls precautions.",
+      "trap": "Trying to ‘reason’ with the patient from the doorway or leaving to document the behaviour.",
+      "programNumber": 4,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Wrong patient medication (med safety)",
+      "scenario": "You are preparing to administer an oral medication to a patient in a shared room. You pick up the medication chart and walk to the bedside. Before giving the tablet, you glance at the patient’s wristband and notice that the name does not match the name written on the medication chart. The patient looks at you and says, “Is that for me?” You feel a moment of uncertainty and pressure because you are running behind schedule. You must decide what to do first to ensure medication safety.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Stop—do not administer the medication. Verify patient identity using two identifiers and clarify the order.",
+      "modelWhy": "Administering to the wrong patient can cause serious harm. Stopping is the safest immediate action.",
+      "modelNext": "Confirm full name and DOB with the patient (if possible) and verify chart/order; contact pharmacy/provider if discrepancy persists.",
+      "trap": "Proceeding ‘because the room number matches’ or because you are in a hurry.",
+      "programNumber": 5,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "High-alert insulin timing",
+      "scenario": "You are caring for a patient with diabetes who is prescribed rapid-acting insulin before meals. The medication is due now, but when you enter the room, you see that the patient’s meal tray has not yet arrived. The patient tells you they are hungry and waiting for lunch. You know that rapid-acting insulin can cause hypoglycaemia if given without food. You must decide your first action in this situation.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Hold rapid-acting insulin until the meal is available (per policy) and verify current blood glucose.",
+      "modelWhy": "Rapid-acting insulin without food can cause hypoglycaemia—an immediate safety risk.",
+      "modelNext": "Check BGL, confirm meal timing, and reassess for hypoglycaemia symptoms after administration.",
+      "trap": "Giving insulin ‘on time’ without ensuring the patient can eat.",
+      "programNumber": 6,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Possible hypoglycaemia",
+      "scenario": "A patient you are monitoring suddenly becomes pale, sweaty, and shaky. They look confused and say, “I feel really weird… something isn’t right.” They are slightly unsteady in bed and appear distressed. You suspect their blood sugar may be low, but you have not yet checked it. There is no family member in the room. You must decide your immediate next step to keep the patient safe.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Check blood glucose immediately and treat per hypoglycaemia protocol.",
+      "modelWhy": "Symptoms suggest low glucose; treatment prevents seizures, coma, and injury.",
+      "modelNext": "Recheck BGL after treatment and assess ability to swallow; if unconscious, prepare IV dextrose/glucagon per policy.",
+      "trap": "Offering water or telling the patient to ‘rest’ without checking BGL.",
+      "programNumber": 7,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Airborne precautions decision",
+      "scenario": "A patient has been admitted for further investigation after weeks of chronic coughing, unexplained weight loss, and night sweats. They are now on your ward awaiting test results. As you speak with them, they have frequent coughing episodes. You are aware that these symptoms could be consistent with tuberculosis. Other patients and staff are moving around nearby. You must decide your first action to prevent possible transmission of infection.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Initiate airborne precautions (mask patient, place in appropriate room if available) and notify infection control per policy.",
+      "modelWhy": "TB is spread by airborne particles; early containment protects other patients and staff.",
+      "modelNext": "Confirm isolation signage/PPE and ensure fit-tested N95/P2 use; document exposure control steps per policy.",
+      "trap": "Using only a surgical mask for staff or delaying isolation until lab confirmation.",
+      "programNumber": 8,
+      "number": 8
+    }
+  ]
+}

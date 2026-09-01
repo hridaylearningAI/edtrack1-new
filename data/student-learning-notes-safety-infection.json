@@ -1,0 +1,762 @@
+{
+  "courseCode": "NURS-M8",
+  "title": "Module 8 — Safety and Infection Control",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Safety and Infection Control is one of the most heavily weighted NCLEX areas because it protects patients, families, and healthcare workers from preventable harm. Many NCLEX questions can be answered correctly by using safety principles—even if you are unsure of the diagnosis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use these three guiding questions in every safety question:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is the immediate risk of harm to the patient or others?",
+            "What is the safest first nursing action (prevent fall, prevent aspiration, prevent exposure)?",
+            "What policy-based control prevents recurrence (standard precautions, isolation, reporting, equipment)?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For NGN questions, apply CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Apply standard and transmission-based precautions correctly (contact, droplet, airborne).",
+            "Perform safe hand hygiene and PPE use (donning/doffing) to prevent cross-contamination.",
+            "Recognise and prevent healthcare-associated infections (HAIs) such as CAUTI, CLABSI, VAP, C. difficile.",
+            "Implement safety measures to prevent falls, aspiration, pressure injuries, medication errors, and sentinel events.",
+            "Apply safe patient identification, safe transfers, and use of assistive devices.",
+            "Respond appropriately to exposure incidents (needle-stick injuries, blood/body fluid exposure).",
+            "Maintain aseptic technique for sterile procedures and wound care.",
+            "Apply infection prevention in outbreaks and immunisation contexts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "NCLEX Safety Mindset: Prevent Harm First",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX often asks: 'What should the nurse do FIRST?' When you see this phrase, choose the option that prevents immediate harm. For example, preventing aspiration or stopping bleeding is higher priority than documentation."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "The Hierarchy of Safety Priorities",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Immediate life threats (airway, breathing, circulation).",
+                "Prevent injury (fall, aspiration, seizure safety).",
+                "Prevent infection spread (hand hygiene, isolation).",
+                "Prevent future harm (education, reporting, policy compliance)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Rule: if patient is unstable or safety is compromised, you act first and call for help—not later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Infection Control Fundamentals",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection prevention breaks the chain of infection: infectious agent → reservoir → exit route → mode of transmission → entry route → susceptible host."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Standard Precautions (Always Use)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Standard precautions apply to ALL patients regardless of diagnosis."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hand hygiene before and after every patient contact.",
+                "Gloves when contact with blood/body fluids is possible.",
+                "Gown, mask, eye protection when splashes are possible.",
+                "Safe sharps handling (never recap needles unless policy allows specific technique).",
+                "Respiratory hygiene/cough etiquette."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A patient has no isolation sign, but has diarrhea. You still use standard precautions and strict hand hygiene."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Hand Hygiene: The #1 Intervention",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hand hygiene is the single most effective infection prevention action. Alcohol-based rub works for most organisms, but soap-and-water is essential for:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Clostridioides difficile (C. diff)",
+                "Visible soil on hands",
+                "After caring for patients with vomiting/diarrhea outbreaks"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX tip: if you see C. diff in a question, choose soap-and-water and contact precautions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "PPE: Donning and Doffing (High Yield)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Correct PPE prevents self-contamination."
+            },
+            {
+              "type": "paragraph",
+              "text": "Donning order (put on): Gown → Mask/respirator → Goggles/face shield → Gloves."
+            },
+            {
+              "type": "paragraph",
+              "text": "Doffing order (take off): Gloves → Goggles/face shield → Gown → Mask/respirator (last) → Hand hygiene."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX cue: remove contaminated gloves first and always perform hand hygiene after removing PPE."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Transmission-Based Precautions (Airborne, Droplet, Contact)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Transmission-based precautions are added to standard precautions when infection risk is higher."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Contact Precautions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Used for organisms spread by direct contact or contaminated surfaces."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Examples: C. diff, MRSA, VRE, scabies.",
+                "PPE: gown and gloves on entry.",
+                "Room: private room preferred; dedicated equipment."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Important: C. diff requires soap-and-water hand hygiene and bleach-based cleaning."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Droplet Precautions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Used for respiratory droplets that travel short distances."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Examples: influenza, meningococcal meningitis, pertussis.",
+                "PPE: surgical mask (plus eye protection if splash risk).",
+                "Patient: mask during transport."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Airborne Precautions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Used for organisms that remain suspended in air."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Examples: TB, measles (rubeola), varicella (chickenpox).",
+                "PPE: N95 or respirator.",
+                "Room: negative pressure room.",
+                "Patient transport: mask patient; minimize movement."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX memory trick: 'MTV' = Measles, TB, Varicella → Airborne."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Preventing Healthcare-Associated Infections (HAIs)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "HAIs are infections acquired during healthcare. NCLEX tests prevention bundles and nursing monitoring."
+        },
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "CAUTI Prevention (Catheter-Associated UTI)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Use catheter only when necessary; remove early.",
+                "Maintain closed drainage system.",
+                "Keep bag below bladder level; no dependent loops.",
+                "Perform perineal care routinely.",
+                "Do not disconnect tubing unnecessarily."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If the urinary bag is on the floor, fix it immediately. This is a preventable infection risk."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "CLABSI Prevention (Central Line Infection)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Strict aseptic technique for dressing changes.",
+                "Scrub the hub (alcohol/chlorhexidine) before access.",
+                "Daily review of line necessity.",
+                "Monitor insertion site for redness, drainage, fever."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "VAP Prevention (Ventilator-Associated Pneumonia)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "HOB elevation 30–45 degrees.",
+                "Daily sedation interruption and readiness to extubate per protocol.",
+                "Oral care with chlorhexidine per policy.",
+                "Suctioning and VTE prophylaxis."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Aseptic Technique and Sterile Procedures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Aseptic technique prevents microorganisms from entering sterile sites. NCLEX often tests sterile field contamination."
+        },
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Sterile Field Rules (Must Know)",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Sterile touches sterile only.",
+                "Keep sterile field above waist and in view.",
+                "1-inch border of sterile field is considered contaminated.",
+                "If in doubt, treat as contaminated and replace.",
+                "Do not reach over sterile field."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If sterile glove touches the bed linen, it is contaminated. The nurse must change gloves before continuing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Patient Safety: Preventing Falls, Aspiration, Pressure Injuries",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Fall Prevention (Extremely Common NCLEX)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Falls are preventable. NCLEX expects proactive interventions."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Assess fall risk on admission and after status changes.",
+                "Bed low and locked; call bell within reach.",
+                "Non-slip footwear; clutter-free environment.",
+                "Scheduled toileting for high-risk patients.",
+                "Use alarms and close observation for confused patients."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX cue: A confused patient attempting to climb out of bed requires immediate safety measures and supervision."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Aspiration Precautions",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Keep HOB elevated during and after feeding.",
+                "Swallow screen after stroke before oral intake.",
+                "Thickened liquids if prescribed.",
+                "Suction available for high-risk patients."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.3",
+          "title": "Pressure Injury Prevention",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Turn/reposition at least every 2 hours (or per protocol).",
+                "Use pressure-relieving mattress.",
+                "Keep skin clean/dry; manage moisture.",
+                "Nutrition support (protein) and hydration.",
+                "Inspect bony prominences daily."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Hazardous Exposures and Occupational Safety",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "Needle-stick and Blood/Body Fluid Exposure",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If exposure occurs, act immediately."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wash area with soap and water (or flush mucous membranes).",
+                "Report exposure immediately per facility policy.",
+                "Seek evaluation for post-exposure prophylaxis (PEP) if indicated.",
+                "Document incident and follow follow-up testing schedule."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX rule: do not delay reporting. Early PEP is time-sensitive."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "Sharps Safety",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Never recap needles unless procedure requires and policy supports one-hand scoop.",
+                "Dispose immediately in sharps container.",
+                "Do not overfill sharps container."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Isolation Transport, Cleaning, and Waste Disposal",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection control continues even during transport and cleaning."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Transport: keep precautions in place; mask patient for droplet/airborne as appropriate.",
+            "Cleaning: dedicate equipment; disinfect high-touch surfaces.",
+            "Waste: follow biohazard disposal procedures; linen treated as contaminated."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: For airborne precautions, patient wears surgical mask during transport while staff wears N95 as policy requires."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Patient Education and Health Promotion",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Hand hygiene teaching for patients and visitors.",
+            "Completing antibiotic courses.",
+            "Vaccinations and immunisation schedule awareness.",
+            "Wound care at home and red flags to report (fever, pus, increasing pain)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Teach using simple instructions and teach-back: \"Can you show me how you will clean the wound at home?\""
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases build your NCLEX clinical judgment in safety and infection control."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Suspected C. difficile",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A hospitalized patient develops watery diarrhea with foul smell after several days of antibiotics. They have abdominal cramping."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Recent antibiotic use; Watery diarrhea; High contamination risk. Practice questions: What is the first nursing action? Which hand hygiene is required? What cleaning precaution is needed? Model CJMM: Recognize: C. diff suspicion. Analyze: contact-spread organism with spores. Prioritize: prevent spread. Solutions: initiate contact precautions, wash hands with soap-and-water, dedicated equipment, notify team. Evaluate: diarrhea monitored, precautions maintained, no cross-contamination."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — TB Precautions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient presents with night sweats, weight loss, persistent cough, and hemoptysis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: TB symptoms; Airborne transmission risk. Practice questions: What precautions are required? What room type is needed? What PPE must staff wear? Model CJMM: Recognize: high TB likelihood. Analyze: airborne disease risk. Prioritize: protect staff/others. Solutions: place in negative pressure room, airborne precautions, N95 respirator, limit transport. Evaluate: transmission risk controlled, appropriate testing completed."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Fall Risk Confused Patient",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: An older adult with delirium tries to climb out of bed at night. They are unsteady and pulling on IV lines."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Confusion and poor safety awareness; Unsteady gait; Equipment entanglement risk. Practice questions: What should the nurse do first? What interventions reduce falls? What outcome indicates success? Model CJMM: Recognize: high fall risk now. Analyze: risk of injury is immediate. Prioritize: prevent harm. Solutions: stay with patient/call for assistance, bed low and alarm, frequent toileting, close observation. Evaluate: patient remains free from falls and injuries."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Central Line Infection Concern",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A patient with a central line develops fever and chills during infusion. The insertion site looks red with drainage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Fever/chills; Redness/drainage at insertion site. Practice questions: What is priority nursing action? What infection is suspected? What steps prevent worsening? Model CJMM: Recognize: CLABSI suspicion. Analyze: bloodstream infection risk. Prioritize: sepsis prevention and prompt treatment. Solutions: stop infusion if ordered, notify provider, obtain cultures as ordered, maintain aseptic technique, monitor vitals closely. Evaluate: timely treatment started; vitals stabilize."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Needle-stick Injury",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A nurse experiences a needle-stick after administering an injection to a patient with unknown infectious status."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Exposure incident; Time-sensitive prevention needed. Practice questions: What should the nurse do immediately? Why is reporting urgent? What follow-up may be required? Model CJMM: Recognize: occupational exposure. Analyze: risk of blood-borne transmission. Prioritize: protect worker health. Solutions: wash area, report immediately, seek PEP evaluation, follow testing schedule. Evaluate: appropriate PEP and follow-up completed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Mini Quiz (NCLEX-Style) — Module 8",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Choose the safest and most evidence-based action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A patient with suspected C. diff requires which hand hygiene?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Alcohol-based hand rub only",
+            "B. Soap and water handwashing",
+            "C. No hand hygiene if gloves worn",
+            "D. Hand rub only after leaving room"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: C. diff spores are not reliably killed by alcohol rub; soap-and-water is required."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which organism requires airborne precautions?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Influenza",
+            "B. Tuberculosis",
+            "C. MRSA",
+            "D. C. diff"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: TB is airborne and requires N95 and negative pressure room."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: Correct order for removing PPE is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Gown, mask, gloves",
+            "B. Gloves, goggles, gown, mask",
+            "C. Mask, gloves, gown",
+            "D. Goggles, mask, gown, gloves"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Remove most contaminated first: gloves; mask last."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A nurse notes urinary catheter bag is above bladder level. Best action:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Leave it to avoid disturbing patient",
+            "B. Reposition bag below bladder level immediately",
+            "C. Empty bag into sink",
+            "D. Disconnect tubing to straighten"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Keeping bag below bladder prevents backflow and CAUTI risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: A confused patient tries to get out of bed. Priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Complete documentation first",
+            "B. Stay with patient and prevent fall; call for assistance",
+            "C. Ask family to come tomorrow",
+            "D. Place restraints immediately"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Immediate fall prevention is priority; least restrictive methods first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A sterile glove touches bed linen. The nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Continue if glove looks clean",
+            "B. Change glove because it is contaminated",
+            "C. Clean glove with alcohol rub",
+            "D. Ignore because bed is dry"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Bed linen is non-sterile; sterile glove is contaminated and must be replaced."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: Needle-stick injury: first action is to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Complete shift first",
+            "B. Wash area and report immediately",
+            "C. Recap needle and throw away",
+            "D. Apply antibiotic ointment and ignore"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Immediate cleansing and reporting are time-sensitive for PEP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: Droplet precautions require which PPE?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. N95 only",
+            "B. Surgical mask",
+            "C. Gloves only",
+            "D. No PPE if patient in private room"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Droplet pathogens require surgical mask (plus standard precautions)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: To prevent VAP, the nurse should:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Keep patient flat",
+            "B. Elevate head of bed 30–45 degrees",
+            "C. Avoid oral care",
+            "D. Limit suctioning always"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: HOB elevation reduces aspiration and VAP risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: A patient on contact precautions should have:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Shared equipment without cleaning",
+            "B. Dedicated equipment whenever possible",
+            "C. No gloves needed if mask worn",
+            "D. Airborne room"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Dedicated equipment reduces cross-contamination in contact isolation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For every incorrect answer, write: (1) the hazard (infection/fall/aspiration), (2) the correct precaution, and (3) the immediate nursing action. Reattempt this quiz after 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local infection control policy, clinical supervision, or medical advice."
+        }
+      ]
+    }
+  ]
+}

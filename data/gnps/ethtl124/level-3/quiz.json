@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A competency assessment shows that staff can complete catheter-insertion steps correctly but often fail to respond when contamination occurs. What is the best programme redesign?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Include realistic contamination interruptions, immediate feedback and repeat practice until safe judgement is demonstrated."
+        },
+        {
+          "id": "B",
+          "text": "Add more written theory about catheterisation."
+        },
+        {
+          "id": "C",
+          "text": "Shorten the assessment checklist."
+        },
+        {
+          "id": "D",
+          "text": "Allow staff to self-certify after watching a video."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Competence includes judgement and response to complications, not only completion of steps. Deliberate practice with feedback targets the observed gap."
+    },
+    {
+      "id": "q2",
+      "stem": "Which element should a comprehensive clinical-skills competency framework assess?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical completion only."
+        },
+        {
+          "id": "B",
+          "text": "Knowledge, preparation, technical accuracy, communication, judgement and evaluation."
+        },
+        {
+          "id": "C",
+          "text": "Years of experience and confidence."
+        },
+        {
+          "id": "D",
+          "text": "Attendance at training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The notes emphasise that competence is multidimensional and cannot be reduced to a procedural checklist."
+    },
+    {
+      "id": "q3",
+      "stem": "A learner performs a procedure correctly once during simulation. What should the educator do before confirming competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sign off immediately because the steps were correct."
+        },
+        {
+          "id": "B",
+          "text": "Ask the learner to complete a reflective paragraph only."
+        },
+        {
+          "id": "C",
+          "text": "Assess consistency, reasoning, communication and response to complications through further supervised performance."
+        },
+        {
+          "id": "D",
+          "text": "Rely on peer opinion."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "One successful performance may not demonstrate reliable competence across conditions."
+    },
+    {
+      "id": "q4",
+      "stem": "Which feedback statement is most effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You need to be more careful."
+        },
+        {
+          "id": "B",
+          "text": "You are not ready for practice."
+        },
+        {
+          "id": "C",
+          "text": "Everyone makes mistakes."
+        },
+        {
+          "id": "D",
+          "text": "During sterile setup, your sleeve crossed the field; pause, re-establish the field and repeat the setup now."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Feedback should be specific, timely, linked to observable behaviour and followed by another practice opportunity."
+    },
+    {
+      "id": "q5",
+      "stem": "A nurse admits uncertainty about using a device and asks for supervision. What is the most appropriate educator response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Support the request and arrange supervised practice before independent use."
+        },
+        {
+          "id": "B",
+          "text": "Criticise the nurse for lack of confidence."
+        },
+        {
+          "id": "C",
+          "text": "Ask the nurse to learn by trial and error."
+        },
+        {
+          "id": "D",
+          "text": "Remove the nurse permanently from device use."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Psychological safety makes help-seeking expected and prevents unsafe independent practice."
+    },
+    {
+      "id": "q6",
+      "stem": "Which simulation scenario best develops clinical judgement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A predictable procedure with no interruptions."
+        },
+        {
+          "id": "B",
+          "text": "A procedure that includes changing observations, equipment difficulty and a decision about whether to stop."
+        },
+        {
+          "id": "C",
+          "text": "A lecture followed by a quiz."
+        },
+        {
+          "id": "D",
+          "text": "A demonstration without learner participation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Realistic decision points and complications strengthen judgement, not just motor performance."
+    },
+    {
+      "id": "q7",
+      "stem": "A skills educator notices wide variation in how assessors judge the same performance. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow assessor preference because clinical practice varies."
+        },
+        {
+          "id": "B",
+          "text": "Use only one assessor for all staff."
+        },
+        {
+          "id": "C",
+          "text": "Clarify standards, use agreed criteria and calibrate assessors using shared examples."
+        },
+        {
+          "id": "D",
+          "text": "Remove judgement from the assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Consistent criteria and assessor calibration improve fairness and reliability."
+    },
+    {
+      "id": "q8",
+      "stem": "Which action best supports deliberate practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing one long simulation annually."
+        },
+        {
+          "id": "B",
+          "text": "Reading the policy after an error."
+        },
+        {
+          "id": "C",
+          "text": "Observing an expert without participation."
+        },
+        {
+          "id": "D",
+          "text": "Repeated focused practice of a specific weakness with feedback and another attempt."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Deliberate practice is focused, repeated and feedback-driven."
+    },
+    {
+      "id": "q9",
+      "stem": "A learner becomes defensive after feedback. What is the best coaching response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Return to observable behaviour, invite reflection and agree on a specific practice goal."
+        },
+        {
+          "id": "B",
+          "text": "End the discussion."
+        },
+        {
+          "id": "C",
+          "text": "Compare the learner with stronger colleagues."
+        },
+        {
+          "id": "D",
+          "text": "Document failure without discussion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Constructive coaching remains specific, respectful and improvement-focused."
+    },
+    {
+      "id": "q10",
+      "stem": "What is the main limitation of a checklist-only competency assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Checklists are too difficult to score."
+        },
+        {
+          "id": "B",
+          "text": "They may confirm task completion without assessing reasoning, communication or adaptation."
+        },
+        {
+          "id": "C",
+          "text": "They cannot be used in simulation."
+        },
+        {
+          "id": "D",
+          "text": "They always reduce consistency."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A checklist supports consistency but does not replace judgement."
+    },
+    {
+      "id": "q11",
+      "stem": "A nurse repeatedly performs well in simulation but poorly during busy shifts. What should the educator investigate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether simulation should be abandoned."
+        },
+        {
+          "id": "B",
+          "text": "Whether the nurse prefers another specialty."
+        },
+        {
+          "id": "C",
+          "text": "Transfer of learning, workload, interruptions, supervision and real-world conditions."
+        },
+        {
+          "id": "D",
+          "text": "Only the nurse’s motivation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Performance is shaped by both competence and workplace conditions."
+    },
+    {
+      "id": "q12",
+      "stem": "Which outcome best demonstrates an effective skills programme?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High attendance."
+        },
+        {
+          "id": "B",
+          "text": "Positive course evaluations only."
+        },
+        {
+          "id": "C",
+          "text": "Completion of every checklist."
+        },
+        {
+          "id": "D",
+          "text": "Consistent safe performance, appropriate help-seeking and improved patient outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Training should translate into reliable practice and safer care."
+    },
+    {
+      "id": "q13",
+      "stem": "A mentor observes that a nurse understands theory but hesitates during complications. What is the best next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use supervised complication scenarios with guided reasoning and feedback."
+        },
+        {
+          "id": "B",
+          "text": "Provide more reading."
+        },
+        {
+          "id": "C",
+          "text": "Sign off theory competence only."
+        },
+        {
+          "id": "D",
+          "text": "Avoid exposing the nurse to complexity."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The identified gap is applied judgement under changing conditions."
+    },
+    {
+      "id": "q14",
+      "stem": "Which environment most strongly supports learning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One in which errors are hidden."
+        },
+        {
+          "id": "B",
+          "text": "One in which uncertainty can be discussed without humiliation while standards remain clear."
+        },
+        {
+          "id": "C",
+          "text": "One in which only experts speak."
+        },
+        {
+          "id": "D",
+          "text": "One in which every error leads to punishment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Psychological safety supports honest learning and early help-seeking."
+    },
+    {
+      "id": "q15",
+      "stem": "A competency programme uses the same assessment for novice and advanced nurses. What is the main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The programme is too efficient."
+        },
+        {
+          "id": "B",
+          "text": "All learners should be assessed identically."
+        },
+        {
+          "id": "C",
+          "text": "Assessment may not match role, risk or expected level of judgement."
+        },
+        {
+          "id": "D",
+          "text": "Advanced nurses need no assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Competency processes should align with role and clinical risk."
+    },
+    {
+      "id": "q16",
+      "stem": "Which action best develops assessors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow assessors to rely on intuition."
+        },
+        {
+          "id": "B",
+          "text": "Rotate assessors frequently without preparation."
+        },
+        {
+          "id": "C",
+          "text": "Use only self-assessment."
+        },
+        {
+          "id": "D",
+          "text": "Train assessors, compare scoring decisions and review difficult cases together."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Assessor preparation and calibration improve consistency."
+    },
+    {
+      "id": "q17",
+      "stem": "A learner makes an error during simulation that would have harmed a patient. What should the educator do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use debriefing to examine reasoning, system factors and a safe repeat performance."
+        },
+        {
+          "id": "B",
+          "text": "End the learner’s programme immediately."
+        },
+        {
+          "id": "C",
+          "text": "Ignore it because no patient was harmed."
+        },
+        {
+          "id": "D",
+          "text": "Focus only on technical correction."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Simulation allows errors to become structured learning opportunities."
+    },
+    {
+      "id": "q18",
+      "stem": "Which teaching method is strongest for a high-risk skill?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A recorded lecture only."
+        },
+        {
+          "id": "B",
+          "text": "Demonstration, supervised practice, realistic simulation, feedback and reassessment."
+        },
+        {
+          "id": "C",
+          "text": "A policy acknowledgement form."
+        },
+        {
+          "id": "D",
+          "text": "Informal peer observation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "High-risk skills require multimodal practice and verified performance."
+    },
+    {
+      "id": "q19",
+      "stem": "A nurse performs safely but cannot explain critical safety rationales. What should the assessor conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competence is complete because performance was correct."
+        },
+        {
+          "id": "B",
+          "text": "The rationales are irrelevant."
+        },
+        {
+          "id": "C",
+          "text": "Further assessment is needed because understanding supports adaptation to unexpected events."
+        },
+        {
+          "id": "D",
+          "text": "Only documentation needs improvement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Verbalised reasoning helps confirm that safe actions can be adapted beyond memorised steps."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects Level 3 leadership in clinical-skills education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse personally performs every complex procedure."
+        },
+        {
+          "id": "B",
+          "text": "The nurse replaces simulation with policy review."
+        },
+        {
+          "id": "C",
+          "text": "The nurse assesses technical speed only."
+        },
+        {
+          "id": "D",
+          "text": "The nurse builds reliable competency systems that develop judgement, feedback and safe help-seeking."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 leadership strengthens the capability of others and the learning system. Section 2 - Human Factors and Procedural Safety Systems"
+    },
+    {
+      "id": "q21",
+      "stem": "Repeated specimen-labelling errors occur because labels print away from the bedside and several patients have similar names. Which intervention is strongest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduce bedside label printing, barcode verification and a redesigned workflow."
+        },
+        {
+          "id": "B",
+          "text": "Remind staff to check labels carefully."
+        },
+        {
+          "id": "C",
+          "text": "Increase annual education."
+        },
+        {
+          "id": "D",
+          "text": "Ask patients to inspect their labels."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Workflow redesign and forcing functions are stronger than reminders alone."
+    },
+    {
+      "id": "q22",
+      "stem": "Which statement best reflects human-factors thinking?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Competent staff should never make mistakes."
+        },
+        {
+          "id": "B",
+          "text": "Systems should reduce reliance on perfect memory, attention and concentration."
+        },
+        {
+          "id": "C",
+          "text": "Training removes all risk."
+        },
+        {
+          "id": "D",
+          "text": "Errors are mainly caused by poor motivation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Human performance is limited, especially under fatigue and interruption."
+    },
+    {
+      "id": "q23",
+      "stem": "A medication-preparation area is frequently interrupted. What is the strongest control?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell nurses to focus."
+        },
+        {
+          "id": "B",
+          "text": "Add a reminder poster."
+        },
+        {
+          "id": "C",
+          "text": "Redesign the area and workflow to reduce interruptions during high-risk tasks."
+        },
+        {
+          "id": "D",
+          "text": "Ask nurses to prepare medicines faster."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Environmental and workflow redesign is stronger than relying on vigilance."
+    },
+    {
+      "id": "q24",
+      "stem": "Which recommendation is weakest after a procedural incident?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Standardise equipment layout."
+        },
+        {
+          "id": "B",
+          "text": "Introduce forcing functions."
+        },
+        {
+          "id": "C",
+          "text": "Redesign confusing labels."
+        },
+        {
+          "id": "D",
+          "text": "Tell staff to be more careful."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "General reminders are weak controls because they rely on memory and attention."
+    },
+    {
+      "id": "q25",
+      "stem": "Why should frontline staff participate in learning reviews?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They understand how work is actually performed and where pressures or workarounds occur."
+        },
+        {
+          "id": "B",
+          "text": "They can identify who is to blame."
+        },
+        {
+          "id": "C",
+          "text": "They replace data analysis."
+        },
+        {
+          "id": "D",
+          "text": "They should write all recommendations."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Frontline insight helps reveal practical system conditions."
+    },
+    {
+      "id": "q26",
+      "stem": "A review blames one nurse for using the wrong connector but ignores two nearly identical connectors stored together. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A competency checklist."
+        },
+        {
+          "id": "B",
+          "text": "Analysis of equipment design and storage as contributing system factors."
+        },
+        {
+          "id": "C",
+          "text": "A disciplinary response."
+        },
+        {
+          "id": "D",
+          "text": "Patient education."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Systems thinking examines conditions that shaped the error."
+    },
+    {
+      "id": "q27",
+      "stem": "Which control is strongest in the hierarchy of controls?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Annual education."
+        },
+        {
+          "id": "B",
+          "text": "A warning label."
+        },
+        {
+          "id": "C",
+          "text": "A connector design that makes incorrect attachment physically impossible."
+        },
+        {
+          "id": "D",
+          "text": "A reminder email."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Forcing functions and engineering controls are stronger than administrative reminders."
+    },
+    {
+      "id": "q28",
+      "stem": "A procedure kit contains different items on each ward. What is the most appropriate improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask staff to memorise local differences."
+        },
+        {
+          "id": "B",
+          "text": "Use larger labels only."
+        },
+        {
+          "id": "C",
+          "text": "Allow each ward to continue its preference."
+        },
+        {
+          "id": "D",
+          "text": "Standardise kit contents and layout across the service where clinically appropriate."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Standardisation reduces variation and omissions."
+    },
+    {
+      "id": "q29",
+      "stem": "A new checklist increases completion time and staff begin bypassing it. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review usability, workflow impact and whether the checklist targets meaningful risks."
+        },
+        {
+          "id": "B",
+          "text": "Punish every bypass."
+        },
+        {
+          "id": "C",
+          "text": "Add more checklist items."
+        },
+        {
+          "id": "D",
+          "text": "Stop measuring bypasses."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Workarounds may signal poor design and should prompt evaluation."
+    },
+    {
+      "id": "q30",
+      "stem": "Which question best supports a systems learning review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Who failed?"
+        },
+        {
+          "id": "B",
+          "text": "What happened, how did conditions shape the event and what controls could reduce recurrence?"
+        },
+        {
+          "id": "C",
+          "text": "Why was policy ignored?"
+        },
+        {
+          "id": "D",
+          "text": "Which staff member should be retrained?"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Learning reviews should focus on how and why, not blame alone."
+    },
+    {
+      "id": "q31",
+      "stem": "A service standardises infusion pumps but leaves programming terminology inconsistent. What risk remains?",
+      "options": [
+        {
+          "id": "A",
+          "text": "None, because hardware is standardised."
+        },
+        {
+          "id": "B",
+          "text": "Only documentation delay."
+        },
+        {
+          "id": "C",
+          "text": "Cognitive confusion and programming error due to inconsistent language."
+        },
+        {
+          "id": "D",
+          "text": "Reduced staff satisfaction."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Standardisation should include interfaces, labels and terminology."
+    },
+    {
+      "id": "q32",
+      "stem": "Which finding suggests alert fatigue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff respond promptly to critical alerts."
+        },
+        {
+          "id": "B",
+          "text": "The device produces one alarm."
+        },
+        {
+          "id": "C",
+          "text": "The system requires confirmation."
+        },
+        {
+          "id": "D",
+          "text": "Staff frequently override or ignore alerts because many are non-actionable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Excessive low-value alerts can desensitise users."
+    },
+    {
+      "id": "q33",
+      "stem": "A review produces ten broad recommendations with no owners or deadlines. What is the main problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recommendations are unlikely to be implemented or evaluated."
+        },
+        {
+          "id": "B",
+          "text": "The review is too ambitious."
+        },
+        {
+          "id": "C",
+          "text": "Broad actions improve flexibility."
+        },
+        {
+          "id": "D",
+          "text": "Owners are unnecessary in team-based work."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Recommendations should be specific, assigned and evaluated."
+    },
+    {
+      "id": "q34",
+      "stem": "Which outcome best demonstrates effective standardisation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every ward uses identical documentation regardless of context."
+        },
+        {
+          "id": "B",
+          "text": "Variation and omissions decrease while appropriate clinical judgement remains possible."
+        },
+        {
+          "id": "C",
+          "text": "Staff stop questioning procedures."
+        },
+        {
+          "id": "D",
+          "text": "All procedures become faster."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Good standardisation supports reliability without eliminating judgement."
+    },
+    {
+      "id": "q35",
+      "stem": "A procedure error occurs after 14 hours of work. What factor should be examined?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only technical competence."
+        },
+        {
+          "id": "B",
+          "text": "Patient cooperation."
+        },
+        {
+          "id": "C",
+          "text": "Fatigue and workload as human-factors contributors."
+        },
+        {
+          "id": "D",
+          "text": "The nurse’s personality."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Fatigue affects attention, memory and decision-making."
+    },
+    {
+      "id": "q36",
+      "stem": "Which intervention best addresses similar-name patient risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask staff to remember the names."
+        },
+        {
+          "id": "B",
+          "text": "Assign patients to different rooms only."
+        },
+        {
+          "id": "C",
+          "text": "Reduce documentation."
+        },
+        {
+          "id": "D",
+          "text": "Use prominent alerts, two-identifier verification and barcode confirmation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Multiple system controls reduce reliance on memory."
+    },
+    {
+      "id": "q37",
+      "stem": "A standard pathway is introduced but equipment remains unavailable on night shift. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implementation conditions are incomplete and reliability will remain poor."
+        },
+        {
+          "id": "B",
+          "text": "The pathway is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Night staff need more education."
+        },
+        {
+          "id": "D",
+          "text": "The policy should be longer."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe processes require resources as well as written standards."
+    },
+    {
+      "id": "q38",
+      "stem": "Which outcome best reflects a strong learning review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A report is filed."
+        },
+        {
+          "id": "B",
+          "text": "Specific changes are implemented and shown to reduce the identified risk."
+        },
+        {
+          "id": "C",
+          "text": "Staff complete retraining."
+        },
+        {
+          "id": "D",
+          "text": "The incident is discussed once."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The purpose of review is measurable risk reduction."
+    },
+    {
+      "id": "q39",
+      "stem": "What is the main value of a forcing function?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reminds users of policy."
+        },
+        {
+          "id": "B",
+          "text": "It increases documentation."
+        },
+        {
+          "id": "C",
+          "text": "It prevents or makes an unsafe action difficult to complete."
+        },
+        {
+          "id": "D",
+          "text": "It transfers responsibility to technology."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Forcing functions reduce reliance on memory and voluntary compliance."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects Level 3 systems leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse personally corrects staff errors."
+        },
+        {
+          "id": "B",
+          "text": "The nurse increases education after every incident."
+        },
+        {
+          "id": "C",
+          "text": "The nurse removes all local variation."
+        },
+        {
+          "id": "D",
+          "text": "The nurse redesigns conditions so safe procedural performance is easier and more reliable."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 leadership focuses on system design and reliable practice. Section 3 - Quality Improvement and Clinical-Skills Governance"
+    },
+    {
+      "id": "q41",
+      "stem": "A ward has frequent peripheral IV failures. What should the improvement team do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Define the problem using baseline data and review insertion, securement, site selection and daily assessment."
+        },
+        {
+          "id": "B",
+          "text": "Purchase new devices immediately."
+        },
+        {
+          "id": "C",
+          "text": "Retrain all staff before analysing the pattern."
+        },
+        {
+          "id": "D",
+          "text": "Replace all policies."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Improvement begins with a clearly defined problem and understanding of current practice."
+    },
+    {
+      "id": "q42",
+      "stem": "Which is a process measure for an IV improvement project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rate of early IV failure."
+        },
+        {
+          "id": "B",
+          "text": "Percentage of insertions using the standard securement and assessment bundle."
+        },
+        {
+          "id": "C",
+          "text": "Patient discomfort rate."
+        },
+        {
+          "id": "D",
+          "text": "Staff injury rate."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Process measures show whether the intended practice occurred."
+    },
+    {
+      "id": "q43",
+      "stem": "Which is an outcome measure for the same project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Checklist completion."
+        },
+        {
+          "id": "B",
+          "text": "Training attendance."
+        },
+        {
+          "id": "C",
+          "text": "Rate of infiltration, phlebitis or early device failure."
+        },
+        {
+          "id": "D",
+          "text": "Number of audit forms."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Outcome measures describe the effect on patients or devices."
+    },
+    {
+      "id": "q44",
+      "stem": "Which is a balancing measure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Device failure rate."
+        },
+        {
+          "id": "B",
+          "text": "Compliance with hand hygiene."
+        },
+        {
+          "id": "C",
+          "text": "Number of staff trained."
+        },
+        {
+          "id": "D",
+          "text": "Additional procedure time or workload created by the new bundle."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Balancing measures identify unintended consequences."
+    },
+    {
+      "id": "q45",
+      "stem": "A quality project improves checklist completion but patient pain remains unchanged. What should leaders conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Process compliance has improved, but the intervention has not yet improved the patient outcome."
+        },
+        {
+          "id": "B",
+          "text": "The project is complete."
+        },
+        {
+          "id": "C",
+          "text": "Pain is unrelated to procedural quality."
+        },
+        {
+          "id": "D",
+          "text": "More documentation is needed."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Process improvement should be linked to meaningful outcomes and experience."
+    },
+    {
+      "id": "q46",
+      "stem": "Which governance elements support safe clinical procedures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Policies and training only."
+        },
+        {
+          "id": "B",
+          "text": "Policies, credentialing, competency records, equipment maintenance, incident review and audit."
+        },
+        {
+          "id": "C",
+          "text": "Equipment purchasing only."
+        },
+        {
+          "id": "D",
+          "text": "Annual staff appraisal only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical-skills governance requires multiple organisational controls."
+    },
+    {
+      "id": "q47",
+      "stem": "A policy remains current, but the approved equipment is no longer available. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue using substitutes informally."
+        },
+        {
+          "id": "B",
+          "text": "Ask staff to improvise."
+        },
+        {
+          "id": "C",
+          "text": "Review the procedure, equipment, training and policy together before continued use."
+        },
+        {
+          "id": "D",
+          "text": "Remove the policy from the intranet."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Governance requires alignment between policy, equipment and competence."
+    },
+    {
+      "id": "q48",
+      "stem": "Which patient-experience measures are relevant to procedural quality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only satisfaction with food."
+        },
+        {
+          "id": "B",
+          "text": "Length of stay only."
+        },
+        {
+          "id": "C",
+          "text": "Number of visitors."
+        },
+        {
+          "id": "D",
+          "text": "Pain, dignity, explanation and confidence."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The notes specifically identify pain, dignity, explanation and confidence."
+    },
+    {
+      "id": "q49",
+      "stem": "A team wants to test a new wound-care bundle. What is the best approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Test a focused change in a small setting, study results and adapt before wider rollout."
+        },
+        {
+          "id": "B",
+          "text": "Implement across the organisation immediately."
+        },
+        {
+          "id": "C",
+          "text": "Wait for perfect evidence."
+        },
+        {
+          "id": "D",
+          "text": "Change multiple processes simultaneously without measurement."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Small improvement cycles allow learning before scale-up."
+    },
+    {
+      "id": "q50",
+      "stem": "Which audit finding most clearly indicates a governance gap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Different staff use slightly different words when explaining a procedure."
+        },
+        {
+          "id": "B",
+          "text": "High-risk procedures are performed by staff without current competency records."
+        },
+        {
+          "id": "C",
+          "text": "One patient asks an additional question."
+        },
+        {
+          "id": "D",
+          "text": "A procedure takes longer than expected."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "High-risk practice without verified competence is a significant governance failure."
+    },
+    {
+      "id": "q51",
+      "stem": "A service introduces a procedural bundle and sees fewer infections but more treatment delays. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore delays because infections fell."
+        },
+        {
+          "id": "B",
+          "text": "Stop the bundle immediately."
+        },
+        {
+          "id": "C",
+          "text": "Review the balancing measure and adapt the bundle to preserve benefit while reducing delay."
+        },
+        {
+          "id": "D",
+          "text": "Report only the positive outcome."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Quality improvement should consider both benefits and unintended effects."
+    },
+    {
+      "id": "q52",
+      "stem": "Which data source can identify procedural variation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff opinion only."
+        },
+        {
+          "id": "B",
+          "text": "Policy length."
+        },
+        {
+          "id": "C",
+          "text": "Ward occupancy only."
+        },
+        {
+          "id": "D",
+          "text": "Audit, incident reports, equipment records, patient outcomes and experience."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Multiple sources provide a fuller picture of quality and reliability."
+    },
+    {
+      "id": "q53",
+      "stem": "A service measures hand hygiene but not infection outcomes. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An outcome measure."
+        },
+        {
+          "id": "B",
+          "text": "A process measure."
+        },
+        {
+          "id": "C",
+          "text": "A policy."
+        },
+        {
+          "id": "D",
+          "text": "A training record."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Hand hygiene is a process measure; infection rates help evaluate patient impact."
+    },
+    {
+      "id": "q54",
+      "stem": "Which action best links governance with frontline learning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Managers design changes without consultation."
+        },
+        {
+          "id": "B",
+          "text": "Use audit data and involve staff who perform the procedure in testing improvements."
+        },
+        {
+          "id": "C",
+          "text": "Rely only on external standards."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing workarounds."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Frontline participation improves feasibility and implementation."
+    },
+    {
+      "id": "q55",
+      "stem": "A new procedure is introduced without equipment-maintenance arrangements. What is the main risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staff may prefer the old procedure."
+        },
+        {
+          "id": "B",
+          "text": "Documentation may increase."
+        },
+        {
+          "id": "C",
+          "text": "Reliability and safety may decline when devices are unavailable or malfunction."
+        },
+        {
+          "id": "D",
+          "text": "Patient education may take longer."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Governance includes reliable equipment maintenance."
+    },
+    {
+      "id": "q56",
+      "stem": "Which result best demonstrates sustainable improvement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One month of better data."
+        },
+        {
+          "id": "B",
+          "text": "High training attendance."
+        },
+        {
+          "id": "C",
+          "text": "A new policy."
+        },
+        {
+          "id": "D",
+          "text": "Improved outcomes maintained over time with acceptable workload and patient experience."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sustainability requires durable benefit without unacceptable burden."
+    },
+    {
+      "id": "q57",
+      "stem": "A ward has a high fall rate during toileting transfers. What should the team examine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessment, equipment, staffing, timing, environment and communication."
+        },
+        {
+          "id": "B",
+          "text": "Only staff competence."
+        },
+        {
+          "id": "C",
+          "text": "Only patient age."
+        },
+        {
+          "id": "D",
+          "text": "Only documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Procedural outcomes are often shaped by multiple system factors."
+    },
+    {
+      "id": "q58",
+      "stem": "Which statement best describes clinical-skills governance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It ensures every nurse uses identical technique."
+        },
+        {
+          "id": "B",
+          "text": "It provides organisational oversight so procedures are supported by current standards, competent staff, reliable equipment and monitoring."
+        },
+        {
+          "id": "C",
+          "text": "It replaces bedside judgement."
+        },
+        {
+          "id": "D",
+          "text": "It applies only to new procedures."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Governance creates the structures that support safe practice."
+    },
+    {
+      "id": "q59",
+      "stem": "A project shows no improvement after implementation. What should the team do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declare staff non-compliant."
+        },
+        {
+          "id": "B",
+          "text": "Continue unchanged for a year."
+        },
+        {
+          "id": "C",
+          "text": "Study the data, identify barriers and adapt or discontinue the change."
+        },
+        {
+          "id": "D",
+          "text": "Stop measuring."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Improvement cycles depend on learning and adaptation."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects Level 3 quality leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse audits more forms."
+        },
+        {
+          "id": "B",
+          "text": "The nurse writes longer policies."
+        },
+        {
+          "id": "C",
+          "text": "The nurse centralises every decision."
+        },
+        {
+          "id": "D",
+          "text": "The nurse uses data, governance and patient experience to improve procedural reliability and outcomes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 practice integrates oversight, measurement and improvement. Section 4 - Digital Technology, Innovation and Global Skills Development"
+    },
+    {
+      "id": "q61",
+      "stem": "A virtual simulation programme improves test scores but learners still struggle with hands-on device setup. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use virtual simulation for preparation and reflection while retaining supervised hands-on practice."
+        },
+        {
+          "id": "B",
+          "text": "Replace all practical training with virtual simulation."
+        },
+        {
+          "id": "C",
+          "text": "Increase the number of online quizzes."
+        },
+        {
+          "id": "D",
+          "text": "Conclude that learners lack motivation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Digital simulation complements but does not replace supervised physical practice."
+    },
+    {
+      "id": "q62",
+      "stem": "Which risk is associated with electronic checklists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They always eliminate omissions."
+        },
+        {
+          "id": "B",
+          "text": "Incorrect data, alert fatigue and workarounds may create new risks."
+        },
+        {
+          "id": "C",
+          "text": "They remove the need for judgement."
+        },
+        {
+          "id": "D",
+          "text": "They cannot be audited."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Digital support can reduce omission but also introduce automation-related hazards."
+    },
+    {
+      "id": "q63",
+      "stem": "A barcode system frequently fails and staff bypass it. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punish all bypasses."
+        },
+        {
+          "id": "B",
+          "text": "Disable all barcodes permanently."
+        },
+        {
+          "id": "C",
+          "text": "Investigate reliability, workflow and user experience, then redesign the system and contingency process."
+        },
+        {
+          "id": "D",
+          "text": "Tell staff to try harder."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Workarounds often signal usability or reliability problems."
+    },
+    {
+      "id": "q64",
+      "stem": "Which measure best evaluates a digital skills tool?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of logins only."
+        },
+        {
+          "id": "B",
+          "text": "Purchase price only."
+        },
+        {
+          "id": "C",
+          "text": "Training attendance only."
+        },
+        {
+          "id": "D",
+          "text": "Safety, usability, learning performance, access, unintended effects and user experience."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Digital tools require balanced evaluation beyond uptake."
+    },
+    {
+      "id": "q65",
+      "stem": "A rural training programme depends on live video, but internet access is unreliable. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add downloadable modules, local practice kits and remote coaching options."
+        },
+        {
+          "id": "B",
+          "text": "Cancel the programme."
+        },
+        {
+          "id": "C",
+          "text": "Require learners to travel weekly."
+        },
+        {
+          "id": "D",
+          "text": "Continue unchanged."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Equitable design provides alternatives for limited connectivity."
+    },
+    {
+      "id": "q66",
+      "stem": "Which statement best reflects automation bias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refusing to use technology."
+        },
+        {
+          "id": "B",
+          "text": "Accepting a digital recommendation despite contradictory clinical evidence."
+        },
+        {
+          "id": "C",
+          "text": "Reporting a device failure."
+        },
+        {
+          "id": "D",
+          "text": "Using a checklist carefully."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Automation bias occurs when technology is trusted over professional judgement."
+    },
+    {
+      "id": "q67",
+      "stem": "A digital checklist produces frequent non-actionable alerts. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add more alerts."
+        },
+        {
+          "id": "B",
+          "text": "Ask users to ignore low-priority alerts."
+        },
+        {
+          "id": "C",
+          "text": "Review thresholds and workflow to reduce alert fatigue while preserving critical warnings."
+        },
+        {
+          "id": "D",
+          "text": "Stop collecting alert data."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Excessive alerts can reduce attention to important signals."
+    },
+    {
+      "id": "q68",
+      "stem": "Which action best supports digital equity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Require all learners to use the same technology."
+        },
+        {
+          "id": "B",
+          "text": "Exclude learners unable to use the platform."
+        },
+        {
+          "id": "C",
+          "text": "Use only high-bandwidth virtual reality."
+        },
+        {
+          "id": "D",
+          "text": "Provide alternatives for limited connectivity, equipment or digital literacy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Access barriers should be addressed so technology does not exclude learners."
+    },
+    {
+      "id": "q69",
+      "stem": "A global clinical-skills package uses equipment unavailable locally. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapt the training and workflow to local equipment, scope, regulation and resources."
+        },
+        {
+          "id": "B",
+          "text": "Implement it exactly."
+        },
+        {
+          "id": "C",
+          "text": "Reject all global learning."
+        },
+        {
+          "id": "D",
+          "text": "Purchase the equipment before reviewing need."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Global standards should be adapted to local context."
+    },
+    {
+      "id": "q70",
+      "stem": "Which feature is essential when introducing decision support?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Automatic acceptance of recommendations."
+        },
+        {
+          "id": "B",
+          "text": "Clear accountability, override processes and monitoring for error or bias."
+        },
+        {
+          "id": "C",
+          "text": "Removal of clinician judgement."
+        },
+        {
+          "id": "D",
+          "text": "No post-implementation review."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Digital support must be governed and critically monitored."
+    },
+    {
+      "id": "q71",
+      "stem": "A video-review system is introduced for skill assessment. What ethical issue requires attention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video quality only."
+        },
+        {
+          "id": "B",
+          "text": "Whether staff enjoy recording."
+        },
+        {
+          "id": "C",
+          "text": "Consent, privacy, secure storage and appropriate access."
+        },
+        {
+          "id": "D",
+          "text": "Whether videos are long enough."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Recorded clinical performance creates privacy and governance obligations."
+    },
+    {
+      "id": "q72",
+      "stem": "Which outcome best demonstrates successful blended education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "More online content is available."
+        },
+        {
+          "id": "B",
+          "text": "Travel is eliminated."
+        },
+        {
+          "id": "C",
+          "text": "Simulation replaces clinical practice."
+        },
+        {
+          "id": "D",
+          "text": "Learners gain knowledge remotely and demonstrate safe hands-on competence under supervision."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Blended learning should connect digital preparation with verified practical performance."
+    },
+    {
+      "id": "q73",
+      "stem": "A digital tool performs well in one country but poorly in another. What should leaders investigate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Differences in workflow, equipment, language, regulation and digital infrastructure."
+        },
+        {
+          "id": "B",
+          "text": "Whether staff are resistant."
+        },
+        {
+          "id": "C",
+          "text": "Only the software version."
+        },
+        {
+          "id": "D",
+          "text": "Only training attendance."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology performance depends on local context."
+    },
+    {
+      "id": "q74",
+      "stem": "Which global collaboration approach is most sustainable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exporting one model unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Sharing core safety standards while co-designing local adaptation and building local capability."
+        },
+        {
+          "id": "C",
+          "text": "Relying on visiting experts."
+        },
+        {
+          "id": "D",
+          "text": "Using technology without local educators."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sustainable collaboration combines shared learning with local ownership."
+    },
+    {
+      "id": "q75",
+      "stem": "A virtual-reality programme is highly realistic but causes motion sickness and excludes some users. What should leaders do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue because realism is the priority."
+        },
+        {
+          "id": "B",
+          "text": "Require users to adapt."
+        },
+        {
+          "id": "C",
+          "text": "Evaluate usability and provide alternative learning methods."
+        },
+        {
+          "id": "D",
+          "text": "Remove all simulation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Safety and accessibility are part of technology evaluation."
+    },
+    {
+      "id": "q76",
+      "stem": "Which factor should be included in a digital downtime plan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A promise that the system will rarely fail."
+        },
+        {
+          "id": "B",
+          "text": "Personal messaging apps."
+        },
+        {
+          "id": "C",
+          "text": "Cancellation of all procedures."
+        },
+        {
+          "id": "D",
+          "text": "A tested alternative for communication, records and essential processes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Downtime planning preserves continuity when technology fails."
+    },
+    {
+      "id": "q77",
+      "stem": "A decision-support prompt conflicts with an experienced nurse’s assessment. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verify data, use clinical judgement and escalate the discrepancy appropriately."
+        },
+        {
+          "id": "B",
+          "text": "Follow the prompt automatically."
+        },
+        {
+          "id": "C",
+          "text": "Disable the prompt permanently."
+        },
+        {
+          "id": "D",
+          "text": "Ignore documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Technology supports but does not replace professional judgement."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best demonstrates equitable global skills development?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every learner uses the same platform."
+        },
+        {
+          "id": "B",
+          "text": "Learners across settings can access adapted education and demonstrate competence despite resource differences."
+        },
+        {
+          "id": "C",
+          "text": "Only high-resource sites achieve certification."
+        },
+        {
+          "id": "D",
+          "text": "Training remains dependent on international faculty."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Equity focuses on meaningful access and locally sustainable capability."
+    },
+    {
+      "id": "q79",
+      "stem": "How should video review be used most effectively?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As the sole evidence of competence."
+        },
+        {
+          "id": "B",
+          "text": "To rank staff publicly."
+        },
+        {
+          "id": "C",
+          "text": "As a reflective and feedback tool alongside direct observation and supervised practice."
+        },
+        {
+          "id": "D",
+          "text": "To replace debriefing."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Video supports reflection but should be part of a broader assessment process."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects Level 3 innovation leadership?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse introduces the newest technology."
+        },
+        {
+          "id": "B",
+          "text": "The nurse replaces supervision with digital tools."
+        },
+        {
+          "id": "C",
+          "text": "The nurse measures usage only."
+        },
+        {
+          "id": "D",
+          "text": "The nurse evaluates technology critically, protects access and safety, and adapts global learning to local context."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Level 3 leadership combines innovation, governance, equity and contextual adaptation."
+    }
+  ]
+}

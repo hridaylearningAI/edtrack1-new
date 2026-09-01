@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Before inserting a urinary catheter, the nurse notices that the patient's identification band does not match the name on the procedure request. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop and resolve the identification discrepancy using approved processes before preparing the sterile field."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient which name is correct and proceed."
+        },
+        {
+          "id": "C",
+          "text": "Use the bed number as the second identifier."
+        },
+        {
+          "id": "D",
+          "text": "Ask a colleague who knows the patient to confirm identity."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "At least two approved identifiers must match before a procedure. Familiarity, bed number or verbal reassurance does not resolve an identification discrepancy."
+    },
+    {
+      "id": "q2",
+      "stem": "Which pair represents acceptable patient identifiers before a procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Room number and diagnosis."
+        },
+        {
+          "id": "B",
+          "text": "Full name and date of birth."
+        },
+        {
+          "id": "C",
+          "text": "Bed number and ward location."
+        },
+        {
+          "id": "D",
+          "text": "Photograph and procedure type only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Approved identifiers commonly include full name, date of birth or a unique medical-record number, according to local policy."
+    },
+    {
+      "id": "q3",
+      "stem": "A patient says, 'I do not understand why this dressing change is needed.' What is the nurse's best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin because the procedure is prescribed."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to provide consent."
+        },
+        {
+          "id": "C",
+          "text": "Explain the purpose, main steps, expected sensations and possible discomfort, then confirm agreement."
+        },
+        {
+          "id": "D",
+          "text": "Document that the patient is anxious."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Consent requires clear information, opportunity for questions and voluntary agreement before proceeding."
+    },
+    {
+      "id": "q4",
+      "stem": "A patient withdraws consent immediately before a non-urgent procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because the equipment has been opened."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse to persuade the patient."
+        },
+        {
+          "id": "C",
+          "text": "Record the procedure as refused and leave without discussion."
+        },
+        {
+          "id": "D",
+          "text": "Stop, explore the concern respectfully and notify the appropriate clinician if needed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Consent is ongoing and may be withdrawn. The patient's concerns should be explored without coercion."
+    },
+    {
+      "id": "q5",
+      "stem": "Before a procedure, the patient reports a latex allergy. The available kit contains latex components. What is the safest action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the kit with latex-free equipment before beginning."
+        },
+        {
+          "id": "B",
+          "text": "Use the kit if gloves are changed."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient whether the allergy is severe."
+        },
+        {
+          "id": "D",
+          "text": "Proceed and observe for a reaction."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Known allergies must be addressed before exposure. The correct equipment should be obtained rather than relying on monitoring after exposure."
+    },
+    {
+      "id": "q6",
+      "stem": "Which pre-procedure assessment is most complete?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm the order and gather equipment."
+        },
+        {
+          "id": "B",
+          "text": "Review identity, consent, allergies, observations, pain, cognition, mobility, relevant results and contraindications."
+        },
+        {
+          "id": "C",
+          "text": "Check the diagnosis and room number."
+        },
+        {
+          "id": "D",
+          "text": "Ask whether the patient has had the procedure before."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe preparation includes patient, procedural and environmental risks, not just technical readiness."
+    },
+    {
+      "id": "q7",
+      "stem": "A patient is confused and unable to follow instructions for a planned transfer. What should the nurse do before beginning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed quickly before the patient becomes distressed."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to promise cooperation."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the assistance and equipment required and obtain additional support."
+        },
+        {
+          "id": "D",
+          "text": "Use manual lifting to maintain control."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cognition affects transfer safety. The plan should be adjusted before movement begins."
+    },
+    {
+      "id": "q8",
+      "stem": "Which environmental preparation best supports a safe procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An open bay so staff can observe."
+        },
+        {
+          "id": "B",
+          "text": "Equipment opened before the patient arrives."
+        },
+        {
+          "id": "C",
+          "text": "A dim room to reduce anxiety."
+        },
+        {
+          "id": "D",
+          "text": "A clean, private, well-lit space with equipment checked for integrity, expiry and function."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The environment should protect privacy, visibility, infection prevention and equipment safety."
+    },
+    {
+      "id": "q9",
+      "stem": "A sterile package is intact but past its expiry date. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discard it and obtain an in-date replacement."
+        },
+        {
+          "id": "B",
+          "text": "Use it if the contents appear clean."
+        },
+        {
+          "id": "C",
+          "text": "Ask a second nurse to approve its use."
+        },
+        {
+          "id": "D",
+          "text": "Use it only for a low-risk procedure."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Expired equipment should not be used because sterility and performance can no longer be assured."
+    },
+    {
+      "id": "q10",
+      "stem": "A patient reports severe pain before wound care. What is the best nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin quickly to finish sooner."
+        },
+        {
+          "id": "B",
+          "text": "Assess the pain and arrange appropriate comfort or analgesia before proceeding when clinically possible."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient some pain is expected."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to remain still."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pain assessment and preparation improve dignity, cooperation and procedural safety."
+    },
+    {
+      "id": "q11",
+      "stem": "The nurse discovers that a required piece of emergency equipment is not functioning. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin and replace it if needed."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to accept the risk."
+        },
+        {
+          "id": "C",
+          "text": "Do not start until functioning equipment and a safe contingency are available."
+        },
+        {
+          "id": "D",
+          "text": "Use a similar device without checking."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Equipment should be checked before use, particularly when failure could delay urgent care."
+    },
+    {
+      "id": "q12",
+      "stem": "Which action best protects privacy during an intimate procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask visitors to look away."
+        },
+        {
+          "id": "B",
+          "text": "Complete the procedure rapidly."
+        },
+        {
+          "id": "C",
+          "text": "Avoid discussing privacy because it may embarrass the patient."
+        },
+        {
+          "id": "D",
+          "text": "Close doors or curtains, expose only the required area and explain who will be present."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Privacy and dignity require deliberate environmental and communication measures."
+    },
+    {
+      "id": "q13",
+      "stem": "A nurse is unfamiliar with a procedure but has watched it previously. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seek supervision and confirm competence and scope before proceeding."
+        },
+        {
+          "id": "B",
+          "text": "Perform it independently using the written instructions."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient whether supervision is needed."
+        },
+        {
+          "id": "D",
+          "text": "Delegate the procedure to an assistant."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Observation alone does not establish competence. Scope and supervision requirements must be verified."
+    },
+    {
+      "id": "q14",
+      "stem": "A patient's blood result suggests a contraindication to the planned procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed because the procedure is already scheduled."
+        },
+        {
+          "id": "B",
+          "text": "Pause and seek clinical review before beginning."
+        },
+        {
+          "id": "C",
+          "text": "Repeat the result after the procedure."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to decide whether the result matters."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Relevant results and contraindications should be reviewed before a procedure to prevent avoidable harm."
+    },
+    {
+      "id": "q15",
+      "stem": "Which statement best explains why safety begins before equipment is touched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opening equipment early saves time."
+        },
+        {
+          "id": "B",
+          "text": "Technical skill is less important than documentation."
+        },
+        {
+          "id": "C",
+          "text": "Preparation identifies patient, consent, clinical, environmental and equipment risks before harm occurs."
+        },
+        {
+          "id": "D",
+          "text": "Procedures are safe when prescribed."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pre-procedure checks prevent wrong-patient, allergy, consent, equipment and clinical-risk errors."
+    },
+    {
+      "id": "q16",
+      "stem": "A patient requires an interpreter to understand a complex procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a family member because it is faster."
+        },
+        {
+          "id": "B",
+          "text": "Proceed using gestures."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to sign first."
+        },
+        {
+          "id": "D",
+          "text": "Arrange an appropriate professional interpreter and confirm understanding before consent."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Accurate communication is necessary for informed consent and safe participation."
+    },
+    {
+      "id": "q17",
+      "stem": "A patient becomes acutely breathless while the nurse is preparing for a routine procedure. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop preparation, assess the patient and escalate according to urgency."
+        },
+        {
+          "id": "B",
+          "text": "Complete the procedure because the equipment is ready."
+        },
+        {
+          "id": "C",
+          "text": "Document the change and continue."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to rest while supplies remain open."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A change in clinical condition takes priority over completing the planned task."
+    },
+    {
+      "id": "q18",
+      "stem": "Which action is inappropriate when verifying identity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asking the patient to state full name and date of birth."
+        },
+        {
+          "id": "B",
+          "text": "Using room location because the nurse knows the patient."
+        },
+        {
+          "id": "C",
+          "text": "Comparing two approved identifiers with the record."
+        },
+        {
+          "id": "D",
+          "text": "Resolving discrepancies before care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Room or bed location is not an approved patient identifier."
+    },
+    {
+      "id": "q19",
+      "stem": "A patient asks a question that the nurse cannot answer within their scope. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give the most likely answer."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the question."
+        },
+        {
+          "id": "C",
+          "text": "Acknowledge the limitation and arrange clarification from an appropriate clinician."
+        },
+        {
+          "id": "D",
+          "text": "Ask another patient who had the procedure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Honesty and appropriate referral support informed participation and professional accountability."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best demonstrates safe procedural preparation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The equipment is ready on time."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completes the checklist."
+        },
+        {
+          "id": "C",
+          "text": "The patient has had the procedure before."
+        },
+        {
+          "id": "D",
+          "text": "Identity, consent, risks, equipment and environment are verified before the procedure begins."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe preparation integrates patient assessment, communication, infection prevention and equipment readiness. Section 2 - Assessment, Monitoring and Clinical Measurement"
+    },
+    {
+      "id": "q21",
+      "stem": "A patient's blood pressure is unexpectedly much lower than the previous reading, and the patient reports dizziness. What should the nurse do first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient, verify the measurement when appropriate and escalate according to urgency."
+        },
+        {
+          "id": "B",
+          "text": "Record the result and repeat it at the next scheduled round."
+        },
+        {
+          "id": "C",
+          "text": "Assume the cuff is faulty."
+        },
+        {
+          "id": "D",
+          "text": "Encourage the patient to walk."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Unexpected abnormal findings require prompt patient assessment, appropriate verification and timely escalation."
+    },
+    {
+      "id": "q22",
+      "stem": "Which action improves the accuracy of a blood-pressure measurement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure over thick clothing."
+        },
+        {
+          "id": "B",
+          "text": "Use a cuff appropriate to the patient's arm size and position the patient correctly."
+        },
+        {
+          "id": "C",
+          "text": "Use the same cuff for every patient."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to talk during measurement."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Correct equipment size and positioning are essential for valid results."
+    },
+    {
+      "id": "q23",
+      "stem": "A patient has an oxygen saturation of 91%, increasing respiratory effort and difficulty speaking. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeat the saturation after one hour."
+        },
+        {
+          "id": "B",
+          "text": "Document the value only."
+        },
+        {
+          "id": "C",
+          "text": "Perform a focused respiratory assessment and escalate promptly."
+        },
+        {
+          "id": "D",
+          "text": "Encourage oral fluids."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The oxygen reading must be interpreted with work of breathing and functional signs; this pattern suggests deterioration."
+    },
+    {
+      "id": "q24",
+      "stem": "Which finding belongs to a focused respiratory assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bowel sounds and urine colour."
+        },
+        {
+          "id": "B",
+          "text": "Pupil size and grip strength."
+        },
+        {
+          "id": "C",
+          "text": "Peripheral oedema only."
+        },
+        {
+          "id": "D",
+          "text": "Breathing pattern, effort, chest movement and breath sounds."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These are core components of respiratory assessment."
+    },
+    {
+      "id": "q25",
+      "stem": "A pulse oximeter displays an unexpectedly low reading on a patient with cold fingers and no respiratory symptoms. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check probe placement and perfusion, reassess the patient and repeat the reading appropriately."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the result."
+        },
+        {
+          "id": "C",
+          "text": "Warm the device under hot water."
+        },
+        {
+          "id": "D",
+          "text": "Document hypoxia immediately without assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Unexpected results should be checked for technical and clinical causes while the patient is assessed."
+    },
+    {
+      "id": "q26",
+      "stem": "A patient becomes drowsy and diaphoretic. Capillary blood glucose is low. What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give food immediately without further assessment."
+        },
+        {
+          "id": "B",
+          "text": "Confirm the result, assess consciousness and swallowing safety, initiate the approved hypoglycaemia protocol and recheck response."
+        },
+        {
+          "id": "C",
+          "text": "Wait for the medical team."
+        },
+        {
+          "id": "D",
+          "text": "Document the value and continue observations."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Treatment must reflect consciousness and swallowing safety, followed by reassessment."
+    },
+    {
+      "id": "q27",
+      "stem": "Which neurological change requires urgent escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable mild forgetfulness."
+        },
+        {
+          "id": "B",
+          "text": "Chronic weakness unchanged from baseline."
+        },
+        {
+          "id": "C",
+          "text": "A new reduction in consciousness with unequal pupils."
+        },
+        {
+          "id": "D",
+          "text": "Normal orientation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Acute deterioration in consciousness or pupillary response may indicate a serious neurological event."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient's respiratory rate rises from 18 to 26 over two hours, although other values remain within range. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for a severely abnormal value."
+        },
+        {
+          "id": "B",
+          "text": "Document the rate as normal."
+        },
+        {
+          "id": "C",
+          "text": "Reduce monitoring to avoid anxiety."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient, review the trend and escalate if clinically concerning."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Trends and changes may indicate deterioration before a single result becomes extreme."
+    },
+    {
+      "id": "q29",
+      "stem": "Which cardiovascular assessment finding suggests poor perfusion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cool extremities, weak pulse and delayed capillary refill."
+        },
+        {
+          "id": "B",
+          "text": "Warm skin and brisk capillary refill."
+        },
+        {
+          "id": "C",
+          "text": "Regular pulse and normal urine output."
+        },
+        {
+          "id": "D",
+          "text": "Mild chronic oedema only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These findings suggest impaired circulation and require further assessment."
+    },
+    {
+      "id": "q30",
+      "stem": "A patient reports severe pain but appears calm. How should the nurse respond?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the pain is mild."
+        },
+        {
+          "id": "B",
+          "text": "Accept the report, assess the pain systematically and evaluate relevant clinical factors."
+        },
+        {
+          "id": "C",
+          "text": "Wait for visible distress."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to confirm the pain."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pain is subjective and should be assessed using the patient's report and appropriate tools."
+    },
+    {
+      "id": "q31",
+      "stem": "A urine specimen label has been completed away from the bedside and the nurse is no longer certain which patient it belongs to. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send it because the handwriting is clear."
+        },
+        {
+          "id": "B",
+          "text": "Ask patients in the room."
+        },
+        {
+          "id": "C",
+          "text": "Discard it according to policy and recollect using correct identification and bedside labelling."
+        },
+        {
+          "id": "D",
+          "text": "Add the room number to the label."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "An uncertain specimen identity creates a serious diagnostic risk and must not be guessed."
+    },
+    {
+      "id": "q32",
+      "stem": "Which action best supports accurate fluid-balance monitoring?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estimate all volumes at the end of the shift."
+        },
+        {
+          "id": "B",
+          "text": "Record only urine output."
+        },
+        {
+          "id": "C",
+          "text": "Exclude IV fluids."
+        },
+        {
+          "id": "D",
+          "text": "Measure and document intake and output promptly using agreed units."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Timely and complete measurement improves accuracy and clinical interpretation."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient's urine output has fallen steadily over several hours. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient, review fluid balance and circulation, and escalate the trend."
+        },
+        {
+          "id": "B",
+          "text": "Wait until no urine is produced."
+        },
+        {
+          "id": "C",
+          "text": "Encourage mobility only."
+        },
+        {
+          "id": "D",
+          "text": "Record the total at the end of the day."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Falling urine output may indicate hypoperfusion, retention or renal dysfunction and should be assessed promptly."
+    },
+    {
+      "id": "q34",
+      "stem": "Which action is appropriate during a focused neurological check?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure weight only."
+        },
+        {
+          "id": "B",
+          "text": "Assess consciousness, pupils, movement and use the relevant scoring tool."
+        },
+        {
+          "id": "C",
+          "text": "Assess breath sounds."
+        },
+        {
+          "id": "D",
+          "text": "Review bowel function."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These findings help identify neurological change."
+    },
+    {
+      "id": "q35",
+      "stem": "An automated blood-pressure result is inconsistent with the patient's appearance and prior trend. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the device result."
+        },
+        {
+          "id": "B",
+          "text": "Delete the result."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the patient and repeat the measurement using correct technique or an alternative method."
+        },
+        {
+          "id": "D",
+          "text": "Wait for another nurse to notice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical measurements must be interpreted in context and verified when inconsistent."
+    },
+    {
+      "id": "q36",
+      "stem": "A patient with known diabetes has a blood glucose result outside the device's reportable range. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Record the nearest value."
+        },
+        {
+          "id": "B",
+          "text": "Repeat it at the next meal."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient what the value usually means."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient, follow the device and organisational protocol, and escalate urgently."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Results outside the device range may represent severe abnormality or technical error and require immediate protocol-based action."
+    },
+    {
+      "id": "q37",
+      "stem": "Which specimen-collection principle is essential?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use correct patient identification, container, technique, timing and documentation."
+        },
+        {
+          "id": "B",
+          "text": "Collect first and identify later."
+        },
+        {
+          "id": "C",
+          "text": "Use any clean container."
+        },
+        {
+          "id": "D",
+          "text": "Leave specimens unlabelled until transport."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Specimen quality and traceability depend on correct identification and preparation."
+    },
+    {
+      "id": "q38",
+      "stem": "A patient's temperature, pulse and respiratory rate are all gradually increasing. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for fever above a fixed threshold."
+        },
+        {
+          "id": "B",
+          "text": "Consider the trend clinically and assess for deterioration or infection."
+        },
+        {
+          "id": "C",
+          "text": "Record each result separately without interpretation."
+        },
+        {
+          "id": "D",
+          "text": "Assume anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Combined trends may be more significant than one isolated value."
+    },
+    {
+      "id": "q39",
+      "stem": "After treating hypoglycaemia, what is the next essential action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "End monitoring when the patient feels better."
+        },
+        {
+          "id": "B",
+          "text": "Offer discharge education immediately."
+        },
+        {
+          "id": "C",
+          "text": "Recheck blood glucose and clinical response according to protocol."
+        },
+        {
+          "id": "D",
+          "text": "Document treatment before reassessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reassessment confirms whether the intervention was effective and whether further action is needed."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects competent clinical measurement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All values are recorded."
+        },
+        {
+          "id": "B",
+          "text": "The device produces a number."
+        },
+        {
+          "id": "C",
+          "text": "The patient remains still."
+        },
+        {
+          "id": "D",
+          "text": "The nurse uses correct technique, interprets results in context and acts promptly on abnormal findings."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical competence includes technique, interpretation and response. Section 3 - Infection Prevention, Aseptic Technique and Device Care"
+    },
+    {
+      "id": "q41",
+      "stem": "During wound care, the nurse touches a sterile key part with an unsterile glove. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discard the contaminated item, repeat hand hygiene as needed and re-establish the aseptic field."
+        },
+        {
+          "id": "B",
+          "text": "Continue because contact was brief."
+        },
+        {
+          "id": "C",
+          "text": "Wipe the item with alcohol and continue."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient whether they are concerned."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Suspected contamination should be treated as contamination. Continuing would create an avoidable infection risk."
+    },
+    {
+      "id": "q42",
+      "stem": "Which statement about gloves is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gloves replace hand hygiene."
+        },
+        {
+          "id": "B",
+          "text": "Hand hygiene is required at appropriate moments even when gloves are used."
+        },
+        {
+          "id": "C",
+          "text": "Gloves are needed for every patient contact."
+        },
+        {
+          "id": "D",
+          "text": "The same gloves may be used for several tasks on one patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Gloves do not replace hand hygiene and should be selected according to exposure risk."
+    },
+    {
+      "id": "q43",
+      "stem": "What is a key part during an aseptic procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Any large item on the trolley."
+        },
+        {
+          "id": "B",
+          "text": "The patient's clothing."
+        },
+        {
+          "id": "C",
+          "text": "A component that must not be touched because contamination could introduce microorganisms."
+        },
+        {
+          "id": "D",
+          "text": "The outside of a waste bag."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Key parts connect directly with susceptible sites or sterile fluids and must remain uncontaminated."
+    },
+    {
+      "id": "q44",
+      "stem": "An aseptic field has been left unattended. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue if nothing looks disturbed."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse whether anyone touched it."
+        },
+        {
+          "id": "C",
+          "text": "Use it only for a simple dressing."
+        },
+        {
+          "id": "D",
+          "text": "Treat the field as compromised and re-establish it."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "An unattended field cannot be assumed sterile."
+    },
+    {
+      "id": "q45",
+      "stem": "A patient's wound has increasing redness, pain, warmth and purulent exudate. What is the appropriate nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess and document the wound, follow orders and escalate possible infection."
+        },
+        {
+          "id": "B",
+          "text": "Apply the usual dressing and review next week."
+        },
+        {
+          "id": "C",
+          "text": "Clean the wound more vigorously."
+        },
+        {
+          "id": "D",
+          "text": "Cover the area without assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The pattern suggests infection and requires objective assessment and timely review."
+    },
+    {
+      "id": "q46",
+      "stem": "Which wound documentation is most objective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Wound looks bad.'"
+        },
+        {
+          "id": "B",
+          "text": "'Wound measures 3 cm by 2 cm with moderate yellow exudate and 1 cm surrounding erythema.'"
+        },
+        {
+          "id": "C",
+          "text": "'Patient is not healing.'"
+        },
+        {
+          "id": "D",
+          "text": "'Dressing was messy.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Objective documentation describes measurable findings rather than judgemental conclusions."
+    },
+    {
+      "id": "q47",
+      "stem": "A peripheral IV site is red, painful and swollen. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue using it if fluid flows."
+        },
+        {
+          "id": "B",
+          "text": "Cover it with a larger dressing."
+        },
+        {
+          "id": "C",
+          "text": "Stop using the site, assess it and follow the approved process for removal and escalation."
+        },
+        {
+          "id": "D",
+          "text": "Flush it forcefully."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Redness, pain and swelling may indicate infiltration or phlebitis and require prompt action."
+    },
+    {
+      "id": "q48",
+      "stem": "Which catheter-care action helps reduce infection risk?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disconnect the drainage system routinely."
+        },
+        {
+          "id": "B",
+          "text": "Place the drainage bag on the bed."
+        },
+        {
+          "id": "C",
+          "text": "Use antiseptic inside the catheter daily."
+        },
+        {
+          "id": "D",
+          "text": "Maintain a closed system, provide hygiene, secure the catheter and review ongoing need."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A closed, secure and well-maintained system with early removal reduces risk."
+    },
+    {
+      "id": "q49",
+      "stem": "A urinary drainage bag is resting above bladder level. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reposition it below bladder level without placing it on the floor."
+        },
+        {
+          "id": "B",
+          "text": "Leave it if urine is flowing."
+        },
+        {
+          "id": "C",
+          "text": "Empty it into another patient's container."
+        },
+        {
+          "id": "D",
+          "text": "Clamp the catheter."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Appropriate bag position supports drainage and reduces backflow risk."
+    },
+    {
+      "id": "q50",
+      "stem": "Why should invasive devices be reviewed regularly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To change them on every shift."
+        },
+        {
+          "id": "B",
+          "text": "To confirm whether they remain necessary and remove avoidable infection risk."
+        },
+        {
+          "id": "C",
+          "text": "To reduce documentation."
+        },
+        {
+          "id": "D",
+          "text": "To improve appearance."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unnecessary devices should be removed promptly through approved processes."
+    },
+    {
+      "id": "q51",
+      "stem": "A nasogastric tube appears to have moved from its documented position. What should the nurse do before using it?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Push it back to the previous mark."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient whether it feels correct."
+        },
+        {
+          "id": "C",
+          "text": "Stop and verify placement according to policy before administration."
+        },
+        {
+          "id": "D",
+          "text": "Use it for water only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A displaced tube can cause serious harm; placement must be verified before use."
+    },
+    {
+      "id": "q52",
+      "stem": "Which PPE selection principle is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wear maximum PPE for every procedure."
+        },
+        {
+          "id": "B",
+          "text": "Gloves are sufficient for all exposure."
+        },
+        {
+          "id": "C",
+          "text": "PPE is unnecessary after hand hygiene."
+        },
+        {
+          "id": "D",
+          "text": "Choose PPE according to anticipated exposure and transmission risk."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "PPE should match the expected risk rather than be selected routinely or inadequately."
+    },
+    {
+      "id": "q53",
+      "stem": "A nurse performs hand hygiene, then touches a contaminated surface before accessing an IV port. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform hand hygiene again and protect the key part before access."
+        },
+        {
+          "id": "B",
+          "text": "Proceed because hand hygiene was already completed."
+        },
+        {
+          "id": "C",
+          "text": "Wear an additional pair of gloves."
+        },
+        {
+          "id": "D",
+          "text": "Clean the port after use only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Contact with a contaminated surface invalidates preparation for an aseptic task."
+    },
+    {
+      "id": "q54",
+      "stem": "Which finding should be included in routine device assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Device brand only."
+        },
+        {
+          "id": "B",
+          "text": "Site condition, securement, patency, hygiene and ongoing need."
+        },
+        {
+          "id": "C",
+          "text": "Patient diagnosis only."
+        },
+        {
+          "id": "D",
+          "text": "Date of admission."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe device care includes local assessment, function and necessity."
+    },
+    {
+      "id": "q55",
+      "stem": "A wound dressing order is unclear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Select the preferred dressing independently."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient which dressing is normally used."
+        },
+        {
+          "id": "C",
+          "text": "Clarify the order before proceeding while maintaining patient safety."
+        },
+        {
+          "id": "D",
+          "text": "Use the most expensive product."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Unclear treatment instructions should be clarified rather than guessed."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient reports new severe pain at a central-line site with swelling around the neck. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the infusion first."
+        },
+        {
+          "id": "B",
+          "text": "Apply a warm pack."
+        },
+        {
+          "id": "C",
+          "text": "Document and recheck at the end of the shift."
+        },
+        {
+          "id": "D",
+          "text": "Stop the infusion as appropriate, assess urgently and escalate."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Pain and swelling near a central line may indicate a serious device complication."
+    },
+    {
+      "id": "q57",
+      "stem": "Which action best maintains an aseptic field?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrange equipment so key parts are protected and avoid unnecessary contact."
+        },
+        {
+          "id": "B",
+          "text": "Reach across the field repeatedly."
+        },
+        {
+          "id": "C",
+          "text": "Allow non-sterile items to touch the edge."
+        },
+        {
+          "id": "D",
+          "text": "Open all supplies far in advance."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Planning and minimal contact reduce contamination risk."
+    },
+    {
+      "id": "q58",
+      "stem": "A patient with an indwelling catheter has no urine draining and reports suprapubic discomfort. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase the collection bag height."
+        },
+        {
+          "id": "B",
+          "text": "Assess tubing, kinks, position and the patient, then escalate if patency is not restored safely."
+        },
+        {
+          "id": "C",
+          "text": "Irrigate without an order."
+        },
+        {
+          "id": "D",
+          "text": "Remove the catheter immediately."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Possible obstruction or retention requires systematic assessment and policy-based action."
+    },
+    {
+      "id": "q59",
+      "stem": "Which action is safest after suspected contamination?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue and document it."
+        },
+        {
+          "id": "B",
+          "text": "Use additional antiseptic at the end."
+        },
+        {
+          "id": "C",
+          "text": "Stop, replace contaminated items and re-establish the field."
+        },
+        {
+          "id": "D",
+          "text": "Ask a colleague to observe."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Contamination should be addressed immediately, not compensated for later."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best demonstrates safe infection prevention and device care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The procedure is completed quickly."
+        },
+        {
+          "id": "B",
+          "text": "The dressing remains dry."
+        },
+        {
+          "id": "C",
+          "text": "No antibiotics are prescribed."
+        },
+        {
+          "id": "D",
+          "text": "Hand hygiene, PPE, asepsis, site assessment and ongoing device need are managed consistently."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe care combines multiple infection-prevention and device-management principles. Section 4 - Medication, Mobility, Communication and Documentation"
+    },
+    {
+      "id": "q61",
+      "stem": "Before giving a medicine, the nurse finds that the prescribed dose is inconsistent with the patient's renal function. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withhold the dose and clarify the order after assessing the patient and relevant results."
+        },
+        {
+          "id": "B",
+          "text": "Administer because the order is signed."
+        },
+        {
+          "id": "C",
+          "text": "Give half the dose."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient whether the dose is usual."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Relevant assessment findings must be considered before administration. A potentially unsafe order requires clarification."
+    },
+    {
+      "id": "q62",
+      "stem": "Which medication check is essential before administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Room number and diagnosis only."
+        },
+        {
+          "id": "B",
+          "text": "Order, patient, medicine, dose, route, time, allergies and relevant assessment."
+        },
+        {
+          "id": "C",
+          "text": "Medicine colour and package size."
+        },
+        {
+          "id": "D",
+          "text": "Patient preference only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These checks form the core of safe medication administration."
+    },
+    {
+      "id": "q63",
+      "stem": "Why should medicines be prepared for one patient at a time?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To make documentation longer."
+        },
+        {
+          "id": "B",
+          "text": "To allow family checking."
+        },
+        {
+          "id": "C",
+          "text": "To reduce interruptions, selection errors and patient mix-ups."
+        },
+        {
+          "id": "D",
+          "text": "To reduce storage needs."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "One-patient preparation reduces cross-patient error risk."
+    },
+    {
+      "id": "q64",
+      "stem": "A patient refuses a prescribed medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hide it in food."
+        },
+        {
+          "id": "B",
+          "text": "Record it as administered."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to insist."
+        },
+        {
+          "id": "D",
+          "text": "Explore the reason, provide appropriate information, notify the relevant clinician and document the refusal."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A capable patient may refuse treatment; the nurse should respond without coercion and communicate the clinical implications."
+    },
+    {
+      "id": "q65",
+      "stem": "After administering an opioid, which assessment is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respiratory rate, sedation, oxygenation and pain response."
+        },
+        {
+          "id": "B",
+          "text": "Appetite only."
+        },
+        {
+          "id": "C",
+          "text": "Urine colour."
+        },
+        {
+          "id": "D",
+          "text": "Mobility only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Opioids can depress breathing and consciousness, so both benefit and harm must be monitored."
+    },
+    {
+      "id": "q66",
+      "stem": "A patient becomes dizzy during transfer from bed to chair. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the transfer quickly."
+        },
+        {
+          "id": "B",
+          "text": "Stop, support the patient safely, call for assistance and assess observations."
+        },
+        {
+          "id": "C",
+          "text": "Ask the patient to continue slowly."
+        },
+        {
+          "id": "D",
+          "text": "Leave the patient standing while equipment is obtained."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A change in condition takes priority over task completion."
+    },
+    {
+      "id": "q67",
+      "stem": "Which factors should be assessed before assisting mobility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Age only."
+        },
+        {
+          "id": "B",
+          "text": "Diagnosis only."
+        },
+        {
+          "id": "C",
+          "text": "Strength, balance, cognition, pain and required assistance."
+        },
+        {
+          "id": "D",
+          "text": "Patient height only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mobility plans should reflect physical, cognitive and safety needs."
+    },
+    {
+      "id": "q68",
+      "stem": "A patient requires more assistance than expected during transfer. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use manual force to complete the movement."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient to try harder."
+        },
+        {
+          "id": "C",
+          "text": "Lower the patient quickly to the floor."
+        },
+        {
+          "id": "D",
+          "text": "Stop and obtain appropriate staff or equipment before continuing."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The transfer plan should be revised when actual ability differs from the assessment."
+    },
+    {
+      "id": "q69",
+      "stem": "Which action best protects staff and patient during manual handling?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use approved equipment and techniques based on assessment."
+        },
+        {
+          "id": "B",
+          "text": "Rely on physical strength."
+        },
+        {
+          "id": "C",
+          "text": "Avoid explaining the transfer."
+        },
+        {
+          "id": "D",
+          "text": "Move quickly to reduce strain."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Approved handling methods reduce injury risk for both patient and staff."
+    },
+    {
+      "id": "q70",
+      "stem": "A patient reports new pain during a procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue unless the patient asks to stop."
+        },
+        {
+          "id": "B",
+          "text": "Pause, assess the pain and decide whether to modify, stop or escalate the procedure."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient pain is expected."
+        },
+        {
+          "id": "D",
+          "text": "Document the pain after completion."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Ongoing communication and reassessment are essential during clinical interventions."
+    },
+    {
+      "id": "q71",
+      "stem": "Which documentation is most complete after a procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Procedure completed.'"
+        },
+        {
+          "id": "B",
+          "text": "Equipment used only."
+        },
+        {
+          "id": "C",
+          "text": "Assessment, procedure performed, findings, patient response and required follow-up."
+        },
+        {
+          "id": "D",
+          "text": "The nurse's opinion of cooperation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Documentation should show what was assessed, done, found and how the patient responded."
+    },
+    {
+      "id": "q72",
+      "stem": "When should procedural documentation be completed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Before the intervention."
+        },
+        {
+          "id": "B",
+          "text": "At the end of the week."
+        },
+        {
+          "id": "C",
+          "text": "Only when an abnormality occurs."
+        },
+        {
+          "id": "D",
+          "text": "After the intervention, as soon as practical and accurately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Records must reflect care that actually occurred and should be timely."
+    },
+    {
+      "id": "q73",
+      "stem": "A nurse documents medication administration before giving the medicine, but the patient then refuses it. What is the main concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The documentation is inaccurate and may create a medication error."
+        },
+        {
+          "id": "B",
+          "text": "The record is too detailed."
+        },
+        {
+          "id": "C",
+          "text": "Refusal cannot be documented."
+        },
+        {
+          "id": "D",
+          "text": "The medicine must now be given."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Documentation should occur after administration and reflect the actual event."
+    },
+    {
+      "id": "q74",
+      "stem": "A patient asks how to report dizziness during mobilisation. What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the patient to wait until the transfer ends."
+        },
+        {
+          "id": "B",
+          "text": "Explain that dizziness, weakness, pain or breathlessness should be reported immediately so movement can stop safely."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to watch for symptoms."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing symptoms to reduce anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Patients should know how to communicate concerns during procedures."
+    },
+    {
+      "id": "q75",
+      "stem": "Which action best evaluates medication effectiveness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm that the medicine was swallowed."
+        },
+        {
+          "id": "B",
+          "text": "Check the medication chart."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the intended clinical effect and monitor for adverse reactions."
+        },
+        {
+          "id": "D",
+          "text": "Ask whether the patient likes the medicine."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Administration is incomplete without evaluation of response."
+    },
+    {
+      "id": "q76",
+      "stem": "A patient has poor balance and impulsive behaviour. Which mobility plan is safest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Independent mobilisation to preserve autonomy."
+        },
+        {
+          "id": "B",
+          "text": "Bed rest without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Family assistance without staff review."
+        },
+        {
+          "id": "D",
+          "text": "Supervised mobilisation using appropriate equipment and clear instructions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The plan should address both physical and cognitive risk while preserving safe participation."
+    },
+    {
+      "id": "q77",
+      "stem": "Which communication behaviour supports dignity during a procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain each step, check comfort and invite questions."
+        },
+        {
+          "id": "B",
+          "text": "Discuss the patient with staff while performing care."
+        },
+        {
+          "id": "C",
+          "text": "Use technical language only."
+        },
+        {
+          "id": "D",
+          "text": "Avoid eye contact."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Therapeutic communication maintains involvement and respect."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient develops chest pain during ambulation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Return the patient to bed at the planned pace."
+        },
+        {
+          "id": "B",
+          "text": "Stop activity, support the patient, assess and escalate urgently."
+        },
+        {
+          "id": "C",
+          "text": "Encourage deep breathing and continue."
+        },
+        {
+          "id": "D",
+          "text": "Document the event after physiotherapy review."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "New chest pain during activity requires immediate assessment and escalation."
+    },
+    {
+      "id": "q79",
+      "stem": "Which statement best reflects integrated clinical skill?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical completion is the main goal."
+        },
+        {
+          "id": "B",
+          "text": "Documentation can replace reassessment."
+        },
+        {
+          "id": "C",
+          "text": "Safe care combines checks, communication, technique, observation, evaluation and documentation."
+        },
+        {
+          "id": "D",
+          "text": "Patient comfort is secondary to task completion."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical skills include the judgement and communication surrounding the procedure."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best demonstrates Level 1 clinical competence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse performs procedures quickly."
+        },
+        {
+          "id": "B",
+          "text": "The nurse works without assistance."
+        },
+        {
+          "id": "C",
+          "text": "The nurse follows technique without adapting to the patient."
+        },
+        {
+          "id": "D",
+          "text": "The nurse prepares, performs, evaluates and documents common procedures safely and respectfully within scope."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Foundational competence integrates procedural discipline, patient-centred care and professional judgement."
+    }
+  ]
+}

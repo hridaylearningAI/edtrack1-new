@@ -1,0 +1,2016 @@
+{
+  "level": 2,
+  "format": "interactive",
+  "decks": [
+    {
+      "id": "overview",
+      "title": "Level 2 overview",
+      "pageSuffix": "slides-overview",
+      "sourceFile": "GNPS Program 3 - Level 2 - Internationaly Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Global Nursing Professional Series (GNPS) · Program 3 · Level 2",
+          "bullets": [
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Welcome to GNPS Level 2",
+          "body": "Nurses entering international healthcare systems must adapt to new medication charts, electronic records, prescribing conventions and professional standards. This programme bridges national nursing preparation with global expectations — combining clinical pharmacology, high-risk medication management, reconciliation and interprofessional communication.",
+          "bullets": [
+            {
+              "label": "Designed for Internationally Qualified Nurses (IQN) preparing for independent international practice.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "01",
+          "bullets": [
+            {
+              "label": "International Safety Standards",
+              "text": ""
+            },
+            {
+              "label": "Apply globally recognised medication-safety principles and interpret orders safely.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Clinical Pharmacology",
+              "text": ""
+            },
+            {
+              "label": "Manage high-risk medicines with appropriate safeguards and therapeutic monitoring.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Reconciliation & Communication",
+              "text": ""
+            },
+            {
+              "label": "Reconcile medication histories and communicate concerns using structured frameworks.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Person-Centred Education",
+              "text": ""
+            },
+            {
+              "label": "Provide culturally responsive medication education and support shared decision-making.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Your Learning Goal",
+          "body": "By the end of Level 2, you will be able to:",
+          "bullets": [
+            {
+              "label": "Manage medicines safely in international healthcare environments",
+              "text": ""
+            },
+            {
+              "label": "Recognise and respond to complex medication risks",
+              "text": ""
+            },
+            {
+              "label": "Communicate confidently with patients and multidisciplinary teams",
+              "text": ""
+            },
+            {
+              "label": "Report incidents and near misses appropriately",
+              "text": ""
+            },
+            {
+              "label": "Safe international practice combines technical competence with clinical judgement and professional accountability.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 1",
+          "body": "Applying International Medication Safety Standards",
+          "bullets": [
+            {
+              "label": "International healthcare systems use different",
+              "text": "International healthcare systems use different charts, formularies, electronic records and controlled-drug procedures. Although local processes vary, safe practice is built on consistent identification, allergy checking, clinical assessment, documentation and communication."
+            },
+            {
+              "label": "An IQN must learn the local system before practising independently.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concepts: Medication Orders & Systems",
+          "body": "Valid Medication Orders",
+          "bullets": [
+            {
+              "label": "Every order must identify the patient,",
+              "text": "Every order must identify the patient, medicine, dose, route, timing and prescriber. Abbreviations, unclear decimals or verbal orders introduce risk — clarify before administering."
+            },
+            {
+              "label": "Electronic Medication Systems",
+              "text": ""
+            },
+            {
+              "label": "eMAR improves allergy alerts and traceability,",
+              "text": "eMAR improves allergy alerts and traceability, but can introduce risks: wrong patient selection, copied outdated information or alert fatigue. Never assume the system has checked everything."
+            },
+            {
+              "label": "Local Policy & Standards",
+              "text": ""
+            },
+            {
+              "label": "Understand who may prescribe, administer, store",
+              "text": "Understand who may prescribe, administer, store and dispose of medicines. Policy defines process; professional standards define accountability and duty of care."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example — Safe Transition",
+          "body": "During orientation at an overseas hospital, an IQN sees insulin prescribed electronically using unfamiliar abbreviations. Rather than relying on previous practice, the nurse:",
+          "bullets": [
+            {
+              "label": "Reviews local policy",
+              "text": ""
+            },
+            {
+              "label": "Confirms the insulin type and dose with the prescriber",
+              "text": ""
+            },
+            {
+              "label": "Completes supervised administration",
+              "text": ""
+            },
+            {
+              "label": "Previous experience is valuable — but does not replace local competence assessment.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 2",
+          "body": "Clinical Pharmacology & High-Risk Medicines",
+          "bullets": [
+            {
+              "label": "Some medicines carry a greater potential for",
+              "text": "Some medicines carry a greater potential for serious harm if used incorrectly. IQNs must combine pharmacological knowledge with current patient assessment, pathology results and monitoring requirements."
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "High-Risk Medicine Groups",
+          "body": "Insulin",
+          "bullets": [
+            {
+              "label": "Requires dose verification, blood glucose monitoring and restricted storage.",
+              "text": ""
+            },
+            {
+              "label": "Anticoagulants",
+              "text": ""
+            },
+            {
+              "label": "Coagulation results must be reviewed before every dose. Watch for bleeding signs.",
+              "text": ""
+            },
+            {
+              "label": "Opioids",
+              "text": ""
+            },
+            {
+              "label": "Controlled storage, respiratory monitoring and independent checks are mandatory.",
+              "text": ""
+            },
+            {
+              "label": "Concentrated Electrolytes",
+              "text": ""
+            },
+            {
+              "label": "Must be stored separately and administered only via controlled infusion devices.",
+              "text": ""
+            },
+            {
+              "label": "Chemotherapy",
+              "text": ""
+            },
+            {
+              "label": "Specialist preparation, PPE, and strict double-check protocols are required.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Independent Checks & Clinical Assessment",
+          "body": "Compare Results",
+          "bullets": [
+            {
+              "label": "Independent Check",
+              "text": ""
+            },
+            {
+              "label": "What Clinical Assessment Covers",
+              "text": ""
+            },
+            {
+              "label": "Blood pressure, pulse, respiratory rate",
+              "text": ""
+            },
+            {
+              "label": "Blood glucose and electrolyte levels",
+              "text": ""
+            },
+            {
+              "label": "Renal function and liver results",
+              "text": ""
+            },
+            {
+              "label": "Swallowing ability and pain score",
+              "text": ""
+            },
+            {
+              "label": "Simply watching another person prepare the",
+              "text": "Simply watching another person prepare the medicine is not an independent check. Each clinician must verify separately before comparing results."
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 3",
+          "body": "Medication Reconciliation, Communication & Incident Management",
+          "bullets": [
+            {
+              "label": "Medication harm most often occurs when patients",
+              "text": "Medication harm most often occurs when patients move between home, emergency care, hospital wards and community services. Accurate reconciliation and structured communication protect patients at every transition."
+            }
+          ],
+          "callout": null,
+          "id": "card-11"
+        },
+        {
+          "kind": "content",
+          "title": "Reconciliation, ISBAR & Incident Response",
+          "body": "Medication Reconciliation",
+          "bullets": [
+            {
+              "label": "Compare medicines the patient was actually",
+              "text": "Compare medicines the patient was actually taking with current orders — including non-prescription products, supplements and recent changes. Identify, clarify and document all discrepancies."
+            },
+            {
+              "label": "Structured Communication (ISBAR)",
+              "text": ""
+            },
+            {
+              "label": "State the patient, medicine, current problem,",
+              "text": "State the patient, medicine, current problem, relevant findings and action required. ISBAR ensures critical information is communicated clearly and consistently across teams."
+            },
+            {
+              "label": "Incident Management",
+              "text": ""
+            },
+            {
+              "label": "Assess the patient first. Notify the clinician",
+              "text": "Assess the patient first. Notify the clinician and senior nurse, initiate treatment and complete documentation. Incident reports should record facts and contributing conditions — not blame."
+            },
+            {
+              "label": "Admission, transfer and discharge are high-risk",
+              "text": "Admission, transfer and discharge are high-risk periods. Accurate lists and clear communication with community providers reduce omitted medicines and duplication."
+            }
+          ],
+          "callout": null,
+          "id": "card-12"
+        },
+        {
+          "kind": "content",
+          "title": "SECTION 4",
+          "body": "Person-Centred Medication Education & Shared Decision-Making",
+          "bullets": [
+            {
+              "label": "Why It Matters",
+              "text": ""
+            },
+            {
+              "label": "Medication safety improves when patients",
+              "text": "Medication safety improves when patients understand and participate in treatment decisions. International nurses care for people with different languages, beliefs, health literacy levels and access to medicines."
+            },
+            {
+              "label": "Key Principles",
+              "text": ""
+            },
+            {
+              "label": "Use plain language and visual aids",
+              "text": ""
+            },
+            {
+              "label": "Ask about cultural beliefs and complementary medicines",
+              "text": ""
+            },
+            {
+              "label": "Support shared decisions — options, benefits and risks",
+              "text": ""
+            },
+            {
+              "label": "Confirm understanding with teach-back",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-13"
+        },
+        {
+          "kind": "content",
+          "title": "Teach-Back in Practice",
+          "body": "Assess",
+          "bullets": [
+            {
+              "label": "Identify health literacy level, language needs and cultural or personal beliefs about medication.",
+              "text": ""
+            },
+            {
+              "label": "Educate",
+              "text": ""
+            },
+            {
+              "label": "Use a professional interpreter where needed. Demonstrate devices. Provide simple written schedules.",
+              "text": ""
+            },
+            {
+              "label": "Verify",
+              "text": ""
+            },
+            {
+              "label": "Ask the patient to demonstrate and explain. Correct technique errors before discharge or self-administration.",
+              "text": ""
+            },
+            {
+              "label": "Document",
+              "text": ""
+            },
+            {
+              "label": "Record education provided, patient understanding and any follow-up plan in the clinical record.",
+              "text": ""
+            },
+            {
+              "label": "Clinical Example: A patient with limited",
+              "text": "Clinical Example: A patient with limited English discharged with insulin. The nurse arranges an interpreter, demonstrates the device, provides a written schedule and asks the patient to demonstrate injection technique and describe signs of hypoglycaemia."
+            }
+          ],
+          "callout": null,
+          "id": "card-14"
+        },
+        {
+          "kind": "content",
+          "title": "Programme Summary & Next Steps",
+          "body": "International Medication Standards",
+          "bullets": [
+            {
+              "label": "Apply safe principles across unfamiliar systems and local policies.",
+              "text": ""
+            },
+            {
+              "label": "High-Risk Medicine Management",
+              "text": ""
+            },
+            {
+              "label": "Use additional safeguards, independent checks and clinical assessment.",
+              "text": ""
+            },
+            {
+              "label": "Reconciliation & Communication",
+              "text": ""
+            },
+            {
+              "label": "Protect patients at every transition through accurate records and ISBAR.",
+              "text": ""
+            },
+            {
+              "label": "Person-Centred Education",
+              "text": ""
+            },
+            {
+              "label": "Adapt education to language, literacy and beliefs using teach-back.",
+              "text": ""
+            },
+            {
+              "label": "You are now prepared to progress to GNPS Level",
+              "text": "You are now prepared to progress to GNPS Level 3 — where the focus moves from safe individual practice to leadership, governance and medication-system improvement."
+            }
+          ],
+          "callout": null,
+          "id": "card-15"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-16"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "title": "Applying International Medication Safety Standards",
+      "pageSuffix": "slides-section-1",
+      "sourceFile": "GNPS Program 3 - Level 2 - Section 1 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Global Nursing Professional Series (GNPS) · Program 3",
+          "bullets": [
+            {
+              "label": "Pharmacology and Medication Safety — Level 2 · International Qualified Nurse (IQN)",
+              "text": ""
+            },
+            {
+              "label": "STUDENT LEARNING NOTES",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "\"The Right Medication. The Right Patient. Every Time.\"",
+          "body": "Safe medication practice is the cornerstone of nursing care. Across every healthcare system, every country, and every clinical setting, this principle never changes.",
+          "bullets": [],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Section 1: Applying International Medication Safety Standards",
+          "body": "International healthcare systems vary widely — different charts, formularies, electronic records, and controlled-drug procedures. Yet safe practice is always built on the same consistent foundations:",
+          "bullets": [
+            {
+              "label": "Patient Identification",
+              "text": ""
+            },
+            {
+              "label": "Allergy Checking",
+              "text": ""
+            },
+            {
+              "label": "Clinical Assessment",
+              "text": ""
+            },
+            {
+              "label": "Documentation & Communication",
+              "text": ""
+            },
+            {
+              "label": "An IQN must learn the local system thoroughly before practising independently.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "After completing this section, you should be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Apply Local Policy",
+              "text": ""
+            },
+            {
+              "label": "Relate local medication policy to broader international safety principles.",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Interpret Orders",
+              "text": ""
+            },
+            {
+              "label": "Interpret paper and electronic medication orders safely and accurately.",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Adapt & Transition",
+              "text": ""
+            },
+            {
+              "label": "Adapt confidently to unfamiliar medication systems in new environments.",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Practise Professionally",
+              "text": ""
+            },
+            {
+              "label": "Practise within professional and organisational requirements at all times.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "Local Policy & Professional Standards",
+          "body": "Nurses must understand who may prescribe, administer, check, store and dispose of medicines in their workplace.",
+          "bullets": [
+            {
+              "label": "Local Policy",
+              "text": ""
+            },
+            {
+              "label": "Describes the required process for medication management in your workplace.",
+              "text": ""
+            },
+            {
+              "label": "Professional Standards",
+              "text": ""
+            },
+            {
+              "label": "Define accountability, competence and the duty to protect patients.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "What Makes a Valid Medication Order?",
+          "body": "👤 Patient",
+          "bullets": [
+            {
+              "label": "Full name, date of birth, and unique identifier clearly stated.",
+              "text": ""
+            },
+            {
+              "label": "💊 Medicine",
+              "text": ""
+            },
+            {
+              "label": "Generic name written in full — no ambiguous abbreviations.",
+              "text": ""
+            },
+            {
+              "label": "📏 Dose",
+              "text": ""
+            },
+            {
+              "label": "Clear decimal notation. Avoid trailing zeros and naked decimals.",
+              "text": ""
+            },
+            {
+              "label": "🛤️ Route",
+              "text": ""
+            },
+            {
+              "label": "Oral, IV, IM, subcutaneous — specified precisely.",
+              "text": ""
+            },
+            {
+              "label": "🕐 Timing",
+              "text": ""
+            },
+            {
+              "label": "Frequency and duration stated without ambiguity.",
+              "text": ""
+            },
+            {
+              "label": "✍️ Prescriber",
+              "text": ""
+            },
+            {
+              "label": "Legible signature and designation confirmed.",
+              "text": ""
+            },
+            {
+              "label": "Abbreviations, incomplete instructions, unclear",
+              "text": "Abbreviations, incomplete instructions, unclear decimals, and verbal orders create risk. Always clarify before administering."
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Electronic Medication Systems: Benefits & Risks",
+          "body": "Electronic Medication Administration Records (eMAR) are powerful tools — but they are not foolproof.",
+          "bullets": [
+            {
+              "label": "Do not assume the system has verified everything",
+              "text": ""
+            },
+            {
+              "label": "Respond thoughtfully to alerts — alert fatigue leads to errors",
+              "text": ""
+            },
+            {
+              "label": "Always confirm the correct patient before administration",
+              "text": ""
+            },
+            {
+              "label": "Never copy forward outdated medication information",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "Safe Transition for IQNs",
+          "body": "Previous clinical experience is valuable — but it does not replace local competence assessment.",
+          "bullets": [
+            {
+              "label": "Request Orientation",
+              "text": ""
+            },
+            {
+              "label": "Ask for a structured introduction to local medicines and storage systems.",
+              "text": ""
+            },
+            {
+              "label": "Learn Infusion Devices",
+              "text": ""
+            },
+            {
+              "label": "Familiarise yourself with pumps, lines, and infusion protocols used locally.",
+              "text": ""
+            },
+            {
+              "label": "Controlled Drugs",
+              "text": ""
+            },
+            {
+              "label": "Understand local controlled-drug procedures and independent-check requirements.",
+              "text": ""
+            },
+            {
+              "label": "Seek Supervision",
+              "text": ""
+            },
+            {
+              "label": "Practise under supervision until local competence is formally confirmed.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Insulin Administration Overseas",
+          "body": "During orientation in an overseas hospital, an IQN encounters insulin prescribed electronically using unfamiliar local abbreviations.",
+          "bullets": [
+            {
+              "label": "Supervise & Document",
+              "text": ""
+            },
+            {
+              "label": "Confirm Dose",
+              "text": ""
+            },
+            {
+              "label": "Stop & Review",
+              "text": ""
+            },
+            {
+              "label": "Rather than relying on previous practice, the",
+              "text": "Rather than relying on previous practice, the nurse pauses, consults local policy, and seeks prescriber confirmation — a model response that prevents a potentially serious error."
+            },
+            {
+              "label": "What Made This Safe?",
+              "text": ""
+            },
+            {
+              "label": "Recognised the unfamiliar abbreviation as a risk",
+              "text": ""
+            },
+            {
+              "label": "Did not rely solely on the electronic system",
+              "text": ""
+            },
+            {
+              "label": "Consulted local policy and the prescriber",
+              "text": ""
+            },
+            {
+              "label": "Completed administration under supervision",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Know Your Systems",
+          "bullets": [
+            {
+              "label": "Learn the medication systems used in your specific workplace before acting independently.",
+              "text": ""
+            },
+            {
+              "label": "Clarify Always",
+              "text": ""
+            },
+            {
+              "label": "Incomplete or ambiguous orders must be clarified with the prescriber — never assumed.",
+              "text": ""
+            },
+            {
+              "label": "Don't Over-Rely on Alerts",
+              "text": ""
+            },
+            {
+              "label": "Electronic systems support safe practice but cannot replace clinical judgement.",
+              "text": ""
+            },
+            {
+              "label": "Supervision First",
+              "text": ""
+            },
+            {
+              "label": "Seek and accept supervision until local competence has been formally assessed and confirmed.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Clinical Pharmacology and High-Risk Medicines",
+      "pageSuffix": "slides-section-2",
+      "sourceFile": "GNPS Program 3 - Level 2 - Section 2 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Pharmacology and Medication Safety",
+          "bullets": [
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 3 · LEVEL 2 · SECTION 2",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Section 2: Clinical Pharmacology & High-Risk Medicines",
+          "body": "Internationally qualified nurses must combine pharmacological knowledge with real-time patient assessment, pathology results, and monitoring requirements. This section equips you to practise safely — and to recognise when not to administer a dose.",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Recognise High-Risk Groups",
+              "text": ""
+            },
+            {
+              "label": "Identify medicines requiring extra vigilance",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Apply Safeguards",
+              "text": ""
+            },
+            {
+              "label": "Use independent checks and restricted storage",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Use Clinical Data",
+              "text": ""
+            },
+            {
+              "label": "Link pathology and assessment to every dose decision",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Respond & Escalate",
+              "text": ""
+            },
+            {
+              "label": "Act on abnormal findings before administration",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "High-Risk Medicine Groups",
+          "body": "These categories demand additional safeguards beyond routine administration — restricted storage, standard concentrations, independent checks, and closer monitoring.",
+          "bullets": [
+            {
+              "label": "Insulin",
+              "text": ""
+            },
+            {
+              "label": "Risk of severe hypoglycaemia",
+              "text": ""
+            },
+            {
+              "label": "Anticoagulants",
+              "text": ""
+            },
+            {
+              "label": "Bleeding and clotting risks",
+              "text": ""
+            },
+            {
+              "label": "Opioids",
+              "text": ""
+            },
+            {
+              "label": "Respiratory depression risk",
+              "text": ""
+            },
+            {
+              "label": "Electrolytes & IV Medicines",
+              "text": ""
+            },
+            {
+              "label": "Concentrated; potentially fatal if incorrect",
+              "text": ""
+            },
+            {
+              "label": "Sedatives",
+              "text": ""
+            },
+            {
+              "label": "CNS depression and airway risk",
+              "text": ""
+            },
+            {
+              "label": "Chemotherapy",
+              "text": ""
+            },
+            {
+              "label": "Cytotoxic; strict handling protocols",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "Clinical Assessment Before Every Dose",
+          "body": "The medication order does not exist in isolation. Connect every dose to the patient's current condition. Ask: is this medicine still appropriate right now?",
+          "bullets": [
+            {
+              "label": "Cardiovascular",
+              "text": ""
+            },
+            {
+              "label": "Blood pressure, pulse rate and rhythm",
+              "text": ""
+            },
+            {
+              "label": "Respiratory & Neurological",
+              "text": ""
+            },
+            {
+              "label": "Respiratory rate, consciousness level, pain score",
+              "text": ""
+            },
+            {
+              "label": "Metabolic & Renal",
+              "text": ""
+            },
+            {
+              "label": "Blood glucose, electrolytes, renal function",
+              "text": ""
+            },
+            {
+              "label": "Functional",
+              "text": ""
+            },
+            {
+              "label": "Swallowing ability before oral medications",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "The Independent Double Check",
+          "body": "A double check is only meaningful when it is genuinely independent. Each clinician must verify separately — then compare results.",
+          "bullets": [
+            {
+              "label": "✅ What to Verify Independently",
+              "text": ""
+            },
+            {
+              "label": "The medication order",
+              "text": ""
+            },
+            {
+              "label": "Patient identity",
+              "text": ""
+            },
+            {
+              "label": "Medicine name, dose, and route",
+              "text": ""
+            },
+            {
+              "label": "Dose calculation",
+              "text": ""
+            },
+            {
+              "label": "Relevant clinical assessment",
+              "text": ""
+            },
+            {
+              "label": "Simply watching another clinician prepare a",
+              "text": "Simply watching another clinician prepare a medicine is not an independent check. Each nurse must verify separately before comparing findings."
+            },
+            {
+              "label": "Independent checks reduce the risk of",
+              "text": "Independent checks reduce the risk of confirmation bias — a common source of medication error in high-pressure clinical environments."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Therapeutic Monitoring",
+          "body": "Some medicines require ongoing surveillance of drug levels, organ function, or physiological parameters. Knowing when to withhold a dose is as important as knowing when to give one.",
+          "bullets": [
+            {
+              "label": "Drug Levels & Coagulation",
+              "text": ""
+            },
+            {
+              "label": "Warfarin, heparin, vancomycin, digoxin — levels guide dose adjustments and withholding decisions.",
+              "text": ""
+            },
+            {
+              "label": "Blood Glucose",
+              "text": ""
+            },
+            {
+              "label": "Pre-dose BGL guides insulin dosing. Administer only within the prescribed range.",
+              "text": ""
+            },
+            {
+              "label": "ECG Monitoring",
+              "text": ""
+            },
+            {
+              "label": "Digoxin, antiarrhythmics, and some electrolytes require rhythm monitoring before and during therapy.",
+              "text": ""
+            },
+            {
+              "label": "Renal & Liver Function",
+              "text": ""
+            },
+            {
+              "label": "Impaired clearance affects drug accumulation. Always check eGFR and LFTs where indicated.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Anticoagulant Safety",
+          "body": "A patient on anticoagulant therapy presents with new bruising and a significantly abnormal coagulation result (INR elevated).",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Observe for active bleeding; check full coagulation results",
+              "text": ""
+            },
+            {
+              "label": "Withhold",
+              "text": ""
+            },
+            {
+              "label": "Do not administer — the chart does not override clinical findings",
+              "text": ""
+            },
+            {
+              "label": "Escalate",
+              "text": ""
+            },
+            {
+              "label": "Notify the medical team promptly with full clinical information",
+              "text": ""
+            },
+            {
+              "label": "Document",
+              "text": ""
+            },
+            {
+              "label": "Record findings, actions taken, and the team's response",
+              "text": ""
+            },
+            {
+              "label": "The medicine is not administered simply because",
+              "text": "The medicine is not administered simply because it appears on the chart. Clinical judgement and current assessment always take precedence."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus: High-Risk Medication Questions",
+          "body": "NCLEX questions on pharmacology frequently test your ability to prioritise safety and apply clinical reasoning — not just recall drug names.",
+          "bullets": [
+            {
+              "label": "Assess",
+              "text": ""
+            },
+            {
+              "label": "Gather vitals, labs, and patient cues",
+              "text": ""
+            },
+            {
+              "label": "Apply Rights",
+              "text": ""
+            },
+            {
+              "label": "Use five rights with clinical context",
+              "text": ""
+            },
+            {
+              "label": "Decide",
+              "text": ""
+            },
+            {
+              "label": "Escalate or withhold based on findings",
+              "text": ""
+            },
+            {
+              "label": "The NCLEX expects you to integrate assessment findings with medication decisions — not treat them as separate tasks.",
+              "text": ""
+            },
+            {
+              "label": "Common NCLEX Triggers",
+              "text": ""
+            },
+            {
+              "label": "Low BP before antihypertensive",
+              "text": ""
+            },
+            {
+              "label": "Low heart rate before digoxin",
+              "text": ""
+            },
+            {
+              "label": "Low BGL before insulin",
+              "text": ""
+            },
+            {
+              "label": "Elevated INR before anticoagulant",
+              "text": ""
+            },
+            {
+              "label": "Reduced eGFR before nephrotoxic drug",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "High-Risk Medicines Need Extra Safeguards",
+          "bullets": [
+            {
+              "label": "Restricted storage, standard concentrations,",
+              "text": "Restricted storage, standard concentrations, independent checks, and enhanced monitoring are not optional — they are mandatory."
+            },
+            {
+              "label": "Link Every Dose to Current Assessment",
+              "text": ""
+            },
+            {
+              "label": "Vital signs, pathology results, and clinical observations must inform each administration decision.",
+              "text": ""
+            },
+            {
+              "label": "Independent Checks Must Be Independent",
+              "text": ""
+            },
+            {
+              "label": "Each clinician verifies separately. Observation is not verification.",
+              "text": ""
+            },
+            {
+              "label": "Escalate Abnormal Results Before Administering",
+              "text": ""
+            },
+            {
+              "label": "When in doubt, withhold, assess, escalate, and document. Patient safety is the priority.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Your Next Steps",
+          "body": "You have completed Section 2: Clinical Pharmacology and High-Risk Medicines. Continue building your clinical reasoning skills through practice and reflection.",
+          "bullets": [
+            {
+              "label": "📖 Review",
+              "text": ""
+            },
+            {
+              "label": "Revisit high-risk drug groups and their monitoring requirements",
+              "text": ""
+            },
+            {
+              "label": "🧠 Practise",
+              "text": ""
+            },
+            {
+              "label": "Complete NCLEX-style pharmacology questions with clinical scenarios",
+              "text": ""
+            },
+            {
+              "label": "🏥 Apply",
+              "text": ""
+            },
+            {
+              "label": "Connect learning to your clinical practice and workplace policies",
+              "text": ""
+            },
+            {
+              "label": "GNPS PROGRAM 3 · LEVEL 2 IQN · SECTION 2 COMPLETE",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Medication Reconciliation, Communication and Incident Management",
+      "pageSuffix": "slides-section-3",
+      "sourceFile": "GNPS Program 3 - Level 2 - Section 3 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Safe Medication Practice",
+          "body": "Section 3: Medication Reconciliation, Communication & Incident Management",
+          "bullets": [
+            {
+              "label": "Part of the Global Nursing Professional Series (GNPS) — Program 3",
+              "text": ""
+            },
+            {
+              "label": "Level 2 · International Qualified Nurse (IQN)",
+              "text": ""
+            },
+            {
+              "label": "PHARMACOLOGY & MEDICATION SAFETY",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "Why Medication Reconciliation Matters",
+          "body": "Medication harm most commonly occurs when patients move between care settings — from home to hospital, ward to ward, or hospital to community.",
+          "bullets": [
+            {
+              "label": "Accurate reconciliation and clear communication are the frontline defence against these preventable harms.",
+              "text": ""
+            },
+            {
+              "label": "\"The right medication. The right patient. Every time.\"",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "outcomes",
+          "title": "Learning Outcomes",
+          "body": "By the end of this section, you will be able to:",
+          "bullets": [
+            {
+              "label": "1",
+              "text": ""
+            },
+            {
+              "label": "Explain",
+              "text": ""
+            },
+            {
+              "label": "The purpose and process of medication reconciliation",
+              "text": ""
+            },
+            {
+              "label": "2",
+              "text": ""
+            },
+            {
+              "label": "Identify",
+              "text": ""
+            },
+            {
+              "label": "Discrepancies in medication histories across care transitions",
+              "text": ""
+            },
+            {
+              "label": "3",
+              "text": ""
+            },
+            {
+              "label": "Communicate",
+              "text": ""
+            },
+            {
+              "label": "Medication concerns effectively using structured frameworks",
+              "text": ""
+            },
+            {
+              "label": "4",
+              "text": ""
+            },
+            {
+              "label": "Manage",
+              "text": ""
+            },
+            {
+              "label": "Medication incidents and near misses professionally and safely",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "content",
+          "title": "What Is Medication Reconciliation?",
+          "body": "Reconciliation means comparing what a patient was actually taking with current medication orders. It is a structured, systematic process that covers:",
+          "bullets": [
+            {
+              "label": "Prescription Medicines",
+              "text": ""
+            },
+            {
+              "label": "All current and recent prescriptions, including dose and frequency",
+              "text": ""
+            },
+            {
+              "label": "Non-Prescription Products",
+              "text": ""
+            },
+            {
+              "label": "Over-the-counter medications and vitamins",
+              "text": ""
+            },
+            {
+              "label": "Supplements & Herbal",
+              "text": ""
+            },
+            {
+              "label": "Complementary medicines that patients may not volunteer",
+              "text": ""
+            },
+            {
+              "label": "Allergies & Changes",
+              "text": ""
+            },
+            {
+              "label": "Known allergies and recent medication changes",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "content",
+          "title": "High-Risk Transitions of Care",
+          "body": "Why These Moments Are Dangerous",
+          "bullets": [
+            {
+              "label": "At each transition, medication information can be lost, duplicated, or misinterpreted. Common errors include:",
+              "text": ""
+            },
+            {
+              "label": "Omitted medicines not carried across",
+              "text": ""
+            },
+            {
+              "label": "Duplication of doses from two sources",
+              "text": ""
+            },
+            {
+              "label": "Confusion about recent changes in therapy",
+              "text": ""
+            },
+            {
+              "label": "Accurate lists, clear written instructions, and",
+              "text": "Accurate lists, clear written instructions, and direct communication with community providers significantly reduce these risks."
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "content",
+          "title": "Structured Communication: ISBAR",
+          "body": "When raising a medication concern, use a structured framework such as ISBAR to ensure every critical detail is communicated clearly and efficiently.",
+          "bullets": [
+            {
+              "label": "I — Identify",
+              "text": ""
+            },
+            {
+              "label": "State your name, role, and the patient",
+              "text": ""
+            },
+            {
+              "label": "S — Situation",
+              "text": ""
+            },
+            {
+              "label": "Describe the medication concern",
+              "text": ""
+            },
+            {
+              "label": "B — Background",
+              "text": ""
+            },
+            {
+              "label": "Relevant history and current medicines",
+              "text": ""
+            },
+            {
+              "label": "A — Assessment",
+              "text": ""
+            },
+            {
+              "label": "Your clinical findings and concern",
+              "text": ""
+            },
+            {
+              "label": "R — Recommendation",
+              "text": ""
+            },
+            {
+              "label": "The action you are requesting",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "content",
+          "title": "Managing Medication Incidents",
+          "body": "Step-by-Step Response",
+          "bullets": [
+            {
+              "label": "Complete Report",
+              "text": ""
+            },
+            {
+              "label": "Initiate Treatment",
+              "text": ""
+            },
+            {
+              "label": "Notify Clinician",
+              "text": ""
+            },
+            {
+              "label": "Assess Patient",
+              "text": ""
+            },
+            {
+              "label": "Always prioritise the patient's immediate safety before attending to paperwork or notifications.",
+              "text": ""
+            },
+            {
+              "label": "What to Record in an Incident Report",
+              "text": ""
+            },
+            {
+              "label": "Factual account of what occurred",
+              "text": ""
+            },
+            {
+              "label": "Timeline of events and medicines involved",
+              "text": ""
+            },
+            {
+              "label": "Contributing conditions (environment, workload)",
+              "text": ""
+            },
+            {
+              "label": "Actions taken and patient response",
+              "text": ""
+            },
+            {
+              "label": "Incident reports support learning and system",
+              "text": "Incident reports support learning and system improvement — not individual blame. Near misses are equally important to report."
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example: Spotting a Discrepancy",
+          "body": "Scenario",
+          "bullets": [
+            {
+              "label": "A patient is admitted following a fall. They",
+              "text": "A patient is admitted following a fall. They report taking a blood thinner at home, but the medicine does not appear on the admission chart."
+            },
+            {
+              "label": "The Nurse's Actions",
+              "text": ""
+            },
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Confirm the medicine with the patient and carer",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Cross-check with pharmacy and previous records",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Inform the prescriber of the discrepancy",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Ensure resolution before the next dose is due",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "content",
+          "title": "NCLEX Focus: What to Remember",
+          "body": "Reconcile at Every Transition",
+          "bullets": [
+            {
+              "label": "Admission, transfer, and discharge each require a fresh, verified medication list",
+              "text": ""
+            },
+            {
+              "label": "Include All Products",
+              "text": ""
+            },
+            {
+              "label": "Always ask about non-prescription, complementary, and herbal medicines",
+              "text": ""
+            },
+            {
+              "label": "Communicate Promptly",
+              "text": ""
+            },
+            {
+              "label": "Discrepancies must be escalated immediately using a structured framework like ISBAR",
+              "text": ""
+            },
+            {
+              "label": "Report to Support Learning",
+              "text": ""
+            },
+            {
+              "label": "Incident reporting — including near misses — drives safety improvement across the system",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "Section 3 Complete",
+          "body": "You Are Now Able To",
+          "bullets": [
+            {
+              "label": "Define and perform medication reconciliation",
+              "text": ""
+            },
+            {
+              "label": "Recognise high-risk transition points",
+              "text": ""
+            },
+            {
+              "label": "Use ISBAR to escalate concerns",
+              "text": ""
+            },
+            {
+              "label": "Respond to and document incidents appropriately",
+              "text": ""
+            },
+            {
+              "label": "Coming Up: Program 3 Continues",
+              "text": ""
+            },
+            {
+              "label": "The next section explores high-alert",
+              "text": "The next section explores high-alert medications and strategies for safe administration in complex clinical environments."
+            },
+            {
+              "label": "Continue building your skills and confidence as you prepare for the NCLEX-RN examination.",
+              "text": ""
+            },
+            {
+              "label": "GNPS · LEVEL 2 · IQN",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Person-Centred Medication Education and Shared Decision-Making",
+      "pageSuffix": "slides-section-4",
+      "sourceFile": "GNPS Program 3 - Level 2 - Section 4 International Qualified Nurse - Presentation deck.pptx",
+      "cards": [
+        {
+          "kind": "title",
+          "title": "Person-Centred Medication Education & Shared Decision-Making",
+          "body": "GNPS Program 3 · Level 2 · Section 4 | Global Nursing Professional Series",
+          "bullets": [
+            {
+              "label": "SAFE MEDICATION PRACTICE",
+              "text": ""
+            },
+            {
+              "label": "IQN LEVEL 2",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-1"
+        },
+        {
+          "kind": "content",
+          "title": "What You Will Learn",
+          "body": "Learning Outcomes",
+          "bullets": [
+            {
+              "label": "01",
+              "text": ""
+            },
+            {
+              "label": "Assess Learning Needs",
+              "text": ""
+            },
+            {
+              "label": "Identify each patient's medication-related knowledge gaps before teaching.",
+              "text": ""
+            },
+            {
+              "label": "02",
+              "text": ""
+            },
+            {
+              "label": "Culturally Responsive Education",
+              "text": ""
+            },
+            {
+              "label": "Tailor information to language, beliefs, and health literacy level.",
+              "text": ""
+            },
+            {
+              "label": "03",
+              "text": ""
+            },
+            {
+              "label": "Shared Decision-Making",
+              "text": ""
+            },
+            {
+              "label": "Engage patients in understanding options, risks, and benefits.",
+              "text": ""
+            },
+            {
+              "label": "04",
+              "text": ""
+            },
+            {
+              "label": "Safe Self-Management",
+              "text": ""
+            },
+            {
+              "label": "Support adherence, monitoring, and use of teach-back techniques.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-2"
+        },
+        {
+          "kind": "content",
+          "title": "Why Patient Education Matters",
+          "body": "Medication safety improves significantly when patients understand and actively participate in their own treatment decisions. Nurses working internationally care for people with diverse languages, health beliefs, literacy levels, and access to medicines — making individualised education essential.",
+          "bullets": [
+            {
+              "label": "Never make assumptions. Each patient's educational needs are unique.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-3"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 1",
+          "body": "Health Literacy",
+          "bullets": [
+            {
+              "label": "Patients may struggle to understand medication",
+              "text": "Patients may struggle to understand medication labels, dosing schedules, or risk information — even when they share a language with their clinician."
+            },
+            {
+              "label": "Effective Strategies",
+              "text": ""
+            },
+            {
+              "label": "Plain Language",
+              "text": ""
+            },
+            {
+              "label": "Avoid jargon; use short, clear sentences.",
+              "text": ""
+            },
+            {
+              "label": "Visual Aids",
+              "text": ""
+            },
+            {
+              "label": "Diagrams, pictures, and colour-coded schedules.",
+              "text": ""
+            },
+            {
+              "label": "Written Plans",
+              "text": ""
+            },
+            {
+              "label": "Take-home instructions the patient can refer to later.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-4"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 2",
+          "body": "Cultural & Personal Beliefs",
+          "bullets": [
+            {
+              "label": "🧿 Illness Beliefs",
+              "text": ""
+            },
+            {
+              "label": "Cultural explanations of illness may differ from biomedical models and can influence willingness to take medication.",
+              "text": ""
+            },
+            {
+              "label": "🌿 Traditional Medicines",
+              "text": ""
+            },
+            {
+              "label": "Herbal or complementary remedies may interact with prescribed medicines. Ask respectfully and without judgement.",
+              "text": ""
+            },
+            {
+              "label": "🕌 Fasting & Religious Practice",
+              "text": ""
+            },
+            {
+              "label": "Fasting periods may affect timing and administration. Coordinate safe alternatives with the healthcare team.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-5"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 3",
+          "body": "Shared Decision-Making",
+          "bullets": [
+            {
+              "label": "Patients should be fully informed of available",
+              "text": "Patients should be fully informed of available options, including expected benefits and possible risks, before making a decision."
+            },
+            {
+              "label": "Invites the patient's voice into the process",
+              "text": ""
+            },
+            {
+              "label": "Builds trust between nurse and patient",
+              "text": ""
+            },
+            {
+              "label": "Strengthens long-term medication adherence",
+              "text": ""
+            },
+            {
+              "label": "Reduces misunderstandings at discharge",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-6"
+        },
+        {
+          "kind": "concepts",
+          "title": "Core Concept 4",
+          "body": "Teach-Back & Self-Management",
+          "bullets": [
+            {
+              "label": "What Is Teach-Back?",
+              "text": ""
+            },
+            {
+              "label": "Teach-back asks the patient to explain — in",
+              "text": "Teach-back asks the patient to explain — in their own words — how they will use the medicine. It confirms understanding, not just recall."
+            },
+            {
+              "label": "\"Can you show me how you would take this medicine at home?\" is more powerful than asking \"Do you understand?\"",
+              "text": ""
+            },
+            {
+              "label": "Self-Management Topics to Cover",
+              "text": ""
+            },
+            {
+              "label": "Storage & Missed Doses",
+              "text": ""
+            },
+            {
+              "label": "Monitoring & Side Effects",
+              "text": ""
+            },
+            {
+              "label": "Driving, Alcohol & Pregnancy",
+              "text": ""
+            },
+            {
+              "label": "When to Seek Help",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-7"
+        },
+        {
+          "kind": "example",
+          "title": "Clinical Example",
+          "body": "Safe Discharge with Insulin",
+          "bullets": [
+            {
+              "label": "A patient with limited English is discharged",
+              "text": "A patient with limited English is discharged home on insulin therapy. The nurse arranges a professional interpreter, demonstrates the injection device step by step, provides a simple written schedule with pictures, and asks the patient to demonstrate the injection and describe signs of hypoglycaemia. A technique error is identified and corrected before discharge — preventing a potentially serious harm."
+            },
+            {
+              "label": "TEACH-BACK IN ACTION",
+              "text": ""
+            },
+            {
+              "label": "HIGH-RISK MEDICINE",
+              "text": ""
+            },
+            {
+              "label": "CULTURAL RESPONSIVENESS",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-8"
+        },
+        {
+          "kind": "keypoints",
+          "title": "Key Learning Points",
+          "body": "Adapt to Language & Literacy",
+          "bullets": [
+            {
+              "label": "Use plain language, interpreters, and visual tools for every patient.",
+              "text": ""
+            },
+            {
+              "label": "Explore Beliefs",
+              "text": ""
+            },
+            {
+              "label": "Ask respectfully about traditional medicines and cultural practices.",
+              "text": ""
+            },
+            {
+              "label": "Invite Participation",
+              "text": ""
+            },
+            {
+              "label": "Encourage patients to ask questions and express treatment preferences.",
+              "text": ""
+            },
+            {
+              "label": "Confirm with Teach-Back",
+              "text": ""
+            },
+            {
+              "label": "Use demonstration and teach-back to verify — not assume — understanding.",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-9"
+        },
+        {
+          "kind": "content",
+          "title": "End-of-Program Summary",
+          "body": "You Are Ready for Level 3",
+          "bullets": [
+            {
+              "label": "By completing GNPS Program 3 – Level 2, you",
+              "text": "By completing GNPS Program 3 – Level 2, you have strengthened your ability to apply international medication standards, manage high-risk medicines, reconcile medication histories, and support patients through clear education and shared decision-making."
+            },
+            {
+              "label": "Level 2 ✓ Complete",
+              "text": ""
+            },
+            {
+              "label": "Safe individual medication practice",
+              "text": ""
+            },
+            {
+              "label": "Level 3 → Next",
+              "text": ""
+            },
+            {
+              "label": "Leadership, governance & medication-system improvement",
+              "text": ""
+            }
+          ],
+          "callout": null,
+          "id": "card-10"
+        },
+        {
+          "kind": "content",
+          "title": "Thank You",
+          "body": "",
+          "bullets": [],
+          "callout": null,
+          "id": "card-11"
+        }
+      ]
+    }
+  ]
+}

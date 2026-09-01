@@ -1,0 +1,136 @@
+{
+  "level": 2,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Medication storage safety",
+      "scenario": "While preparing medications, a nurse notices several medications stored in the medication room without proper labeling. Some containers look similar, increasing the risk of medication selection errors.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Secure and label medications appropriately.",
+      "modelWhy": "Mislabeling leads to errors.",
+      "modelNext": "Follow storage policy.",
+      "trap": "Using medications anyway.",
+      "programNumber": 9,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Fire safety",
+      "scenario": "A faint smell of smoke is detected coming from a patient room. When the door is opened slightly, smoke is visible, and the source of the smoke is unknown.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Activate fire alarm and follow fire safety protocol.",
+      "modelWhy": "Fire poses immediate danger.",
+      "modelNext": "Ensure patient evacuation.",
+      "trap": "Investigating alone.",
+      "programNumber": 10,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Oxygen safety",
+      "scenario": "A patient receiving supplemental oxygen via nasal cannula is found smoking in bed. The oxygen tubing is still in place, and a lighter is visible in the patient’s hand.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the activity and remove ignition source.",
+      "modelWhy": "Oxygen supports combustion.",
+      "modelNext": "Educate patient.",
+      "trap": "Warning without action.",
+      "programNumber": 11,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Restraint use",
+      "scenario": "A confused patient repeatedly pulls at IV lines and attempts to remove monitoring equipment. The patient appears restless and does not respond to verbal redirection.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Attempt least restrictive interventions first.",
+      "modelWhy": "Restraints carry risks.",
+      "modelNext": "Assess underlying causes.",
+      "trap": "Applying restraints immediately.",
+      "programNumber": 12,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Violence prevention",
+      "scenario": "A visitor becomes increasingly angry during a discussion with staff, raising their voice and making threatening gestures. Other patients and staff are present in the area.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure safety and seek assistance.",
+      "modelWhy": "Early de-escalation prevents harm.",
+      "modelNext": "Maintain safe distance.",
+      "trap": "Arguing back.",
+      "programNumber": 13,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Personal protective equipment",
+      "scenario": "A nurse prepares to enter a patient’s room where contact precautions are required due to a known infectious condition. Gloves and gowns are available outside the room.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Don appropriate PPE before entry.",
+      "modelWhy": "PPE protects staff and patients.",
+      "modelNext": "Dispose PPE correctly after use.",
+      "trap": "Entering without PPE.",
+      "programNumber": 14,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Sharps disposal",
+      "scenario": "A sharps container in the medication room is visibly overfilled, with used needles protruding near the opening. Staff continue to use the container despite the risk.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Replace the sharps container immediately.",
+      "modelWhy": "Overfilled containers increase injury risk.",
+      "modelNext": "Educate staff.",
+      "trap": "Continuing use.",
+      "programNumber": 15,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Radiation safety",
+      "scenario": "A nurse is caring for a patient who has received internal radiation therapy. The patient’s room is marked with radiation warning signage, and visitors are requesting to stay for extended periods.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Follow radiation safety precautions.",
+      "modelWhy": "Limits exposure risk.",
+      "modelNext": "Use time, distance, and shielding.",
+      "trap": "Spending prolonged time near patient.",
+      "programNumber": 16,
+      "number": 8
+    }
+  ]
+}

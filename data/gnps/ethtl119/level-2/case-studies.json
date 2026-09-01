@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Status Asthmaticus",
+      "stem": "Ms. Asha Roy, a 29-year-old woman with severe asthma, arrives in the emergency department after using her rescue inhaler repeatedly without relief. She is sitting upright, speaking only one or two words at a time, and appears frightened. She has marked accessory muscle use and audible wheeze. Her vital signs are blood pressure 142/88 mmHg, pulse 132 beats per minute, respiratory rate 34 breaths per minute, oxygen saturation 88% on room air, and peak expiratory flow is critically reduced. The nurse knows this may represent status asthmaticus. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which cues indicate severe asthma exacerbation? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accessory muscle use"
+            },
+            {
+              "id": "B",
+              "text": "Unable to speak full sentences"
+            },
+            {
+              "id": "C",
+              "text": "Repeated rescue inhaler use without relief"
+            },
+            {
+              "id": "D",
+              "text": "Tachycardia"
+            },
+            {
+              "id": "E",
+              "text": "Oxygen saturation 88%"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All findings are signs of severe asthma and impending respiratory failure risk. Repeated ineffective use of a rescue inhaler indicates poor response to home therapy. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Status asthmaticus or severe uncontrolled asthma requiring urgent intervention"
+            },
+            {
+              "id": "B",
+              "text": "Panic attack without airway obstruction"
+            },
+            {
+              "id": "C",
+              "text": "Mild asthma that can wait"
+            },
+            {
+              "id": "D",
+              "text": "Stable chronic cough only"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "This is an emergency presentation. The inability to speak normally, low oxygen saturation, and high work of breathing signal severe bronchospasm and possible respiratory exhaustion. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ineffective airway clearance and impaired ventilation due to severe bronchospasm"
+            },
+            {
+              "id": "B",
+              "text": "Knowledge deficit about long-term exercise"
+            },
+            {
+              "id": "C",
+              "text": "Fear of hospitalisation"
+            },
+            {
+              "id": "D",
+              "text": "Risk for constipation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate danger is ventilation failure due to severe airway narrowing. Fear is secondary to the respiratory emergency. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay treatment until a full medication history is completed"
+            },
+            {
+              "id": "B",
+              "text": "Support oxygenation, initiate emergency asthma management, and monitor closely for worsening fatigue or silent chest"
+            },
+            {
+              "id": "C",
+              "text": "Offer food and ask the patient to lie flat"
+            },
+            {
+              "id": "D",
+              "text": "Instruct the patient to take slower breaths without treatment"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Severe asthma requires immediate emergency management. A silent chest or increasing fatigue may indicate impending respiratory failure. Lying flat, delaying treatment, or providing only verbal coaching would be unsafe. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Calm, focused reassurance during treatment"
+            },
+            {
+              "id": "B",
+              "text": "Assuming wheeze always means the airway is improving"
+            },
+            {
+              "id": "C",
+              "text": "Continuous reassessment of breath sounds and oxygenation"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring for exhaustion and reduced air movement"
+            },
+            {
+              "id": "E",
+              "text": "Preparing for escalation if the patient stops responding to therapy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Reassessment and escalation planning are essential. Wheeze does not automatically mean improvement; diminishing wheeze with worsening distress can signal critically reduced airflow. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Asthmaticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that treatment is helping?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Oxygenation stays poor and fatigue worsens"
+            },
+            {
+              "id": "B",
+              "text": "Air movement decreases further and the patient becomes drowsy"
+            },
+            {
+              "id": "C",
+              "text": "The patient can speak more comfortably, oxygen saturation improves, and work of breathing decreases"
+            },
+            {
+              "id": "D",
+              "text": "The nurse stops reassessing once the first nebuliser is complete"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement in speech, oxygenation, and effort of breathing suggests better ventilation and reduced bronchospasm."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Ischemic Stroke in the Treatment Window",
+      "stem": "Mrs. Helen George, a 67-year-old woman, is brought to the emergency department after her husband noticed sudden left-sided facial droop, slurred speech, and weakness in the left arm 45 minutes ago. She is awake but frightened and unable to answer fully. Her husband confirms that she was normal at breakfast and the symptoms began abruptly. Blood pressure is 178/96 mmHg, pulse 92 beats per minute, respiratory rate 20 breaths per minute, oxygen saturation 95% on room air, and glucose is normal. The nurse must act rapidly because time-sensitive stroke interventions may still be possible. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are classic acute stroke cues? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sudden facial droop"
+            },
+            {
+              "id": "B",
+              "text": "Fear and confusion"
+            },
+            {
+              "id": "C",
+              "text": "Slurred speech"
+            },
+            {
+              "id": "D",
+              "text": "Unilateral arm weakness"
+            },
+            {
+              "id": "E",
+              "text": "Abrupt onset 45 minutes ago"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "The major neurological cues are facial droop, dysarthria, and unilateral weakness. The precise time of onset is critically important because it affects eligibility for reperfusion therapies. Fear and confusion may accompany the event and should also be acknowledged. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild anxiety attack"
+            },
+            {
+              "id": "B",
+              "text": "Migraine with no urgency"
+            },
+            {
+              "id": "C",
+              "text": "Chronic dementia only"
+            },
+            {
+              "id": "D",
+              "text": "Likely acute ischemic stroke requiring urgent stroke pathway activation"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The presentation strongly suggests acute stroke. The abrupt onset and focal deficits are classic. NCLEX questions in stroke management emphasise speed, onset time, and prioritised imaging and assessment. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed sleep"
+            },
+            {
+              "id": "B",
+              "text": "Risk for constipation"
+            },
+            {
+              "id": "C",
+              "text": "Acute neurological perfusion problem with risk of irreversible brain injury"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about diet"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The most urgent problem is acute interruption of cerebral perfusion. Brain tissue is time-sensitive, so rapid action is required. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay action until family finishes talking"
+            },
+            {
+              "id": "B",
+              "text": "Ask the patient to walk to show strength"
+            },
+            {
+              "id": "C",
+              "text": "Encourage the patient to drink water to relax"
+            },
+            {
+              "id": "D",
+              "text": "Activate the stroke pathway, maintain safety, and prepare for urgent imaging and neurological assessment"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Time is critical in stroke care. Immediate pathway activation, safety, and preparation for imaging take priority. Oral intake should not be offered until swallowing is assessed. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume all strokes are haemorrhagic without imaging"
+            },
+            {
+              "id": "B",
+              "text": "Document the exact last-known-well time"
+            },
+            {
+              "id": "C",
+              "text": "Monitor airway, blood pressure, and neurological changes closely"
+            },
+            {
+              "id": "D",
+              "text": "Keep the patient NPO until swallow safety is determined"
+            },
+            {
+              "id": "E",
+              "text": "Provide calm explanations to patient and family"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Last-known-well time is essential for treatment planning. Airway and neuro reassessment are priorities. NPO status protects against aspiration. Imaging is required to distinguish stroke type; assumptions without imaging are unsafe. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Ischemic Stroke in the Treatment Window | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that the immediate nursing management has been effective while definitive therapy is organised?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse stops monitoring because imaging is pending"
+            },
+            {
+              "id": "B",
+              "text": "The patient remains safe, neurological status is closely monitored, aspiration risk is prevented, and the stroke team is fully engaged"
+            },
+            {
+              "id": "C",
+              "text": "Blood pressure worsens with no reassessment"
+            },
+            {
+              "id": "D",
+              "text": "The patient is given food before swallow assessment"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "In the early phase, effective nursing management is shown by safety, rapid pathway activation, and prevention of secondary complications rather than instant symptom resolution."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Increased Intracranial Pressure after Head Injury",
+      "stem": "Mr. Sean Mathew, a 35-year-old man, is admitted after a motor vehicle collision with a moderate traumatic brain injury. During the first hours on the ward he was awake but drowsy. Over the next hour, the nurse notices that he becomes harder to arouse and begins vomiting. His speech is slower and less organised than before. Vital signs now show blood pressure 168/70 mmHg, pulse 54 beats per minute, respiratory rate 10 breaths per minute, and intermittent unequal pupil response. The nurse recognises possible rising intracranial pressure. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support increased intracranial pressure? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Widened pulse pressure pattern"
+            },
+            {
+              "id": "B",
+              "text": "Bradycardia"
+            },
+            {
+              "id": "C",
+              "text": "Pupil changes"
+            },
+            {
+              "id": "D",
+              "text": "Worsening level of consciousness"
+            },
+            {
+              "id": "E",
+              "text": "Vomiting"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are all concerning findings. Worsening LOC is often an early warning sign. Vomiting, bradycardia, abnormal blood pressure pattern, and pupil changes fit rising ICP and possible neurological deterioration. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient may be developing increased intracranial pressure requiring urgent intervention"
+            },
+            {
+              "id": "B",
+              "text": "Benign headache with no urgency"
+            },
+            {
+              "id": "C",
+              "text": "Mild dehydration only"
+            },
+            {
+              "id": "D",
+              "text": "The patient is simply sleepy from rest needs"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The trend is dangerous and compatible with increasing ICP. The nurse must respond urgently because neurological decline can become irreversible. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for impaired cerebral perfusion and brain herniation"
+            },
+            {
+              "id": "B",
+              "text": "Need for menu change"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The greatest danger is loss of cerebral perfusion and possible herniation. This is a neurological emergency. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ask the patient to get up and walk"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until routine review"
+            },
+            {
+              "id": "C",
+              "text": "Provide a large meal"
+            },
+            {
+              "id": "D",
+              "text": "Elevate the head as appropriate, maintain airway and oxygenation, minimise stimulation, and urgently escalate neurological deterioration"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Head elevation, airway protection, reduced stimulation, and urgent escalation are key priorities. Ambulation, feeding, or waiting would be unsafe. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring for worsening respiratory pattern"
+            },
+            {
+              "id": "B",
+              "text": "Frequent neuro checks and pupil assessment"
+            },
+            {
+              "id": "C",
+              "text": "Ignoring vomiting if blood pressure seems acceptable"
+            },
+            {
+              "id": "D",
+              "text": "Preparing for urgent imaging or critical care intervention as ordered"
+            },
+            {
+              "id": "E",
+              "text": "Avoiding unnecessary coughing or straining where possible"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Close neurological monitoring, respiratory assessment, avoidance of actions that may raise ICP, and preparation for higher-level intervention are all appropriate. Vomiting should never be ignored in this context. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Increased Intracranial Pressure after Head Injury | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improved stability?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse stops neuro checks after one assessment"
+            },
+            {
+              "id": "B",
+              "text": "Level of consciousness stabilises, pupils remain more consistent, and vital signs move away from the dangerous pattern"
+            },
+            {
+              "id": "C",
+              "text": "Bradycardia worsens with slower respirations"
+            },
+            {
+              "id": "D",
+              "text": "The patient becomes more unresponsive and vomiting continues"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement is demonstrated by neurological stabilisation and less concerning vital sign patterns."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Status Epilepticus",
+      "stem": "Ms. Priyanka Nair, a 41-year-old patient with a history of seizure disorder, is brought to the emergency department actively seizing. According to her family, the seizure started more than five minutes ago and she has not regained consciousness. They say she may have missed her medication for two days due to vomiting. The nurse observes ongoing tonic-clonic movements, cyanosis around the lips, and copious oral secretions. Vital signs are difficult to obtain immediately, but oxygen saturation is falling and the patient is at risk of airway compromise. The nurse must act rapidly. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features make this a high-risk seizure emergency? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "No return to consciousness"
+            },
+            {
+              "id": "B",
+              "text": "Ongoing seizure beyond five minutes"
+            },
+            {
+              "id": "C",
+              "text": "Missed medication history"
+            },
+            {
+              "id": "D",
+              "text": "Falling oxygenation"
+            },
+            {
+              "id": "E",
+              "text": "Cyanosis and secretions"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings indicate status epilepticus and immediate risk to airway, breathing, and neurological function. Duration over five minutes and lack of recovery are especially significant. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Brief uncomplicated seizure"
+            },
+            {
+              "id": "B",
+              "text": "Stable postictal rest state"
+            },
+            {
+              "id": "C",
+              "text": "Mild anxiety episode"
+            },
+            {
+              "id": "D",
+              "text": "Status epilepticus requiring emergency airway and medication management"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient is not in a benign postictal period. Continuous seizure activity without recovery is a medical emergency. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Airway compromise and hypoxia during prolonged seizure activity"
+            },
+            {
+              "id": "B",
+              "text": "Risk for constipation"
+            },
+            {
+              "id": "C",
+              "text": "Need for discharge planning"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed body image"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway and oxygenation must come first. Prolonged seizure activity also risks brain injury, but the nurse addresses this through airway safety and urgent medication support. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Protect the airway and patient safety, provide oxygen support, and prepare for emergency seizure management"
+            },
+            {
+              "id": "B",
+              "text": "Leave the patient alone until the seizure stops"
+            },
+            {
+              "id": "C",
+              "text": "Restrain the limbs tightly"
+            },
+            {
+              "id": "D",
+              "text": "Force an oral object into the mouth"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should focus on airway, oxygenation, and protection from injury. Objects must never be forced into the mouth, and tight restraint can cause harm. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Suction secretions as needed and safe"
+            },
+            {
+              "id": "B",
+              "text": "Time the seizure and document events"
+            },
+            {
+              "id": "C",
+              "text": "Assume missing medication is unimportant"
+            },
+            {
+              "id": "D",
+              "text": "Prepare for IV access and emergency anticonvulsant therapy"
+            },
+            {
+              "id": "E",
+              "text": "Turn the patient away from injury when feasible"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Timing, medication preparation, secretion management, and protection from injury are correct. The missed medication history is clinically relevant and should not be dismissed. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Status Epilepticus | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that immediate care has been effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse leaves after the seizure ends"
+            },
+            {
+              "id": "B",
+              "text": "Seizure activity stops, oxygenation improves, airway is maintained, and the patient begins postictal recovery under close observation"
+            },
+            {
+              "id": "C",
+              "text": "Secretions obstruct the airway without intervention"
+            },
+            {
+              "id": "D",
+              "text": "Cyanosis worsens and no reassessment occurs"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Successful immediate management ends seizure activity, improves oxygenation, and maintains safe observation during recovery."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Acute Kidney Injury with Hyperkalaemia",
+      "stem": "Mrs. Noreen D’Silva, a 68-year-old patient with sepsis and reduced urine output, develops worsening weakness and palpitations. She has had only 15 mL urine output in the last hour, and the latest lab results show potassium 6.5 mmol/L and rising creatinine. The telemetry monitor shows concerning rhythm changes. She looks fatigued and says her legs feel heavy. Blood pressure is 100/64 mmHg, pulse 112 beats per minute, respiratory rate 22 breaths per minute, and skin is cool. The nurse recognises combined renal compromise and dangerous electrolyte imbalance. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate urgent hyperkalaemia with renal dysfunction? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rising creatinine and oliguria"
+            },
+            {
+              "id": "B",
+              "text": "Palpitations and rhythm changes"
+            },
+            {
+              "id": "C",
+              "text": "Heavy legs"
+            },
+            {
+              "id": "D",
+              "text": "Weakness"
+            },
+            {
+              "id": "E",
+              "text": "Potassium 6.5 mmol/L"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All findings support severe hyperkalaemia in the setting of acute kidney injury. Rhythm changes are especially dangerous because they may precede cardiac arrest. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Acute kidney injury with life-threatening hyperkalaemia requiring emergency management"
+            },
+            {
+              "id": "B",
+              "text": "Stable kidney disease only"
+            },
+            {
+              "id": "C",
+              "text": "Benign muscle fatigue"
+            },
+            {
+              "id": "D",
+              "text": "Mild dehydration alone"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The patient’s oliguria, rising creatinine, and high potassium indicate a renal emergency with cardiac implications. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit about food"
+            },
+            {
+              "id": "B",
+              "text": "Risk for loneliness"
+            },
+            {
+              "id": "C",
+              "text": "Risk for lethal dysrhythmia related to hyperkalaemia"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The cardiac effects of hyperkalaemia take priority because they may rapidly become fatal. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay action until the next lab draw"
+            },
+            {
+              "id": "B",
+              "text": "Encourage a potassium-rich snack"
+            },
+            {
+              "id": "C",
+              "text": "Ensure continuous monitoring, escalate urgently, and prepare for immediate hyperkalaemia treatment as prescribed"
+            },
+            {
+              "id": "D",
+              "text": "Send the patient walking to the bathroom"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Continuous monitoring and urgent treatment preparation are critical. Any delay increases the risk of cardiac arrest. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Track urine output carefully"
+            },
+            {
+              "id": "B",
+              "text": "Ignore weakness if the monitor alarm is quiet for a moment"
+            },
+            {
+              "id": "C",
+              "text": "Anticipate repeat potassium measurement after treatment"
+            },
+            {
+              "id": "D",
+              "text": "Recheck rhythm and mental status frequently"
+            },
+            {
+              "id": "E",
+              "text": "Review medications that may worsen potassium retention"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "The nurse must reassess continuously, review contributing factors, trend potassium, and monitor kidney output. Weakness remains clinically relevant and should not be ignored. Program Area: Advanced Adult Nursing Care II | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury with Hyperkalaemia | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Potassium trends downward, rhythm stabilises, and symptoms lessen"
+            },
+            {
+              "id": "B",
+              "text": "The nurse stops monitoring after one treatment"
+            },
+            {
+              "id": "C",
+              "text": "Palpitations become stronger"
+            },
+            {
+              "id": "D",
+              "text": "Oliguria worsens with increasing ECG instability"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is shown by falling potassium, improved rhythm stability, and reduced symptoms."
+        }
+      ]
+    }
+  ]
+}

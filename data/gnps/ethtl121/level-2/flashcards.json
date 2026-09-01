@@ -1,0 +1,1276 @@
+{
+  "cards": [
+    {
+      "id": "fc-1",
+      "section": 1,
+      "front": "What framework is used to support urgent paediatric assessment?",
+      "back": "The ABCDE framework."
+    },
+    {
+      "id": "fc-2",
+      "section": 1,
+      "front": "Which assessment tool evaluates appearance, breathing, and circulation quickly?",
+      "back": "The paediatric assessment triangle."
+    },
+    {
+      "id": "fc-3",
+      "section": 1,
+      "front": "What 3 specific areas does the paediatric assessment triangle (PAT) evaluate?",
+      "back": "Appearance, breathing, and circulation."
+    },
+    {
+      "id": "fc-4",
+      "section": 1,
+      "front": "Why must subtle clinical trends in children be taken seriously?",
+      "back": "Children can compensate until late in illness."
+    },
+    {
+      "id": "fc-5",
+      "section": 1,
+      "front": "What must international paediatric nurses combine with structured assessment tools?",
+      "back": "Developmental knowledge and clinical judgement."
+    },
+    {
+      "id": "fc-6",
+      "section": 1,
+      "front": "How should a nurse interpret clinical findings such as tachycardia or tachypnoea?",
+      "back": "Within the child's developmental context."
+    },
+    {
+      "id": "fc-7",
+      "section": 1,
+      "front": "What should a nurse do if a parent states, \"this is not my child\"?",
+      "back": "Perform an immediate clinical assessment."
+    },
+    {
+      "id": "fc-8",
+      "section": 1,
+      "front": "Why are parents often the first to notice a child's deterioration?",
+      "back": "They notice subtle behavioural changes before measurements become abnormal."
+    },
+    {
+      "id": "fc-9",
+      "section": 1,
+      "front": "What is the first element required in structured escalation communication?",
+      "back": "Identification of the child."
+    },
+    {
+      "id": "fc-10",
+      "section": 1,
+      "front": "Why is it necessary to include the child's weight in escalation communication?",
+      "back": "To ensure accurate calculation of emergency medicines and interventions."
+    },
+    {
+      "id": "fc-11",
+      "section": 1,
+      "front": "What information should follow the child's weight in an escalation report?",
+      "back": "The current clinical concern."
+    },
+    {
+      "id": "fc-12",
+      "section": 1,
+      "front": "What information should follow the current concern in an escalation report?",
+      "back": "Relevant clinical history."
+    },
+    {
+      "id": "fc-13",
+      "section": 1,
+      "front": "What is the final element of a structured paediatric escalation report?",
+      "back": "The specific action required."
+    },
+    {
+      "id": "fc-14",
+      "section": 1,
+      "front": "What does a slow breathing rate in a post-operative child typically suggest?",
+      "back": "Possible opioid-related deterioration."
+    },
+    {
+      "id": "fc-15",
+      "section": 1,
+      "front": "Why is a quiet child sometimes more concerning than a distressed one?",
+      "back": "Quietness may indicate a lack of energy to compensate for severe illness."
+    },
+    {
+      "id": "fc-16",
+      "section": 1,
+      "front": "Under what condition should a nurse escalate care even if scoring thresholds are not met?",
+      "back": "When there is clinical concern for the child's well-being."
+    },
+    {
+      "id": "fc-17",
+      "section": 1,
+      "front": "How does a normal adult vital sign value relate to paediatric assessment?",
+      "back": "A normal adult value may be abnormal for a child."
+    },
+    {
+      "id": "fc-18",
+      "section": 1,
+      "front": "Delayed capillary refill should be interpreted within what specific context?",
+      "back": "The child's developmental context."
+    },
+    {
+      "id": "fc-19",
+      "section": 1,
+      "front": "What clinical sign might be a late indicator of a child's deterioration?",
+      "back": "Abnormal vital sign measurements."
+    },
+    {
+      "id": "fc-20",
+      "section": 1,
+      "front": "What is a key learning outcome regarding the interpretation of caregiver observations?",
+      "back": "Nurses must interpret caregiver observations alongside clinical trends."
+    },
+    {
+      "id": "fc-21",
+      "section": 1,
+      "front": "What should a nurse prioritise when a child is unusually sleepy after surgery?",
+      "back": "Immediate escalation of care."
+    },
+    {
+      "id": "fc-22",
+      "section": 1,
+      "front": "Which assessment framework targets age-specific physiological risk?",
+      "back": "Advanced paediatric assessment and prioritisation frameworks."
+    },
+    {
+      "id": "fc-23",
+      "section": 1,
+      "front": "Structured communication for escalation must include child ID, age, weight, concern, history, and what other two items?",
+      "back": "Assessment findings and action required."
+    },
+    {
+      "id": "fc-24",
+      "section": 1,
+      "front": "True or False: A nurse should wait for scoring thresholds to be met before escalating a child who looks unwell.",
+      "back": "False."
+    },
+    {
+      "id": "fc-25",
+      "section": 1,
+      "front": "What is the primary purpose of the Paediatric Assessment Triangle (PAT)?",
+      "back": "To evaluate a child's status quickly."
+    },
+    {
+      "id": "fc-26",
+      "section": 1,
+      "front": "In the context of paediatric assessment, what does 'altered interaction' refer to?",
+      "back": "A change in the child's typical behavioural engagement."
+    },
+    {
+      "id": "fc-27",
+      "section": 1,
+      "front": "When a child is difficult to rouse post-surgery, what is the nurse's immediate priority?",
+      "back": "Recognising deterioration and escalating immediately."
+    },
+    {
+      "id": "fc-28",
+      "section": 1,
+      "front": "How should vital signs and expected behaviours be interpreted in international practice?",
+      "back": "By age and developmental context."
+    },
+    {
+      "id": "fc-29",
+      "section": 1,
+      "front": "What does the clinical example of an unusually sleepy child post-surgery illustrate?",
+      "back": "Deterioration can occur even when vital signs are near the expected range."
+    },
+    {
+      "id": "fc-30",
+      "section": 1,
+      "front": "Why must nurses listen carefully to parents and carers during assessment?",
+      "back": "Parents notice subtle changes before vital signs become abnormal."
+    },
+    {
+      "id": "fc-31",
+      "section": 1,
+      "front": "The phrase \"this is not my child\" is a prompt for what action?",
+      "back": "Immediate clinical assessment."
+    },
+    {
+      "id": "fc-32",
+      "section": 1,
+      "front": "What are the two main tools mentioned for structured paediatric assessment?",
+      "back": "ABCDE and the paediatric assessment triangle."
+    },
+    {
+      "id": "fc-33",
+      "section": 1,
+      "front": "Nurses should interpret symptoms within what four contexts?",
+      "back": "Age, development, family context, and clinical trends."
+    },
+    {
+      "id": "fc-34",
+      "section": 1,
+      "front": "At what point in an illness do children usually stop compensating?",
+      "back": "Late in the illness."
+    },
+    {
+      "id": "fc-35",
+      "section": 1,
+      "front": "What is the primary goal of Section 1 in the Level 2 GNPS Program?",
+      "back": "Advanced paediatric assessment and prioritisation."
+    },
+    {
+      "id": "fc-36",
+      "section": 1,
+      "front": "What type of communication is required when escalating a deteriorating child?",
+      "back": "Structured communication."
+    },
+    {
+      "id": "fc-37",
+      "section": 1,
+      "front": "Tachycardia and tachypnoea should be evaluated against what factor?",
+      "back": "Age-specific norms."
+    },
+    {
+      "id": "fc-38",
+      "section": 1,
+      "front": "In the escalation sequence, which element follows 'Age' and 'Identification'?",
+      "back": "Weight."
+    },
+    {
+      "id": "fc-39",
+      "section": 1,
+      "front": "What is the significance of 'clinical judgement' in paediatric assessment?",
+      "back": "It must be combined with structured tools for effective care."
+    },
+    {
+      "id": "fc-40",
+      "section": 1,
+      "front": "What specific observation is tested by the 'Circulation' component of the PAT?",
+      "back": "Skin colour or perfusion status."
+    },
+    {
+      "id": "fc-41",
+      "section": 1,
+      "front": "What specific observation is tested by the 'Breathing' component of the PAT?",
+      "back": "Work of breathing or respiratory rate."
+    },
+    {
+      "id": "fc-42",
+      "section": 1,
+      "front": "What specific observation is tested by the 'Appearance' component of the PAT?",
+      "back": "The child's mental status, muscle tone, or interactiveness."
+    },
+    {
+      "id": "fc-43",
+      "section": 1,
+      "front": "Why is 'history' included in the structured escalation communication?",
+      "back": "To provide context for the current acute concern."
+    },
+    {
+      "id": "fc-44",
+      "section": 1,
+      "front": "What is the nurse's role regarding caregiver observations?",
+      "back": "To take them seriously and interpret them within the clinical context."
+    },
+    {
+      "id": "fc-45",
+      "section": 1,
+      "front": "How should a nurse manage a child who is 'quiet' and ill?",
+      "back": "Assess them with high concern as they may be unable to compensate."
+    },
+    {
+      "id": "fc-46",
+      "section": 1,
+      "front": "Structured assessment frameworks help nurses prioritise care using _____.",
+      "back": "Age-specific physiological risk."
+    },
+    {
+      "id": "fc-47",
+      "section": 1,
+      "front": "What is the risk of relying solely on vital sign scoring thresholds?",
+      "back": "Missing subtle trends of deterioration."
+    },
+    {
+      "id": "fc-48",
+      "section": 1,
+      "front": "In the clinical example of opioid deterioration, what was the key assessment finding?",
+      "back": "The child was difficult to rouse and breathing slowly."
+    },
+    {
+      "id": "fc-49",
+      "section": 1,
+      "front": "What is the objective of interpreting trends in a child's clinical data?",
+      "back": "To recognise early signs of deterioration before late-stage failure."
+    },
+    {
+      "id": "fc-50",
+      "section": 1,
+      "front": "What should be clearly stated at the end of an escalation call?",
+      "back": "The specific action the nurse requires from the medical team."
+    },
+    {
+      "id": "fc-51",
+      "section": 1,
+      "front": "Which component of the PAT involves observing work of breathing?",
+      "back": "Breathing."
+    },
+    {
+      "id": "fc-52",
+      "section": 1,
+      "front": "Which component of the PAT involves observing skin perfusion?",
+      "back": "Circulation."
+    },
+    {
+      "id": "fc-53",
+      "section": 1,
+      "front": "Which component of the PAT involves observing muscle tone and interaction?",
+      "back": "Appearance."
+    },
+    {
+      "id": "fc-54",
+      "section": 1,
+      "front": "Concept: Paediatric Compensation.",
+      "back": "Definition: The ability of a child to maintain physiological stability until late in an illness."
+    },
+    {
+      "id": "fc-55",
+      "section": 1,
+      "front": "Term: Paediatric Assessment Triangle.",
+      "back": "Definition: A rapid assessment tool evaluating appearance, breathing, and circulation."
+    },
+    {
+      "id": "fc-56",
+      "section": 2,
+      "front": "What is a primary nursing learning outcome for managing high-risk paediatric conditions?",
+      "back": "Recognising airway, neurological, and circulatory emergencies."
+    },
+    {
+      "id": "fc-57",
+      "section": 2,
+      "front": "Besides recognition of emergencies, what is a key learning outcome for Level 2 nurses regarding interventions?",
+      "back": "Applying safe emergency interventions."
+    },
+    {
+      "id": "fc-58",
+      "section": 2,
+      "front": "What must a nurse evaluate after delivering emergency interventions to a child?",
+      "back": "Response to treatment."
+    },
+    {
+      "id": "fc-59",
+      "section": 2,
+      "front": "Nurses managing high-risk paediatric conditions are expected to coordinate care with whom?",
+      "back": "Specialist teams."
+    },
+    {
+      "id": "fc-60",
+      "section": 2,
+      "front": "What are three examples of high-risk respiratory emergencies in children?",
+      "back": "Severe asthma, upper-airway obstruction, and respiratory failure."
+    },
+    {
+      "id": "fc-61",
+      "section": 2,
+      "front": "Which actions are required for a child with an upper-airway obstruction?",
+      "back": "Rapid assessment, oxygenation support, medication, and preparation for escalation."
+    },
+    {
+      "id": "fc-62",
+      "section": 2,
+      "front": "What is the priority intervention for a child in respiratory failure?",
+      "back": "Oxygenation support."
+    },
+    {
+      "id": "fc-63",
+      "section": 2,
+      "front": "In the context of respiratory emergencies, what should a nurse prepare for alongside treatment?",
+      "back": "Escalation."
+    },
+    {
+      "id": "fc-64",
+      "section": 2,
+      "front": "List three examples of paediatric neurological emergencies.",
+      "back": "Prolonged seizure, meningitis, and increased intracranial pressure."
+    },
+    {
+      "id": "fc-65",
+      "section": 2,
+      "front": "What is the immediate nursing priority for a child having a prolonged seizure?",
+      "back": "Airway protection."
+    },
+    {
+      "id": "fc-66",
+      "section": 2,
+      "front": "What specific type of monitoring is necessary for a child with meningitis?",
+      "back": "Neurological monitoring."
+    },
+    {
+      "id": "fc-67",
+      "section": 2,
+      "front": "How is the treatment for increased intracranial pressure categorized in terms of urgency?",
+      "back": "Urgent treatment."
+    },
+    {
+      "id": "fc-68",
+      "section": 2,
+      "front": "Which three conditions are grouped under circulatory and infectious emergencies?",
+      "back": "Sepsis, shock, and severe dehydration."
+    },
+    {
+      "id": "fc-69",
+      "section": 2,
+      "front": "What is a common heart rate finding in a child with sepsis or shock?",
+      "back": "Tachycardia."
+    },
+    {
+      "id": "fc-70",
+      "section": 2,
+      "front": "How might a child's perfusion be described during a circulatory emergency?",
+      "back": "Poor perfusion."
+    },
+    {
+      "id": "fc-71",
+      "section": 2,
+      "front": "What behavioural change is associated with paediatric sepsis and shock?",
+      "back": "Altered behaviour."
+    },
+    {
+      "id": "fc-72",
+      "section": 2,
+      "front": "What happens to urine output in children experiencing severe dehydration or shock?",
+      "back": "Reduced urine output."
+    },
+    {
+      "id": "fc-73",
+      "section": 2,
+      "front": "When does hypotension typically occur in the progression of paediatric shock?",
+      "back": "Late."
+    },
+    {
+      "id": "fc-74",
+      "section": 2,
+      "front": "Name two examples of paediatric metabolic emergencies.",
+      "back": "Diabetic ketoacidosis and severe electrolyte abnormalities."
+    },
+    {
+      "id": "fc-75",
+      "section": 2,
+      "front": "What three things must be carefully monitored in a child with diabetic ketoacidosis (DKA)?",
+      "back": "Fluid, insulin, and neurological status."
+    },
+    {
+      "id": "fc-76",
+      "section": 2,
+      "front": "According to what should metabolic emergencies be monitored and treated?",
+      "back": "Paediatric protocols."
+    },
+    {
+      "id": "fc-77",
+      "section": 2,
+      "front": "In the clinical example, what type of rash suggests sepsis in a febrile child?",
+      "back": "Non-blanching rash."
+    },
+    {
+      "id": "fc-78",
+      "section": 2,
+      "front": "What is the significance of a 'prolonged capillary refill' in a child with a fever?",
+      "back": "It is a sign of possible sepsis."
+    },
+    {
+      "id": "fc-79",
+      "section": 2,
+      "front": "Which behavioural state in the clinical example is a warning sign of sepsis?",
+      "back": "Lethargy."
+    },
+    {
+      "id": "fc-80",
+      "section": 2,
+      "front": "What is the first step a nurse should take after recognising signs of sepsis?",
+      "back": "Activate the emergency pathway."
+    },
+    {
+      "id": "fc-81",
+      "section": 2,
+      "front": "What must a nurse obtain to support the urgent treatment of sepsis?",
+      "back": "Appropriate access (IV/IO)."
+    },
+    {
+      "id": "fc-82",
+      "section": 2,
+      "front": "True or False: A nurse should wait for hypotension to develop before starting urgent sepsis treatment.",
+      "back": "False."
+    },
+    {
+      "id": "fc-83",
+      "section": 2,
+      "front": "Which two types of physiological changes require urgent treatment in paediatrics?",
+      "back": "Airway and breathing changes."
+    },
+    {
+      "id": "fc-84",
+      "section": 2,
+      "front": "What is a key learning point regarding the timing of hypotension in paediatric shock?",
+      "back": "Hypotension may occur late."
+    },
+    {
+      "id": "fc-85",
+      "section": 2,
+      "front": "How frequently should a child's response to emergency treatment be monitored?",
+      "back": "Continuously."
+    },
+    {
+      "id": "fc-86",
+      "section": 2,
+      "front": "What is the purpose of using 'paediatric-specific emergency protocols'?",
+      "back": "To ensure interventions and monitoring are appropriate for the child's age and development."
+    },
+    {
+      "id": "fc-87",
+      "section": 2,
+      "front": "Term: Severe Asthma",
+      "back": "Definition: A high-risk respiratory emergency requiring rapid assessment, oxygenation, and medication."
+    },
+    {
+      "id": "fc-88",
+      "section": 2,
+      "front": "Term: Sepsis",
+      "back": "Definition: An infectious emergency that can present with tachycardia, poor perfusion, and a non-blanching rash."
+    },
+    {
+      "id": "fc-89",
+      "section": 2,
+      "front": "Term: Diabetic Ketoacidosis (DKA)",
+      "back": "Definition: A metabolic emergency requiring careful fluid, insulin, and neurological monitoring."
+    },
+    {
+      "id": "fc-90",
+      "section": 2,
+      "front": "In paediatric shock, _____ is a late and concerning clinical sign.",
+      "back": "hypotension"
+    },
+    {
+      "id": "fc-91",
+      "section": 2,
+      "front": "Meningitis and increased intracranial pressure are categorized as _____ emergencies.",
+      "back": "neurological"
+    },
+    {
+      "id": "fc-92",
+      "section": 2,
+      "front": "The blank in the statement: 'Treat airway and _____ changes urgently' is:",
+      "back": "breathing"
+    },
+    {
+      "id": "fc-93",
+      "section": 2,
+      "front": "Prolonged _____ refill is a circulatory indicator of sepsis or shock.",
+      "back": "capillary"
+    },
+    {
+      "id": "fc-94",
+      "section": 2,
+      "front": "Severe _____ abnormalities are considered high-risk metabolic emergencies.",
+      "back": "electrolyte"
+    },
+    {
+      "id": "fc-95",
+      "section": 2,
+      "front": "What assessment finding is described as a 'late sign' in the context of paediatric circulatory emergencies?",
+      "back": "Hypotension."
+    },
+    {
+      "id": "fc-96",
+      "section": 2,
+      "front": "What is a key nursing action when a child is identified as having a 'neurological emergency'?",
+      "back": "Neurological monitoring and airway protection."
+    },
+    {
+      "id": "fc-97",
+      "section": 2,
+      "front": "What condition might a child have if they present with fever, lethargy, and a non-blanching rash?",
+      "back": "Sepsis."
+    },
+    {
+      "id": "fc-98",
+      "section": 2,
+      "front": "What should the nurse monitor for in a child with increased intracranial pressure (ICP)?",
+      "back": "Neurological changes."
+    },
+    {
+      "id": "fc-99",
+      "section": 2,
+      "front": "Which respiratory condition requires preparation for escalation due to the risk of total blockage?",
+      "back": "Upper-airway obstruction."
+    },
+    {
+      "id": "fc-100",
+      "section": 2,
+      "front": "Why is the continuous monitoring of a child's response to treatment essential?",
+      "back": "To detect rapid changes and ensure the intervention is effective."
+    },
+    {
+      "id": "fc-101",
+      "section": 2,
+      "front": "Name the three components of monitoring required for paediatric DKA.",
+      "back": "Fluid, insulin, and neurological monitoring."
+    },
+    {
+      "id": "fc-102",
+      "section": 2,
+      "front": "What is the nurse's role in the 'emergency pathway' for sepsis?",
+      "back": "Activate the pathway and obtain access for treatment."
+    },
+    {
+      "id": "fc-103",
+      "section": 2,
+      "front": "Identify two circulatory/infectious signs related to skin and perfusion.",
+      "back": "Non-blanching rash and prolonged capillary refill."
+    },
+    {
+      "id": "fc-104",
+      "section": 2,
+      "front": "What is the primary risk for a child with a prolonged seizure?",
+      "back": "Airway compromise."
+    },
+    {
+      "id": "fc-105",
+      "section": 2,
+      "front": "Which high-risk condition requires 'oxygenation support' as a primary intervention?",
+      "back": "Respiratory emergencies (e.g., severe asthma or respiratory failure)."
+    },
+    {
+      "id": "fc-106",
+      "section": 2,
+      "front": "In terms of circulatory status, what does 'reduced urine output' signify?",
+      "back": "Potential shock or severe dehydration."
+    },
+    {
+      "id": "fc-107",
+      "section": 2,
+      "front": "According to the key learning points, what should be used to guide emergency interventions?",
+      "back": "Paediatric-specific emergency protocols."
+    },
+    {
+      "id": "fc-108",
+      "section": 2,
+      "front": "What nursing goal is shared across all high-risk paediatric conditions?",
+      "back": "Anticipating complications and coordinating care."
+    },
+    {
+      "id": "fc-109",
+      "section": 2,
+      "front": "What is the characteristic of a rash that does not fade under pressure?",
+      "back": "Non-blanching."
+    },
+    {
+      "id": "fc-110",
+      "section": 2,
+      "front": "Which emergency category includes severe dehydration?",
+      "back": "Circulatory and Infectious Emergencies."
+    },
+    {
+      "id": "fc-111",
+      "section": 2,
+      "front": "What is a priority intervention for 'respiratory failure'?",
+      "back": "Oxygenation support and preparation for escalation."
+    },
+    {
+      "id": "fc-112",
+      "section": 2,
+      "front": "What is the significance of tachycardia in a child with poor perfusion?",
+      "back": "It is a compensatory sign of shock."
+    },
+    {
+      "id": "fc-113",
+      "section": 2,
+      "front": "What should the nurse obtain immediately for a child in septic shock?",
+      "back": "Appropriate access."
+    },
+    {
+      "id": "fc-114",
+      "section": 2,
+      "front": "Which neurological condition requires airway protection first?",
+      "back": "Prolonged seizure."
+    },
+    {
+      "id": "fc-115",
+      "section": 2,
+      "front": "What must be monitored according to paediatric protocols in DKA?",
+      "back": "Neurological status."
+    },
+    {
+      "id": "fc-116",
+      "section": 2,
+      "front": "Which condition is a metabolic emergency involving salts and minerals in the blood?",
+      "back": "Severe electrolyte abnormalities."
+    },
+    {
+      "id": "fc-117",
+      "section": 2,
+      "front": "What nursing action is critical for airway protection during a seizure?",
+      "back": "Airway management/protection."
+    },
+    {
+      "id": "fc-118",
+      "section": 2,
+      "front": "A child with 'lethargy' and 'tachycardia' is primarily suspected of what?",
+      "back": "Sepsis or shock."
+    },
+    {
+      "id": "fc-119",
+      "section": 2,
+      "front": "What is the relationship between hypotension and paediatric shock?",
+      "back": "Hypotension is a late sign of shock."
+    },
+    {
+      "id": "fc-120",
+      "section": 2,
+      "front": "What type of access is generally obtained for urgent sepsis treatment?",
+      "back": "Intravenous or intraosseous access."
+    },
+    {
+      "id": "fc-121",
+      "section": 2,
+      "front": "Which high-risk condition is characterized by increased pressure within the skull?",
+      "back": "Increased intracranial pressure (ICP)."
+    },
+    {
+      "id": "fc-122",
+      "section": 2,
+      "front": "What respiratory condition requires 'medication' as a key part of the emergency protocol?",
+      "back": "Severe asthma."
+    },
+    {
+      "id": "fc-123",
+      "section": 2,
+      "front": "The phrase 'Treat airway and breathing changes _____' completes a key learning point.",
+      "back": "urgently"
+    },
+    {
+      "id": "fc-124",
+      "section": 2,
+      "front": "A child's 'altered interaction' is an indicator used in which emergency assessment triangle?",
+      "back": "Paediatric assessment triangle."
+    },
+    {
+      "id": "fc-125",
+      "section": 2,
+      "front": "What is the role of 'rapid assessment' in managing high-risk conditions?",
+      "back": "To identify emergencies early and initiate interventions."
+    },
+    {
+      "id": "fc-126",
+      "section": 2,
+      "front": "In the sepsis clinical example, why is the emergency pathway activated before hypotension occurs?",
+      "back": "Because children compensate for shock until late, making early action vital."
+    },
+    {
+      "id": "fc-127",
+      "section": 2,
+      "front": "Which category of emergencies includes meningitis?",
+      "back": "Neurological emergencies."
+    },
+    {
+      "id": "fc-128",
+      "section": 2,
+      "front": "What does the nurse monitor continuously to check the effectiveness of oxygenation support?",
+      "back": "The child's response to treatment."
+    },
+    {
+      "id": "fc-129",
+      "section": 2,
+      "front": "List two signs of poor perfusion in a paediatric patient.",
+      "back": "Prolonged capillary refill and tachycardia."
+    },
+    {
+      "id": "fc-130",
+      "section": 2,
+      "front": "What metabolic emergency involves the management of insulin?",
+      "back": "Diabetic ketoacidosis (DKA)."
+    },
+    {
+      "id": "fc-131",
+      "section": 3,
+      "front": "In paediatric medication safety, what must be checked regarding the dose calculation?",
+      "back": "Weight-based dosing."
+    },
+    {
+      "id": "fc-132",
+      "section": 3,
+      "front": "What is one of the five essential factors to check for paediatric infusion safety besides dosing and rate?",
+      "back": "Concentration."
+    },
+    {
+      "id": "fc-133",
+      "section": 3,
+      "front": "In addition to concentration, what must be verified about the speed of a paediatric medication delivery?",
+      "back": "Infusion rate."
+    },
+    {
+      "id": "fc-134",
+      "section": 3,
+      "front": "What must be checked to ensure multiple paediatric infusions can be administered together safely?",
+      "back": "Compatibility."
+    },
+    {
+      "id": "fc-135",
+      "section": 3,
+      "front": "What safety limit must be verified to ensure a weight-based dose is not too high for a child?",
+      "back": "Maximum dose."
+    },
+    {
+      "id": "fc-136",
+      "section": 3,
+      "front": "What is the role of smart pumps and electronic systems in paediatric medication safety?",
+      "back": "They support but do not replace verification."
+    },
+    {
+      "id": "fc-137",
+      "section": 3,
+      "front": "When should paediatric medication doses be recalculated?",
+      "back": "When the child's weight changes."
+    },
+    {
+      "id": "fc-138",
+      "section": 3,
+      "front": "Which chronic respiratory condition is identified as requiring a long-term plan in paediatric care?",
+      "back": "Asthma."
+    },
+    {
+      "id": "fc-139",
+      "section": 3,
+      "front": "Which metabolic condition is listed as a chronic illness requiring supportive long-term planning?",
+      "back": "Diabetes."
+    },
+    {
+      "id": "fc-140",
+      "section": 3,
+      "front": "Which neurological condition is mentioned as requiring a long-term plan supporting development and education?",
+      "back": "Epilepsy."
+    },
+    {
+      "id": "fc-141",
+      "section": 3,
+      "front": "Which genetic condition affecting the lungs and digestive system requires coordinated long-term care?",
+      "back": "Cystic fibrosis."
+    },
+    {
+      "id": "fc-142",
+      "section": 3,
+      "front": "Which cardiovascular condition is listed as requiring complex, long-term support?",
+      "back": "Congenital heart disease."
+    },
+    {
+      "id": "fc-143",
+      "section": 3,
+      "front": "Paediatric long-term plans for chronic conditions must support development, education, and _____.",
+      "back": "Family life."
+    },
+    {
+      "id": "fc-144",
+      "section": 3,
+      "front": "Paediatric long-term plans for chronic conditions must support education, family life, and _____.",
+      "back": "Development."
+    },
+    {
+      "id": "fc-145",
+      "section": 3,
+      "front": "Paediatric long-term plans for chronic conditions must support development, family life, and _____.",
+      "back": "Education."
+    },
+    {
+      "id": "fc-146",
+      "section": 3,
+      "front": "Which member of the multidisciplinary team is specifically responsible for medication management in chronic care?",
+      "back": "Pharmacists."
+    },
+    {
+      "id": "fc-147",
+      "section": 3,
+      "front": "Which multidisciplinary team members provide specialized rehabilitation support for children with chronic conditions?",
+      "back": "Therapists."
+    },
+    {
+      "id": "fc-148",
+      "section": 3,
+      "front": "In coordinated care, which non-medical setting must be included for children with chronic conditions?",
+      "back": "School staff."
+    },
+    {
+      "id": "fc-149",
+      "section": 3,
+      "front": "Which medical service provides ongoing management for a child after hospital discharge?",
+      "back": "Primary care."
+    },
+    {
+      "id": "fc-150",
+      "section": 3,
+      "front": "Besides hospital and primary care, where should coordination efforts be directed for complex child care?",
+      "back": "Community services."
+    },
+    {
+      "id": "fc-151",
+      "section": 3,
+      "front": "What must be established for all parties involved in a child's transition of care?",
+      "back": "Clear responsibilities."
+    },
+    {
+      "id": "fc-152",
+      "section": 3,
+      "front": "What type of instruction do families require regarding their child's warning signs and emergency plans?",
+      "back": "Practical instruction."
+    },
+    {
+      "id": "fc-153",
+      "section": 3,
+      "front": "What is the purpose of using teach-back during family education?",
+      "back": "To confirm understanding."
+    },
+    {
+      "id": "fc-154",
+      "section": 3,
+      "front": "Which method should a nurse use to confirm a caregiver's ability to use a medical device?",
+      "back": "Return demonstration."
+    },
+    {
+      "id": "fc-155",
+      "section": 3,
+      "front": "In the epilepsy clinical example, which type of medication is the child discharged with?",
+      "back": "Rescue medication."
+    },
+    {
+      "id": "fc-156",
+      "section": 3,
+      "front": "According to the epilepsy clinical example, who should the nurse teach regarding medication administration?",
+      "back": "Both parents."
+    },
+    {
+      "id": "fc-157",
+      "section": 3,
+      "front": "What specific document should a nurse provide to a family upon discharge for a child with epilepsy?",
+      "back": "A written seizure plan."
+    },
+    {
+      "id": "fc-158",
+      "section": 3,
+      "front": "Before discharge, how should a nurse verify the correct rescue medication dose for a child?",
+      "back": "Check the dose against current weight."
+    },
+    {
+      "id": "fc-159",
+      "section": 3,
+      "front": "When should caregivers be asked to demonstrate medication administration during the discharge process?",
+      "back": "Before discharge."
+    },
+    {
+      "id": "fc-160",
+      "section": 3,
+      "front": "Where should a nurse coordinate care for a child beyond the home and health services?",
+      "back": "School services."
+    },
+    {
+      "id": "fc-161",
+      "section": 3,
+      "front": "What is a primary goal for nurses managing children with complex or chronic conditions?",
+      "back": "Coordinate care across services."
+    },
+    {
+      "id": "fc-162",
+      "section": 3,
+      "front": "What is an essential component of preparing families for safe discharge?",
+      "back": "Family education."
+    },
+    {
+      "id": "fc-163",
+      "section": 3,
+      "front": "What is required for safe care of children who rely on multiple medicines and devices?",
+      "back": "Precise calculation."
+    },
+    {
+      "id": "fc-164",
+      "section": 3,
+      "front": "Besides calculation, what is a pillar of safe care for children with complex needs?",
+      "back": "Education."
+    },
+    {
+      "id": "fc-165",
+      "section": 3,
+      "front": "Besides calculation and education, what must a nurse do to ensure safe care for children with complex conditions?",
+      "back": "Coordination across settings."
+    },
+    {
+      "id": "fc-166",
+      "section": 3,
+      "front": "Children with complex conditions may rely on multiple medicines, multiple caregivers, and multiple _____.",
+      "back": "Devices."
+    },
+    {
+      "id": "fc-167",
+      "section": 3,
+      "front": "Children with complex conditions may rely on multiple devices, multiple caregivers, and multiple _____.",
+      "back": "Medicines."
+    },
+    {
+      "id": "fc-168",
+      "section": 3,
+      "front": "Children with complex conditions may rely on multiple medicines, multiple devices, and multiple _____.",
+      "back": "Caregivers."
+    },
+    {
+      "id": "fc-169",
+      "section": 3,
+      "front": "What should be provided to families to guide their response to potential medical crises at home?",
+      "back": "Clear emergency action plans."
+    },
+    {
+      "id": "fc-170",
+      "section": 3,
+      "front": "What is one specific educational topic families need to understand regarding their child's medical equipment?",
+      "back": "Practical instruction on use."
+    },
+    {
+      "id": "fc-171",
+      "section": 3,
+      "front": "In paediatric care coordination, why is it necessary to involve pharmacists?",
+      "back": "To ensure safe medication management."
+    },
+    {
+      "id": "fc-172",
+      "section": 3,
+      "front": "According to the Level 2 notes, what is one outcome of applying advanced paediatric medication safety?",
+      "back": "Ensuring precise weight-based dosing."
+    },
+    {
+      "id": "fc-173",
+      "section": 3,
+      "front": "What is the primary objective of teaching 'warning signs' to parents before discharge?",
+      "back": "To enable early recognition of deterioration at home."
+    },
+    {
+      "id": "fc-174",
+      "section": 3,
+      "front": "In the context of Section 3, what defines 'complex conditions' in children?",
+      "back": "Conditions requiring multiple medicines, devices, and caregivers."
+    },
+    {
+      "id": "fc-175",
+      "section": 3,
+      "front": "What must be clear to everyone when a child's care plan involves school and community services?",
+      "back": "Responsibilities."
+    },
+    {
+      "id": "fc-176",
+      "section": 3,
+      "front": "Why is 'return demonstration' preferred over just verbal instruction for equipment use?",
+      "back": "It confirms practical competence."
+    },
+    {
+      "id": "fc-177",
+      "section": 3,
+      "front": "What must a nurse do regarding a child's rescue medication dose if the child has gained $2$ kg?",
+      "back": "Recalculate the dose based on the new weight."
+    },
+    {
+      "id": "fc-178",
+      "section": 3,
+      "front": "Which stakeholders are responsible for therapeutic interventions in a complex care plan?",
+      "back": "Therapists."
+    },
+    {
+      "id": "fc-179",
+      "section": 3,
+      "front": "What is the focus of family education regarding medical follow-up?",
+      "back": "Instructing families on when and where to seek further care."
+    },
+    {
+      "id": "fc-180",
+      "section": 3,
+      "front": "How does a nurse support a child's 'autonomy' through chronic illness management?",
+      "back": "By supporting development and education within the care plan."
+    },
+    {
+      "id": "fc-181",
+      "section": 3,
+      "front": "What is the role of 'primary care' in the transition of a child with a chronic illness?",
+      "back": "Providing continuity of care after hospital discharge."
+    },
+    {
+      "id": "fc-182",
+      "section": 3,
+      "front": "What is a key learning point for coordinating care for a child with a complex condition?",
+      "back": "Coordinate across home, school, and health services."
+    },
+    {
+      "id": "fc-183",
+      "section": 3,
+      "front": "In medication safety, what does checking 'concentration' involve?",
+      "back": "Ensuring the amount of drug per volume is correct for the child."
+    },
+    {
+      "id": "fc-184",
+      "section": 3,
+      "front": "What does Section 3 state about 'compatibility' in paediatric infusions?",
+      "back": "It must be checked to prevent adverse interactions between medicines."
+    },
+    {
+      "id": "fc-185",
+      "section": 3,
+      "front": "Why should a written seizure plan be provided for an epileptic child's discharge?",
+      "back": "To provide a clear emergency action plan for caregivers."
+    },
+    {
+      "id": "fc-186",
+      "section": 4,
+      "front": "Which three categories of indicators should a nurse use to recognize potential child abuse or neglect?",
+      "back": "Physical, emotional, and behavioral indicators."
+    },
+    {
+      "id": "fc-187",
+      "section": 4,
+      "front": "What is the required nursing action immediately after recognizing safeguarding concerns?",
+      "back": "Follow local legal and organisational pathways promptly."
+    },
+    {
+      "id": "fc-188",
+      "section": 4,
+      "front": "What resource should be used to communicate complex medical information to families with language barriers?",
+      "back": "Professional interpreters."
+    },
+    {
+      "id": "fc-189",
+      "section": 4,
+      "front": "To what two factors should explanations be tailored when communicating with children?",
+      "back": "The child's age and ability."
+    },
+    {
+      "id": "fc-190",
+      "section": 4,
+      "front": "In international paediatric practice, who typically provides the legal consent for a child's care?",
+      "back": "Parents or guardians."
+    },
+    {
+      "id": "fc-191",
+      "section": 4,
+      "front": "Term: Child Assent",
+      "back": "Definition: The involvement of children in healthcare decisions according to their maturity."
+    },
+    {
+      "id": "fc-192",
+      "section": 4,
+      "front": "Under what specific constraints should a nurse provide privacy to an adolescent?",
+      "back": "Within legal and safety limits."
+    },
+    {
+      "id": "fc-193",
+      "section": 4,
+      "front": "What must a nurse explain to an adolescent before beginning a private discussion about home safety?",
+      "back": "Confidentiality and its limits."
+    },
+    {
+      "id": "fc-194",
+      "section": 4,
+      "front": "Name four core principles of trauma-informed care used to reduce childhood distress.",
+      "back": "Predictability, choice, calm communication, and minimizing unnecessary restraint."
+    },
+    {
+      "id": "fc-195",
+      "section": 4,
+      "front": "What is the primary goal of applying trauma-informed care principles in paediatrics?",
+      "back": "To reduce distress for children who have experienced trauma."
+    },
+    {
+      "id": "fc-196",
+      "section": 4,
+      "front": "What action is required if an adolescent discloses an immediate risk during a private consultation?",
+      "back": "Follow the safeguarding pathway."
+    },
+    {
+      "id": "fc-197",
+      "section": 4,
+      "front": "How should a nurse approach a conversation with an adolescent regarding their medication privacy?",
+      "back": "Listen without judgement and explain the limits of confidentiality."
+    },
+    {
+      "id": "fc-198",
+      "section": 4,
+      "front": "What is a key learning point regarding the communication of confidentiality to patients?",
+      "back": "Explain confidentiality honestly."
+    },
+    {
+      "id": "fc-199",
+      "section": 4,
+      "front": "Besides legal requirements, what else should a nurse know regarding safeguarding in their workplace?",
+      "back": "Local organisational reporting pathways."
+    },
+    {
+      "id": "fc-200",
+      "section": 4,
+      "front": "In the context of trauma-informed care, what does 'minimizing unnecessary restraint' help achieve?",
+      "back": "It reduces distress for children with a history of trauma."
+    },
+    {
+      "id": "fc-201",
+      "section": 4,
+      "front": "How should a nurse support a child's autonomy according to Section 4 learning outcomes?",
+      "back": "By supporting the child's participation in decisions through assent."
+    },
+    {
+      "id": "fc-202",
+      "section": 4,
+      "front": "The use of _____ should be avoided for complex information; professional interpreters are required instead.",
+      "back": "Non-professional or family interpreters"
+    },
+    {
+      "id": "fc-203",
+      "section": 4,
+      "front": "Which specific patient population requires privacy 'within legal and safety limits'?",
+      "back": "Adolescents."
+    },
+    {
+      "id": "fc-204",
+      "section": 4,
+      "front": "What should a nurse do if a child provides indicators of neglect during a physical assessment?",
+      "back": "Follow local safeguarding and reporting pathways promptly."
+    },
+    {
+      "id": "fc-205",
+      "section": 4,
+      "front": "Which principle of trauma-informed care involves providing the child with options during their treatment?",
+      "back": "Choice."
+    },
+    {
+      "id": "fc-206",
+      "section": 4,
+      "front": "What nursing outcome involves respecting family structure and the child's developing autonomy?",
+      "back": "Communicating in ways that respect culture and rights."
+    },
+    {
+      "id": "fc-207",
+      "section": 4,
+      "front": "Concept: Safeguarding Pathways",
+      "back": "Definition: Local legal and organisational steps taken promptly when abuse or neglect is suspected."
+    },
+    {
+      "id": "fc-208",
+      "section": 4,
+      "front": "Under trauma-informed care, how should a nurse communicate to help reduce a child's distress?",
+      "back": "Using calm communication."
+    },
+    {
+      "id": "fc-209",
+      "section": 4,
+      "front": "What is a nurse's responsibility regarding a child's participation in medical decisions?",
+      "back": "Support the child's involvement according to their maturity."
+    },
+    {
+      "id": "fc-210",
+      "section": 4,
+      "front": "What must be provided to a child to ensure explanations are suited to their development?",
+      "back": "Age-appropriate and ability-appropriate communication."
+    },
+    {
+      "id": "fc-211",
+      "section": 4,
+      "front": "When is a nurse legally required to breach an adolescent's confidentiality?",
+      "back": "When an immediate risk is disclosed."
+    },
+    {
+      "id": "fc-212",
+      "section": 4,
+      "front": "Predictability, choice, and calm communication are elements of _____ care.",
+      "back": "Trauma-informed"
+    }
+  ]
+}

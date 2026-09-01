@@ -1,0 +1,810 @@
+{
+  "courseCode": "NURS-M3",
+  "title": "Module 3 — Adult Medical–Surgical Nursing II",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Module 3 focuses on high-acuity adult medical–surgical conditions that can deteriorate rapidly. These notes are written in a teaching style for students preparing for NCLEX."
+        },
+        {
+          "type": "paragraph",
+          "text": "For every condition, train your NCLEX thinking using three questions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What cues tell me this patient is unstable?",
+            "What is the priority problem (airway, breathing, circulation, neuro safety)?",
+            "What is the safest first nursing action—and what outcome should I evaluate?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When you practise case studies and the mini quiz at the end, apply the CJMM steps (Recognize cues → Analyze cues → Prioritize → Generate solutions → Take action → Evaluate outcomes)."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Recognise and respond to cardiovascular, respiratory, neurological, endocrine and multisystem emergencies.",
+            "Interpret high-yield diagnostics (ECG rhythms, ABGs, electrolytes, coagulation studies, lactate) in clinical context.",
+            "Prioritise nursing actions for unstable patients using ABCs, safety-first, and expected vs unexpected frameworks.",
+            "Implement evidence-based stabilisation interventions (oxygen support, emergency medications, seizure protocols, shock management).",
+            "Communicate and escalate care appropriately using SBAR / rapid response principles.",
+            "Provide brief but effective education and support for patients and families during critical illness."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "High-Acuity Clinical Judgment: How NCLEX Expects You to Think",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High-acuity questions often present multiple abnormal cues at once. Your job is to identify the single most dangerous problem first."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Priority Framework in Plain Language",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Use this order to think quickly:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Airway problems (obstruction, stridor, inability to protect airway)",
+                "Breathing problems (SpO2 low, severe dyspnea, respiratory fatigue)",
+                "Circulation failure (shock, bleeding, chest pain with hypotension, poor perfusion)",
+                "Neurological safety (stroke signs, seizures, decreased LOC)",
+                "Then pain/comfort, psychosocial needs, documentation."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX rule: If the patient looks unstable, do not delay. Call for help while you begin immediate nursing actions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "CJMM in High-Acuity Scenarios",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The NGN CJMM steps help you avoid guessing. In critical illness, the first three steps matter most: Recognize cues, Analyze cues, Prioritize hypotheses."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example cue pairing:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BP 86/52 + HR 128 + altered LOC → shock/perfusion problem",
+                "SpO2 84% + RR 32 + accessory muscle use → respiratory failure risk",
+                "Sudden unilateral weakness + slurred speech → stroke until proven otherwise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Cardiovascular Emergencies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Module 3 extends cardiovascular learning to life-threatening emergencies such as Acute Coronary Syndrome (ACS), unstable arrhythmias, and acute decompensated heart failure."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Acute Coronary Syndrome (ACS): Unstable Angina vs MI",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ACS is a spectrum where the heart muscle is not receiving enough oxygen. The danger is that the patient can progress to myocardial infarction or lethal arrhythmias."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you see at the bedside: chest pressure, diaphoresis, nausea, dyspnea, anxiety. Older adults and people with diabetes may have atypical presentations (fatigue, SOB)."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX priorities: Apply oxygen only if hypoxic or in respiratory distress (follow facility policy). Get ECG quickly per protocol; notify provider/activate chest pain pathway. Maintain IV access, monitor vitals and pain, prepare emergency medications as ordered."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: If a client has chest pain plus hypotension, treat it as unstable—this outranks routine pain management or paperwork."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Arrhythmias: Recognise Unstable vs Stable",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Arrhythmias become emergencies when they reduce perfusion. NCLEX focuses on recognising instability rather than memorising every rhythm strip."
+            },
+            {
+              "type": "paragraph",
+              "text": "Unstable cues include hypotension, chest pain, altered LOC, signs of shock, acute heart failure, or severe shortness of breath."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key nursing action: assess perfusion and call rapid response/provider; prepare for interventions per protocol (oxygen, IV access, monitoring)."
+            },
+            {
+              "type": "paragraph",
+              "text": "High-yield examples: Ventricular tachycardia (VT): may have pulse or pulseless—pulseless VT requires CPR and defibrillation. Bradycardia with hypotension: treat as unstable; prepare atropine and pacing per protocol. Atrial fibrillation: concern for stroke risk; monitor, rate control meds may be ordered."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "Acute Heart Failure Exacerbation / Pulmonary Edema",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Acute decompensated HF can quickly become respiratory failure. The patient often presents with severe dyspnea, crackles, pink frothy sputum, anxiety, and low SpO2."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX first actions: sit upright (high Fowler's), apply oxygen, assess response, and prepare diuretics/vasodilators as ordered. Monitor urine output and potassium."
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluation: improving SpO2, decreasing crackles, improved work of breathing, increased urine output."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Respiratory Crises",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Respiratory crises are common NCLEX emergencies because airway and breathing problems can kill quickly."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "Pulmonary Embolism (PE)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "PE is a blockage in pulmonary circulation, often from a DVT. It is common after surgery, immobility, trauma, or hypercoagulable states."
+            },
+            {
+              "type": "paragraph",
+              "text": "Classic presentation: sudden dyspnea, tachycardia, pleuritic chest pain, anxiety, low SpO2. Sometimes cough/hemoptysis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priority: oxygenation and emergency escalation. Raise HOB, apply oxygen, call rapid response/provider, stay with patient and monitor vitals."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevention is NCLEX-tested: early ambulation, SCDs, anticoagulants as ordered, hydration, and patient teaching about DVT signs."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Status Asthmaticus",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Status asthmaticus is a severe asthma attack not responding to initial treatment. It is a medical emergency due to risk of respiratory failure."
+            },
+            {
+              "type": "paragraph",
+              "text": "Red flags: inability to speak, severe distress, silent chest (no wheeze), fatigue, falling SpO2."
+            },
+            {
+              "type": "paragraph",
+              "text": "Priority actions: administer bronchodilator (rescue medication), oxygenation support, prepare systemic steroids and further interventions per provider orders."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "ARDS (Acute Respiratory Distress Syndrome)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ARDS is severe inflammatory lung injury causing refractory hypoxemia. It may occur in sepsis, trauma, aspiration, or severe pneumonia."
+            },
+            {
+              "type": "paragraph",
+              "text": "What makes ARDS critical: oxygen levels remain low despite oxygen therapy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing focus: high-level respiratory support (often ventilator), monitor ABGs/SpO2 closely, prevent complications (VAP prevention, turning, oral care), and support hemodynamics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Neurological Emergencies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Neurological emergencies require rapid action because brain tissue is extremely sensitive to lack of oxygen and blood flow."
+        },
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Stroke: Time is Brain",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Stroke symptoms: facial droop, arm weakness, speech difficulty (FAST). Other cues include sudden confusion, vision changes, severe headache, and balance loss."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX priorities: ensure airway safety, assess glucose (hypoglycemia mimics stroke), initiate stroke protocol/rapid response, and keep NPO until swallow screen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Avoid delays: do not give oral medications or food until swallow screen is complete."
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluation: stable airway, oxygenation maintained, rapid imaging arranged, neuro checks ongoing."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Seizures and Status Epilepticus",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Seizures are a sudden uncontrolled electrical discharge in the brain. Status epilepticus is continuous seizure activity and is life-threatening."
+            },
+            {
+              "type": "paragraph",
+              "text": "During seizure nursing priorities: protect patient from injury, maintain airway (side-lying), do not restrain, do not place objects in mouth."
+            },
+            {
+              "type": "paragraph",
+              "text": "After seizure: assess airway/breathing, check glucose, assess for injury, document duration and characteristics."
+            },
+            {
+              "type": "paragraph",
+              "text": "Status epilepticus: prepare emergency medications (benzodiazepines) per protocol; rapid response/provider."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Increased Intracranial Pressure (ICP)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Increased ICP can occur after head injury, bleeding, tumor, hydrocephalus, or stroke. The danger is brain herniation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Red flags: decreased LOC, vomiting, severe headache, unequal pupils, Cushing's triad (bradycardia, hypertension, irregular respirations)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing actions: elevate HOB ~30°, keep neck midline, avoid coughing/straining, maintain oxygenation, notify provider urgently if deterioration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Renal and Fluid–Electrolyte Emergencies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In high-acuity Med–Surg, electrolytes and fluids can change quickly, leading to arrhythmias, seizures, and shock."
+        },
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Hyperkalemia (K+ High): The Dangerous Electrolyte",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hyperkalemia can cause fatal dysrhythmias. Watch for muscle weakness, paresthesia, and ECG changes."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priority: cardiac monitoring and urgent escalation. Treatments may include calcium gluconate (stabilize heart), insulin/glucose (shift K+ into cells), and dialysis depending on severity."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: if potassium is high and the patient has symptoms, treat as urgent."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Hyponatremia and Neuro Risk",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Low sodium can cause confusion, seizures, and coma. It often occurs with excess free water, diuretics, or SIADH."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing actions: seizure precautions, neuro assessment, fluid restriction or IV therapy as ordered, and slow correction (rapid correction can cause serious complications)."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Acute Kidney Injury (AKI)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "AKI can result from dehydration, sepsis, nephrotoxic drugs, or obstruction. Watch urine output trends and rising creatinine."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing focus: accurate I&O, daily weights, avoid nephrotoxins where possible, maintain perfusion (fluids as ordered), and monitor electrolytes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Endocrine Emergencies",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "DKA vs HHS (High Yield Comparison)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Both are severe hyperglycemic emergencies. DKA is more common in Type 1 diabetes and includes ketones and metabolic acidosis. HHS is often Type 2 and has extreme hyperglycemia with severe dehydration but minimal ketones."
+            },
+            {
+              "type": "paragraph",
+              "text": "DKA cues: Kussmaul breathing, fruity breath, abdominal pain, acidosis. HHS cues: very high glucose, severe dehydration, altered LOC."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX priorities: IV fluids first (restore perfusion), then insulin, and monitor potassium carefully."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Thyroid Storm and Myxedema Coma",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Thyroid storm is life-threatening hyperthyroidism: fever, tachycardia, agitation, diarrhea. Myxedema coma is severe hypothyroidism: hypothermia, bradycardia, decreased LOC."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priorities: airway support, temperature management, cardiac monitoring, and rapid escalation for endocrine emergencies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "GI, Hepatic, Hematologic, Immunologic Emergencies",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "GI and Hepatic Emergencies",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "GI emergencies include severe bleeding, perforation, obstruction, pancreatitis, and acute liver failure."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX red flags: rigid abdomen, severe sudden pain, signs of shock, vomiting blood, black stools, confusion in liver disease."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "Hematologic and Immunologic Disorders",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These conditions often involve bleeding risk (low platelets, anticoagulation), clot risk, or immune dysfunction."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing priorities include bleeding precautions, monitoring for DVT/PE, and infection prevention for immunocompromised patients."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.3",
+          "title": "Sepsis and Shock (Multisystem)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sepsis is a dysregulated response to infection causing organ dysfunction. Shock is circulatory failure causing poor tissue perfusion."
+            },
+            {
+              "type": "paragraph",
+              "text": "Early cues: fever or hypothermia, tachycardia, tachypnea, hypotension, altered LOC, decreased urine output."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nursing actions: activate sepsis pathway, obtain cultures and lactate as ordered, initiate fluids, administer antibiotics on time, and monitor response closely."
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluation: improving BP, improved urine output, decreasing lactate, improving mental status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Delegation, Collaboration, and Interdisciplinary Care in High Acuity",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High-acuity care is team-based. NCLEX expects you to delegate safely while keeping RN responsibilities intact."
+        },
+        {
+          "type": "list",
+          "items": [
+            "RN-only tasks: initial assessment, teaching, evaluation, unstable clients, IV push meds, critical judgement.",
+            "LPN: stable patients, routine meds, wound care as allowed.",
+            "UAP: routine vitals for stable patients, hygiene, mobility assistance, I&O."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Collaboration examples: respiratory therapist for oxygen/ventilation support, pharmacist for titrating meds and preventing interactions."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Patient and Family Education in Critical Care",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Even during emergencies, brief education and reassurance matter. Use simple words, one instruction at a time, and confirm understanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: before thrombolytic therapy, explain purpose and bleeding risk. For PE prevention, teach early mobility and leg exercises."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN-Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These cases simulate NGN-style thinking. Read the cues, decide what is most urgent, then choose the safest action."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Unstable Chest Pain (ACS)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 60-year-old arrives with crushing chest pain and sweating. Vitals: BP 86/54, HR 124, RR 26, SpO2 90%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Hypotension + tachycardia; Diaphoresis + crushing chest pain; Increased RR and borderline SpO2."
+            },
+            {
+              "type": "paragraph",
+              "text": "Practice questions: What is the first nursing action? Which finding shows instability? What should the nurse prepare next?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Model CJMM reasoning: Recognise cues: hypotension, chest pain, tachycardia. Analyse: suspected ACS with poor perfusion. Prioritise: circulation/breathing risk. Solutions: monitor/ECG, oxygen if needed, IV access, call rapid response/provider. Evaluate: BP improves, pain decreases, perfusion improves."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Sudden Dyspnea After Surgery (PE)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Post-op day 1 hip surgery: sudden dyspnea, chest pain. Vitals: HR 130, RR 32, SpO2 84%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Sudden onset dyspnea post-op; SpO2 84%; Tachycardia and chest pain. Practice questions: What is the safest first action? Most likely complication? What prevention should have been applied? Model CJMM: Recognise: severe hypoxemia and acute onset. Analyse: high suspicion for PE. Prioritise: breathing. Solutions: raise HOB, oxygen, call rapid response, continuous monitoring. Evaluate: SpO2 increases, RR decreases."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Stroke Symptoms in Ward",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A client suddenly develops slurred speech and right-sided weakness. Glucose is unknown."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: FAST symptoms; Acute onset neuro deficit. Practice questions: What must the nurse check immediately? What is priority action? Why keep client NPO? Model CJMM: Recognise: stroke cues. Analyse: stroke vs hypoglycemia mimic. Prioritise: airway safety and rapid protocol. Solutions: check glucose, activate stroke pathway, neuro checks, keep NPO until swallow screen. Evaluate: timely imaging and stable airway."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Hyperkalemia in CKD",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Client with CKD has K+ 6.6 mEq/L, weakness, and palpitations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: K+ dangerously high; Symptoms suggest cardiac risk. Practice questions: What is priority nursing action? Why is this urgent? What treatments might be ordered? Model CJMM: Recognise: hyperkalemia with symptoms. Analyse: risk of fatal dysrhythmia. Prioritise: circulation. Solutions: cardiac monitoring, notify provider urgently, prepare emergency medications. Evaluate: rhythm stabilises, K+ reduces."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Sepsis Progressing to Shock",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Client with pneumonia becomes confused. Vitals: Temp 39°C, HR 122, RR 28, BP 84/50, urine output low."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Infection + hypotension; Altered LOC; Tachycardia/tachypnea. Practice questions: What indicates septic shock? First nursing steps? What shows improvement? Model CJMM: Recognise: hypotension with infection. Analyse: septic shock risk. Prioritise: circulation/perfusion. Solutions: activate sepsis protocol, cultures/lactate, IV fluids, antibiotics, monitor urine output. Evaluate: BP and urine output improve; lactate decreases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Mini Quiz (NCLEX-Style) — Module 3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Attempt without looking at answers. Apply ABCs, safety, unstable vs stable, and CJMM thinking."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A nurse receives report on four patients. Who should be seen first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Client with chronic back pain requesting medication",
+            "B. Client with sudden dyspnea and SpO2 85%",
+            "C. Client waiting for discharge education",
+            "D. Client requesting meal preferences"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Breathing compromise with low SpO2 is highest priority (ABCs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: A post-op patient suddenly has chest pain and tachycardia. What is the first action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Encourage ambulation",
+            "B. Raise head of bed and apply oxygen as needed; call rapid response/provider",
+            "C. Give oral fluids",
+            "D. Document and reassess in 30 minutes"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Suspected PE/ACS requires oxygenation support and urgent escalation. Do not delay."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: Which finding suggests an arrhythmia is unstable?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Heart rate 140 with BP 78/44",
+            "B. Mild palpitations with stable BP",
+            "C. Anxiety without vital sign change",
+            "D. Occasional PVCs in stable patient"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Hypotension indicates poor perfusion—unstable rhythm needs urgent intervention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A client with stroke symptoms asks for water. The best response is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Provide water to reduce dehydration",
+            "B. Keep NPO until swallow screen is completed",
+            "C. Offer juice instead of water",
+            "D. Give ice chips immediately"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Aspiration prevention is critical after stroke; swallow screen first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: Hyperkalemia is dangerous primarily because it can cause:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Fractures",
+            "B. Fatal dysrhythmias",
+            "C. Hypertension",
+            "D. Severe dehydration"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: High potassium affects cardiac conduction and can cause lethal arrhythmias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A sepsis patient becomes hypotensive with altered LOC. Priority action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Give PRN analgesic",
+            "B. Activate sepsis protocol/rapid response and begin fluids as ordered",
+            "C. Encourage ambulation",
+            "D. Wait for lab confirmation before acting"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Septic shock is time-critical; early fluids/antibiotics and escalation save lives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: In status asthmaticus, which cue is most concerning?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Mild wheeze improving after inhaler",
+            "B. Unable to speak in full sentences with silent chest",
+            "C. Cough with clear sputum",
+            "D. Normal SpO2 97%"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Silent chest and inability to speak indicate severe airflow limitation and impending respiratory failure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: Which outcome best indicates improvement in acute pulmonary edema?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. SpO2 increases and crackles decrease",
+            "B. Heart rate increases",
+            "C. Urine output stops",
+            "D. BP drops suddenly"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Improving oxygenation and reduced crackles indicate decreased pulmonary congestion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: A client with increased ICP should be positioned:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Flat supine",
+            "B. HOB elevated about 30 degrees with neck midline",
+            "C. Trendelenburg",
+            "D. Prone position"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Elevation and midline positioning support venous drainage and reduce ICP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: A client with hypoglycemia (2.8 mmol/L) is awake and can swallow. First action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Administer 15 g fast-acting carbohydrate",
+            "B. Give long-acting insulin",
+            "C. Restrict oral intake",
+            "D. Call family to bring food"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Hypoglycemia must be treated immediately with fast sugar when safe to swallow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For every incorrect answer, write: (1) the cue you missed, (2) the framework you should have used, and (3) the safest first action. Re-attempt the same question after 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local clinical policies, supervised practice, or medical advice."
+        }
+      ]
+    }
+  ]
+}

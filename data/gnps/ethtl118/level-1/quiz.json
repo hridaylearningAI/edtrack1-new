@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which statement best describes adult medical-surgical nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It addresses acute illness, chronic disease, injury and surgery while considering the whole person."
+        },
+        {
+          "id": "B",
+          "text": "It focuses only on the disease diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "It is limited to postoperative care."
+        },
+        {
+          "id": "D",
+          "text": "It excludes psychological and social needs."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Adult medical-surgical nursing considers physical, psychological, social, cultural and functional needs in addition to the medical diagnosis."
+    },
+    {
+      "id": "q2",
+      "stem": "What is the FIRST stage of the nursing process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Planning."
+        },
+        {
+          "id": "B",
+          "text": "Assessment."
+        },
+        {
+          "id": "C",
+          "text": "Implementation."
+        },
+        {
+          "id": "D",
+          "text": "Evaluation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Assessment gathers the information needed to identify problems and plan care."
+    },
+    {
+      "id": "q3",
+      "stem": "Which stage of the nursing process determines whether the care plan is working?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessment."
+        },
+        {
+          "id": "B",
+          "text": "Diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Evaluation."
+        },
+        {
+          "id": "D",
+          "text": "Implementation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Evaluation compares outcomes with goals and identifies whether the plan should continue or change."
+    },
+    {
+      "id": "q4",
+      "stem": "A patient with pneumonia has low oxygen saturation and weakness. Which problem should the nurse address FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduced appetite."
+        },
+        {
+          "id": "B",
+          "text": "Discharge planning."
+        },
+        {
+          "id": "C",
+          "text": "Sleep disturbance."
+        },
+        {
+          "id": "D",
+          "text": "Breathing difficulty."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Airway and breathing take priority over less urgent problems."
+    },
+    {
+      "id": "q5",
+      "stem": "Why is pathophysiology important in nursing care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It helps the nurse interpret symptoms and anticipate complications."
+        },
+        {
+          "id": "B",
+          "text": "It replaces patient assessment."
+        },
+        {
+          "id": "C",
+          "text": "It is relevant only to doctors."
+        },
+        {
+          "id": "D",
+          "text": "It removes the need for monitoring."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Understanding altered body function helps nurses connect symptoms with disease processes and recognise risks."
+    },
+    {
+      "id": "q6",
+      "stem": "A patient with heart failure develops breathlessness and ankle swelling. What underlying process is most likely contributing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dehydration only."
+        },
+        {
+          "id": "B",
+          "text": "Fluid accumulation."
+        },
+        {
+          "id": "C",
+          "text": "Reduced bowel motility."
+        },
+        {
+          "id": "D",
+          "text": "Hypoglycaemia."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Heart failure can lead to fluid retention, pulmonary congestion and peripheral oedema."
+    },
+    {
+      "id": "q7",
+      "stem": "Which statement best reflects person-centred care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the diagnosis only."
+        },
+        {
+          "id": "B",
+          "text": "Use the same plan for every patient."
+        },
+        {
+          "id": "C",
+          "text": "Consider how illness affects the person's comfort, function, family and goals."
+        },
+        {
+          "id": "D",
+          "text": "Delay discussion of social needs until discharge."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Person-centred care addresses the individual's physical, emotional, social and functional needs."
+    },
+    {
+      "id": "q8",
+      "stem": "A patient with severe postoperative pain avoids coughing. What complication may this increase?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved mobility."
+        },
+        {
+          "id": "B",
+          "text": "Reduced infection risk."
+        },
+        {
+          "id": "C",
+          "text": "Better sleep."
+        },
+        {
+          "id": "D",
+          "text": "Respiratory complications."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Pain can limit deep breathing and coughing, increasing the risk of atelectasis and pneumonia."
+    },
+    {
+      "id": "q9",
+      "stem": "Which finding should be considered most urgent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New difficulty breathing."
+        },
+        {
+          "id": "B",
+          "text": "Chronic knee pain unchanged for months."
+        },
+        {
+          "id": "C",
+          "text": "Request for dietary advice."
+        },
+        {
+          "id": "D",
+          "text": "Need for discharge transport."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "New breathing difficulty may be life-threatening and requires immediate assessment."
+    },
+    {
+      "id": "q10",
+      "stem": "The nursing process is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A one-time written form."
+        },
+        {
+          "id": "B",
+          "text": "A continuous cycle of assessment, planning, action and evaluation."
+        },
+        {
+          "id": "C",
+          "text": "A task completed only on admission."
+        },
+        {
+          "id": "D",
+          "text": "A process used only for complex patients."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nursing process is continuous and changes as the patient's condition and needs change."
+    },
+    {
+      "id": "q11",
+      "stem": "A patient with diabetes has a slow-healing wound. Which relationship is most important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diabetes always improves circulation."
+        },
+        {
+          "id": "B",
+          "text": "Wounds are unrelated to glucose control."
+        },
+        {
+          "id": "C",
+          "text": "Diabetes may impair healing and increase infection risk."
+        },
+        {
+          "id": "D",
+          "text": "Diabetes affects only the kidneys."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Poor glucose control may impair circulation, immune function and wound healing."
+    },
+    {
+      "id": "q12",
+      "stem": "A nurse identifies several patient problems. Which should be prioritised FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Need for health education."
+        },
+        {
+          "id": "B",
+          "text": "Difficulty arranging transport."
+        },
+        {
+          "id": "C",
+          "text": "Mild chronic constipation."
+        },
+        {
+          "id": "D",
+          "text": "Unstable circulation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Potentially life-threatening circulation problems take priority."
+    },
+    {
+      "id": "q13",
+      "stem": "A patient has infection, confusion and low blood pressure. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Possible clinical deterioration or sepsis."
+        },
+        {
+          "id": "B",
+          "text": "Normal ageing."
+        },
+        {
+          "id": "C",
+          "text": "A stable chronic condition."
+        },
+        {
+          "id": "D",
+          "text": "Expected recovery."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Infection with confusion and hypotension may indicate serious deterioration and requires urgent escalation."
+    },
+    {
+      "id": "q14",
+      "stem": "Which factor may influence an adult patient's response to illness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnosis only."
+        },
+        {
+          "id": "B",
+          "text": "Culture, function, family support and previous health."
+        },
+        {
+          "id": "C",
+          "text": "Age only."
+        },
+        {
+          "id": "D",
+          "text": "Ward location."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Responses to illness are shaped by physical, psychological, social and cultural factors."
+    },
+    {
+      "id": "q15",
+      "stem": "A patient says financial concerns may prevent purchasing prescribed medicines. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the concern because it is non-clinical."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient to manage independently."
+        },
+        {
+          "id": "C",
+          "text": "Include the concern in care planning and seek appropriate support."
+        },
+        {
+          "id": "D",
+          "text": "Delay all treatment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Financial circumstances can affect treatment adherence and recovery and should be addressed through care planning and referral."
+    },
+    {
+      "id": "q16",
+      "stem": "Which goal is most measurable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient will improve."
+        },
+        {
+          "id": "B",
+          "text": "The patient will feel better soon."
+        },
+        {
+          "id": "C",
+          "text": "The patient will understand everything."
+        },
+        {
+          "id": "D",
+          "text": "The patient will walk 20 metres with assistance by the end of the shift."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Measurable goals specify the expected outcome, conditions and timeframe."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse completes an intervention but does not reassess the patient. Which nursing-process stage is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Evaluation."
+        },
+        {
+          "id": "B",
+          "text": "Planning."
+        },
+        {
+          "id": "C",
+          "text": "Assessment only."
+        },
+        {
+          "id": "D",
+          "text": "Problem identification."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evaluation is required to determine the patient's response and whether care was effective."
+    },
+    {
+      "id": "q18",
+      "stem": "A patient with COPD reports worsening breathlessness but normal temperature. What is the BEST interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence of fever means the patient is stable."
+        },
+        {
+          "id": "B",
+          "text": "Breathing changes require assessment regardless of temperature."
+        },
+        {
+          "id": "C",
+          "text": "COPD patients always remain breathless."
+        },
+        {
+          "id": "D",
+          "text": "No action is required."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical reasoning considers the whole picture; worsening breathlessness may signal deterioration even without fever."
+    },
+    {
+      "id": "q19",
+      "stem": "What best demonstrates prioritisation in adult nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing tasks in the order written."
+        },
+        {
+          "id": "B",
+          "text": "Responding first to the loudest patient."
+        },
+        {
+          "id": "C",
+          "text": "Addressing airway, breathing, circulation and immediate safety before routine care."
+        },
+        {
+          "id": "D",
+          "text": "Finishing documentation before assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Priority care is based on urgency, instability and risk, not task order or convenience."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects effective adult medical-surgical nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The diagnosis is recorded."
+        },
+        {
+          "id": "B",
+          "text": "All tasks are completed quickly."
+        },
+        {
+          "id": "C",
+          "text": "The same care plan is used for all patients."
+        },
+        {
+          "id": "D",
+          "text": "The patient receives coordinated, individualised care that improves safety and function."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective care integrates assessment, prioritisation, intervention, evaluation and person-centred goals."
+    },
+    {
+      "id": "q21",
+      "stem": "Why is establishing a patient's baseline important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It helps identify new or worsening changes."
+        },
+        {
+          "id": "B",
+          "text": "It replaces vital signs."
+        },
+        {
+          "id": "C",
+          "text": "It is needed only for discharge."
+        },
+        {
+          "id": "D",
+          "text": "It prevents all complications."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Knowing the patient's usual condition makes subtle deterioration easier to recognise."
+    },
+    {
+      "id": "q22",
+      "stem": "Which assessment approach is most appropriate for an adult patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assessment of the painful area only."
+        },
+        {
+          "id": "B",
+          "text": "A systematic head-to-toe assessment."
+        },
+        {
+          "id": "C",
+          "text": "Reliance on the medical diagnosis."
+        },
+        {
+          "id": "D",
+          "text": "Observation without documentation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A systematic assessment reduces omissions and provides a complete clinical picture."
+    },
+    {
+      "id": "q23",
+      "stem": "A patient's respiratory rate rises from 18 to 30 breaths per minute. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait until the next shift."
+        },
+        {
+          "id": "B",
+          "text": "Ignore it if blood pressure is normal."
+        },
+        {
+          "id": "C",
+          "text": "Recognise this as a possible early sign of deterioration and assess promptly."
+        },
+        {
+          "id": "D",
+          "text": "Document without reassessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A rising respiratory rate is an important early warning sign and requires prompt assessment."
+    },
+    {
+      "id": "q24",
+      "stem": "Which combination is most concerning after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable blood pressure, normal urine output and mild pain."
+        },
+        {
+          "id": "B",
+          "text": "Good appetite and normal temperature."
+        },
+        {
+          "id": "C",
+          "text": "Mild fatigue after walking."
+        },
+        {
+          "id": "D",
+          "text": "Rising respiratory rate, reduced urine output and restlessness."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The combination suggests possible early deterioration despite a normal blood pressure."
+    },
+    {
+      "id": "q25",
+      "stem": "Which assessment finding requires urgent escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New reduced level of consciousness."
+        },
+        {
+          "id": "B",
+          "text": "Chronic back pain 2/10."
+        },
+        {
+          "id": "C",
+          "text": "Normal skin colour."
+        },
+        {
+          "id": "D",
+          "text": "Stable appetite."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Acute change in consciousness may indicate serious neurological, respiratory or circulatory compromise."
+    },
+    {
+      "id": "q26",
+      "stem": "A nurse documents 'patient looks unwell.' What additional information is needed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse's personal opinion."
+        },
+        {
+          "id": "B",
+          "text": "Objective observations and specific assessment findings."
+        },
+        {
+          "id": "C",
+          "text": "The patient's room number only."
+        },
+        {
+          "id": "D",
+          "text": "A family member's signature."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Documentation should be objective, measurable and clinically meaningful."
+    },
+    {
+      "id": "q27",
+      "stem": "Which result is most relevant when assessing renal function?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Pain score only."
+        },
+        {
+          "id": "C",
+          "text": "Creatinine and urine output."
+        },
+        {
+          "id": "D",
+          "text": "Chest x-ray only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Renal function is commonly assessed using creatinine, urine output and related laboratory values."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient's blood glucose is low and the patient is sweaty and confused. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperthermia."
+        },
+        {
+          "id": "B",
+          "text": "Hypertension."
+        },
+        {
+          "id": "C",
+          "text": "Fluid overload."
+        },
+        {
+          "id": "D",
+          "text": "Hypoglycaemia."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Sweating and confusion are common signs of hypoglycaemia."
+    },
+    {
+      "id": "q29",
+      "stem": "Which finding may suggest poor tissue perfusion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cool skin, confusion and reduced urine output."
+        },
+        {
+          "id": "B",
+          "text": "Warm dry skin and normal cognition."
+        },
+        {
+          "id": "C",
+          "text": "Stable pulse and good urine output."
+        },
+        {
+          "id": "D",
+          "text": "Improved appetite."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Cool skin, altered cognition and reduced urine output can indicate impaired circulation."
+    },
+    {
+      "id": "q30",
+      "stem": "A single blood pressure reading is normal, but the patient's condition appears worse. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the patient is stable."
+        },
+        {
+          "id": "B",
+          "text": "Assess the complete clinical picture and observation trends."
+        },
+        {
+          "id": "C",
+          "text": "Wait for severe hypotension."
+        },
+        {
+          "id": "D",
+          "text": "Ignore family concerns."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "One normal value does not exclude deterioration; trends and other cues must be considered."
+    },
+    {
+      "id": "q31",
+      "stem": "Which statement best describes clinical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memorising routine procedures."
+        },
+        {
+          "id": "B",
+          "text": "Following checklists without judgement."
+        },
+        {
+          "id": "C",
+          "text": "Collecting cues, interpreting their meaning and deciding appropriate action."
+        },
+        {
+          "id": "D",
+          "text": "Waiting for medical instructions before assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical reasoning integrates assessment findings, baseline and context to guide decisions."
+    },
+    {
+      "id": "q32",
+      "stem": "Why should a nurse assess medication history during admission?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is relevant only to pharmacy."
+        },
+        {
+          "id": "B",
+          "text": "It is needed only before discharge."
+        },
+        {
+          "id": "C",
+          "text": "It does not affect clinical reasoning."
+        },
+        {
+          "id": "D",
+          "text": "Medicines may affect symptoms, risks and current treatment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Medication history may explain symptoms, interactions and treatment needs."
+    },
+    {
+      "id": "q33",
+      "stem": "A patient has reduced urine output after surgery. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess fluid balance, observations and possible causes, then escalate if indicated."
+        },
+        {
+          "id": "B",
+          "text": "Encourage large fluid intake without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Wait until tomorrow."
+        },
+        {
+          "id": "D",
+          "text": "Document only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reduced urine output may indicate hypovolaemia, renal impairment or deterioration and requires assessment."
+    },
+    {
+      "id": "q34",
+      "stem": "Which finding is most important when assessing respiratory function?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hair colour."
+        },
+        {
+          "id": "B",
+          "text": "Work of breathing and oxygen saturation."
+        },
+        {
+          "id": "C",
+          "text": "Meal preference."
+        },
+        {
+          "id": "D",
+          "text": "Footwear."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Respiratory effort, rate, breath sounds and oxygen saturation are key findings."
+    },
+    {
+      "id": "q35",
+      "stem": "A patient has increasing abdominal pain and a rigid abdomen. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Offer food."
+        },
+        {
+          "id": "B",
+          "text": "Encourage walking."
+        },
+        {
+          "id": "C",
+          "text": "Escalate urgently after immediate assessment."
+        },
+        {
+          "id": "D",
+          "text": "Wait for routine review."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Increasing pain with rigidity may indicate an acute abdominal emergency."
+    },
+    {
+      "id": "q36",
+      "stem": "Which assessment best evaluates fluid balance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature only."
+        },
+        {
+          "id": "B",
+          "text": "Pain score only."
+        },
+        {
+          "id": "C",
+          "text": "Sleep pattern only."
+        },
+        {
+          "id": "D",
+          "text": "Intake, output, daily weight, oedema and blood pressure."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Multiple indicators are needed to evaluate fluid status accurately."
+    },
+    {
+      "id": "q37",
+      "stem": "Why are trends more useful than isolated observations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They show direction and progression of change over time."
+        },
+        {
+          "id": "B",
+          "text": "They eliminate the need for assessment."
+        },
+        {
+          "id": "C",
+          "text": "They apply only to intensive care."
+        },
+        {
+          "id": "D",
+          "text": "They are easier to document."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Trends may reveal deterioration before one value becomes severely abnormal."
+    },
+    {
+      "id": "q38",
+      "stem": "A family member says the patient is 'not acting normally.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss it without abnormal vital signs."
+        },
+        {
+          "id": "B",
+          "text": "Take the concern seriously and reassess the patient."
+        },
+        {
+          "id": "C",
+          "text": "Tell them to wait for the doctor."
+        },
+        {
+          "id": "D",
+          "text": "Document without action."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Families may detect subtle changes early and their concerns should prompt assessment."
+    },
+    {
+      "id": "q39",
+      "stem": "Which result may indicate infection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal electrolytes."
+        },
+        {
+          "id": "B",
+          "text": "Stable blood glucose."
+        },
+        {
+          "id": "C",
+          "text": "Raised white blood cell count with fever and clinical symptoms."
+        },
+        {
+          "id": "D",
+          "text": "Normal ECG."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "An elevated white blood cell count, fever and clinical signs may support infection."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best demonstrates effective clinical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse completes the observation chart."
+        },
+        {
+          "id": "B",
+          "text": "The nurse waits for one severely abnormal value."
+        },
+        {
+          "id": "C",
+          "text": "The nurse documents only the diagnosis."
+        },
+        {
+          "id": "D",
+          "text": "The nurse recognises subtle deterioration, reassesses and escalates before severe harm."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective reasoning links cues and trends to timely action."
+    },
+    {
+      "id": "q41",
+      "stem": "A patient with heart failure gains 2 kg in three days. What is the most likely concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fluid retention."
+        },
+        {
+          "id": "B",
+          "text": "Improved nutrition only."
+        },
+        {
+          "id": "C",
+          "text": "Dehydration."
+        },
+        {
+          "id": "D",
+          "text": "Hypoglycaemia."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Rapid weight gain in heart failure commonly indicates fluid accumulation."
+    },
+    {
+      "id": "q42",
+      "stem": "Which finding requires urgent review in a patient with coronary artery disease?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable appetite."
+        },
+        {
+          "id": "B",
+          "text": "New chest pain."
+        },
+        {
+          "id": "C",
+          "text": "Mild chronic fatigue."
+        },
+        {
+          "id": "D",
+          "text": "Normal blood pressure."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "New chest pain may indicate acute myocardial ischaemia and requires urgent assessment."
+    },
+    {
+      "id": "q43",
+      "stem": "A patient with COPD becomes increasingly drowsy and fatigued while breathing. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved oxygenation."
+        },
+        {
+          "id": "B",
+          "text": "Normal rest."
+        },
+        {
+          "id": "C",
+          "text": "Possible respiratory failure."
+        },
+        {
+          "id": "D",
+          "text": "Medication adherence."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Increasing fatigue and drowsiness may indicate worsening respiratory compromise."
+    },
+    {
+      "id": "q44",
+      "stem": "Which intervention commonly supports a breathless patient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lying flat."
+        },
+        {
+          "id": "B",
+          "text": "Restricting communication."
+        },
+        {
+          "id": "C",
+          "text": "Delaying oxygen assessment."
+        },
+        {
+          "id": "D",
+          "text": "Positioning upright and completing respiratory assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Upright positioning can improve ventilation while the nurse assesses severity and treatment needs."
+    },
+    {
+      "id": "q45",
+      "stem": "A patient with pneumonia has thick sputum. Which intervention may support secretion clearance?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hydration as appropriate and prescribed respiratory care."
+        },
+        {
+          "id": "B",
+          "text": "Fluid restriction without indication."
+        },
+        {
+          "id": "C",
+          "text": "Prolonged bed rest."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding coughing."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Appropriate hydration, positioning, coughing and prescribed treatment may help mobilise secretions."
+    },
+    {
+      "id": "q46",
+      "stem": "Which finding is most consistent with fluid overload?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dry mouth and weight loss."
+        },
+        {
+          "id": "B",
+          "text": "Oedema, breathlessness and weight gain."
+        },
+        {
+          "id": "C",
+          "text": "Low blood glucose."
+        },
+        {
+          "id": "D",
+          "text": "Constipation only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fluid overload commonly causes oedema, pulmonary congestion and increased weight."
+    },
+    {
+      "id": "q47",
+      "stem": "A patient with kidney impairment is prescribed several medicines. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kidney function does not affect medicines."
+        },
+        {
+          "id": "B",
+          "text": "All doses should be doubled."
+        },
+        {
+          "id": "C",
+          "text": "Reduced medication clearance and risk of accumulation."
+        },
+        {
+          "id": "D",
+          "text": "Monitoring is unnecessary."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Renal impairment may reduce elimination and increase toxicity risk."
+    },
+    {
+      "id": "q48",
+      "stem": "Which assessment is most important for a patient with vomiting?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hair colour."
+        },
+        {
+          "id": "B",
+          "text": "Hearing ability only."
+        },
+        {
+          "id": "C",
+          "text": "Mobility only."
+        },
+        {
+          "id": "D",
+          "text": "Hydration status, electrolytes and fluid balance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Vomiting can cause dehydration and electrolyte disturbance."
+    },
+    {
+      "id": "q49",
+      "stem": "A diabetic patient becomes shaky, sweaty and confused. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess and treat possible hypoglycaemia according to protocol."
+        },
+        {
+          "id": "B",
+          "text": "Encourage sleep."
+        },
+        {
+          "id": "C",
+          "text": "Give insulin immediately."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next meal."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These are classic symptoms of low blood glucose requiring prompt treatment."
+    },
+    {
+      "id": "q50",
+      "stem": "Which patient teaching is most important for heart failure self-management?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding all physical activity."
+        },
+        {
+          "id": "B",
+          "text": "Daily weight monitoring and reporting rapid gains."
+        },
+        {
+          "id": "C",
+          "text": "Stopping medicines when symptoms improve."
+        },
+        {
+          "id": "D",
+          "text": "Increasing salt intake."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Daily weights help detect fluid retention early."
+    },
+    {
+      "id": "q51",
+      "stem": "A patient with asthma has difficulty speaking and severe breathlessness. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the patient to rest quietly."
+        },
+        {
+          "id": "B",
+          "text": "Wait for routine inhaler time."
+        },
+        {
+          "id": "C",
+          "text": "Treat as urgent deterioration and escalate immediately."
+        },
+        {
+          "id": "D",
+          "text": "Encourage walking."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Severe breathlessness and inability to speak normally may indicate a life-threatening asthma exacerbation."
+    },
+    {
+      "id": "q52",
+      "stem": "Which finding may indicate gastrointestinal bleeding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clear urine."
+        },
+        {
+          "id": "B",
+          "text": "Mild cough."
+        },
+        {
+          "id": "C",
+          "text": "Normal appetite."
+        },
+        {
+          "id": "D",
+          "text": "Black tarry stools and dizziness."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Melaena and dizziness may indicate significant gastrointestinal blood loss."
+    },
+    {
+      "id": "q53",
+      "stem": "A patient with renal impairment develops muscle weakness and an abnormal potassium level. Why is this concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electrolyte imbalance may affect cardiac function."
+        },
+        {
+          "id": "B",
+          "text": "It only affects appetite."
+        },
+        {
+          "id": "C",
+          "text": "It is unrelated to renal disease."
+        },
+        {
+          "id": "D",
+          "text": "No monitoring is required."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Potassium abnormalities can cause dangerous arrhythmias and weakness."
+    },
+    {
+      "id": "q54",
+      "stem": "Which intervention best supports diabetic foot care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Walking barefoot."
+        },
+        {
+          "id": "B",
+          "text": "Regular inspection, appropriate footwear and prompt reporting of injury."
+        },
+        {
+          "id": "C",
+          "text": "Applying heat directly to numb feet."
+        },
+        {
+          "id": "D",
+          "text": "Ignoring small wounds."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced sensation and healing increase risk; prevention and early reporting are essential."
+    },
+    {
+      "id": "q55",
+      "stem": "A patient with COPD is prescribed oxygen. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase flow without assessment."
+        },
+        {
+          "id": "B",
+          "text": "Stop oxygen when the patient sleeps."
+        },
+        {
+          "id": "C",
+          "text": "Administer as prescribed and monitor respiratory response."
+        },
+        {
+          "id": "D",
+          "text": "Rely only on the device setting."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Oxygen therapy requires prescribed administration and ongoing assessment."
+    },
+    {
+      "id": "q56",
+      "stem": "A patient with heart failure becomes hypotensive after treatment. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage walking."
+        },
+        {
+          "id": "B",
+          "text": "Give extra diuretic independently."
+        },
+        {
+          "id": "C",
+          "text": "Wait until discharge."
+        },
+        {
+          "id": "D",
+          "text": "Assess perfusion and escalate promptly."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Hypotension may indicate reduced perfusion or treatment-related complications."
+    },
+    {
+      "id": "q57",
+      "stem": "Which measure is useful for evaluating kidney-related fluid status?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Daily weight and accurate intake/output."
+        },
+        {
+          "id": "B",
+          "text": "Meal preference."
+        },
+        {
+          "id": "C",
+          "text": "Sleep duration only."
+        },
+        {
+          "id": "D",
+          "text": "Pain score only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Weight and fluid balance are key indicators of fluid retention or loss."
+    },
+    {
+      "id": "q58",
+      "stem": "A patient with diabetes has a worsening wound. What should the nurse assess?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only wound size."
+        },
+        {
+          "id": "B",
+          "text": "Blood glucose control, infection signs and circulation."
+        },
+        {
+          "id": "C",
+          "text": "Only pain score."
+        },
+        {
+          "id": "D",
+          "text": "Only dietary preference."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Diabetes can impair healing; glucose, infection and perfusion should be assessed."
+    },
+    {
+      "id": "q59",
+      "stem": "Which action best supports self-management of chronic illness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing information only at discharge."
+        },
+        {
+          "id": "B",
+          "text": "Using technical language."
+        },
+        {
+          "id": "C",
+          "text": "Teaching warning signs and when to seek help."
+        },
+        {
+          "id": "D",
+          "text": "Excluding family despite patient preference."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patients need practical education about monitoring, treatment and escalation."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects effective care for common medical conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The diagnosis is documented."
+        },
+        {
+          "id": "B",
+          "text": "All patients receive identical advice."
+        },
+        {
+          "id": "C",
+          "text": "Only medication administration is completed."
+        },
+        {
+          "id": "D",
+          "text": "The nurse monitors disease and treatment effects, prevents complications and supports self-management."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective medical nursing combines monitoring, intervention, complication prevention and education."
+    },
+    {
+      "id": "q61",
+      "stem": "Which preoperative check is essential before surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correct patient identity, consent process, allergies and fasting status."
+        },
+        {
+          "id": "B",
+          "text": "Meal preference only."
+        },
+        {
+          "id": "C",
+          "text": "Family arrival time only."
+        },
+        {
+          "id": "D",
+          "text": "Discharge transport only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Preoperative safety requires confirmation of identity, consent, allergies, fasting and preparation requirements."
+    },
+    {
+      "id": "q62",
+      "stem": "What is the first priority immediately after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discharge education."
+        },
+        {
+          "id": "B",
+          "text": "Airway and breathing assessment."
+        },
+        {
+          "id": "C",
+          "text": "Diet choice."
+        },
+        {
+          "id": "D",
+          "text": "Mobility planning only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Airway and breathing are immediate postoperative priorities."
+    },
+    {
+      "id": "q63",
+      "stem": "Which finding may indicate postoperative bleeding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable observations."
+        },
+        {
+          "id": "B",
+          "text": "Improved appetite."
+        },
+        {
+          "id": "C",
+          "text": "Tachycardia, falling blood pressure and increasing wound drainage."
+        },
+        {
+          "id": "D",
+          "text": "Mild tiredness."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Changes in circulation and wound drainage may indicate haemorrhage."
+    },
+    {
+      "id": "q64",
+      "stem": "Why is pain control important after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It eliminates all complications."
+        },
+        {
+          "id": "B",
+          "text": "It replaces mobilisation."
+        },
+        {
+          "id": "C",
+          "text": "It is needed only for comfort."
+        },
+        {
+          "id": "D",
+          "text": "It supports breathing, coughing, movement and rest."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective pain relief promotes respiratory function, mobility and recovery."
+    },
+    {
+      "id": "q65",
+      "stem": "Which intervention helps prevent postoperative respiratory complications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deep breathing, coughing and early mobilisation."
+        },
+        {
+          "id": "B",
+          "text": "Prolonged bed rest."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding pain relief."
+        },
+        {
+          "id": "D",
+          "text": "Restricting fluids routinely."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Breathing exercises and mobilisation reduce atelectasis and pneumonia risk."
+    },
+    {
+      "id": "q66",
+      "stem": "A patient develops calf pain and swelling after knee surgery. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal healing."
+        },
+        {
+          "id": "B",
+          "text": "Possible venous thromboembolism."
+        },
+        {
+          "id": "C",
+          "text": "Hypoglycaemia."
+        },
+        {
+          "id": "D",
+          "text": "Constipation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unilateral calf pain and swelling after surgery may indicate deep vein thrombosis."
+    },
+    {
+      "id": "q67",
+      "stem": "What should the nurse do if venous thromboembolism is suspected?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Massage the calf."
+        },
+        {
+          "id": "B",
+          "text": "Encourage walking."
+        },
+        {
+          "id": "C",
+          "text": "Stop unnecessary mobilisation, assess and escalate urgently."
+        },
+        {
+          "id": "D",
+          "text": "Apply heat without assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Massage or mobilisation may be unsafe; urgent assessment and escalation are required."
+    },
+    {
+      "id": "q68",
+      "stem": "Which intervention reduces pressure-injury risk after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leaving the patient in one position."
+        },
+        {
+          "id": "B",
+          "text": "Massaging non-blanching redness."
+        },
+        {
+          "id": "C",
+          "text": "Restricting nutrition."
+        },
+        {
+          "id": "D",
+          "text": "Regular repositioning and skin assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Repositioning, skin care and pressure redistribution reduce injury risk."
+    },
+    {
+      "id": "q69",
+      "stem": "A patient has increasing wound redness, pain and fever. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess for infection and escalate promptly."
+        },
+        {
+          "id": "B",
+          "text": "Reassure and wait."
+        },
+        {
+          "id": "C",
+          "text": "Cover the wound without assessment."
+        },
+        {
+          "id": "D",
+          "text": "Encourage discharge."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These findings may indicate surgical-site infection and require review."
+    },
+    {
+      "id": "q70",
+      "stem": "Why should postoperative urine output be monitored?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is unrelated to surgery."
+        },
+        {
+          "id": "B",
+          "text": "It helps assess perfusion, hydration and renal function."
+        },
+        {
+          "id": "C",
+          "text": "It is needed only after kidney surgery."
+        },
+        {
+          "id": "D",
+          "text": "It replaces blood pressure monitoring."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reduced urine output may indicate hypovolaemia, renal impairment or deterioration."
+    },
+    {
+      "id": "q71",
+      "stem": "Which action supports prevention of venous thromboembolism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prolonged immobility."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding hydration."
+        },
+        {
+          "id": "C",
+          "text": "Early mobilisation and prescribed prophylaxis."
+        },
+        {
+          "id": "D",
+          "text": "Massaging painful calves."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Mobilisation and prescribed mechanical or pharmacological prophylaxis reduce risk."
+    },
+    {
+      "id": "q72",
+      "stem": "A postoperative patient becomes restless with rising respiratory rate. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume anxiety only."
+        },
+        {
+          "id": "B",
+          "text": "Wait for routine observations."
+        },
+        {
+          "id": "C",
+          "text": "Offer food first."
+        },
+        {
+          "id": "D",
+          "text": "Assess immediately and escalate possible deterioration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Restlessness and tachypnoea may be early signs of hypoxia or other complications."
+    },
+    {
+      "id": "q73",
+      "stem": "Which finding should be included in immediate postoperative assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consciousness, pain, wound, drains and circulation."
+        },
+        {
+          "id": "B",
+          "text": "Employment history only."
+        },
+        {
+          "id": "C",
+          "text": "Long-term travel plans."
+        },
+        {
+          "id": "D",
+          "text": "Family finances only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Immediate assessment includes neurological status, circulation, pain, wound and devices."
+    },
+    {
+      "id": "q74",
+      "stem": "A patient refuses deep-breathing exercises because of pain. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Force the patient."
+        },
+        {
+          "id": "B",
+          "text": "Review pain control, explain the purpose and support the exercises."
+        },
+        {
+          "id": "C",
+          "text": "Abandon respiratory care."
+        },
+        {
+          "id": "D",
+          "text": "Document refusal only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Pain management and education can enable participation in complication prevention."
+    },
+    {
+      "id": "q75",
+      "stem": "What is the best indicator that postoperative pain management is effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient is completely sedated."
+        },
+        {
+          "id": "B",
+          "text": "The pain score is never assessed."
+        },
+        {
+          "id": "C",
+          "text": "The patient can breathe deeply, move and rest with tolerable pain."
+        },
+        {
+          "id": "D",
+          "text": "The nurse gave analgesia."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Effectiveness is shown by improved function and comfort after treatment."
+    },
+    {
+      "id": "q76",
+      "stem": "Why should discharge planning begin early?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reduces assessment requirements."
+        },
+        {
+          "id": "B",
+          "text": "It is needed only for older adults."
+        },
+        {
+          "id": "C",
+          "text": "It replaces postoperative monitoring."
+        },
+        {
+          "id": "D",
+          "text": "Recovery needs, support and education may require coordination."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Early planning supports safe transition and identifies home-care needs."
+    },
+    {
+      "id": "q77",
+      "stem": "Which discharge instruction is most important after surgery?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warning signs such as fever, worsening pain, bleeding or breathing difficulty."
+        },
+        {
+          "id": "B",
+          "text": "Hospital visiting hours."
+        },
+        {
+          "id": "C",
+          "text": "Ward meal times."
+        },
+        {
+          "id": "D",
+          "text": "Staff roster details."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patients must know which symptoms require urgent review."
+    },
+    {
+      "id": "q78",
+      "stem": "A patient has a drain with suddenly increased bright-red output. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Empty and ignore it."
+        },
+        {
+          "id": "B",
+          "text": "Assess and escalate urgently."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next round."
+        },
+        {
+          "id": "D",
+          "text": "Encourage mobilisation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Sudden bright-red drainage may indicate bleeding."
+    },
+    {
+      "id": "q79",
+      "stem": "Which action best supports surgical-site infection prevention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Touching the wound unnecessarily."
+        },
+        {
+          "id": "B",
+          "text": "Leaving dressings wet."
+        },
+        {
+          "id": "C",
+          "text": "Aseptic wound care and hand hygiene."
+        },
+        {
+          "id": "D",
+          "text": "Ignoring redness."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Aseptic technique and hand hygiene are central to infection prevention."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects safe surgical nursing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The surgery is completed."
+        },
+        {
+          "id": "B",
+          "text": "The patient receives pain medicine only."
+        },
+        {
+          "id": "C",
+          "text": "Documentation is completed without reassessment."
+        },
+        {
+          "id": "D",
+          "text": "The patient is prepared correctly, monitored closely, complications are prevented and discharge education is understood."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe surgical nursing spans preparation, monitoring, prevention, recovery and education."
+    }
+  ]
+}

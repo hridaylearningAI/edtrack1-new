@@ -1,0 +1,954 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Borderline Personality Disorder with Self-Harm Threat",
+      "stem": "Ms. Leah Pinto, a 22-year-old woman with borderline personality disorder, comes to the emergency psychiatric service after cutting her forearm superficially following an argument with her partner. She is tearful, angry, and says, “If he leaves me, I’ll kill myself.” She alternates between pleading for reassurance and accusing staff of not caring. She becomes increasingly upset when told she may need observation and says she will hurt herself again if left alone. The nurse must respond without reinforcing maladaptive behaviour while still prioritising safety. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate high immediate risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalating anger toward staff"
+            },
+            {
+              "id": "B",
+              "text": "Verbal threat to kill herself"
+            },
+            {
+              "id": "C",
+              "text": "Emotional lability and intense fear of abandonment"
+            },
+            {
+              "id": "D",
+              "text": "Threat to self-harm again if left alone"
+            },
+            {
+              "id": "E",
+              "text": "Recent self-harm behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings matter. Borderline personality disorder does not reduce the seriousness of suicidal threats or self-harm. The nurse must take all suicidal content seriously while maintaining consistent boundaries. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient mainly wants attention and should be ignored"
+            },
+            {
+              "id": "B",
+              "text": "The patient is manipulative, so the threats are not serious"
+            },
+            {
+              "id": "C",
+              "text": "The patient has no need for assessment because the injuries are superficial"
+            },
+            {
+              "id": "D",
+              "text": "The patient is emotionally dysregulated with real self-harm risk and requires structured, consistent, safety-focused care"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient may show manipulative relational patterns, but the nurse must never dismiss self-harm risk. Structured, nonjudgmental care with clear limits is appropriate. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Social withdrawal"
+            },
+            {
+              "id": "B",
+              "text": "Risk for self-directed violence related to emotional dysregulation and abandonment fears"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about diet"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The priority is immediate safety. Emotional dysregulation and impulsive self-harm are high-risk features. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Address immediate safety, assess suicidal intent and means, set clear boundaries, and maintain a calm consistent approach"
+            },
+            {
+              "id": "B",
+              "text": "Refuse to speak with her because she is manipulative"
+            },
+            {
+              "id": "C",
+              "text": "Promise the patient special treatment if she stops crying"
+            },
+            {
+              "id": "D",
+              "text": "Debate whether she is truly suicidal"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should assess risk seriously and provide structured, consistent care. Promising special treatment or withdrawing communication may reinforce maladaptive behaviour or worsen escalation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which responses are therapeutic? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“I can see you are very upset. We will deal with one issue at a time.”"
+            },
+            {
+              "id": "B",
+              "text": "“I want to help keep you safe, and we will talk about what happened.”"
+            },
+            {
+              "id": "C",
+              "text": "“You are just trying to manipulate us.”"
+            },
+            {
+              "id": "D",
+              "text": "“We cannot allow self-harm, and we will stay focused on your safety.”"
+            },
+            {
+              "id": "E",
+              "text": "“If you cut again, no one will care.”"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D"
+          ],
+          "rationale": "These responses are validating without overinvolvement and set limits without shaming. Judgmental or rejecting statements are inappropriate and may worsen self-harm risk. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Borderline Personality Disorder with Self-Harm Threat | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates the plan is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Staff respond inconsistently and the patient becomes more volatile"
+            },
+            {
+              "id": "B",
+              "text": "The patient is left alone despite ongoing threats"
+            },
+            {
+              "id": "C",
+              "text": "The patient remains safe, accepts boundaries more consistently, and begins expressing feelings verbally instead of escalating immediately to self-harm threats"
+            },
+            {
+              "id": "D",
+              "text": "The nurse offers special privileges to stop behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Improvement is measured by safer coping, consistent limit-setting, and reduced reliance on crisis behaviours."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Alcohol Withdrawal with Delirium Tremens Risk",
+      "stem": "Mr. Robert D’Mello, a 48-year-old man, is admitted to the medical unit after stopping heavy alcohol use abruptly when he developed gastritis. On the first day he is anxious, tremulous, sweaty, and nauseated. He says he feels like his heart is racing and cannot sleep. By the next shift he becomes more restless and reports seeing insects on the wall. The nurse notes tremor, tachycardia, hypertension, diaphoresis, agitation, and visual hallucinations. The nurse recognises progression toward severe alcohol withdrawal and possible delirium tremens. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate severe alcohol withdrawal? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Severe agitation and insomnia"
+            },
+            {
+              "id": "B",
+              "text": "Tachycardia and hypertension"
+            },
+            {
+              "id": "C",
+              "text": "Tremor and diaphoresis"
+            },
+            {
+              "id": "D",
+              "text": "Visual hallucinations"
+            },
+            {
+              "id": "E",
+              "text": "Recent abrupt cessation of heavy alcohol use"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic signs of escalating alcohol withdrawal. Hallucinations, autonomic instability, and agitation are particularly concerning for severe withdrawal or delirium tremens. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable sobriety with no danger"
+            },
+            {
+              "id": "B",
+              "text": "Mild stress only"
+            },
+            {
+              "id": "C",
+              "text": "Schizophrenia onset only"
+            },
+            {
+              "id": "D",
+              "text": "Severe alcohol withdrawal with risk of delirium tremens, seizures, and cardiovascular instability"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "This is a high-risk withdrawal pattern. DTs can be life-threatening and require close monitoring and medication management. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Low self-esteem"
+            },
+            {
+              "id": "B",
+              "text": "Social isolation"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep only"
+            },
+            {
+              "id": "D",
+              "text": "Risk for injury, seizure, and autonomic instability related to severe alcohol withdrawal"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Safety and physiological stability are the priorities in severe withdrawal. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Confront the hallucinations by arguing with the patient"
+            },
+            {
+              "id": "B",
+              "text": "Leave the patient alone in a dark room without checks"
+            },
+            {
+              "id": "C",
+              "text": "Delay assessment until the morning"
+            },
+            {
+              "id": "D",
+              "text": "Initiate close withdrawal monitoring, maintain a safe environment, and prepare prescribed withdrawal management promptly"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient requires close observation, medication support, and safety measures. Arguing with hallucinations is not helpful, and isolation without monitoring is unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor vital signs, tremor, orientation, and hallucinations closely"
+            },
+            {
+              "id": "B",
+              "text": "Reduce environmental stimulation while maintaining safety"
+            },
+            {
+              "id": "C",
+              "text": "Encourage hydration and nutrition as tolerated and ordered"
+            },
+            {
+              "id": "D",
+              "text": "Assume hallucinations are harmless if the patient is cooperative"
+            },
+            {
+              "id": "E",
+              "text": "Watch for seizure activity"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Withdrawal may worsen quickly. Hallucinations are not harmless in this context; they signal increasing severity. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Alcohol Withdrawal with Delirium Tremens Risk | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates the plan is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tremor and agitation lessen, vital signs stabilise, hallucinations decrease, and the patient remains safe"
+            },
+            {
+              "id": "B",
+              "text": "Seizure precautions are removed early"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops because the patient looks tired"
+            },
+            {
+              "id": "D",
+              "text": "Hallucinations worsen and the patient becomes more disoriented"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement in withdrawal is reflected in autonomic stabilisation, less agitation, and fewer perceptual disturbances."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Opioid Overdose with Respiratory Depression",
+      "stem": "Mr. Sandeep Roy, a 35-year-old man with known opioid misuse, is brought to the emergency department by friends who say they found him difficult to wake. He is pale, breathing slowly, and barely responsive. On assessment, the nurse notes pinpoint pupils, respiratory rate 7 breaths per minute, oxygen saturation 84% on room air, and bluish lips. The nurse recognises a likely opioid overdose. Immediate airway and breathing support are essential while emergency reversal and monitoring are prepared. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with opioid overdose? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "History of opioid misuse"
+            },
+            {
+              "id": "B",
+              "text": "Pinpoint pupils"
+            },
+            {
+              "id": "C",
+              "text": "Hypoxia and cyanosis"
+            },
+            {
+              "id": "D",
+              "text": "Markedly decreased respiratory rate"
+            },
+            {
+              "id": "E",
+              "text": "Reduced responsiveness"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are classic features of opioid toxicity. Respiratory depression is the most immediate threat to life. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Panic attack only"
+            },
+            {
+              "id": "B",
+              "text": "Alcohol withdrawal"
+            },
+            {
+              "id": "C",
+              "text": "Likely opioid overdose with life-threatening respiratory depression"
+            },
+            {
+              "id": "D",
+              "text": "The patient is sleeping normally"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The priority is recognising opioid overdose as a respiratory emergency. Reduced responsiveness plus pinpoint pupils and bradypnoea are strongly suggestive. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired ventilation and hypoxia related to opioid overdose"
+            },
+            {
+              "id": "B",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "C",
+              "text": "Social isolation"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Airway and breathing are always the priority in overdose. Mental health nursing intersects with acute medical safety here. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support airway and breathing immediately, call for urgent assistance, and prepare for reversal treatment as ordered"
+            },
+            {
+              "id": "B",
+              "text": "Shake the patient and leave if he opens his eyes briefly"
+            },
+            {
+              "id": "C",
+              "text": "Offer oral fluids"
+            },
+            {
+              "id": "D",
+              "text": "Delay intervention until laboratory confirmation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Immediate respiratory support and emergency response are essential. Waiting for lab confirmation would be unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continuous monitoring of respirations, oxygenation, and level of consciousness"
+            },
+            {
+              "id": "B",
+              "text": "Prepare for recurrent sedation after reversal depending on the opioid involved"
+            },
+            {
+              "id": "C",
+              "text": "Maintain patient safety once responsiveness returns"
+            },
+            {
+              "id": "D",
+              "text": "Use calm, direct communication during recovery"
+            },
+            {
+              "id": "E",
+              "text": "Ignore the patient after reversal because the emergency is over"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Opioid overdose management requires ongoing monitoring because respiratory depression may recur. Post-reversal safety and communication are important. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Opioid Overdose with Respiratory Depression | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective emergency management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The nurse leaves before reassessment"
+            },
+            {
+              "id": "B",
+              "text": "Monitoring is stopped as soon as he wakes up"
+            },
+            {
+              "id": "C",
+              "text": "The patient becomes more cyanotic and unresponsive"
+            },
+            {
+              "id": "D",
+              "text": "Respirations improve, oxygen saturation rises, and the patient becomes more responsive while remaining monitored"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is shown by better breathing, better oxygenation, and ongoing observation."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Anorexia Nervosa with Medical Instability",
+      "stem": "Ms. Chloe Martin, a 19-year-old university student, is admitted from an outpatient clinic because of rapid weight loss, dizziness, and near-fainting. She insists that she is “still too large” despite appearing markedly underweight. She reports strict calorie restriction, excessive exercise, and feeling cold most of the time. On assessment, the nurse notes body mass significantly below expected, dry skin, bradycardia, low blood pressure, and obsessional thoughts about food and body size. Chloe denies the seriousness of her condition and says she does not need hospital treatment. The nurse recognises anorexia nervosa with physical instability. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate clinically significant anorexia nervosa? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bradycardia and hypotension"
+            },
+            {
+              "id": "B",
+              "text": "Marked underweight status"
+            },
+            {
+              "id": "C",
+              "text": "Feeling cold and near-fainting"
+            },
+            {
+              "id": "D",
+              "text": "Distorted body image"
+            },
+            {
+              "id": "E",
+              "text": "Excessive exercise and food restriction"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are important. The physical signs show medical instability, while body image distortion and extreme control behaviours support the diagnosis. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ordinary adolescent insecurity only"
+            },
+            {
+              "id": "B",
+              "text": "Healthy dieting with good self-discipline"
+            },
+            {
+              "id": "C",
+              "text": "Stable nutrition with no risk"
+            },
+            {
+              "id": "D",
+              "text": "Eating disorder with serious medical compromise requiring close monitoring"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The patient has both psychological and physiological danger signs. The nurse must not be reassured by the patient’s denial of illness. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for dysrhythmia, syncope, and further physiological deterioration related to malnutrition"
+            },
+            {
+              "id": "B",
+              "text": "Social withdrawal only"
+            },
+            {
+              "id": "C",
+              "text": "Need for gym access"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep alone"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Medical instability is the immediate priority in severe anorexia, particularly bradycardia, low blood pressure, and risk of collapse. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Begin careful medical and nutritional monitoring, assess immediate physical stability, and support structured treatment with therapeutic communication"
+            },
+            {
+              "id": "B",
+              "text": "Leave all decisions entirely to the patient without monitoring"
+            },
+            {
+              "id": "C",
+              "text": "Argue about calories and force food without assessment"
+            },
+            {
+              "id": "D",
+              "text": "Praise the patient’s self-control"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must balance medical safety with a calm, nonjudgmental approach. Praise or confrontation can reinforce pathology or escalate resistance. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tell the patient appearance is the only issue"
+            },
+            {
+              "id": "B",
+              "text": "Watch for refeeding-related complications once nutrition improves"
+            },
+            {
+              "id": "C",
+              "text": "Use neutral, nonjudgmental language about food and weight"
+            },
+            {
+              "id": "D",
+              "text": "Monitor heart rate, blood pressure, hydration, and labs closely"
+            },
+            {
+              "id": "E",
+              "text": "Support structured meals as ordered"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Anorexia treatment includes medical monitoring, refeeding safety, and neutral therapeutic communication. The condition is far more serious than appearance concerns. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Anorexia Nervosa with Medical Instability | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates early progress?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring stops because the patient says she is fine"
+            },
+            {
+              "id": "B",
+              "text": "Staff argue with the patient about appearance"
+            },
+            {
+              "id": "C",
+              "text": "Vital signs become more stable, the patient tolerates structured intake, and engagement with treatment improves gradually"
+            },
+            {
+              "id": "D",
+              "text": "The patient becomes weaker and vital signs worsen"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Early improvement may be gradual, but stabilising physiology and increased engagement are important indicators."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Serotonin Syndrome",
+      "stem": "Mr. Aaron Lewis, a 30-year-old patient being treated for depression, presents with agitation, sweating, tremor, diarrhea, and muscle rigidity after recently starting a new antidepressant while also using St. John’s Wort from a health food store. He is restless, flushed, and says he feels “wired and sick.” On assessment, the nurse notes elevated temperature, tachycardia, tremor, hyperreflexia, and increasing confusion. The nurse recognises possible serotonin syndrome and the need for urgent intervention. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support serotonin syndrome? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Agitation and confusion"
+            },
+            {
+              "id": "B",
+              "text": "Recent serotonergic medication change with supplement use"
+            },
+            {
+              "id": "C",
+              "text": "Tremor and hyperreflexia"
+            },
+            {
+              "id": "D",
+              "text": "Sweating and elevated temperature"
+            },
+            {
+              "id": "E",
+              "text": "Diarrhea"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are characteristic of serotonin syndrome. This is a high-yield NCLEX medication safety topic in mental health nursing. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild anxiety only"
+            },
+            {
+              "id": "B",
+              "text": "Serotonin syndrome requiring urgent medical attention and medication review"
+            },
+            {
+              "id": "C",
+              "text": "Bipolar mania only"
+            },
+            {
+              "id": "D",
+              "text": "Stable antidepressant adjustment"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The combination of autonomic instability, neuromuscular findings, and serotonergic exposure is concerning for serotonin syndrome. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for severe autonomic and neurological instability related to medication interaction"
+            },
+            {
+              "id": "B",
+              "text": "Social anxiety"
+            },
+            {
+              "id": "C",
+              "text": "Mild embarrassment"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The syndrome can become life-threatening. Immediate physical safety and medication review are priorities. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay action until tomorrow"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient the symptoms are expected and harmless"
+            },
+            {
+              "id": "C",
+              "text": "Give the next antidepressant dose on time"
+            },
+            {
+              "id": "D",
+              "text": "Hold the suspected serotonergic agents, escalate urgently, and monitor vital signs and neurological status closely"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse must respond urgently, because serotonin syndrome can worsen quickly. Continuing serotonergic medications would be unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Educate the patient later about avoiding unapproved drug-supplement combinations"
+            },
+            {
+              "id": "B",
+              "text": "Obtain a clear medication and supplement history"
+            },
+            {
+              "id": "C",
+              "text": "Reduce stimulation and maintain safety"
+            },
+            {
+              "id": "D",
+              "text": "Ignore diarrhea because only fever matters"
+            },
+            {
+              "id": "E",
+              "text": "Monitor temperature, heart rate, and rigidity"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "All these actions are appropriate. A full medication history is essential because interactions often involve prescription and non-prescription substances. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Serotonin Syndrome | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitoring stops after one review"
+            },
+            {
+              "id": "B",
+              "text": "Agitation lessens, temperature and heart rate improve, and neuromuscular findings begin to settle"
+            },
+            {
+              "id": "C",
+              "text": "Medication causes are not clarified"
+            },
+            {
+              "id": "D",
+              "text": "Rigidity worsens and confusion increases"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement is shown by reduced autonomic and neurological instability."
+        }
+      ]
+    }
+  ]
+}

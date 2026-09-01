@@ -1,0 +1,955 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Acute Kidney Injury after Surgery",
+      "stem": "Mr. Anand Pereira is a 71-year-old patient on the second post-operative day after bowel surgery. Overnight, the nurse notices that his urine output has steadily fallen. He now has only 20 mL of urine over the last hour despite an indwelling catheter that appears connected correctly. He reports feeling weak and more thirsty than earlier. His blood pressure is 94/58 mmHg, pulse 116 beats per minute, and mucous membranes are dry. The nurse is concerned about reduced renal perfusion and developing acute kidney injury. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings support concern for acute kidney injury related to poor perfusion?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tachycardia"
+            },
+            {
+              "id": "B",
+              "text": "Post-operative status"
+            },
+            {
+              "id": "C",
+              "text": "Hypotension"
+            },
+            {
+              "id": "D",
+              "text": "Dry mucous membranes"
+            },
+            {
+              "id": "E",
+              "text": "Urine output 20 mL in the last hour"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings matter. Low urine output is a key red flag. Hypotension and tachycardia suggest poor circulatory volume or perfusion. Dry mucous membranes support dehydration, and post-operative patients are vulnerable to fluid shifts, blood loss, and renal hypoperfusion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best nursing interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient only needs encouragement to drink more next week"
+            },
+            {
+              "id": "B",
+              "text": "The catheter should be removed immediately without further assessment"
+            },
+            {
+              "id": "C",
+              "text": "Low urine output after surgery is always harmless"
+            },
+            {
+              "id": "D",
+              "text": "The patient is showing signs of reduced renal perfusion and possible evolving acute kidney injury"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse must treat oliguria in the context of hypotension and dehydration as potentially serious. This is more than a simple comfort issue and may indicate evolving AKI. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impaired renal perfusion and risk of worsening organ dysfunction"
+            },
+            {
+              "id": "B",
+              "text": "Risk for loneliness"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Need for menu planning"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The kidneys require adequate perfusion. Prolonged oliguria can signal significant organ compromise, so renal and circulatory status become the priority. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess the patient and catheter system promptly, confirm the low urine output, and escalate the concern while preparing for fluid/perfusion support as ordered"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the finding until the next shift"
+            },
+            {
+              "id": "C",
+              "text": "Encourage independent walking immediately"
+            },
+            {
+              "id": "D",
+              "text": "Give diuretics without review"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must first verify the finding, rule out simple mechanical causes such as catheter kinking, reassess the patient, and escalate. Because hypotension and dehydration are present, perfusion support may be needed. Ignoring the finding or giving unsupervised diuretics would be unsafe. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess blood pressure and perfusion frequently"
+            },
+            {
+              "id": "B",
+              "text": "Trend creatinine and renal-related laboratory results as ordered"
+            },
+            {
+              "id": "C",
+              "text": "Assess for other signs of shock or fluid deficit"
+            },
+            {
+              "id": "D",
+              "text": "Document and forget the issue if output improves briefly once"
+            },
+            {
+              "id": "E",
+              "text": "Monitor intake and output closely"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "AKI surveillance includes close fluid balance monitoring, repeated haemodynamic assessment, laboratory trending, and broader assessment for shock or ongoing fluid loss. A single transient improvement does not remove the need for continued observation. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Kidney Injury after Surgery | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding suggests that the patient is improving?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Laboratory follow-up is not obtained"
+            },
+            {
+              "id": "B",
+              "text": "Urine output increases, blood pressure stabilises, and thirst/weakness lessen"
+            },
+            {
+              "id": "C",
+              "text": "Blood pressure falls further and the patient becomes clammy"
+            },
+            {
+              "id": "D",
+              "text": "Oliguria continues and confusion worsens"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement is shown by restoring perfusion, which should be reflected in better urine output, more stable blood pressure, and reduced dehydration symptoms."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Upper Gastrointestinal Bleeding",
+      "stem": "Mr. Elias Kuruvilla, a 56-year-old man, is admitted after reporting black tarry stools and dizziness. He has a history of long-term NSAID use for chronic back pain and says he felt weak climbing stairs this morning. Shortly after arriving on the ward, he becomes more pale and says he feels lightheaded when sitting up. His blood pressure is 88/54 mmHg, pulse 124 beats per minute, respiratory rate 24 breaths per minute, and he has cool clammy skin. The nurse recognises signs of possible upper gastrointestinal bleeding with developing shock. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings suggest significant upper GI bleeding with circulatory compromise?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hypotension"
+            },
+            {
+              "id": "B",
+              "text": "Dizziness and weakness"
+            },
+            {
+              "id": "C",
+              "text": "Cool clammy skin"
+            },
+            {
+              "id": "D",
+              "text": "Black tarry stools"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Melena suggests upper GI bleeding. Dizziness, weakness, hypotension, tachycardia, and clammy skin together point toward blood loss and poor perfusion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient simply needs rest and no urgent action"
+            },
+            {
+              "id": "B",
+              "text": "The stools are unrelated to bleeding"
+            },
+            {
+              "id": "C",
+              "text": "The patient is likely developing hypovolaemic shock related to GI blood loss"
+            },
+            {
+              "id": "D",
+              "text": "The pulse is high only because of anxiety and nothing more"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "This is a high-risk bleeding scenario. The haemodynamic picture suggests volume loss significant enough to threaten perfusion. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for impaired tissue perfusion due to active blood loss"
+            },
+            {
+              "id": "B",
+              "text": "Readiness for low-fat diet teaching"
+            },
+            {
+              "id": "C",
+              "text": "Deficient diversional activity"
+            },
+            {
+              "id": "D",
+              "text": "Knowledge deficit about exercise"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate priority is circulatory stability. This is a classic Adult Med–Surg urgency where shock risk outranks all teaching and comfort needs. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage ambulation to improve circulation"
+            },
+            {
+              "id": "B",
+              "text": "Recognise potential shock, maintain patient safety, escalate urgently, and prepare for immediate resuscitative management"
+            },
+            {
+              "id": "C",
+              "text": "Delay action until the next doctor round"
+            },
+            {
+              "id": "D",
+              "text": "Offer a large meal"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The patient is unstable and must be managed urgently. Resuscitation-focused thinking is required: protect airway if needed, support circulation, escalate, and prepare for intervention. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prepare for bloodwork and treatment as ordered"
+            },
+            {
+              "id": "B",
+              "text": "Maintain awareness of worsening shock signs"
+            },
+            {
+              "id": "C",
+              "text": "Continue NSAIDs because they are not relevant now"
+            },
+            {
+              "id": "D",
+              "text": "Reassess vital signs frequently"
+            },
+            {
+              "id": "E",
+              "text": "Monitor mental status and urine output"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "rationale": "Frequent reassessment and preparation for treatment are central. NSAIDs are highly relevant because they may have contributed to ulcer-related bleeding and should not be continued casually in this context. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Upper Gastrointestinal Bleeding | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blood pressure improves, pulse slows, dizziness decreases, and perfusion signs improve"
+            },
+            {
+              "id": "B",
+              "text": "The patient becomes colder and more confused"
+            },
+            {
+              "id": "C",
+              "text": "Melena continues with worsening hypotension"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped because one reading looks better"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is reflected in better perfusion, reduced tachycardia, and less dizziness. Ongoing instability or premature reduction in monitoring would be unsafe."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Acute Pancreatitis",
+      "stem": "Mrs. Rina Das, a 48-year-old woman, presents with severe epigastric pain radiating to her back. She says the pain became much worse after eating and now feels constant. She is nauseated, has vomited twice, and prefers leaning forward because lying flat increases the pain. On assessment she looks distressed, guards her abdomen, and rates her pain as 9 out of 10. Her pulse is 112 beats per minute, respiratory rate 24 breaths per minute, blood pressure 106/68 mmHg, and she has dry mucous membranes. The nurse suspects acute pancreatitis. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings are consistent with acute pancreatitis?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nausea and vomiting"
+            },
+            {
+              "id": "B",
+              "text": "Severe epigastric pain radiating to the back"
+            },
+            {
+              "id": "C",
+              "text": "Pain worse when lying flat"
+            },
+            {
+              "id": "D",
+              "text": "Leaning forward for relief"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia and dehydration signs"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "This symptom cluster strongly matches acute pancreatitis. The pain pattern, postprandial worsening, nausea, vomiting, and leaning-forward position are typical. Tachycardia and dehydration often occur because of vomiting and fluid shifts. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best nursing interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient should be encouraged to lie flat"
+            },
+            {
+              "id": "B",
+              "text": "The condition is probably minor indigestion"
+            },
+            {
+              "id": "C",
+              "text": "The patient only needs a laxative"
+            },
+            {
+              "id": "D",
+              "text": "The patient is showing a likely inflammatory abdominal emergency with significant pain and fluid deficit risk"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Acute pancreatitis can become serious quickly because of severe inflammation, pain, and third-spacing of fluids. The nurse must think beyond pain alone and recognise systemic risk. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "B",
+              "text": "Need for social media education"
+            },
+            {
+              "id": "C",
+              "text": "Risk for acute pain and fluid imbalance with potential for deterioration"
+            },
+            {
+              "id": "D",
+              "text": "Risk for boredom"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Pain is important, but the broader urgent issue includes fluid imbalance and the potential for systemic instability. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delay intervention until the pain score is forgotten"
+            },
+            {
+              "id": "B",
+              "text": "Begin oral feeding immediately"
+            },
+            {
+              "id": "C",
+              "text": "Encourage alcohol intake to settle the stomach"
+            },
+            {
+              "id": "D",
+              "text": "Recognise pancreatitis as potentially serious, support hydration/perfusion monitoring, manage severe pain as prescribed, and withhold unnecessary oral intake until reviewed"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Pancreatitis often requires bowel rest and careful fluid/pain management. The nurse must not rush to oral feeding when the pancreas may need rest. Hydration, monitoring, and pain control are immediate concerns. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess fluid status and urine output"
+            },
+            {
+              "id": "B",
+              "text": "Ignore dehydration because pancreatitis is only a pain problem"
+            },
+            {
+              "id": "C",
+              "text": "Evaluate response to pain management"
+            },
+            {
+              "id": "D",
+              "text": "Escalate if the patient shows signs of shock or respiratory compromise"
+            },
+            {
+              "id": "E",
+              "text": "Monitor for worsening pain, vomiting, and haemodynamic instability"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Pancreatitis is more than pain; it can cause major fluid shifts and systemic complications. The nurse must monitor fluid status closely and remain alert for deterioration. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Acute Pancreatitis | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tachycardia worsens and urine output falls"
+            },
+            {
+              "id": "B",
+              "text": "The patient cannot tolerate repositioning and becomes more hypotensive"
+            },
+            {
+              "id": "C",
+              "text": "The nurse stops monitoring once pain medication is given"
+            },
+            {
+              "id": "D",
+              "text": "Pain becomes more manageable, vomiting decreases, perfusion remains stable, and the patient is better able to rest"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is seen when pain, vomiting, and instability lessen. Ongoing hypotension, tachycardia, or reduced urine output would suggest worsening illness."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Sepsis from Urinary Tract Source",
+      "stem": "Mrs. Gloria Fernandes, a 74-year-old woman, is admitted with dysuria and fever. She has a history of recurrent urinary infections. During the evening shift she becomes more lethargic and less responsive than earlier. Her family says she is “not herself” and seems unusually sleepy. Her observations show temperature 38.9 C, pulse 122 beats per minute, respiratory rate 28 breaths per minute, blood pressure 92/56 mmHg, and oxygen saturation 93% on room air. Urine output has fallen over the last few hours. The nurse suspects sepsis developing from a urinary tract source. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which cues support possible sepsis?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "New lethargy and falling urine output"
+            },
+            {
+              "id": "B",
+              "text": "Hypotension"
+            },
+            {
+              "id": "C",
+              "text": "Fever"
+            },
+            {
+              "id": "D",
+              "text": "Tachypnoea"
+            },
+            {
+              "id": "E",
+              "text": "Tachycardia"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these cues fit sepsis risk and early organ dysfunction. New lethargy and reduced urine output are especially important because they suggest impaired perfusion or evolving organ involvement. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The urinary symptoms are unrelated to the observations"
+            },
+            {
+              "id": "B",
+              "text": "The low blood pressure is not important because fever is expected"
+            },
+            {
+              "id": "C",
+              "text": "The patient is likely developing sepsis with impaired perfusion and requires urgent escalation"
+            },
+            {
+              "id": "D",
+              "text": "The patient simply needs more sleep"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The pattern is strongly concerning for sepsis. In Adult Med–Surg nursing, fever plus worsening vital signs and new organ-dysfunction cues must be treated as urgent. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Readiness for home discharge"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Knowledge deficit about hydration"
+            },
+            {
+              "id": "D",
+              "text": "Risk for septic shock and organ hypoperfusion"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The immediate danger is progression to septic shock and multisystem compromise. This is a time-sensitive escalation scenario. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduce monitoring to let the patient rest"
+            },
+            {
+              "id": "B",
+              "text": "Offer only reassurance and oral fluids"
+            },
+            {
+              "id": "C",
+              "text": "Escalate promptly using sepsis-focused clinical judgment, reassess the patient, and prepare for time-critical interventions according to policy"
+            },
+            {
+              "id": "D",
+              "text": "Wait until morning to review the trend"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The nurse should think urgently: reassess, escalate, and prepare for protocol-based sepsis management. Waiting is unsafe because sepsis can progress quickly. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor blood pressure, urine output, and mental status closely"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the new lethargy if the fever is being treated"
+            },
+            {
+              "id": "C",
+              "text": "Continue watching for further deterioration"
+            },
+            {
+              "id": "D",
+              "text": "Document trends clearly and communicate them promptly"
+            },
+            {
+              "id": "E",
+              "text": "Prepare for blood cultures, antibiotics, and fluids as ordered or protocol-based"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Sepsis management depends on prompt recognition, trending, and intervention. The new lethargy is highly relevant and should not be ignored. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Sepsis from Urinary Tract Source | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lethargy worsens and urine output continues to fall"
+            },
+            {
+              "id": "B",
+              "text": "Tachycardia becomes more severe"
+            },
+            {
+              "id": "C",
+              "text": "The nurse stops monitoring because antibiotics were started"
+            },
+            {
+              "id": "D",
+              "text": "Blood pressure stabilises, urine output improves, mental status becomes clearer, and fever trend begins to settle"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement in perfusion, organ function, and mental status shows the sepsis response is moving in the right direction. Continued decline would indicate worsening illness."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Post-operative Wound Evisceration",
+      "stem": "Mr. Abdul Rahman is a 62-year-old man on day two after abdominal surgery. He suddenly calls the nurse and says he felt a “popping” sensation at the incision site while coughing. When the nurse arrives, he looks frightened and reports sharp incisional pain. The abdominal dressing is partly soaked, and the wound edges appear open. On closer inspection, abdominal contents appear to be protruding through the wound. The patient is pale, tachycardic, and extremely anxious. The nurse recognises this as a surgical emergency. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise Cues (Select all that apply)",
+          "stem": "Which findings indicate wound evisceration?",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Report of a popping sensation"
+            },
+            {
+              "id": "B",
+              "text": "Protrusion of abdominal contents"
+            },
+            {
+              "id": "C",
+              "text": "Anxiety and tachycardia"
+            },
+            {
+              "id": "D",
+              "text": "Open wound edges"
+            },
+            {
+              "id": "E",
+              "text": "Increased incisional pain"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings support wound evisceration and acute distress. The tachycardia and anxiety may reflect pain, shock, or severe alarm at the event. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse Cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "This is a routine dressing issue only"
+            },
+            {
+              "id": "B",
+              "text": "The patient should be asked to walk to the treatment room"
+            },
+            {
+              "id": "C",
+              "text": "The patient has a serious post-operative wound emergency requiring immediate intervention and surgical review"
+            },
+            {
+              "id": "D",
+              "text": "The wound can be pushed back in and ignored"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "Wound evisceration is an emergency. The wound should not be treated as routine. The nurse must protect exposed tissues and escalate rapidly. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise Hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for tissue injury, infection, and further dehiscence related to wound evisceration"
+            },
+            {
+              "id": "B",
+              "text": "Knowledge deficit about exercise"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "D",
+              "text": "Need for menu adjustment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The exposed tissues and opened incision create urgent risk for injury, contamination, and worsening physiological stress. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take Action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Push the abdominal contents back into the wound"
+            },
+            {
+              "id": "B",
+              "text": "Ask the patient to cough again to check the wound"
+            },
+            {
+              "id": "C",
+              "text": "Leave the wound exposed while completing documentation"
+            },
+            {
+              "id": "D",
+              "text": "Cover the area with sterile saline-moistened dressing, support the patient, and seek urgent surgical assistance"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The correct first action is to protect the exposed tissue with sterile saline-moistened dressings, reduce strain, and obtain urgent help. Pushing contents back in is unsafe unless specifically directed in a controlled setting. Documentation follows emergency care, not the other way around. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Expanded Care / Monitoring",
+          "stem": "Which additional actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep the patient as calm and still as possible"
+            },
+            {
+              "id": "B",
+              "text": "Use sterile technique while protecting the wound"
+            },
+            {
+              "id": "C",
+              "text": "Prepare for urgent surgical review or transfer as directed"
+            },
+            {
+              "id": "D",
+              "text": "Delay escalation until the next round"
+            },
+            {
+              "id": "E",
+              "text": "Monitor vital signs and signs of shock"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "The nurse must minimise strain, monitor for instability, use sterile protection, and escalate urgently. Delay could worsen tissue damage or haemodynamic compromise. Program Area: Advanced Adult Nursing Care | Level: Level 3 - Global Nursing Professional | Section: Post-operative Wound Evisceration | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate Outcome",
+          "stem": "Which finding best indicates that immediate nursing management has been effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The exposed tissue is protected, the patient is stabilised while help is obtained, and further wound damage is minimised"
+            },
+            {
+              "id": "B",
+              "text": "The wound remains exposed for observation only"
+            },
+            {
+              "id": "C",
+              "text": "The patient walks independently to the theatre area"
+            },
+            {
+              "id": "D",
+              "text": "Monitoring is stopped once the dressing is applied"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse cannot fully solve the emergency alone, but effective management means protecting tissue, reducing further harm, and stabilising the patient while definitive care is arranged."
+        }
+      ]
+    }
+  ]
+}

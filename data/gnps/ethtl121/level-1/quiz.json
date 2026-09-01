@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A four-year-old child becomes frightened when told that a blood sample is needed. Which nursing approach is most developmentally appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a doll to demonstrate the procedure, explain it in simple language, offer a limited choice and keep the parent nearby for reassurance."
+        },
+        {
+          "id": "B",
+          "text": "Provide a detailed anatomical explanation and ask the child to remain still."
+        },
+        {
+          "id": "C",
+          "text": "Ask the parent to hold the child firmly without explanation."
+        },
+        {
+          "id": "D",
+          "text": "Delay all explanation until immediately before the needle is inserted."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Preschool children benefit from simple language, demonstration, therapeutic play, limited choices and familiar support. These approaches reduce fear and improve cooperation."
+    },
+    {
+      "id": "q2",
+      "stem": "An adolescent asks to speak with the nurse without a parent present. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refuse because parents must always be present."
+        },
+        {
+          "id": "B",
+          "text": "Provide an opportunity for private discussion where appropriate, explain confidentiality and its limits, and maintain respectful communication with the family."
+        },
+        {
+          "id": "C",
+          "text": "Ask the adolescent to write concerns on a form."
+        },
+        {
+          "id": "D",
+          "text": "Tell the adolescent that privacy is not part of paediatric care."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Adolescents require privacy, respect and opportunities to communicate independently, while nurses explain confidentiality and legal limits."
+    },
+    {
+      "id": "q3",
+      "stem": "A parent says, 'My toddler is normally active, but today he is unusually quiet and does not want to play.' Why is this information important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Behaviour is less important than temperature."
+        },
+        {
+          "id": "B",
+          "text": "Toddlers commonly become quiet when admitted, so no assessment is needed."
+        },
+        {
+          "id": "C",
+          "text": "Parents often know the child's baseline behaviour and may recognise early deterioration."
+        },
+        {
+          "id": "D",
+          "text": "Only the child's verbal report should guide assessment."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Family observations are valuable because parents and carers usually know the child's normal behaviour best."
+    },
+    {
+      "id": "q4",
+      "stem": "A child has not reached several expected language and motor milestones, and the parent reports loss of a skill previously acquired. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassure the parent that all children develop at the same rate eventually."
+        },
+        {
+          "id": "B",
+          "text": "Wait until school age before reviewing development."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on the child's current weight."
+        },
+        {
+          "id": "D",
+          "text": "Document the concern and arrange further developmental assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Variation occurs, but persistent delay or developmental regression requires further assessment."
+    },
+    {
+      "id": "q5",
+      "stem": "Which statement best reflects family-centred paediatric care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The child and family are partners in care, and their knowledge, preferences and needs are incorporated appropriately."
+        },
+        {
+          "id": "B",
+          "text": "Parents should remain observers while professionals make all decisions."
+        },
+        {
+          "id": "C",
+          "text": "Family involvement should occur only at discharge."
+        },
+        {
+          "id": "D",
+          "text": "The same family role should be assumed for every child."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Family-centred care values family knowledge, participation and preferences while maintaining the child's needs and safety."
+    },
+    {
+      "id": "q6",
+      "stem": "A school-age child asks what will happen during a procedure. Which explanation is most suitable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoid information to prevent anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Use honest, concrete language and explain the sequence in terms the child can understand."
+        },
+        {
+          "id": "C",
+          "text": "Use only technical terminology."
+        },
+        {
+          "id": "D",
+          "text": "Speak only to the parent."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "School-age children benefit from clear, truthful explanations that match their cognitive level."
+    },
+    {
+      "id": "q7",
+      "stem": "A toddler refuses oral medication and becomes distressed. Which first approach is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Threaten an injection if the child refuses."
+        },
+        {
+          "id": "B",
+          "text": "Mix the medicine secretly without checking safety."
+        },
+        {
+          "id": "C",
+          "text": "Use calm simple language, involve the caregiver, offer a limited choice where possible and avoid deception."
+        },
+        {
+          "id": "D",
+          "text": "Ask several staff members to restrain the child immediately."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Developmentally appropriate communication and caregiver involvement can reduce distress. Deception damages trust, and restraint should not be the first response."
+    },
+    {
+      "id": "q8",
+      "stem": "An infant has a chronological age of 10 months but was born very prematurely. How should development be interpreted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chronological age is the only factor that matters."
+        },
+        {
+          "id": "B",
+          "text": "Milestones are not useful for premature infants."
+        },
+        {
+          "id": "C",
+          "text": "The parent should compare the child only with siblings."
+        },
+        {
+          "id": "D",
+          "text": "Development should be considered alongside age, prematurity and the child's individual abilities."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Developmental assessment should consider chronological age, corrected age when relevant, and individual variation."
+    },
+    {
+      "id": "q9",
+      "stem": "Which intervention best uses play as a clinical communication tool?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allowing a child to explore safe equipment and rehearse a procedure with a toy."
+        },
+        {
+          "id": "B",
+          "text": "Providing entertainment unrelated to care only."
+        },
+        {
+          "id": "C",
+          "text": "Using play as a reward after every procedure."
+        },
+        {
+          "id": "D",
+          "text": "Avoiding play because it may distract from assessment."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Therapeutic play helps children understand care, express feelings and reduce fear."
+    },
+    {
+      "id": "q10",
+      "stem": "A parent wants to perform a familiar comfort routine during a procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude the parent to preserve professional control."
+        },
+        {
+          "id": "B",
+          "text": "Support the routine if it is safe and helpful to the child."
+        },
+        {
+          "id": "C",
+          "text": "Allow it only after the procedure."
+        },
+        {
+          "id": "D",
+          "text": "Ask another family to advise."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Parents and carers can provide comfort and continuity and should be involved when safe and desired."
+    },
+    {
+      "id": "q11",
+      "stem": "A preschool child repeatedly asks whether an injection is punishment for being 'bad.' What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm that the injection is necessary because the child did not cooperate."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the question."
+        },
+        {
+          "id": "C",
+          "text": "Explain simply that the medicine is to help the body and is not punishment."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent to correct the child later."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Young children may misunderstand illness and procedures. Clear reassurance prevents guilt and fear."
+    },
+    {
+      "id": "q12",
+      "stem": "Which finding most strongly suggests developmental regression?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A child learns a new word more slowly than a sibling."
+        },
+        {
+          "id": "B",
+          "text": "A child prefers one toy."
+        },
+        {
+          "id": "C",
+          "text": "A child is shy with unfamiliar adults."
+        },
+        {
+          "id": "D",
+          "text": "A child loses previously established speech or motor skills."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Loss of previously acquired skills is a red flag requiring assessment."
+    },
+    {
+      "id": "q13",
+      "stem": "A family declines a care activity because of a cultural practice that does not create clinical risk. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask about the practice and accommodate it where safe."
+        },
+        {
+          "id": "B",
+          "text": "Insist on the usual routine."
+        },
+        {
+          "id": "C",
+          "text": "Document non-compliance."
+        },
+        {
+          "id": "D",
+          "text": "Avoid further discussion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Family-centred care requires respectful enquiry and safe accommodation rather than assumptions or judgement."
+    },
+    {
+      "id": "q14",
+      "stem": "A nurse needs to assess an anxious toddler. Which sequence is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin with the most invasive examination."
+        },
+        {
+          "id": "B",
+          "text": "Observe first, use play and caregiver support, and leave distressing parts until later when clinically safe."
+        },
+        {
+          "id": "C",
+          "text": "Separate the child from the parent immediately."
+        },
+        {
+          "id": "D",
+          "text": "Complete the assessment without speaking."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Observation and a gradual, developmentally appropriate approach reduce distress and improve assessment quality."
+    },
+    {
+      "id": "q15",
+      "stem": "A child with a developmental disability communicates using gestures rather than speech. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the child cannot participate."
+        },
+        {
+          "id": "B",
+          "text": "Direct all questions to the parent only."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family about the child's usual communication, use appropriate aids and observe behavioural cues."
+        },
+        {
+          "id": "D",
+          "text": "Use standard verbal questions repeatedly."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Communication should be adapted to individual ability, not based solely on chronological age."
+    },
+    {
+      "id": "q16",
+      "stem": "Which outcome best demonstrates effective family-centred care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The family follows instructions without asking questions."
+        },
+        {
+          "id": "B",
+          "text": "The nurse makes all decisions quickly."
+        },
+        {
+          "id": "C",
+          "text": "The parent remains outside the room."
+        },
+        {
+          "id": "D",
+          "text": "The child and family understand the plan, contribute relevant information and participate in care according to preference and ability."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Partnership, understanding and appropriate participation are key outcomes."
+    },
+    {
+      "id": "q17",
+      "stem": "A child is fearful of staff after several painful procedures. Which action is most helpful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use consistent caregivers where possible, prepare the child honestly and use comfort and distraction strategies."
+        },
+        {
+          "id": "B",
+          "text": "Approach quickly to complete tasks before resistance begins."
+        },
+        {
+          "id": "C",
+          "text": "Promise that no procedure will hurt."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing previous experiences."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Trust is supported by honest preparation, predictable care and developmentally appropriate coping strategies."
+    },
+    {
+      "id": "q18",
+      "stem": "A parent reports concern about delayed speech, but another family member says, 'He will catch up.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss the concern because family opinions differ."
+        },
+        {
+          "id": "B",
+          "text": "Take the parent's concern seriously and assess development or refer according to local pathways."
+        },
+        {
+          "id": "C",
+          "text": "Wait until adolescence."
+        },
+        {
+          "id": "D",
+          "text": "Assess physical growth only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Parent concerns can be important indicators of developmental difficulty and should be evaluated."
+    },
+    {
+      "id": "q19",
+      "stem": "What is the best way to involve an adolescent in care planning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speak only with the parent."
+        },
+        {
+          "id": "B",
+          "text": "Require the adolescent to make all decisions alone."
+        },
+        {
+          "id": "C",
+          "text": "Provide age-appropriate information, invite the adolescent's views and support growing autonomy within legal and developmental limits."
+        },
+        {
+          "id": "D",
+          "text": "Avoid discussing sensitive topics."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Adolescents should be included respectfully in decisions as their maturity and legal context allow."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects safe developmental nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every child receives the same explanation."
+        },
+        {
+          "id": "B",
+          "text": "Only chronological age is considered."
+        },
+        {
+          "id": "C",
+          "text": "Parents are involved only when the child cannot speak."
+        },
+        {
+          "id": "D",
+          "text": "Assessment, communication and care are adapted to developmental stage, individual ability and family context."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe paediatric care requires developmentally appropriate, individualised and family-centred practice. Section 2 - Paediatric Assessment and Recognition of Deterioration"
+    },
+    {
+      "id": "q21",
+      "stem": "An infant with bronchiolitis is quieter than earlier, feeds poorly, has nasal flaring, chest retractions and fewer wet nappies. What is the nurse's priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognise respiratory and hydration deterioration, complete an urgent assessment and escalate promptly."
+        },
+        {
+          "id": "B",
+          "text": "Reassure the parent that bronchiolitis commonly causes tiredness."
+        },
+        {
+          "id": "C",
+          "text": "Offer a full bottle before reassessment."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next scheduled observations."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Behavioural change, respiratory distress and reduced urine output are significant signs of deterioration in an infant."
+    },
+    {
+      "id": "q22",
+      "stem": "Before touching a child, what should the nurse assess first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blood pressure only."
+        },
+        {
+          "id": "B",
+          "text": "Appearance, interaction, breathing, colour, posture and response to the caregiver."
+        },
+        {
+          "id": "C",
+          "text": "Pain score only."
+        },
+        {
+          "id": "D",
+          "text": "The medical diagnosis."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Observation before handling can reveal important signs of illness and distress."
+    },
+    {
+      "id": "q23",
+      "stem": "A quiet, floppy infant who responds poorly to a caregiver should be interpreted as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A child who is simply tired."
+        },
+        {
+          "id": "B",
+          "text": "A normal response to hospital admission."
+        },
+        {
+          "id": "C",
+          "text": "A potentially seriously unwell child requiring prompt assessment."
+        },
+        {
+          "id": "D",
+          "text": "Evidence of adequate pain control."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Poor responsiveness and hypotonia are concerning paediatric signs."
+    },
+    {
+      "id": "q24",
+      "stem": "Why must paediatric vital signs be interpreted by age?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Children have identical normal ranges to adults."
+        },
+        {
+          "id": "B",
+          "text": "Only temperature varies by age."
+        },
+        {
+          "id": "C",
+          "text": "Age matters only for infants."
+        },
+        {
+          "id": "D",
+          "text": "Normal heart rate, respiratory rate and blood pressure change with age."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Age-specific ranges are essential because normal physiology changes throughout childhood."
+    },
+    {
+      "id": "q25",
+      "stem": "A non-verbal toddler is recovering from surgery. Which pain tool is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FLACC or another validated behavioural pain tool."
+        },
+        {
+          "id": "B",
+          "text": "A numerical 0-10 scale only."
+        },
+        {
+          "id": "C",
+          "text": "No pain tool is required."
+        },
+        {
+          "id": "D",
+          "text": "An adult sedation score."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "FLACC supports pain assessment when verbal reporting is limited."
+    },
+    {
+      "id": "q26",
+      "stem": "A child has stridor at rest, suprasternal recession and increasing agitation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspect the throat repeatedly."
+        },
+        {
+          "id": "B",
+          "text": "Treat this as an airway emergency, minimise distress and seek urgent assistance."
+        },
+        {
+          "id": "C",
+          "text": "Encourage the child to lie flat."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral food and fluids."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Stridor at rest and increased work of breathing indicate significant upper-airway compromise."
+    },
+    {
+      "id": "q27",
+      "stem": "Which finding most strongly suggests dehydration in an infant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal activity and moist mouth."
+        },
+        {
+          "id": "B",
+          "text": "Increased urine output."
+        },
+        {
+          "id": "C",
+          "text": "Reduced tears, dry mucous membranes, delayed capillary refill and fewer wet nappies."
+        },
+        {
+          "id": "D",
+          "text": "Warm hands with brisk refill."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Multiple hydration cues should be assessed together."
+    },
+    {
+      "id": "q28",
+      "stem": "A child is tachycardic but crying vigorously during observations. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the result is normal and document it."
+        },
+        {
+          "id": "B",
+          "text": "Use the adult normal range."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the heart rate."
+        },
+        {
+          "id": "D",
+          "text": "Interpret the rate in context, settle the child if possible and repeat the assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Pain, fear and fever can affect vital signs, so readings should be interpreted in context and reassessed."
+    },
+    {
+      "id": "q29",
+      "stem": "Which change may be an early sign of paediatric deterioration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduced feeding and altered behaviour."
+        },
+        {
+          "id": "B",
+          "text": "Stable play and normal urine output."
+        },
+        {
+          "id": "C",
+          "text": "Improved interaction."
+        },
+        {
+          "id": "D",
+          "text": "A single request for sleep."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Children may not describe symptoms clearly; behavioural and feeding changes can be early warning signs."
+    },
+    {
+      "id": "q30",
+      "stem": "A child with respiratory illness develops grunting and central cyanosis. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine reassessment in one hour."
+        },
+        {
+          "id": "B",
+          "text": "Immediate airway and breathing assessment with urgent escalation."
+        },
+        {
+          "id": "C",
+          "text": "Oral hydration first."
+        },
+        {
+          "id": "D",
+          "text": "Discharge education."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Grunting and central cyanosis are serious signs of respiratory compromise."
+    },
+    {
+      "id": "q31",
+      "stem": "A parent says, 'He is not himself, even though the monitor looks normal.' What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss the concern because observations are normal."
+        },
+        {
+          "id": "B",
+          "text": "Tell the parent to wait for the doctor."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the child and consider the parent's knowledge of baseline behaviour."
+        },
+        {
+          "id": "D",
+          "text": "Document the comment only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Parents often identify subtle deterioration before objective values become severely abnormal."
+    },
+    {
+      "id": "q32",
+      "stem": "Which finding suggests poor circulation in a child?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Warm extremities and brisk refill."
+        },
+        {
+          "id": "B",
+          "text": "Normal urine output."
+        },
+        {
+          "id": "C",
+          "text": "Active play."
+        },
+        {
+          "id": "D",
+          "text": "Prolonged capillary refill, cool extremities and altered responsiveness."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These signs suggest impaired perfusion and require urgent assessment."
+    },
+    {
+      "id": "q33",
+      "stem": "A child with fever develops a non-blanching rash. What is the best nursing action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat as a possible serious infection and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Observe for several hours."
+        },
+        {
+          "id": "C",
+          "text": "Apply moisturiser."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent to photograph the rash."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Fever with a non-blanching rash is a red flag requiring immediate action."
+    },
+    {
+      "id": "q34",
+      "stem": "A child has reduced consciousness after a seizure. What should the nurse assess first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meal intake."
+        },
+        {
+          "id": "B",
+          "text": "Airway, breathing, circulation and neurological recovery."
+        },
+        {
+          "id": "C",
+          "text": "School attendance."
+        },
+        {
+          "id": "D",
+          "text": "Family history only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Immediate safety and physiological assessment take priority after a seizure."
+    },
+    {
+      "id": "q35",
+      "stem": "Which approach best assesses hydration comprehensively?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess thirst only."
+        },
+        {
+          "id": "B",
+          "text": "Use urine colour only."
+        },
+        {
+          "id": "C",
+          "text": "Review tears, mucous membranes, fontanel where relevant, capillary refill, urine output, weight and activity."
+        },
+        {
+          "id": "D",
+          "text": "Check blood pressure only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "No single sign is sufficient; hydration should be assessed using multiple cues."
+    },
+    {
+      "id": "q36",
+      "stem": "A child's respiratory rate increases over several hours while oxygen saturation remains within target. What should the nurse conclude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The child is stable because saturation is normal."
+        },
+        {
+          "id": "B",
+          "text": "The monitor is inaccurate."
+        },
+        {
+          "id": "C",
+          "text": "No action is needed until cyanosis occurs."
+        },
+        {
+          "id": "D",
+          "text": "Rising respiratory effort may be an early sign of deterioration and requires reassessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Children can compensate before sudden decline; trend recognition is essential."
+    },
+    {
+      "id": "q37",
+      "stem": "A child is irritable, lethargic and has a bulging fontanel. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognise possible serious neurological illness and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Reassure the parent."
+        },
+        {
+          "id": "C",
+          "text": "Offer food."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the child sleeps."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Bulging fontanel with neurological change is a red flag."
+    },
+    {
+      "id": "q38",
+      "stem": "Which outcome best indicates that an intervention for respiratory distress is effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A lower respiratory rate alone."
+        },
+        {
+          "id": "B",
+          "text": "Reduced work of breathing, improved colour, alertness and oxygenation."
+        },
+        {
+          "id": "C",
+          "text": "The child falls asleep."
+        },
+        {
+          "id": "D",
+          "text": "The parent reports less anxiety."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Response should be assessed using multiple clinical indicators."
+    },
+    {
+      "id": "q39",
+      "stem": "A child refuses to rate pain verbally. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume there is no pain."
+        },
+        {
+          "id": "B",
+          "text": "Ask repeatedly until the child answers."
+        },
+        {
+          "id": "C",
+          "text": "Use observation, caregiver input and an age-appropriate validated tool."
+        },
+        {
+          "id": "D",
+          "text": "Document refusal only."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Pain assessment should be adapted to developmental and communication ability."
+    },
+    {
+      "id": "q40",
+      "stem": "Which outcome best reflects effective paediatric assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only vital signs are recorded."
+        },
+        {
+          "id": "B",
+          "text": "The nurse waits for the child to describe symptoms."
+        },
+        {
+          "id": "C",
+          "text": "The same assessment sequence is used rigidly for every child."
+        },
+        {
+          "id": "D",
+          "text": "The nurse identifies age-specific abnormalities, recognises behavioural change and escalates before sudden collapse."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Effective paediatric assessment combines observation, age-specific interpretation and early action. Section 3 - Nursing Care for Common Childhood Conditions"
+    },
+    {
+      "id": "q41",
+      "stem": "A school-age child with type 1 diabetes presents with vomiting, abdominal pain, deep breathing and increasing drowsiness. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check glucose and ketones, assess hydration and activate urgent management for possible diabetic ketoacidosis."
+        },
+        {
+          "id": "B",
+          "text": "Treat as gastroenteritis only."
+        },
+        {
+          "id": "C",
+          "text": "Give food and wait."
+        },
+        {
+          "id": "D",
+          "text": "Encourage exercise."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Vomiting, abdominal pain, Kussmaul-type breathing and drowsiness are classic warning signs of DKA."
+    },
+    {
+      "id": "q42",
+      "stem": "A child with croup has stridor only when upset and is otherwise alert. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examine the throat with a tongue depressor."
+        },
+        {
+          "id": "B",
+          "text": "Keep the child calm, assess airway and breathing, and monitor for progression."
+        },
+        {
+          "id": "C",
+          "text": "Encourage crying to assess severity."
+        },
+        {
+          "id": "D",
+          "text": "Place the child flat."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Minimising distress is important because agitation can worsen upper-airway obstruction."
+    },
+    {
+      "id": "q43",
+      "stem": "An infant with bronchiolitis is tiring during feeds and has increasing respiratory effort. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completing a full feed."
+        },
+        {
+          "id": "B",
+          "text": "Routine discharge teaching."
+        },
+        {
+          "id": "C",
+          "text": "Airway and breathing assessment, feeding safety and hydration review."
+        },
+        {
+          "id": "D",
+          "text": "Encouraging prolonged crying."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Respiratory fatigue and feeding difficulty increase risk of deterioration and aspiration."
+    },
+    {
+      "id": "q44",
+      "stem": "A child with asthma becomes quieter with poor air entry despite less wheeze. What should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improvement."
+        },
+        {
+          "id": "B",
+          "text": "Resolution of bronchospasm."
+        },
+        {
+          "id": "C",
+          "text": "Anxiety only."
+        },
+        {
+          "id": "D",
+          "text": "Severe airflow limitation and fatigue."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "A quieter chest with reduced air entry can indicate worsening obstruction rather than improvement."
+    },
+    {
+      "id": "q45",
+      "stem": "Which symptom in a child with gastrointestinal illness requires urgent surgical review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilious vomiting."
+        },
+        {
+          "id": "B",
+          "text": "Mild nausea."
+        },
+        {
+          "id": "C",
+          "text": "One loose stool."
+        },
+        {
+          "id": "D",
+          "text": "Temporary appetite loss."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Bilious vomiting is a paediatric red flag and may indicate intestinal obstruction."
+    },
+    {
+      "id": "q46",
+      "stem": "A child has intermittent severe abdominal pain and currant-jelly stool. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat as simple diarrhoea."
+        },
+        {
+          "id": "B",
+          "text": "Recognise a possible urgent surgical condition and escalate immediately."
+        },
+        {
+          "id": "C",
+          "text": "Encourage a large meal."
+        },
+        {
+          "id": "D",
+          "text": "Wait for symptoms to resolve."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Currant-jelly stool with episodic pain is a red flag for intussusception."
+    },
+    {
+      "id": "q47",
+      "stem": "A child with congenital heart disease sweats and becomes breathless during feeds. What is the best nursing interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The child dislikes the formula."
+        },
+        {
+          "id": "B",
+          "text": "This is normal teething behaviour."
+        },
+        {
+          "id": "C",
+          "text": "Feeding may be creating significant cardiac workload and should be paced with clinical review."
+        },
+        {
+          "id": "D",
+          "text": "The child should be encouraged to finish quickly."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Poor feeding, sweating and breathlessness can indicate cardiac compromise."
+    },
+    {
+      "id": "q48",
+      "stem": "Which nursing action best supports a child with heart failure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage vigorous activity."
+        },
+        {
+          "id": "B",
+          "text": "Restrict all family contact."
+        },
+        {
+          "id": "C",
+          "text": "Ignore feeding fatigue."
+        },
+        {
+          "id": "D",
+          "text": "Pace activity and feeds, monitor breathing, growth and perfusion, and allow rest."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Energy conservation and careful monitoring support children with reduced cardiac reserve."
+    },
+    {
+      "id": "q49",
+      "stem": "A child with pneumonia becomes increasingly lethargic and requires more oxygen. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recognise deterioration and escalate urgently."
+        },
+        {
+          "id": "B",
+          "text": "Wait for the next antibiotic dose."
+        },
+        {
+          "id": "C",
+          "text": "Reduce observations to allow rest."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral fluids only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Increasing oxygen requirement and lethargy suggest worsening respiratory illness."
+    },
+    {
+      "id": "q50",
+      "stem": "A child with meningitis is suspected. Which finding is most concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mild headache with normal behaviour."
+        },
+        {
+          "id": "B",
+          "text": "Fever with altered consciousness and a non-blanching rash."
+        },
+        {
+          "id": "C",
+          "text": "Sore throat only."
+        },
+        {
+          "id": "D",
+          "text": "Normal appetite."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "This combination may indicate severe invasive infection and requires immediate action."
+    },
+    {
+      "id": "q51",
+      "stem": "During a seizure, which action is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restrain the child firmly."
+        },
+        {
+          "id": "B",
+          "text": "Place an object in the mouth."
+        },
+        {
+          "id": "C",
+          "text": "Protect the child from injury, maintain airway safety, time the seizure and observe features."
+        },
+        {
+          "id": "D",
+          "text": "Offer oral medication during the seizure."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Seizure care focuses on safety, airway and accurate observation."
+    },
+    {
+      "id": "q52",
+      "stem": "A child remains drowsy and has abnormal breathing after a seizure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume this is a normal postictal state."
+        },
+        {
+          "id": "B",
+          "text": "Give food."
+        },
+        {
+          "id": "C",
+          "text": "Leave the child to sleep alone."
+        },
+        {
+          "id": "D",
+          "text": "Perform urgent ABC assessment and escalate."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent altered consciousness and abnormal breathing require urgent review."
+    },
+    {
+      "id": "q53",
+      "stem": "A child with gastroenteritis has dry mucous membranes, prolonged capillary refill and minimal urine output. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess severity of dehydration and initiate prescribed rehydration or escalation."
+        },
+        {
+          "id": "B",
+          "text": "Provide fruit juice only."
+        },
+        {
+          "id": "C",
+          "text": "Delay care until vomiting stops."
+        },
+        {
+          "id": "D",
+          "text": "Encourage normal activity."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These findings indicate significant dehydration and possible circulatory compromise."
+    },
+    {
+      "id": "q54",
+      "stem": "Which sign may indicate respiratory fatigue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loud crying with good colour."
+        },
+        {
+          "id": "B",
+          "text": "Decreasing air entry with reduced effort and altered consciousness."
+        },
+        {
+          "id": "C",
+          "text": "Improved interaction."
+        },
+        {
+          "id": "D",
+          "text": "Normal feeding."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A child may appear quieter as respiratory muscles tire; this is a late and dangerous sign."
+    },
+    {
+      "id": "q55",
+      "stem": "A child with cystic fibrosis has increased cough, reduced appetite and weight loss. What should the nurse consider?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal variation."
+        },
+        {
+          "id": "B",
+          "text": "Improved lung function."
+        },
+        {
+          "id": "C",
+          "text": "Possible respiratory exacerbation and nutritional decline requiring review."
+        },
+        {
+          "id": "D",
+          "text": "A minor behavioural issue."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Cystic fibrosis affects both respiratory health and nutrition; changes require assessment."
+    },
+    {
+      "id": "q56",
+      "stem": "Which outcome best indicates effective asthma treatment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wheeze disappears but the child becomes drowsy."
+        },
+        {
+          "id": "B",
+          "text": "Respiratory rate falls while cyanosis develops."
+        },
+        {
+          "id": "C",
+          "text": "The child sleeps deeply."
+        },
+        {
+          "id": "D",
+          "text": "Improved air entry, reduced work of breathing and better ability to speak or play."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical improvement should include ventilation, effort and function."
+    },
+    {
+      "id": "q57",
+      "stem": "A child with vomiting has a distended abdomen and severe pain. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat as a possible acute abdominal emergency and escalate."
+        },
+        {
+          "id": "B",
+          "text": "Give a large meal."
+        },
+        {
+          "id": "C",
+          "text": "Encourage walking."
+        },
+        {
+          "id": "D",
+          "text": "Reassure the family."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Severe pain and distension are red flags for obstruction or another surgical condition."
+    },
+    {
+      "id": "q58",
+      "stem": "A child with type 1 diabetes becomes pale, shaky and confused. What is the priority?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give insulin."
+        },
+        {
+          "id": "B",
+          "text": "Check blood glucose and treat possible hypoglycaemia according to protocol."
+        },
+        {
+          "id": "C",
+          "text": "Encourage sleep."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the next meal."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "These symptoms are consistent with hypoglycaemia and require rapid treatment."
+    },
+    {
+      "id": "q59",
+      "stem": "Why should nurses monitor both the child and family during acute illness?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Family needs are unrelated to treatment."
+        },
+        {
+          "id": "B",
+          "text": "Only the child's vital signs matter."
+        },
+        {
+          "id": "C",
+          "text": "The child's condition and family understanding, coping and ability to continue care all affect outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Parents should not participate during illness."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Paediatric care includes clinical support for the child and communication and education for the family."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best reflects safe care for common childhood conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The diagnosis is documented."
+        },
+        {
+          "id": "B",
+          "text": "Only prescribed medication is given."
+        },
+        {
+          "id": "C",
+          "text": "The same pathway is used without reassessment."
+        },
+        {
+          "id": "D",
+          "text": "Red flags are recognised early, treatment response is monitored and the child and family receive appropriate support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe care integrates recognition, intervention, evaluation and family support. Section 4 - Medication Safety, Nutrition and Child Protection"
+    },
+    {
+      "id": "q61",
+      "stem": "A toddler is prescribed 10 mg/kg of a medicine. The recorded weight is 22, but the nurse discovers it was entered in pounds rather than kilograms. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pause administration, reweigh the child in kilograms, recalculate the dose and complete required checks."
+        },
+        {
+          "id": "B",
+          "text": "Administer the calculated dose because the chart is official."
+        },
+        {
+          "id": "C",
+          "text": "Convert 22 pounds to 22 kilograms."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent to estimate the correct dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Paediatric doses require a current weight in kilograms. A pounds-to-kilograms error can cause a serious overdose."
+    },
+    {
+      "id": "q62",
+      "stem": "Which information must be checked before administering a weight-based paediatric medicine?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Age only."
+        },
+        {
+          "id": "B",
+          "text": "Current weight in kilograms, prescribed dose, concentration, route and maximum safe dose."
+        },
+        {
+          "id": "C",
+          "text": "Tablet colour."
+        },
+        {
+          "id": "D",
+          "text": "Parent preference only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe paediatric dosing requires several deliberate checks, often including independent verification."
+    },
+    {
+      "id": "q63",
+      "stem": "A child weighs 18 kg and is prescribed 5 mg/kg. What dose is required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "23 mg."
+        },
+        {
+          "id": "B",
+          "text": "180 mg."
+        },
+        {
+          "id": "C",
+          "text": "90 mg."
+        },
+        {
+          "id": "D",
+          "text": "360 mg."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "5 mg multiplied by 18 kg equals 90 mg."
+    },
+    {
+      "id": "q64",
+      "stem": "Why is independent verification often required for paediatric medicines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Children always refuse medicines."
+        },
+        {
+          "id": "B",
+          "text": "Parents cannot provide consent."
+        },
+        {
+          "id": "C",
+          "text": "Paediatric medicines are never standardised."
+        },
+        {
+          "id": "D",
+          "text": "Small calculation or concentration errors can cause serious harm."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Children have small therapeutic margins, and weight-based calculations increase error risk."
+    },
+    {
+      "id": "q65",
+      "stem": "A child's current weight is unavailable, but a medication dose is due. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtain or verify a current weight before calculation unless an emergency protocol provides another safe method."
+        },
+        {
+          "id": "B",
+          "text": "Use the weight from a sibling."
+        },
+        {
+          "id": "C",
+          "text": "Estimate by age."
+        },
+        {
+          "id": "D",
+          "text": "Administer half the adult dose."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Accurate dosing requires a verified current weight."
+    },
+    {
+      "id": "q66",
+      "stem": "Which assessment best evaluates a child's nutrition and growth?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One weight measurement only."
+        },
+        {
+          "id": "B",
+          "text": "Growth chart trend, dietary history, feeding observation and clinical assessment."
+        },
+        {
+          "id": "C",
+          "text": "Parent opinion only."
+        },
+        {
+          "id": "D",
+          "text": "Height only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Growth and nutrition should be evaluated over time using multiple sources."
+    },
+    {
+      "id": "q67",
+      "stem": "A child crosses downward through several growth percentiles. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume this is normal variation."
+        },
+        {
+          "id": "B",
+          "text": "Increase calorie intake without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Assess feeding, health, psychosocial factors and arrange further review."
+        },
+        {
+          "id": "D",
+          "text": "Wait until adolescence."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "A sustained change in growth trajectory may indicate nutritional, medical or social concerns."
+    },
+    {
+      "id": "q68",
+      "stem": "Which injury-prevention advice is most appropriate for a toddler?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sport helmet education only."
+        },
+        {
+          "id": "B",
+          "text": "Independent road crossing."
+        },
+        {
+          "id": "C",
+          "text": "Sleeping with loose bedding."
+        },
+        {
+          "id": "D",
+          "text": "Safe storage of medicines and poisons, supervision near water and age-appropriate car restraint."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Injury prevention should match the child's developmental risks."
+    },
+    {
+      "id": "q69",
+      "stem": "Which safe-sleep advice is most appropriate for an infant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a safe sleep surface and follow local recommendations regarding position and bedding."
+        },
+        {
+          "id": "B",
+          "text": "Place the infant prone with pillows."
+        },
+        {
+          "id": "C",
+          "text": "Use loose blankets and soft toys."
+        },
+        {
+          "id": "D",
+          "text": "Allow sleeping on a sofa."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe sleep education reduces preventable infant harm and should follow current local guidance."
+    },
+    {
+      "id": "q70",
+      "stem": "A child has bruises in unusual locations that do not match the caregiver's explanation. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confront the caregiver aggressively."
+        },
+        {
+          "id": "B",
+          "text": "Document objectively, ensure immediate safety and follow legal and organisational safeguarding procedures."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the concern without proof."
+        },
+        {
+          "id": "D",
+          "text": "Ask the child to return alone later."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Inconsistent injuries may indicate abuse. Nurses should document and report through approved pathways rather than investigate independently."
+    },
+    {
+      "id": "q71",
+      "stem": "Which finding may indicate neglect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single accidental scrape."
+        },
+        {
+          "id": "B",
+          "text": "A parent asking questions."
+        },
+        {
+          "id": "C",
+          "text": "Persistent poor hygiene, untreated health needs and inadequate supervision."
+        },
+        {
+          "id": "D",
+          "text": "A child being shy."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Neglect may be reflected in unmet basic health, hygiene, nutrition or safety needs."
+    },
+    {
+      "id": "q72",
+      "stem": "A caregiver delays seeking care for a serious injury and gives changing explanations. What is the best nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume stress caused the inconsistency."
+        },
+        {
+          "id": "B",
+          "text": "Wait for another incident."
+        },
+        {
+          "id": "C",
+          "text": "Discuss the case with other families."
+        },
+        {
+          "id": "D",
+          "text": "Consider safeguarding concerns, document facts and follow reporting requirements."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Delayed presentation and inconsistent explanations are safeguarding red flags."
+    },
+    {
+      "id": "q73",
+      "stem": "Which documentation is most appropriate for a suspected safeguarding concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Objective descriptions of injuries, statements and observed behaviour without speculation."
+        },
+        {
+          "id": "B",
+          "text": "A diagnosis of abuse without assessment."
+        },
+        {
+          "id": "C",
+          "text": "Emotional language."
+        },
+        {
+          "id": "D",
+          "text": "No documentation until the case is proven."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Accurate, factual documentation supports safe and lawful follow-up."
+    },
+    {
+      "id": "q74",
+      "stem": "A parent asks how to prevent poisoning at home. What advice is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keep products under the sink."
+        },
+        {
+          "id": "B",
+          "text": "Store medicines and chemicals locked, out of reach and in original containers."
+        },
+        {
+          "id": "C",
+          "text": "Transfer chemicals into drink bottles."
+        },
+        {
+          "id": "D",
+          "text": "Teach toddlers to avoid them."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Environmental controls are more reliable than relying on a young child's understanding."
+    },
+    {
+      "id": "q75",
+      "stem": "A child with feeding difficulty coughs during meals and has poor weight gain. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage faster feeding."
+        },
+        {
+          "id": "B",
+          "text": "Ignore coughing if the child finishes meals."
+        },
+        {
+          "id": "C",
+          "text": "Assess feeding safety and refer for appropriate multidisciplinary review."
+        },
+        {
+          "id": "D",
+          "text": "Recommend unrestricted foods."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Coughing with feeding and poor growth may indicate swallowing or nutritional difficulty."
+    },
+    {
+      "id": "q76",
+      "stem": "Which approach best supports an adolescent with obesity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on appearance."
+        },
+        {
+          "id": "B",
+          "text": "Recommend extreme dieting."
+        },
+        {
+          "id": "C",
+          "text": "Exclude the adolescent from planning."
+        },
+        {
+          "id": "D",
+          "text": "Use respectful, non-stigmatising assessment of nutrition, activity, health and family context."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Nutrition care should be respectful, developmentally appropriate and evidence-informed."
+    },
+    {
+      "id": "q77",
+      "stem": "A medication calculation result seems unusually high for a small child. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop, recheck weight, units, dose and concentration, and obtain independent verification."
+        },
+        {
+          "id": "B",
+          "text": "Administer it because the formula was used."
+        },
+        {
+          "id": "C",
+          "text": "Round the dose upward."
+        },
+        {
+          "id": "D",
+          "text": "Ask the parent if it looks correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A reasonableness check is essential in paediatric medication safety."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best demonstrates effective injury-prevention education?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A leaflet is provided."
+        },
+        {
+          "id": "B",
+          "text": "The family can explain and apply age-specific safety measures in the home and community."
+        },
+        {
+          "id": "C",
+          "text": "The parent signs a form."
+        },
+        {
+          "id": "D",
+          "text": "The child promises to be careful."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Understanding and practical application are more meaningful than information delivery alone."
+    },
+    {
+      "id": "q79",
+      "stem": "What is the nurse's responsibility when abuse or neglect is suspected?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Investigate the family independently."
+        },
+        {
+          "id": "B",
+          "text": "Wait for certainty."
+        },
+        {
+          "id": "C",
+          "text": "Follow legal and organisational reporting requirements while supporting the child's immediate safety."
+        },
+        {
+          "id": "D",
+          "text": "Discuss the case publicly."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Nurses must act within safeguarding laws and policies and should not delay until proof is established."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects safe practice in medication, nutrition and child protection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only medication calculations are correct."
+        },
+        {
+          "id": "B",
+          "text": "Families receive general advice only."
+        },
+        {
+          "id": "C",
+          "text": "Safeguarding concerns are managed informally."
+        },
+        {
+          "id": "D",
+          "text": "Weight-based medicines are verified, growth concerns are assessed, injury prevention is tailored and safeguarding concerns are reported appropriately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe paediatric practice integrates medication safety, growth, prevention and protection."
+    }
+  ]
+}

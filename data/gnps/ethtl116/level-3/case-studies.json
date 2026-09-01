@@ -1,0 +1,955 @@
+{
+  "level": 3,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Fire Response Using RACE Principles",
+      "stem": "On a rehabilitation unit, a staff member smells smoke near a patient room and sees a small electrical fire beginning at a portable warmer that had been brought in without proper approval. Several patients on the unit have mobility limitations, and one is receiving oxygen therapy nearby. The nurse must act rapidly to protect patients and staff while following institutional fire safety principles. Panic and delay could increase injury risk, especially for vulnerable patients who cannot evacuate independently.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features make this an immediate fire safety emergency? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Visible smoke and ignition source"
+            },
+            {
+              "id": "B",
+              "text": "Mobility-limited patients on the unit"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen therapy nearby"
+            },
+            {
+              "id": "D",
+              "text": "Unapproved electrical equipment"
+            },
+            {
+              "id": "E",
+              "text": "Need for rapid structured response"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these factors increase risk. Oxygen therapy and reduced patient mobility can make even a small fire much more dangerous."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The staff should wait to see if the smoke clears"
+            },
+            {
+              "id": "B",
+              "text": "The unit requires immediate structured fire response according to safety protocol"
+            },
+            {
+              "id": "C",
+              "text": "Only maintenance staff should respond"
+            },
+            {
+              "id": "D",
+              "text": "Fire safety is less urgent than finishing medication rounds"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Fire response requires immediate action according to protocol. Delay may place multiple patients at risk."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for smoke inhalation, burn injury, and rapid spread of harm to vulnerable patients"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Missed lunch break"
+            },
+            {
+              "id": "D",
+              "text": "Mild inconvenience"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The immediate concern is preventing injury and protecting vulnerable patients from smoke and fire."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Begin the RACE response by protecting patients in immediate danger, activating the alarm, and following the next protocol steps"
+            },
+            {
+              "id": "B",
+              "text": "Finish charting before responding"
+            },
+            {
+              "id": "C",
+              "text": "Leave patients in place until someone else arrives"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the small fire if it seems contained"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Fire response must be prompt and structured. RACE provides a clear priority sequence to protect patients and staff."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Move or protect those at greatest immediate risk first"
+            },
+            {
+              "id": "B",
+              "text": "Be aware of oxygen-related hazards near the fire area"
+            },
+            {
+              "id": "C",
+              "text": "Follow facility policy regarding containment and extinguisher use if appropriate and safe"
+            },
+            {
+              "id": "D",
+              "text": "Keep exits and evacuation routes clear"
+            },
+            {
+              "id": "E",
+              "text": "Assume mobility-limited patients can self-evacuate without assistance"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These are all correct. Nurses must consider who is least able to self-protect in an emergency."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective fire response?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Patients at immediate risk are protected, the alarm is activated, spread is limited, and evacuation or containment proceeds safely"
+            },
+            {
+              "id": "B",
+              "text": "Smoke spreads because staff hesitate and do nothing"
+            },
+            {
+              "id": "C",
+              "text": "Oxygen-dependent patients remain beside the fire source"
+            },
+            {
+              "id": "D",
+              "text": "Policy is ignored because the fire looks small"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective fire response is organised, fast, and focused on immediate patient protection."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Wrong-Patient Medication Near Miss",
+      "stem": "On a busy morning, two patients with similar surnames are assigned to adjacent beds. One is due for insulin and the other is due for an antihypertensive medication. A nurse approaches the bedside with medications prepared and is about to administer them after asking only, “Are you Mr. Taylor?” The patient nods, distracted by television. At the last moment, another nurse notices the chart in hand belongs to the other patient. The event is a near miss that highlights the critical role of two identifiers and medication verification.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which factors created wrong-patient medication risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Similar surnames in nearby beds"
+            },
+            {
+              "id": "B",
+              "text": "Only one verbal identifier used"
+            },
+            {
+              "id": "C",
+              "text": "Distracted patient response"
+            },
+            {
+              "id": "D",
+              "text": "Medications prepared before full bedside verification"
+            },
+            {
+              "id": "E",
+              "text": "Near miss detected just before administration"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these contributed to risk. Similar names and incomplete identifier use are classic medication safety traps."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient’s nod was enough confirmation"
+            },
+            {
+              "id": "B",
+              "text": "A serious wrong-patient medication near miss occurred and safe identifier practice failed"
+            },
+            {
+              "id": "C",
+              "text": "Near misses do not matter because no medication was given"
+            },
+            {
+              "id": "D",
+              "text": "Similar names are unavoidable and cannot be managed"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Near misses matter because they reveal unsafe systems or practice gaps before harm occurs. Two identifiers are essential."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for wrong-patient medication administration due to identification failure"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Delayed breakfast service"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Wrong-patient medication administration can cause significant harm and must be prevented through strict identification practices."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the process, verify identity using two approved identifiers, and restart medication administration safely"
+            },
+            {
+              "id": "B",
+              "text": "Give the medications because the patient already nodded"
+            },
+            {
+              "id": "C",
+              "text": "Ask the roommate to confirm identity"
+            },
+            {
+              "id": "D",
+              "text": "Chart the medications as administered to save time"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The near miss must be corrected immediately by proper patient verification. Roommates or nods are not acceptable identifiers."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Report the near miss according to policy"
+            },
+            {
+              "id": "B",
+              "text": "Reinforce unit practices for patients with similar names"
+            },
+            {
+              "id": "C",
+              "text": "Review the medication administration process for vulnerabilities"
+            },
+            {
+              "id": "D",
+              "text": "Document accurately and continue to use two identifiers every time"
+            },
+            {
+              "id": "E",
+              "text": "Assume that because no drug was given, no learning is needed"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Near misses are valuable safety data. They should be reported and used to improve process reliability."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The near miss is corrected before administration, reported appropriately, and safer identification practice is reinforced on the unit"
+            },
+            {
+              "id": "B",
+              "text": "Staff dismiss the event because no harm occurred"
+            },
+            {
+              "id": "C",
+              "text": "Similar-name safeguards are not reviewed"
+            },
+            {
+              "id": "D",
+              "text": "Single-identifier practice continues"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Safety culture depends on learning from near misses as well as actual errors."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Mandatory Reporting and Unsafe Practice by an Impaired Coworker",
+      "stem": "During an evening shift, a nurse notices that a coworker appears unusually drowsy, is slurring words slightly, and nearly gives medication to the wrong patient before being interrupted. Later, the same coworker struggles to calculate a simple dosage and asks to borrow someone else’s login to fix charting quickly. The observing nurse feels uneasy because the colleague is well liked and has recently gone through personal difficulties. However, patient safety may be at serious risk if impairment is affecting practice. The nurse must balance professionalism, reporting duty, and prevention of harm.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate a potential impaired-practice safety issue? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Slurred speech and drowsiness"
+            },
+            {
+              "id": "B",
+              "text": "Near wrong-patient medication administration"
+            },
+            {
+              "id": "C",
+              "text": "Difficulty with simple dosage calculation"
+            },
+            {
+              "id": "D",
+              "text": "Request to use someone else’s login"
+            },
+            {
+              "id": "E",
+              "text": "Repeated unsafe behaviour during the shift"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these findings suggest serious impairment or unsafe practice. The issue must be addressed because patient safety is at risk."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Personal problems mean the coworker should be left alone"
+            },
+            {
+              "id": "B",
+              "text": "The colleague may be impaired or unsafe to practice, requiring immediate reporting through proper channels"
+            },
+            {
+              "id": "C",
+              "text": "Friendship should outweigh safety concerns"
+            },
+            {
+              "id": "D",
+              "text": "Only the final error matters, not the pattern of near misses"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse’s duty is to protect patients. Reporting unsafe practice is an ethical and legal safety responsibility."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for patient harm due to unsafe clinical performance by an impaired coworker"
+            },
+            {
+              "id": "B",
+              "text": "Social discomfort between coworkers"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed work friendships"
+            },
+            {
+              "id": "D",
+              "text": "Shift scheduling problems"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Patient safety is the priority. Personal discomfort must not override professional duty."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Remove the immediate patient safety risk by reporting the concern to the appropriate supervisor promptly and factually"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the behaviour for one more shift"
+            },
+            {
+              "id": "C",
+              "text": "Cover up the errors to protect the coworker"
+            },
+            {
+              "id": "D",
+              "text": "Publicly shame the coworker in front of patients"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Unsafe practice requires prompt factual reporting through the correct chain of command. Public humiliation is not the appropriate response."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Document objective observations according to policy if required"
+            },
+            {
+              "id": "B",
+              "text": "Focus on patient safety rather than personal judgment about the coworker"
+            },
+            {
+              "id": "C",
+              "text": "Prevent unauthorized use of another staff member’s login"
+            },
+            {
+              "id": "D",
+              "text": "Cooperate with follow-up processes to protect patients"
+            },
+            {
+              "id": "E",
+              "text": "Assume near misses do not require action"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All of these support a professional safety response. Objective reporting is key; assumptions or gossip are not."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The unsafe practice concern is reported promptly, immediate patient risk is reduced, and the issue is handled through proper safety channels"
+            },
+            {
+              "id": "B",
+              "text": "The coworker continues making errors because no one wanted conflict"
+            },
+            {
+              "id": "C",
+              "text": "Staff share rumours instead of reporting appropriately"
+            },
+            {
+              "id": "D",
+              "text": "Login misuse continues unchecked"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective management protects patients and handles the issue through formal safety processes."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Disaster Triage in a Multi-Casualty Event",
+      "stem": "Following a bus collision, multiple injured patients arrive rapidly at a small emergency department. Resources are limited, and the triage nurse must make fast decisions. One adult is walking and crying with a bleeding arm wound, another is not breathing until repositioned, and a third is unconscious with severe head trauma and weak pulses. Several others have fractures and moderate pain. The nurse must apply mass-casualty triage principles rather than usual one-patient-at-a-time priorities. Safety, resource allocation, and rapid categorization are essential.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features are central in mass-casualty triage? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Limited resources compared with patient volume"
+            },
+            {
+              "id": "B",
+              "text": "Need to sort by survivability and urgency"
+            },
+            {
+              "id": "C",
+              "text": "Different prioritisation than standard bedside care"
+            },
+            {
+              "id": "D",
+              "text": "Walking wounded may be categorized differently"
+            },
+            {
+              "id": "E",
+              "text": "Airway opening response may rapidly change triage priority"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All these are true. Disaster triage requires rapid sorting based on urgency and likelihood of benefit from immediate intervention, not routine one-on-one care patterns."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Standard detailed full assessments should be completed on each patient before triage"
+            },
+            {
+              "id": "B",
+              "text": "Rapid triage frameworks such as START/SALT are needed to prioritise care safely in this setting"
+            },
+            {
+              "id": "C",
+              "text": "The loudest patient is always the highest priority"
+            },
+            {
+              "id": "D",
+              "text": "Only physicians can triage in disaster situations"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Mass-casualty situations require rapid, structured triage. The loudest or most visible patient is not always the sickest."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Need to rapidly allocate limited resources to maximize survival and prevent avoidable deaths"
+            },
+            {
+              "id": "B",
+              "text": "Ensuring everyone is seen in arrival order"
+            },
+            {
+              "id": "C",
+              "text": "Avoiding any emotional discomfort for staff"
+            },
+            {
+              "id": "D",
+              "text": "Providing full discharge teaching immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The purpose of disaster triage is to maximize safe and effective use of limited resources."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Begin rapid triage using approved disaster principles, identifying who can walk, who needs immediate airway/life-saving attention, and who can wait briefly"
+            },
+            {
+              "id": "B",
+              "text": "Perform a full medication reconciliation on the first patient"
+            },
+            {
+              "id": "C",
+              "text": "Treat the bleeding arm wound first because it is obvious"
+            },
+            {
+              "id": "D",
+              "text": "Delay triage until every chart is prepared"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Rapid categorisation comes first. Disaster response requires concise, lifesaving prioritisation rather than full routine assessment."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess triage categories as patient condition changes"
+            },
+            {
+              "id": "B",
+              "text": "Communicate clearly with the team using the chosen triage framework"
+            },
+            {
+              "id": "C",
+              "text": "Keep safety and scene organization in mind"
+            },
+            {
+              "id": "D",
+              "text": "Direct ambulatory patients to a designated safer area if appropriate"
+            },
+            {
+              "id": "E",
+              "text": "Assume triage labels never need updating"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Disaster triage is dynamic. Patients may worsen or improve, so reassessment is important."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective triage management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Patients are sorted rapidly and logically, the most salvageable critical cases receive immediate attention, and team coordination remains organized"
+            },
+            {
+              "id": "B",
+              "text": "All patients are treated strictly by arrival order"
+            },
+            {
+              "id": "C",
+              "text": "No one is reassessed after initial labeling"
+            },
+            {
+              "id": "D",
+              "text": "Staff spend too long on one moderate injury while critical cases wait"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective disaster triage balances speed, organization, and lifesaving prioritisation."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Early Sepsis Recognition and Escalation",
+      "stem": "Mr. Aaron Matthews, a 61-year-old patient with pneumonia, initially appears stable on the ward. Over several hours, the nurse notices subtle changes: increasing confusion, respiratory rate 28, temperature 38.9 C, heart rate 124, blood pressure falling from baseline, and urine output lower than expected. Family members say, “He seems more confused than this morning.” The nurse realises that infection may be progressing toward sepsis. Early recognition and escalation are vital because delaying action can rapidly increase morbidity and mortality.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest possible sepsis progression? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fever"
+            },
+            {
+              "id": "B",
+              "text": "Tachycardia and tachypnoea"
+            },
+            {
+              "id": "C",
+              "text": "New confusion"
+            },
+            {
+              "id": "D",
+              "text": "Decreasing blood pressure from baseline"
+            },
+            {
+              "id": "E",
+              "text": "Reduced urine output"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these are important sepsis warning signs. New confusion and low urine output often indicate worsening perfusion and organ dysfunction."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is just tired from pneumonia"
+            },
+            {
+              "id": "B",
+              "text": "The patient may be progressing to sepsis and requires urgent reassessment and escalation"
+            },
+            {
+              "id": "C",
+              "text": "Confusion is unrelated to infection"
+            },
+            {
+              "id": "D",
+              "text": "Vital sign changes should be ignored until the next round"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The pattern is concerning for sepsis, not routine fatigue. NCLEX safety questions heavily test early recognition of deterioration."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for impaired tissue perfusion and organ dysfunction related to sepsis"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Nutrition knowledge deficit"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Sepsis threatens multiple organ systems. Early intervention is essential to prevent shock and failure."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escalate urgently, reassess the patient comprehensively, and prepare for sepsis-related interventions according to protocol"
+            },
+            {
+              "id": "B",
+              "text": "Wait to see if the confusion resolves spontaneously"
+            },
+            {
+              "id": "C",
+              "text": "Focus only on reducing fever with comfort measures"
+            },
+            {
+              "id": "D",
+              "text": "Delay reporting until the next doctor round"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse should respond to the trend immediately. Sepsis care is time-sensitive and requires urgent action."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor blood pressure, urine output, and mental status closely"
+            },
+            {
+              "id": "B",
+              "text": "Prepare for cultures, fluids, and timely antimicrobial-related steps as ordered or protocol-based"
+            },
+            {
+              "id": "C",
+              "text": "Communicate the trend clearly using structured handover"
+            },
+            {
+              "id": "D",
+              "text": "Continue watching for worsening respiratory distress"
+            },
+            {
+              "id": "E",
+              "text": "Assume confusion is unimportant if the fever is treated"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "All these actions are appropriate. Confusion is an important sign of deterioration and should never be dismissed."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sepsis concern is escalated early, treatment begins promptly, and perfusion/mental status trends are followed closely"
+            },
+            {
+              "id": "B",
+              "text": "Hypotension worsens because signs were not reported"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring is reduced after one intervention"
+            },
+            {
+              "id": "D",
+              "text": "Urine output continues falling with no reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Effective sepsis management depends on early recognition, rapid escalation, and continuous reassessment."
+        }
+      ]
+    }
+  ]
+}

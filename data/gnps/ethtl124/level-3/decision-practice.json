@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Specimen collection",
+      "scenario": "You are required to collect a urine specimen for laboratory testing. The patient looks unsure and asks how they are supposed to collect the sample correctly.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Explain collection technique.",
+      "modelWhy": "Ensures accurate results.",
+      "modelNext": "Label specimen correctly.",
+      "trap": "",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Mobility assistance",
+      "scenario": "A post-operative patient asks to get out of bed and walk for the first time since surgery. They look eager but slightly unsteady when sitting at the edge of the bed.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Assess strength and dizziness.",
+      "modelWhy": "Prevents falls.",
+      "modelNext": "Use assistive devices.",
+      "trap": "",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Intake and output recording",
+      "scenario": "While reviewing the patient’s intake and output chart, you notice the totals do not match the fluids that were administered. Some entries appear incomplete or unclear.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Review and correct documentation.",
+      "modelWhy": "Accurate records guide treatment.",
+      "modelNext": "Clarify with team.",
+      "trap": "",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Personal protective equipment",
+      "scenario": "You are about to perform a wound care procedure. Gloves, gown, and other PPE are available nearby. The patient is watching as you prepare.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Apply appropriate PPE.",
+      "modelWhy": "Protects patient and nurse.",
+      "modelNext": "Dispose PPE correctly.",
+      "trap": "",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Temperature measurement",
+      "scenario": "The patient reports feeling cold and unwell, but their oral temperature reading is within normal limits. The patient insists they “don’t feel right.”",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Recheck temperature using appropriate method.",
+      "modelWhy": "Different sites yield different results.",
+      "modelNext": "Assess trends.",
+      "trap": "",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Bedside handover",
+      "scenario": "You are giving bedside handover to the incoming nurse. The patient is present and listening. Family members are nearby, and sensitive information may need to be shared.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Ensure patient involvement and privacy.",
+      "modelWhy": "Promotes safety and transparency.",
+      "modelNext": "Confirm key information.",
+      "trap": "",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Equipment malfunction",
+      "scenario": "An infusion pump begins to alarm unexpectedly while medication is running. The patient looks concerned and asks if something is wrong.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop and assess equipment.",
+      "modelWhy": "Prevents dosing errors.",
+      "modelNext": "Troubleshoot or replace.",
+      "trap": "",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Patient education",
+      "scenario": "As discharge approaches, the patient appears confused about their instructions. They ask repeated questions and seem unsure about medications and follow-up care.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Reinforce teaching using simple language.",
+      "modelWhy": "Understanding improves outcomes.",
+      "modelNext": "Use teach-back method.",
+      "trap": "",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

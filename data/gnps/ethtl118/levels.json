@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL118",
+  "programTitle": "Caring for Adults with Confidence",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Assess adults with common medical–surgical conditions and deliver safe priority-based nursing care.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Apply international adult med–surg standards with clinical judgment across complex presentations.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead adult care systems, quality improvement and global med–surg nursing excellence.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

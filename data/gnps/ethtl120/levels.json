@@ -1,0 +1,27 @@
+{
+  "courseCode": "ETHTL120",
+  "programTitle": "Mother and Newborn Care",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Qualified Nurse",
+      "blurb": "Support healthy pregnancy, safe birth, postnatal recovery and newborn adaptation.",
+      "pagePrefix": "gnps-l1"
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "International Qualified Nurse",
+      "blurb": "Manage high-risk pregnancy, obstetric emergencies and high-risk newborns with family-centred care.",
+      "pagePrefix": "gnps-l2"
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Global Nurse Professional",
+      "blurb": "Lead respectful maternity services, safety systems and global maternal-newborn improvement.",
+      "pagePrefix": "gnps-l3"
+    }
+  ]
+}

@@ -1,0 +1,1925 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A newly qualified nurse is asked to perform an unfamiliar central-line procedure without supervision. What is the most professional response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain the limitation, seek guidance and arrange supervised practice before proceeding."
+        },
+        {
+          "id": "B",
+          "text": "Attempt the procedure to avoid appearing inexperienced."
+        },
+        {
+          "id": "C",
+          "text": "Ask another junior nurse to help."
+        },
+        {
+          "id": "D",
+          "text": "Refuse all future central-line care."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional accountability includes recognising limits and seeking appropriate preparation and supervision before patient safety is compromised."
+    },
+    {
+      "id": "q2",
+      "stem": "Which statement best distinguishes responsibility from accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Responsibility and accountability are identical."
+        },
+        {
+          "id": "B",
+          "text": "Responsibility concerns accepted duties, while accountability means being answerable for decisions and outcomes."
+        },
+        {
+          "id": "C",
+          "text": "Accountability applies only to managers."
+        },
+        {
+          "id": "D",
+          "text": "Responsibility ends when a task is delegated."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The notes distinguish duties accepted within a role from being answerable for decisions and outcomes."
+    },
+    {
+      "id": "q3",
+      "stem": "A nurse follows a senior clinician's instruction that appears unsafe. Which principle applies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Following instructions removes personal accountability."
+        },
+        {
+          "id": "B",
+          "text": "Only the prescriber is responsible."
+        },
+        {
+          "id": "C",
+          "text": "The nurse must respectfully question the instruction and escalate if required."
+        },
+        {
+          "id": "D",
+          "text": "The nurse should act first and document concern later."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Following an instruction does not remove the nurse's duty to question unsafe care."
+    },
+    {
+      "id": "q4",
+      "stem": "Which factor most directly defines a nurse's scope of practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Personal confidence alone."
+        },
+        {
+          "id": "B",
+          "text": "Years of service only."
+        },
+        {
+          "id": "C",
+          "text": "The preferences of the shift coordinator."
+        },
+        {
+          "id": "D",
+          "text": "Law, registration, education, competence and workplace policy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Scope is shaped by legal, regulatory, educational, competency and organisational requirements."
+    },
+    {
+      "id": "q5",
+      "stem": "A patient offers the nurse an expensive gift after discharge. What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decline respectfully and explain professional boundaries."
+        },
+        {
+          "id": "B",
+          "text": "Accept it because the therapeutic relationship has ended."
+        },
+        {
+          "id": "C",
+          "text": "Accept it privately."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to decide."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Financial or dual relationships may create exploitation, favouritism or loss of objectivity."
+    },
+    {
+      "id": "q6",
+      "stem": "Which action best demonstrates the nurse's advocacy role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Making decisions for the patient."
+        },
+        {
+          "id": "B",
+          "text": "Speaking up when a patient's expressed preferences are being overlooked."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding disagreement with the team."
+        },
+        {
+          "id": "D",
+          "text": "Sharing confidential information with family."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Advocacy involves supporting patient rights, preferences and safety."
+    },
+    {
+      "id": "q7",
+      "stem": "A nurse is uncertain whether a task is authorised within local policy. What should happen first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proceed if the task seems simple."
+        },
+        {
+          "id": "B",
+          "text": "Ask the patient for permission."
+        },
+        {
+          "id": "C",
+          "text": "Check policy and seek senior guidance before acting."
+        },
+        {
+          "id": "D",
+          "text": "Delegate it to an assistant."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional practice requires verification of scope and policy before performing unfamiliar or potentially unauthorised work."
+    },
+    {
+      "id": "q8",
+      "stem": "A nurse begins sharing personal relationship problems with a patient who offers emotional support. What is the primary concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The discussion improves trust."
+        },
+        {
+          "id": "B",
+          "text": "The patient may become more independent."
+        },
+        {
+          "id": "C",
+          "text": "Documentation may become incomplete."
+        },
+        {
+          "id": "D",
+          "text": "The therapeutic relationship is shifting toward a personal dual relationship."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The relationship exists to meet the patient's needs, not the nurse's personal needs."
+    },
+    {
+      "id": "q9",
+      "stem": "Which outcome best indicates professional accountability?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse recognises limits, makes safe decisions, documents care and accepts responsibility for outcomes."
+        },
+        {
+          "id": "B",
+          "text": "The nurse completes assigned tasks quickly."
+        },
+        {
+          "id": "C",
+          "text": "The nurse follows every instruction without question."
+        },
+        {
+          "id": "D",
+          "text": "The nurse avoids complex patients."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Accountability is demonstrated through safe judgement, transparent practice and ownership of decisions."
+    },
+    {
+      "id": "q10",
+      "stem": "A nurse notices that a colleague repeatedly performs a procedure without required competency assessment. What is the best action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it because the colleague is experienced."
+        },
+        {
+          "id": "B",
+          "text": "Raise the concern through the appropriate safety and escalation process."
+        },
+        {
+          "id": "C",
+          "text": "Discuss it with patients."
+        },
+        {
+          "id": "D",
+          "text": "Wait until harm occurs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Professional accountability includes acting when unsafe practice is observed."
+    },
+    {
+      "id": "q11",
+      "stem": "Which professional role is demonstrated when a nurse explains a new medicine and checks understanding?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coordinator."
+        },
+        {
+          "id": "B",
+          "text": "Advocate only."
+        },
+        {
+          "id": "C",
+          "text": "Educator."
+        },
+        {
+          "id": "D",
+          "text": "Auditor."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Education is a core professional nursing role."
+    },
+    {
+      "id": "q12",
+      "stem": "A nurse delegates a task and assumes accountability has transferred completely. Why is this incorrect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delegation is never allowed."
+        },
+        {
+          "id": "B",
+          "text": "Only managers may delegate."
+        },
+        {
+          "id": "C",
+          "text": "Accountability belongs to the patient."
+        },
+        {
+          "id": "D",
+          "text": "Delegation transfers performance of the task, not the nurse's accountability for appropriate delegation and follow-up."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "The delegating nurse remains accountable for assessing the task, person and outcome."
+    },
+    {
+      "id": "q13",
+      "stem": "Which action is most likely to damage public trust?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiding an error and altering the record."
+        },
+        {
+          "id": "B",
+          "text": "Seeking help when unsure."
+        },
+        {
+          "id": "C",
+          "text": "Questioning an unsafe order."
+        },
+        {
+          "id": "D",
+          "text": "Declining an inappropriate gift."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Dishonesty and deceptive documentation undermine patient safety and public trust."
+    },
+    {
+      "id": "q14",
+      "stem": "A nurse receives a social-media request from a current patient. What is the safest response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept but avoid discussing care."
+        },
+        {
+          "id": "B",
+          "text": "Decline and maintain the professional relationship through approved channels."
+        },
+        {
+          "id": "C",
+          "text": "Accept after discharge automatically."
+        },
+        {
+          "id": "D",
+          "text": "Use a private account."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Social-media contact can blur boundaries and create confidentiality risks."
+    },
+    {
+      "id": "q15",
+      "stem": "A nurse feels emotionally overinvolved with one patient. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continue because the patient benefits."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient about the feelings."
+        },
+        {
+          "id": "C",
+          "text": "Reflect, seek supervision and restore consistent boundaries."
+        },
+        {
+          "id": "D",
+          "text": "Avoid all contact immediately."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Self-awareness and supervision support safe boundaries."
+    },
+    {
+      "id": "q16",
+      "stem": "Which behaviour best reflects professional identity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Technical skill without communication."
+        },
+        {
+          "id": "B",
+          "text": "Following routines without reflection."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding advocacy."
+        },
+        {
+          "id": "D",
+          "text": "Consistent knowledge, respectful conduct, sound judgement and responsibility."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional identity is expressed through knowledge, conduct, communication and responsibility."
+    },
+    {
+      "id": "q17",
+      "stem": "A nurse is asked to work beyond competence during a staffing shortage. What is the most appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain the concern and seek safe allocation, supervision or support."
+        },
+        {
+          "id": "B",
+          "text": "Accept because staffing pressure changes scope."
+        },
+        {
+          "id": "C",
+          "text": "Leave the workplace immediately."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to consent to the risk."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Workload pressure does not remove professional scope and competence requirements."
+    },
+    {
+      "id": "q18",
+      "stem": "Which situation is a dual relationship?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A nurse provides routine education."
+        },
+        {
+          "id": "B",
+          "text": "A nurse enters a business partnership with a current patient."
+        },
+        {
+          "id": "C",
+          "text": "A nurse advocates during discharge planning."
+        },
+        {
+          "id": "D",
+          "text": "A nurse discusses care in handover."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Business, financial or personal relationships alongside care can compromise objectivity."
+    },
+    {
+      "id": "q19",
+      "stem": "A professional nurse receives constructive feedback about communication. What is the best response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reject it because no complaint was made."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the colleague."
+        },
+        {
+          "id": "C",
+          "text": "Reflect on the feedback and identify a practical improvement."
+        },
+        {
+          "id": "D",
+          "text": "Document disagreement."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professionalism includes reflection and willingness to improve."
+    },
+    {
+      "id": "q20",
+      "stem": "Which outcome best reflects professional nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse performs tasks independently."
+        },
+        {
+          "id": "B",
+          "text": "The nurse avoids all risk."
+        },
+        {
+          "id": "C",
+          "text": "The nurse relies on senior staff for decisions."
+        },
+        {
+          "id": "D",
+          "text": "The nurse combines competence, accountability, respectful communication and clear boundaries in everyday care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professionalism is shown consistently through everyday behaviour and judgement. Section 2 - Ethical Principles and Patient Rights"
+    },
+    {
+      "id": "q21",
+      "stem": "A competent patient refuses a blood transfusion for deeply held beliefs. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirm understanding, communicate the refusal and advocate for alternative management."
+        },
+        {
+          "id": "B",
+          "text": "Pressure the patient to accept because the treatment may save life."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to override the decision."
+        },
+        {
+          "id": "D",
+          "text": "Document refusal without further discussion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Autonomy includes the right of a capable person to refuse treatment after receiving adequate information."
+    },
+    {
+      "id": "q22",
+      "stem": "Which ethical principle is most directly involved when a nurse promotes a patient's wellbeing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justice."
+        },
+        {
+          "id": "B",
+          "text": "Beneficence."
+        },
+        {
+          "id": "C",
+          "text": "Veracity."
+        },
+        {
+          "id": "D",
+          "text": "Fidelity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Beneficence means promoting good."
+    },
+    {
+      "id": "q23",
+      "stem": "Which principle requires the nurse to avoid or minimise harm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autonomy."
+        },
+        {
+          "id": "B",
+          "text": "Fidelity."
+        },
+        {
+          "id": "C",
+          "text": "Nonmaleficence."
+        },
+        {
+          "id": "D",
+          "text": "Justice."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Nonmaleficence concerns avoiding or reducing harm."
+    },
+    {
+      "id": "q24",
+      "stem": "A ward has one remaining monitored bed and two patients may benefit. Which principle is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fidelity."
+        },
+        {
+          "id": "B",
+          "text": "Veracity."
+        },
+        {
+          "id": "C",
+          "text": "Privacy."
+        },
+        {
+          "id": "D",
+          "text": "Justice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Justice concerns fairness and appropriate distribution of resources."
+    },
+    {
+      "id": "q25",
+      "stem": "A nurse tells a patient, 'The procedure will not hurt,' despite knowing discomfort is likely. Which principle is breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Veracity."
+        },
+        {
+          "id": "B",
+          "text": "Beneficence."
+        },
+        {
+          "id": "C",
+          "text": "Justice."
+        },
+        {
+          "id": "D",
+          "text": "Autonomy only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Veracity requires honesty; false reassurance weakens trust."
+    },
+    {
+      "id": "q26",
+      "stem": "Which action best demonstrates fidelity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giving priority to a preferred patient."
+        },
+        {
+          "id": "B",
+          "text": "Keeping a professional commitment to return with information."
+        },
+        {
+          "id": "C",
+          "text": "Withholding difficult information."
+        },
+        {
+          "id": "D",
+          "text": "Making a decision without consent."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Fidelity involves keeping professional promises and commitments."
+    },
+    {
+      "id": "q27",
+      "stem": "A treatment offers benefit but also significant burden. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus only on benefit."
+        },
+        {
+          "id": "B",
+          "text": "Decide for the patient."
+        },
+        {
+          "id": "C",
+          "text": "Support discussion of benefits, risks, burdens and the patient's preferences."
+        },
+        {
+          "id": "D",
+          "text": "Avoid the conversation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Ethical reasoning balances beneficence, nonmaleficence and autonomy."
+    },
+    {
+      "id": "q28",
+      "stem": "A patient with capacity chooses an option the team considers unwise. What is the nurse's responsibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the decision with the safest option."
+        },
+        {
+          "id": "B",
+          "text": "Ask family to decide."
+        },
+        {
+          "id": "C",
+          "text": "Question the patient's competence because the choice differs from professional advice."
+        },
+        {
+          "id": "D",
+          "text": "Respect the informed decision while ensuring the patient understands consequences."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Autonomy includes decisions professionals may not prefer."
+    },
+    {
+      "id": "q29",
+      "stem": "Which response best preserves dignity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explaining care, providing privacy and involving the patient respectfully."
+        },
+        {
+          "id": "B",
+          "text": "Discussing intimate care in a public corridor."
+        },
+        {
+          "id": "C",
+          "text": "Completing care quickly without explanation."
+        },
+        {
+          "id": "D",
+          "text": "Using humour about the patient's condition."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Dignity requires privacy, respect and participation."
+    },
+    {
+      "id": "q30",
+      "stem": "A nurse notices that patients from one language group receive less detailed education. Which principle is most relevant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fidelity."
+        },
+        {
+          "id": "B",
+          "text": "Justice."
+        },
+        {
+          "id": "C",
+          "text": "Nonmaleficence only."
+        },
+        {
+          "id": "D",
+          "text": "Professional boundaries."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Unequal access to information raises a fairness and justice concern."
+    },
+    {
+      "id": "q31",
+      "stem": "A patient asks directly about a serious diagnosis that has not yet been discussed by the medical team. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide inaccurate reassurance."
+        },
+        {
+          "id": "B",
+          "text": "Avoid the patient."
+        },
+        {
+          "id": "C",
+          "text": "Respond honestly within role and arrange appropriate discussion with the responsible clinician."
+        },
+        {
+          "id": "D",
+          "text": "Tell the family instead."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Veracity and role clarity require truthful, appropriate communication."
+    },
+    {
+      "id": "q32",
+      "stem": "Which action violates autonomy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing treatment options."
+        },
+        {
+          "id": "B",
+          "text": "Checking understanding."
+        },
+        {
+          "id": "C",
+          "text": "Respecting refusal."
+        },
+        {
+          "id": "D",
+          "text": "Coercing a capable patient into accepting care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Coercion undermines voluntary choice."
+    },
+    {
+      "id": "q33",
+      "stem": "Two ethical principles conflict during a complex decision. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seek structured discussion, senior advice and appropriate ethics support."
+        },
+        {
+          "id": "B",
+          "text": "Choose the principle preferred personally."
+        },
+        {
+          "id": "C",
+          "text": "Avoid documenting the issue."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to resolve it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "When principles conflict, nurses should seek help and use structured reasoning."
+    },
+    {
+      "id": "q34",
+      "stem": "A nurse advocates for equal pain treatment regardless of a patient's background. Which principle is being applied?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Veracity."
+        },
+        {
+          "id": "B",
+          "text": "Justice."
+        },
+        {
+          "id": "C",
+          "text": "Fidelity."
+        },
+        {
+          "id": "D",
+          "text": "Autonomy only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Justice requires fairness and equal respect."
+    },
+    {
+      "id": "q35",
+      "stem": "Which statement best reflects nonmaleficence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Always avoid every treatment risk."
+        },
+        {
+          "id": "B",
+          "text": "Follow patient wishes without discussing harm."
+        },
+        {
+          "id": "C",
+          "text": "Minimise avoidable harm while recognising that some treatments carry justified risk."
+        },
+        {
+          "id": "D",
+          "text": "Provide care only when benefit is guaranteed."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Nonmaleficence requires minimising harm, not eliminating all risk."
+    },
+    {
+      "id": "q36",
+      "stem": "A nurse hides a medication error to protect a colleague. Which ethical duties are breached?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justice only."
+        },
+        {
+          "id": "B",
+          "text": "Autonomy only."
+        },
+        {
+          "id": "C",
+          "text": "Privacy only."
+        },
+        {
+          "id": "D",
+          "text": "Fidelity and veracity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Hiding the error breaches honesty and professional commitment to safe care."
+    },
+    {
+      "id": "q37",
+      "stem": "A patient requests information in plain language. What is the ethical basis for providing it?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autonomy and informed choice."
+        },
+        {
+          "id": "B",
+          "text": "Fidelity only."
+        },
+        {
+          "id": "C",
+          "text": "Justice only."
+        },
+        {
+          "id": "D",
+          "text": "Professional loyalty."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "People need understandable information to make autonomous decisions."
+    },
+    {
+      "id": "q38",
+      "stem": "A nurse allocates extra time to a very anxious patient while ensuring other patients remain safe. Which ethical reasoning is being used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignoring justice."
+        },
+        {
+          "id": "B",
+          "text": "Balancing beneficence and justice."
+        },
+        {
+          "id": "C",
+          "text": "Applying veracity."
+        },
+        {
+          "id": "D",
+          "text": "Maintaining boundaries only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "The nurse is balancing individual benefit with fair distribution of care."
+    },
+    {
+      "id": "q39",
+      "stem": "Which outcome best demonstrates ethical nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse follows policy without considering the patient."
+        },
+        {
+          "id": "B",
+          "text": "The nurse avoids all disagreement."
+        },
+        {
+          "id": "C",
+          "text": "The nurse uses ethical principles to protect dignity, choice, fairness and safety."
+        },
+        {
+          "id": "D",
+          "text": "The nurse gives identical care in every situation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Ethical practice requires thoughtful application of principles to individual care."
+    },
+    {
+      "id": "q40",
+      "stem": "A patient refuses treatment after receiving understandable information. What should the nurse document?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only that the patient was non-compliant."
+        },
+        {
+          "id": "B",
+          "text": "The nurse's opinion of the decision."
+        },
+        {
+          "id": "C",
+          "text": "Nothing, because refusal is the patient's right."
+        },
+        {
+          "id": "D",
+          "text": "The information provided, the patient's understanding and decision, concerns explored and who was informed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clear documentation supports autonomy, continuity and accountability. Section 3 - Consent, Confidentiality and Documentation"
+    },
+    {
+      "id": "q41",
+      "stem": "Which elements are required for valid informed consent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Capacity, adequate information and voluntariness."
+        },
+        {
+          "id": "B",
+          "text": "A signature only."
+        },
+        {
+          "id": "C",
+          "text": "Family agreement and payment."
+        },
+        {
+          "id": "D",
+          "text": "Medical recommendation only."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Valid consent requires capacity, sufficient information and freedom from coercion."
+    },
+    {
+      "id": "q42",
+      "stem": "A patient says they no longer wish to proceed after signing a consent form. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain that the signature cannot be withdrawn."
+        },
+        {
+          "id": "B",
+          "text": "Stop and notify the appropriate clinician because consent may be withdrawn."
+        },
+        {
+          "id": "C",
+          "text": "Ask the family to persuade the patient."
+        },
+        {
+          "id": "D",
+          "text": "Proceed if preparations are complete."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Consent is an ongoing process and may be withdrawn."
+    },
+    {
+      "id": "q43",
+      "stem": "A relative phones asking for test results, but the nurse cannot verify authority. What is the correct response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide general results only."
+        },
+        {
+          "id": "B",
+          "text": "Ask the caller to identify the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "Do not disclose information and follow the authorised communication process."
+        },
+        {
+          "id": "D",
+          "text": "Send results by text message."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Information should be shared only with appropriate authority."
+    },
+    {
+      "id": "q44",
+      "stem": "Which action is a confidentiality breach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discussing care privately with the treating team."
+        },
+        {
+          "id": "B",
+          "text": "Using approved secure systems."
+        },
+        {
+          "id": "C",
+          "text": "Confirming identity before disclosure."
+        },
+        {
+          "id": "D",
+          "text": "Talking about a patient's condition in a public lift."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Public conversations can expose private information."
+    },
+    {
+      "id": "q45",
+      "stem": "A nurse writes, 'Patient was rude and difficult.' How should this be improved?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace it with objective behaviour and direct statements."
+        },
+        {
+          "id": "B",
+          "text": "Add more descriptive labels."
+        },
+        {
+          "id": "C",
+          "text": "Delete the entry."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse to write it."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Documentation should be factual rather than judgemental."
+    },
+    {
+      "id": "q46",
+      "stem": "When should medication administration be documented?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Before giving the medicine."
+        },
+        {
+          "id": "B",
+          "text": "After the medicine has actually been administered."
+        },
+        {
+          "id": "C",
+          "text": "At the end of the week."
+        },
+        {
+          "id": "D",
+          "text": "Only when an error occurs."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Records should reflect actual care and should not be completed in advance."
+    },
+    {
+      "id": "q47",
+      "stem": "A nurse forgets to document an assessment completed earlier. What is the safest action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insert the note at the earlier time without explanation."
+        },
+        {
+          "id": "B",
+          "text": "Ask a colleague to document it."
+        },
+        {
+          "id": "C",
+          "text": "Make a clearly identified late entry according to policy."
+        },
+        {
+          "id": "D",
+          "text": "Leave the record incomplete."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Late entries should be transparent and attributable."
+    },
+    {
+      "id": "q48",
+      "stem": "Which record best supports continuity of care?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A brief statement that the patient is stable."
+        },
+        {
+          "id": "B",
+          "text": "Only the diagnosis."
+        },
+        {
+          "id": "C",
+          "text": "The nurse's personal opinion."
+        },
+        {
+          "id": "D",
+          "text": "Assessment findings, action taken, patient response and escalation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Records should show assessment, action, response and escalation."
+    },
+    {
+      "id": "q49",
+      "stem": "A nurse posts a de-identified clinical story on social media, but colleagues can recognise the patient. What is the concern?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confidentiality may still be breached through identifiable details."
+        },
+        {
+          "id": "B",
+          "text": "There is no breach if the name is omitted."
+        },
+        {
+          "id": "C",
+          "text": "Social media is acceptable after discharge."
+        },
+        {
+          "id": "D",
+          "text": "Only photographs create a breach."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Removing a name does not guarantee anonymity."
+    },
+    {
+      "id": "q50",
+      "stem": "A patient with capacity refuses a medicine. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hide it in food."
+        },
+        {
+          "id": "B",
+          "text": "Explore concerns, confirm understanding, notify the appropriate clinician and document the refusal."
+        },
+        {
+          "id": "C",
+          "text": "Ask family to consent."
+        },
+        {
+          "id": "D",
+          "text": "Record the medicine as given."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "A capable patient may refuse treatment, and the nurse should respond without coercion."
+    },
+    {
+      "id": "q51",
+      "stem": "Which action is outside the nurse's role when witnessing consent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirming the identity and witnessing the signature."
+        },
+        {
+          "id": "B",
+          "text": "Checking that the patient appears willing."
+        },
+        {
+          "id": "C",
+          "text": "Providing a complex procedural explanation beyond competence or authority."
+        },
+        {
+          "id": "D",
+          "text": "Raising concerns about understanding."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Nurses should not provide explanations outside their role."
+    },
+    {
+      "id": "q52",
+      "stem": "A patient lacks capacity for a particular decision. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the patient lacks capacity for all decisions."
+        },
+        {
+          "id": "B",
+          "text": "Ask any relative to decide."
+        },
+        {
+          "id": "C",
+          "text": "Proceed without documentation."
+        },
+        {
+          "id": "D",
+          "text": "Follow the local legal and organisational process for substitute decision-making."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Capacity is decision-specific, and lawful processes must be followed."
+    },
+    {
+      "id": "q53",
+      "stem": "Which documentation practice is unacceptable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deleting or altering an entry to hide a mistake."
+        },
+        {
+          "id": "B",
+          "text": "Correcting an error transparently according to policy."
+        },
+        {
+          "id": "C",
+          "text": "Using date, time and signature."
+        },
+        {
+          "id": "D",
+          "text": "Recording escalation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Deceptive alteration of records is unsafe and unprofessional."
+    },
+    {
+      "id": "q54",
+      "stem": "A nurse receives confidential information unrelated to their patient's care. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Access the record out of curiosity."
+        },
+        {
+          "id": "B",
+          "text": "Avoid access because there is no legitimate care purpose."
+        },
+        {
+          "id": "C",
+          "text": "Discuss it with colleagues."
+        },
+        {
+          "id": "D",
+          "text": "Save a copy for future reference."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Information should be accessed only for legitimate care purposes."
+    },
+    {
+      "id": "q55",
+      "stem": "A patient asks why information must be shared with another treating professional. What is the best explanation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All staff may access any information."
+        },
+        {
+          "id": "B",
+          "text": "Confidentiality does not apply in hospitals."
+        },
+        {
+          "id": "C",
+          "text": "Relevant information is shared for legitimate care purposes to support safe treatment."
+        },
+        {
+          "id": "D",
+          "text": "The patient cannot object."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Necessary care-related sharing should be limited and explained."
+    },
+    {
+      "id": "q56",
+      "stem": "A student nurse asks to photograph a wound on a personal phone for learning. What should the supervising nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow it if the patient's face is excluded."
+        },
+        {
+          "id": "B",
+          "text": "Allow it after verbal consent."
+        },
+        {
+          "id": "C",
+          "text": "Ask the student to delete it later."
+        },
+        {
+          "id": "D",
+          "text": "Decline and use approved organisational processes only."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Personal devices create confidentiality and governance risks."
+    },
+    {
+      "id": "q57",
+      "stem": "Which entry is most objective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Patient remained in bed and declined mobilisation after education was provided.'"
+        },
+        {
+          "id": "B",
+          "text": "'Patient is lazy.'"
+        },
+        {
+          "id": "C",
+          "text": "'Patient has a bad attitude.'"
+        },
+        {
+          "id": "D",
+          "text": "'Patient is uncooperative.'"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Objective records describe observable behaviour and actions."
+    },
+    {
+      "id": "q58",
+      "stem": "A nurse discovers that another person has entered information under the nurse's login. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it if the information is accurate."
+        },
+        {
+          "id": "B",
+          "text": "Report the security and documentation breach immediately."
+        },
+        {
+          "id": "C",
+          "text": "Share the password more carefully next time."
+        },
+        {
+          "id": "D",
+          "text": "Delete the entry without reporting."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Records must be attributable and secure."
+    },
+    {
+      "id": "q59",
+      "stem": "Which outcome best reflects lawful and professional documentation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The record is lengthy."
+        },
+        {
+          "id": "B",
+          "text": "The record protects the nurse from criticism."
+        },
+        {
+          "id": "C",
+          "text": "The record is timely, accurate, factual, attributable and shows care and response."
+        },
+        {
+          "id": "D",
+          "text": "The record uses technical language."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "These are the core characteristics identified in the notes."
+    },
+    {
+      "id": "q60",
+      "stem": "Which outcome best demonstrates safe consent and confidentiality practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The patient signs all forms."
+        },
+        {
+          "id": "B",
+          "text": "Family members receive all information."
+        },
+        {
+          "id": "C",
+          "text": "Documentation is minimal."
+        },
+        {
+          "id": "D",
+          "text": "Consent is informed and voluntary, refusals are respected and information is shared only with authority."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe practice protects both patient choice and privacy. Section 4 - Professional Communication, Delegation and Reflection"
+    },
+    {
+      "id": "q61",
+      "stem": "A registered nurse delegates routine observations for a stable patient to a trained assistant. What must the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide clear instructions, parameters and follow-up, then review the results."
+        },
+        {
+          "id": "B",
+          "text": "Transfer all accountability."
+        },
+        {
+          "id": "C",
+          "text": "Ask the assistant to interpret deterioration."
+        },
+        {
+          "id": "D",
+          "text": "Avoid reassessment unless asked."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Safe delegation requires direction, supervision and evaluation."
+    },
+    {
+      "id": "q62",
+      "stem": "Which task should generally remain with the registered nurse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Routine bed making."
+        },
+        {
+          "id": "B",
+          "text": "Clinical assessment and judgement."
+        },
+        {
+          "id": "C",
+          "text": "Transporting equipment."
+        },
+        {
+          "id": "D",
+          "text": "Recording fluid intake."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Assessment, clinical judgement, teaching and evaluation generally remain with the RN."
+    },
+    {
+      "id": "q63",
+      "stem": "An assistant reports that a patient's blood pressure has fallen significantly. What should the registered nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the assistant to repeat it next hour."
+        },
+        {
+          "id": "B",
+          "text": "Document the report only."
+        },
+        {
+          "id": "C",
+          "text": "Reassess the patient immediately and determine the required action."
+        },
+        {
+          "id": "D",
+          "text": "Tell the assistant to call the doctor."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The RN remains responsible for interpreting and responding to changes."
+    },
+    {
+      "id": "q64",
+      "stem": "Which factor should be considered before delegation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only whether the task saves time."
+        },
+        {
+          "id": "B",
+          "text": "The assistant's preference only."
+        },
+        {
+          "id": "C",
+          "text": "The nurse's workload only."
+        },
+        {
+          "id": "D",
+          "text": "The task, patient condition, competence of the person, instructions and supervision needs."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Safe delegation considers task, circumstance, person, direction and supervision."
+    },
+    {
+      "id": "q65",
+      "stem": "A nurse disagrees with a colleague about a care plan. What is the most professional response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discuss the facts and patient needs respectfully and use the approved escalation pathway if unresolved."
+        },
+        {
+          "id": "B",
+          "text": "Criticise the colleague in front of the patient."
+        },
+        {
+          "id": "C",
+          "text": "Avoid the colleague."
+        },
+        {
+          "id": "D",
+          "text": "Write a complaint before speaking with them."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional conflict management is assertive, respectful and focused on patient safety."
+    },
+    {
+      "id": "q66",
+      "stem": "Which statement is assertive rather than aggressive?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'You never listen.'"
+        },
+        {
+          "id": "B",
+          "text": "'I am concerned that this change may place the patient at risk. Can we review it now?'"
+        },
+        {
+          "id": "C",
+          "text": "'Do whatever you want.'"
+        },
+        {
+          "id": "D",
+          "text": "'This is not my problem.'"
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Assertive communication is clear, respectful and focused on the issue."
+    },
+    {
+      "id": "q67",
+      "stem": "Hierarchy is preventing staff from questioning an unsafe order. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remain silent to preserve relationships."
+        },
+        {
+          "id": "B",
+          "text": "Discuss it after discharge."
+        },
+        {
+          "id": "C",
+          "text": "Use respectful escalation based on facts and patient safety."
+        },
+        {
+          "id": "D",
+          "text": "Ask the patient to challenge the order."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Hierarchy should not prevent speaking up."
+    },
+    {
+      "id": "q68",
+      "stem": "Which situation represents unsafe delegation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A stable patient's routine observations are delegated with clear parameters."
+        },
+        {
+          "id": "B",
+          "text": "The nurse reviews delegated care."
+        },
+        {
+          "id": "C",
+          "text": "The assistant reports changes promptly."
+        },
+        {
+          "id": "D",
+          "text": "A complex assessment is delegated to an untrained assistant."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical assessment should not be delegated to an unqualified person."
+    },
+    {
+      "id": "q69",
+      "stem": "After a medication error, which reflective question is most useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'What happened, why did it happen and what should change next time?'"
+        },
+        {
+          "id": "B",
+          "text": "'Who should be blamed?'"
+        },
+        {
+          "id": "C",
+          "text": "'How can the event be kept private?'"
+        },
+        {
+          "id": "D",
+          "text": "'Was the patient difficult?'"
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Reflection examines events, contributing factors and improvement."
+    },
+    {
+      "id": "q70",
+      "stem": "A nurse receives feedback that handovers are unclear. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismiss the feedback."
+        },
+        {
+          "id": "B",
+          "text": "Review examples, seek guidance and practise a structured handover approach."
+        },
+        {
+          "id": "C",
+          "text": "Avoid handover duties."
+        },
+        {
+          "id": "D",
+          "text": "Explain that colleagues should ask questions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reflective practice uses feedback to improve future performance."
+    },
+    {
+      "id": "q71",
+      "stem": "Which outcome shows effective delegation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The task is completed."
+        },
+        {
+          "id": "B",
+          "text": "The nurse saves time."
+        },
+        {
+          "id": "C",
+          "text": "The right person completes the right task safely, reports findings and the nurse evaluates the outcome."
+        },
+        {
+          "id": "D",
+          "text": "The assistant accepts accountability."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Completion alone is not enough; safety and evaluation are required."
+    },
+    {
+      "id": "q72",
+      "stem": "A nurse asks an assistant to undertake a task without explaining when to report changes. What is missing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Right patient."
+        },
+        {
+          "id": "B",
+          "text": "Patient consent only."
+        },
+        {
+          "id": "C",
+          "text": "Professional boundaries."
+        },
+        {
+          "id": "D",
+          "text": "Clear direction and supervision."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Delegation requires instructions and escalation parameters."
+    },
+    {
+      "id": "q73",
+      "stem": "Which approach is best when managing disagreement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Focus on facts, standards and patient needs."
+        },
+        {
+          "id": "B",
+          "text": "Use personal criticism."
+        },
+        {
+          "id": "C",
+          "text": "Avoid documentation."
+        },
+        {
+          "id": "D",
+          "text": "Seek support only after harm occurs."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Professional conflict should remain evidence-based and respectful."
+    },
+    {
+      "id": "q74",
+      "stem": "A nurse realises that stress affected communication during a shift. What is the best reflective action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it because no complaint was made."
+        },
+        {
+          "id": "B",
+          "text": "Review the event, identify triggers and plan a more effective response."
+        },
+        {
+          "id": "C",
+          "text": "Blame workload only."
+        },
+        {
+          "id": "D",
+          "text": "Avoid similar patients."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reflection supports learning, resilience and future improvement."
+    },
+    {
+      "id": "q75",
+      "stem": "A delegated task becomes more complex because the patient's condition changes. What should happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The assistant should continue."
+        },
+        {
+          "id": "B",
+          "text": "The task should be documented as complete."
+        },
+        {
+          "id": "C",
+          "text": "The registered nurse should reassess and reconsider the delegation."
+        },
+        {
+          "id": "D",
+          "text": "The assistant should independently change the plan."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Delegation must be reconsidered when circumstances change."
+    },
+    {
+      "id": "q76",
+      "stem": "Which statement best describes accountability in delegation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accountability transfers with the task."
+        },
+        {
+          "id": "B",
+          "text": "Only the assistant is accountable."
+        },
+        {
+          "id": "C",
+          "text": "No one is accountable if the task was routine."
+        },
+        {
+          "id": "D",
+          "text": "The nurse remains accountable for appropriate delegation and evaluation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Delegation transfers a task, not professional accountability."
+    },
+    {
+      "id": "q77",
+      "stem": "A colleague responds defensively when a safety concern is raised. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remain calm, restate the concern using facts and follow the pathway if unresolved."
+        },
+        {
+          "id": "B",
+          "text": "Escalate immediately without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Withdraw the concern."
+        },
+        {
+          "id": "D",
+          "text": "Discuss the colleague's behaviour with patients."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Assertive persistence protects safety while maintaining professionalism."
+    },
+    {
+      "id": "q78",
+      "stem": "Which outcome best demonstrates reflective practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The nurse thinks about the shift privately."
+        },
+        {
+          "id": "B",
+          "text": "The nurse identifies learning and changes future practice based on evidence and feedback."
+        },
+        {
+          "id": "C",
+          "text": "The nurse avoids recording mistakes."
+        },
+        {
+          "id": "D",
+          "text": "The nurse completes mandatory training."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Reflection should lead to practical improvement."
+    },
+    {
+      "id": "q79",
+      "stem": "A nurse delegates teaching about a new high-risk medicine to an assistant. Why is this unsafe?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assistants may never speak with patients."
+        },
+        {
+          "id": "B",
+          "text": "The patient should teach themselves."
+        },
+        {
+          "id": "C",
+          "text": "Teaching generally requires registered-nurse assessment, knowledge and evaluation."
+        },
+        {
+          "id": "D",
+          "text": "High-risk medicines require no education."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Teaching and evaluation usually remain with the RN."
+    },
+    {
+      "id": "q80",
+      "stem": "Which outcome best reflects professional communication, delegation and reflection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tasks are completed quickly."
+        },
+        {
+          "id": "B",
+          "text": "Conflict is avoided."
+        },
+        {
+          "id": "C",
+          "text": "The nurse works independently."
+        },
+        {
+          "id": "D",
+          "text": "Communication is respectful, delegation is appropriate and reflection leads to safer future practice."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "These capabilities together support safe professional nursing."
+    }
+  ]
+}

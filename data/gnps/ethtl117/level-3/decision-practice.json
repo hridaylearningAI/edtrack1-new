@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Enteral medication via feeding tube",
+      "scenario": "A nurse prepares to administer medication through a patient’s feeding tube. The medication has been crushed, but the nurse has not yet verified whether the medication is suitable for crushing.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Verify medication compatibility with tube administration.",
+      "modelWhy": "Some medications cannot be crushed.",
+      "modelNext": "Flush tube before and after.",
+      "trap": "Crushing without checking.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Look-alike sound-alike drugs",
+      "scenario": "While preparing medications, a nurse notices two different medications with very similar names stored next to each other in the medication cupboard.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Separate and label medications clearly.",
+      "modelWhy": "LASA drugs increase error risk.",
+      "modelNext": "Follow medication safety policy.",
+      "trap": "Relying on memory.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Transdermal patch safety",
+      "scenario": "During a routine assessment, a nurse notices that a patient has more than one fentanyl transdermal patch applied to the skin. The patient appears drowsy and is breathing more slowly than usual.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Remove excess patches and notify provider.",
+      "modelWhy": "Multiple patches increase overdose risk.",
+      "modelNext": "Assess pain and respiratory status.",
+      "trap": "Leaving patches in place.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Antibiotic stewardship",
+      "scenario": "A patient presents with symptoms of a viral respiratory infection and requests antibiotics, stating that antibiotics have helped them feel better in the past.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Educate patient about appropriate antibiotic use.",
+      "modelWhy": "Unnecessary antibiotics cause resistance.",
+      "modelNext": "Provide symptomatic care.",
+      "trap": "Prescribing to satisfy patient.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "Medication reconciliation",
+      "scenario": "A patient is admitted to the ward from the emergency department. The medication history is incomplete, and the patient is unsure about the names and doses of home medications.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Complete medication reconciliation.",
+      "modelWhy": "Prevents omissions and duplications.",
+      "modelNext": "Verify home medications.",
+      "trap": "Assuming records are accurate.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "IV infiltration",
+      "scenario": "A patient receiving IV medication reports increasing pain at the IV insertion site. On inspection, the site appears swollen and cool to touch.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Stop the infusion and assess the site.",
+      "modelWhy": "Infiltration can cause tissue injury.",
+      "modelNext": "Elevate limb and document findings.",
+      "trap": "Ignoring patient complaint.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Rapid-acting antihypertensive",
+      "scenario": "A patient receiving IV antihypertensive medication experiences a sudden and significant drop in blood pressure shortly after the infusion begins. The patient reports feeling lightheaded.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Slow or stop infusion and monitor closely.",
+      "modelWhy": "Rapid drops compromise perfusion.",
+      "modelNext": "Assess neurological status.",
+      "trap": "Continuing infusion.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Medication storage error",
+      "scenario": "During a routine medication check, a nurse finds a medication that requires refrigeration stored at room temperature for an unknown period.",
+      "prompts": [
+        "Your first action",
+        "Your reason (what risk are you preventing?)",
+        "What you will check next (one key assessment)"
+      ],
+      "modelFirst": "Remove medication and verify stability.",
+      "modelWhy": "Improper storage reduces effectiveness.",
+      "modelNext": "Report per policy.",
+      "trap": "Administering anyway.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}

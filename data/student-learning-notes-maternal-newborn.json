@@ -1,0 +1,863 @@
+{
+  "courseCode": "NURS-M4",
+  "title": "Module 4 — Maternal and Newborn Nursing",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Maternal–Newborn Nursing is one of the most safety‑sensitive areas tested in NCLEX. A small delay can change outcomes for both the birthing parent and the baby. These notes are written like a tutor explaining concepts in simple language. For each topic, you will learn what is normal, what is abnormal, and what to do first."
+        },
+        {
+          "type": "paragraph",
+          "text": "Train your NCLEX thinking using three questions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is normal and expected at this stage (pregnancy/labour/postpartum/newborn)?",
+            "What cue tells me something is wrong or unsafe?",
+            "What is the safest first nursing action, and what outcome do I reassess?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For NGN-style questions, apply CJMM: Recognize cues → Analyze cues → Prioritize hypotheses → Generate solutions → Take action → Evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain normal pregnancy adaptations and identify danger signs.",
+            "Perform maternal assessments across prenatal, intrapartum, and postpartum periods.",
+            "Interpret fetal heart rate (FHR) patterns and apply correct nursing interventions.",
+            "Recognise and respond to obstetric emergencies (preeclampsia/eclampsia, abruption, previa, cord prolapse, uterine rupture, postpartum hemorrhage).",
+            "Provide postpartum support including breastfeeding guidance, infection prevention, VTE risk reduction, and mental health screening.",
+            "Perform newborn assessment (APGAR, thermoregulation, feeding readiness, jaundice and respiratory distress recognition).",
+            "Prioritise care using ABCs, safety, and mother‑baby dyad principles."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "The Maternal–Newborn NCLEX Mindset",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NCLEX maternity questions often look simple, but they test rapid clinical judgment. The exam expects you to recognise the one cue that indicates danger and act immediately."
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Mother–Baby Safety Rule",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "You always care for two patients: the parent and the fetus/newborn. However, the best way to protect the fetus is to stabilise the parent first. If the parent cannot oxygenate or perfuse, the baby will not be safe."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Priority Framework",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Airway/Breathing: maternal oxygenation, newborn respiratory distress, aspiration risk.",
+                "Circulation: bleeding (PPH), shock, cord prolapse compromising fetal oxygenation.",
+                "Neurological safety: eclampsia, stroke symptoms, seizure activity.",
+                "Then comfort and routine care."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "In fetal monitoring questions, think: 'Is the baby getting oxygen?' If not, act quickly using intrauterine resuscitation steps."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.3",
+          "title": "Fetal Monitoring Quick Logic",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "FHR patterns reflect fetal oxygen status. When oxygen is reduced, decelerations occur. Your role is to improve uteroplacental perfusion."
+            },
+            {
+              "type": "paragraph",
+              "text": "First-line nursing responses (often tested): reposition mother (left lateral), stop oxytocin, increase IV fluids, give oxygen as ordered/policy, treat hypotension, notify provider."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Reproductive Physiology and Pregnancy Adaptations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pregnancy causes major system changes. The safest nurse is the one who knows what is expected and can spot what is not."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "Normal Pregnancy Changes (Simple Explanation)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cardiovascular: blood volume increases, heart rate slightly increases. Mild edema can occur, but sudden swelling is concerning."
+            },
+            {
+              "type": "paragraph",
+              "text": "Respiratory: oxygen demand rises. Mild shortness of breath can be normal. Severe dyspnea is not."
+            },
+            {
+              "type": "paragraph",
+              "text": "Renal: increased kidney blood flow; urinary frequency is common."
+            },
+            {
+              "type": "paragraph",
+              "text": "GI: nausea, reflux, constipation due to hormones and pressure."
+            },
+            {
+              "type": "paragraph",
+              "text": "Endocrine: insulin resistance increases in later pregnancy."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "Expected Discomforts vs Danger Signs",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Students often confuse normal discomforts with danger signs. NCLEX tests this difference."
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected discomfort examples: mild nausea, mild dependent edema, backache, occasional Braxton Hicks contractions."
+            },
+            {
+              "type": "paragraph",
+              "text": "Danger signs that need urgent evaluation:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Severe headache, visual changes, epigastric pain (preeclampsia warnings)",
+                "Vaginal bleeding or fluid leakage",
+                "Decreased fetal movement",
+                "Sudden swelling of face/hands",
+                "Fever, burning urination, foul discharge"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: A pregnant client reports swelling of hands and face + headache. This is NOT normal edema. Treat as possible preeclampsia and escalate promptly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Prenatal Care and Maternal Assessment",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "First Prenatal Visit: What the Nurse Focuses On",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "This visit identifies risk factors: medical history, previous pregnancies, substance use, domestic violence screening, nutrition and immunisation status."
+            },
+            {
+              "type": "paragraph",
+              "text": "Risk identification examples: diabetes history increases risk of gestational diabetes; hypertension increases risk of preeclampsia; previous C‑section increases uterine rupture risk."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Rh Incompatibility and Rho(D) Immune Globulin",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If the mother is Rh‑negative and the fetus is Rh‑positive, fetal blood mixing can sensitise the mother. Future pregnancies can be harmed. Rho(D) immune globulin (RhoGAM) prevents sensitisation."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX clue: RhoGAM is given to Rh‑negative mothers at around 28 weeks and within 72 hours postpartum if baby is Rh‑positive, and after events where blood mixing may occur (amniocentesis, bleeding)."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Prenatal Teaching: What Students Should Say",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Teaching is tested frequently. Use simple, actionable messages and teach‑back."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nutrition: folic acid, iron, balanced diet; avoid alcohol and smoking.",
+                "Warning signs: bleeding, decreased fetal movement, severe headache, blurred vision, severe swelling.",
+                "Prenatal visits: importance of regular follow‑up.",
+                "Immunisations: follow local guidelines (e.g., influenza, Tdap if indicated)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Labour and Birth: Stages, Monitoring, and Nursing Care",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Stages of Labour (Easy Memory)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Stage 1: cervical dilation (0–10 cm). Stage 2: delivery of baby. Stage 3: delivery of placenta. Stage 4: first hours postpartum recovery."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "The Five Ps of Labour",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Passenger (baby), Passageway (pelvis), Powers (contractions), Position (maternal position), Psyche (emotions). These factors influence labour progress."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "FHR Interpretation: The Most Tested Skill",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Start with baseline (110–160 bpm), variability (good = oxygenated), accelerations (reassuring), and decelerations (need interpretation)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Decelerations explained simply: Early decelerations: head compression—usually benign. Late decelerations: uteroplacental insufficiency—always concerning. Variable decelerations: cord compression—common; may require intervention."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: Late decels + decreased variability indicates fetal hypoxia. Priority is intrauterine resuscitation and provider notification."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.4",
+          "title": "Oxytocin Safety",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Oxytocin strengthens contractions. Too much can reduce placental blood flow. Signs of uterine tachysystole: contractions too frequent. If fetal distress occurs, stop oxytocin and intervene."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Stop oxytocin infusion",
+                "Reposition mother left lateral",
+                "Increase IV fluids as ordered",
+                "Give oxygen as policy allows",
+                "Notify provider; prepare for urgent delivery if not resolving"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.5",
+          "title": "Pain Management",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Non‑pharmacologic: breathing, position change, massage, water therapy. Pharmacologic: epidural, IV opioids. Nurses monitor maternal BP, respiratory status, and fetal response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Obstetric Emergencies and High‑Risk Conditions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These emergencies are frequently tested because they require immediate action."
+        },
+        {
+          "type": "subsection",
+          "number": "5.1",
+          "title": "Preeclampsia/Eclampsia",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Preeclampsia: hypertension after 20 weeks + proteinuria or organ dysfunction. Danger is seizure (eclampsia) and stroke."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warning signs: severe headache, visual changes, epigastric pain, hyperreflexia, sudden swelling."
+            },
+            {
+              "type": "paragraph",
+              "text": "Magnesium sulfate is used to prevent seizures. NCLEX safety: monitor RR, urine output, reflexes; antidote is calcium gluconate."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.2",
+          "title": "Placenta Previa vs Abruption",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Placenta previa: placenta covers cervix → painless bleeding. Do NOT perform vaginal exam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Placental abruption: placenta detaches → painful bleeding, rigid tender uterus, fetal distress."
+            },
+            {
+              "type": "paragraph",
+              "text": "Priority in both: monitor bleeding, fetal status, IV access, prepare for delivery."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.3",
+          "title": "Cord Prolapse",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cord prolapse causes cord compression and fetal hypoxia. It is an emergency."
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX first actions: call for help, elevate presenting part off cord (gloved hand), position knee‑chest or Trendelenburg, prepare for emergency delivery."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5.4",
+          "title": "Postpartum Hemorrhage (PPH)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "PPH is the #1 postpartum emergency. Most common cause is uterine atony (boggy uterus)."
+            },
+            {
+              "type": "paragraph",
+              "text": "First action: fundal massage and assess uterine tone. Then assess bladder (full bladder prevents uterine contraction), administer uterotonics as ordered, monitor vitals and shock signs."
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluation: uterus firm, bleeding decreases, vitals stabilise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Postpartum Care: Recovery and Complications",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "title": "Postpartum Assessment: BUBBLE‑HE",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Breasts, Uterus, Bladder, Bowel, Lochia, Episiotomy/incision, Homan's/legs, Emotional status."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lochia progression: rubra (red) → serosa (pink/brown) → alba (white/yellow). Sudden heavy bleeding is abnormal."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "title": "Infection and VTE",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Endometritis signs: fever, uterine tenderness, foul lochia. Mastitis signs: breast pain, fever, flu‑like symptoms."
+            },
+            {
+              "type": "paragraph",
+              "text": "VTE risk: immobility, surgery, clotting disorders. Nursing care includes early ambulation, hydration, and teaching leg pain/swelling signs."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "6.3",
+          "title": "Postpartum Mental Health",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Baby blues are common and mild. Postpartum depression lasts longer with functional impairment. Postpartum psychosis is emergency (risk of harm). Nurses screen, support, and escalate promptly if risk present."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Newborn Assessment and Early Adaptation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Newborn care is heavily tested. NCLEX expects you to recognise respiratory distress, hypothermia risk, hypoglycemia, infection, and jaundice."
+        },
+        {
+          "type": "subsection",
+          "number": "7.1",
+          "title": "APGAR and Immediate Care",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "APGAR at 1 and 5 minutes assesses adaptation. It is not a resuscitation decision tool by itself, but low scores indicate need for support."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.2",
+          "title": "Thermoregulation",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Newborns lose heat quickly. Hypothermia leads to hypoglycemia and respiratory distress. Dry the baby, skin‑to‑skin, warm blankets, hat."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.3",
+          "title": "Normal vs Abnormal Respirations",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Irregular respirations can be normal. However, grunting, nasal flaring, retractions, or central cyanosis are abnormal and require urgent action."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.4",
+          "title": "Vitamin K, Erythromycin, Hep B",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Vitamin K prevents bleeding; erythromycin prevents eye infection; Hep B vaccine protects infant. Know these routine newborn interventions."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "7.5",
+          "title": "Jaundice and Hyperbilirubinemia",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Physiologic jaundice is common, but high bilirubin can cause brain injury (kernicterus). Treatment includes phototherapy. Nursing care: protect eyes, maintain hydration/feeds, monitor bilirubin levels and output."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "High‑Risk Newborn Care",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High‑risk newborns require close monitoring: premature infants, low birth weight/IUGR, neonatal sepsis risk, hypoglycemia, and neonatal abstinence syndrome."
+        },
+        {
+          "type": "subsection",
+          "number": "8.1",
+          "title": "Hypoglycemia",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Newborn hypoglycemia risk is higher in infants of diabetic mothers, preterm, or low birth weight. Signs: jitteriness, poor feeding, lethargy, apnea. Priority: check glucose, feed, escalate if symptomatic/low."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.2",
+          "title": "Respiratory Distress Syndrome (RDS)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "RDS occurs in preterm infants due to lack of surfactant. Signs: grunting, retractions, cyanosis. Nursing care includes oxygen support, thermoregulation, minimal handling, and monitoring."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "8.3",
+          "title": "Neonatal Sepsis",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sepsis signs: temperature instability, poor feeding, lethargy, respiratory distress. This is urgent—notify provider, prepare cultures and antibiotics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Patient and Family Education (Family‑Centered Care)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Maternal-newborn nursing is family centered. Nurses teach parents how to care for themselves and the baby safely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key education examples:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Postpartum danger signs: heavy bleeding, fever, severe headache, chest pain, leg swelling/pain, severe sadness or harmful thoughts.",
+            "Breastfeeding basics: latch, feeding frequency, signs baby is getting enough milk.",
+            "Safe sleep: back to sleep, firm mattress, no loose bedding.",
+            "Newborn warning signs: poor feeding, lethargy, fever, breathing difficulty, central cyanosis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Use teach‑back: ask the parent to explain back key points."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "NGN‑Style Case Studies (Guided Clinical Judgment)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Use these cases to practise recognising urgent cues and selecting priority actions."
+        },
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Preeclampsia Progression",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A pregnant client (34 weeks) reports severe headache and blurred vision. BP is 168/110. Reflexes are brisk. She reports epigastric pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Severe hypertension; Neuro symptoms (headache, vision); Hyperreflexia; Epigastric pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Practice questions: What is the priority nursing action? What complication is most feared? What medication is commonly used for seizure prevention?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Model CJMM reasoning: Recognize cues: severe BP + neuro symptoms. Analyze: preeclampsia with severe features. Prioritize: prevent seizure/stroke; ensure safety and escalation. Solutions: notify provider/rapid response, seizure precautions, prepare magnesium sulfate, monitor RR/urine output. Evaluate: BP controlled, no seizure, stable fetal status."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Late Decelerations During Oxytocin Infusion",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: During labour, fetal monitor shows late decelerations and minimal variability. Oxytocin is running; contractions are frequent."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Late decelerations; Minimal variability; Oxytocin infusion; Possible tachysystole. Practice questions: What action should the nurse take first? What does this pattern indicate? What outcomes show improvement? Model CJMM: Recognize cues: late decels + poor variability. Analyze: uteroplacental insufficiency/hypoxia. Prioritize: improve fetal oxygenation. Solutions: stop oxytocin, reposition left lateral, IV fluid bolus as ordered, oxygen per policy, notify provider. Evaluate: variability improves, decels resolve, baseline normal."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Postpartum Hemorrhage (Uterine Atony)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: One hour after delivery, the client saturates a pad in 10 minutes. Uterus feels boggy. HR 120. BP 90/58."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Heavy bleeding; Boggy uterus; Tachycardia; Hypotension (shock risk). Practice questions: What should the nurse do first? What is the likely cause? What additional interventions may be ordered? Model CJMM: Recognize: hemorrhage signs and atony. Analyze: uterine not contracting → bleeding. Prioritize: circulation/stop bleeding. Solutions: fundal massage, assess bladder, uterotonic meds as ordered, IV fluids, notify provider, monitor vitals. Evaluate: uterus firm and bleeding decreases; vitals stabilize."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Cord Prolapse",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: After rupture of membranes, fetal heart rate drops suddenly to 80 bpm. A loop of umbilical cord is visible at the vaginal opening."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Sudden severe fetal bradycardia; Cord visible; High risk of compression. Practice questions: What is the immediate action? Which positioning helps? What delivery plan is likely? Model CJMM: Recognize: cord prolapse. Analyze: cord compression causing fetal hypoxia. Prioritize: relieve compression and prepare for delivery. Solutions: call for help, elevate presenting part with gloved hand, knee‑chest position, oxygen/fluids as ordered, prepare emergency C‑section. Evaluate: fetal heart rate improves while preparing delivery."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Newborn Respiratory Distress",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A newborn has grunting, nasal flaring, and intercostal retractions. SpO2 is 86%. Skin is centrally cyanotic."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key cues: Grunting and flaring; Retractions; Low SpO2; Central cyanosis. Practice questions: What is the priority nursing action? Why is hypothermia important here? What assessments follow immediately? Model CJMM: Recognize: respiratory distress and hypoxemia. Analyze: transition problem or RDS/sepsis. Prioritize: airway/breathing and thermoregulation. Solutions: warm the newborn, position airway, provide oxygen/resp support per protocol, notify provider. Evaluate: SpO2 improves, decreased work of breathing, stable temperature."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "Mini Quiz (NCLEX‑Style) — Module 4",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Try without looking at answers. Apply ABCs, safety, expected vs unexpected, and mother‑baby dyad principles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 1: A pregnant client reports severe headache and blurred vision. BP is 170/112. What is the priority nursing action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Give oral fluids and reassess later",
+            "B. Initiate seizure precautions and notify provider/rapid response",
+            "C. Encourage the client to walk to reduce swelling",
+            "D. Provide a warm blanket and dim the lights"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Severe hypertension with neuro symptoms suggests severe preeclampsia; seizure/stroke risk requires immediate escalation and safety actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 2: Which fetal heart rate pattern is most concerning?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Early decelerations",
+            "B. Late decelerations",
+            "C. Accelerations",
+            "D. Moderate variability with baseline 140"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Late decelerations indicate uteroplacental insufficiency and fetal hypoxia risk; this requires prompt intervention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 3: During labour with late decelerations, the nurse should do which action first?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Continue oxytocin to speed labour",
+            "B. Reposition the mother to left lateral and stop oxytocin",
+            "C. Offer oral ice chips",
+            "D. Encourage pushing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: First-line intrauterine resuscitation includes repositioning and stopping oxytocin to improve placental perfusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 4: A postpartum client saturates one pad in 10 minutes and uterus is boggy. What is first action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Administer antibiotic",
+            "B. Massage fundus and assess uterine tone",
+            "C. Give oral analgesic",
+            "D. Encourage the client to sleep"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Boggy uterus indicates uterine atony causing hemorrhage. Fundal massage is immediate priority."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 5: Placenta previa is most associated with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Painful bleeding and rigid uterus",
+            "B. Painless bright red bleeding",
+            "C. Severe hypertension and proteinuria",
+            "D. Newborn grunting and flaring"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Placenta previa typically causes painless bright red bleeding; vaginal exams are avoided."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 6: A loop of cord is visible at vaginal opening and FHR drops. What should nurse do?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Insert fingers to elevate presenting part off the cord and call for help",
+            "B. Leave client alone and get supplies",
+            "C. Apply ice to abdomen",
+            "D. Encourage the mother to push"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: Cord prolapse is emergency. Relieve compression by elevating presenting part; prepare for urgent delivery."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 7: Which newborn finding requires immediate intervention?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Acrocyanosis of hands/feet",
+            "B. Irregular respirations without distress",
+            "C. Grunting with nasal flaring and retractions",
+            "D. Mild caput succedaneum"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: C. Rationale: Grunting, flaring, and retractions indicate respiratory distress and hypoxemia risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 8: Why is newborn thermoregulation critical?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Warmth prevents jaundice only",
+            "B. Hypothermia can cause hypoglycemia and respiratory distress",
+            "C. It prevents placenta previa",
+            "D. It prevents postpartum depression"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Hypothermia increases metabolic demand, leading to hypoglycemia and respiratory compromise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 9: Rho(D) immune globulin is given to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Rh-positive mother after delivery",
+            "B. Rh-negative mother to prevent sensitisation",
+            "C. Any mother with gestational diabetes",
+            "D. Any newborn with jaundice"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: RhoGAM prevents Rh sensitisation in Rh-negative mothers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiz Question 10: The best teaching for safe sleep is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Place baby on stomach to reduce choking",
+            "B. Place baby on back on firm surface with no loose bedding",
+            "C. Use pillows to keep baby comfortable",
+            "D. Allow baby to sleep in car seat overnight"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Back-to-sleep on a firm surface reduces SIDS risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For every wrong answer, write: (1) the cue you missed, (2) what framework you should have applied (ABCs/safety/FHR), and (3) the safest first action. Re-attempt these questions after 48 hours."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX preparation and do not replace local clinical policies, supervised practice, or medical advice."
+        }
+      ]
+    }
+  ]
+}

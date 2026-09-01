@@ -1,0 +1,952 @@
+{
+  "level": 1,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Major Depressive Disorder with Active Suicide Plan",
+      "stem": "Ms. Priyanka Das, a 32-year-old woman, is admitted to the psychiatric unit after telling her sister that she no longer wants to live. The sister reports that Priyanka has been isolating herself for weeks, sleeping poorly, crying frequently, and neglecting meals. On admission, Priyanka sits with her head down, speaks softly, and says, “Everyone would be better off without me.” When the nurse asks whether she has thought about harming herself, Priyanka quietly states that she has saved her sleeping tablets at home and had planned to take them all tonight. She appears hopeless, has poor eye contact, and answers slowly. The nurse must recognise the seriousness of the suicide risk and begin immediate safety-focused care. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate high suicide risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Specific plan to take stored tablets"
+            },
+            {
+              "id": "B",
+              "text": "Social withdrawal and poor intake"
+            },
+            {
+              "id": "C",
+              "text": "Verbalisation of hopelessness"
+            },
+            {
+              "id": "D",
+              "text": "Slow speech and poor eye contact"
+            },
+            {
+              "id": "E",
+              "text": "Statement that others would be better off without her"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these cues increase suicide risk. A specific plan with available means is especially high risk. Hopelessness, withdrawal, and self-deprecating statements are classic warning signs. NCLEX mental health questions prioritise direct evidence of intent, plan, and access to means over more general mood symptoms. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation of this presentation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is attention-seeking and should be redirected"
+            },
+            {
+              "id": "B",
+              "text": "The patient has severe depression with active suicidal ideation and requires immediate safety intervention"
+            },
+            {
+              "id": "C",
+              "text": "The patient mainly needs sleep hygiene teaching"
+            },
+            {
+              "id": "D",
+              "text": "The patient is sad but not in immediate danger because she is calm"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "A calm tone does not reduce the seriousness of suicidal intent. This patient has depression plus active suicidal ideation, a specific plan, and access to pills. The nurse must interpret the situation as an immediate safety concern. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Imbalanced nutrition less than body requirements"
+            },
+            {
+              "id": "B",
+              "text": "Social isolation"
+            },
+            {
+              "id": "C",
+              "text": "Risk for self-directed violence related to hopelessness and suicidal plan"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "C"
+          ],
+          "rationale": "The priority in mental health nursing is always safety. While sleep, nutrition, and isolation are important, the immediate threat to life is self-harm or suicide. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tell the patient to think positively and join group therapy"
+            },
+            {
+              "id": "B",
+              "text": "Ask the patient to promise not to harm herself and then continue routine rounds"
+            },
+            {
+              "id": "C",
+              "text": "Leave the patient alone for privacy and return later"
+            },
+            {
+              "id": "D",
+              "text": "Stay with the patient, initiate suicide precautions, remove access to harmful objects, and notify the appropriate team immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The first nursing action is to protect the patient. Suicide precautions, direct observation as indicated by policy, environmental safety, and immediate communication are essential. A verbal promise or “no harm contract” is not a replacement for safety measures in a patient with active suicidal intent. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nurse responses are therapeutic and appropriate at this stage? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“Can you tell me more about what has been making things feel unbearable?”"
+            },
+            {
+              "id": "B",
+              "text": "“You are being selfish if you try to hurt yourself.”"
+            },
+            {
+              "id": "C",
+              "text": "“We will stay with you and help keep you safe.”"
+            },
+            {
+              "id": "D",
+              "text": "“I’m glad you told me. Your safety is my priority right now.”"
+            },
+            {
+              "id": "E",
+              "text": "“You should not feel this way; think about your family.”"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D"
+          ],
+          "rationale": "The therapeutic responses are those that acknowledge the disclosure, invite further expression, and reinforce safety. Judgmental statements and guilt-inducing comments are non-therapeutic and may shut down communication. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Major Depressive Disorder with Active Suicide Plan | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that the immediate nursing plan is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is told to attend activities without further risk assessment"
+            },
+            {
+              "id": "B",
+              "text": "The patient remains under appropriate observation, harmful items are removed, and she continues to communicate suicidal thoughts openly with staff support"
+            },
+            {
+              "id": "C",
+              "text": "The patient is left alone because she appears quieter"
+            },
+            {
+              "id": "D",
+              "text": "The patient stops talking and the nurse assumes she is improving"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "In the first phase of care, effectiveness is shown by maintained safety, environmental control, ongoing assessment, and continued communication. Silence or apparent calm is not enough to prove reduced risk."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Bipolar Disorder with Acute Manic Episode",
+      "stem": "Mr. Jason Fernandes, a 27-year-old man with bipolar I disorder, is brought to the psychiatric emergency service by friends who say he has not slept for three days, has spent large amounts of money, and has been telling strangers that he is starting several international companies. On assessment, he is loudly talkative, restless, distractible, and constantly shifting from one topic to another. He paces around the room, interrupts others, and insists that he does not need treatment because he feels “better than ever.” He has pressured speech, expansive mood, and poor insight. The nurse recognises acute mania with impaired judgment and risk for exhaustion, impulsive harm, and escalating agitation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with acute mania? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Restlessness and pacing"
+            },
+            {
+              "id": "B",
+              "text": "Grandiose ideas about major success"
+            },
+            {
+              "id": "C",
+              "text": "No sleep for several days"
+            },
+            {
+              "id": "D",
+              "text": "Pressured speech and distractibility"
+            },
+            {
+              "id": "E",
+              "text": "Poor judgment with overspending"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings are classic features of mania. NCLEX questions often test the nurse’s ability to identify mood elevation, decreased need for sleep, grandiosity, impulsivity, and hyperactivity as part of a manic episode. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation of this presentation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stable bipolar disorder without need for intervention"
+            },
+            {
+              "id": "B",
+              "text": "Acute manic episode with impaired judgment and high risk for exhaustion and unsafe behaviour"
+            },
+            {
+              "id": "C",
+              "text": "Healthy confidence and normal energy"
+            },
+            {
+              "id": "D",
+              "text": "Mild anxiety with caffeine overuse"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This patient is not simply energetic; he is clinically manic. His sleep deprivation, impulsive spending, grandiosity, and lack of insight increase the risk of harm to self and others. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for injury related to impulsivity, poor judgment, and escalating activity"
+            },
+            {
+              "id": "B",
+              "text": "Chronic low self-esteem"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed sleep pattern only"
+            },
+            {
+              "id": "D",
+              "text": "Social isolation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The most urgent problem is unsafe behaviour caused by impaired judgment and overstimulation. Sleep is important, but the priority is preventing harm and stabilising the environment. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Provide a low-stimulation environment, set clear limits, and assess for immediate safety risks while involving the treatment team"
+            },
+            {
+              "id": "B",
+              "text": "Engage the patient in a long group discussion about business plans"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the behaviour unless he becomes physically aggressive"
+            },
+            {
+              "id": "D",
+              "text": "Challenge the grandiose statements directly and argue with him"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "A calm, structured, low-stimulation approach is appropriate. Arguing with grandiose beliefs is non-therapeutic and often escalates the patient. Waiting until aggression occurs misses the opportunity for early intervention. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nursing interventions are appropriate in acute mania? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Encourage long emotionally intense group processing sessions"
+            },
+            {
+              "id": "B",
+              "text": "Use short, clear, simple statements"
+            },
+            {
+              "id": "C",
+              "text": "Monitor for exhaustion, dehydration, and medication effects"
+            },
+            {
+              "id": "D",
+              "text": "Offer frequent high-calorie finger foods and fluids as tolerated"
+            },
+            {
+              "id": "E",
+              "text": "Set firm, consistent limits on intrusive behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Short, direct communication is best when the patient is distractible. Limits help maintain safety. Patients in mania may not sit for meals, so finger foods and hydration are useful. The nurse should also monitor physical depletion and treatment response. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Bipolar Disorder with Acute Manic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates that the plan of care is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient continues pacing continuously without reassessment"
+            },
+            {
+              "id": "B",
+              "text": "The patient shows less agitation, accepts structure, maintains safer behaviour, and begins sleeping for short periods"
+            },
+            {
+              "id": "C",
+              "text": "The nurse stops setting limits to avoid conflict"
+            },
+            {
+              "id": "D",
+              "text": "The patient becomes more overstimulated during group activities and talks faster"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Improvement in acute mania is demonstrated by safer behaviour, reduced stimulation, and the return of some rest or sleep. A lack of structure usually worsens symptoms."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Schizophrenia with Command Hallucinations",
+      "stem": "Mr. Imran Ali, a 24-year-old man with schizophrenia, is admitted after his family found him talking to unseen voices and refusing food. During the nurse’s assessment he appears guarded, scans the room frequently, and suddenly asks, “Did you hear them? They keep telling me I’m evil.” He then lowers his voice and says the voices are telling him to hurt himself because he does not deserve to live. He is frightened, distracted, and intermittently appears to listen to internal stimuli. The nurse recognises that command hallucinations can create immediate danger and require careful safety assessment and therapeutic response. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings indicate immediate psychiatric risk? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Food refusal and withdrawal"
+            },
+            {
+              "id": "B",
+              "text": "Responding to internal stimuli"
+            },
+            {
+              "id": "C",
+              "text": "Command hallucinations telling him to hurt himself"
+            },
+            {
+              "id": "D",
+              "text": "Distractibility during assessment"
+            },
+            {
+              "id": "E",
+              "text": "Guarded, fearful behaviour"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All the findings are significant, but command hallucinations directing self-harm are particularly urgent. Withdrawal and food refusal may worsen physical risk, while fear and distractibility suggest psychotic disorganisation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient has only mild anxiety"
+            },
+            {
+              "id": "B",
+              "text": "The patient is experiencing psychosis with command hallucinations that may lead to self-harm"
+            },
+            {
+              "id": "C",
+              "text": "The patient simply needs quiet time alone"
+            },
+            {
+              "id": "D",
+              "text": "The patient is pretending to hear voices for attention"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The nurse must take hallucinations seriously, especially when they are command in nature and instruct harm. Dismissing the experience as attention-seeking would be unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Imbalanced nutrition less than body requirements only"
+            },
+            {
+              "id": "B",
+              "text": "Risk for self-directed violence related to command hallucinations"
+            },
+            {
+              "id": "C",
+              "text": "Social withdrawal"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "Although nutrition and withdrawal matter, self-harm risk is the top priority when the patient is hearing voices telling him to hurt himself. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Immediately challenge the delusion by arguing about reality"
+            },
+            {
+              "id": "B",
+              "text": "Tell the patient the voices are nonsense and to stop talking about them"
+            },
+            {
+              "id": "C",
+              "text": "Leave the patient alone so the hallucinations will pass"
+            },
+            {
+              "id": "D",
+              "text": "Stay with the patient, assess the content and immediacy of the command hallucinations, and initiate appropriate safety precautions"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The correct response is to remain with the patient, explore safety directly, and protect against self-harm. Telling the patient the voices are “nonsense” is invalidating and non-therapeutic. Leaving the patient alone is unsafe. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nurse responses are therapeutic? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“You should just ignore them.”"
+            },
+            {
+              "id": "B",
+              "text": "“When the voices get stronger, please tell staff immediately.”"
+            },
+            {
+              "id": "C",
+              "text": "“I understand the voices are real to you. I do not hear them, but I want to help keep you safe.”"
+            },
+            {
+              "id": "D",
+              "text": "“What are the voices telling you to do right now?”"
+            },
+            {
+              "id": "E",
+              "text": "“The voices are correct about you.”"
+            }
+          ],
+          "correctOptionIds": [
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "These responses validate the patient’s distress without confirming the hallucination as reality. They also assess immediacy and encourage safety communication. Telling the patient simply to ignore the voices is not sufficient in a high-risk situation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Schizophrenia with Command Hallucinations | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates the immediate plan is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient remains safe, stays engaged with staff, reports the voices more openly, and does not act on the command content"
+            },
+            {
+              "id": "B",
+              "text": "The nurse assumes silence means the voices are gone"
+            },
+            {
+              "id": "C",
+              "text": "Food intake is restored but no safety assessment continues"
+            },
+            {
+              "id": "D",
+              "text": "The patient is left isolated because he is quieter"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "In the acute phase, effectiveness is measured by safety, engagement, and continued risk assessment—not by superficial quietness."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Generalised Anxiety with Acute Panic Episode",
+      "stem": "Ms. Kavya Nair, a 28-year-old woman with a history of anxiety, arrives at the emergency department convinced she is dying. She is trembling, crying, hyperventilating, clutching her chest, and saying, “I cannot breathe, I cannot breathe.” She reports intense fear, dizziness, tingling in her fingers, and a sense of impending doom. Her vital signs show tachycardia and rapid breathing, but initial medical review has not identified evidence of a cardiac emergency. The nurse recognises an acute panic episode and must respond with calming, structured, therapeutic care while still monitoring safety. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with a panic attack? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trembling and crying"
+            },
+            {
+              "id": "B",
+              "text": "Tingling in the fingers"
+            },
+            {
+              "id": "C",
+              "text": "Sense of impending doom"
+            },
+            {
+              "id": "D",
+              "text": "Feeling unable to breathe"
+            },
+            {
+              "id": "E",
+              "text": "Hyperventilation"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These are typical panic symptoms. Hyperventilation can lead to dizziness and tingling. Panic symptoms can feel physically overwhelming even when there is no immediate medical life threat. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient is manipulative and should be ignored"
+            },
+            {
+              "id": "B",
+              "text": "The patient has schizophrenia"
+            },
+            {
+              "id": "C",
+              "text": "The patient is calm and simply needs routine teaching"
+            },
+            {
+              "id": "D",
+              "text": "The patient is experiencing an acute panic episode with severe distress and reduced ability to process information"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "In a panic state, the person may be unable to take in complex instructions. The nurse should recognise severe anxiety as a real and distressing experience requiring structured support. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit about long-term exercise"
+            },
+            {
+              "id": "B",
+              "text": "Social isolation"
+            },
+            {
+              "id": "C",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "D",
+              "text": "Severe anxiety interfering with breathing pattern and functional coping"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse’s priority is helping the patient regain control of breathing and reduce overwhelming fear enough to re-engage in safe coping. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Leave the patient alone to “get over it”"
+            },
+            {
+              "id": "B",
+              "text": "Confront the patient and say there is nothing wrong"
+            },
+            {
+              "id": "C",
+              "text": "Give lengthy education about cognitive behavioural therapy immediately"
+            },
+            {
+              "id": "D",
+              "text": "Stay with the patient, use short calm statements, reduce stimulation, and coach slow breathing if possible"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse should remain present, speak briefly and calmly, and focus on immediate de-escalation. Panic patients often cannot absorb complex teaching in the acute stage. Dismissive or confrontational responses worsen distress. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which responses are therapeutic during acute panic? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“Let’s breathe slowly together, one breath at a time.”"
+            },
+            {
+              "id": "B",
+              "text": "“You are safe here. Stay with me and focus on my voice.”"
+            },
+            {
+              "id": "C",
+              "text": "“There is no reason to feel this way.”"
+            },
+            {
+              "id": "D",
+              "text": "“Tell me if the fear is getting stronger or changing.”"
+            },
+            {
+              "id": "E",
+              "text": "“You are overreacting.”"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "D"
+          ],
+          "rationale": "Therapeutic responses are simple, grounding, and focused on safety and regulation. Telling the patient there is “no reason” or that they are overreacting is non-therapeutic and invalidating. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: Generalised Anxiety with Acute Panic Episode | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient stops talking and curls into a ball without follow-up"
+            },
+            {
+              "id": "B",
+              "text": "The nurse leaves before reassessing"
+            },
+            {
+              "id": "C",
+              "text": "Hyperventilation worsens and the patient becomes more disorganised"
+            },
+            {
+              "id": "D",
+              "text": "Breathing becomes slower, the patient can answer more clearly, and visible panic reduces"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Improvement is shown by reduced physiologic arousal and improved ability to communicate and respond."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "PTSD Trigger with Dissociative Flashback",
+      "stem": "Mr. Daniel Joseph, a 40-year-old military veteran, is admitted to the medical floor after minor surgery. During the night, fireworks outside the hospital trigger a severe trauma response. The nurse finds him crouched behind a chair, sweating, shaking, and shouting, “Get down! They’re coming!” He does not seem oriented to the present environment. When approached, he startles intensely and appears to be reliving a combat event. The nurse must distinguish PTSD-related flashback symptoms from deliberate aggression and respond with trauma-informed de-escalation. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Simple",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings suggest a PTSD flashback rather than simple irritability? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sweating and shaking"
+            },
+            {
+              "id": "B",
+              "text": "Hypervigilance and startle response"
+            },
+            {
+              "id": "C",
+              "text": "Disorientation to present surroundings during the episode"
+            },
+            {
+              "id": "D",
+              "text": "Reliving the traumatic event as if it is happening now"
+            },
+            {
+              "id": "E",
+              "text": "External trigger associated with the trauma"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All of these findings are consistent with a trauma-triggered flashback or dissociative episode. The patient is not merely upset—he is temporarily overwhelmed by trauma-related re-experiencing. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Moderate"
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the nurse’s best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Manipulative behaviour to avoid care"
+            },
+            {
+              "id": "B",
+              "text": "Normal post-operative confusion only"
+            },
+            {
+              "id": "C",
+              "text": "Intentional aggression without distress"
+            },
+            {
+              "id": "D",
+              "text": "PTSD flashback with acute fear response requiring grounding and safety support"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "The nurse should understand the behaviour through a trauma-informed lens. The patient is frightened and dysregulated, not simply oppositional. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Moderate"
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge deficit about surgery"
+            },
+            {
+              "id": "B",
+              "text": "Acute fear response with risk of accidental harm to self or others during dissociation"
+            },
+            {
+              "id": "C",
+              "text": "Nutritional imbalance"
+            },
+            {
+              "id": "D",
+              "text": "Disturbed sleep pattern"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The immediate priority is safety during the dissociative or hyperaroused state. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Difficult"
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stand over the patient and demand eye contact"
+            },
+            {
+              "id": "B",
+              "text": "Restrain the patient immediately without trying de-escalation"
+            },
+            {
+              "id": "C",
+              "text": "Tell the patient to “snap out of it”"
+            },
+            {
+              "id": "D",
+              "text": "Use a calm voice, create physical and emotional safety, and orient the patient gently to the present"
+            }
+          ],
+          "correctOptionIds": [
+            "D"
+          ],
+          "rationale": "Trauma-informed care prioritises calm, non-threatening presence, gentle orientation, and reduction of triggers. Immediate restraint without assessing alternatives may worsen trauma. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Difficult"
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which nurse statements are therapeutic? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "“Tell me five things you can see in this room.”"
+            },
+            {
+              "id": "B",
+              "text": "“There is nothing to be afraid of, so stop reacting.”"
+            },
+            {
+              "id": "C",
+              "text": "“Would it help if we reduced the noise and lights?”"
+            },
+            {
+              "id": "D",
+              "text": "“You are in the hospital, and you are safe right now.”"
+            },
+            {
+              "id": "E",
+              "text": "“I’m going to stay with you while you get grounded.”"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Grounding, orientation, and environmental modification are appropriate. Minimising or invalidating the patient’s fear is non-therapeutic. Program Area: Mental Health Nursing | Level: Level 3 - Global Nursing Professional | Section: PTSD Trigger with Dissociative Flashback | Difficulty: Moderate"
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates the immediate plan is effective?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The patient becomes more oriented to the present, breathing eases, and hypervigilance lessens with support"
+            },
+            {
+              "id": "B",
+              "text": "The patient becomes more agitated and physically defensive"
+            },
+            {
+              "id": "C",
+              "text": "The trigger remains present with no environmental change"
+            },
+            {
+              "id": "D",
+              "text": "The nurse leaves once the patient becomes quiet for a moment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is reflected in reorientation, reduced arousal, and increased sense of safety."
+        }
+      ]
+    }
+  ]
+}

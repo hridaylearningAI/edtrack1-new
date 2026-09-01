@@ -1,0 +1,955 @@
+{
+  "level": 2,
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Intussusception",
+      "stem": "A 10-month-old infant is brought to the hospital because of episodes of severe crying with knees drawn to the abdomen. Between episodes, the infant becomes lethargic and quiet. The parents report vomiting and later notice a stool that looks red and mucousy. On examination, the nurse notes intermittent distress, abdominal tenderness, and pallor. The child’s mother says, “He screams in waves and then just goes limp.” The nurse suspects intussusception.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings support intussusception? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Intermittent severe abdominal pain episodes"
+            },
+            {
+              "id": "B",
+              "text": "Knees drawn to abdomen"
+            },
+            {
+              "id": "C",
+              "text": "Lethargy between painful episodes"
+            },
+            {
+              "id": "D",
+              "text": "Red mucousy stool"
+            },
+            {
+              "id": "E",
+              "text": "Vomiting"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "This is a classic presentation of intussusception. The alternating pain and lethargy, plus red “currant jelly” stool and vomiting, are important recognition cues."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild constipation only"
+            },
+            {
+              "id": "B",
+              "text": "Possible intussusception with bowel obstruction risk"
+            },
+            {
+              "id": "C",
+              "text": "Normal infant colic"
+            },
+            {
+              "id": "D",
+              "text": "Teething distress"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The case suggests telescoping of bowel with intermittent obstruction and vascular compromise. This can become a surgical emergency."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for bowel ischemia and fluid imbalance"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed sleep pattern"
+            },
+            {
+              "id": "C",
+              "text": "Delayed toy access"
+            },
+            {
+              "id": "D",
+              "text": "Parent inconvenience"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Bowel compromise and dehydration are the urgent concerns."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maintain NPO status, support hydration and assessment, and prepare for urgent diagnostic and therapeutic intervention"
+            },
+            {
+              "id": "B",
+              "text": "Give a large oral feed to calm the child"
+            },
+            {
+              "id": "C",
+              "text": "Delay action because pain comes and goes"
+            },
+            {
+              "id": "D",
+              "text": "Send home with only reassurance"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Potential bowel obstruction requires urgent evaluation. Oral feeding could worsen the condition if intervention is needed."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor pain pattern and abdominal status"
+            },
+            {
+              "id": "B",
+              "text": "Observe for worsening lethargy or perfusion changes"
+            },
+            {
+              "id": "C",
+              "text": "Support caregivers with clear explanation"
+            },
+            {
+              "id": "D",
+              "text": "Prepare for enema reduction or other interventions as ordered"
+            },
+            {
+              "id": "E",
+              "text": "Assume red stool is harmless dietary colouring"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "The stool finding is clinically important and should not be dismissed. Family support is also crucial."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pain episodes stop, abdominal distress lessens, and the infant becomes more alert after successful treatment"
+            },
+            {
+              "id": "B",
+              "text": "Vomiting worsens and lethargy increases"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops because the infant is quiet"
+            },
+            {
+              "id": "D",
+              "text": "Abdominal tenderness increases with no escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Resolution of episodic pain and better responsiveness suggest improved bowel status."
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "title": "Bacterial Meningitis",
+      "stem": "A 6-year-old child, Daniel, is brought in with fever, vomiting, severe headache, and increasing drowsiness. His mother reports that he cried when the lights were turned on and complained that his neck hurt when she tried to help him sit up. She is worried because he is not answering normally. Vital signs reveal temperature 39.6 C, heart rate 144 beats per minute, respiratory rate 30 breaths per minute, and the child is lethargic with neck stiffness. The nurse recognises possible meningitis and the need for urgent isolation and treatment considerations.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are concerning for meningitis? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fever"
+            },
+            {
+              "id": "B",
+              "text": "Severe headache"
+            },
+            {
+              "id": "C",
+              "text": "Neck stiffness"
+            },
+            {
+              "id": "D",
+              "text": "Photophobia and vomiting"
+            },
+            {
+              "id": "E",
+              "text": "Lethargy"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All listed findings are red flags. In paediatrics, meningitis may present with rapid deterioration, so early recognition is critical."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild viral cold only"
+            },
+            {
+              "id": "B",
+              "text": "Possible meningitis requiring urgent assessment, infection control, and treatment"
+            },
+            {
+              "id": "C",
+              "text": "Simple tension headache"
+            },
+            {
+              "id": "D",
+              "text": "Behaviour problem only"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "The findings indicate a serious central nervous system infection until proven otherwise."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for neurological deterioration and sepsis related to meningitis"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed school attendance"
+            },
+            {
+              "id": "C",
+              "text": "Delayed mealtime"
+            },
+            {
+              "id": "D",
+              "text": "Mild stress"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Meningitis can progress rapidly to neurological injury, shock, or death, so urgent management is required."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support urgent assessment, begin appropriate precautions, and prepare for rapid medical evaluation and treatment"
+            },
+            {
+              "id": "B",
+              "text": "Delay action until the child wakes fully"
+            },
+            {
+              "id": "C",
+              "text": "Encourage vigorous play to assess activity tolerance"
+            },
+            {
+              "id": "D",
+              "text": "Feed a large meal immediately"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Urgent treatment and appropriate isolation precautions should not be delayed. The child is unstable and potentially infectious."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minimise excessive stimulation if the child is photophobic"
+            },
+            {
+              "id": "B",
+              "text": "Monitor neurological status and vital signs closely"
+            },
+            {
+              "id": "C",
+              "text": "Support the caregiver with calm, direct explanations"
+            },
+            {
+              "id": "D",
+              "text": "Watch for seizure activity or worsening responsiveness"
+            },
+            {
+              "id": "E",
+              "text": "Assume drowsiness is harmless because fever is present"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Neurological deterioration, seizures, and worsening responsiveness are important risks in meningitis. Caregiver communication matters in paediatric emergencies."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Temperature begins to settle, neurological responsiveness improves, and vital signs become more stable with treatment"
+            },
+            {
+              "id": "B",
+              "text": "Lethargy worsens and perfusion declines"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring is stopped because antibiotics were started"
+            },
+            {
+              "id": "D",
+              "text": "Seizure-like movements appear with no escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement includes better responsiveness and stabilisation of infection-related instability."
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "title": "Febrile Seizure",
+      "stem": "A 20-month-old toddler is brought to the emergency department after a brief generalised seizure at home during a high fever. The parents are distressed and say the child had been sleepy and hot but was drinking small amounts. The seizure lasted about two minutes and stopped before arrival. On assessment, the toddler is sleepy but arousable, temperature is 39.5 C, heart rate is elevated, and breathing is unlaboured. The nurse must differentiate a likely febrile seizure from more dangerous neurological causes while still ensuring safety.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which features are consistent with a simple febrile seizure? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Age under 5 years"
+            },
+            {
+              "id": "B",
+              "text": "Fever at the time of seizure"
+            },
+            {
+              "id": "C",
+              "text": "Brief generalised seizure"
+            },
+            {
+              "id": "D",
+              "text": "Sleepy but arousable afterward"
+            },
+            {
+              "id": "E",
+              "text": "Seizure stopped spontaneously"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "These findings fit a simple febrile seizure pattern. Even so, the nurse must assess fully and ensure no additional red flags are present."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Likely febrile seizure requiring assessment and supportive management"
+            },
+            {
+              "id": "B",
+              "text": "Definite chronic epilepsy diagnosis"
+            },
+            {
+              "id": "C",
+              "text": "Normal tantrum behaviour"
+            },
+            {
+              "id": "D",
+              "text": "No further assessment is needed"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "A febrile seizure is still a seizure event requiring assessment, but it is often benign when it has the classic pattern described here."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent now?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ensuring post-seizure safety and identifying the source of fever"
+            },
+            {
+              "id": "B",
+              "text": "Long-term school planning"
+            },
+            {
+              "id": "C",
+              "text": "Delayed toy play"
+            },
+            {
+              "id": "D",
+              "text": "Need for permanent restraints"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Post-seizure safety and evaluation of the febrile illness are the priorities. Restraints are inappropriate."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess airway, breathing, circulation, mental status, and fever while supporting caregiver reassurance"
+            },
+            {
+              "id": "B",
+              "text": "Force oral medication immediately while the child is drowsy"
+            },
+            {
+              "id": "C",
+              "text": "Leave the child alone to sleep without monitoring"
+            },
+            {
+              "id": "D",
+              "text": "Delay vital signs until later"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Post-seizure assessment should always include ABCs and responsiveness. Oral intake should be considered only when safe."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Observe for recurrent seizure activity"
+            },
+            {
+              "id": "B",
+              "text": "Evaluate hydration and the cause of fever"
+            },
+            {
+              "id": "C",
+              "text": "Provide parent education about what to do if another seizure occurs"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the event because it stopped"
+            },
+            {
+              "id": "E",
+              "text": "Document the seizure history carefully"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "rationale": "Caregiver education is essential in febrile seizures. The event should not be ignored, even if it stopped before arrival."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates stability?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "The toddler becomes more alert, fever management begins, no further seizure occurs, and ABCs remain stable"
+            },
+            {
+              "id": "B",
+              "text": "The child becomes less responsive and develops breathing difficulty"
+            },
+            {
+              "id": "C",
+              "text": "No reassessment is performed after the child wakes"
+            },
+            {
+              "id": "D",
+              "text": "Recurrent seizures occur without escalation"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Stability after a febrile seizure is shown by recovery of alertness, no recurrent seizure, and stable ABCs."
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "title": "Type 1 Diabetes with Diabetic Ketoacidosis",
+      "stem": "A 13-year-old adolescent, Sara, presents with abdominal pain, vomiting, excessive thirst, and increasing fatigue. Her mother states that she has been urinating frequently and losing weight over the last few weeks, but the vomiting and weakness became severe today. Sara is breathing deeply and rapidly and seems increasingly drowsy. Vital signs reveal blood pressure 94/60 mmHg, pulse 128 beats per minute, respiratory rate 30 breaths per minute, dry mucous membranes, and fruity breath odour. Laboratory results show marked hyperglycaemia, acidosis, and ketones. The nurse identifies diabetic ketoacidosis.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which findings are most consistent with paediatric DKA? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Polyuria and weight loss history"
+            },
+            {
+              "id": "B",
+              "text": "Vomiting and abdominal pain"
+            },
+            {
+              "id": "C",
+              "text": "Fruity breath odour"
+            },
+            {
+              "id": "D",
+              "text": "Deep rapid respirations"
+            },
+            {
+              "id": "E",
+              "text": "Dehydration signs"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "All findings strongly support DKA. In children and adolescents, delayed recognition can lead to severe dehydration and cerebral complications."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mild gastroenteritis only"
+            },
+            {
+              "id": "B",
+              "text": "Diabetic ketoacidosis with dehydration and metabolic instability"
+            },
+            {
+              "id": "C",
+              "text": "Simple anxiety attack"
+            },
+            {
+              "id": "D",
+              "text": "Stable diabetes control"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is a classic DKA presentation, not simple gastroenteritis. NGN expects the nurse to link the glucose history, breathing pattern, and dehydration cues."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Severe metabolic instability with impaired perfusion risk"
+            },
+            {
+              "id": "B",
+              "text": "Disturbed body image"
+            },
+            {
+              "id": "C",
+              "text": "Missed school concern"
+            },
+            {
+              "id": "D",
+              "text": "Family inconvenience"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The main danger is life-threatening metabolic and fluid imbalance. Perfusion and electrolyte stability must be protected."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recognise DKA as an emergency, support monitoring, and prepare for protocol-based fluid and insulin management"
+            },
+            {
+              "id": "B",
+              "text": "Encourage exercise to lower glucose"
+            },
+            {
+              "id": "C",
+              "text": "Offer sugary drinks and delay review"
+            },
+            {
+              "id": "D",
+              "text": "Wait until the child asks for treatment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "DKA requires urgent monitored treatment. Fluids, insulin protocols, and close reassessment are essential."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monitor neurological status closely for cerebral oedema risk"
+            },
+            {
+              "id": "B",
+              "text": "Assess urine output and perfusion"
+            },
+            {
+              "id": "C",
+              "text": "Trend glucose and electrolytes, especially potassium"
+            },
+            {
+              "id": "D",
+              "text": "Support the parent and adolescent with brief clear explanation"
+            },
+            {
+              "id": "E",
+              "text": "Assume improvement once vomiting decreases"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Paediatric DKA requires close neurological observation because children are at risk of cerebral oedema. Electrolyte and perfusion monitoring remain critical."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates improvement?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hydration improves, glucose trends down appropriately, mental status becomes clearer, and breathing normalises gradually"
+            },
+            {
+              "id": "B",
+              "text": "Drowsiness deepens and perfusion worsens"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one blood sugar check"
+            },
+            {
+              "id": "D",
+              "text": "Vomiting increases and respirations worsen"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement in DKA is gradual and should include better hydration, glucose control, and neurological status."
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "title": "Child with Severe Burn Injury",
+      "stem": "A 6-year-old child, Ethan, is brought to the emergency department after accidentally pulling a pot of boiling water onto his chest and arm. He is crying loudly, in pain, and the skin is red with areas of blistering. His parents are distressed and trying to remove bits of clothing stuck to the skin. The nurse must assess the burn severity, support pain control, prevent further injury, and consider airway and fluid risks depending on the extent and location of the burn.",
+      "questions": [
+        {
+          "id": "q1",
+          "title": "Recognise cues",
+          "stem": "Which issues are immediate priorities in a paediatric burn? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pain assessment"
+            },
+            {
+              "id": "B",
+              "text": "Burn depth and body surface area estimation"
+            },
+            {
+              "id": "C",
+              "text": "Airway involvement risk if relevant"
+            },
+            {
+              "id": "D",
+              "text": "Prevention of further tissue injury"
+            },
+            {
+              "id": "E",
+              "text": "Caregiver distress management"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "rationale": "Paediatric burns require a broad safety focus. Pain, severity, airway risk, and further tissue protection are all important. Parents also need guidance so they do not inadvertently worsen the injury."
+        },
+        {
+          "id": "q2",
+          "title": "Analyse cues",
+          "stem": "What is the best interpretation?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minor scratch only"
+            },
+            {
+              "id": "B",
+              "text": "Burn injury requiring systematic paediatric assessment, pain control, and ongoing monitoring"
+            },
+            {
+              "id": "C",
+              "text": "Rash from allergy only"
+            },
+            {
+              "id": "D",
+              "text": "No injury if blistering is present"
+            }
+          ],
+          "correctOptionIds": [
+            "B"
+          ],
+          "rationale": "This is an acute burn injury requiring structured emergency care and paediatric safety considerations."
+        },
+        {
+          "id": "q3",
+          "title": "Prioritise hypothesis",
+          "stem": "Which problem is most urgent?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk for pain, fluid shift, and tissue injury related to burn trauma"
+            },
+            {
+              "id": "B",
+              "text": "Delayed playtime"
+            },
+            {
+              "id": "C",
+              "text": "Need for homework completion"
+            },
+            {
+              "id": "D",
+              "text": "Mild embarrassment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Pain and tissue injury are immediate concerns, and fluid issues become important depending on burn extent."
+        },
+        {
+          "id": "q4",
+          "title": "Take action",
+          "stem": "What should the nurse do first?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stop the burning process, assess ABCs and burn extent, provide pain support, and protect the wound appropriately"
+            },
+            {
+              "id": "B",
+              "text": "Remove stuck clothing by force"
+            },
+            {
+              "id": "C",
+              "text": "Apply ice directly for prolonged periods"
+            },
+            {
+              "id": "D",
+              "text": "Delay pain management until dressings are chosen"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "The nurse must prevent further injury, assess ABCs, and provide pain care. Forceful removal of adherent material and prolonged direct ice can worsen tissue damage."
+        },
+        {
+          "id": "q5",
+          "title": "Advanced decision",
+          "stem": "Which additional nursing actions are appropriate? Select all that apply.",
+          "type": "select_all",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reassess pain using an age-appropriate tool"
+            },
+            {
+              "id": "B",
+              "text": "Monitor for signs of shock if the burn is extensive"
+            },
+            {
+              "id": "C",
+              "text": "Provide calm support to the child and parents"
+            },
+            {
+              "id": "D",
+              "text": "Watch for infection risk as care progresses"
+            },
+            {
+              "id": "E",
+              "text": "Ignore the parent’s questions because treatment is more important"
+            }
+          ],
+          "correctOptionIds": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "rationale": "Family support remains part of paediatric care. Pain reassessment and infection prevention are essential."
+        },
+        {
+          "id": "q6",
+          "title": "Evaluate outcomes",
+          "stem": "Which finding best indicates effective early management?",
+          "type": "single",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pain becomes more controlled, the wound is protected, ABCs remain stable, and the child appears less distressed"
+            },
+            {
+              "id": "B",
+              "text": "The burn remains exposed and the child becomes more frightened"
+            },
+            {
+              "id": "C",
+              "text": "Monitoring stops after one dressing is placed"
+            },
+            {
+              "id": "D",
+              "text": "Perfusion worsens without reassessment"
+            }
+          ],
+          "correctOptionIds": [
+            "A"
+          ],
+          "rationale": "Improvement is reflected in better comfort, protected tissue, and stable overall status."
+        }
+      ]
+    }
+  ]
+}

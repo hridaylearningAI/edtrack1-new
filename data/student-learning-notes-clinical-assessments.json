@@ -1,0 +1,798 @@
+{
+  "courseCode": "NURS-M12",
+  "title": "Module 12 — Clinical Assessments",
+  "subtitle": "Student Learning Notes — Updated: January 2026",
+  "sections": [
+    {
+      "number": "1",
+      "title": "How to Use These Notes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Clinical assessment is the foundation of safe nursing care. In NCLEX, assessment is tested in almost every item because the nurse must recognise cues, prioritise problems, and respond appropriately. In OBA OSCE, assessment is tested as a practical skill—you must perform it safely, explain your actions, interpret findings, and communicate results using structured handover."
+        },
+        {
+          "type": "paragraph",
+          "text": "A reliable way to score well in assessment questions and OSCE stations is to use a structure every time. In these notes, you will learn to apply a systematic framework (ABCDE + head-to-toe) and then switch to focused assessment when needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three guiding rules for all assessments:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start with safety: look for life-threatening problems first (ABCDE).",
+            "Be systematic: do not jump around or miss body systems.",
+            "Do something with the data: interpret, document, and escalate when abnormal."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Module Learning Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Explain principles of safe clinical assessment and professional standards.",
+            "Perform primary survey (ABCDE) and secondary survey in emergencies.",
+            "Conduct a comprehensive head-to-toe assessment in a structured sequence.",
+            "Perform focused assessments for common clinical presentations (respiratory distress, chest pain, neuro change, abdominal pain, post-op).",
+            "Use validated assessment tools (pain scales, delirium screening, fall risk, pressure injury risk, NEWS2/Q-ADDS).",
+            "Interpret vital signs and recognise red flags requiring escalation.",
+            "Document assessment findings objectively and provide ISBAR/SBAR handover."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Foundations of Clinical Assessment",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Clinical assessment means collecting information about the patient's health status. This includes what the patient tells you (subjective data) and what you observe or measure (objective data). Assessment is not only measuring — it is also interpreting, prioritising, and responding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Safe nurses consistently ask: \"What does this finding mean?\" and \"What should I do next?\""
+        },
+        {
+          "type": "subsection",
+          "number": "1.1",
+          "title": "Core Principles",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Systematic approach: assess in the same order each time to avoid missing cues.",
+                "Accuracy: measure correctly; count respirations for a full minute if abnormal.",
+                "Objectivity: document facts, not opinions.",
+                "Privacy and dignity: close curtains, obtain consent, expose only what is necessary.",
+                "Cultural safety: adapt communication and use interpreters when required.",
+                "Comfort: explain procedures and manage pain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "1.2",
+          "title": "Assessment within ADPIE",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Assessment is the first step of the nursing process (ADPIE): Assess → Diagnose → Plan → Implement → Evaluate. A poor assessment leads to unsafe planning. In NCLEX, you will often see \"Assess first\" options—unless there is immediate ABC compromise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Primary Survey: ABCDE Framework",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "ABCDE is used when a patient is unstable or at risk of rapid deterioration. It prioritises life-threatening issues first and is a high-yield OSCE framework."
+        },
+        {
+          "type": "subsection",
+          "number": "2.1",
+          "title": "A — Airway",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Check if patient can speak clearly (best airway sign).",
+                "Look for obstruction: vomit, secretions, swelling, foreign body.",
+                "Listen for stridor or gurgling.",
+                "Position and suction as required; escalate if threatened."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.2",
+          "title": "B — Breathing",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "RR, depth, rhythm; SpO2 and work of breathing.",
+                "Chest expansion symmetry; auscultate lungs.",
+                "Interventions: upright position, oxygen per policy, bronchodilator orders if relevant."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "NCLEX cue: confusion and restlessness can be early hypoxia."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.3",
+          "title": "C — Circulation",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "HR, BP, perfusion (cap refill, skin colour/temp).",
+                "Check bleeding and IV sites.",
+                "Urine output as perfusion marker.",
+                "Control bleeding; escalate for shock indicators."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.4",
+          "title": "D — Disability",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "AVPU or GCS trend.",
+                "Pupils (size, equality, reaction).",
+                "Check BGL if altered LOC (hypoglycemia mimics stroke)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2.5",
+          "title": "E — Exposure/Environment",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Expose only as needed to look for injuries, rashes, wounds, devices. Prevent heat loss; maintain dignity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Secondary Survey and Head-to-Toe Assessment",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When the patient is stable, complete a comprehensive head-to-toe assessment. Be consistent in your order to avoid omissions."
+        },
+        {
+          "type": "subsection",
+          "number": "3.1",
+          "title": "General Survey",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "General appearance: distress, posture, facial expression.",
+                "Orientation and behaviour; speech clarity.",
+                "Hydration status."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.2",
+          "title": "Neurological",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Orientation, memory, speech.",
+                "PERRLA.",
+                "Motor strength and sensation; compare sides."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.3",
+          "title": "Respiratory",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Inspect: effort, symmetry, accessory muscles.",
+                "Auscultate lung fields bilaterally.",
+                "Cough, sputum, oxygen device settings."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.4",
+          "title": "Cardiovascular",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Pulse quality; peripheral perfusion.",
+                "Oedema, JVP (as appropriate).",
+                "OPQRST chest pain assessment."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.5",
+          "title": "Gastrointestinal",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sequence: Inspect → Auscultate → Palpate."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Distension/scars; bowel sounds.",
+                "Tenderness, guarding, rebound tenderness.",
+                "Stool characteristics."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.6",
+          "title": "Genitourinary",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Urine output amount/colour.",
+                "Bladder distension; hydration signs.",
+                "UTI symptoms."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.7",
+          "title": "Musculoskeletal",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Mobility, gait, strength.",
+                "Falls risk."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3.8",
+          "title": "Skin",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Colour/temp/moisture.",
+                "Pressure injury risk areas: heels, sacrum.",
+                "Wounds, bruising, rashes."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Focused Clinical Assessments",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Focused assessments are used for specific complaints and allow rapid relevant data collection."
+        },
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "title": "Respiratory Focus",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Onset, triggers, severity.",
+                "RR/SpO2 trend; ability to speak full sentences.",
+                "Lung sounds; chest expansion.",
+                "Peak flow if asthma context."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "title": "Cardiac Focus",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "OPQRST chest pain.",
+                "Nausea/sweating/dyspnea.",
+                "Perfusion, BP, rhythm.",
+                "Prepare ECG/monitor per policy."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "title": "Abdominal Focus",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Quadrant pain, onset, character.",
+                "N/V, fever, bowel changes.",
+                "Guarding/rebound tenderness suggests peritonitis."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.4",
+          "title": "Neuro Focus",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "FAST stroke screen.",
+                "GCS trend; pupils.",
+                "Motor comparison; BGL."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.5",
+          "title": "Post-op Focus",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Airway/breathing: SpO2, RR.",
+                "Circulation: BP/HR, bleeding at site.",
+                "Pain, nausea, urine output."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Pain Assessment",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pain requires structured assessment and reassessment after interventions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Numeric scale 0–10; FACES; FLACC for non-verbal.",
+            "OPQRST: Onset, Provocation, Quality, Region/Radiation, Severity, Time."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: \"When did it start? What makes it worse? Does it move anywhere?\""
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Mental Health and Cognitive Assessments",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "MSE: appearance/behaviour, mood/affect, thought process/content, cognition.",
+            "Suicide risk: intent, plan, means, protective factors—escalate immediately.",
+            "Delirium screening (CAM) and investigate causes: infection, hypoxia, meds."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Vital Signs Interpretation and Clinical Reasoning",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Tachypnea: early sepsis/hypoxia.",
+            "Tachycardia: pain, fever, dehydration, bleeding.",
+            "Hypotension: shock/bleeding—urgent.",
+            "Hypertension: pain/anxiety; possible neuro issues.",
+            "Fever: infection.",
+            "Low SpO2: respiratory or cardiac compromise."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pattern example: RR 30 + SpO2 88% + confusion → hypoxia; intervene immediately."
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Functional and Risk Screening Tools",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Falls risk: mobility + cognition + sedating meds + history.",
+            "Pressure injury risk: mobility, nutrition, moisture (Braden/Waterlow).",
+            "Deterioration tools: NEWS2 / Q-ADDS. High score requires escalation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Cultural, Ethical, Person-Centred Assessment",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Consent before touching; explain each step.",
+            "Use interpreters where needed.",
+            "Respect gender preferences and cultural beliefs.",
+            "Avoid assumptions; trauma-informed approach."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Documentation and Handover",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "10.1",
+          "title": "Objective Charting",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Document measurable findings.",
+                "Use quotes for patient statements.",
+                "Record interventions and response.",
+                "Avoid judgement."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "10.2",
+          "title": "ISBAR/SBAR",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Identification → Situation → Background → Assessment → Recommendation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Example: \"BP 88/52, HR 124, SpO2 90% post-op, dressing saturated. Recommend urgent review and fluids/labs.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "NGN-Style Case Studies",
+      "content": [
+        {
+          "type": "subsection",
+          "number": "1",
+          "title": "Case Study 1 — Respiratory Distress",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: A 64-year-old with COPD becomes increasingly breathless. RR 32, SpO2 86% on room air, audible wheeze, anxious."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key assessment cues: Tachypnea + hypoxia; Accessory muscles; Wheeze; Anxiety/confusion risk. Practice questions: What assessment is priority? What immediate actions are required? What findings require escalation? Model CJMM: Recognize: low SpO2 and high RR. Analyze: respiratory compromise. Prioritize: breathing. Generate solutions: upright position, oxygen per policy, auscultate lungs, call help if severe. Take action: implement ABC interventions and SBAR escalation. Evaluate: reassess SpO2/RR and ability to speak."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "2",
+          "title": "Case Study 2 — Chest Pain",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Crushing central chest pain radiating to left arm with nausea and sweating. BP 160/92, HR 112."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key assessment cues: Cardiac pain pattern; Autonomic symptoms; Tachycardia. Practice questions: What focused assessment is needed? Priority action? What to include in SBAR? Model CJMM: Recognize: possible ACS. Analyze: MI risk. Prioritize: circulation and perfusion. Solutions: OPQRST, vitals, prepare ECG, notify provider urgently. Take action: escalate immediately. Evaluate: pain response and vitals."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "3",
+          "title": "Case Study 3 — Postoperative Bleeding",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Two hours after surgery: BP 88/54, HR 126, pale, saturated dressing, dizziness."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key assessment cues: Shock indicators; Bleeding; Dizziness. Practice questions: Immediate framework? Urgent nursing actions? What to document? Model CJMM: Recognize: shock + bleeding. Analyze: hemorrhage risk. Prioritize: ABC + circulation. Solutions: control bleeding, position, call rapid response, prepare IV fluids per order. Take action: SBAR escalation. Evaluate: vitals and perfusion trend."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4",
+          "title": "Case Study 4 — Acute Confusion",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: Older adult becomes suddenly confused at night, trying to climb out of bed. Temp 38.5°C."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key assessment cues: Acute delirium; Fever suggests infection; High falls risk. Practice questions: What assessments? Immediate safety actions? Possible causes? Model CJMM: Recognize: delirium and fever. Analyze: infection/hypoxia/meds. Prioritize: safety + cause. Solutions: fall precautions, check SpO2/BGL/vitals, CAM, notify provider. Take action: supervision and escalation. Evaluate: orientation and safety outcomes."
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "5",
+          "title": "Case Study 5 — Abdominal Pain",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Scenario: RLQ abdominal pain with nausea and rebound tenderness."
+            },
+            {
+              "type": "paragraph",
+              "text": "Key assessment cues: Localized RLQ pain; Rebound tenderness; Nausea. Practice questions: Focused assessment? Urgency signs? What to avoid? Model CJMM: Recognize: acute abdomen possible. Analyze: appendicitis/peritonitis risk. Prioritize: escalation + NPO. Solutions: OPQRST, vitals, abdomen assessment, keep NPO, notify provider. Take action: prepare diagnostics. Evaluate: pain/vitals trend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Mini Quiz — Module 12 Clinical Assessments",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Instructions: Choose the best assessment priority and safest action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 1: RR 30, SpO2 87%, restlessness. Priority framework?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Head-to-toe only",
+            "B. ABCDE primary survey",
+            "C. GI assessment",
+            "D. Skin assessment"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Unstable cues require ABCDE rapid assessment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 2: Which indicates airway compromise?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Speaking clearly",
+            "B. Stridor and inability to talk",
+            "C. BP 140/90",
+            "D. Pain 3/10"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Stridor/inability to talk suggests obstruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 3: Correct sequence for abdominal assessment is:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Palpate then auscultate",
+            "B. Inspect, auscultate, palpate",
+            "C. Auscultate then inspect",
+            "D. Percuss then palpate"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Auscultate before palpation to avoid altering bowel sounds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 4: Post-op BP 88/52, HR 128, saturated dressing. First action?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Document",
+            "B. Assess ABCs and escalate urgently",
+            "C. Wait 30 min",
+            "D. Offer fluids only"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Shock/bleeding cues require immediate assessment and escalation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 5: Sudden unilateral weakness and slurred speech requires:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. FAST assessment and escalation",
+            "B. Pain assessment",
+            "C. Urinalysis",
+            "D. Diet review"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: FAST identifies stroke and requires urgent action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 6: C. diff suspected. Nurse should use:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Alcohol rub only",
+            "B. Soap and water + contact precautions",
+            "C. No gloves",
+            "D. Airborne precautions"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: C. diff spores need soap-and-water and contact precautions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 7: OPQRST includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Onset, Provocation, Quality, Region/Radiation, Severity, Time",
+            "B. Oxygen, Pulse, Quality, RR, Temp",
+            "C. Output, Pain, Quantity, Response, Time",
+            "D. None"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: A. Rationale: OPQRST is pain assessment framework."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 8: Delirious patient climbing out of bed priority management:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Privacy only",
+            "B. Immediate fall prevention + assess causes",
+            "C. Leave alone",
+            "D. Give sedative automatically"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Safety first then investigate cause and escalate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 9: Objective documentation example:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Patient is difficult",
+            "B. BP 88/52, HR 124, dressing saturated",
+            "C. Family is annoying",
+            "D. Patient exaggerates pain"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: Objective charting is measurable and factual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini Quiz Question 10: In SBAR, Recommendation should be:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Whole day story",
+            "B. Clear request for provider action",
+            "C. Patient opinion only",
+            "D. Nothing"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Correct Answer: B. Rationale: SBAR ends with a clear recommendation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer Review Strategy: For any incorrect answer, identify the correct framework (ABCDE, focused assessment, OPQRST, FAST, SBAR) and practise stating it aloud as in OSCE."
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "Disclaimer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These learning notes are an educational aid for NCLEX and OBA OSCE preparation and do not replace local clinical policies, professional standards, or supervision."
+        }
+      ]
+    }
+  ]
+}

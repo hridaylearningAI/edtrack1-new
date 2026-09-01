@@ -1,0 +1,2245 @@
+{
+  "passingScorePercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "An International Qualified Nurse (IQN) has recently commenced employment in an Australian hospital. During a busy shift, the registered nurse asks the IQN to administer intravenous antibiotics independently. Although the IQN performed this procedure frequently in their home country, they have not yet completed the hospital's competency assessment. What is the MOST appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask another nurse to sign the medication chart afterwards."
+        },
+        {
+          "id": "B",
+          "text": "Decline to care for the patient."
+        },
+        {
+          "id": "C",
+          "text": "Administer the medication because of previous experience."
+        },
+        {
+          "id": "D",
+          "text": "Complete the medication administration under supervision after informing the RN of the competency limitation."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional nurses must work within both their professional scope of practice and organisational policies. Previous overseas experience does not replace local competency requirements. Seeking supervision protects patient safety."
+    },
+    {
+      "id": "q2",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is caring for four patients. Which patient should be assessed FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A patient complaining of sudden difficulty breathing."
+        },
+        {
+          "id": "B",
+          "text": "A patient requesting assistance with breakfast."
+        },
+        {
+          "id": "C",
+          "text": "A patient asking when the doctor will visit."
+        },
+        {
+          "id": "D",
+          "text": "A patient requesting pain medication for chronic arthritis."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Airway and breathing always take priority. Sudden shortness of breath may indicate rapid clinical deterioration requiring immediate assessment."
+    },
+    {
+      "id": "q3",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "An IQN notices that another nurse is preparing medication for the wrong patient. What should the IQN do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait until after medication administration."
+        },
+        {
+          "id": "B",
+          "text": "Report the incident after the shift."
+        },
+        {
+          "id": "C",
+          "text": "Immediately intervene respectfully to prevent the error."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the situation."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patient safety is everyone's responsibility. Immediate intervention prevents harm while maintaining professional communication."
+    },
+    {
+      "id": "q4",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient asks the nurse, \"I don't understand why I'm having this treatment.\" What is the BEST nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"The doctor will explain later.\""
+        },
+        {
+          "id": "B",
+          "text": "Explain the treatment within your scope of practice and clarify any concerns."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient not to worry."
+        },
+        {
+          "id": "D",
+          "text": "\"I'm not sure either.\""
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Nurses play an important role in patient education and informed decision-making within their professional scope."
+    },
+    {
+      "id": "q5",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "During handover, a nurse receives information that one patient has deteriorated overnight. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Begin routine medication round."
+        },
+        {
+          "id": "B",
+          "text": "Visit the deteriorating patient immediately after reviewing the handover."
+        },
+        {
+          "id": "C",
+          "text": "Complete documentation first."
+        },
+        {
+          "id": "D",
+          "text": "Read all patient notes before assessment."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Patients showing signs of deterioration require timely assessment before routine care activities."
+    },
+    {
+      "id": "q6",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse receives a verbal medication order over the telephone. Which action is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait until the next shift."
+        },
+        {
+          "id": "B",
+          "text": "Ask another nurse to remember it."
+        },
+        {
+          "id": "C",
+          "text": "Administer immediately."
+        },
+        {
+          "id": "D",
+          "text": "Repeat the order back to confirm accuracy and follow organisational policy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Read-back confirmation reduces communication errors and supports medication safety."
+    },
+    {
+      "id": "q7",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "An elderly patient repeatedly attempts to get out of bed despite being identified as a high falls risk. What is the nurse's BEST intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase observation, address the reason for getting up, and implement falls prevention strategies."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the behaviour."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to stay in bed."
+        },
+        {
+          "id": "D",
+          "text": "Apply physical restraints immediately."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "The nurse should first identify and address underlying needs while implementing evidence-based falls prevention measures. Restraints should not be used routinely."
+    },
+    {
+      "id": "q8",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "An IQN notices that a colleague frequently omits hand hygiene between patients. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell patients to remind the colleague."
+        },
+        {
+          "id": "B",
+          "text": "Report anonymously without discussion."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the behaviour."
+        },
+        {
+          "id": "D",
+          "text": "Discuss the issue respectfully with the colleague and escalate if necessary."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional accountability includes addressing unsafe practice respectfully while promoting patient safety."
+    },
+    {
+      "id": "q9",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient refuses a blood transfusion because of religious beliefs. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respect the patient's decision, ensure the healthcare team is informed, and document appropriately."
+        },
+        {
+          "id": "B",
+          "text": "Ask the family to persuade the patient."
+        },
+        {
+          "id": "C",
+          "text": "Convince the patient to accept treatment."
+        },
+        {
+          "id": "D",
+          "text": "Delay documentation."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Competent adults have the legal right to refuse treatment, even when refusal may affect their health."
+    },
+    {
+      "id": "q10",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which action best demonstrates culturally safe nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoiding discussion of cultural issues."
+        },
+        {
+          "id": "B",
+          "text": "Asking each patient about individual beliefs, preferences, and healthcare expectations."
+        },
+        {
+          "id": "C",
+          "text": "Assuming all patients from one culture have identical beliefs."
+        },
+        {
+          "id": "D",
+          "text": "Treating everyone exactly the same."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Cultural safety requires recognising every patient's individual values rather than relying on stereotypes."
+    },
+    {
+      "id": "q11",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient suddenly becomes confused after surgery. What is the nurse's PRIORITY action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Document the confusion."
+        },
+        {
+          "id": "B",
+          "text": "Ask family members if this is normal."
+        },
+        {
+          "id": "C",
+          "text": "Encourage the patient to rest."
+        },
+        {
+          "id": "D",
+          "text": "Perform an immediate assessment and notify the appropriate clinician."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Acute confusion may indicate delirium or other serious complications requiring prompt assessment."
+    },
+    {
+      "id": "q12",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse notices that an intravenous infusion pump is alarming continuously. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask housekeeping to investigate."
+        },
+        {
+          "id": "B",
+          "text": "Silence the alarm and continue other work."
+        },
+        {
+          "id": "C",
+          "text": "Assess the patient and identify the cause of the alarm."
+        },
+        {
+          "id": "D",
+          "text": "Turn off the pump."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Patient assessment always takes priority when medical equipment alarms."
+    },
+    {
+      "id": "q13",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient expresses dissatisfaction with their care. What is the MOST professional nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Become defensive."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the complaint."
+        },
+        {
+          "id": "C",
+          "text": "Listen actively, acknowledge concerns, and attempt to resolve the issue appropriately."
+        },
+        {
+          "id": "D",
+          "text": "Tell the patient to speak only with the doctor."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional communication involves active listening, empathy, and timely resolution of patient concerns."
+    },
+    {
+      "id": "q14",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which patient should the nurse review FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient waiting for discharge paperwork."
+        },
+        {
+          "id": "B",
+          "text": "Patient with new onset chest pain."
+        },
+        {
+          "id": "C",
+          "text": "Patient requesting another pillow."
+        },
+        {
+          "id": "D",
+          "text": "Patient awaiting lunch."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Chest pain may indicate a life-threatening cardiac event requiring immediate assessment."
+    },
+    {
+      "id": "q15",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "An IQN is unfamiliar with a local hospital policy. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the policy before proceeding."
+        },
+        {
+          "id": "B",
+          "text": "Follow previous overseas practice."
+        },
+        {
+          "id": "C",
+          "text": "Guess the correct procedure."
+        },
+        {
+          "id": "D",
+          "text": "Ask another nurse to complete the task permanently."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Understanding local organisational policies is essential for safe and compliant nursing practice."
+    },
+    {
+      "id": "q16",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient begins to deteriorate rapidly. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait for the doctor to arrive."
+        },
+        {
+          "id": "B",
+          "text": "Finish current documentation first."
+        },
+        {
+          "id": "C",
+          "text": "Observe for another 30 minutes."
+        },
+        {
+          "id": "D",
+          "text": "Activate the appropriate clinical escalation process according to hospital policy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Early recognition and escalation of clinical deterioration improve patient outcomes."
+    },
+    {
+      "id": "q17",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which behaviour best demonstrates professional resilience?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blaming colleagues for mistakes."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding feedback."
+        },
+        {
+          "id": "C",
+          "text": "Reflecting on practice and learning from experience."
+        },
+        {
+          "id": "D",
+          "text": "Refusing additional education."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Reflective practice promotes continuous professional development and improves future clinical performance."
+    },
+    {
+      "id": "q18",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A family member asks the nurse for confidential information about another patient in the same room. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask another patient to explain."
+        },
+        {
+          "id": "B",
+          "text": "Politely decline and maintain confidentiality."
+        },
+        {
+          "id": "C",
+          "text": "Share the information."
+        },
+        {
+          "id": "D",
+          "text": "Provide limited details."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Confidentiality remains a legal and ethical obligation regardless of who requests the information."
+    },
+    {
+      "id": "q19",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse identifies a potential medication error before it reaches the patient. What should happen NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore it because no harm occurred."
+        },
+        {
+          "id": "B",
+          "text": "Discuss it only during lunch."
+        },
+        {
+          "id": "C",
+          "text": "Wait until annual appraisal."
+        },
+        {
+          "id": "D",
+          "text": "Report the near miss according to organisational policy."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reporting near misses supports organisational learning and strengthens patient safety systems."
+    },
+    {
+      "id": "q20",
+      "section": 1,
+      "sectionLabel": "Transitioning to International Nursing Practice",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement best reflects the role of an International Qualified Nurse transitioning into a new healthcare system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Previous experience removes the need to learn local practice."
+        },
+        {
+          "id": "B",
+          "text": "Successful transition requires adapting to local legislation, standards, communication practices, and organisational policies while building on previous professional experience."
+        },
+        {
+          "id": "C",
+          "text": "Local nursing standards are optional."
+        },
+        {
+          "id": "D",
+          "text": "International nurses should avoid asking questions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Transitioning to international practice involves integrating previous experience with the legal, professional, ethical, and cultural expectations of the new healthcare system. This supports safe, effective, and patient-centred care."
+    },
+    {
+      "id": "q21",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse begins a shift caring for four patients. Which patient should be assessed FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A patient waiting for routine wound dressing."
+        },
+        {
+          "id": "B",
+          "text": "A patient requesting assistance with breakfast."
+        },
+        {
+          "id": "C",
+          "text": "A patient awaiting discharge instructions."
+        },
+        {
+          "id": "D",
+          "text": "A patient reporting sudden onset chest pain and shortness of breath."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical reasoning begins with prioritising life-threatening conditions. Chest pain with shortness of breath may indicate acute coronary syndrome or pulmonary embolism requiring immediate assessment."
+    },
+    {
+      "id": "q22",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A postoperative patient suddenly becomes restless, anxious and complains of difficulty breathing. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administer prescribed pain medication."
+        },
+        {
+          "id": "B",
+          "text": "Encourage the patient to sleep."
+        },
+        {
+          "id": "C",
+          "text": "Complete observations later."
+        },
+        {
+          "id": "D",
+          "text": "Assess airway, breathing and oxygen saturation immediately."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Restlessness and dyspnoea are early indicators of patient deterioration. Immediate ABC assessment is the priority."
+    },
+    {
+      "id": "q23",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient's blood pressure has decreased from 128/78 mmHg to 88/54 mmHg within one hour following surgery. What is the nurse's PRIORITY action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assess the patient immediately and escalate according to hospital policy."
+        },
+        {
+          "id": "B",
+          "text": "Repeat observations tomorrow."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the doctor arrives on the ward."
+        },
+        {
+          "id": "D",
+          "text": "Continue routine observations."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "A significant drop in blood pressure may indicate haemorrhage or shock. Early recognition and escalation improve patient outcomes."
+    },
+    {
+      "id": "q24",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient receiving oxygen therapy has an oxygen saturation of 84% despite oxygen being in place. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the patient to rest."
+        },
+        {
+          "id": "B",
+          "text": "Reduce oxygen flow."
+        },
+        {
+          "id": "C",
+          "text": "Assess the patient and ensure the oxygen equipment is functioning correctly while initiating appropriate escalation."
+        },
+        {
+          "id": "D",
+          "text": "Increase fluids."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Low oxygen saturation requires immediate assessment of both the patient and the oxygen delivery system before further interventions."
+    },
+    {
+      "id": "q25",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Evidence-based nursing practice is best described as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using experience alone."
+        },
+        {
+          "id": "B",
+          "text": "Combining research evidence, clinical expertise and patient preferences."
+        },
+        {
+          "id": "C",
+          "text": "Following tradition."
+        },
+        {
+          "id": "D",
+          "text": "Following only medical instructions."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Evidence-based practice integrates current research, professional expertise and the patient's values to provide optimal care."
+    },
+    {
+      "id": "q26",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse notices a patient's respiratory rate has increased from 18 to 30 breaths per minute over two hours. What should the nurse recognise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeat observations at the end of the shift."
+        },
+        {
+          "id": "B",
+          "text": "This is normal variation."
+        },
+        {
+          "id": "C",
+          "text": "Respiratory rate is often an early indicator of clinical deterioration."
+        },
+        {
+          "id": "D",
+          "text": "Respiratory rate is less important than pulse rate."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "An increasing respiratory rate is one of the earliest indicators of serious patient deterioration."
+    },
+    {
+      "id": "q27",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient develops confusion, fever and low blood pressure. Which condition should the nurse suspect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anxiety."
+        },
+        {
+          "id": "B",
+          "text": "Normal postoperative recovery."
+        },
+        {
+          "id": "C",
+          "text": "Dehydration only."
+        },
+        {
+          "id": "D",
+          "text": "Possible sepsis requiring urgent assessment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Confusion, fever and hypotension are classic warning signs of sepsis requiring immediate intervention."
+    },
+    {
+      "id": "q28",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient says, \"I don't think this medication is working.\" What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Continue taking it.\""
+        },
+        {
+          "id": "B",
+          "text": "Ignore the concern."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to wait."
+        },
+        {
+          "id": "D",
+          "text": "Assess the patient's symptoms and evaluate the effectiveness of the treatment."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical reasoning requires nurses to evaluate treatment effectiveness based on patient assessment."
+    },
+    {
+      "id": "q29",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which patient requires the MOST urgent review?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New confusion with oxygen saturation of 88%."
+        },
+        {
+          "id": "B",
+          "text": "Temperature 36.8°C."
+        },
+        {
+          "id": "C",
+          "text": "Request for assistance walking."
+        },
+        {
+          "id": "D",
+          "text": "Pain score 2/10."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Acute confusion and hypoxaemia suggest serious deterioration requiring immediate assessment."
+    },
+    {
+      "id": "q30",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse notices that a patient's urine output has fallen significantly over the previous four hours. Why is this concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentation error."
+        },
+        {
+          "id": "B",
+          "text": "Patients normally produce little urine after surgery."
+        },
+        {
+          "id": "C",
+          "text": "It is expected in all patients."
+        },
+        {
+          "id": "D",
+          "text": "It may indicate impaired kidney perfusion or deterioration."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Reduced urine output is an important clinical indicator of reduced organ perfusion and possible deterioration."
+    },
+    {
+      "id": "q31",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "When reviewing patient observations, which trend is MOST important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One normal observation."
+        },
+        {
+          "id": "B",
+          "text": "Bed location."
+        },
+        {
+          "id": "C",
+          "text": "The overall pattern of changing observations over time."
+        },
+        {
+          "id": "D",
+          "text": "The patient's age."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Clinical reasoning involves recognising trends rather than relying on isolated measurements."
+    },
+    {
+      "id": "q32",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient complains of increasing pain despite receiving analgesia. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the complaint."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient pain is expected."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next medication round."
+        },
+        {
+          "id": "D",
+          "text": "Reassess the patient and investigate possible causes."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Persistent pain may indicate complications and requires reassessment rather than assumptions."
+    },
+    {
+      "id": "q33",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse identifies that current evidence recommends a different wound dressing than the one routinely used. What is the BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Discuss the evidence with the clinical team following organisational procedures."
+        },
+        {
+          "id": "B",
+          "text": "Change practice independently."
+        },
+        {
+          "id": "C",
+          "text": "Continue outdated practice permanently."
+        },
+        {
+          "id": "D",
+          "text": "Ignore current evidence."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Evidence-based improvements should be introduced collaboratively and within organisational governance."
+    },
+    {
+      "id": "q34",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient suddenly becomes pale, sweaty and dizzy after standing. What is the nurse's FIRST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leave to find another nurse."
+        },
+        {
+          "id": "B",
+          "text": "Encourage the patient to continue walking."
+        },
+        {
+          "id": "C",
+          "text": "Assist the patient back to a safe position and assess vital signs."
+        },
+        {
+          "id": "D",
+          "text": "Offer food first."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Immediate patient safety and assessment are priorities when signs of instability occur."
+    },
+    {
+      "id": "q35",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which assessment finding requires immediate escalation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New onset reduced level of consciousness."
+        },
+        {
+          "id": "B",
+          "text": "Temperature 36.7°C."
+        },
+        {
+          "id": "C",
+          "text": "Pulse 76 bpm."
+        },
+        {
+          "id": "D",
+          "text": "Blood pressure 122/78 mmHg."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Altered consciousness is a major sign of clinical deterioration requiring urgent review."
+    },
+    {
+      "id": "q36",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best reflects clinical reasoning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Waiting for doctors before assessing patients."
+        },
+        {
+          "id": "B",
+          "text": "Memorising procedures."
+        },
+        {
+          "id": "C",
+          "text": "Following routines exactly."
+        },
+        {
+          "id": "D",
+          "text": "Collecting assessment data, interpreting findings and making safe clinical decisions."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Clinical reasoning is a structured thinking process used to deliver safe, evidence-based care."
+    },
+    {
+      "id": "q37",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient with diabetes becomes sweaty, confused and shaky before lunch. What should the nurse suspect FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoglycaemia."
+        },
+        {
+          "id": "B",
+          "text": "Hypertension."
+        },
+        {
+          "id": "C",
+          "text": "Anxiety."
+        },
+        {
+          "id": "D",
+          "text": "Hyperthermia."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "These are classic symptoms of low blood glucose requiring immediate assessment and management."
+    },
+    {
+      "id": "q38",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient's family expresses concern that \"something isn't right.\" What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the comment."
+        },
+        {
+          "id": "B",
+          "text": "Tell them to wait for the doctor."
+        },
+        {
+          "id": "C",
+          "text": "Reassure them without assessment."
+        },
+        {
+          "id": "D",
+          "text": "Take the concern seriously and reassess the patient."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Family members often recognise subtle changes before clinical deterioration becomes obvious."
+    },
+    {
+      "id": "q39",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which nursing action demonstrates evidence-based medication safety?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delegating medication administration to untrained staff."
+        },
+        {
+          "id": "B",
+          "text": "Administering medications from memory."
+        },
+        {
+          "id": "C",
+          "text": "Preparing medications hours in advance."
+        },
+        {
+          "id": "D",
+          "text": "Following current medication administration guidelines and verifying patient identity."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Evidence-based medication practices reduce medication errors and improve patient safety."
+    },
+    {
+      "id": "q40",
+      "section": 2,
+      "sectionLabel": "Clinical Reasoning and Evidence-Based Nursing",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse has assessed a deteriorating patient, initiated immediate nursing interventions, and activated the hospital's escalation process. What should the nurse do NEXT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wait outside the patient's room."
+        },
+        {
+          "id": "B",
+          "text": "Continue monitoring, communicate clearly with the responding team, and document all assessments and interventions."
+        },
+        {
+          "id": "C",
+          "text": "Leave the patient unattended."
+        },
+        {
+          "id": "D",
+          "text": "Return to routine duties immediately."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Clinical reasoning continues after escalation. Ongoing assessment, effective communication, and accurate documentation are essential for safe patient management."
+    },
+    {
+      "id": "q41",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "During shift handover, the outgoing nurse reports that a patient \"looks unwell\" but provides no further details. What should the receiving nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Read the notes later."
+        },
+        {
+          "id": "B",
+          "text": "Request specific clinical information, including observations, recent changes, and interventions."
+        },
+        {
+          "id": "C",
+          "text": "Accept the handover and continue the shift."
+        },
+        {
+          "id": "D",
+          "text": "Wait until the doctor reviews the patient."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Effective handover requires clear, structured, and objective information to ensure continuity and patient safety."
+    },
+    {
+      "id": "q42",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse is documenting a patient's wound assessment. Which documentation is MOST appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Surgical wound measures 4 cm × 2 cm with minimal serous drainage. Surrounding skin intact. Patient reports pain score 3/10.\""
+        },
+        {
+          "id": "B",
+          "text": "\"Patient has a large wound.\""
+        },
+        {
+          "id": "C",
+          "text": "\"The wound looks terrible.\""
+        },
+        {
+          "id": "D",
+          "text": "\"Wound seems okay.\""
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Documentation should be objective, accurate, measurable, and free from personal opinions."
+    },
+    {
+      "id": "q43",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient suddenly becomes hypotensive. After initiating emergency interventions, what documentation is MOST important?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the patient's blood pressure."
+        },
+        {
+          "id": "B",
+          "text": "Medication chart only."
+        },
+        {
+          "id": "C",
+          "text": "A brief summary at the end of the shift."
+        },
+        {
+          "id": "D",
+          "text": "Assessments, interventions, patient responses, notifications, and time of events."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Comprehensive documentation provides a legal record and ensures continuity of care."
+    },
+    {
+      "id": "q44",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient speaks very little English and requires consent for a procedure. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask another patient to translate."
+        },
+        {
+          "id": "B",
+          "text": "Arrange a qualified medical interpreter."
+        },
+        {
+          "id": "C",
+          "text": "Ask a cleaner to explain."
+        },
+        {
+          "id": "D",
+          "text": "Use gestures only."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Qualified interpreters ensure informed consent, patient safety, and legal compliance."
+    },
+    {
+      "id": "q45",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient tells the nurse, \"Please don't tell my family about my diagnosis.\" What is the MOST appropriate response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the family after the shift."
+        },
+        {
+          "id": "B",
+          "text": "Inform the family anyway."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse to tell them."
+        },
+        {
+          "id": "D",
+          "text": "Respect the patient's wishes unless disclosure is legally required."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patients have the right to confidentiality and control over disclosure of personal health information."
+    },
+    {
+      "id": "q46",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which communication technique best demonstrates active listening?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Looking at the computer while the patient speaks."
+        },
+        {
+          "id": "B",
+          "text": "Frequently interrupting."
+        },
+        {
+          "id": "C",
+          "text": "Maintaining eye contact, summarising the patient's concerns, and asking clarifying questions."
+        },
+        {
+          "id": "D",
+          "text": "Changing the subject."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Active listening promotes understanding, trust, and therapeutic relationships."
+    },
+    {
+      "id": "q47",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse receives a telephone order from a doctor. Which action is safest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Write it down and administer immediately."
+        },
+        {
+          "id": "B",
+          "text": "Read the order back to confirm accuracy before implementation."
+        },
+        {
+          "id": "C",
+          "text": "Ask another nurse later."
+        },
+        {
+          "id": "D",
+          "text": "Wait until tomorrow."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Read-back communication significantly reduces medication and communication errors."
+    },
+    {
+      "id": "q48",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient becomes angry after waiting several hours for diagnostic tests. What is the BEST nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the complaint."
+        },
+        {
+          "id": "B",
+          "text": "Leave the room."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to calm down."
+        },
+        {
+          "id": "D",
+          "text": "Listen to the patient's concerns, acknowledge the frustration, explain the situation honestly, and update them on the plan."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Acknowledging emotions and providing clear information helps de-escalate conflict."
+    },
+    {
+      "id": "q49",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A colleague asks you to document observations that they performed. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sign using the colleague's initials."
+        },
+        {
+          "id": "B",
+          "text": "Document them."
+        },
+        {
+          "id": "C",
+          "text": "Document without signing."
+        },
+        {
+          "id": "D",
+          "text": "Explain that documentation should only reflect care you personally provided or observed."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Professional documentation must accurately reflect the nurse's own actions and observations."
+    },
+    {
+      "id": "q50",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement best reflects professional communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giving instructions only."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding difficult conversations."
+        },
+        {
+          "id": "C",
+          "text": "Clear, respectful, timely, accurate, and patient-centred communication."
+        },
+        {
+          "id": "D",
+          "text": "Speaking quickly."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Professional communication improves teamwork and patient safety."
+    },
+    {
+      "id": "q51",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient begins crying while discussing a recent cancer diagnosis. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Change the subject."
+        },
+        {
+          "id": "B",
+          "text": "Leave the room."
+        },
+        {
+          "id": "C",
+          "text": "Sit quietly, acknowledge the patient's emotions, and encourage them to express their feelings."
+        },
+        {
+          "id": "D",
+          "text": "Offer reassurance by saying \"Everything will be fine.\""
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Therapeutic communication supports emotional wellbeing through empathy and active listening."
+    },
+    {
+      "id": "q52",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A nurse notices incorrect information documented in the patient's notes by another clinician. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the error."
+        },
+        {
+          "id": "B",
+          "text": "Follow organisational procedures to report and correct the documentation."
+        },
+        {
+          "id": "C",
+          "text": "Delete the original entry."
+        },
+        {
+          "id": "D",
+          "text": "Rewrite the notes completely."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Errors should be corrected according to legal and organisational documentation standards."
+    },
+    {
+      "id": "q53",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which statement about electronic health records (EHRs) is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Family members may access records without permission."
+        },
+        {
+          "id": "B",
+          "text": "Only authorised healthcare professionals should access patient records."
+        },
+        {
+          "id": "C",
+          "text": "Passwords may be shared with colleagues."
+        },
+        {
+          "id": "D",
+          "text": "Records may be viewed out of curiosity."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Electronic health records are confidential legal documents with controlled access."
+    },
+    {
+      "id": "q54",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse is giving a clinical handover using the ISBAR framework. What does the letter \"A\" represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accuracy"
+        },
+        {
+          "id": "B",
+          "text": "Admission"
+        },
+        {
+          "id": "C",
+          "text": "Assessment"
+        },
+        {
+          "id": "D",
+          "text": "Action"
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "ISBAR stands for Identification, Situation, Background, Assessment, Recommendation."
+    },
+    {
+      "id": "q55",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient refuses medication but appears fully competent to make decisions. What should the nurse document?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The medication refusal, education provided, patient's stated reason, and healthcare team notification."
+        },
+        {
+          "id": "B",
+          "text": "\"Medication not required.\""
+        },
+        {
+          "id": "C",
+          "text": "\"Patient difficult.\""
+        },
+        {
+          "id": "D",
+          "text": "Nothing."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Documentation should accurately record informed refusal and subsequent nursing actions."
+    },
+    {
+      "id": "q56",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A family member asks, \"Can you tell me the results of my father's tests?\" The patient has not given permission to share information. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explain the results."
+        },
+        {
+          "id": "B",
+          "text": "Politely explain that patient consent is required before discussing confidential information."
+        },
+        {
+          "id": "C",
+          "text": "Ask another family member."
+        },
+        {
+          "id": "D",
+          "text": "Give limited information."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Confidentiality remains a professional and legal responsibility."
+    },
+    {
+      "id": "q57",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse realises they documented medication administration before actually giving the medication. What is the MOST appropriate action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the mistake."
+        },
+        {
+          "id": "B",
+          "text": "Delete the record."
+        },
+        {
+          "id": "C",
+          "text": "Administer the medication later without changing documentation."
+        },
+        {
+          "id": "D",
+          "text": "Correct the documentation according to organisational policy and ensure the medication is administered safely."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Documentation should always reflect actual care provided. Errors must be corrected transparently."
+    },
+    {
+      "id": "q58",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient with hearing impairment struggles to understand discharge instructions. What is the BEST nursing intervention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give instructions to a visitor instead."
+        },
+        {
+          "id": "B",
+          "text": "Provide written information, face the patient while speaking, and confirm understanding."
+        },
+        {
+          "id": "C",
+          "text": "Speak louder."
+        },
+        {
+          "id": "D",
+          "text": "Skip discharge education."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Communication should be adapted to meet individual patient needs while confirming understanding."
+    },
+    {
+      "id": "q59",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "Which statement best describes therapeutic communication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Building trust through empathy, respect, active listening, and patient-centred responses."
+        },
+        {
+          "id": "B",
+          "text": "Avoiding emotional conversations."
+        },
+        {
+          "id": "C",
+          "text": "Speaking most of the time."
+        },
+        {
+          "id": "D",
+          "text": "Giving advice based on personal opinion."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Therapeutic communication supports patient engagement, emotional wellbeing, and quality care."
+    },
+    {
+      "id": "q60",
+      "section": 3,
+      "sectionLabel": "Safe Communication and Professional Documentation",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "During handover, the nurse notices that an important allergy was omitted from the report. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore the omission."
+        },
+        {
+          "id": "B",
+          "text": "Clarify the allergy immediately, update the receiving team, and ensure documentation is accurate."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next handover."
+        },
+        {
+          "id": "D",
+          "text": "Assume it is documented elsewhere."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Accurate communication during clinical handover is essential for preventing medication errors and protecting patient safety."
+    },
+    {
+      "id": "q61",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient newly diagnosed with diabetes says, \"My life is over.\" What is the MOST appropriate nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Many people live well with diabetes. Tell me what worries you the most.\""
+        },
+        {
+          "id": "B",
+          "text": "\"Let's discuss your medications instead.\""
+        },
+        {
+          "id": "C",
+          "text": "\"You'll get used to it.\""
+        },
+        {
+          "id": "D",
+          "text": "\"You shouldn't feel that way.\""
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Acknowledging emotions and inviting discussion demonstrates empathy and supports person-centred care."
+    },
+    {
+      "id": "q62",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "An elderly patient refuses assistance with showering. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insist on completing the shower."
+        },
+        {
+          "id": "B",
+          "text": "Explore the patient's concerns while respecting dignity and promoting independence."
+        },
+        {
+          "id": "C",
+          "text": "Cancel personal hygiene."
+        },
+        {
+          "id": "D",
+          "text": "Report non-compliance immediately."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Person-centred care respects patient autonomy while exploring barriers and encouraging participation."
+    },
+    {
+      "id": "q63",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient from a different cultural background refuses certain foods served in hospital. What is the nurse's BEST action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask family to bring food without consultation."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient nutrition is more important than culture."
+        },
+        {
+          "id": "C",
+          "text": "Explain hospital meals cannot be changed."
+        },
+        {
+          "id": "D",
+          "text": "Explore dietary preferences and arrange appropriate alternatives where possible."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Culturally safe nursing respects dietary beliefs while maintaining nutritional requirements."
+    },
+    {
+      "id": "q64",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient with dementia becomes agitated during personal care. What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complete the task quickly despite resistance."
+        },
+        {
+          "id": "B",
+          "text": "Ask security to assist."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient to cooperate."
+        },
+        {
+          "id": "D",
+          "text": "Speak calmly, explain each step, and allow additional time for reassurance."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Patients with cognitive impairment respond better to calm communication, reassurance, and familiar routines."
+    },
+    {
+      "id": "q65",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A patient nearing end of life says, \"I'm frightened about what will happen.\" What is the MOST therapeutic nursing response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Try not to think about it.\""
+        },
+        {
+          "id": "B",
+          "text": "\"Can you tell me what concerns you most?\""
+        },
+        {
+          "id": "C",
+          "text": "\"Everything will be fine.\""
+        },
+        {
+          "id": "D",
+          "text": "Change the conversation."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Open-ended questions encourage expression of fears and allow nurses to provide emotional support."
+    },
+    {
+      "id": "q66",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "A nurse notices that a patient's pain has increased despite regular analgesia. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reassess the pain, investigate contributing factors, and discuss additional management with the healthcare team."
+        },
+        {
+          "id": "B",
+          "text": "Assume the patient is exaggerating."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the next medication round."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the complaint."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Pain assessment is continuous and requires evaluation of treatment effectiveness."
+    },
+    {
+      "id": "q67",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient's family requests to remain present during clinical discussions. The patient agrees. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Speak only to the family."
+        },
+        {
+          "id": "B",
+          "text": "Refuse family participation."
+        },
+        {
+          "id": "C",
+          "text": "Include the family while ensuring the patient's wishes remain central."
+        },
+        {
+          "id": "D",
+          "text": "Ask the family to leave."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Family-centred care supports patient preferences while maintaining patient autonomy."
+    },
+    {
+      "id": "q68",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient becomes angry after waiting several hours for surgery. What should the nurse do FIRST?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Listen to the patient's concerns, acknowledge frustration, explain the reason for the delay, and provide updates."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient delays are common."
+        },
+        {
+          "id": "C",
+          "text": "Ask security to attend."
+        },
+        {
+          "id": "D",
+          "text": "Ignore the complaint."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Acknowledging emotions and providing honest information helps reduce anxiety and builds trust."
+    },
+    {
+      "id": "q69",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient requests information from the internet regarding a new treatment. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tell the patient not to use the internet."
+        },
+        {
+          "id": "B",
+          "text": "Ignore the request."
+        },
+        {
+          "id": "C",
+          "text": "Discuss reliable evidence-based resources and encourage questions."
+        },
+        {
+          "id": "D",
+          "text": "Recommend social media."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Supporting health literacy enables patients to participate in informed healthcare decisions."
+    },
+    {
+      "id": "q70",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient with limited mobility wishes to dress independently. What is the BEST nursing approach?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the family to dress the patient."
+        },
+        {
+          "id": "B",
+          "text": "Complete the task without involving the patient."
+        },
+        {
+          "id": "C",
+          "text": "Encourage the patient to perform as much as safely possible while providing assistance only when required."
+        },
+        {
+          "id": "D",
+          "text": "Prevent the patient from trying."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "Promoting independence maintains function, dignity, and confidence."
+    },
+    {
+      "id": "q71",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "Which nursing action best demonstrates compassion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Limiting communication."
+        },
+        {
+          "id": "B",
+          "text": "Completing tasks quickly."
+        },
+        {
+          "id": "C",
+          "text": "Avoiding difficult conversations."
+        },
+        {
+          "id": "D",
+          "text": "Recognising emotional needs while providing respectful care."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Compassion combines empathy with meaningful actions that address the patient's physical and emotional wellbeing."
+    },
+    {
+      "id": "q72",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient expresses concern about returning home after discharge. What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refer the patient to another ward."
+        },
+        {
+          "id": "B",
+          "text": "Assess discharge needs and collaborate with the multidisciplinary team to plan ongoing support."
+        },
+        {
+          "id": "C",
+          "text": "Tell the patient everything will be fine."
+        },
+        {
+          "id": "D",
+          "text": "Delay discharge indefinitely."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Safe discharge planning begins early and involves coordinated care."
+    },
+    {
+      "id": "q73",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "moderate",
+      "stem": "A patient receiving palliative care refuses further treatment. What principle should guide the nurse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convince the patient to continue treatment."
+        },
+        {
+          "id": "B",
+          "text": "Ask relatives to decide instead."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the refusal."
+        },
+        {
+          "id": "D",
+          "text": "Respect informed decisions while providing compassionate support."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Competent patients have the right to make informed healthcare decisions."
+    },
+    {
+      "id": "q74",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A nurse notices a patient becoming withdrawn and unusually quiet. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assume the patient wants privacy."
+        },
+        {
+          "id": "B",
+          "text": "Assess emotional wellbeing and encourage discussion in a supportive environment."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the behaviour."
+        },
+        {
+          "id": "D",
+          "text": "Inform security."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Changes in behaviour may indicate anxiety, depression, or other concerns requiring assessment."
+    },
+    {
+      "id": "q75",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient has difficulty understanding discharge medications. What should the nurse do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Skip the education."
+        },
+        {
+          "id": "B",
+          "text": "Give the information only to family."
+        },
+        {
+          "id": "C",
+          "text": "Use plain language, written information, and ask the patient to explain the instructions back."
+        },
+        {
+          "id": "D",
+          "text": "Repeat the instructions louder."
+        }
+      ],
+      "correctOptionId": "C",
+      "rationale": "The teach-back method confirms understanding and promotes safe self-management."
+    },
+    {
+      "id": "q76",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient asks for a second opinion regarding treatment options. What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Support the patient's right to seek further medical advice."
+        },
+        {
+          "id": "B",
+          "text": "Discourage the request."
+        },
+        {
+          "id": "C",
+          "text": "Refuse to discuss it."
+        },
+        {
+          "id": "D",
+          "text": "Tell the patient it is unnecessary."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Patients have the right to participate fully in decisions regarding their healthcare."
+    },
+    {
+      "id": "q77",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient becomes upset after receiving unexpected test results. What should the nurse prioritise?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing emotional support, assessing immediate needs, and facilitating appropriate follow-up."
+        },
+        {
+          "id": "B",
+          "text": "Leaving the room."
+        },
+        {
+          "id": "C",
+          "text": "Completing paperwork."
+        },
+        {
+          "id": "D",
+          "text": "Asking another patient to comfort them."
+        }
+      ],
+      "correctOptionId": "A",
+      "rationale": "Emotional support is an essential component of holistic nursing care."
+    },
+    {
+      "id": "q78",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A patient asks, \"How can I prevent this illness from happening again?\" What is the nurse's BEST response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refer all questions elsewhere."
+        },
+        {
+          "id": "B",
+          "text": "Tell the patient not to worry."
+        },
+        {
+          "id": "C",
+          "text": "Advise searching online."
+        },
+        {
+          "id": "D",
+          "text": "Explain evidence-based health promotion strategies relevant to the patient's condition."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Health promotion and patient education are key nursing responsibilities."
+    },
+    {
+      "id": "q79",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "hard",
+      "stem": "A multidisciplinary team is planning a patient's discharge. What is the nurse's PRIMARY role?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrange transport only."
+        },
+        {
+          "id": "B",
+          "text": "Allow others to make all decisions."
+        },
+        {
+          "id": "C",
+          "text": "Focus only on medication administration."
+        },
+        {
+          "id": "D",
+          "text": "Advocate for the patient's needs while coordinating communication between the patient, family, and healthcare team."
+        }
+      ],
+      "correctOptionId": "D",
+      "rationale": "Nurses play a central role in coordinating safe, person-centred discharge planning."
+    },
+    {
+      "id": "q80",
+      "section": 4,
+      "sectionLabel": "Delivering Safe, Compassionate and Person-Centred Care",
+      "programArea": "Building Strong Foundations in Nursing Practice",
+      "difficulty": "easy",
+      "stem": "Which statement BEST reflects person-centred nursing practice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The healthcare team makes decisions on behalf of the patient."
+        },
+        {
+          "id": "B",
+          "text": "Care is planned around the patient's values, preferences, goals, and active participation while ensuring safety and evidence-based practice."
+        },
+        {
+          "id": "C",
+          "text": "All patients receive identical care regardless of individual needs."
+        },
+        {
+          "id": "D",
+          "text": "Nursing focuses only on physical illness."
+        }
+      ],
+      "correctOptionId": "B",
+      "rationale": "Person-centred nursing recognises each patient as a unique individual and integrates clinical expertise, evidence, compassion, and shared decision-making to deliver holistic, high-quality care."
+    }
+  ]
+}

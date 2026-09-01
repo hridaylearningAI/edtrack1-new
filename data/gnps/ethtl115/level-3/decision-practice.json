@@ -1,0 +1,136 @@
+{
+  "level": 3,
+  "title": "Decision Practice",
+  "subtitle": "Stop & Decide prompts to build active clinical judgment",
+  "howToUse": "These decision points interrupt passive reading and force active thinking. For each scenario, pause and write your response. Then compare with the model response. Focus on (1) the immediate risk, (2) the safest first nursing action, and (3) what data you must check next.",
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Pressure injury prevention",
+      "scenario": "You are performing a skin assessment on a bedbound patient. When you check their sacral area, you see redness that does not blanch when you press on it with your finger. The skin feels warm, and the patient reports mild discomfort. You recognise this as a possible early pressure injury. You must decide your first action.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Relieve pressure immediately (reposition, offload), protect skin, and initiate pressure injury prevention plan.",
+      "modelWhy": "Non-blanching redness suggests early pressure injury; quick offloading prevents progression.",
+      "modelNext": "Assess entire skin, nutrition/hydration, continence; use support surfaces and scheduled turns.",
+      "trap": "Applying cream only without offloading pressure.",
+      "programNumber": 17,
+      "number": 1
+    },
+    {
+      "id": "decision-2",
+      "title": "Patient refuses care (consent)",
+      "scenario": "A competent adult patient is prescribed an injection. When you explain the medication and prepare to administer it, the patient firmly says, “I don’t want it.” They appear calm but determined. You must decide how to respond in a way that respects patient autonomy while ensuring safe care.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will do next"
+      ],
+      "modelFirst": "Respect the refusal, explore reasons, provide education, and document objectively; notify provider as appropriate.",
+      "modelWhy": "Patients have the right to refuse. The nurse ensures the refusal is informed and safe follow-up occurs.",
+      "modelNext": "Assess understanding, offer alternatives if appropriate, and document refusal/education and notifications.",
+      "trap": "Forcing treatment or labelling the patient without assessing understanding.",
+      "programNumber": 18,
+      "number": 2
+    },
+    {
+      "id": "decision-3",
+      "title": "Documentation after a fall",
+      "scenario": "A patient has just experienced a fall on the ward. You have already assessed them, provided care, and notified the appropriate staff. Now you are sitting down to complete the medical record documentation. You must decide what should and should not be written in the patient’s chart.",
+      "prompts": [
+        "What must be documented",
+        "Why",
+        "What should NOT be documented in the chart"
+      ],
+      "modelFirst": "Document objective facts, assessment findings, interventions, patient response, and notifications with times.",
+      "modelWhy": "The medical record must show safe assessment and escalation. Objective documentation protects patient care and legal integrity.",
+      "modelNext": "Do not document blame/opinions or investigation details meant for incident reporting.",
+      "trap": "Writing opinions like “patient careless” or including incident report details in the chart.",
+      "programNumber": 19,
+      "number": 3
+    },
+    {
+      "id": "decision-4",
+      "title": "Early sepsis cues",
+      "scenario": "A patient with a known urinary tract infection is becoming increasingly unwell. Their heart rate is 118, respiratory rate is 24, and temperature is 38.6°C. They appear drowsy and less responsive than earlier in the shift. You are concerned that they may be developing sepsis. You must decide your first action.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Escalate concern for sepsis and start rapid assessment; follow sepsis screening pathway if available.",
+      "modelWhy": "These are time-critical deterioration cues; early escalation reduces mortality.",
+      "modelNext": "Check BP, SpO₂, urine output, mental status; prepare for cultures/fluids per protocol.",
+      "trap": "Waiting for the next routine observations round before escalating.",
+      "programNumber": 20,
+      "number": 4
+    },
+    {
+      "id": "decision-5",
+      "title": "ISBAR escalation preparation",
+      "scenario": "You need to call the medical provider because your patient’s blood pressure has suddenly dropped to 86/50, and they report feeling dizzy and weak. Before making the call, you must decide what you should do first to ensure a clear, structured, and effective handover.",
+      "prompts": [
+        "What is your first step before calling",
+        "What will you include in ISBAR",
+        "What will you check next"
+      ],
+      "modelFirst": "Ensure immediate safety: position supine, recheck vitals, confirm accuracy; then call using ISBAR with a clear request.",
+      "modelWhy": "Clear, structured communication ensures urgent care decisions are made quickly and safely.",
+      "modelNext": "Assess for bleeding, dehydration, medication effects; monitor for shock signs.",
+      "trap": "Calling with vague information without reassessing or without a specific request.",
+      "programNumber": 21,
+      "number": 5
+    },
+    {
+      "id": "decision-6",
+      "title": "Anaphylaxis reaction",
+      "scenario": "A patient has just received an antibiotic infusion. Within minutes, they develop wheezing, widespread hives, and appear distressed. Their blood pressure has dropped to 90/54. You suspect a severe allergic reaction. You must decide your immediate action.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Stop the medication, call for emergency help, and manage airway/breathing per anaphylaxis protocol.",
+      "modelWhy": "Anaphylaxis can rapidly progress to airway closure and shock; immediate response saves life.",
+      "modelNext": "Assess airway swelling, SpO₂, RR; prepare adrenaline/epinephrine and IV fluids per protocol.",
+      "trap": "Waiting to see if symptoms settle or documenting first.",
+      "programNumber": 22,
+      "number": 6
+    },
+    {
+      "id": "decision-7",
+      "title": "Orthostatic hypotension during mobilisation",
+      "scenario": "You are helping a post-operative patient to stand for the first time. As they get to their feet, they suddenly look pale, say they feel lightheaded, and begin to sway unsteadily. You are worried they may fall. You must decide your first action to keep them safe.",
+      "prompts": [
+        "Your first action",
+        "Your reason",
+        "What you will check next"
+      ],
+      "modelFirst": "Support them safely back to bed/chair and call for assistance; prevent a fall.",
+      "modelWhy": "Immediate safety prevents injury; orthostatic hypotension is common and requires assessment.",
+      "modelNext": "Check orthostatic vitals, hydration status, analgesia/sedation effects; plan gradual mobilisation.",
+      "trap": "Continuing to walk to ‘meet goals’ despite dizziness.",
+      "programNumber": 23,
+      "number": 7
+    },
+    {
+      "id": "decision-8",
+      "title": "Prioritising multiple tasks",
+      "scenario": "At the end of your shift, you are juggling several responsibilities:\n\nGiving scheduled antibiotics to a stable patient.\n\nAnswering a call bell from another patient who wants water.\n\nAssessing a patient who has just developed new shortness of breath.\n\nCompleting your end-of-shift documentation.\n\nYou must decide which task takes priority and why.",
+      "prompts": [
+        "Which task do you do FIRST",
+        "Why",
+        "What can you delegate or delay"
+      ],
+      "modelFirst": "Assess the patient with new shortness of breath FIRST.",
+      "modelWhy": "Breathing change suggests deterioration; immediate assessment prevents harm and guides urgent intervention.",
+      "modelNext": "Delegate water request if appropriate; give antibiotics promptly after urgent assessment; document later.",
+      "trap": "Doing documentation first because paperwork feels urgent.",
+      "programNumber": 24,
+      "number": 8
+    }
+  ]
+}
