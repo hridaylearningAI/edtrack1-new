@@ -128,9 +128,9 @@ export default function CertificatesPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading Certificates...</h2>
-            <p className="text-gray-600">Please wait while we load your certificates</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading Certificates...</h2>
+            <p className="text-muted-foreground">Please wait while we load your certificates</p>
           </div>
         </div>
       </StudentLayout>
@@ -142,17 +142,17 @@ export default function CertificatesPage() {
       <div className="space-y-6">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">My Certificates</h1>
-            <p className="text-gray-600 mt-1">View and download your course completion certificates</p>
+            <h1 className="text-3xl font-bold text-foreground">My Certificates</h1>
+            <p className="text-muted-foreground mt-1">View and download your course completion certificates</p>
           </div>
         </div>
 
         {error ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <AlertCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Error Loading Certificates</h3>
-              <p className="text-gray-600 mb-4">{error}</p>
+              <AlertCircle className="h-12 w-12 text-destructive mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">Error Loading Certificates</h3>
+              <p className="text-muted-foreground mb-4">{error}</p>
               <Button onClick={() => window.location.reload()}>
                 <RefreshCw className="mr-2 h-4 w-4" />
                 Try Again
@@ -162,9 +162,9 @@ export default function CertificatesPage() {
         ) : certificates.length === 0 ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <Award className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">No Certificates Yet</h3>
-              <p className="text-gray-600 mb-4">
+              <Award className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">No Certificates Yet</h3>
+              <p className="text-muted-foreground mb-4">
                 You haven't completed any courses with certificates yet. Complete a course to earn your certificate!
               </p>
               <Link href="/student/current-units">
@@ -186,7 +186,7 @@ export default function CertificatesPage() {
                 <Card key={certificate.id} className="hover:shadow-lg transition-shadow">
                   <CardHeader>
                     <div className="flex items-center justify-between">
-                      <Award className="h-8 w-8 text-yellow-500" />
+                      <Award className="h-8 w-8 text-warning" />
                       <Badge variant="secondary" className="text-xs">
                         {certificate.certificate_number}
                       </Badge>
@@ -198,7 +198,7 @@ export default function CertificatesPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      <div className="flex items-center text-sm text-gray-600">
+                      <div className="flex items-center text-sm text-muted-foreground">
                         <Calendar className="h-4 w-4 mr-2" />
                         <span>
                           Issued: {completionDate ? new Date(completionDate).toLocaleDateString('en-US', {
@@ -210,7 +210,7 @@ export default function CertificatesPage() {
                       </div>
 
                       {certificate.email_sent && (
-                        <div className="flex items-center text-sm text-green-600">
+                        <div className="flex items-center text-sm text-success">
                           <Mail className="h-4 w-4 mr-2" />
                           <span>Email sent</span>
                         </div>

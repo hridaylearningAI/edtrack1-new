@@ -82,14 +82,14 @@ const getStatusBadge = (status: string) => {
   switch (status) {
     case "Sent":
       return (
-        <Badge variant="default" className="bg-chart-1 text-white">
+        <Badge variant="default">
           <Send className="mr-1 h-3 w-3" />
           Sent
         </Badge>
       )
     case "Delivered":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="success">
           <CheckCircle className="mr-1 h-3 w-3" />
           Delivered
         </Badge>
@@ -116,11 +116,11 @@ const getStatusBadge = (status: string) => {
 const getPriorityColor = (priority: string) => {
   switch (priority) {
     case "High":
-      return "text-chart-2"
+      return "text-destructive"
     case "Medium":
-      return "text-chart-4"
+      return "text-warning"
     case "Low":
-      return "text-chart-1"
+      return "text-muted-foreground"
     default:
       return "text-muted-foreground"
   }
@@ -129,13 +129,13 @@ const getPriorityColor = (priority: string) => {
 const getTypeIcon = (type: string) => {
   switch (type) {
     case "Payment":
-      return <AlertCircle className="h-4 w-4 text-chart-2" />
+      return <AlertCircle className="h-4 w-4 text-destructive" />
     case "Achievement":
-      return <CheckCircle className="h-4 w-4 text-chart-3" />
+      return <CheckCircle className="h-4 w-4 text-success" />
     case "Reminder":
-      return <Clock className="h-4 w-4 text-chart-4" />
+      return <Clock className="h-4 w-4 text-warning" />
     case "Welcome":
-      return <MessageSquare className="h-4 w-4 text-chart-1" />
+      return <MessageSquare className="h-4 w-4 text-primary" />
     default:
       return <Bell className="h-4 w-4 text-muted-foreground" />
   }
@@ -259,7 +259,7 @@ export default function NotificationsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Communications</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Communications</h2>
             <p className="text-muted-foreground mt-2">Notifications, email campaigns, and delivery settings</p>
           </div>
           <div className="flex space-x-2">
@@ -280,10 +280,10 @@ export default function NotificationsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalNotifications}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalNotifications}</div>
                   <p className="text-xs text-muted-foreground">Total Sent</p>
                 </div>
-                <Bell className="h-8 w-8 text-chart-1" />
+                <Bell className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -291,10 +291,10 @@ export default function NotificationsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{sentNotifications}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{sentNotifications}</div>
                   <p className="text-xs text-muted-foreground">Delivered</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-chart-3" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -302,10 +302,10 @@ export default function NotificationsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{pendingNotifications}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{pendingNotifications}</div>
                   <p className="text-xs text-muted-foreground">Pending</p>
                 </div>
-                <Clock className="h-8 w-8 text-chart-4" />
+                <Clock className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -313,10 +313,10 @@ export default function NotificationsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{deliveryRate}%</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{deliveryRate}%</div>
                   <p className="text-xs text-muted-foreground">Delivery Rate</p>
                 </div>
-                <Send className="h-8 w-8 text-chart-2" />
+                <Send className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -755,19 +755,19 @@ export default function NotificationsPage() {
                     <div className="grid grid-cols-3 gap-4">
                       <Card>
                         <CardContent className="p-3">
-                          <div className="text-2xl font-bold text-primary">{readStatus.read_count}</div>
+                          <div className="text-2xl font-medium tracking-tight text-primary">{readStatus.read_count}</div>
                           <p className="text-xs text-muted-foreground">Read</p>
                         </CardContent>
                       </Card>
                       <Card>
                         <CardContent className="p-3">
-                          <div className="text-2xl font-bold text-orange-600">{readStatus.unread_count}</div>
+                          <div className="text-2xl font-medium tracking-tight text-warning">{readStatus.unread_count}</div>
                           <p className="text-xs text-muted-foreground">Unread</p>
                         </CardContent>
                       </Card>
                       <Card>
                         <CardContent className="p-3">
-                          <div className="text-2xl font-bold">{readStatus.total_recipients}</div>
+                          <div className="text-2xl font-medium tracking-tight">{readStatus.total_recipients}</div>
                           <p className="text-xs text-muted-foreground">Total Recipients</p>
                         </CardContent>
                       </Card>
@@ -783,10 +783,10 @@ export default function NotificationsPage() {
                           {readStatus.read_by.map((record: any) => (
                             <div
                               key={record.user_id}
-                              className="flex items-center justify-between p-2 bg-green-50 rounded border border-green-200"
+                              className="flex items-center justify-between p-2 bg-success-soft rounded border border-success-line"
                             >
                               <div className="flex items-center space-x-2">
-                                <CheckCircle className="h-4 w-4 text-green-600" />
+                                <CheckCircle className="h-4 w-4 text-success" />
                                 <div>
                                   <p className="text-sm font-medium">
                                     {record.user?.name || `User ${record.user_id}`}
@@ -815,10 +815,10 @@ export default function NotificationsPage() {
                           {readStatus.unread_by.map((record: any) => (
                             <div
                               key={record.user_id}
-                              className="flex items-center justify-between p-2 bg-orange-50 rounded border border-orange-200"
+                              className="flex items-center justify-between p-2 bg-warning-soft rounded border border-warning-line"
                             >
                               <div className="flex items-center space-x-2">
-                                <Clock className="h-4 w-4 text-orange-600" />
+                                <Clock className="h-4 w-4 text-warning" />
                                 <div>
                                   <p className="text-sm font-medium">
                                     {record.user?.name || `User ${record.user_id}`}

@@ -175,7 +175,7 @@ export default function ProgressTrackerPage() {
     return (
               <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <p className="text-red-600 mb-4">Error loading progress data: {error}</p>
+            <p className="text-destructive mb-4">Error loading progress data: {error}</p>
             <Button onClick={refresh}>Retry</Button>
           </div>
         </div>
@@ -187,13 +187,13 @@ export default function ProgressTrackerPage() {
     switch (status) {
       case "On Track":
         return (
-          <Badge variant="default" className="bg-blue-500 text-white">
+          <Badge variant="default" className="border-primary-line bg-primary-soft text-primary">
             On Track
           </Badge>
         )
       case "Completed":
         return (
-          <Badge variant="default" className="bg-green-500 text-white">
+          <Badge variant="default" className="border-success-line bg-success-soft text-success">
             Completed
           </Badge>
         )
@@ -205,10 +205,10 @@ export default function ProgressTrackerPage() {
   }
 
   const getProgressColor = (progress: number) => {
-    if (progress >= 80) return "bg-green-500"
-    if (progress >= 50) return "bg-blue-500"
-    if (progress >= 25) return "bg-yellow-500"
-    return "bg-gray-500"
+    if (progress >= 80) return "bg-success"
+    if (progress >= 50) return "bg-primary"
+    if (progress >= 25) return "bg-warning"
+    return "bg-muted-foreground"
   }
 
   return (
@@ -217,9 +217,9 @@ export default function ProgressTrackerPage() {
         <div className="flex justify-between items-center">
           <div>
             <div className="flex items-center gap-3">
-              <h2 className="text-3xl font-bold text-foreground">Progress Tracker</h2>
+              <h2 className="text-3xl font-medium tracking-tight text-foreground">Progress Tracker</h2>
               {autoRefresh && (
-                <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
+                <Badge variant="outline" className="bg-success-soft text-success border-success-line">
                   <RefreshCw className="h-3 w-3 mr-1 animate-spin" />
                   Live
                 </Badge>
@@ -295,10 +295,10 @@ export default function ProgressTrackerPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalStudents}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalStudents}</div>
                   <p className="text-xs text-muted-foreground">Active Students</p>
                 </div>
-                <Users className="h-8 w-8 text-chart-1" />
+                <Users className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -306,10 +306,10 @@ export default function ProgressTrackerPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{averageProgress}%</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{averageProgress}%</div>
                   <p className="text-xs text-muted-foreground">Average Progress</p>
                 </div>
-                <TrendingUp className="h-8 w-8 text-chart-3" />
+                <TrendingUp className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -317,10 +317,10 @@ export default function ProgressTrackerPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{completedStudents}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{completedStudents}</div>
                   <p className="text-xs text-muted-foreground">Completed</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-chart-3" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -328,10 +328,10 @@ export default function ProgressTrackerPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{behindSchedule}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{behindSchedule}</div>
                   <p className="text-xs text-muted-foreground">Behind Schedule</p>
                 </div>
-                <AlertTriangle className="h-8 w-8 text-chart-2" />
+                <AlertTriangle className="h-8 w-8 text-destructive" />
               </div>
             </CardContent>
           </Card>
@@ -409,7 +409,7 @@ export default function ProgressTrackerPage() {
                             </div>
                           </div>
                           <div className="text-right">
-                            <div className="text-2xl font-bold text-foreground">{student.overallProgress}%</div>
+                            <div className="text-2xl font-medium tracking-tight text-foreground">{student.overallProgress}%</div>
                             <p className="text-sm text-muted-foreground">Overall Progress</p>
                           </div>
                         </div>
@@ -500,29 +500,29 @@ export default function ProgressTrackerPage() {
                     <div key={index} className="p-6 border rounded-lg">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center space-x-3">
-                          <BookOpen className="h-6 w-6 text-chart-1" />
+                          <BookOpen className="h-6 w-6 text-primary" />
                           <div>
                             <h3 className="font-semibold text-lg">{course.course}</h3>
                             <p className="text-sm text-muted-foreground">{course.totalStudents} students enrolled</p>
                           </div>
                         </div>
                         <div className="text-right">
-                          <div className="text-xl font-bold text-foreground">{course.averageProgress}%</div>
+                          <div className="text-xl font-semibold text-foreground">{course.averageProgress}%</div>
                           <p className="text-xs text-muted-foreground">Average Progress</p>
                         </div>
                       </div>
 
                       <div className="grid gap-4 md:grid-cols-3 mb-4">
                         <div className="text-center p-3 bg-muted rounded">
-                          <div className="text-lg font-semibold text-chart-3">{course.completionRate}%</div>
+                          <div className="text-lg font-semibold text-success">{course.completionRate}%</div>
                           <p className="text-xs text-muted-foreground">Completion Rate</p>
                         </div>
                         <div className="text-center p-3 bg-muted rounded">
-                          <div className="text-lg font-semibold text-chart-4">{course.averageTimeSpent}h</div>
+                          <div className="text-lg font-semibold text-primary">{course.averageTimeSpent}h</div>
                           <p className="text-xs text-muted-foreground">Avg. Time Spent</p>
                         </div>
                         <div className="text-center p-3 bg-muted rounded">
-                          <div className="text-lg font-semibold text-chart-1">{course.totalStudents}</div>
+                          <div className="text-lg font-semibold text-primary">{course.totalStudents}</div>
                           <p className="text-xs text-muted-foreground">Total Students</p>
                         </div>
                       </div>

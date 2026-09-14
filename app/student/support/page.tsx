@@ -153,8 +153,8 @@ export default function SupportPage() {
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
             <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-brand-blue" />
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Loading...</h2>
-            <p className="text-gray-600 dark:text-gray-400">Please wait while we load the support page</p>
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load the support page</p>
           </div>
         </div>
       </StudentLayout>
@@ -166,9 +166,9 @@ export default function SupportPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-red-500" />
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Error Loading</h2>
-            <p className="text-gray-600 dark:text-gray-400">{ticketsError}</p>
+            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-destructive" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Error Loading</h2>
+            <p className="text-muted-foreground">{ticketsError}</p>
           </div>
         </div>
       </StudentLayout>
@@ -188,7 +188,7 @@ export default function SupportPage() {
 
         {/* Create Ticket & Contact Info */}
         <div className="grid gap-6 md:grid-cols-2">
-          <Card className="border-2 border-brand-blue/10 dark:border-brand-blue/20 shadow-md">
+          <Card className="border-2 border-brand-blue/10 shadow-md">
             <CardHeader>
               <CardTitle className="flex items-center">
                 <MessageSquare className="mr-2 h-5 w-5 text-brand-blue" />
@@ -256,8 +256,8 @@ export default function SupportPage() {
                   <div
                     className={`text-sm p-3 rounded-md ${
                       ticketMessage.includes("successfully")
-                        ? "bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-400 border border-green-200 dark:border-green-800"
-                        : "bg-red-50 dark:bg-red-950/30 text-red-700 dark:text-red-400 border border-red-200 dark:border-red-800"
+                        ? "bg-success-soft text-success border border-success-line"
+                        : "bg-destructive-soft text-destructive border border-destructive-line"
                     }`}
                   >
                     {ticketMessage}
@@ -279,7 +279,7 @@ export default function SupportPage() {
             </CardContent>
           </Card>
 
-          <Card className="border-2 border-brand-blue/10 dark:border-brand-blue/20 shadow-md">
+          <Card className="border-2 border-brand-blue/10 shadow-md">
             <CardHeader>
               <CardTitle className="flex items-center">
                 <HelpCircle className="mr-2 h-5 w-5 text-brand-blue" />
@@ -289,7 +289,7 @@ export default function SupportPage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                <div className="flex items-center space-x-3 p-3 border rounded-lg border-brand-blue/10 dark:border-brand-blue/20">
+                <div className="flex items-center space-x-3 p-3 border rounded-lg border-brand-blue/10">
                   <Phone className="h-5 w-5 text-brand-blue" />
                   <div>
                     <p className="font-medium">Phone Support</p>
@@ -297,7 +297,7 @@ export default function SupportPage() {
                     <p className="text-xs text-muted-foreground">Mon-Fri: 8:00 AM - 6:00 PM</p>
                   </div>
                 </div>
-                <div className="flex items-center space-x-3 p-3 border rounded-lg border-brand-blue/10 dark:border-brand-blue/20">
+                <div className="flex items-center space-x-3 p-3 border rounded-lg border-brand-blue/10">
                   <Mail className="h-5 w-5 text-brand-blue" />
                   <div>
                     <p className="font-medium">Email Support</p>
@@ -311,7 +311,7 @@ export default function SupportPage() {
         </div>
 
         {/* My Support Tickets */}
-        <Card className="border-2 border-brand-blue/10 dark:border-brand-blue/20 shadow-md">
+        <Card className="border-2 border-brand-blue/10 shadow-md">
           <CardHeader>
             <CardTitle>My Support Tickets</CardTitle>
             <CardDescription>Track your existing support requests and their status</CardDescription>
@@ -332,7 +332,7 @@ export default function SupportPage() {
                 {supportTickets.map((ticket: any) => (
                   <div
                     key={ticket.id}
-                    className="p-4 border rounded-lg border-brand-blue/10 dark:border-brand-blue/20"
+                    className="p-4 border rounded-lg border-brand-blue/10"
                   >
                     <div className="flex items-center justify-between mb-3">
                       <div>

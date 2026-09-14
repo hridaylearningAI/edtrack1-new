@@ -56,7 +56,7 @@ export function FolderSlidePreview({ contentFolder, folder }: FolderSlidePreview
   if (!getContentBaseUrl()) {
     return (
       <div
-        className={`flex ${previewFrame} items-center justify-center bg-amber-500/10 px-2 text-center text-xs text-amber-900 dark:text-amber-200`}
+        className={`flex ${previewFrame} items-center justify-center bg-warning/10 px-2 text-center text-xs text-warning`}
       >
         Set NEXT_PUBLIC_H5P_CONTENT_BASE_URL
       </div>

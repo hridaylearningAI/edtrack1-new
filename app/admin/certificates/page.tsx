@@ -35,7 +35,7 @@ const getStatusBadge = (status: string) => {
   switch (status) {
     case "Issued":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="success">
           <CheckCircle className="mr-1 h-3 w-3" />
           Issued
         </Badge>
@@ -49,7 +49,7 @@ const getStatusBadge = (status: string) => {
       )
     case "Active":
       return (
-        <Badge variant="default" className="bg-chart-1 text-white">
+        <Badge variant="default">
           Active
         </Badge>
       )
@@ -63,13 +63,13 @@ const getStatusBadge = (status: string) => {
 const getGradeColor = (grade: string) => {
   switch (grade) {
     case "A+":
-      return "text-chart-3 font-bold"
+      return "text-success font-bold"
     case "A":
-      return "text-chart-3"
+      return "text-success"
     case "B+":
-      return "text-chart-4"
+      return "text-primary"
     case "B":
-      return "text-chart-1"
+      return "text-foreground"
     default:
       return "text-muted-foreground"
   }
@@ -164,7 +164,7 @@ export default function CertificatesPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Certificates</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Certificates</h2>
             <p className="text-muted-foreground mt-2">Manage course completion certificates</p>
           </div>
           <div className="flex space-x-2">
@@ -181,10 +181,10 @@ export default function CertificatesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalCertificates}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalCertificates}</div>
                   <p className="text-xs text-muted-foreground">Total Certificates</p>
                 </div>
-                <Award className="h-8 w-8 text-chart-1" />
+                <Award className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -192,10 +192,10 @@ export default function CertificatesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{issuedCertificates}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{issuedCertificates}</div>
                   <p className="text-xs text-muted-foreground">Issued</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-chart-3" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -203,10 +203,10 @@ export default function CertificatesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{pendingCertificates}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{pendingCertificates}</div>
                   <p className="text-xs text-muted-foreground">Pending</p>
                 </div>
-                <Clock className="h-8 w-8 text-chart-4" />
+                <Clock className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -214,10 +214,10 @@ export default function CertificatesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalDownloads}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalDownloads}</div>
                   <p className="text-xs text-muted-foreground">Downloads</p>
                 </div>
-                <Download className="h-8 w-8 text-chart-2" />
+                <Download className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -365,7 +365,7 @@ export default function CertificatesPage() {
                                   <>
                                     <DropdownMenuSeparator />
                                     <DropdownMenuItem 
-                                      className="text-chart-3"
+                                      className="text-primary"
                                       onClick={() => handleIssueCertificate(certificate)}
                                     >
                                       <CheckCircle className="mr-2 h-4 w-4" />
@@ -400,7 +400,7 @@ export default function CertificatesPage() {
             {previewCertificate && (
               <div className="mt-6">
                 {/* Certificate Preview */}
-                <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-lg text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-primary to-primary p-8 rounded-lg text-white relative overflow-hidden">
                   {/* Background Pattern */}
                   <div className="absolute inset-0 opacity-10">
                     {Array.from({ length: 50 }).map((_, i) => (
@@ -416,7 +416,7 @@ export default function CertificatesPage() {
                   </div>
                   
                   {/* Certificate Content */}
-                  <div className="relative bg-white rounded-lg p-8 text-gray-900 shadow-2xl">
+                  <div className="relative bg-white rounded-lg p-8 text-foreground shadow-2xl">
                     {/* Header */}
                     <div className="text-center mb-8">
                       <div className="flex items-center justify-center mb-4">
@@ -434,35 +434,35 @@ export default function CertificatesPage() {
                             }
                           }}
                         />
-                        <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center" style={{display: 'none'}}>
+                        <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center" style={{display: 'none'}}>
                           <Award className="w-8 h-8 text-white" />
                         </div>
                       </div>
-                      <h1 className="text-3xl font-bold text-gray-800 mb-2">EdTec.online</h1>
-                      <p className="text-gray-600">Empowering Education Through Technology</p>
-                      <div className="w-32 h-0.5 bg-blue-600 mx-auto mt-4"></div>
+                      <h1 className="text-3xl font-medium tracking-tight text-foreground mb-2">EdTec.online</h1>
+                      <p className="text-muted-foreground">Empowering Education Through Technology</p>
+                      <div className="w-32 h-0.5 bg-primary mx-auto mt-4"></div>
                     </div>
 
                     {/* Certificate Title */}
                     <div className="text-center mb-8">
-                      <h2 className="text-4xl font-bold text-gray-800 mb-4">Certificate of Completion</h2>
-                      <p className="text-xl text-gray-600">This is to certify that</p>
+                      <h2 className="text-4xl font-medium tracking-tight text-foreground mb-4">Certificate of Completion</h2>
+                      <p className="text-xl text-muted-foreground">This is to certify that</p>
                     </div>
 
                     {/* Student Name */}
                     <div className="text-center mb-8">
-                      <h3 className="text-3xl font-bold text-blue-600 mb-4">{previewCertificate.studentName}</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                      <h3 className="text-3xl font-medium tracking-tight text-primary mb-4">{previewCertificate.studentName}</h3>
+                  <p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto">
                     has successfully completed the course <strong>"{previewCertificate.course}"</strong> and demonstrated commitment to learning and professional development.
                   </p>
                     </div>
 
                     {/* Certificate Details */}
-                    <div className="bg-gray-50 rounded-lg p-6 mb-8">
+                    <div className="bg-muted rounded-lg p-6 mb-8">
                       <div className="grid grid-cols-3 gap-6 text-center">
                         <div>
-                          <p className="text-sm text-gray-500 uppercase tracking-wide mb-2">Completion Date</p>
-                          <p className="font-semibold text-gray-800">
+                          <p className="text-sm text-muted-foreground uppercase tracking-wide mb-2">Completion Date</p>
+                          <p className="font-semibold text-foreground">
                             {new Date(previewCertificate.completionDate).toLocaleDateString('en-US', {
                               year: 'numeric',
                               month: 'long',
@@ -471,12 +471,12 @@ export default function CertificatesPage() {
                           </p>
                         </div>
                         <div>
-                          <p className="text-sm text-gray-500 uppercase tracking-wide mb-2">Grade Achieved</p>
-                          <p className="font-semibold text-green-600 text-xl">{previewCertificate.grade}</p>
+                          <p className="text-sm text-muted-foreground uppercase tracking-wide mb-2">Grade Achieved</p>
+                          <p className="font-semibold text-success text-xl">{previewCertificate.grade}</p>
                         </div>
                         <div>
-                          <p className="text-sm text-gray-500 uppercase tracking-wide mb-2">Issue Date</p>
-                          <p className="font-semibold text-gray-800">
+                          <p className="text-sm text-muted-foreground uppercase tracking-wide mb-2">Issue Date</p>
+                          <p className="font-semibold text-foreground">
                             {previewCertificate.issueDate 
                               ? new Date(previewCertificate.issueDate).toLocaleDateString('en-US', {
                                   year: 'numeric',
@@ -493,15 +493,15 @@ export default function CertificatesPage() {
                     {/* Signatures */}
                     <div className="flex justify-center mt-8">
                       <div className="text-center">
-                        <div className="w-32 h-0.5 bg-gray-400 mx-auto mb-2"></div>
-                        <p className="font-semibold text-gray-800">Ashok Chanda</p>
-                        <p className="text-sm text-gray-600">Founder</p>
+                        <div className="w-32 h-0.5 bg-border mx-auto mb-2"></div>
+                        <p className="font-semibold text-foreground">Ashok Chanda</p>
+                        <p className="text-sm text-muted-foreground">Founder</p>
                       </div>
                     </div>
 
                     {/* Certificate Number */}
                     <div className="text-right mt-8">
-                      <p className="text-xs text-gray-500">Certificate No: {previewCertificate.certificateNumber}</p>
+                      <p className="text-xs text-muted-foreground">Certificate No: {previewCertificate.certificateNumber}</p>
                     </div>
                   </div>
                 </div>

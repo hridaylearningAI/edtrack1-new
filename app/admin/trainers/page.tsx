@@ -58,7 +58,7 @@ const getStatusBadge = (status: string) => {
   switch (status) {
     case "Active":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="success">
           Active
         </Badge>
       )
@@ -70,7 +70,7 @@ const getStatusBadge = (status: string) => {
       return <Badge variant="outline">Draft</Badge>
     case "Completed":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="default">
           Completed
         </Badge>
       )
@@ -84,11 +84,11 @@ const getStatusBadge = (status: string) => {
 const getTypeColor = (type: string) => {
   switch (type) {
     case "Quiz":
-      return "text-chart-1"
+      return "text-primary"
     case "Project":
-      return "text-chart-2"
+      return "text-success"
     case "Assignment":
-      return "text-chart-4"
+      return "text-warning"
     default:
       return "text-muted-foreground"
   }
@@ -317,7 +317,7 @@ export default function TrainersAssessmentsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Trainers & Assessments</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Trainers & Assessments</h2>
             <p className="text-muted-foreground mt-2">Manage trainers and course assessments</p>
           </div>
           <div className="flex space-x-2">
@@ -338,10 +338,10 @@ export default function TrainersAssessmentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{activeTrainers}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{activeTrainers}</div>
                   <p className="text-xs text-muted-foreground">Active Trainers</p>
                 </div>
-                <GraduationCap className="h-8 w-8 text-chart-1" />
+                <GraduationCap className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -349,10 +349,10 @@ export default function TrainersAssessmentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalStudents}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalStudents}</div>
                   <p className="text-xs text-muted-foreground">Students Assigned</p>
                 </div>
-                <Users className="h-8 w-8 text-chart-2" />
+                <Users className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -360,10 +360,10 @@ export default function TrainersAssessmentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{averageRating}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{averageRating}</div>
                   <p className="text-xs text-muted-foreground">Average Rating</p>
                 </div>
-                <Star className="h-8 w-8 text-chart-4" />
+                <Star className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -371,10 +371,10 @@ export default function TrainersAssessmentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalAssessments}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalAssessments}</div>
                   <p className="text-xs text-muted-foreground">Total Assessments</p>
                 </div>
-                <FileText className="h-8 w-8 text-chart-3" />
+                <FileText className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -469,7 +469,7 @@ export default function TrainersAssessmentsPage() {
                             </TableCell>
                             <TableCell>
                               <div className="flex items-center">
-                                <Star className="mr-1 h-3 w-3 text-chart-4 fill-current" />
+                                <Star className="mr-1 h-3 w-3 text-primary fill-current" />
                                 <span className="font-medium">{trainer.rating?.toFixed(1) || "0.0"}</span>
                               </div>
                             </TableCell>
@@ -613,7 +613,7 @@ export default function TrainersAssessmentsPage() {
                             </TableCell>
                             <TableCell>
                               <div className="flex items-center">
-                                <Award className="mr-1 h-3 w-3 text-chart-3" />
+                                <Award className="mr-1 h-3 w-3 text-primary" />
                                 <span className="font-medium">{assessment.average_score?.toFixed(1) || "0.0"}%</span>
                               </div>
                             </TableCell>

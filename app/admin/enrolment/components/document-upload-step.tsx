@@ -200,7 +200,7 @@ export function DocumentUploadStep({
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h4 className="text-lg font-semibold">Documents (Optional)</h4>
-            <span className="text-xs text-muted-foreground bg-blue-50 px-2 py-1 rounded">Optional</span>
+            <span className="text-xs text-muted-foreground bg-primary-soft px-2 py-1 rounded">Optional</span>
           </div>
           <div className="grid gap-3">
             {requiredDocuments.map((doc) => (
@@ -208,7 +208,7 @@ export function DocumentUploadStep({
                 <div className="flex items-center gap-3">
                   <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
                     uploadedFiles.some(f => f.uploaded)
-                      ? "bg-green-100 text-green-600"
+                      ? "bg-success-soft text-success"
                       : "bg-muted text-muted-foreground"
                   }`}>
                     {uploadedFiles.some(f => f.uploaded) ? (
@@ -223,7 +223,7 @@ export function DocumentUploadStep({
                   </div>
                 </div>
                 {doc.required && (
-                  <span className="text-xs bg-yellow-100 text-yellow-600 px-2 py-1 rounded">Recommended</span>
+                  <span className="text-xs bg-warning-soft text-warning px-2 py-1 rounded">Recommended</span>
                 )}
               </div>
             ))}
@@ -296,11 +296,11 @@ export function DocumentUploadStep({
               <div className="space-y-2">
                 {uploadedFiles.map((file) => (
                   <div key={file.id} className={`flex items-center justify-between p-3 rounded-lg ${
-                    file.uploaded ? 'bg-green-50 border border-green-200' : 'bg-muted/50'
+                    file.uploaded ? 'bg-success-soft border border-success-line' : 'bg-muted/50'
                   }`}>
                     <div className="flex items-center gap-3">
                       {file.uploaded ? (
-                        <CheckCircle className="h-5 w-5 text-green-600" />
+                        <CheckCircle className="h-5 w-5 text-success" />
                       ) : (
                         <File className="h-5 w-5 text-muted-foreground" />
                       )}
@@ -308,7 +308,7 @@ export function DocumentUploadStep({
                         <div className="font-medium text-sm">{file.name}</div>
                         <div className="text-xs text-muted-foreground">
                           {formatFileSize(file.size)}
-                          {file.uploaded && <span className="text-green-600 ml-2">✓ Uploaded</span>}
+                          {file.uploaded && <span className="text-success ml-2">✓ Uploaded</span>}
                         </div>
                       </div>
                     </div>
@@ -317,7 +317,7 @@ export function DocumentUploadStep({
                         variant="ghost"
                         size="sm"
                         onClick={() => removeFile(file.id)}
-                        className="text-red-600 hover:text-red-700"
+                        className="text-destructive hover:text-destructive"
                       >
                         <X className="h-4 w-4" />
                       </Button>
@@ -330,9 +330,9 @@ export function DocumentUploadStep({
         </div>
 
         {/* Upload Guidelines */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-          <h5 className="font-semibold text-blue-900 mb-2">Upload Guidelines (Optional)</h5>
-          <ul className="text-sm text-blue-700 space-y-1">
+        <div className="bg-primary-soft border border-primary-line rounded-lg p-4">
+          <h5 className="font-semibold text-primary mb-2">Upload Guidelines (Optional)</h5>
+          <ul className="text-sm text-primary space-y-1">
             <li>• Document upload is optional - you can proceed without uploading</li>
             <li>• Supported formats: PDF, DOC, DOCX, JPG, JPEG, PNG</li>
             <li>• Maximum file size: 10MB per file</li>

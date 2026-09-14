@@ -166,7 +166,7 @@ export default function EnrolmentWizardPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Enrolment Wizard</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Enrolment Wizard</h2>
             <p className="text-muted-foreground mt-2">Guide students through the enrollment process</p>
           </div>
           <Button 
@@ -198,7 +198,7 @@ export default function EnrolmentWizardPage() {
                         onClick={() => goToStep(step.id)}
                         className={`w-12 h-12 rounded-full flex items-center justify-center border-2 transition-all duration-200 ${
                           isCompleted
-                            ? "bg-green-500 border-green-500 text-white hover:bg-green-600"
+                            ? "bg-success border-success text-white hover:bg-success"
                             : isCurrent
                               ? "bg-primary border-primary text-white"
                               : "bg-muted border-muted-foreground text-muted-foreground hover:bg-muted/80"
@@ -251,7 +251,7 @@ export default function EnrolmentWizardPage() {
                       <div key={step.id} className="flex items-center space-x-3">
                         <div className={`w-6 h-6 rounded-full flex items-center justify-center ${
                           isCompleted 
-                            ? "bg-green-500 text-white" 
+                            ? "bg-success text-white" 
                             : isCurrent 
                               ? "bg-primary text-white"
                               : "bg-muted text-muted-foreground"
@@ -260,7 +260,7 @@ export default function EnrolmentWizardPage() {
                         </div>
                         <div className="flex-1">
                           <div className={`text-sm font-medium ${
-                            isCurrent ? "text-primary" : isCompleted ? "text-green-600" : "text-muted-foreground"
+                            isCurrent ? "text-primary" : isCompleted ? "text-success" : "text-muted-foreground"
                           }`}>
                             {step.title}
                           </div>

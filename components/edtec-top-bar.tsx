@@ -2,9 +2,11 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { UserButton } from "@clerk/nextjs"
-import { IconExternalLink } from "@tabler/icons-react"
+import { UserButton, useUser } from "@clerk/nextjs"
+import { IconChevronRight, IconExternalLink } from "@tabler/icons-react"
 import { useStudentTopBarActions } from "@/lib/contexts/student-top-bar-actions"
+import { isDemoPlatformUser } from "@/lib/demo-platform"
+import { DemoCommandPalette } from "@/components/demo-command-palette"
 
 const portfolioBaseUrl =
   process.env.NEXT_PUBLIC_PORTFOLIO_URL ||
@@ -30,63 +32,66 @@ export function EdTecTopBar({
   backHref,
 }: EdTecTopBarProps) {
   const showCustomBack = backLabel != null && backHref != null
-  const isInternalLink = backHref?.startsWith("/")
+  const label = showCustomBack ? backLabel : "Back to EdTec"
   const topBarActions = useStudentTopBarActions()
+  const { user } = useUser()
+  const isDemo = isDemoPlatformUser(user?.primaryEmailAddress?.emailAddress)
+  const backClass =
+    "flex min-h-10 items-center gap-2 rounded-md text-muted-foreground transition-colors hover:text-foreground"
+  const backContent = (
+    <>
+      <Image src="/images/etia-logo.png" alt="" width={24} height={24} className="shrink-0 rounded-md" />
+      <span className="hidden sm:inline">{label}</span>
+    </>
+  )
 
   return (
-    <div className="flex flex-wrap items-center justify-between gap-y-2 w-full min-h-12 px-3 sm:px-4 py-1.5 sm:py-0 shrink-0 border-b border-brand-blue/10 dark:border-brand-blue/20 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm sticky top-0 z-50">
-      <div className="flex items-center gap-2 sm:gap-4 min-w-0 shrink max-w-[min(100%,14rem)] sm:max-w-none">
-        {showCustomBack ? (
-          isInternalLink ? (
-            <Link
-              href={backHref}
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-              title={backLabel}
-            >
-              <Image src="/images/etia-logo.png" alt="EdTec" width={28} height={28} className="shrink-0" />
-              <span className="font-semibold text-sm text-foreground hidden sm:inline">{backLabel}</span>
-            </Link>
-          ) : (
-            <a
-              href={backHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-              title={backLabel}
-            >
-              <Image src="/images/etia-logo.png" alt="EdTec" width={28} height={28} className="shrink-0" />
-              <span className="font-semibold text-sm text-foreground hidden sm:inline">{backLabel}</span>
-            </a>
-          )
+    <header className="sticky top-0 z-50 flex min-h-16 w-full shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-sidebar-border bg-white/85 px-4 py-2 backdrop-blur-lg sm:px-6 md:px-9">
+      <nav aria-label="Breadcrumb" className="flex min-w-0 items-center gap-2.5 text-xs">
+        {showCustomBack && backHref.startsWith("/") ? (
+          <Link href={backHref} className={backClass} aria-label={label} title={label}>
+            {backContent}
+          </Link>
         ) : (
-        <a
-          href={portfolioBaseUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-          title="Back to EdTec"
-        >
-          <Image src="/images/etia-logo.png" alt="EdTec" width={28} height={28} className="shrink-0" />
-          <span className="font-semibold text-sm text-foreground hidden sm:inline">Back to EdTec</span>
-        </a>
+          <a
+            href={showCustomBack ? backHref : portfolioBaseUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={backClass}
+            aria-label={label}
+            title={label}
+          >
+            {backContent}
+          </a>
         )}
-        <span className="text-muted-foreground text-xs hidden sm:inline">|</span>
-        <span className="text-xs sm:text-sm font-medium text-brand-blue dark:text-brand-blue-light truncate">{portalLabel}</span>
-      </div>
-      <div className="flex flex-wrap items-center justify-end gap-1 sm:gap-2 shrink-0 min-w-0 flex-1 sm:flex-none basis-full sm:basis-auto">
+        <IconChevronRight className="h-3.5 w-3.5 shrink-0 text-muted-foreground" aria-hidden />
+        <span className="truncate font-semibold text-foreground">{portalLabel}</span>
+      </nav>
+      <div className="flex min-w-0 flex-wrap items-center justify-end gap-2">
         {topBarActions?.actions}
+        {isDemo && <DemoCommandPalette />}
+        {isDemo && (
+          <span
+            className="inline-flex min-h-7 items-center gap-1.5 rounded-full border border-primary-line bg-primary-soft px-2.5 text-[11px] font-semibold text-primary"
+            title="You're viewing sample data. Changes aren't saved."
+          >
+            <span className="h-1.5 w-1.5 rounded-full bg-success" aria-hidden />
+            Sample data
+          </span>
+        )}
         {showUserButton && (
           <UserButton
-            afterSignOutUrl="/sign-in"
+            afterSignOutUrl="/"
             appearance={{ elements: { avatarBox: "h-8 w-8" } }}
           />
         )}
         {onLogout && !showUserButton && (
           <button
+            type="button"
             onClick={onLogout}
-            className="flex items-center gap-1.5 px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/20 rounded-lg transition-colors"
+            className="inline-flex min-h-9 items-center rounded-lg px-3 text-xs font-semibold text-destructive transition-colors hover:bg-destructive/10"
           >
-            <span>Logout</span>
+            Logout
           </button>
         )}
         <Link
@@ -95,12 +100,12 @@ export function EdTecTopBar({
           rel="noopener noreferrer"
           aria-label="Browse Courses"
           title="Browse Courses"
-          className="flex items-center gap-1 px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium text-brand-blue dark:text-brand-blue-light hover:bg-brand-blue/10 dark:hover:bg-brand-blue/20 rounded-lg transition-colors"
+          className="inline-flex min-h-9 items-center gap-2 rounded-lg border border-border bg-[#f8fafd] px-3 text-xs font-semibold text-primary transition-colors hover:border-[#cddbee] hover:bg-[#eff5ff]"
         >
-          <span className="hidden sm:inline">Browse Courses</span>
+          <span className="hidden sm:inline">Browse courses</span>
           <IconExternalLink className="h-3.5 w-3.5 shrink-0" aria-hidden />
         </Link>
       </div>
-    </div>
+    </header>
   )
 }

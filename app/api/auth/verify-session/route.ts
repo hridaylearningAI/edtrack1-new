@@ -1,32 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { verifyToken } from '@clerk/backend'
-import { createClerkClient } from '@clerk/backend'
+import { verifyToken, createClerkClient } from '@clerk/backend'
+
+function looksLikeJwt(token: string | undefined | null): token is string {
+  if (!token || typeof token !== 'string') return false
+  const parts = token.split('.')
+  return parts.length === 3 && parts.every((p) => p.length > 0)
+}
+
+async function userPayloadFromId(userId: string, secretKey: string) {
+  const clerkClient = createClerkClient({ secretKey })
+  const user = await clerkClient.users.getUser(userId)
+  return {
+    id: user.id,
+    email: user.emailAddresses?.[0]?.emailAddress,
+    firstName: user.firstName,
+    lastName: user.lastName,
+    imageUrl: user.imageUrl,
+    publicMetadata: user.publicMetadata,
+  }
+}
 
 export async function POST(request: NextRequest) {
   try {
-    // Try to get token from request body first (URL parameter approach)
-    let clerkJwt: string | undefined
-    try {
-      const body = await request.json()
-      clerkJwt = body.token
-    } catch {
-      // If no body, try cookies
-    }
-
-    // If no token in body, try cookies
-    if (!clerkJwt) {
-      const cookies = request.cookies
-      clerkJwt = cookies.get('__clerk_db_jwt')?.value || 
-                  cookies.get('__clerk_db_jwt_0KvnLkOQ')?.value
-    }
-
-    if (!clerkJwt) {
-      return NextResponse.json(
-        { success: false, error: 'No Clerk token provided (neither in body nor cookies)' },
-        { status: 401 }
-      )
-    }
-
     const secretKey = process.env.CLERK_SECRET_KEY
     if (!secretKey) {
       return NextResponse.json(
@@ -35,26 +30,39 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Verify the JWT token
+    let clerkJwt: string | undefined
+    try {
+      const body = await request.json()
+      if (looksLikeJwt(body?.token)) {
+        clerkJwt = body.token
+      }
+    } catch {
+      // no body
+    }
+
+    if (!clerkJwt) {
+      return NextResponse.json(
+        { success: false, error: 'No valid JWT provided' },
+        { status: 401 }
+      )
+    }
+
     let sessionClaims
     try {
       sessionClaims = await verifyToken(clerkJwt, { secretKey })
-    } catch (error: any) {
-      console.error('Token verification failed:', error.message)
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : 'Invalid session token'
+      console.error('Token verification failed:', message)
       return NextResponse.json(
         { success: false, error: 'Invalid session token' },
         { status: 401 }
       )
     }
 
-    if (!sessionClaims) {
-      return NextResponse.json(
-        { success: false, error: 'No claims in token' },
-        { status: 401 }
-      )
-    }
-
-    const userId = sessionClaims.sub || (sessionClaims as any).userId || (sessionClaims as any).id
+    const userId =
+      sessionClaims?.sub ||
+      (sessionClaims as { userId?: string; id?: string } | null)?.userId ||
+      (sessionClaims as { id?: string } | null)?.id
 
     if (!userId) {
       return NextResponse.json(
@@ -63,35 +71,11 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Get user details from Clerk
-    const clerkClient = createClerkClient({ secretKey })
-    const user = await clerkClient.users.getUser(userId)
-
-    if (!user) {
-      return NextResponse.json(
-        { success: false, error: 'User not found' },
-        { status: 404 }
-      )
-    }
-
-    return NextResponse.json({
-      success: true,
-      user: {
-        id: user.id,
-        email: user.emailAddresses?.[0]?.emailAddress,
-        firstName: user.firstName,
-        lastName: user.lastName,
-        imageUrl: user.imageUrl,
-        publicMetadata: user.publicMetadata,
-      },
-      sessionClaims,
-    })
-  } catch (error: any) {
+    const user = await userPayloadFromId(userId, secretKey)
+    return NextResponse.json({ success: true, user, sessionClaims })
+  } catch (error: unknown) {
     console.error('Error verifying session:', error)
-    return NextResponse.json(
-      { success: false, error: error.message || 'Internal server error' },
-      { status: 500 }
-    )
+    const message = error instanceof Error ? error.message : 'Internal server error'
+    return NextResponse.json({ success: false, error: message }, { status: 500 })
   }
 }
-

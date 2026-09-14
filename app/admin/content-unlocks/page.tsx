@@ -211,8 +211,8 @@ export default function ContentUnlocksPage() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Content unlocks</h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+          <h1 className="text-2xl font-medium tracking-tight text-foreground">Content unlocks</h1>
+          <p className="text-sm text-muted-foreground mt-1">
             Approve student access requests and unlock course sections for any enrollment.
           </p>
         </div>
@@ -235,7 +235,7 @@ export default function ContentUnlocksPage() {
         <CardContent className="space-y-4">
           <div className="flex flex-col sm:flex-row gap-4 items-end">
             <div className="space-y-2 flex-1 min-w-0">
-              <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Course</label>
+              <label className="text-sm font-medium text-foreground">Course</label>
               <Select
                 value={unlockCourseId}
                 onValueChange={setUnlockCourseId}
@@ -255,7 +255,7 @@ export default function ContentUnlocksPage() {
               </Select>
             </div>
             <div className="space-y-2 flex-1 min-w-0">
-              <label className="text-sm font-medium text-slate-700 dark:text-slate-300">
+              <label className="text-sm font-medium text-foreground">
                 Enrollment
               </label>
               <Select
@@ -327,14 +327,14 @@ export default function ContentUnlocksPage() {
               <Loader2 className="h-8 w-8 animate-spin text-brand-blue" />
             </div>
           ) : requests.length === 0 ? (
-            <p className="text-slate-500 dark:text-slate-400 text-center py-8">
+            <p className="text-muted-foreground text-center py-8">
               No pending requests.
             </p>
           ) : (
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-slate-200 dark:border-slate-700">
+                  <tr className="border-b border-border">
                     <th className="text-left py-3 px-2 font-medium">Student</th>
                     <th className="text-left py-3 px-2 font-medium">Email</th>
                     <th className="text-left py-3 px-2 font-medium">Course</th>
@@ -346,12 +346,12 @@ export default function ContentUnlocksPage() {
                   {requests.map((r) => (
                     <tr
                       key={r.id}
-                      className="border-b border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50"
+                      className="border-b border-border hover:bg-muted"
                     >
                       <td className="py-3 px-2">{r.student_name ?? "—"}</td>
                       <td className="py-3 px-2">{r.student_email ?? "—"}</td>
                       <td className="py-3 px-2">{r.course_name ?? "—"}</td>
-                      <td className="py-3 px-2 text-slate-500 dark:text-slate-400">
+                      <td className="py-3 px-2 text-muted-foreground">
                         {r.requested_at ? new Date(r.requested_at).toLocaleString() : "—"}
                       </td>
                       <td className="py-3 px-2 text-right space-x-2">
@@ -364,7 +364,7 @@ export default function ContentUnlocksPage() {
                           {actionId === r.id ? (
                             <Loader2 className="h-4 w-4 animate-spin" />
                           ) : (
-                            <CheckCircle className="h-4 w-4 text-green-600" />
+                            <CheckCircle className="h-4 w-4 text-success" />
                           )}
                         </Button>
                         <Button
@@ -373,7 +373,7 @@ export default function ContentUnlocksPage() {
                           disabled={actionId === r.id}
                           onClick={() => updateStatus(r.id, "rejected")}
                         >
-                          <XCircle className="h-4 w-4 text-red-600" />
+                          <XCircle className="h-4 w-4 text-destructive" />
                         </Button>
                       </td>
                     </tr>

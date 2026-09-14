@@ -33,7 +33,7 @@ const DashboardBento = dynamic(() => import("./dashboard-charts"), {
       }}
     >
       {Array.from({ length: 10 }).map((_, i) => (
-        <div key={i} className="animate-pulse rounded-2xl bg-neutral-100 dark:bg-neutral-800" />
+        <div key={i} className="animate-pulse rounded-2xl bg-muted" />
       ))}
     </div>
   ),
@@ -92,9 +92,9 @@ export default function AdminDashboard() {
   return (
     <div className="flex h-full min-h-0 w-full flex-col gap-2 overflow-hidden">
       <div className="flex h-8 shrink-0 items-center justify-between gap-3">
-        <h1 className="truncate text-base font-semibold tracking-tight text-neutral-900 dark:text-white">
+        <h1 className="truncate text-base font-semibold tracking-tight text-foreground">
           Overview
-          <span className="ml-2 font-normal text-neutral-400">{isLoading ? "" : name}</span>
+          <span className="ml-2 font-normal text-muted-foreground">{isLoading ? "" : name}</span>
         </h1>
         <div className="flex shrink-0 items-center gap-2">
           <Button
@@ -123,9 +123,9 @@ export default function AdminDashboard() {
       </div>
 
       {error && !data ? (
-        <div className="flex flex-1 flex-col items-center justify-center gap-3 rounded-2xl border border-red-200 bg-red-50/50">
-          <AlertCircle className="h-8 w-8 text-red-500" />
-          <p className="text-sm font-medium text-red-600">{error}</p>
+        <div className="flex flex-1 flex-col items-center justify-center gap-3 rounded-2xl border border-destructive-line bg-destructive-soft/50">
+          <AlertCircle className="h-8 w-8 text-destructive" />
+          <p className="text-sm font-medium text-destructive">{error}</p>
           <Button size="sm" variant="outline" onClick={refreshData}>
             Retry
           </Button>
@@ -155,7 +155,7 @@ export default function AdminDashboard() {
               {Array.from({ length: 10 }).map((_, i) => (
                 <div
                   key={i}
-                  className="animate-pulse rounded-2xl bg-neutral-100 dark:bg-neutral-800"
+                  className="animate-pulse rounded-2xl bg-muted"
                 />
               ))}
             </div>

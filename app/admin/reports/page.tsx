@@ -18,8 +18,8 @@ import { toast } from "sonner"
 // Custom tooltip component with explicit background styling
 const CustomTooltipContent = (props: any) => {
   return (
-    <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-3 text-sm">
-      <div className="text-gray-900 dark:text-gray-100">
+    <div className="bg-white border border-border rounded-lg shadow-lg p-3 text-sm">
+      <div className="text-foreground">
         {props.label && <div className="font-medium mb-1">{props.label}</div>}
         {props.payload && props.payload.map((entry: any, index: number) => (
           <div key={index} className="flex items-center gap-2">
@@ -37,7 +37,8 @@ const CustomTooltipContent = (props: any) => {
   )
 }
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D']
+// Fixed order, checked with the dataviz palette validator; grey for anything past five.
+const COLORS = ['#2054a0', '#2f8a64', '#c07a1a', '#6b5bb5', '#be353b', '#8c9bb0']
 
 export default function ReportsAnalyticsPage() {
   const { data, loading, error, refreshData } = useAnalytics()
@@ -55,7 +56,7 @@ export default function ReportsAnalyticsPage() {
       change: "+12%",
       trend: "up",
       icon: Users,
-      color: "text-blue-600",
+      color: "text-primary",
     },
     {
       title: "Total Revenue",
@@ -63,7 +64,7 @@ export default function ReportsAnalyticsPage() {
       change: `+${data.financialMetrics.monthlyGrowth}%`,
       trend: "up",
       icon: DollarSign,
-      color: "text-green-600",
+      color: "text-success",
     },
     {
       title: "Course Completion",
@@ -71,7 +72,7 @@ export default function ReportsAnalyticsPage() {
       change: "+3%",
       trend: "up",
       icon: Award,
-      color: "text-purple-600",
+      color: "text-primary",
     },
     {
       title: "Active Courses",
@@ -79,7 +80,7 @@ export default function ReportsAnalyticsPage() {
       change: "+2",
       trend: "up",
       icon: BookOpen,
-      color: "text-orange-600",
+      color: "text-warning",
     },
   ] : []
 
@@ -172,7 +173,7 @@ export default function ReportsAnalyticsPage() {
     return (
               <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <p className="text-red-600 mb-4">Error loading analytics data: {error}</p>
+            <p className="text-destructive mb-4">Error loading analytics data: {error}</p>
             <Button onClick={refreshData}>Retry</Button>
           </div>
         </div>
@@ -185,7 +186,7 @@ export default function ReportsAnalyticsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Reports & Analytics</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Reports & Analytics</h2>
             <p className="text-muted-foreground mt-2">Comprehensive insights and performance analytics</p>
           </div>
           <div className="flex space-x-2">
@@ -234,11 +235,11 @@ export default function ReportsAnalyticsPage() {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-2xl font-bold text-foreground">{metric.value}</div>
+                    <div className="text-2xl font-medium tracking-tight text-foreground">{metric.value}</div>
                     <p className="text-xs text-muted-foreground">{metric.title}</p>
                     <div className="flex items-center mt-1">
-                      <TrendingUp className="h-3 w-3 text-chart-3 mr-1" />
-                      <span className="text-xs text-chart-3">{metric.change}</span>
+                      <TrendingUp className="h-3 w-3 text-success mr-1" />
+                      <span className="text-xs text-success">{metric.change}</span>
                     </div>
                   </div>
                   <metric.icon className={`h-8 w-8 ${metric.color}`} />
@@ -270,20 +271,20 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <AreaChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -291,23 +292,23 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Area
                             yAxisId="left"
                             type="monotone"
                             dataKey="students"
-                            stroke="#3b82f6"
-                            fill="#3b82f6"
+                            stroke="#2054a0"
+                            fill="#2054a0"
                             fillOpacity={0.4}
                           />
                           <Area
                             yAxisId="right"
                             type="monotone"
                             dataKey="revenue"
-                            stroke="#10b981"
-                            fill="#10b981"
+                            stroke="#2f8a64"
+                            fill="#2f8a64"
                             fillOpacity={0.4}
                           />
                         </AreaChart>
@@ -331,13 +332,13 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <BarChart data={data.coursePerformance.slice(0, 5)}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="courseName" 
                             tick={{ fontSize: 10, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                             angle={-45}
                             textAnchor="end"
                             height={80}
@@ -346,15 +347,15 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
-                          <Bar dataKey="enrolled" fill="#3b82f6" name="Enrolled" />
-                          <Bar dataKey="completed" fill="#10b981" name="Completed" />
+                          <Bar dataKey="enrolled" fill="#2054a0" name="Enrolled" />
+                          <Bar dataKey="completed" fill="#2f8a64" name="Completed" />
                         </BarChart>
                       </ResponsiveContainer>
                     </div>
@@ -383,7 +384,7 @@ export default function ReportsAnalyticsPage() {
                             labelLine={false}
                             label={({ source, percentage }) => `${source} (${percentage}%)`}
                             outerRadius={80}
-                            fill="#8884d8"
+                            fill="#6b5bb5"
                             dataKey="amount"
                           >
                             {data.revenueBreakdown.map((entry, index) => (
@@ -417,21 +418,21 @@ export default function ReportsAnalyticsPage() {
                         <PieChart>
                           <Pie
                             data={[
-                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#10b981' },
-                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#ef4444' },
-                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#3b82f6' }
+                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#2f8a64' },
+                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#be353b' },
+                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#2054a0' }
                             ]}
                             cx="50%"
                             cy="50%"
                             labelLine={false}
                             label={({ name, percent }) => `${name}: ${percent ? (percent * 100).toFixed(0) : 0}%`}
                             outerRadius={100}
-                            fill="#8884d8"
+                            fill="#6b5bb5"
                             dataKey="value"
                           >
-                            <Cell key="cell-0" fill="#10b981" />
-                            <Cell key="cell-1" fill="#ef4444" />
-                            <Cell key="cell-2" fill="#3b82f6" />
+                            <Cell key="cell-0" fill="#2f8a64" />
+                            <Cell key="cell-1" fill="#be353b" />
+                            <Cell key="cell-2" fill="#2054a0" />
                           </Pie>
                           <Tooltip 
                             content={<CustomTooltipContent />}
@@ -439,7 +440,7 @@ export default function ReportsAnalyticsPage() {
                           />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
                         </PieChart>
                       </ResponsiveContainer>
@@ -462,14 +463,14 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <ScatterChart data={data.coursePerformance}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="enrolled" 
                             name="Enrolled"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -477,10 +478,10 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
-                          <Scatter dataKey="revenue" fill="#8884d8" />
+                          <Scatter dataKey="revenue" fill="#6b5bb5" />
                         </ScatterChart>
                       </ResponsiveContainer>
                     </div>
@@ -512,7 +513,7 @@ export default function ReportsAnalyticsPage() {
                             labelLine={false}
                             label={({ courseName, completionRate }) => `${courseName}: ${completionRate}%`}
                             outerRadius={100}
-                            fill="#8884d8"
+                            fill="#6b5bb5"
                             dataKey="completionRate"
                           >
                             {data.coursePerformance.slice(0, 6).map((entry, index) => (
@@ -525,7 +526,7 @@ export default function ReportsAnalyticsPage() {
                           />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
                         </PieChart>
                       </ResponsiveContainer>
@@ -548,20 +549,20 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <ComposedChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -569,15 +570,15 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
-                          <Bar yAxisId="left" dataKey="students" fill="#3b82f6" name="Students" />
-                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#10b981" strokeWidth={3} name="Revenue" />
+                          <Bar yAxisId="left" dataKey="students" fill="#2054a0" name="Students" />
+                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#2f8a64" strokeWidth={3} name="Revenue" />
                         </ComposedChart>
                       </ResponsiveContainer>
                     </div>
@@ -605,22 +606,22 @@ export default function ReportsAnalyticsPage() {
                         <PieChart>
                           <Pie
                             data={[
-                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#10b981' },
-                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#ef4444' },
-                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#3b82f6' }
+                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#2f8a64' },
+                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#be353b' },
+                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#2054a0' }
                             ]}
                             cx="50%"
                             cy="50%"
                             labelLine={false}
                             label={({ name, percentage }) => `${name} (${percentage}%)`}
                             outerRadius={80}
-                            fill="#8884d8"
+                            fill="#6b5bb5"
                             dataKey="value"
                           >
                             {[
-                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#10b981' },
-                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#ef4444' },
-                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#3b82f6' }
+                              { name: 'On Track', value: data.studentProgress.onTrack, color: '#2f8a64' },
+                              { name: 'Behind Schedule', value: data.studentProgress.behindSchedule, color: '#be353b' },
+                              { name: 'Ahead of Schedule', value: data.studentProgress.aheadOfSchedule, color: '#2054a0' }
                             ].map((entry, index) => (
                               <Cell key={`cell-${index}`} fill={entry.color} />
                             ))}
@@ -647,28 +648,28 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <LineChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Line 
                             type="monotone" 
                             dataKey="students" 
-                            stroke="#3b82f6" 
+                            stroke="#2054a0" 
                             strokeWidth={3}
-                            dot={{ fill: '#3b82f6', strokeWidth: 2, r: 4 }}
-                            activeDot={{ r: 6, stroke: '#3b82f6', strokeWidth: 2 }}
+                            dot={{ fill: '#2054a0', strokeWidth: 2, r: 4 }}
+                            activeDot={{ r: 6, stroke: '#2054a0', strokeWidth: 2 }}
                           />
                         </LineChart>
                       </ResponsiveContainer>
@@ -694,7 +695,7 @@ export default function ReportsAnalyticsPage() {
                       <span className="text-sm font-medium">On Track</span>
                       <div className="flex items-center space-x-2">
                         <span className="text-sm text-muted-foreground">{data.studentProgress.onTrack}%</span>
-                        <Badge variant="outline" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">{data.studentProgress.onTrack}%</Badge>
+                        <Badge variant="outline" className="bg-success-soft text-success">{data.studentProgress.onTrack}%</Badge>
                       </div>
                     </div>
                     <Progress value={data.studentProgress.onTrack} className="h-2" />
@@ -703,7 +704,7 @@ export default function ReportsAnalyticsPage() {
                       <span className="text-sm font-medium">Behind Schedule</span>
                       <div className="flex items-center space-x-2">
                         <span className="text-sm text-muted-foreground">{data.studentProgress.behindSchedule}%</span>
-                        <Badge variant="outline" className="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200">{data.studentProgress.behindSchedule}%</Badge>
+                        <Badge variant="outline" className="bg-destructive-soft text-destructive">{data.studentProgress.behindSchedule}%</Badge>
                       </div>
                     </div>
                     <Progress value={data.studentProgress.behindSchedule} className="h-2" />
@@ -712,7 +713,7 @@ export default function ReportsAnalyticsPage() {
                       <span className="text-sm font-medium">Ahead of Schedule</span>
                       <div className="flex items-center space-x-2">
                         <span className="text-sm text-muted-foreground">{data.studentProgress.aheadOfSchedule}%</span>
-                        <Badge variant="outline" className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">{data.studentProgress.aheadOfSchedule}%</Badge>
+                        <Badge variant="outline" className="bg-primary-soft text-primary">{data.studentProgress.aheadOfSchedule}%</Badge>
                       </div>
                     </div>
                     <Progress value={data.studentProgress.aheadOfSchedule} className="h-2" />
@@ -756,21 +757,21 @@ export default function ReportsAnalyticsPage() {
                           <Radar 
                             name="Enrollment" 
                             dataKey="enrollment" 
-                            stroke="#3b82f6" 
-                            fill="#3b82f6" 
+                            stroke="#2054a0" 
+                            fill="#2054a0" 
                             fillOpacity={0.3} 
                           />
                           <Radar 
                             name="Completion" 
                             dataKey="completion" 
-                            stroke="#10b981" 
-                            fill="#10b981" 
+                            stroke="#2f8a64" 
+                            fill="#2f8a64" 
                             fillOpacity={0.3} 
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
                         </RadarChart>
                       </ResponsiveContainer>
@@ -793,14 +794,14 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <ScatterChart data={data.coursePerformance}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="completionRate" 
                             name="Completion Rate"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -808,10 +809,10 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
-                          <Scatter dataKey="revenue" fill="#8b5cf6" />
+                          <Scatter dataKey="revenue" fill="#6b5bb5" />
                         </ScatterChart>
                       </ResponsiveContainer>
                     </div>
@@ -840,21 +841,21 @@ export default function ReportsAnalyticsPage() {
                             <p className="text-sm text-muted-foreground">{course.enrolled} students enrolled</p>
                           </div>
                           <div className="text-right">
-                            <div className="text-xl font-bold text-foreground">${course.revenue.toLocaleString()}</div>
+                            <div className="text-xl font-semibold text-foreground">${course.revenue.toLocaleString()}</div>
                             <p className="text-xs text-muted-foreground">Revenue</p>
                           </div>
                         </div>
                         <div className="grid gap-4 md:grid-cols-3">
                           <div className="text-center p-3 bg-muted rounded">
-                            <div className="text-lg font-semibold text-blue-600">{course.enrolled}</div>
+                            <div className="text-lg font-semibold text-primary">{course.enrolled}</div>
                             <p className="text-xs text-muted-foreground">Enrolled</p>
                           </div>
                           <div className="text-center p-3 bg-muted rounded">
-                            <div className="text-lg font-semibold text-green-600">{course.completed}</div>
+                            <div className="text-lg font-semibold text-success">{course.completed}</div>
                             <p className="text-xs text-muted-foreground">Completed</p>
                           </div>
                           <div className="text-center p-3 bg-muted rounded">
-                            <div className="text-lg font-semibold text-purple-600">{course.completionRate}%</div>
+                            <div className="text-lg font-semibold text-primary">{course.completionRate}%</div>
                             <p className="text-xs text-muted-foreground">Completion Rate</p>
                           </div>
                         </div>
@@ -889,26 +890,26 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <AreaChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Area 
                             type="monotone" 
                             dataKey="revenue" 
-                            stroke="#10b981" 
-                            fill="#10b981" 
+                            stroke="#2f8a64" 
+                            fill="#2f8a64" 
                             fillOpacity={0.4}
                           />
                         </AreaChart>
@@ -932,13 +933,13 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <BarChart data={data.revenueBreakdown.slice(0, 5)}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="source" 
                             tick={{ fontSize: 10, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                             angle={-45}
                             textAnchor="end"
                             height={80}
@@ -947,10 +948,10 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
-                          <Bar dataKey="amount" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+                          <Bar dataKey="amount" fill="#6b5bb5" radius={[4, 4, 0, 0]} />
                         </BarChart>
                       </ResponsiveContainer>
                     </div>
@@ -970,21 +971,21 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="space-y-4">
-                      <div className="flex items-center justify-between p-3 bg-green-50 dark:bg-green-900/20 rounded">
-                        <span className="font-medium text-green-800 dark:text-green-200">Total Revenue</span>
-                        <span className="text-lg font-bold text-green-600">${data.financialMetrics.totalRevenue.toLocaleString()}</span>
+                      <div className="flex items-center justify-between p-3 bg-success-soft rounded">
+                        <span className="font-medium text-success">Total Revenue</span>
+                        <span className="text-lg font-bold text-success">${data.financialMetrics.totalRevenue.toLocaleString()}</span>
                       </div>
-                      <div className="flex items-center justify-between p-3 bg-red-50 dark:bg-red-900/20 rounded">
-                        <span className="font-medium text-red-800 dark:text-red-200">Outstanding Payments</span>
-                        <span className="text-lg font-bold text-red-600">${data.financialMetrics.outstandingPayments.toLocaleString()}</span>
+                      <div className="flex items-center justify-between p-3 bg-destructive-soft rounded">
+                        <span className="font-medium text-destructive">Outstanding Payments</span>
+                        <span className="text-lg font-bold text-destructive">${data.financialMetrics.outstandingPayments.toLocaleString()}</span>
                       </div>
-                      <div className="flex items-center justify-between p-3 bg-blue-50 dark:bg-blue-900/20 rounded">
-                        <span className="font-medium text-blue-800 dark:text-blue-200">Average Course Price</span>
-                        <span className="text-lg font-bold text-blue-600">${data.financialMetrics.averageCoursePrice.toFixed(0)}</span>
+                      <div className="flex items-center justify-between p-3 bg-primary-soft rounded">
+                        <span className="font-medium text-primary">Average Course Price</span>
+                        <span className="text-lg font-bold text-primary">${data.financialMetrics.averageCoursePrice.toFixed(0)}</span>
                       </div>
-                      <div className="flex items-center justify-between p-3 bg-purple-50 dark:bg-purple-900/20 rounded">
-                        <span className="font-medium text-purple-800 dark:text-purple-200">Monthly Growth</span>
-                        <span className="text-lg font-bold text-purple-600">+{data.financialMetrics.monthlyGrowth}%</span>
+                      <div className="flex items-center justify-between p-3 bg-primary-soft rounded">
+                        <span className="font-medium text-primary">Monthly Growth</span>
+                        <span className="text-lg font-bold text-primary">+{data.financialMetrics.monthlyGrowth}%</span>
                       </div>
                     </div>
                   ) : (
@@ -1007,14 +1008,14 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <ScatterChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="students" 
                             name="Students"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -1022,10 +1023,10 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
-                          <Scatter dataKey="revenue" fill="#10b981" />
+                          <Scatter dataKey="revenue" fill="#2f8a64" />
                         </ScatterChart>
                       </ResponsiveContainer>
                     </div>
@@ -1047,20 +1048,20 @@ export default function ReportsAnalyticsPage() {
                     <div className="h-64">
                       <ResponsiveContainer width="100%" height="100%">
                         <ComposedChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="dark:[&_line]:stroke-gray-700" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -1068,15 +1069,15 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className="dark:[&>text]:fill-white dark:[&_line]:stroke-white"
+                            className=""
                           />
                           <Tooltip content={<CustomTooltipContent />} />
                           <Legend 
                             wrapperStyle={{ color: '#000' }}
-                            className="dark:[&>text]:text-white"
+                            className=""
                           />
-                          <Bar yAxisId="left" dataKey="students" fill="#3b82f6" name="Students" />
-                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#10b981" strokeWidth={3} name="Revenue" />
+                          <Bar yAxisId="left" dataKey="students" fill="#2054a0" name="Students" />
+                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#2f8a64" strokeWidth={3} name="Revenue" />
                         </ComposedChart>
                       </ResponsiveContainer>
                     </div>

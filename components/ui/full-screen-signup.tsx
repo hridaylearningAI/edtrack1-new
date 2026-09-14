@@ -241,15 +241,15 @@ const ReviewCard = ({
         // light styles
         "bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
-        "dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
+        "",
         "hover-trigger transition-all duration-200",
       )}
     >
       <div className="flex flex-row items-center gap-2">
         <img className="rounded-full" width="32" height="32" alt="" src={img || "/placeholder.svg"} />
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">{name}</figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          <figcaption className="text-sm font-medium">{name}</figcaption>
+          <p className="text-xs font-medium">{username}</p>
         </div>
       </div>
       <blockquote className="mt-2 text-sm">{body}</blockquote>

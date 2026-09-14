@@ -115,8 +115,8 @@ export default function StudentCoursesPage() {
         <Card>
           <CardContent className="flex items-center justify-center p-8">
             <div className="text-center">
-              <AlertCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-red-600 mb-2">Error Loading Courses</h3>
+              <AlertCircle className="h-12 w-12 text-destructive mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-destructive mb-2">Error Loading Courses</h3>
               <p className="text-muted-foreground mb-4">{error}</p>
               <Button onClick={() => { clearError(); fetchCourses(); }}>
                 Try Again
@@ -148,19 +148,19 @@ export default function StudentCoursesPage() {
         </Card>
         <Card>
           <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-green-600">{courseStats.live}</div>
+            <div className="text-2xl font-bold text-success">{courseStats.live}</div>
             <p className="text-sm text-muted-foreground">Available Now</p>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-blue-600">{courseStats.comingSoon}</div>
+            <div className="text-2xl font-bold text-primary">{courseStats.comingSoon}</div>
             <p className="text-sm text-muted-foreground">Coming Soon</p>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-gray-600">{courseStats.archived}</div>
+            <div className="text-2xl font-bold text-muted-foreground">{courseStats.archived}</div>
             <p className="text-sm text-muted-foreground">Archived</p>
           </CardContent>
         </Card>

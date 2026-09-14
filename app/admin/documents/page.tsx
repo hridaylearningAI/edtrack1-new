@@ -54,7 +54,7 @@ const getStatusBadge = (status: string) => {
   switch (status.toLowerCase()) {
     case "verified":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="success">
           <Check className="mr-1 h-3 w-3" />
           Verified
         </Badge>
@@ -79,7 +79,7 @@ const getStatusBadge = (status: string) => {
 }
 
 const getDocumentIcon = (type: string) => {
-  return <FileText className="h-4 w-4 text-chart-1" />
+  return <FileText className="h-4 w-4 text-primary" />
 }
 
 const formatFileSize = (bytes: number) => {
@@ -190,7 +190,7 @@ export default function DocumentsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Documents</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Documents</h2>
             <p className="text-muted-foreground mt-2">Manage student documents and verification process</p>
           </div>
           <DocumentUploadDialog onDocumentUploaded={handleDocumentUploaded} />
@@ -202,10 +202,10 @@ export default function DocumentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{total}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{total}</div>
                   <p className="text-xs text-muted-foreground">Total Documents</p>
                 </div>
-                <FileText className="h-8 w-8 text-chart-1" />
+                <FileText className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -213,10 +213,10 @@ export default function DocumentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{pendingCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{pendingCount}</div>
                   <p className="text-xs text-muted-foreground">Pending Review</p>
                 </div>
-                <Clock className="h-8 w-8 text-chart-4" />
+                <Clock className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -224,10 +224,10 @@ export default function DocumentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{verifiedCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{verifiedCount}</div>
                   <p className="text-xs text-muted-foreground">Verified</p>
                 </div>
-                <Check className="h-8 w-8 text-chart-3" />
+                <Check className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -235,10 +235,10 @@ export default function DocumentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{rejectedCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{rejectedCount}</div>
                   <p className="text-xs text-muted-foreground">Rejected</p>
                 </div>
-                <AlertCircle className="h-8 w-8 text-chart-2" />
+                <AlertCircle className="h-8 w-8 text-destructive" />
               </div>
             </CardContent>
           </Card>
@@ -429,7 +429,7 @@ export default function DocumentsPage() {
                   {documentTypes.map((type, index) => (
                     <div key={index} className="flex items-center justify-between p-4 border rounded-lg">
                       <div className="flex items-center space-x-3">
-                        <FileText className="h-5 w-5 text-chart-1" />
+                        <FileText className="h-5 w-5 text-primary" />
                         <div>
                           <div className="flex items-center space-x-2">
                             <span className="font-medium">{type.name}</span>

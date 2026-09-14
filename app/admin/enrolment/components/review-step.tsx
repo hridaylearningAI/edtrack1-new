@@ -220,35 +220,35 @@ export function ReviewStep({
           {enrollmentData.paymentStatus && (
             <div className={`p-4 rounded-lg border ${
               enrollmentData.paymentStatus === 'completed' 
-                ? 'bg-green-50 border-green-200' 
+                ? 'bg-success-soft border-success-line' 
                 : enrollmentData.paymentStatus === 'failed'
-                ? 'bg-red-50 border-red-200'
-                : 'bg-yellow-50 border-yellow-200'
+                ? 'bg-destructive-soft border-destructive-line'
+                : 'bg-warning-soft border-warning-line'
             }`}>
               <div className="flex items-center justify-between">
                 <div>
                   <div className={`font-semibold ${
                     enrollmentData.paymentStatus === 'completed' 
-                      ? 'text-green-900' 
+                      ? 'text-success' 
                       : enrollmentData.paymentStatus === 'failed'
-                      ? 'text-red-900'
-                      : 'text-yellow-900'
+                      ? 'text-destructive'
+                      : 'text-warning'
                   }`}>
                     Payment Status: {enrollmentData.paymentStatus.toUpperCase()}
                   </div>
                   {enrollmentData.paymentStatus === 'pending' && (
-                    <p className="text-sm text-yellow-700 mt-1">
+                    <p className="text-sm text-warning mt-1">
                       Waiting for student to complete payment
                     </p>
                   )}
                   {enrollmentData.paymentStatus === 'completed' && (
-                    <p className="text-sm text-green-700 mt-1">
+                    <p className="text-sm text-success mt-1">
                       Payment completed successfully
                     </p>
                   )}
                 </div>
                 {enrollmentData.paymentStatus === 'completed' && (
-                  <CheckCircle className="h-6 w-6 text-green-600" />
+                  <CheckCircle className="h-6 w-6 text-success" />
                 )}
               </div>
             </div>
@@ -300,7 +300,7 @@ export function ReviewStep({
             {enrollmentData.documents.length > 0 ? (
               enrollmentData.documents.map((doc, index) => (
                 <div key={index} className="flex items-center gap-2 p-2 bg-muted/50 rounded">
-                  <CheckCircle className="h-4 w-4 text-green-600" />
+                  <CheckCircle className="h-4 w-4 text-success" />
                   <span className="text-sm">{doc.name}</span>
                 </div>
               ))
@@ -344,12 +344,12 @@ export function ReviewStep({
         </div>
 
         {/* Final Confirmation */}
-        <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+        <div className="bg-success-soft border border-success-line rounded-lg p-4">
           <div className="flex items-start gap-3">
-            <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+            <CheckCircle className="h-5 w-5 text-success mt-0.5" />
             <div>
-              <h5 className="font-semibold text-green-900">Ready to Complete Enrollment</h5>
-              <p className="text-sm text-green-700 mt-1">
+              <h5 className="font-semibold text-success">Ready to Complete Enrollment</h5>
+              <p className="text-sm text-success mt-1">
                 Please review all information above carefully. Once you submit, your enrollment will be processed 
                 and you'll receive a confirmation email with further instructions.
               </p>

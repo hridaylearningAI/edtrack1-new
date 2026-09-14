@@ -53,6 +53,15 @@ export default function StudentsPage() {
   } = useAdminProgress(30000);
 
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Opened from the command palette: ?q= prefills the search box.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get('q')
+    if (q) {
+      setSearchTerm(q)
+      searchStudents({ name: q })
+    }
+  }, [])
   const [statusFilter, setStatusFilter] = useState<string>('');
   const [isDeleting, setIsDeleting] = useState<number | null>(null);
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
@@ -157,23 +166,15 @@ export default function StudentsPage() {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case "active":
-        return (
-          <Badge variant="default" className="bg-green-600 text-white">
-            Active
-          </Badge>
-        )
+        return <Badge variant="success">Active</Badge>
       case "completed":
-        return (
-          <Badge variant="default" className="bg-blue-600 text-white">
-            Completed
-          </Badge>
-        )
+        return <Badge variant="default">Completed</Badge>
       case "inactive":
         return <Badge variant="secondary">Inactive</Badge>
       case "suspended":
         return <Badge variant="destructive">Suspended</Badge>
       case "graduated":
-        return <Badge variant="default" className="bg-purple-600 text-white">Graduated</Badge>
+        return <Badge variant="default">Graduated</Badge>
       case "withdrawn":
         return <Badge variant="outline">Withdrawn</Badge>
       default:
@@ -182,9 +183,7 @@ export default function StudentsPage() {
   };
 
   const getCompletionColor = (percentage: number) => {
-    if (percentage >= 80) return "bg-green-500"
-    if (percentage >= 50) return "bg-yellow-500"
-    return "bg-red-500"
+    return percentage >= 80 ? "bg-success" : "bg-primary"
   };
 
   // Calculate completion percentage from real-time progress data
@@ -206,9 +205,9 @@ export default function StudentsPage() {
         <div className="flex flex-col space-y-4 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
           <div>
             <div className="flex items-center gap-3">
-              <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Students</h2>
+              <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-foreground">Students</h2>
               {autoRefresh && (
-                <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
+                <Badge variant="outline" className="bg-success-soft text-success border-success-line">
                   <RefreshCw className="h-3 w-3 mr-1 animate-spin" />
                   Live
                 </Badge>
@@ -216,7 +215,7 @@ export default function StudentsPage() {
             </div>
             <p className="text-muted-foreground mt-1 sm:mt-2">
               Manage and view all student information with real-time progress tracking
-              {loading && <span className="ml-2 text-blue-600">(Loading...)</span>}
+              {loading && <span className="ml-2 text-primary">(Loading...)</span>}
             </p>
             {lastUpdated && (
               <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
@@ -225,7 +224,7 @@ export default function StudentsPage() {
               </p>
             )}
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center space-x-2">
               <Switch
                 id="auto-refresh"
@@ -476,13 +475,13 @@ export default function StudentsPage() {
         <div className="grid gap-4 grid-cols-2 md:grid-cols-4">
           <Card>
             <CardContent className="p-6">
-              <div className="text-2xl font-bold text-foreground">{totalCount}</div>
+              <div className="text-2xl font-medium tracking-tight text-foreground">{totalCount}</div>
               <p className="text-xs text-muted-foreground">Total Students</p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6">
-              <div className="text-2xl font-bold text-foreground">
+              <div className="text-2xl font-medium tracking-tight text-foreground">
                 {students.filter((s) => s.status === "active").length}
               </div>
               <p className="text-xs text-muted-foreground">Active Students</p>
@@ -490,7 +489,7 @@ export default function StudentsPage() {
           </Card>
           <Card>
             <CardContent className="p-6">
-              <div className="text-2xl font-bold text-foreground">
+              <div className="text-2xl font-medium tracking-tight text-foreground">
                 {students.filter((s) => s.status === "graduated" || s.status === "completed").length}
               </div>
               <p className="text-xs text-muted-foreground">Graduated/Completed</p>
@@ -498,7 +497,7 @@ export default function StudentsPage() {
           </Card>
           <Card>
             <CardContent className="p-6">
-              <div className="text-2xl font-bold text-foreground">
+              <div className="text-2xl font-medium tracking-tight text-foreground">
                 {students.length > 0 
                   ? Math.round(students.reduce((acc, s) => acc + getCompletionPercentage(s), 0) / students.length)
                   : 0}%

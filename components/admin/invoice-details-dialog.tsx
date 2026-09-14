@@ -76,7 +76,7 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
       logoSection.style.alignItems = 'center';
       logoSection.style.marginBottom = '30px';
       logoSection.style.paddingBottom = '20px';
-      logoSection.style.borderBottom = '2px solid #e5e7eb';
+      logoSection.style.borderBottom = '2px solid #e0e7f0';
       
       // Create logo container
       const logoContainer = document.createElement('div');
@@ -94,8 +94,8 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
       
       const logoText = document.createElement('div');
       logoText.innerHTML = `
-        <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1f2937;">ETIA</h1>
-        <p style="margin: 0; font-size: 14px; color: #6b7280;">Education Technology & Innovation Academy</p>
+        <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1b304e;">ETIA</h1>
+        <p style="margin: 0; font-size: 14px; color: #5a6d88;">Education Technology & Innovation Academy</p>
       `;
       
       logoContainer.appendChild(logoImg);
@@ -104,8 +104,8 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
       const invoiceHeader = document.createElement('div');
       invoiceHeader.style.textAlign = 'right';
       invoiceHeader.innerHTML = `
-        <h2 style="margin: 0; font-size: 20px; font-weight: bold; color: #1f2937;">INVOICE</h2>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #6b7280;">#${invoice.id}</p>
+        <h2 style="margin: 0; font-size: 20px; font-weight: bold; color: #1b304e;">INVOICE</h2>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #5a6d88;">#${invoice.id}</p>
       `;
       
       logoSection.appendChild(logoContainer);
@@ -173,13 +173,13 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
   const getStatusBadge = (status: string) => {
     switch (status) {
       case "Paid":
-        return <Badge variant="default" className="bg-green-600 text-white">Paid</Badge>;
+        return <Badge variant="default" className="border-success-line bg-success-soft text-success">Paid</Badge>;
       case "Pending":
         return <Badge variant="secondary">Pending</Badge>;
       case "Overdue":
         return <Badge variant="destructive">Overdue</Badge>;
       case "Partial":
-        return <Badge variant="outline" className="bg-yellow-100 text-yellow-800">Partial</Badge>;
+        return <Badge variant="outline" className="bg-warning-soft text-warning">Partial</Badge>;
       case "Cancelled":
         return <Badge variant="outline">Cancelled</Badge>;
       default:
@@ -218,7 +218,7 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
               className="object-contain"
             />
             <div>
-              <h2 className="text-xl font-bold text-foreground">ETIA</h2>
+              <h2 className="text-xl font-semibold text-foreground">ETIA</h2>
               <p className="text-sm text-muted-foreground">Education Technology & Innovation Academy</p>
             </div>
           </div>
@@ -292,12 +292,12 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
             <div className="grid grid-cols-2 gap-4 p-4 border rounded-lg">
               <div>
                 <p className="text-sm text-muted-foreground">Total Amount</p>
-                <p className="text-2xl font-bold">{formatCurrency(invoice.amount || 0)}</p>
+                <p className="text-2xl font-medium tracking-tight">{formatCurrency(invoice.amount || 0)}</p>
               </div>
               {invoice.paid_amount !== undefined && invoice.paid_amount > 0 && (
                 <div>
                   <p className="text-sm text-muted-foreground">Paid Amount</p>
-                  <p className="text-xl font-semibold text-green-600">
+                  <p className="text-xl font-semibold text-success">
                     {formatCurrency(invoice.paid_amount)}
                   </p>
                 </div>
@@ -305,7 +305,7 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
               {invoice.status === "Partial" && invoice.paid_amount !== undefined && (
                 <div className="col-span-2">
                   <p className="text-sm text-muted-foreground">Remaining Balance</p>
-                  <p className="text-lg font-semibold text-orange-600">
+                  <p className="text-lg font-semibold text-warning">
                     {formatCurrency((invoice.amount || 0) - (invoice.paid_amount || 0))}
                   </p>
                 </div>

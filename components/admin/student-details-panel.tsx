@@ -35,15 +35,15 @@ export function StudentDetailsPanel({ student, progressData, isOpen, onClose }: 
   const getStatusBadge = (status: string) => {
     switch (status) {
       case "active":
-        return <Badge variant="default" className="bg-green-600 text-white">Active</Badge>;
+        return <Badge variant="default" className="border-success-line bg-success-soft text-success">Active</Badge>;
       case "completed":
-        return <Badge variant="default" className="bg-blue-600 text-white">Completed</Badge>;
+        return <Badge variant="default" className="border-primary-line bg-primary-soft text-primary">Completed</Badge>;
       case "inactive":
         return <Badge variant="secondary">Inactive</Badge>;
       case "suspended":
         return <Badge variant="destructive">Suspended</Badge>;
       case "graduated":
-        return <Badge variant="default" className="bg-purple-600 text-white">Graduated</Badge>;
+        return <Badge variant="default" className="border-primary-line bg-primary-soft text-primary">Graduated</Badge>;
       case "withdrawn":
         return <Badge variant="outline">Withdrawn</Badge>;
       default:
@@ -52,18 +52,18 @@ export function StudentDetailsPanel({ student, progressData, isOpen, onClose }: 
   };
 
   const getProgressColor = (progress: number) => {
-    if (progress >= 80) return "bg-green-500";
-    if (progress >= 50) return "bg-blue-500";
-    if (progress >= 25) return "bg-yellow-500";
-    return "bg-gray-500";
+    if (progress >= 80) return "bg-success";
+    if (progress >= 50) return "bg-primary";
+    if (progress >= 25) return "bg-warning";
+    return "bg-muted-foreground";
   };
 
   const getEnrollmentStatusBadge = (status: string, progress: number) => {
     if (status === 'completed' || progress >= 100) {
-      return <Badge variant="default" className="bg-green-500 text-white">Completed</Badge>;
+      return <Badge variant="default" className="border-success-line bg-success-soft text-success">Completed</Badge>;
     }
     if (progress > 0) {
-      return <Badge variant="default" className="bg-blue-500 text-white">In Progress</Badge>;
+      return <Badge variant="default" className="border-primary-line bg-primary-soft text-primary">In Progress</Badge>;
     }
     return <Badge variant="outline">Not Started</Badge>;
   };
@@ -185,21 +185,21 @@ export function StudentDetailsPanel({ student, progressData, isOpen, onClose }: 
                 <CardContent className="p-4 space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <div className="text-2xl font-bold text-foreground">{progressData.overallProgress}%</div>
+                      <div className="text-2xl font-medium tracking-tight text-foreground">{progressData.overallProgress}%</div>
                       <p className="text-xs text-muted-foreground">Overall Progress</p>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-foreground">
+                      <div className="text-2xl font-medium tracking-tight text-foreground">
                         {progressData.unitsCompleted}/{progressData.totalUnits}
                       </div>
                       <p className="text-xs text-muted-foreground">Units Completed</p>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-foreground">{progressData.timeSpent}h</div>
+                      <div className="text-2xl font-medium tracking-tight text-foreground">{progressData.timeSpent}h</div>
                       <p className="text-xs text-muted-foreground">Time Spent</p>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-foreground">
+                      <div className="text-2xl font-medium tracking-tight text-foreground">
                         {progressData.status}
                       </div>
                       <p className="text-xs text-muted-foreground">Status</p>

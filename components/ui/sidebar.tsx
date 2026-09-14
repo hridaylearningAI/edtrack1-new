@@ -10,7 +10,9 @@ import {
   IconMenu2,
   IconX,
 } from "@tabler/icons-react"
+import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 interface Links {
   label: string
@@ -87,11 +89,11 @@ export const DesktopSidebar = ({ className, children, ...props }: React.Componen
   return (
     <motion.div
       className={cn(
-        "h-full px-3 py-4 hidden md:flex md:flex-col bg-white dark:bg-neutral-950 w-[260px] shrink-0 border-r border-neutral-200/80 dark:border-neutral-800",
+        "h-full px-4 py-4 hidden md:flex md:flex-col bg-sidebar w-[248px] shrink-0 border-r border-sidebar-border",
         className,
       )}
       animate={{
-        width: animate ? (open ? "260px" : "72px") : "260px",
+        width: animate ? (open ? "248px" : "72px") : "248px",
       }}
       transition={{ duration: 0.2, ease: [0.23, 1, 0.32, 1] }}
       {...props}
@@ -110,8 +112,8 @@ export function SidebarToggleButton({ className }: { className?: string }) {
       type="button"
       onClick={() => setOpen((v) => !v)}
       className={cn(
-        "hidden md:inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md border border-neutral-200 bg-white text-neutral-600 transition-colors hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-white",
-        "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue",
+        "hidden md:inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-muted hover:text-foreground",
+        "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
         className,
       )}
       aria-expanded={open}
@@ -128,27 +130,34 @@ export function SidebarToggleButton({ className }: { className?: string }) {
 }
 
 export const MobileSidebar = ({ className, children, ...props }: React.ComponentProps<"div">) => {
-  const { open, setOpen } = useSidebar()
+  const { animate } = useSidebar()
+  // The drawer keeps its own state: the shared `open` is the desktop expand/collapse
+  // preference, which defaults to true and would cover the page on phones.
+  const [open, setOpen] = useState(false)
+  const pathname = usePathname()
+  useEffect(() => {
+    setOpen(false)
+  }, [pathname])
   return (
     <>
       <div
-        className={cn(
-          "h-12 px-4 flex flex-row md:hidden items-center justify-between bg-white dark:bg-neutral-950 w-full border-b border-neutral-200 dark:border-neutral-800",
-        )}
+        className="h-14 px-4 flex flex-row md:hidden items-center justify-between bg-sidebar w-full border-b border-sidebar-border"
         {...props}
       >
-        <div className="flex items-center gap-2 z-20">
-          <span className="font-semibold text-sm text-neutral-900 dark:text-neutral-100 leading-tight">
-            EdTrack
-          </span>
-        </div>
+        <Image
+          src="/images/EdTrack1 logo.png"
+          alt="EdTrack ONE"
+          width={1967}
+          height={800}
+          className="z-20 h-auto w-[118px]"
+        />
         <button
           type="button"
-          className="flex justify-end z-20 p-1 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800"
+          className="z-20 grid h-10 w-10 place-items-center rounded-lg text-foreground hover:bg-muted"
           onClick={() => setOpen(!open)}
           aria-label="Open menu"
         >
-          <IconMenu2 className="text-neutral-700 dark:text-neutral-200 w-6 h-6" />
+          <IconMenu2 className="h-6 w-6" />
         </button>
         <AnimatePresence>
           {open && (
@@ -162,23 +171,55 @@ export const MobileSidebar = ({ className, children, ...props }: React.Component
               }}
               className={cn(
                 className,
-                "fixed h-full w-full inset-0 bg-white dark:bg-neutral-950 p-6 z-[100] flex flex-col justify-between overflow-y-auto",
+                "fixed h-full w-full inset-0 bg-sidebar p-6 z-[100] flex flex-col justify-between overflow-y-auto",
               )}
             >
               <button
                 type="button"
-                className="absolute right-6 top-6 z-50 text-neutral-600 dark:text-neutral-300 p-1 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800"
+                className="absolute right-6 top-6 z-50 grid h-10 w-10 place-items-center rounded-lg text-muted-foreground hover:bg-muted"
                 onClick={() => setOpen(!open)}
                 aria-label="Close menu"
               >
                 <IconX className="h-5 w-5" />
               </button>
-              {children}
+              {/* Inside the drawer everything renders expanded, and setOpen(false) closes it. */}
+              <SidebarContext.Provider value={{ open: true, setOpen, animate }}>{children}</SidebarContext.Provider>
             </motion.div>
           )}
         </AnimatePresence>
       </div>
     </>
+  )
+}
+
+/** Portal brand, matching the demo dashboard: wordmark + workspace tile when expanded, logo mark when collapsed. */
+export function SidebarBrand({ href, workspace }: { href: string; workspace: string }) {
+  const { open, animate } = useSidebar()
+  if (animate && !open) {
+    return (
+      <Link href={href} aria-label={`EdTrack ${workspace}`} className="flex shrink-0 justify-center py-1">
+        <Image src="/images/etia-logo.png" alt="" width={32} height={32} className="rounded-md" />
+      </Link>
+    )
+  }
+  return (
+    <div className="shrink-0">
+      <Link href={href} aria-label={`EdTrack ${workspace}`} className="block px-1 pb-3">
+        <Image src="/images/EdTrack1 logo.png" alt="" width={1967} height={800} priority className="h-auto w-[160px]" />
+      </Link>
+      <div className="flex items-center gap-2.5 border-y border-sidebar-border px-1.5 py-3">
+        <span
+          className="grid h-8 w-8 shrink-0 place-items-center rounded-[9px] border border-[#d9e5f6] bg-secondary text-[13px] font-semibold text-secondary-foreground"
+          aria-hidden
+        >
+          E
+        </span>
+        <div className="min-w-0 leading-tight">
+          <p className="truncate text-xs font-semibold text-foreground">EdTrack</p>
+          <p className="mt-1 truncate text-[11px] text-muted-foreground">{workspace}</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
@@ -200,24 +241,18 @@ export const SidebarLink = ({
       href={link.href}
       onClick={onClick}
       title={!open && animate ? link.label : undefined}
+      aria-current={active ? "page" : undefined}
       className={cn(
-        "group/sidebar flex items-center gap-2.5 rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
+        "group/sidebar flex min-h-10 items-center gap-2.5 rounded-[7px] px-3 text-[13px] transition-colors duration-150",
         active
-          ? "border-l-2 border-brand-blue bg-brand-blue/10 font-medium text-brand-blue dark:border-brand-blue-light dark:bg-brand-blue/20 dark:text-brand-blue-light"
-          : "border-l-2 border-transparent text-neutral-600 hover:bg-brand-blue/10 hover:text-brand-blue dark:text-neutral-400 dark:hover:bg-brand-blue/20 dark:hover:text-brand-blue-light",
-        !open && animate && "justify-center border-l-0 px-2",
+          ? "bg-sidebar-accent font-semibold text-sidebar-accent-foreground"
+          : "text-sidebar-foreground hover:bg-muted hover:text-foreground",
+        !open && animate && "justify-center px-2",
         className,
       )}
       {...props}
     >
-      <span
-        className={cn(
-          "flex h-5 w-5 shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4",
-          active
-            ? "text-brand-blue dark:text-brand-blue-light"
-            : "text-neutral-500 group-hover/sidebar:text-brand-blue dark:text-neutral-400 dark:group-hover/sidebar:text-brand-blue-light",
-        )}
-      >
+      <span className="flex h-5 w-5 shrink-0 items-center justify-center [&>svg]:h-[17px] [&>svg]:w-[17px]">
         {link.icon}
       </span>
 
@@ -239,10 +274,10 @@ export function SidebarSectionLabel({ children }: { children: React.ReactNode })
   const { open, animate } = useSidebar()
   const visible = animate ? open : true
   if (!visible) {
-    return <div className="my-2 mx-2 border-t border-neutral-200 dark:border-neutral-800" aria-hidden />
+    return <div className="my-3 mx-2 border-t border-sidebar-border" aria-hidden />
   }
   return (
-    <div className="px-2.5 pt-4 pb-1.5 text-[11px] font-semibold uppercase tracking-wider text-neutral-400 dark:text-neutral-500">
+    <div className="px-3 pt-5 pb-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
       {children}
     </div>
   )
@@ -300,30 +335,23 @@ export function SidebarNavGroup({
         type="button"
         onClick={() => setExpanded((v) => !v)}
         className={cn(
-          "flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-sm transition-colors",
+          "flex min-h-10 w-full items-center gap-2.5 rounded-[7px] px-3 text-[13px] transition-colors",
           childActive
-            ? "font-medium text-brand-blue dark:text-brand-blue-light"
-            : "text-neutral-600 hover:bg-brand-blue/10 hover:text-brand-blue dark:text-neutral-400 dark:hover:bg-brand-blue/20 dark:hover:text-brand-blue-light",
+            ? "font-semibold text-sidebar-accent-foreground"
+            : "text-sidebar-foreground hover:bg-muted hover:text-foreground",
         )}
         aria-expanded={expanded}
         aria-controls={`nav-group-${id}`}
       >
         {icon ? (
-          <span
-            className={cn(
-              "flex h-5 w-5 shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4",
-              childActive
-                ? "text-brand-blue dark:text-brand-blue-light"
-                : "text-neutral-500",
-            )}
-          >
+          <span className="flex h-5 w-5 shrink-0 items-center justify-center [&>svg]:h-[17px] [&>svg]:w-[17px]">
             {icon}
           </span>
         ) : null}
         <span className="min-w-0 flex-1 truncate text-left">{label}</span>
         <IconChevronDown
           className={cn(
-            "h-3.5 w-3.5 shrink-0 text-neutral-400 transition-transform duration-150",
+            "h-3.5 w-3.5 shrink-0 text-muted-foreground transition-transform duration-150",
             expanded && "rotate-180",
           )}
         />
@@ -338,7 +366,7 @@ export function SidebarNavGroup({
             transition={{ duration: 0.18, ease: [0.23, 1, 0.32, 1] }}
             className="overflow-hidden"
           >
-            <div className="ml-3 mt-0.5 flex flex-col gap-0.5 border-l border-neutral-200 pl-2 dark:border-neutral-800">
+            <div className="ml-[21px] mt-0.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2">
               {items.map((item) => (
                 <SidebarLink
                   key={item.href}
@@ -360,7 +388,7 @@ export function SidebarNavGroup({
 }
 
 export function isNavActive(pathname: string, href: string): boolean {
-  if (href === "/admin" || href === "/student" || href === "/trainer" || href === "/partner") {
+  if (["/admin", "/student", "/trainer", "/partner", "/super-admin"].includes(href)) {
     return pathname === href
   }
   return pathname === href || pathname.startsWith(`${href}/`)

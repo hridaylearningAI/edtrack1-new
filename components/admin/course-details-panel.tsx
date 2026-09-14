@@ -18,7 +18,7 @@ const getStatusBadge = (status: string) => {
   switch (status?.toLowerCase()) {
     case "active":
       return (
-        <Badge variant="default" className="bg-green-600 text-white">
+        <Badge variant="default" className="border-success-line bg-success-soft text-success">
           Active
         </Badge>
       )
@@ -37,7 +37,7 @@ const getEnrollmentStatusBadge = (status: string) => {
   switch (status?.toLowerCase()) {
     case "active":
       return (
-        <Badge variant="default" className="bg-green-600 text-white text-xs">
+        <Badge variant="default" className="border-success-line bg-success-soft text-success text-xs">
           Active
         </Badge>
       )
@@ -101,9 +101,9 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
         {/* Header */}
         <div className="flex items-center justify-between border-b p-6 flex-shrink-0">
           <div className="flex items-center space-x-4">
-            <BookOpen className="h-8 w-8 text-blue-600" />
+            <BookOpen className="h-8 w-8 text-primary" />
             <div>
-              <h2 className="text-2xl font-bold">{course.name}</h2>
+              <h2 className="text-2xl font-medium tracking-tight">{course.name}</h2>
               <p className="text-muted-foreground">Course Details</p>
             </div>
           </div>
@@ -126,7 +126,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                   {course.price ? `$${course.price.toFixed(2)}` : 'N/A'}
                 </div>
                 {course.min_price_after_discount && course.min_price_after_discount < (course.price || 0) && (
-                  <div className="text-sm text-green-600">
+                  <div className="text-sm text-success">
                     From ${course.min_price_after_discount.toFixed(2)}
                   </div>
                 )}
@@ -147,7 +147,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <div className="font-medium">{course.average_progress?.toFixed(1) || 0}%</div>
                 <div className="w-20 bg-muted rounded-full h-2 mt-1">
                   <div
-                    className="bg-blue-600 h-2 rounded-full"
+                    className="bg-primary h-2 rounded-full"
                     style={{ width: `${course.average_progress || 0}%` }}
                   />
                 </div>
@@ -260,7 +260,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                               {getEnrollmentStatusBadge(enrollment.status || 'enrolled')}
                             </div>
                             {enrollment.grade && (
-                              <div className="mt-1 text-sm font-medium text-green-600">
+                              <div className="mt-1 text-sm font-medium text-success">
                                 Grade: {enrollment.grade}
                               </div>
                             )}
@@ -360,10 +360,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <Users className="h-5 w-5 text-blue-600" />
+                      <Users className="h-5 w-5 text-primary" />
                       <div>
                         <p className="text-sm text-muted-foreground">Total Enrollments</p>
-                        <p className="text-2xl font-bold">{analytics.totalEnrollments}</p>
+                        <p className="text-2xl font-medium tracking-tight">{analytics.totalEnrollments}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -371,10 +371,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <Target className="h-5 w-5 text-green-600" />
+                      <Target className="h-5 w-5 text-success" />
                       <div>
                         <p className="text-sm text-muted-foreground">Completion Rate</p>
-                        <p className="text-2xl font-bold">{analytics.completionRate.toFixed(1)}%</p>
+                        <p className="text-2xl font-medium tracking-tight">{analytics.completionRate.toFixed(1)}%</p>
                       </div>
                     </div>
                   </CardContent>
@@ -382,10 +382,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <TrendingUp className="h-5 w-5 text-orange-600" />
+                      <TrendingUp className="h-5 w-5 text-warning" />
                       <div>
                         <p className="text-sm text-muted-foreground">Avg Progress</p>
-                        <p className="text-2xl font-bold">{analytics.averageProgress.toFixed(1)}%</p>
+                        <p className="text-2xl font-medium tracking-tight">{analytics.averageProgress.toFixed(1)}%</p>
                       </div>
                     </div>
                   </CardContent>
@@ -393,10 +393,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <Award className="h-5 w-5 text-purple-600" />
+                      <Award className="h-5 w-5 text-primary" />
                       <div>
                         <p className="text-sm text-muted-foreground">Potential Revenue</p>
-                        <p className="text-2xl font-bold">${analytics.potentialRevenue.toFixed(0)}</p>
+                        <p className="text-2xl font-medium tracking-tight">${analytics.potentialRevenue.toFixed(0)}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -404,10 +404,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <BookOpen className="h-5 w-5 text-indigo-600" />
+                      <BookOpen className="h-5 w-5 text-primary" />
                       <div>
                         <p className="text-sm text-muted-foreground">Active Discounts</p>
-                        <p className="text-2xl font-bold">{course.active_discount_count || 0}</p>
+                        <p className="text-2xl font-medium tracking-tight">{course.active_discount_count || 0}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -415,10 +415,10 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                 <Card>
                   <CardContent className="p-4">
                     <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-red-600" />
+                      <Clock className="h-5 w-5 text-destructive" />
                       <div>
                         <p className="text-sm text-muted-foreground">Discount Savings</p>
-                        <p className="text-2xl font-bold">${analytics.discountSavings.toFixed(0)}</p>
+                        <p className="text-2xl font-medium tracking-tight">${analytics.discountSavings.toFixed(0)}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -439,7 +439,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                         <div className="flex items-center space-x-2">
                           <div className="w-32 bg-muted rounded-full h-2">
                             <div
-                              className="h-2 rounded-full bg-blue-600"
+                              className="h-2 rounded-full bg-primary"
                               style={{ 
                                 width: `${(count as number / analytics.totalEnrollments) * 100}%` 
                               }}
@@ -464,7 +464,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                     {analytics.weeklyEnrollments.map((count: number, index: number) => (
                       <div key={index} className="flex-1 flex flex-col items-center">
                         <div
-                          className="w-full bg-blue-600 rounded-t"
+                          className="w-full bg-primary rounded-t"
                           style={{ 
                             height: `${(count / Math.max(...analytics.weeklyEnrollments)) * 100}%` 
                           }}

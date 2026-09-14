@@ -2,10 +2,16 @@ import { verifyWebhook } from "@clerk/nextjs/webhooks"
 import type { NextRequest } from "next/server"
 
 import { ensureUserInDefaultOrganization } from "@/lib/clerk/default-org"
+import {
+  mapWebhookUserToProvisioningInput,
+  provisionClerkUserInSystem,
+} from "@/lib/api/provision-clerk-user"
 
 /**
  * POST /api/webhooks/clerk
- * Auto-joins new users to the default organization so they skip the create-org UI.
+ * On user.created:
+ *   1. Auto-join default Clerk organization
+ *   2. Create users + students rows in Supabase so admins see new signups immediately
  *
  * Register in Clerk Dashboard → Webhooks:
  *   Endpoint: https://<your-host>/api/webhooks/clerk
@@ -28,10 +34,19 @@ export async function POST(req: NextRequest) {
 
   if (evt.type === "user.created") {
     const userId = evt.data.id
-    const result = await ensureUserInDefaultOrganization(userId)
-    if (!result.ok) {
-      console.error("Failed to auto-join default org for", userId, result.error)
+    const orgResult = await ensureUserInDefaultOrganization(userId)
+    if (!orgResult.ok) {
+      console.error("Failed to auto-join default org for", userId, orgResult.error)
       return new Response("Failed to assign organization", { status: 500 })
+    }
+
+    const provisionResult = await provisionClerkUserInSystem(
+      userId,
+      mapWebhookUserToProvisioningInput(evt.data)
+    )
+    if (!provisionResult.ok) {
+      console.error("Failed to provision Supabase user for", userId, provisionResult.error)
+      return new Response("Failed to provision user in system", { status: 500 })
     }
   }
 

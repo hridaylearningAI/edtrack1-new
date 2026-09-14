@@ -9,8 +9,8 @@ export default function PartnerEnquiriesPage() {
     <PartnerLayout>
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Purchase enquiries</h1>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+          <h1 className="text-2xl font-bold text-foreground">Purchase enquiries</h1>
+          <p className="mt-1 text-sm text-muted-foreground">
             Students who need guidance before choosing or paying for a course.
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function PartnerEnquiriesPage() {
               This list will show assigned leads and course-interest records so you can call and guide each student.
             </CardDescription>
           </CardHeader>
-          <CardContent className="text-sm text-slate-600 dark:text-slate-300">
+          <CardContent className="text-sm text-muted-foreground">
             No enquiries yet. Connect this view to your CRM or course-interest API when ready.
           </CardContent>
         </Card>

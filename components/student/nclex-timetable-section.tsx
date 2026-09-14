@@ -449,7 +449,7 @@ export function NclexTimetableSection({ variant = "full", scheduleManagement = "
     return (
       <Card>
         <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
-          <AlertCircle className="h-10 w-10 text-amber-500" />
+          <AlertCircle className="h-10 w-10 text-warning" />
           <p className="text-sm text-muted-foreground">{error}</p>
           <Button variant="outline" size="sm" onClick={load}>
             Retry
@@ -466,7 +466,7 @@ export function NclexTimetableSection({ variant = "full", scheduleManagement = "
     <div className="space-y-4">
       <div className={gridClass}>
         <div className={variant === "compact" ? "" : "lg:col-span-2"}>
-          <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+          <Card className="border-brand-blue/15">
             <CardHeader className="pb-2">
               <CardTitle className="flex items-center gap-2 text-lg">
                 <CalendarIcon className="h-5 w-5 text-brand-blue" />

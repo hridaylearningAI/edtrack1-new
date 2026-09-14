@@ -402,7 +402,7 @@ export default function DirectEnrollmentPage() {
               <p className="text-xs text-muted-foreground">No users match this filter.</p>
             ) : null}
             {selectedUser ? (
-              <p className="text-sm text-green-700 dark:text-green-400">
+              <p className="text-sm text-success">
                 User id {selectedUser.id}
                 {selectedUser.enrollment_count === 0
                   ? ' · Not enrolled in any course yet'

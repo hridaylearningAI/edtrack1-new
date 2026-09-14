@@ -285,7 +285,7 @@ export function CourseForm({ course, onSubmit, onCancel, loading = false }: Cour
               required
               maxLength={500}
             />
-            <p className={`text-xs ${formData.name.length > 200 ? 'text-yellow-600' : 'text-muted-foreground'}`}>
+            <p className={`text-xs ${formData.name.length > 200 ? 'text-warning' : 'text-muted-foreground'}`}>
               {formData.name.length}/500 characters
               {formData.name.length > 200 && formData.name.length < 450 && (
                 <span className="ml-2">⚠️ Long name may cause display issues</span>
@@ -897,7 +897,7 @@ export function CourseForm({ course, onSubmit, onCancel, loading = false }: Cour
       {/* Trial Settings */}
       <div className="space-y-4 border-t pt-4">
         <h3 className="text-lg font-semibold flex items-center gap-2">
-          <Sparkles className="h-5 w-5 text-green-600" />
+          <Sparkles className="h-5 w-5 text-success" />
           Free Trial Settings
         </h3>
         
@@ -919,7 +919,7 @@ export function CourseForm({ course, onSubmit, onCancel, loading = false }: Cour
           </div>
 
           {formData.trial_enabled && (
-            <div className="space-y-2 p-4 bg-green-50 border border-green-200 rounded-lg">
+            <div className="space-y-2 p-4 bg-success-soft border border-success-line rounded-lg">
               <Label htmlFor="trial_duration_days">Trial Duration (Days)</Label>
               <Input
                 id="trial_duration_days"
@@ -953,7 +953,7 @@ export function CourseForm({ course, onSubmit, onCancel, loading = false }: Cour
           </div>
 
           {/* Content folder: admin enters folder name → URLs built automatically from CDN base */}
-          <div className="space-y-2 p-4 border rounded-lg bg-slate-50 dark:bg-slate-900/50">
+          <div className="space-y-2 p-4 border rounded-lg bg-muted">
             <Label htmlFor="content_folder">Content folder (in-app player)</Label>
             <Input
               id="content_folder"

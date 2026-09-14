@@ -147,8 +147,8 @@ export default function StripeSyncPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground flex items-center gap-2">
-              <RefreshCw className="h-8 w-8 text-blue-600" />
+            <h2 className="text-3xl font-medium tracking-tight text-foreground flex items-center gap-2">
+              <RefreshCw className="h-8 w-8 text-primary" />
               Stripe Product Sync
             </h2>
             <p className="text-muted-foreground mt-2">
@@ -171,10 +171,10 @@ export default function StripeSyncPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalCount}</div>
                   <p className="text-xs text-muted-foreground">Total Courses</p>
                 </div>
-                <RefreshCw className="h-8 w-8 text-blue-600" />
+                <RefreshCw className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -182,10 +182,10 @@ export default function StripeSyncPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-green-600">{syncedCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-success">{syncedCount}</div>
                   <p className="text-xs text-muted-foreground">Synced with Stripe</p>
                 </div>
-                <CheckCircle2 className="h-8 w-8 text-green-600" />
+                <CheckCircle2 className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -193,10 +193,10 @@ export default function StripeSyncPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-yellow-600">{totalCount - syncedCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-warning">{totalCount - syncedCount}</div>
                   <p className="text-xs text-muted-foreground">Not Synced</p>
                 </div>
-                <AlertCircle className="h-8 w-8 text-yellow-600" />
+                <AlertCircle className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -204,10 +204,10 @@ export default function StripeSyncPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{eligibleCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{eligibleCount}</div>
                   <p className="text-xs text-muted-foreground">Eligible to Sync</p>
                 </div>
-                <RefreshCw className="h-8 w-8 text-purple-600" />
+                <RefreshCw className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -272,7 +272,7 @@ export default function StripeSyncPage() {
                         <div className="flex items-center gap-3 mb-2">
                           <h3 className="text-lg font-semibold">{course.name}</h3>
                           {isSynced ? (
-                            <Badge variant="default" className="bg-green-600">
+                            <Badge variant="default" className="bg-success">
                               <CheckCircle2 className="h-3 w-3 mr-1" />
                               Synced
                             </Badge>
@@ -283,7 +283,7 @@ export default function StripeSyncPage() {
                             </Badge>
                           )}
                           {!hasPrice && (
-                            <Badge variant="outline" className="text-yellow-600 border-yellow-600">
+                            <Badge variant="outline" className="text-warning border-warning">
                               No Price
                             </Badge>
                           )}
@@ -310,7 +310,7 @@ export default function StripeSyncPage() {
                                 href={`https://dashboard.stripe.com/products/${course.stripe_product_id}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline flex items-center gap-1"
+                                className="text-primary hover:underline flex items-center gap-1"
                               >
                                 <ExternalLink className="h-3 w-3" />
                                 View in Stripe

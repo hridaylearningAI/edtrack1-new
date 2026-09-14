@@ -18,13 +18,13 @@ export function SidebarUserButton({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        'flex w-full items-center gap-2.5 rounded-md px-2.5 py-1.5 text-sm text-neutral-700 dark:text-neutral-200',
+        'flex min-h-11 w-full items-center gap-2.5 rounded-[7px] px-2 py-1.5 text-[13px] font-semibold text-foreground',
         !showLabel && 'justify-center px-2',
         className,
       )}
     >
       <UserButton
-        afterSignOutUrl="/sign-in"
+        afterSignOutUrl="/"
         appearance={{
           elements: {
             avatarBox: 'h-7 w-7',

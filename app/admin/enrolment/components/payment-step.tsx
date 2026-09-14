@@ -608,24 +608,24 @@ export function PaymentStep({
         {enrollmentData.paymentStatus && (
           <div className={`border rounded-lg p-4 ${
             enrollmentData.paymentStatus === 'completed' 
-              ? 'bg-green-50 border-green-200' 
+              ? 'bg-success-soft border-success-line' 
               : enrollmentData.paymentStatus === 'failed'
-              ? 'bg-red-50 border-red-200'
-              : 'bg-yellow-50 border-yellow-200'
+              ? 'bg-destructive-soft border-destructive-line'
+              : 'bg-warning-soft border-warning-line'
           }`}>
             <div className="flex items-center justify-between">
               <div>
                 <h5 className={`font-semibold ${
                   enrollmentData.paymentStatus === 'completed' 
-                    ? 'text-green-900' 
+                    ? 'text-success' 
                     : enrollmentData.paymentStatus === 'failed'
-                    ? 'text-red-900'
-                    : 'text-yellow-900'
+                    ? 'text-destructive'
+                    : 'text-warning'
                 }`}>
                   Payment Status: {enrollmentData.paymentStatus.toUpperCase()}
                 </h5>
                 {enrollmentData.paymentStatus === 'pending' && (
-                  <p className="text-sm text-yellow-700 mt-1">
+                  <p className="text-sm text-warning mt-1">
                     Waiting for student to complete payment
                   </p>
                 )}
@@ -762,10 +762,10 @@ export function PaymentStep({
 
         {/* Payment Bypass (for testing/admin use) */}
         {enrollmentData.paymentStatus !== 'completed' && (
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+          <div className="bg-muted border border-border rounded-lg p-4">
             <div className="text-center">
-              <h5 className="font-semibold text-gray-900 mb-2">Skip Payment (Admin Only)</h5>
-              <p className="text-sm text-gray-700 mb-4">
+              <h5 className="font-semibold text-foreground mb-2">Skip Payment (Admin Only)</h5>
+              <p className="text-sm text-foreground mb-4">
                 For testing purposes, you can skip payment processing.
               </p>
               <Button 

@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-09-11T11:11:39.159Z",
+        "reason": "user confirmed: chose Arial app-wide to match the demo dashboard (font question, 2026-09-11)"
+      }
+    ]
+  }
+}

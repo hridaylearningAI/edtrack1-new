@@ -7,7 +7,7 @@ export default function AdminSchedulePage() {
   return (
           <div className="space-y-6">
         <div>
-          <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Schedule Management</h1>
+          <h1 className="text-3xl font-medium tracking-tight text-foreground">Schedule Management</h1>
           <p className="mt-2 text-sm text-muted-foreground">
             Review timetable blocks and set meeting links for events. All scheduled times use Adelaide time (Australia/Adelaide).
           </p>

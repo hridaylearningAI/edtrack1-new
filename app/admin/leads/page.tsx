@@ -13,8 +13,8 @@ function LeadsTabs() {
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Leads</h1>
-        <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+        <h1 className="text-2xl font-medium tracking-tight text-foreground">Leads</h1>
+        <p className="text-sm text-muted-foreground mt-1">
           Course interests and eligibility reviews in one place.
         </p>
       </div>

@@ -1,8 +1,17 @@
 "use client"
 
-import { useParams, useRouter } from "next/navigation"
+import { useParams, useRouter, useSearchParams } from "next/navigation"
 import { useEffect, Suspense } from "react"
 import { CourseTrialContent, CourseTrialFallback } from "../trial/page"
+import { NextPlayer } from "@/components/player/next-player"
+
+function CourseBody({ courseId }: { courseId: number }) {
+  // Temporary switch while the unified player's activity screens are built; remove with the swap.
+  const useNextPlayer = useSearchParams().get("player") === "next"
+  // The player ships its own sidebar + header, so it replaces the student shell rather than nesting in it.
+  if (useNextPlayer) return <NextPlayer courseId={courseId} />
+  return <CourseTrialContent courseIdFromRoute={courseId} />
+}
 
 export default function CoursePage() {
   const params = useParams()
@@ -25,7 +34,7 @@ export default function CoursePage() {
 
   return (
     <Suspense fallback={<CourseTrialFallback />}>
-      <CourseTrialContent courseIdFromRoute={courseId} />
+      <CourseBody courseId={courseId} />
     </Suspense>
   )
 }

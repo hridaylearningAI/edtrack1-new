@@ -27,7 +27,7 @@ export function AnimatedCard({ className, ...props }: CardProps) {
       aria-labelledby="card-title"
       aria-describedby="card-description"
       className={cn(
-        "group/animated-card relative w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-900 dark:bg-black",
+        "group/animated-card relative w-full overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm",
         className,
       )}
       {...props}
@@ -39,7 +39,7 @@ export function CardBody({ className, ...props }: CardProps) {
   return (
     <div
       role="group"
-      className={cn("flex flex-col space-y-1.5 border-t border-zinc-200 p-4 dark:border-zinc-900", className)}
+      className={cn("flex flex-col space-y-1.5 border-t border-zinc-200 p-4", className)}
       {...props}
     />
   )
@@ -50,7 +50,7 @@ interface CardTitleProps extends React.HTMLAttributes<HTMLHeadingElement> {}
 export function CardTitle({ className, ...props }: CardTitleProps) {
   return (
     <h3
-      className={cn("text-lg font-semibold leading-none tracking-tight text-black dark:text-white", className)}
+      className={cn("text-lg font-semibold leading-none tracking-tight text-black", className)}
       {...props}
     />
   )
@@ -59,7 +59,7 @@ export function CardTitle({ className, ...props }: CardTitleProps) {
 interface CardDescriptionProps extends React.HTMLAttributes<HTMLParagraphElement> {}
 
 export function CardDescription({ className, ...props }: CardDescriptionProps) {
-  return <p className={cn("text-sm text-neutral-500 dark:text-neutral-400", className)} {...props} />
+  return <p className={cn("text-sm text-neutral-500", className)} {...props} />
 }
 
 export function CardVisual({ className, ...props }: CardProps) {
@@ -154,13 +154,13 @@ const Layer1: React.FC<LayerProps> = ({ color, secondaryColor }) => {
         } as React.CSSProperties
       }
     >
-      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25">
+      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0">
         <div className="h-1.5 w-1.5 rounded-full bg-[var(--color)]" />
-        <span className="ml-1 text-[10px] text-black dark:text-white">+15,2%</span>
+        <span className="ml-1 text-[10px] text-black">+15,2%</span>
       </div>
-      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25">
+      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0">
         <div className="h-1.5 w-1.5 rounded-full bg-[var(--secondary-color)]" />
-        <span className="ml-1 text-[10px] text-black dark:text-white">+18,7%</span>
+        <span className="ml-1 text-[10px] text-black">+18,7%</span>
       </div>
     </div>
   )
@@ -170,12 +170,12 @@ const Layer2: React.FC<{ color: string }> = ({ color }) => {
   return (
     <div className="group relative h-full w-full" style={{ "--color": color } as React.CSSProperties}>
       <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[7] flex w-full translate-y-full items-start justify-center bg-transparent p-4 transition-transform duration-500 group-hover/animated-card:translate-y-0">
-        <div className="ease-[cubic-bezier(0.6, 0, 1)] rounded-md border border-zinc-200 bg-white/25 p-1.5 opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover/animated-card:opacity-100 dark:border-zinc-800 dark:bg-black/25">
+        <div className="ease-[cubic-bezier(0.6, 0, 1)] rounded-md border border-zinc-200 bg-white/25 p-1.5 opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover/animated-card:opacity-100">
           <div className="flex items-center gap-2">
             <div className="h-2 w-2 shrink-0 rounded-full bg-[var(--color)]" />
-            <p className="text-xs text-black dark:text-white">Course Completion Analytics</p>
+            <p className="text-xs text-black">Course Completion Analytics</p>
           </div>
-          <p className="text-xs text-neutral-500 dark:text-neutral-400">
+          <p className="text-xs text-neutral-500">
             Tracking student progress across all courses.
           </p>
         </div>
@@ -352,7 +352,7 @@ const Layer4: React.FC<LayerProps> = ({ color, secondaryColor, hovered }) => {
   ]
 
   return (
-    <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[8] flex h-[240px] w-full items-center justify-center text-neutral-800/10 transition-transform duration-500 group-hover/animated-card:scale-150 dark:text-white/15">
+    <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[8] flex h-[240px] w-full items-center justify-center text-neutral-800/10 transition-transform duration-500 group-hover/animated-card:scale-150">
       <svg
         width="100%"
         height="240"

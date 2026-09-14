@@ -2,11 +2,11 @@
 
 import { useEffect, useState, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { useUser, useAuth, SignInButton, SignUpButton } from '@clerk/nextjs'
+import { useUser, useAuth } from '@clerk/nextjs'
 import { Loader2 } from 'lucide-react'
-import { config } from '@/lib/config'
 import { useClerkUserSync } from '@/lib/hooks/useClerkUserSync'
-import { Button } from '@/components/ui/button'
+import { isDemoPlatformUser } from '@/lib/demo-platform'
+import { HomeLanding } from '@/components/home-landing'
 
 function HomePageContent() {
   const router = useRouter()
@@ -28,12 +28,24 @@ function HomePageContent() {
 
   // Handle token from URL parameter - store it and verify it
   useEffect(() => {
+    // Drop stale non-JWT values left in sessionStorage from older flows
+    try {
+      const stored = sessionStorage.getItem('clerk_auth_token')
+      if (stored && stored.split('.').length !== 3) {
+        sessionStorage.removeItem('clerk_auth_token')
+      }
+    } catch {
+      // ignore
+    }
+
     if (clerkTokenFromUrl) {
       
-      // Store token in sessionStorage for future use
+      // Store only real JWTs — never persist opaque Clerk cookie values
       try {
-        sessionStorage.setItem('clerk_auth_token', clerkTokenFromUrl)
-        setStoredToken(clerkTokenFromUrl)
+        if (clerkTokenFromUrl.split('.').length === 3) {
+          sessionStorage.setItem('clerk_auth_token', clerkTokenFromUrl)
+          setStoredToken(clerkTokenFromUrl)
+        }
       } catch (error) {
         console.error('Error storing token:', error)
       }
@@ -229,11 +241,8 @@ function HomePageContent() {
       return
     }
 
-    // CRITICAL: If accessed directly (without ?from=portfolio) AND not authenticated, redirect to portfolio
-    // If user is authenticated, allow access (they came via portfolio initially)
-    // Check both user and isSignedIn to handle session sync delays
+    // Unauthenticated visitors stay on this app's landing page (no portfolio bounce)
     if (!fromPortfolio && !user && !isSignedIn) {
-      window.location.href = config.portfolioAppUrl
       return
     }
 
@@ -365,15 +374,11 @@ function HomePageContent() {
         setHasCheckedAuth(true)
         
         // If coming from portfolio but not authenticated after Clerk has loaded
-        // DON'T redirect back - this causes loops. Instead, show an error or stay on page
+        // DON'T redirect back - this causes loops. Stay on homepage landing.
         if (fromPortfolio) {
-          // Instead of redirecting, we could show an error message or login form
-          // For now, just log and stay on page
           return
-        } else {
-          // Regular redirect to login (only if not from portfolio)
-          router.push('/login')
         }
+        // Unauthenticated — landing page renders below; no portfolio /login bounce
       }
       
       checkTokenAsync()
@@ -390,6 +395,17 @@ function HomePageContent() {
       return
     }
     
+    const userEmail =
+      user?.primaryEmailAddress?.emailAddress ||
+      user?.emailAddresses?.[0]?.emailAddress ||
+      null
+
+    // Dedicated demo platform account always lands on the overview map
+    if (isDemoPlatformUser(userEmail)) {
+      router.replace('/platform')
+      return
+    }
+
     // If we have tokenVerified, we can redirect immediately
     if (tokenVerified && userRole) {
       const redirectPath =
@@ -437,74 +453,16 @@ function HomePageContent() {
     }
   }, [isLoaded, user, isSignedIn, userRole, trainerAccess, partnerAccess, router, fromPortfolio, sessionCheckAttempts, tokenVerified])
 
-  // Signed out: show clear Clerk sign-in / sign-up (multi-tenant EdTrack1 app)
+  // Signed out / session expired: simple landing (stay on this site)
   if (isLoaded && !isSignedIn && !tokenVerified && !user) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background px-4">
-        <div className="max-w-md w-full rounded-xl border bg-card p-8 text-center shadow-sm">
-          <h1 className="text-2xl font-semibold tracking-tight mb-2">EdTrack</h1>
-          <p className="text-muted-foreground mb-8">
-            Sign in or create an account to open the student management portal.
-          </p>
-          <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
-            <SignInButton mode="modal">
-              <Button variant="outline" className="w-full sm:w-auto">
-                Sign in
-              </Button>
-            </SignInButton>
-            <SignUpButton mode="modal">
-              <Button className="w-full sm:w-auto">Sign up</Button>
-            </SignUpButton>
-          </div>
-          <p className="mt-6 text-sm text-muted-foreground">
-            Or open{' '}
-            <a className="underline underline-offset-4" href="/sign-in">
-              /sign-in
-            </a>{' '}
-            /{' '}
-            <a className="underline underline-offset-4" href="/sign-up">
-              /sign-up
-            </a>
-          </p>
-        </div>
-      </div>
-    )
+    return <HomeLanding />
   }
 
-  // Show error message if session doesn't load after waiting
+  // Session missing after waiting — show landing instead of portfolio bounce
   const showError = hasCheckedAuth && !user && !isSignedIn && sessionCheckAttempts >= 20
   
   if (showError) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
-          <div className="mb-6">
-            <div className="rounded-full bg-yellow-100 p-4 inline-block mb-4">
-              <svg className="h-12 w-12 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Session Not Detected</h2>
-            <p className="text-gray-600 mb-6">
-              We couldn&apos;t detect your session. Sign in again or create an account.
-            </p>
-            <div className="space-y-3">
-              <SignInButton mode="modal">
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
-                  Sign in
-                </button>
-              </SignInButton>
-              <button
-                onClick={() => window.location.reload()}
-                className="w-full border border-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium transition-colors hover:bg-gray-50"
-              >
-                Try Again
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
+    return <HomeLanding />
   }
 
   return (

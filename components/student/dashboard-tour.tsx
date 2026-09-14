@@ -253,7 +253,7 @@ export default function DashboardTour({ onStartTour }: DashboardTourProps = {}) 
   if (!isActive && showStartButton) {
     const startCard = (
       <div className="fixed bottom-6 right-6 z-[70] animate-in slide-in-from-bottom-5">
-        <Card className="shadow-lg border-2 border-brand-blue/30 dark:border-brand-blue/50 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm">
+        <Card className="shadow-lg border-2 border-brand-blue/30 bg-white/95 backdrop-blur-sm">
           <CardContent className="p-4">
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-lg bg-brand-blue/10">
@@ -346,7 +346,7 @@ export default function DashboardTour({ onStartTour }: DashboardTourProps = {}) 
           transform: tooltipPosition === 'bottom' || tooltipPosition === 'top' ? 'translateX(-50%)' : 'translateY(-50%)',
         }}
       >
-        <Card className="shadow-2xl border-2 border-brand-blue/50 dark:border-brand-blue/70 bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm">
+        <Card className="shadow-2xl border-2 border-brand-blue/50 bg-white/95 backdrop-blur-sm">
           <CardContent className="p-4">
             <div className="flex items-start justify-between mb-3">
               <div className="flex-1">

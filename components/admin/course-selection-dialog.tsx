@@ -74,7 +74,7 @@ export function CourseSelectionDialog({ selectedCourseIds, onSelectionChange, tr
   const getStatusBadge = (status: string) => {
     switch (status?.toLowerCase()) {
       case "active":
-        return <Badge variant="default" className="bg-green-600 text-white text-xs">Active</Badge>
+        return <Badge variant="default" className="border-success-line bg-success-soft text-success text-xs">Active</Badge>
       case "inactive":
         return <Badge variant="secondary" className="text-xs">Inactive</Badge>
       case "draft":

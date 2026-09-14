@@ -47,14 +47,14 @@ const getStatusBadge = (status: string) => {
   switch (status) {
     case "Sent":
       return (
-        <Badge variant="default" className="bg-chart-3 text-white">
+        <Badge variant="success">
           <Send className="mr-1 h-3 w-3" />
           Sent
         </Badge>
       )
     case "Scheduled":
       return (
-        <Badge variant="default" className="bg-chart-4 text-white">
+        <Badge variant="warning">
           <Calendar className="mr-1 h-3 w-3" />
           Scheduled
         </Badge>
@@ -63,7 +63,7 @@ const getStatusBadge = (status: string) => {
       return <Badge variant="secondary">Draft</Badge>
     case "Active":
       return (
-        <Badge variant="default" className="bg-chart-1 text-white">
+        <Badge variant="default">
           <Play className="mr-1 h-3 w-3" />
           Active
         </Badge>
@@ -153,7 +153,7 @@ export default function EmailCampaignPage() {
     return (
               <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <p className="text-red-600 mb-4">Error loading email campaigns: {error}</p>
+            <p className="text-destructive mb-4">Error loading email campaigns: {error}</p>
             <Button onClick={() => window.location.reload()}>Retry</Button>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function EmailCampaignPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Email Campaign</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Email Campaign</h2>
             <p className="text-muted-foreground mt-2">Create and manage email marketing campaigns</p>
           </div>
           <div className="flex space-x-2">
@@ -185,10 +185,10 @@ export default function EmailCampaignPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{stats?.totalCampaigns || 0}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{stats?.totalCampaigns || 0}</div>
                   <p className="text-xs text-muted-foreground">Total Campaigns</p>
                 </div>
-                <Mail className="h-8 w-8 text-chart-1" />
+                <Mail className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -196,10 +196,10 @@ export default function EmailCampaignPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{(stats?.totalRecipients || 0).toLocaleString()}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{(stats?.totalRecipients || 0).toLocaleString()}</div>
                   <p className="text-xs text-muted-foreground">Total Recipients</p>
                 </div>
-                <Users className="h-8 w-8 text-chart-2" />
+                <Users className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -207,10 +207,10 @@ export default function EmailCampaignPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{stats?.averageOpenRate.toFixed(1) || 0}%</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{stats?.averageOpenRate.toFixed(1) || 0}%</div>
                   <p className="text-xs text-muted-foreground">Avg Open Rate</p>
                 </div>
-                <Eye className="h-8 w-8 text-chart-3" />
+                <Eye className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -218,10 +218,10 @@ export default function EmailCampaignPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{stats?.sentCampaigns || 0}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{stats?.sentCampaigns || 0}</div>
                   <p className="text-xs text-muted-foreground">Sent This Month</p>
                 </div>
-                <TrendingUp className="h-8 w-8 text-chart-4" />
+                <TrendingUp className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>

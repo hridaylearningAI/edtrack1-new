@@ -1,10 +1,10 @@
 'use client'
 
-import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from 'sonner'
 import { UserProvider } from '@/lib/hooks/useUser'
 import { SessionListener } from '@/components/session-listener'
 import { EnsureDefaultOrganization } from '@/components/ensure-default-organization'
+import { DemoDataProvider } from '@/components/demo-data-provider'
 
 interface ProvidersProps {
   children: React.ReactNode
@@ -12,18 +12,11 @@ interface ProvidersProps {
 
 export function Providers({ children }: ProvidersProps) {
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="dark"
-      enableSystem
-      disableTransitionOnChange
-    >
-      <UserProvider>
-        <SessionListener />
-        <EnsureDefaultOrganization />
-        {children}
-        <Toaster position="top-right" richColors />
-      </UserProvider>
-    </ThemeProvider>
+    <UserProvider>
+      <SessionListener />
+      <EnsureDefaultOrganization />
+      <DemoDataProvider>{children}</DemoDataProvider>
+      <Toaster position="top-right" richColors />
+    </UserProvider>
   )
 }

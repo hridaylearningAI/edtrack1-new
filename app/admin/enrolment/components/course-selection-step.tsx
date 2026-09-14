@@ -85,7 +85,7 @@ export function CourseSelectionStep({
           <CardDescription>Error loading courses</CardDescription>
         </CardHeader>
         <CardContent className="py-12">
-          <div className="text-center text-red-600">
+          <div className="text-center text-destructive">
             <p>Failed to load courses: {error}</p>
             <Button 
               variant="outline" 
@@ -195,7 +195,7 @@ export function CourseSelectionStep({
                     </div>
                     <div className="text-right">
                       {course.price && (
-                        <div className="text-2xl font-bold text-primary">${course.price}</div>
+                        <div className="text-2xl font-medium tracking-tight text-primary">${course.price}</div>
                       )}
                     </div>
                   </div>

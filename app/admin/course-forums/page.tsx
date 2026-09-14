@@ -188,8 +188,8 @@ export default function AdminCourseForumsPage() {
           <div className="space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Course Forums (General)</h1>
-            <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+            <h1 className="text-2xl font-medium tracking-tight text-foreground">Course Forums (General)</h1>
+            <p className="text-sm text-muted-foreground mt-1">
               Monitor and moderate general discussion forums. You can delete individual replies or entire threads.
             </p>
           </div>
@@ -215,7 +215,7 @@ export default function AdminCourseForumsPage() {
                 <Loader2 className="h-8 w-8 animate-spin text-brand-blue" />
               </div>
             ) : forums.length === 0 ? (
-              <p className="text-slate-500 dark:text-slate-400 text-center py-8">No general forums found.</p>
+              <p className="text-muted-foreground text-center py-8">No general forums found.</p>
             ) : (
               <div className="flex flex-wrap gap-2">
                 {forums.map((f) => (
@@ -232,8 +232,8 @@ export default function AdminCourseForumsPage() {
             )}
 
             {selectedForum && (
-              <div className="pt-4 border-t border-slate-200 dark:border-slate-700">
-                <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">
+              <div className="pt-4 border-t border-border">
+                <h3 className="text-sm font-semibold text-foreground mb-3">
                   Threads in {selectedForum.course_name}
                 </h3>
                 {loadingThreads ? (
@@ -241,19 +241,19 @@ export default function AdminCourseForumsPage() {
                     <Loader2 className="h-6 w-6 animate-spin text-brand-blue" />
                   </div>
                 ) : threads.length === 0 ? (
-                  <p className="text-slate-500 dark:text-slate-400 text-sm">No threads yet.</p>
+                  <p className="text-muted-foreground text-sm">No threads yet.</p>
                 ) : (
                   <ul className="space-y-1">
                     {threads.map((t) => (
                       <li
                         key={t.id}
-                        className="rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50/50 dark:bg-slate-800/50 overflow-hidden"
+                        className="rounded-lg border border-border bg-muted/50 overflow-hidden"
                       >
                         <div className="flex items-center gap-2 p-3">
                           <button
                             type="button"
                             onClick={() => toggleThread(t.id)}
-                            className="p-1 rounded hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-400"
+                            className="p-1 rounded hover:bg-muted text-muted-foreground"
                             aria-label={expandedThreadId === t.id ? "Collapse" : "Expand"}
                           >
                             {expandedThreadId === t.id ? (
@@ -263,15 +263,15 @@ export default function AdminCourseForumsPage() {
                             )}
                           </button>
                           <div className="flex-1 min-w-0">
-                            <p className="font-medium text-slate-900 dark:text-white truncate">{t.title}</p>
-                            <p className="text-xs text-slate-500 dark:text-slate-400">
+                            <p className="font-medium text-foreground truncate">{t.title}</p>
+                            <p className="text-xs text-muted-foreground">
                               {t.author_name ?? "Unknown"} · {new Date(t.created_at).toLocaleString()}
                             </p>
                           </div>
                           <Button
                             variant="outline"
                             size="sm"
-                            className="text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-950/50 shrink-0"
+                            className="text-destructive hover:text-destructive hover:bg-destructive-soft shrink-0"
                             disabled={actionId !== null}
                             onClick={() => deleteThread(t.id)}
                           >
@@ -284,7 +284,7 @@ export default function AdminCourseForumsPage() {
                           </Button>
                         </div>
                         {expandedThreadId === t.id && (
-                          <div className="border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 space-y-3">
+                          <div className="border-t border-border bg-white p-4 space-y-3">
                             {loadingPosts ? (
                               <div className="flex justify-center py-4">
                                 <Loader2 className="h-5 w-5 animate-spin text-brand-blue" />
@@ -293,21 +293,21 @@ export default function AdminCourseForumsPage() {
                               posts.map((p) => (
                                 <div
                                   key={p.id}
-                                  className="rounded-lg border border-slate-200 dark:border-slate-700 p-3 bg-slate-50 dark:bg-slate-800/50"
+                                  className="rounded-lg border border-border p-3 bg-muted"
                                 >
                                   <div className="flex items-start justify-between gap-2">
                                     <div className="min-w-0 flex-1">
-                                      <p className="text-xs font-medium text-slate-600 dark:text-slate-400">
+                                      <p className="text-xs font-medium text-muted-foreground">
                                         {p.author_name ?? "Unknown"} · {new Date(p.created_at).toLocaleString()}
                                       </p>
-                                      <p className="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap mt-1">
+                                      <p className="text-sm text-foreground whitespace-pre-wrap mt-1">
                                         {p.content}
                                       </p>
                                     </div>
                                     <Button
                                       variant="ghost"
                                       size="sm"
-                                      className="text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-950/50 shrink-0"
+                                      className="text-destructive hover:text-destructive hover:bg-destructive-soft shrink-0"
                                       disabled={actionId !== null}
                                       onClick={() => deletePost(p.id)}
                                     >

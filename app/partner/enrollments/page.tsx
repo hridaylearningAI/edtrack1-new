@@ -97,8 +97,8 @@ export default function PartnerEnrollmentsPage() {
     <PartnerLayout>
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Enrollments &amp; commissions</h1>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+          <h1 className="text-2xl font-bold text-foreground">Enrollments &amp; commissions</h1>
+          <p className="mt-1 text-sm text-muted-foreground">
             Enrollments and purchase totals when students used your partner code at checkout. Commission is{" "}
             {(commissionRate * 100).toFixed(0)}% of the final amount paid.
           </p>
@@ -107,39 +107,39 @@ export default function PartnerEnrollmentsPage() {
         <Card>
           <CardHeader>
             <div className="flex items-center gap-2">
-              <Percent className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+              <Percent className="h-5 w-5 text-success" />
               <CardTitle>Commissions ({(commissionRate * 100).toFixed(0)}%)</CardTitle>
             </div>
             <CardDescription>Based on final checkout totals for purchases attributed to you.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4 text-sm">
             {loading ? (
-              <div className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
+              <div className="flex items-center gap-2 text-muted-foreground">
                 <Loader2 className="h-4 w-4 animate-spin" />
                 Loading…
               </div>
             ) : (
               <>
                 <div className="grid gap-3 md:grid-cols-2">
-                  <div className="rounded-lg border border-emerald-200/80 bg-emerald-50/80 p-3 dark:border-emerald-900/50 dark:bg-emerald-950/20">
-                    <p className="text-xs uppercase tracking-wide text-slate-600 dark:text-slate-400">Amount paid (attributed)</p>
+                  <div className="rounded-lg border border-success-line/80 bg-success-soft/80 p-3">
+                    <p className="text-xs uppercase tracking-wide text-muted-foreground">Amount paid (attributed)</p>
                     {Object.keys(totalsByCurrency).length === 0 ? (
-                      <p className="mt-1 text-slate-500">—</p>
+                      <p className="mt-1 text-muted-foreground">—</p>
                     ) : (
                       Object.entries(totalsByCurrency).map(([cur, amt]) => (
-                        <p key={cur} className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
+                        <p key={cur} className="mt-1 text-lg font-semibold text-foreground">
                           {formatMoney(cur, amt)}
                         </p>
                       ))
                     )}
                   </div>
-                  <div className="rounded-lg border border-brand-blue/20 bg-brand-blue/5 p-3 dark:border-brand-blue/40 dark:bg-brand-blue/10">
-                    <p className="text-xs uppercase tracking-wide text-slate-600 dark:text-slate-400">Your commission</p>
+                  <div className="rounded-lg border border-brand-blue/20 bg-brand-blue/5 p-3">
+                    <p className="text-xs uppercase tracking-wide text-muted-foreground">Your commission</p>
                     {Object.keys(commissionByCurrency).length === 0 ? (
-                      <p className="mt-1 text-slate-500">—</p>
+                      <p className="mt-1 text-muted-foreground">—</p>
                     ) : (
                       Object.entries(commissionByCurrency).map(([cur, amt]) => (
-                        <p key={cur} className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
+                        <p key={cur} className="mt-1 text-lg font-semibold text-foreground">
                           {formatMoney(cur, amt)}
                         </p>
                       ))
@@ -150,7 +150,7 @@ export default function PartnerEnrollmentsPage() {
                 {purchaseRows.length > 0 ? (
                   <div className="overflow-x-auto rounded-md border">
                     <table className="w-full text-left text-xs">
-                      <thead className="bg-slate-50 dark:bg-slate-900/60">
+                      <thead className="bg-muted">
                         <tr>
                           <th className="p-2 font-medium">Purchase</th>
                           <th className="p-2 font-medium">Date</th>
@@ -160,13 +160,13 @@ export default function PartnerEnrollmentsPage() {
                       </thead>
                       <tbody>
                         {purchaseRows.map((p) => (
-                          <tr key={p.id} className="border-t border-slate-100 dark:border-slate-800">
+                          <tr key={p.id} className="border-t border-border">
                             <td className="p-2 font-mono text-[11px]">{p.purchase_number || `#${p.id}`}</td>
-                            <td className="p-2 text-slate-600 dark:text-slate-400">
+                            <td className="p-2 text-muted-foreground">
                               {p.completed_at ? new Date(p.completed_at).toLocaleDateString() : "—"}
                             </td>
                             <td className="p-2">{formatMoney(p.currency, p.total_amount)}</td>
-                            <td className="p-2 font-medium text-emerald-700 dark:text-emerald-400">
+                            <td className="p-2 font-medium text-success">
                               {formatMoney(p.currency, p.commission_amount)}
                             </td>
                           </tr>
@@ -175,7 +175,7 @@ export default function PartnerEnrollmentsPage() {
                     </table>
                   </div>
                 ) : (
-                  <p className="text-xs text-slate-500">No attributed purchases yet — commission rows appear after a successful checkout with your code.</p>
+                  <p className="text-xs text-muted-foreground">No attributed purchases yet — commission rows appear after a successful checkout with your code.</p>
                 )}
               </>
             )}
@@ -192,7 +192,7 @@ export default function PartnerEnrollmentsPage() {
               Enrollments where your partner code was applied during checkout.
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
+          <CardContent className="space-y-4 text-sm text-muted-foreground">
             {loading ? (
               <div className="flex items-center gap-2">
                 <Loader2 className="h-4 w-4 animate-spin" />
@@ -201,20 +201,20 @@ export default function PartnerEnrollmentsPage() {
             ) : (
               <>
                 <div className="rounded-lg border border-brand-blue/20 bg-brand-blue/5 p-3">
-                  <p className="text-xs uppercase tracking-wide text-slate-500">Total enrollments done</p>
-                  <p className="text-2xl font-bold text-slate-900 dark:text-white">{total}</p>
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground">Total enrollments done</p>
+                  <p className="text-2xl font-bold text-foreground">{total}</p>
                 </div>
 
                 <div className="space-y-2">
-                  <p className="font-medium text-slate-900 dark:text-white">By course</p>
+                  <p className="font-medium text-foreground">By course</p>
                   {courseEntries.length === 0 ? (
-                    <p className="text-xs text-slate-500">No enrollments attributed yet.</p>
+                    <p className="text-xs text-muted-foreground">No enrollments attributed yet.</p>
                   ) : (
                     <div className="grid gap-2 md:grid-cols-2">
                       {courseEntries.map(([name, count]) => (
-                        <div key={name} className="rounded-md border bg-white p-2 dark:bg-slate-900/40">
-                          <p className="text-xs text-slate-600 dark:text-slate-300">{name}</p>
-                          <p className="text-base font-semibold text-slate-900 dark:text-white">{count}</p>
+                        <div key={name} className="rounded-md border bg-white p-2">
+                          <p className="text-xs text-muted-foreground">{name}</p>
+                          <p className="text-base font-semibold text-foreground">{count}</p>
                         </div>
                       ))}
                     </div>
@@ -222,17 +222,17 @@ export default function PartnerEnrollmentsPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <p className="font-medium text-slate-900 dark:text-white">Recent enrollments</p>
+                  <p className="font-medium text-foreground">Recent enrollments</p>
                   {rows.length === 0 ? (
-                    <p className="text-xs text-slate-500">No records yet.</p>
+                    <p className="text-xs text-muted-foreground">No records yet.</p>
                   ) : (
                     <div className="space-y-2">
                       {rows.slice(0, 20).map((row) => (
-                        <div key={row.id} className="rounded-md border bg-white p-3 dark:bg-slate-900/40">
-                          <p className="font-medium text-slate-900 dark:text-white">
+                        <div key={row.id} className="rounded-md border bg-white p-3">
+                          <p className="font-medium text-foreground">
                             {row.courses?.name || `Course ${row.course_id}`}
                           </p>
-                          <p className="text-xs text-slate-500">
+                          <p className="text-xs text-muted-foreground">
                             {row.students?.name || row.students?.email || "Student"} • {row.enrollment_date}
                           </p>
                         </div>

@@ -2,12 +2,20 @@
 
 import { useEffect, useState } from "react"
 import type React from "react"
-import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
-import { Building2, ClipboardList, LayoutDashboard, Shield } from "lucide-react"
+import { Building2, ClipboardList, ExternalLink, LayoutDashboard } from "lucide-react"
+import {
+  Sidebar,
+  SidebarBody,
+  SidebarBrand,
+  SidebarLink,
+  SidebarSectionLabel,
+  SidebarToggleButton,
+  isNavActive,
+} from "@/components/ui/sidebar"
 import { cn } from "@/lib/utils"
-import { ThemeToggle } from "@/components/theme-toggle"
 import { EdTecTopBar } from "@/components/edtec-top-bar"
+import { SidebarUserButton } from "@/components/sidebar-user-button"
 import { useUser } from "@/lib/hooks/useUser"
 
 interface SuperAdminLayoutProps {
@@ -25,6 +33,7 @@ export default function SuperAdminLayout({ children }: SuperAdminLayoutProps) {
   const router = useRouter()
   const { user, isLoading: authLoading, isAuthenticated, getAccessToken } = useUser()
   const [access, setAccess] = useState<"unknown" | "allowed" | "denied">("unknown")
+  const [open, setOpen] = useState(true)
 
   useEffect(() => {
     if (authLoading) return
@@ -64,7 +73,7 @@ export default function SuperAdminLayout({ children }: SuperAdminLayoutProps) {
 
   if (authLoading || access === "unknown") {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-neutral-50 dark:bg-neutral-950">
+      <div className="min-h-screen flex items-center justify-center bg-canvas">
         <div className="text-sm text-muted-foreground">Loading platform console…</div>
       </div>
     )
@@ -73,64 +82,41 @@ export default function SuperAdminLayout({ children }: SuperAdminLayoutProps) {
   if (access === "denied") return null
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
-      <EdTecTopBar portalLabel="Platform Console" showUserButton />
-
-      <div className="border-b border-border bg-card/50">
-        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-3 px-4 py-3 md:px-6">
-          <div>
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">Super Admin</p>
-            <h2 className="text-lg font-semibold">Platform console</h2>
-          </div>
-          <div className="flex items-center gap-2">
-            <Link
-              href="/admin"
-              className="hidden sm:inline-flex text-xs text-muted-foreground hover:text-foreground"
-            >
-              Tenant admin
-            </Link>
-            <ThemeToggle />
-          </div>
-        </div>
-      </div>
-
-      <div className="mx-auto flex w-full max-w-7xl gap-6 px-4 py-6 md:px-6">
-        <aside className="hidden w-56 shrink-0 md:block">
-          <div className="rounded-xl border border-border bg-card p-3 shadow-sm">
-            <div className="mb-4 flex items-center gap-2 px-2 py-1">
-              <Shield className="h-4 w-4 text-brand-blue" />
-              <span className="text-sm font-semibold">Platform</span>
-            </div>
-            <nav className="space-y-1">
-              {navItems.map((item) => {
-                const active =
-                  item.href === "/super-admin"
-                    ? pathname === "/super-admin"
-                    : item.href === "/super-admin/tenants"
-                      ? pathname.startsWith("/super-admin/tenants")
-                      : pathname.startsWith(item.href)
-                const Icon = item.icon
-                return (
-                  <Link
+    <div className="flex h-screen w-full flex-col overflow-hidden bg-canvas md:flex-row">
+      <Sidebar open={open} setOpen={setOpen}>
+        <SidebarBody className="justify-between gap-4">
+          <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
+            <SidebarBrand href="/super-admin" workspace="Platform console" />
+            <nav className="mt-2 flex min-h-0 flex-1 flex-col overflow-y-auto scrollbar-hide">
+              <SidebarSectionLabel>Platform</SidebarSectionLabel>
+              <div className="flex flex-col gap-0.5">
+                {navItems.map((item) => (
+                  <SidebarLink
                     key={item.href}
-                    href={item.href}
-                    className={cn(
-                      "flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors",
-                      active
-                        ? "bg-brand-blue/10 text-brand-blue font-medium"
-                        : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                    )}
-                  >
-                    <Icon className="h-4 w-4" />
-                    {item.label}
-                  </Link>
-                )
-              })}
+                    link={{ label: item.label, href: item.href, icon: <item.icon className="h-4 w-4" /> }}
+                    active={isNavActive(pathname, item.href)}
+                  />
+                ))}
+              </div>
+              <SidebarSectionLabel>Portals</SidebarSectionLabel>
+              <SidebarLink
+                link={{ label: "Tenant admin", href: "/admin", icon: <ExternalLink className="h-4 w-4" /> }}
+              />
             </nav>
           </div>
-        </aside>
-
-        <main className="min-w-0 flex-1">{children}</main>
+          <div className="shrink-0 space-y-1 border-t border-sidebar-border pt-3">
+            <div className={cn("flex w-full", open ? "justify-start" : "justify-center")}>
+              <SidebarToggleButton />
+            </div>
+            <SidebarUserButton />
+          </div>
+        </SidebarBody>
+      </Sidebar>
+      <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
+        <EdTecTopBar portalLabel="Platform Console" />
+        <main className="mx-auto min-h-0 w-full max-w-[1480px] flex-1 overflow-y-auto scrollbar-hide px-4 py-5 sm:px-6 md:px-9 md:py-8">
+          {children}
+        </main>
       </div>
     </div>
   )

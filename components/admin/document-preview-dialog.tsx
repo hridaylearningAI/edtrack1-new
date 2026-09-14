@@ -32,11 +32,11 @@ export function DocumentPreviewDialog({ document, onVerified }: DocumentPreviewD
 
   const getDocumentIcon = (mimeType: string) => {
     if (mimeType.startsWith('image/')) {
-      return <Image className="h-5 w-5 text-blue-500" />
+      return <Image className="h-5 w-5 text-primary" />
     } else if (mimeType === 'application/pdf') {
-      return <FileText className="h-5 w-5 text-red-500" />
+      return <FileText className="h-5 w-5 text-destructive" />
     } else {
-      return <File className="h-5 w-5 text-gray-500" />
+      return <File className="h-5 w-5 text-muted-foreground" />
     }
   }
 
@@ -395,7 +395,7 @@ export function DocumentPreviewDialog({ document, onVerified }: DocumentPreviewD
                 <Button 
                   onClick={() => setAction('approve')} 
                   variant="outline"
-                  className="text-green-600 hover:text-green-700"
+                  className="text-success hover:text-success"
                 >
                   <Check className="mr-2 h-4 w-4" />
                   Approve
@@ -403,7 +403,7 @@ export function DocumentPreviewDialog({ document, onVerified }: DocumentPreviewD
                 <Button 
                   onClick={() => setAction('reject')} 
                   variant="outline"
-                  className="text-red-600 hover:text-red-700"
+                  className="text-destructive hover:text-destructive"
                 >
                   <X className="mr-2 h-4 w-4" />
                   Reject

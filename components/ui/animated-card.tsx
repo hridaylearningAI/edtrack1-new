@@ -24,7 +24,7 @@ export function AnimatedCard({ className, ...props }: CardProps) {
       aria-labelledby="card-title"
       aria-describedby="card-description"
       className={cn(
-        "group/animated-card relative w-[356px] overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-900 dark:bg-black",
+        "group/animated-card relative w-[356px] overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm",
         className,
       )}
       {...props}
@@ -36,7 +36,7 @@ export function CardBody({ className, ...props }: CardProps) {
   return (
     <div
       role="group"
-      className={cn("flex flex-col space-y-1.5 border-t border-zinc-200 p-4 dark:border-zinc-900", className)}
+      className={cn("flex flex-col space-y-1.5 border-t border-zinc-200 p-4", className)}
       {...props}
     />
   )
@@ -47,7 +47,7 @@ interface CardTitleProps extends React.HTMLAttributes<HTMLHeadingElement> {}
 export function CardTitle({ className, ...props }: CardTitleProps) {
   return (
     <h3
-      className={cn("text-lg font-semibold leading-none tracking-tight text-black dark:text-white", className)}
+      className={cn("text-lg font-semibold leading-none tracking-tight text-black", className)}
       {...props}
     />
   )
@@ -56,7 +56,7 @@ export function CardTitle({ className, ...props }: CardTitleProps) {
 interface CardDescriptionProps extends React.HTMLAttributes<HTMLParagraphElement> {}
 
 export function CardDescription({ className, ...props }: CardDescriptionProps) {
-  return <p className={cn("text-sm text-neutral-500 dark:text-neutral-400", className)} {...props} />
+  return <p className={cn("text-sm text-neutral-500", className)} {...props} />
 }
 
 export function CardVisual({ className, ...props }: CardProps) {
@@ -254,7 +254,7 @@ const Layer2 = ({ color }: LayerProps) => {
           </clipPath>
         </defs>
       </svg>
-      <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[3] transform bg-gradient-to-r from-transparent from-0% to-white to-15% transition-transform duration-500 group-hover/animated-card:translate-x-full dark:to-black"></div>
+      <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[3] transform bg-gradient-to-r from-transparent from-0% to-white to-15% transition-transform duration-500 group-hover/animated-card:translate-x-full"></div>
     </div>
   )
 }
@@ -273,13 +273,13 @@ const Layer3 = ({ color, secondaryColor }: LayerProps) => {
         }
       }
     >
-      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25">
+      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0">
         <div className="h-1.5 w-1.5 rounded-full bg-[var(--color)]" />
-        <span className="ml-1 text-[10px] text-black dark:text-white">Enrollments</span>
+        <span className="ml-1 text-[10px] text-black">Enrollments</span>
       </div>
-      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25">
+      <div className="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0">
         <div className="h-1.5 w-1.5 rounded-full bg-[var(--secondary-color)]" />
-        <span className="ml-1 text-[10px] text-black dark:text-white">Revenue</span>
+        <span className="ml-1 text-[10px] text-black">Revenue</span>
       </div>
     </div>
   )
@@ -289,9 +289,9 @@ const Layer4 = () => {
   return (
     <div className="group relative h-full w-[356px]">
       <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[7] flex max-w-[356px] -translate-y-full items-start justify-start bg-transparent p-4 transition-transform duration-500 group-hover/animated-card:translate-y-0">
-        <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] rounded-md border border-zinc-200 bg-white/25 p-1.5 opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover/animated-card:opacity-100 dark:border-zinc-800 dark:bg-black/25">
-          <p className="mb-1 text-xs font-semibold text-black dark:text-white">Enrollment & Revenue Analytics</p>
-          <p className="text-xs text-neutral-500 dark:text-neutral-400">
+        <div className="ease-[cubic-bezier(0.6, 0.6, 0, 1)] rounded-md border border-zinc-200 bg-white/25 p-1.5 opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover/animated-card:opacity-100">
+          <p className="mb-1 text-xs font-semibold text-black">Enrollment & Revenue Analytics</p>
+          <p className="text-xs text-neutral-500">
             Monthly trends showing student growth and revenue patterns.
           </p>
         </div>

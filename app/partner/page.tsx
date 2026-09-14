@@ -62,8 +62,8 @@ export default function PartnerDashboardPage() {
         <div className="flex h-64 w-full items-center justify-center">
           <div className="text-center">
             <Loader2 className="mx-auto mb-4 h-8 w-8 animate-spin text-primary" />
-            <h2 className="mb-2 text-xl font-semibold text-gray-900 dark:text-gray-100">Loading…</h2>
-            <p className="text-gray-600 dark:text-gray-400">Opening your partner dashboard</p>
+            <h2 className="mb-2 text-xl font-semibold text-foreground">Loading…</h2>
+            <p className="text-muted-foreground">Opening your partner dashboard</p>
           </div>
         </div>
       </PartnerLayout>
@@ -75,13 +75,13 @@ export default function PartnerDashboardPage() {
   return (
     <PartnerLayout>
       <div className="space-y-6">
-        <div className="relative overflow-hidden rounded-xl border-2 border-brand-blue/20 bg-gradient-to-br from-brand-blue/10 via-brand-red/5 to-brand-golden/10 p-6 shadow-lg shadow-brand-blue/5 dark:border-brand-blue/30 dark:from-brand-blue/20 dark:via-brand-red/10 dark:to-brand-golden/15">
+        <div className="relative overflow-hidden rounded-xl border-2 border-brand-blue/20 bg-gradient-to-br from-brand-blue/10 via-brand-red/5 to-brand-golden/10 p-6 shadow-lg shadow-brand-blue/5">
           <div className="relative z-10">
-            <p className="mb-1 text-sm font-medium text-brand-blue dark:text-brand-blue-light">
+            <p className="mb-1 text-sm font-medium text-brand-blue">
               {getGreeting()}, {first}
             </p>
-            <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">Edtec Partner</h1>
-            <p className="mt-2 max-w-2xl text-sm text-slate-600 dark:text-slate-300">
+            <h1 className="text-2xl font-bold tracking-tight text-foreground">Edtec Partner</h1>
+            <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
               Track enrollments attributed to your partner code and view commissions on qualifying purchases.
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function PartnerDashboardPage() {
           <Card className="border-brand-blue/15 transition-shadow hover:shadow-md">
             <CardHeader className="pb-2">
               <div className="flex items-center gap-2">
-                <Users className="h-5 w-5 text-brand-blue dark:text-brand-blue-light" />
+                <Users className="h-5 w-5 text-brand-blue" />
                 <CardTitle className="text-lg">Total enrollments done</CardTitle>
               </div>
               <CardDescription>Enrollments recorded when students used your partner code at checkout.</CardDescription>
@@ -99,7 +99,7 @@ export default function PartnerDashboardPage() {
             <CardContent>
               <Link
                 href="/partner/enrollments"
-                className="text-sm font-medium text-brand-blue hover:underline dark:text-brand-blue-light"
+                className="text-sm font-medium text-brand-blue hover:underline"
               >
                 View enrollments →
               </Link>
@@ -109,7 +109,7 @@ export default function PartnerDashboardPage() {
           <Card className="border-brand-blue/15 transition-shadow hover:shadow-md">
             <CardHeader className="pb-2">
               <div className="flex items-center gap-2">
-                <Percent className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+                <Percent className="h-5 w-5 text-success" />
                 <CardTitle className="text-lg">Commissions</CardTitle>
               </div>
               <CardDescription>
@@ -118,16 +118,16 @@ export default function PartnerDashboardPage() {
             </CardHeader>
             <CardContent className="space-y-2">
               {commissionLoading ? (
-                <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
+                <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Loader2 className="h-4 w-4 animate-spin" />
                   Loading…
                 </div>
               ) : Object.keys(commissionByCurrency).length === 0 ? (
-                <p className="text-sm text-slate-600 dark:text-slate-400">No commission yet — attributed purchases will appear here.</p>
+                <p className="text-sm text-muted-foreground">No commission yet — attributed purchases will appear here.</p>
               ) : (
                 <div className="space-y-1">
                   {Object.entries(commissionByCurrency).map(([cur, amt]) => (
-                    <p key={cur} className="text-lg font-semibold text-slate-900 dark:text-white">
+                    <p key={cur} className="text-lg font-semibold text-foreground">
                       {formatMoney(cur, amt)}
                     </p>
                   ))}
@@ -135,7 +135,7 @@ export default function PartnerDashboardPage() {
               )}
               <Link
                 href="/partner/enrollments"
-                className="inline-block text-sm font-medium text-brand-blue hover:underline dark:text-brand-blue-light"
+                className="inline-block text-sm font-medium text-brand-blue hover:underline"
               >
                 View breakdown →
               </Link>
@@ -145,7 +145,7 @@ export default function PartnerDashboardPage() {
           <Card className="border-brand-blue/15 transition-shadow hover:shadow-md">
             <CardHeader className="pb-2">
               <div className="flex items-center gap-2">
-                <BookOpen className="h-5 w-5 text-brand-golden dark:text-brand-golden-light" />
+                <BookOpen className="h-5 w-5 text-brand-golden" />
                 <CardTitle className="text-lg">How this portal fits in</CardTitle>
               </div>
               <CardDescription>
@@ -158,7 +158,7 @@ export default function PartnerDashboardPage() {
           <Card className="border-brand-blue/15 transition-shadow hover:shadow-md">
             <CardHeader className="pb-2">
               <div className="flex items-center gap-2">
-                <UserRoundCog className="h-5 w-5 text-brand-blue dark:text-brand-blue-light" />
+                <UserRoundCog className="h-5 w-5 text-brand-blue" />
                 <CardTitle className="text-lg">My partner profile</CardTitle>
               </div>
               <CardDescription>Add phone, address, and country code to auto-generate your partner code.</CardDescription>
@@ -166,7 +166,7 @@ export default function PartnerDashboardPage() {
             <CardContent>
               <Link
                 href="/partner/profile"
-                className="text-sm font-medium text-brand-blue hover:underline dark:text-brand-blue-light"
+                className="text-sm font-medium text-brand-blue hover:underline"
               >
                 Open profile →
               </Link>

@@ -50,11 +50,11 @@ function ProgressRow({
   return (
     <div className="space-y-1.5">
       <div className="flex items-center justify-between gap-3 text-sm">
-        <span className="text-slate-600 dark:text-slate-300">{label}</span>
-        <span className="font-semibold tabular-nums text-[#16325c] dark:text-slate-100">{valueLabel}</span>
+        <span className="text-muted-foreground">{label}</span>
+        <span className="font-semibold tabular-nums text-foreground">{valueLabel}</span>
       </div>
-      <div className="h-2 overflow-hidden rounded-full bg-slate-200/80 dark:bg-slate-700">
-        <div className="h-full rounded-full bg-[#2f6fed]" style={{ width: `${width}%` }} />
+      <div className="h-2 overflow-hidden rounded-full bg-muted/80">
+        <div className="h-full rounded-full bg-primary" style={{ width: `${width}%` }} />
       </div>
     </div>
   )
@@ -90,9 +90,9 @@ export function GnpsDashboardCard({
   const courseHref = `/student/course/${enrollment.course_id}`
 
   return (
-    <article className="relative overflow-hidden rounded-[1.35rem] border border-slate-200/90 bg-white shadow-[0_10px_30px_rgba(15,39,68,0.08)] dark:border-slate-700/80 dark:bg-slate-900">
+    <article className="relative overflow-hidden rounded-[1.35rem] border border-border/90 bg-white shadow-[0_10px_30px_rgba(15,39,68,0.08)]">
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-24 opacity-70 dark:opacity-30"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-24 opacity-70"
         aria-hidden
         style={{
           background:
@@ -104,7 +104,7 @@ export function GnpsDashboardCard({
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div className="flex min-w-0 items-start gap-4">
             <div className="relative h-[7.5rem] w-[7.5rem] shrink-0">
-              <div className="h-full w-full overflow-hidden rounded-[1.15rem] bg-slate-100 dark:bg-slate-800">
+              <div className="h-full w-full overflow-hidden rounded-[1.15rem] bg-muted">
                 {imageUrl && !imageFailed ? (
                   <img
                     src={imageUrl}
@@ -113,23 +113,23 @@ export function GnpsDashboardCard({
                     onError={() => setImageFailed(true)}
                   />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center text-slate-400">
+                  <div className="flex h-full w-full items-center justify-center text-muted-foreground">
                     <BookOpen className="h-8 w-8" aria-hidden />
                   </div>
                 )}
               </div>
-              <span className="absolute bottom-0 right-0 flex h-8 w-8 items-center justify-center rounded-full bg-[#16325c] text-white shadow-md ring-2 ring-white dark:ring-slate-900">
+              <span className="absolute bottom-0 right-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white shadow-md ring-2 ring-white">
                 <HandHeart className="h-4 w-4" aria-hidden />
               </span>
             </div>
             <div className="min-w-0">
-              <Badge className="border-0 bg-[#16325c] px-2.5 py-0.5 text-[10px] font-semibold tracking-[0.04em] text-white hover:bg-[#16325c]">
+              <Badge className="border-0 bg-primary px-2.5 py-0.5 text-[10px] font-semibold tracking-[0.04em] text-white hover:bg-[#194685]">
                 {courseCode.toUpperCase()}
               </Badge>
-              <h3 className="mt-2 text-xl font-bold leading-snug tracking-tight text-[#16325c] dark:text-white md:text-2xl">
+              <h3 className="mt-2 text-xl font-bold leading-snug tracking-tight text-foreground md:text-2xl">
                 {title}
               </h3>
-              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+              <p className="mt-1 text-sm text-muted-foreground">
                 3-level pathway · Enrolled {enrolledOn}
               </p>
             </div>
@@ -137,14 +137,14 @@ export function GnpsDashboardCard({
 
           <div className="flex shrink-0 flex-col items-start gap-2.5 lg:items-end">
             {canOpen ? (
-              <Button asChild className="h-11 rounded-xl bg-[#16325c] px-5 text-white hover:bg-[#112848]">
+              <Button asChild className="h-11 rounded-xl bg-primary px-5 text-white hover:bg-[#194685]">
                 <Link href={courseHref}>
                   <Play className="mr-2 h-4 w-4 fill-current" />
                   Open course
                 </Link>
               </Button>
             ) : (
-              <span className="rounded-xl border border-slate-200 px-4 py-2 text-sm text-muted-foreground dark:border-slate-700">
+              <span className="rounded-xl border border-border px-4 py-2 text-sm text-muted-foreground">
                 Content opening soon
               </span>
             )}
@@ -153,19 +153,19 @@ export function GnpsDashboardCard({
                 className={cn(
                   "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium",
                   isComplete
-                    ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300"
-                    : "bg-sky-50 text-sky-700 dark:bg-sky-950/40 dark:text-sky-300"
+                    ? "bg-success-soft text-success"
+                    : "bg-primary-soft text-primary"
                 )}
               >
                 <CheckCircle2 className="h-3.5 w-3.5" aria-hidden />
                 {isComplete ? "Completed" : "In progress"}
               </span>
-              <span className="inline-flex items-center gap-1 rounded-full bg-sky-50 px-2.5 py-1 text-xs font-medium text-sky-800 dark:bg-sky-950/40 dark:text-sky-200">
+              <span className="inline-flex items-center gap-1 rounded-full bg-primary-soft px-2.5 py-1 text-xs font-medium text-primary">
                 <BarChart3 className="h-3.5 w-3.5" aria-hidden />
                 Grade: {grade}
               </span>
               {enrollment.with_certificate ? (
-                <span className="inline-flex items-center gap-1 rounded-full bg-violet-50 px-2.5 py-1 text-xs font-medium text-violet-800 dark:bg-violet-950/40 dark:text-violet-200">
+                <span className="inline-flex items-center gap-1 rounded-full bg-primary-soft px-2.5 py-1 text-xs font-medium text-primary">
                   <Award className="h-3.5 w-3.5" aria-hidden />
                   Certificate included
                 </span>
@@ -175,7 +175,7 @@ export function GnpsDashboardCard({
           </div>
         </div>
 
-        <div className="grid gap-6 border-t border-slate-100 pt-4 dark:border-slate-800 lg:grid-cols-[minmax(0,1.15fr)_minmax(16rem,0.85fr)]">
+        <div className="grid gap-6 border-t border-border pt-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(16rem,0.85fr)]">
           <div>
             <div className="mb-3 flex gap-5 text-[11px] font-semibold uppercase tracking-[0.12em]">
               <button
@@ -184,8 +184,8 @@ export function GnpsDashboardCard({
                 className={cn(
                   "border-b-2 pb-1.5",
                   tab === "overview"
-                    ? "border-[#2f6fed] text-[#2f6fed]"
-                    : "border-transparent text-slate-400 hover:text-slate-600"
+                    ? "border-primary text-primary"
+                    : "border-transparent text-muted-foreground hover:text-muted-foreground"
                 )}
               >
                 Overview
@@ -196,63 +196,63 @@ export function GnpsDashboardCard({
                 className={cn(
                   "border-b-2 pb-1.5",
                   tab === "resources"
-                    ? "border-[#2f6fed] text-[#2f6fed]"
-                    : "border-transparent text-slate-400 hover:text-slate-600"
+                    ? "border-primary text-primary"
+                    : "border-transparent text-muted-foreground hover:text-muted-foreground"
                 )}
               >
                 Resources
               </button>
             </div>
             {tab === "overview" ? (
-              <div className="space-y-5 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+              <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
                 <section>
-                  <h4 className="text-base font-semibold tracking-tight text-[#16325c] dark:text-slate-100">
+                  <h4 className="text-base font-semibold tracking-tight text-foreground">
                     About this course
                   </h4>
                   <p className="mt-1.5">
-                    {summary.about} This GNPS unit, <strong className="font-semibold text-[#16325c] dark:text-slate-100">{summary.title}</strong>,
+                    {summary.about} This GNPS unit, <strong className="font-semibold text-foreground">{summary.title}</strong>,
                     is a structured 3-level pathway that builds from core practice through to international and global nursing capability.
                   </p>
                 </section>
 
                 <section>
-                  <h4 className="text-base font-semibold tracking-tight text-[#16325c] dark:text-slate-100">
+                  <h4 className="text-base font-semibold tracking-tight text-foreground">
                     How you will learn
                   </h4>
-                  <h5 className="mt-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-400">
+                  <h5 className="mt-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
                     In every section
                   </h5>
-                  <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-[#2f6fed]">
+                  <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-primary">
                     <li>
-                      <strong className="font-semibold text-[#16325c] dark:text-slate-100">Study notes</strong> — read the core concepts before you watch.
+                      <strong className="font-semibold text-foreground">Study notes</strong> — read the core concepts before you watch.
                     </li>
                     <li>
-                      <strong className="font-semibold text-[#16325c] dark:text-slate-100">Lecture video</strong> — follow the section teaching with guided explanation.
+                      <strong className="font-semibold text-foreground">Lecture video</strong> — follow the section teaching with guided explanation.
                     </li>
                     <li>
-                      <strong className="font-semibold text-[#16325c] dark:text-slate-100">Flashcards</strong> — reinforce key terms and clinical cues.
+                      <strong className="font-semibold text-foreground">Flashcards</strong> — reinforce key terms and clinical cues.
                     </li>
                     <li>
-                      <strong className="font-semibold text-[#16325c] dark:text-slate-100">Knowledge check</strong> — confirm understanding before you move on.
+                      <strong className="font-semibold text-foreground">Knowledge check</strong> — confirm understanding before you move on.
                     </li>
                   </ul>
-                  <h5 className="mt-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-400">
+                  <h5 className="mt-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
                     After the sections
                   </h5>
-                  <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-[#2f6fed]">
+                  <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-primary">
                     <li>Apply judgement in case studies</li>
                     <li>Practise clinical decisions in realistic scenarios</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h4 className="text-base font-semibold tracking-tight text-[#16325c] dark:text-slate-100">
+                  <h4 className="text-base font-semibold tracking-tight text-foreground">
                     The 3-level pathway
                   </h4>
-                  <ol className="mt-2 list-decimal space-y-2 pl-5 marker:font-semibold marker:text-[#2f6fed]">
+                  <ol className="mt-2 list-decimal space-y-2 pl-5 marker:font-semibold marker:text-primary">
                     {summary.levels.map((level) => (
                       <li key={level.id}>
-                        <h5 className="inline text-sm font-semibold text-[#16325c] dark:text-slate-100">
+                        <h5 className="inline text-sm font-semibold text-foreground">
                           Level {level.number} — {level.title}.
                         </h5>{" "}
                         {level.blurb}
@@ -264,10 +264,10 @@ export function GnpsDashboardCard({
                 <div className="grid gap-3 sm:grid-cols-3">
                   {FEATURES.map((feature) => (
                     <div key={feature.label} className="flex items-center gap-2.5">
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-50 text-[#2f6fed] dark:bg-sky-950/50">
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-soft text-primary">
                         <feature.icon className="h-4 w-4" aria-hidden />
                       </span>
-                      <span className="text-xs font-medium leading-snug text-slate-600 dark:text-slate-300">
+                      <span className="text-xs font-medium leading-snug text-muted-foreground">
                         {feature.label}
                       </span>
                     </div>
@@ -284,8 +284,8 @@ export function GnpsDashboardCard({
             )}
           </div>
 
-          <div className="space-y-3 lg:border-l lg:border-slate-100 lg:pl-6 dark:lg:border-slate-800">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-400">Your progress</p>
+          <div className="space-y-3 lg:border-l lg:border-border lg:pl-6">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">Your progress</p>
             <ProgressRow label="Overall Progress" valueLabel={`${progress}%`} percent={progress} />
             <ProgressRow
               label="Levels completed"
@@ -301,7 +301,7 @@ export function GnpsDashboardCard({
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 border-t border-slate-100 pt-4 dark:border-slate-800 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-3 border-t border-border pt-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap gap-2">
             <Button variant="outline" size="sm" className="rounded-lg" asChild>
               <Link href="/student/support">
@@ -316,10 +316,10 @@ export function GnpsDashboardCard({
               </Link>
             </Button>
           </div>
-          <p className="inline-flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
+          <p className="inline-flex items-center gap-2 text-sm text-muted-foreground">
             <Calendar className="h-4 w-4" aria-hidden />
             Next class
-            <span className="font-semibold text-[#16325c] dark:text-slate-200">TBD</span>
+            <span className="font-semibold text-foreground">TBD</span>
           </p>
         </div>
       </div>

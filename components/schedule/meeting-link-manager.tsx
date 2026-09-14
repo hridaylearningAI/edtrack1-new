@@ -206,7 +206,7 @@ export function MeetingLinkManager({ mode }: Props) {
   }
 
   return (
-    <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+    <Card className="border-brand-blue/15">
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-lg">
           <Link2 className="h-5 w-5 text-brand-blue" />

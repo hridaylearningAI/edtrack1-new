@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 import { Providers } from '@/components/providers'
 import { ClerkProvider } from '@clerk/nextjs'
@@ -14,9 +12,9 @@ if (!clerkPublishableKey) {
 }
 
 // Get portfolio app URL for cross-origin authentication
-const portfolioAppUrl = process.env.NEXT_PUBLIC_PORTFOLIO_URL || 
-  (process.env.NODE_ENV === 'production' 
-    ? 'https://edtec.online' 
+const portfolioAppUrl = process.env.NEXT_PUBLIC_PORTFOLIO_URL ||
+  (process.env.NODE_ENV === 'production'
+    ? 'https://edtec.online'
     : 'http://localhost:5173')
 
 // Allowed redirect origins for cross-app authentication
@@ -44,9 +42,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
-      <body className={GeistSans.className}>
-        <ClerkProvider 
+    // Browser extensions (e.g. Scribe) add attributes to <html> before React hydrates.
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ClerkProvider
           publishableKey={clerkPublishableKey}
           allowedRedirectOrigins={allowedRedirectOrigins}
           appearance={{ theme: shadcn }}

@@ -47,9 +47,9 @@ export default function FinancialPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load your financial information</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load your financial information</p>
           </div>
         </div>
       </StudentLayout>
@@ -105,7 +105,7 @@ export default function FinancialPage() {
                   </div>
                   <p className="text-xs text-muted-foreground">Total Tuition</p>
                 </div>
-                <DollarSign className="h-8 w-8 text-blue-600" />
+                <DollarSign className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -123,7 +123,7 @@ export default function FinancialPage() {
                   </div>
                   <p className="text-xs text-muted-foreground">Amount Paid</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-green-600" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -141,7 +141,7 @@ export default function FinancialPage() {
                   </div>
                   <p className="text-xs text-muted-foreground">Scholarships</p>
                 </div>
-                <TrendingUp className="h-8 w-8 text-purple-600" />
+                <TrendingUp className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -179,7 +179,7 @@ export default function FinancialPage() {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-medium">Next Payment Due:</span>
-                    <span className="text-sm font-medium text-orange-600">
+                    <span className="text-sm font-medium text-warning">
                       {financialSummary?.nextPaymentDue ? 
                         new Date(financialSummary.nextPaymentDue).toLocaleDateString() : 
                         'N/A'}
@@ -199,27 +199,27 @@ export default function FinancialPage() {
               <CardContent>
                 {paymentsLoading ? (
                   <div className="flex items-center justify-center py-8">
-                    <Loader2 className="h-8 w-8 animate-spin text-blue-600" />
-                    <span className="ml-2 text-gray-600">Loading payment history...</span>
+                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                    <span className="ml-2 text-muted-foreground">Loading payment history...</span>
                   </div>
                 ) : paymentsError ? (
                   <div className="text-center py-8">
-                    <AlertCircle className="h-8 w-8 text-red-500 mx-auto mb-2" />
-                    <p className="text-red-600 mb-2">{paymentsError}</p>
+                    <AlertCircle className="h-8 w-8 text-destructive mx-auto mb-2" />
+                    <p className="text-destructive mb-2">{paymentsError}</p>
                     <Button variant="outline" onClick={() => { clearPaymentsError(); }}>Try Again</Button>
                   </div>
                 ) : paymentHistory.length === 0 ? (
                   <div className="text-center py-8">
-                    <Receipt className="h-8 w-8 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-600">No payment history found</p>
+                    <Receipt className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
+                    <p className="text-muted-foreground">No payment history found</p>
                   </div>
                 ) : (
                   <div className="space-y-4">
                     {paymentHistory.map((payment) => (
                       <div key={payment.id} className="flex items-center justify-between p-4 border rounded-lg">
                         <div className="flex items-center space-x-4">
-                          <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                            <CheckCircle className="h-5 w-5 text-green-600" />
+                          <div className="w-10 h-10 bg-success-soft rounded-full flex items-center justify-center">
+                            <CheckCircle className="h-5 w-5 text-success" />
                           </div>
                           <div>
                             <h4 className="font-medium">{payment.description}</h4>
@@ -232,7 +232,7 @@ export default function FinancialPage() {
                           <div className="text-lg font-bold">${payment.amount.toLocaleString()}</div>
                           <Badge 
                             variant={payment.status === 'completed' ? 'default' : 'secondary'}
-                            className={payment.status === 'completed' ? 'bg-green-600' : ''}
+                            className={payment.status === 'completed' ? 'bg-success' : ''}
                           >
                             {payment.status}
                           </Badge>
@@ -253,9 +253,9 @@ export default function FinancialPage() {
               </CardHeader>
               <CardContent>
                 <div className="text-center py-8">
-                  <Calendar className="h-8 w-8 text-gray-400 mx-auto mb-2" />
-                  <p className="text-gray-600">No upcoming payments scheduled</p>
-                  <p className="text-sm text-gray-500 mt-2">All payments are up to date</p>
+                  <Calendar className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
+                  <p className="text-muted-foreground">No upcoming payments scheduled</p>
+                  <p className="text-sm text-muted-foreground mt-2">All payments are up to date</p>
                 </div>
               </CardContent>
             </Card>
@@ -270,27 +270,27 @@ export default function FinancialPage() {
               <CardContent>
                 {invoicesLoading ? (
                   <div className="flex items-center justify-center py-8">
-                    <Loader2 className="h-8 w-8 animate-spin text-blue-600" />
-                    <span className="ml-2 text-gray-600">Loading invoices...</span>
+                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                    <span className="ml-2 text-muted-foreground">Loading invoices...</span>
                   </div>
                 ) : invoicesError ? (
                   <div className="text-center py-8">
-                    <AlertCircle className="h-8 w-8 text-red-500 mx-auto mb-2" />
-                    <p className="text-red-600 mb-2">{invoicesError}</p>
+                    <AlertCircle className="h-8 w-8 text-destructive mx-auto mb-2" />
+                    <p className="text-destructive mb-2">{invoicesError}</p>
                     <Button variant="outline" onClick={() => { clearInvoicesError(); }}>Try Again</Button>
                   </div>
                 ) : invoices.length === 0 ? (
                   <div className="text-center py-8">
-                    <FileText className="h-8 w-8 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-600">No invoices found</p>
+                    <FileText className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
+                    <p className="text-muted-foreground">No invoices found</p>
                   </div>
                 ) : (
                   <div className="space-y-4">
                     {invoices.map((invoice) => (
                       <div key={invoice.id} className="flex items-center justify-between p-4 border rounded-lg">
                         <div className="flex items-center space-x-4">
-                          <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                            <Receipt className="h-5 w-5 text-blue-600" />
+                          <div className="w-10 h-10 bg-primary-soft rounded-full flex items-center justify-center">
+                            <Receipt className="h-5 w-5 text-primary" />
                           </div>
                           <div>
                             <h4 className="font-medium">{invoice.invoiceNumber}</h4>
@@ -305,7 +305,7 @@ export default function FinancialPage() {
                             <Badge 
                               variant={invoice.status === "overdue" ? "destructive" : 
                                      invoice.status === "paid" ? "default" : "outline"}
-                              className={invoice.status === "paid" ? "bg-green-600" : ""}
+                              className={invoice.status === "paid" ? "bg-success" : ""}
                             >
                               {invoice.status}
                             </Badge>

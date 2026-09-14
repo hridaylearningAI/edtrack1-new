@@ -139,13 +139,13 @@ export default function EligibilityPage() {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'eligible':
-        return <Badge className="bg-green-500 hover:bg-green-600"><CheckCircle2 className="h-3 w-3 mr-1" />Eligible</Badge>
+        return <Badge className="bg-success hover:bg-success"><CheckCircle2 className="h-3 w-3 mr-1" />Eligible</Badge>
       case 'not_eligible':
         return <Badge variant="destructive"><XCircle className="h-3 w-3 mr-1" />Not Eligible</Badge>
       case 'needs_review':
-        return <Badge className="bg-yellow-500 hover:bg-yellow-600"><AlertCircle className="h-3 w-3 mr-1" />Needs Review</Badge>
+        return <Badge className="bg-warning hover:bg-warning"><AlertCircle className="h-3 w-3 mr-1" />Needs Review</Badge>
       case 'under_review':
-        return <Badge className="bg-blue-500 hover:bg-blue-600"><Clock className="h-3 w-3 mr-1" />Under Review</Badge>
+        return <Badge className="bg-primary hover:bg-primary"><Clock className="h-3 w-3 mr-1" />Under Review</Badge>
       default:
         return <Badge variant="outline"><Clock className="h-3 w-3 mr-1" />Pending</Badge>
     }
@@ -230,7 +230,7 @@ export default function EligibilityPage() {
         {/* Header */}
         <div className="flex flex-col space-y-4 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Eligibility Management</h2>
+            <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-foreground">Eligibility Management</h2>
             <p className="text-muted-foreground mt-1 sm:mt-2">
               Review and manage eligibility checks for any course
             </p>

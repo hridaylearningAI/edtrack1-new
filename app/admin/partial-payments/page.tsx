@@ -284,7 +284,7 @@ export default function AdminPartialPaymentsPage() {
           <div className="space-y-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Partial Payments</h2>
+            <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-foreground">Partial Payments</h2>
             <p className="text-muted-foreground mt-1">
               Track learners by staged payment plan and current paid stage.
             </p>
@@ -478,9 +478,9 @@ export default function AdminPartialPaymentsPage() {
                             {!r.has_partial_tracking ? (
                               <Badge variant="secondary">No tracking</Badge>
                             ) : r.is_fully_paid ? (
-                              <Badge className="bg-emerald-600 hover:bg-emerald-700">Fully paid</Badge>
+                              <Badge className="bg-success hover:bg-success">Fully paid</Badge>
                             ) : (
-                              <Badge className="bg-amber-600 hover:bg-amber-700">Partial</Badge>
+                              <Badge className="bg-warning hover:bg-warning">Partial</Badge>
                             )}
                           </TableCell>
                           <TableCell>{r.max_topic_idx_unlocked != null ? `Topic ${r.max_topic_idx_unlocked + 1}` : '—'}</TableCell>

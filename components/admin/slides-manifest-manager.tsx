@@ -435,7 +435,7 @@ export function SlidesManifestManager() {
               </div>
 
               {!selectedCourse?.content_folder && (
-                <p className="text-sm text-amber-800 dark:text-amber-200 bg-amber-500/10 rounded-lg px-3 py-2">
+                <p className="text-sm text-warning bg-warning/10 rounded-lg px-3 py-2">
                   This course has no <code className="text-xs">content_folder</code>. Set it on the course record before
                   scanning.
                 </p>

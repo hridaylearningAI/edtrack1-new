@@ -179,7 +179,7 @@ export default function TrainerNclexProctoringPage() {
     return (
       <TrainerLayout>
         <div className="flex h-64 w-full items-center justify-center">
-          <p className="text-sm text-slate-500 dark:text-slate-400">Loading…</p>
+          <p className="text-sm text-muted-foreground">Loading…</p>
         </div>
       </TrainerLayout>
     )
@@ -190,17 +190,17 @@ export default function TrainerNclexProctoringPage() {
       <div className="space-y-6">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-2">
-            <Button asChild variant="ghost" size="sm" className="-ml-2 w-fit text-slate-600">
+            <Button asChild variant="ghost" size="sm" className="-ml-2 w-fit text-muted-foreground">
               <Link href="/trainer/nclex">
                 <ArrowLeft className="mr-1.5 h-4 w-4" />
                 Back to NCLEX Trainer
               </Link>
             </Button>
             <div>
-              <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
+              <h1 className="text-2xl font-bold text-foreground">
                 Mock exam proctoring
               </h1>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+              <p className="mt-1 text-sm text-muted-foreground">
                 Includes full NCLEX (#{NCLEX_FULL_COURSE_ID}) and exam-only Test Prep (#
                 {NCLEX_EXAM_ONLY_COURSE_ID}). Defaults to flagged attempts.
               </p>
@@ -212,43 +212,43 @@ export default function TrainerNclexProctoringPage() {
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+          <Card className="border-brand-blue/15">
             <CardHeader className="pb-2">
               <CardDescription>Students with attempts</CardDescription>
               <CardTitle className="text-2xl tabular-nums">{attemptedCount}</CardTitle>
             </CardHeader>
           </Card>
-          <Card className="border-red-200/80 dark:border-red-900/40">
+          <Card className="border-destructive-line/80">
             <CardHeader className="pb-2">
               <CardDescription>Terminated attempts</CardDescription>
-              <CardTitle className="text-2xl tabular-nums text-red-700 dark:text-red-300">
+              <CardTitle className="text-2xl tabular-nums text-destructive">
                 {courseFilter === "all"
                   ? (overview?.terminated_attempt_count ?? terminatedCount)
                   : terminatedCount}
               </CardTitle>
             </CardHeader>
           </Card>
-          <Card className="border-amber-200/80 dark:border-amber-900/40">
+          <Card className="border-warning-line/80">
             <CardHeader className="pb-2">
               <CardDescription>Students with flags</CardDescription>
-              <CardTitle className="text-2xl tabular-nums text-amber-800 dark:text-amber-200">
+              <CardTitle className="text-2xl tabular-nums text-warning">
                 {courseFilter === "all"
                   ? (overview?.students_with_flags ?? flaggedStudents)
                   : flaggedStudents}
               </CardTitle>
             </CardHeader>
           </Card>
-          <Card className="border-emerald-200/80 dark:border-emerald-900/40">
+          <Card className="border-success-line/80">
             <CardHeader className="pb-2">
               <CardDescription>Clean last attempts</CardDescription>
-              <CardTitle className="text-2xl tabular-nums text-emerald-700 dark:text-emerald-300">
+              <CardTitle className="text-2xl tabular-nums text-success">
                 {cleanCount}
               </CardTitle>
             </CardHeader>
           </Card>
         </div>
 
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-3">
             <div className="flex items-center gap-2">
               <ShieldAlert className="h-5 w-5 text-brand-blue" />
@@ -315,7 +315,7 @@ export default function TrainerNclexProctoringPage() {
                 </Button>
               </div>
               <div className="relative w-full lg:max-w-xs">
-                <Search className="pointer-events-none absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                <Search className="pointer-events-none absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                 <Input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
@@ -326,12 +326,12 @@ export default function TrainerNclexProctoringPage() {
             </div>
 
             {loading && metrics.length === 0 ? (
-              <div className="py-10 text-center text-sm text-slate-500 dark:text-slate-400">
+              <div className="py-10 text-center text-sm text-muted-foreground">
                 Loading proctoring metrics…
               </div>
             ) : error ? (
               <div className="py-10 text-center">
-                <p className="text-sm text-rose-600 dark:text-rose-400">{error}</p>
+                <p className="text-sm text-destructive">{error}</p>
                 <Button variant="outline" size="sm" className="mt-3" onClick={() => void fetchMetrics()}>
                   Retry
                 </Button>
@@ -364,21 +364,21 @@ export default function TrainerNclexProctoringPage() {
                             <TableCell>
                               <div className="flex min-w-[160px] flex-col">
                                 <span className="text-sm font-medium">{m.student_name}</span>
-                                <span className="text-xs text-slate-500 dark:text-slate-400">
+                                <span className="text-xs text-muted-foreground">
                                   {m.student_email}
                                 </span>
                               </div>
                             </TableCell>
                             <TableCell>
                               <div className="flex min-w-[120px] flex-col">
-                                <span className="text-xs font-medium text-slate-700 dark:text-slate-200">
+                                <span className="text-xs font-medium text-foreground">
                                   {m.course_code ?? m.course_id}
                                 </span>
-                                <span className="text-[11px] text-slate-500">#{m.course_id}</span>
+                                <span className="text-[11px] text-muted-foreground">#{m.course_id}</span>
                               </div>
                             </TableCell>
                             <TableCell className="text-right tabular-nums">{m.attempt_count}</TableCell>
-                            <TableCell className="whitespace-nowrap text-sm text-slate-600 dark:text-slate-300">
+                            <TableCell className="whitespace-nowrap text-sm text-muted-foreground">
                               {m.last_completed_at
                                 ? format(new Date(m.last_completed_at), "MMM d, yyyy HH:mm")
                                 : "—"}
@@ -390,13 +390,13 @@ export default function TrainerNclexProctoringPage() {
                             </TableCell>
                             <TableCell>
                               {m.attempt_count === 0 ? (
-                                <span className="text-sm text-slate-500">—</span>
+                                <span className="text-sm text-muted-foreground">—</span>
                               ) : terminated ? (
-                                <Badge className="bg-red-100 text-red-900 dark:bg-red-950/50 dark:text-red-200">
+                                <Badge className="bg-destructive-soft text-destructive">
                                   Stopped
                                 </Badge>
                               ) : m.last_passed ? (
-                                <Badge className="bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-200">
+                                <Badge className="bg-success-soft text-success">
                                   Pass
                                 </Badge>
                               ) : (
@@ -405,7 +405,7 @@ export default function TrainerNclexProctoringPage() {
                             </TableCell>
                             <TableCell>
                               {m.attempt_count === 0 ? (
-                                <span className="text-sm text-slate-500">—</span>
+                                <span className="text-sm text-muted-foreground">—</span>
                               ) : (
                                 <button
                                   type="button"
@@ -413,11 +413,11 @@ export default function TrainerNclexProctoringPage() {
                                   onClick={() => setExpandedId(expanded ? null : m.enrollment_id)}
                                 >
                                   {terminated ? (
-                                    <Badge className="bg-red-100 text-red-900 dark:bg-red-950/50 dark:text-red-200">
+                                    <Badge className="bg-destructive-soft text-destructive">
                                       {formatProctoringReason(m.last_proctoring_terminate_reason)}
                                     </Badge>
                                   ) : warnings > 0 ? (
-                                    <Badge className="bg-amber-100 text-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+                                    <Badge className="bg-warning-soft text-warning">
                                       {warnings} warning{warnings === 1 ? "" : "s"}
                                     </Badge>
                                   ) : hasFlags ? (
@@ -428,7 +428,7 @@ export default function TrainerNclexProctoringPage() {
                                   ) : (
                                     <Badge
                                       variant="secondary"
-                                      className="bg-emerald-50 text-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-200"
+                                      className="bg-success-soft text-success"
                                     >
                                       Clean
                                     </Badge>
@@ -446,23 +446,23 @@ export default function TrainerNclexProctoringPage() {
                               <TableCell colSpan={9} className="bg-muted/30 text-sm">
                                 <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
                                   <p>
-                                    <span className="text-slate-500">Last warnings:</span>{" "}
+                                    <span className="text-muted-foreground">Last warnings:</span>{" "}
                                     <span className="font-medium tabular-nums">{warnings}</span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Look-aways:</span>{" "}
+                                    <span className="text-muted-foreground">Look-aways:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_look_away_count ?? 0}
                                     </span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Multi-face:</span>{" "}
+                                    <span className="text-muted-foreground">Multi-face:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_multiple_faces_count ?? 0}
                                     </span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Focus leaves:</span>{" "}
+                                    <span className="text-muted-foreground">Focus leaves:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_focus_leave_count ??
                                         m.last_proctoring_tab_hidden_count ??
@@ -470,36 +470,36 @@ export default function TrainerNclexProctoringPage() {
                                     </span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Fullscreen exits:</span>{" "}
+                                    <span className="text-muted-foreground">Fullscreen exits:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_fullscreen_exit_count ?? 0}
                                     </span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Screenshot attempts:</span>{" "}
+                                    <span className="text-muted-foreground">Screenshot attempts:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_screenshot_attempt_count ?? 0}
                                     </span>
                                   </p>
                                   <p>
-                                    <span className="text-slate-500">Tab leaves:</span>{" "}
+                                    <span className="text-muted-foreground">Tab leaves:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.last_proctoring_tab_hidden_count ?? 0}
                                     </span>
                                   </p>
                                   <p className="sm:col-span-2">
-                                    <span className="text-slate-500">Lifetime stops:</span>{" "}
+                                    <span className="text-muted-foreground">Lifetime stops:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.proctoring_terminated_attempt_count ?? 0}
                                     </span>
                                     {" · "}
-                                    <span className="text-slate-500">Flagged attempts:</span>{" "}
+                                    <span className="text-muted-foreground">Flagged attempts:</span>{" "}
                                     <span className="font-medium tabular-nums">
                                       {m.proctoring_flagged_attempt_count ?? 0}
                                     </span>
                                   </p>
                                   {terminated ? (
-                                    <p className="sm:col-span-2 text-red-700 dark:text-red-300">
+                                    <p className="sm:col-span-2 text-destructive">
                                       Last stop reason:{" "}
                                       {formatProctoringReason(m.last_proctoring_terminate_reason)}
                                     </p>
@@ -515,7 +515,7 @@ export default function TrainerNclexProctoringPage() {
                       <TableRow>
                         <TableCell
                           colSpan={9}
-                          className="text-center text-sm text-slate-500 dark:text-slate-400"
+                          className="text-center text-sm text-muted-foreground"
                         >
                           No students match this filter. Try “Terminated”, “All NCLEX courses”, or
                           Refresh.
@@ -532,18 +532,18 @@ export default function TrainerNclexProctoringPage() {
         <Card className="border-border/60 bg-muted/20">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
-              <ClipboardList className="h-4 w-4 text-slate-500" />
+              <ClipboardList className="h-4 w-4 text-muted-foreground" />
               <CardTitle className="text-base">How flags work</CardTitle>
             </div>
           </CardHeader>
-          <CardContent className="space-y-1.5 text-sm text-slate-600 dark:text-slate-400">
+          <CardContent className="space-y-1.5 text-sm text-muted-foreground">
             <p>
-              <span className="font-medium text-slate-800 dark:text-slate-200">Stopped</span> — exam
+              <span className="font-medium text-foreground">Stopped</span> — exam
               ended by proctoring (multiple faces, sustained look-away, no face, tab leave, or camera
               lost).
             </p>
             <p>
-              <span className="font-medium text-slate-800 dark:text-slate-200">Exam-only mocks</span>{" "}
+              <span className="font-medium text-foreground">Exam-only mocks</span>{" "}
               — attempts from <code className="text-xs">ETP-NCLEX-TP</code> (course #
               {NCLEX_EXAM_ONLY_COURSE_ID}) appear here when “All NCLEX courses” or that course is
               selected.

@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabaseClient, formatResponse, formatAuthError } from '@/lib/api/supabase';
 import { requireAuth } from '@/lib/api/auth';
+import { requireTenantScope } from '@/lib/api/tenant-scope';
 import { corsHeaders, getPaginationParams } from '@/lib/api/utils';
-import { generateEdtecStudentNumber } from '@/lib/studentNumber';
+import { ensureStudentProfileForUser } from '@/lib/api/students-provision';
 
 /**
  * enrollments.student_id FK → students.id. Users may exist in `users` without a `students` row yet.
@@ -12,69 +13,11 @@ async function ensureStudentsRowForEnrollment(
   supabase: ReturnType<typeof getSupabaseClient>,
   enrollmentStudentId: number
 ): Promise<{ ok: true; studentId: number } | { ok: false; message: string }> {
-  const { data: hasRow } = await supabase
-    .from('students')
-    .select('id')
-    .eq('id', enrollmentStudentId)
-    .maybeSingle();
-  if (hasRow) return { ok: true, studentId: enrollmentStudentId };
-
-  const { data: userRow, error: uErr } = await supabase
-    .from('users')
-    .select('id, name, email, status, student_number, role')
-    .eq('id', enrollmentStudentId)
-    .maybeSingle();
-
-  if (uErr || !userRow || userRow.role !== 'student') {
-    return { ok: false, message: 'Invalid student user for enrollment' };
+  const result = await ensureStudentProfileForUser(enrollmentStudentId, supabase)
+  if (!result.ok) {
+    return { ok: false, message: result.message }
   }
-
-  const email = (userRow.email || '').trim();
-  if (!email) {
-    return { ok: false, message: 'User has no email; cannot create students row' };
-  }
-
-  const want = email.toLowerCase();
-  const { data: emailRows } = await supabase
-    .from('students')
-    .select('id, email')
-    .ilike('email', email);
-  const existingByEmail = (emailRows || []).find(
-    (s: { email?: string | null }) => (s.email || '').trim().toLowerCase() === want
-  );
-  if (existingByEmail) {
-    return { ok: true, studentId: existingByEmail.id };
-  }
-
-  let studentNumber = userRow.student_number as string | null | undefined;
-  if (!studentNumber) {
-    studentNumber = await generateEdtecStudentNumber();
-    if (!studentNumber) {
-      return { ok: false, message: 'Could not generate student number' };
-    }
-  }
-
-  const { error: insErr } = await supabase.from('students').insert({
-    id: userRow.id,
-    name: (userRow.name as string) || email.split('@')[0] || 'Student',
-    email,
-    grade: 'N/A',
-    enrollment_date: new Date().toISOString().split('T')[0],
-    status: (userRow.status as string) ?? 'active',
-    student_number: studentNumber,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
-  });
-
-  if (insErr) {
-    console.error('ensureStudentsRowForEnrollment insert error:', insErr);
-    return {
-      ok: false,
-      message: insErr.message || 'Failed to create students row for enrollment',
-    };
-  }
-
-  return { ok: true, studentId: userRow.id };
+  return { ok: true, studentId: result.studentId }
 }
 
 function extractStageNumberFromPlanKey(planKey: string | null | undefined): number | null {
@@ -107,13 +50,14 @@ function getNclexMaxTopicIdxForStagePlan(planKey: string | null | undefined): nu
  */
 export async function GET(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
+    const authResult = { authenticated: true as const, user: scope.user };
 
     const supabase = getSupabaseClient();
     const params = new URL(request.url).searchParams;
@@ -196,6 +140,7 @@ export async function GET(request: NextRequest) {
       .order('created_at', { ascending: false })
       .range(offset, offset + limit - 1);
 
+    if (scope.tenantId) query = query.eq('tenant_id', scope.tenantId);
     const { data, error, count } = await query;
 
     if (error) {
@@ -307,13 +252,14 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
+    const authResult = { authenticated: true as const, user: scope.user };
 
     const body = await request.json();
     const { student_id, course_id, enrollment_date, status, progress, grade, notes } = body;
@@ -522,7 +468,7 @@ export async function POST(request: NextRequest) {
     // Create enrollment
     const { data: enrollment, error } = await supabase
       .from('enrollments')
-      .insert(enrollmentData)
+      .insert({ ...enrollmentData, tenant_id: scope.tenantId })
       .select()
       .single();
 

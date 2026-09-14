@@ -199,7 +199,7 @@ export default function TrainerNclexForumsPage() {
         <div className="flex h-64 w-full items-center justify-center">
           <div className="text-center">
             <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Loading forums…</p>
+            <p className="mt-2 text-sm text-muted-foreground">Loading forums…</p>
           </div>
         </div>
       </TrainerLayout>
@@ -210,8 +210,8 @@ export default function TrainerNclexForumsPage() {
     return (
       <TrainerLayout>
         <div className="space-y-4">
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">NCLEX Forums</h1>
-          <p className="text-sm text-amber-800 dark:text-amber-200">
+          <h1 className="text-2xl font-bold text-foreground">NCLEX Forums</h1>
+          <p className="text-sm text-warning">
             Your account does not have trainer portal access.
           </p>
           <Button asChild variant="outline">
@@ -227,16 +227,16 @@ export default function TrainerNclexForumsPage() {
       <div className="space-y-6">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <h1 className="text-2xl font-bold text-foreground flex items-center gap-2">
               <MessageCircle className="h-5 w-5 text-brand-blue" />
               NCLEX Forums (Reply)
             </h1>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+            <p className="mt-1 text-sm text-muted-foreground">
               Reply to general course forum threads for course {NCLEX_COURSE_ID}.
             </p>
           </div>
           <div className="flex items-center gap-2">
-            <Badge variant="secondary" className="bg-white/50 dark:bg-neutral-900/50">
+            <Badge variant="secondary" className="bg-white/50">
               {threads.length} threads
             </Badge>
             <Button asChild variant="outline" size="sm">
@@ -246,13 +246,13 @@ export default function TrainerNclexForumsPage() {
         </div>
 
         {loading ? (
-          <div className="py-10 text-center text-sm text-slate-500 dark:text-slate-400">
+          <div className="py-10 text-center text-sm text-muted-foreground">
             <Loader2 className="mx-auto h-8 w-8 animate-spin text-brand-blue" />
             <p className="mt-2">Loading forum threads…</p>
           </div>
         ) : forumsError ? (
           <div className="py-10 text-center">
-            <p className="text-sm text-rose-600 dark:text-rose-400">{forumsError}</p>
+            <p className="text-sm text-destructive">{forumsError}</p>
             <div className="mt-3">
               <Button variant="outline" size="sm" onClick={fetchForumAndThreads}>
                 Retry
@@ -261,7 +261,7 @@ export default function TrainerNclexForumsPage() {
           </div>
         ) : (
           <div className="grid gap-4 lg:grid-cols-[360px_1fr]">
-            <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+            <Card className="border-brand-blue/15">
               <CardHeader className="pb-2">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Reply className="h-4 w-4 text-brand-blue" />
@@ -271,9 +271,9 @@ export default function TrainerNclexForumsPage() {
               </CardHeader>
               <CardContent>
                 {threadsLoading ? (
-                  <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading threads…</div>
+                  <div className="py-6 text-center text-sm text-muted-foreground">Loading threads…</div>
                 ) : threads.length === 0 ? (
-                  <p className="text-sm text-slate-500 dark:text-slate-400 py-6 text-center">No threads found.</p>
+                  <p className="text-sm text-muted-foreground py-6 text-center">No threads found.</p>
                 ) : (
                   <div className="space-y-2">
                     {threads.map((t) => {
@@ -298,7 +298,7 @@ export default function TrainerNclexForumsPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+            <Card className="border-brand-blue/15">
               <CardHeader className="pb-2">
                 <CardTitle className="text-lg">{selectedThread ? selectedThread.title : "Select a thread"}</CardTitle>
                 <CardDescription>
@@ -307,7 +307,7 @@ export default function TrainerNclexForumsPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 {postsLoading ? (
-                  <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading posts…</div>
+                  <div className="py-6 text-center text-sm text-muted-foreground">Loading posts…</div>
                 ) : selectedThreadId == null ? (
                   <p className="text-sm text-muted-foreground">No thread selected.</p>
                 ) : posts.length === 0 ? (
@@ -328,8 +328,8 @@ export default function TrainerNclexForumsPage() {
                   </div>
                 )}
 
-                <div className="rounded-lg border border-border/70 bg-white/60 dark:bg-neutral-900/40 p-3">
-                  <label className="text-sm font-medium text-slate-900 dark:text-white flex items-center gap-2">
+                <div className="rounded-lg border border-border/70 bg-white/60 p-3">
+                  <label className="text-sm font-medium text-foreground flex items-center gap-2">
                     <Reply className="h-4 w-4 text-brand-blue" />
                     Add a reply
                   </label>
@@ -341,7 +341,7 @@ export default function TrainerNclexForumsPage() {
                     rows={4}
                   />
                   <div className="mt-3 flex items-center justify-between gap-3">
-                    <p className="text-xs text-slate-500 dark:text-slate-400">
+                    <p className="text-xs text-muted-foreground">
                       Posting will appear immediately under this thread.
                     </p>
                     <Button onClick={handleReply} disabled={posting || selectedThreadId == null} className="gap-2">

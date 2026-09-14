@@ -40,3 +40,6 @@ next-env.d.ts
 .trae/
 .windsurf/
 /Users/
+
+# impeccable per-session cache (machine-local paths)
+.impeccable/hook.cache.json

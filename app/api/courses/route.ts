@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabaseClient, formatResponse, formatAuthError } from '@/lib/api/supabase';
 import { requireAuth } from '@/lib/api/auth';
+import { requireTenantScope } from '@/lib/api/tenant-scope';
 import { corsHeaders, getPaginationParams } from '@/lib/api/utils';
 
 /**
@@ -11,13 +12,14 @@ import { corsHeaders, getPaginationParams } from '@/lib/api/utils';
  */
 export async function GET(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
+    const authResult = { authenticated: true as const, user: scope.user };
 
     const supabase = getSupabaseClient();
     const { page, limit, offset } = getPaginationParams(request);
@@ -47,6 +49,7 @@ export async function GET(request: NextRequest) {
       .order('created_at', { ascending: false })
       .range(offset, offset + limit - 1);
 
+    if (scope.tenantId) query = query.eq('tenant_id', scope.tenantId);
     const { data, error, count } = await query;
 
     if (error) {
@@ -72,13 +75,14 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
+    const authResult = { authenticated: true as const, user: scope.user };
 
     const body = await request.json();
     const { 
@@ -179,7 +183,7 @@ export async function POST(request: NextRequest) {
     // Create course
     const { data: course, error } = await supabase
       .from('courses')
-      .insert(courseData)
+      .insert({ ...courseData, tenant_id: scope.tenantId })
       .select()
       .single();
 

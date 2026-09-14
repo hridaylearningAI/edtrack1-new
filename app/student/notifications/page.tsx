@@ -86,19 +86,19 @@ const getTypeIcon = (type: string) => {
 const getTypeColor = (type: string) => {
   switch (type) {
     case 'Payment':
-      return 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-950/50 border-green-200 dark:border-green-800';
+      return 'text-success bg-success-soft border-success-line';
     case 'Achievement':
-      return 'text-yellow-600 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-950/50 border-yellow-200 dark:border-yellow-800';
+      return 'text-warning bg-warning-soft border-warning-line';
     case 'Course':
-      return 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/50 border-blue-200 dark:border-blue-800';
+      return 'text-primary bg-primary-soft border-primary-line';
     case 'Reminder':
-      return 'text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-950/50 border-orange-200 dark:border-orange-800';
+      return 'text-warning bg-warning-soft border-warning-line';
     case 'Welcome':
-      return 'text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-950/50 border-purple-200 dark:border-purple-800';
+      return 'text-primary bg-primary-soft border-primary-line';
     case 'System':
-      return 'text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/50 border-gray-200 dark:border-gray-700';
+      return 'text-muted-foreground bg-muted border-border';
     default:
-      return 'text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/50 border-gray-200 dark:border-gray-700';
+      return 'text-muted-foreground bg-muted border-border';
   }
 }
 
@@ -120,7 +120,7 @@ export default function NotificationsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
             <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
             <p className="text-muted-foreground">Please wait while we load your notifications</p>
           </div>
@@ -177,7 +177,7 @@ export default function NotificationsPage() {
                   <div className="text-2xl font-bold text-foreground">{notifications.length}</div>
                   <p className="text-xs text-muted-foreground">Total Notifications</p>
                 </div>
-                <Bell className="h-8 w-8 text-blue-600" />
+                <Bell className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -189,7 +189,7 @@ export default function NotificationsPage() {
                   <div className="text-2xl font-bold text-foreground">{unreadCount}</div>
                   <p className="text-xs text-muted-foreground">Unread</p>
                 </div>
-                <AlertCircle className="h-8 w-8 text-orange-600" />
+                <AlertCircle className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -201,7 +201,7 @@ export default function NotificationsPage() {
                   <div className="text-2xl font-bold text-foreground">{readNotifications.length}</div>
                   <p className="text-xs text-muted-foreground">Read</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-green-600" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -211,7 +211,7 @@ export default function NotificationsPage() {
         {error ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <AlertCircle className="h-12 w-12 text-red-500 dark:text-red-400 mx-auto mb-4" />
+              <AlertCircle className="h-12 w-12 text-destructive mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Error Loading Notifications</h3>
               <p className="text-muted-foreground mb-4">{error}</p>
               <Button variant="outline" onClick={fetchNotifications}>
@@ -223,7 +223,7 @@ export default function NotificationsPage() {
         ) : loading && notifications.length === 0 ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <Loader2 className="h-8 w-8 animate-spin text-blue-600 dark:text-blue-400 mx-auto mb-4" />
+              <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto mb-4" />
               <p className="text-muted-foreground">Loading notifications...</p>
             </CardContent>
           </Card>
@@ -259,8 +259,8 @@ export default function NotificationsPage() {
                     key={notification.id}
                     className={`cursor-pointer hover:shadow-md transition-shadow border ${
                       isUnread
-                        ? 'bg-blue-50 dark:bg-blue-950/50 border-blue-200 dark:border-blue-800'
-                        : 'dark:bg-card dark:border-border'
+                        ? 'bg-primary-soft border-primary-line'
+                        : ''
                     }`}
                     onClick={() => isUnread && markAsRead(notification.id)}
                   >
@@ -275,7 +275,7 @@ export default function NotificationsPage() {
                               <h3 className="font-semibold text-sm text-foreground flex items-center gap-2">
                                 {notification.title}
                                 {isUnread && (
-                                  <span className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full flex-shrink-0" aria-hidden></span>
+                                  <span className="w-2 h-2 bg-primary rounded-full flex-shrink-0" aria-hidden></span>
                                 )}
                               </h3>
                               <p className="text-sm text-muted-foreground mt-1">
@@ -283,7 +283,7 @@ export default function NotificationsPage() {
                               </p>
                             </div>
                             <div className="flex items-center gap-2 flex-shrink-0">
-                              <Badge variant="outline" className="text-xs border-border bg-muted/50 dark:bg-muted text-foreground dark:border-muted-foreground/30">
+                              <Badge variant="outline" className="text-xs border-border bg-muted/50 text-foreground">
                                 {notification.type}
                               </Badge>
                               {notification.priority === 'High' && (
@@ -332,7 +332,7 @@ export default function NotificationsPage() {
               {unreadNotifications.length === 0 ? (
                 <Card>
                   <CardContent className="p-8 text-center">
-                    <CheckCircle className="h-12 w-12 text-green-500 dark:text-green-400 mx-auto mb-4" />
+                    <CheckCircle className="h-12 w-12 text-success mx-auto mb-4" />
                     <h3 className="text-lg font-semibold text-foreground mb-2">All Caught Up!</h3>
                     <p className="text-muted-foreground">You have no unread notifications.</p>
                   </CardContent>
@@ -344,7 +344,7 @@ export default function NotificationsPage() {
                   return (
                     <Card 
                       key={notification.id}
-                      className="cursor-pointer hover:shadow-md transition-shadow bg-blue-50 dark:bg-blue-950/50 border border-blue-200 dark:border-blue-800"
+                      className="cursor-pointer hover:shadow-md transition-shadow bg-primary-soft border border-primary-line"
                       onClick={() => markAsRead(notification.id)}
                     >
                       <CardContent className="p-4">
@@ -357,14 +357,14 @@ export default function NotificationsPage() {
                               <div className="flex-1">
                                 <h3 className="font-semibold text-sm text-foreground flex items-center gap-2">
                                   {notification.title}
-                                  <span className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full flex-shrink-0" aria-hidden></span>
+                                  <span className="w-2 h-2 bg-primary rounded-full flex-shrink-0" aria-hidden></span>
                                 </h3>
                                 <p className="text-sm text-muted-foreground mt-1">
                                   {notification.message}
                                 </p>
                               </div>
                               <div className="flex items-center gap-2 flex-shrink-0">
-                                <Badge variant="outline" className="text-xs border-border bg-muted/50 dark:bg-muted text-foreground dark:border-muted-foreground/30">
+                                <Badge variant="outline" className="text-xs border-border bg-muted/50 text-foreground">
                                   {notification.type}
                                 </Badge>
                                 {notification.priority === 'High' && (
@@ -424,7 +424,7 @@ export default function NotificationsPage() {
                   return (
                     <Card 
                       key={notification.id}
-                      className="opacity-90 dark:opacity-100"
+                      className="opacity-90"
                     >
                       <CardContent className="p-4">
                         <div className="flex items-start space-x-4">
@@ -436,14 +436,14 @@ export default function NotificationsPage() {
                               <div className="flex-1">
                                 <h3 className="font-semibold text-sm text-foreground flex items-center gap-2">
                                   {notification.title}
-                                  <CheckCircle className="h-4 w-4 text-green-600 dark:text-green-400 flex-shrink-0" />
+                                  <CheckCircle className="h-4 w-4 text-success flex-shrink-0" />
                                 </h3>
                                 <p className="text-sm text-muted-foreground mt-1">
                                   {notification.message}
                                 </p>
                               </div>
                               <div className="flex items-center gap-2 flex-shrink-0">
-                                <Badge variant="outline" className="text-xs border-border bg-muted/50 dark:bg-muted text-foreground dark:border-muted-foreground/30">
+                                <Badge variant="outline" className="text-xs border-border bg-muted/50 text-foreground">
                                   {notification.type}
                                 </Badge>
                                 {notification.priority === 'High' && (

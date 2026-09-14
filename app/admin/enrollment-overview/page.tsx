@@ -397,7 +397,7 @@ export default function EnrollmentOverviewPage() {
     <div className="space-y-6">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Enrollment Overview</h2>
+          <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-foreground">Enrollment Overview</h2>
           <p className="text-muted-foreground mt-1">
             Students split by enrolled vs not enrolled, with cart visibility for non-enrolled users.
           </p>
@@ -458,7 +458,7 @@ export default function EnrollmentOverviewPage() {
       <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
         <Card>
           <CardContent className="p-6">
-            <div className="text-2xl font-bold">{data.enrolledUsers.length}</div>
+            <div className="text-2xl font-medium tracking-tight">{data.enrolledUsers.length}</div>
             <p className="text-xs text-muted-foreground flex items-center gap-1">
               <UserCheck className="h-3 w-3" /> Enrolled users
             </p>
@@ -466,7 +466,7 @@ export default function EnrollmentOverviewPage() {
         </Card>
         <Card>
           <CardContent className="p-6">
-            <div className="text-2xl font-bold">{data.notEnrolledUsers.length}</div>
+            <div className="text-2xl font-medium tracking-tight">{data.notEnrolledUsers.length}</div>
             <p className="text-xs text-muted-foreground flex items-center gap-1">
               <UserX className="h-3 w-3" /> Not enrolled users
             </p>
@@ -474,7 +474,7 @@ export default function EnrollmentOverviewPage() {
         </Card>
         <Card>
           <CardContent className="p-6">
-            <div className="text-2xl font-bold">
+            <div className="text-2xl font-medium tracking-tight">
               {data.notEnrolledUsers.filter((u) => u.cart_items.length > 0).length}
             </div>
             <p className="text-xs text-muted-foreground flex items-center gap-1">

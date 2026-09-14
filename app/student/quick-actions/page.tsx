@@ -92,9 +92,9 @@ function QuickActionsContent() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load your information</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load your information</p>
           </div>
         </div>
       </StudentLayout>
@@ -107,9 +107,9 @@ function QuickActionsContent() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-red-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Error Loading Information</h2>
-            <p className="text-gray-600">{enrollmentsError}</p>
+            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-destructive" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Error Loading Information</h2>
+            <p className="text-muted-foreground">{enrollmentsError}</p>
           </div>
         </div>
       </StudentLayout>
@@ -183,7 +183,7 @@ function QuickActionsContent() {
                     </div>
                   </div>
                   {phoneMessage && (
-                    <p className={`text-sm ${phoneMessage.includes('success') ? 'text-green-600 dark:text-green-400' : 'text-amber-600 dark:text-amber-400'}`}>
+                    <p className={`text-sm ${phoneMessage.includes('success') ? 'text-success' : 'text-warning'}`}>
                       {phoneMessage}
                     </p>
                   )}
@@ -229,9 +229,9 @@ export default function QuickActionsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load the page</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load the page</p>
           </div>
         </div>
       </StudentLayout>

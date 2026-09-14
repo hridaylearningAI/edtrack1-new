@@ -11,6 +11,8 @@ const isPublicRoute = createRouteMatcher([
   '/direct-access',
   '/api/webhooks(.*)',
   '/api/auth/ensure-default-org',
+  '/api/auth/demo-sign-in',
+  '/api/auth/verify-session',
 ])
 
 export default clerkMiddleware(async (auth, req) => {
@@ -148,7 +150,8 @@ export default clerkMiddleware(async (auth, req) => {
         pathname.startsWith('/super-admin') ||
         pathname.startsWith('/student') ||
         pathname.startsWith('/trainer') ||
-        pathname.startsWith('/partner')
+        pathname.startsWith('/partner') ||
+        pathname.startsWith('/platform')
       ) {
         return // Allow request to continue
       }
@@ -177,11 +180,12 @@ export default clerkMiddleware(async (auth, req) => {
         return // Allow request to continue
       }
       
-      // Only redirect to portfolio login if NOT coming from portfolio
-      // This prevents unauthorized direct access
-      const redirectUrl = createRedirectUrl('/login')
-      if (redirectUrl) {
-        return Response.redirect(redirectUrl, 307)
+      // Session missing — send users to this app's homepage landing (not portfolio)
+      try {
+        return Response.redirect(new URL('/', req.url), 307)
+      } catch (error) {
+        console.error('Error redirecting unauthenticated user to home:', error)
+        return
       }
     }
   } catch (error) {

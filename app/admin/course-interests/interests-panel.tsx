@@ -128,14 +128,14 @@ export default function CourseInterestsPage() {
     if (!status) return <span className="text-muted-foreground text-sm">—</span>
     switch (status) {
       case 'eligible':
-        return <Badge className="bg-green-600 hover:bg-green-700"><CheckCircle2 className="h-3 w-3 mr-1" />Eligible</Badge>
+        return <Badge className="bg-success hover:bg-success"><CheckCircle2 className="h-3 w-3 mr-1" />Eligible</Badge>
       case 'not_eligible':
         return <Badge variant="destructive"><XCircle className="h-3 w-3 mr-1" />Not eligible</Badge>
       case 'pending':
         return <Badge variant="outline"><Clock className="h-3 w-3 mr-1" />Pending</Badge>
       case 'under_review':
       case 'needs_review':
-        return <Badge className="bg-amber-600 hover:bg-amber-700"><Clock className="h-3 w-3 mr-1" />Review</Badge>
+        return <Badge className="bg-warning hover:bg-warning"><Clock className="h-3 w-3 mr-1" />Review</Badge>
       default:
         return <Badge variant="secondary">{status}</Badge>
     }
@@ -207,7 +207,7 @@ export default function CourseInterestsPage() {
           <div className="space-y-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Course Interests</h2>
+            <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-foreground">Course Interests</h2>
             <p className="text-muted-foreground mt-1">
               People who have shown interest in NCLEX and other courses
             </p>
@@ -319,7 +319,7 @@ export default function CourseInterestsPage() {
                                   <TableCell>{getEligibilityBadge(row.eligibility_status)}</TableCell>
                                   <TableCell>
                                     {row.unlocked_at ? (
-                                      <Badge className="bg-green-600 hover:bg-green-700"><LockOpen className="h-3 w-3 mr-1" />Unlocked</Badge>
+                                      <Badge className="bg-success hover:bg-success"><LockOpen className="h-3 w-3 mr-1" />Unlocked</Badge>
                                     ) : (
                                       <span className="text-muted-foreground text-sm">—</span>
                                     )}

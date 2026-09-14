@@ -36,7 +36,7 @@ export type DashboardKpi = {
 
 function Tip(props: Record<string, unknown>) {
   return (
-    <div className="rounded-lg border border-neutral-200 bg-white px-2.5 py-2 text-xs shadow-md dark:border-neutral-700 dark:bg-neutral-900">
+    <div className="rounded-lg border border-border bg-white px-2.5 py-2 text-xs shadow-md">
       <ChartTooltipContent {...props} />
     </div>
   )
@@ -54,7 +54,7 @@ function CellBox({
   return (
     <div
       className={cn(
-        "flex min-h-0 min-w-0 flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white p-3 dark:border-neutral-800 dark:bg-neutral-950",
+        "flex min-h-0 min-w-0 flex-col overflow-hidden rounded-2xl border border-border bg-white p-3",
         className
       )}
       style={{ gridArea: area }}
@@ -69,21 +69,21 @@ function KpiTile({ kpi, area }: { kpi: DashboardKpi; area: string }) {
   return (
     <CellBox area={area} className="justify-between">
       <div className="flex items-start justify-between gap-2">
-        <p className="text-[11px] font-medium uppercase tracking-wide text-neutral-400">
+        <p className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
           {kpi.label}
         </p>
-        <Icon className="h-3.5 w-3.5 shrink-0 text-neutral-300" />
+        <Icon className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
       </div>
       <div>
-        <p className="text-xl font-semibold tabular-nums tracking-tight text-neutral-900 dark:text-white sm:text-2xl">
+        <p className="text-xl font-semibold tabular-nums tracking-tight text-foreground sm:text-2xl">
           {kpi.value}
         </p>
         <p
           className={cn(
-            "mt-0.5 text-[11px] text-neutral-500",
-            kpi.tone === "good" && "text-emerald-600",
-            kpi.tone === "bad" && "text-rose-600",
-            kpi.tone === "warn" && "text-amber-600"
+            "mt-0.5 text-[11px] text-muted-foreground",
+            kpi.tone === "good" && "text-success",
+            kpi.tone === "bad" && "text-destructive",
+            kpi.tone === "warn" && "text-warning"
           )}
         >
           {kpi.hint}
@@ -145,11 +145,11 @@ export default function DashboardBento({
     }))
 
   const distribution = [
-    { name: "Completed", value: courseCompletionRate || 0, color: "#2563EB" },
+    { name: "Completed", value: courseCompletionRate || 0, color: "#2054a0" },
     {
       name: "Open",
       value: Math.max(0, 100 - (courseCompletionRate || 0)),
-      color: "#E5E7EB",
+      color: "#eef3f9",
     },
   ]
 
@@ -225,37 +225,37 @@ export default function DashboardBento({
       <CellBox area="trend">
         <div className="mb-1 flex shrink-0 items-center justify-between">
           <div>
-            <h2 className="text-sm font-semibold text-neutral-900 dark:text-white">
+            <h2 className="text-sm font-semibold text-foreground">
               Enrollment trend
             </h2>
-            <p className="text-[11px] text-neutral-500">Last 6 months</p>
+            <p className="text-[11px] text-muted-foreground">Last 6 months</p>
           </div>
         </div>
         <div className="min-h-0 flex-1">
           <ChartContainer
-            config={{ students: { label: "Students", color: "#2563EB" } }}
+            config={{ students: { label: "Students", color: "#2054a0" } }}
             className="!aspect-auto h-full w-full"
           >
             <AreaChart data={enrollmentTrends} margin={{ top: 4, right: 8, left: -16, bottom: 0 }}>
               <defs>
                 <linearGradient id="bentoStudents" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stopColor="#2563EB" stopOpacity={0.25} />
-                  <stop offset="100%" stopColor="#2563EB" stopOpacity={0} />
+                  <stop offset="0%" stopColor="#2054a0" stopOpacity={0.25} />
+                  <stop offset="100%" stopColor="#2054a0" stopOpacity={0} />
                 </linearGradient>
               </defs>
               <CartesianGrid
                 strokeDasharray="3 3"
                 vertical={false}
-                className="stroke-neutral-100 dark:stroke-neutral-800"
+                className="stroke-border"
               />
               <XAxis
                 dataKey="month"
-                tick={{ fontSize: 10, fill: "#9CA3AF" }}
+                tick={{ fontSize: 10, fill: "#5a6d88" }}
                 axisLine={false}
                 tickLine={false}
               />
               <YAxis
-                tick={{ fontSize: 10, fill: "#9CA3AF" }}
+                tick={{ fontSize: 10, fill: "#5a6d88" }}
                 axisLine={false}
                 tickLine={false}
                 width={28}
@@ -264,7 +264,7 @@ export default function DashboardBento({
               <Area
                 type="monotone"
                 dataKey="students"
-                stroke="#2563EB"
+                stroke="#2054a0"
                 strokeWidth={2}
                 fill="url(#bentoStudents)"
               />
@@ -275,7 +275,7 @@ export default function DashboardBento({
 
       <CellBox area="completion">
         <div className="mb-1 flex shrink-0 items-center justify-between">
-          <h2 className="text-sm font-semibold text-neutral-900 dark:text-white">Completion</h2>
+          <h2 className="text-sm font-semibold text-foreground">Completion</h2>
           <span className="text-lg font-semibold tabular-nums text-brand-blue">
             {courseCompletionRate}%
           </span>
@@ -284,8 +284,8 @@ export default function DashboardBento({
           <div className="relative mx-auto h-[120px] w-[120px]">
             <ChartContainer
               config={{
-                completed: { label: "Completed", color: "#2563EB" },
-                open: { label: "Open", color: "#E5E7EB" },
+                completed: { label: "Completed", color: "#2054a0" },
+                open: { label: "Open", color: "#eef3f9" },
               }}
               className="!aspect-auto h-[120px] w-[120px]"
             >
@@ -309,16 +309,16 @@ export default function DashboardBento({
           <div className="space-y-1.5 overflow-hidden">
             {topCourses.slice(0, 4).map((c) => (
               <div key={c.name} className="flex items-center justify-between gap-1">
-                <span className="truncate text-[11px] text-neutral-600 dark:text-neutral-300">
+                <span className="truncate text-[11px] text-muted-foreground">
                   {c.name}
                 </span>
-                <span className="shrink-0 text-[11px] font-semibold tabular-nums text-neutral-900 dark:text-white">
+                <span className="shrink-0 text-[11px] font-semibold tabular-nums text-foreground">
                   {c.rate}%
                 </span>
               </div>
             ))}
             {topCourses.length === 0 && (
-              <p className="text-[11px] text-neutral-400">No courses yet</p>
+              <p className="text-[11px] text-muted-foreground">No courses yet</p>
             )}
           </div>
         </div>
@@ -326,17 +326,17 @@ export default function DashboardBento({
 
       <CellBox area="progress">
         <div className="mb-1 shrink-0">
-          <h2 className="text-sm font-semibold text-neutral-900 dark:text-white">
+          <h2 className="text-sm font-semibold text-foreground">
             Progress by course
           </h2>
-          <p className="text-[11px] text-neutral-500">Completed vs in progress</p>
+          <p className="text-[11px] text-muted-foreground">Completed vs in progress</p>
         </div>
         <div className="min-h-0 flex-1">
           {topCourses.length > 0 ? (
             <ChartContainer
               config={{
-                completed: { label: "Completed", color: "#2563EB" },
-                inProgress: { label: "In Progress", color: "#D1D5DB" },
+                completed: { label: "Completed", color: "#2054a0" },
+                inProgress: { label: "In Progress", color: "#c9d8ee" },
               }}
               className="!aspect-auto h-full w-full"
             >
@@ -344,28 +344,28 @@ export default function DashboardBento({
                 <CartesianGrid
                   strokeDasharray="3 3"
                   vertical={false}
-                  className="stroke-neutral-100 dark:stroke-neutral-800"
+                  className="stroke-border"
                 />
                 <XAxis
                   dataKey="name"
-                  tick={{ fontSize: 9, fill: "#9CA3AF" }}
+                  tick={{ fontSize: 9, fill: "#5a6d88" }}
                   axisLine={false}
                   tickLine={false}
                 />
                 <YAxis
-                  tick={{ fontSize: 10, fill: "#9CA3AF" }}
+                  tick={{ fontSize: 10, fill: "#5a6d88" }}
                   axisLine={false}
                   tickLine={false}
                   width={26}
                   allowDecimals={false}
                 />
                 <ChartTooltip content={<Tip />} />
-                <Bar dataKey="completed" stackId="a" fill="#2563EB" />
-                <Bar dataKey="inProgress" stackId="a" fill="#D1D5DB" radius={[3, 3, 0, 0]} />
+                <Bar dataKey="completed" stackId="a" fill="#2054a0" />
+                <Bar dataKey="inProgress" stackId="a" fill="#c9d8ee" radius={[3, 3, 0, 0]} />
               </BarChart>
             </ChartContainer>
           ) : (
-            <div className="flex h-full items-center justify-center text-xs text-neutral-400">
+            <div className="flex h-full items-center justify-center text-xs text-muted-foreground">
               No progress data
             </div>
           )}
@@ -374,8 +374,8 @@ export default function DashboardBento({
 
       <CellBox area="revenue">
         <div className="mb-1 shrink-0">
-          <h2 className="text-sm font-semibold text-neutral-900 dark:text-white">Revenue</h2>
-          <p className="text-[11px] text-neutral-500">Monthly completed</p>
+          <h2 className="text-sm font-semibold text-foreground">Revenue</h2>
+          <p className="text-[11px] text-muted-foreground">Monthly completed</p>
         </div>
         <div className="flex min-h-0 flex-1 items-end gap-1.5 pb-1">
           {enrollmentTrends.map((t) => {
@@ -387,7 +387,7 @@ export default function DashboardBento({
                   style={{ height: `${h}%` }}
                   title={`${t.month}: $${t.revenue.toLocaleString()}`}
                 />
-                <span className="text-[9px] font-medium uppercase text-neutral-400">{t.month}</span>
+                <span className="text-[9px] font-medium uppercase text-muted-foreground">{t.month}</span>
               </div>
             )
           })}
@@ -396,7 +396,7 @@ export default function DashboardBento({
 
       <CellBox area="signals">
         <div className="mb-1 shrink-0">
-          <h2 className="text-sm font-semibold text-neutral-900 dark:text-white">Signals</h2>
+          <h2 className="text-sm font-semibold text-foreground">Signals</h2>
         </div>
         <div className="min-h-0 flex-1 space-y-1 overflow-hidden">
           {signals.length > 0 ? (
@@ -405,36 +405,36 @@ export default function DashboardBento({
                 key={item.title}
                 type="button"
                 onClick={() => onNavigate(item.href)}
-                className="group flex w-full items-center gap-2 rounded-xl px-1.5 py-1.5 text-left hover:bg-neutral-50 dark:hover:bg-neutral-900"
+                className="group flex w-full items-center gap-2 rounded-xl px-1.5 py-1.5 text-left hover:bg-muted"
               >
                 <div
                   className={cn(
-                    "flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-neutral-100 text-neutral-600 dark:bg-neutral-800",
-                    item.warn && "bg-amber-50 text-amber-700"
+                    "flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground",
+                    item.warn && "bg-warning-soft text-warning"
                   )}
                 >
                   <item.icon className="h-3.5 w-3.5" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-[11px] font-medium text-neutral-900 dark:text-white">
+                  <p className="truncate text-[11px] font-medium text-foreground">
                     {item.title}
                   </p>
-                  <p className="truncate text-[10px] text-neutral-500">{item.body}</p>
+                  <p className="truncate text-[10px] text-muted-foreground">{item.body}</p>
                 </div>
-                <ArrowUpRight className="h-3 w-3 shrink-0 text-neutral-300 opacity-0 group-hover:opacity-100" />
+                <ArrowUpRight className="h-3 w-3 shrink-0 text-muted-foreground opacity-0 group-hover:opacity-100" />
               </button>
             ))
           ) : (
-            <p className="py-3 text-center text-[11px] text-neutral-400">No signals yet</p>
+            <p className="py-3 text-center text-[11px] text-muted-foreground">No signals yet</p>
           )}
         </div>
-        <div className="mt-1 flex shrink-0 flex-wrap gap-1 border-t border-neutral-100 pt-2 dark:border-neutral-800">
+        <div className="mt-1 flex shrink-0 flex-wrap gap-1 border-t border-border pt-2">
           {shortcuts.map((s) => (
             <button
               key={s.href}
               type="button"
               onClick={() => onNavigate(s.href)}
-              className="rounded-full bg-neutral-100 px-2 py-0.5 text-[10px] font-medium text-neutral-600 hover:bg-brand-blue/10 hover:text-brand-blue dark:bg-neutral-800 dark:text-neutral-300"
+              className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground hover:bg-brand-blue/10 hover:text-brand-blue"
             >
               {s.label}
             </button>

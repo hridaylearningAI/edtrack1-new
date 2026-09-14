@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabaseClient, formatResponse, formatAuthError } from '@/lib/api/supabase';
-import { requireAuth } from '@/lib/api/auth';
+import { requireTenantScope } from '@/lib/api/tenant-scope';
 import { corsHeaders, getPaginationParams } from '@/lib/api/utils';
 import { generateEdtecStudentNumber } from '@/lib/studentNumber';
 
@@ -12,11 +12,11 @@ import { generateEdtecStudentNumber } from '@/lib/studentNumber';
  */
 export async function GET(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
 
@@ -29,6 +29,8 @@ export async function GET(request: NextRequest) {
     let query = supabase
       .from('students')
       .select('*', { count: 'exact' });
+
+    if (scope.tenantId) query = query.eq('tenant_id', scope.tenantId);
 
     // Hide dummy accounts by default.
     // Admin tools can include them explicitly via ?include_dummy=true.
@@ -89,11 +91,11 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const authResult = await requireAuth(request);
-    if (!authResult.authenticated) {
+    const scope = await requireTenantScope(request);
+    if (!scope.ok) {
       return NextResponse.json(
-        formatAuthError(authResult.error || 'Unauthorized', authResult.error_code || 'UNAUTHORIZED'),
-        { status: 401, headers: corsHeaders }
+        formatAuthError(scope.error, scope.code),
+        { status: scope.status, headers: corsHeaders }
       );
     }
 
@@ -142,6 +144,7 @@ export async function POST(request: NextRequest) {
         email,
         password_hash: '$2b$12$PLACEHOLDER_PASSWORD_HASH', // Placeholder - should be replaced with actual password hash
         role: 'student', // Set role to student
+        tenant_id: scope.tenantId,
         status,
         student_number: studentNumber,
         created_at: new Date().toISOString(),
@@ -173,6 +176,7 @@ export async function POST(request: NextRequest) {
         address: body.address || null,
         date_of_birth: body.date_of_birth || null,
         grade: body.grade || 'N/A',
+        tenant_id: scope.tenantId,
         enrollment_date: new Date().toISOString().split('T')[0],
         status,
         student_number: studentNumber,
@@ -196,6 +200,7 @@ export async function POST(request: NextRequest) {
           address: body.address || null,
           date_of_birth: body.date_of_birth || null,
           grade: body.grade || 'N/A',
+        tenant_id: scope.tenantId,
           enrollment_date: new Date().toISOString().split('T')[0],
           status,
           student_number: studentNumber,

@@ -53,28 +53,28 @@ const quickActions = [
     description: "Update your personal details and mobile number",
     icon: User,
     href: "/student/quick-actions",
-    color: "text-brand-blue dark:text-brand-blue-light"
+    color: "text-brand-blue"
   },
   {
     title: "Class Schedule",
     description: "View your upcoming classes and timetable",
     icon: Calendar,
     href: "/student/schedule",
-    color: "text-brand-golden dark:text-brand-golden-light"
+    color: "text-brand-golden"
   },
   {
     title: "My Certificates",
     description: "View and download your course completion certificates",
     icon: Award,
     href: "/student/certificates",
-    color: "text-brand-golden dark:text-brand-golden-light"
+    color: "text-brand-golden"
   },
   {
     title: "Get Support",
     description: "Contact support team for assistance",
     icon: HelpCircle,
     href: "/student/support",
-    color: "text-brand-red dark:text-brand-red-light"
+    color: "text-brand-red"
   }
 ]
 
@@ -119,17 +119,17 @@ const formatTimeAgo = (dateString: string): string => {
 
 /** Subtle left accent + tint per row (no heavy gradients). */
 const ACTIVITY_ACCENTS = [
-  'border-l-sky-400/60 bg-sky-50/50 dark:border-l-sky-500/50 dark:bg-sky-950/25',
-  'border-l-violet-400/60 bg-violet-50/45 dark:border-l-violet-500/50 dark:bg-violet-950/25',
-  'border-l-emerald-400/60 bg-emerald-50/45 dark:border-l-emerald-500/50 dark:bg-emerald-950/25',
-  'border-l-amber-400/60 bg-amber-50/50 dark:border-l-amber-500/50 dark:bg-amber-950/25',
+  'border-l-sky-400/60 bg-primary-soft/50',
+  'border-l-violet-400/60 bg-primary-soft/45',
+  'border-l-emerald-400/60 bg-success-soft/45',
+  'border-l-amber-400/60 bg-warning-soft/50',
 ] as const
 
 function CourseActivityThumbnail({ src, label }: { src?: string; label: string }) {
   const [failed, setFailed] = useState(false)
   const show = Boolean(src?.trim()) && !failed
   return (
-    <div className="relative h-[4.5rem] w-[6.75rem] shrink-0 overflow-hidden rounded-xl border border-slate-200/90 bg-slate-100 dark:border-slate-600 dark:bg-slate-800/80">
+    <div className="relative h-[4.5rem] w-[6.75rem] shrink-0 overflow-hidden rounded-xl border border-border/90 bg-muted">
       {show ? (
         <img
           src={src!.trim()}
@@ -153,14 +153,14 @@ function DashboardProgressRing({ value, accent = false }: { value: number; accen
     <div className="relative flex h-[52px] w-[52px] shrink-0 items-center justify-center">
       <svg className="h-full w-full -rotate-90" viewBox="0 0 36 36" aria-hidden>
         <path
-          className="text-slate-200 dark:text-slate-600"
+          className="text-primary-foreground"
           stroke="currentColor"
           strokeWidth="3"
           fill="none"
           d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
         />
         <path
-          className={accent ? "text-teal-600 dark:text-teal-400" : "text-brand-blue dark:text-brand-blue-light"}
+          className={accent ? "text-success" : "text-brand-blue"}
           stroke="currentColor"
           strokeWidth="3"
           strokeLinecap="round"
@@ -314,8 +314,8 @@ export default function StudentDashboard() {
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
             <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-brand-blue" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load your dashboard</p>
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load your dashboard</p>
           </div>
         </div>
       </StudentLayout>
@@ -345,13 +345,13 @@ export default function StudentDashboard() {
     return (
       <StudentLayout>
         <div className="space-y-6">
-          <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-brand-blue/10 via-brand-red/5 to-brand-golden/10 dark:from-brand-blue/20 dark:via-brand-red/10 dark:to-brand-golden/15 p-4 md:p-6 border-2 border-brand-blue/20 dark:border-brand-blue/30 shadow-lg shadow-brand-blue/5">
+          <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-brand-blue/10 via-brand-red/5 to-brand-golden/10 p-4 md:p-6 border-2 border-brand-blue/20 shadow-lg shadow-brand-blue/5">
             <h2 className="text-3xl font-bold text-foreground">Welcome, {user.name}!</h2>
             <p className="text-muted-foreground mt-2">
               You don&apos;t have any courses yet. Browse our programs below and purchase on our main site to get started.
             </p>
           </div>
-          <Card className="border-2 border-brand-blue/10 dark:border-brand-blue/20">
+          <Card className="border-2 border-brand-blue/10">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <BookOpen className="h-5 w-5" />
@@ -402,10 +402,10 @@ export default function StudentDashboard() {
       <div className="space-y-6">
         {/* Alert when mobile number is not saved */}
         {missingPhone === true && (
-          <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/40 p-4 flex items-center justify-between gap-4">
+          <div className="rounded-lg border border-warning-line bg-warning-soft p-4 flex items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/50 flex items-center justify-center">
-                <Phone className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-warning-soft flex items-center justify-center">
+                <Phone className="h-5 w-5 text-warning" />
               </div>
               <div>
                 <p className="font-medium text-foreground">Save your mobile number</p>
@@ -420,7 +420,7 @@ export default function StudentDashboard() {
           </div>
         )}
         {upcomingClassAlerts.length > 0 && (
-          <div className="rounded-lg border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950/40 p-4">
+          <div className="rounded-lg border border-primary-line bg-primary-soft p-4">
             <div className="flex items-start justify-between gap-4">
               <div className="space-y-2">
                 <p className="font-medium text-foreground">Upcoming class reminder</p>
@@ -463,18 +463,18 @@ export default function StudentDashboard() {
         <div className="flex flex-col gap-8 xl:flex-row xl:items-start xl:gap-10">
           {/* Main column — course activity */}
           <div className="min-w-0 flex-1 space-y-6">
-            <div className="rounded-[1.35rem] border border-slate-200/90 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.06)] dark:border-slate-700/80 dark:bg-slate-900/60 dark:shadow-none">
+            <div className="rounded-[1.35rem] border border-border/90 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.06)]">
               <div className="space-y-6 p-6 md:p-8" data-tour="header">
                 <div className="grid grid-cols-2 gap-3 md:grid-cols-4" data-tour="metrics">
                   {[
                     { label: 'Current', value: activeCourses, icon: BookOpen, sub: 'Active', accent: 'text-brand-blue' },
-                    { label: 'Completed', value: completedCourses, icon: CheckCircle, sub: 'Finished', accent: 'text-emerald-600 dark:text-emerald-400' },
-                    { label: 'Avg progress', value: enrollmentsLoading ? '—' : `${averageProgress}%`, icon: TrendingUp, sub: 'Across units', accent: 'text-amber-600 dark:text-amber-400' },
-                    { label: 'Total', value: totalCourses, icon: FileText, sub: 'All time', accent: 'text-violet-600 dark:text-violet-400' },
+                    { label: 'Completed', value: completedCourses, icon: CheckCircle, sub: 'Finished', accent: 'text-success' },
+                    { label: 'Avg progress', value: enrollmentsLoading ? '—' : `${averageProgress}%`, icon: TrendingUp, sub: 'Across units', accent: 'text-warning' },
+                    { label: 'Total', value: totalCourses, icon: FileText, sub: 'All time', accent: 'text-primary' },
                   ].map((m, i) => (
                     <div
                       key={i}
-                      className="rounded-2xl border border-slate-200/80 bg-slate-50/60 px-3 py-3 dark:border-slate-600/80 dark:bg-slate-800/40"
+                      className="rounded-2xl border border-border/80 bg-muted/60 px-3 py-3"
                     >
                       <div className="flex items-center justify-between gap-2">
                         <m.icon className={`h-5 w-5 shrink-0 ${m.accent}`} />
@@ -523,21 +523,21 @@ export default function StudentDashboard() {
                     </div>
                   ) : null}
                   {enrollmentsLoading ? (
-                    <div className="flex items-center justify-center rounded-2xl border border-dashed border-slate-200 py-16 dark:border-slate-600">
+                    <div className="flex items-center justify-center rounded-2xl border border-dashed border-border py-16">
                       <Loader2 className="h-8 w-8 animate-spin text-brand-blue" />
                       <span className="ml-2 text-muted-foreground">Loading enrollments…</span>
                     </div>
                   ) : enrollmentsError ? (
-                    <div className="rounded-2xl border border-red-200 bg-red-50/80 p-6 text-center dark:border-red-900/50 dark:bg-red-950/30">
-                      <AlertCircle className="mx-auto mb-2 h-8 w-8 text-red-500" />
-                      <p className="mb-3 text-sm text-red-700 dark:text-red-300">{enrollmentsError}</p>
+                    <div className="rounded-2xl border border-destructive-line bg-destructive-soft/80 p-6 text-center">
+                      <AlertCircle className="mx-auto mb-2 h-8 w-8 text-destructive" />
+                      <p className="mb-3 text-sm text-destructive">{enrollmentsError}</p>
                       <Button variant="outline" size="sm" className="rounded-xl" onClick={refreshEnrollments}>
                         <RefreshCw className="mr-2 h-4 w-4" />
                         Try again
                       </Button>
                     </div>
                   ) : activeEnrollments.length === 0 ? (
-                    <div className="rounded-2xl border border-dashed border-slate-200 py-12 text-center dark:border-slate-600">
+                    <div className="rounded-2xl border border-dashed border-border py-12 text-center">
                       <BookOpen className="mx-auto mb-2 h-10 w-10 text-muted-foreground" />
                       <p className="text-muted-foreground">No active enrollments</p>
                       <p className="mt-1 text-sm text-muted-foreground/80">Purchase courses from the portfolio to get started.</p>
@@ -550,7 +550,7 @@ export default function StudentDashboard() {
                     >
                       <div className="space-y-4">
                         {visibleEnrollments.length === 0 ? (
-                          <div className="rounded-2xl border border-dashed border-slate-200 py-10 text-center dark:border-slate-600">
+                          <div className="rounded-2xl border border-dashed border-border py-10 text-center">
                             <Search className="mx-auto mb-2 h-8 w-8 text-muted-foreground" />
                             <p className="text-sm text-muted-foreground">No units match “{unitSearch.trim()}”.</p>
                           </div>
@@ -583,7 +583,7 @@ export default function StudentDashboard() {
                           return (
                             <div
                               key={enrollment.id}
-                              className={`relative overflow-hidden rounded-2xl border border-slate-200/90 border-l-4 p-4 shadow-sm dark:border-slate-700/90 md:p-5 ${accent}`}
+                              className={`relative overflow-hidden rounded-2xl border border-border/90 border-l-4 p-4 shadow-sm md:p-5 ${accent}`}
                             >
                               <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center">
                                 <div className="flex min-w-0 flex-1 items-start gap-3">
@@ -594,7 +594,7 @@ export default function StudentDashboard() {
                                       {(enrollment as { course_plans?: { name: string } | null }).course_plans?.name && (
                                         <Badge
                                           variant="outline"
-                                          className="border-brand-blue/30 bg-white/80 text-[10px] font-medium text-brand-blue dark:bg-slate-900/60"
+                                          className="border-brand-blue/30 bg-white/80 text-[10px] font-medium text-brand-blue"
                                         >
                                           {(enrollment as { course_plans: { name: string } }).course_plans.name}
                                         </Badge>
@@ -602,7 +602,7 @@ export default function StudentDashboard() {
                                       {hasCertificate && (
                                         <Badge
                                           variant="secondary"
-                                          className="text-[10px] font-medium bg-amber-100/90 text-amber-900 dark:bg-amber-900/40 dark:text-amber-100"
+                                          className="text-[10px] font-medium bg-warning-soft/90 text-warning"
                                         >
                                           <Award className="mr-1 h-3 w-3" />
                                           Certificate
@@ -620,7 +620,7 @@ export default function StudentDashboard() {
                                   {hasContentFolder ? (
                                     <Link
                                       href={`/student/course/${enrollment.course_id}`}
-                                      className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue underline-offset-4 hover:underline dark:text-brand-blue-light"
+                                      className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue underline-offset-4 hover:underline"
                                     >
                                       Continue
                                       <ArrowRight className="h-4 w-4" />
@@ -643,7 +643,7 @@ export default function StudentDashboard() {
 
           {/* Right rail — profile, quick actions, planning, notifications */}
           <div className="w-full min-w-0 max-w-full shrink-0 space-y-6 xl:w-[min(100%,22.5rem)] xl:max-w-[22.5rem]">
-            <div className="flex items-center justify-end gap-3 rounded-[1.35rem] border border-slate-200/90 bg-white px-4 py-3 shadow-sm dark:border-slate-700/80 dark:bg-slate-900/60">
+            <div className="flex items-center justify-end gap-3 rounded-[1.35rem] border border-border/90 bg-white px-4 py-3 shadow-sm">
               <div className="flex min-w-0 items-center gap-3">
                 <div className="min-w-0 text-right">
                   <p className="truncate text-sm font-semibold text-foreground">{user.name}</p>
@@ -653,10 +653,10 @@ export default function StudentDashboard() {
                   <img
                     src={user.avatar}
                     alt=""
-                    className="h-11 w-11 shrink-0 rounded-full object-cover ring-2 ring-slate-100 dark:ring-slate-700"
+                    className="h-11 w-11 shrink-0 rounded-full object-cover ring-2 ring-ring"
                   />
                 ) : (
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-slate-100 ring-2 ring-slate-100 dark:bg-slate-800 dark:ring-slate-700">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-muted ring-2 ring-ring">
                     <User className="h-5 w-5 text-muted-foreground" />
                   </div>
                 )}
@@ -664,7 +664,7 @@ export default function StudentDashboard() {
             </div>
 
             <div
-              className="min-w-0 max-w-full overflow-hidden rounded-[1.35rem] border border-slate-200/90 bg-white p-5 shadow-sm dark:border-slate-700/80 dark:bg-slate-900/60"
+              className="min-w-0 max-w-full overflow-hidden rounded-[1.35rem] border border-border/90 bg-white p-5 shadow-sm"
               data-tour="quick-actions"
             >
               <h3 className="text-sm font-semibold text-foreground">Quick actions</h3>
@@ -674,7 +674,7 @@ export default function StudentDashboard() {
                   <Button
                     key={index}
                     variant="outline"
-                    className="h-auto w-full min-w-0 max-w-full shrink justify-start items-start whitespace-normal rounded-2xl border-slate-200/90 p-3 text-left dark:border-slate-600"
+                    className="h-auto w-full min-w-0 max-w-full shrink justify-start items-start whitespace-normal rounded-2xl border-border/90 p-3 text-left"
                     asChild
                   >
                     <Link href={action.href}>
@@ -704,7 +704,7 @@ export default function StudentDashboard() {
 
             <Card
               data-tour="recent-notifications"
-              className="rounded-[1.35rem] border-slate-200/90 shadow-sm dark:border-slate-700/80 dark:shadow-none"
+              className="rounded-[1.35rem] border-border/90 shadow-sm"
             >
               <CardHeader className="pb-3">
                 <div className="flex items-start justify-between gap-2">
@@ -719,7 +719,7 @@ export default function StudentDashboard() {
                     <Link
                       href="/student/notifications"
                       data-tour="notifications"
-                      className="text-xs font-medium text-brand-blue hover:underline dark:text-brand-blue-light"
+                      className="text-xs font-medium text-brand-blue hover:underline"
                     >
                       All notifications
                     </Link>
@@ -729,13 +729,13 @@ export default function StudentDashboard() {
               <CardContent>
                 {notificationsLoading ? (
                   <div className="flex items-center justify-center py-8">
-                    <Loader2 className="h-6 w-6 animate-spin text-brand-blue dark:text-brand-blue-light" />
+                    <Loader2 className="h-6 w-6 animate-spin text-brand-blue" />
                     <span className="ml-2 text-muted-foreground">Loading…</span>
                   </div>
                 ) : notificationsError ? (
                   <div className="py-6 text-center">
-                    <AlertCircle className="mx-auto mb-2 h-6 w-6 text-red-500 dark:text-red-400" />
-                    <p className="mb-2 text-sm text-red-600 dark:text-red-400">{notificationsError}</p>
+                    <AlertCircle className="mx-auto mb-2 h-6 w-6 text-destructive" />
+                    <p className="mb-2 text-sm text-destructive">{notificationsError}</p>
                     <Button variant="outline" size="sm" className="rounded-xl" onClick={fetchNotifications}>
                       <RefreshCw className="mr-2 h-4 w-4" />
                       Try again
@@ -754,15 +754,15 @@ export default function StudentDashboard() {
                         key={notification.id}
                         className={`cursor-pointer rounded-2xl border p-3 transition-colors ${
                           !notification.read_at
-                            ? 'border-brand-blue/25 bg-brand-blue/[0.07] hover:bg-brand-blue/10 dark:border-brand-blue/35 dark:bg-brand-blue/15 dark:hover:bg-brand-blue/20'
-                            : 'border-slate-200/80 bg-slate-50/50 hover:bg-slate-100/80 dark:border-slate-600 dark:bg-slate-800/30 dark:hover:bg-slate-800/50'
+                            ? 'border-brand-blue/25 bg-brand-blue/[0.07] hover:bg-brand-blue/10'
+                            : 'border-border/80 bg-muted/50 hover:bg-muted/80'
                         }`}
                         onClick={() => !notification.read_at && markAsRead(notification.id)}
                       >
                         <div className="flex items-start gap-2">
                           <div
                             className={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${
-                              !notification.read_at ? 'bg-brand-blue dark:bg-brand-blue-light' : 'bg-muted-foreground/40'
+                              !notification.read_at ? 'bg-brand-blue' : 'bg-muted-foreground/40'
                             }`}
                             aria-hidden
                           />
@@ -780,7 +780,7 @@ export default function StudentDashboard() {
                           </div>
                           <Badge
                             variant="outline"
-                            className="shrink-0 border-slate-200 text-[10px] dark:border-slate-600"
+                            className="shrink-0 border-border text-[10px]"
                           >
                             {notification.type}
                           </Badge>

@@ -234,9 +234,9 @@ export default function CurrentUnitsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load your current units</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load your current units</p>
           </div>
         </div>
       </StudentLayout>
@@ -249,9 +249,9 @@ export default function CurrentUnitsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-red-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Error Loading Units</h2>
-            <p className="text-gray-600">{enrollmentsError}</p>
+            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-destructive" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Error Loading Units</h2>
+            <p className="text-muted-foreground">{enrollmentsError}</p>
           </div>
         </div>
       </StudentLayout>
@@ -286,7 +286,7 @@ export default function CurrentUnitsPage() {
                   <div className="text-2xl font-bold text-foreground">{totalActiveUnits}</div>
                   <p className="text-xs text-muted-foreground">Active Units</p>
                 </div>
-                <BookOpen className="h-8 w-8 text-blue-600" />
+                <BookOpen className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -310,7 +310,7 @@ export default function CurrentUnitsPage() {
                   <div className="text-2xl font-bold text-foreground">{totalModules}</div>
                   <p className="text-xs text-muted-foreground">Total Modules</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-green-600" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -334,9 +334,9 @@ export default function CurrentUnitsPage() {
         {activeEnrollments.length === 0 ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <BookOpen className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">No Active Units</h3>
-              <p className="text-gray-600 mb-4">You don't have any active course enrollments.</p>
+              <BookOpen className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">No Active Units</h3>
+              <p className="text-muted-foreground mb-4">You don't have any active course enrollments.</p>
               <Button className="bg-primary hover:bg-primary/90">
                 Browse Courses
               </Button>
@@ -467,13 +467,13 @@ export default function CurrentUnitsPage() {
                     resourcesContent={
                       courseResources.length === 0 ? null : (
                         <div className="space-y-2">
-                          <h5 className="text-xs font-semibold uppercase tracking-[0.12em] text-[#16325c] dark:text-slate-200">
+                          <h5 className="text-xs font-semibold uppercase tracking-[0.12em] text-foreground">
                             Session recordings
                           </h5>
                           {courseResources.map((event) => (
                             <div
                               key={event.id}
-                              className="flex items-center justify-between gap-3 rounded-xl border border-slate-200 p-3 dark:border-slate-700"
+                              className="flex items-center justify-between gap-3 rounded-xl border border-border p-3"
                             >
                               <div className="min-w-0">
                                 <p className="truncate text-sm font-medium">{event.title}</p>

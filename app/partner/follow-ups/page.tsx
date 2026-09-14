@@ -9,8 +9,8 @@ export default function PartnerFollowUpsPage() {
     <PartnerLayout>
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Follow-ups</h1>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+          <h1 className="text-2xl font-bold text-foreground">Follow-ups</h1>
+          <p className="mt-1 text-sm text-muted-foreground">
             Track conversations and scheduled next steps with prospective students.
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function PartnerFollowUpsPage() {
               Use this area for reminders, notes, and follow-up calls after an initial enquiry.
             </CardDescription>
           </CardHeader>
-          <CardContent className="text-sm text-slate-600 dark:text-slate-300">
+          <CardContent className="text-sm text-muted-foreground">
             No follow-ups yet. This can later sync with CRM tasks or manual notes.
           </CardContent>
         </Card>

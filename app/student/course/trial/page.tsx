@@ -66,9 +66,6 @@ import {
 } from "@/lib/nclex-mock-analytics"
 
 const QUIZ_QUESTIONS_PER_ATTEMPT = 10
-const NCLEX_COURSE_ID = 45
-const NCLEX_OPEN_MODULES_COUNT = 9
-const NCLEX_TOPICS_1_9_QUIZ: PageId = "nclex-topics-1-9-quiz"
 const NCLEX_RESOURCES_PAGE_ID: PageId = "nclex-resources"
 const NCLEX_FREE_DIAGNOSTIC_PAGE_ID: PageId = "nclex-free-diagnostic"
 /** Pass mark for NCLEX topic (module) quizzes — not the adaptive mock exam. */
@@ -104,7 +101,6 @@ function TopicIconMask({ url, className = "h-5 w-5 shrink-0 bg-slate-900 dark:bg
   )
 }
 const NCLEX_ORIENTATION_FOLDER = "Orientation"
-const NCLEX_ORIENTATION_TOP_ID: PageId = "nclex-orientation"
 
 type NclexOrientationItem =
   | { id: PageId; kind: "video"; orderKey: string; title: string; fileName: string; sidebarLabel: string }
@@ -376,6 +372,8 @@ import { edbotSrc } from "@/lib/edbot"
 import "./gnps-learn.css"
 import "./edtec-learn.css"
 import "./student-notes-cards.css"
+import "@/components/player/learning-player.css"
+import { LearningBrand } from "@/components/player/learning-brand"
 import { toast } from "sonner"
 import { QuizExplainPanel } from "@/components/quiz/QuizExplainPanel"
 import { QuizAnalysisPanel, CoachRichText, type QuizAttemptHistoryItem } from "@/components/quiz/QuizAnalysisPanel"
@@ -433,15 +431,35 @@ import {
   X,
   Send,
 } from "lucide-react"
+import {
+  GNPS_UNIT_HOME_PAGE_ID,
+  NCLEX_COURSE_ID,
+  NCLEX_EXAM_UNIT_HOME_PAGE_ID,
+  NCLEX_OPEN_MODULES_COUNT,
+  NCLEX_ORIENTATION_TOP_ID,
+  VET_UNIT_HOME_PAGE_ID,
+  getGnpsPathwayOrder,
+  getRequiredProgressionOrder,
+  getTopicIndexForNgnPageId,
+  isFlashcardsPageId,
+  isGnpsOptionalPathwayPageId,
+  isNclexOrientationPageId,
+  isNgnPageId,
+  isPracticeQPageId,
+  isUnlocked,
+  normalizeSavedSectionIdsToProgression,
+} from "@/lib/player/gating"
+import {
+  NCLEX_TOPICS_1_9_QUIZ,
+  buildStandardProgressionOrder,
+  withNclexOrientation,
+} from "@/lib/player/progression"
 
 type PageId = string
 const PAGE_ID_FORUMS: PageId = "course-forums"
-const GNPS_UNIT_HOME_PAGE_ID: PageId = "gnps-unit-home"
 /** Exam-only unit overview (GNPS-style home). */
-const NCLEX_EXAM_UNIT_HOME_PAGE_ID: PageId = NCLEX_EXAM_HOME_PAGE_ID
 const NCLEX_TOPICS_UNIT_LIST_PAGE_ID: PageId = NCLEX_TOPICS_HOME_PAGE_ID
 /** Topic-based immersive unit overview (BSB / standard VET). */
-const VET_UNIT_HOME_PAGE_ID: PageId = TOPIC_UNIT_HOME_PAGE_ID
 
 const COURSE_NAME = "Psychology 101"
 
@@ -799,10 +817,6 @@ function buildSidebarFromStructure(
   return { topItems, topics, caseStudyItem }
 }
 
-/** Practice Q pages are optional; progress and unlock use only "required" sections (non–practice-Q). */
-function isPracticeQPageId(id: PageId): boolean {
-  return id.endsWith("-practice-q") || /-practice-q-\d+$/.test(id)
-}
 
 /** Sidebar child id (same pattern as practice-q page ids). */
 function isPracticeQSidebarChildId(id: PageId): boolean {
@@ -816,14 +830,7 @@ function shortPracticeQSubLabel(label: string): string {
   return label.replace(/\s*\(optional\)\s*$/i, "").trim()
 }
 
-/** Flashcards pages are optional for completion (like Practice Q). */
-function isFlashcardsPageId(id: PageId): boolean {
-  return id.endsWith("-flashcards")
-}
 
-function isNclexOrientationPageId(id: PageId): boolean {
-  return id === NCLEX_ORIENTATION_TOP_ID || id.startsWith("nclex-orientation-")
-}
 
 function isNclexOrientationVideoPageId(id: PageId): boolean {
   return id.startsWith("nclex-orientation-") && id.endsWith("-video")
@@ -833,16 +840,7 @@ function isNclexOrientationSlidesPageId(id: PageId): boolean {
   return id.startsWith("nclex-orientation-") && id.endsWith("-slides")
 }
 
-/** NGN case study pages are optional (module-wise, NCLEX only). */
-function isNgnPageId(id: PageId): boolean {
-  return id.endsWith("-ngn")
-}
 
-function getTopicIndexForNgnPageId(pageId: PageId, structure: CourseStructureManifest): number {
-  // pageId format: `${topic.id}-ngn`
-  const topicId = pageId.replace(/-ngn$/, "")
-  return structure.topics.findIndex((t) => t.id === topicId)
-}
 
 function useNgnModuleData(courseId: number | null | undefined, moduleNumber: number, enabled: boolean) {
   const [data, setData] = useState<NgnModule | null>(null)
@@ -890,135 +888,10 @@ function useNgnModuleData(courseId: number | null | undefined, moduleNumber: num
   return { data, loading, error }
 }
 
-/** Required section IDs (excludes optional practice Q and flashcards) for progress % and completion. */
-function getRequiredProgressionOrder(progressionOrder: PageId[]): PageId[] {
-  // ETHTL115 section pathway: every stage is required (notes → video → flashcards → quiz).
-  if (progressionOrder.some((id) => isEthtl115PageId(id))) {
-    return progressionOrder
-  }
-  return progressionOrder.filter(
-    (id) =>
-      id !== GNPS_UNIT_HOME_PAGE_ID &&
-      id !== NCLEX_EXAM_UNIT_HOME_PAGE_ID &&
-      id !== VET_UNIT_HOME_PAGE_ID &&
-      !isPracticeQPageId(id) &&
-      !isFlashcardsPageId(id) &&
-      !isNclexOrientationPageId(id)
-  )
-}
 
-/**
- * GNPS visible learning pathway: includes optional flashcards + Practice Q so learners can open them,
- * while progress % still uses getRequiredProgressionOrder.
- */
-function getGnpsPathwayOrder(progressionOrder: PageId[]): PageId[] {
-  if (progressionOrder.some((id) => isEthtl115PageId(id))) {
-    return progressionOrder
-  }
-  return progressionOrder.filter(
-    (id) => !isNclexOrientationPageId(id) && !isNgnPageId(id)
-  )
-}
 
-function isGnpsOptionalPathwayPageId(id: PageId): boolean {
-  if (isEthtl115PageId(id)) return false
-  return isPracticeQPageId(id) || isFlashcardsPageId(id)
-}
 
-/**
- * A page is unlocked if the previous *required* (non–practice-Q, non–flashcards) page is completed.
- * Practice Q and flashcards are skipped when walking backward, so they never block quiz/module progress.
- * For NCLEX (course 45), modules 10+ (topic index >= 9) require admin approval when no paid tier applies.
- * Partial-payment tiers: topic index above the purchased stage is locked; within the stage, sequential
- * progression still applies (so Stage 1 cannot advance to Module 2 after finishing Module 1).
- */
-function isUnlocked(
-  pageId: PageId,
-  completedSections: Set<PageId>,
-  progressionOrder: PageId[],
-  opts?: {
-    structure: CourseStructureManifest
-    courseId: number | null
-    nclexExtendedApproved: boolean
-    /** Guide NCLEX: maximum topic index unlocked by partial-payment stage (inclusive). */
-    nclexPaidMaxTopicIdx?: number | null
-    /** Trainer NCLEX mode: bypass all sequential gating. */
-    forceFullyUnlocked?: boolean
-  }
-): boolean {
-  if (opts?.forceFullyUnlocked) return true
 
-  // ETHTL115: section pathway is sequential; cases + decisions unlock in parallel after sections.
-  if (isEthtl115PageId(pageId)) {
-    return isEthtl115ActivityUnlocked(pageId, completedSections)
-  }
-
-  if (opts?.courseId === NCLEX_COURSE_ID && opts?.structure) {
-    const topicIdx = getTopicIndexForPageId(pageId, opts.structure)
-    if (topicIdx >= 0 && opts.nclexPaidMaxTopicIdx != null) {
-      if (topicIdx > opts.nclexPaidMaxTopicIdx) return false
-      // Within the paid tier: use sequential unlock below (do NOT bypass — that allowed
-      // Stage 1 users to reach Module 2 after Module 1 because optional pages + linear fallback).
-    }
-    if (topicIdx >= NCLEX_OPEN_MODULES_COUNT) return opts.nclexExtendedApproved
-  }
-
-  // NCLEX-specific: when the user reaches/completes topic `slides`, unlock NGN for that same topic
-  // alongside the topic quiz. This prevents NGN from being blocked until after the quiz is completed.
-  if (isNgnPageId(pageId)) {
-    const topicId = pageId.replace(/-ngn$/, "")
-    const slidesId = `${topicId}-slides` as PageId
-    if (completedSections.has(slidesId)) return true
-    return false
-  }
-
-  const idx = progressionOrder.indexOf(pageId)
-  if (idx <= 0) return true
-  /** NCLEX: orientation is optional for module unlock (matches getRequiredProgressionOrder), but orientation items still gate each other. */
-  const skipOrientationBlockers = !isNclexOrientationPageId(pageId)
-  let i = idx - 1
-  while (i >= 0) {
-    const prev = progressionOrder[i] as PageId
-    if (
-      !isPracticeQPageId(prev) &&
-      !isFlashcardsPageId(prev) &&
-      !(skipOrientationBlockers && isNclexOrientationPageId(prev))
-    ) {
-      return completedSections.has(prev)
-    }
-    i -= 1
-  }
-  return true
-}
-
-/** Map saved section IDs to progression IDs so "student-learning-note" matches "student-learning-note-0" when progression uses indexed IDs */
-function normalizeSavedSectionIdsToProgression(savedIds: string[], progressionOrder: PageId[]): Set<PageId> {
-  const migrated = progressionOrder.some((id) => isEthtl115PageId(id))
-    ? migrateEthtl115CompletedSectionIds(savedIds)
-    : savedIds
-  const set = new Set<PageId>(migrated as PageId[])
-  const firstNoteInProgression = progressionOrder.find(
-    (id) => id === "student-learning-note" || /^student-learning-note-\d+$/.test(id)
-  )
-  if (migrated.includes("student-learning-note")) {
-    // Backward compatibility:
-    // older progress rows may only contain the legacy single note id.
-    // When progression uses per-section notes (student-learning-note-0..N),
-    // treat legacy completion as completed for all indexed note pages.
-    progressionOrder.forEach((id) => {
-      if (/^student-learning-note-\d+$/.test(id)) set.add(id)
-    })
-    if (firstNoteInProgression && firstNoteInProgression !== "student-learning-note") {
-      set.add(firstNoteInProgression)
-    }
-  }
-  if (firstNoteInProgression === "student-learning-note") {
-    progressionOrder.forEach((id) => {
-      if (/^student-learning-note-\d+$/.test(id) && migrated.includes(id)) set.add("student-learning-note" as PageId)
-    })
-  }
-  return set
-}
 
 const INTRO_AUDIO_SRC = "/audio/Intro.mp3"
 
@@ -2447,94 +2320,45 @@ export function CourseTrialContent({
   const includeNclexTopicMedia =
     isNclexFullCourse || isGnpsCourse || /^BSB/i.test(courseCode)
 
-  const progressionOrder = useMemo(() => {
-    const baseProgressionOrder = hasNotesInSections
-      ? getProgressionOrderWithNotesInSections(structure, topicSubsectionsResolved, notesList, {
-          includeTopicVideoAndAudio: includeNclexTopicMedia,
-          examPracticeOnly: isNclexExamOnlyCourse,
-        })
-      : getProgressionOrderWithPracticeQSubsections(structure, topicSubsectionsResolved, learningNotePageIds, {
-          includeTopicVideoAndAudio: includeNclexTopicMedia,
-          examPracticeOnly: isNclexExamOnlyCourse,
-        })
+  const progressionOrder = useMemo(
+    () =>
+      buildStandardProgressionOrder({
+        structure,
+        notesList,
+        topicSubsections: topicSubsectionsResolved,
+        learningNotePageIds,
+        hasNotesInSections,
+        includeTopicVideoAndAudio: includeNclexTopicMedia,
+        isNclexExamOnly: isNclexExamOnlyCourse,
+        isNclexFull: isNclexFullCourse,
+        isNclexAdaptiveShell,
+        slidesManifest,
+      }),
+    [
+      hasNotesInSections,
+      structure,
+      topicSubsectionsResolved,
+      notesListContentKey,
+      learningNotePageIds,
+      includeNclexTopicMedia,
+      courseIdValid,
+      isNclexExamOnlyCourse,
+      isNclexFullCourse,
+      isNclexAdaptiveShell,
+      slidesManifest,
+    ]
+  )
 
-    // When slides-manifest is known, drop slide pages with no files (e.g. Topic introduction is video-only).
-    // Avoids CDN probing of 01.png…25.png → mass 403s on ETIA packs.
-    const withoutEmptySlides =
-      slidesManifest.hasManifest && !slidesManifest.isLoading
-        ? baseProgressionOrder.filter((pageId) => {
-            const isSlidesPage =
-              pageId === "program-overview" ||
-              (pageId.endsWith("-slides") && !pageId.includes("practice-q"))
-            if (!isSlidesPage) return true
-            const folder = getSlideFolderForPageId(pageId, structure)
-            if (!folder) return false
-            const seg = slidesManifest.segmentByFolder[folder]
-            return !!(seg && seg.slides.length > 0)
-          })
-        : baseProgressionOrder
-
-    // NCLEX adaptive shell: include NGN pages after each topic quiz (full NCLEX only).
-    const withNgn = (() => {
-      if (!isNclexFullCourse) return withoutEmptySlides
-      if (!structure?.topics?.length) return withoutEmptySlides
-      const out = [...withoutEmptySlides]
-      for (const t of structure.topics) {
-        const quizId = `${t.id}-quiz`
-        const ngnId = `${t.id}-ngn`
-        if (out.includes(quizId) && !out.includes(ngnId)) {
-          const idx = out.indexOf(quizId)
-          if (idx >= 0) out.splice(idx + 1, 0, ngnId)
-        }
-      }
-      return out
-    })()
-
-    const topic9QuizId =
-      isNclexAdaptiveShell && structure.topics[NCLEX_OPEN_MODULES_COUNT - 1]
-        ? `${structure.topics[NCLEX_OPEN_MODULES_COUNT - 1].id}-quiz`
-        : null
-    if (topic9QuizId != null) {
-      const topic9NgnId =
-        isNclexFullCourse && structure.topics[NCLEX_OPEN_MODULES_COUNT - 1]
-          ? `${structure.topics[NCLEX_OPEN_MODULES_COUNT - 1].id}-ngn`
-          : null
-      const idx = withNgn.indexOf(topic9QuizId)
-      if (idx < 0) return withNgn
-      const out = [...withNgn]
-      const insertIdx = topic9NgnId && out.includes(topic9NgnId) ? out.indexOf(topic9NgnId) + 1 : idx + 1
-      out.splice(insertIdx, 0, NCLEX_TOPICS_1_9_QUIZ)
-      return out
-    }
-    return withNgn
-  }, [
-    hasNotesInSections,
-    structure,
-    topicSubsectionsResolved,
-    notesListContentKey,
-    learningNotePageIds,
-    includeNclexTopicMedia,
-    courseIdValid,
-    isNclexExamOnlyCourse,
-    isNclexFullCourse,
-    isNclexAdaptiveShell,
-    slidesManifest.hasManifest,
-    slidesManifest.isLoading,
-    slidesManifest.segmentByFolder,
-  ])
-
-  const progressionOrderWithOrientation = useMemo(() => {
-    if (!isNclexPrepResourcesCourse) return progressionOrder
-    if (!structure?.topics?.length) return progressionOrder
-    const orientationIds = NCLEX_ORIENTATION_ITEMS.map((i) => i.id)
-    if (orientationIds.length === 0) return progressionOrder
-    const out = [...progressionOrder]
-    const dedup = orientationIds.filter((id) => !out.includes(id))
-    // Linear progression must start with Orientation so the first video is unlocked (idx 0) and
-    // new enrollments resume here instead of Module 1 learning notes (sidebar already lists Orientation first).
-    out.splice(0, 0, ...dedup)
-    return out
-  }, [isNclexPrepResourcesCourse, progressionOrder, structure])
+  const progressionOrderWithOrientation = useMemo(
+    () =>
+      withNclexOrientation(
+        progressionOrder,
+        NCLEX_ORIENTATION_ITEMS.map((i) => i.id),
+        isNclexPrepResourcesCourse,
+        !!structure?.topics?.length
+      ),
+    [isNclexPrepResourcesCourse, progressionOrder, structure]
+  )
 
   /** Full learn order (sidebar, prev/next, resume). NCLEX prepends Orientation at the start of the order. */
   const isEthtl115 = isEthtl115Course(courseCode)
@@ -4845,7 +4669,7 @@ export function CourseTrialContent({
   const learnSidebarStyles = {
     aside:
       cn(
-        "relative flex h-full shrink-0 flex-col z-10 border-r border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-[#111a24]",
+        "learning-sidebar relative flex h-full shrink-0 flex-col z-10 border-r border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-[#111a24]",
         useGnpsLearnShell && "gnps-learn-sidebar",
         useEdtecLearnShell && "edtec-learn-sidebar"
       ),
@@ -5389,11 +5213,12 @@ export function CourseTrialContent({
     const progressRingStyle = {
       background: useEdtecLearnShell
         ? `conic-gradient(var(--edtec-blue,#2563eb) ${Math.max(0, Math.min(100, courseProgressPercent))}%, #e2e8f0 0)`
-        : `conic-gradient(var(--gnps-teal) ${Math.max(0, Math.min(100, courseProgressPercent))}%, rgb(255 255 255 / 12%) 0)`,
+        : `conic-gradient(var(--gnps-teal) ${Math.max(0, Math.min(100, courseProgressPercent))}%, #e0e7f1 0)`,
     } as const
 
     return (
       <div className={cn("flex flex-col h-full min-w-[300px]", sidebarCollapsed && "invisible")}>
+      <LearningBrand href={isTrainerPortalMode ? "/trainer" : "/student/current-units"} />
       <div className={cn(
         "flex items-center justify-between px-3 py-2 border-b border-slate-200/60 dark:border-slate-700/50",
         useGnpsLearnShell && "gnps-sidebar-toolbar",
@@ -6400,7 +6225,7 @@ export function CourseTrialContent({
       )}
       <div
         className={cn(
-          "flex min-h-0 overflow-hidden select-none relative",
+          "learning-player flex min-h-0 overflow-hidden select-none relative",
           useGnpsLearnShell
             ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--gnps-mineral,#f3f6f7)] gnps-learn-frame"
             : useEdtecLearnShell
@@ -6591,7 +6416,7 @@ export function CourseTrialContent({
             onClick={() => setSidebarCollapsed(false)}
             className={cn(
               "flex items-center justify-center shrink-0 border border-slate-200/80 bg-white text-slate-400 shadow-lg transition-colors hover:bg-slate-50 hover:text-brand-blue dark:border-slate-700/60 dark:bg-[#111a24] dark:hover:bg-slate-800 dark:hover:text-brand-blue-light",
-              "fixed bottom-6 left-4 z-[70] h-12 w-12 rounded-full md:static md:bottom-auto md:left-auto md:z-auto md:h-full md:w-10 md:rounded-none md:border-0 md:border-r md:border-y-0 md:border-l-0 md:shadow-none"
+              "learning-nav-toggle fixed bottom-6 left-4 z-[70] h-12 w-12 rounded-full md:static md:bottom-auto md:left-auto md:z-auto md:h-full md:w-10 md:rounded-none md:border-0 md:border-r md:border-y-0 md:border-l-0 md:shadow-none"
             )}
             title="Open navigation"
           >
@@ -9067,7 +8892,7 @@ function SlidesView({
       </header>
       )}
       <main className={cn("flex min-h-0 flex-1 flex-col overflow-hidden", isEdtec && "edtec-slides-body")}>
-        <section className="flex min-h-0 flex-1 touch-pan-y flex-col items-center overflow-y-auto bg-gradient-to-b from-slate-100 to-brand-golden/5 px-3 py-3 dark:from-slate-950 dark:to-brand-golden/10 sm:p-4 lg:p-8 w-full">
+        <section className="learning-slide-stage flex min-h-0 flex-1 touch-pan-y flex-col items-center overflow-y-auto bg-gradient-to-b from-slate-100 to-brand-golden/5 px-3 py-3 dark:from-slate-950 dark:to-brand-golden/10 sm:p-4 lg:p-8 w-full">
           <div className="mx-auto flex h-full min-h-0 w-full max-w-7xl flex-col gap-4 sm:gap-6">
             {!isEdtec && (
             <div className="flex items-center justify-between mb-0 shrink-0">
@@ -9852,7 +9677,7 @@ function GnpsSectionNotesLesson({
                 </span>
                 <p>
                   <strong>Tip:</strong> Use the side arrows or your keyboard ← → keys to move between
-                  cards. Ask EdBot in the right panel to dig deeper into the current note.
+                  cards. Ask EdBot in the guidance panel to dig deeper into the current note.
                 </p>
                 <button
                   type="button"

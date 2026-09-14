@@ -201,7 +201,7 @@ export default function TrainerNclexPage() {
       <TrainerLayout>
         <div className="flex h-64 w-full items-center justify-center">
           <div className="text-center">
-            <div className="text-sm text-slate-500 dark:text-slate-400">Loading…</div>
+            <div className="text-sm text-muted-foreground">Loading…</div>
           </div>
         </div>
       </TrainerLayout>
@@ -213,8 +213,8 @@ export default function TrainerNclexPage() {
       <div className="space-y-6">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">NCLEX Trainer</h1>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+            <h1 className="text-2xl font-bold text-foreground">NCLEX Trainer</h1>
+            <p className="mt-1 text-sm text-muted-foreground">
               Calendar, lecture planning, module unlock status, and NCLEX forum moderation.
             </p>
           </div>
@@ -222,11 +222,11 @@ export default function TrainerNclexPage() {
             <Button asChild variant="outline" size="sm">
               <Link href="/trainer/nclex-course">Open full NCLEX course</Link>
             </Button>
-            <Badge variant="secondary" className="bg-white/50 dark:bg-neutral-900/50">
+            <Badge variant="secondary" className="bg-white/50">
               Course ID: {NCLEX_COURSE_ID}
             </Badge>
             {!isAdmin && (
-              <Badge variant="secondary" className="bg-amber-100 text-amber-900 dark:bg-amber-900/30 dark:text-amber-200">
+              <Badge variant="secondary" className="bg-warning-soft text-warning">
                 Trainer view: student categories enabled
               </Badge>
             )}
@@ -234,7 +234,7 @@ export default function TrainerNclexPage() {
         </div>
 
         {/* 1) Calendar */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <CalendarIcon className="h-5 w-5 text-brand-blue" />
@@ -244,10 +244,10 @@ export default function TrainerNclexPage() {
           </CardHeader>
           <CardContent>
             {eventsLoading ? (
-              <div className="py-10 text-center text-sm text-slate-500 dark:text-slate-400">Loading timetable…</div>
+              <div className="py-10 text-center text-sm text-muted-foreground">Loading timetable…</div>
             ) : eventsError ? (
               <div className="py-10 text-center">
-                <p className="text-sm text-rose-600 dark:text-rose-400">{eventsError}</p>
+                <p className="text-sm text-destructive">{eventsError}</p>
                 <div className="mt-3">
                   <Button variant="outline" size="sm" onClick={loadTimetable}>
                     Retry
@@ -262,12 +262,12 @@ export default function TrainerNclexPage() {
                 <div className="lg:col-span-1">
                   <div className="rounded-lg border border-border/80 p-3">
                     <div className="flex items-center gap-2">
-                      <Clock className="h-4 w-4 text-slate-500 dark:text-slate-400" />
-                      <p className="text-sm font-medium text-slate-900 dark:text-white">
+                      <Clock className="h-4 w-4 text-muted-foreground" />
+                      <p className="text-sm font-medium text-foreground">
                         {selectedDate ? format(selectedDate, "EEEE, MMMM d, yyyy") : "Select a date"}
                       </p>
                     </div>
-                    <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+                    <p className="mt-1 text-xs text-muted-foreground">
                       {selectedDateEvents.length > 0 ? `${selectedDateEvents.length} lecture block(s) this day` : "No lectures on this day"}
                     </p>
                     <div className="mt-3 space-y-2 max-h-[260px] overflow-y-auto pr-1">
@@ -277,7 +277,7 @@ export default function TrainerNclexPage() {
                         selectedDateEvents.map((ev) => (
                           <div key={ev.id} className="rounded-md border border-border/60 bg-muted/30 p-2">
                             <p className="text-sm font-medium leading-snug">{ev.title}</p>
-                            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">{ev.time}</p>
+                            <p className="text-xs text-muted-foreground mt-1">{ev.time}</p>
                           </div>
                         ))
                       )}
@@ -290,7 +290,7 @@ export default function TrainerNclexPage() {
         </Card>
 
         {/* 3) Schedule lectures */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 text-brand-blue" />
@@ -300,15 +300,15 @@ export default function TrainerNclexPage() {
           </CardHeader>
           <CardContent>
             {eventsLoading ? (
-              <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading…</div>
+              <div className="py-6 text-center text-sm text-muted-foreground">Loading…</div>
             ) : upcomingLectures.length === 0 ? (
-              <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">No lecture blocks found.</div>
+              <div className="py-6 text-center text-sm text-muted-foreground">No lecture blocks found.</div>
             ) : (
               <div className="space-y-2">
                 {upcomingLectures.map((ev) => (
                   <div key={ev.id} className="flex flex-wrap items-baseline justify-between gap-2 rounded-lg border border-border/60 bg-muted/20 px-3 py-2">
                     <p className="text-sm font-medium">{ev.title}</p>
-                    <p className="text-xs text-slate-500 dark:text-slate-400">
+                    <p className="text-xs text-muted-foreground">
                       {format(new Date(ev.date), "MMM d, yyyy")} · {ev.time}
                     </p>
                   </div>
@@ -319,7 +319,7 @@ export default function TrainerNclexPage() {
         </Card>
 
         {/* Mock exam proctoring */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <ShieldAlert className="h-5 w-5 text-brand-blue" />
@@ -337,14 +337,14 @@ export default function TrainerNclexPage() {
                 Open proctoring dashboard
               </Link>
             </Button>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="text-sm text-muted-foreground">
               Filter by flagged / terminated / clean and expand per-student detail.
             </p>
           </CardContent>
         </Card>
 
         {/* 2) NCLEX module - full unlocked */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <LockOpen className="h-5 w-5 text-brand-blue" />
@@ -356,10 +356,10 @@ export default function TrainerNclexPage() {
           </CardHeader>
           <CardContent>
             {enrollmentsLoading ? (
-              <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading enrollments…</div>
+              <div className="py-6 text-center text-sm text-muted-foreground">Loading enrollments…</div>
             ) : enrollmentsError ? (
               <div className="py-6 text-center">
-                <p className="text-sm text-rose-600 dark:text-rose-400">{enrollmentsError}</p>
+                <p className="text-sm text-destructive">{enrollmentsError}</p>
                 <div className="mt-3">
                   <Button variant="outline" size="sm" onClick={fetchEnrollments}>
                     Retry
@@ -369,10 +369,10 @@ export default function TrainerNclexPage() {
             ) : (
               <div className="space-y-4">
                 <div className="flex flex-wrap items-center gap-3">
-                  <Badge variant="secondary" className="bg-emerald-100 text-emerald-900 dark:bg-emerald-900/30 dark:text-emerald-200">
+                  <Badge variant="secondary" className="bg-success-soft text-success">
                     Fully unlocked: {fullUnlockedEnrollments.length}
                   </Badge>
-                  <Badge variant="secondary" className="bg-white/50 dark:bg-neutral-900/50">
+                  <Badge variant="secondary" className="bg-white/50">
                     Total enrollments: {enrollments.length}
                   </Badge>
                 </div>
@@ -396,11 +396,11 @@ export default function TrainerNclexPage() {
                               <TableCell>
                                 <div className="flex flex-col">
                                   <span className="text-sm font-medium">{e.student_name ?? e.student_email ?? `Enrollment #${e.id}`}</span>
-                                  <span className="text-xs text-slate-500 dark:text-slate-400">{e.student_email ?? ""}</span>
+                                  <span className="text-xs text-muted-foreground">{e.student_email ?? ""}</span>
                                 </div>
                               </TableCell>
                               <TableCell>
-                                <div className="text-xs text-slate-600 dark:text-slate-300">{getEnrollmentPlanLabel(e)}</div>
+                                <div className="text-xs text-muted-foreground">{getEnrollmentPlanLabel(e)}</div>
                               </TableCell>
                               <TableCell>
                                 <Badge variant={ok ? "default" : "secondary"} className={ok ? "" : ""}>
@@ -415,7 +415,7 @@ export default function TrainerNclexPage() {
                         })}
                         {enrollments.length === 0 && (
                           <TableRow>
-                            <TableCell colSpan={4} className="text-center text-sm text-slate-500 dark:text-slate-400">
+                            <TableCell colSpan={4} className="text-center text-sm text-muted-foreground">
                               No enrollments found for NCLEX.
                             </TableCell>
                           </TableRow>
@@ -423,20 +423,20 @@ export default function TrainerNclexPage() {
                       </TableBody>
                     </Table>
                     {enrollments.length > 8 && (
-                      <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">Showing first 8 enrollments.</p>
+                      <p className="mt-2 text-xs text-muted-foreground">Showing first 8 enrollments.</p>
                     )}
                   </div>
 
                   <div className="rounded-lg border border-border/80 p-4 bg-muted/20">
-                    <p className="text-sm font-semibold text-slate-900 dark:text-white mb-3">Unlock all sections</p>
+                    <p className="text-sm font-semibold text-foreground mb-3">Unlock all sections</p>
                     {!isAdmin ? (
-                      <div className="rounded-md border border-amber-300/70 bg-amber-50 dark:bg-amber-950/30 p-3 text-xs text-amber-800 dark:text-amber-200">
+                      <div className="rounded-md border border-warning-line/70 bg-warning-soft p-3 text-xs text-warning">
                         Unlock actions are admin-only. Trainers can still view enrolled students and progress categories.
                       </div>
                     ) : (
                     <div className="space-y-3">
                       <div className="space-y-2">
-                        <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Enrollment</label>
+                        <label className="text-sm font-medium text-foreground">Enrollment</label>
                         <Select value={selectedEnrollmentId} onValueChange={setSelectedEnrollmentId}>
                           <SelectTrigger>
                             <SelectValue placeholder={enrollmentsLoading ? "Loading…" : "Select student…"} />
@@ -453,7 +453,7 @@ export default function TrainerNclexPage() {
                       <Button onClick={handleUnlockAllSections} disabled={unlockAllLoading || !selectedEnrollmentId} className="w-full">
                         {unlockAllLoading ? "Unlocking…" : "Unlock all sections"}
                       </Button>
-                      <p className="text-xs text-slate-500 dark:text-slate-400">
+                      <p className="text-xs text-muted-foreground">
                         For NCLEX, this also ensures extended access requests are approved.
                       </p>
                     </div>
@@ -467,7 +467,7 @@ export default function TrainerNclexPage() {
         </Card>
 
         {/* 4) Students pages (categorical) */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-brand-blue" />
@@ -477,19 +477,19 @@ export default function TrainerNclexPage() {
           </CardHeader>
           <CardContent>
             {enrollmentsLoading ? (
-              <div className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading…</div>
+              <div className="py-6 text-center text-sm text-muted-foreground">Loading…</div>
             ) : (
               <div className="grid gap-4 lg:grid-cols-3">
                 <CategoryCard title="Fully unlocked" count={completed.length} color="emerald">
                   {completed.length === 0 ? (
-                    <p className="text-sm text-slate-500 dark:text-slate-400">None</p>
+                    <p className="text-sm text-muted-foreground">None</p>
                   ) : (
                     <div className="space-y-2">
                       {completed.slice(0, 5).map((e) => (
                         <div key={e.id} className="rounded-lg border border-border/60 bg-muted/20 px-3 py-2">
                           <p className="text-sm font-medium">{e.student_name ?? e.student_email}</p>
-                          <p className="text-xs text-slate-500 dark:text-slate-400">{e.student_email ?? ""}</p>
-                          <p className="text-[11px] text-brand-blue dark:text-brand-blue-light mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
+                          <p className="text-xs text-muted-foreground">{e.student_email ?? ""}</p>
+                          <p className="text-[11px] text-brand-blue mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
                         </div>
                       ))}
                     </div>
@@ -497,16 +497,16 @@ export default function TrainerNclexPage() {
                 </CategoryCard>
                 <CategoryCard title="In progress" count={inProgress.length} color="blue">
                   {inProgress.length === 0 ? (
-                    <p className="text-sm text-slate-500 dark:text-slate-400">None</p>
+                    <p className="text-sm text-muted-foreground">None</p>
                   ) : (
                     <div className="space-y-2">
                       {inProgress.slice(0, 5).map((e) => (
                         <div key={e.id} className="rounded-lg border border-border/60 bg-muted/20 px-3 py-2">
                           <p className="text-sm font-medium">{e.student_name ?? e.student_email}</p>
-                          <p className="text-xs text-slate-500 dark:text-slate-400">
+                          <p className="text-xs text-muted-foreground">
                             {(e.progress ?? 0).toString()}% · {e.status ?? ""}
                           </p>
-                          <p className="text-[11px] text-brand-blue dark:text-brand-blue-light mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
+                          <p className="text-[11px] text-brand-blue mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
                         </div>
                       ))}
                     </div>
@@ -514,14 +514,14 @@ export default function TrainerNclexPage() {
                 </CategoryCard>
                 <CategoryCard title="Not started" count={notStarted.length} color="amber">
                   {notStarted.length === 0 ? (
-                    <p className="text-sm text-slate-500 dark:text-slate-400">None</p>
+                    <p className="text-sm text-muted-foreground">None</p>
                   ) : (
                     <div className="space-y-2">
                       {notStarted.slice(0, 5).map((e) => (
                         <div key={e.id} className="rounded-lg border border-border/60 bg-muted/20 px-3 py-2">
                           <p className="text-sm font-medium">{e.student_name ?? e.student_email}</p>
-                          <p className="text-xs text-slate-500 dark:text-slate-400">{e.student_email ?? ""}</p>
-                          <p className="text-[11px] text-brand-blue dark:text-brand-blue-light mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
+                          <p className="text-xs text-muted-foreground">{e.student_email ?? ""}</p>
+                          <p className="text-[11px] text-brand-blue mt-1">Plan: {getEnrollmentPlanLabel(e)}</p>
                         </div>
                       ))}
                     </div>
@@ -534,7 +534,7 @@ export default function TrainerNclexPage() {
         </Card>
 
         {/* 5) Forums */}
-        <Card className="border-brand-blue/15 dark:border-brand-blue/25">
+        <Card className="border-brand-blue/15">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <MessageCircle className="h-5 w-5 text-brand-blue" />
@@ -543,7 +543,7 @@ export default function TrainerNclexPage() {
             <CardDescription>Respond to queries in the NCLEX discussion forum.</CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <p className="text-sm text-slate-600 dark:text-slate-300">
+            <p className="text-sm text-muted-foreground">
               Open the dedicated forum page to reply to threads for course {NCLEX_COURSE_ID}.
             </p>
             <Button asChild>
@@ -571,15 +571,15 @@ function CategoryCard({
 }) {
   const badgeClass =
     color === "emerald"
-      ? "bg-emerald-100 text-emerald-900 dark:bg-emerald-900/30 dark:text-emerald-200"
+      ? "bg-success-soft text-success"
       : color === "blue"
-        ? "bg-blue-100 text-blue-900 dark:bg-blue-900/30 dark:text-blue-200"
-        : "bg-amber-100 text-amber-900 dark:bg-amber-900/30 dark:text-amber-200"
+        ? "bg-primary-soft text-primary"
+        : "bg-warning-soft text-warning"
 
   return (
     <div className="rounded-xl border border-border/70 bg-muted/20 p-4">
       <div className="flex items-center justify-between gap-3 mb-3">
-        <p className="text-sm font-semibold text-slate-900 dark:text-white">{title}</p>
+        <p className="text-sm font-semibold text-foreground">{title}</p>
         <Badge className={badgeClass} variant="secondary">
           {count}
         </Badge>

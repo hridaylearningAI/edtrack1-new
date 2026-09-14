@@ -28,14 +28,14 @@ import { CourseDetailsPanel } from "@/components/admin/course-details-panel"
 import { CourseStatusBadge } from "@/components/ui/course-status-badge"
 import { CourseStatusFilter } from "@/components/ui/course-status-filter"
 import { Course, CourseCreate, CourseUpdate } from "@/lib/api"
-import { useState, useCallback } from "react"
+import { useState, useCallback, useEffect } from "react"
 import { toast } from "sonner"
 
 const getStatusBadge = (status: string) => {
   switch (status?.toLowerCase()) {
     case "active":
       return (
-        <Badge variant="default" className="bg-green-600 text-white">
+        <Badge variant="default" className="border-success-line bg-success-soft text-success">
           Active
         </Badge>
       )
@@ -64,6 +64,15 @@ export default function CoursesPage() {
   } = useCourses()
 
   const [searchTerm, setSearchTerm] = useState("")
+
+  // Opened from the command palette: ?q= prefills the search box.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get('q')
+    if (q) {
+      setSearchTerm(q)
+      searchCourses({ name: q })
+    }
+  }, [])
   const [statusFilter, setStatusFilter] = useState<string>("all")
   const [courseStatusFilter, setCourseStatusFilter] = useState<string>("all")
   const [categoryFilter, setCategoryFilter] = useState<string>("all")
@@ -183,7 +192,7 @@ export default function CoursesPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Courses</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Courses</h2>
             <p className="text-muted-foreground mt-2">Manage courses and curriculum structure</p>
           </div>
           <CourseDialog onSubmit={handleCourseCreated} />
@@ -195,10 +204,10 @@ export default function CoursesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{totalCourses}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{totalCourses}</div>
                   <p className="text-xs text-muted-foreground">Total Courses</p>
                 </div>
-                <BookOpen className="h-8 w-8 text-blue-600" />
+                <BookOpen className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -206,10 +215,10 @@ export default function CoursesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{activeCourses}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{activeCourses}</div>
                   <p className="text-xs text-muted-foreground">Active Courses</p>
                 </div>
-                <Users className="h-8 w-8 text-green-600" />
+                <Users className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -217,12 +226,12 @@ export default function CoursesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">
+                  <div className="text-2xl font-medium tracking-tight text-foreground">
                     {courses.reduce((total, course) => total + (course.students_enrolled || 0), 0)}
                   </div>
                   <p className="text-xs text-muted-foreground">Total Enrollments</p>
                 </div>
-                <Users className="h-8 w-8 text-purple-600" />
+                <Users className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -230,12 +239,12 @@ export default function CoursesPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">
+                  <div className="text-2xl font-medium tracking-tight text-foreground">
                     {courses.reduce((total, course) => total + (course.active_discount_count || 0), 0)}
                   </div>
                   <p className="text-xs text-muted-foreground">Active Discounts</p>
                 </div>
-                <Clock className="h-8 w-8 text-orange-600" />
+                <Clock className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -359,14 +368,14 @@ export default function CoursesPage() {
                               // Only show badge if one price exists but not the other
                               if (hasPriceWithoutCert && !hasPriceWithCert) {
                                 return (
-                                  <Badge variant="outline" className="text-xs bg-blue-50 text-blue-700 border-blue-200">
+                                  <Badge variant="outline" className="text-xs bg-primary-soft text-primary border-primary-line">
                                     Without Certificate Only
                                   </Badge>
                                 );
                               }
                               if (hasPriceWithCert && !hasPriceWithoutCert) {
                                 return (
-                                  <Badge variant="outline" className="text-xs bg-blue-50 text-blue-700 border-blue-200">
+                                  <Badge variant="outline" className="text-xs bg-primary-soft text-primary border-primary-line">
                                     With Certificate Only
                                   </Badge>
                                 );
@@ -413,7 +422,7 @@ export default function CoursesPage() {
                                 )}
                               </div>
                               {course.min_price_after_discount && course.min_price_after_discount < (course.price_without_certificate || course.price || 0) && (
-                                <div className="text-sm text-green-600">
+                                <div className="text-sm text-success">
                                   From ${course.min_price_after_discount.toFixed(2)}
                                 </div>
                               )}
@@ -433,9 +442,9 @@ export default function CoursesPage() {
                       </TableCell>
                       <TableCell>
                         <div className="flex items-center space-x-2">
-                          <div className="w-16 bg-gray-200 rounded-full h-2">
+                          <div className="w-16 bg-muted rounded-full h-2">
                             <div 
-                              className="bg-blue-600 h-2 rounded-full" 
+                              className="bg-primary h-2 rounded-full" 
                               style={{ width: `${course.average_progress || 0}%` }}
                             ></div>
                           </div>
@@ -462,7 +471,7 @@ export default function CoursesPage() {
                             />
                             <span className="text-sm text-muted-foreground">
                               {course.trial_enabled ? (
-                                <span className="flex items-center gap-1 text-green-600">
+                                <span className="flex items-center gap-1 text-success">
                                   <Sparkles className="h-3 w-3" />
                                   Enabled
                                 </span>

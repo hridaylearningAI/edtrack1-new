@@ -28,7 +28,7 @@ export default function SchedulePage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
             <h2 className="text-xl font-semibold text-foreground mb-2">Loading…</h2>
             <p className="text-muted-foreground">Preparing your schedule</p>
           </div>
@@ -48,7 +48,7 @@ export default function SchedulePage() {
             Shared calendar for all courses. Dates follow the published timetables.
           </p>
           {enrollmentsError && (
-            <p className="text-sm text-amber-600 dark:text-amber-400 mt-2">
+            <p className="text-sm text-warning mt-2">
               Could not refresh enrollments: {enrollmentsError}
             </p>
           )}
@@ -77,7 +77,7 @@ export default function SchedulePage() {
                     className="p-4 border rounded-lg hover:bg-muted/50 transition-colors"
                   >
                     <div className="flex items-center space-x-3">
-                      <BookOpen className="h-5 w-5 text-blue-600" />
+                      <BookOpen className="h-5 w-5 text-primary" />
                       <div className="flex-1">
                         <h4 className="font-semibold text-sm">
                           {getEnrollmentCourseDisplayName(enrollment, courseNameById)}

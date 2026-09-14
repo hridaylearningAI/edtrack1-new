@@ -267,7 +267,7 @@ export function MonthlyCalendar({
                   key={day.toString()}
                   className={cn(
                     "flex gap-3 border-b border-border/80 p-3 last:border-b-0 cursor-pointer hover:bg-muted/40 transition-colors sm:gap-4",
-                    isCurrentDay && "bg-blue-50/60 dark:bg-blue-950/25"
+                    isCurrentDay && "bg-blue-50/60"
                   )}
                   onClick={() => onDateClick?.(day)}
                 >
@@ -278,7 +278,7 @@ export function MonthlyCalendar({
                     <span
                       className={cn(
                         "text-xl font-bold tabular-nums leading-tight",
-                        isCurrentDay ? "text-blue-600 dark:text-blue-400" : "text-foreground"
+                        isCurrentDay ? "text-blue-600" : "text-foreground"
                       )}
                     >
                       {format(day, "d")}
@@ -287,7 +287,7 @@ export function MonthlyCalendar({
                   <div className="min-w-0 flex-1">
                     {hasEvents && (
                       <p
-                        className="mb-2 text-[11px] font-medium text-blue-700 dark:text-blue-300 line-clamp-2 break-words"
+                        className="mb-2 text-[11px] font-medium text-blue-700 line-clamp-2 break-words"
                         title={titlePreview.fullTitle}
                       >
                         {titlePreview.label}
@@ -321,7 +321,7 @@ export function MonthlyCalendar({
                   </span>
                   {hasEvents && (
                     <span
-                      className="text-[10px] font-medium text-blue-700 dark:text-blue-300 leading-tight text-right min-w-0 flex-1 line-clamp-2 break-words"
+                      className="text-[10px] font-medium text-blue-700 leading-tight text-right min-w-0 flex-1 line-clamp-2 break-words"
                       title={titlePreview.fullTitle}
                     >
                       {titlePreview.label}

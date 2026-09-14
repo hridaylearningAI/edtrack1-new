@@ -8,6 +8,7 @@ import {
   resolveTenantForClerkUser,
   syncUserTenantId,
 } from '@/lib/api/tenant';
+import { ensureStudentProfileForUser } from '@/lib/api/students-provision';
 import bcrypt from 'bcryptjs';
 
 /**
@@ -107,7 +108,7 @@ export async function getUserFromSupabase(
               .single();
             
             if (updatedUser) {
-              return updatedUser;
+              return await finalizeStudentUser(updatedUser);
             }
           }
         }
@@ -117,11 +118,11 @@ export async function getUserFromSupabase(
           const tenant = await resolveTenantForClerkUser(clerkUserId)
           if (tenant) {
             await syncUserTenantId(userByClerkId.id, tenant.id)
-            return { ...userByClerkId, tenant_id: tenant.id }
+            return await finalizeStudentUser({ ...userByClerkId, tenant_id: tenant.id });
           }
         }
         
-        return userByClerkId;
+        return await finalizeStudentUser(userByClerkId);
       }
     }
     
@@ -156,9 +157,9 @@ export async function getUserFromSupabase(
             .select()
             .single();
           
-          return updatedUser || userByEmail;
+          return await finalizeStudentUser(updatedUser || userByEmail);
         }
-        return userByEmail;
+        return await finalizeStudentUser(userByEmail);
       }
     }
     
@@ -206,7 +207,7 @@ export async function getUserFromSupabase(
         return null;
       }
 
-      return createdUser;
+      return await finalizeStudentUser(createdUser);
     }
     
     return null;
@@ -214,6 +215,18 @@ export async function getUserFromSupabase(
     console.error('Error getting user from Supabase:', error);
     return null;
   }
+}
+
+async function finalizeStudentUser<T extends { id: number; role?: string | null }>(
+  user: T
+): Promise<T> {
+  if (user.role === 'student') {
+    const result = await ensureStudentProfileForUser(user.id)
+    if (!result.ok) {
+      console.warn('finalizeStudentUser: could not ensure student profile:', result.message)
+    }
+  }
+  return user
 }
 
 function normalizeUserRole(role: unknown): 'student' | 'admin' | 'super_admin' {

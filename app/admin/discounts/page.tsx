@@ -31,7 +31,7 @@ const getStatusBadge = (status: string) => {
   switch (status?.toLowerCase()) {
     case "active":
       return (
-        <Badge variant="default" className="bg-green-600 text-white">
+        <Badge variant="default" className="border-success-line bg-success-soft text-success">
           Active
         </Badge>
       )
@@ -41,7 +41,7 @@ const getStatusBadge = (status: string) => {
       return <Badge variant="outline">Expired</Badge>
     case "scheduled":
       return (
-        <Badge variant="default" className="bg-blue-600 text-white">
+        <Badge variant="default" className="border-primary-line bg-primary-soft text-primary">
           Scheduled
         </Badge>
       )
@@ -51,7 +51,7 @@ const getStatusBadge = (status: string) => {
 }
 
 const getTypeColor = (type: string) => {
-  return type === "percentage" ? "text-blue-600" : "text-green-600"
+  return type === "percentage" ? "text-primary" : "text-success"
 }
 
 const getDiscountValue = (discount: Discount) => {
@@ -179,7 +179,7 @@ export default function DiscountsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Discount Management</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Discount Management</h2>
             <p className="text-muted-foreground mt-2">Create and manage discount codes for courses</p>
           </div>
           <DiscountDialog onSubmit={handleDiscountCreated} />
@@ -191,10 +191,10 @@ export default function DiscountsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{discounts.length}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{discounts.length}</div>
                   <p className="text-xs text-muted-foreground">Total Discounts</p>
                 </div>
-                <Percent className="h-8 w-8 text-chart-1" />
+                <Percent className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -202,10 +202,10 @@ export default function DiscountsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{activeDiscounts}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{activeDiscounts}</div>
                   <p className="text-xs text-muted-foreground">Active Discounts</p>
                 </div>
-                <Calendar className="h-8 w-8 text-chart-3" />
+                <Calendar className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -213,12 +213,12 @@ export default function DiscountsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">
+                  <div className="text-2xl font-medium tracking-tight text-foreground">
                     {discounts.reduce((acc, d) => acc + (d.usage_count || 0), 0)}
                   </div>
                   <p className="text-xs text-muted-foreground">Total Uses</p>
                 </div>
-                <Users className="h-8 w-8 text-chart-2" />
+                <Users className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -226,10 +226,10 @@ export default function DiscountsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">${totalSavings.toLocaleString()}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">${totalSavings.toLocaleString()}</div>
                   <p className="text-xs text-muted-foreground">Total Savings</p>
                 </div>
-                <Percent className="h-8 w-8 text-chart-4" />
+                <Percent className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -237,18 +237,18 @@ export default function DiscountsPage() {
 
         {/* Error Message if table doesn't exist */}
         {error && (error.includes('does not exist') || error.includes('relation "discounts"')) && (
-          <Card className="border-yellow-500 bg-yellow-50 dark:bg-yellow-900/20">
+          <Card className="border-warning bg-warning-soft">
             <CardContent className="p-6">
               <div className="flex items-start gap-4">
-                <AlertCircle className="h-6 w-6 text-yellow-600 dark:text-yellow-400 mt-0.5" />
+                <AlertCircle className="h-6 w-6 text-warning mt-0.5" />
                 <div className="flex-1">
-                  <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">
+                  <h3 className="font-semibold text-warning mb-2">
                     Discounts Table Not Found
                   </h3>
-                  <p className="text-sm text-yellow-800 dark:text-yellow-200 mb-4">
+                  <p className="text-sm text-warning mb-4">
                     The discounts table does not exist in the database. Please create the table first before managing discounts.
                   </p>
-                  <p className="text-xs text-yellow-700 dark:text-yellow-300">
+                  <p className="text-xs text-warning">
                     You can create the table by running the appropriate database migration script.
                   </p>
                 </div>
@@ -403,7 +403,7 @@ export default function DiscountsPage() {
                             {discount.usage_limit && (
                               <div className="w-full bg-muted rounded-full h-1 mt-1">
                                 <div
-                                  className="h-1 rounded-full bg-green-600"
+                                  className="h-1 rounded-full bg-success"
                                   style={{ width: `${((discount.usage_count || 0) / discount.usage_limit) * 100}%` }}
                                 />
                               </div>

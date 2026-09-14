@@ -22,7 +22,7 @@ import {
 } from "lucide-react"
 import { useAdminPurchases } from "@/lib/hooks/useAdminPurchases"
 import { InvoiceDetailsDialog } from "@/components/admin/invoice-details-dialog"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function InvoicesPaymentsPage() {
   const {
@@ -37,6 +37,12 @@ export default function InvoicesPaymentsPage() {
   } = useAdminPurchases()
 
   const [searchTerm, setSearchTerm] = useState("")
+
+  // Opened from the command palette: ?q= prefills the search box.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get('q')
+    if (q) setSearchTerm(q)
+  }, [])
   const [selectedInvoice, setSelectedInvoice] = useState<any>(null)
   const [isInvoiceDialogOpen, setIsInvoiceDialogOpen] = useState(false)
 
@@ -68,7 +74,7 @@ export default function InvoicesPaymentsPage() {
     switch (status) {
       case "Paid":
         return (
-          <Badge variant="default" className="bg-chart-3 text-white">
+          <Badge variant="success">
             <CheckCircle className="mr-1 h-3 w-3" />
             Paid
           </Badge>
@@ -89,7 +95,7 @@ export default function InvoicesPaymentsPage() {
         )
       case "Partial":
         return (
-          <Badge variant="default" className="bg-chart-4 text-white">
+          <Badge variant="warning">
             <Clock className="mr-1 h-3 w-3" />
             Partial
           </Badge>
@@ -114,7 +120,7 @@ export default function InvoicesPaymentsPage() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-bold text-foreground">Invoices & Payments</h2>
+            <h2 className="text-3xl font-medium tracking-tight text-foreground">Invoices & Payments</h2>
             <p className="text-muted-foreground mt-2">Manage student invoices and payment processing</p>
           </div>
           <div className="flex space-x-2">
@@ -135,10 +141,10 @@ export default function InvoicesPaymentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">${totalRevenue.toLocaleString()}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">${totalRevenue.toLocaleString()}</div>
                   <p className="text-xs text-muted-foreground">Total Revenue</p>
                 </div>
-                <DollarSign className="h-8 w-8 text-chart-3" />
+                <DollarSign className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -146,10 +152,10 @@ export default function InvoicesPaymentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">${pendingAmount.toLocaleString()}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">${pendingAmount.toLocaleString()}</div>
                   <p className="text-xs text-muted-foreground">Pending Amount</p>
                 </div>
-                <Clock className="h-8 w-8 text-chart-4" />
+                <Clock className="h-8 w-8 text-warning" />
               </div>
             </CardContent>
           </Card>
@@ -157,10 +163,10 @@ export default function InvoicesPaymentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{paidCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{paidCount}</div>
                   <p className="text-xs text-muted-foreground">Paid Invoices</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-chart-3" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -168,10 +174,10 @@ export default function InvoicesPaymentsPage() {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-2xl font-bold text-foreground">{overdueCount}</div>
+                  <div className="text-2xl font-medium tracking-tight text-foreground">{overdueCount}</div>
                   <p className="text-xs text-muted-foreground">Overdue</p>
                 </div>
-                <AlertCircle className="h-8 w-8 text-chart-2" />
+                <AlertCircle className="h-8 w-8 text-destructive" />
               </div>
             </CardContent>
           </Card>
@@ -390,7 +396,7 @@ export default function InvoicesPaymentsPage() {
                               <div className="text-sm">{new Date(payment.date).toLocaleDateString()}</div>
                             </TableCell>
                             <TableCell>
-                              <Badge variant="default" className="bg-chart-3 text-white">
+                              <Badge variant="success">
                                 <CheckCircle className="mr-1 h-3 w-3" />
                                 {payment.status}
                               </Badge>

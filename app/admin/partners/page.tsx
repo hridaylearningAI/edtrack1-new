@@ -118,7 +118,7 @@ export default function AdminPartnersPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Partners</h1>
+          <h1 className="text-3xl font-medium tracking-tight text-foreground">Partners</h1>
           <p className="mt-1 text-sm text-muted-foreground">Add and manage partner emails for partner portal access.</p>
         </div>
         <Button onClick={openCreate}>
@@ -132,7 +132,7 @@ export default function AdminPartnersPage() {
           <CardContent className="p-6">
             <div className="flex items-center justify-between">
               <div>
-                <div className="text-2xl font-bold">{partners.length}</div>
+                <div className="text-2xl font-medium tracking-tight">{partners.length}</div>
                 <p className="text-xs text-muted-foreground">Total Partners</p>
               </div>
               <Users className="h-6 w-6 text-brand-blue" />
@@ -143,10 +143,10 @@ export default function AdminPartnersPage() {
           <CardContent className="p-6">
             <div className="flex items-center justify-between">
               <div>
-                <div className="text-2xl font-bold">{activeCount}</div>
+                <div className="text-2xl font-medium tracking-tight">{activeCount}</div>
                 <p className="text-xs text-muted-foreground">Active Access</p>
               </div>
-              <UserPlus className="h-6 w-6 text-emerald-600" />
+              <UserPlus className="h-6 w-6 text-success" />
             </div>
           </CardContent>
         </Card>

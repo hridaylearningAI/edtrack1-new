@@ -20,7 +20,7 @@ export default function TrainerNclexCourseRedirectPage() {
       <div className="flex h-64 w-full items-center justify-center">
         <div className="text-center">
           <Loader2 className="mx-auto mb-4 h-8 w-8 animate-spin text-primary" />
-          <p className="text-sm text-slate-600 dark:text-slate-300">Opening trainer NCLEX course…</p>
+          <p className="text-sm text-muted-foreground">Opening trainer NCLEX course…</p>
         </div>
       </div>
     </TrainerLayout>

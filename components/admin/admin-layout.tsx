@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react"
 import type React from "react"
 import { usePathname, useRouter } from "next/navigation"
-import Image from "next/image"
 import { motion } from "framer-motion"
 import {
   IconDashboard,
@@ -29,6 +28,7 @@ import {
   IconPhoto,
   IconLockOpen,
   IconExternalLink,
+  IconMap,
 } from "@tabler/icons-react"
 
 import {
@@ -38,13 +38,14 @@ import {
   SidebarToggleButton,
   SidebarSectionLabel,
   SidebarNavGroup,
+  SidebarBrand,
   isNavActive,
 } from "@/components/ui/sidebar"
 import { cn } from "@/lib/utils"
-import { ThemeToggle } from "@/components/theme-toggle"
 import { EdTecTopBar } from "@/components/edtec-top-bar"
 import { SidebarUserButton } from "@/components/sidebar-user-button"
 import { useUser } from "@/lib/hooks/useUser"
+import { isDemoPlatformUser } from "@/lib/demo-platform"
 
 interface AdminLayoutProps {
   children: React.ReactNode
@@ -57,6 +58,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
   const router = useRouter()
   const { user, isLoading: authLoading, isAuthenticated, roleResolved } = useUser()
   const [open, setOpen] = useState(true)
+  const showPlatformMap = isDemoPlatformUser(user?.email)
 
   const adminAccess: "unknown" | "allowed" | "denied" = authLoading
     ? "unknown"
@@ -78,7 +80,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
   // Show shell immediately once Clerk/session is ready — don't blank the whole app on role check.
   if (authLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-neutral-50 dark:bg-neutral-950">
+      <div className="min-h-screen flex items-center justify-center bg-canvas">
         <div className="text-sm text-muted-foreground">Loading workspace…</div>
       </div>
     )
@@ -87,17 +89,25 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
   if (adminAccess === "denied") return null
 
   return (
-    <div className="mx-auto flex h-screen w-full max-w-full flex-1 flex-col overflow-hidden bg-neutral-50 md:flex-row dark:bg-neutral-950">
+    <div className="flex h-screen w-full flex-col overflow-hidden bg-canvas md:flex-row">
       <Sidebar open={open} setOpen={setOpen}>
         <SidebarBody className="justify-between gap-4">
           <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-            <div className={cn("shrink-0 px-1", !open && "flex justify-center")}>
-              {open ? <Logo /> : <LogoIcon />}
-            </div>
+            <SidebarBrand href="/admin" workspace="Admin workspace" />
 
-            <nav className="mt-5 flex min-h-0 flex-1 flex-col overflow-y-auto overflow-x-hidden scrollbar-hide pb-2">
+            <nav className="mt-2 flex min-h-0 flex-1 flex-col overflow-y-auto overflow-x-hidden scrollbar-hide pb-2">
               <SidebarSectionLabel>Overview</SidebarSectionLabel>
               <div className="flex flex-col gap-0.5">
+                {showPlatformMap ? (
+                  <SidebarLink
+                    link={{
+                      label: "Platform Map",
+                      href: "/platform",
+                      icon: <IconMap className={iconClass} />,
+                    }}
+                    active={false}
+                  />
+                ) : null}
                 <SidebarLink
                   link={{
                     label: "Dashboard",
@@ -305,29 +315,22 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
         </SidebarBody>
       </Sidebar>
 
-      <div className="flex flex-1 overflow-hidden">
-        <div
+      <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
+        <EdTecTopBar portalLabel="Admin" />
+        <motion.div
+          key={pathname}
+          initial={{ opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.18, ease: [0.23, 1, 0.32, 1] }}
           className={cn(
-            "flex h-full w-full flex-1 flex-col overflow-hidden bg-white dark:bg-neutral-900 md:rounded-tl-xl md:border-l md:border-neutral-200/80 dark:md:border-neutral-800",
-            pathname === "/admin" ? "gap-2 p-3 sm:p-4 md:p-5" : "gap-3 p-3 sm:p-5 md:p-8",
+            "mx-auto flex min-h-0 w-full max-w-[1480px] flex-1 flex-col px-4 sm:px-6 md:px-9",
+            pathname === "/admin"
+              ? "overflow-hidden py-4 md:py-6"
+              : "overflow-y-auto scrollbar-hide py-5 md:py-8",
           )}
         >
-          <EdTecTopBar portalLabel="Admin" />
-          <motion.div
-            key={pathname}
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.18, ease: [0.23, 1, 0.32, 1] }}
-            className={cn(
-              "flex min-h-0 w-full flex-1 flex-col",
-              pathname === "/admin"
-                ? "overflow-hidden"
-                : "overflow-y-auto scrollbar-hide",
-            )}
-          >
-            {children}
-          </motion.div>
-        </div>
+          {children}
+        </motion.div>
       </div>
     </div>
   )
@@ -335,48 +338,11 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
 
 function SidebarFooter({ open }: { open: boolean }) {
   return (
-    <div className="shrink-0 space-y-1 border-t border-neutral-200 pt-3 dark:border-neutral-800">
+    <div className="shrink-0 space-y-1 border-t border-sidebar-border pt-3">
       <div className={cn("flex w-full", open ? "justify-start" : "justify-center")}>
         <SidebarToggleButton />
       </div>
-      <ThemeToggle open={open} />
       <SidebarUserButton />
-    </div>
-  )
-}
-
-export const Logo = () => {
-  return (
-    <div className="relative z-20 flex items-center gap-2.5 px-1 py-1">
-      <Image
-        src="/images/etia-logo.png"
-        alt="EdTrack"
-        width={28}
-        height={28}
-        className="shrink-0 rounded-md"
-      />
-      <div className="min-w-0 leading-tight">
-        <div className="truncate text-sm font-semibold text-neutral-900 dark:text-white">
-          EdTrack
-        </div>
-        <div className="truncate text-[11px] text-neutral-500 dark:text-neutral-400">
-          Admin workspace
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export const LogoIcon = () => {
-  return (
-    <div className="relative z-20 flex items-center justify-center py-1">
-      <Image
-        src="/images/etia-logo.png"
-        alt="EdTrack"
-        width={28}
-        height={28}
-        className="shrink-0 rounded-md"
-      />
     </div>
   )
 }

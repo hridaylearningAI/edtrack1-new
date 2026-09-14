@@ -616,7 +616,7 @@ export default function AdminCourseContentPage() {
   return (
     <div className="w-full max-w-[min(100%,1600px)] mx-auto px-4 sm:px-6 xl:px-10 py-8 space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Learn content order</h1>
+        <h1 className="text-2xl font-medium tracking-tight tracking-tight">Learn content order</h1>
         <p className="text-muted-foreground mt-1">
           Define Program Overview and topic order for the trial/learn sidebar. Start from your existing{" "}
           <code className="text-xs bg-muted px-1 rounded">manifest.json</code> on the CDN, then tweak order or labels

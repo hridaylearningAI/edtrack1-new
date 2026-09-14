@@ -97,9 +97,9 @@ export default function CompletedUnitsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-            <p className="text-gray-600">Please wait while we load your completed units</p>
+            <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Loading...</h2>
+            <p className="text-muted-foreground">Please wait while we load your completed units</p>
           </div>
         </div>
       </StudentLayout>
@@ -112,9 +112,9 @@ export default function CompletedUnitsPage() {
       <StudentLayout>
         <div className="flex items-center justify-center h-64">
           <div className="text-center">
-            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-red-600" />
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">Error Loading Units</h2>
-            <p className="text-gray-600">{enrollmentsError}</p>
+            <AlertCircle className="h-8 w-8 mx-auto mb-4 text-destructive" />
+            <h2 className="text-xl font-semibold text-foreground mb-2">Error Loading Units</h2>
+            <p className="text-muted-foreground">{enrollmentsError}</p>
           </div>
         </div>
       </StudentLayout>
@@ -156,7 +156,7 @@ export default function CompletedUnitsPage() {
                   <div className="text-2xl font-bold text-foreground">{totalCompletedUnits}</div>
                   <p className="text-xs text-muted-foreground">Completed Units</p>
                 </div>
-                <CheckCircle className="h-8 w-8 text-green-600" />
+                <CheckCircle className="h-8 w-8 text-success" />
               </div>
             </CardContent>
           </Card>
@@ -168,7 +168,7 @@ export default function CompletedUnitsPage() {
                   <div className="text-2xl font-bold text-foreground">{totalAchievements}</div>
                   <p className="text-xs text-muted-foreground">Achievements</p>
                 </div>
-                <Award className="h-8 w-8 text-blue-600" />
+                <Award className="h-8 w-8 text-primary" />
               </div>
             </CardContent>
           </Card>
@@ -178,9 +178,9 @@ export default function CompletedUnitsPage() {
         {completedEnrollments.length === 0 ? (
           <Card>
             <CardContent className="p-8 text-center">
-              <CheckCircle className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">No Completed Units</h3>
-              <p className="text-gray-600 mb-4">You haven't completed any courses yet.</p>
+              <CheckCircle className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-foreground mb-2">No Completed Units</h3>
+              <p className="text-muted-foreground mb-4">You haven't completed any courses yet.</p>
               <Button className="bg-primary hover:bg-primary/90">
                 Browse Courses
               </Button>
@@ -198,7 +198,7 @@ export default function CompletedUnitsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <CardTitle className="flex items-center">
-                          <CheckCircle className="mr-2 h-5 w-5 text-green-600" />
+                          <CheckCircle className="mr-2 h-5 w-5 text-success" />
                           {(enrollment.courses as any)?.name || enrollment.course_name || `Course ${enrollment.course_id}`}
                         </CardTitle>
                         <CardDescription className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -214,7 +214,7 @@ export default function CompletedUnitsPage() {
                         </CardDescription>
                       </div>
                       <div className="flex items-center space-x-2">
-                        <Badge variant="default" className="bg-green-600">
+                        <Badge variant="default" className="bg-success">
                           Grade: {enrollment.grade || 'N/A'}
                         </Badge>
                         {!enrollment.with_certificate && (() => {
@@ -326,7 +326,7 @@ export default function CompletedUnitsPage() {
                         <div className="space-y-3">
                           {achievements.map((achievement, index) => (
                             <div key={index} className="flex items-center space-x-3 p-3 border rounded-lg">
-                              <Award className="h-5 w-5 text-yellow-600" />
+                              <Award className="h-5 w-5 text-warning" />
                               <span className="font-medium">{achievement}</span>
                             </div>
                           ))}
@@ -340,7 +340,7 @@ export default function CompletedUnitsPage() {
                             {/* Check if certificate exists - this would need to be fetched from API */}
                             <div className="flex items-center justify-between p-3 border rounded-lg">
                               <div className="flex items-center space-x-3">
-                                <FileText className="h-5 w-5 text-blue-600" />
+                                <FileText className="h-5 w-5 text-primary" />
                                 <div>
                                   <p className="font-medium">Course Completion Certificate</p>
                                   <p className="text-sm text-muted-foreground">
@@ -427,8 +427,8 @@ export default function CompletedUnitsPage() {
                                 </Button>
                               </div>
                             </div>
-                            <div className="text-sm text-muted-foreground p-3 bg-blue-50 rounded-lg">
-                              <p>💡 If you don't see your certificate, it may still be generating. Please check the <Link href="/student/certificates" className="text-blue-600 underline">Certificates page</Link> or try syncing your progress again.</p>
+                            <div className="text-sm text-muted-foreground p-3 bg-primary-soft rounded-lg">
+                              <p>💡 If you don't see your certificate, it may still be generating. Please check the <Link href="/student/certificates" className="text-primary underline">Certificates page</Link> or try syncing your progress again.</p>
                             </div>
                           </div>
                         ) : (() => {
@@ -437,8 +437,8 @@ export default function CompletedUnitsPage() {
                           if (!hasUpgradePath) return null;
                           return (
                             <div className="text-center py-8 space-y-4">
-                              <FileText className="h-8 w-8 text-gray-400 mx-auto mb-2" />
-                              <p className="text-sm text-gray-600">This course was purchased without a certificate.</p>
+                              <FileText className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
+                              <p className="text-sm text-muted-foreground">This course was purchased without a certificate.</p>
                               <Button
                                 variant="outline"
                                 size="sm"

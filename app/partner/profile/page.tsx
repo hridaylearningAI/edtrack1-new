@@ -126,8 +126,8 @@ export default function PartnerProfilePage() {
     <PartnerLayout>
       <div className="w-full space-y-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">My partner profile</h1>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+          <h1 className="text-2xl font-bold tracking-tight text-foreground">My partner profile</h1>
+          <p className="mt-2 text-sm text-muted-foreground">
             Add your details. When your profile has required values, your unique partner code is generated automatically.
           </p>
         </div>
@@ -141,7 +141,7 @@ export default function PartnerProfilePage() {
           </CardHeader>
           <CardContent className="space-y-5">
             {loading ? (
-              <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Loader2 className="h-4 w-4 animate-spin" />
                 Loading profile…
               </div>
@@ -159,7 +159,7 @@ export default function PartnerProfilePage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="partner-email">Email</Label>
-                    <Input id="partner-email" value={profile.email} readOnly className="bg-slate-50 dark:bg-slate-900/40" />
+                    <Input id="partner-email" value={profile.email} readOnly className="bg-muted" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="partner-country">Country code</Label>
@@ -195,13 +195,13 @@ export default function PartnerProfilePage() {
                   />
                 </div>
 
-                <div className="rounded-lg border border-brand-blue/20 bg-brand-blue/5 p-4 dark:border-brand-blue/40 dark:bg-brand-blue/10">
-                  <p className="text-xs font-medium uppercase tracking-wide text-slate-600 dark:text-slate-300">Partner code</p>
-                  <p className="mt-1 font-mono text-lg font-semibold text-slate-900 dark:text-white">
+                <div className="rounded-lg border border-brand-blue/20 bg-brand-blue/5 p-4">
+                  <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Partner code</p>
+                  <p className="mt-1 font-mono text-lg font-semibold text-foreground">
                     {profile.partner_code || "Not generated yet"}
                   </p>
                   {isCodeMissing ? (
-                    <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+                    <p className="mt-2 text-xs text-muted-foreground">
                       Save this form with name + country code to generate your unique partner code.
                     </p>
                   ) : null}
