@@ -134,6 +134,36 @@ const SOLUTIONS = [
   { icon: Wallet, color: 'green', number: '03', title: 'Make the everyday easier.', label: 'CAMPUS OPERATIONS', description: 'Bring clarity to the work behind great education, with billing, reporting, and administration in one place.', features: ['Invoices & payment tracking', 'Reports & operational insights'] },
 ]
 
+const TESTIMONIALS = [
+  {
+    tone: 'blue',
+    logo: '/images/customers/aisc.png',
+    logoWidth: 320,
+    logoHeight: 320,
+    org: 'Australian Institution of Sciences (AISC)',
+    role: 'CEO',
+    quote: 'EdTrackOne has provided us with a more organised and integrated approach to managing student information, academic processes and institutional administration. Having essential functions accessible through one platform has improved visibility, reduced duplication and supported more consistent day-to-day operations. EdTrackOne is helping us strengthen efficiency, accountability and our capacity to deliver a better experience for both students and staff.',
+  },
+  {
+    tone: 'red',
+    logo: '/images/customers/edtec-online.png',
+    logoWidth: 600,
+    logoHeight: 206,
+    org: 'EdTec.Online',
+    role: 'Operations Director',
+    quote: 'EdTrackOne has given EdTec.Online an integrated platform for managing learners, programs, engagement and administrative activities across our expanding online education environment. Its flexibility supports multiple programs and diverse learner groups while helping our team maintain consistency and visibility. The platform strengthens our ability to deliver accessible, scalable and well-managed learning experiences to students across different locations.',
+  },
+  {
+    tone: 'green',
+    logo: '/images/customers/edtec-institute-australia.png',
+    logoWidth: 600,
+    logoHeight: 212,
+    org: 'EdTec Institute Australia (ETIA)',
+    role: 'VET Coordinator',
+    quote: 'EdTrackOne enables us to manage the student journey from initial enquiry and enrolment through learning, assessment, fee administration and completion within a connected digital environment. The platform supports greater coordination across our academic, administrative and compliance activities while giving management access to timely and meaningful information. It provides a strong operational foundation as ETIA continues to grow.',
+  },
+]
+
 export function HomeLanding() {
   const [menuOpen, setMenuOpen] = useState(false)
   const homeRef = useRef<HTMLDivElement>(null)
@@ -171,11 +201,12 @@ export function HomeLanding() {
       const revealTargets = select([
         `.${styles.audience}`, `.${styles.sectionHeading}`, `.${styles.solution}`,
         `.${styles.workflowIntro}`, `.${styles.step}`, `.${styles.faqSection} > div`,
+        `.${styles.testimonials} > .${styles.sectionHeading}`, `.${styles.testimonial}`,
         `.${styles.cta} > .${styles.eyebrow}`, `.${styles.cta} > h2`,
         `.${styles.cta} > p:not(.${styles.eyebrow})`, `.${styles.cta} > .${styles.heroActions}`,
       ].join(', '))
       revealTargets.forEach((element: Element) => {
-        const isCard = element.classList.contains(styles.solution)
+        const isCard = element.classList.contains(styles.solution) || element.classList.contains(styles.testimonial)
         const cardIndex = isCard ? Array.from(element.parentElement!.children).indexOf(element) : 0
         const animation = gsap.from(element, {
           y: desktop ? 25 : 16, opacity: 0, duration: 0.7,
@@ -284,6 +315,14 @@ export function HomeLanding() {
           { icon: BookOpen, title: 'Create space for learning', description: 'Connect courses, learning resources, and assessments to the people who need them.', color: 'red' },
           { icon: GraduationCap, title: 'Celebrate the progress', description: 'Follow each milestone, review outcomes, and recognise achievement with certificates.', color: 'green' },
         ].map((step, i) => <div key={step.title} className={styles.step} data-tone={step.color}><span className={styles.stepIcon}><step.icon size={21} /></span><div><small>0{i + 1}</small><h3>{step.title}</h3><p>{step.description}</p></div></div>)}</div>
+      </section>
+      <section id="customers" className={styles.testimonials} aria-labelledby="customers-title">
+        <div className={styles.sectionHeading}><div><p className={styles.eyebrow}>THE TEAMS ALREADY ON BOARD</p><h2 id="customers-title">In their words.<br /><span>From the people using it.</span></h2></div><p>Institutions across vocational, higher and online education run their day-to-day work on EdTrack ONE.</p></div>
+        <div className={styles.testimonialGrid}>{TESTIMONIALS.map(item => <figure key={item.org} className={styles.testimonial} data-tone={item.tone}>
+          <div className={styles.testimonialLogo}><Image src={item.logo} alt={item.org} width={item.logoWidth} height={item.logoHeight} /></div>
+          <blockquote className={styles.testimonialQuote}>{item.quote}</blockquote>
+          <figcaption className={styles.testimonialAuthor}><span className={styles.testimonialRole}>{item.role}</span><span className={styles.testimonialOrg}>{item.org}</span></figcaption>
+        </figure>)}</div>
       </section>
       <section className={styles.faqSection} aria-labelledby="faq-title"><div><p className={styles.eyebrow}>A LITTLE MORE CLARITY</p><h2 id="faq-title">Good questions.<br />Clear answers.</h2></div><div className={styles.faqList}>{[
         ['Who is EdTrack ONE for?', 'EdTrack ONE brings together student administration and learning workflows for vocational education providers, higher education teams, and training organisations. Students, trainers, and administrators each have a dedicated portal.'],

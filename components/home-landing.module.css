@@ -144,10 +144,10 @@
 .audience > div { display: flex; gap: 38px; }
 .audience > div > span { display: flex; align-items: center; gap: 9px; font-size: 13px; color: #53677c; }
 .audience svg { width: 19px; height: 19px; stroke-width: 1.5; }
-.solutions, .workflow, .faqSection, .footer { max-width: 1240px; margin: auto; padding-left: 40px; padding-right: 40px; }
+.solutions, .workflow, .testimonials, .faqSection, .footer { max-width: 1240px; margin: auto; padding-left: 40px; padding-right: 40px; }
 .solutions { padding-top: 104px; padding-bottom: 96px; }
 .sectionHeading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; }
-.sectionHeading .eyebrow, .workflow .eyebrow, .faqSection .eyebrow { justify-content: flex-start; }
+.sectionHeading .eyebrow, .workflow .eyebrow, .testimonials .eyebrow, .faqSection .eyebrow { justify-content: flex-start; }
 .home h2 { font-size: 42px; font-weight: 500; line-height: 1.14; letter-spacing: -1.8px; margin-top: 19px; text-wrap: balance; }
 .sectionHeading h2 span { color: #7a899b; }
 .sectionHeading > p { max-width: 310px; color: var(--muted); font-size: 14px; line-height: 1.8; padding-bottom: 4px; }
@@ -179,6 +179,22 @@
 .step small { display: block; font-size: 9px; color: #8b98a8; margin: 1px 0 7px; }
 .step h3 { font-size: 18px; font-weight: 500; letter-spacing: -.4px; }
 .step p { font-size: 12px; line-height: 1.8; color: var(--muted); margin-top: 8px; max-width: 310px; }
+.testimonials { padding-top: 96px; padding-bottom: 8px; }
+.testimonialGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 19px; margin-top: 40px; align-items: stretch; }
+.testimonial { --tone: var(--blue); display: flex; flex-direction: column; border: 1px solid #e0e7ef; border-radius: 12px; padding: 27px; background: linear-gradient(150deg, #f5f8fd, white 65%); margin: 0; }
+.testimonial[data-tone='red'] { --tone: var(--red); background: linear-gradient(150deg, #fdf7f7, white 65%); }
+.testimonial[data-tone='green'] { --tone: var(--green); background: linear-gradient(150deg, #f4f9f6, white 65%); }
+/* Fixed-height box so a square crest and a wide wordmark read at the same visual weight. */
+.testimonialLogo { display: flex; align-items: center; height: 64px; }
+/* Wide wordmarks are capped on width, the square crest on height, so all three carry
+   similar optical weight instead of the square one shrinking to a dot. */
+.testimonialLogo img { width: auto; height: auto; max-height: 64px; max-width: 150px; object-fit: contain; }
+.testimonialQuote { margin: 25px 0 0; padding-top: 23px; border-top: 1px solid #e5eaf0; font-size: 12px; line-height: 1.95; color: var(--muted); text-wrap: pretty; }
+.testimonialQuote::before { content: '\201C'; display: block; font-size: 34px; line-height: .1; margin-bottom: 19px; color: var(--tone); opacity: .55; }
+.testimonialAuthor { display: flex; flex-direction: column; gap: 4px; margin-top: auto; padding-top: 24px; }
+.testimonialRole { font-size: 9px; letter-spacing: 1.3px; text-transform: uppercase; font-weight: 600; color: var(--tone); }
+.testimonialOrg { font-size: 12px; font-weight: 500; color: var(--ink); letter-spacing: -.2px; }
+
 .faqSection { display: grid; grid-template-columns: 1fr 1.3fr; gap: 100px; padding-top: 100px; padding-bottom: 100px; }
 .faqList { border-top: 1px solid #dfe6ef; }
 .faqList details { border-bottom: 1px solid #dfe6ef; }
@@ -240,6 +256,9 @@
   .solution h3 { font-size: 18px; min-height: 46px; }
   .solution li { font-size: 9px; }
   .workflow { gap: 30px; }
+  .testimonialGrid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .testimonial { padding: 20px 16px; }
+  .testimonial:last-child { grid-column: 1 / -1; }
   .faqSection { gap: 45px; }
 }
 @media (max-width: 700px) {
@@ -297,12 +316,15 @@
   .audience > div { flex-wrap: wrap; justify-content: center; column-gap: 18px; row-gap: 15px; }
   .audience > div > span { font-size: 10px; gap: 6px; }
   .audience svg { width: 15px; height: 15px; }
-  .solutions, .faqSection, .footer { padding-left: 22px; padding-right: 22px; }
+  .solutions, .testimonials, .faqSection, .footer { padding-left: 22px; padding-right: 22px; }
   .solutions { padding-top: 61px; padding-bottom: 55px; }
   .sectionHeading { display: block; }
   .home h2 { font-size: 32px; letter-spacing: -1.2px; }
   .sectionHeading > p { max-width: 400px; margin-top: 20px; }
   .solutionGrid { grid-template-columns: 1fr; gap: 15px; margin-top: 28px; }
+  .testimonials { padding-top: 58px; }
+  .testimonialGrid { grid-template-columns: 1fr; gap: 15px; margin-top: 28px; }
+  .testimonial:last-child { grid-column: auto; }
   .solution { padding: 25px; }
   .solutionLabel { margin-top: 24px !important; }
   .solution h3 { min-height: 0; font-size: 24px; }
