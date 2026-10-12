@@ -1,0 +1,7 @@
+# Reference-led learner image
+
+`reference-learner.jpg` is a new original image generated with the built-in image generation tool, not cropped from the supplied website reference. The red-column lettering is rendered separately in HTML.
+
+## Prompt
+
+Generate a NEW original photographic editorial collage asset for a premium education homepage, not a webpage screenshot. Portrait 3:4 image. Composition precise: left 65 percent background is flat muted royal blue #1b5096. Right 35 percent background is flat vermilion red #e04428 vertical strip. Behind subject in blue area is one large flat golden yellow #ffcf43 circle, centered at x35% y27%, diameter65% of canvas width. Black-and-white photographic young adult woman dark hair in messy bun, wearing dark ribbed sweater, sitting in profile facing right, studying with pen and notebook beside open silver laptop at a black desk. Person lower 70% of canvas, head centered at x45% y44%, torso left lower corner; laptop lower right crosses red area, desk along bottom. Upper third of red strip is entirely empty for live text to be added in HTML. High-end Swiss editorial art direction, natural realistic proportions, candid concentrated expression, beautiful directional lighting, subtle print grain. All geometric backgrounds perfectly flat, no text, no letters, no words, no watermark, no logo, no borders. Do not include any website layout or UI. Fill frame with balanced photo composition, leave top-right red strip empty.

@@ -1,0 +1,166 @@
+/* Shared visual layer for the current course player and unified player.
+   Keep content, assessment states and course progression owned by their renderers. */
+.learning-player,
+.learning-sidebar {
+  --gnps-teal: #2862a8;
+  --gnps-teal-deep: #204f88;
+  --gnps-teal-pale: #c2dbf9;
+  --gnps-gold: #c55262;
+  --gnps-mineral: #f4f7fb;
+  --gnps-line: #dde5ef;
+  --edtec-blue: #2862a8;
+  --edtec-blue-deep: #204f88;
+  --edtec-blue-soft: #eaf1fb;
+  --edtec-red: #c55262;
+  --edtec-gold: #348064;
+  --edtec-surface: #f4f7fb;
+  color: #203654;
+  background: #f4f7fb;
+}
+.learning-player :is(button,a,input):focus-visible,
+.learning-sidebar :is(button,a):focus-visible {
+  outline: 3px solid #548dd1;
+  outline-offset: 3px;
+}
+.learning-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 10px 20px 16px;
+  background: white;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.learning-brand img { width: 150px; height: auto; }
+.learning-brand > span {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #72839a;
+}
+.learning-brand i { width: 5px; height: 5px; border-radius: 50%; background: #348064; }
+.learning-sidebar.learning-sidebar {
+  background: white;
+  color: #203654;
+  border-right: 1px solid #dde5ef;
+  --gnps-ink-copy: #405875;
+  --gnps-ink-copy-muted: #687d96;
+  --gnps-ink-copy-soft: #687d96;
+  --gnps-teal-pale: #386697;
+}
+.learning-sidebar :is(.gnps-sidebar-toolbar,.edtec-sidebar-toolbar) {
+  background: #fff;
+  min-height: 40px;
+  border-color: #e5ebf3;
+}
+.learning-sidebar :is(.gnps-sidebar-toolbar,.edtec-sidebar-toolbar) > span { color: #7a8da5; font-size: 10px; letter-spacing: 1.6px; }
+.learning-sidebar :is(.gnps-sidebar-toolbar,.edtec-sidebar-toolbar) button { min-height: 36px; min-width: 36px; color: #58718d; }
+.learning-sidebar :is(.gnps-unit-identity,.edtec-unit-identity) { background: #f7f9fc; border-color: #e3eaf3; padding: 18px 15px; }
+.learning-sidebar :is(.gnps-unit-title,.edtec-unit-title) { color: #223b5a; font-weight: 600; font-size: 14px; line-height: 1.45; }
+.learning-sidebar :is(.gnps-unit-series,.edtec-unit-series) { color: #627996; font-size: 9px; letter-spacing: 1px; }
+.learning-sidebar :is(.gnps-unit-code,.edtec-unit-code) { background: #eaf1fb; color: #346294; border-color: #dce6f4; }
+.learning-sidebar :is(.gnps-unit-identity-stats-copy strong,.edtec-unit-identity-stats-copy strong) { color: #4f6783; font-weight: 500; font-size: 11px; }
+.learning-sidebar :is(.gnps-unit-progress-ring,.edtec-unit-progress-ring) > span { background: #f7f9fc; color: #2862a8; }
+.learning-sidebar :is(.gnps-unit-identity-track,.edtec-unit-identity-track) { background: #e0e7f1; }
+.learning-sidebar :is(.gnps-unit-identity-track,.edtec-unit-identity-track) > span { background: #348064; }
+.learning-sidebar .gnps-overview-nav-grid { grid-template-columns: 1fr; }
+.learning-sidebar :is(.gnps-overview-nav,.gnps-sidebar-stage,.gnps-module-toggle) { background: white; color: #405875; border: 1px solid #e3eaf3; border-radius: 12px; box-shadow: none; }
+.learning-sidebar .gnps-overview-nav { padding: 11px; }
+.learning-sidebar :is(.gnps-overview-nav strong,.gnps-sidebar-stage-copy strong,.gnps-sidebar-progress-card-copy strong) { color: #243c59; font-weight: 600; }
+.learning-sidebar :is(.gnps-overview-nav.is-active,.gnps-sidebar-stage.is-active,.gnps-sidebar-stage.is-current) { background: #edf3fd; border-color: #b9cfea; box-shadow: inset 3px 0 #2862a8; color: #24578f; }
+.learning-sidebar .gnps-sidebar-pathway-head { border-bottom: 1px solid #dce6f2; padding-bottom: 10px; }
+.learning-sidebar .gnps-sidebar-pathway-label { font-size: 10px; letter-spacing: 1px; }
+.learning-sidebar .gnps-sidebar-stage { padding-top: 13px; padding-bottom: 13px; }
+.learning-sidebar .gnps-sidebar-stage-icon { background: #f0f5fc; color: #53759a; border-color: #d9e4f2; box-shadow: none; }
+.learning-sidebar .gnps-sidebar-stage:is(.is-current,.is-active) .gnps-sidebar-stage-icon { background: #2862a8; color: white; box-shadow: 0 0 0 3px #dce9fa; }
+.learning-sidebar .gnps-sidebar-stage.is-done .gnps-sidebar-stage-icon { background: #348064; color: white; }
+.learning-sidebar .gnps-sidebar-stage-badge { border-color: #dce5ef; background: #f4f7fb; color: #6b7f97; }
+.learning-sidebar .gnps-sidebar-stage-badge.is-current { background: #2862a8; color: white; }
+.learning-sidebar .gnps-sidebar-stage-badge.is-done { background: #e9f5ee; color: #27704f; }
+.learning-sidebar .gnps-sidebar-footer { background: white; border-color: #e3eaf3; }
+.learning-sidebar .gnps-sidebar-progress-card { border: 1px solid #dce9e2; border-radius: 12px; background: #eff7f2; box-shadow: none; }
+.learning-sidebar .gnps-back-to-courses { min-height: 44px; color: #526b89; border-color: #e0e8f2; background: white; }
+.learning-player :is(.gnps-accent-bar,.edtec-accent-bar) { height: 3px; background: linear-gradient(90deg,#2862a8 0% 65%,#c55262 65% 82%,#348064 82%); }
+.learning-player :is(.gnps-learn-main header,.edtec-activity-header) {
+  background: linear-gradient(115deg,#1d4279,#2d60a0);
+  border-color: #365f90;
+  box-shadow: none;
+}
+.learning-player :is(.gnps-section-hero,.edtec-activity-header) { padding: 24px 30px; }
+.learning-player .gnps-section-hero h1,
+.learning-player .edtec-activity-title { font-size: clamp(22px,2.4vw,32px); font-weight: 500; letter-spacing: -.7px; }
+.learning-player .edtec-activity-nav-btn { width: 44px; height: 44px; border-radius: 12px; background: #ffffff14; }
+.learning-player .gnps-home-v2 .gnps-home-hero { margin: 24px; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 32px -20px #244a7b66; }
+.learning-player .gnps-home-hero-scrim { background: linear-gradient(90deg,#153968f5 0%,#1f4a79c9 55%,#18365d70); }
+.learning-player .gnps-home-hero h1 { font-weight: 500; letter-spacing: -1.8px; font-size: clamp(30px,4vw,52px); }
+.learning-player .gnps-home-kicker { color: #b9d3f3; font-size: 11px; letter-spacing: 1.8px; }
+.learning-player .gnps-home-primary { background: white; color: #234f88; border-radius: 10px; box-shadow: 0 4px 14px #12345b20; }
+.learning-player .gnps-home-hero-rail { border-radius: 12px; background: #ffffff0d; }
+.learning-player .gnps-home-progress-track > span { background: #72b494; }
+.learning-player .gnps-home-coach { background: #eaf4ef; border: 1px solid #d4e7dc; border-radius: 14px; color: #295f47; }
+.learning-player .gnps-home-coach-copy :is(p,strong,span) { color: #35664f; }
+.learning-player .gnps-home-coach-dismiss { color: #35664f; border-color: #bad9c8; }
+.learning-player .gnps-level-card { border-radius: 16px; box-shadow: none; }
+.learning-player .gnps-level-card.is-current { border-color: #aac5e7; box-shadow: 0 8px 24px -18px #2862a8; }
+.learning-player .student-notes-cards-stage { padding: clamp(16px,3vw,36px); background: #f4f7fb; }
+.learning-player .student-notes-card { border: 1px solid #dce5f0; border-radius: 20px; box-shadow: 0 14px 36px -22px #25477740; }
+.learning-player .student-notes-card-banner { background: linear-gradient(115deg,#eaf1fc,#fcf0f1,#edf6f0); }
+.learning-player .student-notes-card-content h2 { color: #234567; font-weight: 600; letter-spacing: -.5px; }
+.learning-player :is(.gnps-notes-brief,.gnps-video-brief,.gnps-slides-brief) { background: #203e65; border-color: #34557c; }
+.learning-player .gnps-notes-edbot { border-radius: 14px; background: #ffffff09; }
+.learning-player :is(.gnps-notes-continue-btn,.gnps-video-complete-btn) { border-radius: 10px; background: #348064; color: white; min-height: 44px; }
+.learning-player .gnps-learn-main :is(.rounded-xl,.rounded-2xl) { border-radius: 16px; }
+.learning-unified { --primary: #2862a8; --primary-soft: #eaf1fb; --success: #348064; --canvas: #f4f7fb; --foreground: #203654; --muted-foreground: #697e98; --border: #dce5f0; --card: white; --muted: #f0f4fa; }
+.learning-unified > div > header { min-height: 76px; background: #fff; }
+.learning-unified > div > main { padding-top: 32px; }
+.learning-unified > div > footer { padding-top: 20px; border-top: 1px solid #dce5f0; }
+.learning-unified > div > footer button { min-height: 44px; border-radius: 12px; }
+.learning-unified .learning-brand { padding-left: 0; margin-bottom: 20px; border-bottom: 1px solid #e3eaf3; }
+@media(hover:hover) and (pointer:fine) {
+  .learning-sidebar :is(.gnps-overview-nav,.gnps-sidebar-stage,.gnps-back-to-courses):hover:not(:disabled) { background: #edf3fb; color: #285b99; border-color: #bed0e7; }
+  .learning-player .gnps-home-primary:hover { background: #edf4fc; color: #204f88; }
+}
+@media(max-width:767px) {
+  .learning-player .gnps-home-v2 .gnps-home-hero { margin: 12px; border-radius: 16px; }
+  .learning-player :is(.gnps-section-hero,.edtec-activity-header) { padding: 18px 20px; }
+  .learning-player .student-notes-cards-stage { padding: 16px 10px; }
+  .learning-sidebar .learning-brand { padding-top: 6px; padding-bottom: 8px; }
+  .learning-sidebar .learning-brand img { width: 120px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .learning-player *, .learning-sidebar * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+.learning-sidebar .learning-brand { flex-direction: row; align-items: center; justify-content: space-between; padding: 10px 15px; border-bottom: 1px solid #e5ebf3; }
+.learning-sidebar .learning-brand img { width: 128px; }
+.learning-sidebar .learning-brand > span { max-width: 88px; font-size: 8px; letter-spacing: 1.3px; line-height: 1.7; }
+.learning-sidebar .gnps-sidebar-progress-card { display: none; }
+.learning-sidebar .gnps-unit-identity { padding: 12px 14px; gap: 10px; }
+.learning-sidebar .gnps-unit-identity-rail { margin-top: 0; }
+/* Keep the lesson readable when the course outline and guidance share the screen. */
+.learning-player .gnps-notes-shell { grid-template-columns: minmax(0,1fr) 280px; }
+.learning-player .gnps-notes-lesson-card { background: white; border: 1px solid #dce5f0; border-radius: 18px; box-shadow: 0 12px 32px -20px #234f8840; }
+.learning-player .gnps-notes-lesson-card-content h2 { color: #203d60; font-weight: 600; letter-spacing: -.6px; }
+.learning-player .gnps-notes-lesson-card-content p { line-height: 1.8; color: #4e647d; }
+.learning-player .gnps-notes-lesson-arrow { border: 1px solid #d5e2f2; background: white; color: #285e9c; box-shadow: 0 4px 14px #234f8810; }
+.learning-player .gnps-notes-brief-steps strong { color: #efb5bf; }
+.learning-player .gnps-notes-lesson-tip { background: #eaf1fb; color: #4c6584; border-color: #d7e3f3; }
+@media(max-width:1279px) {
+  .learning-player .gnps-notes-lesson-main { overflow-y: auto; }
+  .learning-player .gnps-notes-shell { grid-template-columns: 1fr; height: auto; }
+  .learning-player .gnps-notes-cinema { overflow: visible; }
+  .learning-player .gnps-notes-brief { overflow: visible; border-radius: 16px; margin: 0 24px 24px; }
+}
+@media(max-width:640px) {
+  .learning-player .gnps-notes-lesson-stage { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .learning-player .gnps-notes-lesson-card-frame { grid-column: 1 / -1; grid-row: 1; }
+  .learning-player .gnps-notes-lesson-arrow { grid-row: 2; position: static; }
+  .learning-player .gnps-notes-lesson-arrow.is-next { justify-self: end; }
+  .learning-player .gnps-notes-brief { margin: 0 16px 16px; }
+}
+.learning-player .learning-slide-stage { background: #f0f4fa; }
+.learning-player .learning-activity-header { border-bottom: 1px solid #dce5f0; }
+@media(max-width:767px) { .learning-player .learning-nav-toggle { left: 72px; bottom: 20px; background: #fff; border-color: #c5d6ec; color: #2862a8; } }
