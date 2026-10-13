@@ -12,6 +12,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowDown, ArrowLeft, ArrowRight, Expand, X } from 'lucide-react'
 import { ROOM_CHAPTERS, type RoomDriver } from './home-room-story'
 import styles from './home-landing.module.css'
+import { HomePlatformDetails } from './home-platform-details'
 import { HomeRoomSandbox, initialWorkspaceState, workspaceComplete } from './home-room-sandbox'
 
 const Room = dynamic(() => import('./home-room-scene').then(m => m.HomeRoomScene), { ssr: false })
@@ -93,6 +94,7 @@ export function HomeLanding() {
 
   return <main ref={root} className={`${styles.home} ${GeistSans.variable}`} data-reduced={reduced} data-view={chapter > 0 && !final ? 'inside' : 'overview'}>
     <a href="#room-controls" className={styles.skip}>Skip to room navigation</a>
+    <a href="#platform-details" className={styles.skip}>Skip walkthrough to platform details</a>
     <header className={styles.header}>
       <Link href="/" aria-label="EdTrack home" className={styles.brand}><Image src="/images/EdTrack1 logo.png" alt="EdTrack ONE" width={180} height={65} priority /></Link>
       <span className={styles.headerNote}>One institution. <span>Every possibility.</span></span>
@@ -109,7 +111,7 @@ export function HomeLanding() {
             <p className={styles.eyebrow}>{current.eyebrow}</p>
             {chapter === 0 ? <h1>{current.title.split('\n').map((line, i) => <span key={line} className={i === 1 ? styles.accent : ''}>{i > 0 ? ' ' : ''}{line}</span>)}</h1> : <h2>{current.title.split('\n').map((line, i) => <span key={line} className={i === 1 ? styles.accent : ''}>{i > 0 ? ' ' : ''}{line}</span>)}</h2>}
             <p className={styles.description}>{current.description}</p>
-            {(chapter === 0 || final) ? <div className={styles.introActions}><Link href="/demo" className={styles.demo}>Explore the demo <ArrowRight size={16} /></Link><button className={styles.textAction} onClick={() => goTo(final ? 0 : 1)}>{final ? 'Explore again' : 'Take a look around'}{final ? <ArrowLeft size={15} /> : <ArrowDown size={15} />}</button></div> : <button className={styles.screenAction} onClick={openPreview} aria-label={`Open ${current.label} screen`}><Expand size={14} /><span>Try this workspace</span><small>Demo data</small></button>}
+            {(chapter === 0 || final) ? <div className={styles.introActions}><Link href="/demo" className={styles.demo}>Explore the demo <ArrowRight size={16} /></Link><button className={styles.textAction} onClick={() => goTo(final ? 0 : 1)}>{final ? 'Explore again' : 'Take a look around'}{final ? <ArrowLeft size={15} /> : <ArrowDown size={15} />}</button>{final && <a className={styles.textAction} href="#platform-details">Keep exploring <ArrowDown size={15}/></a>}</div> : <button className={styles.screenAction} onClick={openPreview} aria-label={`Open ${current.label} screen`}><Expand size={14} /><span>Try this workspace</span><small>Demo data</small></button>}
 
             {chapter > 0 && !final && <p className={styles.benefit}><span className={styles.connectionDot} />{current.benefit}</p>}
           </div>
@@ -124,6 +126,7 @@ export function HomeLanding() {
         </nav>
       </div>
     </section>
+    <HomePlatformDetails/>
     <dialog ref={dialog} className={`${styles.dialog} ${styles.workspaceDialog}`} onCancel={closePreview} onClose={() => { paused.current = false; setExpanded(false) }} onClick={event => { if(event.target === event.currentTarget) closePreview() }} aria-label={`${selectedPreview.label} guided workspace`}>
       <div className={styles.dialogHeader}><div><strong>{selectedPreview.label}</strong><p>Guided sandbox · Sample data · No sign-in needed</p></div><button onClick={closePreview} aria-label="Return to the room"><X size={21}/></button></div>
       {expanded && <HomeRoomSandbox station={previewChapter} state={workspace} onChange={patch => setWorkspace(previous => ({ ...previous, ...patch }))} onVisit={setPreviewChapter} onContinue={continueTour}/>}
