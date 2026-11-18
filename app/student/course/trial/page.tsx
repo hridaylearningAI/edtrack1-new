@@ -371,8 +371,11 @@ import { StudentNotesCardViewer } from "@/components/student/student-notes-card-
 import { edbotSrc } from "@/lib/edbot"
 import "./gnps-learn.css"
 import "./edtec-learn.css"
+import "./lms-themes.css"
 import "./student-notes-cards.css"
 import "@/components/player/learning-player.css"
+import { SectionRenderer } from "@/components/lms/theme/section-renderer"
+import { loadPublishedTheme, seedShowcaseThemes, themeCssVars, type ThemeDocument } from "@/lib/lms/theme"
 import { LearningBrand } from "@/components/player/learning-brand"
 import { toast } from "sonner"
 import { QuizExplainPanel } from "@/components/quiz/QuizExplainPanel"
@@ -2068,6 +2071,21 @@ export function CourseTrialContent({
   const isNclexPrepResourcesCourse = isNclexFullCourse || isNclexExamOnlyCourse
   const enrolledCourseName = enrollment?.courses?.name?.trim() ?? ""
 
+  const [lmsTheme, setLmsTheme] = useState<ThemeDocument | null>(null)
+  useEffect(() => {
+    seedShowcaseThemes()
+    if (courseIdValid == null) {
+      setLmsTheme(null)
+      return
+    }
+    setLmsTheme(
+      loadPublishedTheme(courseIdValid, {
+        courseCode,
+        courseName: enrolledCourseName || undefined,
+      }),
+    )
+  }, [courseIdValid, courseCode, enrolledCourseName])
+
   // One refresh per NCLEX course visit (avoids loop: refresh → enrollments state → re-render → refresh).
   const nclexEnrollmentRefreshForCourseIdRef = useRef<number | null>(null)
   useEffect(() => {
@@ -2082,7 +2100,8 @@ export function CourseTrialContent({
 
   const isTrainerPortalMode = portalMode === "trainer"
   // Trainer portal should be able to open NCLEX content even without a student enrollment row.
-  const bypassEnrollmentAccess = isTrainerPortalMode && courseIdValid === NCLEX_COURSE_ID
+  // Trainer portal may preview any teachable course (not only NCLEX).
+  const bypassEnrollmentAccess = isTrainerPortalMode && courseIdValid != null
   // Show in-page access denied instead of redirecting when user has no enrollment
   const hasAccessDenied = courseIdValid != null && !enrollmentsLoading && enrollment == null && !bypassEnrollmentAccess
   const {
@@ -5248,13 +5267,16 @@ export function CourseTrialContent({
               </span>
             </div>
             <div className="gnps-unit-identity-copy">
-              <p className="gnps-unit-series">{immersiveSeriesKicker}</p>
+              <p className="gnps-unit-series">
+                {lmsTheme?.settings.brandKicker || immersiveSeriesKicker}
+              </p>
               <span className="gnps-unit-code">
                 {courseCode ||
                   (isNclexExamOnlyCourse ? "ETP-NCLEX-TP" : isGnpsCourse ? "" : "Unit")}
               </span>
               <h2 className="gnps-unit-title">
-                {enrolledCourseName ||
+                {lmsTheme?.settings.unitTitle ||
+                  enrolledCourseName ||
                   structure.topics[0]?.label ||
                   (isNclexExamOnlyCourse
                     ? "NCLEX Test Preparation"
@@ -5264,7 +5286,10 @@ export function CourseTrialContent({
               </h2>
             </div>
           </div>
-          <div className="gnps-unit-identity-rail">
+          <div
+            className="gnps-unit-identity-rail"
+            hidden={lmsTheme ? !lmsTheme.settings.showProgressFooter : false}
+          >
             <div className="gnps-unit-identity-stats">
               <div className="gnps-unit-progress-ring" style={progressRingStyle} aria-hidden>
                 <span>{courseProgressPercent}%</span>
@@ -5297,14 +5322,22 @@ export function CourseTrialContent({
               </span>
             </div>
             <div>
-              <p className="edtec-unit-series">{immersiveSeriesKicker}</p>
+              <p className="edtec-unit-series">
+                {lmsTheme?.settings.brandKicker || immersiveSeriesKicker}
+              </p>
               <span className="edtec-unit-code">{courseCode || "Unit"}</span>
               <h2 className="edtec-unit-title">
-                {enrolledCourseName || structure.topics[0]?.label || "Learning unit"}
+                {lmsTheme?.settings.unitTitle ||
+                  enrolledCourseName ||
+                  structure.topics[0]?.label ||
+                  "Learning unit"}
               </h2>
             </div>
           </div>
-          <div className="edtec-unit-identity-rail">
+          <div
+            className="edtec-unit-identity-rail"
+            hidden={lmsTheme ? !lmsTheme.settings.showProgressFooter : false}
+          >
             <div className="edtec-unit-identity-stats">
               <div className="edtec-unit-progress-ring" style={progressRingStyle} aria-hidden>
                 <span>{courseProgressPercent}%</span>
@@ -6226,6 +6259,7 @@ export function CourseTrialContent({
       <div
         className={cn(
           "learning-player flex min-h-0 overflow-hidden select-none relative",
+          useAnyImmersiveShell && lmsTheme && "lms-theme-frame",
           useGnpsLearnShell
             ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--gnps-mineral,#f5f3ed)] gnps-learn-frame"
             : useEdtecLearnShell
@@ -6235,7 +6269,12 @@ export function CourseTrialContent({
                 courseIdValid === NCLEX_COURSE_ID ? "bg-transparent" : "bg-white dark:bg-slate-900",
               ),
         )}
-        style={{ WebkitUserSelect: "none", userSelect: "none" }}
+        data-lms-theme={useAnyImmersiveShell && lmsTheme ? lmsTheme.templateId : undefined}
+        style={{
+          WebkitUserSelect: "none",
+          userSelect: "none",
+          ...(useAnyImmersiveShell && lmsTheme ? themeCssVars(lmsTheme) : {}),
+        }}
         onContextMenu={(e) => e.preventDefault()}
       >
         {courseIdValid === NCLEX_COURSE_ID && (
@@ -6351,17 +6390,24 @@ export function CourseTrialContent({
             />
           )}
         </AnimatePresence>
-        {/* Company color accent bar */}
-        <div
-          className={cn(
-            "absolute top-0 left-0 right-0 h-1 z-20",
-            useGnpsLearnShell
-              ? "gnps-accent-bar rounded-none"
-              : useEdtecLearnShell
-                ? "edtec-accent-bar rounded-none"
-                : "rounded-t-2xl bg-gradient-to-r from-brand-blue via-brand-red to-brand-golden"
-          )}
-        />
+        {/* Company color accent bar — theme studio can override mode */}
+        {useAnyImmersiveShell && lmsTheme ? (
+          <div
+            className="lms-accent-bar absolute top-0 left-0 right-0 z-20"
+            data-mode={lmsTheme.settings.accentMode}
+          />
+        ) : (
+          <div
+            className={cn(
+              "absolute top-0 left-0 right-0 h-1 z-20",
+              useGnpsLearnShell
+                ? "gnps-accent-bar rounded-none"
+                : useEdtecLearnShell
+                  ? "edtec-accent-bar rounded-none"
+                  : "rounded-t-2xl bg-gradient-to-r from-brand-blue via-brand-red to-brand-golden"
+            )}
+          />
+        )}
         {/* Sidebar + main sit above the NCLEX photo/overlay layer (z-0) so video and content are not covered */}
         <div className="relative z-10 flex flex-1 min-h-0 min-w-0 w-full flex-col md:flex-row">
         {mobileCourseNavDrawerOpen &&
@@ -6427,6 +6473,58 @@ export function CourseTrialContent({
         {/* Main content - switches by currentPage */}
         <div className={learnMainContentShell}>
         {currentPage === GNPS_UNIT_HOME_PAGE_ID && isGnpsCourse ? (
+          lmsTheme && lmsTheme.sections.some((section) => section.visible) ? (
+            <SectionRenderer
+              document={lmsTheme}
+              progress={{
+                percent: courseProgressPercent,
+                completed: completedCount,
+                total: totalSections,
+                nextLabel: getGnpsActivityLabel(gnpsNextActivityPageId),
+              }}
+              pathwayCards={
+                isEthtl115
+                  ? getEthtl115Levels(courseCode).map((l) => ({
+                      id: getEthtl115LevelHomePageId(l.number),
+                      label: `Level ${l.number}`,
+                      title: l.title,
+                      detail: l.blurb,
+                      status: getEthtl115LevelStatus(l.number, completedSections),
+                    }))
+                  : gnpsLearningStages.slice(0, 6).map((stage, index) => ({
+                      id: String(stage.pageId),
+                      label: `Stage ${index + 1}`,
+                      title: stage.label,
+                      detail: stage.description,
+                      status: stage.status,
+                    }))
+              }
+              onPrimaryCta={() => {
+                dismissGnpsCoach()
+                if (isEthtl115) {
+                  const currentLevel = getEthtl115Levels(courseCode).find(
+                    (l) => getEthtl115LevelStatus(l.number, completedSections) === "current",
+                  )
+                  const levelNum = (currentLevel?.number ?? 1) as Ethtl115LevelNumber
+                  if (gnpsNextActivityPageId) {
+                    const nextParsed = parseEthtl115PageId(gnpsNextActivityPageId)
+                    if (nextParsed) {
+                      setCurrentPage(getEthtl115LevelHomePageId(nextParsed.level) as PageId)
+                      return
+                    }
+                  }
+                  setCurrentPage(getEthtl115LevelHomePageId(levelNum) as PageId)
+                  return
+                }
+                if (gnpsNextActivityPageId) setCurrentPage(gnpsNextActivityPageId)
+              }}
+              onOpenPathway={(id) => {
+                dismissGnpsCoach()
+                setCurrentPage(id as PageId)
+                setSlideIndex(0)
+              }}
+            />
+          ) : (
           <GnpsUnitHome
             courseCode={courseCode}
             courseName={enrolledCourseName || "GNPS Unit"}
@@ -6480,6 +6578,7 @@ export function CourseTrialContent({
               setSlideIndex(0)
             }}
           />
+          )
         ) : currentPage === NCLEX_EXAM_UNIT_HOME_PAGE_ID && isNclexExamOnlyCourse ? (
           <NclexExamUnitHome
             courseCode={courseCode || "ETP-NCLEX-TP"}
@@ -6519,6 +6618,26 @@ export function CourseTrialContent({
             onOpenFreeDiagnostic={() => navigateToActivityPage(NCLEX_FREE_DIAGNOSTIC_PAGE_ID)}
           />
         ) : currentPage === VET_UNIT_HOME_PAGE_ID && isTopicUnitImmersive ? (
+          lmsTheme && lmsTheme.sections.some((section) => section.visible) ? (
+            <SectionRenderer
+              document={lmsTheme}
+              progress={{
+                percent: courseProgressPercent,
+                completed: completedCount,
+                total: totalSections,
+                nextLabel: getGnpsActivityLabel(gnpsNextActivityPageId),
+              }}
+              pathwayCards={vetTopicListItems.map((topic) => ({
+                id: topic.topicId,
+                label: `Topic ${topic.index}`,
+                title: topic.label,
+                detail: topic.description,
+                status: topic.status,
+              }))}
+              onPrimaryCta={continueVetUnit}
+              onOpenPathway={(id) => openVetTopic(id)}
+            />
+          ) : (
           <VetUnitHome
             courseCode={courseCode}
             courseName={enrolledCourseName || structure.topics[0]?.label || "Learning unit"}
@@ -6530,6 +6649,7 @@ export function CourseTrialContent({
             onContinue={continueVetUnit}
             onOpenTopic={openVetTopic}
           />
+          )
         ) : currentPage === NCLEX_TOPICS_UNIT_LIST_PAGE_ID && isNclexExamOnlyCourse ? (
           <NclexTopicsHome
             courseCode={courseCode || "ETP-NCLEX-TP"}

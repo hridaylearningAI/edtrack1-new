@@ -39,10 +39,11 @@ const ADMIN_PAGES: Entry[] = [
   { title: 'Enrolment overview', subtitle: 'Enrolled vs not enrolled', href: '/admin/enrollment-overview', icon: Users, keywords: 'carts abandoned funnel' },
   { title: 'Enrol a student', subtitle: 'Enrolment wizard', href: '/admin/enrolment', icon: Sparkles, keywords: 'new enrolment wizard add' },
   { title: 'Documents', subtitle: 'Upload and verification', href: '/admin/documents', icon: FileText, keywords: 'passport visa evidence compliance' },
-  { title: 'Leads', subtitle: 'Course interests and eligibility', href: '/admin/leads', icon: Sparkles, keywords: 'crm enquiries interest eligibility marketing' },
+  { title: 'CRM', subtitle: 'Enquiry pipeline and lead inbox', href: '/admin/crm', icon: Sparkles, keywords: 'crm enquiries interest eligibility marketing leads' },
   { title: 'Courses', subtitle: 'Catalogue and curriculum', href: '/admin/courses', icon: BookOpen, keywords: 'catalog units programs' },
   { title: 'Course catalogue distribution', subtitle: 'Channels and partner API', href: '/admin/course-distribution', icon: BookOpen, keywords: 'channels portfolio listing' },
-  { title: 'Course content', subtitle: 'Sections, slides and overrides', href: '/admin/course-content', icon: BookOpen, keywords: 'lessons content cdn' },
+  { title: 'LMS Theme Studio', subtitle: 'Themes, sections and learn shell', href: '/admin/lms-builder', icon: BookOpen, keywords: 'lms builder theme studio sections' },
+  { title: 'Course content CDN', subtitle: 'Sections, slides and overrides', href: '/admin/course-content', icon: BookOpen, keywords: 'lessons content cdn' },
   { title: 'Content unlocks', subtitle: 'Stage and topic unlocks', href: '/admin/content-unlocks', icon: ShieldCheck, keywords: 'gating access nclex' },
   { title: 'Progress tracker', subtitle: 'Live learner progress', href: '/admin/progress', icon: BarChart3, keywords: 'completion at risk behind' },
   { title: 'Schedule', subtitle: 'Timetable and live classes', href: '/admin/schedule', icon: CalendarClock, keywords: 'calendar timetable sessions' },
@@ -69,6 +70,8 @@ const STUDENT_PAGES: Entry[] = [
 
 const TRAINER_PAGES: Entry[] = [
   { title: 'Trainer dashboard', href: '/trainer', icon: LayoutDashboard, keywords: 'teacher home' },
+  { title: 'Trainer courses', href: '/trainer/courses', icon: BookOpen, keywords: 'my courses delivery' },
+  { title: 'Trainer Theme Studio', href: '/trainer/content', icon: BookOpen, keywords: 'theme studio sections customize' },
   { title: 'Trainer schedule', href: '/trainer/schedule', icon: CalendarClock, keywords: 'classes timetable meeting link' },
   { title: 'NCLEX trainer tools', href: '/trainer/nclex', icon: GraduationCap, keywords: 'mock exam metrics unlock' },
   { title: 'Mock exam proctoring', href: '/trainer/nclex/proctoring', icon: ShieldCheck, keywords: 'integrity camera events' },
@@ -140,9 +143,22 @@ const DEFAULT_IDS = [
   'student:/student', 'trainer:/trainer', 'partner:/partner', 'module:/platform',
 ]
 
-export function DemoCommandPalette() {
+type DemoCommandPaletteProps = {
+  /** Hide the default search trigger (parent supplies its own). */
+  hideTrigger?: boolean
+  open?: boolean
+  onOpenChange?: (open: boolean) => void
+}
+
+export function DemoCommandPalette({
+  hideTrigger = false,
+  open: openProp,
+  onOpenChange,
+}: DemoCommandPaletteProps = {}) {
   const router = useRouter()
-  const [open, setOpen] = useState(false)
+  const [uncontrolledOpen, setUncontrolledOpen] = useState(false)
+  const open = openProp ?? uncontrolledOpen
+  const setOpen = onOpenChange ?? setUncontrolledOpen
   const [query, setQuery] = useState('')
   const [group, setGroup] = useState<string | null>(null)
 
@@ -196,16 +212,18 @@ export function DemoCommandPalette() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-label="Search EdTrack"
-        className="inline-flex min-h-9 items-center gap-2 rounded-lg border border-[#d8dfd2] bg-[#fafaf7] px-3 text-xs text-[#4f5853] transition-colors hover:border-[#c9d4c4] hover:bg-[#eef1ea] sm:w-[230px]"
-      >
-        <Search className="h-3.5 w-3.5 shrink-0" aria-hidden />
-        <span className="hidden sm:inline">Search or jump to…</span>
-        <kbd className="ml-auto hidden rounded border border-border bg-card px-1.5 py-0.5 font-sans text-[10px] text-muted-foreground sm:inline">/</kbd>
-      </button>
+      {!hideTrigger ? (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label="Search EdTrack"
+          className="inline-flex min-h-9 items-center gap-2 rounded-lg border border-[#d8dfd2] bg-[#fafaf7] px-3 text-xs text-[#4f5853] transition-colors hover:border-[#c9d4c4] hover:bg-[#eef1ea] sm:w-[230px]"
+        >
+          <Search className="h-3.5 w-3.5 shrink-0" aria-hidden />
+          <span className="hidden sm:inline">Search or jump to…</span>
+          <kbd className="ml-auto hidden rounded border border-border bg-card px-1.5 py-0.5 font-sans text-[10px] text-muted-foreground sm:inline">/</kbd>
+        </button>
+      ) : null}
 
       <Command.Dialog
         open={open}

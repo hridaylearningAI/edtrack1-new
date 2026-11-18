@@ -63,7 +63,7 @@ export const MODULE_DETAILS: Record<
   insight: {
     title: 'Insight Analytics',
     icon: PLATFORM_ICONS.analytics,
-    description: 'See how enrolment, completion, and performance trends come together.',
+    description: 'Follow enquiry → enrolment → learning → completion signals in one observatory.',
     category: 'Operations',
     tone: 'green',
     colors: 'primary:#1a6b52,secondary:#245ac6',
@@ -71,7 +71,8 @@ export const MODULE_DETAILS: Record<
   resources: {
     title: 'Resource Management',
     icon: PLATFORM_ICONS.folder,
-    description: 'Explore shared facilities, equipment, and campus resource allocation.',
+    description:
+      'Manage campus spaces and everything inside them — rooms, seats, boards, fans, AV, and lab gear.',
     category: 'Operations',
     tone: 'red',
     colors: 'primary:#9a3a2a,secondary:#245ac6',

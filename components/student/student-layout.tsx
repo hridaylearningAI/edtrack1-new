@@ -17,6 +17,7 @@ const studentSections: PortalNavSection[] = [
       { title: 'Dashboard', href: '/student', icon: PLATFORM_ICONS.home, exact: true },
       { title: 'Current units', href: '/student/current-units', icon: PLATFORM_ICONS.learning },
       { title: 'Completed units', href: '/student/completed-units', icon: PLATFORM_ICONS.compliance },
+      { title: 'Schedule', href: '/student/schedule', icon: PLATFORM_ICONS.schedule },
       { title: 'Certificates', href: '/student/certificates', icon: PLATFORM_ICONS.assessments },
     ],
   },
@@ -53,13 +54,14 @@ export default function StudentLayout({
   useEffect(() => setDemoReady(true), [])
   const hasNoEnrollments = !enrollmentsLoading && enrollments.length === 0
   const isOnCourseTrial = /^\/student\/course\/\d+$/.test(pathname)
+  const isSchedule = pathname === '/student/schedule'
   const showPlatformMap = demoReady && isDemoPlatformUser(user?.email)
 
-  if (immersive || isOnCourseTrial || hasNoEnrollments) {
+  if (immersive || isSchedule || isOnCourseTrial || hasNoEnrollments) {
     return (
       <StudentTopBarActionsProvider>
         <div className="flex h-screen w-full flex-col overflow-hidden bg-[#f5f3ed]">
-          {!immersive && (
+          {!immersive && !isSchedule && (
             <EdTecTopBar
               portalLabel="MyEdtec"
               showUserButton={hasNoEnrollments}
@@ -67,7 +69,11 @@ export default function StudentLayout({
               backHref={isOnCourseTrial ? '/student/current-units' : undefined}
             />
           )}
-          <div className={`min-h-0 w-full flex-1 ${immersive ? 'overflow-hidden' : 'overflow-y-auto px-4 py-5 md:px-9 md:py-8'}`}>
+          <div
+            className={`min-h-0 w-full flex-1 ${
+              immersive || isSchedule ? 'overflow-hidden' : 'overflow-y-auto px-4 py-5 md:px-9 md:py-8'
+            }`}
+          >
             {children}
           </div>
         </div>

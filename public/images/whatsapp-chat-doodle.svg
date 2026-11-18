@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <g fill="none" stroke="#54656f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.28">
+    <g transform="translate(28 22) rotate(-18)">
+      <path d="M2 8a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v12a6 6 0 0 1-6 6H14l-8 6v-6H8a6 6 0 0 1-6-6z"/>
+    </g>
+    <g transform="translate(118 48) rotate(12)">
+      <rect x="2" y="1" width="16" height="26" rx="3"/>
+      <circle cx="10" cy="22" r="1.2" fill="#54656f"/>
+    </g>
+    <g transform="translate(220 18) rotate(-8)">
+      <path d="M4 22c8-14 20-14 28 0"/>
+      <circle cx="18" cy="10" r="4"/>
+    </g>
+    <g transform="translate(300 56) rotate(22)">
+      <path d="M2 10h22l6-6v22l-6-6H2z"/>
+    </g>
+    <g transform="translate(42 118) rotate(8)">
+      <circle cx="12" cy="12" r="8"/>
+      <circle cx="12" cy="12" r="3"/>
+      <path d="M20 6l3-3"/>
+    </g>
+    <g transform="translate(156 128) rotate(-14)">
+      <path d="M4 20c0-8 16-8 16 0v2H4z"/>
+      <circle cx="8" cy="10" r="3"/>
+      <circle cx="16" cy="10" r="3"/>
+    </g>
+    <g transform="translate(258 118) rotate(16)">
+      <rect x="3" y="6" width="22" height="16" rx="2"/>
+      <path d="M3 10h22"/>
+    </g>
+    <g transform="translate(18 210) rotate(-10)">
+      <path d="M4 18l10-14 10 14H4z"/>
+      <path d="M14 8v10"/>
+    </g>
+    <g transform="translate(112 224) rotate(20)">
+      <rect x="4" y="2" width="20" height="14" rx="2"/>
+      <path d="M8 16v4h12v-4"/>
+    </g>
+    <g transform="translate(214 208) rotate(-22)">
+      <path d="M3 8a9 9 0 1 1 9 9"/>
+      <path d="M12 6v6l4 2"/>
+    </g>
+    <g transform="translate(302 196) rotate(6)">
+      <path d="M2 10h8l4-6 4 12 4-6h8"/>
+    </g>
+    <g transform="translate(48 292) rotate(14)">
+      <rect x="2" y="6" width="24" height="16" rx="8"/>
+      <circle cx="10" cy="14" r="1.4" fill="#54656f"/>
+      <circle cx="18" cy="14" r="1.4" fill="#54656f"/>
+    </g>
+    <g transform="translate(152 300) rotate(-6)">
+      <path d="M6 6h16v18H6z"/>
+      <path d="M10 10h8M10 14h8M10 18h5"/>
+    </g>
+    <g transform="translate(256 292) rotate(18)">
+      <path d="M4 8h20v12H4z"/>
+      <path d="M4 8l10 7 10-7"/>
+    </g>
+    <g transform="translate(330 268) rotate(-16)">
+      <circle cx="8" cy="8" r="6"/>
+      <path d="M12.5 12.5L18 18"/>
+    </g>
+  </g>
+</svg>

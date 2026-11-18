@@ -10,6 +10,7 @@
 import { toast } from 'sonner'
 import { DEMO_ACCOUNT_SEED, demoAvatarUrl } from '@/lib/demo-avatars'
 import { getDemoPlatformEmail } from '@/lib/demo-platform'
+import { SHOWCASE_COURSE_IDS } from '@/lib/lms/showcase-courses'
 
 type Row = Record<string, any>
 
@@ -326,6 +327,9 @@ for (const c of DEMO_COURSES) {
 
 // ---------------------------------------------------------------- people & operations
 
+/** Showcase courses the demo trainer/admin can teach and build in the LMS builder. */
+export const DEMO_TRAINER_COURSE_IDS = SHOWCASE_COURSE_IDS
+
 export const DEMO_TRAINERS: Row[] = [
   { name: 'Dr Sarah Mitchell', specialization: 'Clinical Nursing', experience: '14 years', rating: 4.9, status: 'Active', courses: [201, 202, 206, 209, 210], quals: ['PhD Nursing', 'RN (AHPRA)'] },
   { name: 'James Whitfield', specialization: 'NCLEX Preparation', experience: '9 years', rating: 4.8, status: 'Active', courses: [45], quals: ['MSN', 'RN (NCSBN)'] },
@@ -351,6 +355,24 @@ export const DEMO_TRAINERS: Row[] = [
   created_at: iso(700 - i * 90),
   updated_at: iso(between(1, 30)),
 }))
+
+/** Signed-in demo account appears as this trainer so /api/trainers/me allows the portal. */
+export const DEMO_PLATFORM_TRAINER: Row = {
+  id: 400,
+  name: 'Demo Trainer',
+  email: getDemoPlatformEmail(),
+  specialization: 'Multi-course delivery',
+  experience: 'Demo',
+  rating: 5,
+  students_assigned: DEMO_ENROLLMENTS.filter((e) => (DEMO_TRAINER_COURSE_IDS as readonly number[]).includes(e.course_id) && e.status === 'active').length,
+  status: 'Active',
+  join_date: day(30),
+  qualifications: ['Demo facilitator'],
+  courses_teaching: [...DEMO_TRAINER_COURSE_IDS],
+  avatar: demoAvatarUrl('Demo Trainer'),
+  created_at: iso(30),
+  updated_at: iso(1),
+}
 
 export const DEMO_PARTNERS: Row[] = [
   { name: 'Global Pathways Education', country: 'NP', dial: '+977', city: 'Kathmandu', code: 'GPE-NP-01', status: 'Active' },
@@ -838,6 +860,57 @@ function buildTimetable(): Row[] {
     recording_link: e.ago > 0 && e.type === 'lecture' ? `https://demo.edtrack.example/recordings/${e.slug}` : null,
   }))
 }
+/** Default LMS outline for showcase courses (used by content-sections API + page builder). */
+function demoContentSections(courseId: number): Row[] {
+  const course = DEMO_COURSES.find((c) => c.id === courseId)
+  if (!course) return []
+  const code = String(course.course_code ?? '')
+  const base = (rows: Array<{ kind: string; slug: string | null; folder: string; label: string }>) =>
+    rows.map((row, i) => ({
+      id: courseId * 100 + i + 1,
+      course_id: courseId,
+      sort_order: i,
+      section_kind: row.kind,
+      topic_slug: row.slug,
+      folder: row.folder,
+      label: row.label,
+      practice_q_source_topic_num: null,
+      quiz_source_topic_num: null,
+      ngn_source_topic_num: null,
+    }))
+
+  if (code.startsWith('ETHTL')) {
+    return base([
+      { kind: 'program_overview', slug: null, folder: 'overview', label: 'Program overview' },
+      { kind: 'topic', slug: 'level-1', folder: 'level-1', label: 'Level 1 — Foundations' },
+      { kind: 'topic', slug: 'level-2', folder: 'level-2', label: 'Level 2 — Application' },
+      { kind: 'topic', slug: 'level-3', folder: 'level-3', label: 'Level 3 — Mastery' },
+    ])
+  }
+  if (courseId === 45) {
+    return base([
+      { kind: 'program_overview', slug: null, folder: 'orientation', label: 'NCLEX orientation' },
+      { kind: 'topic', slug: 'topic-1', folder: 'topic-1', label: 'Topic 1' },
+      { kind: 'topic', slug: 'topic-2', folder: 'topic-2', label: 'Topic 2' },
+      { kind: 'topic', slug: 'topic-3', folder: 'topic-3', label: 'Topic 3' },
+      { kind: 'topic', slug: 'mock-exam', folder: 'mock', label: 'Mock exam hub' },
+    ])
+  }
+  if (code === 'BSBCRT511') {
+    return base([
+      { kind: 'program_overview', slug: null, folder: 'introduction', label: 'Unit introduction' },
+      { kind: 'topic', slug: 'topic-1', folder: 'Topic 1', label: 'Topic 1' },
+      { kind: 'topic', slug: 'topic-2', folder: 'Topic 2', label: 'Topic 2' },
+      { kind: 'topic', slug: 'topic-3', folder: 'Topic 3', label: 'Topic 3' },
+    ])
+  }
+  return base([
+    { kind: 'program_overview', slug: null, folder: 'overview', label: `${course.name} overview` },
+    { kind: 'topic', slug: 'module-1', folder: 'module-1', label: 'Module 1' },
+    { kind: 'topic', slug: 'module-2', folder: 'module-2', label: 'Module 2' },
+  ])
+}
+
 // ---------------------------------------------------------------- routing
 
 const TABLES: Record<string, Row[]> = {
@@ -900,11 +973,16 @@ export function demoGet(pathname: string, params: URLSearchParams): unknown {
     case '/api/partners/me': return ok({ allowed: true, partner: PARTNER })
     case '/api/partners/me/enrollments': return ok(partnerEnrollments())
     case '/api/partners/me/commissions': return ok(partnerCommissions())
+    case '/api/trainers/me': return ok({ allowed: true, trainer: DEMO_PLATFORM_TRAINER })
     case '/api/trainer/nclex-mock-metrics': return ok(mockMetrics())
     case '/api/progress/admin/course-enrollments': return ok(trainerCourseEnrollments())
     case '/api/course-forums': return ok(forums())
     case '/api/course-forums/admin': return ok(forums())
     case '/api/schedule/nclex-timetable': return { success: true, events: timetable(), source: 'demo', sheetNames: TIMETABLE_SHEETS }
+    case '/api/admin/course-content-sections': {
+      const courseId = Number(params.get('courseId'))
+      return ok({ courseId, sections: demoContentSections(courseId) })
+    }
   }
   const [, table, id] = path.match(/^\/api\/([a-z]+)(?:\/(\d+))?$/) ?? []
   const rows = table ? TABLES[table] : undefined

@@ -1,130 +1,92 @@
-"use client"
+'use client'
 
-import Link from "next/link"
-import TrainerLayout from "@/components/trainer/trainer-layout"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Calendar, GraduationCap, Loader2, Clock, Brain, BookOpen } from "lucide-react"
-import { useUser } from "@/lib/hooks/useUser"
+import { useEffect, useState } from 'react'
+import { Loader2 } from 'lucide-react'
+import TrainerLayout from '@/components/trainer/trainer-layout'
+import { TrainerWorkspaceOverview } from '@/components/trainer/trainer-workspace-overview'
+import { useUser } from '@/lib/hooks/useUser'
+import { SHOWCASE_COURSES } from '@/lib/lms/showcase-courses'
+import { isDemoPlatformUser } from '@/lib/demo-platform'
 
-const getGreeting = () => {
-  const hour = new Date().getHours()
-  if (hour < 12) return "Good morning"
-  if (hour < 17) return "Good afternoon"
-  return "Good evening"
+type TeachableCourse = {
+  id: number
+  name: string
+  code?: string | null
+  content_folder?: string | null
+  description?: string | null
 }
 
 export default function TrainerDashboardPage() {
-  const { user, isAuthenticated, isLoading } = useUser()
+  const { user, isAuthenticated, isLoading, getAccessToken } = useUser()
+  const [courses, setCourses] = useState<TeachableCourse[]>([])
+  const [loadingCourses, setLoadingCourses] = useState(true)
+  const isDemo = isDemoPlatformUser(user?.email)
+
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      if (isLoading || !isAuthenticated) return
+      setLoadingCourses(true)
+      try {
+        if (isDemo) {
+          if (!cancelled) {
+            setCourses(
+              SHOWCASE_COURSES.map((c) => ({
+                id: c.id,
+                name: c.name,
+                code: c.code,
+                content_folder: c.contentFolder,
+                description: c.description,
+              })),
+            )
+            setLoadingCourses(false)
+          }
+          return
+        }
+        const token = await getAccessToken()
+        const res = await fetch('/api/trainers/me', {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        })
+        const json = await res.json()
+        const teaching: number[] = json?.data?.trainer?.courses_teaching ?? []
+        const courseRes = await fetch('/api/courses?limit=200', {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        })
+        const courseJson = await courseRes.json()
+        const all = (courseJson?.data ?? []) as TeachableCourse[]
+        const mapped = teaching.length
+          ? all.filter((c) => teaching.includes(Number(c.id)))
+          : all.slice(0, 6)
+        if (!cancelled) setCourses(mapped)
+      } catch {
+        if (!cancelled) setCourses([])
+      } finally {
+        if (!cancelled) setLoadingCourses(false)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [getAccessToken, isAuthenticated, isDemo, isLoading])
+
+  const first = user?.name?.split(' ')[0] ?? 'Trainer'
 
   if (isLoading || !isAuthenticated || !user) {
     return (
       <TrainerLayout>
         <div className="flex h-64 w-full items-center justify-center">
           <div className="text-center">
-            <Loader2 className="mx-auto mb-4 h-8 w-8 animate-spin text-primary" />
-            <h2 className="mb-2 text-xl font-semibold text-foreground">Loading…</h2>
-            <p className="text-muted-foreground">Opening your trainer dashboard</p>
+            <Loader2 className="mx-auto mb-4 h-8 w-8 animate-spin text-[#245ac6]" />
+            <p className="text-sm text-[#4f5853]">Opening your trainer dashboard</p>
           </div>
         </div>
       </TrainerLayout>
     )
   }
 
-  const first = user.name?.split(" ")[0] ?? "Trainer"
-
   return (
     <TrainerLayout>
-      <div className="space-y-6 w-full">
-        {/* Enhanced Welcome Section (same pattern as admin/student dashboards) */}
-        <div className="relative overflow-hidden w-full rounded-xl bg-gradient-to-br from-brand-blue/10 via-brand-red/5 to-brand-golden/10 p-4 sm:p-6 md:p-8 border-2 border-brand-blue/20 shadow-lg shadow-brand-blue/5">
-          <div className="relative z-10">
-            <div className="flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <p className="text-sm font-medium text-brand-blue mb-1">
-                  {getGreeting()}, {first}
-                </p>
-                <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground mb-2">
-                  Trainer Dashboard
-                </h1>
-                <p className="text-sm text-muted-foreground max-w-2xl break-words">
-                  Manage your schedule and access NCLEX trainer tools when enabled for your account.
-                </p>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <Badge variant="secondary" className="bg-white/50 backdrop-blur-sm">
-                  <Clock className="h-3.5 w-3.5 mr-1" />
-                  {new Date().toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" })}
-                </Badge>
-              </div>
-            </div>
-          </div>
-
-          <div className="absolute top-0 right-0 w-56 h-56 bg-gradient-to-br from-brand-blue/20 to-brand-golden/15 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-        </div>
-
-        {/* Quick Action Cards */}
-        <div className="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
-          <Card className="relative overflow-hidden border-2 border-brand-blue/10 transition-shadow hover:shadow-md bg-white">
-            <CardHeader className="pb-2">
-              <div className="flex items-center gap-2">
-                <Calendar className="h-5 w-5 text-brand-blue" />
-                <CardTitle className="text-lg">Schedule</CardTitle>
-              </div>
-              <CardDescription>View upcoming classes and availability.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="/trainer/schedule" className="text-sm font-medium text-brand-blue hover:underline">
-                Open schedule →
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card className="relative overflow-hidden border-2 border-brand-blue/10 transition-shadow hover:shadow-md bg-white">
-            <CardHeader className="pb-2">
-              <div className="flex items-center gap-2">
-                <Brain className="h-5 w-5 text-brand-blue" />
-                <CardTitle className="text-lg">NCLEX Trainer</CardTitle>
-              </div>
-              <CardDescription>Respond to NCLEX forums and unlock/manage modules.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="/trainer/nclex" className="text-sm font-medium text-brand-blue hover:underline">
-                Open NCLEX trainer →
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card className="relative overflow-hidden border-2 border-brand-blue/10 transition-shadow hover:shadow-md bg-white">
-            <CardHeader className="pb-2">
-              <div className="flex items-center gap-2">
-                <BookOpen className="h-5 w-5 text-brand-golden" />
-                <CardTitle className="text-lg">NCLEX Course (Full)</CardTitle>
-              </div>
-              <CardDescription>Access the fully unlocked NCLEX course content.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="/trainer/nclex-course" className="text-sm font-medium text-brand-blue hover:underline">
-                Open full course →
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card className="relative overflow-hidden border-2 border-brand-blue/10 bg-white sm:col-span-2 lg:col-span-1">
-            <CardHeader className="pb-2">
-              <div className="flex items-center gap-2">
-                <GraduationCap className="h-5 w-5 text-brand-golden" />
-                <CardTitle className="text-lg">Your Role</CardTitle>
-              </div>
-              <CardDescription>
-                You are signed in as a trainer. Your portal access is controlled by EdTec, so only enabled trainers can use
-                the trainer features.
-              </CardDescription>
-            </CardHeader>
-          </Card>
-        </div>
-      </div>
+      <TrainerWorkspaceOverview firstName={first} courses={courses} loading={loadingCourses} />
     </TrainerLayout>
   )
 }

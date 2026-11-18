@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Loader2 } from 'lucide-react'
 import { DidacPortalShell, type PortalNavSection } from '@/components/portal/didac-portal-shell'
 import { PLATFORM_ICONS } from '@/components/platform/platform-icons'
@@ -14,6 +15,8 @@ const partnerSections: PortalNavSection[] = [
     items: [
       { title: 'Dashboard', href: '/partner', icon: PLATFORM_ICONS.home, exact: true },
       { title: 'Enrolments', href: '/partner/enrollments', icon: PLATFORM_ICONS.students },
+      { title: 'Enquiries', href: '/partner/enquiries', icon: PLATFORM_ICONS.crm },
+      { title: 'Schedule', href: '/partner/schedule', icon: PLATFORM_ICONS.schedule },
       { title: 'My profile', href: '/partner/profile', icon: PLATFORM_ICONS.user },
     ],
   },
@@ -28,9 +31,11 @@ const partnerSections: PortalNavSection[] = [
 ]
 
 export default function PartnerLayout({ children }: { children: ReactNode }) {
+  const pathname = usePathname()
   const { user, isAuthenticated, isLoading, getAccessToken } = useUser()
   const [partnerAccess, setPartnerAccess] = useState<'loading' | 'allowed' | 'denied'>('loading')
   const showPlatformMap = isDemoPlatformUser(user?.email)
+  const immersiveHall = pathname === '/partner/schedule'
 
   useEffect(() => {
     let cancelled = false
@@ -68,6 +73,29 @@ export default function PartnerLayout({ children }: { children: ReactNode }) {
     )
   }
 
+  if (partnerAccess === 'denied') {
+    return (
+      <div className="flex min-h-screen w-full items-center justify-center bg-[#f5f3ed]">
+        <div className="w-full max-w-md rounded-[16px] border border-[#d8dfd2] bg-[#fafaf7] p-6 text-center">
+          <p className="mb-2 text-lg font-semibold text-[#263432]">Access denied</p>
+          <p className="mb-5 text-sm text-[#4f5853]">
+            You don’t have access to the partner portal. Contact your administrator if you need access.
+          </p>
+          <Link
+            href="/student"
+            className="inline-flex min-h-10 items-center justify-center rounded-full bg-[#263a32] px-4 text-sm font-semibold text-white"
+          >
+            Go to dashboard
+          </Link>
+        </div>
+      </div>
+    )
+  }
+
+  if (immersiveHall) {
+    return <>{children}</>
+  }
+
   return (
     <DidacPortalShell
       brandTitle="EdTrack ONE"
@@ -77,24 +105,7 @@ export default function PartnerLayout({ children }: { children: ReactNode }) {
       showCommandPalette
       sections={partnerSections}
     >
-      {partnerAccess === 'denied' ? (
-        <div className="flex min-h-[60vh] w-full items-center justify-center">
-          <div className="w-full max-w-md rounded-[16px] border border-[#d8dfd2] bg-[#fafaf7] p-6 text-center">
-            <p className="mb-2 text-lg font-semibold text-[#263432]">Access denied</p>
-            <p className="mb-5 text-sm text-[#4f5853]">
-              You don’t have access to the partner portal. Contact your administrator if you need access.
-            </p>
-            <Link
-              href="/student"
-              className="inline-flex min-h-10 items-center justify-center rounded-full bg-[#263a32] px-4 text-sm font-semibold text-white"
-            >
-              Go to dashboard
-            </Link>
-          </div>
-        </div>
-      ) : (
-        children
-      )}
+      {children}
     </DidacPortalShell>
   )
 }

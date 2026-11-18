@@ -1,0 +1,54 @@
+.shell {
+  --background: #f5f3ed;
+  --foreground: #263432;
+  --card: #fafaf7;
+  --card-foreground: #263432;
+  --popover: #fafaf7;
+  --popover-foreground: #263432;
+  --primary: #263a32;
+  --primary-foreground: #fafaf7;
+  --secondary: #eef1ea;
+  --secondary-foreground: #263432;
+  --muted: #eef1ea;
+  --muted-foreground: #4f5853;
+  --accent: #e8eee4;
+  --accent-foreground: #263432;
+  --destructive: #be353b;
+  --border: #d8dfd2;
+  --input: #d8dfd2;
+  --ring: #245ac6;
+  --color-brand-blue: #245ac6;
+  --color-brand-blue-light: #3d6fd1;
+  --color-canvas: #f5f3ed;
+  color: var(--foreground);
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell :global(.text-brand-blue) {
+  color: #245ac6 !important;
+}
+
+.shell :global(.bg-brand-blue),
+.shell :global(.bg-primary) {
+  background-color: #263a32;
+}
+
+.shell :global(.hover\:bg-primary\/90:hover) {
+  background-color: color-mix(in srgb, #263a32 88%, white);
+}
+
+.shell :global([data-slot='card']),
+.shell :global(.rounded-xl.border.bg-card) {
+  border-color: #d8dfd2;
+  background: #fafaf7;
+  box-shadow: 0 10px 28px rgba(38, 52, 50, 0.06);
+}
+
+.shell :global(h2),
+.shell :global(h3),
+.shell :global(.font-bold),
+.shell :global(.font-semibold) {
+  letter-spacing: -0.02em;
+}

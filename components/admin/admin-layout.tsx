@@ -30,16 +30,18 @@ const adminSections: PortalNavSection[] = [
       { title: 'Enrol overview', href: '/admin/enrollment-overview', icon: PLATFORM_ICONS.learners },
       { title: 'Enrol student', href: '/admin/enrolment', icon: PLATFORM_ICONS.enrol },
       { title: 'Documents', href: '/admin/documents', icon: PLATFORM_ICONS.docs },
-      { title: 'Leads', href: '/admin/leads', icon: PLATFORM_ICONS.assessments },
+      { title: 'CRM', href: '/admin/crm', icon: PLATFORM_ICONS.crm },
     ],
   },
   {
     label: 'Learning',
     items: [
       { title: 'Courses', href: '/admin/courses', icon: PLATFORM_ICONS.learning },
-      { title: 'Content', href: '/admin/course-content', icon: PLATFORM_ICONS.docs },
+      { title: 'Theme Studio', href: '/admin/lms-builder', icon: PLATFORM_ICONS.docs },
+      { title: 'Content CDN', href: '/admin/course-content', icon: PLATFORM_ICONS.docs },
       { title: 'Progress', href: '/admin/progress', icon: PLATFORM_ICONS.analytics },
       { title: 'Schedule', href: '/admin/schedule', icon: PLATFORM_ICONS.schedule },
+      { title: 'Resources', href: '/admin/resources', icon: PLATFORM_ICONS.folder },
       { title: 'Certificates', href: '/admin/certificates', icon: PLATFORM_ICONS.compliance },
     ],
   },
@@ -91,6 +93,15 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   }
 
   if (adminAccess === 'denied') return null
+
+  // Full-bleed immersive halls — same surface as the platform modules.
+  if (
+    pathname === '/admin/schedule' ||
+    pathname === '/admin/reports' ||
+    pathname === '/admin/resources'
+  ) {
+    return <>{children}</>
+  }
 
   return (
     <DidacPortalShell
