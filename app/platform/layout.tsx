@@ -5,6 +5,7 @@ import { useAuth } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { Loader2 } from 'lucide-react'
+import { WorkspaceStateProvider } from '@/components/platform/workspace-state'
 
 export default function PlatformLayout({
   children,
@@ -28,5 +29,5 @@ export default function PlatformLayout({
     )
   }
 
-  return <>{children}</>
+  return <WorkspaceStateProvider>{children}</WorkspaceStateProvider>
 }

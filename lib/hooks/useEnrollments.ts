@@ -76,7 +76,8 @@ export function useEnrollments(options?: { courseId?: number | null }): UseEnrol
       : null
   const { user, isAuthenticated, getAccessToken } = useUser();
   const [enrollments, setEnrollments] = useState<Enrollment[]>([]);
-  const [loading, setLoading] = useState(false);
+  // Start loading so portals don't flash the empty-state shell before the first fetch.
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const lastFetchTimeRef = useRef<number>(0);
   const lastFetchKeyRef = useRef<string>("");
@@ -227,7 +228,10 @@ export function useEnrollments(options?: { courseId?: number | null }): UseEnrol
   useEffect(() => {
     if (user?.id && isAuthenticated) {
       fetchEnrollmentsRef.current();
+      return
     }
+    setEnrollments([])
+    setLoading(false)
   }, [user?.id, isAuthenticated, courseIdFilter]);
 
   return {

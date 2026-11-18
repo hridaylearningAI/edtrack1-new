@@ -10,9 +10,9 @@ import {
   IconMenu2,
   IconX,
 } from "@tabler/icons-react"
-import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { EdTrackLogo } from "@/components/brand/edtrack-logo"
 
 interface Links {
   label: string
@@ -144,13 +144,7 @@ export const MobileSidebar = ({ className, children, ...props }: React.Component
         className="h-14 px-4 flex flex-row md:hidden items-center justify-between bg-sidebar w-full border-b border-sidebar-border"
         {...props}
       >
-        <Image
-          src="/images/EdTrack1 logo.png"
-          alt="EdTrack ONE"
-          width={1967}
-          height={800}
-          className="z-20 h-auto w-[118px]"
-        />
+        <EdTrackLogo className="z-20 h-auto w-[118px]" />
         <button
           type="button"
           className="z-20 grid h-10 w-10 place-items-center rounded-lg text-foreground hover:bg-muted"
@@ -192,28 +186,23 @@ export const MobileSidebar = ({ className, children, ...props }: React.Component
   )
 }
 
-/** Portal brand, matching the demo dashboard: wordmark + workspace tile when expanded, logo mark when collapsed. */
+/** Portal brand: official EdTrack ONE wordmark; compact wordmark when the rail is collapsed. */
 export function SidebarBrand({ href, workspace }: { href: string; workspace: string }) {
   const { open, animate } = useSidebar()
   if (animate && !open) {
     return (
       <Link href={href} aria-label={`EdTrack ${workspace}`} className="flex shrink-0 justify-center py-1">
-        <Image src="/images/etia-logo.png" alt="" width={32} height={32} className="rounded-md" />
+        <EdTrackLogo className="h-auto w-[72px]" />
       </Link>
     )
   }
   return (
     <div className="shrink-0">
       <Link href={href} aria-label={`EdTrack ${workspace}`} className="block px-1 pb-3">
-        <Image src="/images/EdTrack1 logo.png" alt="" width={1967} height={800} priority className="h-auto w-[160px]" />
+        <EdTrackLogo priority className="h-auto w-[160px]" />
       </Link>
       <div className="flex items-center gap-2.5 border-y border-sidebar-border px-1.5 py-3">
-        <span
-          className="grid h-8 w-8 shrink-0 place-items-center rounded-[9px] border border-[#d9e5f6] bg-secondary text-[13px] font-semibold text-secondary-foreground"
-          aria-hidden
-        >
-          E
-        </span>
+        <EdTrackLogo className="h-8 w-auto max-w-[36px] shrink-0" alt="" />
         <div className="min-w-0 leading-tight">
           <p className="truncate text-xs font-semibold text-foreground">EdTrack</p>
           <p className="mt-1 truncate text-[11px] text-muted-foreground">{workspace}</p>

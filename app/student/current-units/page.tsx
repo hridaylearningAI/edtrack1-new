@@ -10,10 +10,12 @@ import { useEnrollments } from "@/lib/hooks/useEnrollments"
 import { useCourses } from "@/lib/hooks/useCourses"
 import { useUser } from "@/lib/hooks/useUser"
 import { GnpsDashboardCard } from "@/components/student/gnps-dashboard-card"
+import { DemoKpis } from "@/components/platform/demo-module-shell"
 import { buildCourseNameLookup, getEnrollmentCourseDisplayName } from "@/lib/student/enrollment-course-name"
 import { getGnpsUnitImageUrl } from "@/lib/gnps-unit-images"
 import {
   buildCourseCodeLookup,
+  canOpenEnrollment,
   enrollmentMatchesSearch,
   getEnrollmentCourseCode,
   isGnpsEnrollment,
@@ -277,44 +279,13 @@ export default function CurrentUnitsPage() {
           </div>
         </div>
 
-        {/* Progress Overview */}
-        <div className="grid gap-4 md:grid-cols-3">
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{totalActiveUnits}</div>
-                  <p className="text-xs text-muted-foreground">Active Units</p>
-                </div>
-                <BookOpen className="h-8 w-8 text-primary" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{averageProgress}%</div>
-                  <p className="text-xs text-muted-foreground">Average Progress</p>
-                </div>
-                <Progress value={averageProgress} className="h-8 w-8" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{totalModules}</div>
-                  <p className="text-xs text-muted-foreground">Total Modules</p>
-                </div>
-                <CheckCircle className="h-8 w-8 text-success" />
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+        <DemoKpis
+          items={[
+            { label: 'Active units', value: String(totalActiveUnits) },
+            { label: 'Average progress', value: `${averageProgress}%` },
+            { label: 'Total modules', value: String(totalModules) },
+          ]}
+        />
 
         {/* Search Bar */}
         {activeEnrollments.length > 0 && (
@@ -406,9 +377,7 @@ export default function CurrentUnitsPage() {
                 const hasNclexKeyword = /\bnclex\b|\bosce\b/.test(eventCourse)
                 return hasNameMatch || hasIdMatch || (isNclexEnrollment && hasNclexKeyword)
               })
-              const hasContentFolder = Boolean(
-                (enrollment.courses as { content_folder?: string } | null)?.content_folder?.trim()
-              )
+              const canOpen = canOpenEnrollment(enrollment, courseCodeById)
               const canUpgradeCertificate = (() => {
                 if (enrollment.with_certificate) return false
                 const course = enrollment.courses as {
@@ -426,7 +395,7 @@ export default function CurrentUnitsPage() {
                     displayName={displayName}
                     courseCode={(courseCode ?? "GNPS").toUpperCase()}
                     imageUrl={courseImageUrl}
-                    canOpen={hasContentFolder}
+                    canOpen={canOpen}
                     extraActions={
                       <>
                         {enrollment.status === "completed" && enrollment.with_certificate ? (
@@ -531,7 +500,7 @@ export default function CurrentUnitsPage() {
                           )}
                         </div>
                         <div className="flex items-center space-x-2 flex-wrap shrink-0">
-                        {hasContentFolder && (
+                        {canOpen && (
                           <Button size="sm" asChild className="bg-brand-blue hover:bg-brand-blue/90 gap-1">
                             <Link href={`/student/course/${enrollment.course_id}`}>
                               <Play className="h-3 w-3" />

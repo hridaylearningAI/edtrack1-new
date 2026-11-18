@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: #f8fafc;
+  background: #f5f3ed;
 }
 
 .student-notes-cards.is-immersive {
-  background: var(--gnps-mineral, #f3f6f7);
+  background: var(--gnps-mineral, #f5f3ed);
 }
 
 .student-notes-cards.is-edtec {
@@ -62,17 +62,17 @@
   flex-shrink: 0;
   height: 44px;
   border-radius: 999px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #d8dfd2;
   background: #fff;
-  color: #334155;
-  box-shadow: 0 4px 12px rgb(15 23 42 / 6%);
+  color: #263432;
+  box-shadow: 0 4px 12px rgba(38, 52, 50, 0.07);
   transition: transform 120ms ease, background 120ms ease, opacity 120ms ease;
 }
 
 .student-notes-cards-arrow:hover:not(:disabled),
 .student-notes-cards-arrow:focus-visible {
-  background: #eff6ff;
-  color: #2563eb;
+  background: #e6edf7;
+  color: #245ac6;
 }
 
 .student-notes-cards-arrow:active:not(:disabled) {
@@ -102,10 +102,10 @@
   height: 100%;
   min-height: 0;
   padding: 18px 18px 14px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #d8dfd2;
   border-radius: 20px;
   background: #fff;
-  box-shadow: 0 10px 28px rgb(15 23 42 / 6%);
+  box-shadow: 0 10px 28px rgba(38, 52, 50, 0.07);
   overflow: hidden;
 }
 
@@ -174,7 +174,7 @@
 }
 
 .student-notes-cards.is-edtec .student-notes-card {
-  border-color: var(--edtec-line, #e2e8f0);
+  border-color: var(--edtec-line, #d8dfd2);
   box-shadow: 0 12px 30px rgb(37 99 235 / 8%);
 }
 
@@ -197,8 +197,8 @@
   height: 56px;
   border-radius: 16px;
   flex-shrink: 0;
-  background: #eff6ff;
-  color: #2563eb;
+  background: #e6edf7;
+  color: #245ac6;
 }
 
 .student-notes-card-icon.is-outcomes {
@@ -238,8 +238,8 @@
   gap: 6px;
   padding: 4px 10px;
   border-radius: 999px;
-  background: #eff6ff;
-  color: #1d4ed8;
+  background: #e6edf7;
+  color: #204b9c;
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.06em;
@@ -248,21 +248,21 @@
 
 .student-notes-card-meta em {
   font-style: normal;
-  color: #64748b;
+  color: #3d4641;
   font-size: 0.78rem;
   font-weight: 700;
 }
 
 .student-notes-card-section {
   margin: 0 0 4px;
-  color: #64748b;
+  color: #3d4641;
   font-size: 0.78rem;
   font-weight: 700;
 }
 
 .student-notes-card-content h2 {
   margin: 0 0 12px;
-  color: #0f172a;
+  color: #263432;
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   font-weight: 800;
   line-height: 1.25;
@@ -270,7 +270,7 @@
 
 .student-notes-card-content p {
   margin: 0 0 10px;
-  color: #334155;
+  color: #263432;
   font-size: 1rem;
   line-height: 1.65;
 }
@@ -290,9 +290,9 @@
   align-items: flex-start;
   padding: 10px 12px;
   border-radius: 12px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  color: #334155;
+  background: #f5f3ed;
+  border: 1px solid #d8dfd2;
+  color: #263432;
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -314,14 +314,14 @@
   height: 10px;
   border-radius: 999px;
   border: 0;
-  background: #cbd5e1;
+  background: #d8dfd2;
   padding: 0;
   transition: width 140ms ease, background 140ms ease;
 }
 
 .student-notes-card-step.is-active {
   width: 28px;
-  background: #2563eb;
+  background: #245ac6;
 }
 
 .student-notes-card-step.is-done {
@@ -344,7 +344,7 @@
   padding: 10px 16px;
   border-radius: 999px;
   border: 0;
-  background: #2563eb;
+  background: #245ac6;
   color: #fff;
   font-size: 0.86rem;
   font-weight: 800;
@@ -354,7 +354,7 @@
 
 .student-notes-cards-finish-btn:hover:not(:disabled),
 .student-notes-cards-finish-btn:focus-visible {
-  background: #1d4ed8;
+  background: #204b9c;
 }
 
 .student-notes-cards-finish-btn:active:not(:disabled) {
@@ -367,7 +367,7 @@
 }
 
 .student-notes-cards.is-edtec .student-notes-cards-finish-btn {
-  background: var(--edtec-blue, #2563eb);
+  background: var(--edtec-blue, #245ac6);
 }
 
 .student-notes-cards-tip {
@@ -376,7 +376,7 @@
   gap: 10px;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #d8dfd2;
   background: #fff;
   color: #475569;
   font-size: 0.78rem;
@@ -391,7 +391,7 @@
   margin-left: auto;
   border: 0;
   background: transparent;
-  color: #94a3b8;
+  color: #646e68;
   padding: 2px;
 }
 
@@ -402,19 +402,19 @@
   min-height: 0;
   overflow: auto;
   padding: 16px;
-  border-left: 1px solid #e2e8f0;
+  border-left: 1px solid #d8dfd2;
   background: linear-gradient(180deg, #fff 0%, #f8fafc 100%);
 }
 
 .student-notes-cards.is-edtec .student-notes-edbot-panel {
-  border-left-color: var(--edtec-line, #e2e8f0);
+  border-left-color: var(--edtec-line, #d8dfd2);
   background: linear-gradient(180deg, #fff 0%, #eff6ff 100%);
 }
 
 @media (max-width: 1099px) {
   .student-notes-edbot-panel {
     border-left: 0;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #d8dfd2;
     max-height: min(42vh, 360px);
   }
 }
@@ -428,7 +428,7 @@
 
 .student-notes-edbot-panel-head p {
   margin: 0;
-  color: #64748b;
+  color: #3d4641;
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -437,7 +437,7 @@
 
 .student-notes-edbot-panel-head h3 {
   margin: 2px 0 0;
-  color: #0f172a;
+  color: #263432;
   font-size: 1.05rem;
   font-weight: 800;
 }
@@ -449,12 +449,12 @@
   padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid #dbeafe;
-  background: #eff6ff;
+  background: #e6edf7;
   flex-shrink: 0;
 }
 
 .student-notes-edbot-card-ref span {
-  color: #1d4ed8;
+  color: #204b9c;
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.06em;
@@ -462,7 +462,7 @@
 }
 
 .student-notes-edbot-card-ref strong {
-  color: #0f172a;
+  color: #263432;
   font-size: 0.9rem;
   font-weight: 700;
   line-height: 1.35;
@@ -476,13 +476,13 @@
   padding: 10px 12px;
   border-radius: 12px;
   background: #fff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #d8dfd2;
   flex-shrink: 0;
 }
 
 .student-notes-edbot-progress p {
   margin: 0;
-  color: #64748b;
+  color: #3d4641;
   font-size: 0.72rem;
   font-weight: 700;
 }
@@ -490,7 +490,7 @@
 .student-notes-edbot-progress strong {
   display: block;
   margin-top: 2px;
-  color: #0f172a;
+  color: #263432;
   font-size: 0.95rem;
 }
 
@@ -499,14 +499,14 @@
   height: 6px;
   overflow: hidden;
   border-radius: 999px;
-  background: #e2e8f0;
+  background: #d8dfd2;
 }
 
 .student-notes-edbot-progress-track > span {
   display: block;
   height: 100%;
   transform-origin: left center;
-  background: linear-gradient(90deg, #2563eb, #dc2626, #f59e0b);
+  background: linear-gradient(90deg, #245ac6, #dc2626, #f59e0b);
 }
 
 .student-notes-edbot-explain {

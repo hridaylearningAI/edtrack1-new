@@ -1,12 +1,21 @@
+'use client'
+
 import { useState, useEffect } from 'react'
+import { Bar, BarChart, XAxis, YAxis } from 'recharts'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from '@/components/ui/chart'
 import { X, Users, BarChart3, BookOpen, Clock, GraduationCap, TrendingUp, Target, Award, Loader2, AlertCircle } from 'lucide-react'
 import { Course, Enrollment } from '@/lib/api'
 import { useEnrollments } from '@/lib/hooks/useEnrollments'
+
+const courseAnalyticsConfig = {
+  students: { label: 'Students', color: '#2054a0' },
+  enrollments: { label: 'Enrollments', color: '#2054a0' },
+} satisfies ChartConfig
 
 interface CourseDetailsPanelProps {
   course: Course | null
@@ -228,7 +237,7 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                         <div className="flex items-center justify-between">
                           <div className="flex items-center space-x-3">
                             <Avatar className="h-10 w-10">
-                              <AvatarImage src="/placeholder.svg" alt={enrollment.student_name || 'Student'} />
+                              <AvatarImage src={`https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(enrollment.student_name || 'Student')}&backgroundColor=eee8f6`} alt={enrollment.student_name || 'Student'} />
                               <AvatarFallback>
                                 {(enrollment.student_name || 'Student').split(" ").map((n: string) => n[0]).join("")}
                               </AvatarFallback>
@@ -432,23 +441,29 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                   <CardDescription>How students are progressing through the course</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-3">
-                    {Object.entries(analytics.progressDistribution).map(([range, count]) => (
-                      <div key={range} className="flex items-center justify-between">
-                        <span className="text-sm font-medium">{range}</span>
-                        <div className="flex items-center space-x-2">
-                          <div className="w-32 bg-muted rounded-full h-2">
-                            <div
-                              className="h-2 rounded-full bg-primary"
-                              style={{ 
-                                width: `${(count as number / analytics.totalEnrollments) * 100}%` 
-                              }}
-                            />
-                          </div>
-                          <span className="text-sm text-muted-foreground w-8">{count as number}</span>
-                        </div>
-                      </div>
-                    ))}
+                  <div className="h-56">
+                    <ChartContainer config={courseAnalyticsConfig} className="!aspect-auto h-full w-full">
+                      <BarChart
+                        layout="vertical"
+                        data={Object.entries(analytics.progressDistribution).map(([range, count]) => ({
+                          range,
+                          students: count as number,
+                        }))}
+                        margin={{ top: 4, right: 12, left: 8, bottom: 0 }}
+                      >
+                        <XAxis type="number" allowDecimals={false} tickLine={false} axisLine={false} />
+                        <YAxis
+                          type="category"
+                          dataKey="range"
+                          width={64}
+                          tickLine={false}
+                          axisLine={false}
+                          tick={{ fontSize: 12 }}
+                        />
+                        <ChartTooltip content={<ChartTooltipContent />} />
+                        <Bar dataKey="students" fill="var(--color-students)" radius={[0, 4, 4, 0]} maxBarSize={18} />
+                      </BarChart>
+                    </ChartContainer>
                   </div>
                 </CardContent>
               </Card>
@@ -460,22 +475,21 @@ export function CourseDetailsPanel({ course, isOpen, onClose }: CourseDetailsPan
                   <CardDescription>New student enrollments over time</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex items-end space-x-2 h-32">
-                    {analytics.weeklyEnrollments.map((count: number, index: number) => (
-                      <div key={index} className="flex-1 flex flex-col items-center">
-                        <div
-                          className="w-full bg-primary rounded-t"
-                          style={{ 
-                            height: `${(count / Math.max(...analytics.weeklyEnrollments)) * 100}%` 
-                          }}
-                        />
-                        <span className="text-xs text-muted-foreground mt-1">{count}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="flex justify-between text-xs text-muted-foreground mt-2">
-                    <span>Week 1</span>
-                    <span>Week 7</span>
+                  <div className="h-40">
+                    <ChartContainer config={courseAnalyticsConfig} className="!aspect-auto h-full w-full">
+                      <BarChart
+                        data={analytics.weeklyEnrollments.map((count: number, index: number) => ({
+                          week: `W${index + 1}`,
+                          enrollments: count,
+                        }))}
+                        margin={{ top: 8, right: 8, left: -16, bottom: 0 }}
+                      >
+                        <XAxis dataKey="week" tickLine={false} axisLine={false} tick={{ fontSize: 11 }} />
+                        <YAxis allowDecimals={false} tickLine={false} axisLine={false} width={28} />
+                        <ChartTooltip content={<ChartTooltipContent />} />
+                        <Bar dataKey="enrollments" fill="var(--color-enrollments)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+                      </BarChart>
+                    </ChartContainer>
                   </div>
                 </CardContent>
               </Card>

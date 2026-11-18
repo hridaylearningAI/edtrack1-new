@@ -383,7 +383,7 @@ export default function NotificationsPage() {
                                   <div className="flex items-center space-x-2">
                                     <Avatar className="h-6 w-6">
                                       <AvatarImage
-                                        src="/placeholder.svg"
+                                        src={`https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(notification.recipient_name)}&backgroundColor=eee8f6`}
                                         alt={notification.recipient_name}
                                       />
                                       <AvatarFallback className="text-xs">

@@ -19,6 +19,9 @@ import {
 import { Button } from "@/components/ui/button"
 import { useUser } from "@/lib/hooks/useUser"
 import { useAnalytics } from "@/lib/hooks/useAnalytics"
+import { isDemoPlatformUser } from "@/lib/demo-platform"
+import { WorkspaceStateProvider } from "@/components/platform/workspace-state"
+import { WorkspaceOverview } from "@/components/platform/workspace-overview"
 import type { DashboardKpi } from "./dashboard-charts"
 
 const DashboardBento = dynamic(() => import("./dashboard-charts"), {
@@ -44,6 +47,15 @@ export default function AdminDashboard() {
   const { data, loading, error, refreshData } = useAnalytics()
   const router = useRouter()
   const name = user?.name?.split(" ")[0] || "Admin"
+  const isDemo = isDemoPlatformUser(user?.email)
+
+  if (isDemo) {
+    return (
+      <WorkspaceStateProvider>
+        <WorkspaceOverview />
+      </WorkspaceStateProvider>
+    )
+  }
 
   const kpis = useMemo((): DashboardKpi[] | null => {
     if (!data) return null

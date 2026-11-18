@@ -200,7 +200,7 @@ export function DemoCommandPalette() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Search EdTrack"
-        className="inline-flex min-h-9 items-center gap-2 rounded-lg border border-border bg-[#f8fafd] px-3 text-xs text-muted-foreground transition-colors hover:border-[#cddbee] hover:bg-[#eff5ff] sm:w-[230px]"
+        className="inline-flex min-h-9 items-center gap-2 rounded-lg border border-[#d8dfd2] bg-[#fafaf7] px-3 text-xs text-[#4f5853] transition-colors hover:border-[#c9d4c4] hover:bg-[#eef1ea] sm:w-[230px]"
       >
         <Search className="h-3.5 w-3.5 shrink-0" aria-hidden />
         <span className="hidden sm:inline">Search or jump to…</span>

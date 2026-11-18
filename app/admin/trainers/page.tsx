@@ -436,7 +436,7 @@ export default function TrainersAssessmentsPage() {
                             <TableCell>
                               <div className="flex items-center space-x-3">
                                 <Avatar className="h-10 w-10">
-                                  <AvatarImage src={trainer.avatar || "/placeholder.svg"} alt={trainer.name} />
+                                  <AvatarImage src={trainer.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(trainer.name)}&backgroundColor=e5eee6`} alt={trainer.name} />
                                   <AvatarFallback>
                                     {trainer.name
                                       .split(" ")
@@ -1005,7 +1005,7 @@ export default function TrainersAssessmentsPage() {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Avatar className="h-16 w-16">
-                  <AvatarImage src={selectedTrainer.avatar || "/placeholder.svg"} alt={selectedTrainer.name} />
+                  <AvatarImage src={selectedTrainer.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(selectedTrainer.name)}&backgroundColor=e5eee6`} alt={selectedTrainer.name} />
                   <AvatarFallback>
                     {selectedTrainer.name.split(" ").map((n) => n[0]).join("")}
                   </AvatarFallback>

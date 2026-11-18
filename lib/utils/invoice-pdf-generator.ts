@@ -66,16 +66,16 @@ export async function generateInvoicePDF(invoice: Invoice): Promise<void> {
     logoContainer.style.gap = '15px';
 
     const logoImg = document.createElement('img');
-    logoImg.src = '/images/etia-logo.png';
-    logoImg.alt = 'ETIA Logo';
+    logoImg.src = '/images/EdTrack1 logo.png';
+    logoImg.alt = 'EdTrack ONE';
     logoImg.style.height = '60px';
     logoImg.style.width = 'auto';
     logoImg.crossOrigin = 'anonymous';
 
     const logoText = document.createElement('div');
     logoText.innerHTML = `
-      <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1f2937;">ETIA</h1>
-      <p style="margin: 0; font-size: 14px; color: #6b7280;">Education Technology & Innovation Academy</p>
+      <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1f2937;">EdTrack ONE</h1>
+      <p style="margin: 0; font-size: 14px; color: #6b7280;">Learn. Manage. Comply. All in One.</p>
     `;
 
     logoContainer.appendChild(logoImg);

@@ -335,7 +335,7 @@ export default function DocumentsPage() {
                             <TableCell>
                               <div className="flex items-center space-x-3">
                                 <Avatar className="h-8 w-8">
-                                  <AvatarImage src={doc.student_avatar || "/placeholder.svg"} alt={doc.student_name || `Student ${doc.student_id}`} />
+                                  <AvatarImage src={doc.student_avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(doc.student_name || `Student ${doc.student_id}`)}&backgroundColor=e6edf7`} alt={doc.student_name || `Student ${doc.student_id}`} />
                                   <AvatarFallback>
                                     {(doc.student_name || `Student ${doc.student_id}`)
                                       .split(" ")

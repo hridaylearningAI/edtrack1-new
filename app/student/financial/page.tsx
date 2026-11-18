@@ -6,13 +6,11 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { 
-  DollarSign, 
   CreditCard, 
   Download, 
   Calendar, 
   AlertCircle, 
   CheckCircle,
-  TrendingUp,
   Receipt,
   FileText,
   Eye,
@@ -21,6 +19,7 @@ import {
 } from "lucide-react"
 import { usePurchases } from "@/lib/hooks/usePurchases"
 import { useUser } from "@/lib/hooks/useUser"
+import { DemoKpis } from "@/components/platform/demo-module-shell"
 
 export default function FinancialPage() {
   const { user, isAuthenticated, isLoading: userLoading } = useUser();
@@ -90,62 +89,22 @@ export default function FinancialPage() {
           </div>
         </div>
 
-        {/* Financial Overview Cards */}
-        <div className="grid gap-4 md:grid-cols-3">
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">
-                    {summaryLoading ? (
-                      <Loader2 className="h-6 w-6 animate-spin" />
-                    ) : (
-                      `$${financialSummary?.totalTuition?.toLocaleString() || '0'}`
-                    )}
-                  </div>
-                  <p className="text-xs text-muted-foreground">Total Tuition</p>
-                </div>
-                <DollarSign className="h-8 w-8 text-primary" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">
-                    {summaryLoading ? (
-                      <Loader2 className="h-6 w-6 animate-spin" />
-                    ) : (
-                      `$${financialSummary?.paidAmount?.toLocaleString() || '0'}`
-                    )}
-                  </div>
-                  <p className="text-xs text-muted-foreground">Amount Paid</p>
-                </div>
-                <CheckCircle className="h-8 w-8 text-success" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">
-                    {summaryLoading ? (
-                      <Loader2 className="h-6 w-6 animate-spin" />
-                    ) : (
-                      `$${financialSummary?.scholarshipAmount?.toLocaleString() || '0'}`
-                    )}
-                  </div>
-                  <p className="text-xs text-muted-foreground">Scholarships</p>
-                </div>
-                <TrendingUp className="h-8 w-8 text-primary" />
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+        <DemoKpis
+          items={[
+            {
+              label: 'Total tuition',
+              value: summaryLoading ? '—' : `$${financialSummary?.totalTuition?.toLocaleString() || '0'}`,
+            },
+            {
+              label: 'Amount paid',
+              value: summaryLoading ? '—' : `$${financialSummary?.paidAmount?.toLocaleString() || '0'}`,
+            },
+            {
+              label: 'Scholarships',
+              value: summaryLoading ? '—' : `$${financialSummary?.scholarshipAmount?.toLocaleString() || '0'}`,
+            },
+          ]}
+        />
 
         {/* Main Content */}
         <Tabs defaultValue="overview" className="space-y-6">

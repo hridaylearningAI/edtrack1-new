@@ -1,0 +1,22 @@
+{
+  "generator": "Built-in image_gen",
+  "selectedConcept": "07-hybrid",
+  "sourceFiles": [
+    "components/home-landing.module.css",
+    "components/home-platform-details.module.css",
+    "components/home-room-story.ts"
+  ],
+  "palette": {
+    "paper": "#f5f3ed",
+    "panel": "#fafaf7",
+    "ink": "#263432",
+    "muted": "#6c746f",
+    "primary": "#263a32",
+    "blue": "#245ac6",
+    "green": "#208064",
+    "sage": "#41755c",
+    "terracotta": "#c44b37",
+    "border": "#d8dfd2"
+  },
+  "prompt": "Edit the referenced EdTrack ONE Hybrid demo dashboard screenshot. Preserve its exact layout, all text, numbers, charts, icons, serif/sans typography, spacing, pill navigation, panel geometry and subtle tactile depth. Change ONLY its palette to match the actual EdTrack ONE landing page CSS: warm paper canvas #f5f3ed, warm off-white panel surfaces #fafaf7, dark green-charcoal text #263432, secondary text #6c746f, fine sage-grey dividers #d8dfd2. Primary Enrol student button background forest green #263a32 with white text. Chart line and selected blue accents use landing-page blue #245ac6 rather than electric blue, soft translucent tints of that same blue. Green progress and learning accents #208064, record/completion sage #41755c. Attention indicators use terracotta #c44b37 or #bb5549 and pale tints. Replace mustard/yellow accents with the existing landing-page muted sage/terracotta/blue family so the palette is fully cohesive. Active navigation uses a pale blue tint with #245ac6 icon/text. Keep the background calm, typography highly readable, sophisticated investor-demo quality. Flat full-screen landscape screenshot, no device frame, no extra text or added decoration. Keep DEMO SAMPLE DATA badge and footer."
+}

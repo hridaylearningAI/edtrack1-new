@@ -391,7 +391,7 @@ export default function ProgressTrackerPage() {
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex items-center space-x-4">
                             <Avatar className="h-12 w-12">
-                              <AvatarImage src={student.avatar || "/placeholder.svg?height=40&width=40"} alt={student.name} />
+                              <AvatarImage src={student.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(student.name)}&backgroundColor=eee8f6`} alt={student.name} />
                               <AvatarFallback>
                                 {student.name
                                   .split(" ")

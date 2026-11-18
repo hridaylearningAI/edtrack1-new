@@ -86,16 +86,16 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
       
       // Try to load logo as base64 or use text fallback
       const logoImg = document.createElement('img');
-      logoImg.src = '/images/etia-logo.png';
-      logoImg.alt = 'ETIA Logo';
+      logoImg.src = '/images/EdTrack1 logo.png';
+      logoImg.alt = 'EdTrack ONE';
       logoImg.style.height = '60px';
       logoImg.style.width = 'auto';
       logoImg.crossOrigin = 'anonymous';
       
       const logoText = document.createElement('div');
       logoText.innerHTML = `
-        <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1b304e;">ETIA</h1>
-        <p style="margin: 0; font-size: 14px; color: #5a6d88;">Education Technology & Innovation Academy</p>
+        <h1 style="margin: 0; font-size: 24px; font-weight: bold; color: #1b304e;">EdTrack ONE</h1>
+        <p style="margin: 0; font-size: 14px; color: #5a6d88;">Learn. Manage. Comply. All in One.</p>
       `;
       
       logoContainer.appendChild(logoImg);
@@ -211,15 +211,15 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
         <div className="flex items-center justify-between pb-4 mb-4 border-b">
           <div className="flex items-center gap-4">
             <Image 
-              src="/images/etia-logo.png" 
-              alt="ETIA Logo" 
-              width={60} 
-              height={60} 
-              className="object-contain"
+              src="/images/EdTrack1 logo.png" 
+              alt="EdTrack ONE" 
+              width={1967} 
+              height={800} 
+              className="h-10 w-auto object-contain"
             />
             <div>
-              <h2 className="text-xl font-semibold text-foreground">ETIA</h2>
-              <p className="text-sm text-muted-foreground">Education Technology & Innovation Academy</p>
+              <h2 className="text-xl font-semibold text-foreground">EdTrack ONE</h2>
+              <p className="text-sm text-muted-foreground">Learn. Manage. Comply. All in One.</p>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ export function InvoiceDetailsDialog({ invoice, isOpen, onClose }: InvoiceDetail
               <div className="space-y-3 p-4 border rounded-lg">
                 <div className="flex items-center space-x-3">
                   <Avatar className="h-10 w-10">
-                    <AvatarImage src="/placeholder.svg" alt={invoice.student_name || 'Student'} />
+                    <AvatarImage src={`https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(invoice.student_name || 'Student')}&backgroundColor=e5eee6`} alt={invoice.student_name || 'Student'} />
                     <AvatarFallback>
                       {(invoice.student_name || 'Student').split(" ").map((n) => n[0]).join("")}
                     </AvatarFallback>

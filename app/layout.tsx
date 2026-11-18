@@ -26,13 +26,13 @@ const allowedRedirectOrigins = [
 ]
 
 export const metadata: Metadata = {
-  title: 'EdTec - Student Management Portal',
-  description: 'Student Management System for EdTec',
-  generator: 'EdTec',
+  title: 'EdTrack ONE',
+  description: 'Student management and learning in one connected workspace',
+  generator: 'EdTrack ONE',
   icons: {
-    icon: '/images/etia-logo.png',
-    shortcut: '/images/etia-logo.png',
-    apple: '/images/etia-logo.png',
+    icon: '/images/EdTrack1 logo.png',
+    shortcut: '/images/EdTrack1 logo.png',
+    apple: '/images/EdTrack1 logo.png',
   },
 }
 

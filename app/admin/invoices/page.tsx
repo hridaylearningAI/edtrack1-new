@@ -255,7 +255,7 @@ export default function InvoicesPaymentsPage() {
                             <TableCell>
                               <div className="flex items-center space-x-3">
                                 <Avatar className="h-8 w-8">
-                                  <AvatarImage src="/placeholder.svg" alt={invoice.student_name || `Student ${invoice.student_id}`} />
+                                  <AvatarImage src={`https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(invoice.student_name || `Student ${invoice.student_id}`)}&backgroundColor=e5eee6`} alt={invoice.student_name || `Student ${invoice.student_id}`} />
                                   <AvatarFallback>
                                     {(invoice.student_name || `Student ${invoice.student_id}`)
                                       .split(" ")

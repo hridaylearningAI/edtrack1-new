@@ -1,9 +1,10 @@
 "use client"
 
-import Image from "next/image"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { UserButton, useUser } from "@clerk/nextjs"
 import { IconChevronRight, IconExternalLink } from "@tabler/icons-react"
+import { EdTrackLogo } from "@/components/brand/edtrack-logo"
 import { useStudentTopBarActions } from "@/lib/contexts/student-top-bar-actions"
 import { isDemoPlatformUser } from "@/lib/demo-platform"
 import { DemoCommandPalette } from "@/components/demo-command-palette"
@@ -35,12 +36,15 @@ export function EdTecTopBar({
   const label = showCustomBack ? backLabel : "Back to EdTec"
   const topBarActions = useStudentTopBarActions()
   const { user } = useUser()
-  const isDemo = isDemoPlatformUser(user?.primaryEmailAddress?.emailAddress)
+  // Clerk user is unavailable on SSR — gate demo chrome until mount to avoid hydration mismatch.
+  const [demoReady, setDemoReady] = useState(false)
+  useEffect(() => setDemoReady(true), [])
+  const isDemo = demoReady && isDemoPlatformUser(user?.primaryEmailAddress?.emailAddress)
   const backClass =
     "flex min-h-10 items-center gap-2 rounded-md text-muted-foreground transition-colors hover:text-foreground"
   const backContent = (
     <>
-      <Image src="/images/etia-logo.png" alt="" width={24} height={24} className="shrink-0 rounded-md" />
+      <EdTrackLogo className="h-6 w-auto max-w-[112px] shrink-0" />
       <span className="hidden sm:inline">{label}</span>
     </>
   )

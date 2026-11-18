@@ -13,6 +13,7 @@ import { useUser } from '@/lib/hooks/useUser'
 import { Course } from '@/lib/api'
 import { courseNameToSlug } from '@/lib/utils'
 import { Search, Grid, List, Loader2, AlertCircle } from 'lucide-react'
+import { DemoKpis } from '@/components/platform/demo-module-shell'
 
 export default function StudentCoursesPage() {
   const {
@@ -138,33 +139,14 @@ export default function StudentCoursesPage() {
         </p>
       </div>
 
-      {/* Course Statistics */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Card>
-          <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-foreground">{courseStats.total}</div>
-            <p className="text-sm text-muted-foreground">Total Courses</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-success">{courseStats.live}</div>
-            <p className="text-sm text-muted-foreground">Available Now</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-primary">{courseStats.comingSoon}</div>
-            <p className="text-sm text-muted-foreground">Coming Soon</p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-muted-foreground">{courseStats.archived}</div>
-            <p className="text-sm text-muted-foreground">Archived</p>
-          </CardContent>
-        </Card>
-      </div>
+      <DemoKpis
+        items={[
+          { label: 'Total courses', value: String(courseStats.total) },
+          { label: 'Available now', value: String(courseStats.live) },
+          { label: 'Coming soon', value: String(courseStats.comingSoon) },
+          { label: 'Archived', value: String(courseStats.archived) },
+        ]}
+      />
 
       {/* Search and Filters */}
       <Card>

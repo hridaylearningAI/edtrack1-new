@@ -1,74 +1,106 @@
 'use client'
 
-import { useEffect, type ReactNode } from 'react'
+import type { ReactNode } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-import { UserButton, useUser } from '@clerk/nextjs'
-import { ArrowLeft, ChevronRight, LayoutDashboard } from 'lucide-react'
-
-import { PLATFORM_MODULES, exploreStorageKey, type PlatformModuleDef } from '@/lib/demo-platform'
-import { DemoSurface } from './demo-surface'
-import { MODULE_DETAILS } from './platform-overview-map'
-import styles from './dashboard.module.css'
+import type { PlatformModuleDef } from '@/lib/demo-platform'
+import { MODULE_DETAILS } from './module-definitions'
+import { DidacPortalShell } from '@/components/portal/didac-portal-shell'
+import { WorkspaceLordIcon } from './workspace-lord-icon'
+import { useWorkspaceMotion } from './use-workspace-motion'
+import {
+  LI_BLUE,
+  LI_BLUSH,
+  LI_LILAC,
+  LI_SAGE,
+  PLATFORM_ICONS,
+} from './platform-icons'
+import w from './workspace.module.css'
 import s from './module.module.css'
 
-// Same order as the dashboard library: the live Student Management module first.
-const NAV_MODULES = [...PLATFORM_MODULES].sort((a, b) => a.slug === 'sms' ? -1 : b.slug === 'sms' ? 1 : 0)
+const KPI_TONES = [
+  { tone: 'lilac' as const, colors: LI_LILAC, icon: PLATFORM_ICONS.learners },
+  { tone: 'mint' as const, colors: LI_SAGE, icon: PLATFORM_ICONS.learning },
+  { tone: 'blue' as const, colors: LI_BLUE, icon: PLATFORM_ICONS.fees },
+  { tone: 'blush' as const, colors: LI_BLUSH, icon: PLATFORM_ICONS.assessments },
+]
 
-type DemoModuleShellProps = {
-  module: PlatformModuleDef
-  children: ReactNode
-}
+const moduleSections = [
+  {
+    label: 'Explore',
+    items: [
+      { title: 'Learning', href: '/platform/modules/lms', icon: PLATFORM_ICONS.learning },
+      { title: 'Fees', href: '/platform/modules/fees', icon: PLATFORM_ICONS.fees },
+      { title: 'Scheduling', href: '/platform/modules/scheduling', icon: PLATFORM_ICONS.schedule },
+      { title: 'Compliance', href: '/platform/modules/comply-vet', icon: PLATFORM_ICONS.compliance },
+    ],
+  },
+  {
+    label: 'Portals',
+    items: [
+      { title: 'Admin SMS', href: '/admin', icon: PLATFORM_ICONS.docs },
+      { title: 'Student portal', href: '/student', icon: PLATFORM_ICONS.students },
+      { title: 'Trainer portal', href: '/trainer', icon: PLATFORM_ICONS.learning },
+      { title: 'Partner portal', href: '/partner', icon: PLATFORM_ICONS.fees },
+    ],
+  },
+]
 
-export function DemoModuleShell({ module, children }: DemoModuleShellProps) {
-  const { user } = useUser()
+export function DemoModuleShell({ module, children }: { module: PlatformModuleDef; children: ReactNode }) {
   const detail = MODULE_DETAILS[module.slug]
-
-  // Count this page on the dashboard's discovery trail, however the visitor arrived.
-  useEffect(() => {
-    if (!user?.id) return
-    const key = exploreStorageKey(user.id)
-    try {
-      const saved = JSON.parse(localStorage.getItem(key) || '{}')
-      const visited: unknown[] = Array.isArray(saved.visited) ? saved.visited : []
-      if (!visited.includes(module.slug)) localStorage.setItem(key, JSON.stringify({ ...saved, visited: [...visited, module.slug] }))
-    } catch { /* Browsing still works when storage is unavailable. */ }
-  }, [user?.id, module.slug])
-
-  return <DemoSurface><div className={styles.shell}>
-    <aside className={styles.sidebar} aria-label="Workspace navigation">
-      <Link href="/platform" className={styles.brand} aria-label="EdTrack ONE overview"><Image src="/images/EdTrack1 logo.png" alt="EdTrack ONE" width={1967} height={800} priority /></Link>
-      <div className={styles.workspaceSwitch}><span>E</span><div><b>EdTrack workspace</b><small>Platform demo</small></div><ChevronRight size={14} /></div>
-      <p className={styles.navLabel}>WORKSPACE</p>
-      <nav aria-label="Workspace"><Link href="/platform" aria-label="Overview"><LayoutDashboard size={18} /><span>Overview</span></Link></nav>
-      <p className={styles.navLabel}>MODULES</p>
-      <nav aria-label="Modules">{NAV_MODULES.map(item => {
-        const d = MODULE_DETAILS[item.slug]; const current = item.slug === module.slug
-        return <Link key={item.slug} href={item.href} aria-label={d.title} aria-current={current ? 'page' : undefined} data-active={current}><d.icon size={18} /><span>{d.title}</span>{item.slug === 'sms' && <small>Full</small>}</Link>
-      })}</nav>
-      <div className={styles.sidebarBottom}><Link className={styles.homeLink} href="/" aria-label="Back to website"><ArrowLeft size={16} /><span>Back to website</span></Link><div className={styles.account}><UserButton afterSignOutUrl="/" /><div><b>{user?.firstName || 'Demo'} workspace</b><small>Let’s explore together</small></div></div></div>
-    </aside>
-    <div className={styles.content}>
-      <header className={styles.topbar}>
-        <span className={styles.breadcrumb}><Link className={s.crumb} href="/platform">Workspace</Link><ChevronRight size={13} />{detail.category}<ChevronRight size={13} /><b>{detail.title}</b></span>
-        <span className={s.spacer} />
-        <span className={styles.demoBadge}><i />Demo preview</span>
-        <Link href="/platform" className={s.back}><ArrowLeft size={15} />All modules</Link>
-        <div className={styles.mobileUser}><UserButton afterSignOutUrl="/" /></div>
-      </header>
-      <main className={`${styles.main} ${s.page}`} data-tone={detail.tone}>
-        <div className={s.header} data-demo-reveal>
-          <span className={s.icon}><detail.icon size={26} strokeWidth={1.6} /></span>
-          <div><p>{detail.category.toUpperCase()}</p><h1>{detail.title}</h1><h2>{detail.description}</h2></div>
-        </div>
-        <div className={s.notice} data-demo-reveal><i />Sample data for illustration — nothing here is live.</div>
-        <div data-demo-reveal>{children}</div>
-        <footer className={styles.footer}><span>EdTrack ONE · Built around education.</span><span><i /><i /><i /> More connected. More possible.</span></footer>
-      </main>
-    </div>
-  </div></DemoSurface>
+  return (
+    <DidacPortalShell
+      brandTitle="EdTrack ONE"
+      brandSubtitle="Module preview"
+      brandHref="/platform"
+      showPlatformMap
+      showCommandPalette
+      sections={moduleSections}
+    >
+      <div className={w.moduleHeading}>
+        <Link href="/platform">← Platform map</Link>
+        <h1>{detail.title}</h1>
+        <p>{detail.description}</p>
+      </div>
+      <div className={w.notice}>
+        <i />
+        Demo workspace · Sample data for illustration
+      </div>
+      <div className={s.page} data-tone={detail.tone}>
+        {children}
+      </div>
+    </DidacPortalShell>
+  )
 }
 
-export function DemoKpis({ items }: { items: { label: string; value: string }[] }) {
-  return <dl className={s.kpis}>{items.map(kpi => <div key={kpi.label} className={s.kpi}><dt>{kpi.label}</dt><dd>{kpi.value}</dd></div>)}</dl>
+export function DemoKpis({
+  items,
+  columns,
+}: {
+  items: { label: string; value: string }[]
+  columns?: 2 | 3 | 4
+}) {
+  const motionRef = useWorkspaceMotion([items.map((item) => item.value).join('|')])
+  const cols = columns ?? (items.length <= 3 ? (items.length as 2 | 3) : 4)
+  return (
+    <div
+      className={w.metrics}
+      ref={motionRef}
+      style={{ marginBottom: 0, gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
+    >
+      {items.map((kpi, index) => {
+        const tone = KPI_TONES[index % KPI_TONES.length]
+        return (
+          <div className={w.metric} data-tone={tone.tone} data-animate="metric" key={kpi.label}>
+            <span className={w.metricBg} data-metric-icon>
+              <WorkspaceLordIcon src={tone.icon} trigger="hover" target="[data-animate='metric']" colors={tone.colors} size={96} />
+            </span>
+            <div className={w.metricBody}>
+              <strong>{kpi.value}</strong>
+              <small>{kpi.label}</small>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
 }

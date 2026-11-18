@@ -32,6 +32,20 @@ export function isGnpsEnrollment(
   return isGnpsCourseCode(getEnrollmentCourseCode(enrollment, courseCodeById))
 }
 
+/**
+ * Whether the student can open learning content for this enrollment.
+ * GNPS units ship bundled content by course code; NCLEX id 45 uses the adaptive player.
+ */
+export function canOpenEnrollment(
+  enrollment: Enrollment,
+  courseCodeById?: Map<number, string>,
+): boolean {
+  if ((enrollment as { is_staff_preview?: boolean }).is_staff_preview) return true
+  if (enrollment.course_id === NCLEX_COURSE_ID) return true
+  if (isGnpsEnrollment(enrollment, courseCodeById)) return true
+  return Boolean(enrollment.courses?.content_folder?.trim())
+}
+
 /** Units that should stay on the dashboard / Current Units list. */
 export function isListedCurrentEnrollment(
   enrollment: Enrollment,

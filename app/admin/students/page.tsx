@@ -346,7 +346,7 @@ export default function StudentsPage() {
                           <TableCell>
                             <div className="flex items-center space-x-3">
                               <Avatar className="h-10 w-10 shrink-0">
-                                <AvatarImage src={student.avatar || "/placeholder.svg"} alt={student.name} />
+                                <AvatarImage src={student.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(student.name)}&backgroundColor=e6edf7`} alt={student.name} />
                                 <AvatarFallback>
                                   {student.name
                                     .split(" ")

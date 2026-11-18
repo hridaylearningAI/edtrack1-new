@@ -102,7 +102,7 @@ export function StudentDetailsPanel({ student, progressData, isOpen, onClose }: 
           {/* Student Avatar and Basic Info */}
           <div className="text-center space-y-4">
             <Avatar className="h-24 w-24 mx-auto">
-              <AvatarImage src={student.avatar || "/placeholder.svg"} alt={student.name} />
+              <AvatarImage src={student.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(student.name)}&backgroundColor=e6edf7`} alt={student.name} />
               <AvatarFallback className="text-2xl">
                 {student.name.split(" ").map((n) => n[0]).join("")}
               </AvatarFallback>

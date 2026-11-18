@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useStudentNotifications } from "@/lib/hooks/useStudentNotifications"
 import { useUser } from "@/lib/hooks/useUser"
+import { DemoKpis } from "@/components/platform/demo-module-shell"
 import { 
   Bell, 
   CheckCircle, 
@@ -168,44 +169,13 @@ export default function NotificationsPage() {
           </div>
         </div>
 
-        {/* Stats Overview */}
-        <div className="grid gap-4 md:grid-cols-3">
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{notifications.length}</div>
-                  <p className="text-xs text-muted-foreground">Total Notifications</p>
-                </div>
-                <Bell className="h-8 w-8 text-primary" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{unreadCount}</div>
-                  <p className="text-xs text-muted-foreground">Unread</p>
-                </div>
-                <AlertCircle className="h-8 w-8 text-warning" />
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-2xl font-bold text-foreground">{readNotifications.length}</div>
-                  <p className="text-xs text-muted-foreground">Read</p>
-                </div>
-                <CheckCircle className="h-8 w-8 text-success" />
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+        <DemoKpis
+          items={[
+            { label: 'Total notifications', value: String(notifications.length) },
+            { label: 'Unread', value: String(unreadCount) },
+            { label: 'Read', value: String(readNotifications.length) },
+          ]}
+        />
 
         {/* Main Content */}
         {error ? (

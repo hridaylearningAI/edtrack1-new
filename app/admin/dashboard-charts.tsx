@@ -377,20 +377,23 @@ export default function DashboardBento({
           <h2 className="text-sm font-semibold text-foreground">Revenue</h2>
           <p className="text-[11px] text-muted-foreground">Monthly completed</p>
         </div>
-        <div className="flex min-h-0 flex-1 items-end gap-1.5 pb-1">
-          {enrollmentTrends.map((t) => {
-            const h = Math.max(8, Math.round((t.revenue / revenueMax) * 100))
-            return (
-              <div key={t.period} className="flex h-full flex-1 flex-col items-center justify-end gap-1">
-                <div
-                  className="w-full rounded-md bg-gradient-to-t from-brand-blue to-brand-blue/40"
-                  style={{ height: `${h}%` }}
-                  title={`${t.month}: $${t.revenue.toLocaleString()}`}
-                />
-                <span className="text-[9px] font-medium uppercase text-muted-foreground">{t.month}</span>
-              </div>
-            )
-          })}
+        <div className="min-h-0 flex-1">
+          <ChartContainer
+            config={{ revenue: { label: "Revenue", color: "#2054a0" } }}
+            className="!aspect-auto h-full w-full"
+          >
+            <BarChart data={enrollmentTrends} margin={{ top: 4, right: 4, left: -20, bottom: 0 }}>
+              <XAxis
+                dataKey="month"
+                tick={{ fontSize: 9, fill: "#5a6d88" }}
+                axisLine={false}
+                tickLine={false}
+              />
+              <YAxis hide domain={[0, revenueMax]} />
+              <ChartTooltip content={<Tip />} />
+              <Bar dataKey="revenue" fill="var(--color-revenue)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+            </BarChart>
+          </ChartContainer>
         </div>
       </CellBox>
 

@@ -15,7 +15,7 @@ export interface CertificateData {
 export class CertificatePDFGenerator {
   private static async loadLogo(): Promise<string> {
     try {
-      const response = await fetch('/images/etia-logo.png')
+      const response = await fetch('/images/EdTrack1 logo.png')
       const blob = await response.blob()
       return new Promise((resolve) => {
         const reader = new FileReader()
@@ -314,7 +314,8 @@ static async generatePDF(certificateData: CertificateData): Promise<void> {
       try {
         const logoUrl = await this.loadLogo()
         if (logoUrl) {
-          pdf.addImage(logoUrl, 'PNG', margin + 15, margin + 15, 30, 30)
+          // Wordmark aspect ~2.46:1 (1967×800)
+          pdf.addImage(logoUrl, 'PNG', margin + 15, margin + 12, 55, 22)
         }
       } catch {}
   
@@ -322,7 +323,7 @@ static async generatePDF(certificateData: CertificateData): Promise<void> {
       pdf.setFont('helvetica', 'bold')
       pdf.setFontSize(26)
       pdf.setTextColor(30, 30, 30)
-      pdf.text('EdTec.online', margin + 50, margin + 28)
+      pdf.text('EdTrack ONE', margin + 78, margin + 28)
   
       pdf.setFont('helvetica', 'normal')
       pdf.setFontSize(13)

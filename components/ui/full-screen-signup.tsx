@@ -335,7 +335,7 @@ export const FullScreenSignup = () => {
         <div className="p-8 md:p-12 md:w-1/2 flex flex-col bg-secondary z-10 text-secondary-foreground rounded-tr-3xl">
           <div className="flex flex-col items-left mb-8">
             <div className="mb-4">
-              <Image src="/images/etia-logo.png" alt="ETIA Logo" width={60} height={60} className="object-contain" />
+              <Image src="/images/EdTrack1 logo.png" alt="EdTrack ONE" width={1967} height={800} className="h-12 w-auto object-contain" priority />
             </div>
             <h2 className="text-3xl font-medium mb-2 tracking-tight">Get Started</h2>
             <p className="text-left opacity-80">Welcome to Edtec Student Management System — Let's get started</p>

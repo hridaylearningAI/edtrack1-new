@@ -439,7 +439,7 @@ function StudentProfilesContent() {
             <CardHeader>
               <div className="flex items-center space-x-4">
                 <Avatar className="h-20 w-20">
-                  <AvatarImage src={currentStudent.avatar || "/placeholder.svg?height=80&width=80"} alt={currentStudent.name} />
+                  <AvatarImage src={currentStudent.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(currentStudent.name)}&backgroundColor=e6edf7`} alt={currentStudent.name} />
                   <AvatarFallback className="text-lg">
                     {currentStudent.name.split(" ").map((n) => n[0]).join("")}
                   </AvatarFallback>
@@ -1040,7 +1040,7 @@ function StudentProfilesContent() {
                   <Card key={student.id} className="hover:shadow-lg transition-shadow">
                     <CardHeader className="text-center pb-4">
                       <Avatar className="h-20 w-20 mx-auto mb-3">
-                        <AvatarImage src={student.avatar || "/placeholder.svg"} alt={student.name} />
+                        <AvatarImage src={student.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(student.name)}&backgroundColor=e6edf7`} alt={student.name} />
                         <AvatarFallback className="text-xl">
                           {student.name.split(" ").map((n) => n[0]).join("")}
                         </AvatarFallback>

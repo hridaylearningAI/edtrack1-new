@@ -3,12 +3,12 @@
 import { DemoKpis, DemoModuleShell } from '@/components/platform/demo-module-shell'
 import s from '@/components/platform/module.module.css'
 import { getPlatformModule } from '@/lib/demo-platform'
+import { workspaceSessions } from '@/lib/demo-workspace'
 
 const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
 const SESSIONS = [
-  { day: 0, time: '09:00', title: 'GNPS Live Class', room: 'Studio A' },
-  { day: 0, time: '14:00', title: 'Trainer huddle', room: 'Online' },
+  ...workspaceSessions.map(session => ({ day: new Date().getDay() === 0 ? 6 : new Date().getDay() - 1, time: session.time, title: session.title, room: session.detail })),
   { day: 1, time: '10:30', title: 'NCLEX Strategies', room: 'Studio B' },
   { day: 2, time: '09:00', title: 'Placement briefing', room: 'Hall 2' },
   { day: 3, time: '13:00', title: 'Partner webinar', room: 'Online' },
@@ -22,8 +22,8 @@ export default function SchedulingDemoPage() {
     <DemoModuleShell module={module}>
       <DemoKpis
         items={[
-          { label: 'Sessions this week', value: '18' },
-          { label: 'Rooms booked', value: '6' },
+          { label: 'Sessions this week', value: String(SESSIONS.length) },
+          { label: 'Rooms booked', value: String(new Set(SESSIONS.map(session => session.room)).size) },
           { label: 'Conflicts', value: '0' },
         ]}
       />

@@ -1,147 +1,92 @@
-"use client"
-import { useState } from "react"
-import React from "react"
-import { usePathname } from "next/navigation"
+'use client'
 
-import {
-  Sidebar,
-  SidebarBody,
-  SidebarBrand,
-  SidebarLink,
-  SidebarToggleButton,
-  isNavActive,
-} from "@/components/ui/sidebar"
-import { useEnrollments } from "@/lib/hooks/useEnrollments"
-import {
-  IconBook,
-  IconCircleCheck,
-  IconCreditCard,
-  IconCertificate,
-  IconUser,
-  IconHelp,
-  IconHome,
-} from "@tabler/icons-react"
-import { motion } from "framer-motion"
-import { cn } from "@/lib/utils"
-import { EdTecTopBar } from "@/components/edtec-top-bar"
-import { SidebarUserButton } from "@/components/sidebar-user-button"
-import { StudentTopBarActionsProvider } from "@/lib/contexts/student-top-bar-actions"
+import { useEffect, useState, type ReactNode } from 'react'
+import { usePathname } from 'next/navigation'
+import { DidacPortalShell, type PortalNavSection } from '@/components/portal/didac-portal-shell'
+import { PLATFORM_ICONS } from '@/components/platform/platform-icons'
+import { StudentTopBarActionsProvider } from '@/lib/contexts/student-top-bar-actions'
+import { useEnrollments } from '@/lib/hooks/useEnrollments'
+import { EdTecTopBar } from '@/components/edtec-top-bar'
+import { useUser } from '@/lib/hooks/useUser'
+import { isDemoPlatformUser } from '@/lib/demo-platform'
 
-interface StudentLayoutProps {
-  children: React.ReactNode
-  /**
-   * Edge-to-edge content (no padded card shell / top bar).
-   * Used by immersive course viewers such as GNPS units.
-   */
+const studentSections: PortalNavSection[] = [
+  {
+    label: 'Learning',
+    items: [
+      { title: 'Dashboard', href: '/student', icon: PLATFORM_ICONS.home, exact: true },
+      { title: 'Current units', href: '/student/current-units', icon: PLATFORM_ICONS.learning },
+      { title: 'Completed units', href: '/student/completed-units', icon: PLATFORM_ICONS.compliance },
+      { title: 'Certificates', href: '/student/certificates', icon: PLATFORM_ICONS.assessments },
+    ],
+  },
+  {
+    label: 'Account',
+    items: [
+      { title: 'Financial info', href: '/student/financial', icon: PLATFORM_ICONS.fees },
+      { title: 'Get support', href: '/student/support', icon: PLATFORM_ICONS.docs },
+      { title: 'Quick actions', href: '/student/quick-actions', icon: PLATFORM_ICONS.continue },
+    ],
+  },
+  {
+    label: 'Portals',
+    items: [
+      { title: 'Admin SMS', href: '/admin', icon: PLATFORM_ICONS.docs },
+      { title: 'Trainer portal', href: '/trainer', icon: PLATFORM_ICONS.learning },
+      { title: 'Partner portal', href: '/partner', icon: PLATFORM_ICONS.fees },
+    ],
+  },
+]
+
+export default function StudentLayout({
+  children,
+  immersive = false,
+}: {
+  children: ReactNode
   immersive?: boolean
-}
-
-export default function StudentLayout({ children, immersive = false }: StudentLayoutProps) {
+}) {
   const pathname = usePathname()
   const { enrollments, loading: enrollmentsLoading } = useEnrollments()
-
-  // When user has 0 purchased courses, lock navigation to dashboard only
+  const { user } = useUser()
+  // Defer demo-only chrome until mount so SSR HTML matches the first client paint.
+  const [demoReady, setDemoReady] = useState(false)
+  useEffect(() => setDemoReady(true), [])
   const hasNoEnrollments = !enrollmentsLoading && enrollments.length === 0
   const isOnCourseTrial = /^\/student\/course\/\d+$/.test(pathname)
+  const showPlatformMap = demoReady && isDemoPlatformUser(user?.email)
 
-  const allLinks = [
-    {
-      label: "Dashboard",
-      href: "/student",
-      icon: <IconHome className="h-4 w-4" />,
-    },
-    {
-      label: "Current Units",
-      href: "/student/current-units",
-      icon: <IconBook className="h-4 w-4" />,
-    },
-    {
-      label: "Completed Units",
-      href: "/student/completed-units",
-      icon: <IconCircleCheck className="h-4 w-4" />,
-    },
-    {
-      label: "Financial Info",
-      href: "/student/financial",
-      icon: <IconCreditCard className="h-4 w-4" />,
-    },
-    {
-      label: "Certificates",
-      href: "/student/certificates",
-      icon: <IconCertificate className="h-4 w-4" />,
-    },
-    {
-      label: "Get Support",
-      href: "/student/support",
-      icon: <IconHelp className="h-4 w-4" />,
-    },
-    {
-      label: "Quick Actions",
-      href: "/student/quick-actions",
-      icon: <IconUser className="h-4 w-4" />,
-    },
-  ]
-
-  // Allow all links regardless of enrollment status
-  const links = allLinks
-
-  const [open, setOpen] = useState(true)
+  if (immersive || isOnCourseTrial || hasNoEnrollments) {
+    return (
+      <StudentTopBarActionsProvider>
+        <div className="flex h-screen w-full flex-col overflow-hidden bg-[#f5f3ed]">
+          {!immersive && (
+            <EdTecTopBar
+              portalLabel="MyEdtec"
+              showUserButton={hasNoEnrollments}
+              backLabel={isOnCourseTrial ? 'Back to Courses' : undefined}
+              backHref={isOnCourseTrial ? '/student/current-units' : undefined}
+            />
+          )}
+          <div className={`min-h-0 w-full flex-1 ${immersive ? 'overflow-hidden' : 'overflow-y-auto px-4 py-5 md:px-9 md:py-8'}`}>
+            {children}
+          </div>
+        </div>
+      </StudentTopBarActionsProvider>
+    )
+  }
 
   return (
     <StudentTopBarActionsProvider>
-    <div className="flex h-screen w-full flex-col overflow-hidden bg-canvas md:flex-row">
-      {!hasNoEnrollments && !isOnCourseTrial && (
-        <Sidebar open={open} setOpen={setOpen}>
-          <SidebarBody className="justify-between gap-4">
-            <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-              <SidebarBrand href="/student" workspace="Student workspace" />
-              <nav className="mt-4 flex min-h-0 flex-1 flex-col gap-0.5 overflow-y-auto scrollbar-hide">
-                {links.map((link) => (
-                  <SidebarLink
-                    key={link.href}
-                    link={link}
-                    active={isNavActive(pathname, link.href)}
-                  />
-                ))}
-              </nav>
-            </div>
-            <div className="shrink-0 space-y-1 border-t border-sidebar-border pt-3">
-              <div className={cn("flex w-full", open ? "justify-start" : "justify-center")}>
-                <SidebarToggleButton />
-              </div>
-              <SidebarUserButton />
-            </div>
-          </SidebarBody>
-        </Sidebar>
-      )}
-      <div className={cn("flex min-w-0 flex-1 flex-col overflow-hidden", immersive && "bg-card")}>
-        {!immersive && (
-          <EdTecTopBar
-            portalLabel="MyEdtec"
-            showUserButton={hasNoEnrollments}
-            backLabel={isOnCourseTrial ? "Back to Courses" : undefined}
-            backHref={isOnCourseTrial ? "/student/current-units" : undefined}
-          />
-        )}
-        <motion.div
-          key={pathname}
-          initial={immersive ? false : { opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: immersive ? 0 : 0.2,
-            ease: "easeOut",
-          }}
-          className={cn(
-            "min-h-0 w-full flex-1",
-            immersive
-              ? "overflow-hidden"
-              : "mx-auto max-w-[1480px] overflow-y-auto scrollbar-hide px-4 py-5 sm:px-6 md:px-9 md:py-8",
-          )}
-        >
-          {children}
-        </motion.div>
-      </div>
-    </div>
+      <DidacPortalShell
+        brandTitle="EdTrack ONE"
+        brandSubtitle="Student workspace"
+        brandHref="/student"
+        showPlatformMap={showPlatformMap}
+        showCommandPalette
+        sections={studentSections}
+      >
+        {children}
+      </DidacPortalShell>
     </StudentTopBarActionsProvider>
   )
 }

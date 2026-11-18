@@ -7,11 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import {
   BookOpen,
-  CheckCircle,
-  TrendingUp,
   Award,
   Calendar,
-  FileText,
   User,
   Map as MapIcon,
   HelpCircle,
@@ -36,10 +33,12 @@ import { ShowInterestDialog } from "@/components/ui/show-interest-dialog"
 import { courseNameToSlug } from "@/lib/utils"
 import { GnpsDashboardCard } from "@/components/student/gnps-dashboard-card"
 import { NclexTimetableSection } from "@/components/student/nclex-timetable-section"
+import { DemoKpis } from "@/components/platform/demo-module-shell"
 import { buildCourseNameLookup, getEnrollmentCourseDisplayName } from "@/lib/student/enrollment-course-name"
 import { getGnpsUnitImageUrl } from "@/lib/gnps-unit-images"
 import {
   buildCourseCodeLookup,
+  canOpenEnrollment,
   enrollmentMatchesSearch,
   getEnrollmentCourseCode,
   isGnpsEnrollment,
@@ -117,12 +116,12 @@ const formatTimeAgo = (dateString: string): string => {
   return `${diffInYears} year${diffInYears > 1 ? 's' : ''} ago`;
 }
 
-/** Subtle left accent + tint per row (no heavy gradients). */
+/** Soft surface tint per row — no side-tab borders. */
 const ACTIVITY_ACCENTS = [
-  'border-l-sky-400/60 bg-primary-soft/50',
-  'border-l-violet-400/60 bg-primary-soft/45',
-  'border-l-emerald-400/60 bg-success-soft/45',
-  'border-l-amber-400/60 bg-warning-soft/50',
+  'bg-primary-soft/55',
+  'bg-[#eee8f6]/70',
+  'bg-success-soft/55',
+  'bg-warning-soft/55',
 ] as const
 
 function CourseActivityThumbnail({ src, label }: { src?: string; label: string }) {
@@ -153,7 +152,7 @@ function DashboardProgressRing({ value, accent = false }: { value: number; accen
     <div className="relative flex h-[52px] w-[52px] shrink-0 items-center justify-center">
       <svg className="h-full w-full -rotate-90" viewBox="0 0 36 36" aria-hidden>
         <path
-          className="text-primary-foreground"
+          className="text-border"
           stroke="currentColor"
           strokeWidth="3"
           fill="none"
@@ -463,33 +462,19 @@ export default function StudentDashboard() {
         <div className="flex flex-col gap-8 xl:flex-row xl:items-start xl:gap-10">
           {/* Main column — course activity */}
           <div className="min-w-0 flex-1 space-y-6">
-            <div className="rounded-[1.35rem] border border-border/90 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.06)]">
-              <div className="space-y-6 p-6 md:p-8" data-tour="header">
-                <div className="grid grid-cols-2 gap-3 md:grid-cols-4" data-tour="metrics">
-                  {[
-                    { label: 'Current', value: activeCourses, icon: BookOpen, sub: 'Active', accent: 'text-brand-blue' },
-                    { label: 'Completed', value: completedCourses, icon: CheckCircle, sub: 'Finished', accent: 'text-success' },
-                    { label: 'Avg progress', value: enrollmentsLoading ? '—' : `${averageProgress}%`, icon: TrendingUp, sub: 'Across units', accent: 'text-warning' },
-                    { label: 'Total', value: totalCourses, icon: FileText, sub: 'All time', accent: 'text-primary' },
-                  ].map((m, i) => (
-                    <div
-                      key={i}
-                      className="rounded-2xl border border-border/80 bg-muted/60 px-3 py-3"
-                    >
-                      <div className="flex items-center justify-between gap-2">
-                        <m.icon className={`h-5 w-5 shrink-0 ${m.accent}`} />
-                        <div className="text-right">
-                          <div className="text-lg font-bold tabular-nums text-foreground">
-                            {enrollmentsLoading && typeof m.value === 'number' ? <Loader2 className="ml-auto h-5 w-5 animate-spin text-brand-blue" /> : m.value}
-                          </div>
-                        </div>
-                      </div>
-                      <p className="mt-1 text-[11px] font-medium text-muted-foreground">{m.label}</p>
-                      <p className="text-[10px] text-muted-foreground/80">{m.sub}</p>
-                    </div>
-                  ))}
-                </div>
+            <div data-tour="metrics">
+              <DemoKpis
+                items={[
+                  { label: 'Current units', value: enrollmentsLoading ? '—' : String(activeCourses) },
+                  { label: 'Completed', value: enrollmentsLoading ? '—' : String(completedCourses) },
+                  { label: 'Avg progress', value: enrollmentsLoading ? '—' : `${averageProgress}%` },
+                  { label: 'Total enrolled', value: enrollmentsLoading ? '—' : String(totalCourses) },
+                ]}
+              />
+            </div>
 
+            <div className="rounded-[1.35rem] border border-border/90 bg-card shadow-[0_8px_30px_rgb(0,0,0,0.06)]">
+              <div className="space-y-6 p-6 md:p-8" data-tour="header">
                 <div className="flex flex-wrap gap-2">
                   <Button
                     variant="outline"
@@ -557,7 +542,7 @@ export default function StudentDashboard() {
                         ) : null}
                         {visibleEnrollments.map((enrollment, index) => {
                           const hasCertificate = enrollment.with_certificate === true
-                          const hasContentFolder = Boolean((enrollment.courses as { content_folder?: string } | null)?.content_folder?.trim())
+                          const canOpen = canOpenEnrollment(enrollment, courseCodeById)
                           const displayCourseName = getEnrollmentCourseDisplayName(enrollment, courseNameById)
                           const courseCode = getEnrollmentCourseCode(enrollment, courseCodeById)
                           const isGnps = isGnpsEnrollment(enrollment, courseCodeById)
@@ -575,7 +560,7 @@ export default function StudentDashboard() {
                                 displayName={displayCourseName}
                                 courseCode={(courseCode ?? "GNPS").toUpperCase()}
                                 imageUrl={thumbSrc}
-                                canOpen={hasContentFolder}
+                                canOpen={canOpen}
                               />
                             )
                           }
@@ -583,7 +568,7 @@ export default function StudentDashboard() {
                           return (
                             <div
                               key={enrollment.id}
-                              className={`relative overflow-hidden rounded-2xl border border-border/90 border-l-4 p-4 shadow-sm md:p-5 ${accent}`}
+                              className={`relative overflow-hidden rounded-2xl border border-border/90 p-4 shadow-sm md:p-5 ${accent}`}
                             >
                               <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center">
                                 <div className="flex min-w-0 flex-1 items-start gap-3">
@@ -617,7 +602,7 @@ export default function StudentDashboard() {
                                 </div>
                                 <div className="flex shrink-0 flex-row items-center gap-4 sm:flex-col sm:items-end sm:gap-3">
                                   <DashboardProgressRing value={enrollment.progress} />
-                                  {hasContentFolder ? (
+                                  {canOpen ? (
                                     <Link
                                       href={`/student/course/${enrollment.course_id}`}
                                       className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue underline-offset-4 hover:underline"
@@ -643,7 +628,7 @@ export default function StudentDashboard() {
 
           {/* Right rail — profile, quick actions, planning, notifications */}
           <div className="w-full min-w-0 max-w-full shrink-0 space-y-6 xl:w-[min(100%,22.5rem)] xl:max-w-[22.5rem]">
-            <div className="flex items-center justify-end gap-3 rounded-[1.35rem] border border-border/90 bg-white px-4 py-3 shadow-sm">
+            <div className="flex items-center justify-end gap-3 rounded-[1.35rem] border border-border bg-card px-4 py-3 shadow-sm">
               <div className="flex min-w-0 items-center gap-3">
                 <div className="min-w-0 text-right">
                   <p className="truncate text-sm font-semibold text-foreground">{user.name}</p>
@@ -664,7 +649,7 @@ export default function StudentDashboard() {
             </div>
 
             <div
-              className="min-w-0 max-w-full overflow-hidden rounded-[1.35rem] border border-border/90 bg-white p-5 shadow-sm"
+              className="min-w-0 max-w-full overflow-hidden rounded-[1.35rem] border border-border bg-card p-5 shadow-sm"
               data-tour="quick-actions"
             >
               <h3 className="text-sm font-semibold text-foreground">Quick actions</h3>
@@ -674,13 +659,13 @@ export default function StudentDashboard() {
                   <Button
                     key={index}
                     variant="outline"
-                    className="h-auto w-full min-w-0 max-w-full shrink justify-start items-start whitespace-normal rounded-2xl border-border/90 p-3 text-left"
+                    className="h-auto w-full min-w-0 max-w-full shrink justify-start items-start whitespace-normal rounded-2xl border-border bg-card p-3 text-left text-foreground"
                     asChild
                   >
                     <Link href={action.href}>
                       <action.icon className={`mr-3 mt-0.5 h-5 w-5 shrink-0 ${action.color}`} />
                       <div className="min-w-0 flex-1 text-left">
-                        <div className="break-words font-medium leading-snug">{action.title}</div>
+                        <div className="break-words font-medium leading-snug text-foreground">{action.title}</div>
                         <div className="break-words text-xs leading-snug text-muted-foreground">{action.description}</div>
                       </div>
                     </Link>

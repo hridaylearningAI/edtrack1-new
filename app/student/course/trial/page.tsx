@@ -5159,8 +5159,8 @@ export function CourseTrialContent({
             "flex min-h-0 items-center justify-center",
             useAnyImmersiveShell
               ? useEdtecLearnShell
-                ? "h-full w-full rounded-none border-0 bg-[var(--edtec-surface,#f8fafc)]"
-                : "h-full w-full rounded-none border-0 bg-[var(--gnps-mineral,#f3f6f7)]"
+                ? "h-full w-full rounded-none border-0 bg-[var(--edtec-surface,#f5f3ed)]"
+                : "h-full w-full rounded-none border-0 bg-[var(--gnps-mineral,#f5f3ed)]"
               : "h-[calc(100dvh-7rem)] md:h-[calc(100dvh-6rem)] rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900",
           )}
         >
@@ -6227,9 +6227,9 @@ export function CourseTrialContent({
         className={cn(
           "learning-player flex min-h-0 overflow-hidden select-none relative",
           useGnpsLearnShell
-            ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--gnps-mineral,#f3f6f7)] gnps-learn-frame"
+            ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--gnps-mineral,#f5f3ed)] gnps-learn-frame"
             : useEdtecLearnShell
-              ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--edtec-surface,#f8fafc)] edtec-learn-frame"
+              ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--edtec-surface,#f5f3ed)] edtec-learn-frame"
             : cn(
                 "h-[calc(100dvh-7rem)] md:h-[calc(100dvh-6rem)] rounded-xl md:rounded-2xl border border-slate-200/70 dark:border-slate-700/50 shadow-xl shadow-slate-900/5 dark:shadow-slate-950/40",
                 courseIdValid === NCLEX_COURSE_ID ? "bg-transparent" : "bg-white dark:bg-slate-900",

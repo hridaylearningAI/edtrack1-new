@@ -118,8 +118,11 @@ export async function POST(request: NextRequest) {
         { status: 500, headers: corsHeaders }
       );
     }
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.NEXT_PUBLIC_PORTFOLIO_URL || 'https://edtec.online';
-    const logoUrl = process.env.EMAIL_LOGO_URL || process.env.NEXT_PUBLIC_EMAIL_LOGO_URL || 'https://edtec.online/etia-logo.png';
+    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.NEXT_PUBLIC_PORTFOLIO_URL || 'https://edtec.online'
+    const logoUrl =
+      process.env.EMAIL_LOGO_URL ||
+      process.env.NEXT_PUBLIC_EMAIL_LOGO_URL ||
+      `${baseUrl.replace(/\/$/, '')}/images/EdTrack1%20logo.png`
 
     // Send acknowledgement email to student
     if (process.env.RESEND_API_KEY && user.email) {

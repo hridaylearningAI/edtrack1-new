@@ -4,21 +4,23 @@
  */
 
 .edtec-learn-frame {
-  --edtec-blue: #2563eb;
-  --edtec-blue-deep: #1d4ed8;
-  --edtec-blue-soft: #dbeafe;
-  --edtec-red: #dc2626;
-  --edtec-gold: #f59e0b;
-  --edtec-ink: #0f172a;
-  --edtec-ink-muted: #64748b;
-  --edtec-line: #e2e8f0;
-  --edtec-surface: #f8fafc;
-  --edtec-panel: #ffffff;
+  /* Campus DIDAC palette (aligned with workspace / DESIGN.md) */
+  --edtec-blue: #245ac6;
+  --edtec-blue-deep: #204b9c;
+  --edtec-blue-soft: #e6edf7;
+  --edtec-red: #b34330;
+  --edtec-gold: #208064;
+  --edtec-ink: #263432;
+  --edtec-ink-muted: #3d4641;
+  --edtec-line: #d8dfd2;
+  --edtec-surface: #f5f3ed;
+  --edtec-panel: #fafaf7;
   border: none;
   border-radius: 0;
   background: var(--edtec-surface);
   box-shadow: none;
   color: var(--edtec-ink);
+  color-scheme: light;
 }
 
 .edtec-accent-bar {
@@ -56,7 +58,7 @@
   padding: 18px 16px 16px;
   border-bottom: 1px solid var(--edtec-line);
   background:
-    linear-gradient(135deg, rgb(37 99 235 / 8%), transparent 55%),
+    linear-gradient(135deg, rgb(36 90 198 / 8%), transparent 55%),
     var(--edtec-panel);
 }
 
@@ -75,11 +77,11 @@
   border-radius: 14px;
   border: 1px solid var(--edtec-line);
   background: linear-gradient(145deg, var(--edtec-blue), var(--edtec-red) 70%, var(--edtec-gold));
-  box-shadow: 0 8px 20px rgb(37 99 235 / 18%);
+  box-shadow: 0 8px 20px rgb(36 90 198 / 18%);
 }
 
 .edtec-unit-identity-media.is-fallback {
-  background: linear-gradient(145deg, #1e40af, var(--edtec-blue) 45%, var(--edtec-red) 78%, var(--edtec-gold));
+  background: linear-gradient(145deg, #263a32, var(--edtec-blue) 45%, var(--edtec-red) 78%, var(--edtec-gold));
 }
 
 .edtec-unit-identity-image {
@@ -204,8 +206,8 @@
 
 .edtec-overview-nav:hover,
 .edtec-overview-nav:focus-visible {
-  border-color: rgb(37 99 235 / 40%);
-  background: rgb(37 99 235 / 4%);
+  border-color: rgb(36 90 198 / 40%);
+  background: rgb(36 90 198 / 4%);
   box-shadow: 0 6px 16px rgb(15 23 42 / 6%);
 }
 
@@ -215,7 +217,7 @@
 
 .edtec-overview-nav.is-active {
   border-color: var(--edtec-blue);
-  background: rgb(37 99 235 / 6%);
+  background: rgb(36 90 198 / 6%);
   box-shadow: inset 3px 0 0 var(--edtec-blue);
 }
 
@@ -227,7 +229,7 @@
   border-radius: 10px;
   background: var(--edtec-blue-soft);
   color: var(--edtec-blue-deep);
-  border: 1px solid rgb(37 99 235 / 18%);
+  border: 1px solid rgb(36 90 198 / 18%);
   flex-shrink: 0;
 }
 
@@ -316,7 +318,7 @@
 
 .edtec-pathway-topic:hover:not(:disabled),
 .edtec-pathway-topic:focus-visible {
-  border-color: rgb(37 99 235 / 40%);
+  border-color: rgb(36 90 198 / 40%);
   box-shadow: 0 6px 16px rgb(15 23 42 / 6%);
 }
 
@@ -328,7 +330,7 @@
 .edtec-pathway-topic.is-current {
   border-color: var(--edtec-blue);
   box-shadow: inset 3px 0 0 var(--edtec-blue);
-  background: rgb(37 99 235 / 6%);
+  background: rgb(36 90 198 / 6%);
 }
 
 .edtec-pathway-topic.is-done {
@@ -376,7 +378,7 @@
 
 .edtec-pathway-topic.is-done .edtec-pathway-topic-index {
   background: rgb(245 158 11 / 18%);
-  color: #b45309;
+  color: #b34330;
 }
 
 .edtec-pathway-topic-copy {
@@ -440,13 +442,13 @@
 }
 
 .edtec-pathway-child.is-active {
-  background: rgb(37 99 235 / 10%);
-  border-color: rgb(37 99 235 / 35%);
+  background: rgb(36 90 198 / 10%);
+  border-color: rgb(36 90 198 / 35%);
   color: var(--edtec-blue-deep);
 }
 
 .edtec-pathway-child.is-done {
-  color: #b45309;
+  color: #b34330;
 }
 
 .edtec-pathway-child:disabled {
@@ -521,7 +523,7 @@
   height: 6px;
   overflow: hidden;
   border-radius: 999px;
-  background: #e2e8f0;
+  background: #d8dfd2;
 }
 
 .edtec-progress-card-track > span {
@@ -547,8 +549,8 @@
   padding: 16px 20px;
   overflow: hidden;
   background:
-    radial-gradient(120% 140% at 100% 0%, rgb(37 99 235 / 28%) 0%, transparent 55%),
-    linear-gradient(180deg, #1e3a8a 0%, #1d4ed8 100%);
+    radial-gradient(120% 140% at 100% 0%, rgb(36 90 198 / 28%) 0%, transparent 55%),
+    linear-gradient(180deg, #263a32 0%, #1d5140 100%);
   color: #fff;
   flex-shrink: 0;
   border-bottom: 3px solid var(--edtec-gold);
@@ -760,7 +762,7 @@
   min-height: min(52vh, 420px);
   overflow: hidden;
   color: #fff;
-  background: linear-gradient(125deg, #1e3a8a 0%, var(--edtec-blue) 40%, var(--edtec-red) 78%, #b45309 100%);
+  background: linear-gradient(125deg, #263a32 0%, var(--edtec-blue) 40%, var(--edtec-red) 78%, #b34330 100%);
 }
 
 .edtec-home-hero-media,
@@ -967,8 +969,8 @@
 
 .edtec-topic-row:hover:not(:disabled),
 .edtec-topic-row:focus-visible {
-  border-color: rgb(37 99 235 / 45%);
-  box-shadow: 0 10px 24px rgb(37 99 235 / 10%);
+  border-color: rgb(36 90 198 / 45%);
+  box-shadow: 0 10px 24px rgb(36 90 198 / 10%);
 }
 
 .edtec-topic-row:active:not(:disabled) {
@@ -977,7 +979,7 @@
 
 .edtec-topic-row.is-current {
   border-color: var(--edtec-blue);
-  box-shadow: inset 4px 0 0 var(--edtec-blue), 0 10px 24px rgb(37 99 235 / 10%);
+  box-shadow: inset 4px 0 0 var(--edtec-blue), 0 10px 24px rgb(36 90 198 / 10%);
 }
 
 .edtec-topic-row.is-done {
@@ -1029,7 +1031,7 @@
 
 .edtec-topic-row.is-done .edtec-topic-row-index {
   background: rgb(245 158 11 / 18%);
-  color: #b45309;
+  color: #b34330;
 }
 
 .edtec-topic-row-copy {

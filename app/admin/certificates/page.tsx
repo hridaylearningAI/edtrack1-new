@@ -280,7 +280,7 @@ export default function CertificatesPage() {
                             <div className="flex items-center space-x-3">
                               <Avatar className="h-8 w-8">
                                 <AvatarImage
-                                  src={certificate.avatar || "/placeholder.svg"}
+                                  src={certificate.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(certificate.studentName || "Learner")}&backgroundColor=e6edf7`}
                                   alt={certificate.studentName}
                                 />
                                 <AvatarFallback>
@@ -421,9 +421,9 @@ export default function CertificatesPage() {
                     <div className="text-center mb-8">
                       <div className="flex items-center justify-center mb-4">
                         <img 
-                          src="/images/etia-logo.png" 
-                          alt="EdTec Institute Logo" 
-                          className="w-16 h-16 object-contain"
+                          src="/images/EdTrack1 logo.png" 
+                          alt="EdTrack ONE" 
+                          className="h-12 w-auto max-w-[200px] object-contain"
                           onError={(e) => {
                             // Fallback to icon if logo not found
                             const target = e.currentTarget as HTMLImageElement

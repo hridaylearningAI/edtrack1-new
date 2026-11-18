@@ -55,15 +55,18 @@ function ChartContainer({
         data-slot="chart"
         data-chart={chartId}
         className={cn(
-          "[&_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&_.recharts-radial-bar-background-sector]:fill-muted [&_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&_.recharts-dot[stroke='#fff']]:stroke-transparent [&_.recharts-layer]:outline-hidden [&_.recharts-sector]:outline-hidden [&_.recharts-sector[stroke='#fff']]:stroke-transparent [&_.recharts-surface]:outline-hidden",
+          "[&_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&_.recharts-radial-bar-background-sector]:fill-muted [&_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&_.recharts-reference-line_[stroke='#ccc']]:stroke-border relative aspect-video justify-center text-xs [&_.recharts-dot[stroke='#fff']]:stroke-transparent [&_.recharts-layer]:outline-hidden [&_.recharts-sector]:outline-hidden [&_.recharts-sector[stroke='#fff']]:stroke-transparent [&_.recharts-surface]:outline-hidden",
           className
         )}
         {...props}
       >
         <ChartStyle id={chartId} config={config} />
-        <RechartsPrimitive.ResponsiveContainer>
-          {children}
-        </RechartsPrimitive.ResponsiveContainer>
+        {/* Absolute fill avoids recharts ResponsiveContainer collapsing to 0 height inside flex parents. */}
+        <div className="absolute inset-0 min-h-0 min-w-0">
+          <RechartsPrimitive.ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
+            {children}
+          </RechartsPrimitive.ResponsiveContainer>
+        </div>
       </div>
     </ChartContext.Provider>
   )
@@ -118,14 +121,33 @@ function ChartTooltipContent({
   color,
   nameKey,
   labelKey,
-}: React.ComponentProps<typeof RechartsPrimitive.Tooltip> &
-  React.ComponentProps<"div"> & {
-    hideLabel?: boolean
-    hideIndicator?: boolean
-    indicator?: "line" | "dot" | "dashed"
-    nameKey?: string
-    labelKey?: string
-  }) {
+}: React.ComponentProps<"div"> & {
+  active?: boolean
+  payload?: ReadonlyArray<{
+    name?: string
+    dataKey?: string | number
+    value?: number | string
+    color?: string
+    payload?: Record<string, unknown>
+    fill?: string
+  }>
+  label?: string | number
+  labelFormatter?: (label: unknown, payload: ReadonlyArray<unknown>) => React.ReactNode
+  labelClassName?: string
+  formatter?: (
+    value: unknown,
+    name: unknown,
+    item: unknown,
+    index: number,
+    payload: ReadonlyArray<unknown>
+  ) => React.ReactNode
+  color?: string
+  hideLabel?: boolean
+  hideIndicator?: boolean
+  indicator?: "line" | "dot" | "dashed"
+  nameKey?: string
+  labelKey?: string
+}) {
   const { config } = useChart()
 
   const tooltipLabel = React.useMemo(() => {
@@ -182,7 +204,8 @@ function ChartTooltipContent({
         {payload.map((item, index) => {
           const key = `${nameKey || item.name || item.dataKey || "value"}`
           const itemConfig = getPayloadConfigFromPayload(config, item, key)
-          const indicatorColor = color || item.payload.fill || item.color
+          const indicatorColor =
+            color || (typeof item.payload?.fill === "string" ? item.payload.fill : undefined) || item.color
 
           return (
             <div
@@ -193,7 +216,7 @@ function ChartTooltipContent({
               )}
             >
               {formatter && item?.value !== undefined && item.name ? (
-                formatter(item.value, item.name, item, index, item.payload)
+                formatter(item.value, item.name, item, index, payload)
               ) : (
                 <>
                   {itemConfig?.icon ? (
@@ -256,11 +279,17 @@ function ChartLegendContent({
   payload,
   verticalAlign = "bottom",
   nameKey,
-}: React.ComponentProps<"div"> &
-  Pick<RechartsPrimitive.LegendProps, "payload" | "verticalAlign"> & {
-    hideIcon?: boolean
-    nameKey?: string
-  }) {
+}: React.ComponentProps<"div"> & {
+  payload?: ReadonlyArray<{
+    value?: string
+    dataKey?: string | number
+    color?: string
+    [key: string]: unknown
+  }>
+  verticalAlign?: "top" | "bottom" | "middle"
+  hideIcon?: boolean
+  nameKey?: string
+}) {
   const { config } = useChart()
 
   if (!payload?.length) {
@@ -275,13 +304,13 @@ function ChartLegendContent({
         className
       )}
     >
-      {payload.map((item) => {
-        const key = `${nameKey || item.dataKey || "value"}`
+      {payload.map((item, index) => {
+        const key = `${nameKey || item.dataKey || item.value || "value"}`
         const itemConfig = getPayloadConfigFromPayload(config, item, key)
 
         return (
           <div
-            key={item.value}
+            key={`${String(item.value ?? item.dataKey ?? "item")}-${index}`}
             className={cn(
               "[&>svg]:text-muted-foreground flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3"
             )}
@@ -296,7 +325,9 @@ function ChartLegendContent({
                 }}
               />
             )}
-            {itemConfig?.label}
+            <span className="text-muted-foreground">
+              {itemConfig?.label || item.value}
+            </span>
           </div>
         )
       })}

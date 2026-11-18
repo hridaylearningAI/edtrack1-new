@@ -8,6 +8,15 @@
         "value": "arial",
         "createdAt": "2026-09-11T11:11:39.159Z",
         "reason": "user confirmed: chose Arial app-wide to match the demo dashboard (font question, 2026-09-11)"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "edtrack1-new/components/player/studio.css"
+        ],
+        "createdAt": "2026-11-18T09:03:38.775Z",
+        "reason": "false positive: curriculum current-page inset marker uses 3px left border as navigation state, same pattern as learning-player active stages"
       }
     ]
   }

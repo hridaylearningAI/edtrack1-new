@@ -8,37 +8,58 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { TrendingUp, Users, DollarSign, BookOpen, Download, Calendar, Award, Target, Activity, Loader2 } from "lucide-react"
 import { useAnalytics } from "@/lib/hooks/useAnalytics"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar, AreaChart, Area, ScatterChart, Scatter, ComposedChart, Legend, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from "recharts"
-import { useState, useCallback } from "react"
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  PieChart,
+  Pie,
+  Cell,
+  BarChart,
+  Bar,
+  AreaChart,
+  Area,
+  ScatterChart,
+  Scatter,
+  ComposedChart,
+  RadarChart,
+  PolarGrid,
+  PolarAngleAxis as RechartsPolarAngleAxis,
+  PolarRadiusAxis,
+  Radar,
+} from "recharts"
+import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent, type ChartConfig } from "@/components/ui/chart"
+import { useState, useCallback, type ComponentType } from "react"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { toast } from "sonner"
 
-// Custom tooltip component with explicit background styling
-const CustomTooltipContent = (props: any) => {
-  return (
-    <div className="bg-white border border-border rounded-lg shadow-lg p-3 text-sm">
-      <div className="text-foreground">
-        {props.label && <div className="font-medium mb-1">{props.label}</div>}
-        {props.payload && props.payload.map((entry: any, index: number) => (
-          <div key={index} className="flex items-center gap-2">
-            <div 
-              className="w-3 h-3 rounded-full" 
-              style={{ backgroundColor: entry.color }}
-            />
-            <span className="text-sm">
-              {entry.name}: {entry.value}
-            </span>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
+const PolarAngleAxis = RechartsPolarAngleAxis as unknown as ComponentType<{
+  dataKey?: string
+  tick?: Record<string, unknown>
+}>
 
 // Fixed order, checked with the dataviz palette validator; grey for anything past five.
 const COLORS = ['#2054a0', '#2f8a64', '#c07a1a', '#6b5bb5', '#be353b', '#8c9bb0']
+
+const chartConfig: ChartConfig = {
+  students:         { label: "Students",           color: "#2054a0" },
+  revenue:          { label: "Revenue",             color: "#2f8a64" },
+  enrolled:         { label: "Enrolled",            color: "#2054a0" },
+  completed:        { label: "Completed",           color: "#2f8a64" },
+  amount:           { label: "Amount",              color: "#6b5bb5" },
+  value:            { label: "Value",               color: "#6b5bb5" },
+  enrollment:       { label: "Enrollment",          color: "#2054a0" },
+  completion:       { label: "Completion",          color: "#2f8a64" },
+  completionRate:   { label: "Completion Rate",     color: "#c07a1a" },
+  onTrack:          { label: "On Track",            color: "#2f8a64" },
+  behindSchedule:   { label: "Behind Schedule",     color: "#be353b" },
+  aheadOfSchedule:  { label: "Ahead of Schedule",   color: "#2054a0" },
+  source:           { label: "Source",              color: "#6b5bb5" },
+}
 
 export default function ReportsAnalyticsPage() {
   const { data, loading, error, refreshData } = useAnalytics()
@@ -269,22 +290,20 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <AreaChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <AreaChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -292,27 +311,26 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                           <Area
                             yAxisId="left"
                             type="monotone"
                             dataKey="students"
-                            stroke="#2054a0"
-                            fill="#2054a0"
+                            stroke="var(--color-students)"
+                            fill="var(--color-students)"
                             fillOpacity={0.4}
                           />
                           <Area
                             yAxisId="right"
                             type="monotone"
                             dataKey="revenue"
-                            stroke="#2f8a64"
-                            fill="#2f8a64"
+                            stroke="var(--color-revenue)"
+                            fill="var(--color-revenue)"
                             fillOpacity={0.4}
                           />
                         </AreaChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -330,15 +348,14 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.coursePerformance.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <BarChart data={data.coursePerformance.slice(0, 5)}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <BarChart data={data.coursePerformance.slice(0, 5)} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="courseName" 
                             tick={{ fontSize: 10, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                             angle={-45}
                             textAnchor="end"
                             height={80}
@@ -347,17 +364,13 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
-                          <Bar dataKey="enrolled" fill="#2054a0" name="Enrolled" />
-                          <Bar dataKey="completed" fill="#2f8a64" name="Completed" />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
+                          <Bar dataKey="enrolled" fill="var(--color-enrolled)" name="Enrolled" />
+                          <Bar dataKey="completed" fill="var(--color-completed)" name="Completed" />
                         </BarChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -375,14 +388,16 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.revenueBreakdown.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <PieChart margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
                           <Pie
                             data={data.revenueBreakdown}
                             cx="50%"
                             cy="50%"
                             labelLine={false}
-                            label={({ source, percentage }) => `${source} (${percentage}%)`}
+                            label={((props: { source?: string; percentage?: number }) =>
+                              `${props.source ?? ""} (${props.percentage ?? 0}%)`
+                            ) as never}
                             outerRadius={80}
                             fill="#6b5bb5"
                             dataKey="amount"
@@ -391,9 +406,9 @@ export default function ReportsAnalyticsPage() {
                               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                             ))}
                           </Pie>
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                         </PieChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -414,8 +429,8 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <PieChart margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
                           <Pie
                             data={[
                               { name: 'On Track', value: data.studentProgress.onTrack, color: '#2f8a64' },
@@ -434,16 +449,10 @@ export default function ReportsAnalyticsPage() {
                             <Cell key="cell-1" fill="#be353b" />
                             <Cell key="cell-2" fill="#2054a0" />
                           </Pie>
-                          <Tooltip 
-                            content={<CustomTooltipContent />}
-                            formatter={(value: number, name: string) => [`${value}%`, name]}
-                          />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
                         </PieChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -461,16 +470,15 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.coursePerformance.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <ScatterChart data={data.coursePerformance}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <ScatterChart data={data.coursePerformance} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="enrolled" 
                             name="Enrolled"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -478,12 +486,11 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                           <Scatter dataKey="revenue" fill="#6b5bb5" />
                         </ScatterChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -504,32 +511,29 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.coursePerformance.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <PieChart margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
                           <Pie
                             data={data.coursePerformance.slice(0, 6)}
                             cx="50%"
                             cy="50%"
                             labelLine={false}
-                            label={({ courseName, completionRate }) => `${courseName}: ${completionRate}%`}
+                            label={((props: { courseName?: string; completionRate?: number }) =>
+                              `${props.courseName ?? ""}: ${props.completionRate ?? 0}%`
+                            ) as never}
                             outerRadius={100}
                             fill="#6b5bb5"
                             dataKey="completionRate"
+                            nameKey="courseName"
                           >
                             {data.coursePerformance.slice(0, 6).map((entry, index) => (
                               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                             ))}
                           </Pie>
-                          <Tooltip 
-                            content={<CustomTooltipContent />}
-                            formatter={(value: number) => [`${value}%`, 'Completion Rate']}
-                          />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
                         </PieChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -547,22 +551,20 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <ComposedChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <ComposedChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -570,17 +572,13 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
-                          <Bar yAxisId="left" dataKey="students" fill="#2054a0" name="Students" />
-                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#2f8a64" strokeWidth={3} name="Revenue" />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
+                          <Bar yAxisId="left" dataKey="students" fill="var(--color-students)" name="Students" />
+                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="var(--color-revenue)" strokeWidth={3} name="Revenue" />
                         </ComposedChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -602,8 +600,8 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <PieChart margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
                           <Pie
                             data={[
                               { name: 'On Track', value: data.studentProgress.onTrack, color: '#2f8a64' },
@@ -613,7 +611,9 @@ export default function ReportsAnalyticsPage() {
                             cx="50%"
                             cy="50%"
                             labelLine={false}
-                            label={({ name, percentage }) => `${name} (${percentage}%)`}
+                            label={(props: { name?: string; percent?: number; percentage?: number }) =>
+                              `${props.name ?? ""} (${Math.round((props.percentage ?? (props.percent ?? 0) * 100))}%)`
+                            }
                             outerRadius={80}
                             fill="#6b5bb5"
                             dataKey="value"
@@ -626,9 +626,9 @@ export default function ReportsAnalyticsPage() {
                               <Cell key={`cell-${index}`} fill={entry.color} />
                             ))}
                           </Pie>
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                         </PieChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -646,33 +646,31 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <LineChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <LineChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                           <Line 
                             type="monotone" 
                             dataKey="students" 
-                            stroke="#2054a0" 
+                            stroke="var(--color-students)" 
                             strokeWidth={3}
-                            dot={{ fill: '#2054a0', strokeWidth: 2, r: 4 }}
-                            activeDot={{ r: 6, stroke: '#2054a0', strokeWidth: 2 }}
+                            dot={{ fill: 'var(--color-students)', strokeWidth: 2, r: 4 }}
+                            activeDot={{ r: 6, stroke: 'var(--color-students)', strokeWidth: 2 }}
                           />
                         </LineChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -737,14 +735,14 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.coursePerformance.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
                         <RadarChart data={data.coursePerformance.slice(0, 4).map(course => ({
                           course: course.courseName,
                           enrollment: course.enrolled,
                           completion: course.completed,
                           revenue: course.revenue / 1000, // Scale down for radar chart
                           completionRate: course.completionRate
-                        }))}>
+                        }))} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
                           <PolarGrid stroke="hsl(var(--muted))" />
                           <PolarAngleAxis 
                             dataKey="course" 
@@ -757,24 +755,21 @@ export default function ReportsAnalyticsPage() {
                           <Radar 
                             name="Enrollment" 
                             dataKey="enrollment" 
-                            stroke="#2054a0" 
-                            fill="#2054a0" 
+                            stroke="var(--color-enrollment)" 
+                            fill="var(--color-enrollment)" 
                             fillOpacity={0.3} 
                           />
                           <Radar 
                             name="Completion" 
                             dataKey="completion" 
-                            stroke="#2f8a64" 
-                            fill="#2f8a64" 
+                            stroke="var(--color-completion)" 
+                            fill="var(--color-completion)" 
                             fillOpacity={0.3} 
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
                         </RadarChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -792,16 +787,15 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.coursePerformance.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <ScatterChart data={data.coursePerformance}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <ScatterChart data={data.coursePerformance} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="completionRate" 
                             name="Completion Rate"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -809,12 +803,11 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                           <Scatter dataKey="revenue" fill="#6b5bb5" />
                         </ScatterChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -888,32 +881,30 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <AreaChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <AreaChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
                           <Area 
                             type="monotone" 
                             dataKey="revenue" 
-                            stroke="#2f8a64" 
-                            fill="#2f8a64" 
+                            stroke="var(--color-revenue)" 
+                            fill="var(--color-revenue)" 
                             fillOpacity={0.4}
                           />
                         </AreaChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -931,15 +922,14 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data && data.revenueBreakdown.length > 0 ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <BarChart data={data.revenueBreakdown.slice(0, 5)}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <BarChart data={data.revenueBreakdown.slice(0, 5)} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="source" 
                             tick={{ fontSize: 10, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                             angle={-45}
                             textAnchor="end"
                             height={80}
@@ -948,12 +938,11 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Bar dataKey="amount" fill="#6b5bb5" radius={[4, 4, 0, 0]} />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <Bar dataKey="amount" fill="var(--color-amount)" radius={[4, 4, 0, 0]} />
                         </BarChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -1006,16 +995,15 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <ScatterChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <ScatterChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="students" 
                             name="Students"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             dataKey="revenue" 
@@ -1023,12 +1011,11 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Scatter dataKey="revenue" fill="#2f8a64" />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <Scatter dataKey="revenue" fill="var(--color-revenue)" />
                         </ScatterChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">
@@ -1046,22 +1033,20 @@ export default function ReportsAnalyticsPage() {
                 <CardContent>
                   {data ? (
                     <div className="h-64">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <ComposedChart data={data.enrollmentTrends}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" className="" />
+                      <ChartContainer config={chartConfig} className="!aspect-auto h-full w-full">
+                        <ComposedChart data={data.enrollmentTrends} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
                           <XAxis 
                             dataKey="month" 
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="left"
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
                           <YAxis 
                             yAxisId="right" 
@@ -1069,17 +1054,13 @@ export default function ReportsAnalyticsPage() {
                             tick={{ fontSize: 12, fill: '#000' }}
                             tickLine={{ stroke: '#666' }}
                             axisLine={{ stroke: '#666' }}
-                            className=""
                           />
-                          <Tooltip content={<CustomTooltipContent />} />
-                          <Legend 
-                            wrapperStyle={{ color: '#000' }}
-                            className=""
-                          />
-                          <Bar yAxisId="left" dataKey="students" fill="#2054a0" name="Students" />
-                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="#2f8a64" strokeWidth={3} name="Revenue" />
+                          <ChartTooltip content={<ChartTooltipContent />} />
+                          <ChartLegend content={<ChartLegendContent />} />
+                          <Bar yAxisId="left" dataKey="students" fill="var(--color-students)" name="Students" />
+                          <Line yAxisId="right" type="monotone" dataKey="revenue" stroke="var(--color-revenue)" strokeWidth={3} name="Revenue" />
                         </ComposedChart>
-                      </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   ) : (
                     <div className="h-64 flex items-center justify-center bg-muted rounded">

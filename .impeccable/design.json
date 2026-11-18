@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T15:07:17.918841+00:00",
+  "title": "Design System: EdTrack ONE platform demo",
+  "extensions": {
+    "scope": {
+      "routes": [
+        "/platform",
+        "/platform/students",
+        "/platform/modules/*"
+      ],
+      "excludes": [
+        "marketing homepage typography",
+        "legacy /admin SMS shell"
+      ],
+      "approvedReference": "artifacts/demo-ui-concepts/07-hybrid-landing-palette.png",
+      "rasterUsage": "Design artifacts only; no generated raster UI ships."
+    },
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0025 91.48)",
+          "oklch(27% 0.0054 91.48)",
+          "oklch(39% 0.0074 91.48)",
+          "oklch(51% 0.0082 91.48)",
+          "oklch(63% 0.0082 91.48)",
+          "oklch(75% 0.0070 91.48)",
+          "oklch(87% 0.0041 91.48)",
+          "oklch(95% 0.0016 91.48)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "tonalRamp": [
+          "oklch(15% 0.0012 106.47)",
+          "oklch(27% 0.0026 106.47)",
+          "oklch(39% 0.0036 106.47)",
+          "oklch(51% 0.0040 106.47)",
+          "oklch(63% 0.0040 106.47)",
+          "oklch(75% 0.0034 106.47)",
+          "oklch(87% 0.0020 106.47)",
+          "oklch(95% 0.0008 106.47)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0057 185.48)",
+          "oklch(27% 0.0123 185.48)",
+          "oklch(39% 0.0171 185.48)",
+          "oklch(51% 0.0190 185.48)",
+          "oklch(63% 0.0190 185.48)",
+          "oklch(75% 0.0161 185.48)",
+          "oklch(87% 0.0095 185.48)",
+          "oklch(95% 0.0038 185.48)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0046 159.55)",
+          "oklch(27% 0.0099 159.55)",
+          "oklch(39% 0.0138 159.55)",
+          "oklch(51% 0.0153 159.55)",
+          "oklch(63% 0.0153 159.55)",
+          "oklch(75% 0.0130 159.55)",
+          "oklch(87% 0.0076 159.55)",
+          "oklch(95% 0.0031 159.55)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0057 130.20)",
+          "oklch(27% 0.0124 130.20)",
+          "oklch(39% 0.0171 130.20)",
+          "oklch(51% 0.0190 130.20)",
+          "oklch(63% 0.0190 130.20)",
+          "oklch(75% 0.0162 130.20)",
+          "oklch(87% 0.0095 130.20)",
+          "oklch(95% 0.0038 130.20)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "panel-line": {
+        "role": "neutral",
+        "displayName": "Panel Line",
+        "tonalRamp": [
+          "oklch(15% 0.0041 115.85)",
+          "oklch(27% 0.0088 115.85)",
+          "oklch(39% 0.0122 115.85)",
+          "oklch(51% 0.0135 115.85)",
+          "oklch(63% 0.0135 115.85)",
+          "oklch(75% 0.0115 115.85)",
+          "oklch(87% 0.0068 115.85)",
+          "oklch(95% 0.0027 115.85)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(15% 0.0088 167.73)",
+          "oklch(27% 0.0191 167.73)",
+          "oklch(39% 0.0264 167.73)",
+          "oklch(51% 0.0294 167.73)",
+          "oklch(63% 0.0294 167.73)",
+          "oklch(75% 0.0250 167.73)",
+          "oklch(87% 0.0147 167.73)",
+          "oklch(95% 0.0059 167.73)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0189 168.49)",
+          "oklch(27% 0.0408 168.49)",
+          "oklch(39% 0.0566 168.49)",
+          "oklch(51% 0.0628 168.49)",
+          "oklch(63% 0.0628 168.49)",
+          "oklch(75% 0.0534 168.49)",
+          "oklch(87% 0.0314 168.49)",
+          "oklch(95% 0.0126 168.49)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0480 262.14)",
+          "oklch(27% 0.1040 262.14)",
+          "oklch(39% 0.1440 262.14)",
+          "oklch(51% 0.1600 262.14)",
+          "oklch(63% 0.1600 262.14)",
+          "oklch(75% 0.1360 262.14)",
+          "oklch(87% 0.0800 262.14)",
+          "oklch(95% 0.0320 262.14)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "blue-soft": {
+        "role": "secondary",
+        "displayName": "Blue Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0046 257.20)",
+          "oklch(27% 0.0100 257.20)",
+          "oklch(39% 0.0139 257.20)",
+          "oklch(51% 0.0154 257.20)",
+          "oklch(63% 0.0154 257.20)",
+          "oklch(75% 0.0131 257.20)",
+          "oklch(87% 0.0077 257.20)",
+          "oklch(95% 0.0031 257.20)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "blue-text": {
+        "role": "secondary",
+        "displayName": "Blue Text",
+        "tonalRamp": [
+          "oklch(15% 0.0422 261.56)",
+          "oklch(27% 0.0915 261.56)",
+          "oklch(39% 0.1267 261.56)",
+          "oklch(51% 0.1408 261.56)",
+          "oklch(63% 0.1408 261.56)",
+          "oklch(75% 0.1197 261.56)",
+          "oklch(87% 0.0704 261.56)",
+          "oklch(95% 0.0282 261.56)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Green",
+        "tonalRamp": [
+          "oklch(15% 0.0292 168.76)",
+          "oklch(27% 0.0634 168.76)",
+          "oklch(39% 0.0877 168.76)",
+          "oklch(51% 0.0975 168.76)",
+          "oklch(63% 0.0975 168.76)",
+          "oklch(75% 0.0829 168.76)",
+          "oklch(87% 0.0487 168.76)",
+          "oklch(95% 0.0195 168.76)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "green-soft": {
+        "role": "secondary",
+        "displayName": "Green Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0043 148.77)",
+          "oklch(27% 0.0093 148.77)",
+          "oklch(39% 0.0129 148.77)",
+          "oklch(51% 0.0143 148.77)",
+          "oklch(63% 0.0143 148.77)",
+          "oklch(75% 0.0122 148.77)",
+          "oklch(87% 0.0072 148.77)",
+          "oklch(95% 0.0029 148.77)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0208 161.78)",
+          "oklch(27% 0.0450 161.78)",
+          "oklch(39% 0.0623 161.78)",
+          "oklch(51% 0.0693 161.78)",
+          "oklch(63% 0.0693 161.78)",
+          "oklch(75% 0.0589 161.78)",
+          "oklch(87% 0.0346 161.78)",
+          "oklch(95% 0.0139 161.78)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "sage-soft": {
+        "role": "secondary",
+        "displayName": "Sage Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0051 125.30)",
+          "oklch(27% 0.0110 125.30)",
+          "oklch(39% 0.0152 125.30)",
+          "oklch(51% 0.0169 125.30)",
+          "oklch(63% 0.0169 125.30)",
+          "oklch(75% 0.0143 125.30)",
+          "oklch(87% 0.0084 125.30)",
+          "oklch(95% 0.0034 125.30)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.0477 31.69)",
+          "oklch(27% 0.1034 31.69)",
+          "oklch(39% 0.1431 31.69)",
+          "oklch(51% 0.1590 31.69)",
+          "oklch(63% 0.1590 31.69)",
+          "oklch(75% 0.1352 31.69)",
+          "oklch(87% 0.0795 31.69)",
+          "oklch(95% 0.0318 31.69)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "attention": {
+        "role": "secondary",
+        "displayName": "Attention",
+        "tonalRamp": [
+          "oklch(15% 0.0449 31.90)",
+          "oklch(27% 0.0973 31.90)",
+          "oklch(39% 0.1348 31.90)",
+          "oklch(51% 0.1498 31.90)",
+          "oklch(63% 0.1498 31.90)",
+          "oklch(75% 0.1273 31.90)",
+          "oklch(87% 0.0749 31.90)",
+          "oklch(95% 0.0300 31.90)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "attention-soft": {
+        "role": "secondary",
+        "displayName": "Attention Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0054 48.52)",
+          "oklch(27% 0.0117 48.52)",
+          "oklch(39% 0.0162 48.52)",
+          "oklch(51% 0.0180 48.52)",
+          "oklch(63% 0.0180 48.52)",
+          "oklch(75% 0.0153 48.52)",
+          "oklch(87% 0.0090 48.52)",
+          "oklch(95% 0.0036 48.52)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "attention-text": {
+        "role": "secondary",
+        "displayName": "Attention Text",
+        "tonalRamp": [
+          "oklch(15% 0.0364 33.82)",
+          "oklch(27% 0.0789 33.82)",
+          "oklch(39% 0.1093 33.82)",
+          "oklch(51% 0.1214 33.82)",
+          "oklch(63% 0.1214 33.82)",
+          "oklch(75% 0.1032 33.82)",
+          "oklch(87% 0.0607 33.82)",
+          "oklch(95% 0.0243 33.82)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ],
+        "rampPurpose": "Synthesized same-hue OKLCH preview; frontmatter remains normative."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "module-title": {
+        "displayName": "Module Title",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "panel-title": {
+        "displayName": "Panel Title",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "metric": {
+        "displayName": "Metric",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "dialog-title": {
+        "displayName": "Dialog Title",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Scoped platform demo typography; responsive details in DESIGN.md."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action",
+        "value": "0 4px 9px #263a320c",
+        "purpose": "Primary action"
+      },
+      {
+        "name": "popover",
+        "value": "0 14px 30px #26343214",
+        "purpose": "Header popovers"
+      },
+      {
+        "name": "dialog",
+        "value": "0 24px 70px #26343226",
+        "purpose": "Modal overlay"
+      }
+    ],
+    "motion": [
+      {
+        "name": "color",
+        "value": "180ms ease-out",
+        "purpose": "Hover and selection feedback"
+      },
+      {
+        "name": "press",
+        "value": "120ms ease-out",
+        "purpose": "1px action press"
+      },
+      {
+        "name": "dialog",
+        "value": "220ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "8px rise and fade; disabled under reduced motion"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none; transition:none; scroll-behavior:auto",
+        "purpose": "Applied throughout workspace and dialogs"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "wrapped-header",
+        "value": "1350px"
+      },
+      {
+        "name": "module-board-two",
+        "value": "1200px"
+      },
+      {
+        "name": "two-metrics",
+        "value": "1000px"
+      },
+      {
+        "name": "stacked-workspace",
+        "value": "759px"
+      },
+      {
+        "name": "module-board-one",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enrolment or supporting action.",
+      "html": "<button class=\"ds-primary\">Enrol student \u2192</button>",
+      "css": ".ds-primary{font-family:'Campus Sans',Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:47px;padding:0 23px;border:1px solid transparent;border-radius:15px;background:#263a32;color:#fff;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 180ms ease-out,transform 120ms ease-out}.ds-primary:hover{background:#1d5140}.ds-primary:focus-visible{outline:2px solid #245ac6;outline-offset:4px;}.ds-primary:active{transform:translateY(1px)}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Enrolment or supporting action.",
+      "html": "<button class=\"ds-secondary\">Show more learners</button>",
+      "css": ".ds-secondary{font-family:'Campus Sans',Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:47px;padding:0 23px;border:1px solid #d8dfd2;border-radius:15px;background:#fafaf7;color:#263432;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 180ms ease-out,transform 120ms ease-out}.ds-secondary:hover{background:#e5e9df}.ds-secondary:focus-visible{outline:2px solid #245ac6;outline-offset:4px;}.ds-secondary:active{transform:translateY(1px)}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Form field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled enrolment input.",
+      "html": "<label class=\"ds-field\">Learner name<input placeholder=\"Enter a sample name\" /></label>",
+      "css": ".ds-field{font-family:'Campus Sans',Arial,sans-serif;display:grid;gap:9px;color:#263432;font-size:12px;font-weight:500}.ds-field input{font-family:'Campus Sans',Arial,sans-serif;min-height:46px;padding:10px 12px;border:1px solid #d0d8ca;border-radius:10px;background:#fff;color:#263432;font-size:13px;caret-color:#208064}.ds-field input::placeholder{color:#6c746f}.ds-field input:focus-visible{outline:2px solid #245ac6;outline-offset:4px;}"
+    },
+    {
+      "name": "Campus navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Pill navigation with current route.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Campus navigation\"><a href=\"#overview\" aria-current=\"page\">Overview</a><a href=\"#students\">Students</a><a href=\"#learning\">Learning</a></nav>",
+      "css": ".ds-nav{font-family:'Campus Sans',Arial,sans-serif;display:flex;gap:3px;padding:6px;border:1px solid #e2e3db;border-radius:40px;background:#fafaf78c;backdrop-filter:blur(12px);overflow-x:auto}.ds-nav a{padding:11px 15px;border-radius:30px;color:#263432;font-size:12px;white-space:nowrap;text-decoration:none;transition:background-color 180ms ease-out}.ds-nav a[aria-current]{background:#e2eaf6;color:#204b9c}.ds-nav a:hover{background:#e9ece4}.ds-nav a:focus-visible{outline:2px solid #245ac6;outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Learner status",
+      "kind": "chip",
+      "refersTo": "status",
+      "description": "Text labels preserve meaning alongside semantic tints.",
+      "html": "<span class=\"ds-status\">Active</span><span class=\"ds-status ds-pending\">Pending</span>",
+      "css": ".ds-status{font-family:'Campus Sans',Arial,sans-serif;display:inline-flex;gap:6px;padding:5px 10px;border-radius:30px;background:#e5eee6;color:#2b634b;font-size:10px;font-weight:500;text-transform:capitalize;white-space:nowrap}.ds-pending{margin-left:8px;background:#e6edf7;color:#204b9c}"
+    },
+    {
+      "name": "Working panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat editorial content panel.",
+      "html": "<section class=\"ds-panel\"><h2>Learner journey</h2><p>Every next step, in the same picture</p></section>",
+      "css": ".ds-panel{font-family:'Campus Sans',Arial,sans-serif;padding:23px;border:1px solid #e2e4da;border-radius:14px;background:#fafaf7;color:#263432}.ds-panel h2{margin:0;font-family:\"Campus Editorial\",Georgia,serif;font-size:23px;font-weight:500;line-height:1.3;letter-spacing:-.025em;font-variation-settings:\"opsz\" 12}.ds-panel p{margin:4px 0 0;font-size:12px;line-height:1.5;color:#646e68}"
+    },
+    {
+      "name": "Record dialog",
+      "kind": "custom",
+      "refersTo": "dialog",
+      "description": "Static preview of native modal surface; runtime uses showModal.",
+      "html": "<section class=\"ds-dialog\" role=\"dialog\" aria-labelledby=\"ds-dialog-title\"><h2 id=\"ds-dialog-title\">Learner record</h2><p>Sample learner record \u00b7 Institution workspace</p><button class=\"ds-close\" aria-label=\"Close dialog\">\u00d7</button></section>",
+      "css": ".ds-dialog{font-family:'Campus Sans',Arial,sans-serif;position:relative;max-width:590px;padding:28px;border:1px solid #d8dfd2;border-radius:16px;background:#fafaf7;color:#263432;box-shadow:0 24px 70px #26343226}.ds-dialog h2{margin:0;padding-right:46px;font:400 30px/1.2 \"Campus Editorial\",Georgia,serif;letter-spacing:-.025em}.ds-dialog p{margin:10px 0 0;color:#646e68;font-size:12px;line-height:1.6}.ds-close{position:absolute;top:20px;right:20px;width:40px;height:40px;border:0;border-radius:50%;background:#efeee8;color:#263432;font-size:24px;cursor:pointer}.ds-close:hover{background:#e5e9df}.ds-close:focus-visible{outline:2px solid #245ac6;outline-offset:4px;}.ds-close:active{transform:translateY(1px)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Your campus, connected",
+    "overview": "The approved Hybrid direction gives institution operations the calm of warm paper and an editorial hierarchy. Serif headings and figures establish the reading order; compact sans controls, fine sage rules and restrained colored signals keep records easy to scan. The same workspace shell connects overview, students and module previews.",
+    "keyCharacteristics": [
+      "Warm paper and lightly bordered off-white surfaces.",
+      "Editorial headings with compact, readable operational controls.",
+      "Forest actions; blue navigation and data; green progress; terracotta attention.",
+      "Connected sample records, explicit demo context and reversible session actions."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Signal Rule",
+        "body": "Keep colored signals tied to navigation, learning, records or attention; preserve text labels alongside color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Editorial Hierarchy Rule",
+        "body": "Use the serif for page and panel headings and principal figures; use the sans for navigation, records, fields and actions.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do reuse the scoped shell, locally hosted fonts and semantic accent roles.",
+      "Do preserve sample-data notices, labelled controls, keyboard focus and reduced-motion handling.",
+      "Do let navigation, tables and calendars scroll where their content requires width.",
+      "Do keep enrolment, learner records, cohort counts and fee totals connected within the demo session."
+    ],
+    "donts": [
+      "Do not apply this document as a homepage typography migration or replace its existing brief.",
+      "Do not present illustrative module content or sample figures as live institution evidence.",
+      "Do not ship generated concept screenshots as interface assets.",
+      "Do not claim demo enrolments or simulated payments persist after refresh."
+    ]
+  }
+}

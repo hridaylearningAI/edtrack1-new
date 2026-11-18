@@ -190,7 +190,7 @@ export default function AdminPartnersPage() {
                       <TableCell>
                         <div className="flex items-center gap-3">
                           <Avatar className="h-9 w-9">
-                            <AvatarImage src={partner.avatar || "/placeholder.svg"} alt={partner.name} />
+                            <AvatarImage src={partner.avatar || `https://api.dicebear.com/9.x/lorelei/svg?seed=${encodeURIComponent(partner.name)}&backgroundColor=f5e7e0`} alt={partner.name} />
                             <AvatarFallback>{partner.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}</AvatarFallback>
                           </Avatar>
                           <span className="font-medium">{partner.name}</span>

@@ -1,23 +1,32 @@
 "use client"
 
-import { useEffect, useMemo, useState, type ReactNode } from "react"
+import { useEffect, useMemo, useState, type ComponentType, type ReactNode } from "react"
 import {
   Bar,
   BarChart,
   Cell,
   Pie,
   PieChart,
-  PolarAngleAxis,
+  PolarAngleAxis as RechartsPolarAngleAxis,
   PolarGrid,
   PolarRadiusAxis,
   Radar,
   RadarChart,
-  ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
 } from "recharts"
+import {
+  ChartContainer,
+  ChartTooltip,
+  ChartTooltipContent,
+  type ChartConfig,
+} from "@/components/ui/chart"
 import { useUser } from "@/lib/hooks/useUser"
+
+const PolarAngleAxis = RechartsPolarAngleAxis as unknown as ComponentType<{
+  dataKey?: string
+  tick?: Record<string, unknown>
+}>
 import {
   buildEthtl115LevelPathway,
   ETHTL115_SECTIONS_PER_LEVEL,
@@ -43,6 +52,13 @@ const PIE_COLORS = {
   done: "#2f6fed",
   left: "#dbe7fb",
 }
+
+const gnpsChartConfig = {
+  complete: { label: "Complete", color: "#2f6fed" },
+  average: { label: "Level avg", color: "#16325c" },
+  Done: { label: "Done", color: "#2f6fed" },
+  Left: { label: "Left", color: "#dbe7fb" },
+} satisfies ChartConfig
 
 type QuizAttempt = {
   quiz_identifier: string
@@ -149,48 +165,6 @@ function useGnpsLiveSummary(enrollmentId: number, courseId: number) {
   }, [courseId, enrollmentId, getAccessToken, isAuthenticated])
 
   return { counts, levelCounts, attempts, loading }
-}
-
-function ChartTooltip({
-  active,
-  payload,
-  label,
-}: {
-  active?: boolean
-  payload?: Array<{
-    value?: number
-    name?: string
-    color?: string
-    payload?: { name?: string; s1?: number; s2?: number; s3?: number; s4?: number; attempted?: number }
-  }>
-  label?: string
-}) {
-  if (!active || !payload?.length) return null
-  const row = payload[0]?.payload
-  const title = label || row?.name || payload[0]?.name
-  return (
-    <div className="rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs shadow-sm dark:border-slate-700 dark:bg-slate-900">
-      <p className="mb-1 font-semibold text-[#16325c] dark:text-slate-100">{title}</p>
-      <div className="space-y-0.5">
-        {payload.map((item) => (
-          <p key={item.name} className="text-slate-500 dark:text-slate-400">
-            <span className="font-medium" style={{ color: item.color }}>
-              {item.name}
-            </span>
-            {": "}
-            {typeof item.value === "number" ? `${Math.round(item.value)}%` : "—"}
-          </p>
-        ))}
-        {row && typeof row.attempted === "number"
-          ? SECTION_KEYS.map((key) => (
-              <p key={key} className="text-slate-500 dark:text-slate-400">
-                Section {key.slice(1)}: {row[key] ? `${row[key]}%` : "—"}
-              </p>
-            ))
-          : null}
-      </div>
-    </div>
-  )
 }
 
 function ChartFrame({ title, children }: { title: string; children: ReactNode }) {
@@ -327,7 +301,7 @@ export function GnpsLiveSummary({
       <div className="grid min-w-0 grid-cols-2 gap-3">
         <ChartFrame title="Activity mix">
           <div className="h-40">
-            <ResponsiveContainer width="100%" height="100%">
+            <ChartContainer config={gnpsChartConfig} className="!aspect-auto h-full w-full">
               <RadarChart data={radarData} cx="50%" cy="52%" outerRadius="68%">
                 <PolarGrid stroke="#cbd5e1" />
                 <PolarAngleAxis dataKey="activity" tick={{ fill: "#64748b", fontSize: 10, fontWeight: 600 }} />
@@ -335,20 +309,20 @@ export function GnpsLiveSummary({
                 <Radar
                   name="Complete"
                   dataKey="complete"
-                  stroke="#2f6fed"
-                  fill="#2f6fed"
+                  stroke="var(--color-complete)"
+                  fill="var(--color-complete)"
                   fillOpacity={0.28}
                   strokeWidth={2}
                 />
-                <Tooltip content={<ChartTooltip />} />
+                <ChartTooltip content={<ChartTooltipContent />} />
               </RadarChart>
-            </ResponsiveContainer>
+            </ChartContainer>
           </div>
         </ChartFrame>
 
         <ChartFrame title="Overall pathway">
           <div className="relative h-40">
-            <ResponsiveContainer width="100%" height="100%">
+            <ChartContainer config={gnpsChartConfig} className="!aspect-auto h-full w-full">
               <PieChart>
                 <Pie
                   data={pieData}
@@ -363,9 +337,9 @@ export function GnpsLiveSummary({
                     <Cell key={slice.name} fill={slice.fill} />
                   ))}
                 </Pie>
-                <Tooltip content={<ChartTooltip />} />
+                <ChartTooltip content={<ChartTooltipContent hideLabel />} />
               </PieChart>
-            </ResponsiveContainer>
+            </ChartContainer>
             <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
               <p className="text-lg font-bold tabular-nums text-[#16325c] dark:text-slate-100">{overall.percent}%</p>
               <p className="text-[10px] text-slate-400">
@@ -377,27 +351,27 @@ export function GnpsLiveSummary({
 
         <ChartFrame title="Completion by level">
           <div className="h-36">
-            <ResponsiveContainer width="100%" height="100%">
+            <ChartContainer config={gnpsChartConfig} className="!aspect-auto h-full w-full">
               <BarChart data={levelData} margin={{ top: 8, right: 4, left: -22, bottom: 0 }}>
                 <XAxis dataKey="level" tick={{ fill: "#64748b", fontSize: 11, fontWeight: 600 }} axisLine={false} tickLine={false} />
                 <YAxis domain={[0, 100]} tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={false} tickLine={false} />
-                <Tooltip content={<ChartTooltip />} />
-                <Bar dataKey="complete" name="Complete" radius={[6, 6, 0, 0]} fill="#2f6fed" maxBarSize={28} />
+                <ChartTooltip content={<ChartTooltipContent />} />
+                <Bar dataKey="complete" name="Complete" radius={[6, 6, 0, 0]} fill="var(--color-complete)" maxBarSize={28} />
               </BarChart>
-            </ResponsiveContainer>
+            </ChartContainer>
           </div>
         </ChartFrame>
 
         <ChartFrame title="Quiz scores by level">
           <div className="h-36">
-            <ResponsiveContainer width="100%" height="100%">
+            <ChartContainer config={gnpsChartConfig} className="!aspect-auto h-full w-full">
               <BarChart data={quizByLevel.rows} margin={{ top: 8, right: 4, left: -22, bottom: 0 }}>
                 <XAxis dataKey="level" tick={{ fill: "#64748b", fontSize: 11, fontWeight: 600 }} axisLine={false} tickLine={false} />
                 <YAxis domain={[0, 100]} tick={{ fill: "#94a3b8", fontSize: 10 }} axisLine={false} tickLine={false} />
-                <Tooltip content={<ChartTooltip />} />
-                <Bar dataKey="average" name="Level avg" radius={[6, 6, 0, 0]} fill="#16325c" maxBarSize={28} />
+                <ChartTooltip content={<ChartTooltipContent />} />
+                <Bar dataKey="average" name="Level avg" radius={[6, 6, 0, 0]} fill="var(--color-average)" maxBarSize={28} />
               </BarChart>
-            </ResponsiveContainer>
+            </ChartContainer>
           </div>
         </ChartFrame>
       </div>
