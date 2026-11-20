@@ -118,10 +118,13 @@ export function CrmLeadsPanel({
   detailBasePath,
   title = "CRM Leads",
   description = "Leads from Meta Ads, Google Ads, and other marketing sources.",
+  publicPreview = false,
 }: {
   detailBasePath: string
   title?: string
   description?: string
+  /** Load demo CRM data without requiring a signed-in session (landing walkthrough). */
+  publicPreview?: boolean
 }) {
   const { getAccessToken, isAuthenticated, isLoading: authLoading } = useUser()
   const [leads, setLeads] = useState<CrmLead[]>([])
@@ -172,8 +175,8 @@ export function CrmLeadsPanel({
   const fetchLeads = useCallback(async () => {
     try {
       setLoading(true)
-      const token = await getAccessToken()
-      if (!token) {
+      const token = publicPreview ? null : await getAccessToken()
+      if (!publicPreview && !token) {
         toast.error("Auth token missing")
         return
       }
@@ -186,7 +189,9 @@ export function CrmLeadsPanel({
       if (platformFilter !== "all") params.set("platform", platformFilter)
       if (search.trim()) params.set("search", search.trim())
 
-      const headers = { Authorization: `Bearer ${token}` }
+      const headers: HeadersInit = token
+        ? { Authorization: `Bearer ${token}` }
+        : { Authorization: "Bearer demo-tour" }
       const [res, assigneeRes] = await Promise.all([
         fetch(`/api/crm/portal/leads?${params.toString()}`, { headers }),
         fetch(`/api/crm/portal/assignees`, { headers }),
@@ -199,7 +204,7 @@ export function CrmLeadsPanel({
       }
       setLeads(Array.isArray(json.data?.leads) ? json.data.leads : [])
       setStats(json.data?.stats ?? null)
-      setCanAssignLeads(Boolean(json.data?.can_assign_leads))
+      setCanAssignLeads(publicPreview ? false : Boolean(json.data?.can_assign_leads))
       if (assigneeRes.ok && assigneeJson.success && Array.isArray(assigneeJson.data?.assignees)) {
         setAssignees(assigneeJson.data.assignees)
       }
@@ -209,12 +214,16 @@ export function CrmLeadsPanel({
     } finally {
       setLoading(false)
     }
-  }, [getAccessToken, platformFilter, search, statusFilter])
+  }, [getAccessToken, platformFilter, publicPreview, search, statusFilter])
 
   useEffect(() => {
+    if (publicPreview) {
+      void fetchLeads()
+      return
+    }
     if (authLoading || !isAuthenticated) return
     void fetchLeads()
-  }, [authLoading, isAuthenticated, fetchLeads])
+  }, [authLoading, fetchLeads, isAuthenticated, publicPreview])
 
   const assigneeById = useMemo(() => {
     const map = new Map<number, string>()

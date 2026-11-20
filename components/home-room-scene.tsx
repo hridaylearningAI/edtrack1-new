@@ -5,16 +5,32 @@ import * as THREE from 'three'
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js'
 import { ROOM_CHAPTERS, getRoomJourney, getRoomCamera, type RoomDriver } from './home-room-story'
 
-type Props = { driver: MutableRefObject<RoomDriver>; onError: () => void; onScreenOpen: () => void }
+export type RoomScreenFrame = {
+  visible: boolean
+  chapter: number
+  left: number
+  top: number
+  width: number
+  height: number
+}
+
+type Props = {
+  driver: MutableRefObject<RoomDriver>
+  onError: () => void
+  onScreenOpen?: () => void
+  onScreenFrame?: (frame: RoomScreenFrame) => void
+}
 const smooth = (t: number) => { t = THREE.MathUtils.clamp(t, 0, 1); return t * t * (3 - 2 * t) }
 
 /** Furniture, guide and camera share a world and depth buffer. Scroll is the clock. */
-export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
+export function HomeRoomScene({ driver, onError, onScreenOpen, onScreenFrame }: Props) {
   const host = useRef<HTMLDivElement>(null)
   const errorCallback = useRef(onError)
   errorCallback.current = onError
   const openCallback = useRef(onScreenOpen)
   openCallback.current = onScreenOpen
+  const frameCallback = useRef(onScreenFrame)
+  frameCallback.current = onScreenFrame
   useEffect(() => {
     const element = host.current
     if (!element) return
@@ -47,7 +63,7 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
     const plaster = mat('#eeeae0', .86), white = mat('#fcfaf5', .58), edge = mat('#d4cfc4', .8)
     const oak = mat('#b68d61', .66), dark = mat('#242c31', .4, .2), metal = mat('#a8b0b3', .3, .75)
     const blue = mat('#2257ad', .4), green = mat('#3d7c65', .7), red = mat('#b94a39', .6)
-    const screen = mat('#e7edf0', .32), paper = mat('#f8f4e9', .85)
+    const paper = mat('#f8f4e9', .85)
     const lightMaterial = new THREE.MeshBasicMaterial({ color: '#fff7db' }); materials.add(lightMaterial)
     const mesh = (parent: THREE.Object3D, geometry: THREE.BufferGeometry, material: THREE.Material, x: number, y: number, z: number) => {
       geometries.add(geometry)
@@ -119,39 +135,28 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
 
     const highlights: THREE.MeshStandardMaterial[] = []
     const screenFaces: THREE.Mesh[] = []
-    const loader = new THREE.TextureLoader()
-    function productTexture(face: THREE.Mesh, material: THREE.MeshBasicMaterial, preview: string) {
-      loader.load(`/images/landing/product/${preview}.jpg`, texture => {
-        if (disposed) { texture.dispose(); return }
-        texture.colorSpace = THREE.SRGBColorSpace
-        texture.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy())
-        textures.add(texture); material.map = texture; material.needsUpdate = true
-        const aspect = texture.image.width / texture.image.height
-        const geometry = (face.geometry as THREE.PlaneGeometry).parameters as { width: number; height: number }
-        const frameAspect = geometry.width / geometry.height
-        face.scale.set(Math.min(1, aspect / frameAspect), Math.min(1, frameAspect / aspect), 1)
-        requestRender()
-      }, undefined, () => {})
-    }
-    function monitor(parent: THREE.Object3D, x: number, y: number, z: number, accent: THREE.MeshStandardMaterial, preview: string) {
+    const screenGlow = new THREE.MeshBasicMaterial({
+      color: '#f5f3ed',
+      toneMapped: false,
+    })
+    materials.add(screenGlow)
+    function monitor(parent: THREE.Object3D, x: number, y: number, z: number, accent: THREE.MeshStandardMaterial) {
       cylinder(parent, x, y + .1, z, .025, .035, .22, metal)
       box(parent, x, y, z + .01, .4, .035, .24, metal)
       box(parent, x, y + .61, z, 1.45, 1.05, .055, dark, .035)
-      const material = new THREE.MeshBasicMaterial({ color: '#ffffff', toneMapped: false }); materials.add(material)
-      const face = mesh(parent, new THREE.PlaneGeometry(1.36, .94), material, x, y + .61, z + .033); face.castShadow = false
+      const face = mesh(parent, new THREE.PlaneGeometry(1.36, .94), screenGlow, x, y + .61, z + .033); face.castShadow = false
       screenFaces.push(face)
-      productTexture(face, material, preview)
       const ledMat = accent.clone(); ledMat.emissive.copy(accent.color); ledMat.emissiveIntensity = .1; materials.add(ledMat); highlights.push(ledMat)
       box(parent, x + .48, y + .13, z + .034, .025, .012, .01, ledMat, .004)
       return face
     }
-    function desk(x: number, color: THREE.MeshStandardMaterial, preview: string) {
+    function desk(x: number, color: THREE.MeshStandardMaterial) {
       const d = group(x, -2.15)
       box(d, 0, .96, 0, 2.05, .1, 1.05, oak, .055)
       for (const lx of [-.86, .86]) for (const lz of [-.37, .37]) box(d, lx, .46, lz, .055, .92, .055, metal, .012)
       box(d, -.7, .53, -.12, .5, .74, .65, white, .045)
       for (const yy of [.31, .55, .78]) { box(d, -.7, yy, .213, .43, .19, .025, plaster); box(d, -.7, yy + .04, .235, .14, .012, .022, metal, .004) }
-      monitor(d, .13, 1.04, -.17, color, preview)
+      monitor(d, .13, 1.04, -.17, color)
       box(d, .14, 1.025, .28, .62, .025, .22, metal)
       for (let r = 0; r < 3; r++) for (let k = 0; k < 10; k++) box(d, -.12 + k * .057, 1.044, .21 + r * .053, .043, .008, .035, white, .002)
       mesh(d, new THREE.SphereGeometry(.065, 12, 8), white, .64, 1.04, .29).scale.set(.8, .3, 1.25)
@@ -161,16 +166,15 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
       for (const lx of [-.18, .18]) box(d, lx + .05, .24, .7, .035, .48, .035, metal)
       return d
     }
-    desk(-2.5, blue, 'students'); desk(0, green, 'learning'); desk(2.5, red, 'fees')
+    desk(-2.5, blue); desk(0, green); desk(2.5, red)
     // Shared portal terminal on the open right edge; it faces into the room.
     const portal = group(3.65, 1.1)
     portal.rotation.y = -Math.PI / 4
     box(portal, 0, .06, 0, 1.25, .1, .65, metal, .06)
     box(portal, 0, .6, -.06, .12, 1.15, .12, metal)
     box(portal, 0, 1.7, 0, 1.5, .9, .09, dark, .055)
-    const portalMaterial = new THREE.MeshBasicMaterial({ color: '#ffffff', toneMapped: false }); materials.add(portalMaterial)
-    const portalFace = mesh(portal, new THREE.PlaneGeometry(1.36, .765), portalMaterial, 0, 1.7, .05)
-    portalFace.castShadow = false; screenFaces.push(portalFace); productTexture(portalFace, portalMaterial, 'workspace')
+    const portalFace = mesh(portal, new THREE.PlaneGeometry(1.36, .765), screenGlow, 0, 1.7, .05)
+    portalFace.castShadow = false; screenFaces.push(portalFace)
     // Records credenza: open shelves, binders and one moving drawer.
     const records = group(-3.48, 1.2); records.rotation.y = Math.PI / 2
     box(records, 0, .55, 0, 1.8, 1.05, .62, oak, .04)
@@ -179,7 +183,7 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
     for (let n = 0; n < 9; n++) { box(records, -.72 + n * .17, .48, .4, .13, .32, .28, [blue, paper, green, paper, red][n % 5]); box(records, -.72 + n * .17, .51, .549, .07, .06, .005, paper, .001) }
     const drawer = new THREE.Group(); records.add(drawer)
     box(drawer, 0, .85, .37, 1.65, .28, .045, white); box(drawer, 0, .85, .407, .35, .02, .025, metal)
-    monitor(records, 0, 1.04, -.08, green, 'records')
+    monitor(records, 0, 1.04, -.08, green)
     // A small entry bench marks the edge without blocking any walking route.
     const bench = group(.15, 2.65)
     box(bench, 0, .4, 0, 2, .16, .5, oak, .07)
@@ -290,6 +294,52 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
       camera.lookAt(cameraTarget)
       for (let index = 0; index < 3; index++) highlights[index].emissiveIntensity = chapter === index + 1 ? .7 : .05
       nodes.forEach((node, index) => { const material = node.material as THREE.MeshStandardMaterial; material.color.set(chapter > index ? ROOM_CHAPTERS[index + 1].color : '#b8c2ba'); material.emissive.copy(material.color); material.emissiveIntensity = chapter === index + 1 ? .45 : 0 })
+      const report = frameCallback.current
+      if (report) {
+        const active = chapter >= 1 && chapter <= 5 && immersion > .42 && local > .5
+        const face = active ? screenFaces[chapter - 1] : null
+        if (face) {
+          face.updateWorldMatrix(true, false)
+          const params = (face.geometry as THREE.PlaneGeometry).parameters
+          const hw = (params.width * face.scale.x) / 2
+          const hh = (params.height * face.scale.y) / 2
+          const corners = [
+            new THREE.Vector3(-hw, hh, 0),
+            new THREE.Vector3(hw, hh, 0),
+            new THREE.Vector3(hw, -hh, 0),
+            new THREE.Vector3(-hw, -hh, 0),
+          ].map((corner) => {
+            corner.applyMatrix4(face.matrixWorld).project(camera)
+            return {
+              x: (corner.x * 0.5 + 0.5) * width,
+              y: (-corner.y * 0.5 + 0.5) * height,
+            }
+          })
+          const xs = corners.map((c) => c.x)
+          const ys = corners.map((c) => c.y)
+          const left = Math.min(...xs)
+          const top = Math.min(...ys)
+          const frameW = Math.max(...xs) - left
+          const frameH = Math.max(...ys) - top
+          const onScreen =
+            frameW > 48 &&
+            frameH > 36 &&
+            left < width &&
+            top < height &&
+            left + frameW > 0 &&
+            top + frameH > 0
+          report({
+            visible: onScreen,
+            chapter,
+            left,
+            top,
+            width: frameW,
+            height: frameH,
+          })
+        } else {
+          report({ visible: false, chapter, left: 0, top: 0, width: 0, height: 0 })
+        }
+      }
       renderer.render(scene, camera)
     }
     function requestRender() { if (!disposed && !raf) raf = requestAnimationFrame(render) }
@@ -311,8 +361,14 @@ export function HomeRoomScene({ driver, onError, onScreenOpen }: Props) {
       raycaster.setFromCamera(pointer, camera)
       return raycaster.intersectObject(screenFaces[chapter - 1]).length > 0
     }
-    const screenClick = (event: MouseEvent) => { if (activeScreen(event)) openCallback.current() }
-    const screenHover = (event: PointerEvent) => { renderer.domElement.style.cursor = activeScreen(event) ? 'zoom-in' : 'default' }
+    const screenClick = (event: MouseEvent) => {
+      if (!openCallback.current || !activeScreen(event)) return
+      openCallback.current()
+    }
+    const screenHover = (event: PointerEvent) => {
+      renderer.domElement.style.cursor =
+        openCallback.current && activeScreen(event) ? 'zoom-in' : 'default'
+    }
     renderer.domElement.addEventListener('click', screenClick)
     renderer.domElement.addEventListener('pointermove', screenHover)
     const observer = new ResizeObserver(resize); observer.observe(element)

@@ -1,11 +1,12 @@
 # Product captures
 
-Captured from the local EdTrack demo on 13 October 2026 using the supplied demo account. These show the existing application with sample data, not live institutional results. All edits were read-only; no student or certificate records were changed.
+Updated November 2026 to reflect the immersive campus halls in the EdTrack ONE demo. These are illustrative product frames for the homepage room walkthrough (sample data, not live institutional results).
 
-- `workspace.jpg`: `/platform` overview.
-- `students.jpg`: `/admin/students`, focused directory crop.
-- `learning.jpg`: `/platform/modules/lms`, existing sample-data module preview.
-- `fees.jpg`: `/platform/modules/fees`, existing sample-data module preview.
-- `records.jpg`: `/admin/certificates`, focused certificate management crop.
+- `workspace.jpg`: Platform map / connected campus overview.
+- `students.jpg`: Student management directory.
+- `learning.jpg`: Scheduling hall (sessions, rooms, trainers).
+- `fees.jpg`: Insight Analytics observatory (journey, trends, health).
+- `records.jpg`: Certificates and completion records.
+- `resources.jpg`: Resource Management campus floor (optional / future frame).
 
-The homepage labels these as demo captures and sample data. Captures are static; the primary demo action opens the working platform.
+The homepage labels these as demo captures and sample data. The primary demo action opens the working platform.

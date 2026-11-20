@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { SignInButton, SignUpButton } from '@clerk/nextjs'
+import { SignInButton } from '@clerk/nextjs'
 import { ArrowRight, ArrowUpRight, BookOpen, Check, GraduationCap, Plus, Users, Wallet } from 'lucide-react'
+import { HomeInterestForm } from './home-interest-form'
 import s from './home-platform-details.module.css'
 
 const solutions = [
@@ -27,6 +28,29 @@ const faqs = [
   ['I already have an account. Where do I go?', 'Use Log in at the top of this page to access your account. After signing in, you will be directed to the workspace associated with your role.'],
 ]
 
+const brochureModules = [
+  { code: 'CRM', title: 'Connect', blurb: 'Attract and engage prospective students' },
+  { code: 'SMS', title: 'Enrol', blurb: 'Admissions, records and compliance' },
+  { code: 'LMS', title: 'Learn', blurb: 'Deliver and assess learning' },
+  { code: 'FMS', title: 'Pay', blurb: 'Fees, invoicing and scholarships' },
+  { code: 'AI', title: 'Insight', blurb: 'Outcomes and decisions' },
+]
+
+const demoContacts = [
+  {
+    initials: 'NC',
+    name: 'Nupur Chanda',
+    email: 'nupur.chanda@edtec.edu.au',
+    phone: '+61 470 233 998',
+  },
+  {
+    initials: 'AA',
+    name: 'Aqeel Asad',
+    email: 'aqeel.asad@edtec.edu.au',
+    phone: '+61 475 881 496',
+  },
+]
+
 export function HomePlatformDetails() {
   return <div className={s.details} id="platform-details">
     <div className={s.content}>
@@ -39,7 +63,57 @@ export function HomePlatformDetails() {
       <section id="customers" className={s.section} aria-labelledby="customers-title"><div className={s.heading}><div><p className={s.eyebrow}>In their words</p><h2 id="customers-title">A shared direction.<br/><span>Different perspectives.</span></h2></div><p>Perspectives from vocational, higher and online education teams on bringing their work together in EdTrack ONE.</p></div><div className={s.testimonials}>{testimonials.map(item => <figure key={item.org} className={s.testimonial} data-tone={item.tone}><div className={s.customerLogo}><Image src={item.logo} alt={item.org} width={item.width} height={item.height}/></div><blockquote>{item.quote}</blockquote><figcaption><strong>{item.role}</strong><span>{item.org}</span></figcaption></figure>)}</div></section>
       <section id="questions" className={`${s.section} ${s.faq}`} aria-labelledby="faq-title"><div><p className={s.eyebrow}>A little more clarity</p><h2 id="faq-title">Good questions.<br/><span>Clear answers.</span></h2></div><div className={s.faqList}>{faqs.map(([question, answer]) => <details key={question}><summary>{question}<Plus size={18}/></summary><p>{answer}</p></details>)}</div></section>
     </div>
-    <section className={s.closing} aria-labelledby="next-title"><div className={s.brandLine} aria-hidden="true"><i/><i/><i/></div><p className={s.eyebrow}>Your next chapter starts here</p><h2 id="next-title">A better-connected campus.<br/>A brighter way forward.</h2><p>Meet the workspace that brings it all together.</p><div className={s.actions}><Link href="/demo" className={s.primary}>Explore the demo <ArrowRight size={17}/></Link><SignUpButton mode="modal" forceRedirectUrl="/"><button className={s.secondary}>Create an account <ArrowUpRight size={16}/></button></SignUpButton></div></section>
-    <footer className={s.footer}><div className={s.footerMain}><div><Link href="/" aria-label="EdTrack ONE home"><Image src="/images/EdTrack1 logo.png" alt="EdTrack ONE" width={1967} height={800}/></Link><p>More connected. More possible.</p></div><nav aria-label="Footer navigation"><a href="#platform">Platform</a><a href="#solutions">Solutions</a><a href="#workflow">How it works</a><a href="#customers">Customers</a><Link href="/demo">Demo</Link><SignInButton mode="modal"><button>Sign in <ArrowUpRight size={13}/></button></SignInButton></nav></div><div className={s.footerBottom}><span>© {new Date().getFullYear()} EdTrack ONE. All rights reserved.</span><span><i/><i/><i/> Built around education.</span></div></footer>
+    <section id="show-interest" className={s.closing} aria-labelledby="interest-title">
+      <div className={s.brandLine} aria-hidden="true"><i/><i/><i/></div>
+      <div className={s.brochureIntro}>
+        <p className={s.eyebrow}>Platform brochure · Getting started</p>
+        <h2 id="interest-title">Your whole institution in<br/>one connected workspace.</h2>
+        <p>
+          EdTrack ONE is the education intelligence platform that brings CRM, student management,
+          learning, finance and compliance together — so institutions run on one source of truth.
+        </p>
+        <ul className={s.moduleStrip} aria-label="EdTrack ONE modules at a glance">
+          {brochureModules.map((item, index) => (
+            <li key={item.code}>
+              <span>{String(index + 1).padStart(2, '0')} · {item.code}</span>
+              <strong>{item.title}</strong>
+              <small>{item.blurb}</small>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className={s.demoBand}>
+        <div className={s.demoContacts}>
+          <p className={s.demoBandLabel}>Book a demo with</p>
+          <div className={s.contactCards}>
+            {demoContacts.map((person) => (
+              <article key={person.email} className={s.contactCard}>
+                <span className={s.contactAvatar} aria-hidden>{person.initials}</span>
+                <div>
+                  <strong>{person.name}</strong>
+                  <a href={`mailto:${person.email}`}>{person.email}</a>
+                  <a href={`tel:${person.phone.replace(/\s/g, '')}`}>{person.phone}</a>
+                </div>
+              </article>
+            ))}
+          </div>
+          <p className={s.demoTagline}>Learn. Manage. Comply. All in One.</p>
+          <Link href="/demo" className={s.demoGhost}>
+            Explore the demo <ArrowRight size={16} />
+          </Link>
+        </div>
+
+        <div className={s.demoFormPanel}>
+          <p className={s.demoBandLabel}>Show interest</p>
+          <h3>Share your details and we’ll be in touch.</h3>
+          <p className={s.demoFormLead}>
+            Name, organisation, email and phone — the same next step as the EdTrack ONE platform brochure.
+          </p>
+          <HomeInterestForm />
+        </div>
+      </div>
+    </section>
+    <footer className={s.footer}><div className={s.footerMain}><div><Link href="/" aria-label="EdTrack ONE home"><Image src="/images/EdTrack1 logo.png" alt="EdTrack ONE" width={1967} height={800}/></Link><p>More connected. More possible.</p></div><nav aria-label="Footer navigation"><a href="#platform">Platform</a><a href="#solutions">Solutions</a><a href="#workflow">How it works</a><a href="#customers">Customers</a><a href="#show-interest">Show interest</a><Link href="/demo">Demo</Link><SignInButton mode="modal"><button>Sign in <ArrowUpRight size={13}/></button></SignInButton></nav></div><div className={s.footerBottom}><span>© {new Date().getFullYear()} EdTrack ONE. All rights reserved.</span><span><i/><i/><i/> Built around education.</span></div></footer>
   </div>
 }
