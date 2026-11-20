@@ -32,3 +32,111 @@
 .liveDialog:not([open]){display:none!important}
 .liveDialog[open]{display:flex}
 .liveDialog .dialogFooter{display:flex;align-items:center;justify-content:space-between;gap:12px}
+
+
+/* The station title and notes share the chapter's accent. */
+.monitorPlane.scene { z-index: 3; pointer-events: none; overflow: visible; }
+.monitorGroup { position: absolute; pointer-events: auto; }
+.monitorGroup[data-fallback=true] {
+  inset: 12% 8% auto auto;
+  width: min(54vw, 760px);
+  aspect-ratio: 16 / 10;
+}
+.monitorGroup .liveMonitor { inset: 0; }
+.monitorTrigger {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: default;
+}
+.monitorTooltipWrap {
+  position: absolute;
+  z-index: 4;
+  top: var(--tooltip-y, 8%);
+  left: var(--tooltip-x, 12px);
+  width: clamp(185px, 25vw, 330px);
+  height: max-content;
+  pointer-events: none;
+}
+.stationTitle {
+  position: absolute;
+  z-index: 2;
+  top: 31%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  max-width: min(27vw, 350px);
+  width: max-content;
+  margin: 0;
+  padding: 10px 17px 10px 10px;
+  border-radius: 12px;
+  background: #f5f3edf5;
+  box-shadow: 0 8px 24px #26343219, inset 0 0 0 1px #fffdf7;
+  color: var(--ink);
+  font-size: clamp(17px, 1.85vw, 27px);
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+  pointer-events: none;
+}
+.stationIcon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: var(--chapter-color);
+  background: color-mix(in srgb, var(--chapter-color) 10%, #fafaf7);
+}
+.monitorTooltip {
+  padding: 17px 18px 15px;
+  border-radius: 12px;
+  background: #fcfcf9;
+  box-shadow: 0 10px 30px #26343229, inset 0 0 0 1px #d8dfd2;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.monitorTooltip strong { display: block; font-size: 18px; font-weight: 600; line-height: 1.2; letter-spacing: -.025em; }
+.monitorTooltip p { margin: 7px 0 11px; font-size: 13px; color: #45564b; }
+.tooltipBenefit {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding-top: 9px;
+  border-top: 1px solid #d8dfd2;
+  font-size: 11px;
+  font-weight: 500;
+  color: #45564b;
+}
+.tooltipBenefit::before {
+  content: '';
+  flex: 0 0 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--chapter-color);
+  align-self: center;
+}
+.home[data-view=inside] .stage::after { display: none; }
+
+@media (max-width: 759px) {
+  .home[data-view=inside] .scene { inset: 130px 0 95px; }
+  .monitorGroup[data-fallback=true] { inset: 16% 5% auto; width: 90%; }
+  .stationTitle { top: 116px; left: 7%; max-width: 86vw; gap: 9px; padding: 7px 12px 7px 7px; }
+  .stationIcon { flex-basis: 32px; height: 32px; }
+  .stationIcon svg { width: 17px; height: 17px; }
+  .monitorTooltipWrap {
+    top: var(--tooltip-y, auto);
+    bottom: 0;
+    left: var(--tooltip-x, 0px);
+    width: min(300px, 83vw);
+  }
+  .monitorTooltip { padding: 12px 14px; }
+  .monitorTooltip strong { font-size: 16px; }
+  .monitorTooltip p { margin: 5px 0 8px; font-size: 12px; }
+}

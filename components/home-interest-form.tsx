@@ -168,7 +168,7 @@ export function HomeInterestForm() {
           </>
         ) : (
           <>
-            Book a demo <ArrowRight size={17} aria-hidden />
+            Send demo request <ArrowRight size={17} aria-hidden />
           </>
         )}
       </button>

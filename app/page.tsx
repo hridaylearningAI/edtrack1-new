@@ -453,14 +453,26 @@ function HomePageContent() {
     }
   }, [isLoaded, user, isSignedIn, userRole, trainerAccess, partnerAccess, router, fromPortfolio, sessionCheckAttempts, tokenVerified])
 
-  // Signed out / session expired: simple landing (stay on this site)
+  // Public visitors always see the landing first so SSR and hydration match.
+  // Only show the auth gate when a signed-in, portfolio, or token flow needs a redirect.
+  const needsAuthGate =
+    fromPortfolio ||
+    tokenVerified ||
+    Boolean(clerkTokenFromUrl) ||
+    (isLoaded && Boolean(isSignedIn || user))
+
+  if (!needsAuthGate) {
+    return <HomeLanding />
+  }
+
+  // Signed out / session expired after the gate was considered: stay on landing
   if (isLoaded && !isSignedIn && !tokenVerified && !user) {
     return <HomeLanding />
   }
 
   // Session missing after waiting — show landing instead of portfolio bounce
   const showError = hasCheckedAuth && !user && !isSignedIn && sessionCheckAttempts >= 20
-  
+
   if (showError) {
     return <HomeLanding />
   }
@@ -480,16 +492,10 @@ function HomePageContent() {
 }
 
 export default function HomePage() {
+  // Match the public landing tree during Suspense so useSearchParams does not
+  // hydrate a spinner on the server against the client landing page.
   return (
-    <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="text-center">
-          <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Loading...</h2>
-          <p className="text-gray-600">Please wait while we load the page...</p>
-        </div>
-      </div>
-    }>
+    <Suspense fallback={<HomeLanding />}>
       <HomePageContent />
     </Suspense>
   )

@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -8,7 +8,7 @@ import { GeistSans } from 'geist/font/sans'
 import { gsap } from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { ArrowDown, ArrowLeft, ArrowRight } from 'lucide-react'
+import { ArrowDown, ArrowLeft, ArrowRight, BarChart3, CalendarDays, LayoutGrid, Network, Users } from 'lucide-react'
 import { ROOM_CHAPTERS, type RoomDriver } from './home-room-story'
 import styles from './home-landing.module.css'
 import { HomePlatformDetails } from './home-platform-details'
@@ -23,11 +23,143 @@ const Room = dynamic(() => import('./home-room-scene').then((m) => m.HomeRoomSce
 })
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 
+const STATION_ICONS = [Users, CalendarDays, BarChart3, Network, LayoutGrid] as const
+
+function MonitorPreview({ station, frame }: { station: TourScreenStation; frame: RoomScreenFrame | null }) {
+  const module = ROOM_CHAPTERS[station]
+  const [open, setOpen] = useState(false)
+  const pointer = useRef(false)
+  const cursor = useRef<{ x: number; y: number } | null>(null)
+  const tooltip = useRef<HTMLDivElement | null>(null)
+  const [fallbackSize, setFallbackSize] = useState({ width: 0, height: 0 })
+  const monitor = useRef<HTMLDivElement>(null)
+
+  const positionTooltip = useCallback(() => {
+    const box = tooltip.current
+    const screen = monitor.current
+    const bounds = screen?.getBoundingClientRect()
+    const scene = screen?.parentElement?.getBoundingClientRect()
+    const point = cursor.current
+    if (!box || !bounds || !scene || !point) return
+
+    const gap = 16
+    const margin = 12
+    const width = box.offsetWidth
+    const height = box.offsetHeight
+    const maxX = window.innerWidth - width - margin
+    const minY = Math.max(margin, scene.top + margin)
+    const maxY = Math.min(window.innerHeight, scene.bottom) - height - margin
+    const x = point.x + gap <= maxX
+      ? point.x + gap
+      : point.x - gap - width
+    const y = point.y + gap <= maxY
+      ? point.y + gap
+      : point.y - gap - height
+    box.style.setProperty('--tooltip-x', `${Math.max(margin, Math.min(x, maxX)) - bounds.left}px`)
+    box.style.setProperty('--tooltip-y', `${Math.max(minY, Math.min(y, maxY)) - bounds.top}px`)
+  }, [])
+
+  const setTooltipRef = useCallback((node: HTMLDivElement | null) => {
+    tooltip.current = node
+    positionTooltip()
+  }, [positionTooltip])
+
+  useEffect(() => {
+    if (frame || !monitor.current) return
+    const observer = new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect
+      setFallbackSize({ width, height })
+    })
+    observer.observe(monitor.current)
+    return () => observer.disconnect()
+  }, [frame])
+
+  useEffect(() => {
+    if (!open) return
+    const dismiss = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false)
+    }
+    window.addEventListener('keydown', dismiss)
+    return () => window.removeEventListener('keydown', dismiss)
+  }, [open])
+
+  const size = frame ?? fallbackSize
+
+  return (
+    <div
+      ref={monitor}
+      className={styles.monitorGroup}
+      data-fallback={!frame}
+      style={frame ? { left: frame.left, top: frame.top, width: frame.width, height: frame.height } : undefined}
+      onPointerEnter={event => {
+        pointer.current = event.pointerType === 'mouse'
+        if (pointer.current) {
+          cursor.current = { x: event.clientX, y: event.clientY }
+          setOpen(true)
+          positionTooltip()
+        }
+      }}
+      onPointerMove={event => {
+        if (event.pointerType !== 'mouse') return
+        cursor.current = { x: event.clientX, y: event.clientY }
+        positionTooltip()
+      }}
+      onPointerLeave={event => {
+        if (event.pointerType === 'mouse') {
+          cursor.current = null
+          setOpen(false)
+        }
+      }}
+    >
+      <div className={styles.liveMonitor} aria-hidden="true" inert>
+        {size.width > 0 && size.height > 0 && (
+          <HomeTourLiveScreen station={station} mode="monitor" width={size.width} height={size.height} />
+        )}
+      </div>
+      <button
+        type="button"
+        className={styles.monitorTrigger}
+        aria-label={`${module.label} monitor · show tour notes`}
+        aria-expanded={open}
+        aria-describedby={open ? 'tour-monitor-tooltip' : undefined}
+        onFocus={event => {
+          if (event.currentTarget.matches(':focus-visible')) {
+            cursor.current = null
+            tooltip.current?.style.removeProperty('--tooltip-x')
+            tooltip.current?.style.removeProperty('--tooltip-y')
+            setOpen(true)
+          }
+        }}
+        onBlur={() => setOpen(false)}
+        onPointerDown={event => {
+          pointer.current = event.pointerType === 'mouse'
+          if (!pointer.current) cursor.current = null
+        }}
+        onClick={event => {
+          if (event.detail === 0 || !pointer.current) setOpen(value => !value)
+          else setOpen(true)
+        }}
+      />
+      {open && (
+        <div ref={setTooltipRef} className={styles.monitorTooltipWrap}>
+          <div className={styles.monitorTooltip} id="tour-monitor-tooltip" role="tooltip">
+            <strong>{module.title.replace('\n', ' ')}</strong>
+            <p>{module.description}</p>
+            <span className={styles.tooltipBenefit}>{module.benefit}</span>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export function HomeLanding() {
   const root = useRef<HTMLElement>(null)
   const tour = useRef<HTMLElement>(null)
   const driver = useRef<RoomDriver>({ progress: 0 })
   const bar = useRef<HTMLSpanElement>(null)
+  const [settled, setSettled] = useState(false)
+  const settledRef = useRef(false)
   const [chapter, setChapter] = useState(0)
   const [reduced, setReduced] = useState(false)
   const [roomFailed, setRoomFailed] = useState(false)
@@ -51,6 +183,11 @@ export function HomeLanding() {
     if (next !== chapterRef.current) {
       chapterRef.current = next
       setChapter(next)
+    }
+    const arrived = value - next >= .55
+    if (arrived !== settledRef.current) {
+      settledRef.current = arrived
+      setSettled(arrived)
     }
     if (bar.current) bar.current.style.transform = `scaleX(${value / 6.95})`
   }
@@ -127,6 +264,7 @@ export function HomeLanding() {
 
   const liveStation =
     chapter >= 1 && chapter <= 5 ? (chapter as TourScreenStation) : null
+  const StationIcon = liveStation ? STATION_ICONS[liveStation - 1] : null
   const showMonitor =
     !roomFailed &&
     screenFrame.visible &&
@@ -166,6 +304,7 @@ export function HomeLanding() {
         ref={tour}
         className={styles.tour}
         aria-label="Explore the connected EdTrack institution"
+        style={{ '--chapter-color': current.color } as React.CSSProperties}
       >
         <div className={styles.stage}>
           <div className={styles.scene} aria-hidden="true">
@@ -174,32 +313,10 @@ export function HomeLanding() {
               onError={() => setRoomFailed(true)}
               onScreenFrame={onScreenFrame}
             />
-            {showMonitor && liveStation ? (
-              <div
-                className={styles.liveMonitor}
-                style={{
-                  left: screenFrame.left,
-                  top: screenFrame.top,
-                  width: screenFrame.width,
-                  height: screenFrame.height,
-                }}
-              >
-                <HomeTourLiveScreen
-                  station={liveStation}
-                  mode="monitor"
-                  width={screenFrame.width}
-                  height={screenFrame.height}
-                />
-              </div>
-            ) : null}
-            {roomFailed && (
+            {roomFailed && !liveStation && (
               <div className={styles.roomFallback}>
                 <Image
-                  src={
-                    chapter > 0 && !final
-                      ? `/images/landing/product/${current.preview}.jpg`
-                      : '/images/landing/campus-architecture.jpg'
-                  }
+                  src="/images/landing/campus-architecture.jpg"
                   alt=""
                   fill
                   sizes="100vw"
@@ -208,38 +325,48 @@ export function HomeLanding() {
               </div>
             )}
           </div>
+          {liveStation && (showMonitor || (roomFailed && settled)) && (
+            <div className={`${styles.scene} ${styles.monitorPlane}`}>
+              <MonitorPreview key={liveStation} station={liveStation} frame={showMonitor ? screenFrame : null} />
+            </div>
+          )}
+          {StationIcon && (
+            <h2 key={chapter} className={styles.stationTitle}>
+              <span className={styles.stationIcon}><StationIcon size={21} strokeWidth={1.7} aria-hidden /></span>
+              {current.label}
+            </h2>
+          )}
           <div className={styles.roomLabel}>
             <i />
             <span>A GUIDED WORKSPACE TOUR</span>
             <small>{String(chapter + 1).padStart(2, '0')} / 07</small>
           </div>
-          <article
-            className={styles.story}
-            style={{ '--chapter-color': current.color } as React.CSSProperties}
-          >
-            <div key={chapter} className={styles.storyContent}>
-              <p className={styles.eyebrow}>{current.eyebrow}</p>
-              {chapter === 0 ? (
-                <h1>
-                  {current.title.split('\n').map((line, i) => (
-                    <span key={line} className={i === 1 ? styles.accent : ''}>
-                      {i > 0 ? ' ' : ''}
-                      {line}
-                    </span>
-                  ))}
-                </h1>
-              ) : (
-                <h2>
-                  {current.title.split('\n').map((line, i) => (
-                    <span key={line} className={i === 1 ? styles.accent : ''}>
-                      {i > 0 ? ' ' : ''}
-                      {line}
-                    </span>
-                  ))}
-                </h2>
-              )}
-              <p className={styles.description}>{current.description}</p>
-              {chapter === 0 || final ? (
+          {!liveStation && (
+            <article
+              className={styles.story}
+              style={{ '--chapter-color': current.color } as React.CSSProperties}
+            >
+              <div key={chapter} className={styles.storyContent}>
+                {chapter === 0 ? (
+                  <h1>
+                    {current.title.split('\n').map((line, i) => (
+                      <span key={line} className={i === 1 ? styles.accent : ''}>
+                        {i > 0 ? ' ' : ''}
+                        {line}
+                      </span>
+                    ))}
+                  </h1>
+                ) : (
+                  <h2>
+                    {current.title.split('\n').map((line, i) => (
+                      <span key={line} className={i === 1 ? styles.accent : ''}>
+                        {i > 0 ? ' ' : ''}
+                        {line}
+                      </span>
+                    ))}
+                  </h2>
+                )}
+                <p className={styles.description}>{current.description}</p>
                 <div className={styles.introActions}>
                   <Link href="/demo" className={styles.demo}>
                     Explore the demo <ArrowRight size={16} />
@@ -254,34 +381,8 @@ export function HomeLanding() {
                     </a>
                   )}
                 </div>
-              ) : (
-                <Link href="/demo" className={styles.screenAction}>
-                  <span>Explore full demo</span>
-                  <small>{current.label}</small>
-                  <ArrowRight size={14} />
-                </Link>
-              )}
-
-              {chapter > 0 && !final && (
-                <p className={styles.benefit}>
-                  <span className={styles.connectionDot} />
-                  {current.benefit}
-                </p>
-              )}
-            </div>
-          </article>
-          <div className={styles.connection} key={`connection-${chapter}`}>
-            <span>CONNECTED BY DESIGN</span>
-            <p>{current.connection}</p>
-          </div>
-          {chapter === 0 && (
-            <button className={styles.scrollHint} onClick={() => goTo(1)}>
-              <span>Scroll to step inside</span>
-              <ArrowDown size={16} />
-            </button>
-          )}
-          {final && (
-            <span className={styles.endNote}>Your people. Your learning. Your operations.</span>
+              </div>
+            </article>
           )}
           <nav id="room-controls" className={styles.controls} aria-label="Room chapters">
             <div className={styles.progress}>
