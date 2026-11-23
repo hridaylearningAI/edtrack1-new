@@ -30,7 +30,7 @@ function escapeHtml(value: string): string {
     .replace(/'/g, '&#39;')
 }
 
-async function loadBrochureAttachment() {
+async function loadBrochureAttachment(baseUrl: string) {
   try {
     const pdfPath = join(process.cwd(), 'public', DIDAC_BROCHURE_PATH.replace(/^\//, ''))
     const content = await readFile(pdfPath)
@@ -40,9 +40,26 @@ async function loadBrochureAttachment() {
         content,
       },
     ]
-  } catch (error) {
-    console.warn('EdTrack brochure attachment skipped:', error)
-    return undefined
+  } catch {
+    // On Vercel, public assets are not always present under /var/task/public.
+    try {
+      const origin = baseUrl.replace(/\/$/, '')
+      const url = `${origin}${DIDAC_BROCHURE_PATH}`
+      const response = await fetch(url)
+      if (!response.ok) {
+        throw new Error(`Brochure fetch failed (${response.status}): ${url}`)
+      }
+      const content = Buffer.from(await response.arrayBuffer())
+      return [
+        {
+          filename: DIDAC_BROCHURE_FILENAME,
+          content,
+        },
+      ]
+    } catch (error) {
+      console.warn('EdTrack brochure attachment skipped:', error)
+      return undefined
+    }
   }
 }
 
@@ -114,9 +131,11 @@ export async function POST(request: NextRequest) {
     if (process.env.RESEND_API_KEY) {
       const from = process.env.FROM_EMAIL || 'noreply@edtec.online'
       const adminTo = process.env.PLATFORM_INTEREST_EMAIL || 'hello@edtec.online'
-      const baseUrl = getEdtrackSiteBaseUrl()
+      const baseUrl =
+        process.env.NEXT_PUBLIC_APP_URL?.trim() ||
+        (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : getEdtrackSiteBaseUrl())
       const thankYouHtml = buildDidacPlatformInterestEmail(name, baseUrl)
-      const brochureAttachments = await loadBrochureAttachment()
+      const brochureAttachments = await loadBrochureAttachment(baseUrl)
 
       const adminHtml = `
         <div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#263432;max-width:560px;margin:0 auto;padding:24px;">
