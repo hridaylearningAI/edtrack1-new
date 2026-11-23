@@ -1,5 +1,3 @@
-import { readFile } from 'node:fs/promises'
-import { join } from 'node:path'
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { corsHeaders } from '@/lib/api/utils'
@@ -30,37 +28,14 @@ function escapeHtml(value: string): string {
     .replace(/'/g, '&#39;')
 }
 
-async function loadBrochureAttachment(baseUrl: string) {
-  try {
-    const pdfPath = join(process.cwd(), 'public', DIDAC_BROCHURE_PATH.replace(/^\//, ''))
-    const content = await readFile(pdfPath)
-    return [
-      {
-        filename: DIDAC_BROCHURE_FILENAME,
-        content,
-      },
-    ]
-  } catch {
-    // On Vercel, public assets are not always present under /var/task/public.
-    try {
-      const origin = baseUrl.replace(/\/$/, '')
-      const url = `${origin}${DIDAC_BROCHURE_PATH}`
-      const response = await fetch(url)
-      if (!response.ok) {
-        throw new Error(`Brochure fetch failed (${response.status}): ${url}`)
-      }
-      const content = Buffer.from(await response.arrayBuffer())
-      return [
-        {
-          filename: DIDAC_BROCHURE_FILENAME,
-          content,
-        },
-      ]
-    } catch (error) {
-      console.warn('EdTrack brochure attachment skipped:', error)
-      return undefined
-    }
-  }
+function brochureRemoteAttachment(baseUrl: string) {
+  const origin = baseUrl.replace(/\/$/, '') || getEdtrackSiteBaseUrl()
+  return [
+    {
+      path: `${origin}${DIDAC_BROCHURE_PATH}`,
+      filename: DIDAC_BROCHURE_FILENAME,
+    },
+  ]
 }
 
 export async function POST(request: NextRequest) {
@@ -135,7 +110,7 @@ export async function POST(request: NextRequest) {
         process.env.NEXT_PUBLIC_APP_URL?.trim() ||
         (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : getEdtrackSiteBaseUrl())
       const thankYouHtml = buildDidacPlatformInterestEmail(name, baseUrl)
-      const brochureAttachments = await loadBrochureAttachment(baseUrl)
+      const brochureAttachments = brochureRemoteAttachment(baseUrl)
 
       const adminHtml = `
         <div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#263432;max-width:560px;margin:0 auto;padding:24px;">
