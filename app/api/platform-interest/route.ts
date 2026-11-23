@@ -1,7 +1,15 @@
+import { readFile } from 'node:fs/promises'
+import { join } from 'node:path'
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { corsHeaders } from '@/lib/api/utils'
 import { getSupabaseClient } from '@/lib/api/supabase'
+import {
+  buildDidacPlatformInterestEmail,
+  DIDAC_BROCHURE_FILENAME,
+  DIDAC_BROCHURE_PATH,
+  getEdtrackSiteBaseUrl,
+} from '@/lib/email/didac-interest'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
@@ -20,6 +28,22 @@ function escapeHtml(value: string): string {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;')
+}
+
+async function loadBrochureAttachment() {
+  try {
+    const pdfPath = join(process.cwd(), 'public', DIDAC_BROCHURE_PATH.replace(/^\//, ''))
+    const content = await readFile(pdfPath)
+    return [
+      {
+        filename: DIDAC_BROCHURE_FILENAME,
+        content,
+      },
+    ]
+  } catch (error) {
+    console.warn('EdTrack brochure attachment skipped:', error)
+    return undefined
+  }
 }
 
 export async function POST(request: NextRequest) {
@@ -90,14 +114,9 @@ export async function POST(request: NextRequest) {
     if (process.env.RESEND_API_KEY) {
       const from = process.env.FROM_EMAIL || 'noreply@edtec.online'
       const adminTo = process.env.PLATFORM_INTEREST_EMAIL || 'hello@edtec.online'
-
-      const thankYouHtml = `
-        <div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#263432;max-width:560px;margin:0 auto;padding:24px;">
-          <h1 style="font-size:22px;letter-spacing:-0.03em;">Thank you, ${safeName}</h1>
-          <p>We've received your interest in <strong>EdTrack ONE</strong> for <strong>${safeOrg}</strong>.</p>
-          <p>Our team will contact you at <strong>${safeEmail}</strong> or <strong>${safePhone}</strong> shortly.</p>
-        </div>
-      `
+      const baseUrl = getEdtrackSiteBaseUrl()
+      const thankYouHtml = buildDidacPlatformInterestEmail(name, baseUrl)
+      const brochureAttachments = await loadBrochureAttachment()
 
       const adminHtml = `
         <div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#263432;max-width:560px;margin:0 auto;padding:24px;">
@@ -115,8 +134,9 @@ export async function POST(request: NextRequest) {
         resend.emails.send({
           from,
           to: email,
-          subject: 'Thanks for your interest in EdTrack ONE',
+          subject: 'Thank you for your interest in EdTrack 1 at DIDAC',
           html: thankYouHtml,
+          ...(brochureAttachments ? { attachments: brochureAttachments } : {}),
         }),
         resend.emails.send({
           from,
