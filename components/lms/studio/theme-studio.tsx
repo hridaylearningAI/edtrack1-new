@@ -1,43 +1,55 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import {
-  ArrowDown,
   ArrowLeft,
   ArrowRight,
-  ArrowUp,
-  Eye,
-  EyeOff,
   ExternalLink,
-  Plus,
+  ImagePlus,
+  Loader2,
   RotateCcw,
   Save,
-  Trash2,
   Upload,
+  X,
 } from 'lucide-react'
 import { toast } from 'sonner'
-import { LearnThemePreview } from '@/components/lms/theme/learn-theme-frame'
+import { apiClient } from '@/lib/api'
 import {
+  COLOR_SCHEMA_LIST,
+  LMS_BUTTON_STYLE_OPTIONS,
+  LMS_FONT_OPTIONS,
   SECTION_CATALOG,
-  TEMPLATE_LIST,
-  createSection,
-  getTemplate,
+  getColorSchema,
   getVisiblePages,
   loadThemeDraft,
+  loadActivityContentSnapshot,
+  mergeActivityContentSnapshot,
   publishTheme,
   resetThemeToTemplate,
   saveThemeDraft,
   seedShowcaseThemes,
+  LMS_LEVEL_ACTIVITY_DEFAULT_LABELS,
+  LMS_STUDIO_LIVE_MESSAGE,
+  LMS_STUDIO_TYPOGRAPHY_MESSAGE,
+  isLmsStudioActivityCursor,
+  isThemeLevelPage,
+  previewPageIdForLevelSelection,
+  previewPageIdForThemePage,
+  shellTypographyCssVars,
   syncLandingSections,
+  type LmsColorSchemaId,
   type LmsFieldSchema,
+  type LmsLevelActivityKind,
+  type LmsLevelModule,
   type LmsSection,
-  type LmsSectionType,
   type LmsShellSettings,
-  type LmsTemplateId,
+  type LmsStudioFocus,
+  type ThemeActivityContentPatch,
   type ThemeDocument,
 } from '@/lib/lms/theme'
+import { ActivityContentEditor } from './activity-content-editor'
 import s from './theme-studio.module.css'
 
 export type StudioCourseOption = {
@@ -46,7 +58,7 @@ export type StudioCourseOption = {
   code?: string | null
 }
 
-type RailTab = 'theme' | 'sections' | 'settings'
+type RailTab = 'colors' | 'sections' | 'settings'
 
 type ThemeStudioProps = {
   courses: StudioCourseOption[]
@@ -61,46 +73,86 @@ type ThemeStudioProps = {
   exitLabel?: string
 }
 
-const SETTINGS_FIELDS: Array<{
+type SettingsFieldDef = {
   key: keyof LmsShellSettings
   label: string
-  type: 'text' | 'textarea' | 'select' | 'toggle'
+  type: 'text' | 'textarea' | 'select' | 'toggle' | 'px'
+  min?: number
+  max?: number
   options?: Array<{ label: string; value: string }>
-}> = [
-  { key: 'brandKicker', label: 'Brand kicker', type: 'text' },
-  { key: 'unitTitle', label: 'Unit title', type: 'text' },
-  { key: 'unitIntro', label: 'Unit intro', type: 'textarea' },
-  { key: 'primaryCtaLabel', label: 'Primary CTA label', type: 'text' },
+}
+
+type SettingsGroup = {
+  title: string
+  fields: SettingsFieldDef[]
+}
+
+const SETTINGS_GROUPS: SettingsGroup[] = [
   {
-    key: 'accentMode',
-    label: 'Accent bar',
-    type: 'select',
-    options: [
-      { label: 'Gradient', value: 'gradient' },
-      { label: 'Solid', value: 'solid' },
-      { label: 'Soft', value: 'soft' },
+    title: 'Typography',
+    fields: [
+      {
+        key: 'fontFamily',
+        label: 'Font',
+        type: 'select',
+        options: LMS_FONT_OPTIONS.map((item) => ({ label: item.label, value: item.id })),
+      },
+      { key: 'fontSizeH1', label: 'H1 text size', type: 'px', min: 24, max: 96 },
+      { key: 'fontSizeH2', label: 'H2 text size', type: 'px', min: 18, max: 72 },
+      { key: 'fontSizeH3', label: 'H3 text size', type: 'px', min: 14, max: 48 },
+      { key: 'fontSizeBody', label: 'Normal text size', type: 'px', min: 12, max: 28 },
     ],
   },
   {
-    key: 'sidebarDensity',
-    label: 'Sidebar density',
-    type: 'select',
-    options: [
-      { label: 'Comfortable', value: 'comfortable' },
-      { label: 'Compact', value: 'compact' },
+    title: 'Buttons',
+    fields: [
+      {
+        key: 'buttonStyle',
+        label: 'Button shape',
+        type: 'select',
+        options: LMS_BUTTON_STYLE_OPTIONS.map((item) => ({ label: item.label, value: item.id })),
+      },
+      { key: 'primaryCtaLabel', label: 'Primary CTA label', type: 'text' },
     ],
   },
   {
-    key: 'topicNavStyle',
-    label: 'Topic nav style',
-    type: 'select',
-    options: [
-      { label: 'List', value: 'list' },
-      { label: 'Pills', value: 'pills' },
-      { label: 'Cards', value: 'cards' },
+    title: 'Shell copy',
+    fields: [
+      { key: 'brandKicker', label: 'Brand kicker', type: 'text' },
+      { key: 'unitTitle', label: 'Unit title', type: 'text' },
+      { key: 'unitIntro', label: 'Unit intro', type: 'textarea' },
+      {
+        key: 'accentMode',
+        label: 'Accent bar',
+        type: 'select',
+        options: [
+          { label: 'Gradient', value: 'gradient' },
+          { label: 'Solid', value: 'solid' },
+          { label: 'Soft', value: 'soft' },
+        ],
+      },
+      {
+        key: 'sidebarDensity',
+        label: 'Sidebar density',
+        type: 'select',
+        options: [
+          { label: 'Comfortable', value: 'comfortable' },
+          { label: 'Compact', value: 'compact' },
+        ],
+      },
+      {
+        key: 'topicNavStyle',
+        label: 'Topic nav style',
+        type: 'select',
+        options: [
+          { label: 'List', value: 'list' },
+          { label: 'Pills', value: 'pills' },
+          { label: 'Cards', value: 'cards' },
+        ],
+      },
+      { key: 'showProgressFooter', label: 'Show progress footer', type: 'toggle' },
     ],
   },
-  { key: 'showProgressFooter', label: 'Show progress footer', type: 'toggle' },
 ]
 
 export function ThemeStudio({
@@ -214,10 +266,21 @@ function ThemeEditor({
 }) {
   const [doc, setDoc] = useState<ThemeDocument | null>(null)
   const [dirty, setDirty] = useState(false)
-  const [tab, setTab] = useState<RailTab>('sections')
+  const [tab, setTab] = useState<RailTab>('colors')
   const [pageId, setPageId] = useState<string>('')
   const [selectedSectionId, setSelectedSectionId] = useState<string | null>(null)
-  const [showAdd, setShowAdd] = useState(false)
+  const [selectedModuleId, setSelectedModuleId] = useState<string | null>(null)
+  const [selectedActivityKind, setSelectedActivityKind] = useState<LmsLevelActivityKind | null>(
+    null,
+  )
+  /** Controls which learn page the preview opens for ETHTL level editing. */
+  const [levelPreviewTarget, setLevelPreviewTarget] = useState<'home' | 'module' | 'activity'>(
+    'home',
+  )
+  const [inspectorFocus, setInspectorFocus] = useState<LmsStudioFocus>(null)
+  /** Current notes/flashcard/quiz item index reported by the preview iframe. */
+  const [previewActivityIndex, setPreviewActivityIndex] = useState(0)
+  const previewFrameRef = useRef<HTMLIFrameElement | null>(null)
 
   useEffect(() => {
     const next = loadThemeDraft(course.id, { courseCode: course.code, courseName: course.name })
@@ -227,8 +290,12 @@ function ThemeEditor({
     setDirty(false)
     setPageId(firstPage?.id ?? '')
     setSelectedSectionId(firstPage?.sections[0]?.id ?? null)
-    setShowAdd(false)
+    setSelectedModuleId(firstPage?.levelModules?.[0]?.id ?? null)
+    setSelectedActivityKind(null)
+    setLevelPreviewTarget('home')
     setTab('sections')
+    setInspectorFocus(null)
+    setPreviewActivityIndex(0)
   }, [course])
 
   const visiblePages = useMemo(() => (doc ? getVisiblePages(doc) : []), [doc])
@@ -236,21 +303,129 @@ function ThemeEditor({
     () => doc?.pages.find((page) => page.id === pageId) ?? visiblePages[0] ?? doc?.pages[0] ?? null,
     [doc, pageId, visiblePages],
   )
+  const isLevelPage = isThemeLevelPage(activePage)
+  const levelModules = activePage?.levelModules ?? []
+  const activeModule =
+    levelModules.find((module) => module.id === selectedModuleId) ?? levelModules[0] ?? null
   const activeSections = activePage?.sections ?? []
   const selectedSection = activeSections.find((section) => section.id === selectedSectionId) ?? null
-  const template = doc ? getTemplate(doc.templateId) : null
+  const selectedActivity =
+    activeModule?.activities.find((activity) => activity.kind === selectedActivityKind) ?? null
+  const selectedActivityPageId = useMemo(() => {
+    if (!activePage || !activeModule || !selectedActivityKind) return null
+    return previewPageIdForLevelSelection(
+      activePage.id,
+      activeModule.number,
+      selectedActivityKind,
+    )
+  }, [activePage, activeModule, selectedActivityKind])
+  const selectedActivityContent = useMemo(() => {
+    if (!selectedActivityPageId) return null
+    return mergeActivityContentSnapshot(
+      selectedActivityPageId,
+      course.code,
+      doc?.contentPatches?.[selectedActivityPageId],
+    )
+  }, [selectedActivityPageId, course.code, doc?.contentPatches])
 
-  const previewDoc = useMemo(() => {
-    if (!doc || !activePage) return doc
-    return { ...doc, sections: activePage.sections }
-  }, [doc, activePage])
+  useEffect(() => {
+    setPreviewActivityIndex(0)
+  }, [selectedActivityPageId])
+
+  useEffect(() => {
+    const onMessage = (event: MessageEvent) => {
+      if (event.origin !== window.location.origin) return
+      if (!isLmsStudioActivityCursor(event.data)) return
+      if (selectedActivityPageId && event.data.pageId !== selectedActivityPageId) return
+      setPreviewActivityIndex(event.data.index)
+    }
+    window.addEventListener('message', onMessage)
+    return () => window.removeEventListener('message', onMessage)
+  }, [selectedActivityPageId])
+
+  const postLiveToPreview = (nextDoc: ThemeDocument, focus: LmsStudioFocus) => {
+    const target = previewFrameRef.current?.contentWindow
+    if (!target) return
+    const page =
+      nextDoc.pages.find((item) => item.id === pageId) ??
+      getVisiblePages(nextDoc)[0] ??
+      nextDoc.pages[0]
+    target.postMessage(
+      {
+        type: LMS_STUDIO_TYPOGRAPHY_MESSAGE,
+        vars: shellTypographyCssVars(nextDoc.settings),
+        buttonStyle: nextDoc.settings.buttonStyle,
+      },
+      window.location.origin,
+    )
+    target.postMessage(
+      {
+        type: LMS_STUDIO_LIVE_MESSAGE,
+        settings: {
+          brandKicker: nextDoc.settings.brandKicker,
+          unitTitle: nextDoc.settings.unitTitle,
+          unitIntro: nextDoc.settings.unitIntro,
+          primaryCtaLabel: nextDoc.settings.primaryCtaLabel,
+          showProgressFooter: nextDoc.settings.showProgressFooter,
+          accentMode: nextDoc.settings.accentMode,
+          sidebarDensity: nextDoc.settings.sidebarDensity,
+          topicNavStyle: nextDoc.settings.topicNavStyle,
+        },
+        sections: page?.sections ?? nextDoc.sections,
+        levelModules: page?.levelModules,
+        contentPatches: nextDoc.contentPatches,
+        previewPageId: (() => {
+          if (!page) return null
+          if (page.kind === 'overview' || page.id === 'overview') return 'gnps-unit-home'
+          const levelHome = previewPageIdForThemePage(page.id)
+          if (!levelHome) return null
+          if (levelPreviewTarget === 'home') return levelHome
+          const module =
+            page.levelModules?.find((item) => item.id === selectedModuleId) ??
+            page.levelModules?.[0]
+          return (
+            previewPageIdForLevelSelection(
+              page.id,
+              module?.number,
+              levelPreviewTarget === 'activity' ? selectedActivityKind : 'notes',
+            ) ?? levelHome
+          )
+        })(),
+        focus,
+      },
+      window.location.origin,
+    )
+  }
+
+  // Push live inspector edits + focus into the preview without remounting the iframe.
+  useEffect(() => {
+    if (!doc) return
+    const timer = window.setTimeout(() => postLiveToPreview(doc, inspectorFocus), 40)
+    return () => window.clearTimeout(timer)
+    // pageId / module / activity drive which learn page the preview opens.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional live bridge
+  }, [doc, inspectorFocus, pageId, selectedModuleId, selectedActivityKind, levelPreviewTarget])
 
   useEffect(() => {
     if (!activePage) return
+    if (isLevelPage) {
+      if (!levelModules.some((module) => module.id === selectedModuleId)) {
+        setSelectedModuleId(levelModules[0]?.id ?? null)
+        setSelectedActivityKind(null)
+      }
+      return
+    }
     if (!activeSections.some((section) => section.id === selectedSectionId)) {
       setSelectedSectionId(activeSections[0]?.id ?? null)
     }
-  }, [activePage, activeSections, selectedSectionId])
+  }, [
+    activePage,
+    activeSections,
+    isLevelPage,
+    levelModules,
+    selectedModuleId,
+    selectedSectionId,
+  ])
 
   const patchDoc = (updater: (current: ThemeDocument) => ThemeDocument) => {
     setDoc((current) => {
@@ -270,33 +445,22 @@ function ThemeEditor({
     )
   }
 
-  const switchTemplate = (templateId: LmsTemplateId) => {
-    if (!doc) return
-    const next = resetThemeToTemplate(course.id, templateId, {
-      courseCode: course.code,
-      courseName: course.name,
-    })
-    const first = getVisiblePages(next)[0] ?? next.pages[0]
-    setDoc(next)
-    setPageId(first?.id ?? '')
-    setSelectedSectionId(first?.sections[0]?.id ?? null)
-    setDirty(true)
-    setTab('sections')
-    toast.message(`Switched to ${getTemplate(templateId).name}`)
+  const patchActivePageModules = (modules: LmsLevelModule[]) => {
+    if (!activePage) return
+    patchDoc((current) =>
+      syncLandingSections({
+        ...current,
+        pages: current.pages.map((page) =>
+          page.id === activePage.id ? { ...page, levelModules: modules } : page,
+        ),
+      }),
+    )
   }
 
-  const moveSection = (index: number, dir: -1 | 1) => {
-    const target = index + dir
-    if (target < 0 || target >= activeSections.length) return
-    const next = [...activeSections]
-    const tmp = next[index]!
-    next[index] = next[target]!
-    next[target] = tmp
-    patchActivePageSections(next)
-  }
-
-  const patchSection = (id: string, patch: Partial<LmsSection>) => {
-    patchActivePageSections(activeSections.map((section) => (section.id === id ? { ...section, ...patch } : section)))
+  const selectColorSchema = (colorSchemaId: LmsColorSchemaId) => {
+    if (!doc || doc.colorSchemaId === colorSchemaId) return
+    patchDoc((current) => ({ ...current, colorSchemaId }))
+    toast.message(`Color schema · ${getColorSchema(colorSchemaId).name}`)
   }
 
   const patchSectionSetting = (id: string, key: string, value: string | boolean) => {
@@ -307,6 +471,37 @@ function ThemeEditor({
     )
   }
 
+  const patchModuleTitle = (moduleId: string, title: string) => {
+    patchActivePageModules(
+      levelModules.map((module) => (module.id === moduleId ? { ...module, title } : module)),
+    )
+  }
+
+  const patchActivityLabel = (moduleId: string, kind: LmsLevelActivityKind, label: string) => {
+    patchActivePageModules(
+      levelModules.map((module) =>
+        module.id === moduleId
+          ? {
+              ...module,
+              activities: module.activities.map((activity) =>
+                activity.kind === kind ? { ...activity, label } : activity,
+              ),
+            }
+          : module,
+      ),
+    )
+  }
+
+  const patchActivityContent = (pageId: string, content: ThemeActivityContentPatch) => {
+    patchDoc((current) => ({
+      ...current,
+      contentPatches: {
+        ...(current.contentPatches ?? {}),
+        [pageId]: content,
+      },
+    }))
+  }
+
   const patchSetting = <K extends keyof LmsShellSettings>(key: K, value: LmsShellSettings[K]) => {
     patchDoc((current) => ({
       ...current,
@@ -314,19 +509,38 @@ function ThemeEditor({
     }))
   }
 
-  const addSection = (type: LmsSectionType) => {
-    if (!template?.allowedSections.includes(type)) return
-    const section = createSection(type)
-    patchActivePageSections([...activeSections, section])
+  const selectSection = (section: LmsSection) => {
     setSelectedSectionId(section.id)
-    setShowAdd(false)
+    setSelectedActivityKind(null)
     setTab('sections')
+    setInspectorFocus({
+      scope: 'section',
+      sectionId: section.id,
+      sectionType: section.type,
+    })
   }
 
-  const removeSection = (id: string) => {
-    const next = activeSections.filter((section) => section.id !== id)
-    patchActivePageSections(next)
-    setSelectedSectionId(next[0]?.id ?? null)
+  const selectActivity = (module: LmsLevelModule, kind: LmsLevelActivityKind) => {
+    setSelectedModuleId(module.id)
+    setSelectedActivityKind(kind)
+    setLevelPreviewTarget('activity')
+    setTab('sections')
+    setPreviewActivityIndex(0)
+    setInspectorFocus({
+      scope: 'level-activity',
+      moduleId: module.id,
+      activityKind: kind,
+      fieldKey: 'label',
+    })
+    if (!activePage) return
+    const activityPageId = previewPageIdForLevelSelection(activePage.id, module.number, kind)
+    if (!activityPageId) return
+    // Seed editable snapshot so preview + inspector share the same beat/card model.
+    const existing = doc?.contentPatches?.[activityPageId]
+    if (existing) return
+    const snapshot = loadActivityContentSnapshot(activityPageId, course.code)
+    if (!snapshot) return
+    patchActivityContent(activityPageId, snapshot)
   }
 
   const handleSave = () => {
@@ -347,19 +561,26 @@ function ThemeEditor({
 
   const handleReset = () => {
     if (!doc) return
-    const next = resetThemeToTemplate(course.id, doc.templateId, {
-      courseCode: course.code,
-      courseName: course.name,
-    })
+    const next = {
+      ...resetThemeToTemplate(course.id, doc.templateId, {
+        courseCode: course.code,
+        courseName: course.name,
+      }),
+      colorSchemaId: doc.colorSchemaId,
+      published: false,
+    }
     const first = getVisiblePages(next)[0] ?? next.pages[0]
     setDoc(next)
     setPageId(first?.id ?? '')
     setSelectedSectionId(first?.sections[0]?.id ?? null)
+    setSelectedModuleId(first?.levelModules?.[0]?.id ?? null)
+    setSelectedActivityKind(null)
+    setLevelPreviewTarget('home')
     setDirty(true)
     toast.message('Reset to template defaults')
   }
 
-  if (!doc || !activePage || !previewDoc) {
+  if (!doc || !activePage) {
     return <p className={s.emptyInspector}>Loading theme studio…</p>
   }
 
@@ -393,8 +614,13 @@ function ThemeEditor({
             className={s.courseSelect}
             value={activePage.id}
             onChange={(e) => {
-              setPageId(e.target.value)
-              setShowAdd(false)
+              const nextId = e.target.value
+              setPageId(nextId)
+              const nextPage = doc.pages.find((page) => page.id === nextId)
+              setSelectedSectionId(nextPage?.sections[0]?.id ?? null)
+              setSelectedModuleId(nextPage?.levelModules?.[0]?.id ?? null)
+              setSelectedActivityKind(null)
+              setLevelPreviewTarget('home')
               setTab('sections')
             }}
             aria-label="Page to edit"
@@ -405,12 +631,40 @@ function ThemeEditor({
               </option>
             ))}
           </select>
-          <p className={s.pageHint}>Only visible pages appear here. Editing: {activePage.title}</p>
+          {isLevelPage ? (
+            <>
+              <label htmlFor="theme-level-section-select">Level section</label>
+              <select
+                id="theme-level-section-select"
+                className={s.courseSelect}
+                value={activeModule?.id ?? ''}
+                onChange={(e) => {
+                  setSelectedModuleId(e.target.value)
+                  setSelectedActivityKind(null)
+                  setLevelPreviewTarget('module')
+                  setTab('sections')
+                }}
+                aria-label="Level section to edit"
+              >
+                {levelModules.map((module) => (
+                  <option key={module.id} value={module.id}>
+                    Section {module.number} — {module.title}
+                  </option>
+                ))}
+              </select>
+              <p className={s.pageHint}>
+                Editing {activePage.title}
+                {activeModule ? ` · Section ${activeModule.number}` : ''}
+              </p>
+            </>
+          ) : (
+            <p className={s.pageHint}>Only visible pages appear here. Editing: {activePage.title}</p>
+          )}
         </div>
 
         <div className={s.tabs} role="tablist">
           {([
-            ['theme', 'Theme'],
+            ['colors', 'Color picker'],
             ['sections', 'Sections'],
             ['settings', 'Settings'],
           ] as const).map(([id, label]) => (
@@ -420,82 +674,72 @@ function ThemeEditor({
               className={s.tab}
               role="tab"
               data-active={tab === id}
-              onClick={() => setTab(id)}
+              onClick={() => {
+                setTab(id)
+                if (id === 'colors') setInspectorFocus(null)
+                if (id === 'settings') setInspectorFocus({ scope: 'settings' })
+              }}
             >
               {label}
             </button>
           ))}
         </div>
         <div className={s.railBody}>
-          {tab === 'theme' ? (
-            TEMPLATE_LIST.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                className={s.themeCard}
-                data-active={doc.templateId === item.id}
-                onClick={() => switchTemplate(item.id)}
-              >
-                <div className={s.swatch} style={{ background: item.previewTone }} />
-                <strong>{item.name}</strong>
-                <span>{item.description}</span>
-              </button>
-            ))
+          {tab === 'colors' ? (
+            <div className={s.paletteGrid}>
+              {COLOR_SCHEMA_LIST.map((item) => (
+                <button
+                  key={item.id}
+                  type="button"
+                  className={s.paletteCard}
+                  data-active={doc.colorSchemaId === item.id}
+                  onClick={() => selectColorSchema(item.id)}
+                >
+                  <span className={s.paletteSwatches} aria-hidden>
+                    {item.swatches.map((tone) => (
+                      <i key={tone} style={{ background: tone }} />
+                    ))}
+                  </span>
+                  <strong>{item.name}</strong>
+                  <span>{item.description}</span>
+                </button>
+              ))}
+            </div>
           ) : null}
 
           {tab === 'sections' ? (
-            <>
-              {activeSections.map((section, index) => (
-                <div
-                  key={section.id}
-                  className={s.sectionRow}
-                  data-active={selectedSectionId === section.id}
-                  data-hidden={!section.visible}
-                  onClick={() => setSelectedSectionId(section.id)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') setSelectedSectionId(section.id)
-                  }}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <div className={s.sectionMeta}>
-                    <strong>{SECTION_CATALOG[section.type].label}</strong>
-                    <span>{section.visible ? 'Visible' : 'Hidden'}</span>
-                  </div>
-                  <div className={s.rowTools} onClick={(e) => e.stopPropagation()}>
-                    <button type="button" className={s.iconBtn} aria-label="Move up" onClick={() => moveSection(index, -1)}>
-                      <ArrowUp size={14} />
-                    </button>
-                    <button type="button" className={s.iconBtn} aria-label="Move down" onClick={() => moveSection(index, 1)}>
-                      <ArrowDown size={14} />
-                    </button>
-                    <button
-                      type="button"
-                      className={s.iconBtn}
-                      aria-label={section.visible ? 'Hide' : 'Show'}
-                      onClick={() => patchSection(section.id, { visible: !section.visible })}
-                    >
-                      {section.visible ? <Eye size={14} /> : <EyeOff size={14} />}
-                    </button>
-                    <button type="button" className={s.iconBtn} aria-label="Remove" onClick={() => removeSection(section.id)}>
-                      <Trash2 size={14} />
-                    </button>
-                  </div>
-                </div>
-              ))}
-              <button type="button" className={s.btn} onClick={() => setShowAdd((v) => !v)}>
-                <Plus size={14} /> Add section
-              </button>
-              {showAdd ? (
-                <div className={s.addMenu}>
-                  {template?.allowedSections.map((type) => (
-                    <button key={type} type="button" onClick={() => addSection(type)}>
-                      {SECTION_CATALOG[type].label}
-                    </button>
-                  ))}
-                </div>
-              ) : null}
-            </>
+            isLevelPage && activeModule ? (
+              <div className={s.sectionList}>
+                {activeModule.activities.map((activity) => (
+                  <button
+                    key={activity.kind}
+                    type="button"
+                    className={s.sectionNameBtn}
+                    data-active={selectedActivityKind === activity.kind}
+                    onClick={() => selectActivity(activeModule, activity.kind)}
+                  >
+                    {activity.label || LMS_LEVEL_ACTIVITY_DEFAULT_LABELS[activity.kind]}
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <div className={s.sectionList}>
+                {activeSections.map((section) => (
+                  <button
+                    key={section.id}
+                    type="button"
+                    className={s.sectionNameBtn}
+                    data-active={selectedSectionId === section.id}
+                    onClick={() => selectSection(section)}
+                  >
+                    {SECTION_CATALOG[section.type].label}
+                  </button>
+                ))}
+                {activeSections.length === 0 ? (
+                  <p className={s.emptyInspector}>No sections on this page.</p>
+                ) : null}
+              </div>
+            )
           ) : null}
 
           {tab === 'settings' ? (
@@ -509,7 +753,8 @@ function ThemeEditor({
       <section className={s.previewPane}>
         <div className={s.previewHeader}>
           <span>
-            Live preview · {template?.name} · {activePage.title}
+            Course preview · {course.code || course.name} ·{' '}
+            {getColorSchema(doc.colorSchemaId).name}
           </span>
           <div className={s.actions}>
             <button type="button" className={s.btnGhost} onClick={handleReset}>
@@ -526,48 +771,205 @@ function ThemeEditor({
             </Link>
           </div>
         </div>
-        <div className={s.previewStage}>
-          <LearnThemePreview
-            key={`${doc.templateId}-${activePage.id}-${activeSections.map((x) => x.id).join(',')}`}
-            document={previewDoc}
-            pageTitle={activePage.title}
-            navPages={visiblePages.map((page) => page.title)}
-            progress={{ percent: 18, completed: 2, total: 11, nextLabel: 'Next activity' }}
+        <div className={s.previewStage} data-mode="course-frame">
+          <iframe
+            ref={previewFrameRef}
+            key={`${course.id}-${doc.colorSchemaId}-${doc.settings.fontFamily}-${doc.settings.buttonStyle}`}
+            className={s.courseFrame}
+            title={`${course.name} course preview`}
+            src={`${previewBasePath}/${course.id}?palette=${encodeURIComponent(doc.colorSchemaId)}&font=${encodeURIComponent(doc.settings.fontFamily)}&btn=${encodeURIComponent(doc.settings.buttonStyle)}&h1=${doc.settings.fontSizeH1}&h2=${doc.settings.fontSizeH2}&h3=${doc.settings.fontSizeH3}&body=${doc.settings.fontSizeBody}`}
+            onLoad={() => {
+              if (!doc) return
+              postLiveToPreview(doc, inspectorFocus)
+            }}
           />
         </div>
       </section>
 
-      <aside className={s.inspector}>
+      <aside className={s.inspector} data-studio-inspector>
         <div className={s.topBar}>
           <div>
             <h1>Inspector</h1>
             <p>
-              {tab === 'settings' || !selectedSection
+              {tab === 'settings'
                 ? 'Shell settings'
-                : SECTION_CATALOG[selectedSection.type].label}
+                : isLevelPage && selectedActivity
+                  ? selectedActivity.label ||
+                    LMS_LEVEL_ACTIVITY_DEFAULT_LABELS[selectedActivity.kind]
+                  : isLevelPage && activeModule
+                    ? `Section ${activeModule.number}`
+                    : selectedSection
+                      ? SECTION_CATALOG[selectedSection.type].label
+                      : 'Shell settings'}
             </p>
           </div>
         </div>
         <div className={s.inspectorBody}>
-          {tab === 'settings' || !selectedSection ? (
-            SETTINGS_FIELDS.map((field) => (
-              <SettingField
-                key={field.key}
-                label={field.label}
-                type={field.type}
-                options={field.options}
-                value={doc.settings[field.key]}
-                onChange={(value) => patchSetting(field.key, value as never)}
-              />
+          {tab === 'settings' ? (
+            SETTINGS_GROUPS.map((group) => (
+              <div key={group.title} className={s.settingsGroup}>
+                <p className={s.settingsGroupTitle}>{group.title}</p>
+                {group.fields.map((field) => (
+                  <SettingField
+                    key={field.key}
+                    label={field.label}
+                    type={field.type}
+                    options={field.options}
+                    min={field.min}
+                    max={field.max}
+                    value={doc.settings[field.key]}
+                    onChange={(value) => patchSetting(field.key, value as never)}
+                    onFocusField={() =>
+                      setInspectorFocus({ scope: 'settings', fieldKey: String(field.key) })
+                    }
+                    onBlurField={() => {
+                      window.setTimeout(() => {
+                        if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                          setInspectorFocus(null)
+                        }
+                      }, 0)
+                    }}
+                  />
+                ))}
+              </div>
             ))
-          ) : (
-            SECTION_CATALOG[selectedSection.type].fields.map((field) => (
-              <SectionField
-                key={field.key}
-                field={field}
-                value={selectedSection.settings[field.key]}
-                onChange={(value) => patchSectionSetting(selectedSection.id, field.key, value)}
+          ) : isLevelPage && activeModule ? (
+            <>
+              <SettingField
+                label="Section title"
+                type="text"
+                value={activeModule.title}
+                onChange={(value) => patchModuleTitle(activeModule.id, String(value))}
+                onFocusField={() =>
+                  setInspectorFocus({
+                    scope: 'level-module',
+                    moduleId: activeModule.id,
+                    fieldKey: 'title',
+                  })
+                }
+                onBlurField={() => {
+                  window.setTimeout(() => {
+                    if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                      setInspectorFocus(null)
+                    }
+                  }, 0)
+                }}
               />
+              {selectedActivity ? (
+                <>
+                  <SettingField
+                    label="Activity label"
+                    type="text"
+                    value={selectedActivity.label}
+                    onChange={(value) =>
+                      patchActivityLabel(activeModule.id, selectedActivity.kind, String(value))
+                    }
+                    onFocusField={() =>
+                      setInspectorFocus({
+                        scope: 'level-activity',
+                        moduleId: activeModule.id,
+                        activityKind: selectedActivity.kind,
+                        fieldKey: 'label',
+                      })
+                    }
+                    onBlurField={() => {
+                      window.setTimeout(() => {
+                        if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                          setInspectorFocus(null)
+                        }
+                      }, 0)
+                    }}
+                  />
+                  {selectedActivityPageId && selectedActivityContent ? (
+                    <ActivityContentEditor
+                      value={selectedActivityContent}
+                      activeIndex={previewActivityIndex}
+                      onChange={(next) => patchActivityContent(selectedActivityPageId, next)}
+                      onFocusField={(fieldKey) =>
+                        setInspectorFocus({
+                          scope: 'level-activity',
+                          moduleId: activeModule.id,
+                          activityKind: selectedActivity.kind,
+                          fieldKey,
+                        })
+                      }
+                      onBlurField={() => {
+                        window.setTimeout(() => {
+                          if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                            setInspectorFocus(null)
+                          }
+                        }, 0)
+                      }}
+                    />
+                  ) : (
+                    <p className={s.emptyInspector}>
+                      No editable body found for this activity in the course pack.
+                    </p>
+                  )}
+                </>
+              ) : (
+                <p className={s.emptyInspector}>
+                  Select Learning notes, Lecture video, Flashcards, or Knowledge check to edit its
+                  content.
+                </p>
+              )}
+            </>
+          ) : selectedSection ? (
+            SECTION_CATALOG[selectedSection.type].fields
+              .filter(
+                (field) =>
+                  field.type === 'text' || field.type === 'textarea' || field.type === 'image',
+              )
+              .map((field) => (
+                <SectionField
+                  key={field.key}
+                  field={field}
+                  value={selectedSection.settings[field.key]}
+                  onChange={(value) => patchSectionSetting(selectedSection.id, field.key, value)}
+                  onFocusField={() =>
+                    setInspectorFocus({
+                      scope: 'section',
+                      sectionId: selectedSection.id,
+                      sectionType: selectedSection.type,
+                      fieldKey: field.key,
+                    })
+                  }
+                  onBlurField={() => {
+                    window.setTimeout(() => {
+                      if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                        setInspectorFocus(null)
+                      }
+                    }, 0)
+                  }}
+                />
+              ))
+          ) : (
+            SETTINGS_GROUPS.map((group) => (
+              <div key={group.title} className={s.settingsGroup}>
+                <p className={s.settingsGroupTitle}>{group.title}</p>
+                {group.fields.map((field) => (
+                  <SettingField
+                    key={field.key}
+                    label={field.label}
+                    type={field.type}
+                    options={field.options}
+                    min={field.min}
+                    max={field.max}
+                    value={doc.settings[field.key]}
+                    onChange={(value) => patchSetting(field.key, value as never)}
+                    onFocusField={() =>
+                      setInspectorFocus({ scope: 'settings', fieldKey: String(field.key) })
+                    }
+                    onBlurField={() => {
+                      window.setTimeout(() => {
+                        if (!document.activeElement?.closest('[data-studio-inspector]')) {
+                          setInspectorFocus(null)
+                        }
+                      }, 0)
+                    }}
+                  />
+                ))}
+              </div>
             ))
           )}
         </div>
@@ -581,20 +983,55 @@ function SettingField({
   type,
   value,
   options,
+  min,
+  max,
   onChange,
+  onFocusField,
+  onBlurField,
 }: {
   label: string
-  type: 'text' | 'textarea' | 'select' | 'toggle'
-  value: string | boolean
+  type: 'text' | 'textarea' | 'select' | 'toggle' | 'px'
+  value: string | boolean | number
   options?: Array<{ label: string; value: string }>
-  onChange: (value: string | boolean) => void
+  min?: number
+  max?: number
+  onChange: (value: string | boolean | number) => void
+  onFocusField?: () => void
+  onBlurField?: () => void
 }) {
   if (type === 'toggle') {
     return (
       <label className={s.toggleRow}>
         <span>{label}</span>
-        <input type="checkbox" checked={Boolean(value)} onChange={(e) => onChange(e.target.checked)} />
+        <input
+          type="checkbox"
+          checked={Boolean(value)}
+          onChange={(e) => onChange(e.target.checked)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
+        />
       </label>
+    )
+  }
+
+  if (type === 'px') {
+    return (
+      <div className={s.field}>
+        <label>{label}</label>
+        <div className={s.pxField}>
+          <input
+            type="number"
+            inputMode="numeric"
+            min={min}
+            max={max}
+            value={Number(value) || 0}
+            onChange={(e) => onChange(Number.parseInt(e.target.value, 10) || 0)}
+            onFocus={onFocusField}
+            onBlur={onBlurField}
+          />
+          <span>px</span>
+        </div>
+      </div>
     )
   }
 
@@ -602,9 +1039,19 @@ function SettingField({
     <div className={s.field}>
       <label>{label}</label>
       {type === 'textarea' ? (
-        <textarea value={String(value ?? '')} onChange={(e) => onChange(e.target.value)} />
+        <textarea
+          value={String(value ?? '')}
+          onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
+        />
       ) : type === 'select' ? (
-        <select value={String(value ?? '')} onChange={(e) => onChange(e.target.value)}>
+        <select
+          value={String(value ?? '')}
+          onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
+        >
           {(options ?? []).map((opt) => (
             <option key={opt.value} value={opt.value}>
               {opt.label}
@@ -612,7 +1059,12 @@ function SettingField({
           ))}
         </select>
       ) : (
-        <input value={String(value ?? '')} onChange={(e) => onChange(e.target.value)} />
+        <input
+          value={String(value ?? '')}
+          onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
+        />
       )}
     </div>
   )
@@ -622,10 +1074,14 @@ function SectionField({
   field,
   value,
   onChange,
+  onFocusField,
+  onBlurField,
 }: {
   field: LmsFieldSchema
   value: string | boolean | undefined
   onChange: (value: string | boolean) => void
+  onFocusField?: () => void
+  onBlurField?: () => void
 }) {
   if (field.type === 'toggle') {
     return (
@@ -635,8 +1091,23 @@ function SectionField({
           type="checkbox"
           checked={typeof value === 'boolean' ? value : Boolean(field.defaultValue)}
           onChange={(e) => onChange(e.target.checked)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
         />
       </label>
+    )
+  }
+
+  if (field.type === 'image') {
+    return (
+      <ImageField
+        label={field.label}
+        placeholder={field.placeholder}
+        value={typeof value === 'string' ? value : ''}
+        onChange={(next) => onChange(next)}
+        onFocusField={onFocusField}
+        onBlurField={onBlurField}
+      />
     )
   }
 
@@ -648,9 +1119,16 @@ function SectionField({
           value={String(value ?? '')}
           placeholder={field.placeholder}
           onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
         />
       ) : field.type === 'select' ? (
-        <select value={String(value ?? field.defaultValue ?? '')} onChange={(e) => onChange(e.target.value)}>
+        <select
+          value={String(value ?? field.defaultValue ?? '')}
+          onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
+        >
           {(field.options ?? []).map((opt) => (
             <option key={opt.value} value={opt.value}>
               {opt.label}
@@ -662,8 +1140,148 @@ function SectionField({
           value={String(value ?? '')}
           placeholder={field.placeholder}
           onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocusField}
+          onBlur={onBlurField}
         />
       )}
+    </div>
+  )
+}
+
+const IMAGE_ACCEPT = 'image/jpeg,image/jpg,image/png,image/webp,image/gif'
+const IMAGE_MAX_BYTES = 5 * 1024 * 1024
+
+function readFileAsDataUrl(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(String(reader.result || ''))
+    reader.onerror = () => reject(reader.error ?? new Error('Failed to read file'))
+    reader.readAsDataURL(file)
+  })
+}
+
+function ImageField({
+  label,
+  placeholder,
+  value,
+  onChange,
+  onFocusField,
+  onBlurField,
+}: {
+  label: string
+  placeholder?: string
+  value: string
+  onChange: (value: string) => void
+  onFocusField?: () => void
+  onBlurField?: () => void
+}) {
+  const inputId = useId()
+  const fileInputRef = useRef<HTMLInputElement | null>(null)
+  const [uploading, setUploading] = useState(false)
+
+  const clearImage = () => {
+    onChange('')
+    if (fileInputRef.current) fileInputRef.current.value = ''
+  }
+
+  const handleUpload = async (file: File | undefined) => {
+    if (!file) return
+    if (file.size > IMAGE_MAX_BYTES) {
+      toast.error('Image must be under 5MB')
+      return
+    }
+    if (!IMAGE_ACCEPT.split(',').includes(file.type)) {
+      toast.error('Use JPEG, PNG, WebP, or GIF')
+      return
+    }
+
+    setUploading(true)
+    onFocusField?.()
+    try {
+      const response = await apiClient.uploadCourseImage(file)
+      if (response.success && response.data?.url) {
+        onChange(response.data.url)
+        toast.success(
+          response.message?.includes('Demo')
+            ? 'Image applied to preview'
+            : 'Image uploaded',
+        )
+        return
+      }
+
+      const localUrl = await readFileAsDataUrl(file)
+      if (localUrl) {
+        onChange(localUrl)
+        toast.success('Image applied to preview')
+        return
+      }
+      toast.error(response.message || 'Upload failed')
+    } catch (error) {
+      console.error('Theme studio image upload failed', error)
+      try {
+        const localUrl = await readFileAsDataUrl(file)
+        if (localUrl) {
+          onChange(localUrl)
+          toast.success('Image applied to preview')
+          return
+        }
+      } catch {
+        /* fall through */
+      }
+      toast.error('Upload failed')
+    } finally {
+      setUploading(false)
+      if (fileInputRef.current) fileInputRef.current.value = ''
+    }
+  }
+
+  return (
+    <div className={s.field}>
+      <label htmlFor={inputId}>{label}</label>
+      {value ? (
+        <div className={s.imagePreview}>
+          <img src={value} alt="" />
+          <button
+            type="button"
+            className={s.imageClear}
+            aria-label="Remove background image"
+            onClick={clearImage}
+          >
+            <X size={14} />
+          </button>
+        </div>
+      ) : null}
+      <input
+        id={inputId}
+        value={value}
+        placeholder={placeholder || 'https://…'}
+        onChange={(e) => onChange(e.target.value)}
+        onFocus={onFocusField}
+        onBlur={onBlurField}
+      />
+      <div className={s.imageActions}>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept={IMAGE_ACCEPT}
+          className={s.imageFileInput}
+          disabled={uploading}
+          onChange={(e) => void handleUpload(e.target.files?.[0])}
+        />
+        <button
+          type="button"
+          className={s.btn}
+          disabled={uploading}
+          onClick={() => {
+            onFocusField?.()
+            fileInputRef.current?.click()
+          }}
+        >
+          {uploading ? <Loader2 size={14} className={s.spin} /> : <ImagePlus size={14} />}
+          {uploading ? 'Uploading…' : 'Upload image'}
+        </button>
+        <span className={s.imageHint}>JPEG, PNG, WebP, GIF · max 5MB</span>
+      </div>
     </div>
   )
 }

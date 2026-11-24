@@ -10,7 +10,7 @@ export const SECTION_CATALOG: Record<LmsSectionType, LmsSectionDefinition> = {
       { key: 'heading', label: 'Heading', type: 'text', placeholder: 'Unit title' },
       { key: 'intro', label: 'Intro', type: 'textarea', placeholder: 'Short pathway intro' },
       { key: 'ctaLabel', label: 'Primary button', type: 'text', placeholder: 'Continue learning' },
-      { key: 'imageUrl', label: 'Background image URL', type: 'image', placeholder: 'https://…' },
+      { key: 'imageUrl', label: 'Background image', type: 'image', placeholder: 'Paste a URL or upload below' },
       { key: 'showProgress', label: 'Show progress rail', type: 'toggle', defaultValue: true },
     ],
     defaults: {

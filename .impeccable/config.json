@@ -17,6 +17,51 @@
         ],
         "createdAt": "2026-11-18T09:03:38.775Z",
         "reason": "false positive: curriculum current-page inset marker uses 3px left border as navigation state, same pattern as learning-player active stages"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "campus-sans",
+        "createdAt": "2026-11-24T21:30:43.571Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "manrope",
+        "createdAt": "2026-11-24T21:30:43.591Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "newsreader",
+        "createdAt": "2026-11-24T21:30:43.610Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "source serif 4",
+        "createdAt": "2026-11-24T21:30:43.627Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "dm sans",
+        "createdAt": "2026-11-24T21:30:43.643Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "literata",
+        "createdAt": "2026-11-24T21:30:43.659Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fraunces",
+        "createdAt": "2026-11-24T21:30:43.673Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "campus editorial",
+        "createdAt": "2026-11-24T21:30:43.688Z"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "campus sans",
+        "createdAt": "2026-11-24T21:30:43.703Z"
       }
     ]
   }

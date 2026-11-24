@@ -1,3 +1,5 @@
+import { colorSchemaCssVars, getColorSchema } from './color-schemas'
+import { shellTypographyCssVars } from './shell-typography'
 import { getTemplate } from './templates'
 import { defaultThemeForCourse, loadPublishedTheme } from './store'
 import type { LmsTemplateId, ThemeDocument } from './types'
@@ -12,12 +14,16 @@ export function fallbackTemplateId(courseCode?: string | null): LmsTemplateId {
 export function resolveThemeDocument(
   courseId: number,
   opts?: { courseCode?: string | null; courseName?: string | null },
-): ThemeDocument {
+): ThemeDocument | null {
   return loadPublishedTheme(courseId, opts)
 }
 
 export function themeCssVars(doc: ThemeDocument): Record<string, string> {
-  return { ...getTemplate(doc.templateId).tokens }
+  return {
+    ...getTemplate(doc.templateId).tokens,
+    ...colorSchemaCssVars(doc.colorSchemaId ?? getColorSchema(undefined).id),
+    ...shellTypographyCssVars(doc.settings),
+  }
 }
 
 export function serverDefaultTheme(

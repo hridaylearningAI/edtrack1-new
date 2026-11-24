@@ -79,6 +79,11 @@ function SectionBlock({
 }) {
   const s = section.settings
 
+  const sectionAttrs = {
+    'data-lms-section-id': section.id,
+    'data-lms-section-type': section.type,
+  } as const
+
   switch (section.type) {
     case 'hero': {
       const heading = str(s.heading, document.settings.unitTitle || 'Unit overview')
@@ -88,17 +93,28 @@ function SectionBlock({
       const imageUrl = str(s.imageUrl)
       const showProgress = bool(s.showProgress, true)
       return (
-        <section className="lms-hero" aria-labelledby={`hero-${section.id}`}>
+        <section className="lms-hero" aria-labelledby={`hero-${section.id}`} {...sectionAttrs}>
           <div className="lms-hero-media" aria-hidden>
-            {imageUrl ? <img src={imageUrl} alt="" /> : null}
+            {imageUrl ? <img src={imageUrl} alt="" data-studio-field="imageUrl" /> : null}
             <div className="lms-hero-scrim" />
           </div>
           <div className="lms-hero-content">
-            <p className="lms-hero-kicker">{kicker}</p>
-            <h1 id={`hero-${section.id}`}>{heading}</h1>
-            <p className="lms-hero-intro">{intro}</p>
+            <p className="lms-hero-kicker" data-studio-field="kicker">
+              {kicker}
+            </p>
+            <h1 id={`hero-${section.id}`} data-studio-field="heading">
+              {heading}
+            </h1>
+            <p className="lms-hero-intro" data-studio-field="intro">
+              {intro}
+            </p>
             <div className="lms-hero-actions">
-              <button type="button" className="lms-btn-primary" onClick={onPrimaryCta}>
+              <button
+                type="button"
+                className="lms-btn-primary"
+                data-studio-field="ctaLabel"
+                onClick={onPrimaryCta}
+              >
                 {cta}
               </button>
             </div>
@@ -126,20 +142,24 @@ function SectionBlock({
     }
     case 'stats_strip':
       return (
-        <div className="lms-stats" aria-label="Unit stats">
+        <div className="lms-stats" aria-label="Unit stats" {...sectionAttrs}>
           <div className="lms-stat">
-            <span>{str(s.label1, 'Progress')}</span>
-            <strong>{progress ? `${progress.percent}%` : str(s.value1, '0%')}</strong>
+            <span data-studio-field="label1">{str(s.label1, 'Progress')}</span>
+            <strong data-studio-field="value1">
+              {progress ? `${progress.percent}%` : str(s.value1, '0%')}
+            </strong>
           </div>
           <div className="lms-stat">
-            <span>{str(s.label2, 'Activities')}</span>
-            <strong>
+            <span data-studio-field="label2">{str(s.label2, 'Activities')}</span>
+            <strong data-studio-field="value2">
               {progress ? `${progress.completed}/${progress.total}` : str(s.value2, '0/0')}
             </strong>
           </div>
           <div className="lms-stat">
-            <span>{str(s.label3, 'Status')}</span>
-            <strong style={{ fontSize: 15 }}>{str(s.value3, progress?.nextLabel || 'Ready')}</strong>
+            <span data-studio-field="label3">{str(s.label3, 'Status')}</span>
+            <strong style={{ fontSize: 15 }} data-studio-field="value3">
+              {str(s.value3, progress?.nextLabel || 'Ready')}
+            </strong>
           </div>
         </div>
       )
@@ -155,9 +175,15 @@ function SectionBlock({
               { id: '3', label: 'Level 3', title: 'Mastery', detail: 'Capstone', status: 'locked' },
             ]
       return (
-        <section className="lms-block" aria-labelledby={`path-${section.id}`}>
-          <h2 id={`path-${section.id}`}>{str(s.heading, 'Your pathway')}</h2>
-          <p>{str(s.subtitle, 'Complete each stage to unlock the next')}</p>
+        <section
+          className="lms-block"
+          aria-labelledby={`path-${section.id}`}
+          {...sectionAttrs}
+        >
+          <h2 id={`path-${section.id}`} data-studio-field="heading">
+            {str(s.heading, 'Your pathway')}
+          </h2>
+          <p data-studio-field="subtitle">{str(s.subtitle, 'Complete each stage to unlock the next')}</p>
           <div className="lms-pathway" data-layout={layout === 'stack' ? 'stack' : 'three'} style={{ marginTop: 14 }}>
             {cards.map((card) => (
               <button
@@ -180,18 +206,28 @@ function SectionBlock({
     }
     case 'rich_text':
       return (
-        <section className="lms-block">
-          <h2>{str(s.heading, 'About')}</h2>
-          <p>{str(s.body)}</p>
+        <section className="lms-block" {...sectionAttrs}>
+          <h2 data-studio-field="heading">{str(s.heading, 'About')}</h2>
+          <p data-studio-field="body">{str(s.body)}</p>
         </section>
       )
     case 'cta_row':
       return (
-        <div className="lms-cta-row" data-align={str(s.align, 'left')}>
-          <button type="button" className="lms-btn-primary" onClick={onPrimaryCta}>
+        <div className="lms-cta-row" data-align={str(s.align, 'left')} {...sectionAttrs}>
+          <button
+            type="button"
+            className="lms-btn-primary"
+            data-studio-field="primaryLabel"
+            onClick={onPrimaryCta}
+          >
             {str(s.primaryLabel, document.settings.primaryCtaLabel)}
           </button>
-          <button type="button" className="lms-btn-secondary" onClick={onSecondaryCta}>
+          <button
+            type="button"
+            className="lms-btn-secondary"
+            data-studio-field="secondaryLabel"
+            onClick={onSecondaryCta}
+          >
             {str(s.secondaryLabel, 'View resources')}
           </button>
         </div>
@@ -199,8 +235,8 @@ function SectionBlock({
     case 'resource_list': {
       const items = [str(s.item1), str(s.item2), str(s.item3)].filter(Boolean)
       return (
-        <section className="lms-block">
-          <h2>{str(s.heading, 'Resources')}</h2>
+        <section className="lms-block" {...sectionAttrs}>
+          <h2 data-studio-field="heading">{str(s.heading, 'Resources')}</h2>
           <ul className="lms-resources">
             {items.map((item) => (
               <li key={item}>{item}</li>

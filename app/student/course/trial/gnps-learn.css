@@ -280,14 +280,14 @@
 
 .gnps-learn-sidebar {
   border-right: 1px solid var(--gnps-line);
-  background: #fcfcf9;
+  background: var(--sidebar, #fcfcf9);
   color: var(--gnps-ink);
 }
 
 .gnps-learn-sidebar .gnps-sidebar-toolbar {
   min-height: 44px;
   border-color: var(--gnps-line);
-  background: #fcfcf9;
+  background: var(--sidebar, #fcfcf9);
 }
 
 .gnps-learn-sidebar .gnps-sidebar-toolbar > span {
@@ -301,7 +301,7 @@
 
 .gnps-learn-sidebar .gnps-sidebar-toolbar button:hover,
 .gnps-learn-sidebar .gnps-sidebar-toolbar button:focus-visible {
-  background: #eef1ea;
+  background: var(--sidebar-hover, #eef1ea);
   color: var(--gnps-ink);
 }
 
@@ -311,9 +311,8 @@
   padding: 16px 14px 14px;
   border-bottom: 1px solid var(--gnps-line);
   background:
-    linear-gradient(135deg, rgb(36 90 198 / 8%), transparent 55%),
-    #fafaf7;
-  animation: gnps-unit-reveal 500ms var(--ease-out-strong) both;
+    linear-gradient(135deg, color-mix(in srgb, var(--gnps-teal, #245ac6) 12%, transparent), transparent 55%),
+    var(--panel, #fafaf7);
 }
 
 .gnps-unit-identity-hero {
@@ -428,8 +427,8 @@
   width: 36px;
   height: 36px;
   border-radius: 999px;
-  background: #263432;
-  color: var(--gnps-teal-pale);
+  background: var(--primary, #263432);
+  color: var(--lms-sidebar-text, var(--gnps-teal-pale));
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -1120,13 +1119,53 @@
   color: var(--gnps-ink);
 }
 
+/* Theme Studio reorder: stats detached from hero */
+.gnps-home-stats-solo {
+  margin: 0 24px 16px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--hero-scrim, #263a32) 88%, transparent);
+  color: #fff;
+}
+
+.gnps-home-stats-solo .gnps-home-hero-rail {
+  position: relative;
+  margin: 0;
+  border-radius: 0;
+}
+
+.gnps-home-extra-section {
+  padding-bottom: 8px;
+}
+
+.gnps-home-extra-body {
+  margin: 0 24px 12px;
+  max-width: 62ch;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--gnps-ink-soft, #3d4641);
+}
+
+.gnps-home-extra-list {
+  margin: 0 24px 16px;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 6px;
+  color: var(--gnps-ink-soft, #3d4641);
+  font-size: 14px;
+}
+
 /* Unit overview v2 — full-bleed image hero + progress rail */
 .gnps-home-v2 .gnps-home-hero {
+  /* Light copy on dark scrim — readable over any schema overlay */
+  --gnps-ink-copy: #e8eee9;
+  --gnps-ink-copy-muted: #d5ddd6;
+  --gnps-ink-copy-soft: #e0e7e1;
   position: relative;
   display: grid;
   min-height: min(72vh, 640px);
   overflow: hidden;
-  background: var(--gnps-ink);
+  background: var(--hero-scrim, #07172f);
   color: white;
 }
 
@@ -1152,15 +1191,33 @@
 
 .gnps-home-hero-fallback {
   background:
-    radial-gradient(circle at 78% 18%, rgb(36 90 198 / 35%), transparent 42%),
-    linear-gradient(145deg, #263432 0%, #1d5140 48%, #204b9c 100%);
+    radial-gradient(
+      circle at 78% 18%,
+      color-mix(in srgb, var(--gnps-teal, #245ac6) 40%, transparent),
+      transparent 42%
+    ),
+    linear-gradient(
+      145deg,
+      var(--hero-scrim, #263432) 0%,
+      color-mix(in srgb, var(--hero-scrim, #263432) 70%, var(--gnps-teal, #245ac6)) 48%,
+      var(--gnps-teal-deep, #204b9c) 100%
+    );
 }
 
 .gnps-home-hero-scrim {
   z-index: 1;
   background:
-    linear-gradient(90deg, rgb(7 23 47 / 92%) 0%, rgb(7 23 47 / 72%) 42%, rgb(7 23 47 / 28%) 100%),
-    linear-gradient(180deg, rgb(7 23 47 / 18%) 0%, rgb(7 23 47 / 78%) 100%);
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--hero-scrim, #07172f) 92%, transparent) 0%,
+      color-mix(in srgb, var(--hero-scrim, #07172f) 70%, transparent) 42%,
+      color-mix(in srgb, var(--hero-scrim, #07172f) 26%, transparent) 100%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--hero-scrim, #07172f) 16%, transparent) 0%,
+      color-mix(in srgb, var(--hero-scrim, #07172f) 78%, transparent) 100%
+    );
 }
 
 .gnps-home-hero-content {
@@ -1259,6 +1316,20 @@
   color: var(--gnps-ink-copy);
   font-size: 1.05rem;
   line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.gnps-home-hero .gnps-home-intro {
+  color: #e8eee9;
+  text-shadow: 0 1px 2px color-mix(in srgb, var(--hero-scrim, #07172f) 55%, transparent);
+}
+
+.gnps-home-hero .gnps-home-kicker {
+  color: var(--hero-accent, var(--gnps-gold, #f0c14a));
+}
+
+.gnps-home-hero .gnps-home-rail-stats span {
+  color: var(--gnps-ink-copy-muted);
 }
 
 .gnps-home-actions {

@@ -1013,6 +1013,42 @@ function simulatedWrite(body: BodyInit | null | undefined) {
   return { success: true, message: 'Demo mode: changes are not saved.', data: { id: 90000 + Math.floor(Math.random() * 9999), ...data } }
 }
 
+const DEMO_IMAGE_UPLOAD = /^\/api\/courses\/upload-(image|provider-logo)$/
+
+function fileToDataUrl(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(String(reader.result || ''))
+    reader.onerror = () => reject(reader.error ?? new Error('Failed to read file'))
+    reader.readAsDataURL(file)
+  })
+}
+
+/** Demo image uploads stay local (data URL) so Theme Studio / course form previews still work. */
+async function simulatedImageUpload(body: BodyInit | null | undefined) {
+  const file =
+    body instanceof FormData
+      ? body.get('file')
+      : null
+  if (!(file instanceof File)) {
+    return {
+      success: false,
+      message: 'No file provided',
+      data: null,
+    }
+  }
+  const url = await fileToDataUrl(file)
+  return {
+    success: true,
+    message: 'Demo image ready for preview (not uploaded to storage).',
+    data: {
+      url,
+      path: `demo/${file.name}`,
+      filename: file.name,
+    },
+  }
+}
+
 const json = (body: unknown) => new Response(JSON.stringify(body), { status: 200, headers: { 'Content-Type': 'application/json' } })
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
@@ -1053,6 +1089,9 @@ function installDemoFetch() {
       return body === undefined ? passthrough(input, init) : json(body)
     }
     if (method === 'HEAD' || method === 'OPTIONS' || WRITE_PASSTHROUGH.some((re) => re.test(url.pathname))) return passthrough(input, init)
+    if (method === 'POST' && DEMO_IMAGE_UPLOAD.test(url.pathname)) {
+      return json(await simulatedImageUpload(init?.body ?? null))
+    }
     return json(simulatedWrite(init?.body))
   }) as typeof fetch
 }

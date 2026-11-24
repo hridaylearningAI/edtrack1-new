@@ -47,7 +47,8 @@ export const MODULE_DETAILS: Record<
   'comply-he': {
     title: 'Higher Education Compliance',
     icon: PLATFORM_ICONS.compliance,
-    description: 'Explore compliance checklists and evidence for higher education.',
+    description:
+      'See how EdTrack ONE supports TEQSA, HESF, ESOS and related higher education controls.',
     category: 'Compliance',
     tone: 'green',
     colors: 'primary:#1a6b52,secondary:#245ac6',
@@ -55,7 +56,8 @@ export const MODULE_DETAILS: Record<
   'comply-vet': {
     title: 'VET Compliance',
     icon: PLATFORM_ICONS.compliance,
-    description: 'Review vocational education compliance and audit readiness views.',
+    description:
+      'See the VET compliance supports included when your organisation purchases EdTrack ONE.',
     category: 'Compliance',
     tone: 'green',
     colors: 'primary:#1a6b52,secondary:#245ac6',

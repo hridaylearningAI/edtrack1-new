@@ -43,6 +43,9 @@ export default function TrainerLayout({ children }: { children: ReactNode }) {
   const showPlatformMap = isDemoPlatformUser(user?.email)
   const isDemo = isDemoPlatformUser(user?.email)
   const immersiveSchedule = pathname === '/trainer/schedule'
+  // Theme Studio / course player should be full-bleed — no campus Platform map sidebar.
+  const isOnCourseTrial = /^\/trainer\/course\/\d+$/.test(pathname)
+  const isThemeStudio = pathname === '/trainer/content'
 
   useEffect(() => {
     let cancelled = false
@@ -104,7 +107,7 @@ export default function TrainerLayout({ children }: { children: ReactNode }) {
     )
   }
 
-  if (immersiveSchedule) {
+  if (immersiveSchedule || isOnCourseTrial || isThemeStudio) {
     return <>{children}</>
   }
 

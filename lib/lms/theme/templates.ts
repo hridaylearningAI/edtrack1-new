@@ -10,6 +10,12 @@ const mineralSettings = (overrides?: Partial<LmsShellSettings>): LmsShellSetting
   showProgressFooter: true,
   topicNavStyle: 'list',
   primaryCtaLabel: 'Continue learning',
+  fontFamily: 'campus-sans',
+  buttonStyle: 'rounded',
+  fontSizeH1: 52,
+  fontSizeH2: 32,
+  fontSizeH3: 22,
+  fontSizeBody: 16,
   ...overrides,
 })
 

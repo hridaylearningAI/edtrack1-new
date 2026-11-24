@@ -1,6 +1,24 @@
-/* Shared visual layer for the course player — campus DIDAC tokens (DESIGN.md / workspace). */
-.learning-player,
-.learning-sidebar {
+/* Shared visual layer for the course player — campus DIDAC tokens (DESIGN.md / workspace).
+   Defaults live only on `.learning-player` so sidebar/main inherit studio color schemas. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600;7..72,700&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap');
+
+@font-face {
+  font-family: 'Campus Sans';
+  src: url('/fonts/geist-variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Campus Editorial';
+  src: url('/fonts/bodoni-moda.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+.learning-player {
   --paper: #f5f3ed;
   --panel: #fafaf7;
   --ink: #263432;
@@ -23,6 +41,8 @@
   --gnps-gold: #b34330;
   --gnps-mineral: #f5f3ed;
   --gnps-line: #d8dfd2;
+  --hero-scrim: #263a32;
+  --hero-accent: #f0c14a;
   --edtec-blue: #245ac6;
   --edtec-blue-deep: #204b9c;
   --edtec-blue-soft: #e6edf7;
@@ -39,13 +59,100 @@
   --color-border: #d8dfd2;
   --color-card: #fafaf7;
   --color-background: #f5f3ed;
+  --lms-font-family: 'Campus Sans', Arial, Helvetica, sans-serif;
+  --lms-button-radius: 10px;
+  --lms-h1-size: 52px;
+  --lms-h2-size: 32px;
+  --lms-h3-size: 22px;
+  --lms-body-size: 16px;
   color: var(--ink);
   background: var(--paper);
+  font-family: var(--lms-font-family);
+  font-size: var(--lms-body-size);
   color-scheme: light;
+}
+.learning-sidebar {
+  color: var(--ink);
+  background: var(--sidebar);
+  font-family: var(--lms-font-family, 'Campus Sans', Arial, Helvetica, sans-serif);
+  /* Sidebar keeps a fixed compact scale — studio H1–body sizes only affect main content. */
+  font-size: 14px;
+  color-scheme: light;
+}
+.learning-player :is(.gnps-home-hero h1, .edtec-home-hero h1, .gnps-section-hero h1, .edtec-activity-header h1) {
+  font-size: var(--lms-h1-size);
+  font-family: var(--lms-font-family);
+}
+.learning-player :is(.gnps-home-levels-head h2, .edtec-home-path h2, .gnps-learn-main > section h2) {
+  font-size: var(--lms-h2-size);
+  font-family: var(--lms-font-family);
+}
+.learning-player :is(.gnps-learn-main h3, .edtec-learn-main h3, .gnps-home-coach strong) {
+  font-size: var(--lms-h3-size);
+  font-family: var(--lms-font-family);
+}
+.learning-player :is(.gnps-home-intro, .gnps-home-coach-copy p, .edtec-home-hero p, .gnps-learn-main > section p) {
+  font-size: var(--lms-body-size);
+}
+/* Keep sidebar identity card stable — never inherit main type scale. */
+.learning-sidebar :is(.gnps-unit-identity, .edtec-unit-identity) {
+  contain: layout paint;
+}
+.learning-sidebar :is(.gnps-unit-title, .edtec-unit-title) {
+  font-size: 0.98rem;
+  line-height: 1.25;
+  font-family: var(--lms-font-family);
+}
+.learning-sidebar :is(.gnps-unit-series, .edtec-unit-series) {
+  font-size: 0.62rem;
+}
+.learning-sidebar :is(.gnps-unit-code, .edtec-unit-code) {
+  font-size: 0.68rem;
+}
+.learning-sidebar :is(.gnps-unit-identity-stats-copy strong, .edtec-unit-identity-stats-copy strong) {
+  font-size: 0.78rem;
+}
+.learning-sidebar :is(.gnps-unit-progress-ring, .edtec-unit-progress-ring) > span {
+  color: var(--blue);
+  background: var(--panel);
+}
+.learning-player :is(
+  .gnps-home-primary,
+  .edtec-home-primary,
+  .gnps-back-to-courses,
+  .gnps-overview-nav,
+  .gnps-sidebar-stage,
+  .edtec-activity-nav-btn,
+  button.gnps-home-primary
+) {
+  border-radius: var(--lms-button-radius);
+}
+.learning-player[data-button-style='pill'] :is(
+  .gnps-home-primary,
+  .edtec-home-primary,
+  .gnps-back-to-courses
+) {
+  border-radius: 999px;
+}
+.learning-player[data-button-style='soft'] :is(
+  .gnps-home-primary,
+  .edtec-home-primary
+) {
+  border-radius: 14px;
+  box-shadow: 0 8px 22px color-mix(in srgb, var(--hero-scrim, #263a32) 16%, transparent);
+}
+.learning-player[data-button-style='square'] :is(
+  .gnps-home-primary,
+  .edtec-home-primary,
+  .gnps-back-to-courses,
+  .gnps-overview-nav,
+  .gnps-sidebar-stage
+) {
+  border-radius: 4px;
 }
 .learning-player :is(button, a, input):focus-visible,
 .learning-sidebar :is(button, a):focus-visible {
-  outline: 2px solid #245ac6;
+  outline: 2px solid var(--blue, #245ac6);
   outline-offset: 4px;
 }
 .learning-player ::selection,
@@ -78,10 +185,6 @@
   background: var(--sidebar);
   color: var(--ink);
   border-right: 1px solid var(--line);
-  --gnps-ink-copy: #3d4641;
-  --gnps-ink-copy-muted: #646e68;
-  --gnps-ink-copy-soft: #646e68;
-  --gnps-teal-pale: #41755c;
 }
 .learning-sidebar :is(.gnps-sidebar-toolbar, .edtec-sidebar-toolbar) {
   background: var(--sidebar);
@@ -116,8 +219,8 @@
 }
 .learning-sidebar :is(.gnps-unit-code, .edtec-unit-code) {
   background: var(--blue-soft);
-  color: #204b9c;
-  border-color: #d0dced;
+  color: var(--gnps-teal-deep, var(--blue));
+  border-color: color-mix(in srgb, var(--blue) 22%, var(--line));
 }
 .learning-sidebar :is(.gnps-unit-identity-stats-copy strong, .edtec-unit-identity-stats-copy strong) {
   color: var(--muted-ink);
@@ -129,7 +232,7 @@
   color: var(--blue);
 }
 .learning-sidebar :is(.gnps-unit-identity-track, .edtec-unit-identity-track) {
-  background: #e2e4da;
+  background: color-mix(in srgb, var(--line) 82%, var(--ink));
 }
 .learning-sidebar :is(.gnps-unit-identity-track, .edtec-unit-identity-track) > span {
   background: var(--green);
@@ -149,9 +252,9 @@
 }
 .learning-sidebar :is(.gnps-overview-nav.is-active, .gnps-sidebar-stage.is-active, .gnps-sidebar-stage.is-current) {
   background: var(--blue-soft);
-  border-color: #c5d4eb;
+  border-color: color-mix(in srgb, var(--blue) 28%, var(--line));
   box-shadow: inset 3px 0 var(--blue);
-  color: #204b9c;
+  color: var(--gnps-teal-deep, var(--blue));
 }
 .learning-sidebar .gnps-sidebar-pathway-head {
   border-bottom: 1px solid var(--line);
@@ -174,7 +277,7 @@
 .learning-sidebar .gnps-sidebar-stage:is(.is-current, .is-active) .gnps-sidebar-stage-icon {
   background: var(--primary);
   color: white;
-  box-shadow: 0 0 0 3px #d5e1d4;
+  box-shadow: 0 0 0 3px var(--green-soft);
 }
 .learning-sidebar .gnps-sidebar-stage.is-done .gnps-sidebar-stage-icon {
   background: var(--green);
@@ -191,14 +294,14 @@
 }
 .learning-sidebar .gnps-sidebar-stage-badge.is-done {
   background: var(--green-soft);
-  color: #2b634b;
+  color: var(--green);
 }
 .learning-sidebar .gnps-sidebar-footer {
   background: var(--sidebar);
   border-color: var(--line);
 }
 .learning-sidebar .gnps-sidebar-progress-card {
-  border: 1px solid #d5e1d4;
+  border: 1px solid color-mix(in srgb, var(--green) 22%, var(--line));
   border-radius: 12px;
   background: var(--green-soft);
   box-shadow: none;
@@ -237,48 +340,83 @@
   overflow: hidden;
   box-shadow: 0 12px 32px -20px rgba(38, 58, 50, 0.35);
 }
-.learning-player .gnps-home-hero-scrim {
-  background: linear-gradient(90deg, #1a2e27f5 0%, #263a32c9 55%, #1d514070);
+.learning-player .gnps-home-hero-scrim,
+.learning-player .edtec-home-hero-scrim {
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--hero-scrim, #263a32) 96%, transparent) 0%,
+      color-mix(
+          in srgb,
+          color-mix(in srgb, var(--hero-scrim, #263a32) 82%, var(--blue, #245ac6)) 78%,
+          transparent
+        )
+        55%,
+      color-mix(in srgb, var(--hero-scrim, #263a32) 42%, transparent) 100%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--hero-scrim, #263a32) 12%, transparent) 0%,
+      color-mix(in srgb, var(--hero-scrim, #263a32) 72%, transparent) 100%
+    );
+}
+.learning-player .edtec-home-hero {
+  background: linear-gradient(
+    125deg,
+    var(--hero-scrim, #263a32) 0%,
+    var(--blue, #245ac6) 42%,
+    var(--red, var(--gnps-gold, #b34330)) 78%,
+    var(--primary-hover, #1d5140) 100%
+  );
 }
 .learning-player .gnps-home-hero h1 {
   font-weight: 500;
   letter-spacing: -1.8px;
-  font-size: clamp(30px, 4vw, 52px);
+  font-size: var(--lms-h1-size, clamp(30px, 4vw, 52px));
 }
 .learning-player .gnps-home-kicker {
-  color: #c5d4c8;
+  color: var(--hero-accent, var(--gnps-gold, #f0c14a));
   font-size: 11px;
   letter-spacing: 1.8px;
+}
+.learning-player .gnps-home-intro {
+  color: #e8eee9;
+}
+.learning-player .gnps-home-rail-stats span {
+  color: #c5d4c8;
 }
 .learning-player .gnps-home-primary {
   background: white;
   color: var(--primary);
   border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(38, 58, 50, 0.12);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--hero-scrim, #263a32) 18%, transparent);
 }
 .learning-player .gnps-home-hero-rail {
   border-radius: 12px;
-  background: #ffffff0d;
+  background: color-mix(in srgb, var(--hero-scrim, #263a32) 35%, transparent);
+  border-color: color-mix(in srgb, white 18%, transparent);
 }
-.learning-player .gnps-home-progress-track > span { background: #72b494; }
+.learning-player .gnps-home-progress-track > span {
+  background: linear-gradient(90deg, var(--gnps-teal, var(--blue)) 0%, var(--hero-accent, var(--green)) 100%);
+}
 .learning-player .gnps-home-coach {
   background: var(--green-soft);
-  border: 1px solid #d5e1d4;
+  border: 1px solid color-mix(in srgb, var(--green) 22%, var(--line));
   border-radius: 14px;
-  color: #2b634b;
+  color: var(--green);
 }
-.learning-player .gnps-home-coach-copy :is(p, strong, span) { color: #2b634b; }
+.learning-player .gnps-home-coach-copy :is(p, strong, span) { color: var(--ink); }
 .learning-player .gnps-home-coach-dismiss {
-  color: #2b634b;
-  border-color: #bad9c8;
+  color: var(--green);
+  border-color: color-mix(in srgb, var(--green) 35%, var(--line));
 }
 .learning-player .gnps-level-card {
   border-radius: 16px;
   box-shadow: none;
 }
 .learning-player .gnps-level-card.is-current {
-  border-color: #c5d4eb;
-  box-shadow: 0 8px 24px -18px rgba(36, 90, 198, 0.35);
+  border-color: color-mix(in srgb, var(--blue) 35%, var(--line));
+  box-shadow: 0 8px 24px -18px color-mix(in srgb, var(--blue) 35%, transparent);
 }
 .learning-player .student-notes-cards-stage {
   padding: clamp(16px, 3vw, 36px);
@@ -345,10 +483,10 @@
   .learning-sidebar :is(.gnps-overview-nav, .gnps-sidebar-stage, .gnps-back-to-courses):hover:not(:disabled) {
     background: var(--sidebar-hover);
     color: var(--primary);
-    border-color: #c5d0c4;
+    border-color: color-mix(in srgb, var(--blue) 22%, var(--line));
   }
   .learning-player .gnps-home-primary:hover {
-    background: #eef1ea;
+    background: var(--sidebar-hover);
     color: var(--primary-hover);
   }
 }
@@ -454,5 +592,32 @@
     background: #fff;
     border-color: var(--line);
     color: var(--primary);
+  }
+}
+
+/* Theme Studio inspector focus: highlight active section, soften siblings. */
+.learning-player[data-studio-focus='true'] [data-studio-dim='true'] {
+  transition:
+    filter 180ms ease,
+    opacity 180ms ease;
+  filter: blur(2.5px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+.learning-player[data-studio-focus='true'] [data-studio-active='true'] {
+  transition:
+    box-shadow 180ms ease,
+    outline-color 180ms ease;
+  outline: 2px solid color-mix(in srgb, var(--blue, #245ac6) 70%, white);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 6px color-mix(in srgb, var(--blue, #245ac6) 14%, transparent);
+  border-radius: 14px;
+  z-index: 2;
+  position: relative;
+}
+@media (prefers-reduced-motion: reduce) {
+  .learning-player[data-studio-focus='true'] [data-studio-dim='true'],
+  .learning-player[data-studio-focus='true'] [data-studio-active='true'] {
+    transition: none;
   }
 }

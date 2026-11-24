@@ -293,6 +293,7 @@ import {
 import { getGnpsUnitImageUrl } from "@/lib/gnps-unit-images"
 import { getVetTopicImageUrl, getVetUnitHeroImageUrl } from "@/lib/vet-unit-images"
 import { isGnpsCourseCode } from "@/lib/gnps/course-codes"
+import { SHOWCASE_COURSES } from "@/lib/lms/showcase-courses"
 import {
   buildEthtl115CasePathway,
   buildEthtl115DecisionPathway,
@@ -375,7 +376,34 @@ import "./lms-themes.css"
 import "./student-notes-cards.css"
 import "@/components/player/learning-player.css"
 import { SectionRenderer } from "@/components/lms/theme/section-renderer"
-import { loadPublishedTheme, seedShowcaseThemes, themeCssVars, type ThemeDocument } from "@/lib/lms/theme"
+import {
+  applyFlashcardsContentPatch,
+  applyNotesContentPatch,
+  applyVideoUrlPatch,
+  colorSchemaCssVars,
+  getTemplate,
+  isLmsButtonStyleId,
+  isLmsColorSchemaId,
+  isLmsFontId,
+  isLmsStudioLivePayload,
+  LMS_STUDIO_TYPOGRAPHY_MESSAGE,
+  loadPublishedTheme,
+  normalizeShellSettings,
+  notesLessonBeatsFromPatch,
+  postStudioActivityCursor,
+  quizQuestionsFromContentPatch,
+  resolveActivityContentPatch,
+  seedShowcaseThemes,
+  shellTypographyCssVars,
+  studioFieldSelectors,
+  themeCssVars,
+  type LmsLevelModule,
+  type LmsSection,
+  type LmsShellSettings,
+  type LmsStudioFocus,
+  type ThemeContentPatches,
+  type ThemeDocument,
+} from "@/lib/lms/theme"
 import { LearningBrand } from "@/components/player/learning-brand"
 import { toast } from "sonner"
 import { QuizExplainPanel } from "@/components/quiz/QuizExplainPanel"
@@ -1197,6 +1225,15 @@ function gnpsStageStatusLabel(status: GnpsStageStatus): string {
   }
 }
 
+function liveSectionSetting(
+  sections: LmsSection[] | null | undefined,
+  type: LmsSection["type"],
+  key: string,
+): string | null {
+  const value = sections?.find((section) => section.type === type)?.settings[key]
+  return typeof value === "string" ? value : null
+}
+
 function GnpsUnitHome({
   courseCode,
   courseName,
@@ -1213,6 +1250,12 @@ function GnpsUnitHome({
   onOpenStage,
   levels,
   onOpenLevel,
+  seriesKicker,
+  unitIntro,
+  primaryCtaLabel,
+  pathwayHeading,
+  pathwaySubtitle,
+  layoutSections,
 }: {
   courseCode: string
   courseName: string
@@ -1235,29 +1278,73 @@ function GnpsUnitHome({
     startPageId: PageId
   }>
   onOpenLevel?: (pageId: PageId) => void
+  seriesKicker?: string | null
+  unitIntro?: string | null
+  primaryCtaLabel?: string | null
+  pathwayHeading?: string | null
+  pathwaySubtitle?: string | null
+  /** Theme Studio live section tree — drives order/visibility without leaving GNPS styling. */
+  layoutSections?: LmsSection[] | null
 }) {
   const unitComplete = totalActivities > 0 && completedActivities >= totalActivities
   const hasStarted = completedActivities > 0
   const prefersReducedMotion = useReducedMotion()
   const isThreeLevel = (levels?.length ?? 0) === 3
-  const continueLabel = unitComplete
+  const defaultContinueLabel = unitComplete
     ? "Review pathway"
     : hasStarted
       ? `Continue · ${nextActivityLabel}`
       : isThreeLevel
         ? "Open Level 1"
         : `Begin · ${nextActivityLabel}`
+  const continueLabel = primaryCtaLabel?.trim() || defaultContinueLabel
+  const resolvedKicker = seriesKicker?.trim() || "Global Nursing Professional Series"
+  const resolvedIntro =
+    unitIntro?.trim() ||
+    (isThreeLevel
+      ? "Three progressive levels. Complete each level to unlock the next — your place is saved automatically."
+      : "One clear pathway for this unit. Move stage by stage — your place is saved automatically.")
   const currentStage =
     stages.find((stage) => stage.status === "current") ??
     stages.find((stage) => stage.status === "upcoming" && stage.unlocked) ??
     null
 
-  return (
-    <div className="gnps-home gnps-home-v2">
-      <section className="gnps-home-hero" aria-labelledby="gnps-home-title">
+  const sectionVisible = (type: LmsSection["type"]) => {
+    if (!layoutSections) return true
+    const match = layoutSections.find((section) => section.type === type)
+    return match ? match.visible : true
+  }
+  const sectionOrder = (type: LmsSection["type"], fallback: number) => {
+    if (!layoutSections) return fallback
+    const index = layoutSections.findIndex((section) => section.type === type)
+    return index >= 0 ? index : fallback
+  }
+  const showHero = sectionVisible("hero")
+  const showStats = sectionVisible("stats_strip")
+  const showPathway = sectionVisible("pathway_grid")
+  // Keep stats nested in the hero when it follows the hero (default). Detach when ordered above.
+  const nestStatsInHero =
+    showStats &&
+    (!layoutSections ||
+      sectionOrder("stats_strip", 1) >= sectionOrder("hero", 0))
+
+  const heroBlock = showHero ? (
+      <section
+        key="hero"
+        className="gnps-home-hero"
+        aria-labelledby="gnps-home-title"
+        data-lms-section-type="hero"
+        data-lms-section-id={layoutSections?.find((s) => s.type === "hero")?.id}
+        style={layoutSections ? { order: sectionOrder("hero", 0) } : undefined}
+      >
         <div className="gnps-home-hero-media" aria-hidden={!imageUrl}>
           {imageUrl ? (
-            <img src={imageUrl} alt="" className="gnps-home-hero-image" />
+            <img
+              src={imageUrl}
+              alt=""
+              className="gnps-home-hero-image"
+              data-studio-field="imageUrl"
+            />
           ) : (
             <div className="gnps-home-hero-fallback" />
           )}
@@ -1277,18 +1364,24 @@ function GnpsUnitHome({
           </div>
 
           <div className="gnps-home-hero-copy">
-            <p className="gnps-home-kicker">Global Nursing Professional Series</p>
-            <h1 id="gnps-home-title">{courseName}</h1>
-            <p className="gnps-home-intro">
-              {isThreeLevel
-                ? "Three progressive levels. Complete each level to unlock the next — your place is saved automatically."
-                : "One clear pathway for this unit. Move stage by stage — your place is saved automatically."}
+            <p className="gnps-home-kicker" data-studio-field="brandKicker">
+              {resolvedKicker}
+            </p>
+            <h1 id="gnps-home-title" data-studio-field="unitTitle">
+              {courseName}
+            </h1>
+            <p className="gnps-home-intro" data-studio-field="unitIntro">
+              {resolvedIntro}
             </p>
 
             <div className="gnps-home-actions">
-              <button type="button" className="gnps-home-primary" onClick={onContinue}>
+              <button
+                type="button"
+                className="gnps-home-primary"
+                onClick={onContinue}
+              >
                 <Play className="h-4 w-4" aria-hidden />
-                <span>{continueLabel}</span>
+                <span data-studio-field="primaryCtaLabel">{continueLabel}</span>
                 <ChevronRight className="h-4 w-4" aria-hidden />
               </button>
               {!isThreeLevel && currentStage?.unlocked ? (
@@ -1303,213 +1396,393 @@ function GnpsUnitHome({
             </div>
           </div>
 
-          <div className="gnps-home-hero-rail" aria-label={`${progressPercent}% of this unit complete`}>
-            <div className="gnps-home-rail-stats">
-              <div>
-                <span>Progress</span>
-                <strong>{progressPercent}%</strong>
+          {nestStatsInHero ? (
+            <div
+              className="gnps-home-hero-rail"
+              aria-label={`${progressPercent}% of this unit complete`}
+              data-lms-section-type="stats_strip"
+              data-lms-section-id={layoutSections?.find((s) => s.type === "stats_strip")?.id}
+            >
+              <div className="gnps-home-rail-stats">
+                <div>
+                  <span>Progress</span>
+                  <strong>{progressPercent}%</strong>
+                </div>
+                <div>
+                  <span>{isThreeLevel ? "Activities" : "Stages"}</span>
+                  <strong>
+                    {completedActivities}/{totalActivities}
+                  </strong>
+                </div>
+                <div>
+                  <span>{unitComplete ? "Status" : "Up next"}</span>
+                  <strong>{unitComplete ? "Complete" : nextActivityLabel}</strong>
+                </div>
               </div>
-              <div>
-                <span>{isThreeLevel ? "Activities" : "Stages"}</span>
-                <strong>
-                  {completedActivities}/{totalActivities}
-                </strong>
+              <div className="gnps-home-progress-track" aria-hidden>
+                <span style={{ transform: `scaleX(${Math.max(0, Math.min(1, progressPercent / 100))})` }} />
               </div>
+              {!isThreeLevel ? (
+                <ol className="gnps-home-stage-strip" aria-label="Stage progress">
+                  {stages.map((stage, index) => {
+                    const isNext =
+                      stage.status === "upcoming" &&
+                      stages.findIndex((s) => s.status === "upcoming") === index
+                    const stripStatus =
+                      stage.status === "done"
+                        ? "Done"
+                        : stage.status === "current"
+                          ? "Current"
+                          : isNext
+                            ? "Next"
+                            : "Later"
+                    return (
+                      <li
+                        key={stage.pageId}
+                        className={cn(`is-${stage.status}`, isNext && "is-next")}
+                      >
+                        <span>{String(index + 1).padStart(2, "0")}</span>
+                        <strong>{stage.label}</strong>
+                        <em>{stripStatus}</em>
+                      </li>
+                    )
+                  })}
+                </ol>
+              ) : null}
+            </div>
+          ) : null}
+        </div>
+      </section>
+  ) : null
+
+  const statsBlock =
+    showStats && !nestStatsInHero ? (
+      <div
+        key="stats"
+        className="gnps-home-stats-solo"
+        data-lms-section-type="stats_strip"
+        data-lms-section-id={layoutSections?.find((s) => s.type === "stats_strip")?.id}
+        style={layoutSections ? { order: sectionOrder("stats_strip", 1) } : undefined}
+      >
+        <div
+          className="gnps-home-hero-rail"
+          aria-label={`${progressPercent}% of this unit complete`}
+        >
+          <div className="gnps-home-rail-stats">
+            <div>
+              <span>Progress</span>
+              <strong>{progressPercent}%</strong>
+            </div>
+            <div>
+              <span>{isThreeLevel ? "Activities" : "Stages"}</span>
+              <strong>
+                {completedActivities}/{totalActivities}
+              </strong>
+            </div>
+            <div>
+              <span>{unitComplete ? "Status" : "Up next"}</span>
+              <strong>{unitComplete ? "Complete" : nextActivityLabel}</strong>
+            </div>
+          </div>
+          <div className="gnps-home-progress-track" aria-hidden>
+            <span style={{ transform: `scaleX(${Math.max(0, Math.min(1, progressPercent / 100))})` }} />
+          </div>
+        </div>
+      </div>
+    ) : null
+
+  const coachBlock = showCoach ? (
+    <aside
+      key="coach"
+      className="gnps-home-coach"
+      aria-label="How to use this unit"
+      style={layoutSections ? { order: sectionOrder("hero", 0) + 0.5 } : undefined}
+    >
+      <div className="gnps-home-coach-copy">
+        <p>Pathway tip</p>
+        <strong>
+          {isThreeLevel
+            ? "Notes → Video → Flashcards → Quiz → Case studies + Decision practice"
+            : "Watch → Slides → Flashcards → Knowledge check"}
+        </strong>
+        <span>
+          {isThreeLevel
+            ? "Complete Level 1 to unlock Level 2, then Level 3. Stages unlock in order within each level."
+            : "Required stages unlock in order. Flashcards and guided practice are optional."}
+        </span>
+      </div>
+      <button type="button" className="gnps-home-coach-dismiss" onClick={onDismissCoach}>
+        Got it
+      </button>
+    </aside>
+  ) : null
+
+  const pathwayBlock = showPathway ? (
+    isThreeLevel && levels ? (
+      <section
+        key="pathway"
+        className="gnps-home-pathway"
+        aria-labelledby="gnps-levels-heading"
+        data-lms-section-type="pathway_grid"
+        data-lms-section-id={layoutSections?.find((s) => s.type === "pathway_grid")?.id}
+        style={layoutSections ? { order: sectionOrder("pathway_grid", 2) } : undefined}
+      >
+        <div className="gnps-home-section-heading">
+          <div>
+            <p data-studio-field="subtitle">{pathwaySubtitle?.trim() || "Program levels"}</p>
+            <h2 id="gnps-levels-heading" data-studio-field="heading">
+              {pathwayHeading?.trim() || "Choose your level"}
+            </h2>
+          </div>
+          <span>
+            {levels.filter((l) => l.status === "complete").length} of 3 complete
+          </span>
+        </div>
+        <div className="gnps-level-cards">
+          {levels.map((level, index) => {
+            const locked = level.status === "locked"
+            const statusLabel =
+              level.status === "complete"
+                ? "Complete"
+                : level.status === "current"
+                  ? "Current"
+                  : "Locked"
+            return (
+              <motion.button
+                key={level.number}
+                type="button"
+                className={cn("gnps-level-card", `is-${level.status}`)}
+                disabled={locked}
+                onClick={() => !locked && onOpenLevel?.(level.startPageId)}
+                initial={prefersReducedMotion ? false : { opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                  prefersReducedMotion
+                    ? { duration: 0 }
+                    : { delay: 0.08 + index * 0.06, duration: 0.34, ease: [0.23, 1, 0.32, 1] as const }
+                }
+              >
+                <div className="gnps-level-card-top">
+                  <span className="gnps-level-card-num">Level {level.number}</span>
+                  <span className="gnps-level-card-status">{statusLabel}</span>
+                </div>
+                <h3>{level.title}</h3>
+                <p>{level.blurb}</p>
+                <div className="gnps-level-card-cta">
+                  {locked ? (
+                    <>
+                      <Lock className="h-4 w-4" aria-hidden />
+                      <span>Complete previous level to unlock</span>
+                    </>
+                  ) : level.status === "complete" ? (
+                    <>
+                      <CheckCircle className="h-4 w-4" aria-hidden />
+                      <span>Review level</span>
+                    </>
+                  ) : (
+                    <>
+                      <Play className="h-4 w-4" aria-hidden />
+                      <span>Open Level {level.number}</span>
+                    </>
+                  )}
+                </div>
+              </motion.button>
+            )
+          })}
+        </div>
+      </section>
+    ) : (
+      <section
+        key="pathway"
+        className="gnps-home-pathway"
+        aria-labelledby="gnps-pathway-heading"
+        data-lms-section-type="pathway_grid"
+        data-lms-section-id={layoutSections?.find((s) => s.type === "pathway_grid")?.id}
+        style={layoutSections ? { order: sectionOrder("pathway_grid", 2) } : undefined}
+      >
+        <div className="gnps-home-section-heading">
+          <div>
+            <p data-studio-field="subtitle">{pathwaySubtitle?.trim() || "Learning pathway"}</p>
+            <h2 id="gnps-pathway-heading" data-studio-field="heading">
+              {pathwayHeading?.trim() || "Stages in this unit"}
+            </h2>
+          </div>
+          <span>
+            {completedActivities} complete · {totalActivities} total
+          </span>
+        </div>
+        <div className="gnps-stage-list">
+          {stages.map((stage, index) => {
+            const Icon = stage.icon
+            const isNextUpcoming =
+              stage.status === "upcoming" &&
+              stages.findIndex((s) => s.status === "upcoming") === index
+            const statusLabel =
+              stage.status === "upcoming" && !isNextUpcoming
+                ? "Locked"
+                : isNextUpcoming
+                  ? "Next"
+                  : gnpsStageStatusLabel(stage.status)
+            return (
+              <motion.button
+                key={stage.pageId}
+                type="button"
+                className={cn(
+                  "gnps-stage-row",
+                  `is-${stage.status}`,
+                  isNextUpcoming && "is-next",
+                  !stage.unlocked && "is-locked"
+                )}
+                disabled={!stage.unlocked}
+                onClick={() => stage.unlocked && onOpenStage(stage.pageId)}
+                initial={prefersReducedMotion ? false : { opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                  prefersReducedMotion
+                    ? { duration: 0 }
+                    : { delay: 0.06 + index * 0.05, duration: 0.32, ease: [0.23, 1, 0.32, 1] as const }
+                }
+              >
+                <div className="gnps-stage-index">{String(index + 1).padStart(2, "0")}</div>
+                <div className="gnps-stage-icon">
+                  {stage.status === "done" ? (
+                    <CheckCircle className="h-5 w-5" aria-hidden />
+                  ) : (
+                    <Icon className="h-5 w-5" aria-hidden />
+                  )}
+                </div>
+                <div className="gnps-stage-copy">
+                  <h3>
+                    {stage.label}
+                    {stage.optional ? (
+                      <span className="gnps-stage-optional"> · Optional</span>
+                    ) : null}
+                  </h3>
+                  <p>{stage.description}</p>
+                </div>
+                <div className="gnps-stage-status">
+                  <span className="gnps-stage-status-pill">{statusLabel}</span>
+                </div>
+              </motion.button>
+            )
+          })}
+        </div>
+      </section>
+    )
+  ) : null
+
+  const extraBlocks =
+    layoutSections
+      ?.filter(
+        (section) =>
+          section.visible &&
+          (section.type === "rich_text" ||
+            section.type === "cta_row" ||
+            section.type === "resource_list"),
+      )
+      .map((section) => {
+        const heading =
+          typeof section.settings.heading === "string"
+            ? section.settings.heading
+            : typeof section.settings.primaryLabel === "string"
+              ? section.settings.primaryLabel
+              : "Section"
+        const body =
+          typeof section.settings.body === "string"
+            ? section.settings.body
+            : typeof section.settings.subtitle === "string"
+              ? section.settings.subtitle
+              : null
+        return (
+          <section
+            key={section.id}
+            className="gnps-home-pathway gnps-home-extra-section"
+            data-lms-section-type={section.type}
+            data-lms-section-id={section.id}
+            style={{ order: layoutSections.indexOf(section) }}
+          >
+            <div className="gnps-home-section-heading">
               <div>
-                <span>{unitComplete ? "Status" : "Up next"}</span>
-                <strong>{unitComplete ? "Complete" : nextActivityLabel}</strong>
+                <p>{SECTION_CATALOG_LABEL(section.type)}</p>
+                <h2 data-studio-field={section.type === "cta_row" ? "primaryLabel" : "heading"}>
+                  {heading}
+                </h2>
               </div>
             </div>
-            <div className="gnps-home-progress-track" aria-hidden>
-              <span style={{ transform: `scaleX(${Math.max(0, Math.min(1, progressPercent / 100))})` }} />
-            </div>
-            {!isThreeLevel ? (
-              <ol className="gnps-home-stage-strip" aria-label="Stage progress">
-                {stages.map((stage, index) => {
-                  const isNext =
-                    stage.status === "upcoming" &&
-                    stages.findIndex((s) => s.status === "upcoming") === index
-                  const stripStatus =
-                    stage.status === "done"
-                      ? "Done"
-                      : stage.status === "current"
-                        ? "Current"
-                        : isNext
-                          ? "Next"
-                          : "Later"
+            {body ? (
+              <p className="gnps-home-extra-body" data-studio-field="body">
+                {body}
+              </p>
+            ) : null}
+            {section.type === "resource_list" ? (
+              <ul className="gnps-home-extra-list">
+                {(["item1", "item2", "item3"] as const).map((key) => {
+                  const item = section.settings[key]
+                  if (typeof item !== "string" || !item.trim()) return null
                   return (
-                    <li
-                      key={stage.pageId}
-                      className={cn(`is-${stage.status}`, isNext && "is-next")}
-                    >
-                      <span>{String(index + 1).padStart(2, "0")}</span>
-                      <strong>{stage.label}</strong>
-                      <em>{stripStatus}</em>
+                    <li key={key} data-studio-field={key}>
+                      {item}
                     </li>
                   )
                 })}
-              </ol>
+              </ul>
             ) : null}
-          </div>
-        </div>
-      </section>
+            {section.type === "cta_row" ? (
+              <div className="gnps-home-actions" style={{ marginTop: 8 }}>
+                <button type="button" className="gnps-home-primary" onClick={onContinue}>
+                  <span data-studio-field="primaryLabel">
+                    {typeof section.settings.primaryLabel === "string"
+                      ? section.settings.primaryLabel
+                      : "Continue"}
+                  </span>
+                </button>
+                {typeof section.settings.secondaryLabel === "string" &&
+                section.settings.secondaryLabel.trim() ? (
+                  <button type="button" className="gnps-home-secondary">
+                    <span data-studio-field="secondaryLabel">
+                      {section.settings.secondaryLabel}
+                    </span>
+                  </button>
+                ) : null}
+              </div>
+            ) : null}
+          </section>
+        )
+      }) ?? null
 
-      {showCoach && (
-        <aside className="gnps-home-coach" aria-label="How to use this unit">
-          <div className="gnps-home-coach-copy">
-            <p>Pathway tip</p>
-            <strong>
-              {isThreeLevel
-                ? "Notes → Video → Flashcards → Quiz → Case studies + Decision practice"
-                : "Watch → Slides → Flashcards → Knowledge check"}
-            </strong>
-            <span>
-              {isThreeLevel
-                ? "Complete Level 1 to unlock Level 2, then Level 3. Stages unlock in order within each level."
-                : "Required stages unlock in order. Flashcards and guided practice are optional."}
-            </span>
-          </div>
-          <button type="button" className="gnps-home-coach-dismiss" onClick={onDismissCoach}>
-            Got it
-          </button>
-        </aside>
-      )}
-
-      {isThreeLevel && levels ? (
-        <section className="gnps-home-pathway" aria-labelledby="gnps-levels-heading">
-          <div className="gnps-home-section-heading">
-            <div>
-              <p>Program levels</p>
-              <h2 id="gnps-levels-heading">Choose your level</h2>
-            </div>
-            <span>
-              {levels.filter((l) => l.status === "complete").length} of 3 complete
-            </span>
-          </div>
-          <div className="gnps-level-cards">
-            {levels.map((level, index) => {
-              const locked = level.status === "locked"
-              const statusLabel =
-                level.status === "complete"
-                  ? "Complete"
-                  : level.status === "current"
-                    ? "Current"
-                    : "Locked"
-              return (
-                <motion.button
-                  key={level.number}
-                  type="button"
-                  className={cn("gnps-level-card", `is-${level.status}`)}
-                  disabled={locked}
-                  onClick={() => !locked && onOpenLevel?.(level.startPageId)}
-                  initial={prefersReducedMotion ? false : { opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={
-                    prefersReducedMotion
-                      ? { duration: 0 }
-                      : { delay: 0.08 + index * 0.06, duration: 0.34, ease: [0.23, 1, 0.32, 1] as const }
-                  }
-                >
-                  <div className="gnps-level-card-top">
-                    <span className="gnps-level-card-num">Level {level.number}</span>
-                    <span className="gnps-level-card-status">{statusLabel}</span>
-                  </div>
-                  <h3>{level.title}</h3>
-                  <p>{level.blurb}</p>
-                  <div className="gnps-level-card-cta">
-                    {locked ? (
-                      <>
-                        <Lock className="h-4 w-4" aria-hidden />
-                        <span>Complete previous level to unlock</span>
-                      </>
-                    ) : level.status === "complete" ? (
-                      <>
-                        <CheckCircle className="h-4 w-4" aria-hidden />
-                        <span>Review level</span>
-                      </>
-                    ) : (
-                      <>
-                        <Play className="h-4 w-4" aria-hidden />
-                        <span>Open Level {level.number}</span>
-                      </>
-                    )}
-                  </div>
-                </motion.button>
-              )
-            })}
-          </div>
-        </section>
-      ) : (
-        <section className="gnps-home-pathway" aria-labelledby="gnps-pathway-heading">
-          <div className="gnps-home-section-heading">
-            <div>
-              <p>Learning pathway</p>
-              <h2 id="gnps-pathway-heading">Stages in this unit</h2>
-            </div>
-            <span>
-              {completedActivities} complete · {totalActivities} total
-            </span>
-          </div>
-          <div className="gnps-stage-list">
-            {stages.map((stage, index) => {
-              const Icon = stage.icon
-              const isNextUpcoming =
-                stage.status === "upcoming" &&
-                stages.findIndex((s) => s.status === "upcoming") === index
-              const statusLabel =
-                stage.status === "upcoming" && !isNextUpcoming
-                  ? "Locked"
-                  : isNextUpcoming
-                    ? "Next"
-                    : gnpsStageStatusLabel(stage.status)
-              return (
-                <motion.button
-                  key={stage.pageId}
-                  type="button"
-                  className={cn(
-                    "gnps-stage-row",
-                    `is-${stage.status}`,
-                    isNextUpcoming && "is-next",
-                    !stage.unlocked && "is-locked"
-                  )}
-                  disabled={!stage.unlocked}
-                  onClick={() => stage.unlocked && onOpenStage(stage.pageId)}
-                  initial={prefersReducedMotion ? false : { opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={
-                    prefersReducedMotion
-                      ? { duration: 0 }
-                      : { delay: 0.06 + index * 0.05, duration: 0.32, ease: [0.23, 1, 0.32, 1] as const }
-                  }
-                >
-                  <div className="gnps-stage-index">{String(index + 1).padStart(2, "0")}</div>
-                  <div className="gnps-stage-icon">
-                    {stage.status === "done" ? (
-                      <CheckCircle className="h-5 w-5" aria-hidden />
-                    ) : (
-                      <Icon className="h-5 w-5" aria-hidden />
-                    )}
-                  </div>
-                  <div className="gnps-stage-copy">
-                    <h3>
-                      {stage.label}
-                      {stage.optional ? (
-                        <span className="gnps-stage-optional"> · Optional</span>
-                      ) : null}
-                    </h3>
-                    <p>{stage.description}</p>
-                  </div>
-                  <div className="gnps-stage-status">
-                    <span className="gnps-stage-status-pill">{statusLabel}</span>
-                  </div>
-                </motion.button>
-              )
-            })}
-          </div>
-        </section>
-      )}
+  return (
+    <div
+      className="gnps-home gnps-home-v2"
+      style={layoutSections ? { display: "flex", flexDirection: "column" } : undefined}
+    >
+      {heroBlock}
+      {statsBlock}
+      {coachBlock}
+      {pathwayBlock}
+      {extraBlocks}
     </div>
   )
+}
+
+function SECTION_CATALOG_LABEL(type: LmsSection["type"]): string {
+  switch (type) {
+    case "hero":
+      return "Hero"
+    case "pathway_grid":
+      return "Pathway"
+    case "rich_text":
+      return "About"
+    case "cta_row":
+      return "Call to action"
+    case "stats_strip":
+      return "Stats"
+    case "resource_list":
+      return "Resources"
+    default: {
+      const _exhaustive: never = type
+      return _exhaustive
+    }
+  }
 }
 
 function GnpsLevelHome({
@@ -1547,6 +1820,8 @@ function GnpsLevelHome({
   sections: Array<{
     number: Ethtl115SectionNumber
     title: string
+    /** Pathway line under the title (e.g. Learning notes → Lecture video → …). */
+    activityPath?: string
     status: "locked" | "current" | "complete"
     startPageId: PageId
   }>
@@ -1789,8 +2064,10 @@ function GnpsLevelHome({
                   <span className="gnps-level-card-num">Section {section.number}</span>
                   <span className="gnps-level-card-status">{statusLabel}</span>
                 </div>
-                <h3>{section.title}</h3>
-                <p>Notes → Video → Flashcards → Quiz</p>
+                <h3 data-studio-field="level-section-title">{section.title}</h3>
+                <p data-studio-field="level-activity-path">
+                  {section.activityPath?.trim() || "Notes → Video → Flashcards → Quiz"}
+                </p>
                 <div className="gnps-level-card-cta">
                   {locked ? (
                     <>
@@ -2033,6 +2310,204 @@ export function CourseTrialContent({
       : fromQueryNum != null && !Number.isNaN(fromQueryNum)
         ? fromQueryNum
         : null
+  const studioPaletteParam = searchParams.get("palette")
+  const studioPaletteId = isLmsColorSchemaId(studioPaletteParam) ? studioPaletteParam : null
+  const studioFontParam = searchParams.get("font")
+  const studioButtonParam = searchParams.get("btn")
+  const studioTypeScaleOverride = useMemo(() => {
+    const partial: Partial<LmsShellSettings> = {}
+    if (isLmsFontId(studioFontParam)) partial.fontFamily = studioFontParam
+    if (isLmsButtonStyleId(studioButtonParam)) partial.buttonStyle = studioButtonParam
+    const h1 = Number.parseInt(searchParams.get("h1") ?? "", 10)
+    const h2 = Number.parseInt(searchParams.get("h2") ?? "", 10)
+    const h3 = Number.parseInt(searchParams.get("h3") ?? "", 10)
+    const body = Number.parseInt(searchParams.get("body") ?? "", 10)
+    if (Number.isFinite(h1)) partial.fontSizeH1 = h1
+    if (Number.isFinite(h2)) partial.fontSizeH2 = h2
+    if (Number.isFinite(h3)) partial.fontSizeH3 = h3
+    if (Number.isFinite(body)) partial.fontSizeBody = body
+    return Object.keys(partial).length > 0 ? partial : null
+  }, [searchParams, studioFontParam, studioButtonParam])
+
+  const [studioLiveSettings, setStudioLiveSettings] = useState<Partial<LmsShellSettings> | null>(
+    null,
+  )
+  const [studioLiveSections, setStudioLiveSections] = useState<LmsSection[] | null>(null)
+  const [studioLiveLevelModules, setStudioLiveLevelModules] = useState<LmsLevelModule[] | null>(
+    null,
+  )
+  const [studioLiveContentPatches, setStudioLiveContentPatches] =
+    useState<ThemeContentPatches | null>(null)
+  const [studioPreviewPageId, setStudioPreviewPageId] = useState<string | null>(null)
+  const [studioFocus, setStudioFocus] = useState<LmsStudioFocus>(null)
+
+  // Live Theme Studio updates (typography + copy + section focus) without iframe remount.
+  useEffect(() => {
+    const onMessage = (event: MessageEvent) => {
+      if (event.origin !== window.location.origin) return
+      const data = event.data as
+        | { type?: string; vars?: Record<string, string>; buttonStyle?: string }
+        | null
+      const frame = document.querySelector(".learning-player") as HTMLElement | null
+      if (!frame || !data) return
+
+      if (data.type === LMS_STUDIO_TYPOGRAPHY_MESSAGE && data.vars) {
+        Object.entries(data.vars).forEach(([key, value]) => {
+          frame.style.setProperty(key, value)
+        })
+        if (data.buttonStyle) {
+          frame.setAttribute("data-button-style", data.buttonStyle)
+        }
+        return
+      }
+
+      if (!isLmsStudioLivePayload(data)) return
+      setStudioLiveSettings(data.settings)
+      setStudioLiveSections(data.sections)
+      setStudioLiveLevelModules(data.levelModules ?? null)
+      setStudioLiveContentPatches(data.contentPatches ?? null)
+      setStudioPreviewPageId(data.previewPageId ?? null)
+      setStudioFocus(data.focus)
+
+      const applyText = (selector: string, value: string | undefined) => {
+        if (typeof value !== "string") return
+        frame.querySelectorAll(selector).forEach((node) => {
+          if (node instanceof HTMLElement) node.textContent = value
+        })
+      }
+
+      // Immediate notes-card text while React re-renders from contentPatches.
+      const previewId = data.previewPageId
+      const liveNotes =
+        previewId && data.contentPatches?.[previewId]?.kind === "notes"
+          ? data.contentPatches[previewId]
+          : null
+      if (liveNotes && liveNotes.kind === "notes") {
+        const titleNode = frame.querySelector('[data-studio-field="notes-card-title"]')
+        const bodyNode = frame.querySelector('[data-studio-field="notes-card-body"]')
+        // Prefer the beat matching the currently labeled card count if present.
+        const countStrong = frame.querySelector(".gnps-section-hero-count strong")
+        const cardNumber = Number.parseInt(countStrong?.textContent ?? "1", 10)
+        const beat =
+          liveNotes.beats[
+            Number.isFinite(cardNumber) ? Math.max(0, cardNumber - 1) : 0
+          ] ?? liveNotes.beats[0]
+        if (beat && titleNode instanceof HTMLElement) titleNode.textContent = beat.title
+        if (beat && bodyNode instanceof HTMLElement) {
+          bodyNode.textContent = (beat.body ?? "").split(/\n\n+/)[0] ?? ""
+        }
+      }
+
+      for (const key of ["brandKicker", "unitTitle", "unitIntro", "primaryCtaLabel"] as const) {
+        const value = data.settings[key]
+        studioFieldSelectors(key).forEach((selector) => applyText(selector, value))
+      }
+      applyText(".gnps-unit-series", data.settings.brandKicker)
+      applyText(".gnps-unit-title", data.settings.unitTitle)
+
+      // Section field live text (SectionRenderer + mapped GNPS regions).
+      data.sections.forEach((section) => {
+        const root =
+          frame.querySelector(`[data-lms-section-id="${section.id}"]`) ||
+          frame.querySelector(`[data-lms-section-type="${section.type}"]`)
+        Object.entries(section.settings).forEach(([key, value]) => {
+          if (typeof value !== "string") return
+          if (key === "imageUrl") {
+            const applySrc = (scope: ParentNode) => {
+              scope.querySelectorAll("img[data-studio-field='imageUrl'], .gnps-home-hero-image").forEach((node) => {
+                if (node instanceof HTMLImageElement) node.src = value
+              })
+            }
+            if (root) applySrc(root)
+            applySrc(frame)
+            return
+          }
+          studioFieldSelectors(key).forEach((selector) => {
+            if (root) {
+              root.querySelectorAll(selector).forEach((node) => {
+                if (node instanceof HTMLElement) node.textContent = value
+              })
+            }
+            // Hero copy also mirrors into the sidebar identity labels.
+            if (section.type === "hero") {
+              frame.querySelectorAll(selector).forEach((node) => {
+                if (node instanceof HTMLElement) node.textContent = value
+              })
+              if (key === "heading") applyText(".gnps-unit-title", value)
+              if (key === "kicker") applyText(".gnps-unit-series", value)
+            }
+          })
+        })
+      })
+    }
+    window.addEventListener("message", onMessage)
+    return () => window.removeEventListener("message", onMessage)
+  }, [])
+
+  // Re-apply focus marks after React re-renders from live text updates.
+  useEffect(() => {
+    const frame = document.querySelector(".learning-player") as HTMLElement | null
+    if (!frame) return
+
+    frame.querySelectorAll("[data-studio-active='true']").forEach((node) => {
+      node.removeAttribute("data-studio-active")
+    })
+    frame.querySelectorAll("[data-studio-dim='true']").forEach((node) => {
+      node.removeAttribute("data-studio-dim")
+    })
+
+    if (!studioFocus) {
+      frame.removeAttribute("data-studio-focus")
+      return
+    }
+
+    frame.setAttribute("data-studio-focus", "true")
+
+    const markActive = (selector: string) => {
+      frame.querySelectorAll(selector).forEach((node) => {
+        if (node instanceof HTMLElement) node.setAttribute("data-studio-active", "true")
+      })
+    }
+
+    switch (studioFocus.scope) {
+      case "section": {
+        markActive(`[data-lms-section-id="${studioFocus.sectionId}"]`)
+        if (!frame.querySelector(`[data-lms-section-id="${studioFocus.sectionId}"]`)) {
+          markActive(`[data-lms-section-type="${studioFocus.sectionType}"]`)
+        }
+        break
+      }
+      case "settings": {
+        const settingsType =
+          studioFocus.fieldKey === "showProgressFooter" ? "stats_strip" : "hero"
+        markActive(`[data-lms-section-type="${settingsType}"]`)
+        break
+      }
+      case "level-module":
+      case "level-activity": {
+        markActive(".gnps-level-home .gnps-section-cards")
+        break
+      }
+      default: {
+        const _exhaustive: never = studioFocus
+        return _exhaustive
+      }
+    }
+
+    // Dim sibling focus regions only (avoids nested filter fights inside hero).
+    const actives = Array.from(
+      frame.querySelectorAll<HTMLElement>("[data-studio-active='true']"),
+    )
+    frame
+      .querySelectorAll<HTMLElement>(
+        "[data-lms-section-type], [data-lms-section-id], .gnps-home-coach",
+      )
+      .forEach((node) => {
+        if (actives.includes(node)) return
+        if (actives.some((active) => active.contains(node) || node.contains(active))) return
+        node.setAttribute("data-studio-dim", "true")
+      })
+  }, [studioFocus, studioLiveSections, studioLiveSettings, studioLiveLevelModules])
 
   const contentFolder = useCourseContentFolder(courseIdValid)
   const { getAccessToken } = useUser()
@@ -2042,7 +2517,11 @@ export function CourseTrialContent({
   // Some API responses may return `course_id` as a string; normalize to number to ensure we find the enrollment.
   const enrollment =
     courseIdValid != null ? enrollments.find((e) => Number(e.course_id) === Number(courseIdValid)) : null
-  const courseCode = enrollment?.courses?.course_code?.trim() ?? ""
+  const showcaseCourse =
+    courseIdValid != null ? SHOWCASE_COURSES.find((c) => c.id === courseIdValid) : undefined
+  // Theme Studio / trainer preview may open without an enrollment row — fall back to showcase metadata.
+  const courseCode =
+    enrollment?.courses?.course_code?.trim() || showcaseCourse?.code?.trim() || ""
   const isGnpsCourse = isGnpsCourseCode(courseCode)
   const isNclexExamOnlyCourse = isNclexExamOnlyCourseCode(courseCode)
   const isNclexFullCourse = courseIdValid === NCLEX_COURSE_ID
@@ -2069,7 +2548,8 @@ export function CourseTrialContent({
   const isNclexAdaptiveShell = isNclexFullCourse || isNclexExamOnlyCourse
   /** Strategies hub, 72h/traps, and Orientation / test-strategy content. */
   const isNclexPrepResourcesCourse = isNclexFullCourse || isNclexExamOnlyCourse
-  const enrolledCourseName = enrollment?.courses?.name?.trim() ?? ""
+  const enrolledCourseName =
+    enrollment?.courses?.name?.trim() || showcaseCourse?.name?.trim() || ""
 
   const [lmsTheme, setLmsTheme] = useState<ThemeDocument | null>(null)
   useEffect(() => {
@@ -2086,6 +2566,23 @@ export function CourseTrialContent({
     )
   }, [courseIdValid, courseCode, enrolledCourseName])
 
+  // Published themed landing (SectionRenderer). Theme Studio keeps GnpsUnitHome styling and
+  // reorders that shell via `studioLiveSections` instead of swapping to unstyled LMS sections.
+  const landingThemeDocument = useMemo((): ThemeDocument | null => {
+    if (!lmsTheme?.sections.some((section) => section.visible)) return null
+    return {
+      ...lmsTheme,
+      settings: {
+        ...lmsTheme.settings,
+        ...(studioLiveSettings ?? {}),
+      },
+      sections: studioLiveSections ?? lmsTheme.sections,
+    }
+  }, [lmsTheme, studioLiveSections, studioLiveSettings])
+
+  const studioLayoutSections =
+    studioPaletteId != null && !landingThemeDocument ? studioLiveSections : null
+
   // One refresh per NCLEX course visit (avoids loop: refresh → enrollments state → re-render → refresh).
   const nclexEnrollmentRefreshForCourseIdRef = useRef<number | null>(null)
   useEffect(() => {
@@ -2101,7 +2598,9 @@ export function CourseTrialContent({
   const isTrainerPortalMode = portalMode === "trainer"
   // Trainer portal should be able to open NCLEX content even without a student enrollment row.
   // Trainer portal may preview any teachable course (not only NCLEX).
-  const bypassEnrollmentAccess = isTrainerPortalMode && courseIdValid != null
+  // Theme Studio Color picker also passes ?palette= for live iframe preview.
+  const bypassEnrollmentAccess =
+    courseIdValid != null && (isTrainerPortalMode || studioPaletteId != null)
   // Show in-page access denied instead of redirecting when user has no enrollment
   const hasAccessDenied = courseIdValid != null && !enrollmentsLoading && enrollment == null && !bypassEnrollmentAccess
   const {
@@ -2523,6 +3022,14 @@ export function CourseTrialContent({
   }, [sidebarCollapsed])
 
   const [currentPage, setCurrentPage] = useState<PageId>("student-learning-note")
+
+  // Theme Studio: jump preview to the level home when editing a level page.
+  useEffect(() => {
+    if (!studioPreviewPageId) return
+    if (studioPreviewPageId === currentPage) return
+    setCurrentPage(studioPreviewPageId as PageId)
+  }, [studioPreviewPageId, currentPage])
+
   const lectureSlidesManifestSegment = slidesManifest.segmentByPageId[currentPage] ?? null
 
   // Load quiz JSON on demand (quiz page) or shortly after shell paint so first quiz open is warm.
@@ -2610,6 +3117,10 @@ export function CourseTrialContent({
   const [slideCountBySection, setSlideCountBySection] = useState<Record<string, number>>({})
   const [discoveringSlideSections, setDiscoveringSlideSections] = useState<Set<string>>(new Set())
   const [quizCurrentQuestion, setQuizCurrentQuestion] = useState(1)
+  useEffect(() => {
+    if (parseEthtl115PageId(currentPage)?.kind !== "quiz") return
+    postStudioActivityCursor(currentPage, "quiz", Math.max(0, quizCurrentQuestion - 1))
+  }, [currentPage, quizCurrentQuestion])
   const [quizRetakeKey, setQuizRetakeKey] = useState(0)
   /** Lifted out of QuizView so answers survive remounts / question transitions. */
   const [quizAnswers, setQuizAnswers] = useState<Record<number, string>>({})
@@ -4578,7 +5089,14 @@ export function CourseTrialContent({
     const ethtlQuiz = parseEthtl115PageId(currentPage)
     // ETHTL section quizzes are pack-local — do not invalidate when CDN quiz.json finishes loading.
     if (ethtlQuiz?.kind === "quiz") {
-      return `ethtl:${currentPage}:${quizRetakeKey}:${courseCode ?? ""}`
+      const patchFingerprint = JSON.stringify(
+        resolveActivityContentPatch(
+          currentPage,
+          studioLiveContentPatches,
+          lmsTheme?.contentPatches,
+        ) ?? null,
+      )
+      return `ethtl:${currentPage}:${quizRetakeKey}:${courseCode ?? ""}:${patchFingerprint}`
     }
     return `${currentPage}:${quizRetakeKey}:${courseCode ?? ""}:${parsedQuizKey}:${isNclexAdaptiveShell ? "1" : "0"}`
   })()
@@ -4600,9 +5118,23 @@ export function CourseTrialContent({
       if (!isQuizPage(currentPage)) return []
       const ethtlQuiz = parseEthtl115PageId(currentPage)
       if (ethtlQuiz?.kind === "quiz" && ethtlQuiz.section != null) {
-        const sectionPool = ethtl115QuizToQuestions(
-          getEthtl115SectionQuizSlice(ethtlQuiz.level, ethtlQuiz.section, courseCode)
+        const quizPatch = resolveActivityContentPatch(
+          currentPage,
+          studioLiveContentPatches,
+          lmsTheme?.contentPatches,
         )
+        const patchedPool = quizQuestionsFromContentPatch(
+          quizPatch?.kind === "quiz" ? quizPatch : null,
+        )
+        const sectionPool =
+          patchedPool ??
+          ethtl115QuizToQuestions(
+            getEthtl115SectionQuizSlice(ethtlQuiz.level, ethtlQuiz.section, courseCode),
+          )
+        // In Theme Studio, show the full edited pool so inspector changes are visible.
+        if (studioLiveContentPatches && quizPatch?.kind === "quiz") {
+          return sectionPool
+        }
         // GNPS section checks: 10 random items, shuffled option order each attempt.
         return prepareRandomQuizAttempt(sectionPool, QUIZ_QUESTIONS_PER_ATTEMPT)
       }
@@ -4628,6 +5160,8 @@ export function CourseTrialContent({
       practiceQMcqBankKey,
       getPracticeQMcqQuestions,
       practiceQSourceByTopicIdx,
+      studioLiveContentPatches,
+      lmsTheme?.contentPatches,
     ])
 
   // Freeze the attempt set for the selection key so parent re-renders / structure identity
@@ -4688,7 +5222,10 @@ export function CourseTrialContent({
   const learnSidebarStyles = {
     aside:
       cn(
-        "learning-sidebar relative flex h-full shrink-0 flex-col z-10 border-r border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-[#111a24]",
+        "learning-sidebar relative flex h-full shrink-0 flex-col z-10 border-r",
+        useGnpsLearnShell || useEdtecLearnShell
+          ? "border-[color:var(--line,#d8dfd2)]"
+          : "border-slate-200/80 dark:border-slate-700/60 bg-white dark:bg-[#111a24]",
         useGnpsLearnShell && "gnps-learn-sidebar",
         useEdtecLearnShell && "edtec-learn-sidebar"
       ),
@@ -5256,7 +5793,7 @@ export function CourseTrialContent({
         </button>
       </div>
       {useGnpsLearnShell && (
-        <div className="gnps-unit-identity">
+        <div className="gnps-unit-identity" data-lms-section-type="hero">
           <div className="gnps-unit-identity-hero">
             <div className={cn("gnps-unit-identity-media", !shellIdentityImageUrl && "is-fallback")}>
               {shellIdentityImageUrl ? (
@@ -6259,7 +6796,7 @@ export function CourseTrialContent({
       <div
         className={cn(
           "learning-player flex min-h-0 overflow-hidden select-none relative",
-          useAnyImmersiveShell && lmsTheme && "lms-theme-frame",
+          useAnyImmersiveShell && (lmsTheme || landingThemeDocument) && "lms-theme-frame",
           useGnpsLearnShell
             ? "h-full w-full rounded-none border-0 shadow-none bg-[var(--gnps-mineral,#f5f3ed)] gnps-learn-frame"
             : useEdtecLearnShell
@@ -6269,11 +6806,52 @@ export function CourseTrialContent({
                 courseIdValid === NCLEX_COURSE_ID ? "bg-transparent" : "bg-white dark:bg-slate-900",
               ),
         )}
-        data-lms-theme={useAnyImmersiveShell && lmsTheme ? lmsTheme.templateId : undefined}
+        data-lms-theme={
+          useAnyImmersiveShell
+            ? (landingThemeDocument ?? lmsTheme)?.templateId
+            : undefined
+        }
+        data-color-schema={
+          studioPaletteId ??
+          (useAnyImmersiveShell
+            ? (landingThemeDocument ?? lmsTheme)?.colorSchemaId
+            : undefined)
+        }
+        data-button-style={
+          studioTypeScaleOverride?.buttonStyle ??
+          (useAnyImmersiveShell
+            ? (landingThemeDocument ?? lmsTheme)?.settings.buttonStyle
+            : undefined)
+        }
         style={{
           WebkitUserSelect: "none",
           userSelect: "none",
-          ...(useAnyImmersiveShell && lmsTheme ? themeCssVars(lmsTheme) : {}),
+          ...(useAnyImmersiveShell && (landingThemeDocument ?? lmsTheme)
+            ? themeCssVars(landingThemeDocument ?? lmsTheme!)
+            : {}),
+          ...((studioPaletteId ||
+            (useAnyImmersiveShell &&
+              (landingThemeDocument ?? lmsTheme)?.colorSchemaId)) &&
+            colorSchemaCssVars(
+              studioPaletteId ??
+                (landingThemeDocument ?? lmsTheme)?.colorSchemaId,
+            )),
+          ...((studioTypeScaleOverride ||
+            (useAnyImmersiveShell &&
+              (landingThemeDocument ?? lmsTheme)?.settings)) &&
+            shellTypographyCssVars(
+              normalizeShellSettings(
+                {
+                  ...((landingThemeDocument ?? lmsTheme)?.settings ??
+                    getTemplate("campus-mineral").defaultSettings),
+                  ...(studioLiveSettings ?? {}),
+                  ...(studioTypeScaleOverride ?? {}),
+                },
+                getTemplate(
+                  (landingThemeDocument ?? lmsTheme)?.templateId ?? "campus-mineral",
+                ).defaultSettings,
+              ),
+            )),
         }}
         onContextMenu={(e) => e.preventDefault()}
       >
@@ -6427,7 +7005,7 @@ export function CourseTrialContent({
                   courseIdValid === NCLEX_COURSE_ID && learnSidebarStyles.asideNclex
                 )}
               >
-                <CourseLearnAsideInner />
+                {CourseLearnAsideInner()}
               </aside>
             </>,
             document.body
@@ -6451,7 +7029,7 @@ export function CourseTrialContent({
                 courseIdValid === NCLEX_COURSE_ID && learnSidebarStyles.asideNclex
               )}
             >
-              <CourseLearnAsideInner />
+              {CourseLearnAsideInner()}
             </aside>
           </>
         )}
@@ -6473,9 +7051,9 @@ export function CourseTrialContent({
         {/* Main content - switches by currentPage */}
         <div className={learnMainContentShell}>
         {currentPage === GNPS_UNIT_HOME_PAGE_ID && isGnpsCourse ? (
-          lmsTheme && lmsTheme.sections.some((section) => section.visible) ? (
+          landingThemeDocument ? (
             <SectionRenderer
-              document={lmsTheme}
+              document={landingThemeDocument}
               progress={{
                 percent: courseProgressPercent,
                 completed: completedCount,
@@ -6527,15 +7105,45 @@ export function CourseTrialContent({
           ) : (
           <GnpsUnitHome
             courseCode={courseCode}
-            courseName={enrolledCourseName || "GNPS Unit"}
+            courseName={
+              liveSectionSetting(studioLiveSections, "hero", "heading") ||
+              studioLiveSettings?.unitTitle?.trim() ||
+              lmsTheme?.settings.unitTitle?.trim() ||
+              enrolledCourseName ||
+              "GNPS Unit"
+            }
             moduleLabel={structure.topics[0]?.label || "Professional nursing practice"}
-            imageUrl={getGnpsUnitImageUrl(courseCode, enrollment?.courses?.image_url)}
+            imageUrl={
+              liveSectionSetting(studioLiveSections, "hero", "imageUrl") ||
+              getGnpsUnitImageUrl(courseCode, enrollment?.courses?.image_url)
+            }
             progressPercent={courseProgressPercent}
             completedActivities={completedCount}
             totalActivities={totalSections}
             nextActivityLabel={getGnpsActivityLabel(gnpsNextActivityPageId)}
             stages={gnpsLearningStages}
             showCoach={!gnpsCoachDismissed && completedCount === 0}
+            seriesKicker={
+              liveSectionSetting(studioLiveSections, "hero", "kicker") ||
+              studioLiveSettings?.brandKicker ||
+              lmsTheme?.settings.brandKicker ||
+              immersiveSeriesKicker
+            }
+            unitIntro={
+              liveSectionSetting(studioLiveSections, "hero", "intro") ||
+              studioLiveSettings?.unitIntro ||
+              lmsTheme?.settings.unitIntro ||
+              null
+            }
+            primaryCtaLabel={
+              liveSectionSetting(studioLiveSections, "hero", "ctaLabel") ||
+              studioLiveSettings?.primaryCtaLabel ||
+              lmsTheme?.settings.primaryCtaLabel ||
+              null
+            }
+            pathwayHeading={liveSectionSetting(studioLiveSections, "pathway_grid", "heading")}
+            pathwaySubtitle={liveSectionSetting(studioLiveSections, "pathway_grid", "subtitle")}
+            layoutSections={studioLayoutSections}
             onDismissCoach={dismissGnpsCoach}
             onContinue={() => {
               dismissGnpsCoach()
@@ -6673,12 +7281,29 @@ export function CourseTrialContent({
             const homeParsed = parseEthtl115PageId(currentPage)
             if (!homeParsed || homeParsed.kind !== "home") return null
             const levelMeta = getEthtl115LevelMeta(homeParsed.level, courseCode)
-            const sections = ([1, 2, 3, 4] as Ethtl115SectionNumber[]).map((section) => ({
-              number: section,
-              title: getEthtl115NotesSectionTitle(homeParsed.level, section, courseCode),
-              status: getEthtl115SectionStatus(homeParsed.level, section, completedSections),
-              startPageId: getEthtl115SectionPageId(homeParsed.level, section, "notes") as PageId,
-            }))
+            const liveModules =
+              studioLiveLevelModules &&
+              studioPreviewPageId != null &&
+              (studioPreviewPageId === getEthtl115LevelHomePageId(homeParsed.level) ||
+                studioPreviewPageId.startsWith(
+                  `${getEthtl115LevelHomePageId(homeParsed.level).replace(/-home$/, "")}-s`,
+                ))
+                ? studioLiveLevelModules
+                : null
+            const sections = ([1, 2, 3, 4] as Ethtl115SectionNumber[]).map((section) => {
+              const liveModule = liveModules?.find((module) => module.number === section)
+              return {
+                number: section,
+                title:
+                  liveModule?.title?.trim() ||
+                  getEthtl115NotesSectionTitle(homeParsed.level, section, courseCode),
+                activityPath: liveModule
+                  ? liveModule.activities.map((activity) => activity.label).join(" → ")
+                  : undefined,
+                status: getEthtl115SectionStatus(homeParsed.level, section, completedSections),
+                startPageId: getEthtl115SectionPageId(homeParsed.level, section, "notes") as PageId,
+              }
+            })
             const casesStatus = getEthtl115CasesStatus(homeParsed.level, completedSections)
             const casePathway = buildEthtl115CasePathway(homeParsed.level)
             const casesCompleteCount = casePathway.filter((id) => completedSections.has(id)).length
@@ -6835,7 +7460,19 @@ export function CourseTrialContent({
           (() => {
             const ethtlNotes = parseEthtl115PageId(currentPage)
             if (ethtlNotes?.kind === "notes" && ethtlNotes.section != null) {
-              const note = ethtl115SectionNotesAsStudentNotes(ethtlNotes.level, ethtlNotes.section, courseCode)
+              const noteBase = ethtl115SectionNotesAsStudentNotes(
+                ethtlNotes.level,
+                ethtlNotes.section,
+                courseCode,
+              )
+              const notesPatch = resolveActivityContentPatch(
+                currentPage,
+                studioLiveContentPatches,
+                lmsTheme?.contentPatches,
+              )
+              const notesOnly = notesPatch?.kind === "notes" ? notesPatch : null
+              const note = applyNotesContentPatch(noteBase, notesOnly)
+              const lessonBeats = notesLessonBeatsFromPatch(notesOnly)
               return (
                 <GnpsSectionNotesLesson
                   pageId={currentPage}
@@ -6845,6 +7482,7 @@ export function CourseTrialContent({
                   courseCode={courseCode}
                   courseDisplayName={courseDisplayName}
                   notes={note}
+                  lessonBeats={lessonBeats}
                   progressionOrder={activeGnpsPathway}
                   prevUnlockedPageId={getPrevUnlockedActivity(currentPage)}
                   nextUnlockedPageId={getNextUnlockedActivity(currentPage)}
@@ -7046,6 +7684,13 @@ export function CourseTrialContent({
                 : structure.topics[0]?.folder ?? ""
             const sectionLabel =
               ethtlVideo.section != null ? `Section ${ethtlVideo.section}` : getEthtl115LevelMeta(ethtlVideo.level, courseCode).title
+            const videoPatch = resolveActivityContentPatch(
+              currentPage,
+              studioLiveContentPatches,
+              lmsTheme?.contentPatches,
+            )
+            const mediaUrlOverride =
+              videoPatch?.kind === "video" ? applyVideoUrlPatch("", videoPatch) : ""
             return (
               <TopicMediaView
                 pageId={currentPage}
@@ -7059,6 +7704,7 @@ export function CourseTrialContent({
                 topicIconUrl={currentTopicIconUrl}
                 isGnps
                 explainer={pack.explainer}
+                mediaUrlOverride={mediaUrlOverride || undefined}
                 contentDeck={
                   ethtlVideo.section != null
                     ? getEthtl115SectionSlideDeck(ethtlVideo.level, ethtlVideo.section, courseCode)
@@ -7129,7 +7775,16 @@ export function CourseTrialContent({
           (() => {
             const ethtlFlash = parseEthtl115PageId(currentPage)!
             const section = ethtlFlash.section ?? 1
-            const cards = getEthtl115SectionFlashcards(ethtlFlash.level, section, courseCode)
+            const cardsBase = getEthtl115SectionFlashcards(ethtlFlash.level, section, courseCode)
+            const flashPatch = resolveActivityContentPatch(
+              currentPage,
+              studioLiveContentPatches,
+              lmsTheme?.contentPatches,
+            )
+            const cards = applyFlashcardsContentPatch(
+              cardsBase,
+              flashPatch?.kind === "flashcards" ? flashPatch : null,
+            )
             return (
               <FlashcardView
                 pageId={currentPage}
@@ -7146,6 +7801,7 @@ export function CourseTrialContent({
                   question: c.front,
                   answer: c.back,
                 }))}
+                studioSync={studioLiveContentPatches != null || Boolean(lmsTheme?.contentPatches)}
                 onMarkComplete={() => {
                   setCompletedSections((prev) =>
                     prev.has(currentPage) ? prev : new Set([...prev, currentPage])
@@ -7899,6 +8555,7 @@ function TopicMediaView({
   explainer,
   contentDeck = null,
   nextStageHint,
+  mediaUrlOverride,
 }: {
   pageId: string
   topicFolder: string
@@ -7918,8 +8575,11 @@ function TopicMediaView({
   /** ETHTL115 section interactive cards shown below the lecture player. */
   contentDeck?: Ethtl115SlideDeck | null
   nextStageHint?: string
+  /** Theme Studio uploaded lecture video URL. */
+  mediaUrlOverride?: string
 }) {
-  const mediaUrl = topicFolder ? getTopicVideoUrl(topicFolder, contentFolder) : ""
+  const packMediaUrl = topicFolder ? getTopicVideoUrl(topicFolder, contentFolder) : ""
+  const mediaUrl = mediaUrlOverride?.trim() || packMediaUrl
   const [videoEnded, setVideoEnded] = useState(false)
   const [explainerOpen, setExplainerOpen] = useState(false)
   const [explainerPageKey, setExplainerPageKey] = useState(pageId)
@@ -9423,6 +10083,7 @@ function GnpsSectionNotesLesson({
   courseCode: notesCourseCode,
   courseDisplayName,
   notes,
+  lessonBeats,
   progressionOrder,
   nextUnlockedPageId,
   onNavigateToActivity,
@@ -9436,6 +10097,8 @@ function GnpsSectionNotesLesson({
   courseCode?: string | null
   courseDisplayName: string
   notes: StudentLearningNotes
+  /** Theme Studio live beats — skip re-segmentation so inspector edits show immediately. */
+  lessonBeats?: GnpsNotesLessonBeat[] | null
   progressionOrder?: string[]
   prevUnlockedPageId?: string | null
   nextUnlockedPageId?: string | null
@@ -9446,21 +10109,24 @@ function GnpsSectionNotesLesson({
   const reduceMotion = useReducedMotion()
   const section = notes.sections[0]
   const beats = useMemo(() => {
-    const segmented = section
-      ? segmentNotesSectionIntoLessonBeats(section)
-      : [
-          {
-            id: "empty",
-            kind: "intro" as const,
-            title: notes.title,
-            body: "This section has no learning notes yet.",
-          },
-        ]
+    const segmented =
+      lessonBeats && lessonBeats.length > 0
+        ? lessonBeats
+        : section
+          ? segmentNotesSectionIntoLessonBeats(section)
+          : [
+              {
+                id: "empty",
+                kind: "intro" as const,
+                title: notes.title,
+                body: "This section has no learning notes yet.",
+              },
+            ]
     return segmented.map((beat, idx) => ({
       ...beat,
       imageUrl: getEthtl115NotesCardImageUrl(levelNumber, sectionNumber, idx + 1, notesCourseCode),
     }))
-  }, [section, notes.title, levelNumber, sectionNumber, notesCourseCode])
+  }, [lessonBeats, section, notes.title, levelNumber, sectionNumber, notesCourseCode])
   const [cardIndex, setCardIndex] = useState(0)
   const [direction, setDirection] = useState(0)
   const [pageKey, setPageKey] = useState(pageId)
@@ -9481,6 +10147,10 @@ function GnpsSectionNotesLesson({
   const isLastCard = total > 0 && safeIndex >= total - 1
   const canGoPrev = safeIndex > 0
   const canGoNext = safeIndex < total - 1
+
+  useEffect(() => {
+    postStudioActivityCursor(pageId, "notes", safeIndex)
+  }, [pageId, safeIndex])
 
   const order = progressionOrder ?? []
   const currentIdx = order.indexOf(pageId)
@@ -9698,16 +10368,23 @@ function GnpsSectionNotesLesson({
                             Card {safeIndex + 1} of {total}
                           </em>
                         </div>
-                        <h2>{beat.title}</h2>
+                        <h2 data-studio-field="notes-card-title">{beat.title}</h2>
                         {beat.body
                           ? beat.body.split(/\n\n+/).map((para, idx) => (
-                              <p key={`${beat.id}-p-${idx}`} className="gnps-ix-body">
+                              <p
+                                key={`${beat.id}-p-${idx}`}
+                                className="gnps-ix-body"
+                                data-studio-field={idx === 0 ? "notes-card-body" : undefined}
+                              >
                                 {para}
                               </p>
                             ))
                           : null}
                         {beat.bullets && beat.bullets.length > 0 ? (
-                          <ul className="gnps-ix-bullets gnps-notes-lesson-bullets">
+                          <ul
+                            className="gnps-ix-bullets gnps-notes-lesson-bullets"
+                            data-studio-field="notes-card-bullets"
+                          >
                             {beat.bullets.map((item, idx) => (
                               <motion.li
                                 key={`${beat.id}-b-${idx}`}
@@ -13293,6 +13970,7 @@ function FlashcardView({
   isGnps = false,
   isEdtec = false,
   packCards,
+  studioSync = false,
   onMarkComplete,
   isCompleted = false,
 }: {
@@ -13310,6 +13988,8 @@ function FlashcardView({
   isEdtec?: boolean
   /** When provided, skip API fetch and use these cards (ETHTL115 pack). */
   packCards?: { question: string; answer: string }[]
+  /** Theme Studio: keep pack order and sync live text without reshuffling. */
+  studioSync?: boolean
   onMarkComplete?: () => void
   isCompleted?: boolean
 }) {
@@ -13319,13 +13999,18 @@ function FlashcardView({
       : null
   const [deck, setDeck] = useState<FlashcardItem[]>(packCards ?? [])
   const [cards, setCards] = useState<FlashcardItem[]>(() =>
-    pickFlashcardSet(packCards ?? [], FLASHCARDS_PER_SET)
+    studioSync && packCards && packCards.length > 0
+      ? packCards
+      : pickFlashcardSet(packCards ?? [], FLASHCARDS_PER_SET),
   )
   const [loading, setLoading] = useState(!packCards)
   const [error, setError] = useState<string | null>(null)
   const [cardIndex, setCardIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
   const [setKey, setSetKey] = useState(0)
+  const packFingerprint = packCards
+    ? packCards.map((card) => `${card.question}\u0000${card.answer}`).join("\u0001")
+    : ""
 
   const applyDeck = useCallback((pool: FlashcardItem[], preferFreshFrom?: FlashcardItem[]) => {
     setDeck(pool)
@@ -13346,6 +14031,12 @@ function FlashcardView({
     if (packCards) {
       setLoading(false)
       setError(null)
+      setDeck(packCards)
+      if (studioSync) {
+        setCards(packCards)
+        setCardIndex((index) => Math.min(index, Math.max(0, packCards.length - 1)))
+        return
+      }
       applyDeck(packCards)
       return
     }
@@ -13369,8 +14060,7 @@ function FlashcardView({
       })
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false))
-    // packCards identity changes each render when inlined; key off length + first/last fronts
-  }, [apiUrl, courseId, packCards?.length, packCards?.[0]?.question, packCards?.[packCards.length - 1]?.question, applyDeck])
+  }, [apiUrl, courseId, packFingerprint, packCards, studioSync, applyDeck])
 
   const order = progressionOrder ?? []
   const currentIdx = order.indexOf(pageId)
@@ -13381,9 +14071,13 @@ function FlashcardView({
   const currentCard = cards[cardIndex]
   const totalCards = cards.length
   const deckSize = deck.length
-  const canShuffleNew = deckSize > 1
+  const canShuffleNew = !studioSync && deckSize > 1
   const progressPct = totalCards > 0 ? Math.round(((cardIndex + 1) / totalCards) * 100) : 0
   const isLastCard = totalCards > 0 && cardIndex >= totalCards - 1
+
+  useEffect(() => {
+    postStudioActivityCursor(pageId, "flashcards", cardIndex)
+  }, [pageId, cardIndex])
 
   const goPrevCard = useCallback(() => {
     setCardIndex((i) => Math.max(0, i - 1))

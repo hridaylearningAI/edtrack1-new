@@ -1,5 +1,12 @@
 /** Shopify-style LMS theme document — drives learn shell + landing sections. */
 
+import type { ThemeContentPatches } from './content-patches'
+import type { LmsColorSchemaId } from './color-schemas'
+import type { LmsButtonStyleId, LmsFontId } from './shell-typography'
+
+export type { LmsColorSchemaId }
+export type { LmsButtonStyleId, LmsFontId }
+
 export type LmsTemplateId = 'campus-mineral' | 'bold-studio' | 'editorial-campus'
 
 export type LmsSectionType =
@@ -39,9 +46,33 @@ export type LmsShellSettings = {
   showProgressFooter: boolean
   topicNavStyle: 'list' | 'pills' | 'cards'
   primaryCtaLabel: string
+  /** Learn-shell typeface (Color picker companion in Settings). */
+  fontFamily: LmsFontId
+  /** Primary / CTA button shape. */
+  buttonStyle: LmsButtonStyleId
+  /** Heading + body sizes in pixels. */
+  fontSizeH1: number
+  fontSizeH2: number
+  fontSizeH3: number
+  fontSizeBody: number
 }
 
 export type ThemePageKind = 'overview' | 'topic' | 'assessment' | 'resource'
+
+export type LmsLevelActivityKind = 'notes' | 'video' | 'flashcards' | 'quiz'
+
+export type LmsLevelActivity = {
+  kind: LmsLevelActivityKind
+  label: string
+}
+
+/** One content section inside an ETHTL level (holds the 4 activity labels). */
+export type LmsLevelModule = {
+  id: string
+  number: 1 | 2 | 3 | 4
+  title: string
+  activities: LmsLevelActivity[]
+}
 
 /** One editable learn page inside a course theme. */
 export type ThemePage = {
@@ -51,11 +82,15 @@ export type ThemePage = {
   /** When false, page is hidden from the studio page dropdown and learn nav preview. */
   visible: boolean
   sections: LmsSection[]
+  /** ETHTL level pages only — Section 1–4 with editable activity labels. */
+  levelModules?: LmsLevelModule[]
 }
 
 export type ThemeDocument = {
   courseId: number
   templateId: LmsTemplateId
+  /** Active learn-shell color schema (Color picker in Theme Studio). */
+  colorSchemaId: LmsColorSchemaId
   settings: LmsShellSettings
   /** Per-page section trees. Overview drives the unit landing. */
   pages: ThemePage[]
@@ -64,6 +99,11 @@ export type ThemeDocument = {
    * Studio edits write through to the active page and sync overview → sections on save.
    */
   sections: LmsSection[]
+  /**
+   * Edited activity bodies keyed by learn-shell page id
+   * (e.g. gnps-l1-s1-notes). Overrides bundled ETHTL pack content.
+   */
+  contentPatches?: ThemeContentPatches
   updatedAt: string
   /** When true, learner/trainer course routes use this document. */
   published: boolean

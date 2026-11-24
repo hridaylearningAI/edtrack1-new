@@ -95,10 +95,12 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   if (adminAccess === 'denied') return null
 
   // Full-bleed immersive halls — same surface as the platform modules.
+  // Theme Studio owns its chrome; hide the campus Platform map sidebar.
   if (
     pathname === '/admin/schedule' ||
     pathname === '/admin/reports' ||
-    pathname === '/admin/resources'
+    pathname === '/admin/resources' ||
+    pathname === '/admin/lms-builder'
   ) {
     return <>{children}</>
   }

@@ -1,7 +1,15 @@
 import { defaultOutlineForCourse } from '@/lib/lms/page-builder'
 import { SHOWCASE_COURSES } from '@/lib/lms/showcase-courses'
+import {
+  DEFAULT_COLOR_SCHEMA_ID,
+  isLmsColorSchemaId,
+  type LmsColorSchemaId,
+} from './color-schemas'
+import { ensurePageLevelModules } from './level-modules'
 import { SECTION_CATALOG } from './sections'
+import { normalizeShellSettings } from './shell-typography'
 import { getTemplate } from './templates'
+import { normalizeContentPatches } from './content-patches'
 import type { LmsSection, LmsTemplateId, ThemeDocument, ThemePage } from './types'
 
 const STORAGE_PREFIX = 'edtrack-lms-theme:'
@@ -78,13 +86,14 @@ function buildPagesForCourse(
 
   return outline.pages.map((page, index) => {
     const isLanding = page.kind === 'overview' || index === 0
-    return {
+    const themePage: ThemePage = {
       id: page.id,
       title: page.title,
       kind: page.kind,
       visible: page.published,
       sections: isLanding ? landing : topicDefaultSections(page.title, templateId),
     }
+    return ensurePageLevelModules(themePage, opts?.courseCode)
   })
 }
 
@@ -108,13 +117,22 @@ export function normalizeThemeDocument(
   let pages = Array.isArray(raw.pages) && raw.pages.length > 0 ? raw.pages : null
   if (!pages) {
     pages = buildPagesForCourse(raw.courseId, raw.templateId, opts, baseSections)
+  } else {
+    pages = pages.map((page) => ensurePageLevelModules(page, opts?.courseCode))
   }
+  const colorSchemaId: LmsColorSchemaId = isLmsColorSchemaId(raw.colorSchemaId)
+    ? raw.colorSchemaId
+    : DEFAULT_COLOR_SCHEMA_ID
+  const templateDefaults = getTemplate(raw.templateId).defaultSettings
+  const contentPatches = normalizeContentPatches(raw.contentPatches)
   const doc: ThemeDocument = {
     courseId: raw.courseId,
     templateId: raw.templateId,
-    settings: raw.settings ?? getTemplate(raw.templateId).defaultSettings,
+    colorSchemaId,
+    settings: normalizeShellSettings(raw.settings, templateDefaults),
     pages,
     sections: baseSections,
+    ...(contentPatches ? { contentPatches } : {}),
     updatedAt: raw.updatedAt ?? new Date().toISOString(),
     published: raw.published ?? true,
   }
@@ -149,6 +167,7 @@ export function defaultThemeForCourse(
   return syncLandingSections({
     courseId,
     templateId,
+    colorSchemaId: DEFAULT_COLOR_SCHEMA_ID,
     settings: {
       ...template.defaultSettings,
       unitTitle: name,
@@ -184,19 +203,21 @@ export function loadThemeDraft(
   return defaultThemeForCourse(courseId, opts)
 }
 
-/** Published document consumed by learner/trainer course routes. */
+/**
+ * Published document consumed by learner/trainer course routes.
+ * Returns null when nothing has been published so the native learn shell
+ * (GnpsUnitHome / level homes) keeps its own contrast tokens.
+ */
 export function loadPublishedTheme(
   courseId: number,
   opts?: { courseCode?: string | null; courseName?: string | null },
-): ThemeDocument {
-  if (typeof window === 'undefined') {
-    return defaultThemeForCourse(courseId, opts)
-  }
+): ThemeDocument | null {
+  if (typeof window === 'undefined') return null
   const published = readRaw(publishedStorageKey(courseId))
   if (published?.published) return normalizeThemeDocument({ ...published, courseId }, opts)
   const draft = readRaw(themeStorageKey(courseId))
   if (draft?.published) return normalizeThemeDocument({ ...draft, courseId }, opts)
-  return defaultThemeForCourse(courseId, opts)
+  return null
 }
 
 export function saveThemeDraft(doc: ThemeDocument): ThemeDocument {
@@ -246,19 +267,30 @@ export function getThemePage(doc: ThemeDocument, pageId: string): ThemePage | un
   return doc.pages.find((page) => page.id === pageId)
 }
 
-/** Seed published themes for showcase courses once per browser session. */
+/**
+ * Seed draft themes for showcase courses once per browser session.
+ * Does not auto-publish — learner routes keep the original course home
+ * until a trainer/admin explicitly publishes from Theme Studio.
+ */
 export function seedShowcaseThemes(): void {
   if (typeof window === 'undefined') return
-  const flag = 'edtrack-lms-theme-seeded-v2'
+  const flag = 'edtrack-lms-theme-seeded-v4'
   if (window.sessionStorage.getItem(flag) === '1') return
   for (const course of SHOWCASE_COURSES) {
     const publishedKey = publishedStorageKey(course.id)
-    const doc = defaultThemeForCourse(course.id, {
-      courseCode: course.code,
-      courseName: course.name,
-    })
+    const doc = {
+      ...defaultThemeForCourse(course.id, {
+        courseCode: course.code,
+        courseName: course.name,
+      }),
+      published: false,
+    }
     window.sessionStorage.setItem(themeStorageKey(course.id), JSON.stringify(doc))
-    window.sessionStorage.setItem(publishedKey, JSON.stringify(doc))
+    // Drop earlier auto-published seeds so the native GnpsUnitHome returns.
+    window.sessionStorage.removeItem(publishedKey)
   }
   window.sessionStorage.setItem(flag, '1')
+  // Clear legacy seed flags so this migration runs once.
+  window.sessionStorage.removeItem('edtrack-lms-theme-seeded-v2')
+  window.sessionStorage.removeItem('edtrack-lms-theme-seeded-v3')
 }
